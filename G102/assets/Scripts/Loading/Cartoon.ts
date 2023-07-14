@@ -97,12 +97,14 @@ export default class NewClass extends cc.Component {
     onFirstLevel(){//点击漫画的继续按钮，直接进入下一关\
         if(this.is_click==true)
         return;
+        TutorailsManager.getInstance().saveTutorials(200);
+        TutorailsManager.getInstance().saveTutorials(204);
         this.is_click=true;
         FollowManager.getInstance().followEvent(Follow_Type.新手引导+200);
         LevelManager.getInstance().start_level=MapManager.Currentlevel=1;
         GameManager.getInstance().fighting_info=TutorialLevelManager.getInstance().getFightingInfo(LevelManager.getInstance().start_level);
         GameManager.getInstance().cur_game_scene=GameScene.game;
-        TutorailsManager.getInstance().is_finish_game=false;
+        TutorailsManager.getInstance().is_finish_game=true;
         cc.director.loadScene(GameScene.game);
     }
 

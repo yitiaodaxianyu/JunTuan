@@ -112,12 +112,14 @@ var NewClass = /** @class */ (function (_super) {
     NewClass.prototype.onFirstLevel = function () {
         if (this.is_click == true)
             return;
+        TutorailsManager_1.default.getInstance().saveTutorials(200);
+        TutorailsManager_1.default.getInstance().saveTutorials(204);
         this.is_click = true;
         FollowManager_1.default.getInstance().followEvent(FollowConstants_1.Follow_Type.新手引导 + 200);
         LevelManager_1.LevelManager.getInstance().start_level = MapManager_1.default.Currentlevel = 1;
         GameManager_1.default.getInstance().fighting_info = TutorialLevel_1.TutorialLevelManager.getInstance().getFightingInfo(LevelManager_1.LevelManager.getInstance().start_level);
         GameManager_1.default.getInstance().cur_game_scene = Constants_1.GameScene.game;
-        TutorailsManager_1.default.getInstance().is_finish_game = false;
+        TutorailsManager_1.default.getInstance().is_finish_game = true;
         cc.director.loadScene(Constants_1.GameScene.game);
     };
     __decorate([

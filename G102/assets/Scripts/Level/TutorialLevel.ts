@@ -56,12 +56,27 @@ export class TutorialLevelManager {
     }
     //加载json
     private loadJson() {
-        LoadManager.loadJson('TutorialLevel',LoadManager.load_mode,(error: Error, assets:cc.JsonAsset)=> {
+        // LoadManager.loadJson('TutorialLevel',LoadManager.load_mode,(error: Error, assets:cc.JsonAsset)=> {
+        //     if(error){
+        //         console.log(error);
+        //         return;
+        //     }
+        //     console.log('加载JsonTutorialLevel成功');
+        //     this.data=new Map();
+        //     let json=assets.json;
+        //     for(let i=0; i<json.length; i++){
+        //         let jsonData=new JsonTutorialLevel();
+        //         jsonData=json[i];
+        //         this.data.set(jsonData.LevelId,jsonData);
+        //     }
+        //     this.is_load_completed=true;
+        // });
+        LoadManager.loadJson('MissionLevel',LoadManager.load_mode,(error: Error, assets:cc.JsonAsset)=> {
             if(error){
                 console.log(error);
                 return;
             }
-            console.log('加载JsonTutorialLevel成功');
+            console.log('加载JsonMissionLevel成功');
             this.data=new Map();
             let json=assets.json;
             for(let i=0; i<json.length; i++){
@@ -149,7 +164,7 @@ export class TutorialLevelManager {
         
         fightingInfo.title_name=LanguageManager.getInstance().getStrByTextId(130007)+' '+MissionLevelManager.getInstance().getLevelName(level);
         //背景图片名称    
-        let bgIndex=10//(this.getChapter(level)%11);
+        let bgIndex=1//(this.getChapter(level)%11);
         let bgName='bg/bg'+bgIndex;
         fightingInfo.bg_name=bgName;
         fightingInfo.wall_name=bgName+'_wall';
