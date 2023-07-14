@@ -1,0 +1,314 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "pet_upgrade_ui.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Hero_Skill_Level": {
+      "__uuid__": "ac9b496f-742b-4f5d-bf54-4ebade13d722"
+    },
+    "Hero_Type_1": {
+      "__uuid__": "4ad24f4a-918a-41a1-aba3-88bfc8b02b68"
+    },
+    "Hero_Type_2": {
+      "__uuid__": "5a2ebd60-b1c1-4386-a39a-45643c954295"
+    },
+    "Hero_Type_3": {
+      "__uuid__": "c615424f-bf5d-43ac-9b6e-cb4b2c52359c"
+    },
+    "Icon_ZhanLi": {
+      "__uuid__": "61b0ecec-775a-4961-ae17-b30815e20bc0"
+    },
+    "Sprite_10_Skill_1": {
+      "__uuid__": "24a3759e-99f5-4c8b-9c7e-c649e794388a"
+    },
+    "Sprite_10_Skill_2": {
+      "__uuid__": "bf26e67b-d67f-440b-9b63-096a0efe54a6"
+    },
+    "Sprite_11_Skill_1": {
+      "__uuid__": "b10fa3b5-4276-417f-a233-9d16dd4bfa91"
+    },
+    "Sprite_11_Skill_2": {
+      "__uuid__": "eef914e9-c8ef-4129-add9-85a7e052399a"
+    },
+    "Sprite_12_Skill_1": {
+      "__uuid__": "9f30d4e3-4b47-4729-97a4-924513a90c8e"
+    },
+    "Sprite_12_Skill_2": {
+      "__uuid__": "aae072cf-93d5-4479-bc5d-d9de63c488ee"
+    },
+    "Sprite_13_Skill_1": {
+      "__uuid__": "d0e4aab9-ed9f-4412-9351-100d78cb83fc"
+    },
+    "Sprite_13_Skill_2": {
+      "__uuid__": "a8288380-8933-4192-b2a2-2d5d2765ad63"
+    },
+    "Sprite_13_Skill_3": {
+      "__uuid__": "3179f872-c27f-4f0a-bc82-8a89405dc6cb"
+    },
+    "Sprite_13_Skill_4": {
+      "__uuid__": "79b3e312-35a6-464f-ac03-7d404730283b"
+    },
+    "Sprite_14_Skill_1": {
+      "__uuid__": "e2e5994a-91b5-4325-9d99-7270f4c34958"
+    },
+    "Sprite_14_Skill_2": {
+      "__uuid__": "6c515a34-cb07-4f90-858a-f3605f87a520"
+    },
+    "Sprite_14_Skill_3": {
+      "__uuid__": "095bc2db-d4bc-416b-9405-eb56d314c234"
+    },
+    "Sprite_14_Skill_4": {
+      "__uuid__": "ca853d1c-62eb-4a06-8b11-d7aed4c031bd"
+    },
+    "Sprite_15_Skill_1": {
+      "__uuid__": "d6e81812-13cf-427b-8469-61286b8c3c10"
+    },
+    "Sprite_15_Skill_2": {
+      "__uuid__": "48c3261d-31ff-4017-91cf-563fe7c49343"
+    },
+    "Sprite_15_Skill_3": {
+      "__uuid__": "42c3b279-f7d4-4961-873a-8cb871c4fd38"
+    },
+    "Sprite_15_Skill_4": {
+      "__uuid__": "d597994d-da3f-410b-9d19-727cd1747f58"
+    },
+    "Sprite_16_Skill_1": {
+      "__uuid__": "a58771f8-baf2-4168-be06-560aeb161926"
+    },
+    "Sprite_16_Skill_2": {
+      "__uuid__": "e570be63-533d-46f1-a83e-efc92fdd7b6e"
+    },
+    "Sprite_16_Skill_3": {
+      "__uuid__": "bf74f7c5-c840-45bf-8856-7fc73680005e"
+    },
+    "Sprite_16_Skill_4": {
+      "__uuid__": "51617c97-f3c5-4852-8d62-fe6ff72f9b5e"
+    },
+    "Sprite_17_Skill_1": {
+      "__uuid__": "133aeb1b-5d05-4a1b-ba4e-2b0b121433f7"
+    },
+    "Sprite_17_Skill_2": {
+      "__uuid__": "92e73d53-fe02-4c6f-bc10-ebd8a892836e"
+    },
+    "Sprite_17_Skill_3": {
+      "__uuid__": "29151e7c-1855-466f-a0e2-8eeb57b11d7a"
+    },
+    "Sprite_17_Skill_4": {
+      "__uuid__": "0bc4f8a5-7d2b-4e0e-94ed-34511e05f5de"
+    },
+    "Sprite_18_Skill_1": {
+      "__uuid__": "468dd9dc-b800-4f30-9fe1-859bb51f492d"
+    },
+    "Sprite_18_Skill_2": {
+      "__uuid__": "76baae9a-8ba3-4bb5-8009-915949ecd8a2"
+    },
+    "Sprite_18_Skill_3": {
+      "__uuid__": "459a315b-eb11-471c-8cf6-ddba279a9df9"
+    },
+    "Sprite_18_Skill_4": {
+      "__uuid__": "0852035f-7417-4726-a572-e145e9f658bc"
+    },
+    "Sprite_19_Skill_1": {
+      "__uuid__": "08203461-522e-404f-a955-f6b9b0c9cd8f"
+    },
+    "Sprite_19_Skill_2": {
+      "__uuid__": "9acafc8b-07b6-40a9-86e4-6addf7a6d35e"
+    },
+    "Sprite_19_Skill_3": {
+      "__uuid__": "85fca777-3616-4157-8784-ec97270a6c76"
+    },
+    "Sprite_19_Skill_4": {
+      "__uuid__": "3f010dad-51a0-49a7-b660-e05319d33672"
+    },
+    "Sprite_1_Skill_1": {
+      "__uuid__": "b14803a5-e3e4-47d9-a70a-bdaee5e8eef2"
+    },
+    "Sprite_20_Skill_1": {
+      "__uuid__": "d65ec257-f49e-449d-8bb8-927945d78916"
+    },
+    "Sprite_20_Skill_2": {
+      "__uuid__": "fd43811c-2787-4715-a927-3ba100fba1e1"
+    },
+    "Sprite_20_Skill_3": {
+      "__uuid__": "81023074-b54d-4902-a494-8c03cff1c478"
+    },
+    "Sprite_20_Skill_4": {
+      "__uuid__": "ccd9fb92-a398-435a-b1d9-3c4f553ce756"
+    },
+    "Sprite_21_Skill_1": {
+      "__uuid__": "3a98949f-fd10-4ed3-a23e-625a92ca1f39"
+    },
+    "Sprite_21_Skill_2": {
+      "__uuid__": "4c69eb6c-4fbd-4874-a535-987dc7bd49d7"
+    },
+    "Sprite_21_Skill_3": {
+      "__uuid__": "5d7d3627-179d-46df-b8a2-f9f5034bc51d"
+    },
+    "Sprite_21_Skill_4": {
+      "__uuid__": "12d68719-76d9-4dd2-81cd-dedb87bdcd42"
+    },
+    "Sprite_2_Skill_1": {
+      "__uuid__": "446c79db-925b-48f6-89c1-050235d38e8d"
+    },
+    "Sprite_3_Skill_1": {
+      "__uuid__": "2325a797-ed3a-4983-be75-4e2e09fe8f2f"
+    },
+    "Sprite_4_Skill_1": {
+      "__uuid__": "2e048afe-6636-4224-8b67-9cc006ccd020"
+    },
+    "Sprite_5_Skill_1": {
+      "__uuid__": "1f13b6b9-378b-48d5-9adb-391ca2e995fb"
+    },
+    "Sprite_6_Skill_1": {
+      "__uuid__": "73046467-9e87-4646-b640-a0133b314809"
+    },
+    "Sprite_7_Skill_1": {
+      "__uuid__": "6435aa7e-dece-4ad7-acd5-21831f2263b3"
+    },
+    "Sprite_7_Skill_2": {
+      "__uuid__": "4e598479-419c-4874-90f2-0425850a6477"
+    },
+    "Sprite_8_Skill_1": {
+      "__uuid__": "33c68749-7488-4c3f-baf2-d92aac0f59ca"
+    },
+    "Sprite_8_Skill_2": {
+      "__uuid__": "1c829890-e3bb-4ff4-ae09-1f986ecd251a"
+    },
+    "Sprite_9_Skill_1": {
+      "__uuid__": "61bbdb9d-9630-4bd0-b6ff-440e1df88e8b"
+    },
+    "Sprite_9_Skill_2": {
+      "__uuid__": "e254fa57-315b-44e3-8e99-698dc994a14c"
+    },
+    "Sprite_Hero_0": {
+      "__uuid__": "391dc410-1f87-404f-abee-89f7dd60f5c2"
+    },
+    "Sprite_Hero_1": {
+      "__uuid__": "cafd9091-9e3f-4c0b-a41c-6de0dafce43f"
+    },
+    "Sprite_Hero_2": {
+      "__uuid__": "7348746d-b79f-466a-977e-b3e5b7001914"
+    },
+    "Sprite_Hero_3": {
+      "__uuid__": "d29e47cf-7cea-479c-bcc0-fef13276f192"
+    },
+    "Sprite_Hero_4": {
+      "__uuid__": "cf8f516c-2a41-454e-93db-42a04f95f997"
+    },
+    "Sprite_Hero_5": {
+      "__uuid__": "d9e20ecd-aa4a-4c88-8d78-37a39238adba"
+    },
+    "Sprite_Up_Bg_0": {
+      "__uuid__": "db86caa0-901f-43e1-930c-f257cec16eb1"
+    },
+    "Sprite_Up_Bg_1": {
+      "__uuid__": "00a21420-5440-4303-918b-e91f261528ad"
+    },
+    "Sprite_Up_Bg_2": {
+      "__uuid__": "50612dc8-13ef-499c-9228-e02a25c0e633"
+    },
+    "Sprite_Up_Btn_0": {
+      "__uuid__": "28e3d184-01e0-418b-83c4-84c0d05efd39"
+    },
+    "Sprite_Up_Btn_1": {
+      "__uuid__": "dd3bb703-2863-4626-a9fc-d110eadf6a73"
+    },
+    "Sprite_Up_Btn_2": {
+      "__uuid__": "11d8ef03-feb7-4a5e-bc27-b94f91495c89"
+    },
+    "Sprite_Up_Btn_3": {
+      "__uuid__": "273f00d0-d10e-4198-807b-ceee66de332c"
+    },
+    "Sprite_Up_Btn_Tips": {
+      "__uuid__": "ada6ba8e-46cb-4292-9e1d-e7824a4a7d04"
+    },
+    "Sprite_Up_Frame_0": {
+      "__uuid__": "013ad3dd-a2f8-459a-8288-75d5a5857052"
+    },
+    "Sprite_Up_Frame_1": {
+      "__uuid__": "50314883-d768-497d-9f4c-8c10c04904d2"
+    },
+    "Sprite_Up_Frame_2": {
+      "__uuid__": "cd66060a-cf1e-479d-8bad-5f835bbb9206"
+    },
+    "Sprite_Up_Frame_3": {
+      "__uuid__": "47e4687b-7e3d-493b-a2d2-efe622bc8d85"
+    },
+    "Sprite_Up_Icon_0": {
+      "__uuid__": "8cf57beb-2544-475d-b263-9659cd02ae0a"
+    },
+    "Sprite_Up_Icon_1": {
+      "__uuid__": "47670e09-7108-43b0-98ef-ad1cd20f55e7"
+    },
+    "Sprite_Up_Icon_2": {
+      "__uuid__": "f66ae4a7-d71d-451d-9f17-86f12311addd"
+    },
+    "Sprite_Up_Line": {
+      "__uuid__": "7d16899f-62a6-431c-b9d2-84e1e1524c15"
+    },
+    "Sprite_Up_Mask_0": {
+      "__uuid__": "61467678-dc75-4059-bd2f-b15605d42c89"
+    },
+    "Sprite_Up_Mask_1": {
+      "__uuid__": "7ee5698f-a9fa-4260-a4a4-52d72c9788e1"
+    },
+    "Sprite_Up_Mask_2": {
+      "__uuid__": "6c701768-e99e-4f98-8ee9-dd3fb5191909"
+    },
+    "Sprite_Up_Quality_1": {
+      "__uuid__": "e0aaf144-06cb-48d7-88e4-ce9a150bc1cf"
+    },
+    "Sprite_Up_Quality_10": {
+      "__uuid__": "74473f8d-7720-42d5-9f37-14f67cb95ae2"
+    },
+    "Sprite_Up_Quality_2": {
+      "__uuid__": "bbaa86d3-8bd9-4264-8c71-50353cd822b8"
+    },
+    "Sprite_Up_Quality_3": {
+      "__uuid__": "1f215440-be6b-44a7-b191-f0c227cf903a"
+    },
+    "Sprite_Up_Quality_4": {
+      "__uuid__": "df96ed80-b981-457a-ae0e-60c6eb174253"
+    },
+    "Sprite_Up_Quality_5": {
+      "__uuid__": "0cfa1143-5af6-4ef0-831f-1b0e6a3a5aa1"
+    },
+    "Sprite_Up_Quality_6": {
+      "__uuid__": "d7e20ff2-ec6b-43a3-8e1e-c58187f169f1"
+    },
+    "Sprite_Up_Quality_7": {
+      "__uuid__": "40fdbc79-13e7-44a2-b4b9-3dc1c31c580a"
+    },
+    "Sprite_Up_Quality_8": {
+      "__uuid__": "9c7c7349-22bf-4287-868e-9a534f9bfd56"
+    },
+    "Sprite_Up_Quality_9": {
+      "__uuid__": "a081632e-b9d5-4d05-a469-12c01264e267"
+    },
+    "Sprite_Up_Shadow": {
+      "__uuid__": "28938bce-0cde-413a-8c4e-d2fc08bf246c"
+    },
+    "Sprite_Up_SkillBg": {
+      "__uuid__": "fadcf423-5275-4960-9894-33d5530375b0"
+    },
+    "Sprite_Up_Star": {
+      "__uuid__": "43a50656-602d-41fd-99c3-a06a75026240"
+    },
+    "Sprite_Up_Star_1": {
+      "__uuid__": "607a3b6b-995c-4e96-b7ff-f72e6734fa1e"
+    },
+    "Sprite_Up_Star_2": {
+      "__uuid__": "4538b1c3-db1b-4e2d-b37d-9589fb61b368"
+    },
+    "Sprite_Up_Star_3": {
+      "__uuid__": "d2eb08e6-8983-415b-8c47-abeff6e4feb7"
+    },
+    "Sprite_Up_Star_4": {
+      "__uuid__": "6fc1df37-a8bc-42a9-811d-abae7d48cee8"
+    },
+    "Sprite_Up_Star_5": {
+      "__uuid__": "f232e10a-c367-4986-8001-e4135494d291"
+    }
+  }
+}

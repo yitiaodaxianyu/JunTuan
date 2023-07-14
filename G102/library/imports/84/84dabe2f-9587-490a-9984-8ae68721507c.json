@@ -1,0 +1,41 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "accumulated_recharge_ui.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Cumulative_Bar_0": {
+      "__uuid__": "33c3fc13-3a59-4b5c-bf90-19dd92014f01"
+    },
+    "Cumulative_Bar_1": {
+      "__uuid__": "a82e45a0-7a53-4f4d-8a1c-9479f883961e"
+    },
+    "Cumulative_Bg_0": {
+      "__uuid__": "adde6c5f-e0cf-4bcd-aa56-32f46fdef230"
+    },
+    "Cumulative_Bg_1": {
+      "__uuid__": "c6918f19-8b8f-4496-bce3-e63247ddb305"
+    },
+    "Cumulative_Bg_2": {
+      "__uuid__": "65e51212-3ed1-4c91-8ae3-c1958f64dfb6"
+    },
+    "Cumulative_Bg_3": {
+      "__uuid__": "34623420-e38e-43fe-832b-2314b01c6045"
+    },
+    "Cumulative_Bg_4": {
+      "__uuid__": "6c6857e7-a813-49bd-b40c-8ca9d20553f3"
+    },
+    "Cumulative_Bg_Mask": {
+      "__uuid__": "0dbe49d1-3d7c-44fe-b76f-868569a79c02"
+    },
+    "Cumulative_Got": {
+      "__uuid__": "4c7ffcfe-483e-431a-be0c-4171b790ccc3"
+    },
+    "Cumulative_Hero": {
+      "__uuid__": "766dd744-624b-4b2d-a10a-16d85d484268"
+    },
+    "Cumulative_Title_Bg": {
+      "__uuid__": "fc0333ec-bc6c-4231-a49d-bbacc04bd49d"
+    }
+  }
+}

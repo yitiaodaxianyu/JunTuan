@@ -1,0 +1,237 @@
+
+Gunner_End.png
+size: 1916,602
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Gunner_ActiveSkill1_00
+  rotate: false
+  xy: 1812, 498
+  size: 104, 104
+  orig: 145, 145
+  offset: 22, 20
+  index: -1
+end0001
+  rotate: false
+  xy: 0, 0
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+end0002
+  rotate: false
+  xy: 302, 302
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+end0003
+  rotate: false
+  xy: 302, 0
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+end0004
+  rotate: false
+  xy: 604, 302
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+end0005
+  rotate: false
+  xy: 604, 0
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+end0006
+  rotate: false
+  xy: 906, 302
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+end0007
+  rotate: false
+  xy: 1208, 303
+  size: 300, 299
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+end0008
+  rotate: false
+  xy: 1208, 2
+  size: 300, 299
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+end0009
+  rotate: false
+  xy: 1510, 304
+  size: 300, 298
+  orig: 300, 300
+  offset: 0, 1
+  index: -1
+end0010
+  rotate: false
+  xy: 1510, 4
+  size: 300, 298
+  orig: 300, 300
+  offset: 0, 1
+  index: -1
+end0011
+  rotate: false
+  xy: 906, 0
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+end0012
+  rotate: false
+  xy: 0, 302
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+fire_00
+  rotate: false
+  xy: 1812, 64
+  size: 25, 24
+  orig: 40, 40
+  offset: 8, 9
+  index: -1
+fire_01
+  rotate: false
+  xy: 1812, 90
+  size: 26, 27
+  orig: 40, 40
+  offset: 8, 7
+  index: -1
+fire_02
+  rotate: false
+  xy: 1812, 119
+  size: 27, 27
+  orig: 40, 40
+  offset: 7, 7
+  index: -1
+fire_03
+  rotate: false
+  xy: 1812, 148
+  size: 27, 29
+  orig: 40, 40
+  offset: 7, 6
+  index: -1
+fire_04
+  rotate: false
+  xy: 1882, 400
+  size: 29, 30
+  orig: 40, 40
+  offset: 6, 5
+  index: -1
+fire_05
+  rotate: false
+  xy: 1812, 316
+  size: 30, 32
+  orig: 40, 40
+  offset: 6, 4
+  index: -1
+fire_06
+  rotate: false
+  xy: 1812, 350
+  size: 31, 34
+  orig: 40, 40
+  offset: 5, 3
+  index: -1
+fire_07
+  rotate: false
+  xy: 1812, 423
+  size: 33, 35
+  orig: 40, 40
+  offset: 4, 2
+  index: -1
+fire_08
+  rotate: false
+  xy: 1812, 460
+  size: 33, 36
+  orig: 40, 40
+  offset: 4, 1
+  index: -1
+fire_09
+  rotate: false
+  xy: 1847, 461
+  size: 33, 35
+  orig: 40, 40
+  offset: 4, 1
+  index: -1
+fire_10
+  rotate: false
+  xy: 1812, 386
+  size: 33, 35
+  orig: 40, 40
+  offset: 4, 0
+  index: -1
+fire_11
+  rotate: false
+  xy: 1847, 425
+  size: 33, 34
+  orig: 40, 40
+  offset: 4, 0
+  index: -1
+fire_12
+  rotate: false
+  xy: 1882, 464
+  size: 34, 32
+  orig: 40, 40
+  offset: 4, 0
+  index: -1
+fire_13
+  rotate: false
+  xy: 1847, 393
+  size: 33, 30
+  orig: 40, 40
+  offset: 5, 0
+  index: -1
+fire_14
+  rotate: false
+  xy: 1882, 432
+  size: 33, 30
+  orig: 40, 40
+  offset: 5, 0
+  index: -1
+fire_15
+  rotate: true
+  xy: 1812, 281
+  size: 33, 26
+  orig: 40, 40
+  offset: 5, 0
+  index: -1
+fire_16
+  rotate: true
+  xy: 1812, 246
+  size: 33, 23
+  orig: 40, 40
+  offset: 5, 0
+  index: -1
+fire_17
+  rotate: true
+  xy: 1812, 212
+  size: 32, 23
+  orig: 40, 40
+  offset: 5, 0
+  index: -1
+fire_18
+  rotate: true
+  xy: 1812, 179
+  size: 31, 22
+  orig: 40, 40
+  offset: 5, 0
+  index: -1
+fire_19
+  rotate: false
+  xy: 1812, 52
+  size: 16, 10
+  orig: 40, 40
+  offset: 6, 0
+  index: -1

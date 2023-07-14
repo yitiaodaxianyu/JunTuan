@@ -1,0 +1,440 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "HeroTitle",
+  "_objFlags": 0,
+  "_native": "",
+  "json": [
+    {
+      "HeroTitleID": 1000,
+      "HeroID": 1,
+      "HeroStar": 0,
+      "HeroTitleText": 710101
+    },
+    {
+      "HeroTitleID": 1001,
+      "HeroID": 1,
+      "HeroStar": 1,
+      "HeroTitleText": 710101
+    },
+    {
+      "HeroTitleID": 1002,
+      "HeroID": 1,
+      "HeroStar": 2,
+      "HeroTitleText": 710101
+    },
+    {
+      "HeroTitleID": 1003,
+      "HeroID": 1,
+      "HeroStar": 3,
+      "HeroTitleText": 710101
+    },
+    {
+      "HeroTitleID": 1004,
+      "HeroID": 1,
+      "HeroStar": 4,
+      "HeroTitleText": 710101
+    },
+    {
+      "HeroTitleID": 1005,
+      "HeroID": 1,
+      "HeroStar": 5,
+      "HeroTitleText": 710101
+    },
+    {
+      "HeroTitleID": 2000,
+      "HeroID": 2,
+      "HeroStar": 0,
+      "HeroTitleText": 710201
+    },
+    {
+      "HeroTitleID": 2001,
+      "HeroID": 2,
+      "HeroStar": 1,
+      "HeroTitleText": 710201
+    },
+    {
+      "HeroTitleID": 2002,
+      "HeroID": 2,
+      "HeroStar": 2,
+      "HeroTitleText": 710201
+    },
+    {
+      "HeroTitleID": 2003,
+      "HeroID": 2,
+      "HeroStar": 3,
+      "HeroTitleText": 710201
+    },
+    {
+      "HeroTitleID": 2004,
+      "HeroID": 2,
+      "HeroStar": 4,
+      "HeroTitleText": 710201
+    },
+    {
+      "HeroTitleID": 2005,
+      "HeroID": 2,
+      "HeroStar": 5,
+      "HeroTitleText": 710201
+    },
+    {
+      "HeroTitleID": 3000,
+      "HeroID": 3,
+      "HeroStar": 0,
+      "HeroTitleText": 710301
+    },
+    {
+      "HeroTitleID": 3001,
+      "HeroID": 3,
+      "HeroStar": 1,
+      "HeroTitleText": 710301
+    },
+    {
+      "HeroTitleID": 3002,
+      "HeroID": 3,
+      "HeroStar": 2,
+      "HeroTitleText": 710301
+    },
+    {
+      "HeroTitleID": 3003,
+      "HeroID": 3,
+      "HeroStar": 3,
+      "HeroTitleText": 710301
+    },
+    {
+      "HeroTitleID": 3004,
+      "HeroID": 3,
+      "HeroStar": 4,
+      "HeroTitleText": 710301
+    },
+    {
+      "HeroTitleID": 3005,
+      "HeroID": 3,
+      "HeroStar": 5,
+      "HeroTitleText": 710301
+    },
+    {
+      "HeroTitleID": 4000,
+      "HeroID": 4,
+      "HeroStar": 0,
+      "HeroTitleText": 710401
+    },
+    {
+      "HeroTitleID": 4001,
+      "HeroID": 4,
+      "HeroStar": 1,
+      "HeroTitleText": 710401
+    },
+    {
+      "HeroTitleID": 4002,
+      "HeroID": 4,
+      "HeroStar": 2,
+      "HeroTitleText": 710401
+    },
+    {
+      "HeroTitleID": 4003,
+      "HeroID": 4,
+      "HeroStar": 3,
+      "HeroTitleText": 710401
+    },
+    {
+      "HeroTitleID": 4004,
+      "HeroID": 4,
+      "HeroStar": 4,
+      "HeroTitleText": 710401
+    },
+    {
+      "HeroTitleID": 4005,
+      "HeroID": 4,
+      "HeroStar": 5,
+      "HeroTitleText": 710401
+    },
+    {
+      "HeroTitleID": 5000,
+      "HeroID": 5,
+      "HeroStar": 0,
+      "HeroTitleText": 710501
+    },
+    {
+      "HeroTitleID": 5001,
+      "HeroID": 5,
+      "HeroStar": 1,
+      "HeroTitleText": 710501
+    },
+    {
+      "HeroTitleID": 5002,
+      "HeroID": 5,
+      "HeroStar": 2,
+      "HeroTitleText": 710501
+    },
+    {
+      "HeroTitleID": 5003,
+      "HeroID": 5,
+      "HeroStar": 3,
+      "HeroTitleText": 710501
+    },
+    {
+      "HeroTitleID": 5004,
+      "HeroID": 5,
+      "HeroStar": 4,
+      "HeroTitleText": 710501
+    },
+    {
+      "HeroTitleID": 5005,
+      "HeroID": 5,
+      "HeroStar": 5,
+      "HeroTitleText": 710501
+    },
+    {
+      "HeroTitleID": 6000,
+      "HeroID": 6,
+      "HeroStar": 0,
+      "HeroTitleText": 710601
+    },
+    {
+      "HeroTitleID": 6001,
+      "HeroID": 6,
+      "HeroStar": 1,
+      "HeroTitleText": 710601
+    },
+    {
+      "HeroTitleID": 6002,
+      "HeroID": 6,
+      "HeroStar": 2,
+      "HeroTitleText": 710601
+    },
+    {
+      "HeroTitleID": 6003,
+      "HeroID": 6,
+      "HeroStar": 3,
+      "HeroTitleText": 710601
+    },
+    {
+      "HeroTitleID": 6004,
+      "HeroID": 6,
+      "HeroStar": 4,
+      "HeroTitleText": 710601
+    },
+    {
+      "HeroTitleID": 6005,
+      "HeroID": 6,
+      "HeroStar": 5,
+      "HeroTitleText": 710601
+    },
+    {
+      "HeroTitleID": 7000,
+      "HeroID": 7,
+      "HeroStar": 0,
+      "HeroTitleText": 710701
+    },
+    {
+      "HeroTitleID": 7001,
+      "HeroID": 7,
+      "HeroStar": 1,
+      "HeroTitleText": 710701
+    },
+    {
+      "HeroTitleID": 7002,
+      "HeroID": 7,
+      "HeroStar": 2,
+      "HeroTitleText": 710701
+    },
+    {
+      "HeroTitleID": 7003,
+      "HeroID": 7,
+      "HeroStar": 3,
+      "HeroTitleText": 710701
+    },
+    {
+      "HeroTitleID": 7004,
+      "HeroID": 7,
+      "HeroStar": 4,
+      "HeroTitleText": 710701
+    },
+    {
+      "HeroTitleID": 7005,
+      "HeroID": 7,
+      "HeroStar": 5,
+      "HeroTitleText": 710701
+    },
+    {
+      "HeroTitleID": 8000,
+      "HeroID": 8,
+      "HeroStar": 0,
+      "HeroTitleText": 710801
+    },
+    {
+      "HeroTitleID": 8001,
+      "HeroID": 8,
+      "HeroStar": 1,
+      "HeroTitleText": 710801
+    },
+    {
+      "HeroTitleID": 8002,
+      "HeroID": 8,
+      "HeroStar": 2,
+      "HeroTitleText": 710801
+    },
+    {
+      "HeroTitleID": 8003,
+      "HeroID": 8,
+      "HeroStar": 3,
+      "HeroTitleText": 710801
+    },
+    {
+      "HeroTitleID": 8004,
+      "HeroID": 8,
+      "HeroStar": 4,
+      "HeroTitleText": 710801
+    },
+    {
+      "HeroTitleID": 8005,
+      "HeroID": 8,
+      "HeroStar": 5,
+      "HeroTitleText": 710801
+    },
+    {
+      "HeroTitleID": 9000,
+      "HeroID": 9,
+      "HeroStar": 0,
+      "HeroTitleText": 710901
+    },
+    {
+      "HeroTitleID": 9001,
+      "HeroID": 9,
+      "HeroStar": 1,
+      "HeroTitleText": 710901
+    },
+    {
+      "HeroTitleID": 9002,
+      "HeroID": 9,
+      "HeroStar": 2,
+      "HeroTitleText": 710901
+    },
+    {
+      "HeroTitleID": 9003,
+      "HeroID": 9,
+      "HeroStar": 3,
+      "HeroTitleText": 710901
+    },
+    {
+      "HeroTitleID": 9004,
+      "HeroID": 9,
+      "HeroStar": 4,
+      "HeroTitleText": 710901
+    },
+    {
+      "HeroTitleID": 9005,
+      "HeroID": 9,
+      "HeroStar": 5,
+      "HeroTitleText": 710901
+    },
+    {
+      "HeroTitleID": 10000,
+      "HeroID": 10,
+      "HeroStar": 0,
+      "HeroTitleText": 711001
+    },
+    {
+      "HeroTitleID": 10001,
+      "HeroID": 10,
+      "HeroStar": 1,
+      "HeroTitleText": 711001
+    },
+    {
+      "HeroTitleID": 10002,
+      "HeroID": 10,
+      "HeroStar": 2,
+      "HeroTitleText": 711001
+    },
+    {
+      "HeroTitleID": 10003,
+      "HeroID": 10,
+      "HeroStar": 3,
+      "HeroTitleText": 711001
+    },
+    {
+      "HeroTitleID": 10004,
+      "HeroID": 10,
+      "HeroStar": 4,
+      "HeroTitleText": 711001
+    },
+    {
+      "HeroTitleID": 10005,
+      "HeroID": 10,
+      "HeroStar": 5,
+      "HeroTitleText": 711001
+    },
+    {
+      "HeroTitleID": 11000,
+      "HeroID": 11,
+      "HeroStar": 0,
+      "HeroTitleText": 711101
+    },
+    {
+      "HeroTitleID": 11001,
+      "HeroID": 11,
+      "HeroStar": 1,
+      "HeroTitleText": 711101
+    },
+    {
+      "HeroTitleID": 11002,
+      "HeroID": 11,
+      "HeroStar": 2,
+      "HeroTitleText": 711101
+    },
+    {
+      "HeroTitleID": 11003,
+      "HeroID": 11,
+      "HeroStar": 3,
+      "HeroTitleText": 711101
+    },
+    {
+      "HeroTitleID": 11004,
+      "HeroID": 11,
+      "HeroStar": 4,
+      "HeroTitleText": 711101
+    },
+    {
+      "HeroTitleID": 11005,
+      "HeroID": 11,
+      "HeroStar": 5,
+      "HeroTitleText": 711101
+    },
+    {
+      "HeroTitleID": 12000,
+      "HeroID": 12,
+      "HeroStar": 0,
+      "HeroTitleText": 711201
+    },
+    {
+      "HeroTitleID": 12001,
+      "HeroID": 12,
+      "HeroStar": 1,
+      "HeroTitleText": 711201
+    },
+    {
+      "HeroTitleID": 12002,
+      "HeroID": 12,
+      "HeroStar": 2,
+      "HeroTitleText": 711201
+    },
+    {
+      "HeroTitleID": 12003,
+      "HeroID": 12,
+      "HeroStar": 3,
+      "HeroTitleText": 711201
+    },
+    {
+      "HeroTitleID": 12004,
+      "HeroID": 12,
+      "HeroStar": 4,
+      "HeroTitleText": 711201
+    },
+    {
+      "HeroTitleID": 12005,
+      "HeroID": 12,
+      "HeroStar": 5,
+      "HeroTitleText": 711201
+    }
+  ]
+}

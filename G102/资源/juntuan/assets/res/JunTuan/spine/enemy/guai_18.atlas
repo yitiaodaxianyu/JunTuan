@@ -1,0 +1,97 @@
+
+guai_18.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 112
+  size: 101, 61
+  orig: 101, 61
+  offset: 0, 0
+  index: -1
+eye
+  rotate: false
+  xy: 127, 217
+  size: 62, 35
+  orig: 62, 35
+  offset: 0, 0
+  index: -1
+lgebo
+  rotate: false
+  xy: 2, 77
+  size: 47, 33
+  orig: 47, 33
+  offset: 0, 0
+  index: -1
+lshou1
+  rotate: true
+  xy: 51, 79
+  size: 31, 48
+  orig: 31, 48
+  offset: 0, 0
+  index: -1
+lshou2
+  rotate: true
+  xy: 2, 2
+  size: 26, 46
+  orig: 26, 46
+  offset: 0, 0
+  index: -1
+ltui1
+  rotate: true
+  xy: 127, 178
+  size: 37, 43
+  orig: 37, 43
+  offset: 0, 0
+  index: -1
+ltui2
+  rotate: false
+  xy: 172, 185
+  size: 25, 30
+  orig: 25, 30
+  offset: 0, 0
+  index: -1
+rgebo
+  rotate: false
+  xy: 191, 219
+  size: 47, 33
+  orig: 47, 33
+  offset: 0, 0
+  index: -1
+rshou1
+  rotate: false
+  xy: 105, 125
+  size: 31, 48
+  orig: 31, 48
+  offset: 0, 0
+  index: -1
+rshou2
+  rotate: false
+  xy: 138, 130
+  size: 26, 46
+  orig: 26, 46
+  offset: 0, 0
+  index: -1
+rtui1
+  rotate: false
+  xy: 2, 30
+  size: 35, 45
+  orig: 35, 45
+  offset: 0, 0
+  index: -1
+rtui2
+  rotate: false
+  xy: 199, 187
+  size: 23, 30
+  orig: 23, 30
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 2, 175
+  size: 123, 77
+  orig: 123, 77
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Void_CN",
+    "texture": "576db30d-3829-4582-9c08-931b26ad4abe",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      506,
+      60
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      506,
+      60
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

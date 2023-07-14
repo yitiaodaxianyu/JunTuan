@@ -1,0 +1,32 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "shou_wang.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "BeastMaster_Hit_01": {
+      "__uuid__": "15924e86-f96b-467d-aaae-7247ea43b907"
+    },
+    "BeastMaster_Hit_02": {
+      "__uuid__": "6599f503-58f7-488c-90cd-2387c8d30710"
+    },
+    "BeastMaster_Hit_03": {
+      "__uuid__": "f0ace1c3-d492-42c2-9c37-10e859a497bf"
+    },
+    "BeastMaster_Hit_04": {
+      "__uuid__": "b0e23ec1-a519-4670-a4cf-5cc9edd30ae8"
+    },
+    "BeastMaster_Hit_05": {
+      "__uuid__": "f4ba1ace-c8c4-4ff6-a900-0b226666abb8"
+    },
+    "BeastMaster_Hit_06": {
+      "__uuid__": "586d1178-1b60-4c89-8f36-95db619c3987"
+    },
+    "BeastMaster_Jian": {
+      "__uuid__": "d2189ea0-0170-4c6a-b10d-1942b30b61c2"
+    },
+    "Jian": {
+      "__uuid__": "e4b0116d-0a0f-486e-aa06-ce45e72c9b30"
+    }
+  }
+}

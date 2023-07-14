@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Boss14_Attack",
+    "texture": "56f2a26b-fa30-4287-bfce-55854d5eccd8",
+    "atlas": "42609285-effe-470d-9fcb-1eb3c142a75d",
+    "rect": [
+      92,
+      2000,
+      39,
+      71
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      39,
+      71
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

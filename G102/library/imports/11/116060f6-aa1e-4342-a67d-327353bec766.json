@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "FX_Burn_10",
+    "texture": "cd27942d-bb1b-4cfc-a662-0b9dea217108",
+    "atlas": "7dd9e47d-cd93-4798-8829-666f3d8f7b66",
+    "rect": [
+      1104,
+      908,
+      122,
+      120
+    ],
+    "offset": [
+      2,
+      -15
+    ],
+    "originalSize": [
+      150,
+      150
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Boss13_AttackHit_02",
+    "texture": "499f4ea0-ee2e-4453-89b9-58d636f09472",
+    "atlas": "06b41c8c-8603-4a9e-ac6f-c72c008075d5",
+    "rect": [
+      818,
+      534,
+      142,
+      116
+    ],
+    "offset": [
+      -5,
+      -3
+    ],
+    "originalSize": [
+      200,
+      200
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

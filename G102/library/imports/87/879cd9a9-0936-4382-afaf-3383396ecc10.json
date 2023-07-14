@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Anubisi_PassiveHit_08",
+    "texture": "6a1ebab8-98ee-474d-a733-defad466e062",
+    "atlas": "e26fee14-6351-44a3-b274-9c9367c4f58d",
+    "rect": [
+      1581,
+      352,
+      84,
+      89
+    ],
+    "offset": [
+      3,
+      13
+    ],
+    "originalSize": [
+      90,
+      115
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

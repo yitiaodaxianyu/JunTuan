@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Archer_PassiveSkill",
+    "texture": "77a0f834-3a33-40c1-827a-0c0813288137",
+    "atlas": "6802ec01-aa44-4b1b-ac9a-03ebd9a3499f",
+    "rect": [
+      470,
+      44,
+      24,
+      141
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      30,
+      145
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

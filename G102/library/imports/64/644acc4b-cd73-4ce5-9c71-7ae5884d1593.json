@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "FX_Wall_LvUp_8",
+    "texture": "3273ba1c-0cfe-413f-965d-094c20420b24",
+    "atlas": "024a8aa8-ace7-4a22-859c-9a5377f5b753",
+    "rect": [
+      870,
+      364,
+      388,
+      382
+    ],
+    "offset": [
+      -2,
+      -15
+    ],
+    "originalSize": [
+      524,
+      422
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "JSTC_icon_DaCha",
+    "texture": "58ca313a-dd33-4f8b-a20b-b242e5afc644",
+    "atlas": "63314aa7-d807-4875-8f73-21a49f85c9f9",
+    "rect": [
+      81,
+      457,
+      37,
+      37
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      37,
+      37
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

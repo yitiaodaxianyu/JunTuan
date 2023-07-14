@@ -1,0 +1,164 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "lei_shen.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Thor_AttackHit_00": {
+      "__uuid__": "f751eb59-2062-411c-8800-a6e8bf8183a9"
+    },
+    "Thor_AttackHit_01": {
+      "__uuid__": "9c23f523-b6b2-4d7a-8daa-146de45fe89e"
+    },
+    "Thor_AttackHit_02": {
+      "__uuid__": "02f2ace8-1da6-48ed-b15a-482da971aefc"
+    },
+    "Thor_AttackHit_03": {
+      "__uuid__": "89045f49-f030-4450-923c-c33fa240024c"
+    },
+    "Thor_AttackHit_04": {
+      "__uuid__": "d1e060ad-baa4-4caf-a355-f8de247ad957"
+    },
+    "Thor_AttackHit_05": {
+      "__uuid__": "55d2acf5-8877-496e-9196-3c100327b366"
+    },
+    "Thor_AttackHit_06": {
+      "__uuid__": "35cb9655-0c65-4ab3-918c-75d89d4c3dae"
+    },
+    "Thor_AttackHit_07": {
+      "__uuid__": "4fd07e3b-a84d-452a-a2dc-85c81161a8ec"
+    },
+    "Thor_AttackHit_08": {
+      "__uuid__": "28d1a1b9-190b-4187-9096-1ec7bd6b6b76"
+    },
+    "Thor_Passive1_00": {
+      "__uuid__": "3e644d51-20e2-4e51-9fb6-177cd4923915"
+    },
+    "Thor_Passive1_01": {
+      "__uuid__": "9b104825-840b-41ee-8a8e-bee7aaeb0ea4"
+    },
+    "Thor_Passive1_02": {
+      "__uuid__": "5894f21c-c922-4f74-9988-36bde83242b7"
+    },
+    "Thor_Passive1_03": {
+      "__uuid__": "b60f90d3-4982-40c6-8874-2dcaaa1ca093"
+    },
+    "Thor_Passive1_04": {
+      "__uuid__": "1ac613e1-8a88-46e6-a55d-e15c6ccbcc8a"
+    },
+    "Thor_Passive1_05": {
+      "__uuid__": "eb63a751-a0c3-4148-8a5f-571eb00f1951"
+    },
+    "Thor_Passive1_06": {
+      "__uuid__": "67524bb8-7cef-4a2f-bdb2-b3e657031126"
+    },
+    "Thor_Passive1_07": {
+      "__uuid__": "27bb1a11-93dd-43fd-90b2-c6609e66761f"
+    },
+    "Thor_Passive1_08": {
+      "__uuid__": "7c08edb1-3eec-463d-807f-cb2d3702ff62"
+    },
+    "Thor_Passive1_09": {
+      "__uuid__": "b60526f7-89ec-4fba-bcf8-0e84078d7991"
+    },
+    "Thor_Passive1_10": {
+      "__uuid__": "86ed1508-c4e6-4630-959d-6eeb91cb73a2"
+    },
+    "Thor_Passive2_00": {
+      "__uuid__": "69ca758c-d20c-46fd-8782-5a6c7f40dbd4"
+    },
+    "Thor_Passive2_01": {
+      "__uuid__": "c6e0ef0f-7fd6-48b7-adfe-450fa87d8804"
+    },
+    "Thor_Passive2_02": {
+      "__uuid__": "27bb416a-3fb6-4d3e-9637-f46395c79dbf"
+    },
+    "Thor_Passive2_03": {
+      "__uuid__": "d52a25a6-cbcd-48fc-a2d7-c00619f78593"
+    },
+    "Thor_Passive2_04": {
+      "__uuid__": "db7a418d-0b0f-469e-99ca-e77a58457b8a"
+    },
+    "Thor_Passive2_05": {
+      "__uuid__": "871270ee-18b4-40ae-ae5b-f8dffb606ed6"
+    },
+    "Thor_Passive2_06": {
+      "__uuid__": "d72bacde-4981-4ff5-8d58-9ce675482de4"
+    },
+    "Thor_Skill1_1_00": {
+      "__uuid__": "9dd00260-7314-43d7-87ba-2c9d1921f48e"
+    },
+    "Thor_Skill1_1_01": {
+      "__uuid__": "03d6f5ea-f95c-49eb-b9d6-4d95738b577c"
+    },
+    "Thor_Skill1_1_02": {
+      "__uuid__": "77755682-d3c8-4826-a275-c126e2d3f686"
+    },
+    "Thor_Skill1_1_03": {
+      "__uuid__": "9cb9dd19-d0f9-42d2-80a9-a91cf24fc4b2"
+    },
+    "Thor_Skill1_1_04": {
+      "__uuid__": "11193ced-2992-49c9-9710-135d4d5d13d8"
+    },
+    "Thor_Skill1_1_05": {
+      "__uuid__": "b2262a42-9218-419a-84cd-7c13db3b146e"
+    },
+    "Thor_Skill1_1_06": {
+      "__uuid__": "3ffd9cf1-d2ec-4f32-8eba-c38ee0011a58"
+    },
+    "Thor_Skill1_1_07": {
+      "__uuid__": "51403c7c-551b-43ae-a94d-3a07de15c6ae"
+    },
+    "Thor_Skill1_1_08": {
+      "__uuid__": "d770e08c-eaa8-48b6-a277-dd7adb832aae"
+    },
+    "Thor_Skill1_1_09": {
+      "__uuid__": "993503ae-9f3b-4e55-9ebb-55d93f50599a"
+    },
+    "Thor_Skill1_1_10": {
+      "__uuid__": "5fe69dd2-1f4b-4d68-adca-2c930ad72e25"
+    },
+    "Thor_Skill1_1_11": {
+      "__uuid__": "ca999f4d-11fa-44d4-bad3-33e83db3b0c2"
+    },
+    "Thor_Skill1_1_12": {
+      "__uuid__": "54f8f695-ad04-41ec-8916-3368a19f56cc"
+    },
+    "Thor_Skill1_1_13": {
+      "__uuid__": "944291eb-ba10-4ede-bbb7-abf202636729"
+    },
+    "Thor_Skill1_1_14": {
+      "__uuid__": "36c2670d-8ec5-4cac-b7a2-db27f75769a9"
+    },
+    "Thor_Skill1_1_15": {
+      "__uuid__": "011e6d7f-91a0-43ae-8775-3b59428a1bf7"
+    },
+    "Thor_Skill1_2_00": {
+      "__uuid__": "2470240b-9284-4bf5-ba59-40c96cca04fb"
+    },
+    "Thor_Skill1_2_01": {
+      "__uuid__": "64836068-87ba-4c11-a67a-c99c1f0e2058"
+    },
+    "Thor_Skill1_2_02": {
+      "__uuid__": "68c3c5a8-96d9-45cb-ae98-025e6fe69563"
+    },
+    "Thor_Skill1_2_03": {
+      "__uuid__": "a614d597-d376-4b6c-876d-d0cc43aa112c"
+    },
+    "Thor_Skill1_2_04": {
+      "__uuid__": "a3da1722-ed6c-4849-ac05-89602891f66b"
+    },
+    "Thor_Skill1_2_05": {
+      "__uuid__": "f421ace7-73f5-457a-88d9-a672c0fbce73"
+    },
+    "Thor_Skill1_2_06": {
+      "__uuid__": "453d24ad-5b6f-4c01-98b7-098d4a27dde6"
+    },
+    "Thor_Skill1_2_07": {
+      "__uuid__": "d016e593-c9ed-4e01-916c-fcef4d0487e7"
+    },
+    "Thor_Skill1_2_08": {
+      "__uuid__": "111fe38d-6b6a-4b10-92fe-a38216de748d"
+    }
+  }
+}

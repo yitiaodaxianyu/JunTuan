@@ -1,0 +1,118 @@
+
+Archer_Side.png
+size: 341, 287
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+bu
+  rotate: false
+  xy: 213, 147
+  size: 43, 36
+  orig: 43, 36
+  offset: 0, 0
+  index: -1
+gong
+  rotate: false
+  xy: 2, 129
+  size: 126, 156
+  orig: 126, 156
+  offset: 0, 0
+  index: -1
+jian
+  rotate: true
+  xy: 176, 61
+  size: 80, 75
+  orig: 80, 75
+  offset: 0, 0
+  index: -1
+jianbang
+  rotate: false
+  xy: 253, 78
+  size: 75, 67
+  orig: 75, 67
+  offset: 0, 0
+  index: -1
+jianshi
+  rotate: true
+  xy: 95, 2
+  size: 125, 79
+  orig: 126, 79
+  offset: 0, 0
+  index: -1
+tou
+  rotate: true
+  xy: 2, 9
+  size: 118, 91
+  orig: 118, 91
+  offset: 0, 0
+  index: -1
+xiong
+  rotate: false
+  xy: 130, 185
+  size: 95, 100
+  orig: 95, 100
+  offset: 0, 0
+  index: -1
+youdatui
+  rotate: true
+  xy: 303, 215
+  size: 28, 36
+  orig: 28, 36
+  offset: 0, 0
+  index: -1
+youqianbi
+  rotate: false
+  xy: 253, 7
+  size: 68, 69
+  orig: 68, 69
+  offset: 0, 0
+  index: -1
+youshangbi
+  rotate: true
+  xy: 258, 147
+  size: 62, 81
+  orig: 62, 81
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: true
+  xy: 130, 140
+  size: 43, 39
+  orig: 43, 39
+  offset: 0, 0
+  index: -1
+youxiaotui
+  rotate: true
+  xy: 212, 26
+  size: 33, 36
+  orig: 33, 36
+  offset: 0, 0
+  index: -1
+zuodatui
+  rotate: false
+  xy: 171, 143
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+zuoqianbi
+  rotate: false
+  xy: 227, 211
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: false
+  xy: 303, 245
+  size: 36, 40
+  orig: 36, 42
+  offset: 0, 2
+  index: -1
+zuoxiaotui
+  rotate: false
+  xy: 176, 22
+  size: 34, 37
+  orig: 34, 37
+  offset: 0, 0
+  index: -1

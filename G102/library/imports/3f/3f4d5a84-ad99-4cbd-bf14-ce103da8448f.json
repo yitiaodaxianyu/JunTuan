@@ -1,0 +1,56 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "RogueGiftInformation",
+  "_objFlags": 0,
+  "_native": "",
+  "json": [
+    {
+      "ChapterLevel": 1,
+      "PropID_1": 60001,
+      "PropID_2": 20008,
+      "PropID_3": 90002
+    },
+    {
+      "ChapterLevel": 2,
+      "PropID_1": 60001,
+      "PropID_2": 20009,
+      "PropID_3": 90002
+    },
+    {
+      "ChapterLevel": 3,
+      "PropID_1": 60001,
+      "PropID_2": 20010,
+      "PropID_3": 90002
+    },
+    {
+      "ChapterLevel": 4,
+      "PropID_1": 60001,
+      "PropID_2": 20011,
+      "PropID_3": 90002
+    },
+    {
+      "ChapterLevel": 5,
+      "PropID_1": 60001,
+      "PropID_2": 20012,
+      "PropID_3": 90002
+    },
+    {
+      "ChapterLevel": 6,
+      "PropID_1": 60001,
+      "PropID_2": 20012,
+      "PropID_3": 90002
+    },
+    {
+      "ChapterLevel": 7,
+      "PropID_1": 60001,
+      "PropID_2": 20012,
+      "PropID_3": 90002
+    },
+    {
+      "ChapterLevel": 8,
+      "PropID_1": 60001,
+      "PropID_2": 20012,
+      "PropID_3": 90002
+    }
+  ]
+}

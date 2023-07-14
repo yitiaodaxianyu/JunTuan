@@ -1,0 +1,558 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "ChouKa",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "nCUq2kxPWEX0Y1ZBoJ0VkSRDrPU",
+      "spine": "3.8.99",
+      "x": -300,
+      "y": -300,
+      "width": 600,
+      "height": 600,
+      "images": "./images/",
+      "audio": ""
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "zong",
+        "parent": "root"
+      },
+      {
+        "name": "MagicArray",
+        "parent": "zong"
+      },
+      {
+        "name": "ring 1",
+        "parent": "zong"
+      },
+      {
+        "name": "Light",
+        "parent": "zong"
+      },
+      {
+        "name": "glow",
+        "parent": "zong"
+      },
+      {
+        "name": "star1",
+        "parent": "zong"
+      },
+      {
+        "name": "star2",
+        "parent": "zong"
+      },
+      {
+        "name": "MagicArray2",
+        "parent": "zong"
+      },
+      {
+        "name": "star3",
+        "parent": "zong"
+      }
+    ],
+    "slots": [
+      {
+        "name": "MagicArray2",
+        "bone": "MagicArray2",
+        "attachment": "MagicArray"
+      },
+      {
+        "name": "MagicArray",
+        "bone": "MagicArray",
+        "attachment": "MagicArray",
+        "blend": "additive"
+      },
+      {
+        "name": "Light",
+        "bone": "Light"
+      },
+      {
+        "name": "glow",
+        "bone": "glow",
+        "blend": "additive"
+      },
+      {
+        "name": "ring 1",
+        "bone": "ring 1"
+      },
+      {
+        "name": "star1",
+        "bone": "star1",
+        "blend": "additive"
+      },
+      {
+        "name": "star3",
+        "bone": "star3",
+        "blend": "additive"
+      },
+      {
+        "name": "star2",
+        "bone": "star2"
+      }
+    ],
+    "skins": [
+      {
+        "name": "default",
+        "attachments": {
+          "Light": {
+            "Light": {
+              "width": 500,
+              "height": 500
+            }
+          },
+          "MagicArray": {
+            "MagicArray": {
+              "width": 600,
+              "height": 600
+            }
+          },
+          "MagicArray2": {
+            "MagicArray": {
+              "width": 600,
+              "height": 600
+            }
+          },
+          "glow": {
+            "glow": {
+              "width": 512,
+              "height": 512
+            }
+          },
+          "ring 1": {
+            "ring 1": {
+              "width": 512,
+              "height": 512
+            }
+          },
+          "star1": {
+            "star1": {
+              "rotation": -44.4,
+              "width": 256,
+              "height": 256
+            }
+          },
+          "star2": {
+            "star2": {
+              "width": 100,
+              "height": 100
+            }
+          },
+          "star3": {
+            "star1": {
+              "rotation": -44.4,
+              "width": 256,
+              "height": 256
+            }
+          }
+        }
+      }
+    ],
+    "events": {
+      "BaoGuang": {}
+    },
+    "animations": {
+      "BaoGuang": {
+        "slots": {
+          "Light": {
+            "color": [
+              {
+                "time": 0.3333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "name": "Light"
+              }
+            ]
+          },
+          "MagicArray": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "MagicArray2": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "glow": {
+            "color": [
+              {
+                "color": "00c1ffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6667,
+                "color": "00c1ffff"
+              },
+              {
+                "time": 1,
+                "color": "00c0ff00"
+              }
+            ],
+            "attachment": [
+              {
+                "name": "glow"
+              }
+            ]
+          },
+          "ring 1": {
+            "color": [
+              {
+                "time": 0.3333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0.1,
+                "name": "ring 1"
+              }
+            ]
+          },
+          "star1": {
+            "color": [
+              {
+                "time": 1,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.3333,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0.3333,
+                "name": "star1"
+              }
+            ]
+          },
+          "star3": {
+            "color": [
+              {
+                "time": 1,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.3333,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0.3333,
+                "name": "star1"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "Light": {
+            "scale": [
+              {
+                "x": 0.123,
+                "y": 0.123
+              },
+              {
+                "time": 0.1667,
+                "x": 2.331,
+                "y": 2.331
+              },
+              {
+                "time": 0.3333,
+                "x": 2.806,
+                "y": 2.806
+              },
+              {
+                "time": 0.5,
+                "x": 4.417,
+                "y": 4.417
+              },
+              {
+                "time": 0.6667,
+                "x": 2.806,
+                "y": 2.806
+              }
+            ]
+          },
+          "glow": {
+            "scale": [
+              {
+                "x": 0.205,
+                "y": 0.205
+              },
+              {
+                "time": 0.3333,
+                "x": 7.35,
+                "y": 7.35
+              },
+              {
+                "time": 0.6667,
+                "x": 3.302,
+                "y": 3.302
+              }
+            ]
+          },
+          "ring 1": {
+            "scale": [
+              {
+                "time": 0.1,
+                "x": 0.103,
+                "y": 0.103
+              },
+              {
+                "time": 0.6667,
+                "x": 2.682,
+                "y": 2.682
+              }
+            ]
+          },
+          "star1": {
+            "translate": [
+              {
+                "time": 0.3333,
+                "y": -283.37
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.3333,
+                "x": 0.566,
+                "y": 0.164
+              },
+              {
+                "time": 1,
+                "x": 1.865,
+                "y": 0.197
+              },
+              {
+                "time": 1.3333,
+                "x": 1.865,
+                "y": 0.079
+              }
+            ],
+            "shear": [
+              {
+                "time": 0.3333,
+                "y": -11.74,
+                "curve": "stepped"
+              },
+              {
+                "time": 1,
+                "y": -11.74
+              },
+              {
+                "time": 1.3333,
+                "y": -32.96
+              }
+            ]
+          },
+          "star3": {
+            "translate": [
+              {
+                "time": 0.3333,
+                "x": 0.97,
+                "y": 246.42
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.3333,
+                "x": 0.703,
+                "y": 0.197
+              },
+              {
+                "time": 1,
+                "x": 1.865,
+                "y": 0.197
+              },
+              {
+                "time": 1.3333,
+                "x": 1.865,
+                "y": 0.079
+              }
+            ],
+            "shear": [
+              {
+                "time": 0.3333,
+                "y": -11.74,
+                "curve": "stepped"
+              },
+              {
+                "time": 1,
+                "y": -11.74
+              },
+              {
+                "time": 1.3333,
+                "y": -32.96
+              }
+            ]
+          }
+        }
+      },
+      "MoFaZhen": {
+        "slots": {
+          "MagicArray": {
+            "color": [
+              {
+                "time": 0.1667,
+                "color": "ffffff2c",
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.5,
+                "color": "ffffff1d"
+              }
+            ],
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.1667,
+                "name": "MagicArray"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "MagicArray": {
+            "rotate": [
+              {
+                "time": 0.3333
+              },
+              {
+                "time": 0.6667,
+                "angle": 90
+              },
+              {
+                "time": 1,
+                "angle": 180
+              },
+              {
+                "time": 1.3333,
+                "angle": -90
+              },
+              {
+                "time": 1.6667
+              },
+              {
+                "time": 2,
+                "angle": 90
+              },
+              {
+                "time": 2.3333,
+                "angle": 180
+              },
+              {
+                "time": 2.6667,
+                "angle": -90
+              },
+              {
+                "time": 3
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.1667,
+                "x": 0.04,
+                "y": 0.04,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.5,
+                "x": 1.293,
+                "y": 1.293
+              }
+            ]
+          },
+          "MagicArray2": {
+            "rotate": [
+              {
+                "time": 0.3333
+              },
+              {
+                "time": 0.6667,
+                "angle": 90
+              },
+              {
+                "time": 1,
+                "angle": 180
+              },
+              {
+                "time": 1.3333,
+                "angle": -90
+              },
+              {
+                "time": 1.6667
+              },
+              {
+                "time": 2,
+                "angle": 90
+              },
+              {
+                "time": 2.3333,
+                "angle": 180
+              },
+              {
+                "time": 2.6667,
+                "angle": -90
+              },
+              {
+                "time": 3
+              }
+            ],
+            "scale": [
+              {
+                "x": 0.04,
+                "y": 0.04,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.3333
+              }
+            ]
+          }
+        },
+        "events": [
+          {
+            "time": 2.6667,
+            "name": "BaoGuang"
+          }
+        ]
+      }
+    }
+  },
+  "_atlasText": "\r\nChouKa.png\r\nsize: 998,1058\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nLight\r\n  rotate: true\r\n  xy: 566, 607\r\n  size: 451, 432\r\n  orig: 500, 500\r\n  offset: 26, 30\r\n  index: -1\r\nMagicArray\r\n  rotate: false\r\n  xy: 0, 494\r\n  size: 564, 564\r\n  orig: 600, 600\r\n  offset: 18, 18\r\n  index: -1\r\nglow\r\n  rotate: false\r\n  xy: 566, 237\r\n  size: 368, 368\r\n  orig: 512, 512\r\n  offset: 76, 68\r\n  index: -1\r\nring 1\r\n  rotate: false\r\n  xy: 0, 5\r\n  size: 487, 487\r\n  orig: 512, 512\r\n  offset: 12, 13\r\n  index: -1\r\nstar1\r\n  rotate: false\r\n  xy: 489, 0\r\n  size: 240, 235\r\n  orig: 256, 256\r\n  offset: 8, 10\r\n  index: -1\r\nstar2\r\n  rotate: false\r\n  xy: 731, 136\r\n  size: 95, 99\r\n  orig: 100, 100\r\n  offset: 2, 1\r\n  index: -1\r\n",
+  "textures": [
+    {
+      "__uuid__": "f18f8504-a82a-42a6-b160-ef4f08e65fff"
+    }
+  ],
+  "textureNames": [
+    "ChouKa.png"
+  ],
+  "scale": 1
+}

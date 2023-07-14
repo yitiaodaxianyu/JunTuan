@@ -1,0 +1,69 @@
+
+guai_19.png
+size: 144,142
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 68, 79
+  size: 65, 61
+  orig: 65, 61
+  offset: 0, 0
+  index: -1
+lchi1
+  rotate: false
+  xy: 35, 8
+  size: 42, 43
+  orig: 42, 43
+  offset: 0, 0
+  index: -1
+lchi2
+  rotate: false
+  xy: 100, 23
+  size: 39, 9
+  orig: 39, 9
+  offset: 0, 0
+  index: -1
+lshou
+  rotate: false
+  xy: 123, 47
+  size: 19, 30
+  orig: 19, 30
+  offset: 0, 0
+  index: -1
+rchi1
+  rotate: false
+  xy: 79, 34
+  size: 42, 43
+  orig: 42, 43
+  offset: 0, 0
+  index: -1
+rchi2
+  rotate: false
+  xy: 100, 12
+  size: 39, 9
+  orig: 39, 9
+  offset: 0, 0
+  index: -1
+rshou
+  rotate: false
+  xy: 79, 2
+  size: 19, 30
+  orig: 19, 30
+  offset: 0, 0
+  index: -1
+shenti1
+  rotate: false
+  xy: 2, 53
+  size: 64, 87
+  orig: 64, 87
+  offset: 0, 0
+  index: -1
+shenti2
+  rotate: false
+  xy: 2, 2
+  size: 31, 49
+  orig: 31, 49
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "TY_icon_Zuan_00",
+    "texture": "c58cccad-d4c4-40e0-975b-ba1582ca2e15",
+    "atlas": "3d4c0f9d-6899-4448-bf55-19a5e9b15179",
+    "rect": [
+      644,
+      458,
+      97,
+      79
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      97,
+      79
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

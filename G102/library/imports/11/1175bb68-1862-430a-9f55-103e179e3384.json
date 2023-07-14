@@ -1,0 +1,65 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "PrivilegedCardInformation",
+  "_objFlags": 0,
+  "_native": "",
+  "json": [
+    {
+      "PrivilegedCardID": 1001,
+      "PrivilegedCard": 1,
+      "PrivilegedCardText": 1400002,
+      "GetDiamondsNowNum": 300,
+      "ReceiveDiamondsEveryDayNum": 100,
+      "CumulativeGetDiamonds": 3300,
+      "GainPrivileges": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "PrivilegeParameters": [
+        0.1,
+        1,
+        1,
+        1
+      ],
+      "PrivilegeText": [
+        1400101,
+        1400102,
+        1400103,
+        1400105
+      ],
+      "ProductId": "b101"
+    },
+    {
+      "PrivilegedCardID": 2001,
+      "PrivilegedCard": 2,
+      "PrivilegedCardText": 1400003,
+      "GetDiamondsNowNum": 980,
+      "ReceiveDiamondsEveryDayNum": 300,
+      "CumulativeGetDiamonds": 270000,
+      "GainPrivileges": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "PrivilegeParameters": [
+        0.25,
+        2,
+        2,
+        1,
+        1
+      ],
+      "PrivilegeText": [
+        1400101,
+        1400102,
+        1400103,
+        1400105,
+        1400106
+      ],
+      "ProductId": "b102"
+    }
+  ]
+}

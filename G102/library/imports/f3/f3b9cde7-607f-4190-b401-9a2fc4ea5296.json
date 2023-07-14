@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Dungeon_Banner_1",
+    "texture": "0fa26554-18aa-4685-943c-8687476a8daa",
+    "atlas": "20cb05a8-719e-4878-bafb-23c08de83024",
+    "rect": [
+      691,
+      765,
+      575,
+      305
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      575,
+      305
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,491 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "enemy_icon.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Avatar_Monster_10011": {
+      "__uuid__": "c10ea225-6b20-4d72-bcc4-92f0b92674af"
+    },
+    "Avatar_Monster_10012": {
+      "__uuid__": "244cbc67-bd83-437a-acf5-b119f7318d7b"
+    },
+    "Avatar_Monster_10013": {
+      "__uuid__": "62a3a3c3-5642-435a-9de3-b8a655fca5b2"
+    },
+    "Avatar_Monster_10014": {
+      "__uuid__": "6aeb218b-0124-48e7-9be6-cd5c9d008040"
+    },
+    "Avatar_Monster_10031": {
+      "__uuid__": "e181cab3-38d6-4c6e-8444-6e17a2c5d661"
+    },
+    "Avatar_Monster_10032": {
+      "__uuid__": "1505d019-70c0-4bba-8451-fc128f43e1b0"
+    },
+    "Avatar_Monster_10033": {
+      "__uuid__": "3c34a305-49b8-4b61-9a1a-91e0c10b1e2f"
+    },
+    "Avatar_Monster_10034": {
+      "__uuid__": "df13b61f-a2f8-42a3-bb4f-a8b2240bdfdf"
+    },
+    "Avatar_Monster_10035": {
+      "__uuid__": "a75c2a6a-9287-4803-aef2-01a2a8f46dc5"
+    },
+    "Avatar_Monster_10051": {
+      "__uuid__": "255fb54c-998c-4cb6-8bc7-77a47b26ad3c"
+    },
+    "Avatar_Monster_10052": {
+      "__uuid__": "68e16467-2ea5-4eb9-b7ec-873f742e23d8"
+    },
+    "Avatar_Monster_10053": {
+      "__uuid__": "27780d7f-2218-431e-aa92-db29a985e3ff"
+    },
+    "Avatar_Monster_10061": {
+      "__uuid__": "73ca11f9-cbea-4f72-8b48-1110fdf160a5"
+    },
+    "Avatar_Monster_10062": {
+      "__uuid__": "ac39aa81-d02e-42f0-9305-e8d090247d6f"
+    },
+    "Avatar_Monster_10063": {
+      "__uuid__": "64222d0e-409f-4470-b7ed-dcf87bda4536"
+    },
+    "Avatar_Monster_10071": {
+      "__uuid__": "a5af0e2c-7093-4a20-91c0-303239f31d1f"
+    },
+    "Avatar_Monster_10072": {
+      "__uuid__": "76814685-8dd8-46f5-9452-383eaf7c3b76"
+    },
+    "Avatar_Monster_10073": {
+      "__uuid__": "a0e34d53-1d11-4fb7-9838-81f0647b24b7"
+    },
+    "Avatar_Monster_10091": {
+      "__uuid__": "b37e45e2-4d1c-4942-b08a-ecf5ee35ce93"
+    },
+    "Avatar_Monster_10092": {
+      "__uuid__": "0b7988d1-d4e4-4f29-8ec7-82237b49b2a9"
+    },
+    "Avatar_Monster_10093": {
+      "__uuid__": "267d9ff5-cfbc-4f84-9897-d9f00a1824b0"
+    },
+    "Avatar_Monster_10094": {
+      "__uuid__": "7440fe12-ef2e-4dc1-bd7f-d1bacc40b40f"
+    },
+    "Avatar_Monster_10095": {
+      "__uuid__": "3b311501-7be2-43d0-98ad-08896296c1d4"
+    },
+    "Avatar_Monster_10111": {
+      "__uuid__": "b37cfccb-801c-4eab-9a99-13451c24e07d"
+    },
+    "Avatar_Monster_10112": {
+      "__uuid__": "a67fe19b-d9ef-4316-aaae-7d2e05ee0888"
+    },
+    "Avatar_Monster_10113": {
+      "__uuid__": "6e6f230e-4eb1-426c-83a9-82f014bcfe89"
+    },
+    "Avatar_Monster_10121": {
+      "__uuid__": "caa3ca35-938c-4ec1-a6f4-e619a5d1a8ec"
+    },
+    "Avatar_Monster_10122": {
+      "__uuid__": "817e45dd-60a7-404d-82fb-a835e6b2ef8a"
+    },
+    "Avatar_Monster_10123": {
+      "__uuid__": "65239c6b-59e9-4c25-930e-012c1a632b08"
+    },
+    "Avatar_Monster_10131": {
+      "__uuid__": "77bcf884-d980-48d7-9bdb-d3b5a5f362b5"
+    },
+    "Avatar_Monster_10132": {
+      "__uuid__": "9a9ac2cf-b6d5-488b-a162-77bd445d0397"
+    },
+    "Avatar_Monster_10133": {
+      "__uuid__": "bbb8775c-6492-4097-828f-c0484cd2cf3a"
+    },
+    "Avatar_Monster_10134": {
+      "__uuid__": "d504c846-df66-49b5-9139-0890767460ac"
+    },
+    "Avatar_Monster_10135": {
+      "__uuid__": "93b547cf-3ee6-416d-9cbd-d292e2bf87ec"
+    },
+    "Avatar_Monster_10136": {
+      "__uuid__": "2c63ab06-3da8-42d7-aa38-9c9033fc3e4e"
+    },
+    "Avatar_Monster_10141": {
+      "__uuid__": "e552074b-3811-48d0-b66f-822980e8772a"
+    },
+    "Avatar_Monster_10142": {
+      "__uuid__": "d7495f0b-af17-4cae-be0f-4e1141df5a1d"
+    },
+    "Avatar_Monster_10143": {
+      "__uuid__": "69ea392a-d11c-4c01-902b-a2e7796ecf3c"
+    },
+    "Avatar_Monster_10171": {
+      "__uuid__": "6ece7cfb-5f00-4478-b327-19ff91944a13"
+    },
+    "Avatar_Monster_10172": {
+      "__uuid__": "3c331de7-0beb-4ce4-9ed4-e639518448b0"
+    },
+    "Avatar_Monster_10173": {
+      "__uuid__": "a8950eb3-0057-4c6f-93fb-4a1446246d35"
+    },
+    "Avatar_Monster_10174": {
+      "__uuid__": "deb5529c-3787-4c60-94e4-f66222bf80b5"
+    },
+    "Avatar_Monster_10181": {
+      "__uuid__": "925d9f36-a727-4f9d-986e-fc6358ef5985"
+    },
+    "Avatar_Monster_10182": {
+      "__uuid__": "27d49a67-3a44-487e-944a-1632f519341c"
+    },
+    "Avatar_Monster_10183": {
+      "__uuid__": "b2bd678c-830a-4347-b972-e7450860c035"
+    },
+    "Avatar_Monster_10201": {
+      "__uuid__": "85754615-643a-447f-9522-1c818d5c913d"
+    },
+    "Avatar_Monster_10202": {
+      "__uuid__": "c515ce48-2b51-4f3a-8347-f1329cd66b2a"
+    },
+    "Avatar_Monster_10203": {
+      "__uuid__": "1aef4f79-d26d-4815-ae68-321898d32117"
+    },
+    "Avatar_Monster_10231": {
+      "__uuid__": "870320b4-a1b6-4932-b698-387bfcb6c495"
+    },
+    "Avatar_Monster_10232": {
+      "__uuid__": "f35f2f61-69d4-4fae-910a-0b0507088a34"
+    },
+    "Avatar_Monster_10233": {
+      "__uuid__": "8a04bc9a-ec6a-4917-bda5-e8040620e013"
+    },
+    "Avatar_Monster_10261": {
+      "__uuid__": "f12a169b-679b-4b1a-98de-61e5753da741"
+    },
+    "Avatar_Monster_10262": {
+      "__uuid__": "da1ac1a5-460a-4dbd-acf4-17907b83a69c"
+    },
+    "Avatar_Monster_10263": {
+      "__uuid__": "602d301d-8a0d-47ce-804c-68291ebbb5f9"
+    },
+    "Avatar_Monster_10341": {
+      "__uuid__": "79c850f0-6bd6-4c13-851c-fd16413ec807"
+    },
+    "Avatar_Monster_10342": {
+      "__uuid__": "c2635250-0fbe-4cd9-8a8f-48bb3d0a858d"
+    },
+    "Avatar_Monster_10351": {
+      "__uuid__": "facf9486-b9fa-4047-8799-6651eabf568c"
+    },
+    "Avatar_Monster_10361": {
+      "__uuid__": "333c5592-5ce0-487b-ac55-5c3a3858c90e"
+    },
+    "Avatar_Monster_10401": {
+      "__uuid__": "8cb86633-0d5d-47bc-89ba-74649bd764ce"
+    },
+    "Avatar_Monster_10411": {
+      "__uuid__": "a909d6dc-70fd-4e29-ab61-68df4483d1e8"
+    },
+    "Avatar_Monster_10421": {
+      "__uuid__": "6fb6d598-d4fa-45cf-84ec-aee7293f19f2"
+    },
+    "Avatar_Monster_10422": {
+      "__uuid__": "01c11025-2552-42a1-ae41-3758c68d07b7"
+    },
+    "Avatar_Monster_10431": {
+      "__uuid__": "6edc3ce1-957b-4890-aa3b-7e72cca6f0e9"
+    },
+    "Avatar_Monster_10441": {
+      "__uuid__": "8313b56c-607b-44b7-9737-1775ffa5cf00"
+    },
+    "Avatar_Monster_10461": {
+      "__uuid__": "0883ac45-ec4e-4aa4-9e2b-6508011784d1"
+    },
+    "Avatar_Monster_10471": {
+      "__uuid__": "f90b1b86-ccfc-4082-8b67-d365694b3157"
+    },
+    "Avatar_Monster_10481": {
+      "__uuid__": "625fbff3-912f-48fb-a156-16ee209ab1a8"
+    },
+    "Avatar_Monster_10491": {
+      "__uuid__": "36ae2427-831b-44d4-b425-6ee47316be22"
+    },
+    "Avatar_Monster_10501": {
+      "__uuid__": "54235b9f-3b26-4525-b786-1157b77e5a1a"
+    },
+    "Avatar_Monster_10511": {
+      "__uuid__": "dfc2f4ef-1512-4e66-932e-4e9b481941cc"
+    },
+    "Avatar_Monster_10512": {
+      "__uuid__": "28f27ea8-4bea-414a-ac4e-8de53a6279dc"
+    },
+    "Avatar_Monster_10521": {
+      "__uuid__": "13cc079a-092e-4412-be8c-b41035d5089b"
+    },
+    "Avatar_Monster_10531": {
+      "__uuid__": "95ebc5e1-eb9d-4dd2-883a-5a5af4c24415"
+    },
+    "Avatar_Monster_10541": {
+      "__uuid__": "c88b6f85-6a82-45a3-b5ae-645f74b87c6f"
+    },
+    "Avatar_Monster_10551": {
+      "__uuid__": "35f7784b-c6aa-411e-b57a-5bab47ebbb59"
+    },
+    "Avatar_Monster_10561": {
+      "__uuid__": "4b9802c6-f1be-4ed1-a48c-a3398346a911"
+    },
+    "Avatar_Monster_10571": {
+      "__uuid__": "9248f47b-7a17-47db-a445-11dbf1581d56"
+    },
+    "Avatar_Monster_10581": {
+      "__uuid__": "7f41d0cd-825d-487e-84eb-5570769dcd2d"
+    },
+    "Avatar_Monster_10591": {
+      "__uuid__": "5a115171-1b47-4c5e-9f2f-ace5d235c1bf"
+    },
+    "Avatar_Monster_10593": {
+      "__uuid__": "277f5f14-9aba-4187-8c0e-8243da97fe37"
+    },
+    "Avatar_Monster_10601": {
+      "__uuid__": "43ab5bf3-65c8-4b6a-8f01-c54011bf0796"
+    },
+    "Avatar_Monster_10611": {
+      "__uuid__": "c9e545eb-36c6-475a-b28d-e50a7ecaca06"
+    },
+    "Avatar_Monster_10621": {
+      "__uuid__": "0af67599-9122-4214-9f22-90f12cfe6caf"
+    },
+    "Avatar_Monster_10631": {
+      "__uuid__": "f46a84f2-5ba9-4587-b466-1771782fb6af"
+    },
+    "Avatar_Monster_20021": {
+      "__uuid__": "0dfa364a-3a2d-4618-95c8-75ea70b112f0"
+    },
+    "Avatar_Monster_20022": {
+      "__uuid__": "2e5fbd83-4297-4e60-9969-642b17aaae49"
+    },
+    "Avatar_Monster_20023": {
+      "__uuid__": "1d8cbd60-6409-4bd6-8838-0e106f15ea27"
+    },
+    "Avatar_Monster_20041": {
+      "__uuid__": "5c068bea-fbfb-4535-b1a5-3ab76543b812"
+    },
+    "Avatar_Monster_20042": {
+      "__uuid__": "c5f82846-d896-458e-a711-130bfa2f08ed"
+    },
+    "Avatar_Monster_20043": {
+      "__uuid__": "87221760-1e01-4cdc-90ea-4aa40df8bab1"
+    },
+    "Avatar_Monster_20081": {
+      "__uuid__": "35c512b5-59f3-4375-a1a8-eca9d6083476"
+    },
+    "Avatar_Monster_20082": {
+      "__uuid__": "e672402d-a34a-48f8-8639-58352cad455a"
+    },
+    "Avatar_Monster_20083": {
+      "__uuid__": "3d533e0b-6693-4f6a-ba95-e92c93ad6d7f"
+    },
+    "Avatar_Monster_20101": {
+      "__uuid__": "45bab728-2ff0-4b03-b361-b1ecec2426e1"
+    },
+    "Avatar_Monster_20102": {
+      "__uuid__": "042417e6-c562-4487-a850-3c13adb78d5b"
+    },
+    "Avatar_Monster_20103": {
+      "__uuid__": "8eef86fa-5bf8-4da5-8162-7fc3aa1514cb"
+    },
+    "Avatar_Monster_20151": {
+      "__uuid__": "e9bcd674-da20-4469-b62d-cdfa8c248ab5"
+    },
+    "Avatar_Monster_20152": {
+      "__uuid__": "77dedfe9-7ea1-4078-9e77-f9325c958e9e"
+    },
+    "Avatar_Monster_20153": {
+      "__uuid__": "376401e1-6b2d-43b6-aaca-6e68f15d76cc"
+    },
+    "Avatar_Monster_20161": {
+      "__uuid__": "64823ffe-c7ec-489e-b09a-b56f498952db"
+    },
+    "Avatar_Monster_20162": {
+      "__uuid__": "57653608-a252-4594-be39-6225cb658202"
+    },
+    "Avatar_Monster_20163": {
+      "__uuid__": "e0f34fb6-cdb1-4cbb-9055-ed3400add075"
+    },
+    "Avatar_Monster_20164": {
+      "__uuid__": "a1dd3536-1d68-4825-a729-96a8e5eea602"
+    },
+    "Avatar_Monster_20191": {
+      "__uuid__": "4d41c437-b70b-49b7-91c7-b7fe9e3b8895"
+    },
+    "Avatar_Monster_20192": {
+      "__uuid__": "9212095b-6b17-42a5-aa47-d8c28da45792"
+    },
+    "Avatar_Monster_20193": {
+      "__uuid__": "476ed04c-6d84-4891-881e-644b9191225e"
+    },
+    "Avatar_Monster_20211": {
+      "__uuid__": "fc5285a5-d2be-4d6f-92b2-0495a18e5e3e"
+    },
+    "Avatar_Monster_20212": {
+      "__uuid__": "0cbe5c7a-fc7a-47f2-a5a7-2b0309b933af"
+    },
+    "Avatar_Monster_20213": {
+      "__uuid__": "33a3f7b7-fc28-41e2-bb74-f637e0771412"
+    },
+    "Avatar_Monster_20221": {
+      "__uuid__": "a69920ec-376b-4e14-9ed5-3694a7a2060d"
+    },
+    "Avatar_Monster_20222": {
+      "__uuid__": "79e9e593-5d87-410c-adc2-056d9b0ca526"
+    },
+    "Avatar_Monster_20223": {
+      "__uuid__": "35487786-4056-46d9-8c88-f145bf57ae09"
+    },
+    "Avatar_Monster_20241": {
+      "__uuid__": "aab6f21c-231b-423c-85cd-0104d65a74a2"
+    },
+    "Avatar_Monster_20242": {
+      "__uuid__": "be1669fc-73f9-4fdf-a278-adbc15b13555"
+    },
+    "Avatar_Monster_20243": {
+      "__uuid__": "ddfc3ce7-2f58-45bb-9755-8d7e2bac13bc"
+    },
+    "Avatar_Monster_20251": {
+      "__uuid__": "7ec60a66-656d-41c2-addb-b5755e000eab"
+    },
+    "Avatar_Monster_20252": {
+      "__uuid__": "0444ae1f-f5e2-4174-b4a5-6371dee30679"
+    },
+    "Avatar_Monster_20253": {
+      "__uuid__": "385b4126-25a1-482c-a79c-4c5019ca4967"
+    },
+    "Avatar_Monster_20271": {
+      "__uuid__": "91220233-7a8e-4d45-90e7-0482c1a59ec5"
+    },
+    "Avatar_Monster_20272": {
+      "__uuid__": "77f7317e-a250-493a-b44b-476f7d536280"
+    },
+    "Avatar_Monster_20273": {
+      "__uuid__": "8bdc1767-a4c5-4df5-be1a-6ca8e37df942"
+    },
+    "Avatar_Monster_20281": {
+      "__uuid__": "ea9d1d2b-226c-4d70-9fce-f0e1380ad6cf"
+    },
+    "Avatar_Monster_20282": {
+      "__uuid__": "c0971e8f-46b2-4529-8855-28dc9a5b8129"
+    },
+    "Avatar_Monster_20283": {
+      "__uuid__": "ef4a143c-cdbd-443f-a2ba-654592d13ba9"
+    },
+    "Avatar_Monster_20291": {
+      "__uuid__": "783abf9e-8325-497c-b05a-3c6098755836"
+    },
+    "Avatar_Monster_20292": {
+      "__uuid__": "a585cf44-25fd-4c4d-a8eb-3d19b69e092e"
+    },
+    "Avatar_Monster_20293": {
+      "__uuid__": "3ae94a2a-b0d1-48d8-8bd0-2fb83ff29d2f"
+    },
+    "Avatar_Monster_20301": {
+      "__uuid__": "c8d2f913-b652-4e6c-b9be-a14cb70a7792"
+    },
+    "Avatar_Monster_20302": {
+      "__uuid__": "e2d7f859-ccba-4686-9a7c-65e6da4fd7cb"
+    },
+    "Avatar_Monster_20303": {
+      "__uuid__": "ae96937b-ef54-400f-89ad-391783766ce2"
+    },
+    "Avatar_Monster_20371": {
+      "__uuid__": "5ee0622b-e8bf-4040-943e-7852d666d553"
+    },
+    "Avatar_Monster_20641": {
+      "__uuid__": "446b3bc0-1f8c-49c0-973d-d8086db76543"
+    },
+    "Avatar_Monster_20651": {
+      "__uuid__": "1f502f99-21a9-436c-91c9-6d87a5cd9fdc"
+    },
+    "Avatar_Monster_20661": {
+      "__uuid__": "9cc10fea-bf21-4ba6-9c44-72abfdcc08c2"
+    },
+    "Avatar_Monster_20671": {
+      "__uuid__": "6c9928cb-be21-489a-9fa2-b775f7bbc84b"
+    },
+    "Avatar_Monster_20681": {
+      "__uuid__": "1f06fd2b-77f4-4c65-9043-7c46c831bab2"
+    },
+    "Avatar_Monster_20691": {
+      "__uuid__": "336feaa7-2a34-40c1-97ec-af8654f1eb4a"
+    },
+    "Avatar_Monster_20701": {
+      "__uuid__": "82c2d6fa-1d77-49a9-9e6c-781036c43c15"
+    },
+    "Avatar_Monster_20711": {
+      "__uuid__": "bac8f113-3005-4bdf-b3d1-44a763e3e897"
+    },
+    "Avatar_Monster_20721": {
+      "__uuid__": "992d1858-4c8f-4554-a1ca-f40493e03561"
+    },
+    "Avatar_Monster_20731": {
+      "__uuid__": "568dd7fa-23c4-47c1-91c2-a400720d60a3"
+    },
+    "Avatar_Monster_20741": {
+      "__uuid__": "999470f1-8bd9-4688-8eba-9579f893e589"
+    },
+    "Avatar_Monster_20751": {
+      "__uuid__": "86ce9fe3-6035-4683-802b-439896975f55"
+    },
+    "Avatar_Monster_20761": {
+      "__uuid__": "b7685851-5eb4-4e16-8f93-02d5b3878e58"
+    },
+    "Avatar_Monster_20771": {
+      "__uuid__": "7cc8708a-edab-4a23-8f16-7ebc512c0abe"
+    },
+    "Avatar_Monster_20772": {
+      "__uuid__": "11bc9a5f-3854-48ac-9dbe-008acf4d67dd"
+    },
+    "Avatar_Monster_20781": {
+      "__uuid__": "3310cf9f-883a-4bd4-bdae-fe0bd4a3d66d"
+    },
+    "Avatar_Monster_20791": {
+      "__uuid__": "12e7d171-dbf8-4b41-83f8-ee4ddae8dfe0"
+    },
+    "Avatar_Monster_30311": {
+      "__uuid__": "63bee19b-5944-4ccf-9454-74e9a2497cf8"
+    },
+    "Avatar_Monster_30321": {
+      "__uuid__": "028f68cf-5573-4cfc-8725-96de950016b6"
+    },
+    "Avatar_Monster_30331": {
+      "__uuid__": "0a80e2bb-9b3f-4b0b-9b15-a8b3734536c7"
+    },
+    "Avatar_Monster_30381": {
+      "__uuid__": "9f847607-2e13-4387-9ce2-4ed331f9256b"
+    },
+    "Avatar_Monster_30391": {
+      "__uuid__": "c56fc8df-0ea8-446f-8c54-df8dc1221bb9"
+    },
+    "Avatar_Monster_30801": {
+      "__uuid__": "f5a30892-0552-4fdf-bad4-99bcb994a291"
+    },
+    "Avatar_Monster_30811": {
+      "__uuid__": "2f09832d-bccf-4e36-8c4a-b23c4588d2b6"
+    },
+    "Avatar_Monster_30821": {
+      "__uuid__": "ac19d6a2-5aa8-466d-b391-294a3d18d213"
+    },
+    "Avatar_Monster_30831": {
+      "__uuid__": "9ffda9a4-6db0-4380-8fa9-1ed7be03074c"
+    },
+    "Avatar_Monster_30841": {
+      "__uuid__": "d1d6bffc-5f9c-418e-9fb0-496eab7f5e60"
+    },
+    "Avatar_Monster_30851": {
+      "__uuid__": "3ed9e046-e1d3-4b6c-b466-c663d34c1fab"
+    },
+    "Avatar_Monster_30861": {
+      "__uuid__": "06d092ba-1c60-4dba-b0be-2c2558e70f51"
+    },
+    "Avatar_Monster_30871": {
+      "__uuid__": "96d50e4e-ef65-48e3-b3f1-8258bf95bc5a"
+    }
+  }
+}

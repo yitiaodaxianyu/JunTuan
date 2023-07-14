@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Spirit_AttackHit_03",
+    "texture": "2f124999-fdc1-43e7-84ab-1e863e6b57b3",
+    "atlas": "4d065c18-fd8b-4e4d-9bb8-8db56bb0c9eb",
+    "rect": [
+      279,
+      215,
+      275,
+      151
+    ],
+    "offset": [
+      0,
+      -20
+    ],
+    "originalSize": [
+      275,
+      275
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

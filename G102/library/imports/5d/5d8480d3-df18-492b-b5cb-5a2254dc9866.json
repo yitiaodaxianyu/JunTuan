@@ -1,0 +1,206 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "MonsterFeature",
+  "_objFlags": 0,
+  "_native": "",
+  "json": [
+    {
+      "FeatureNumber": 1,
+      "Objective": 1,
+      "FeatureDiscribe_TextID": 21001,
+      "Number": 0,
+      "HP": 0,
+      "Time": 0,
+      "SpeedUp": 0.3,
+      "Range": 0,
+      "Recovery": 0
+    },
+    {
+      "FeatureNumber": 2,
+      "Objective": 1,
+      "FeatureDiscribe_TextID": 21002,
+      "Number": 0,
+      "HP": 0,
+      "Time": 0,
+      "SpeedUp": 0,
+      "Range": 0,
+      "Recovery": 0
+    },
+    {
+      "FeatureNumber": 3,
+      "Objective": 2,
+      "FeatureDiscribe_TextID": 21003,
+      "Number": 0,
+      "HP": 0,
+      "Time": 0,
+      "SpeedUp": 0,
+      "Range": 100,
+      "Recovery": 2
+    },
+    {
+      "FeatureNumber": 4,
+      "Objective": 1,
+      "FeatureDiscribe_TextID": 21004,
+      "Number": 2,
+      "HP": 0.5,
+      "Time": 0,
+      "SpeedUp": 0,
+      "Range": 0,
+      "Recovery": 0
+    },
+    {
+      "FeatureNumber": 5,
+      "Objective": 1,
+      "FeatureDiscribe_TextID": 21005,
+      "Number": 0,
+      "HP": 0,
+      "Time": 10,
+      "SpeedUp": 0,
+      "Range": 0,
+      "Recovery": 0
+    },
+    {
+      "FeatureNumber": 6,
+      "Objective": 1,
+      "FeatureDiscribe_TextID": 21006,
+      "Number": 5,
+      "HP": 0.5,
+      "Time": 0,
+      "SpeedUp": 0,
+      "Range": 0,
+      "Recovery": 0
+    },
+    {
+      "FeatureNumber": 7,
+      "Objective": 1,
+      "FeatureDiscribe_TextID": 21007,
+      "Number": 0,
+      "HP": 0,
+      "Time": 0,
+      "SpeedUp": 0,
+      "Range": 0,
+      "Recovery": 0
+    },
+    {
+      "FeatureNumber": 8,
+      "Objective": 3,
+      "FeatureDiscribe_TextID": 21008,
+      "Number": 0,
+      "HP": 0.2,
+      "Time": 0,
+      "SpeedUp": 0,
+      "Range": 100,
+      "Recovery": 0
+    },
+    {
+      "FeatureNumber": 9,
+      "Objective": 1,
+      "FeatureDiscribe_TextID": 21009,
+      "Number": 0,
+      "HP": 0,
+      "Time": 0,
+      "SpeedUp": 0.5,
+      "Range": 0,
+      "Recovery": 0
+    },
+    {
+      "FeatureNumber": 10,
+      "Objective": 1,
+      "FeatureDiscribe_TextID": 21010,
+      "Number": 0,
+      "HP": 0,
+      "Time": 15,
+      "SpeedUp": 0,
+      "Range": 0,
+      "Recovery": 0
+    },
+    {
+      "FeatureNumber": 11,
+      "Objective": 2,
+      "FeatureDiscribe_TextID": 21011,
+      "Number": 0,
+      "HP": 0,
+      "Time": 0,
+      "SpeedUp": 0.5,
+      "Range": 100,
+      "Recovery": 0
+    },
+    {
+      "FeatureNumber": 12,
+      "Objective": 1,
+      "FeatureDiscribe_TextID": 21012,
+      "Number": 0,
+      "HP": 0,
+      "Time": 0,
+      "SpeedUp": 0,
+      "Range": 100,
+      "Recovery": 0
+    },
+    {
+      "FeatureNumber": 13,
+      "Objective": 2,
+      "FeatureDiscribe_TextID": 21013,
+      "Number": 0,
+      "HP": 0,
+      "Time": 0,
+      "SpeedUp": 0,
+      "Range": 100,
+      "Recovery": 0
+    },
+    {
+      "FeatureNumber": 14,
+      "Objective": 1,
+      "FeatureDiscribe_TextID": 21014,
+      "Number": 0,
+      "HP": 0,
+      "Time": 0,
+      "SpeedUp": 0,
+      "Range": 0,
+      "Recovery": 13.8
+    },
+    {
+      "FeatureNumber": 15,
+      "Objective": 1,
+      "FeatureDiscribe_TextID": 21015,
+      "Number": 0,
+      "HP": 0,
+      "Time": 0,
+      "SpeedUp": 0,
+      "Range": 0,
+      "Recovery": 0
+    },
+    {
+      "FeatureNumber": 16,
+      "Objective": 1,
+      "FeatureDiscribe_TextID": 21016,
+      "Number": 0,
+      "HP": 0,
+      "Time": 0,
+      "SpeedUp": 0,
+      "Range": 0,
+      "Recovery": 0
+    },
+    {
+      "FeatureNumber": 17,
+      "Objective": 1,
+      "FeatureDiscribe_TextID": 21017,
+      "Number": 0,
+      "HP": 0,
+      "Time": 0,
+      "SpeedUp": 0,
+      "Range": 0,
+      "Recovery": 0
+    },
+    {
+      "FeatureNumber": 18,
+      "Objective": 1,
+      "FeatureDiscribe_TextID": 21011,
+      "Number": 0,
+      "HP": 0,
+      "Time": 0,
+      "SpeedUp": 0.5,
+      "Range": 100,
+      "Recovery": 0
+    }
+  ]
+}

@@ -1,0 +1,314 @@
+
+mofajingling.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 2
+  size: 74, 26
+  orig: 74, 26
+  offset: 0, 0
+  index: -1
+chibang1
+  rotate: false
+  xy: 1736, 132
+  size: 60, 37
+  orig: 60, 37
+  offset: 0, 0
+  index: -1
+chibang2
+  rotate: false
+  xy: 1736, 93
+  size: 58, 37
+  orig: 58, 37
+  offset: 0, 0
+  index: -1
+fazhang
+  rotate: false
+  xy: 1957, 200
+  size: 67, 51
+  orig: 67, 51
+  offset: 0, 0
+  index: -1
+fz
+  rotate: false
+  xy: 2, 112
+  size: 171, 139
+  orig: 171, 139
+  offset: 0, 0
+  index: -1
+lizi/1
+  rotate: true
+  xy: 2, 30
+  size: 80, 160
+  orig: 80, 160
+  offset: 0, 0
+  index: -1
+lizi/10
+  rotate: true
+  xy: 1471, 171
+  size: 80, 160
+  orig: 80, 160
+  offset: 0, 0
+  index: -1
+lizi/11
+  rotate: true
+  xy: 1633, 171
+  size: 80, 160
+  orig: 80, 160
+  offset: 0, 0
+  index: -1
+lizi/12
+  rotate: true
+  xy: 1795, 171
+  size: 80, 160
+  orig: 80, 160
+  offset: 0, 0
+  index: -1
+lizi/2
+  rotate: true
+  xy: 175, 171
+  size: 80, 160
+  orig: 80, 160
+  offset: 0, 0
+  index: -1
+lizi/3
+  rotate: true
+  xy: 337, 171
+  size: 80, 160
+  orig: 80, 160
+  offset: 0, 0
+  index: -1
+lizi/4
+  rotate: true
+  xy: 499, 171
+  size: 80, 160
+  orig: 80, 160
+  offset: 0, 0
+  index: -1
+lizi/5
+  rotate: true
+  xy: 661, 171
+  size: 80, 160
+  orig: 80, 160
+  offset: 0, 0
+  index: -1
+lizi/6
+  rotate: true
+  xy: 823, 171
+  size: 80, 160
+  orig: 80, 160
+  offset: 0, 0
+  index: -1
+lizi/7
+  rotate: true
+  xy: 985, 171
+  size: 80, 160
+  orig: 80, 160
+  offset: 0, 0
+  index: -1
+lizi/8
+  rotate: true
+  xy: 1147, 171
+  size: 80, 160
+  orig: 80, 160
+  offset: 0, 0
+  index: -1
+lizi/9
+  rotate: true
+  xy: 1309, 171
+  size: 80, 160
+  orig: 80, 160
+  offset: 0, 0
+  index: -1
+shengji/stage2/fazhang
+  rotate: false
+  xy: 1001, 92
+  size: 103, 77
+  orig: 103, 77
+  offset: 0, 0
+  index: -1
+shengji/stage2/shenti
+  rotate: false
+  xy: 1845, 134
+  size: 45, 35
+  orig: 45, 35
+  offset: 0, 0
+  index: -1
+shengji/stage2/tou
+  rotate: false
+  xy: 175, 64
+  size: 110, 105
+  orig: 110, 105
+  offset: 0, 0
+  index: -1
+shengji/stage3/fazhang
+  rotate: false
+  xy: 1106, 92
+  size: 103, 77
+  orig: 103, 77
+  offset: 0, 0
+  index: -1
+shengji/stage3/shenti
+  rotate: false
+  xy: 1892, 134
+  size: 45, 35
+  orig: 45, 35
+  offset: 0, 0
+  index: -1
+shengji/stage3/tou
+  rotate: false
+  xy: 389, 74
+  size: 100, 95
+  orig: 100, 95
+  offset: 0, 0
+  index: -1
+shengji/stage4/fazhang
+  rotate: false
+  xy: 1211, 92
+  size: 103, 77
+  orig: 103, 77
+  offset: 0, 0
+  index: -1
+shengji/stage4/shenti
+  rotate: false
+  xy: 1957, 163
+  size: 45, 35
+  orig: 45, 35
+  offset: 0, 0
+  index: -1
+shengji/stage4/tou
+  rotate: false
+  xy: 491, 74
+  size: 100, 95
+  orig: 100, 95
+  offset: 0, 0
+  index: -1
+shengji/stage5/fazhang
+  rotate: false
+  xy: 1316, 92
+  size: 103, 77
+  orig: 103, 77
+  offset: 0, 0
+  index: -1
+shengji/stage5/shenti
+  rotate: false
+  xy: 164, 27
+  size: 45, 35
+  orig: 45, 35
+  offset: 0, 0
+  index: -1
+shengji/stage5/tou
+  rotate: false
+  xy: 593, 74
+  size: 100, 95
+  orig: 100, 95
+  offset: 0, 0
+  index: -1
+shengji/stage6/fazhang
+  rotate: false
+  xy: 1421, 92
+  size: 103, 77
+  orig: 103, 77
+  offset: 0, 0
+  index: -1
+shengji/stage6/shenti
+  rotate: false
+  xy: 211, 27
+  size: 45, 35
+  orig: 45, 35
+  offset: 0, 0
+  index: -1
+shengji/stage6/tou
+  rotate: false
+  xy: 695, 74
+  size: 100, 95
+  orig: 100, 95
+  offset: 0, 0
+  index: -1
+shengji/stage7/fazhang
+  rotate: false
+  xy: 1526, 92
+  size: 103, 77
+  orig: 103, 77
+  offset: 0, 0
+  index: -1
+shengji/stage7/shenti
+  rotate: false
+  xy: 258, 27
+  size: 45, 35
+  orig: 45, 35
+  offset: 0, 0
+  index: -1
+shengji/stage7/tou
+  rotate: false
+  xy: 797, 74
+  size: 100, 95
+  orig: 100, 95
+  offset: 0, 0
+  index: -1
+shengji/stage8/fazhang
+  rotate: false
+  xy: 1631, 92
+  size: 103, 77
+  orig: 103, 77
+  offset: 0, 0
+  index: -1
+shengji/stage8/shenti
+  rotate: false
+  xy: 305, 37
+  size: 45, 35
+  orig: 45, 35
+  offset: 0, 0
+  index: -1
+shengji/stage8/tou
+  rotate: false
+  xy: 899, 74
+  size: 100, 95
+  orig: 100, 95
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 1798, 134
+  size: 45, 35
+  orig: 45, 35
+  offset: 0, 0
+  index: -1
+shou1
+  rotate: true
+  xy: 2026, 230
+  size: 21, 17
+  orig: 21, 17
+  offset: 0, 0
+  index: -1
+shou2
+  rotate: false
+  xy: 1001, 75
+  size: 17, 15
+  orig: 17, 15
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 287, 74
+  size: 100, 95
+  orig: 100, 95
+  offset: 0, 0
+  index: -1
+tui1
+  rotate: true
+  xy: 1939, 159
+  size: 10, 16
+  orig: 10, 16
+  offset: 0, 0
+  index: -1
+tui2
+  rotate: false
+  xy: 2004, 180
+  size: 10, 18
+  orig: 10, 18
+  offset: 0, 0
+  index: -1

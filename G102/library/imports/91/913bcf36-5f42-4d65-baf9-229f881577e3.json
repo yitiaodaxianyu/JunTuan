@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Boss8_Skill2_Dun",
+    "texture": "f5afcaf2-ecc7-4417-af40-3cfdc108155a",
+    "atlas": "a54dc302-f366-4338-ad25-5fa25da4f19d",
+    "rect": [
+      1478,
+      725,
+      80,
+      100
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      100,
+      100
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Load_JDT_02",
+    "texture": "58d4ac01-7cc8-4ab4-b7df-a6d7a14e2e43",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      482,
+      36
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      482,
+      36
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

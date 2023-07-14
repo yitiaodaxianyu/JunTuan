@@ -1,0 +1,74 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "vipsystem.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "VIP_Bar_0_0": {
+      "__uuid__": "825c1faf-a7d6-48e9-8401-3fd0e0f2d246"
+    },
+    "VIP_Bar_0_1": {
+      "__uuid__": "669ace34-079d-4b62-bee5-7b4acfd7e105"
+    },
+    "VIP_Bar_1_0": {
+      "__uuid__": "f7457686-2f0f-437a-bbbd-2d67211732ac"
+    },
+    "VIP_Bar_1_1": {
+      "__uuid__": "208a1965-c91a-402c-b16c-60fd00e040ce"
+    },
+    "VIP_Bar_2_0": {
+      "__uuid__": "fa67734f-d645-4fdf-a753-cd6857cc9ad0"
+    },
+    "VIP_Bar_2_1": {
+      "__uuid__": "420766db-2708-4ce7-a709-fa27ac4f4ef5"
+    },
+    "VIP_Bg_0": {
+      "__uuid__": "6b2c581f-72de-4ccc-be68-d56e6415e355"
+    },
+    "VIP_Bg_0_1": {
+      "__uuid__": "55b379d2-ca35-4f7e-8a00-fa096e55e2b9"
+    },
+    "VIP_Bg_0_2": {
+      "__uuid__": "919c7c95-ae8b-4acc-9c09-f0efdead7ee1"
+    },
+    "VIP_Bg_1": {
+      "__uuid__": "ef2dc32c-84de-491a-a84e-fefba267bd1e"
+    },
+    "VIP_Bg_2": {
+      "__uuid__": "4eeafae4-55c3-4907-a278-8c4f5de7e32a"
+    },
+    "VIP_Bg_3": {
+      "__uuid__": "7683b989-89fa-4338-a9d1-3902ea3eca5b"
+    },
+    "VIP_Bg_4": {
+      "__uuid__": "abb81aaf-e1c9-4120-9b31-356be0adac90"
+    },
+    "VIP_Bg_Mask": {
+      "__uuid__": "45c6c55f-aedb-490e-9f7a-94866a8d1fa2"
+    },
+    "VIP_Light_0": {
+      "__uuid__": "643f1be0-b74d-49d5-a329-d79c4aaaeaf8"
+    },
+    "VIP_Light_1": {
+      "__uuid__": "ac26d684-1d09-4c59-801b-082e942d8afb"
+    },
+    "VIP_Lock": {
+      "__uuid__": "12950e99-8930-49b3-bfea-9b5a4aa2c944"
+    },
+    "VIP_Tick": {
+      "__uuid__": "d04d4976-de1c-4b9c-bfc6-be774362ff4d"
+    },
+    "VIP_Unlock_Bg_0": {
+      "__uuid__": "94a586b4-4c94-45c1-a588-99e7c698ce89"
+    },
+    "VIP_Unlock_Bg_1": {
+      "__uuid__": "db426147-311f-49e6-b6e5-6c8f70bb24db"
+    },
+    "VIP_Unlock_Bg_2": {
+      "__uuid__": "a689f36a-6877-4164-8e9f-64fb010401ee"
+    },
+    "VIP_Unlock_Bg_3": {
+      "__uuid__": "4f609005-7e0d-49ab-9d31-0b6ce99885e2"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Thor_AttackHit_08",
+    "texture": "728a7518-88fe-47fc-b5f4-30aa49f17368",
+    "atlas": "fa8615fe-d538-4d56-aa79-32e80c284eb1",
+    "rect": [
+      1448,
+      1272,
+      90,
+      100
+    ],
+    "offset": [
+      -2,
+      0
+    ],
+    "originalSize": [
+      100,
+      100
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

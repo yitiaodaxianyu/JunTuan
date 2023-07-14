@@ -1,0 +1,92 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "she_shou.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Archer_PassiveHit_00": {
+      "__uuid__": "7d7c5793-96c4-4cf8-87c7-d50c3a8a9674"
+    },
+    "Archer_PassiveHit_01": {
+      "__uuid__": "71383336-436a-47ff-aaf3-ec027d87e238"
+    },
+    "Archer_PassiveHit_02": {
+      "__uuid__": "53b0d811-ebdd-41d6-aea5-9d9e1a5579ba"
+    },
+    "Archer_PassiveHit_03": {
+      "__uuid__": "d4687d80-9bc2-4675-a20f-5e8c8c250982"
+    },
+    "Archer_PassiveHit_04": {
+      "__uuid__": "66e9560f-d53f-4ef1-80fc-adc0d3789f7f"
+    },
+    "Archer_PassiveHit_05": {
+      "__uuid__": "d1d40265-16d0-44d3-b1af-a3b939c96f04"
+    },
+    "Archer_PassiveHit_06": {
+      "__uuid__": "f865a9a5-65bb-4c24-9028-cd79724085a6"
+    },
+    "Archer_PassiveHit_07": {
+      "__uuid__": "8c51144f-4ef1-4dfa-9dbd-fd44250a8885"
+    },
+    "Archer_PassiveHit_08": {
+      "__uuid__": "9f759609-b0c2-4da6-8ddc-c9543a313c3c"
+    },
+    "Archer_PassiveSkill": {
+      "__uuid__": "06276188-a1a6-4fec-b17f-b1ffe8c1d4ff"
+    },
+    "Archer_PassiveSkill2_00": {
+      "__uuid__": "32c4917a-1a38-44b2-be04-b3e18a746615"
+    },
+    "Archer_PassiveSkill2_01": {
+      "__uuid__": "6debd378-99a5-488d-852c-fcb6f427645e"
+    },
+    "Archer_PassiveSkill2_02": {
+      "__uuid__": "03fb475b-138c-43fd-8ae2-31c4c4329459"
+    },
+    "Archer_PassiveSkill2_03": {
+      "__uuid__": "8dabddda-35df-4e53-baf0-410ce1d775c7"
+    },
+    "Archer_PassiveSkill2_04": {
+      "__uuid__": "8df9cc74-b8f2-4934-9398-eb186b4eaa5a"
+    },
+    "Archer_PassiveSkill2_05": {
+      "__uuid__": "c124f8a5-740d-474b-a12c-947b9ee29445"
+    },
+    "Archer_PassiveSkill2_06": {
+      "__uuid__": "6298290c-a820-4075-993d-6cb72737f8b5"
+    },
+    "Archer_PassiveSkill2_07": {
+      "__uuid__": "ac1cdcde-0008-4177-a5e1-ecbf72184c19"
+    },
+    "Arrow": {
+      "__uuid__": "05d64ef2-74f8-4e62-beea-4ed63de2d6c1"
+    },
+    "Arrow2": {
+      "__uuid__": "c5ca46c8-88a4-41a0-8879-f8b3e12c5d79"
+    },
+    "Bowstring": {
+      "__uuid__": "13e351e4-21f0-444c-9623-b861770556e9"
+    },
+    "TX_Hit_Archer_00": {
+      "__uuid__": "3b24d4b7-ba44-49f8-9109-902481ffc9c2"
+    },
+    "TX_Hit_Archer_01": {
+      "__uuid__": "5f64443b-6b1c-4172-8573-82d2673542eb"
+    },
+    "TX_Hit_Archer_02": {
+      "__uuid__": "af28e228-4d49-46ec-b6f6-a4d420e83790"
+    },
+    "TX_Hit_Archer_03": {
+      "__uuid__": "2d973226-76ec-4f6d-98ee-d75de37922e3"
+    },
+    "Trailing": {
+      "__uuid__": "3bbce2cf-7477-4e2f-a7b1-1d8566b55863"
+    },
+    "monster_attack_00": {
+      "__uuid__": "813a87d3-576d-4b54-b611-26f789266097"
+    },
+    "monster_attack_01": {
+      "__uuid__": "66269bad-b4a2-4093-a78f-29f6f09fbe80"
+    }
+  }
+}

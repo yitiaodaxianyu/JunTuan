@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "FX_HPRecovery_02",
+    "texture": "3308471d-6a59-41e1-bb03-f71856eb09e0",
+    "atlas": "f05efaa1-1f30-4291-98d2-0943b8643888",
+    "rect": [
+      1392,
+      928,
+      78,
+      56
+    ],
+    "offset": [
+      -5,
+      -47
+    ],
+    "originalSize": [
+      150,
+      150
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

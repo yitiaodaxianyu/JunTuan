@@ -1,0 +1,370 @@
+
+didiyoulong.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 1043, 3
+  size: 74, 26
+  orig: 74, 26
+  offset: 0, 0
+  index: -1
+daiji_shenti
+  rotate: false
+  xy: 1782, 92
+  size: 83, 64
+  orig: 83, 64
+  offset: 0, 0
+  index: -1
+daiji_tou
+  rotate: false
+  xy: 1608, 158
+  size: 93, 93
+  orig: 93, 93
+  offset: 0, 0
+  index: -1
+daiji_tu1
+  rotate: false
+  xy: 1043, 31
+  size: 129, 41
+  orig: 129, 41
+  offset: 0, 0
+  index: -1
+daiji_tu2
+  rotate: true
+  xy: 1988, 123
+  size: 128, 40
+  orig: 128, 40
+  offset: 0, 0
+  index: -1
+daiji_tu3
+  rotate: false
+  xy: 1311, 117
+  size: 130, 39
+  orig: 130, 39
+  offset: 0, 0
+  index: -1
+daiji_zui
+  rotate: true
+  xy: 1272, 62
+  size: 90, 37
+  orig: 90, 37
+  offset: 0, 0
+  index: -1
+daiji_zui2
+  rotate: false
+  xy: 1174, 9
+  size: 78, 48
+  orig: 78, 48
+  offset: 0, 0
+  index: -1
+pao_1
+  rotate: false
+  xy: 2, 176
+  size: 132, 75
+  orig: 132, 75
+  offset: 0, 0
+  index: -1
+pao_2
+  rotate: false
+  xy: 2, 99
+  size: 132, 75
+  orig: 132, 75
+  offset: 0, 0
+  index: -1
+pao_3
+  rotate: false
+  xy: 672, 100
+  size: 132, 74
+  orig: 132, 74
+  offset: 0, 0
+  index: -1
+shengji/stage2/daiji_tou
+  rotate: false
+  xy: 1703, 158
+  size: 93, 93
+  orig: 93, 93
+  offset: 0, 0
+  index: -1
+shengji/stage2/pao_1
+  rotate: false
+  xy: 136, 176
+  size: 132, 75
+  orig: 132, 75
+  offset: 0, 0
+  index: -1
+shengji/stage2/pao_2
+  rotate: false
+  xy: 136, 99
+  size: 132, 75
+  orig: 132, 75
+  offset: 0, 0
+  index: -1
+shengji/stage2/pao_3
+  rotate: false
+  xy: 806, 177
+  size: 132, 74
+  orig: 132, 74
+  offset: 0, 0
+  index: -1
+shengji/stage2/tuo_tou
+  rotate: false
+  xy: 1509, 73
+  size: 89, 85
+  orig: 89, 85
+  offset: 0, 0
+  index: -1
+shengji/stage3/daiji_tou
+  rotate: false
+  xy: 1798, 158
+  size: 93, 93
+  orig: 93, 93
+  offset: 0, 0
+  index: -1
+shengji/stage3/pao_1
+  rotate: false
+  xy: 2, 22
+  size: 132, 75
+  orig: 132, 75
+  offset: 0, 0
+  index: -1
+shengji/stage3/pao_2
+  rotate: false
+  xy: 136, 22
+  size: 132, 75
+  orig: 132, 75
+  offset: 0, 0
+  index: -1
+shengji/stage3/pao_3
+  rotate: false
+  xy: 672, 24
+  size: 132, 74
+  orig: 132, 74
+  offset: 0, 0
+  index: -1
+shengji/stage3/tuo_tou
+  rotate: false
+  xy: 1600, 71
+  size: 89, 85
+  orig: 89, 85
+  offset: 0, 0
+  index: -1
+shengji/stage4/daiji_tou
+  rotate: false
+  xy: 1893, 158
+  size: 93, 93
+  orig: 93, 93
+  offset: 0, 0
+  index: -1
+shengji/stage4/pao_1
+  rotate: false
+  xy: 270, 176
+  size: 132, 75
+  orig: 132, 75
+  offset: 0, 0
+  index: -1
+shengji/stage4/pao_2
+  rotate: false
+  xy: 404, 176
+  size: 132, 75
+  orig: 132, 75
+  offset: 0, 0
+  index: -1
+shengji/stage4/pao_3
+  rotate: false
+  xy: 806, 101
+  size: 132, 74
+  orig: 132, 74
+  offset: 0, 0
+  index: -1
+shengji/stage4/tuo_tou
+  rotate: false
+  xy: 1311, 158
+  size: 97, 93
+  orig: 97, 93
+  offset: 0, 0
+  index: -1
+shengji/stage5/daiji_tou
+  rotate: false
+  xy: 1177, 59
+  size: 93, 93
+  orig: 93, 93
+  offset: 0, 0
+  index: -1
+shengji/stage5/pao_1
+  rotate: false
+  xy: 270, 99
+  size: 132, 75
+  orig: 132, 75
+  offset: 0, 0
+  index: -1
+shengji/stage5/pao_2
+  rotate: false
+  xy: 404, 99
+  size: 132, 75
+  orig: 132, 75
+  offset: 0, 0
+  index: -1
+shengji/stage5/pao_3
+  rotate: false
+  xy: 940, 177
+  size: 132, 74
+  orig: 132, 74
+  offset: 0, 0
+  index: -1
+shengji/stage5/tuo_tou
+  rotate: false
+  xy: 940, 2
+  size: 101, 97
+  orig: 101, 97
+  offset: 0, 0
+  index: -1
+shengji/stage6/daiji_tou
+  rotate: false
+  xy: 1074, 74
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+shengji/stage6/pao_1
+  rotate: false
+  xy: 270, 22
+  size: 132, 75
+  orig: 132, 75
+  offset: 0, 0
+  index: -1
+shengji/stage6/pao_2
+  rotate: false
+  xy: 404, 22
+  size: 132, 75
+  orig: 132, 75
+  offset: 0, 0
+  index: -1
+shengji/stage6/pao_3
+  rotate: false
+  xy: 806, 25
+  size: 132, 74
+  orig: 132, 74
+  offset: 0, 0
+  index: -1
+shengji/stage6/tuo_tou
+  rotate: false
+  xy: 1208, 154
+  size: 101, 97
+  orig: 101, 97
+  offset: 0, 0
+  index: -1
+shengji/stage7/daiji_tou
+  rotate: false
+  xy: 1311, 22
+  size: 93, 93
+  orig: 93, 93
+  offset: 0, 0
+  index: -1
+shengji/stage7/pao_1
+  rotate: false
+  xy: 538, 176
+  size: 132, 75
+  orig: 132, 75
+  offset: 0, 0
+  index: -1
+shengji/stage7/pao_2
+  rotate: false
+  xy: 672, 176
+  size: 132, 75
+  orig: 132, 75
+  offset: 0, 0
+  index: -1
+shengji/stage7/pao_3
+  rotate: false
+  xy: 940, 101
+  size: 132, 74
+  orig: 132, 74
+  offset: 0, 0
+  index: -1
+shengji/stage7/tuo_tou
+  rotate: false
+  xy: 1509, 160
+  size: 97, 91
+  orig: 97, 91
+  offset: 0, 0
+  index: -1
+shengji/stage8/daiji_tou
+  rotate: false
+  xy: 1406, 22
+  size: 93, 93
+  orig: 93, 93
+  offset: 0, 0
+  index: -1
+shengji/stage8/pao_1
+  rotate: false
+  xy: 538, 99
+  size: 132, 75
+  orig: 132, 75
+  offset: 0, 0
+  index: -1
+shengji/stage8/pao_2
+  rotate: false
+  xy: 538, 22
+  size: 132, 75
+  orig: 132, 75
+  offset: 0, 0
+  index: -1
+shengji/stage8/pao_3
+  rotate: false
+  xy: 1074, 177
+  size: 132, 74
+  orig: 132, 74
+  offset: 0, 0
+  index: -1
+shengji/stage8/tuo_tou
+  rotate: false
+  xy: 1410, 158
+  size: 97, 93
+  orig: 97, 93
+  offset: 0, 0
+  index: -1
+tuo_jiao1
+  rotate: false
+  xy: 1946, 115
+  size: 28, 41
+  orig: 28, 41
+  offset: 0, 0
+  index: -1
+tuo_jiao2
+  rotate: true
+  xy: 1443, 125
+  size: 31, 45
+  orig: 31, 45
+  offset: 0, 0
+  index: -1
+tuo_shenti
+  rotate: false
+  xy: 1867, 95
+  size: 77, 61
+  orig: 77, 61
+  offset: 0, 0
+  index: -1
+tuo_shou1
+  rotate: false
+  xy: 1119, 2
+  size: 35, 27
+  orig: 35, 27
+  offset: 0, 0
+  index: -1
+tuo_shou2
+  rotate: false
+  xy: 1501, 36
+  size: 31, 35
+  orig: 31, 35
+  offset: 0, 0
+  index: -1
+tuo_tou
+  rotate: false
+  xy: 1691, 71
+  size: 89, 85
+  orig: 89, 85
+  offset: 0, 0
+  index: -1

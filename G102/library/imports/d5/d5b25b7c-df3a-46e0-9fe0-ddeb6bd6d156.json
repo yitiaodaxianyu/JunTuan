@@ -1,0 +1,20 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "elite7.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Monster_53_Attack": {
+      "__uuid__": "bf2bf06d-aee6-4c12-877b-28f4a41476cc"
+    },
+    "Monster_54_Skill_1": {
+      "__uuid__": "53afdad4-3a57-402d-b782-65b49513ac3d"
+    },
+    "Monster_54_Skill_2": {
+      "__uuid__": "9e878467-1c60-4d3d-8c9f-77ee458bbaf7"
+    },
+    "Monster_56_Attack": {
+      "__uuid__": "ea1b8f80-d585-42b7-9967-75afbcf4c1da"
+    }
+  }
+}

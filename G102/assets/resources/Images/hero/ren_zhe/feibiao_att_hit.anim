@@ -1,0 +1,49 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "feibiao_att_hit",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.3333333333333333,
+  "sample": 15,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "155225b1-04c7-4677-a08a-26085f3caf54"
+            }
+          },
+          {
+            "frame": 0.06666666666666667,
+            "value": {
+              "__uuid__": "e2845bc8-d9ad-4811-a658-d0d6143fff21"
+            }
+          },
+          {
+            "frame": 0.13333333333333333,
+            "value": {
+              "__uuid__": "6459d40b-ee7d-4b83-8af6-b6d9a9ef3e72"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "d3f78166-ce63-406b-b787-1b57546a364e"
+            }
+          },
+          {
+            "frame": 0.26666666666666666,
+            "value": {
+              "__uuid__": "67ccd9c6-19f3-4fa1-9d4b-d7af2a0f2b10"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

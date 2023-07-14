@@ -1,0 +1,125 @@
+
+knight_back.png
+size: 1470,380
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 1079, 201
+  size: 174, 179
+  orig: 175, 182
+  offset: 0, 3
+  index: -1
+dog_body
+  rotate: false
+  xy: 465, 61
+  size: 275, 319
+  orig: 277, 321
+  offset: 1, 1
+  index: -1
+dog_head
+  rotate: false
+  xy: 888, 5
+  size: 153, 143
+  orig: 155, 145
+  offset: 1, 1
+  index: -1
+dog_weiba
+  rotate: false
+  xy: 1328, 246
+  size: 142, 134
+  orig: 142, 134
+  offset: 0, 0
+  index: -1
+dogleg
+  rotate: true
+  xy: 644, 8
+  size: 51, 76
+  orig: 54, 78
+  offset: 2, 1
+  index: -1
+dogleg2
+  rotate: false
+  xy: 1357, 0
+  size: 71, 83
+  orig: 73, 85
+  offset: 1, 1
+  index: -1
+hair
+  rotate: false
+  xy: 1176, 21
+  size: 78, 178
+  orig: 85, 178
+  offset: 7, 0
+  index: -1
+hair2
+  rotate: true
+  xy: 465, 5
+  size: 54, 177
+  orig: 54, 178
+  offset: 0, 1
+  index: -1
+hand
+  rotate: false
+  xy: 1255, 231
+  size: 71, 149
+  orig: 74, 152
+  offset: 2, 1
+  index: -1
+head
+  rotate: false
+  xy: 867, 150
+  size: 210, 230
+  orig: 212, 233
+  offset: 1, 2
+  index: -1
+left_hand
+  rotate: false
+  xy: 742, 142
+  size: 123, 238
+  orig: 142, 238
+  offset: 19, 0
+  index: -1
+left_leg
+  rotate: false
+  xy: 1043, 5
+  size: 131, 143
+  orig: 133, 145
+  offset: 1, 1
+  index: -1
+left_prop
+  rotate: false
+  xy: 742, 6
+  size: 144, 134
+  orig: 146, 136
+  offset: 1, 1
+  index: -1
+prop
+  rotate: true
+  xy: 0, 23
+  size: 357, 463
+  orig: 359, 465
+  offset: 1, 1
+  index: -1
+right_leg
+  rotate: true
+  xy: 1256, 38
+  size: 131, 99
+  orig: 135, 102
+  offset: 1, 2
+  index: -1
+right_prop
+  rotate: false
+  xy: 1357, 85
+  size: 84, 84
+  orig: 87, 86
+  offset: 2, 1
+  index: -1
+yao
+  rotate: false
+  xy: 1328, 171
+  size: 141, 73
+  orig: 144, 75
+  offset: 1, 1
+  index: -1

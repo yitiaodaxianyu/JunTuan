@@ -1,0 +1,1680 @@
+Manifest-Version: 1.0
+Created-By: 1.8.0_292 (BellSoft)
+
+Name: assets/src/JunTuan/src/configs/json2LuaFile.py
+SHA-256-Digest: 7P3h5AKLKac7qvqq9VXfRgFuzIZKVnlpc3764G30PCY=
+
+Name: assets/src/main.lua
+SHA-256-Digest: zpWeshXc/3qaAgwDi/ojxOhXoGvRi4i+wlOO6vtgo4Q=
+
+Name: assets/res/JunTuan/buy_energy.csb
+SHA-256-Digest: PcoHoglPgySrmblQCjBvoFcHF9S8A+IA7umY9daLLgU=
+
+Name: assets/src/cocos/framework/extends/SpriteEx.lua
+SHA-256-Digest: S+h0JSelFDne7Vztn5iqifB75pJX2TzFJJWp23n9+7Q=
+
+Name: assets/res/JunTuan/spine/enemy/guai_01.png
+SHA-256-Digest: kbraqnH9/oac7g6HmSkuVPwKJtc6UkKO+hA2YBCzeBI=
+
+Name: res/mipmap-xhdpi/ic_launcher.png
+SHA-256-Digest: aBbQ7gww7W0yQ/zEH/Djfz0wRh8Q2tbcONDnCH9Y8qQ=
+
+Name: assets/res/JunTuan/buy_gem.csb
+SHA-256-Digest: iv0PoA2oHgczFxrgvJ2rCXPhHomtaGByNUA0xsw85fs=
+
+Name: assets/res/JunTuan/spine/enemy/guai_18.json
+SHA-256-Digest: 2O5vMY7mkWJubV66lHQoO9wGfQwUjomrnQxTlKsEO6A=
+
+Name: assets/res/JunTuan/plist/1d556bb12.plist
+SHA-256-Digest: mE11IwqleIdm/vZ3vnHk4Dn5/+Q7MnLDbSxvtpD0jVI=
+
+Name: assets/res/JunTuan/spine/pet/mofajingling.png
+SHA-256-Digest: bLzQPUY4W01Oq0rgCuWgQQ/DoLk+QeKOtff5kOTcTG4=
+
+Name: assets/src/JunTuan/src/views/EquipGetView.lua
+SHA-256-Digest: AjNVImyCKU3XBaFFXuKVHm2z5npBF0Njxo7HajQqHvk=
+
+Name: assets/res/JunTuan/happy_get.csb
+SHA-256-Digest: p1QD9iwZgFpuO11a8IV+GhFyGDzRUaCx77iWZXiHifU=
+
+Name: assets/res/JunTuan/plist/game_jtdzz.plist
+SHA-256-Digest: qBHqjqOweGRMegCG1dA6xtGBCelpxKBsleBMpOuZBHc=
+
+Name: assets/res/JunTuan/plist/reward_jtdzz.plist
+SHA-256-Digest: gQCvvsyxNRHEtN5OzF6uG5+gMk56o92Q7ie1YsSPh7w=
+
+Name: assets/src/JunTuan/src/configs/ShopCfg.lua
+SHA-256-Digest: ihSgOj6BUYs96yER4n6UAwHzGu4hw9zYvJSI3rpOdF0=
+
+Name: assets/res/JunTuan/plist/1774e1ffe.png
+SHA-256-Digest: ozTz2Krhyk5lmcc2DnKWQk6+yrC307SU/T4JUIkfj/M=
+
+Name: assets/res/JunTuan/sound/gugu.mp3
+SHA-256-Digest: CH43BPFmz7r0U+UkBh6ioSGl0hv36SfnJ8G6PY+rePc=
+
+Name: assets/res/JunTuan/sound/maomaoBullet.mp3
+SHA-256-Digest: baJ8i+xBfiEOsHvNTgQHZvxEQHwqNx51uX/yUKPdq5w=
+
+Name: assets/src/JunTuan/src/controllers/BulletManager.lua
+SHA-256-Digest: O0Z4L3y5ALQmTNlC8/3Het81A3oBz0tR4eTEVSSu2Xk=
+
+Name: assets/res/JunTuan/sound/unAtt.mp3
+SHA-256-Digest: B2rPv7QnOZNzlRpRrimdiUH+7MH92wzn8jGVYqPDdJw=
+
+Name: assets/src/JunTuan/src/controllers/NoticeController.lua
+SHA-256-Digest: GqOhgf1yPvbTUKFIo5OlxLRDiMiCcBS2LSwLcncvrzY=
+
+Name: assets/res/JunTuan/img/loadingSceneBg.jpg
+SHA-256-Digest: 5WQF4+Z2H3199CZKrpIvjHnXIxuzgrNn7YLwHzP08e0=
+
+Name: assets/res/JunTuan/sound/die_xiezi.mp3
+SHA-256-Digest: J3t1A3yXbR+ZolQBGXwcpgYisvoM44KpzDleDJRHtDM=
+
+Name: assets/res/JunTuan/spine/effect/bingdong.png
+SHA-256-Digest: oi70zJg7fvfCaYb54KDuOVukln1B4W4cyeM80NclMWQ=
+
+Name: assets/res/JunTuan/sound/die_jiangshi.mp3
+SHA-256-Digest: rEfjMB9PaRMOT0rE6vlDXRC1Bs81EnuJOtnNTcQXAjQ=
+
+Name: assets/res/JunTuan/spine/enemy/guai_02.json
+SHA-256-Digest: cfUxZA83K+az/vnxRLnPSq5YR5axHqIsMLxSvJ4z/Go=
+
+Name: assets/res/JunTuan/shopLayer.csb
+SHA-256-Digest: MM6wDNw35z6IBzJQJUmoZUM8o6o1w3EYr69o4npLeJ4=
+
+Name: assets/res/JunTuan/spine/effect/kuangbao.png
+SHA-256-Digest: UrWRFhxg0+PrGoN0ARnRD/ogygzXtbf0QQSuofz1mKw=
+
+Name: assets/res/JunTuan/spine/shangdian_kaibaoxiang.atlas
+SHA-256-Digest: tewfxD1F4++oEQANFkqeVrQQ2LoDyeUOvoipD/mrYPM=
+
+Name: assets/src/JunTuan/src/configs/SceneLevelCfg.lua
+SHA-256-Digest: AXFWQrGY93nJf7kSjCdnxCsHAkh2nBc4MByF72Jw3sw=
+
+Name: assets/res/JunTuan/sound/die_shitou.mp3
+SHA-256-Digest: qj3gwxqUVsnTqAxWQZiDviP/++wSMxPSdt5hY01uBx8=
+
+Name: assets/src/JunTuan/src/views/SetView.lua
+SHA-256-Digest: V8pNDg3c1AfQegiJb1V+Wcjvlk3eRH3EgLVNzySui8M=
+
+Name: assets/src/protobuf/HttpInterfacePB_pb.lua
+SHA-256-Digest: zpXWAlLc/0Xo7TVupl8Y+OG415AokBL8BrityBXDS94=
+
+Name: assets/res/JunTuan/plist/18b323ccc.plist
+SHA-256-Digest: tATCO3nIOvAW2js5Mm0W5sI6+QuCnyZWenjjQ32CLlI=
+
+Name: resources.arsc
+SHA-256-Digest: dIKK0Mnyj1QudSDL6J2yFrvFGlsyYPMGUGs87cLV3J4=
+
+Name: assets/res/JunTuan/sound/bgm3.mp3
+SHA-256-Digest: K3wpTmxZJhP8b2r/Huz1CQlOFSe6XPLuHTchCc8vEik=
+
+Name: assets/src/app/Manager/NodeCacheManager.lua
+SHA-256-Digest: dTbNQM09Vz8ZZ5jXirTD9SvMxFeZF1PFE2Jv2nX8GNs=
+
+Name: assets/res/JunTuan/spine/player/03_01.json
+SHA-256-Digest: tqqENjiKFNsZ29JAIBlxkb6aLf0qT2psmjBZPc6brZ0=
+
+Name: assets/src/Util/SqliteUtil.lua
+SHA-256-Digest: AdnSZ4CEpb6FxwuG8RR3c0sSC3JzgpSztZGAOv1e9hg=
+
+Name: assets/src/ChannelVersion.lua
+SHA-256-Digest: O9dbLZSjqIvpBPPazrhWybMhT6WDKmo4htxMZrtD1IM=
+
+Name: assets/src/JunTuan/src/models/Skill.lua
+SHA-256-Digest: kMoj2ZaVHFqjnRAcMY19vRb1b1OL7UVSzlPnFYaQNIg=
+
+Name: assets/res/JunTuan/spine/effect/kuangbao.json
+SHA-256-Digest: c0y1sSDHW8Z0N9PPsU81i4Hiqk8uwwQiZEWYoCt6jj8=
+
+Name: assets/res/JunTuan/spine/pet/xiubujiang.json
+SHA-256-Digest: LnbtBh03ZSVHq0mj0wBoMqZx/5r04TL/PU/13ccJgCA=
+
+Name: assets/src/JunTuan/src/models/BxGuai.lua
+SHA-256-Digest: HZLjuSGFYhxr104vGp+7N8Am2CNVnsb4YfIyqwBkGlI=
+
+Name: assets/src/JunTuan/src/views/IllustratedView.lua
+SHA-256-Digest: DMLAqIhxFy9Cv71jykim8LAqt4l+LN71Wb8dsepmz9M=
+
+Name: assets/res/JunTuan/sound/fireSpriteAttack.mp3
+SHA-256-Digest: lKreQ3vEMwn2J/YZxLuQBRDy/Hmbe7JMxX8FRc5uwaI=
+
+Name: assets/src/JunTuan/src/views/HomeView.lua
+SHA-256-Digest: z4mMqbAR9OUiinVJADP19sh7qyF3QSNRE9tmWHGCzb0=
+
+Name: assets/res/JunTuan/img/bg6.jpg
+SHA-256-Digest: ntMPgsWY9v/LCcKdXLI4TkTpaD5J9W9rhqPmpfcnv0Q=
+
+Name: res/xml/network_security_config.xml
+SHA-256-Digest: kPc186NoK+7YEtsGhGfF/y0/OUFgRsVi+9Rj3Gw7WNc=
+
+Name: assets/src/app/DB/DBCenter.lua
+SHA-256-Digest: 0iHidaP0yTxLeN++L4tX0WAkpIIwtjqlhUzJfcXqu6M=
+
+Name: assets/res/JunTuan/spine/pet/shuangzixing2.png
+SHA-256-Digest: 435+VYG+4Y4VISq5uLBtdgz0/0zFqKEqAjJarEVsn6I=
+
+Name: assets/res/JunTuan/spine/enemy/guai_21.atlas
+SHA-256-Digest: 4ctw4ujl0krIG9rDv5lIB1kYoGSA4KzU5UCqlTyxOjo=
+
+Name: assets/src/JunTuan/src/views/GameTipView.lua
+SHA-256-Digest: f1x4niE1Ak/E7mQWpH53/QrAMNeg+QxtOnWdeMxiBf8=
+
+Name: assets/src/JunTuan/src/proto/GamePB.proto
+SHA-256-Digest: r1HMpx/ntbWePAalu7tGRlw1CEzC3v1eO9Q0hJmB7c0=
+
+Name: assets/src/cocos/cocos2d/deprecated.lua
+SHA-256-Digest: LVVMEiFgo2L/QI+0/1Gy2rgHm8xv1HvNHMGWvLhAgsM=
+
+Name: assets/src/cocos/cocos2d/luaoc.lua
+SHA-256-Digest: oMWvoZ+7cxAxzO5Oljbz8dVEXl/fXGNN46OVodxEL9s=
+
+Name: assets/src/cocos/cocosdenshion/DeprecatedCocosDenshionFunc.lua
+SHA-256-Digest: kEFhWsC6/4MaSbvrLYaDqGIE+T1PznW5eLCLi/DFLC0=
+
+Name: assets/res/JunTuan/sound/rewardBox1.mp3
+SHA-256-Digest: weJ1+o6LS6z8Q4mp8ahquHO+ZXTRlsJeTAzpS2eoP/8=
+
+Name: assets/src/app/Manager/Net/ChatNetManager.lua
+SHA-256-Digest: iAAMXCam6APFkAj2b9H785b97ubpwpeYcAATngnVF68=
+
+Name: assets/src/config/viplv.lua
+SHA-256-Digest: Cpgz/8iZ+h8eCI11xK5UYXGzQu0bDMHKjZUjOyEaog4=
+
+Name: assets/src/JunTuan/src/configs/HeroCfg.lua
+SHA-256-Digest: Ts4FuoVa9WBp7Z/iUh1z90j1FsCXdhRNUoVfc92+2xE=
+
+Name: assets/res/JunTuan/heroLayer.csb
+SHA-256-Digest: +aGNgAPPir7y8BHRDCKgnY5Pzy9/ciUexsiGCyU6V6A=
+
+Name: assets/res/JunTuan/spine/enemy/guai_08.png
+SHA-256-Digest: 9/IcF+usnls99r3CvLpjPenhNoVN8Ja8clKXfSqgSL0=
+
+Name: assets/res/JunTuan/spine/enemy/guai_16.png
+SHA-256-Digest: gWI6PATgiPVZpz6+syXVF9vNCg/lbG/h9kY3RAdVeIo=
+
+Name: assets/src/JunTuan/src/views/MainView.lua
+SHA-256-Digest: EqaP4L82I9qFf0bD70GQ5VLePyXhxig9RdVJ2zMVDis=
+
+Name: assets/res/JunTuan/sound/compound.mp3
+SHA-256-Digest: GNNMc61a5DpqUEe57k06MP10WyLPleNOZOdyCFB426A=
+
+Name: res/mipmap-xxhdpi/ic_launcher.png
+SHA-256-Digest: WqP0+KuiwED5Q15gzP0oY0CTmAQ5VENEM1MQSI98M7M=
+
+Name: assets/src/cocos/ui/experimentalUIConstants.lua
+SHA-256-Digest: mfTCVatBsptu2xrZT8fE8F4tgDsrA7IQ81D1x1EQwx0=
+
+Name: assets/res/JunTuan/sound/hezunateAttack.mp3
+SHA-256-Digest: 3UqdAV9jmfOmGQ+z6LjUGOJeK/F7XYH+7BzjSlvWeFA=
+
+Name: assets/res/JunTuan/spine/enemy/guai_05.atlas
+SHA-256-Digest: Wh+RCAoJLMGCD1qFp2wo+pACKe8Pzc7ghPYXhqs+9bc=
+
+Name: assets/src/cocos/cocos2d/OpenglConstants.lua
+SHA-256-Digest: w/mZ7X2KrRWFJpiUN91V5oF6TDdfgK8kUMtLu526rdo=
+
+Name: assets/res/JunTuan/sound/huahua.mp3
+SHA-256-Digest: lILVMtEH0Um3P0NcV9I1BUYKs0y6tN6r2K44y0GjtVU=
+
+Name: assets/src/macros/CMD_Game.lua
+SHA-256-Digest: hT2kQw/5hP+sz1vM6x7cVzKUAq9vwRNsRqVNbyNZhOs=
+
+Name: assets/src/cocos/physics3d/physics3d-constants.lua
+SHA-256-Digest: +egWUQ+qNwk4I5yQq4gq8IwEoclrBmS/pGtHoVSwzN8=
+
+Name: assets/res/JunTuan/sound/special_wheel.mp3
+SHA-256-Digest: Owhvu9BieBykBR3blMeNC7X5yYMhCpdSK/U3bOr7RW4=
+
+Name: assets/src/cocos/cocos2d/bitExtend.lua
+SHA-256-Digest: EXRxydVfXZL7pwcENQC8rWnSlKUm3iCx+BnSeTz3GpY=
+
+Name: assets/res/JunTuan/sound/die_guaishou.mp3
+SHA-256-Digest: g1YZfOFzWqrTxxYhGWZnzoo6rYWex8n3t+cdgGnOuPQ=
+
+Name: assets/src/cocos/framework/audio.lua
+SHA-256-Digest: WLzGKIRQm5RdGgI6GXNhjbE6hPbdoucEDqMF3EWSqcE=
+
+Name: assets/src/cocos/init.lua
+SHA-256-Digest: czjrG2sYjxgM7LZMaY7gnc3RFuThN2pmAoialuQNO5k=
+
+Name: assets/res/JunTuan/plist/1774e1ffe.plist
+SHA-256-Digest: ZvAZgRD9vCDupFdGmpWP3LkfLf8RWDh0kHUKcSM+Vjg=
+
+Name: assets/res/JunTuan/sound/bgm4.mp3
+SHA-256-Digest: sirEfcznPE0ThiTYg1s4ubU6L/RO2AhK26k+MAq2BHg=
+
+Name: assets/res/JunTuan/spine/effect/daodanmiaozhun.json
+SHA-256-Digest: PqePy4HwREx6NNdH22X14zgNVEH6cNMJG2eXZHx0R+A=
+
+Name: assets/res/JunTuan/plist/pop_jtdzz.plist
+SHA-256-Digest: /ljr5JbYoDqCIKUJspgl/st2yhHCB51p5SyXpkfNgeY=
+
+Name: assets/src/cocos/framework/extends/UISlider.lua
+SHA-256-Digest: EdEE/gQebygU13MnuH/FKhWjzKOLjZAEmn3a4cJFqlY=
+
+Name: assets/src/app/Manager/Net/ChatSendManager.lua
+SHA-256-Digest: z2dy6t62xZYnOHDLwYL7n7RoF/4j/V98zRlEx7LuY5s=
+
+Name: assets/res/JunTuan/spine/pet/xiubujiang.png
+SHA-256-Digest: K8RguIK2tdJotneOEpvE61dUJCtbAqSK1f5YZojU/Eo=
+
+Name: assets/src/cocos/cocostudio/DeprecatedCocoStudioFunc.lua
+SHA-256-Digest: qlinbocR8Np7LkxIORK6AT0IrF4GRqya6ytciIxxly0=
+
+Name: assets/res/JunTuan/spine/player/06_01.png
+SHA-256-Digest: T8W1HIY4plSDwq430bXuoztjri2iGZW0ihm98/sp7Gc=
+
+Name: assets/res/JunTuan/plist/field_jtdzz.png
+SHA-256-Digest: 4PAQoW/37XVcFqdXl8HmZyNjdwPbIs9L/Hj9P/81nMs=
+
+Name: assets/res/JunTuan/spine/player/03_01.png
+SHA-256-Digest: jKe1pB46I8gPHTuGajJlBfjTtlV6pTp69sLLT60vIlY=
+
+Name: assets/res/JunTuan/spine/enemy/guai_09.json
+SHA-256-Digest: fmsfc3pMg+6xPkVbARPdjT9DJ2/OHYHSToIZZBxwodE=
+
+Name: assets/res/JunTuan/img/circle_mask.png
+SHA-256-Digest: x0BZ3eBpmqYTnlqBiOK6dwElxOwfUyt7ICmDJ2lueZo=
+
+Name: assets/res/JunTuan/spine/player/06_01.atlas
+SHA-256-Digest: DheODR6DN5FbM9lH0dw9awsNld+O71Mfz2swEzoX8v0=
+
+Name: assets/src/JunTuan/src/views/GameFailView.lua
+SHA-256-Digest: 95B8tITDNUd0PM5PjEa6vyMTSG8WHvf7nR2NyFFHinc=
+
+Name: assets/niihhh.dat
+SHA-256-Digest: t4mB4/tP1LRf/zwpATTvoQBzxC8y9TZ6lB/pGIFS52Y=
+
+Name: assets/res/JunTuan/sound/main.mp3
+SHA-256-Digest: rvQIE6w6aICWxLkAXpdHfh9AHMpGfJepbL9C31Zr1Ag=
+
+Name: assets/res/JunTuan/sound/die_zhizhu.mp3
+SHA-256-Digest: RBbXa06QbGnefl7tkI7/73YfJrwXydUDcu0Ovf/6wEU=
+
+Name: assets/src/cocos/cocos2d/Cocos2dConstants.lua
+SHA-256-Digest: KhYbP1Le1T/MYaQCV511ntmqe6j5VGn1jqtBvJ9qHa4=
+
+Name: assets/src/app/Model/UserData.lua
+SHA-256-Digest: 56orM2YGqXQXJKoEs79/wVuu78xj0M4WPPKcx8x7IYQ=
+
+Name: assets/res/JunTuan/spine/enemy/guai_10.png
+SHA-256-Digest: pSw78jEtkscMr+Jb+uWV5PSrMn1uVqH+BgRXH81w95Y=
+
+Name: assets/src/app/DB/SessionDB.lua
+SHA-256-Digest: +qtABCvigJeqULGuhbiar10+6b2gt643HBK1LLEw+p0=
+
+Name: assets/src/JunTuan/src/views/MilepostView.lua
+SHA-256-Digest: SWYq/hRt3+fLfCgoCmgOnSG30Z2rBtjnYqlFCfQ9fy4=
+
+Name: assets/src/cocos/controller/ControllerConstants.lua
+SHA-256-Digest: ml4yj7JdfZuXL4s16RbNc/4Lx3yVV3sHd/E8TDGTFbw=
+
+Name: assets/res/JunTuan/sound/die_zipangxie.mp3
+SHA-256-Digest: aauioDrLex65yOXHDPZt/DA4SXDXj0P9+5XRQSzOGIM=
+
+Name: assets/res/JunTuan/spine/pet/huojingling.atlas
+SHA-256-Digest: CD69knUo2HMkf5e7FLCrTjwT6afXSR2cQtivj/wQhhU=
+
+Name: assets/res/JunTuan/spine/enemy/guai_18.atlas
+SHA-256-Digest: WZI+5j5sK3j6VNkV4uqLOg1l1+aPmeprErAkFcRUxLM=
+
+Name: assets/res/JunTuan/spine/pet/dandanji.json
+SHA-256-Digest: gzTwQ+GIw4/iEj7uRzEZuXu9QpOHtlp4yeK02UNjico=
+
+Name: assets/src/cocos/extension/ExtensionConstants.lua
+SHA-256-Digest: +Gnc+axKKc2eBaO8/WwFM4ZCjJEvi8YNVKLHrG5RCTM=
+
+Name: assets/src/JunTuan/src/views/RankView.lua
+SHA-256-Digest: lqWzZzQdnwGQzWFqQeGRuBqxLryoomJ05FBpdYhgTKY=
+
+Name: assets/res/JunTuan/spine/effect/daodanbaozha.atlas
+SHA-256-Digest: nZpwF26IkHH6GummL9+dCB/NtPbmRI3wc84aLTmXOTo=
+
+Name: assets/res/JunTuan/unlock_equip.csb
+SHA-256-Digest: jk8mVxRCd4zfWKcddPLxbEN6bf9q6aG3mu/a8/POGGI=
+
+Name: assets/res/JunTuan/spine/dici.png
+SHA-256-Digest: bLuQPZgviy3lcoFvUtcsoz5AXJFJSlGrcKSQKKPgsSo=
+
+Name: assets/res/JunTuan/img/bg7.jpg
+SHA-256-Digest: p/ar+TCiqLSDwrW3+MrBu/CWQuBzh/X6mlSuImBSRUU=
+
+Name: assets/res/JunTuan/font/damage.png
+SHA-256-Digest: 68ilgX3j/6eTVnzDxXWrOTtJmQ2ufq+sJ2PtDK49hmc=
+
+Name: assets/src/cocos/framework/init.lua
+SHA-256-Digest: 2hxrXkANP3D5mvCnS7dS8BXM/CM2bemp4SgtI1mEpK0=
+
+Name: assets/src/JunTuan/src/views/SignView.lua
+SHA-256-Digest: vTK9LtbZAbxABvF1QlQJKpFOqvhDx5ORfV6OelpfMsI=
+
+Name: assets/res/JunTuan/spine/dici.atlas
+SHA-256-Digest: VxRaWZHzsowzcmC73yiV8PKFBr1r693y1SQlooiLCPk=
+
+Name: assets/res/JunTuan/spine/pet/kuloufashi.png
+SHA-256-Digest: UgiKWGyOb4uDc6oDpRicj2KH55QRdTSwozY9s8s7Zm0=
+
+Name: assets/res/JunTuan/spine/enemy/guai_22.json
+SHA-256-Digest: fWVi5S1wfLZQW6Unoux5HuLRhrU6+ZuM4NaZjoNQhp8=
+
+Name: assets/src/cocos/ui/DeprecatedUIFunc.lua
+SHA-256-Digest: SDk1Qo1kRoIrlvFAe7ekiEFSFwzC9rmrdGsSnHoUM3A=
+
+Name: assets/src/JunTuan/src/models/Pet.lua
+SHA-256-Digest: xQyc98atH43Scxnd3xEHtlmpsBkVZINVY58cnl8mCh0=
+
+Name: assets/src/JunTuan/src/configs/GuideTipCfg.lua
+SHA-256-Digest: M1oM3gpWp83ix3lrb+oLyjrsk3FILEqErRrZA5pSi2s=
+
+Name: assets/res/JunTuan/spine/effect/yuekai-tx.png
+SHA-256-Digest: JUt8kH3Hif0JyUmMIrk8FeqYMT81PqEGimslhoYE/LY=
+
+Name: assets/res/JunTuan/spine/enemy/guai_02.atlas
+SHA-256-Digest: OL63yJgtM+5Ip0EoLQTQNqfeVfFQjfQmZiGJHH4UMCI=
+
+Name: assets/res/JunTuan/plist/1abd60d94.png
+SHA-256-Digest: eyrWEYJYKzPSPsXXy6+e+KcL554W65nZgVf5j1KuK2c=
+
+Name: assets/res/JunTuan/spine/enemy/guai_09.png
+SHA-256-Digest: 59rI8MaB45MaNtAtZWOyQLPYvfD5JRGLYuDbSzijH+0=
+
+Name: assets/src/JunTuan/src/configs/GameDataCfg.lua
+SHA-256-Digest: HChphgU0vE1/jsaVIUfzeDCukbcVb21f87PHPUOM3xY=
+
+Name: assets/res/JunTuan/spine/enemy/guai_15.png
+SHA-256-Digest: i47McZWjujreADkH68Pi/cf3brF76H3IA1EWCtWEbt0=
+
+Name: assets/src/JunTuan/src/network/CMD_Game.lua
+SHA-256-Digest: NV3oZ69z5cs5gB5fuGW+JEeOU3arjtjctXRlWxKUqWI=
+
+Name: lib/armeabi-v7a/libcocos2dlua.so
+SHA-256-Digest: UGOlWrE8ijGMd/pNTqAf8HctRmdVoL/nBB3PrduZ/I0=
+
+Name: assets/res/JunTuan/hero_equip.csb
+SHA-256-Digest: LLzj34sqfEV0/HFblk11FzjZDjqOxqfa5hvxIZMGcfY=
+
+Name: assets/src/app/Component/ClippingNodeUtils.lua
+SHA-256-Digest: XvnqR2XZbgW8b7XGgh5axXqpiGruEkWAYWVAUTn8Vsk=
+
+Name: assets/src/JunTuan/src/configs/GameTxtCfg.lua
+SHA-256-Digest: E+Xi+gp5lmEkNEeOgpGDS52eZpliu17YVSK9QVXX7Yk=
+
+Name: assets/src/cocos/framework/extends/UIPageView.lua
+SHA-256-Digest: 6jP5GUNdirFIYzpnJuk43LeMhtllNK8Hzm/TnxBVH68=
+
+Name: assets/res/JunTuan/spine/pet/huojingling.json
+SHA-256-Digest: tjSG26kSOkkhV5kU4IXS6z7UNwBdeE5Yilee4Noh12Y=
+
+Name: assets/res/JunTuan/sign_week.csb
+SHA-256-Digest: sUK7CWhpKPXgRJcw2FiVYsZdGZYAFo+GyNrNVdJGfAc=
+
+Name: assets/res/JunTuan/sound/huadong.mp3
+SHA-256-Digest: HpVm0OFwuJRpozlP5A6uzLQM7xOayb7aRMSto3qZ7HM=
+
+Name: assets/res/JunTuan/spine/enemy/guai_20.json
+SHA-256-Digest: NUrRggSBrf1ky3XhEWF5uuj0PhG5Qi6lgUAvb8oygZg=
+
+Name: assets/res/JunTuan/spine/kaishianniu.png
+SHA-256-Digest: 9D3FoK1dgOOf+aWh/Mj+iMmLp9/H9nnw5FWR12S0Co0=
+
+Name: assets/res/JunTuan/buy_gold.csb
+SHA-256-Digest: JMB2m0Mqrwx8CnxgQl3gt7gnHDBOVucDUdvD3RqALt8=
+
+Name: assets/res/JunTuan/sound/wheel.mp3
+SHA-256-Digest: ktbHx4nCgHLVd6QeSuCiU4ve3fNjPccuLGfi1fMgR/U=
+
+Name: assets/res/JunTuan/spine/player/04_01.atlas
+SHA-256-Digest: /iVT2+QCdZu6Qru1hCLuy6mkqhq5uK76OcKImVXRhXQ=
+
+Name: assets/src/cocos/network/DeprecatedNetworkClass.lua
+SHA-256-Digest: r5NKrmVGk4q+rJR3U77cESZ5aMwzV+pjB9iaL8jKEUs=
+
+Name: assets/res/JunTuan/plist/reward_jtdzz.png
+SHA-256-Digest: 1kcms8T+2fBBuXUqSPRNoo8gC2E825bW9zqRdhnH2qA=
+
+Name: assets/res/JunTuan/plist/1761a4d8a.plist
+SHA-256-Digest: pLmKE7TMovmslztKXri/nXhJOteLlvSdXUQKDJ91gak=
+
+Name: assets/res/JunTuan/task_daily.csb
+SHA-256-Digest: DgeyuUFzy3Yum1iCpqortKkuXJ91OkkrGBytFNgMfwM=
+
+Name: assets/res/JunTuan/spine/enemy/guai_17.json
+SHA-256-Digest: loKd1o/fo8uZUS56YPUIMav+WaSRFwfYyCzV1vS1wBQ=
+
+Name: assets/res/JunTuan/spine/pet/shuangzixing2.json
+SHA-256-Digest: PcaKWg4a53xBLtP835/Ytj8wqBSamoeJ64mvrj4y0H8=
+
+Name: assets/src/Util/DownLoadUtil.lua
+SHA-256-Digest: JShO5b6QkUr5Z4NSl+Iik4xz7VafRW0KiegXaauDc2E=
+
+Name: assets/res/JunTuan/sound/long.mp3
+SHA-256-Digest: 2nbL2pDRgUzBwIa3OWEG4fZiaY1+b+w/FSgDdA0wq80=
+
+Name: assets/res/JunTuan/sound/paopao.mp3
+SHA-256-Digest: BRSfRMEzSb5kbQ2i8vSGl3Nyjpe/Ea20c+C9J4WiGsw=
+
+Name: assets/res/JunTuan/spine/enemy/guai_03.json
+SHA-256-Digest: UfpeY4XJup4TiQHbhGjraUQIZdD/z8NUBmFBAs6DCfQ=
+
+Name: assets/res/JunTuan/spine/effect/yuekai-tx.json
+SHA-256-Digest: YhpvbA0hY21BMnIqSImx9I51SfE0uRloB0pVV3wLlpA=
+
+Name: assets/res/JunTuan/ranking_list.csb
+SHA-256-Digest: d0VYEyxJcaiZZl6815f+QiJr2OENppomJVKxm2HWlfA=
+
+Name: assets/res/JunTuan/spine/enemy/guai_05.json
+SHA-256-Digest: JuaFHmu0zti6iH/pOYTZP6peQwy3Rt6P1yeyYHLwhXE=
+
+Name: assets/src/cocos/cocos2d/luaj.lua
+SHA-256-Digest: MUsorSX3zRZWZdQLmIshELQgNmyqy5j9P7Wqll+bs6g=
+
+Name: assets/src/JunTuan/src/models/Bullet.lua
+SHA-256-Digest: VDs/i9KYmO/TUcjTMI8x215SpwpeC8EsLrzo1TOYJTo=
+
+Name: assets/res/JunTuan/img/bg4.jpg
+SHA-256-Digest: NqA+ZxfEUb5n5MhrL93qg5SA4i1NMx2cFtQdPv5CwQc=
+
+Name: assets/res/JunTuan/spine/win.png
+SHA-256-Digest: zRqVWF3cYLeLfswSEZOCsqnPEjGh3+NxU/S0EfgppAA=
+
+Name: assets/res/JunTuan/sound/bgm1.mp3
+SHA-256-Digest: DK16tRlfoZDIF5YrXkgVwphUhM7b71Sq1BxqeLS2KNM=
+
+Name: assets/res/JunTuan/plist/public_jtdzz.png
+SHA-256-Digest: a3/8CcuhyZZgPGv0sdsyJxk/BCRD85f3iH76R6PYlcU=
+
+Name: assets/src/Util/HttpUtil.lua
+SHA-256-Digest: xSCXN/O914B+g7FrAmlhlN8YIwYX4eig+5mRWeLfrZo=
+
+Name: assets/res/JunTuan/sound/daZao.mp3
+SHA-256-Digest: BnNf7s5WeZbW98vcyACIZXChfoq5Z2PWPKZ5oU5Fsbc=
+
+Name: assets/res/JunTuan/buy_pay.csb
+SHA-256-Digest: aZ0KD42ks8Hx5F/+HU0NevOzNUFFuFbyKFPPCwR2djQ=
+
+Name: assets/res/JunTuan/sound/huahuaAttack.mp3
+SHA-256-Digest: f3gFu9aHlOyPvlg6YEeMjTpxtslbWtElEK8IVGyw4x4=
+
+Name: assets/src/JunTuan/src/configs/PropCfg.lua
+SHA-256-Digest: xFvTGQdeN2cZhiElnPHUTNl99xl6aZc7sVcT0SeKPlM=
+
+Name: assets/res/JunTuan/sound/hit_dici.mp3
+SHA-256-Digest: CXO448l1mamhtVeHqJB914RF2YNmn/Rz8s4u5vqQAes=
+
+Name: assets/src/cocos/cocostudio/CocoStudio.lua
+SHA-256-Digest: vdJnDiTXyn6fDynz6nEvwsN0rjyO1a2PupavHRcRUT0=
+
+Name: assets/res/JunTuan/sound/dici2.mp3
+SHA-256-Digest: atGkxw4jBfTfELhVrL+/4dOgkTrj7rmV2o4zqjLhDqE=
+
+Name: assets/src/Util/PhotoUtil.lua
+SHA-256-Digest: Ymym+alNNx0thyseCYGnGXSHRi3KHMszZ6FmV1/KQNc=
+
+Name: assets/src/JunTuan/src/configs/SkillCfg.lua
+SHA-256-Digest: gS2vAcUDzz+sQFo2DYG1Z0RteMR7njijYpUL0f7nfCA=
+
+Name: res/xml/provider_paths.xml
+SHA-256-Digest: 4VaglvkoZezqK6AtlRANLQkRUB+Vvqo8EkgCA/oHrHg=
+
+Name: assets/res/JunTuan/spine/enemy/guai_06.png
+SHA-256-Digest: rArdSfJRzQGVFFjW/d78KnrNjS2UlgNkx4UDom+VZV8=
+
+Name: assets/src/JunTuan/src/views/OfflineView.lua
+SHA-256-Digest: oSyC/bu6uJ+9SD6Rr+WeY7IvU4Ym/jf2csMoSMi9Y8Q=
+
+Name: assets/res/JunTuan/sound/huishou.mp3
+SHA-256-Digest: +f5ELpcVzPhiq9Phj/o+VdHK2A37J4vmeRS+tG6cqGw=
+
+Name: assets/res/JunTuan/sound/boom.mp3
+SHA-256-Digest: wTpDZc5L7vbcd9IGB1Kc2EgsVt5E6o9T0LzuJ35zyM4=
+
+Name: assets/src/protobuf/support/wire_format.lua
+SHA-256-Digest: xSZwXSqAOk7oNEELFmAZ08kPcUaCAXn9oNPdqHrW/FM=
+
+Name: assets/res/JunTuan/img/bg_loading_jtdzz.jpg
+SHA-256-Digest: aVZSEx/NfJM7katzn0QaTlGHl+YqaVIPkQf4Cq9Gs6o=
+
+Name: assets/res/JunTuan/spine/pet/didiyoulong.png
+SHA-256-Digest: yZn4q4gimLR4/XJ6DT8/Zr6zBjE8LsIP539FjiWwEik=
+
+Name: assets/res/JunTuan/sound/die_nangua.mp3
+SHA-256-Digest: ZnrcWx5CJIbnY61wOE+akACktfV9vUCHJtKL8s4FpCQ=
+
+Name: assets/res/JunTuan/spine/kaishianniu.json
+SHA-256-Digest: kPE9rLTgzo3aymN+DFP9VJf1dt7VPQeMFNScFJeCg3U=
+
+Name: assets/res/JunTuan/YOUYUAN.TTF
+SHA-256-Digest: dl4VPyseeHkYCCHDI20Gi01jcnksD8f+YTCYH7GM7pA=
+
+Name: assets/res/JunTuan/sound/die_she.mp3
+SHA-256-Digest: kVnAWaGyekpjUnyOT9T9qQj7FOxXdR/pe58Z1N4YTyM=
+
+Name: assets/src/JunTuan/src/views/HeroView.lua
+SHA-256-Digest: Sa728bAXtoM3lL0Q/TnbyF27tB0xFttcViiNdDn/yw4=
+
+Name: assets/src/cocos/cocos2d/functions.lua
+SHA-256-Digest: yMdn6S/k4ehZ/tSagcvIJxiCkde/AK9Z54IPGzW9AW0=
+
+Name: assets/res/JunTuan/sound/die_mutou.mp3
+SHA-256-Digest: LtE+7sYOc/RafGfGcEN5rESXgC0LXdErWoLk8dXerAk=
+
+Name: assets/res/JunTuan/spine/shangdian_kaibaoxiang.png
+SHA-256-Digest: o6B2l65rwhIFJsKZjN3REEazlI76oT7Nr4I9EWCPEKU=
+
+Name: assets/src/JunTuan/src/views/GuideView.lua
+SHA-256-Digest: D2QTi9kcRD5rFDbYxKXvj65yNPog32k2duH7Yedc5vs=
+
+Name: assets/src/app/NetConfig.lua
+SHA-256-Digest: fwMqjyMnFz6bJjNrxon97vXiS3LCzlXfzXXEtKkPHDQ=
+
+Name: assets/src/protobuf/PBPayInterface_pb.lua
+SHA-256-Digest: 26uAUGcXHadQEBQMJzZwFc3rv8kWJD7DcfNy4mW+XBY=
+
+Name: assets/res/JunTuan/Game_tip.csb
+SHA-256-Digest: 2mYcwowFmpFMo7RZS0PAE+mZquH7eGO/JJUG4S89qHo=
+
+Name: assets/src/cocos/cocos2d/Cocos2d.lua
+SHA-256-Digest: O6gBPUgWm5EMMj9rKHwLaMB3D2YfIpL+zCcwUKRKVYs=
+
+Name: assets/res/JunTuan/spine/enemy/guai_07.json
+SHA-256-Digest: NtDLvB+lrOZ/PhQR2799HtIA+I8+7/eg0AIV/ujJA/o=
+
+Name: assets/res/JunTuan/spine/los.atlas
+SHA-256-Digest: WFxG4hXXL0x2iBLCGc81ZIIZxjbAmPMKxow0+UX5vVI=
+
+Name: assets/res/JunTuan/Game_fail.csb
+SHA-256-Digest: 4HcupI6ABDEpsMIen8vrIwq5Js7l4/pBVOHCrlUovO4=
+
+Name: assets/res/JunTuan/plist/hero_jtdzz.plist
+SHA-256-Digest: FTt3RT2C7o2igZ3Fpn/za4Ts5ZPAbC3cSyOTUinaKug=
+
+Name: assets/res/JunTuan/spine/pet/dandanji.atlas
+SHA-256-Digest: HZ5SXON5hLGBiD8WttGxpIK8latQEwUwnoRbsOvoWas=
+
+Name: res/mipmap-hdpi/ic_launcher.png
+SHA-256-Digest: pM7ErBkkpdxIwg/lvZ9NH0ekru2wAgnpMRLyUO2Woj8=
+
+Name: assets/res/JunTuan/img/bg_monster2_handbook_jtdzz.png
+SHA-256-Digest: jzMtEBBt4HTFZ99sJLQq2Zk9Okryc/B6z/KI3XnDCYs=
+
+Name: assets/res/JunTuan/plist/gift_jtdzz.png
+SHA-256-Digest: 5bAIw99uTdLozrKHhOGtkNlU3QZbF31X0Tqzot5WiMI=
+
+Name: assets/res/JunTuan/spine/effect/daodanbaozha.png
+SHA-256-Digest: 4UZzUPhMONXvphnK0NHd3z08lLULkikzQ2OkD7xippQ=
+
+Name: assets/res/JunTuan/spine/player/04_01.json
+SHA-256-Digest: ijQ82oLQkhnBXWNCRhy93QCGW78awPHsJIcf68ovL7Y=
+
+Name: assets/src/JunTuan/src/views/PayView.lua
+SHA-256-Digest: tR7O60zD2EMEsRgttsOzoY/jigvPH3g8I+J9hVwoUgg=
+
+Name: assets/src/JunTuan/src/views/RoleRankUpView.lua
+SHA-256-Digest: FeaNkxuB7nvPEBZ6PqpoKEhvZHxufZUK4taEeBkpWbM=
+
+Name: assets/res/JunTuan/sound/putdown.mp3
+SHA-256-Digest: mYlfyTCfl4LgUVuyUqAzSQmE/roy5I/BBs1im5oC20k=
+
+Name: assets/res/JunTuan/spine/pet/huojingling.png
+SHA-256-Digest: sXahRYKWpYq3g93u6lSUwB3ZTIQR2DZJI9UT8JbAa3Q=
+
+Name: assets/res/JunTuan/plist/public_jtdzz.plist
+SHA-256-Digest: IFrGFSh1HUFr3YQbO8zgvkAnHUHGaaT90dNlZmpnOTU=
+
+Name: assets/res/JunTuan/sound/maomao.mp3
+SHA-256-Digest: GkbxNAEQSmRpyqhl3XvYZET5GXO/DXyPseP2nKhx15Q=
+
+Name: assets/res/JunTuan/spine/player/01_01.atlas
+SHA-256-Digest: 2KZoUXTWNrsdLwJfd0IE9aAHWzTzpEJXmTEJSQ5wmuw=
+
+Name: assets/src/JunTuan/src/controllers/GameDataManager.lua
+SHA-256-Digest: pbP630NyOFnf27uuz7+0Glc4UBIutsfFYHWjO/7IOCE=
+
+Name: assets/src/app/Manager/Net/GameRecvManager.lua
+SHA-256-Digest: vyhB3YqGB3SOXitZLeP0m4hptUSrM+O5sL/mXsWyjPw=
+
+Name: assets/res/JunTuan/spine/player/05_01.png
+SHA-256-Digest: wRI0sjCVWHpMbPtc4eLdGQenZSJsgMKgeqCwUWNv7U0=
+
+Name: assets/res/JunTuan/plist/16744fe05.png
+SHA-256-Digest: jnHQ4sY42+o6OlpP+jihQA7e5QT1JncGV7Q+Ovxd7hU=
+
+Name: assets/res/JunTuan/spine/player/04_01.png
+SHA-256-Digest: 69FuQQetwuNho/nkKtGes1NHxGs6mcH1255JHBRLEsA=
+
+Name: assets/src/cocos/framework/extends/UIWidget.lua
+SHA-256-Digest: nrUJjMmP7ZoqgNu7Cpa7GILPCCIF3sfhsQ5KIx4m6kI=
+
+Name: assets/res/Default/Button_Press.png
+SHA-256-Digest: ounZ/H5kwBNONA4pM1jRJ/YIRb6WSfX1+HaQlKSuQGo=
+
+Name: assets/res/JunTuan/sound/longAttack.mp3
+SHA-256-Digest: GaP3pZeE74WKYKQPpN6dhH9YsXfCoIP6wmoqj8bFoHw=
+
+Name: assets/src/JunTuan/src/network/MsgSendMgr.lua
+SHA-256-Digest: fQ9eLBuvCtT23Z+r9+4NVSzOAminkgePRwX+C4+2bns=
+
+Name: assets/res/JunTuan/card_month.csb
+SHA-256-Digest: ZAzLFHiMJ11iBEWz8SQFBJU9F25C7f4+VPoRWktr+xs=
+
+Name: assets/res/JunTuan/spine/pet/shuangzixing2.atlas
+SHA-256-Digest: IaBLzwntdZMh58j5afj/BeouD2CAbo9LaBfsItZhMVg=
+
+Name: assets/res/JunTuan/hero_new_equip.csb
+SHA-256-Digest: D6Pqb+Kl2ZUOW2CeobnrGBE/NyY/LU+t0mG4FO/JgtQ=
+
+Name: assets/res/JunTuan/plist/money.png
+SHA-256-Digest: 6Kb/BzGp8NgfioyqbslYLEFnGUvoVTe/XfsmQRM1dY0=
+
+Name: assets/res/JunTuan/sound/dici3.mp3
+SHA-256-Digest: 1GPvUx1kP4FxLJqLru6HSZYKd9S7lvDhj0b1/7LfQF0=
+
+Name: assets/src/cocos/framework/transition.lua
+SHA-256-Digest: tDHfil0MnYKG4UDDgs7ooDVnuggxtChF1rsrWtLucos=
+
+Name: assets/res/JunTuan/sound/openskill.mp3
+SHA-256-Digest: 2nD73k4KKAk22gI4/wlIqKc17w5RtdoeUj2HJberPFY=
+
+Name: assets/res/JunTuan/sound/die_fengheguai.mp3
+SHA-256-Digest: H+ClPOvS/Hr60RpMne6yUJmX0jPo53qA1fW+/zPDd/g=
+
+Name: res/layout/loading_main.xml
+SHA-256-Digest: p4gL3bdg2JR77UX2T8jBRNlKf+poqIdZd//3ohEq2Mg=
+
+Name: assets/res/Default/Button_Normal.png
+SHA-256-Digest: IwvT2SW577MABlqRStG6t3Cwn31pHR7bsQu1tzzD400=
+
+Name: assets/res/JunTuan/spine/pet/kuloufashi.json
+SHA-256-Digest: lRInB/yErR5FM26T+iLpBcQ7ebLbwl/VQzMNYfSzaxU=
+
+Name: assets/src/protobuf/GamePB_pb.lua
+SHA-256-Digest: JEK+/cUoXn+MBsFEDECrUvtwfIRldxHzkcl0F1rzN50=
+
+Name: assets/res/JunTuan/spine/enemy/guai_07.png
+SHA-256-Digest: N0d99kYvg5G8hd5thXQAMDNE6/VnENaQZuu1FjjJlx8=
+
+Name: assets/src/app/Manager/Net/GameSendManager.lua
+SHA-256-Digest: cLRCz+MpAsbJaYUk+g2XXCKHfyrjUUPri2qHO3Eojro=
+
+Name: assets/src/JunTuan/src/configs/EnemyCfg.lua
+SHA-256-Digest: mw695P6DYXM5uWWNuFV23Re+vIHxR+wMO01anYtPQOw=
+
+Name: assets/res/JunTuan/spine/effect/yuekai-tx.atlas
+SHA-256-Digest: P3kdg2MdR+25hgVw6VrUk8SAqNZVnNP5QXSB6ry/sYE=
+
+Name: assets/res/JunTuan/spine/enemy/guai_10.json
+SHA-256-Digest: s3QlTK8B7elx5gd+xZnorbRuyodU49ZuQCWgTPnMFxU=
+
+Name: assets/src/protobuf/support/descriptor.lua
+SHA-256-Digest: ZF/M4tQKxM2lRKoRnhAIe8yTKb8EKAFCI+K5DTMMR+g=
+
+Name: assets/res/JunTuan/sound/paopaoAttack.mp3
+SHA-256-Digest: Jo4f9S7kJatN23XYMIHEbLbrS56yc7zwkAz0kgkt4hY=
+
+Name: assets/src/cocos/cocos2d/DrawPrimitives.lua
+SHA-256-Digest: BJWShrlP/Ua94GG03id3FcJ3jtfevdAB9QZEwuxeV/Y=
+
+Name: assets/res/JunTuan/sound/bgm2.mp3
+SHA-256-Digest: FWxgeLN0uu85D8dPJlQXHJV2V2dwJxJBBo0E8YJNJlM=
+
+Name: assets/src/JunTuan/src/views/GameView.lua
+SHA-256-Digest: 2UwBzrL1hL5g4SGokTtySlei1Ik9tngheqfYLS5YeOY=
+
+Name: assets/src/config/TipCfg.lua
+SHA-256-Digest: EwswOlSMUKpcdIZcD9AHvd+WBS3w52XUWwnyaD2eJ0I=
+
+Name: assets/src/app/DB/AccountDB.lua
+SHA-256-Digest: tY/wyoyo/MQVRWCstlot43+EBBmnUF3Aou3/1EqzH3k=
+
+Name: assets/res/Default/Button_Disable.png
+SHA-256-Digest: YKjCIORlOzXZrFeACyTMCq6ek2XduEYEGqFfyUthAq4=
+
+Name: assets/src/config/LevelData.lua
+SHA-256-Digest: yHcHgrD+zH5JQvKpTfKQZtH/22tV3hJGTHGKlQxZCWI=
+
+Name: assets/src/app/Component/DialogManager.lua
+SHA-256-Digest: QRrRge4tPeRzWo6vTQtCEnP2XQhajLShvEfli+jstcY=
+
+Name: res/anim/alpha_in.xml
+SHA-256-Digest: +zWgKRptef6IWe66o3Ai4CL4dJFAu8rbkjeY80kbN7E=
+
+Name: assets/src/cocos/3d/3dConstants.lua
+SHA-256-Digest: VlmW6st2XogkehEXPMc0tcMseSfTDWY5RAqKL08yMjg=
+
+Name: assets/res/JunTuan/plist/gift_jtdzz.plist
+SHA-256-Digest: 8XaKVUjI+2godGMtMmSAbg9xrKVEf70bLGwda54Lv/4=
+
+Name: assets/src/app/DB/FriendDB.lua
+SHA-256-Digest: T7WkYRo48gnyD30U45nJb5pXU9eN2PnVzDnYmmDH1NA=
+
+Name: assets/src/cocos/framework/extends/UICheckBox.lua
+SHA-256-Digest: 1b1qeE8HrhBfWZe0wqKgZTUE6FZyVAf8NLkC99xdMmg=
+
+Name: assets/res/JunTuan/spine/pet/dandanji.png
+SHA-256-Digest: Z/VwOa+tJ0bcQ31Ql6VEN0ES46yTIPTpeMffXfHtgtE=
+
+Name: assets/res/JunTuan/spine/enemy/guai_15.json
+SHA-256-Digest: gGHPU3LQXzeKpPdBwC+1pVeeqZzZDMqg/EzarRaj5A0=
+
+Name: assets/src/protobuf/PBLandlord_pb.lua
+SHA-256-Digest: wG0WJXT277yr8kUqAb/h8qaXH/xIYevrtlJR/5qKdsA=
+
+Name: assets/res/JunTuan/sound/adaiAttack.mp3
+SHA-256-Digest: 0PMxgfmE5fnH89GKKClHJ8+4F5AXf7lxd5XgcpNLxPs=
+
+Name: assets/src/JunTuan/src/views/BuyEnergyView.lua
+SHA-256-Digest: t7vD+5RNLxnnlV5AgNNfAkUrzogZv02OkNm++7fSnCE=
+
+Name: assets/src/app/Manager/UpdateManager.lua
+SHA-256-Digest: 3HEUSL5F+HpxnNDFE0iVJuc8Ud3bO3Puuo5C6R/8RNw=
+
+Name: assets/src/header.lua
+SHA-256-Digest: uKB8AmcW5WFSqaeC8H4FpHePRuBGWvETEuel9EcSbGA=
+
+Name: assets/res/JunTuan/sound/dici4.mp3
+SHA-256-Digest: oHRsKC26+gwFlNhz1SwOhRO8kHWukgeuWA0LGoKiE/8=
+
+Name: assets/src/protobuf/support/text_format.lua
+SHA-256-Digest: VmG+AINLNjW8kRcgjudkHDEqmLyoFnjW58UjOrTCBr8=
+
+Name: assets/res/JunTuan/plist/game_jtdzz.png
+SHA-256-Digest: yg1FneGe6CArrXf/AE363WqBsL5+aCo7O9MGkOApfYE=
+
+Name: assets/src/cocos/framework/extends/UIListView.lua
+SHA-256-Digest: r/Vj+mYytvLuMkUwod49dSyOA5sfhpL2mYbiKy0WR+U=
+
+Name: assets/res/JunTuan/img/bg5.jpg
+SHA-256-Digest: 1zafkbxnQcdgGPIyPrPXSZTRbuL4j8exErq0gsYTg8o=
+
+Name: assets/src/JunTuan/src/configs/Define.lua
+SHA-256-Digest: 9f+rPwz15h+3xCbXoPBC1c+amNZdIboRXXSAlFv3HOQ=
+
+Name: assets/src/cocos/cocos2d/DeprecatedCocos2dFunc.lua
+SHA-256-Digest: AwObwGC+0rxAC8d3zbDwF+X2Xza5XIkdfomCYI8Xqsw=
+
+Name: assets/src/macros/header.lua
+SHA-256-Digest: 3nAGDEpQWAuWd/mPhXvuu0x08Gw/XvUw3Kn9Zg3T93k=
+
+Name: assets/res/JunTuan/spine/pet/didiyoulong.atlas
+SHA-256-Digest: auEmCyd9ntjJlhfJgKOLWp6/hkH8NYYKeohTRxeWBrs=
+
+Name: assets/res/JunTuan/spine/pet/huaxianzi.png
+SHA-256-Digest: fjGhuoutj2qNzOIct6LVJCCQhGc4QCwOWvSufPgRjw4=
+
+Name: assets/src/JunTuan/src/configs/GiftBagCfg.lua
+SHA-256-Digest: nZMz8p7rY89EfyHF/Q3E0vOKuOECdLgKcJz1Wb6K/C4=
+
+Name: res/anim/alpha_out.xml
+SHA-256-Digest: +zWgKRptef6IWe66o3Ai4CL4dJFAu8rbkjeY80kbN7E=
+
+Name: assets/res/JunTuan/sound/hit_siqi.mp3
+SHA-256-Digest: BnQs22Cwgcm9rWfp3e8PPRPltXTxGUZJahjRQxcOnG0=
+
+Name: assets/res/JunTuan/spine/pet/shuangzixing1.atlas
+SHA-256-Digest: hiLG2g9b8Wq+N5A2DdDzVBGlA4N/ydh00Ysa/UpgWMM=
+
+Name: assets/res/JunTuan/sound/equipe.mp3
+SHA-256-Digest: VihIyxH2dtOmqHfWu/57GnGDbsVKlDpOhPlUhdr9PQM=
+
+Name: assets/res/JunTuan/spine/pet/shuangzixing1.png
+SHA-256-Digest: QlhQEjKm06V2+9vNpJVqt9lzXmCGN5vrriEPzotWhtg=
+
+Name: assets/src/cocos/framework/extends/UIEditBox.lua
+SHA-256-Digest: ijxagt7LyW7dfCFDaLSHeLMbo/XF9J+5eWazwIZ+Jis=
+
+Name: assets/src/cocos/network/NetworkConstants.lua
+SHA-256-Digest: WALtNHb2DfFdXpDP1IeFBmtWw254q32yW+G4xaSZbXg=
+
+Name: assets/src/Util/KeyBackUtil.lua
+SHA-256-Digest: Z1owQrWyhDs4TXh4gFVLYM1bvScsFiD1j/mc09nr/jA=
+
+Name: assets/src/app/DB/ChatDB.lua
+SHA-256-Digest: zTFPZHEy24cEDzoSplEK0YO4dmr/3DG1RDLeYFp800w=
+
+Name: assets/res/JunTuan/spine/effect/bingdong.json
+SHA-256-Digest: Npq179Pjbtae3f45sB9nbOEdMkVHU2dlmOu7iK7xUQM=
+
+Name: assets/src/protobuf/Game_Fish_pb.lua
+SHA-256-Digest: GmXJmpN8aKEeR/4c8/W8HcWlx9J3V3xi0pOIGswC6/A=
+
+Name: assets/res/JunTuan/sound/die_laoshu.mp3
+SHA-256-Digest: 7vZwGftK6365/OaS8t+EhevqZS4vdwOBxgX23YbmvPg=
+
+Name: assets/src/Util/CodeUtil.lua
+SHA-256-Digest: 0XOTMaHTel3uxVHnfAJhxWKY7T3RoZMuuxeVe9TkJs8=
+
+Name: assets/res/JunTuan/img/bg2.jpg
+SHA-256-Digest: GwizwLdp2LlzB3lDoj0X9kbIPNumWQdVkTDe9wYJ258=
+
+Name: assets/src/JunTuan/src/configs/SceneNameCfg.lua
+SHA-256-Digest: wCDe0ALADmUeG7j9RX3pReekCx3FxvjGhRCSUtPrlX8=
+
+Name: assets/res/JunTuan/sound/die_munaiyi.mp3
+SHA-256-Digest: MnOcgAAMXPRYcZ384ZNOZQm9/1GwAZxsZTAzwzcnT+o=
+
+Name: assets/src/JunTuan/src/network/MsgHandler.lua
+SHA-256-Digest: U+mmdVFLgBJcznWNF3xKHENGjMkwIA/gD0UL47h+r9k=
+
+Name: assets/res/JunTuan/sound/start.mp3
+SHA-256-Digest: matICqxLrqn35AFI3FSx5gzaXfgQkYRuZqTnjiT0Pic=
+
+Name: assets/res/JunTuan/spine/pet/shuangzixing1.json
+SHA-256-Digest: rpR095DaF+8R46a1SQ6NUAl37ypyULt5/5DpSbo0QcE=
+
+Name: assets/src/cocos/cocos2d/DeprecatedOpenglEnum.lua
+SHA-256-Digest: NpuQE/JTU5WNUlqng0d4Iiae7E3mhWtcPZI0YSV/804=
+
+Name: assets/src/cocos/cocosbuilder/DeprecatedCocosBuilderClass.lua
+SHA-256-Digest: zlIn3WIYByJBlNkm3MN2AN3STXr1bCmO1C1UIJzJq8Y=
+
+Name: assets/res/JunTuan/spine/pet/xiaowanpi.json
+SHA-256-Digest: 80PvDRCF7yZU25pxbKOpVQ6SJfCkzWfQ4CZORTYl9+I=
+
+Name: assets/src/Util/ThirdUtil.lua
+SHA-256-Digest: kLDdPDYX79HeLwUf4o4qBuG2ep9oBIl9Chc5o5FJy54=
+
+Name: assets/res/JunTuan/img/bg9.jpg
+SHA-256-Digest: THjaJN9XvD3GkWfzLYFqOqY+BvqhV8ZYhDa1dpndlgk=
+
+Name: assets/res/JunTuan/sound/fireSprite.mp3
+SHA-256-Digest: 6w120cFhm5LCrXOIjkScTEVpBIpgrGKY9IGog5QyPkI=
+
+Name: assets/res/JunTuan/spine/enemy/guai_16.json
+SHA-256-Digest: cNeIBMmOKgjSPSeSBEWOlbe7ir9RVJyuoILo4CaJy0o=
+
+Name: assets/res/JunTuan/spine/enemy/guai_20.atlas
+SHA-256-Digest: 05+ExcbXGWCPe20Lt2FefpWI9Zstjt88F5DM/wo5Rak=
+
+Name: assets/res/JunTuan/spine/enemy/guai_21.json
+SHA-256-Digest: LvMLxTX+903XqOOgUXGSUygh2TNq9APgsKaAddx96xg=
+
+Name: assets/res/JunTuan/hero_combat.csb
+SHA-256-Digest: gzL1vAnTEpBOgyV3Qm64zytENQNdIKUF5xRd4kLMo9o=
+
+Name: assets/res/JunTuan/spine/enemy/chuguai.json
+SHA-256-Digest: eVMyTnEVefWNxausmz1btIDkRULvIolLnvSGSd+eKbs=
+
+Name: assets/src/JunTuan/src/views/BuyGardView.lua
+SHA-256-Digest: Ff90L9dGUpPSzK7+6A4i7Lg7YIbMvgA5h14fZXtQhfY=
+
+Name: assets/res/JunTuan/spine/enemy/guai_06.atlas
+SHA-256-Digest: wA+UqQK9st3mQSH78OKOpXsxOc5m7TJLIeqXqX6yOwc=
+
+Name: assets/src/cocos/framework/extends/NodeEx.lua
+SHA-256-Digest: LMKg6ck3eVu2522TzWWnaNPRu/Bxtzq0WljyZ7QmG6M=
+
+Name: assets/res/JunTuan/spine/enemy/chuguai.png
+SHA-256-Digest: d2Cf3Lt/XKkkYifGo0CRnX+DE571feq/iLFnxApfZOc=
+
+Name: assets/src/cocos/network/DeprecatedNetworkFunc.lua
+SHA-256-Digest: B4laQzw18+5RtDoyO6p6XBw5cyeZvAPOlmrYRnpv8/Y=
+
+Name: assets/src/JunTuan/src/configs/TaskCfg.lua
+SHA-256-Digest: cBIgpw6+LlUyDu9+3vzcM6+Jq57UePzwtBUHjwu9crI=
+
+Name: assets/res/YOUYUAN.TTF
+SHA-256-Digest: dl4VPyseeHkYCCHDI20Gi01jcnksD8f+YTCYH7GM7pA=
+
+Name: assets/src/JunTuan/src/controllers/AudioManager.lua
+SHA-256-Digest: YeDtE1FwhI8W5oW0oh9mqSbpUD7oEI7Sp7V2K+nF9B4=
+
+Name: AndroidManifest.xml
+SHA-256-Digest: 1VNlV093vyJ3KsFcwdYWwgOwSSUq8UHShAidBFAs0Y4=
+
+Name: assets/src/app/Component/TableViewManager.lua
+SHA-256-Digest: iMEfeJvSEG3tIdK6PbT2PKibGDQQQP5lAHN4Dw87lnE=
+
+Name: assets/res/JunTuan/spine/pet/nengliangjingling.json
+SHA-256-Digest: yMMv1AHjiDEEsEzaWsggzx916hNeUphbpqf/beS+/4Q=
+
+Name: assets/src/config/GameConfig.lua
+SHA-256-Digest: cJEXFppCyuS2xJ08gOp1Oka0hkqBRitzqYOcRVcWAI0=
+
+Name: assets/src/Define.lua
+SHA-256-Digest: eXQgHdKeU9UDXLZY67uvAauoQJVIF4N9rYVbnTVCM6w=
+
+Name: assets/res/JunTuan/spine/enemy/guai_05.png
+SHA-256-Digest: PnH8BuvJ9WeeM6AiHczBVYjj8+3HHlCzjBWgD6Gz9Pg=
+
+Name: assets/res/JunTuan/sound/special_fire.mp3
+SHA-256-Digest: 0Q9yiiZG5SGJYaqNq/1yrnHBF/MhZ79tuaUDz/CJrNM=
+
+Name: assets/src/Util/header.lua
+SHA-256-Digest: iVBwE3SPBgRo0XPx9ix0XJP/iJ60+8Nisrz/MycPkek=
+
+Name: assets/res/JunTuan/sound/lvUp.mp3
+SHA-256-Digest: NZ9H/QzgytYGGXBPMXapu/U3Xtk9DmiSjJ5qN5NIsng=
+
+Name: assets/res/JunTuan/spine/effect/daodanbaozha.json
+SHA-256-Digest: NqFqjHl2uMi6/DYKsmObLZtwlNXchM8jjwGHMLQ5qDI=
+
+Name: assets/res/JunTuan/spine/los.png
+SHA-256-Digest: smu+6W9Tmb/h7MQU3zDYVauQw9mncZ1z2k+qjXh4z1g=
+
+Name: assets/src/config/RuleCfg.lua
+SHA-256-Digest: rkCdBGhQyhHUjjmIAlYrij96bO0odYrdya677ccRoRs=
+
+Name: assets/res/JunTuan/img/bg10.jpg
+SHA-256-Digest: 6OwxJkKQpswrHudhrSjRO3Sqn0nuTAbndeuECR+wf3k=
+
+Name: assets/src/cocos/cocosdenshion/AudioEngine.lua
+SHA-256-Digest: Eb/GjSYooGoYU9I+eN7W3yswOYmmFAYsS7dd/kMrvHA=
+
+Name: assets/res/JunTuan/sound/die_shuiyuansu.mp3
+SHA-256-Digest: oZ6+J2JxAce2IyoLsapry+Igj1YZEGNTGYfkD40V2mc=
+
+Name: assets/res/JunTuan/spine/pet/nengliangjingling.atlas
+SHA-256-Digest: xug4jhW0Utoi0ySaLIUvIk1pdOFJLsKzx0Ykh7zLpLw=
+
+Name: assets/res/JunTuan/spine/dici.json
+SHA-256-Digest: qIleg7ILGHyPjCgnX7FrT0d3H6JAD+0qd11dSiTsb84=
+
+Name: assets/src/JunTuan/src/scene/GameScene.lua
+SHA-256-Digest: Ysj3BsYUIJo5Jh5ralEnvYxipY5qI2xezBmPZwCgm+0=
+
+Name: assets/res/JunTuan/sound/click.mp3
+SHA-256-Digest: HJ4sBQ/bNgTksP/wOlaHLYiDXTjwpNve8lXbV+6qneU=
+
+Name: assets/src/JunTuan/src/configs/PetConfig.lua
+SHA-256-Digest: xuxhEc5xWt8tk1zg1VH9eyypYgbq846NOt5sJqxbdhQ=
+
+Name: assets/src/JunTuan/src/controllers/AIManager.lua
+SHA-256-Digest: oHDyrRqKIk7jK8GZxNwOJGVqalaKxyIfOiHzUtETt+A=
+
+Name: assets/res/JunTuan/plist/money.plist
+SHA-256-Digest: okZKEwJOXF7KhVzyG3agwddMQ0/7y14tRaPuv3B0qO0=
+
+Name: assets/src/cocos/extension/DeprecatedExtensionEnum.lua
+SHA-256-Digest: cc5EDcMZWAaju0cJ4YEql1qwUCPh5+UnILRDkOPWD3Q=
+
+Name: assets/res/JunTuan/spine/pet/huaxianzi.atlas
+SHA-256-Digest: qJqFRLVFX1fiZXe0IcG2bdK5bX7JfwS8RTtzPECX5EY=
+
+Name: assets/res/JunTuan/nickname_revise.csb
+SHA-256-Digest: wGwAc7MzjmLxFg74QmK60dFxxrvZIIbjBr9yXoM0nV4=
+
+Name: assets/src/config/RoomConfig.lua
+SHA-256-Digest: AfzYNcolk9KIek/Qst0kI4MvksmOyrIdWO6YISV3lDc=
+
+Name: assets/res/JunTuan/sound/putHero.mp3
+SHA-256-Digest: mYlfyTCfl4LgUVuyUqAzSQmE/roy5I/BBs1im5oC20k=
+
+Name: assets/res/JunTuan/sound/qiuqiu.mp3
+SHA-256-Digest: t11mfkgqg9AWXG+9PmGWeLCYVx3/aqDqbOYVdUB6Mz0=
+
+Name: assets/res/JunTuan/spine/enemy/guai_20.png
+SHA-256-Digest: NwebOrGngSbLdT762xXpSgohPkxkNSfx2tnFLgVeOYU=
+
+Name: assets/src/app/DB/GameDB.lua
+SHA-256-Digest: lEnZmsvEeWLarPdIP9Tr/+thrfB2f1x/7qo2dGjX3U0=
+
+Name: assets/src/JunTuan/src/views/BuyGemView.lua
+SHA-256-Digest: HQQE4NNZYGqZ9NUMgZNQhnNhb+iUzqBbtTU2fEUzah8=
+
+Name: assets/res/JunTuan/plist/14063ce2e.plist
+SHA-256-Digest: s0hUzDHF+VM+AhLCdNUnPHdPweGnPIYr1WcqvIGBWLE=
+
+Name: assets/src/cocos/framework/extends/MenuEx.lua
+SHA-256-Digest: RUS14NwHNv1aE164IS7tH2lIe1OTwZP8mEfHWBHMh2o=
+
+Name: assets/res/JunTuan/plist/pop_jtdzz.png
+SHA-256-Digest: nMc1RAmeTE2pqcqlSR16F1YT01JGABaWMERzkUOpKVc=
+
+Name: assets/res/JunTuan/spine/enemy/guai_04.json
+SHA-256-Digest: SI7pX6Lx/mxussy3G0qyLpC9UCmVb114tS+XngzY9VE=
+
+Name: assets/src/Util/DeviceUtil.lua
+SHA-256-Digest: jom0U03JP8rlKlXSbgHkC23Jy++7CKTpkD4XPrj9tkc=
+
+Name: assets/res/JunTuan/GameLoading.csb
+SHA-256-Digest: jxudkpJdQuoBp4aUt2Ur3hH/+LklIc5sV99/wiudJLc=
+
+Name: assets/src/Util/CommonUtil.lua
+SHA-256-Digest: yzOmDRUm3P2lpoG29P8hVWg+yzFVTrGsCzAG8a6cjoI=
+
+Name: assets/src/protobuf/Game_CannonFish_pb.lua
+SHA-256-Digest: lP3jjchtWop2TMyPZx5VrcDduytakWCawURG9twhAMo=
+
+Name: assets/res/JunTuan/spine/los.json
+SHA-256-Digest: s+vftwmb2HtW5xZsbe3jpydSWt58bx4zoemPDQ53TvI=
+
+Name: assets/res/JunTuan/spine/enemy/guai_19.png
+SHA-256-Digest: shU25EXoKSKEhcQSuzoCNCbi5CJmzgzbXteKW8PDTIE=
+
+Name: assets/src/JunTuan/src/configs/SegmentCfg.lua
+SHA-256-Digest: EBXjPs5a4+KNcFZR/S5VqibONoxZSFTPgKPwltXXQOI=
+
+Name: assets/res/JunTuan/spine/player/05_01.json
+SHA-256-Digest: wliKzTryZeRPA5m9xeGpto1rqiv5+KII7secWo/AHIk=
+
+Name: assets/res/JunTuan/offline_revenue.csb
+SHA-256-Digest: pifTLkre/Z063TwhkDIv7Fo47Lxq2BsYlC6S6ekldhI=
+
+Name: assets/src/JunTuan/src/configs/FunctionOpenCfg.lua
+SHA-256-Digest: HqfssMsER7WZFWFGss9yKVl+zOVlP2tr3wSvq54GZ3k=
+
+Name: assets/res/JunTuan/spine/pet/didiyoulong.json
+SHA-256-Digest: OE4TCP9QtOxPUqfJ5THUE09Xn/dGCBvFcEcnSWhhRjY=
+
+Name: assets/res/JunTuan/spine/player/01_01.png
+SHA-256-Digest: hbeqE/eT2Biacbkh+p2W0WritGU9ivi8KdETVsR0Ciw=
+
+Name: assets/src/JunTuan/src/views/ShopView.lua
+SHA-256-Digest: IeZA68as9U8jQnvdzP7FCfB/+jIlcFE3DSxkdybDtZ0=
+
+Name: assets/src/Util/FileUtil.lua
+SHA-256-Digest: lzQ67/hjMF/z2O/OaJW2buRAgAxwuiUwVKXSPicrK9M=
+
+Name: assets/src/app/Manager/Net/ChatRecvManager.lua
+SHA-256-Digest: Zkoy0wV0110rfdWfRtLz4clVwbwIi5y6tXM/WI8LQaw=
+
+Name: assets/src/Util/SensorUtil.lua
+SHA-256-Digest: Bcelz/B9zjHBMVUY8FPr3e9YlON0YX+pMQFj1i08Zb0=
+
+Name: assets/res/JunTuan/sound/die_shayu.mp3
+SHA-256-Digest: mLx2U+t7bzm4PpQfre7N1bg66581wP/z+hUl8/wRJUo=
+
+Name: assets/res/JunTuan/spine/enemy/guai_17.atlas
+SHA-256-Digest: A7I9Ic7EAkorDVGtthlmEHZkw0W7See1k2Fh10RgcyY=
+
+Name: assets/res/JunTuan/spine/pet/huaxianzi.json
+SHA-256-Digest: 9drOz/O2plBtiEl/ynAZVLZWysnTjVZYkdib2IGCg3k=
+
+Name: assets/res/JunTuan/spine/enemy/guai_08.json
+SHA-256-Digest: dJtn/8p+qUeuR26gknnRTCTcec49ORtjn5nqZadYdLA=
+
+Name: assets/res/JunTuan/gift_novice.csb
+SHA-256-Digest: xhnoEhZQHnflVw1y3kXnpLtNAU+atJ9KazTNxpTJyUk=
+
+Name: assets/res/JunTuan/plist/19fc2eb50.plist
+SHA-256-Digest: RyccdP/mSYtsGQzW2RDqaYC8Tk87uKewr72S8gCBei0=
+
+Name: assets/res/JunTuan/img/bg3.jpg
+SHA-256-Digest: /i/etWxCRJiUuxs7jR2NbW39zkJhpRmrS+lInpbmf4Q=
+
+Name: assets/res/JunTuan/spine/pet/xiaowanpi.png
+SHA-256-Digest: MQVkJ9JDCgZegzqUlCI6g7oiaKWxTgi3/v6OxVIA8k0=
+
+Name: assets/src/cocos/framework/components/event.lua
+SHA-256-Digest: 8a2jFENUU+ZrUjgSjEMxBZ0Z5pszyosLYPRzkKvXgKk=
+
+Name: assets/res/JunTuan/sound/die_wenzi.mp3
+SHA-256-Digest: GC6YmjrsTdAxAV9z5F4WAOglzEA+UFewbieru3evGI4=
+
+Name: assets/res/JunTuan/sound/skillmst.mp3
+SHA-256-Digest: 9e0UGpTR4dzJ/Om6LYXbxW5Riy3prPYk7RjPhYfQB88=
+
+Name: assets/res/JunTuan/plist/14063ce2e.png
+SHA-256-Digest: YP/GP2N6N4RvLNCBYoW7yYOF2XUhbT2rjnL2P4uWvZo=
+
+Name: assets/res/JunTuan/sound/die_hongpangxie.mp3
+SHA-256-Digest: vnDwg787UbOpFGE4iide5VVR3jcUpDbwhu77Wk5ct5o=
+
+Name: assets/src/config/GiftCfg.lua
+SHA-256-Digest: 7bqv/C2f/WS7FwGm9k4nMHCscRrp5qWBEhd/FLg0JLM=
+
+Name: assets/res/JunTuan/handbookScene.csb
+SHA-256-Digest: IElAjMpYHAcE/CG1k3tql0sGpk8phtn4153inkHUFeQ=
+
+Name: assets/res/JunTuan/prop_explain.csb
+SHA-256-Digest: vugfvObzViULJaigBHp6rweGp1+LeJkbdkN36CXlgZc=
+
+Name: assets/src/app/Manager/ChatManager.lua
+SHA-256-Digest: 3LCVOKxiEfCuJbf+qqBt6Ge92TIvZ9WHpLNO/jc5iqA=
+
+Name: assets/src/cocos/cocos2d/json.lua
+SHA-256-Digest: 939HrO9G91MslTsmS/fAghg1ng1EFlGiceZBU6QxFJc=
+
+Name: assets/res/JunTuan/sound/firegun.mp3
+SHA-256-Digest: 3Xym0iJQjIq2lBSFi82I1OP3n7W1qPSbF4omWivqAEQ=
+
+Name: assets/res/JunTuan/img/bg11.jpg
+SHA-256-Digest: qSUtvkWsBZQLHp6BkfiYOACGGmYPmql67vKYZDXyTls=
+
+Name: assets/res/JunTuan/spine/enemy/guai_01.atlas
+SHA-256-Digest: /QOW18LVTRfB2kg8juwsEua4XPDa7XhmvXZpQMRRM6c=
+
+Name: assets/res/JunTuan/sound/over.mp3
+SHA-256-Digest: yBLXk8XPF2yTblkblR5dsS3D8Y+/1yxtMCQG8HKclzQ=
+
+Name: assets/res/JunTuan/spine/pet/kuloufashi.atlas
+SHA-256-Digest: Ylxb2X6506V6EAE5gyIH/9tyqtpBfimvlV37P3X1/oA=
+
+Name: assets/src/JunTuan/src/views/MergeEquipView.lua
+SHA-256-Digest: JZhWPKDKv47cOTVFtOcwqojV8zXmYZgf1H9mLrHLU+w=
+
+Name: assets/res/JunTuan/Skill_Three_Tow.csb
+SHA-256-Digest: 5YH58KJ+BfVxLKaFTs4TcQb1nzGCLQRatJu2bTGzrhA=
+
+Name: assets/res/JunTuan/handbook_detail.csb
+SHA-256-Digest: KXElyCWON3sQlkv8pDXejC+xUrIrnlG6cJF5MoDGeJo=
+
+Name: assets/res/JunTuan/spine/enemy/guai_04.png
+SHA-256-Digest: hp5m8tvCWbu5p+HhG2tAcvxgkazhxdb0LZU/VJHK7Zk=
+
+Name: assets/src/app/Manager/MessageManager.lua
+SHA-256-Digest: HLu8SDj78Acxvm1UX9vp1qx159yJY7s45VclssgCoGI=
+
+Name: assets/res/JunTuan/sound/qiuqiuAttack.mp3
+SHA-256-Digest: S415WUhNPbdOb8L2F7rmkmAiadGajnScuR4v3R4ZPts=
+
+Name: assets/res/JunTuan/spine/enemy/guai_21.png
+SHA-256-Digest: 1LoqX9ov+WYw+dU/YE0tmlr9QNxDCsuC2qwEAft9xtQ=
+
+Name: assets/res/JunTuan/spine/player/03_01.atlas
+SHA-256-Digest: 0/Gu9xs2KgcGbpRZ+CNj3bMYzDuGuDLsteaEbCfCRk0=
+
+Name: assets/src/Util/Base64Util.lua
+SHA-256-Digest: O1Qff+DTsCr3c+nZ0z6VfyToMxxsYZ8HKvFEI9XvqCk=
+
+Name: assets/res/JunTuan/sound/hit_toumao.mp3
+SHA-256-Digest: tRB7kdxM5FLi3s0yJcNpRtTbQKARSqEreofH6lPoheI=
+
+Name: assets/src/protobuf/support/type_checkers.lua
+SHA-256-Digest: j8Zcza9MPO11NqfHA0UYNXNg/sAwrv6p95JGi92PPQY=
+
+Name: assets/src/JunTuan/src/configs/MilePostCfg.lua
+SHA-256-Digest: 70PYXfGlI30POE5BI3oHC/RX0zq2k4hwGFJVNPoXHFs=
+
+Name: assets/res/JunTuan/spine/enemy/guai_19.atlas
+SHA-256-Digest: +tBbop3ySgYiVQEsBZJrRhWHcj0VjmDTgPloOUlCtcc=
+
+Name: assets/res/JunTuan/sound/special_arrow.mp3
+SHA-256-Digest: 3nlbDmCZWA1YBf60hwc5yCqFPL7t6xTd8/F/wB5hFXs=
+
+Name: assets/res/JunTuan/spine/effect/daodanmiaozhun.png
+SHA-256-Digest: xqXYc03HpbbAwl1PBUQcvFCZgOfdoLwgMwf3UEMN/yQ=
+
+Name: assets/res/JunTuan/plist/home_jtdzz.plist
+SHA-256-Digest: GZosK3jLu9D82+zfxPjUIocBLnFCkG2iBIWtxqZ0UiY=
+
+Name: assets/res/JunTuan/login_phone.csb
+SHA-256-Digest: s4UA0nh+5oBkENDkVBi3LQwHodQ1Bh6BdDM+i9Igf3k=
+
+Name: assets/src/cocos/ui/DeprecatedUIEnum.lua
+SHA-256-Digest: XJAOmZcaoNsrwsMtGccngG7fF0hvwGvfu1oaKlx2Vy4=
+
+Name: assets/res/JunTuan/sound/kaerAttack.mp3
+SHA-256-Digest: LyBH3lbk3kI6xK5YIAwzmeIx1W7bmSyoSJ96GcoczRs=
+
+Name: assets/res/JunTuan/spine/player/02_01.json
+SHA-256-Digest: jAZU1LnqchTsKnagDhmjtaH4XvZaTI84PKMp+V0rnEc=
+
+Name: assets/src/app/Component/ViewBase.lua
+SHA-256-Digest: yyECcA6z4SKexkkJuG8f/nXRBUvRncgDSRUHwp3RGGk=
+
+Name: assets/src/cocos/framework/device.lua
+SHA-256-Digest: EQoM0xeYFkxRfVHxf/q6RmpTeqaq9jgLMONCbKXHhU4=
+
+Name: assets/res/JunTuan/sound/die_feiting.mp3
+SHA-256-Digest: Tg6H/lXDdl2K8La7ccGaY2zLiI8How0lx8SQFuReTkQ=
+
+Name: assets/src/Util/StackUtil.lua
+SHA-256-Digest: sddcdjN0mzxMKDgW4Z1qgY1dvzp+KeU68H/+cWRvo9E=
+
+Name: assets/src/protobuf/header.lua
+SHA-256-Digest: QmXg5LbF1WflyRbH8aufiA5kap61a7P+1KioaFmwKA8=
+
+Name: assets/res/JunTuan/homeLayer.csb
+SHA-256-Digest: 3NMUCCzqVxMvtaeE605Y5A58MB4TOwu6v3wZAWXpuMQ=
+
+Name: assets/src/Util/JsonUtil.lua
+SHA-256-Digest: A6PpFkyLGHHxy1QKZVryqhenUDy0o0VkkCzu2aIOkl8=
+
+Name: assets/res/JunTuan/spine/enemy/guai_18.png
+SHA-256-Digest: R0+mrX4QgG8n5rD5R2thOwnzjCZ63286fQQw1O2FQ1Y=
+
+Name: assets/res/JunTuan/spine/enemy/guai_16.atlas
+SHA-256-Digest: 1GAhbFmczAbPYfALxuFw9OQr9uSbKXqHRdh7MmQQ9Ao=
+
+Name: assets/src/app/Manager/LoginManager.lua
+SHA-256-Digest: OEWlrAWYjMT4pkPEBTyJA4OBzUIVlVGpN/PjPoHvfaQ=
+
+Name: assets/src/Util/ScreenUtil.lua
+SHA-256-Digest: thBzToQ3/C3UMejRMUefDLoL12XuDMtU8x2/UHUp2dU=
+
+Name: assets/res/JunTuan/sound/bgm5.mp3
+SHA-256-Digest: H5topAIsvPTTvRZ9PazSDmLrq+dWOI86c1WrVxTr7Jc=
+
+Name: assets/res/JunTuan/sound/levelUp.mp3
+SHA-256-Digest: a+Y9JOeTybu7YeCdd9oe2gzVcRZ2H1iWa1UTFsqD45g=
+
+Name: assets/res/JunTuan/spine/effect/bingdong.atlas
+SHA-256-Digest: stpNSDKdWnqtUXgP11xJIguYJFCW+Tlxjq0q96R3YRY=
+
+Name: assets/res/JunTuan/spine/enemy/baoxiangguai.atlas
+SHA-256-Digest: Ks2l9Z0vco9Zb+oE4h671FEah/PfjwKsp3RQAHxF2DQ=
+
+Name: assets/src/app/Manager/HttpManager.lua
+SHA-256-Digest: Uo3jDmf3aeQ7C2UBol/WAxUMTLQyAaJIxZrCzDUy9vM=
+
+Name: assets/res/JunTuan/spine/enemy/guai_19.json
+SHA-256-Digest: poJ1XoXfhpkcsGjgz5dU9S8tVhitQzxa3wT6bvHasn4=
+
+Name: assets/src/app/Component/ModalBaseView.lua
+SHA-256-Digest: t0nD1lyux//hHFgx16GwMV0p/VT5WTv6zy3eCo+eZxQ=
+
+Name: assets/res/JunTuan/hero_pieces.csb
+SHA-256-Digest: 46uH9dPw18omVH+K7PgaNdtjtCsQvrYuqoFugQsMrzM=
+
+Name: assets/res/JunTuan/sound/petInPlant.mp3
+SHA-256-Digest: MMKb0OAQ7kbL3FNqiXtO84ttgtj/OXHDAPi+WbDeAo8=
+
+Name: assets/res/JunTuan/spine/enemy/guai_09.atlas
+SHA-256-Digest: W+3LVinDGW/39+fjM0dRmvqHt85N8ecBUkDcVJQRedw=
+
+Name: assets/res/JunTuan/spine/enemy/baoxiangguai.json
+SHA-256-Digest: Byk+sA6VnrDJMNfsZieHH/0nuBH4mNb1MzOCoMBhiJ8=
+
+Name: assets/src/JunTuan/src/models/Enemy.lua
+SHA-256-Digest: D/R6CoWoNf5mG0a2HjW1bR4UKuUi1TtWgwgAPXfF4CM=
+
+Name: assets/src/JunTuan/src/views/BuyGoldView.lua
+SHA-256-Digest: HwouFPc+ooO3LFa5eYaLGmWGx0EPuCYzWuUCE5XfiwM=
+
+Name: assets/src/protobuf/ServerStruct_Logon_pb.lua
+SHA-256-Digest: CjoxkE3bhbDhDhu5DE37yujTTb15GLw9+J5jPUj6mKE=
+
+Name: assets/res/JunTuan/spine/enemy/baoxiangguai.png
+SHA-256-Digest: Mr4rawhgkb2ufpimrMOOpR1hHuJgn+a8n60e0uL1DXs=
+
+Name: assets/res/JunTuan/spine/win.atlas
+SHA-256-Digest: mVgU4EY5ixntLtIOoZ/YQ7TyF69CdHr6HlYLbYywoD0=
+
+Name: assets/src/protobuf/support/listener.lua
+SHA-256-Digest: Fl1NUoBQ8nZ8IaT5XWhw13cT457UzEEn8qkkyx+BZns=
+
+Name: assets/src/protobuf/support/encoder.lua
+SHA-256-Digest: r63KERZJnQBuRQJ3cCVGCwQar+sUGf6GM7OU9mIh4FQ=
+
+Name: assets/src/JunTuan/src/models/Hero.lua
+SHA-256-Digest: AcO9WjDw2V3YR+Uz68MERMnAl3lS6eNxhZBstDcicng=
+
+Name: assets/res/JunTuan/hero_equip_reset.csb
+SHA-256-Digest: cYpr2UISQKyjWOL6SrW5sps5vMjguZJL4a04uKhD3iA=
+
+Name: assets/res/JunTuan/sound/boss.mp3
+SHA-256-Digest: bDJqqMuWPIbhKFo20PXLZ9D6riUvlSe37WyUoW61Ie8=
+
+Name: assets/src/app/Component/AnimationManager.lua
+SHA-256-Digest: 8jmO8YOOrLq9uTgrsxik4Fd9czYcW1gS63qIc55BcLg=
+
+Name: assets/res/JunTuan/spine/enemy/guai_03.atlas
+SHA-256-Digest: JMHgzZ9JkX/ere1xRKc1wPCMoMOouzLtohMvS1h+qvs=
+
+Name: assets/src/JunTuan/src/views/PhoneView.lua
+SHA-256-Digest: dA7gq59ym6hbsiMwDDuHZqisi3+eAt6rlm0CONOnD10=
+
+Name: assets/res/JunTuan/MainScene.csb
+SHA-256-Digest: FSyvPkv7OxHuByZ1Kiw0RLnkGgvLV1SU5J6OkTV3kPE=
+
+Name: assets/res/JunTuan/sound/shotgun.mp3
+SHA-256-Digest: qq7iv/6E2tWRc8dIusLJo0mrO8nh3RVwXFJZd+wglFU=
+
+Name: assets/res/JunTuan/change_head.csb
+SHA-256-Digest: 8+MKesfTUUO/gAZx/cKfTH+X4PYEqX2h+I+plOhgk74=
+
+Name: assets/src/app/Manager/GameManager.lua
+SHA-256-Digest: 2+yogJwpe+vW50sfIejczvh2I9/+tB0cWoJfNLLpGPI=
+
+Name: assets/src/JunTuan/src/views/ThreeTwoView.lua
+SHA-256-Digest: G+tnKLIGjzHs+ZnJra8qeqHY7+GmhHAfyOiSKib9zHs=
+
+Name: assets/res/JunTuan/sound/kaer.mp3
+SHA-256-Digest: 7u5viaxxC2durGssxhNF1EOfSbQiLhp6jbdbPK2DWGw=
+
+Name: assets/res/JunTuan/sound/adai.mp3
+SHA-256-Digest: gG6xgyhAnPgZbBYXRC5ouCwBCQYi1f7KDdjKxHkoD4Y=
+
+Name: assets/res/JunTuan/GameScene.csb
+SHA-256-Digest: AvbZQzx8GUvwqVz9qg35TpGlNkiPW44VgJEoN5vOrUM=
+
+Name: assets/res/JunTuan/spine/enemy/guai_22.png
+SHA-256-Digest: 62271f67ytgK+jzxY3aPDWJjGpUhw1ixOXWi/m73nGw=
+
+Name: assets/res/JunTuan/sound/hit_jiguangqiang.mp3
+SHA-256-Digest: 0baeuhMDAi/pNBqPzkOyZJccc5s9nxamduSwnCzMiWo=
+
+Name: assets/src/JunTuan/src/controllers/GameTool.lua
+SHA-256-Digest: i11GSqDPY13xhXCvwPlc+1BOm3MvMqSmP2TQNwOVNfE=
+
+Name: assets/res/JunTuan/img/bg8.jpg
+SHA-256-Digest: sr0nu5+bnAnRxDkPPgDPpGWzNhgpU5RdU7MnqwNiUkE=
+
+Name: assets/res/JunTuan/spine/pet/xiaowanpi.atlas
+SHA-256-Digest: Wiga3NbhxG6psSF7MMyxgHOqro71VX5bc1Qb69f5cdI=
+
+Name: assets/src/protobuf/ServerStruct_Chat_pb.lua
+SHA-256-Digest: n/uIsxs7IU44YlNK+LWyz8MpVTd6907eLG4mnLzrhG0=
+
+Name: assets/res/JunTuan/spine/enemy/guai_04.atlas
+SHA-256-Digest: WGDqC3os+hr5UaNunlrfbLeG+BSilQ1jQ0OquyAIavI=
+
+Name: assets/res/JunTuan/spine/player/02_01.atlas
+SHA-256-Digest: ayQKdYgFPBdLfCf71ir9RPRlPoZmG4LweFlf5s3sJhM=
+
+Name: assets/src/cocos/cocos2d/Opengl.lua
+SHA-256-Digest: fZQjXNm+1MfJKibmNyIi8VztOGr4+9YqXZW7F1f2U9I=
+
+Name: assets/src/JunTuan/src/controllers/EnemyManager.lua
+SHA-256-Digest: z8EJF1qA4o+XxfvUsImSbl312CfKjsH9DugXq1sJivw=
+
+Name: assets/res/JunTuan/spine/enemy/guai_03.png
+SHA-256-Digest: oK34DR5F+6TsLaCINpy1shQqfhYURYu5r1ZkBtwGF2A=
+
+Name: res/mipmap-mdpi/ic_launcher.png
+SHA-256-Digest: qWAQ//M9dPID8OprT+QqnyycFYLnJhfbYxD7cd73IWk=
+
+Name: assets/src/app/Component/ExternalTools.lua
+SHA-256-Digest: 0Axz9z7vsa9NFoG+lkpnpr6Wp+DY7HICo+mAYr3hcjc=
+
+Name: assets/res/JunTuan/plist/18783edf3.plist
+SHA-256-Digest: HMruYUKV9TBTOTY/PgxxLwUDcrIgSl/AVyWdEosOgTc=
+
+Name: assets/res/JunTuan/sound/playerLvUp.mp3
+SHA-256-Digest: geg8IfNPJFdEKuepah/Rp7IsFJqk/SzHJSoAMzxB3Sg=
+
+Name: assets/res/JunTuan/spine/enemy/guai_22.atlas
+SHA-256-Digest: LTlY/bFYR+EW2JJbvUScFnCq0i0ZgnKsN5+NVox6W88=
+
+Name: assets/res/JunTuan/GuideLayer.csb
+SHA-256-Digest: x4jhyL5N2q5Zaex3aA4dvf+d/X9YsOmE3cwq0rjSR2A=
+
+Name: assets/src/cocos/framework/extends/UITextField.lua
+SHA-256-Digest: Yact9YisXgAgygzm7QzZ06zD7VSSQNWGhX7YQZaW7PM=
+
+Name: assets/src/cocos/cocostudio/StudioConstants.lua
+SHA-256-Digest: g+sWHuBQCEU8PsQpcEGi8mkWBDrKXntGoOwXL2O0vT0=
+
+Name: assets/res/JunTuan/plist/18b323ccc.png
+SHA-256-Digest: bi6Xs/VXoZZc7RKB1IPpvttU1OxDB5nJkxY9h9xyims=
+
+Name: assets/res/JunTuan/plist/hero_jtdzz.png
+SHA-256-Digest: 1Bf3RNrDDIH1mzOSTcFM3dclI/gls8nSoT7w/rDtYwE=
+
+Name: assets/res/JunTuan/plist/1d556bb12.png
+SHA-256-Digest: c1rGUwsNl5N978qLgmMnnbaiZxRi1c3jIwhFXRStWhY=
+
+Name: assets/src/app/Game.lua
+SHA-256-Digest: ZTU/mzNIFLW6rCYzLW5pRV84jyyTM+tkm9AKkf6UKvs=
+
+Name: assets/src/protobuf/ServerStruct_Other_pb.lua
+SHA-256-Digest: fycEeVIwGGgDrl+PE+Yqn8y/HMu+NTE9eEfA1bJsXSk=
+
+Name: assets/res/JunTuan/spine/shangdian_kaibaoxiang.json
+SHA-256-Digest: EqFjvp8xQ5WYs32eYoZxz6PT3Xll3i/3lrpGCfkm670=
+
+Name: assets/res/JunTuan/plist/19fc2eb50.png
+SHA-256-Digest: SXgklnhf73rQORqXUCPfcmv4zsK9n4lE8uj4SUpz2ro=
+
+Name: assets/res/JunTuan/spine/enemy/chuguai.atlas
+SHA-256-Digest: n+95xf0qryk8B3P5z6AOlKdYGbhr2aUEchUE9/xzMyE=
+
+Name: assets/src/JunTuan/src/views/giftBag/NewUserGiftBag.lua
+SHA-256-Digest: ZZBeHrO3/hfthN1OS5+4gK8XoDa4TQaEqIw0LYsK3PA=
+
+Name: assets/src/cocos/extension/DeprecatedExtensionFunc.lua
+SHA-256-Digest: eznLwVd1IDDT9j/O+7M1qwwdHEFSc4U3WVSbQOQpsJM=
+
+Name: assets/res/JunTuan/plist/1761a4d8a.png
+SHA-256-Digest: A1+9HqxNeWl3N7fm4htOPu+VqEtph1fokJ0maRmbjL4=
+
+Name: assets/res/JunTuan/spine/effect/daodanmiaozhun.atlas
+SHA-256-Digest: h98y8+kadTAd3p/ONz3k3cUZZTkne+2uCwKfsoMt8CY=
+
+Name: assets/res/JunTuan/spine/enemy/guai_10.atlas
+SHA-256-Digest: L2mt5zjk3VSz0+yPG0AgL7iiHNURE/gusAg4kg4uukU=
+
+Name: assets/res/JunTuan/spine/win.json
+SHA-256-Digest: lrNnlDE4jeeG4AEI96fLWQGnAXoJT5xmZRXLeXKaEBU=
+
+Name: assets/res/JunTuan/spine/kaishianniu.atlas
+SHA-256-Digest: 7LlFyzCGxL/EhtJ9rV6dW3lA5Bk0yn22Ue9vrBHsSIg=
+
+Name: assets/src/debugConfig.lua
+SHA-256-Digest: pSWHiJ5ovO2J2mlzh1FiGTsFgigJX9DrX3IsOm+qBNA=
+
+Name: assets/res/JunTuan/img/bg_pop_set_jtdzz.png
+SHA-256-Digest: VvreVw205QAE4nfEYsDVsfnRV8TL67dSBVosTOJow5A=
+
+Name: assets/res/JunTuan/spine/enemy/guai_01.json
+SHA-256-Digest: F3JFi4yyJdN0gzINZF92As1FdYK5NoAtVpjuUlx1P7s=
+
+Name: assets/src/cocos/framework/extends/UIScrollView.lua
+SHA-256-Digest: jvgWHM7EewqWfEc9rR1D5JTSwQkVr7Yj/xUpdhX/0nk=
+
+Name: assets/src/Util/WebViewUtil.lua
+SHA-256-Digest: lmirrqpzSGlKgbkIfiGAj0tYyUe8fBqzce0OJI+u9PM=
+
+Name: assets/res/JunTuan/setScene.csb
+SHA-256-Digest: ZgC+kxv2A2v0H5k5Ti4DUwoz5XWCL9eVpX/7sceGy6w=
+
+Name: assets/src/JunTuan/src/network/MsgRecvMgr.lua
+SHA-256-Digest: lYJ4aIPNsQMMrb/B+/xWyPrU08wsdYGIqig+JiCxzD4=
+
+Name: assets/src/functions.lua
+SHA-256-Digest: uzWvq+J4knk9+ikxe8R7BiWJQbbTlTIfs9aYg5auQe4=
+
+Name: assets/res/JunTuan/sound/cannon1.mp3
+SHA-256-Digest: TKd3TXD2jSn17ADLhxcHKPcpWErZYFWu/Sl5ZRH/lPM=
+
+Name: assets/res/JunTuan/sound/hezunate.mp3
+SHA-256-Digest: 0hGgwhGYQvZihakAMHHnxdUI7C9SwO5Vf50vSgZmus0=
+
+Name: assets/src/protobuf/support/containers.lua
+SHA-256-Digest: TAf53/ixQugh11l90OGTngrSaZIjJyvdTWs4haye1xQ=
+
+Name: assets/res/JunTuan/spine/player/02_01.png
+SHA-256-Digest: jPnLMiZAfFOFxB4+7ofAHDJrY6rxylo6Yb5gxFpZhfU=
+
+Name: assets/res/JunTuan/img/bg1.jpg
+SHA-256-Digest: busV+GwS+T/2DgrhITifvcWOo3ZwWXRHgx0EKvJdpns=
+
+Name: assets/res/JunTuan/plist/16744fe05.plist
+SHA-256-Digest: /Z9hrtzbna7EpUmX8213HD4rB8FwdJZ0ICCuYnQRfsQ=
+
+Name: assets/res/JunTuan/spine/enemy/guai_17.png
+SHA-256-Digest: zGWJUm7BAV4yKAIrVDeQrBzyhUUqwOPMfqDpx+cUaI4=
+
+Name: assets/res/JunTuan/spine/enemy/guai_07.atlas
+SHA-256-Digest: xTDqWU2RHN383v2qyte2Yo1OCckHzWva9pe69UdC3kU=
+
+Name: assets/res/JunTuan/spine/pet/mofajingling.atlas
+SHA-256-Digest: ppj88b3UAjA1ZqMCKbeJopzxDRoWvRrehKxradCje5I=
+
+Name: assets/src/cocos/cocos2d/DeprecatedCocos2dClass.lua
+SHA-256-Digest: yAxkAyLaRY7x2Uoey0yXjAEqiY/raf4uqdSGN28/xGk=
+
+Name: assets/src/cocos/spine/SpineConstants.lua
+SHA-256-Digest: 3gEaKkNeuczAEt7euE19bs8TYyd3P+YNBqKThWoyF9k=
+
+Name: assets/src/cocos/extension/DeprecatedExtensionClass.lua
+SHA-256-Digest: L7S1ZHKcU6XL1l5hyYMEClu/MySwRuQShvmqfHHcmHg=
+
+Name: assets/src/JunTuan/src/configs/IllustratedCfg.lua
+SHA-256-Digest: awGIhhNbeMQCCNK62wuu5a+3vRUB7psNoHam6knij+4=
+
+Name: assets/res/JunTuan/sound/hit_shejian.mp3
+SHA-256-Digest: 7mSOcByf7g934uQvdv/mru27xMYmax0uWYnxaf75UtM=
+
+Name: assets/src/cocos/network/DeprecatedNetworkEnum.lua
+SHA-256-Digest: ZuSqxLCpWTykGIqbx3hBFiiwlvboR5EKtbtqwKmmhEM=
+
+Name: assets/res/JunTuan/spine/pet/xiubujiang.atlas
+SHA-256-Digest: UwAAIfHSbFGIKCCdiiZtFOyBiEZNUmX7cpXRrEIcSw4=
+
+Name: assets/res/JunTuan/unlock_rank.csb
+SHA-256-Digest: 1c9qiHcXnKPgKY/FXGLKk8sbkP8iH05CVaJ5gkUK0PE=
+
+Name: assets/src/JunTuan/src/configs/CommonCfg.lua
+SHA-256-Digest: bTI3cqbEWUAeYcBC5RI7kOc/oYf3uhbQFk5xQ9rhyFk=
+
+Name: assets/res/JunTuan/plist/1abd60d94.plist
+SHA-256-Digest: dWqgzvi68e1jFYROts6hJTgpUbpN9XOOPHJD037WxLM=
+
+Name: assets/src/cocos/cocosbuilder/CCBReaderLoad.lua
+SHA-256-Digest: KwGZBPwjzOR3hqyLRMGXY4MZ4G7nEneiRYuEDj0grqM=
+
+Name: assets/src/cocos/cocostudio/DeprecatedCocoStudioClass.lua
+SHA-256-Digest: K7Y0SoqEWjO+r3RtBn6Urq5u8Zy0Ot+O2e2zaFidpLY=
+
+Name: assets/res/JunTuan/spine/player/01_01.json
+SHA-256-Digest: GcQmT9yy8WQWLwbFbLX2qnkVq8wuoYIjTSB8F894jfs=
+
+Name: assets/src/config/SignInCfg.lua
+SHA-256-Digest: WwNF6rzVU8l73xeOOucZXNMjVM0vUEZpNHOFHJD3uCw=
+
+Name: assets/res/JunTuan/spine/enemy/guai_15.atlas
+SHA-256-Digest: pZSTAYI/pCZbaOx/0a1XIxY9TENHqZocHw0e1tQs6+g=
+
+Name: assets/res/JunTuan/plist/home_jtdzz.png
+SHA-256-Digest: KGbEoj7Ow95yAsJcJc4mmi+iQRaFI7wbAQruHf9NuFM=
+
+Name: assets/res/JunTuan/plist/18783edf3.png
+SHA-256-Digest: cVM01ZBagggUmchl3eVnrfAwqM5wkfAKRKQkV4u/zPU=
+
+Name: assets/src/Util/AudioUtil.lua
+SHA-256-Digest: UE36NgIGtGmReMGg1r2QUWEk35Vu5LWaTHp8YMm3e+U=
+
+Name: assets/src/JunTuan/src/views/GameLoadingView.lua
+SHA-256-Digest: T/pj/HHHJNofrjeguWqRscak7ENwFmPJc1PxaurBgyE=
+
+Name: assets/src/JunTuan/src/controllers/HeroManager.lua
+SHA-256-Digest: LokBCXp/mY/bXMBTjVi5Ww86CJdgfSWmDRZGxRTY/SQ=
+
+Name: assets/res/JunTuan/card_week.csb
+SHA-256-Digest: texWeMBERG0fFHMBJJ3evS3swobkO7s+2xNFWDbFBdE=
+
+Name: assets/res/JunTuan/plist/guide.png
+SHA-256-Digest: ONpa/TH0/AN2PkkmYtcyNio6GLy1GU+x8LQoZaL8A5o=
+
+Name: assets/res/JunTuan/spine/pet/mofajingling.json
+SHA-256-Digest: 8ubcmMrElI6uy2DW7dsd2vicACf/EnAEmuJP7+mOMCo=
+
+Name: assets/res/JunTuan/spine/pet/nengliangjingling.png
+SHA-256-Digest: GCU9kLlD56sgElkwFkgcWYdFXbhCKXG/+fDAfjvoBv0=
+
+Name: assets/src/cocos/framework/display.lua
+SHA-256-Digest: ZLZU1gR/nsCjOpounIsnyfzpggNHBDm54qeVD477oYA=
+
+Name: assets/res/JunTuan/spine/player/06_01.json
+SHA-256-Digest: CxRiSisS2eKryXre3Wnf+zRKJB0WyYfd5u6mNxN42Ds=
+
+Name: assets/src/cocos/cocos2d/DeprecatedCocos2dEnum.lua
+SHA-256-Digest: 9sQj2ZpyxDPsks13eDrNG2TZGAQv2lHgygHpFcgg3BI=
+
+Name: assets/res/JunTuan/spine/enemy/guai_08.atlas
+SHA-256-Digest: cD/0UzCiG7lqc0Vb/MHkRmHaeyWtZWFOaA0sc+LvW7w=
+
+Name: assets/res/JunTuan/sound/rewardBox2.mp3
+SHA-256-Digest: NYR+E+JFLIy5U/Em/pqhuM4eDzOYHkaLHBhde7tU1fY=
+
+Name: assets/res/JunTuan/hero_tip.csb
+SHA-256-Digest: fcUB7cZVgyesJPjkANVUslSIT1h17A7xHnRrNxz3BPI=
+
+Name: assets/res/JunTuan/Game_tip2.csb
+SHA-256-Digest: 2n8qHMs1cLZ6A7+NqLJkLz4xHbzwnmZ2zlbTzpa1QTo=
+
+Name: assets/res/JunTuan/milepost.csb
+SHA-256-Digest: 3NqmsgLGJCpPE9E+Ep13l9wXFtI1DRy+p+TsMD45juM=
+
+Name: assets/res/JunTuan/plist/field_jtdzz.plist
+SHA-256-Digest: iOT64/lqEFR8oiOkS9oLKR9Ku4XN9aVFUP2+N8/OMx4=
+
+Name: assets/src/app/Manager/Net/GameNetManager.lua
+SHA-256-Digest: fUbjDoDA0hRf7DQjGUukivvzeudT60mUlb0QJ3Dopt8=
+
+Name: assets/src/protobuf/ServerStruct_Game_pb.lua
+SHA-256-Digest: 2Ss2IsdXJXC67Sii7BYe7cLJri+ndGsSqxpuqx+TKjA=
+
+Name: assets/res/JunTuan/spine/player/05_01.atlas
+SHA-256-Digest: sALAKlhah2je2wUlT9RGxsK4J6TvCWfsKh3LHsEX/dk=
+
+Name: assets/res/JunTuan/plist/guide.plist
+SHA-256-Digest: eU2n+O1/DGmhqzvGlImVvcOkDOZN8rZMfrI3KXzueNs=
+
+Name: assets/src/protobuf/Game_LandLord_pb.lua
+SHA-256-Digest: /x3zehAEtoTZT+DWVUO2ThJsvGIrzr+wKIT/5fzVyaw=
+
+Name: assets/src/JunTuan/src/macros/MsgKeyData.lua
+SHA-256-Digest: YIw0fba69Q5yQiAFgkmijGJ6Tff9XHElSSIqBmukTlY=
+
+Name: assets/src/Util/H5Pay.lua
+SHA-256-Digest: WFNg4k3WocaOpWqVR9f0Qb0nco/5wYQ1MZkcaxXaHqo=
+
+Name: assets/src/JunTuan/src/scene/LoadingScene.lua
+SHA-256-Digest: GR8cBZaBiAT1c9mu6teDFWcg7CpyY/BnpvXA+hMHTx8=
+
+Name: assets/res/JunTuan/sound/boom2.mp3
+SHA-256-Digest: 7wkcPDJmRdCFuzpQWIp9XiBaXkV633JM48fTKQWmc5c=
+
+Name: assets/src/config.lua
+SHA-256-Digest: 0GTTJVcqMH6j6+eSJpaV0xR8GIsYCEt3iJomOUCRQew=
+
+Name: assets/res/JunTuan/img/bg_home_jtdzz.jpg
+SHA-256-Digest: 0N0T5lU0Pqut6pKoOkLp6BMXPjkSJnls1tpV9GntqAQ=
+
+Name: assets/src/cocos/framework/extends/LayerEx.lua
+SHA-256-Digest: icipgy1SVylK5XGI1836eMDLYDVdrt1PJVDJw9zaXcw=
+
+Name: assets/res/JunTuan/spine/enemy/guai_06.json
+SHA-256-Digest: sxpRGbXSXi72/HfQqOkAq5KW2yeY1iQFDVUlxXc5ebc=
+
+Name: assets/res/JunTuan/LoadingScene.csb
+SHA-256-Digest: HUst9jO5F03bqd1QNVrAeG6t9I7Cl5A7tvgqADjYWrI=
+
+Name: assets/src/JunTuan/src/views/TaskView.lua
+SHA-256-Digest: fNdX7EyRBWc2FU7AtQ9o4d0UajnhPfEYUQp9TBnl9gU=
+
+Name: assets/src/app/Manager/SceneManager.lua
+SHA-256-Digest: 3W0KitPaqHKZve9qCzDGbxMzlctqN91gi25F77My1ro=
+
+Name: assets/src/app/Model/MsgKeyData.lua
+SHA-256-Digest: wGc7ReSTmQNy3AGKXY6m5v///nv3RZX2EH/i8VJ+6PU=
+
+Name: assets/src/cocos/framework/package_support.lua
+SHA-256-Digest: 28lUKrgHq9GoGIqITTBkQFjoGcn6piRomxS6hKVOLFs=
+
+Name: assets/res/JunTuan/hero_promotion.csb
+SHA-256-Digest: D/01n41wbNdpkpcebg408X3npWKIC3LjF6Rx/b6UAeA=
+
+Name: assets/src/cocos/ui/GuiConstants.lua
+SHA-256-Digest: w39evBnR6ED71H6h3l1K1WFh3IeuWdbd8suhMLN9G4k=
+
+Name: assets/res/JunTuan/hero_promotion_detail.csb
+SHA-256-Digest: alK4f+6DauK9dfGceHn6XTFOYcobfd3Zq9IuhPSLWW0=
+
+Name: assets/src/cocos/cocosdenshion/DeprecatedCocosDenshionClass.lua
+SHA-256-Digest: go+5zDsnshamswHynWv9l0tYDhLA0NXSS/6HW3JrgCw=
+
+Name: assets/res/JunTuan/spine/effect/kuangbao.atlas
+SHA-256-Digest: SfTiwmjUJi/AmkgyaEJGiSmwFKecegKVuMxhxkDbREo=
+
+Name: res/mipmap-hdpi/loading_bg.jpg
+SHA-256-Digest: PGhx34Znndd1+s/QYrtw+zvklSQYDxY+5+q0wrX0Kyg=
+
+Name: assets/src/protobuf/support/protobuf.lua
+SHA-256-Digest: /kBPEp5WTrBYv2kmw8OH7EY4QaNGwJFEbWoIJ6xYG6E=
+
+Name: assets/src/JunTuan/src/views/GetRewardView.lua
+SHA-256-Digest: N5Z9Jxy/2CXHZoBXBZ/7oSfda/PMovVj8R5NsrtCV6E=
+
+Name: assets/src/protobuf/support/decoder.lua
+SHA-256-Digest: AkaZsdaizJoL/tMpkUvPe415/nAGlSWGbNHK6OMi0FI=
+
+Name: assets/res/JunTuan/sound/cannon.mp3
+SHA-256-Digest: M6VYdnF9ukRl7H7/nztqXknpmL2R1VcNNI4oYuREoFU=
+
+Name: assets/res/JunTuan/spine/enemy/guai_02.png
+SHA-256-Digest: 43esIkA00mTNo8SgLmtXUuyRAWddK+4SSBZPO+3O3kE=
+
+Name: assets/res/JunTuan/sound/cannon2.mp3
+SHA-256-Digest: B9ITDQMKPcfy1eFbL/GMpPSSUBy0/5U8UWlh2Q3ZXCk=
+
+Name: classes.dex
+SHA-256-Digest: z7Ip0LGtA3g0Jf//ot8aaALDFFVHbStulekfKm4pV38=
+
+Name: assets/res/JunTuan/sound/combat.mp3
+SHA-256-Digest: bxLA7k3QL7J20ddB+mqgKTEA33bI2O07y4o4WQpV/r0=
+

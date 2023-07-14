@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Boss10_Skill1_End_05",
+    "texture": "f797124c-55fd-41dd-b6f4-d171b5e0f761",
+    "atlas": "31463138-228a-4da5-95bc-c35458f54a79",
+    "rect": [
+      2,
+      1946,
+      1,
+      1
+    ],
+    "offset": [
+      -149.5,
+      139.5
+    ],
+    "originalSize": [
+      300,
+      280
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

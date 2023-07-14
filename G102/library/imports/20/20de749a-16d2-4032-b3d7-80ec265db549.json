@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Spine_Boss10",
+    "texture": "d08e0a60-c39b-4509-9286-37762aad990c",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      347,
+      1571
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      351,
+      1575
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

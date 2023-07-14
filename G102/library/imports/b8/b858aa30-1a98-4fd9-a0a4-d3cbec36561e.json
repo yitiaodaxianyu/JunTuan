@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "JSTC_bg_08",
+    "texture": "58ca313a-dd33-4f8b-a20b-b242e5afc644",
+    "atlas": "63314aa7-d807-4875-8f73-21a49f85c9f9",
+    "rect": [
+      183,
+      119,
+      113,
+      37
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      113,
+      37
+    ],
+    "rotated": 1,
+    "capInsets": [
+      32,
+      16,
+      32,
+      16
+    ]
+  }
+}

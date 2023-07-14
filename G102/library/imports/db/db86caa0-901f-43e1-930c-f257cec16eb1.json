@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Sprite_Up_Bg_0",
+    "texture": "c1a2d292-8ed6-4e5f-8991-223632faf12c",
+    "atlas": "e36904d8-da86-4999-a2a1-fa07300419d3",
+    "rect": [
+      2,
+      2,
+      640,
+      1400
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      640,
+      1400
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

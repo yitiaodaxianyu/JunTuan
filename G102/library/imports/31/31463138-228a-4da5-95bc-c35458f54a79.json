@@ -1,0 +1,158 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "boss5.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Boss10_AttackHit_00": {
+      "__uuid__": "1fa3d387-295e-4253-9032-6b296b53c64e"
+    },
+    "Boss10_AttackHit_01": {
+      "__uuid__": "d8bbafdf-d06b-45e2-922e-6d01fa961c06"
+    },
+    "Boss10_AttackHit_02": {
+      "__uuid__": "1a0d2a47-7905-41ae-ab0d-8c9a99b28b85"
+    },
+    "Boss10_AttackHit_03": {
+      "__uuid__": "75d88f33-c0c6-480d-bed5-3910b4ef4de8"
+    },
+    "Boss10_AttackHit_04": {
+      "__uuid__": "f04c99ff-20a3-4a73-8286-1cafe9cfe47e"
+    },
+    "Boss10_AttackHit_05": {
+      "__uuid__": "e20599ec-df4a-4928-b338-86b01d391f01"
+    },
+    "Boss10_AttackHit_06": {
+      "__uuid__": "0b7f5a8f-f1d9-4607-866d-7c3276a41ab9"
+    },
+    "Boss10_AttackHit_07": {
+      "__uuid__": "c20c9feb-5c4a-4ad1-9a0e-51e8cad61445"
+    },
+    "Boss10_AttackHit_08": {
+      "__uuid__": "2d7bc3ed-cdf1-417b-8ae9-fd0e0adefd40"
+    },
+    "Boss10_AttackHit_09": {
+      "__uuid__": "137cb26c-99d2-4648-9edc-0960327d25fa"
+    },
+    "Boss10_AttackHit_10": {
+      "__uuid__": "20507525-b0e7-4451-9ee2-5d6633293591"
+    },
+    "Boss10_Skill1_4Bao_00": {
+      "__uuid__": "cdd7291b-1c3b-4fd6-a535-6733033b1c7c"
+    },
+    "Boss10_Skill1_4Bao_01": {
+      "__uuid__": "df0144cc-fbb6-4886-9225-043386480b41"
+    },
+    "Boss10_Skill1_4Bao_02": {
+      "__uuid__": "30e55843-7a1c-424b-adf6-b02f8ed2b4d1"
+    },
+    "Boss10_Skill1_4Bao_03": {
+      "__uuid__": "901bf75e-86da-4ba6-95a8-80397f1db133"
+    },
+    "Boss10_Skill1_4Bao_04": {
+      "__uuid__": "8d594fc7-0c29-4f47-bb2c-01fcc4d66352"
+    },
+    "Boss10_Skill1_4Bao_05": {
+      "__uuid__": "2e231aa7-2551-4f1f-95d3-67ea1094f77f"
+    },
+    "Boss10_Skill1_4Bao_06": {
+      "__uuid__": "29d74f38-475a-4fa3-8682-0a6485271df8"
+    },
+    "Boss10_Skill1_4Bao_07": {
+      "__uuid__": "88af7bc4-6414-41f0-87c9-d29396d3dbfb"
+    },
+    "Boss10_Skill1_4Bao_08": {
+      "__uuid__": "46f94345-32e1-43e0-be41-ae9af0190c86"
+    },
+    "Boss10_Skill1_4Bao_09": {
+      "__uuid__": "0fe758e1-22e7-4a6e-bf3e-6543eaefe241"
+    },
+    "Boss10_Skill1_4Bao_10": {
+      "__uuid__": "0a891a99-6b0e-4111-9382-296768b6dc4d"
+    },
+    "Boss10_Skill1_4Bao_11": {
+      "__uuid__": "17533f41-624e-4928-9ab4-dc998b4aab61"
+    },
+    "Boss10_Skill1_4Bao_12": {
+      "__uuid__": "5db7560e-985c-4c00-9aa9-f97475743259"
+    },
+    "Boss10_Skill1_End_00": {
+      "__uuid__": "b2edddd3-0e59-4f0d-8071-c8fbc8fa7d81"
+    },
+    "Boss10_Skill1_End_01": {
+      "__uuid__": "35443077-6c39-4a15-abc7-ee2b3f7f7833"
+    },
+    "Boss10_Skill1_End_02": {
+      "__uuid__": "cec72195-65ab-4b71-8b7f-c4eb36985f6c"
+    },
+    "Boss10_Skill1_End_03": {
+      "__uuid__": "fa7a7141-9687-4464-8214-dde716ce0323"
+    },
+    "Boss10_Skill1_End_04": {
+      "__uuid__": "277aac4f-c1e1-4276-98e1-425e61d42a3f"
+    },
+    "Boss10_Skill1_End_05": {
+      "__uuid__": "0cb97771-3d91-4267-ab52-bc8f66a98d78"
+    },
+    "Boss10_Skill1_Loop_00": {
+      "__uuid__": "0616b588-b896-42c9-8777-ca6e4a26379a"
+    },
+    "Boss10_Skill1_Loop_01": {
+      "__uuid__": "4e18d07e-03b1-4f5e-9a2d-2a6904e59097"
+    },
+    "Boss10_Skill1_Loop_02": {
+      "__uuid__": "24a54998-2222-4581-b270-dcf7dd6c5b4a"
+    },
+    "Boss10_Skill1_Loop_03": {
+      "__uuid__": "c6feaa23-992b-412e-a863-7b9b9ec3a218"
+    },
+    "Boss10_Skill1_Loop_04": {
+      "__uuid__": "0f756d17-bbdd-43d5-a222-bde3a52d45ce"
+    },
+    "Boss10_Skill1_Loop_05": {
+      "__uuid__": "2ad81e8e-2e5c-41fe-9f22-1b2c45a21aa2"
+    },
+    "Boss10_Skill1_Loop_06": {
+      "__uuid__": "13fcbe68-bb07-41e1-bb49-6a551030717e"
+    },
+    "Boss10_Skill1_Loop_07": {
+      "__uuid__": "78903073-082c-48a1-99f5-0fe781c7a88f"
+    },
+    "Boss10_Skill1_Loop_08": {
+      "__uuid__": "e6ff2bc9-e517-443c-8a11-409d5b477ab3"
+    },
+    "Boss10_Skill1_Loop_09": {
+      "__uuid__": "5a24155a-e74d-4b4a-b495-29bbfa89263c"
+    },
+    "Boss10_Skill1_Loop_10": {
+      "__uuid__": "cd96f662-3efd-422b-9fcc-6c7d9350eaeb"
+    },
+    "Boss10_Skill1_Loop_11": {
+      "__uuid__": "dd013b49-c2b9-4249-925e-10818184a13c"
+    },
+    "Boss10_Skill1_Start_00": {
+      "__uuid__": "6b95c1f4-1d15-4905-8222-0be595ed9b81"
+    },
+    "Boss10_Skill1_Start_01": {
+      "__uuid__": "c35dc26a-f2bb-4efd-9e59-817550f76a51"
+    },
+    "Boss10_Skill1_Start_02": {
+      "__uuid__": "2c042cb8-1e33-42e0-8388-d70cf93194d3"
+    },
+    "Boss10_Skill1_Start_03": {
+      "__uuid__": "aa870b53-dd58-4593-ba29-e1288ed53bd1"
+    },
+    "Boss10_Skill1_Start_04": {
+      "__uuid__": "5b4d5bc8-26d3-496b-a293-405e104d2db7"
+    },
+    "Boss10_Skill1_Start_05": {
+      "__uuid__": "1b966676-d2f8-4045-867b-81693597341f"
+    },
+    "Boss10_Skill1_Start_06": {
+      "__uuid__": "a5b6cd9c-45e9-461b-8ef8-f5d6a5531e94"
+    },
+    "Boss10_Skill1_Start_07": {
+      "__uuid__": "5347452b-9e75-4737-8ab5-79cbe7d50716"
+    }
+  }
+}

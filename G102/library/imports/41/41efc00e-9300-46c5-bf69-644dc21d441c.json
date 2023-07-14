@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Hatch_Arrow",
+    "texture": "348788c8-89bd-4db1-afde-fcadd5ff5c98",
+    "atlas": "88483513-16a1-4225-950a-da1d8c52e886",
+    "rect": [
+      1682,
+      2,
+      25,
+      19
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      25,
+      19
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

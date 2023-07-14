@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Monster_51_Bady",
+    "texture": "bd14cc48-8de4-4eb9-91b7-ecbdb3055bf6",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      80,
+      65
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      80,
+      65
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

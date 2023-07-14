@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "BingNv_AttackHit_01",
+    "texture": "5f99c752-f700-4578-aad7-6eacd94b3ea8",
+    "atlas": "f4299e07-e1a1-4ee6-b903-8dfa05496286",
+    "rect": [
+      808,
+      1802,
+      122,
+      128
+    ],
+    "offset": [
+      -2,
+      6
+    ],
+    "originalSize": [
+      150,
+      150
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

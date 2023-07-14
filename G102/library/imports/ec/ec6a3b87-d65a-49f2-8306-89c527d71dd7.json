@@ -1,0 +1,11 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "fast_guaji_ui.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Idle_Bg_1": {
+      "__uuid__": "b4416131-8c55-4655-9c99-e42b8d6ca4be"
+    }
+  }
+}

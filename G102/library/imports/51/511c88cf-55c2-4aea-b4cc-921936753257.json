@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "BB_Jiaobiao_4",
+    "texture": "5a2fdfa0-f77e-4432-9392-2ecbdbae1d2f",
+    "atlas": "1ea87cb2-bd31-4227-bac3-810cf4cf0320",
+    "rect": [
+      208,
+      320,
+      31,
+      31
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      31,
+      31
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

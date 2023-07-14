@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "BeastMaster_Hit_02",
+    "texture": "db960f92-11a8-4b30-84eb-71af8e0fd40b",
+    "atlas": "7edcf3be-2879-4a09-bb10-3560007c781a",
+    "rect": [
+      422,
+      2,
+      92,
+      82
+    ],
+    "offset": [
+      3,
+      -13
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

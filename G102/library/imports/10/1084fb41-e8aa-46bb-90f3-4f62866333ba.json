@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "EggInformation",
+  "_objFlags": 0,
+  "_native": "",
+  "json": [
+    {
+      "EggsID": 10001,
+      "EggsType": 1,
+      "EggsReward": 1010007,
+      "EggPropID_1": 40006,
+      "EggPropNum_1": 1,
+      "TenEggProp_1": 10,
+      "EggPropID_2": 10003,
+      "EggPropNum_2": 100,
+      "TenEggProp_2": 900
+    },
+    {
+      "EggsID": 20001,
+      "EggsType": 2,
+      "EggsReward": 1010008,
+      "EggPropID_1": 40007,
+      "EggPropNum_1": 1,
+      "TenEggProp_1": 10,
+      "EggPropID_2": 10003,
+      "EggPropNum_2": 300,
+      "TenEggProp_2": 2700
+    }
+  ]
+}

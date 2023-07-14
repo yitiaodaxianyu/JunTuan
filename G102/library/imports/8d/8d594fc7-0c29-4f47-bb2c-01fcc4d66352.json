@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Boss10_Skill1_4Bao_04",
+    "texture": "f797124c-55fd-41dd-b6f4-d171b5e0f761",
+    "atlas": "31463138-228a-4da5-95bc-c35458f54a79",
+    "rect": [
+      1594,
+      284,
+      248,
+      212
+    ],
+    "offset": [
+      1,
+      -8
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

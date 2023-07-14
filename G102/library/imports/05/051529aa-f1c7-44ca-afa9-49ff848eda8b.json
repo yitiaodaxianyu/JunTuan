@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Monster_36_AttackBaoJi_05",
+    "texture": "34a6945d-6dcf-4f7d-be08-f80b2c870f0b",
+    "atlas": "4ab7f60e-edd6-479a-a06e-d113fae5d9dd",
+    "rect": [
+      698,
+      234,
+      230,
+      230
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      230,
+      230
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "role_dialog.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "JSTC_Btn_00": {
+      "__uuid__": "99bb6f8b-2677-43b8-a80a-374e2f9d8a99"
+    },
+    "JSTC_Btn_01": {
+      "__uuid__": "bd90a403-ae3f-4de5-911f-457962c2fc9f"
+    },
+    "JSTC_bg_00": {
+      "__uuid__": "1c60aac4-76a3-40e7-85b7-245e90f982ab"
+    },
+    "JSTC_bg_01": {
+      "__uuid__": "2772e4c7-844e-4a87-be93-375426618702"
+    },
+    "JSTC_bg_02": {
+      "__uuid__": "4137990a-0a8f-4dc4-8730-ecb7af79b8d5"
+    },
+    "JSTC_bg_03": {
+      "__uuid__": "877d2080-edbe-4ed0-87f3-d8023a1e5514"
+    },
+    "JSTC_bg_04": {
+      "__uuid__": "cfb151f7-43cb-454b-ae91-674d68e6034a"
+    },
+    "JSTC_bg_05": {
+      "__uuid__": "cffc088b-88f2-45c9-a9e9-0e8bc6047f65"
+    },
+    "JSTC_bg_06": {
+      "__uuid__": "af91d6c5-fe3f-49ab-931c-b1481801462e"
+    },
+    "JSTC_bg_07": {
+      "__uuid__": "70a3fbff-fb88-4c04-bae8-5d0c0a5af173"
+    },
+    "JSTC_bg_08": {
+      "__uuid__": "b858aa30-1a98-4fd9-a0a4-d3cbec36561e"
+    },
+    "JSTC_icon_00": {
+      "__uuid__": "79bd17bb-7986-4c58-8f0b-0dc530fd6156"
+    },
+    "JSTC_icon_DaCha": {
+      "__uuid__": "b383b648-d48f-48fe-8706-9af453510621"
+    },
+    "JSTC_icon_DaGou": {
+      "__uuid__": "851200d4-22c8-4c96-bb5f-85e8d0b9ae0d"
+    },
+    "TY_GDT_00": {
+      "__uuid__": "729b90ba-0a91-4be5-9b49-cdebe8b30444"
+    },
+    "TY_GDT_01": {
+      "__uuid__": "b85a2a9a-75e3-4e4d-931b-929baa6c51b7"
+    },
+    "TY_TCBG_11": {
+      "__uuid__": "53bc13e4-f74a-4607-94c9-6a9236507f51"
+    },
+    "TY_icon_Zuan_02": {
+      "__uuid__": "e4818578-2314-4770-bfb6-2ac2619a6c2b"
+    },
+    "ZDL_TiSheng": {
+      "__uuid__": "6ca2cd84-a450-48d0-aa10-7628741e3c83"
+    },
+    "ZDL_bg": {
+      "__uuid__": "6e028fc9-f73b-4c65-9394-ef3f7ec19858"
+    }
+  }
+}

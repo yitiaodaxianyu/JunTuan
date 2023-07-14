@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "CommonSpirit_DrawCardFX_Purple_14",
+    "texture": "1b05645a-b515-4cbb-8c18-15dc0944d9ce",
+    "atlas": "78c08d72-a037-4c7c-a6bf-261d191ac8a6",
+    "rect": [
+      526,
+      2,
+      210,
+      260
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      210,
+      260
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

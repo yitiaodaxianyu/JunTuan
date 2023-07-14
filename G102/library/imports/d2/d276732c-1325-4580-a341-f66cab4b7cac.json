@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Home_Cloud",
+    "texture": "1702d2f6-9d72-4164-ba7f-934bb5643905",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1500,
+      378
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      1500,
+      379
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

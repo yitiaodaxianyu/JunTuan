@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bg6_wall",
+    "texture": "3d7c0bd0-b980-4c4a-8a45-4822e756b0e3",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      750,
+      450
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      750,
+      450
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

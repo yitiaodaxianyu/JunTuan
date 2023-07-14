@@ -1,0 +1,689 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "item_list.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "BeiGuang_S": {
+      "__uuid__": "cc9cdfb4-8153-4113-afea-09b75b52a83e"
+    },
+    "BeiGuang_SS": {
+      "__uuid__": "fa0d09da-065b-4dbb-a3e5-68cdd8315676"
+    },
+    "Common_Arrow": {
+      "__uuid__": "e7bc9b81-6c99-4d9c-8153-08af9654316f"
+    },
+    "Common_Bar_0": {
+      "__uuid__": "c3001a2a-4ca6-4041-8b2c-fcda8dbf324a"
+    },
+    "Common_Bar_1": {
+      "__uuid__": "8b5e643c-ef4c-4fc7-8deb-16d3d30a0867"
+    },
+    "Common_Bar_2": {
+      "__uuid__": "33de0610-ed90-4164-95f0-5d111f140934"
+    },
+    "Common_Bg_10": {
+      "__uuid__": "d784f105-8400-42ea-a22a-e81824e878bb"
+    },
+    "Common_Bg_8": {
+      "__uuid__": "1e3a8619-f89e-4dcc-b0fa-f29385f3fe85"
+    },
+    "Common_Bg_9": {
+      "__uuid__": "52ee6297-4409-460e-a684-16c4ae2cd0bb"
+    },
+    "Common_Btn_0": {
+      "__uuid__": "1f71c37d-e501-4392-b9b6-decdbf6a46b3"
+    },
+    "Common_Btn_2": {
+      "__uuid__": "bf3e732e-0a5a-49a4-af0f-2ca44a912cdf"
+    },
+    "Common_Btn_3": {
+      "__uuid__": "4d32b2cd-08e3-4257-8b6f-01881c6ba516"
+    },
+    "Common_Btn_Back": {
+      "__uuid__": "9c61ac15-94ee-46cd-b5ac-74ea8b66ce97"
+    },
+    "Common_Btn_Close": {
+      "__uuid__": "1424188f-7299-4998-a89a-7b8d68b821ee"
+    },
+    "Common_Btn_Less": {
+      "__uuid__": "4daf5e48-9c16-46ce-b9d4-9d54506f441f"
+    },
+    "Common_Btn_Plus": {
+      "__uuid__": "b877444f-6ce2-4f5d-bf5b-cadf6c76e0fb"
+    },
+    "Common_Edge_Bg_0": {
+      "__uuid__": "581cdc04-68a4-48bf-9c46-e7f99a621aa9"
+    },
+    "Common_Edge_Bg_1": {
+      "__uuid__": "113da2f0-d664-44f6-961e-3db8d8a876cd"
+    },
+    "Common_Edge_Bg_2": {
+      "__uuid__": "b353adf2-83b8-4956-bfba-8de555d5e7cb"
+    },
+    "Common_Icon_ADS": {
+      "__uuid__": "4bc7793b-c9df-4904-882b-a79c1c663bd2"
+    },
+    "Common_Icon_ADS_1": {
+      "__uuid__": "e4e2bb79-6c11-4788-9200-267539df7963"
+    },
+    "Common_Icon_RedDot": {
+      "__uuid__": "74b06747-9e1f-425c-add4-043ef4327093"
+    },
+    "Common_Star_1": {
+      "__uuid__": "69cefb52-2dce-4aa3-98aa-ce9ab1b1d642"
+    },
+    "Common_Star_2": {
+      "__uuid__": "3dcce389-61f4-4428-8a47-b47083c51528"
+    },
+    "Common_Star_3": {
+      "__uuid__": "b4cf824a-2641-4305-8e5f-ffd48109f953"
+    },
+    "Common_Star_4": {
+      "__uuid__": "0a7d917a-e115-4c76-834b-86195362446f"
+    },
+    "Common_Star_5": {
+      "__uuid__": "0f62b5c1-1a5b-4dd1-be79-397f20cecbf4"
+    },
+    "Common_TextBG": {
+      "__uuid__": "8d967e28-60a7-4116-a5c6-923afde496f4"
+    },
+    "Common_Window_Bg_3": {
+      "__uuid__": "6a492ed1-57be-4b1a-8f7c-7020303d2557"
+    },
+    "Common_Window_Bg_5": {
+      "__uuid__": "da3c6245-ee91-4642-abf4-00e54e8f96d6"
+    },
+    "Common_Window_Title": {
+      "__uuid__": "4e4209bf-4839-408b-9c56-91e324e553d3"
+    },
+    "Common_YouHui": {
+      "__uuid__": "9fb186ed-dcf4-4e6b-b0f7-6498c30c3b79"
+    },
+    "DiGuang_0": {
+      "__uuid__": "4fbec6c4-5ea6-4228-b81c-fc0b6a726b4a"
+    },
+    "DiGuang_1": {
+      "__uuid__": "b3a1d3ee-6c81-4174-83cd-6deeb0a8d465"
+    },
+    "DiGuang_2": {
+      "__uuid__": "648163b0-f8f9-4124-a28c-3bc59b2bcf12"
+    },
+    "DiGuang_3": {
+      "__uuid__": "01796927-eed7-459b-a3c3-7d07301ce1bf"
+    },
+    "DiGuang_4": {
+      "__uuid__": "5b509d44-1993-448c-9967-7cce06d31126"
+    },
+    "Equipped_Hero_1": {
+      "__uuid__": "cd28eb2a-6adc-46bd-a4a4-b7f2fd629239"
+    },
+    "Equipped_Hero_2": {
+      "__uuid__": "9dcb3400-92f1-4583-a6b4-8dbd3fd2ffbe"
+    },
+    "Equipped_Hero_3": {
+      "__uuid__": "44e4a3e4-40c5-46b8-afdf-08baeb3d03ef"
+    },
+    "Equipped_Hero_4": {
+      "__uuid__": "50f83708-fec6-4bab-8c46-0aab45f6516c"
+    },
+    "Equipped_Hero_5": {
+      "__uuid__": "9223e8b0-65bb-4dd2-b9c9-14ac5fc84440"
+    },
+    "Equipped_Icon": {
+      "__uuid__": "b3e4ce37-13c3-4d5d-bf0e-16ffaf7a3fab"
+    },
+    "Evolve_Bg_0": {
+      "__uuid__": "fe87b1b5-4f41-483f-9446-42c76a5c3598"
+    },
+    "Evolve_Bg_1": {
+      "__uuid__": "3138fa86-d0f4-4a62-963d-684aaa253566"
+    },
+    "Exclusive_Weapon_1_1": {
+      "__uuid__": "1f90475f-cc77-4997-a9c8-7e37f57f5473"
+    },
+    "Exclusive_Weapon_2_1": {
+      "__uuid__": "a9a9050d-4bac-4f80-9461-753f6429fb76"
+    },
+    "Exclusive_Weapon_3_1": {
+      "__uuid__": "dcc0fd38-1cdf-4408-aca2-d6a2d2628735"
+    },
+    "Exclusive_Weapon_4_1": {
+      "__uuid__": "3e10bcfe-cbe7-48d5-b0e1-c91cfb049249"
+    },
+    "Exclusive_Weapon_Mask": {
+      "__uuid__": "08820134-df3c-4a36-a664-38559e6e5e81"
+    },
+    "Head_Hero_S_1": {
+      "__uuid__": "aa2e2f17-14c0-43fe-abb3-b5286f34a51b"
+    },
+    "Head_Hero_S_10": {
+      "__uuid__": "5a437a6a-5aa1-4114-86e0-5dc03f6a0758"
+    },
+    "Head_Hero_S_11": {
+      "__uuid__": "08858782-acea-4c41-8bce-ced327a0cfe8"
+    },
+    "Head_Hero_S_12": {
+      "__uuid__": "209e4053-5aae-43ee-9d03-4bd8ba669777"
+    },
+    "Head_Hero_S_2": {
+      "__uuid__": "aff9f020-be8c-4bb8-b62d-881bda0afc66"
+    },
+    "Head_Hero_S_3": {
+      "__uuid__": "00b1dbc6-0c3d-4db2-8302-6006e2347162"
+    },
+    "Head_Hero_S_4": {
+      "__uuid__": "0387439e-f4d0-45d5-a03b-3ae3617c5237"
+    },
+    "Head_Hero_S_5": {
+      "__uuid__": "15e871ab-c7a0-4d5b-a6a8-8998d04d515f"
+    },
+    "Head_Hero_S_6": {
+      "__uuid__": "b8b90620-34ca-4cd4-b7bf-240064f55b89"
+    },
+    "Head_Hero_S_7": {
+      "__uuid__": "74cda47e-9bf8-4ea2-b515-b5b0210a36e5"
+    },
+    "Head_Hero_S_8": {
+      "__uuid__": "def75029-a104-4e21-a9f5-49bcb96dfc5b"
+    },
+    "Head_Hero_S_9": {
+      "__uuid__": "a7d0c31a-8c85-4190-956c-ca499d5e69cc"
+    },
+    "Icon_Pet_1": {
+      "__uuid__": "2b3537ba-1865-43f7-8218-34d86df35d05"
+    },
+    "Icon_Pet_2": {
+      "__uuid__": "be85d9f2-fe73-40cb-9aea-fb900175b59a"
+    },
+    "Icon_Pet_3": {
+      "__uuid__": "7c551ce9-e09f-432c-8d93-05f09034c8c1"
+    },
+    "Icon_Pet_4": {
+      "__uuid__": "4a276a8f-bab4-4882-b8be-7cafe048675a"
+    },
+    "Icon_ZhanLi": {
+      "__uuid__": "a7b8111f-72cd-4585-9408-9ed3e1e18a82"
+    },
+    "Item_100001": {
+      "__uuid__": "adc46976-bdf3-4ae1-a1c9-10353842ca1a"
+    },
+    "Item_100002": {
+      "__uuid__": "2c252913-4576-4653-8fde-0d37691c8420"
+    },
+    "Item_100003": {
+      "__uuid__": "0f075c42-de0e-4d97-bab9-b8542d98d9b6"
+    },
+    "Item_100004": {
+      "__uuid__": "e5fcadeb-9518-454f-9ee0-0260fdc6f5bc"
+    },
+    "Item_100005": {
+      "__uuid__": "9f44cf40-9e83-4176-97c8-fbca4a26ddc0"
+    },
+    "Item_100006": {
+      "__uuid__": "d7b1b3b7-ab0b-4507-b2d9-a2261885fb7a"
+    },
+    "Item_100007": {
+      "__uuid__": "ac161a47-d6e1-4eec-a219-2ec71dc9c0bb"
+    },
+    "Item_100008": {
+      "__uuid__": "1d3f5a72-08cf-4e89-ad05-7a395aba26a5"
+    },
+    "Item_100009": {
+      "__uuid__": "fdffa31c-fa79-4066-ab6d-9df6d9fdea6d"
+    },
+    "Item_10001": {
+      "__uuid__": "26ee915f-8f39-4079-b24c-b8694a3a6429"
+    },
+    "Item_100010": {
+      "__uuid__": "30cf8d1d-4bac-4b6f-8194-16e58266d8a5"
+    },
+    "Item_100011": {
+      "__uuid__": "bd3911e8-f8a3-4d93-bd67-560a6db4cac7"
+    },
+    "Item_100012": {
+      "__uuid__": "5e7f8e03-b201-48a2-9b28-078eab567340"
+    },
+    "Item_10002": {
+      "__uuid__": "6b4be508-ab50-4f93-b2ca-3e4eb5b9c0ee"
+    },
+    "Item_10003": {
+      "__uuid__": "8793e9e5-9d1d-4e61-b160-aa91c25a40f9"
+    },
+    "Item_101001": {
+      "__uuid__": "e9fc10f7-6bd7-4c1b-b489-7634a9c3b4c7"
+    },
+    "Item_101002": {
+      "__uuid__": "9efadb7d-ca87-496f-a84e-16868fef1346"
+    },
+    "Item_101003": {
+      "__uuid__": "ea4c482c-b576-4aec-9102-19e5a10406a4"
+    },
+    "Item_101004": {
+      "__uuid__": "0f62ce98-54bc-45b1-83c2-1e0eaafecd63"
+    },
+    "Item_101005": {
+      "__uuid__": "830f5b8b-35c3-4685-b63c-388833e08aa4"
+    },
+    "Item_110001": {
+      "__uuid__": "9653db46-90c1-44fe-8863-e291da5691db"
+    },
+    "Item_110002": {
+      "__uuid__": "d8a0c1b8-7648-4a50-b629-d30f303a3d61"
+    },
+    "Item_110003": {
+      "__uuid__": "54b17086-b042-465b-93f4-928ff3affaa8"
+    },
+    "Item_110004": {
+      "__uuid__": "5ba438b1-8133-4ec5-bed4-cd07d9a8481a"
+    },
+    "Item_110005": {
+      "__uuid__": "462fc8c6-0960-4bdd-a709-bd7b50601e71"
+    },
+    "Item_110006": {
+      "__uuid__": "4705681a-8638-48c6-95a1-19d6ecc6d84d"
+    },
+    "Item_110007": {
+      "__uuid__": "85a14b81-a3e6-4f85-83cf-d65a2c3f7918"
+    },
+    "Item_110008": {
+      "__uuid__": "3e70419a-8156-461f-97e3-6fe748f3dace"
+    },
+    "Item_110009": {
+      "__uuid__": "d0181bc8-a648-471d-b49d-11db02ff4f8e"
+    },
+    "Item_110010": {
+      "__uuid__": "0936bdfc-9976-4187-8c5d-ce06017113cd"
+    },
+    "Item_110011": {
+      "__uuid__": "d462881b-5e1d-4614-a5c8-782781b87b04"
+    },
+    "Item_110012": {
+      "__uuid__": "201f69a3-df9c-462a-8923-92aa67972c5e"
+    },
+    "Item_20001": {
+      "__uuid__": "df80f05b-a150-448a-b861-34286af9351d"
+    },
+    "Item_20002": {
+      "__uuid__": "3afe1e5e-cfc8-4936-8f6a-f2d5f4e4183b"
+    },
+    "Item_20003": {
+      "__uuid__": "ce4ccedb-ba6b-4e18-9a3c-b5e06828315b"
+    },
+    "Item_20007": {
+      "__uuid__": "d8094eee-6c47-4b4f-bccf-145aba1eeda2"
+    },
+    "Item_20008": {
+      "__uuid__": "7bbe9190-b4dd-41bf-83f0-7df7376c906f"
+    },
+    "Item_20009": {
+      "__uuid__": "93a5c4f4-2692-49e2-8eec-c312fb835133"
+    },
+    "Item_20010": {
+      "__uuid__": "c18238bc-3b44-4ba3-99ab-311c00fb338f"
+    },
+    "Item_20011": {
+      "__uuid__": "4e2f88d8-b9b9-46f4-8baf-4eb363d95f3b"
+    },
+    "Item_20012": {
+      "__uuid__": "fff7bec4-2953-44d7-b24a-72d4b744feab"
+    },
+    "Item_20013": {
+      "__uuid__": "900cd53d-4600-4ffb-910a-713b06b86166"
+    },
+    "Item_20101": {
+      "__uuid__": "b7f00ccd-2ad7-4ecd-a2af-02eb8f45674f"
+    },
+    "Item_20102": {
+      "__uuid__": "d7b668b3-74bd-4fd3-9fba-c529237a3feb"
+    },
+    "Item_20103": {
+      "__uuid__": "e68aa77d-9217-4119-bb3a-bb7a06a5ce9c"
+    },
+    "Item_20104": {
+      "__uuid__": "5b03189f-0206-40be-8c73-958f92737b00"
+    },
+    "Item_20105": {
+      "__uuid__": "2b8c0c1d-9142-46de-a01d-355ebb80e97c"
+    },
+    "Item_20106": {
+      "__uuid__": "39175c53-00a8-49eb-a99b-488586b957de"
+    },
+    "Item_20107": {
+      "__uuid__": "7e29485c-a0b1-4970-b189-9fe9ef14fc6b"
+    },
+    "Item_20108": {
+      "__uuid__": "669c7409-e8cc-4ca5-bb12-c9ac1b04d81c"
+    },
+    "Item_20109": {
+      "__uuid__": "e9329bcc-3f9c-4146-b728-2946697d6501"
+    },
+    "Item_20110": {
+      "__uuid__": "f987c38c-6753-49e7-b4df-efafa43012b2"
+    },
+    "Item_20111": {
+      "__uuid__": "873e7286-a7c5-4161-bc45-ed420334f177"
+    },
+    "Item_20112": {
+      "__uuid__": "fec2b71d-ae30-42a1-ac68-abd76282d5f7"
+    },
+    "Item_3": {
+      "__uuid__": "f0a96d15-fb07-4be7-aae7-2c6c6cb42c95"
+    },
+    "Item_30101": {
+      "__uuid__": "5d1f703c-3b46-445d-8649-0146331958e7"
+    },
+    "Item_30102": {
+      "__uuid__": "71b0bfd0-350c-4fda-831d-56b7abc89c9f"
+    },
+    "Item_30103": {
+      "__uuid__": "7782f412-e51f-4a0a-a853-3b45953b9415"
+    },
+    "Item_30104": {
+      "__uuid__": "d09b519e-6f17-4124-a15d-3fac0e4c80b8"
+    },
+    "Item_30105": {
+      "__uuid__": "263212f9-9d4e-4e2d-8bdb-468da7b2de98"
+    },
+    "Item_30106": {
+      "__uuid__": "e68949bc-7e45-4eca-a57b-72772b38992c"
+    },
+    "Item_30201": {
+      "__uuid__": "07b47de4-d310-4d8e-bc2d-0abf782f10d1"
+    },
+    "Item_30202": {
+      "__uuid__": "07f1e31a-6e3e-42c6-9be7-0af3ddd2d374"
+    },
+    "Item_30203": {
+      "__uuid__": "fa66e688-1929-4ff1-98bd-a311026e2344"
+    },
+    "Item_30204": {
+      "__uuid__": "d14e9175-87d0-4bb9-ad1b-611e595b98db"
+    },
+    "Item_30205": {
+      "__uuid__": "0452dadd-95c2-4a34-9270-32b7a2229cdc"
+    },
+    "Item_30206": {
+      "__uuid__": "3523de8e-28d5-4496-95dc-661acac814d2"
+    },
+    "Item_30301": {
+      "__uuid__": "a8702c31-8c11-4c36-8175-ce12aa754522"
+    },
+    "Item_30302": {
+      "__uuid__": "cc7e4362-fb04-457c-ab3e-44dcad972e87"
+    },
+    "Item_30303": {
+      "__uuid__": "44bfb4e4-4e94-4651-a99f-17f24cd2d58e"
+    },
+    "Item_30304": {
+      "__uuid__": "44334620-811e-4806-9064-822f727cef94"
+    },
+    "Item_30305": {
+      "__uuid__": "d75e930a-1a20-4d1d-bb80-90c4e54f31fe"
+    },
+    "Item_30306": {
+      "__uuid__": "738b190b-96ec-4a01-a2fa-91f8a38fc7dc"
+    },
+    "Item_30401": {
+      "__uuid__": "5a243587-fe01-4978-a9a8-320e482abe7e"
+    },
+    "Item_30402": {
+      "__uuid__": "3e85358b-da7a-4d5b-92cd-b193788bdf6d"
+    },
+    "Item_30403": {
+      "__uuid__": "690e1ea2-f49c-47d5-9cac-7a50eae56c98"
+    },
+    "Item_30404": {
+      "__uuid__": "48a8c9cb-3b64-4de7-845e-f2d8b1c82cfb"
+    },
+    "Item_30405": {
+      "__uuid__": "7bfb4210-cc03-4586-bdd4-451f4eb0226c"
+    },
+    "Item_30406": {
+      "__uuid__": "e52e9ca2-f87b-4aff-85b0-6c0f42a53991"
+    },
+    "Item_31010": {
+      "__uuid__": "e7bf44d9-94c7-4ddf-8f38-bfa71bc7afc0"
+    },
+    "Item_31020": {
+      "__uuid__": "a046df2e-96e3-42c8-9aa0-97e5c99ececc"
+    },
+    "Item_31030": {
+      "__uuid__": "d5d2906a-b4c4-4703-ba9e-0aa04dbc86a1"
+    },
+    "Item_31040": {
+      "__uuid__": "676c7bbd-5def-4c4d-b8ba-5382729d8253"
+    },
+    "Item_31050": {
+      "__uuid__": "7c12690a-771b-4e06-9cb6-cb738b4ba6f4"
+    },
+    "Item_31060": {
+      "__uuid__": "827c068c-e3fa-4a37-b0a4-eed4e9700e6a"
+    },
+    "Item_31070": {
+      "__uuid__": "8e9153a3-4c0c-4493-ba33-90f7780bdf2d"
+    },
+    "Item_31080": {
+      "__uuid__": "629d292f-66de-413e-a13f-8a08341c54a8"
+    },
+    "Item_31090": {
+      "__uuid__": "b6ff7f1e-e1bf-4c10-8ab9-d5611fd91d14"
+    },
+    "Item_31100": {
+      "__uuid__": "5b80f13b-b9bc-4ff4-803c-258341fc9f5f"
+    },
+    "Item_31110": {
+      "__uuid__": "0c3050f7-6e60-4f31-b360-498e8eb35318"
+    },
+    "Item_31120": {
+      "__uuid__": "ebfcd753-e9ba-4573-8358-131533992c85"
+    },
+    "Item_40001": {
+      "__uuid__": "bbf2b5db-27ae-4d29-9014-c8d9e13f8ae4"
+    },
+    "Item_40002": {
+      "__uuid__": "bd90a999-11e2-4b45-80d3-97ae2ea13dea"
+    },
+    "Item_40003": {
+      "__uuid__": "460b43b5-0e1f-4431-a90e-1586a36420e8"
+    },
+    "Item_40004": {
+      "__uuid__": "b48ef7fa-defb-47e2-a9da-3beb7d05f152"
+    },
+    "Item_40005": {
+      "__uuid__": "b32c17a3-af27-49a3-bfe8-053f6156077a"
+    },
+    "Item_40006": {
+      "__uuid__": "2da718cb-310a-4eab-ac5e-380bd42bf739"
+    },
+    "Item_40007": {
+      "__uuid__": "23716c02-f4f5-4cc4-be2a-0ff74baabf80"
+    },
+    "Item_40008": {
+      "__uuid__": "f48de4d2-d466-41c2-b7db-d2f9017a5728"
+    },
+    "Item_40009": {
+      "__uuid__": "ae85f63f-cb65-4b22-8f55-4b14d71572e3"
+    },
+    "Item_50011": {
+      "__uuid__": "21ed346e-451b-4046-b32b-c32457c89b8f"
+    },
+    "Item_50012": {
+      "__uuid__": "80f05f91-7773-4006-bcb6-83368ed006c3"
+    },
+    "Item_50013": {
+      "__uuid__": "53df47e6-999e-49aa-a4a0-8381f0b446bb"
+    },
+    "Item_50014": {
+      "__uuid__": "7c12c8af-a3b3-4a65-ac67-3e6bffff8a84"
+    },
+    "Item_50015": {
+      "__uuid__": "f953c71f-6a09-4cce-b8b1-ee482431e222"
+    },
+    "Item_50021": {
+      "__uuid__": "8bf91161-6a33-41ef-8742-ea74d2ad255f"
+    },
+    "Item_50022": {
+      "__uuid__": "932da031-5ba5-4708-aee8-ad6b6e227843"
+    },
+    "Item_50023": {
+      "__uuid__": "19297dd3-87db-454f-936d-32f140195ce2"
+    },
+    "Item_50024": {
+      "__uuid__": "46088635-dc86-44cb-aa14-d386e26b8c3c"
+    },
+    "Item_50025": {
+      "__uuid__": "209ac8fb-ca84-437d-aba7-b3d8f44bbd7a"
+    },
+    "Item_50031": {
+      "__uuid__": "22d7e24a-959b-44b5-b18c-029e8dd87e6f"
+    },
+    "Item_50032": {
+      "__uuid__": "2afc82fe-8b86-4e5e-9c93-18a5bb82c365"
+    },
+    "Item_50033": {
+      "__uuid__": "6c1cb272-ea5e-4790-85de-c3eb7e4ff500"
+    },
+    "Item_50034": {
+      "__uuid__": "97148f3b-0f1c-44be-8939-19b81f2d6a6d"
+    },
+    "Item_50035": {
+      "__uuid__": "894f360c-b8d7-42ba-8b21-3eaf7d5c5c48"
+    },
+    "Item_50041": {
+      "__uuid__": "f59c162d-7bd7-4ac2-b1f0-d62a3afe8287"
+    },
+    "Item_50042": {
+      "__uuid__": "78064f47-4b21-4083-ad5a-2511589d05dd"
+    },
+    "Item_50043": {
+      "__uuid__": "2a644fbc-0ad9-41f5-9843-28acb52e86fc"
+    },
+    "Item_50044": {
+      "__uuid__": "7bea2677-e494-49f6-ad92-a7a2912054d8"
+    },
+    "Item_50045": {
+      "__uuid__": "eda50b04-71a0-403c-ae59-7708d7239331"
+    },
+    "Item_60001": {
+      "__uuid__": "a6aac7e4-c44c-47bf-8768-c0ffca40e384"
+    },
+    "Item_60002": {
+      "__uuid__": "2e96f156-2535-426a-ae09-7e2361921387"
+    },
+    "Item_70101": {
+      "__uuid__": "d25ccbd3-e21f-49ca-ac86-17e8b8c4069d"
+    },
+    "Item_70102": {
+      "__uuid__": "d9f4ff26-8a17-4d6c-a0ae-1423ee2bba8d"
+    },
+    "Item_70103": {
+      "__uuid__": "bed16d2b-d2b1-4acb-a4ea-5f3c24cd013f"
+    },
+    "Item_70201": {
+      "__uuid__": "08b3a351-1e75-42de-9180-9d253fcbefec"
+    },
+    "Item_70202": {
+      "__uuid__": "6dd20ecf-1eeb-4fc9-a29d-c5cd3b22008a"
+    },
+    "Item_70203": {
+      "__uuid__": "741708f5-eb8c-45c2-88da-768230d06326"
+    },
+    "Item_70301": {
+      "__uuid__": "45afd6ed-cc76-4038-91bf-da6aff6f7220"
+    },
+    "Item_70302": {
+      "__uuid__": "971d8f76-1c0c-4b0c-a776-b6ccb4ba60a1"
+    },
+    "Item_70303": {
+      "__uuid__": "4730726b-3b04-403d-8a05-9abeb100b505"
+    },
+    "Item_70401": {
+      "__uuid__": "5e4e7d26-0e12-4f99-bea9-c5d9cdb3df17"
+    },
+    "Item_70402": {
+      "__uuid__": "cc2a522a-d762-44ce-bffe-c56421ac566d"
+    },
+    "Item_70403": {
+      "__uuid__": "6193a1c9-e509-4088-aa63-7df60eca942b"
+    },
+    "Item_80001": {
+      "__uuid__": "77eb3e9e-b42b-4c95-8307-e9b2333eef1b"
+    },
+    "Item_80002": {
+      "__uuid__": "7b4bb310-35c6-4d78-a725-09b48c2d058f"
+    },
+    "Item_80003": {
+      "__uuid__": "67b26398-9ba4-463e-b341-b4ba60a957a9"
+    },
+    "Item_80004": {
+      "__uuid__": "89b22cb1-10f5-4d6b-be75-d6018de1bcfc"
+    },
+    "Item_80005": {
+      "__uuid__": "9055d90e-9de4-4f72-9f8e-bfb6894dffc5"
+    },
+    "Item_90001": {
+      "__uuid__": "a1282727-2b2c-4c9c-ba3d-c41c63b2d88c"
+    },
+    "Item_90002": {
+      "__uuid__": "aa202359-1366-4497-8dcc-415db44e1fc9"
+    },
+    "Item_frame_0": {
+      "__uuid__": "8d947116-3b58-4625-9635-70b98ee777bc"
+    },
+    "Item_frame_1": {
+      "__uuid__": "00ffe34a-986a-46e4-b387-d3826bc97e4d"
+    },
+    "Item_frame_2": {
+      "__uuid__": "14fdede1-9765-4774-a6a9-cf758ca51ad0"
+    },
+    "Item_frame_3": {
+      "__uuid__": "4b0df0c8-2c80-4eb6-b506-487870c44f09"
+    },
+    "Item_frame_4": {
+      "__uuid__": "20ac013a-5e5e-4b62-a1c5-b096801c6e4c"
+    },
+    "Item_frame_5": {
+      "__uuid__": "f7aaf42e-0f5a-438d-8bf7-19448329363a"
+    },
+    "Item_frame_Dark": {
+      "__uuid__": "190bf78b-7c5f-4886-830b-5ec4ea16d18b"
+    },
+    "Item_frame_ZheZhao": {
+      "__uuid__": "8ed3c2e3-ddf4-4307-afe4-bdc57d94e1eb"
+    },
+    "Shop_Bg_SoldOut": {
+      "__uuid__": "c6326aa8-f75a-4e59-853f-a255a229de21"
+    },
+    "SignIn_Got": {
+      "__uuid__": "096ebcfd-21ee-40a6-b81f-b89a381fb6f1"
+    },
+    "Text_Quality_0": {
+      "__uuid__": "ec8df534-b48e-4293-9b3a-ba6a74dd6a21"
+    },
+    "Text_Quality_1": {
+      "__uuid__": "c142bdf1-c2b3-4be3-a1de-1b8a47e594f4"
+    },
+    "Text_Quality_2": {
+      "__uuid__": "00629d52-c48c-4a2b-a911-8ad65c81ce12"
+    },
+    "Text_Quality_3": {
+      "__uuid__": "9312f0ce-0a62-4c1e-885f-e03c279fab41"
+    },
+    "Text_Quality_4": {
+      "__uuid__": "b134b058-027e-4013-b3dc-05078c85bf6b"
+    },
+    "Weapon_1": {
+      "__uuid__": "bd42d5f6-e9be-459d-8b55-bff46cae2492"
+    },
+    "Weapon_2": {
+      "__uuid__": "cc35daef-df89-4498-ab64-0bcbd9fa7038"
+    },
+    "Weapon_3": {
+      "__uuid__": "4269aadb-b7ce-499c-8762-42603db77447"
+    },
+    "item_mask": {
+      "__uuid__": "af476744-d4ec-4276-ba48-6b234a51fe6d"
+    }
+  }
+}

@@ -1,0 +1,167 @@
+
+spine_bosscoming.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Boss Coming
+  rotate: true
+  xy: 1091, 371
+  size: 260, 49
+  orig: 261, 49
+  offset: 1, 0
+  index: -1
+Boss Coming_01
+  rotate: true
+  xy: 1144, 371
+  size: 260, 49
+  orig: 261, 49
+  offset: 1, 0
+  index: -1
+Boss Coming_02
+  rotate: true
+  xy: 1197, 371
+  size: 260, 49
+  orig: 261, 49
+  offset: 1, 0
+  index: -1
+Boss Coming_03
+  rotate: true
+  xy: 1250, 371
+  size: 260, 49
+  orig: 261, 49
+  offset: 1, 0
+  index: -1
+Boss Coming_04
+  rotate: true
+  xy: 1750, 31
+  size: 260, 49
+  orig: 261, 49
+  offset: 1, 0
+  index: -1
+Boss Coming_05
+  rotate: true
+  xy: 1803, 31
+  size: 260, 49
+  orig: 261, 49
+  offset: 1, 0
+  index: -1
+Boss Coming_06
+  rotate: true
+  xy: 1856, 31
+  size: 260, 49
+  orig: 261, 49
+  offset: 1, 0
+  index: -1
+Boss Coming_07
+  rotate: true
+  xy: 1909, 31
+  size: 260, 49
+  orig: 261, 49
+  offset: 1, 0
+  index: -1
+Boss Coming_08
+  rotate: true
+  xy: 1962, 31
+  size: 260, 49
+  orig: 261, 49
+  offset: 1, 0
+  index: -1
+Boss10
+  rotate: true
+  xy: 1690, 295
+  size: 338, 328
+  orig: 338, 328
+  offset: 0, 0
+  index: -1
+Boss11
+  rotate: false
+  xy: 4, 23
+  size: 368, 242
+  orig: 368, 242
+  offset: 0, 0
+  index: -1
+Boss12
+  rotate: false
+  xy: 398, 58
+  size: 372, 247
+  orig: 372, 247
+  offset: 0, 0
+  index: -1
+Boss13
+  rotate: true
+  xy: 1407, 328
+  size: 262, 239
+  orig: 265, 240
+  offset: 1, 1
+  index: -1
+Boss14
+  rotate: false
+  xy: 1407, 4
+  size: 339, 287
+  orig: 339, 287
+  offset: 0, 0
+  index: -1
+Boss15
+  rotate: true
+  xy: 4, 269
+  size: 362, 390
+  orig: 362, 390
+  offset: 0, 0
+  index: -1
+Boss6
+  rotate: false
+  xy: 1091, 55
+  size: 312, 312
+  orig: 332, 350
+  offset: 12, 7
+  index: -1
+Boss7
+  rotate: false
+  xy: 1690, 637
+  size: 353, 373
+  orig: 369, 375
+  offset: 9, 1
+  index: -1
+Boss8
+  rotate: true
+  xy: 769, 310
+  size: 321, 318
+  orig: 321, 318
+  offset: 0, 0
+  index: -1
+Boss9
+  rotate: false
+  xy: 398, 309
+  size: 367, 322
+  orig: 367, 322
+  offset: 0, 0
+  index: -1
+BossComing_Di
+  rotate: false
+  xy: 1311, 594
+  size: 375, 416
+  orig: 375, 416
+  offset: 0, 0
+  index: -1
+BossComing_Xian
+  rotate: true
+  xy: 4, 635
+  size: 375, 770
+  orig: 375, 771
+  offset: 0, 1
+  index: -1
+BossComing_Xian1
+  rotate: true
+  xy: 778, 635
+  size: 375, 529
+  orig: 375, 529
+  offset: 0, 0
+  index: -1
+star2
+  rotate: false
+  xy: 1303, 540
+  size: 47, 50
+  orig: 50, 50
+  offset: 1, 0
+  index: -1

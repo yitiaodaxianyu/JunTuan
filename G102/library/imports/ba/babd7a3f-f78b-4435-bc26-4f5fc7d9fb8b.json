@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "City_Lock",
+    "texture": "2f3eefe2-d365-4d60-87c8-ab2062f35d1f",
+    "atlas": "9b2d9f45-0b3f-4a6c-b4c8-470c18b0b49d",
+    "rect": [
+      884,
+      319,
+      48,
+      58
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      48,
+      58
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,416 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "pet_common.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "PTSpirit_Hit_00": {
+      "__uuid__": "7e889fad-b18c-434c-846d-ff049d19e6ca"
+    },
+    "PTSpirit_Hit_01": {
+      "__uuid__": "3bf3684b-6c43-4668-be9e-a8163b67190f"
+    },
+    "PTSpirit_Hit_02": {
+      "__uuid__": "40a935b0-8ceb-4256-aa65-40090ef652f1"
+    },
+    "PTSpirit_Hit_03": {
+      "__uuid__": "4090403f-35ee-4dfd-bcce-a819ea9dd808"
+    },
+    "PTSpirit_Hit_04": {
+      "__uuid__": "98495bba-8a3b-4e23-962b-562c57e33935"
+    },
+    "PTSpirit_Hit_05": {
+      "__uuid__": "46eaef7f-a230-4e8a-83e5-aba6ccdab269"
+    },
+    "PTSpirit_Hit_06": {
+      "__uuid__": "4e7d3398-88f6-4e51-97cb-1ba6eb21b580"
+    },
+    "PTSpirit_Hit_07": {
+      "__uuid__": "c12f38bf-c10c-48c4-af32-1c6f650c2706"
+    },
+    "PTSpirit_Hit_08": {
+      "__uuid__": "9eb90e06-5a7b-474e-b724-bab4d4c9621a"
+    },
+    "PTSpirit_Hit_09": {
+      "__uuid__": "c5680620-c7fb-4005-aa1b-a7f640e5281d"
+    },
+    "PTSpirit_Hit_10": {
+      "__uuid__": "6682be1a-8f21-4343-b337-be6eae2aaf67"
+    },
+    "PTSpirit_Hit_11": {
+      "__uuid__": "3463d688-b074-415b-be0e-2e3efb565083"
+    },
+    "PTSpirit_Hit_12": {
+      "__uuid__": "c5eaa7b5-3fa6-45d5-abbb-17b69f5093c0"
+    },
+    "PTSpirit_Hit_13": {
+      "__uuid__": "a066a4a0-e4b7-44f1-87e2-52b6fa69b60d"
+    },
+    "PTSpirit_Hit_14": {
+      "__uuid__": "a07d5146-5981-4127-b38f-12c975607339"
+    },
+    "PTSpirit_Hit_15": {
+      "__uuid__": "0424d2f1-f863-46a4-a1e8-2d88af4a6d31"
+    },
+    "PTSpirit_Tail1": {
+      "__uuid__": "7387d5cf-104a-48e4-a93a-01c0a62094be"
+    },
+    "PTSpirit_Tail2": {
+      "__uuid__": "e05072d9-f3f0-4143-a884-8b2195aaf12d"
+    },
+    "Spirit_Hit1_00": {
+      "__uuid__": "e8896471-9d8c-41a3-888b-db9a3f75fc87"
+    },
+    "Spirit_Hit1_01": {
+      "__uuid__": "6f5fac3e-3884-4a98-84bf-785226688f6d"
+    },
+    "Spirit_Hit1_02": {
+      "__uuid__": "e60cddef-4959-4312-892d-fdb2dd9fb148"
+    },
+    "Spirit_Hit1_03": {
+      "__uuid__": "a0000ede-fb4d-43bd-9889-482aaa538cdf"
+    },
+    "Spirit_Hit1_04": {
+      "__uuid__": "24129576-0c3e-4a3f-b5d4-ef7b10aee564"
+    },
+    "Spirit_Hit1_05": {
+      "__uuid__": "554ea377-a67d-4b09-a440-40482d159470"
+    },
+    "Spirit_Hit1_06": {
+      "__uuid__": "62c1fbf3-46e2-44f5-8a67-e6fac21b9cbb"
+    },
+    "Spirit_Hit1_07": {
+      "__uuid__": "7cafb301-0646-4cf7-af11-53e1a9eb5391"
+    },
+    "Spirit_Hit1_08": {
+      "__uuid__": "c52f8f66-46b0-40c0-9a9c-c86d10c81608"
+    },
+    "Spirit_Hit1_09": {
+      "__uuid__": "61b4445b-60fd-4638-b0f7-ac596502f8e1"
+    },
+    "Spirit_Hit1_10": {
+      "__uuid__": "bce87ea4-35cb-4874-bb6a-eca26248d364"
+    },
+    "Spirit_Hit1_11": {
+      "__uuid__": "ea3e79ea-4529-4ac3-9358-d4c5b4f50caa"
+    },
+    "Spirit_Hit1_12": {
+      "__uuid__": "a6d30c39-9131-4334-aaf5-bd505e88bd0e"
+    },
+    "Spirit_Hit1_13": {
+      "__uuid__": "f0b0dc52-f332-4f2d-a1e3-f3d6475e8efd"
+    },
+    "Spirit_Hit2_00": {
+      "__uuid__": "87ebd837-8fc5-4cf5-86e1-f3b110342e3e"
+    },
+    "Spirit_Hit2_01": {
+      "__uuid__": "aa468553-13e1-4339-88ae-4999c7b0f5b2"
+    },
+    "Spirit_Hit2_02": {
+      "__uuid__": "312dc4c1-8937-4223-8520-cf1c2c5be15a"
+    },
+    "Spirit_Hit2_03": {
+      "__uuid__": "9be10dc9-8986-4025-b169-8e3eb7f9f680"
+    },
+    "Spirit_Hit2_04": {
+      "__uuid__": "8651aedd-a488-4c4d-b610-91f0019faea0"
+    },
+    "Spirit_Hit2_05": {
+      "__uuid__": "95aae373-b65b-49c3-a070-cf4f675b0830"
+    },
+    "Spirit_Hit2_06": {
+      "__uuid__": "fe3a31c8-b716-47f4-9f59-f542e761e116"
+    },
+    "Spirit_Hit2_07": {
+      "__uuid__": "6712667f-b149-47be-86ee-19e01e7daa7c"
+    },
+    "Spirit_Hit2_08": {
+      "__uuid__": "2c8223ac-00dd-4e2d-8073-782d8464b5d4"
+    },
+    "Spirit_Hit2_09": {
+      "__uuid__": "989ef7a5-bec2-441f-80e9-82816b9be5f8"
+    },
+    "Spirit_Hit2_10": {
+      "__uuid__": "8c079ca6-d187-4baa-b01f-d4ad0aa21b1a"
+    },
+    "Spirit_Hit2_11": {
+      "__uuid__": "e710e450-0a9c-4ddb-8324-43106b9e2885"
+    },
+    "Spirit_Hit2_12": {
+      "__uuid__": "ccbe05b1-6f21-49b3-b12e-b7b458ef7eef"
+    },
+    "Spirit_Hit2_13": {
+      "__uuid__": "9799d322-51f1-4fcd-9f0c-42bf759ae031"
+    },
+    "Spirit_Hit2_14": {
+      "__uuid__": "bb08f898-e75d-4a20-92a7-01c376a2ecdf"
+    },
+    "Spirit_Hit2_15": {
+      "__uuid__": "0c39d207-9395-45f6-a91f-879b5f2050bc"
+    },
+    "Spirit_Hit2_16": {
+      "__uuid__": "a4a11f0e-8429-448d-97a0-34c48bf19116"
+    },
+    "Spirit_Hit2_17": {
+      "__uuid__": "5a47125f-6b7d-4165-a75f-1aef424fe243"
+    },
+    "Spirit_Hit2_18": {
+      "__uuid__": "458b566b-e58b-4240-9ed1-896688b783ef"
+    },
+    "Spirit_Hit2_19": {
+      "__uuid__": "ea6fbc30-76aa-4622-834c-e7ef5a6388cd"
+    },
+    "Spirit_Hit2_20": {
+      "__uuid__": "cd5713ca-3d3b-4d35-90c9-08c3d2333055"
+    },
+    "Spirit_Hit2_21": {
+      "__uuid__": "b4a054cf-bdae-4734-afa7-e478d1f33da4"
+    },
+    "Spirit_Hit2_22": {
+      "__uuid__": "cb366b66-c9d4-4f0f-a626-4d846b48cad3"
+    },
+    "Spirit_JinHit1_00": {
+      "__uuid__": "3a8ef680-7705-4c95-adae-e825600d2301"
+    },
+    "Spirit_JinHit1_01": {
+      "__uuid__": "f732593a-e308-4ade-9cff-00185bdc36bb"
+    },
+    "Spirit_JinHit1_02": {
+      "__uuid__": "99bd2be4-4526-449c-8d1e-ca519db5a04a"
+    },
+    "Spirit_JinHit1_03": {
+      "__uuid__": "dd72eac6-c885-4ed4-aa47-4372dfc2630c"
+    },
+    "Spirit_JinHit1_04": {
+      "__uuid__": "fffbd78d-e202-451e-97af-7fa3cde708dd"
+    },
+    "Spirit_JinHit1_05": {
+      "__uuid__": "cab6c90d-32fa-44c2-873e-29bf8401f5b2"
+    },
+    "Spirit_JinHit1_06": {
+      "__uuid__": "713763fc-8c59-46ff-8ccb-c10a608933fa"
+    },
+    "Spirit_JinHit1_07": {
+      "__uuid__": "719f919e-9a48-443e-b74c-8001f06caf32"
+    },
+    "Spirit_JinHit1_08": {
+      "__uuid__": "887a0549-19b1-4870-95e4-12dc186629cf"
+    },
+    "Spirit_JinHit1_09": {
+      "__uuid__": "2f209c61-e919-4372-bcb1-d3cc4abeedb4"
+    },
+    "Spirit_JinHit1_10": {
+      "__uuid__": "d99e4846-656d-4224-bf45-97cfe2eaf0de"
+    },
+    "Spirit_JinHit1_11": {
+      "__uuid__": "f29aba9d-4e9e-4af0-a21d-a698da467e35"
+    },
+    "Spirit_JinHit1_12": {
+      "__uuid__": "2612d96e-c2da-4255-9994-cab335923c40"
+    },
+    "Spirit_JinHit1_13": {
+      "__uuid__": "d8406e78-b061-4a3b-b39f-f2da822cfb69"
+    },
+    "Spirit_JinHit2_00": {
+      "__uuid__": "54c02df6-8be9-4119-8b9d-bacb7451fb8e"
+    },
+    "Spirit_JinHit2_01": {
+      "__uuid__": "1634b8ab-612b-4870-8281-e8b30b22ee39"
+    },
+    "Spirit_JinHit2_02": {
+      "__uuid__": "c6d696ba-7915-45c9-84ce-e4b11ac5d13c"
+    },
+    "Spirit_JinHit2_03": {
+      "__uuid__": "5972b5ba-53c6-40f2-a81b-6b86de6f1078"
+    },
+    "Spirit_JinHit2_04": {
+      "__uuid__": "6b7b267e-0d87-474b-86d5-836290a90d90"
+    },
+    "Spirit_JinHit2_05": {
+      "__uuid__": "ff57afc5-e87f-4d1d-862a-7368ac7966af"
+    },
+    "Spirit_JinHit2_06": {
+      "__uuid__": "7e765d31-e11f-4b73-a941-11621d104cda"
+    },
+    "Spirit_JinHit2_07": {
+      "__uuid__": "82631ad1-2531-46cb-ab25-69e279254801"
+    },
+    "Spirit_JinHit2_08": {
+      "__uuid__": "fb971d97-b62f-4634-9d66-ad0dfbd1a599"
+    },
+    "Spirit_JinHit2_09": {
+      "__uuid__": "c7152eb6-6490-4aa8-b90d-bdb471d66ca6"
+    },
+    "Spirit_JinHit2_10": {
+      "__uuid__": "e05bd301-ca03-43d2-b8ae-ebcfae7be75a"
+    },
+    "Spirit_JinHit2_11": {
+      "__uuid__": "ff34cff1-043a-4cd8-b9c2-37b493f14176"
+    },
+    "Spirit_JinHit2_12": {
+      "__uuid__": "72c06dae-2c64-4f64-be95-792932803a26"
+    },
+    "Spirit_JinHit2_13": {
+      "__uuid__": "220932a6-63ea-4114-b2e7-e02fc203c1bc"
+    },
+    "Spirit_JinHit2_14": {
+      "__uuid__": "4baa21c5-bede-4f7a-bd3f-b8ab1de70af2"
+    },
+    "Spirit_JinHit2_15": {
+      "__uuid__": "32d49ddb-2168-49bf-abc2-7ae23bc46fe2"
+    },
+    "Spirit_JinHit2_16": {
+      "__uuid__": "c03dceac-00db-4ea3-a326-c1373a9f0653"
+    },
+    "Spirit_JinHit2_17": {
+      "__uuid__": "8224b11a-b6f7-4c8d-a959-76eb2594a40b"
+    },
+    "Spirit_JinHit2_18": {
+      "__uuid__": "b3f7e06d-ffb2-4054-98eb-943e22509da6"
+    },
+    "Spirit_JinHit2_19": {
+      "__uuid__": "f48f9b30-5a02-45c6-b1c2-8da82b1b96bf"
+    },
+    "Spirit_JinHit2_20": {
+      "__uuid__": "8f42f63e-b125-422e-9476-7106ba9339b9"
+    },
+    "Spirit_JinHit2_21": {
+      "__uuid__": "e09bb2d2-d7d2-4afc-b5c6-c0cde331e806"
+    },
+    "Spirit_JinHit2_22": {
+      "__uuid__": "b149569d-fa5e-4bac-9995-0471c91f34ba"
+    },
+    "Spirit_JinTail1": {
+      "__uuid__": "797ef94c-fe9f-4274-8e8e-c706f0b8fe2d"
+    },
+    "Spirit_JinTail2": {
+      "__uuid__": "0dcec31c-0b23-4d0a-8443-4287c0b35aa1"
+    },
+    "Spirit_JinTail3_00": {
+      "__uuid__": "9e2bdfb3-4da5-44df-b261-585d4941bd00"
+    },
+    "Spirit_JinTail3_01": {
+      "__uuid__": "e41d0879-e689-4b6f-a124-39073522d884"
+    },
+    "Spirit_JinTail3_02": {
+      "__uuid__": "330e096d-2e16-4ebd-a1a8-1e274f75cbce"
+    },
+    "Spirit_JinTail3_03": {
+      "__uuid__": "4a424c30-25b3-4df5-adf3-709088f996f3"
+    },
+    "Spirit_JinTail3_04": {
+      "__uuid__": "b0c33302-57f0-4888-b6ca-72b9c17634ef"
+    },
+    "Spirit_JinTail3_05": {
+      "__uuid__": "455321b1-9065-4c2d-91a5-d09fd6712bee"
+    },
+    "Spirit_JinTail3_06": {
+      "__uuid__": "ef8bc1d9-d684-4765-97e2-cc58045e4799"
+    },
+    "Spirit_JinTail3_07": {
+      "__uuid__": "b6f9f4d7-fbc6-4e4b-ae52-bea30c997569"
+    },
+    "Spirit_JinTail3_08": {
+      "__uuid__": "17c5bde4-00d1-4e75-a6d9-8dbb9d6dfb97"
+    },
+    "Spirit_JinTail3_09": {
+      "__uuid__": "772ea6ae-8a02-421f-8aae-ca632163b0c0"
+    },
+    "Spirit_JinTail3_10": {
+      "__uuid__": "d72968f0-7fa5-4e5b-8390-afd4ba9cc764"
+    },
+    "Spirit_JinTail3_11": {
+      "__uuid__": "3f05301c-4ecf-4a75-a303-a712e42ee64c"
+    },
+    "Spirit_JinTail3_12": {
+      "__uuid__": "0ebd95eb-0173-4b19-9b6d-8ba7d19d40b5"
+    },
+    "Spirit_JinTail3_13": {
+      "__uuid__": "8f71058b-6a0c-436d-8d38-104b2776fa03"
+    },
+    "Spirit_JinTail3_14": {
+      "__uuid__": "a8b97100-72d4-4372-9250-cee0a7ed7c52"
+    },
+    "Spirit_JinTail3_15": {
+      "__uuid__": "f860fb77-2a16-4d50-acff-edb78ca1f720"
+    },
+    "Spirit_JinTail3_16": {
+      "__uuid__": "5edfedc7-d9af-42e5-ad15-13f28e3e8ca7"
+    },
+    "Spirit_JinTail3_17": {
+      "__uuid__": "9b64641c-d9ad-42d3-bbf4-f10ba55e7c37"
+    },
+    "Spirit_JinTail3_18": {
+      "__uuid__": "90c98c35-a90c-4d54-a5ed-7c814850410b"
+    },
+    "Spirit_JinTail3_19": {
+      "__uuid__": "ecc10c2f-9ccc-4d2a-9055-48cb2a4e9880"
+    },
+    "Spirit_Tail1": {
+      "__uuid__": "183f0274-3d44-4ea6-9e83-eb6a108bf67f"
+    },
+    "Spirit_Tail2": {
+      "__uuid__": "727ee33e-adb9-4afd-8445-ed536b353e7d"
+    },
+    "Spirit_Tail3_00": {
+      "__uuid__": "69364e7e-57a1-4b69-8bfa-e5fa1069fa0e"
+    },
+    "Spirit_Tail3_01": {
+      "__uuid__": "d25e2536-2b7d-4677-9fc0-f60925864ef5"
+    },
+    "Spirit_Tail3_02": {
+      "__uuid__": "13e868d7-2158-4856-b6a8-3e77d803d40f"
+    },
+    "Spirit_Tail3_03": {
+      "__uuid__": "4b258e88-570b-4e81-b224-592355af3131"
+    },
+    "Spirit_Tail3_04": {
+      "__uuid__": "524a0889-c848-48fe-bbe0-b43d6696a49b"
+    },
+    "Spirit_Tail3_05": {
+      "__uuid__": "a4278318-ed45-42e9-905d-2a82ca613fbd"
+    },
+    "Spirit_Tail3_06": {
+      "__uuid__": "5de9a5ea-daa9-4cfd-b974-6a44bbc5c7f9"
+    },
+    "Spirit_Tail3_07": {
+      "__uuid__": "39dd5bc7-0c7e-4b1c-b4a2-0a706b2a9624"
+    },
+    "Spirit_Tail3_08": {
+      "__uuid__": "6f773190-d8ee-454b-b7fc-c9cd40f83ec6"
+    },
+    "Spirit_Tail3_09": {
+      "__uuid__": "0e0a629d-6c35-4d6a-832d-a1147115da29"
+    },
+    "Spirit_Tail3_10": {
+      "__uuid__": "a0362cce-6d86-441e-9974-d0d01e2ba8ec"
+    },
+    "Spirit_Tail3_11": {
+      "__uuid__": "6267a256-e486-440a-b665-e562e47d9102"
+    },
+    "Spirit_Tail3_12": {
+      "__uuid__": "4efac4bf-de49-4ecc-850a-349c33d34a03"
+    },
+    "Spirit_Tail3_13": {
+      "__uuid__": "a2bcbd02-189f-40fa-9eea-469eb519f648"
+    },
+    "Spirit_Tail3_14": {
+      "__uuid__": "44ddf064-7e7a-493f-8501-121688e99d4a"
+    },
+    "Spirit_Tail3_15": {
+      "__uuid__": "406aa82e-6e0c-4805-abc7-3248e2c12fe4"
+    },
+    "Spirit_Tail3_16": {
+      "__uuid__": "0e07f702-a2f9-4c30-a63f-4d1e6253e073"
+    },
+    "Spirit_Tail3_17": {
+      "__uuid__": "bb05676b-a6c6-434d-a74e-9fd9cc784d25"
+    },
+    "Spirit_Tail3_18": {
+      "__uuid__": "1a17c074-deae-4ba2-8a43-33d19e04f2e7"
+    },
+    "Spirit_Tail3_19": {
+      "__uuid__": "17b82a07-e37f-4183-a476-5f511b1c3f18"
+    }
+  }
+}

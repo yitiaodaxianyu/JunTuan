@@ -1,0 +1,281 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "wu_nv.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Druid_Passive1_00": {
+      "__uuid__": "72f4d436-66c6-4b9e-bada-721acbebae64"
+    },
+    "Druid_Passive1_01": {
+      "__uuid__": "fb7573db-13b6-4349-a81c-6db808188163"
+    },
+    "Druid_Passive1_02": {
+      "__uuid__": "ae028c28-1f98-4d80-8e90-e18bae57c127"
+    },
+    "Druid_Passive1_03": {
+      "__uuid__": "d77869d1-11ac-4edc-a64c-1e39d57dedb8"
+    },
+    "Druid_Passive1_04": {
+      "__uuid__": "e3b63081-c139-43ea-8a19-217e7a95b44c"
+    },
+    "Druid_Passive1_05": {
+      "__uuid__": "cda17606-5823-4bbf-bf34-1ebebd20ea72"
+    },
+    "Druid_Passive1_06": {
+      "__uuid__": "ca1b66da-8573-4e66-9139-af4ba1ef294e"
+    },
+    "Druid_Passive2_01": {
+      "__uuid__": "c8daea48-d49c-4359-930e-98ec3f229426"
+    },
+    "Druid_Passive2_02": {
+      "__uuid__": "916ea979-5d71-4c02-9ccb-7cc68c8ac209"
+    },
+    "Druid_Passive2_03": {
+      "__uuid__": "87986a34-9a98-436c-9bdd-7c9d89d719ea"
+    },
+    "Druid_Passive2_04": {
+      "__uuid__": "5fdee31c-98a5-4842-a774-b01e89ee4806"
+    },
+    "Druid_Passive2_05": {
+      "__uuid__": "d21c909d-e75a-4722-9b51-57aa0864e636"
+    },
+    "Druid_Passive2_06": {
+      "__uuid__": "f7a23075-95f6-43a3-8068-70641741693c"
+    },
+    "Druid_Passive2_07": {
+      "__uuid__": "45908016-85ae-48f1-9458-c320d750a439"
+    },
+    "Druid_Passive2_08": {
+      "__uuid__": "4af9c6c0-e06e-4f8f-b809-7043c4a2e775"
+    },
+    "Druid_Passive2_09": {
+      "__uuid__": "435b2aea-ac34-4b64-bf6a-d6070dc93058"
+    },
+    "Druid_Passive2_10": {
+      "__uuid__": "c7cade8f-39c7-48f8-b6b2-668d370b9ced"
+    },
+    "Druid_Passive2_11": {
+      "__uuid__": "eee30d12-9a19-4ecb-9d96-4ce96838bbc1"
+    },
+    "Druid_Passive2_12": {
+      "__uuid__": "06e6cee3-a671-41d4-801b-ea33fae05bdc"
+    },
+    "Druid_Passive2_13": {
+      "__uuid__": "4e448eea-19b7-4f31-938f-4ad9b57f0b98"
+    },
+    "Druid_PassiveBao_00": {
+      "__uuid__": "73a454b1-3639-4a85-a128-2f93a8dc616b"
+    },
+    "Druid_PassiveBao_01": {
+      "__uuid__": "de1288f9-09bb-439d-9ca8-fb44111e86a4"
+    },
+    "Druid_PassiveBao_02": {
+      "__uuid__": "325664dd-9b04-4700-9b52-8a45298476ab"
+    },
+    "Druid_PassiveBao_03": {
+      "__uuid__": "fd6cd6d8-70d8-4c04-b5fa-bda89c262dcb"
+    },
+    "Druid_PassiveBao_04": {
+      "__uuid__": "556baa1a-c210-46b9-917f-a9823e695b68"
+    },
+    "Druid_PassiveBao_05": {
+      "__uuid__": "b9ebaf62-114c-4d1e-b160-684112699f72"
+    },
+    "Druid_PassiveBao_06": {
+      "__uuid__": "b8aa6016-290a-4048-be15-bd7f97a3f48c"
+    },
+    "Druid_PassiveBao_07": {
+      "__uuid__": "322676c1-c98b-46f0-9b92-1cdb5be87ad4"
+    },
+    "Druid_PassiveBao_08": {
+      "__uuid__": "5317b000-89ad-4684-840d-24519c7e2196"
+    },
+    "Druid_PassiveBao_09": {
+      "__uuid__": "9c58680e-e11c-4bdf-9de7-c5509e900c5e"
+    },
+    "Druid_PassiveBao_10": {
+      "__uuid__": "f29e208f-a82e-4a13-97a6-37a949569b40"
+    },
+    "Druid_PassiveBao_11": {
+      "__uuid__": "54cd967a-c308-4b75-ac36-1ed3ccd0ae20"
+    },
+    "Druid_PassiveBao_12": {
+      "__uuid__": "bf2424a2-0ae7-4c12-90cf-23815802fdfe"
+    },
+    "Druid_PassiveBao_13": {
+      "__uuid__": "11a3b80e-3660-4492-8fa2-5e6e4ea9b2d2"
+    },
+    "Druid_PassiveBao_14": {
+      "__uuid__": "47244bf9-195f-4a13-86f2-3513fa7f6f9e"
+    },
+    "Druid_PassiveBao_15": {
+      "__uuid__": "7c2efa29-4c20-4bee-aa83-b35f2a37a68e"
+    },
+    "Witch_ActiveSkill1_00": {
+      "__uuid__": "e39ce096-af72-4c81-89e4-92a3bd4fb230"
+    },
+    "Witch_ActiveSkill1_01": {
+      "__uuid__": "8458ef2c-1706-409a-81df-378e8e4e668b"
+    },
+    "Witch_ActiveSkill1_02": {
+      "__uuid__": "01c6be85-c9fc-401a-b69f-ed0d7a223ba9"
+    },
+    "Witch_ActiveSkill1_03": {
+      "__uuid__": "6b67e373-0984-464d-a01b-939e7ad55646"
+    },
+    "Witch_ActiveSkill1_04": {
+      "__uuid__": "451c073a-5468-46bd-9b4e-4bce118aa07a"
+    },
+    "Witch_ActiveSkill1_05": {
+      "__uuid__": "1d685506-715a-4a71-98d8-264e51cb3624"
+    },
+    "Witch_ActiveSkill1_06": {
+      "__uuid__": "b49c854b-3fe5-4c1e-8a90-46ef8b2a0752"
+    },
+    "Witch_ActiveSkill1_07": {
+      "__uuid__": "f23810f4-c19f-43f8-bf6c-55615351f727"
+    },
+    "Witch_ActiveSkill1_08": {
+      "__uuid__": "e34ea06b-1118-4823-bf7e-87f63fba87ce"
+    },
+    "Witch_ActiveSkill1_09": {
+      "__uuid__": "9acdc6e3-2380-4524-9929-8837080565b8"
+    },
+    "Witch_ActiveSkill1_10": {
+      "__uuid__": "398979f8-23e9-48a9-86b9-1988c5303e4e"
+    },
+    "Witch_ActiveSkill1_11": {
+      "__uuid__": "a3dd6966-4837-47a8-bfae-20ef6c3dbf95"
+    },
+    "Witch_ActiveSkill1_12": {
+      "__uuid__": "81b05ecd-2ca5-42a0-8f3b-1507bd40abc7"
+    },
+    "Witch_ActiveSkill1_13": {
+      "__uuid__": "c362af56-64df-419a-b813-d52fa724c371"
+    },
+    "Witch_ActiveSkill1_14": {
+      "__uuid__": "6d554085-08b0-4304-9de8-f5b8375124be"
+    },
+    "Witch_ActiveSkill1_15": {
+      "__uuid__": "c242d035-3fb5-4e02-bd08-76f3cc9a6360"
+    },
+    "Witch_ActiveSkill1_16": {
+      "__uuid__": "0c3f8311-255a-4289-8117-b78de2cd695b"
+    },
+    "Witch_ActiveSkill1_17": {
+      "__uuid__": "1901626e-3544-45c7-926b-663e38454ed5"
+    },
+    "Witch_ActiveSkill1_18": {
+      "__uuid__": "12419a1e-337d-4ddf-8413-bf02dcc7f0e3"
+    },
+    "Witch_ActiveSkill1_19": {
+      "__uuid__": "f70135fc-057a-4e1c-9647-0f4dec21faa3"
+    },
+    "Witch_ActiveSkill1_20": {
+      "__uuid__": "46268f72-5037-4769-a49d-7ab811e41993"
+    },
+    "Witch_ActiveSkill1_21": {
+      "__uuid__": "9dd604e9-f82e-4457-9d42-92cb06e1d6bc"
+    },
+    "Witch_ActiveSkill_Hit_00": {
+      "__uuid__": "4cffa034-2401-40a3-b2d1-221597ee5cf5"
+    },
+    "Witch_ActiveSkill_Hit_01": {
+      "__uuid__": "e6d5d884-f605-4f3d-9f67-ce87c4196ad4"
+    },
+    "Witch_ActiveSkill_Hit_02": {
+      "__uuid__": "0d04f49d-85a7-4382-ba15-ed0961639888"
+    },
+    "Witch_ActiveSkill_Hit_03": {
+      "__uuid__": "201bc3ca-bd4f-4822-b902-9f932b926096"
+    },
+    "Witch_ActiveSkill_Hit_04": {
+      "__uuid__": "bffa5b00-96bb-437b-b5ca-b77acbfd2333"
+    },
+    "Witch_ActiveSkill_Hit_05": {
+      "__uuid__": "238ae7d4-ac1d-40b3-a6bd-e1da662f5a08"
+    },
+    "Witch_ActiveSkill_Hit_06": {
+      "__uuid__": "d964f4db-282f-4d22-978e-a4f0c803477a"
+    },
+    "Witch_ActiveSkill_Hit_07": {
+      "__uuid__": "62dba554-08a1-4243-b861-731b719364cf"
+    },
+    "Witch_ActiveSkill_Hit_08": {
+      "__uuid__": "632ba9ad-8e2b-4bed-9a67-9de60cd33f57"
+    },
+    "Witch_ActiveSkill_Hit_09": {
+      "__uuid__": "f2ce86f9-7414-4e82-9836-66432a96d6bf"
+    },
+    "Witch_ActiveSkill_Hit_10": {
+      "__uuid__": "f1099eb3-4254-4343-af26-5734a49d595c"
+    },
+    "Witch_ActiveSkill_Hit_11": {
+      "__uuid__": "227a990f-237a-43b8-bcaf-53016f5ea87f"
+    },
+    "Witch_ActiveSkill_Hit_12": {
+      "__uuid__": "24886159-f5fd-40bd-9b88-53bd2404cd26"
+    },
+    "Witch_Attack_1": {
+      "__uuid__": "9001cc6a-da1f-4d5a-8f60-f463a48fa8c3"
+    },
+    "Witch_Attack_2": {
+      "__uuid__": "c475ec71-448b-4581-a350-237f187107c6"
+    },
+    "Witch_Attack_Hit_00": {
+      "__uuid__": "7cbc2f36-78c9-42cb-9136-48a46d7bdb2e"
+    },
+    "Witch_Attack_Hit_01": {
+      "__uuid__": "a8cb0aa5-72a9-4b7d-8360-e8255cdd8609"
+    },
+    "Witch_Attack_Hit_02": {
+      "__uuid__": "3fdb760e-d5da-4fb9-b995-36bad82ec56c"
+    },
+    "Witch_Attack_Hit_03": {
+      "__uuid__": "8922a3e4-b951-4e24-8e92-bb7da0885a1c"
+    },
+    "Witch_Attack_Hit_04": {
+      "__uuid__": "47c9132c-b15c-4067-b3cb-4a990a1fbb7d"
+    },
+    "Witch_Attack_Hit_05": {
+      "__uuid__": "414f3ca2-d562-4361-86ba-028deb650c09"
+    },
+    "Witch_Attack_Hit_06": {
+      "__uuid__": "0d2d2daa-b89e-4333-abab-2e0745a928d7"
+    },
+    "Witch_Attack_Hit_07": {
+      "__uuid__": "c6dae599-971e-496b-ac79-9ac22adf4833"
+    },
+    "Witch_Attack_Hit_08": {
+      "__uuid__": "98eac665-192f-4e91-bdf1-f1f52c22ac4a"
+    },
+    "Witch_Attack_Hit_09": {
+      "__uuid__": "f4f2cd23-dc54-4e4c-a865-a61d31d0725c"
+    },
+    "Witch_Attack_Hit_10": {
+      "__uuid__": "a7355491-29a8-4c68-96a8-f6292a1482df"
+    },
+    "Witch_Attack_Hit_11": {
+      "__uuid__": "e0d5e0be-deeb-48f0-9341-68d10e8d46c3"
+    },
+    "Witch_Attack_Hit_12": {
+      "__uuid__": "ec201c65-1c51-416d-9968-820683e84909"
+    },
+    "Witch_Attack_Hit_13": {
+      "__uuid__": "384fa8cd-77cf-45bd-86a8-458313db3951"
+    },
+    "Witch_Attack_Hit_14": {
+      "__uuid__": "009067cf-b2e4-4f31-ac32-381d5364ef70"
+    },
+    "Witch_Attack_Hit_15": {
+      "__uuid__": "5e3e8f27-286a-4f32-8694-20d1fc98f79e"
+    },
+    "Witch_Attack_Hit_16": {
+      "__uuid__": "c9c5ae2f-05d0-4773-a58e-d69a1810f804"
+    },
+    "Witch_Attack_Hit_17": {
+      "__uuid__": "098c0691-2bb3-446a-857f-ff6b2b4883ab"
+    }
+  }
+}

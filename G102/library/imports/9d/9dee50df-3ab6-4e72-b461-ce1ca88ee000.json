@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Monster_40_AttackHit_00",
+    "texture": "a9c24fbc-b978-44ae-b49f-6e69734c82cf",
+    "atlas": "5cbf51a6-2b1c-466e-b7d2-1c4f5ef53bb0",
+    "rect": [
+      912,
+      98,
+      78,
+      74
+    ],
+    "offset": [
+      -2,
+      -9
+    ],
+    "originalSize": [
+      200,
+      200
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

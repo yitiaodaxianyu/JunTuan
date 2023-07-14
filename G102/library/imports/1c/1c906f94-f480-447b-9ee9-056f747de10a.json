@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Void_TH",
+    "texture": "8f186396-f2a4-4030-b267-0c430815bc51",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      506,
+      60
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      506,
+      60
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

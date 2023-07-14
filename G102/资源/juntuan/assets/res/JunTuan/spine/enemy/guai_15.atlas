@@ -1,0 +1,55 @@
+
+guai_15.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: true
+  xy: 2, 44
+  size: 73, 32
+  orig: 73, 32
+  offset: 0, 0
+  index: -1
+lshou
+  rotate: false
+  xy: 107, 141
+  size: 37, 39
+  orig: 37, 39
+  offset: 0, 0
+  index: -1
+ltui
+  rotate: false
+  xy: 2, 5
+  size: 28, 37
+  orig: 28, 37
+  offset: 0, 0
+  index: -1
+rshou
+  rotate: false
+  xy: 68, 140
+  size: 37, 40
+  orig: 37, 40
+  offset: 0, 0
+  index: -1
+rtui
+  rotate: false
+  xy: 36, 83
+  size: 28, 34
+  orig: 28, 34
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 146, 145
+  size: 36, 35
+  orig: 36, 35
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 2, 119
+  size: 64, 61
+  orig: 64, 61
+  offset: 0, 0
+  index: -1

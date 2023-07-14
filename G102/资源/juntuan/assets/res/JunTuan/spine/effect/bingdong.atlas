@@ -1,0 +1,118 @@
+
+bingdong.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+im/2
+  rotate: true
+  xy: 1258, 614
+  size: 160, 135
+  orig: 160, 135
+  offset: 0, 0
+  index: -1
+im/bing
+  rotate: false
+  xy: 2, 540
+  size: 850, 476
+  orig: 850, 476
+  offset: 0, 0
+  index: -1
+im/bing1
+  rotate: false
+  xy: 1140, 842
+  size: 324, 174
+  orig: 324, 174
+  offset: 0, 0
+  index: -1
+im/bing2
+  rotate: false
+  xy: 1466, 855
+  size: 270, 108
+  orig: 270, 108
+  offset: 0, 0
+  index: -1
+im/bingdi
+  rotate: false
+  xy: 1466, 965
+  size: 375, 51
+  orig: 375, 51
+  offset: 0, 0
+  index: -1
+im/bingzi
+  rotate: false
+  xy: 1140, 776
+  size: 270, 64
+  orig: 270, 64
+  offset: 0, 0
+  index: -1
+im/feng (1)
+  rotate: false
+  xy: 854, 554
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+im/feng (2)
+  rotate: false
+  xy: 558, 338
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+im/feng (3)
+  rotate: false
+  xy: 760, 338
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+im/feng (4)
+  rotate: false
+  xy: 1056, 554
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+im/guang (4)
+  rotate: false
+  xy: 962, 364
+  size: 188, 188
+  orig: 188, 188
+  offset: 0, 0
+  index: -1
+im/guang (5)
+  rotate: false
+  xy: 286, 266
+  size: 270, 272
+  orig: 270, 272
+  offset: 0, 0
+  index: -1
+im/guang (6)
+  rotate: false
+  xy: 2, 260
+  size: 282, 278
+  orig: 282, 278
+  offset: 0, 0
+  index: -1
+im/guang2-lan
+  rotate: false
+  xy: 854, 756
+  size: 284, 260
+  orig: 284, 260
+  offset: 0, 0
+  index: -1
+im/wenli_00359_1_00000
+  rotate: false
+  xy: 2, 2
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+im/xuehua
+  rotate: false
+  xy: 1843, 989
+  size: 30, 27
+  orig: 30, 27
+  offset: 0, 0
+  index: -1

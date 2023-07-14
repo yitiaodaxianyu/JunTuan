@@ -1,0 +1,237 @@
+
+MeiMo_Side.png
+size: 650,205
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+AiXin_00
+  rotate: false
+  xy: 624, 133
+  size: 26, 25
+  orig: 26, 25
+  offset: 0, 0
+  index: -1
+HuiGuang
+  rotate: false
+  xy: 440, 124
+  size: 67, 81
+  orig: 77, 81
+  offset: 5, 0
+  index: -1
+MeiMo_Attack
+  rotate: true
+  xy: 369, 3
+  size: 14, 24
+  orig: 14, 25
+  offset: 0, 1
+  index: -1
+aaa0
+  rotate: true
+  xy: 577, 53
+  size: 18, 26
+  orig: 18, 26
+  offset: 0, 0
+  index: -1
+aaa1
+  rotate: false
+  xy: 229, 19
+  size: 209, 186
+  orig: 209, 186
+  offset: 0, 0
+  index: -1
+aaa10
+  rotate: true
+  xy: 499, 23
+  size: 26, 42
+  orig: 26, 42
+  offset: 0, 0
+  index: -1
+aaa11
+  rotate: true
+  xy: 477, 6
+  size: 26, 20
+  orig: 26, 20
+  offset: 0, 0
+  index: -1
+aaa12
+  rotate: true
+  xy: 546, 0
+  size: 51, 46
+  orig: 51, 46
+  offset: 0, 0
+  index: -1
+aaa13
+  rotate: true
+  xy: 509, 113
+  size: 38, 64
+  orig: 38, 65
+  offset: 0, 1
+  index: -1
+aaa14
+  rotate: true
+  xy: 605, 53
+  size: 18, 14
+  orig: 18, 14
+  offset: 0, 0
+  index: -1
+aaa15
+  rotate: false
+  xy: 546, 53
+  size: 29, 58
+  orig: 29, 58
+  offset: 0, 0
+  index: -1
+aaa16
+  rotate: true
+  xy: 499, 0
+  size: 21, 27
+  orig: 21, 27
+  offset: 0, 0
+  index: -1
+aaa17
+  rotate: true
+  xy: 440, 34
+  size: 88, 57
+  orig: 88, 57
+  offset: 0, 0
+  index: -1
+aaa18
+  rotate: false
+  xy: 509, 153
+  size: 83, 52
+  orig: 83, 52
+  offset: 0, 0
+  index: -1
+aaa19
+  rotate: true
+  xy: 0, 8
+  size: 197, 227
+  orig: 197, 227
+  offset: 0, 0
+  index: -1
+aaa2
+  rotate: false
+  xy: 440, 0
+  size: 35, 32
+  orig: 35, 32
+  offset: 0, 0
+  index: -1
+aaa3
+  rotate: false
+  xy: 260, 0
+  size: 28, 17
+  orig: 28, 17
+  offset: 0, 0
+  index: -1
+aaa4
+  rotate: true
+  xy: 575, 115
+  size: 36, 47
+  orig: 36, 47
+  offset: 0, 0
+  index: -1
+aaa5
+  rotate: false
+  xy: 594, 160
+  size: 54, 45
+  orig: 54, 45
+  offset: 0, 0
+  index: -1
+aaa6
+  rotate: false
+  xy: 229, 0
+  size: 29, 17
+  orig: 29, 17
+  offset: 0, 0
+  index: -1
+aaa7
+  rotate: true
+  xy: 290, 1
+  size: 16, 43
+  orig: 16, 43
+  offset: 0, 0
+  index: -1
+aaa8
+  rotate: false
+  xy: 577, 73
+  size: 39, 40
+  orig: 39, 40
+  offset: 0, 0
+  index: -1
+aaa9
+  rotate: false
+  xy: 499, 51
+  size: 45, 60
+  orig: 46, 60
+  offset: 0, 0
+  index: -1
+atk30001
+  rotate: true
+  xy: 621, 52
+  size: 25, 24
+  orig: 26, 26
+  offset: 1, 1
+  index: -1
+atk30002
+  rotate: false
+  xy: 594, 0
+  size: 23, 23
+  orig: 24, 25
+  offset: 0, 1
+  index: -1
+atk30003
+  rotate: false
+  xy: 621, 25
+  size: 24, 25
+  orig: 25, 26
+  offset: 0, 0
+  index: -1
+atk30004
+  rotate: true
+  xy: 624, 106
+  size: 25, 26
+  orig: 26, 27
+  offset: 0, 0
+  index: -1
+atk30005
+  rotate: false
+  xy: 618, 79
+  size: 26, 25
+  orig: 26, 27
+  offset: 0, 1
+  index: -1
+atk30006
+  rotate: true
+  xy: 594, 25
+  size: 26, 25
+  orig: 26, 27
+  offset: 0, 1
+  index: -1
+atk30007
+  rotate: false
+  xy: 619, 3
+  size: 24, 20
+  orig: 25, 23
+  offset: 1, 2
+  index: -1
+atk_0001
+  rotate: false
+  xy: 594, 153
+  size: 18, 5
+  orig: 19, 5
+  offset: 0, 0
+  index: -1
+atk_0002
+  rotate: false
+  xy: 335, 9
+  size: 32, 8
+  orig: 34, 8
+  offset: 0, 0
+  index: -1
+atk_0003
+  rotate: true
+  xy: 528, 2
+  size: 19, 8
+  orig: 21, 9
+  offset: 1, 0
+  index: -1

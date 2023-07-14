@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "WuJin_Buff_16",
+    "texture": "c15e525a-339e-496b-a243-784b583e4e8a",
+    "atlas": "",
+    "rect": [
+      49,
+      38,
+      18,
+      28
+    ],
+    "offset": [
+      18,
+      -12
+    ],
+    "originalSize": [
+      80,
+      80
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

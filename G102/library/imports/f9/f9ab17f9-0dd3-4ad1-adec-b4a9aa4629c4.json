@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Battle_Skill_Bar_0_1",
+    "texture": "d2c8e048-a55b-4197-886f-a63b3fe510d1",
+    "atlas": "326cc4d3-6b9c-4ba5-966c-937f9aeb1b6d",
+    "rect": [
+      101,
+      1311,
+      96,
+      10
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      96,
+      10
+    ],
+    "capInsets": [
+      32,
+      0,
+      32,
+      0
+    ]
+  }
+}

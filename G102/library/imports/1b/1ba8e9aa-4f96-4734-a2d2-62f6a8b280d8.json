@@ -1,0 +1,883 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "SignIn",
+  "_objFlags": 0,
+  "_native": "",
+  "json": [
+    {
+      "DayID": 101,
+      "Day": 1,
+      "Daytype": 1,
+      "Item": 10001,
+      "Num": 8000
+    },
+    {
+      "DayID": 102,
+      "Day": 2,
+      "Daytype": 1,
+      "Item": 40004,
+      "Num": 10
+    },
+    {
+      "DayID": 103,
+      "Day": 3,
+      "Daytype": 1,
+      "Item": 40006,
+      "Num": 10
+    },
+    {
+      "DayID": 104,
+      "Day": 4,
+      "Daytype": 1,
+      "Item": 40005,
+      "Num": 10
+    },
+    {
+      "DayID": 105,
+      "Day": 5,
+      "Daytype": 1,
+      "Item": 10002,
+      "Num": 300
+    },
+    {
+      "DayID": 106,
+      "Day": 6,
+      "Daytype": 1,
+      "Item": 10002,
+      "Num": 300
+    },
+    {
+      "DayID": 107,
+      "Day": 7,
+      "Daytype": 1,
+      "Item": 100010,
+      "Num": 50
+    },
+    {
+      "DayID": 2901,
+      "Day": 1,
+      "Daytype": 29,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2902,
+      "Day": 2,
+      "Daytype": 29,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2903,
+      "Day": 3,
+      "Daytype": 29,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2904,
+      "Day": 4,
+      "Daytype": 29,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2905,
+      "Day": 5,
+      "Daytype": 29,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2906,
+      "Day": 6,
+      "Daytype": 29,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2907,
+      "Day": 7,
+      "Daytype": 29,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2908,
+      "Day": 8,
+      "Daytype": 29,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2909,
+      "Day": 9,
+      "Daytype": 29,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2910,
+      "Day": 10,
+      "Daytype": 29,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2911,
+      "Day": 11,
+      "Daytype": 29,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2912,
+      "Day": 12,
+      "Daytype": 29,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2913,
+      "Day": 13,
+      "Daytype": 29,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2914,
+      "Day": 14,
+      "Daytype": 29,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2915,
+      "Day": 15,
+      "Daytype": 29,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2916,
+      "Day": 16,
+      "Daytype": 29,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2917,
+      "Day": 17,
+      "Daytype": 29,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2918,
+      "Day": 18,
+      "Daytype": 29,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2919,
+      "Day": 19,
+      "Daytype": 29,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2920,
+      "Day": 20,
+      "Daytype": 29,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2921,
+      "Day": 21,
+      "Daytype": 29,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2922,
+      "Day": 22,
+      "Daytype": 29,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2923,
+      "Day": 23,
+      "Daytype": 29,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2924,
+      "Day": 24,
+      "Daytype": 29,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2925,
+      "Day": 25,
+      "Daytype": 29,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2926,
+      "Day": 26,
+      "Daytype": 29,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2927,
+      "Day": 27,
+      "Daytype": 29,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2928,
+      "Day": 28,
+      "Daytype": 29,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2929,
+      "Day": 29,
+      "Daytype": 29,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3001,
+      "Day": 1,
+      "Daytype": 30,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3002,
+      "Day": 2,
+      "Daytype": 30,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3003,
+      "Day": 3,
+      "Daytype": 30,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3004,
+      "Day": 4,
+      "Daytype": 30,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3005,
+      "Day": 5,
+      "Daytype": 30,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3006,
+      "Day": 6,
+      "Daytype": 30,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3007,
+      "Day": 7,
+      "Daytype": 30,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3008,
+      "Day": 8,
+      "Daytype": 30,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3009,
+      "Day": 9,
+      "Daytype": 30,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3010,
+      "Day": 10,
+      "Daytype": 30,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3011,
+      "Day": 11,
+      "Daytype": 30,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3012,
+      "Day": 12,
+      "Daytype": 30,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3013,
+      "Day": 13,
+      "Daytype": 30,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3014,
+      "Day": 14,
+      "Daytype": 30,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3015,
+      "Day": 15,
+      "Daytype": 30,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3016,
+      "Day": 16,
+      "Daytype": 30,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3017,
+      "Day": 17,
+      "Daytype": 30,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3018,
+      "Day": 18,
+      "Daytype": 30,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3019,
+      "Day": 19,
+      "Daytype": 30,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3020,
+      "Day": 20,
+      "Daytype": 30,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3021,
+      "Day": 21,
+      "Daytype": 30,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3022,
+      "Day": 22,
+      "Daytype": 30,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3023,
+      "Day": 23,
+      "Daytype": 30,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3024,
+      "Day": 24,
+      "Daytype": 30,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3025,
+      "Day": 25,
+      "Daytype": 30,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3026,
+      "Day": 26,
+      "Daytype": 30,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3027,
+      "Day": 27,
+      "Daytype": 30,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3028,
+      "Day": 28,
+      "Daytype": 30,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3029,
+      "Day": 29,
+      "Daytype": 30,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3030,
+      "Day": 30,
+      "Daytype": 30,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3101,
+      "Day": 1,
+      "Daytype": 31,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3102,
+      "Day": 2,
+      "Daytype": 31,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3103,
+      "Day": 3,
+      "Daytype": 31,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3104,
+      "Day": 4,
+      "Daytype": 31,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3105,
+      "Day": 5,
+      "Daytype": 31,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3106,
+      "Day": 6,
+      "Daytype": 31,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3107,
+      "Day": 7,
+      "Daytype": 31,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3108,
+      "Day": 8,
+      "Daytype": 31,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3109,
+      "Day": 9,
+      "Daytype": 31,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3110,
+      "Day": 10,
+      "Daytype": 31,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3111,
+      "Day": 11,
+      "Daytype": 31,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3112,
+      "Day": 12,
+      "Daytype": 31,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3113,
+      "Day": 13,
+      "Daytype": 31,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3114,
+      "Day": 14,
+      "Daytype": 31,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3115,
+      "Day": 15,
+      "Daytype": 31,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3116,
+      "Day": 16,
+      "Daytype": 31,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3117,
+      "Day": 17,
+      "Daytype": 31,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3118,
+      "Day": 18,
+      "Daytype": 31,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3119,
+      "Day": 19,
+      "Daytype": 31,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3120,
+      "Day": 20,
+      "Daytype": 31,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3121,
+      "Day": 21,
+      "Daytype": 31,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3122,
+      "Day": 22,
+      "Daytype": 31,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3123,
+      "Day": 23,
+      "Daytype": 31,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3124,
+      "Day": 24,
+      "Daytype": 31,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3125,
+      "Day": 25,
+      "Daytype": 31,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3126,
+      "Day": 26,
+      "Daytype": 31,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3127,
+      "Day": 27,
+      "Daytype": 31,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3128,
+      "Day": 28,
+      "Daytype": 31,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3129,
+      "Day": 29,
+      "Daytype": 31,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3130,
+      "Day": 30,
+      "Daytype": 31,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 3131,
+      "Day": 31,
+      "Daytype": 31,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2801,
+      "Day": 1,
+      "Daytype": 28,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2802,
+      "Day": 2,
+      "Daytype": 28,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2803,
+      "Day": 3,
+      "Daytype": 28,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2804,
+      "Day": 4,
+      "Daytype": 28,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2805,
+      "Day": 5,
+      "Daytype": 28,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2806,
+      "Day": 6,
+      "Daytype": 28,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2807,
+      "Day": 7,
+      "Daytype": 28,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2808,
+      "Day": 8,
+      "Daytype": 28,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2809,
+      "Day": 9,
+      "Daytype": 28,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2810,
+      "Day": 10,
+      "Daytype": 28,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2811,
+      "Day": 11,
+      "Daytype": 28,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2812,
+      "Day": 12,
+      "Daytype": 28,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2813,
+      "Day": 13,
+      "Daytype": 28,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2814,
+      "Day": 14,
+      "Daytype": 28,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2815,
+      "Day": 15,
+      "Daytype": 28,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2816,
+      "Day": 16,
+      "Daytype": 28,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2817,
+      "Day": 17,
+      "Daytype": 28,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2818,
+      "Day": 18,
+      "Daytype": 28,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2819,
+      "Day": 19,
+      "Daytype": 28,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2820,
+      "Day": 20,
+      "Daytype": 28,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2821,
+      "Day": 21,
+      "Daytype": 28,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2822,
+      "Day": 22,
+      "Daytype": 28,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2823,
+      "Day": 23,
+      "Daytype": 28,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2824,
+      "Day": 24,
+      "Daytype": 28,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2825,
+      "Day": 25,
+      "Daytype": 28,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2826,
+      "Day": 26,
+      "Daytype": 28,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2827,
+      "Day": 27,
+      "Daytype": 28,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayID": 2828,
+      "Day": 28,
+      "Daytype": 28,
+      "Item": 10002,
+      "Num": 200
+    }
+  ]
+}

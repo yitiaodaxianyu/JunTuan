@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "SignIn7_Text_1_EN",
+    "texture": "3e511380-c980-4c64-adb5-51ce13b05b84",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      488,
+      128
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      488,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

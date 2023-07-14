@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Druid_Passive2_11",
+    "texture": "34e91499-baa3-4663-ae7d-a9be4f7f5f5b",
+    "atlas": "2be0d149-9fc4-41b1-b4f2-c55f94d460ed",
+    "rect": [
+      271,
+      1254,
+      80,
+      70
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      80,
+      70
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

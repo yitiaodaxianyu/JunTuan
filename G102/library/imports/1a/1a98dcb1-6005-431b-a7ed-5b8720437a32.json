@@ -1,0 +1,36 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "ConstantConfiguration",
+  "_objFlags": 0,
+  "_native": "",
+  "json": [
+    {
+      "ID": 1,
+      "Value": "100"
+    },
+    {
+      "ID": 2,
+      "Value": "20"
+    },
+    {
+      "ID": 3,
+      "Value": "20"
+    },
+    {
+      "ID": 4,
+      "Value": "3"
+    },
+    {
+      "ID": 5,
+      "Value": "3"
+    },
+    {
+      "ID": 6,
+      "Value": "300"
+    },
+    {
+      "ID": 7,
+      "Value": "300"
+    }
+  ]
+}

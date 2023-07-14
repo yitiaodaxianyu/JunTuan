@@ -1,0 +1,132 @@
+
+kuangbao.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+kuangbaodi
+  rotate: false
+  xy: 2, 458
+  size: 375, 51
+  orig: 375, 51
+  offset: 0, 0
+  index: -1
+kuangbaozi
+  rotate: false
+  xy: 2, 392
+  size: 270, 64
+  orig: 270, 64
+  offset: 0, 0
+  index: -1
+shen_00000
+  rotate: false
+  xy: 2, 262
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+shen_00001
+  rotate: false
+  xy: 2, 132
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+shen_00002
+  rotate: false
+  xy: 132, 262
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+shen_00003
+  rotate: false
+  xy: 2, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+shen_00004
+  rotate: false
+  xy: 132, 132
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+shen_00005
+  rotate: false
+  xy: 132, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+shen_00006
+  rotate: false
+  xy: 379, 381
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+shen_00007
+  rotate: false
+  xy: 509, 381
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+shen_00008
+  rotate: false
+  xy: 639, 381
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+shen_00009
+  rotate: false
+  xy: 769, 381
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+shen_00010
+  rotate: false
+  xy: 262, 251
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+shen_00011
+  rotate: false
+  xy: 262, 121
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+shen_00012
+  rotate: false
+  xy: 392, 251
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+shen_00013
+  rotate: false
+  xy: 392, 121
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+shen_00014
+  rotate: false
+  xy: 522, 251
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+shen_00015
+  rotate: false
+  xy: 522, 121
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1

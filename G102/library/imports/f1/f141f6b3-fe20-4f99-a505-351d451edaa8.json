@@ -1,0 +1,50 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "ui_effects.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "DH_gold_00": {
+      "__uuid__": "ec04b2e3-9f47-4fe8-9ca4-fa6f4a0cbfb0"
+    },
+    "DH_gold_01": {
+      "__uuid__": "f31db6b8-64b9-463e-899f-8ce22a673f0b"
+    },
+    "DH_gold_02": {
+      "__uuid__": "7ed8ce18-7d31-41e2-a6bf-3016031f70a4"
+    },
+    "DH_gold_03": {
+      "__uuid__": "49831351-ed08-4f3f-821c-9e9aee5ef985"
+    },
+    "DH_gold_04": {
+      "__uuid__": "5fa20e75-c13b-4e12-bb45-0e5c9a32c16f"
+    },
+    "DH_gold_05": {
+      "__uuid__": "b9f99b3a-be37-40d6-b64a-be8dc3667e4c"
+    },
+    "DH_gold_06": {
+      "__uuid__": "13cceef5-d198-459f-a563-4a08a1206205"
+    },
+    "DH_gold_07": {
+      "__uuid__": "eaf7f033-210b-4dcd-bc04-1bd79c702a17"
+    },
+    "Game_TX_00": {
+      "__uuid__": "4f4b8b2c-8a4a-4e6d-940c-206add55de69"
+    },
+    "Game_TX_01": {
+      "__uuid__": "6c797a05-537d-4a2a-a683-eb23f524c9b4"
+    },
+    "Game_TX_02": {
+      "__uuid__": "e63ed8fa-792a-46b8-af5b-a6fabb1cb485"
+    },
+    "Game_TX_03": {
+      "__uuid__": "5bbe8ad0-6d02-4ae6-a270-ad67026682ba"
+    },
+    "Game_TX_04": {
+      "__uuid__": "3e714c8d-c8f8-46dc-96db-a4d12e97bcbe"
+    },
+    "Game_TX_05": {
+      "__uuid__": "19fc5fcc-2290-4fa9-9761-ef9920c7747a"
+    }
+  }
+}

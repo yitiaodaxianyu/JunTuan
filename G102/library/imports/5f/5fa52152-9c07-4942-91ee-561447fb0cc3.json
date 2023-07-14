@@ -1,0 +1,134 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "top_ui.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "DB_bg_0": {
+      "__uuid__": "c36f27f5-3eae-424a-8515-dcd77b2027bb"
+    },
+    "Main_Btn_Change": {
+      "__uuid__": "bdc3444e-6e61-40ba-9a71-c1bd6753fb43"
+    },
+    "Main_Icon_0": {
+      "__uuid__": "33ac7ab6-e558-4834-a041-6dbb048892c4"
+    },
+    "Main_Icon_4": {
+      "__uuid__": "a961996d-005e-45c6-b241-00da79bf2fbb"
+    },
+    "Main_Icon_5": {
+      "__uuid__": "770ee7ee-727c-47ab-98a7-77c3ef5ba592"
+    },
+    "Main_Icon_Hourglass": {
+      "__uuid__": "b19f413e-bd33-429f-891a-11934ef6eeef"
+    },
+    "Main_Icon_ZhanLin": {
+      "__uuid__": "b4ba616b-8f10-45d5-bfae-79daef9f9b49"
+    },
+    "Main_UIBg_0": {
+      "__uuid__": "73b6eea4-5fd4-4239-a371-9264fffb4d9b"
+    },
+    "Top_BG_0": {
+      "__uuid__": "b41222b3-2d1e-4401-87b2-3e5907626cb8"
+    },
+    "Top_Bar_0": {
+      "__uuid__": "700258c9-303f-403d-b640-1262e05afac8"
+    },
+    "Top_Bar_1": {
+      "__uuid__": "1f97ac1c-f3f0-4c75-bd2f-0829f3b10ff8"
+    },
+    "Top_Bg_1": {
+      "__uuid__": "bde46701-014c-48ca-8d30-b1186a8347a4"
+    },
+    "Top_Bg_2": {
+      "__uuid__": "df4065ea-9d06-4604-b946-f069010d4784"
+    },
+    "Top_Btn_Mail": {
+      "__uuid__": "3d10f2df-684a-4d58-ace1-f700ecccf9db"
+    },
+    "Top_Btn_Plus": {
+      "__uuid__": "da96190c-147e-4f29-bb39-b99e9a658285"
+    },
+    "Top_Btn_Setting": {
+      "__uuid__": "aa6145fe-6bcf-4788-980d-85eb55bb09cf"
+    },
+    "Top_Frame_0": {
+      "__uuid__": "5e2e74fa-fde5-4759-9315-45d779110c14"
+    },
+    "Top_Head_0": {
+      "__uuid__": "4e3a049d-2849-45cc-a1f8-43c92e2b96b0"
+    },
+    "Top_Head_1": {
+      "__uuid__": "c860e935-d330-400a-8a77-883098963785"
+    },
+    "Top_Head_2": {
+      "__uuid__": "5a447d3b-4a9f-4cdc-8c49-1e9a8488af06"
+    },
+    "Top_Icon_Gem": {
+      "__uuid__": "ceea1b62-5d09-44d8-8b40-fe05ca22eab8"
+    },
+    "Top_icon_coin": {
+      "__uuid__": "4ebc2336-e9f8-4aa6-84cf-7d96e6932be2"
+    },
+    "Top_icon_tili": {
+      "__uuid__": "67a21cf0-d0f0-4f31-92fd-fc1bd281733a"
+    },
+    "Top_icon_zhanli": {
+      "__uuid__": "f0db31b1-0320-445b-8b17-184f4ceff397"
+    },
+    "Top_icon_zuan": {
+      "__uuid__": "08aae2d7-b38a-4776-9099-f2702af1ec1e"
+    },
+    "Under_BtnBg_0": {
+      "__uuid__": "3718fed7-0fe1-4a8e-999f-758cf3d543dd"
+    },
+    "Under_BtnBg_1": {
+      "__uuid__": "3457258c-f951-4d7e-a74f-187c4320fb23"
+    },
+    "Under_Icon_0": {
+      "__uuid__": "27d5b03a-d578-4b32-9540-88bc84f28cb9"
+    },
+    "Under_Icon_0_1": {
+      "__uuid__": "bf66150f-39b2-49ae-b81c-72691a40db2a"
+    },
+    "Under_Icon_1": {
+      "__uuid__": "3e2654b1-2734-430d-8be7-ce669397da5d"
+    },
+    "Under_Icon_1_1": {
+      "__uuid__": "db8f583e-e58d-4742-9923-0ffc352fc5ee"
+    },
+    "Under_Icon_2": {
+      "__uuid__": "3fb6cc28-23c2-4ebd-be20-218853344405"
+    },
+    "Under_Icon_2_1": {
+      "__uuid__": "cff50459-6c95-4177-8924-65f651d512c8"
+    },
+    "Under_Icon_3": {
+      "__uuid__": "c3f0a006-88d3-4aa8-ab08-225669be5a76"
+    },
+    "Under_Icon_3_1": {
+      "__uuid__": "59927fbe-8c52-4b0d-a19b-1c9f4f210de6"
+    },
+    "Under_Icon_4": {
+      "__uuid__": "b2eb46fd-0634-4e4d-af14-4f2e05f8183c"
+    },
+    "Under_Icon_4_1": {
+      "__uuid__": "77e1d4ef-c5fc-45c1-bf78-294b72dcdfd1"
+    },
+    "Under_Icon_5": {
+      "__uuid__": "c81c52e4-2587-437e-9092-f8d4c404126c"
+    },
+    "Under_Icon_5_1": {
+      "__uuid__": "f97957de-4f1b-4bdf-b51d-39216e028d87"
+    },
+    "Under_Icon_Lock": {
+      "__uuid__": "4bd3b92f-46a6-4cbe-aae1-6407457e65ab"
+    },
+    "ZJM_icon_tips": {
+      "__uuid__": "52aa0063-f97e-48ac-bf4b-07c4f2ff9242"
+    },
+    "ZJM_lock": {
+      "__uuid__": "cdfd9544-7089-4cc4-8ee8-2ee4665fcd05"
+    }
+  }
+}

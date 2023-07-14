@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Main_Bg_Level_10",
+    "texture": "2ef9014d-749e-4082-969e-7a2a95fdd6a7",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      750,
+      2000
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      750,
+      2000
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

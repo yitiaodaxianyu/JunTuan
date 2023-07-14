@@ -1,0 +1,167 @@
+
+Spine_Boss6.png
+size: 579,524
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Boss6_SkillStone
+  rotate: false
+  xy: 384, 244
+  size: 39, 41
+  orig: 39, 41
+  offset: 0, 0
+  index: -1
+FrontARMLA1
+  rotate: false
+  xy: 384, 404
+  size: 89, 118
+  orig: 89, 118
+  offset: 0, 0
+  index: -1
+FrontARMLB1
+  rotate: false
+  xy: 2, 241
+  size: 189, 281
+  orig: 189, 281
+  offset: 0, 0
+  index: -1
+FrontARMRA1
+  rotate: false
+  xy: 384, 287
+  size: 89, 115
+  orig: 89, 115
+  offset: 0, 0
+  index: -1
+FrontARMRB1
+  rotate: false
+  xy: 193, 241
+  size: 189, 281
+  orig: 189, 281
+  offset: 0, 0
+  index: -1
+FrontBODY1
+  rotate: false
+  xy: 204, 2
+  size: 157, 237
+  orig: 157, 237
+  offset: 0, 0
+  index: -1
+FrontHEAD1
+  rotate: false
+  xy: 363, 34
+  size: 155, 205
+  orig: 155, 205
+  offset: 0, 0
+  index: -1
+FrontLEGLA1
+  rotate: false
+  xy: 520, 202
+  size: 57, 66
+  orig: 57, 66
+  offset: 0, 0
+  index: -1
+FrontLEGLB1
+  rotate: false
+  xy: 475, 411
+  size: 96, 111
+  orig: 96, 111
+  offset: 0, 0
+  index: -1
+FrontLEGRA1
+  rotate: false
+  xy: 520, 134
+  size: 57, 66
+  orig: 57, 66
+  offset: 0, 0
+  index: -1
+FrontLEGRB1
+  rotate: false
+  xy: 475, 298
+  size: 96, 111
+  orig: 96, 111
+  offset: 0, 0
+  index: -1
+Tu
+  rotate: false
+  xy: 441, 253
+  size: 50, 32
+  orig: 50, 32
+  offset: 0, 0
+  index: -1
+YeZhi
+  rotate: true
+  xy: 2, 2
+  size: 237, 200
+  orig: 237, 200
+  offset: 0, 0
+  index: -1
+Ye_ 9
+  rotate: false
+  xy: 503, 6
+  size: 18, 26
+  orig: 22, 30
+  offset: 2, 2
+  index: -1
+Ye_1
+  rotate: false
+  xy: 469, 6
+  size: 32, 26
+  orig: 35, 29
+  offset: 1, 2
+  index: -1
+Ye_10
+  rotate: false
+  xy: 493, 241
+  size: 25, 21
+  orig: 29, 22
+  offset: 2, 1
+  index: -1
+Ye_2
+  rotate: true
+  xy: 425, 249
+  size: 36, 14
+  orig: 39, 16
+  offset: 2, 1
+  index: -1
+Ye_3
+  rotate: false
+  xy: 391, 5
+  size: 38, 27
+  orig: 42, 30
+  offset: 1, 1
+  index: -1
+Ye_4
+  rotate: false
+  xy: 493, 264
+  size: 21, 32
+  orig: 24, 34
+  offset: 1, 1
+  index: -1
+Ye_5
+  rotate: false
+  xy: 431, 5
+  size: 36, 27
+  orig: 39, 30
+  offset: 1, 1
+  index: -1
+Ye_6
+  rotate: true
+  xy: 363, 4
+  size: 28, 26
+  orig: 34, 30
+  offset: 2, 2
+  index: -1
+Ye_7
+  rotate: false
+  xy: 516, 270
+  size: 17, 26
+  orig: 19, 26
+  offset: 1, 0
+  index: -1
+Ye_8
+  rotate: false
+  xy: 535, 271
+  size: 15, 25
+  orig: 17, 27
+  offset: 1, 1
+  index: -1

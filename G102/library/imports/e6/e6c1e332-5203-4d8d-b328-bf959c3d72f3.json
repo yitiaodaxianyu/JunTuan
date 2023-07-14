@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "BossRush_KR",
+    "texture": "26a1789e-0a99-4394-b4fb-8975553d3c5e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      506,
+      60
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      506,
+      60
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

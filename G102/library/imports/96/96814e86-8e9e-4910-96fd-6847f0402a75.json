@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "CommonSpirit_DrawCardFX_Green_01",
+    "texture": "0db125d6-0aa2-4a70-81a6-3704a5f531c0",
+    "atlas": "f4022588-a34f-4777-80a0-f3e2e6210ca8",
+    "rect": [
+      998,
+      650,
+      12,
+      202
+    ],
+    "offset": [
+      3,
+      0
+    ],
+    "originalSize": [
+      210,
+      260
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

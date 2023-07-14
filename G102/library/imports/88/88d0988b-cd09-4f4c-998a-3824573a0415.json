@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Boss8_AttackHit_11",
+    "texture": "f5afcaf2-ecc7-4417-af40-3cfdc108155a",
+    "atlas": "a54dc302-f366-4338-ad25-5fa25da4f19d",
+    "rect": [
+      1814,
+      430,
+      224,
+      230
+    ],
+    "offset": [
+      3,
+      0
+    ],
+    "originalSize": [
+      230,
+      230
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Shop_Banner_2",
+    "texture": "1158689d-d16e-4728-84cd-345e0ece9ab5",
+    "atlas": "f6939bed-f30d-4e57-b1a9-017c6c7ff7ae",
+    "rect": [
+      2,
+      2,
+      398,
+      90
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      398,
+      90
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

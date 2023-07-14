@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bingnv_beimian",
+    "texture": "0976d9f9-75e0-4a2c-9f98-24de344e4eb0",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      393,
+      1857
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      397,
+      1861
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

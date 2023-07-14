@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Dungeon_Icon_Plus",
+    "texture": "0fa26554-18aa-4685-943c-8687476a8daa",
+    "atlas": "20cb05a8-719e-4878-bafb-23c08de83024",
+    "rect": [
+      721,
+      222,
+      31,
+      34
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      31,
+      34
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

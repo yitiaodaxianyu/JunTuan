@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "NotYet_IN",
+    "texture": "7866c746-24df-4a4c-852e-6ef376e63be4",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      506,
+      60
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      506,
+      60
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

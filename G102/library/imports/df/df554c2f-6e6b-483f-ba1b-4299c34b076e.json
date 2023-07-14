@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "MeiMo_Side",
+    "texture": "a717e5c6-1c56-4194-b767-46503047970f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      650,
+      205
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      650,
+      205
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

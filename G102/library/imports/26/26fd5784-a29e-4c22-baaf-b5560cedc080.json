@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Boss14_Skill3_17",
+    "texture": "56f2a26b-fa30-4287-bfce-55854d5eccd8",
+    "atlas": "42609285-effe-470d-9fcb-1eb3c142a75d",
+    "rect": [
+      878,
+      1822,
+      239,
+      200
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      239,
+      200
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

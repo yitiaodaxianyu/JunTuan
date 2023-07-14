@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Number_Power_0",
+    "texture": "be885a3c-7a0e-4a79-916c-708233c9ef1e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      509,
+      155
+    ],
+    "offset": [
+      -1.5,
+      50.5
+    ],
+    "originalSize": [
+      512,
+      256
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

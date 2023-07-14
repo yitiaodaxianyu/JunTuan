@@ -1,0 +1,76 @@
+
+Monster_46.png
+size: 110,213
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: true
+  xy: 0, 22
+  size: 46, 56
+  orig: 46, 56
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 0, 76
+  size: 69, 61
+  orig: 69, 61
+  offset: 0, 0
+  index: -1
+JianTong
+  rotate: false
+  xy: 77, 108
+  size: 30, 37
+  orig: 30, 37
+  offset: 0, 0
+  index: -1
+PiFeng
+  rotate: false
+  xy: 0, 145
+  size: 71, 68
+  orig: 71, 68
+  offset: 0, 0
+  index: -1
+PiGu
+  rotate: false
+  xy: 31, 2
+  size: 20, 12
+  orig: 20, 12
+  offset: 0, 0
+  index: -1
+WuQi
+  rotate: false
+  xy: 62, 1
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+YouJiao
+  rotate: true
+  xy: 75, 54
+  size: 17, 25
+  orig: 17, 25
+  offset: 0, 0
+  index: -1
+YouShou
+  rotate: true
+  xy: 75, 79
+  size: 21, 35
+  orig: 21, 35
+  offset: 0, 0
+  index: -1
+ZuoJiao
+  rotate: true
+  xy: 0, 0
+  size: 14, 25
+  orig: 14, 25
+  offset: 0, 0
+  index: -1
+ZuoShou
+  rotate: false
+  xy: 77, 153
+  size: 32, 60
+  orig: 32, 60
+  offset: 0, 0
+  index: -1

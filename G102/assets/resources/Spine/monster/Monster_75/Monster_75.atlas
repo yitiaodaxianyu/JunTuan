@@ -1,0 +1,69 @@
+
+Monster_75.png
+size: 399,183
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Huo
+  rotate: true
+  xy: 123, 76
+  size: 105, 198
+  orig: 106, 198
+  offset: 0, 0
+  index: -1
+Ku
+  rotate: false
+  xy: 209, 4
+  size: 100, 70
+  orig: 100, 70
+  offset: 0, 0
+  index: -1
+Yan
+  rotate: false
+  xy: 311, 6
+  size: 47, 68
+  orig: 47, 68
+  offset: 0, 0
+  index: -1
+YouBi
+  rotate: false
+  xy: 2, 66
+  size: 63, 115
+  orig: 64, 116
+  offset: 0, 1
+  index: -1
+YouJiao
+  rotate: false
+  xy: 61, 6
+  size: 49, 58
+  orig: 50, 58
+  offset: 0, 0
+  index: -1
+YouShou
+  rotate: false
+  xy: 323, 89
+  size: 74, 92
+  orig: 74, 92
+  offset: 0, 0
+  index: -1
+ZuoBi
+  rotate: false
+  xy: 67, 75
+  size: 54, 106
+  orig: 54, 106
+  offset: 0, 0
+  index: -1
+ZuoJiao
+  rotate: false
+  xy: 2, 5
+  size: 57, 59
+  orig: 57, 59
+  offset: 0, 0
+  index: -1
+ZuoShou
+  rotate: true
+  xy: 112, 2
+  size: 71, 95
+  orig: 71, 95
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,440 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "BossReward",
+  "_objFlags": 0,
+  "_native": "",
+  "json": [
+    {
+      "RewardLevel": 0,
+      "IntegralRequirement": 0,
+      "BoxIcon": 1,
+      "RewardItem": 20003,
+      "RewardNum": 0,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 0
+    },
+    {
+      "RewardLevel": 1,
+      "IntegralRequirement": 4340,
+      "BoxIcon": 1,
+      "RewardItem": 20003,
+      "RewardNum": 10,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 8
+    },
+    {
+      "RewardLevel": 2,
+      "IntegralRequirement": 11081,
+      "BoxIcon": 1,
+      "RewardItem": 20003,
+      "RewardNum": 20,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 11
+    },
+    {
+      "RewardLevel": 3,
+      "IntegralRequirement": 18269,
+      "BoxIcon": 1,
+      "RewardItem": 20003,
+      "RewardNum": 30,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 14
+    },
+    {
+      "RewardLevel": 4,
+      "IntegralRequirement": 29040,
+      "BoxIcon": 1,
+      "RewardItem": 20003,
+      "RewardNum": 40,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 17
+    },
+    {
+      "RewardLevel": 5,
+      "IntegralRequirement": 41783,
+      "BoxIcon": 1,
+      "RewardItem": 20003,
+      "RewardNum": 50,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 20
+    },
+    {
+      "RewardLevel": 6,
+      "IntegralRequirement": 68117,
+      "BoxIcon": 1,
+      "RewardItem": 20003,
+      "RewardNum": 60,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 23
+    },
+    {
+      "RewardLevel": 7,
+      "IntegralRequirement": 117214,
+      "BoxIcon": 1,
+      "RewardItem": 20003,
+      "RewardNum": 70,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 26
+    },
+    {
+      "RewardLevel": 8,
+      "IntegralRequirement": 201794,
+      "BoxIcon": 1,
+      "RewardItem": 20003,
+      "RewardNum": 80,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 29
+    },
+    {
+      "RewardLevel": 9,
+      "IntegralRequirement": 291152,
+      "BoxIcon": 1,
+      "RewardItem": 20003,
+      "RewardNum": 90,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 32
+    },
+    {
+      "RewardLevel": 10,
+      "IntegralRequirement": 388645,
+      "BoxIcon": 1,
+      "RewardItem": 20003,
+      "RewardNum": 100,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 35
+    },
+    {
+      "RewardLevel": 11,
+      "IntegralRequirement": 495586,
+      "BoxIcon": 2,
+      "RewardItem": 20003,
+      "RewardNum": 110,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 38
+    },
+    {
+      "RewardLevel": 12,
+      "IntegralRequirement": 607683,
+      "BoxIcon": 2,
+      "RewardItem": 20003,
+      "RewardNum": 120,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 41
+    },
+    {
+      "RewardLevel": 13,
+      "IntegralRequirement": 740090,
+      "BoxIcon": 2,
+      "RewardItem": 20003,
+      "RewardNum": 130,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 44
+    },
+    {
+      "RewardLevel": 14,
+      "IntegralRequirement": 896802,
+      "BoxIcon": 2,
+      "RewardItem": 20003,
+      "RewardNum": 140,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 47
+    },
+    {
+      "RewardLevel": 15,
+      "IntegralRequirement": 1164974,
+      "BoxIcon": 2,
+      "RewardItem": 20003,
+      "RewardNum": 150,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 50
+    },
+    {
+      "RewardLevel": 16,
+      "IntegralRequirement": 1445999,
+      "BoxIcon": 2,
+      "RewardItem": 20003,
+      "RewardNum": 165,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 53
+    },
+    {
+      "RewardLevel": 17,
+      "IntegralRequirement": 1745142,
+      "BoxIcon": 2,
+      "RewardItem": 20003,
+      "RewardNum": 180,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 56
+    },
+    {
+      "RewardLevel": 18,
+      "IntegralRequirement": 2057667,
+      "BoxIcon": 2,
+      "RewardItem": 20003,
+      "RewardNum": 195,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 59
+    },
+    {
+      "RewardLevel": 19,
+      "IntegralRequirement": 2391588,
+      "BoxIcon": 2,
+      "RewardItem": 20003,
+      "RewardNum": 210,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 62
+    },
+    {
+      "RewardLevel": 20,
+      "IntegralRequirement": 2818377,
+      "BoxIcon": 2,
+      "RewardItem": 20003,
+      "RewardNum": 225,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 65
+    },
+    {
+      "RewardLevel": 21,
+      "IntegralRequirement": 3261686,
+      "BoxIcon": 3,
+      "RewardItem": 20003,
+      "RewardNum": 240,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 68
+    },
+    {
+      "RewardLevel": 22,
+      "IntegralRequirement": 3779830,
+      "BoxIcon": 3,
+      "RewardItem": 20003,
+      "RewardNum": 255,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 71
+    },
+    {
+      "RewardLevel": 23,
+      "IntegralRequirement": 4365129,
+      "BoxIcon": 3,
+      "RewardItem": 20003,
+      "RewardNum": 270,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 74
+    },
+    {
+      "RewardLevel": 24,
+      "IntegralRequirement": 5013112,
+      "BoxIcon": 3,
+      "RewardItem": 20003,
+      "RewardNum": 285,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 77
+    },
+    {
+      "RewardLevel": 25,
+      "IntegralRequirement": 5849341,
+      "BoxIcon": 3,
+      "RewardItem": 20003,
+      "RewardNum": 300,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 80
+    },
+    {
+      "RewardLevel": 26,
+      "IntegralRequirement": 6745835,
+      "BoxIcon": 3,
+      "RewardItem": 20003,
+      "RewardNum": 320,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 82
+    },
+    {
+      "RewardLevel": 27,
+      "IntegralRequirement": 7704477,
+      "BoxIcon": 3,
+      "RewardItem": 20003,
+      "RewardNum": 350,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 85
+    },
+    {
+      "RewardLevel": 28,
+      "IntegralRequirement": 9161263,
+      "BoxIcon": 3,
+      "RewardItem": 20003,
+      "RewardNum": 380,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 88
+    },
+    {
+      "RewardLevel": 29,
+      "IntegralRequirement": 10700848,
+      "BoxIcon": 3,
+      "RewardItem": 20003,
+      "RewardNum": 410,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 91
+    },
+    {
+      "RewardLevel": 30,
+      "IntegralRequirement": 12359466,
+      "BoxIcon": 3,
+      "RewardItem": 20003,
+      "RewardNum": 440,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 94
+    },
+    {
+      "RewardLevel": 31,
+      "IntegralRequirement": 14144114,
+      "BoxIcon": 3,
+      "RewardItem": 20003,
+      "RewardNum": 470,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 97
+    },
+    {
+      "RewardLevel": 32,
+      "IntegralRequirement": 16668655,
+      "BoxIcon": 3,
+      "RewardItem": 20003,
+      "RewardNum": 500,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 100
+    },
+    {
+      "RewardLevel": 33,
+      "IntegralRequirement": 19388545,
+      "BoxIcon": 3,
+      "RewardItem": 20003,
+      "RewardNum": 510,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 100
+    },
+    {
+      "RewardLevel": 34,
+      "IntegralRequirement": 22228902,
+      "BoxIcon": 3,
+      "RewardItem": 20003,
+      "RewardNum": 540,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 100
+    },
+    {
+      "RewardLevel": 35,
+      "IntegralRequirement": 25275396,
+      "BoxIcon": 3,
+      "RewardItem": 20003,
+      "RewardNum": 570,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 100
+    },
+    {
+      "RewardLevel": 36,
+      "IntegralRequirement": 30208607,
+      "BoxIcon": 3,
+      "RewardItem": 20003,
+      "RewardNum": 600,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 100
+    },
+    {
+      "RewardLevel": 37,
+      "IntegralRequirement": 35350251,
+      "BoxIcon": 3,
+      "RewardItem": 20003,
+      "RewardNum": 630,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 100
+    },
+    {
+      "RewardLevel": 38,
+      "IntegralRequirement": 40921747,
+      "BoxIcon": 3,
+      "RewardItem": 20003,
+      "RewardNum": 660,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 100
+    },
+    {
+      "RewardLevel": 39,
+      "IntegralRequirement": 46758431,
+      "BoxIcon": 3,
+      "RewardItem": 20003,
+      "RewardNum": 690,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 100
+    },
+    {
+      "RewardLevel": 40,
+      "IntegralRequirement": 52818044,
+      "BoxIcon": 3,
+      "RewardItem": 20003,
+      "RewardNum": 720,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 100
+    },
+    {
+      "RewardLevel": 41,
+      "IntegralRequirement": 61769384,
+      "BoxIcon": 3,
+      "RewardItem": 20003,
+      "RewardNum": 750,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 100
+    },
+    {
+      "RewardLevel": 42,
+      "IntegralRequirement": 71143772,
+      "BoxIcon": 3,
+      "RewardItem": 20003,
+      "RewardNum": 800,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 100
+    },
+    {
+      "RewardLevel": 43,
+      "IntegralRequirement": 81347726,
+      "BoxIcon": 3,
+      "RewardItem": 20003,
+      "RewardNum": 850,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 100
+    },
+    {
+      "RewardLevel": 44,
+      "IntegralRequirement": 92022067,
+      "BoxIcon": 3,
+      "RewardItem": 20003,
+      "RewardNum": 900,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 100
+    },
+    {
+      "RewardLevel": 45,
+      "IntegralRequirement": 103156676,
+      "BoxIcon": 3,
+      "RewardItem": 20003,
+      "RewardNum": 950,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 100
+    },
+    {
+      "RewardLevel": 46,
+      "IntegralRequirement": 118197296,
+      "BoxIcon": 3,
+      "RewardItem": 20003,
+      "RewardNum": 1000,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 100
+    },
+    {
+      "RewardLevel": 47,
+      "IntegralRequirement": 33309478900,
+      "BoxIcon": 3,
+      "RewardItem": 20003,
+      "RewardNum": 1100,
+      "RewardItem_2": 10002,
+      "RewardNum_2": 100
+    }
+  ]
+}

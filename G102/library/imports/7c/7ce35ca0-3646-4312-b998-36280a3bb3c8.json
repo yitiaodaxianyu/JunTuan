@@ -1,0 +1,434 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "copy_ui.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "BossRush_Bar_0": {
+      "__uuid__": "90978d67-fbf3-4c38-bd69-31262f6022ae"
+    },
+    "BossRush_Bar_1": {
+      "__uuid__": "75866e1d-c6a5-4654-b3c7-4c291dc3dcb8"
+    },
+    "BossRush_Bar_2": {
+      "__uuid__": "2e8b8252-a282-4fdd-b1e0-62f3a652ba8f"
+    },
+    "BossRush_Bar_Chest": {
+      "__uuid__": "725e2300-4afe-4eba-b7b0-2704415d6c8a"
+    },
+    "BossRush_Bar_Number": {
+      "__uuid__": "70fa9f81-7614-4362-85fa-551f7e8f4035"
+    },
+    "BossRush_Bg_1": {
+      "__uuid__": "b713f0f5-6cc3-41f3-955a-2f40852da2ce"
+    },
+    "BossRush_Btn_Bonus": {
+      "__uuid__": "926522d9-eef0-486d-bcaa-3cdcaf84ffa2"
+    },
+    "BossRush_Btn_Rank": {
+      "__uuid__": "ab57e73a-d6bb-47b2-8aad-9088c1e7ae9d"
+    },
+    "BossRush_Btn_Record": {
+      "__uuid__": "6a5e322d-ea43-46cb-a68d-b85958087644"
+    },
+    "BossRush_Chest_1": {
+      "__uuid__": "48386dbb-89bf-4672-ace7-a63734f66d52"
+    },
+    "BossRush_Chest_2": {
+      "__uuid__": "9766df0d-f226-48b1-b532-da855fd07450"
+    },
+    "BossRush_Chest_3": {
+      "__uuid__": "ad0951d9-f615-42ea-a9e9-084e6bb08958"
+    },
+    "BossRush_Line": {
+      "__uuid__": "6616ec5f-7654-444c-b66f-d38a1019c394"
+    },
+    "BossRush_Name_Bg": {
+      "__uuid__": "98ad519d-f1dd-424e-9145-fe4156cd960f"
+    },
+    "BossRush_Name_line": {
+      "__uuid__": "2d4165be-c63b-4368-ad29-17606f8b1b37"
+    },
+    "BossRush_Rank_1": {
+      "__uuid__": "b6de37f5-f619-4bda-a2d7-9fde69d35b95"
+    },
+    "BossRush_Rank_2": {
+      "__uuid__": "d1a913f4-50c5-423d-b9f4-1806fa542477"
+    },
+    "BossRush_Rank_3": {
+      "__uuid__": "a0164feb-a624-4d2e-904b-4234bc798b05"
+    },
+    "BossRush_Rank_4": {
+      "__uuid__": "97487965-20c0-4fe2-990d-030d59bf9837"
+    },
+    "BossRush_Record_Bg": {
+      "__uuid__": "6638ac3f-ab28-4032-869c-68f3dba388f1"
+    },
+    "BossRush_Time_Bg": {
+      "__uuid__": "30bd58ed-bc37-4445-8108-0f211dd67cf7"
+    },
+    "BossRush_Tips": {
+      "__uuid__": "0e39d8eb-d240-4b23-91c5-700521610f87"
+    },
+    "BossRush_Title_Bg": {
+      "__uuid__": "dc03a1f6-c01f-486f-8ff4-45e3d3bf8d70"
+    },
+    "BossRush_Top_Bg": {
+      "__uuid__": "9a2f74e5-bc00-4d73-bcf1-b502bad6f458"
+    },
+    "EndlessBuff_201": {
+      "__uuid__": "4829c941-2c22-4f67-b513-8f220a3e2e0c"
+    },
+    "EndlessBuff_202": {
+      "__uuid__": "13eaba2c-cdc4-41c4-b239-430c85779776"
+    },
+    "EndlessBuff_203": {
+      "__uuid__": "1b3ba2da-40b7-48ad-939c-866a1146e22c"
+    },
+    "EndlessBuff_204": {
+      "__uuid__": "d225bd0a-ec20-4bdd-b50f-23e57cc5d6d3"
+    },
+    "EndlessBuff_205": {
+      "__uuid__": "da6f6621-3280-4f02-a5ef-a4ef09266f1a"
+    },
+    "EndlessBuff_206": {
+      "__uuid__": "53d3c697-87a6-4f7a-803c-717ab30d4462"
+    },
+    "EndlessBuff_207": {
+      "__uuid__": "a401c6fa-15cb-458a-b7ba-35a24565e3d0"
+    },
+    "EndlessBuff_208": {
+      "__uuid__": "68a7497c-a9a2-4b8b-a943-74a592fa8f22"
+    },
+    "EndlessBuff_209": {
+      "__uuid__": "195aded6-48ec-48ac-92d9-6ed42aa4ebda"
+    },
+    "EndlessBuff_210": {
+      "__uuid__": "a8fd205d-07f6-4d9e-9b2a-2c14afda8242"
+    },
+    "EndlessBuff_211": {
+      "__uuid__": "20949179-78eb-4b5d-b366-a5cda875f095"
+    },
+    "EndlessBuff_301": {
+      "__uuid__": "bbaf57d8-031a-4030-9fdb-14602fe3857d"
+    },
+    "EndlessBuff_302": {
+      "__uuid__": "213918f7-effa-40e7-a707-8ef23abfc7b9"
+    },
+    "EndlessBuff_303": {
+      "__uuid__": "bc8d9fa6-e146-44ee-8cf3-84cc772aaa88"
+    },
+    "EndlessBuff_304": {
+      "__uuid__": "13a09593-8388-444d-928b-174c836e5ff8"
+    },
+    "EndlessBuff_305": {
+      "__uuid__": "3ddd3407-be9f-4f86-983c-6756a324644c"
+    },
+    "EndlessBuff_306": {
+      "__uuid__": "214bf858-3bfa-4a7f-b5ca-1c556afc6e54"
+    },
+    "EndlessBuff_307": {
+      "__uuid__": "6b8b7da2-568b-496f-82e2-5b655c6584bf"
+    },
+    "EndlessBuff_308": {
+      "__uuid__": "89d6e84d-bba4-4af6-9073-d1ce158cc7e8"
+    },
+    "EndlessBuff_309": {
+      "__uuid__": "5f05d687-1bca-4300-bd0b-776364b863d9"
+    },
+    "EndlessBuff_310": {
+      "__uuid__": "d15ae9d0-7353-4602-a073-276a68e00326"
+    },
+    "EndlessBuff_311": {
+      "__uuid__": "9d943680-b92d-4ec5-abd6-c3ecbc061846"
+    },
+    "EndlessBuff_401": {
+      "__uuid__": "29fb68ea-2ad7-4d97-8e10-0da4a1dde294"
+    },
+    "EndlessBuff_402": {
+      "__uuid__": "6facd1b1-5a5f-484b-a9b7-0550206d98c7"
+    },
+    "EndlessBuff_403": {
+      "__uuid__": "ce04b5e8-7d6b-4bc2-ba86-f3e8b6443e1f"
+    },
+    "EndlessBuff_404": {
+      "__uuid__": "b9c92fd5-d9a7-47d3-a3f3-ea9428223713"
+    },
+    "EndlessBuff_405": {
+      "__uuid__": "cb7af37e-29d4-4fae-b014-37ac9f4799a6"
+    },
+    "EndlessBuff_406": {
+      "__uuid__": "330ec96a-1ebf-4c2f-9f6f-57c8ecd62a3b"
+    },
+    "EndlessBuff_407": {
+      "__uuid__": "fcba6dac-b4eb-4655-9d6e-241b0e14035f"
+    },
+    "EndlessBuff_408": {
+      "__uuid__": "feecd25f-e56f-4686-b1a6-6cb3dcba7691"
+    },
+    "EndlessBuff_409": {
+      "__uuid__": "594b7f43-27b7-4da8-8220-8c2d1974d744"
+    },
+    "EndlessBuff_410": {
+      "__uuid__": "39899d5b-3b10-4d2e-8b48-f968703ed89c"
+    },
+    "EndlessBuff_411": {
+      "__uuid__": "64488644-dad7-49d6-a504-36a96808d370"
+    },
+    "EndlessBuff_501": {
+      "__uuid__": "d8cfdf20-1bbb-4f0e-98c8-606031ff575e"
+    },
+    "EndlessBuff_502": {
+      "__uuid__": "52c03eed-495e-416d-8e43-a2b422d03621"
+    },
+    "EndlessBuff_503": {
+      "__uuid__": "c441f29a-be55-4924-9253-aa119c3414c4"
+    },
+    "EndlessBuff_504": {
+      "__uuid__": "19296127-95e8-4d02-b7ef-9ef4b4843b9e"
+    },
+    "EndlessBuff_505": {
+      "__uuid__": "d56b5c07-c34a-4788-9327-47fb5c3fe40f"
+    },
+    "EndlessBuff_506": {
+      "__uuid__": "259a747a-d434-4e69-bddf-b55f74072700"
+    },
+    "EndlessBuff_507": {
+      "__uuid__": "c080f186-5594-4c97-a5a4-074374c6e087"
+    },
+    "EndlessBuff_508": {
+      "__uuid__": "c64c8f77-d571-4bec-a6bf-c8be51c716df"
+    },
+    "EndlessBuff_509": {
+      "__uuid__": "6a93e173-d9ad-4d0e-ad6f-24c57a0bd921"
+    },
+    "EndlessBuff_510": {
+      "__uuid__": "6fc4781c-d5f3-437c-8e21-94b3e7e7cc8e"
+    },
+    "EndlessBuff_511": {
+      "__uuid__": "dd1f97a1-92a2-476e-a823-a5884e3936a3"
+    },
+    "Endless_Bg_0": {
+      "__uuid__": "71d2a067-9e5d-4ae4-9041-4bd40b5cf5d1"
+    },
+    "Endless_Bg_1": {
+      "__uuid__": "f828bb9f-08bf-48f6-b1bd-8e42cc135f76"
+    },
+    "Endless_Btn_Buff": {
+      "__uuid__": "5c3fc2d1-69c5-4002-909b-eeaaac5079b6"
+    },
+    "Endless_Frame_0": {
+      "__uuid__": "ae0fd959-589d-4246-84f4-5dda48bd6b33"
+    },
+    "Endless_Light": {
+      "__uuid__": "db48b2be-4c5d-422b-85d5-c4ef405f7256"
+    },
+    "Endless_List_1": {
+      "__uuid__": "6d9a50dd-0b0f-4535-8295-204deea30e57"
+    },
+    "Endless_List_2": {
+      "__uuid__": "9ad6ed13-588d-4166-a75c-0153374755a8"
+    },
+    "Endless_List_3": {
+      "__uuid__": "11765b27-63b9-4f6a-978b-f8fed439c44f"
+    },
+    "Endless_Lock": {
+      "__uuid__": "36739f43-83e7-4a4f-aaa8-a196cedb6423"
+    },
+    "Endless_Rank_0": {
+      "__uuid__": "4a86abcf-cb87-4b93-a70a-e3fd266592b0"
+    },
+    "Maze_Arrow": {
+      "__uuid__": "9e3becd6-93a8-4dce-881e-773e04574e22"
+    },
+    "Maze_Bg_1": {
+      "__uuid__": "c3ea2410-4a24-4c4d-8ad2-b155f561badd"
+    },
+    "Maze_Bg_1_1": {
+      "__uuid__": "56993b3b-5241-4cac-ae7a-a6c6c019ff0a"
+    },
+    "Maze_Bg_1_2": {
+      "__uuid__": "4f14ca46-4ec6-47c9-a876-456f6c218747"
+    },
+    "Maze_Bg_Boss": {
+      "__uuid__": "0d978300-c081-414f-8234-e714046e7ef2"
+    },
+    "Maze_Bg_Recommend": {
+      "__uuid__": "62da4200-2b92-4b63-b1bf-8de2b456f24e"
+    },
+    "Maze_Bg_Text": {
+      "__uuid__": "5ec78fbd-8a41-4e04-ab4f-d081c1fab0a2"
+    },
+    "Maze_Bg_ZhanLi": {
+      "__uuid__": "bd73bf9f-3dc1-45f9-9c3c-d0154fa66113"
+    },
+    "Maze_Btn_Bag": {
+      "__uuid__": "3a890139-0444-4490-ac3f-9183514dd61e"
+    },
+    "Maze_Btn_Repair": {
+      "__uuid__": "e0392afa-48da-4fbe-906a-b2b2d5da3c90"
+    },
+    "Maze_Btn_Shop": {
+      "__uuid__": "6eca081d-eb5a-4f03-9460-da2925170c78"
+    },
+    "Maze_Btn_WallHp": {
+      "__uuid__": "23d5ede0-9721-4d1a-8dc5-33c8df31f7a0"
+    },
+    "Maze_Buff_Icon_1": {
+      "__uuid__": "6db29a34-7a9c-49b6-a1de-d8b6cebf5a06"
+    },
+    "Maze_Buff_Icon_2": {
+      "__uuid__": "5e2a3458-085e-4e01-b036-4991b4e7ed13"
+    },
+    "Maze_Buff_Icon_3": {
+      "__uuid__": "332631e6-37ee-4bdb-bd9a-f39605a9bdca"
+    },
+    "Maze_Buff_Icon_4": {
+      "__uuid__": "67cd0de7-17c9-45ef-908a-d77473440619"
+    },
+    "Maze_Buff_Icon_5": {
+      "__uuid__": "73044b40-b780-44a6-bb9e-99695fb224a7"
+    },
+    "Maze_Buff_Icon_6": {
+      "__uuid__": "41ecce72-c01e-4729-accb-e2d1b3cf20c2"
+    },
+    "Maze_Buff_Icon_7": {
+      "__uuid__": "133dead3-e924-458e-9a85-b561a5ee7952"
+    },
+    "Maze_Buff_Icon_8": {
+      "__uuid__": "7fd613e7-54ec-4824-a262-aaf8e5e91ff4"
+    },
+    "Maze_Buff_Icon_9": {
+      "__uuid__": "52960ecd-cf1a-42fb-92d8-79e29d3a190c"
+    },
+    "Maze_Card_0": {
+      "__uuid__": "dd7988cf-c2c3-45ff-9682-005c05632a79"
+    },
+    "Maze_Card_1": {
+      "__uuid__": "ffe05f9f-1f4b-44d5-9bb2-8edd835a09c0"
+    },
+    "Maze_Change": {
+      "__uuid__": "f06331c6-c381-41ad-9ba9-ab76e1f7737e"
+    },
+    "Maze_Go_HPBar_0": {
+      "__uuid__": "644325d6-75b0-4e3c-8871-6d3bd5dd3804"
+    },
+    "Maze_Go_HPBar_1": {
+      "__uuid__": "cff4d09e-b14a-4d26-b2bf-50527c2b855e"
+    },
+    "Maze_Go_HPBar_2": {
+      "__uuid__": "3f906d20-064b-4094-b8ed-623e1a00655a"
+    },
+    "Maze_HPbar_0": {
+      "__uuid__": "b4cd34da-ed10-4005-b37e-fa81b6e25655"
+    },
+    "Maze_HPbar_1": {
+      "__uuid__": "504cdc23-9d23-4f75-b06f-6a2af11becef"
+    },
+    "Maze_Icon_0": {
+      "__uuid__": "5a2b34e6-e47a-4b93-a91b-608ac78bc13f"
+    },
+    "Maze_Icon_1": {
+      "__uuid__": "edf97ef0-faca-4a1b-a7f5-da5c8e25483e"
+    },
+    "Maze_Icon_1_1": {
+      "__uuid__": "c3490028-0693-4f5b-bab5-73662fb99c7b"
+    },
+    "Maze_Icon_2": {
+      "__uuid__": "59477fcc-bd16-4624-9aac-6fca7a048ce8"
+    },
+    "Maze_Icon_2_2": {
+      "__uuid__": "18b24434-2e14-4b2a-8f5b-8c81341e3f0b"
+    },
+    "Maze_Icon_3": {
+      "__uuid__": "adc9ba10-ce61-451c-9e03-83a07c4bc99a"
+    },
+    "Maze_Icon_3_3": {
+      "__uuid__": "2b78cdfe-831c-40a8-95da-7445d8302c80"
+    },
+    "Maze_Icon_4": {
+      "__uuid__": "ab49c5d9-dc8f-4fd5-864d-22aff47ea2f7"
+    },
+    "Maze_Icon_4_4": {
+      "__uuid__": "36e2d618-34a7-4320-ac1c-1629522e3e1e"
+    },
+    "Maze_Icon_5": {
+      "__uuid__": "a237f767-4552-4279-b2e7-d8b941b51099"
+    },
+    "Maze_Icon_5_5": {
+      "__uuid__": "60bc300f-44db-4f65-b188-9d1c4e2166c7"
+    },
+    "Maze_Icon_6": {
+      "__uuid__": "aa8364d6-b164-49f1-a9cd-b511ff155071"
+    },
+    "Maze_Icon_6_6": {
+      "__uuid__": "3c7cffaa-a15a-4df6-b1e2-a9e1a188a8ae"
+    },
+    "Maze_Icon_7": {
+      "__uuid__": "c704361d-4d0b-4cbb-9806-88085b9d21ef"
+    },
+    "Maze_Icon_7_7": {
+      "__uuid__": "b9f2650c-cd3d-46ea-b9eb-ddb021287f0a"
+    },
+    "Maze_Icon_Repair": {
+      "__uuid__": "381e3d31-fe63-42f9-ac48-5c1ebf020010"
+    },
+    "Maze_Line": {
+      "__uuid__": "4645b200-fbbd-4881-953b-033bfed99013"
+    },
+    "Maze_Quality_1_0": {
+      "__uuid__": "62c45506-85b8-42af-9b45-52b93ddcbc66"
+    },
+    "Maze_Quality_1_1": {
+      "__uuid__": "3a612bbc-c43e-4ef0-a445-e6b58256b639"
+    },
+    "Maze_Quality_2_0": {
+      "__uuid__": "da4a1ac5-0440-4268-bab8-f37af39c025e"
+    },
+    "Maze_Quality_2_1": {
+      "__uuid__": "7fef8937-eed7-46e2-b968-e90920bb172e"
+    },
+    "Maze_Quality_3_0": {
+      "__uuid__": "54a1f7ba-dc93-440b-861c-599e3003e060"
+    },
+    "Maze_Quality_3_1": {
+      "__uuid__": "57fddd31-f861-43c0-b824-be78d228ffbe"
+    },
+    "Maze_Shadow": {
+      "__uuid__": "836185d3-2d54-47d5-9952-14b69adc21d2"
+    },
+    "Maze_Shop_Bg_1": {
+      "__uuid__": "340f8b80-7ed2-4689-8d08-ebbb08feb379"
+    },
+    "Maze_Shop_Bg_2": {
+      "__uuid__": "58efe0ab-f6a1-406d-a0ab-192fd5fd08e5"
+    },
+    "Maze_Shop_Bg_3": {
+      "__uuid__": "e4f17e4c-f8d0-4b74-ab33-32171dd05ef4"
+    },
+    "MonsterSkill_30381101": {
+      "__uuid__": "d7a9dcdf-c98c-4b27-950d-09349d153f8b"
+    },
+    "MonsterSkill_30391101": {
+      "__uuid__": "a68efda9-6158-4438-ad10-d344f6f0f0e2"
+    },
+    "MonsterSkill_30801101": {
+      "__uuid__": "5e8ddf54-0a2b-4230-a7ee-22c4e04fc3ed"
+    },
+    "MonsterSkill_30801201": {
+      "__uuid__": "a60b2064-0f91-4b51-a182-8ed4ee506ca5"
+    },
+    "MonsterSkill_30811101": {
+      "__uuid__": "49dd4a39-4f2e-4a1d-80e0-36ec4fc7b02c"
+    },
+    "MonsterSkill_30811201": {
+      "__uuid__": "8dc64110-5880-458e-b81e-ff44ce34fb98"
+    },
+    "MonsterSkill_30821101": {
+      "__uuid__": "9b1eb41d-c882-4924-827b-962731faeb74"
+    },
+    "MonsterSkill_30821201": {
+      "__uuid__": "27158bda-0d0e-4635-bd6f-9ec1b4cdf6b6"
+    }
+  }
+}

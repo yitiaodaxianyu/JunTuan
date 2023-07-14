@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Spirit_Hit2_02",
+    "texture": "b5c9763d-5655-469e-a911-81c1e3a4bfdb",
+    "atlas": "5a43ddef-e2d1-4c07-80d0-a3b87e9d6197",
+    "rect": [
+      454,
+      1222,
+      112,
+      58
+    ],
+    "offset": [
+      0,
+      -37
+    ],
+    "originalSize": [
+      200,
+      200
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

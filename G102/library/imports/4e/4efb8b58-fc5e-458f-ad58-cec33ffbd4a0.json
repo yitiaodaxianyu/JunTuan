@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Gunner_End",
+    "texture": "1a3fabf7-dbe8-4977-87df-1bce3abed61d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1916,
+      602
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1916,
+      602
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "knight",
+    "texture": "315cbc7b-f814-4d87-a7e6-626f4c3bcdcc",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      1458,
+      487
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      1459,
+      487
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

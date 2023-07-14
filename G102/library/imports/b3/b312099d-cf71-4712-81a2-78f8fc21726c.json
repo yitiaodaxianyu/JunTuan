@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Ninja_PassiveSkill2_00",
+    "texture": "b595a71a-0cff-40df-a0ca-fda8dab4f576",
+    "atlas": "7e726f41-915e-4c55-a9d9-9de500b5eaba",
+    "rect": [
+      486,
+      294,
+      160,
+      144
+    ],
+    "offset": [
+      0,
+      3
+    ],
+    "originalSize": [
+      170,
+      150
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Thor_Back",
+    "texture": "32737871-e90a-4fec-9131-9590fbf2b77d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      618,
+      205
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      618,
+      205
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

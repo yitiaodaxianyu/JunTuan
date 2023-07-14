@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Boss6_SkillTail",
+    "texture": "3d233f94-056f-4697-a8d8-d0fc3c89d013",
+    "atlas": "",
+    "rect": [
+      2,
+      3,
+      68,
+      147
+    ],
+    "offset": [
+      0,
+      -1.5
+    ],
+    "originalSize": [
+      72,
+      150
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

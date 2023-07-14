@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Anubisi_Side",
+    "texture": "cb8a720f-e422-418c-8ee4-2acfec5debd9",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      904,
+      521
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      904,
+      521
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

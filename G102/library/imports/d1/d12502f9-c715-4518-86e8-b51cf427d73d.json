@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Task_Bar_0",
+    "texture": "15b8afaa-70ca-403f-b5cc-4de9da02d730",
+    "atlas": "9668a438-2094-40f4-8fdf-2f0517f95fbe",
+    "rect": [
+      782,
+      440,
+      25,
+      27
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      25,
+      27
+    ],
+    "rotated": 1,
+    "capInsets": [
+      11,
+      0,
+      11,
+      0
+    ]
+  }
+}

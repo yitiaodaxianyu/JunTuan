@@ -1,0 +1,80 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "TutorialLevel",
+  "_objFlags": 0,
+  "_native": "",
+  "json": [
+    {
+      "LevelId": 1,
+      "LevelTypes": 3,
+      "Chapter": 1,
+      "LevelNum": 1,
+      "PosX": -22,
+      "PosY": 254,
+      "MonsterGroupConfigure": [
+        1000601,
+        1000603,
+        1000604,
+        1000605,
+        1000606,
+        1000608,
+        1000609,
+        1000610,
+        1000611,
+        1000613,
+        1000614,
+        1000615
+      ],
+      "MaxWave": 12,
+      "MonsterTideWave": [
+        4,
+        8,
+        12
+      ],
+      "TimeInterval": [
+        0,
+        6,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9
+      ],
+      "MonsterLevel": [
+        172,
+        172,
+        172,
+        172,
+        172,
+        172,
+        172,
+        172,
+        172,
+        172,
+        172,
+        174
+      ],
+      "HpCoefficient": [
+        0.4,
+        0.4,
+        0.4,
+        0.4,
+        0.4,
+        0.4,
+        0.4,
+        0.4,
+        0.4,
+        0.4,
+        0.4,
+        0.4
+      ],
+      "PassReward_Coin": 200,
+      "RecommendedCombatPower": 1000
+    }
+  ]
+}

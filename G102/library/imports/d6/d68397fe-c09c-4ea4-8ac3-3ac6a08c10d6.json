@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "KuangZhan_PassiveHit_05",
+    "texture": "36d14239-9c7a-4eaa-a458-87aa26fdc067",
+    "atlas": "ac0bff62-00a4-4db3-897e-6959767cd48d",
+    "rect": [
+      2,
+      2,
+      88,
+      138
+    ],
+    "offset": [
+      -1,
+      1
+    ],
+    "originalSize": [
+      90,
+      140
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

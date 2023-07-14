@@ -1,0 +1,1118 @@
+[
+  {
+    "Equipment_ID": 30101,
+    "EquipmentPosition": 1,
+    "Stage": 1,
+    "Quality": 1,
+    "BaseHealth": 0.0,
+    "BaseAttack": 19.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30102,
+    "EquipmentPosition": 1,
+    "Stage": 2,
+    "Quality": 1,
+    "BaseHealth": 0.0,
+    "BaseAttack": 23.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30103,
+    "EquipmentPosition": 1,
+    "Stage": 3,
+    "Quality": 1,
+    "BaseHealth": 0.0,
+    "BaseAttack": 27.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30104,
+    "EquipmentPosition": 1,
+    "Stage": 4,
+    "Quality": 1,
+    "BaseHealth": 0.0,
+    "BaseAttack": 31.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30105,
+    "EquipmentPosition": 1,
+    "Stage": 5,
+    "Quality": 1,
+    "BaseHealth": 0.0,
+    "BaseAttack": 35.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30106,
+    "EquipmentPosition": 1,
+    "Stage": 6,
+    "Quality": 1,
+    "BaseHealth": 0.0,
+    "BaseAttack": 39.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30107,
+    "EquipmentPosition": 1,
+    "Stage": 7,
+    "Quality": 2,
+    "BaseHealth": 0.0,
+    "BaseAttack": 51.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30108,
+    "EquipmentPosition": 1,
+    "Stage": 8,
+    "Quality": 2,
+    "BaseHealth": 0.0,
+    "BaseAttack": 61.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30109,
+    "EquipmentPosition": 1,
+    "Stage": 9,
+    "Quality": 2,
+    "BaseHealth": 0.0,
+    "BaseAttack": 70.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30110,
+    "EquipmentPosition": 1,
+    "Stage": 10,
+    "Quality": 2,
+    "BaseHealth": 0.0,
+    "BaseAttack": 80.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30111,
+    "EquipmentPosition": 1,
+    "Stage": 11,
+    "Quality": 2,
+    "BaseHealth": 0.0,
+    "BaseAttack": 91.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30112,
+    "EquipmentPosition": 1,
+    "Stage": 12,
+    "Quality": 2,
+    "BaseHealth": 0.0,
+    "BaseAttack": 102.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30113,
+    "EquipmentPosition": 1,
+    "Stage": 13,
+    "Quality": 3,
+    "BaseHealth": 0.0,
+    "BaseAttack": 158.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30114,
+    "EquipmentPosition": 1,
+    "Stage": 14,
+    "Quality": 3,
+    "BaseHealth": 0.0,
+    "BaseAttack": 178.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30115,
+    "EquipmentPosition": 1,
+    "Stage": 15,
+    "Quality": 3,
+    "BaseHealth": 0.0,
+    "BaseAttack": 199.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30116,
+    "EquipmentPosition": 1,
+    "Stage": 16,
+    "Quality": 3,
+    "BaseHealth": 0.0,
+    "BaseAttack": 221.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30117,
+    "EquipmentPosition": 1,
+    "Stage": 17,
+    "Quality": 3,
+    "BaseHealth": 0.0,
+    "BaseAttack": 245.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30118,
+    "EquipmentPosition": 1,
+    "Stage": 18,
+    "Quality": 3,
+    "BaseHealth": 0.0,
+    "BaseAttack": 269.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30119,
+    "EquipmentPosition": 1,
+    "Stage": 19,
+    "Quality": 4,
+    "BaseHealth": 0.0,
+    "BaseAttack": 451.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30120,
+    "EquipmentPosition": 1,
+    "Stage": 20,
+    "Quality": 4,
+    "BaseHealth": 0.0,
+    "BaseAttack": 512.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30121,
+    "EquipmentPosition": 1,
+    "Stage": 21,
+    "Quality": 4,
+    "BaseHealth": 0.0,
+    "BaseAttack": 577.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30122,
+    "EquipmentPosition": 1,
+    "Stage": 22,
+    "Quality": 4,
+    "BaseHealth": 0.0,
+    "BaseAttack": 645.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30123,
+    "EquipmentPosition": 1,
+    "Stage": 23,
+    "Quality": 4,
+    "BaseHealth": 0.0,
+    "BaseAttack": 717.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30124,
+    "EquipmentPosition": 1,
+    "Stage": 24,
+    "Quality": 4,
+    "BaseHealth": 0.0,
+    "BaseAttack": 794.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30125,
+    "EquipmentPosition": 1,
+    "Stage": 25,
+    "Quality": 5,
+    "BaseHealth": 0.0,
+    "BaseAttack": 1208.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30126,
+    "EquipmentPosition": 1,
+    "Stage": 26,
+    "Quality": 5,
+    "BaseHealth": 0.0,
+    "BaseAttack": 1381.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30127,
+    "EquipmentPosition": 1,
+    "Stage": 27,
+    "Quality": 5,
+    "BaseHealth": 0.0,
+    "BaseAttack": 1564.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30128,
+    "EquipmentPosition": 1,
+    "Stage": 28,
+    "Quality": 5,
+    "BaseHealth": 0.0,
+    "BaseAttack": 1756.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30129,
+    "EquipmentPosition": 1,
+    "Stage": 29,
+    "Quality": 5,
+    "BaseHealth": 0.0,
+    "BaseAttack": 1959.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30130,
+    "EquipmentPosition": 1,
+    "Stage": 30,
+    "Quality": 5,
+    "BaseHealth": 0.0,
+    "BaseAttack": 2175.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30131,
+    "EquipmentPosition": 1,
+    "Stage": 31,
+    "Quality": 6,
+    "BaseHealth": 0.0,
+    "BaseAttack": 3073.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30201,
+    "EquipmentPosition": 2,
+    "Stage": 1,
+    "Quality": 1,
+    "BaseHealth": 150.0,
+    "BaseAttack": 0.0,
+    "BaseDefense": 11.0
+  },
+  {
+    "Equipment_ID": 30202,
+    "EquipmentPosition": 2,
+    "Stage": 2,
+    "Quality": 1,
+    "BaseHealth": 181.0,
+    "BaseAttack": 0.0,
+    "BaseDefense": 14.0
+  },
+  {
+    "Equipment_ID": 30203,
+    "EquipmentPosition": 2,
+    "Stage": 3,
+    "Quality": 1,
+    "BaseHealth": 212.0,
+    "BaseAttack": 0.0,
+    "BaseDefense": 16.0
+  },
+  {
+    "Equipment_ID": 30204,
+    "EquipmentPosition": 2,
+    "Stage": 4,
+    "Quality": 1,
+    "BaseHealth": 244.0,
+    "BaseAttack": 0.0,
+    "BaseDefense": 18.0
+  },
+  {
+    "Equipment_ID": 30205,
+    "EquipmentPosition": 2,
+    "Stage": 5,
+    "Quality": 1,
+    "BaseHealth": 277.0,
+    "BaseAttack": 0.0,
+    "BaseDefense": 21.0
+  },
+  {
+    "Equipment_ID": 30206,
+    "EquipmentPosition": 2,
+    "Stage": 6,
+    "Quality": 1,
+    "BaseHealth": 311.0,
+    "BaseAttack": 0.0,
+    "BaseDefense": 23.0
+  },
+  {
+    "Equipment_ID": 30207,
+    "EquipmentPosition": 2,
+    "Stage": 7,
+    "Quality": 2,
+    "BaseHealth": 412.0,
+    "BaseAttack": 0.0,
+    "BaseDefense": 31.0
+  },
+  {
+    "Equipment_ID": 30208,
+    "EquipmentPosition": 2,
+    "Stage": 8,
+    "Quality": 2,
+    "BaseHealth": 486.0,
+    "BaseAttack": 0.0,
+    "BaseDefense": 36.0
+  },
+  {
+    "Equipment_ID": 30209,
+    "EquipmentPosition": 2,
+    "Stage": 9,
+    "Quality": 2,
+    "BaseHealth": 562.0,
+    "BaseAttack": 0.0,
+    "BaseDefense": 42.0
+  },
+  {
+    "Equipment_ID": 30210,
+    "EquipmentPosition": 2,
+    "Stage": 10,
+    "Quality": 2,
+    "BaseHealth": 642.0,
+    "BaseAttack": 0.0,
+    "BaseDefense": 48.0
+  },
+  {
+    "Equipment_ID": 30211,
+    "EquipmentPosition": 2,
+    "Stage": 11,
+    "Quality": 2,
+    "BaseHealth": 726.0,
+    "BaseAttack": 0.0,
+    "BaseDefense": 54.0
+  },
+  {
+    "Equipment_ID": 30212,
+    "EquipmentPosition": 2,
+    "Stage": 12,
+    "Quality": 2,
+    "BaseHealth": 813.0,
+    "BaseAttack": 0.0,
+    "BaseDefense": 61.0
+  },
+  {
+    "Equipment_ID": 30213,
+    "EquipmentPosition": 2,
+    "Stage": 13,
+    "Quality": 3,
+    "BaseHealth": 1266.0,
+    "BaseAttack": 0.0,
+    "BaseDefense": 95.0
+  },
+  {
+    "Equipment_ID": 30214,
+    "EquipmentPosition": 2,
+    "Stage": 14,
+    "Quality": 3,
+    "BaseHealth": 1425.0,
+    "BaseAttack": 0.0,
+    "BaseDefense": 107.0
+  },
+  {
+    "Equipment_ID": 30215,
+    "EquipmentPosition": 2,
+    "Stage": 15,
+    "Quality": 3,
+    "BaseHealth": 1593.0,
+    "BaseAttack": 0.0,
+    "BaseDefense": 119.0
+  },
+  {
+    "Equipment_ID": 30216,
+    "EquipmentPosition": 2,
+    "Stage": 16,
+    "Quality": 3,
+    "BaseHealth": 1771.0,
+    "BaseAttack": 0.0,
+    "BaseDefense": 133.0
+  },
+  {
+    "Equipment_ID": 30217,
+    "EquipmentPosition": 2,
+    "Stage": 17,
+    "Quality": 3,
+    "BaseHealth": 1956.0,
+    "BaseAttack": 0.0,
+    "BaseDefense": 147.0
+  },
+  {
+    "Equipment_ID": 30218,
+    "EquipmentPosition": 2,
+    "Stage": 18,
+    "Quality": 3,
+    "BaseHealth": 2152.0,
+    "BaseAttack": 0.0,
+    "BaseDefense": 161.0
+  },
+  {
+    "Equipment_ID": 30219,
+    "EquipmentPosition": 2,
+    "Stage": 19,
+    "Quality": 4,
+    "BaseHealth": 3606.0,
+    "BaseAttack": 0.0,
+    "BaseDefense": 270.0
+  },
+  {
+    "Equipment_ID": 30220,
+    "EquipmentPosition": 2,
+    "Stage": 20,
+    "Quality": 4,
+    "BaseHealth": 4095.0,
+    "BaseAttack": 0.0,
+    "BaseDefense": 307.0
+  },
+  {
+    "Equipment_ID": 30221,
+    "EquipmentPosition": 2,
+    "Stage": 21,
+    "Quality": 4,
+    "BaseHealth": 4612.0,
+    "BaseAttack": 0.0,
+    "BaseDefense": 346.0
+  },
+  {
+    "Equipment_ID": 30222,
+    "EquipmentPosition": 2,
+    "Stage": 22,
+    "Quality": 4,
+    "BaseHealth": 5159.0,
+    "BaseAttack": 0.0,
+    "BaseDefense": 387.0
+  },
+  {
+    "Equipment_ID": 30223,
+    "EquipmentPosition": 2,
+    "Stage": 23,
+    "Quality": 4,
+    "BaseHealth": 5738.0,
+    "BaseAttack": 0.0,
+    "BaseDefense": 430.0
+  },
+  {
+    "Equipment_ID": 30224,
+    "EquipmentPosition": 2,
+    "Stage": 24,
+    "Quality": 4,
+    "BaseHealth": 6350.0,
+    "BaseAttack": 0.0,
+    "BaseDefense": 476.0
+  },
+  {
+    "Equipment_ID": 30225,
+    "EquipmentPosition": 2,
+    "Stage": 25,
+    "Quality": 5,
+    "BaseHealth": 9667.0,
+    "BaseAttack": 0.0,
+    "BaseDefense": 725.0
+  },
+  {
+    "Equipment_ID": 30226,
+    "EquipmentPosition": 2,
+    "Stage": 26,
+    "Quality": 5,
+    "BaseHealth": 11050.0,
+    "BaseAttack": 0.0,
+    "BaseDefense": 829.0
+  },
+  {
+    "Equipment_ID": 30227,
+    "EquipmentPosition": 2,
+    "Stage": 27,
+    "Quality": 5,
+    "BaseHealth": 12509.0,
+    "BaseAttack": 0.0,
+    "BaseDefense": 938.0
+  },
+  {
+    "Equipment_ID": 30228,
+    "EquipmentPosition": 2,
+    "Stage": 28,
+    "Quality": 5,
+    "BaseHealth": 14048.0,
+    "BaseAttack": 0.0,
+    "BaseDefense": 1054.0
+  },
+  {
+    "Equipment_ID": 30229,
+    "EquipmentPosition": 2,
+    "Stage": 29,
+    "Quality": 5,
+    "BaseHealth": 15671.0,
+    "BaseAttack": 0.0,
+    "BaseDefense": 1175.0
+  },
+  {
+    "Equipment_ID": 30230,
+    "EquipmentPosition": 2,
+    "Stage": 30,
+    "Quality": 5,
+    "BaseHealth": 17403.0,
+    "BaseAttack": 0.0,
+    "BaseDefense": 1305.0
+  },
+  {
+    "Equipment_ID": 30231,
+    "EquipmentPosition": 2,
+    "Stage": 31,
+    "Quality": 6,
+    "BaseHealth": 24582.0,
+    "BaseAttack": 0.0,
+    "BaseDefense": 1844.0
+  },
+  {
+    "Equipment_ID": 30301,
+    "EquipmentPosition": 3,
+    "Stage": 1,
+    "Quality": 1,
+    "BaseHealth": 150.0,
+    "BaseAttack": 11.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30302,
+    "EquipmentPosition": 3,
+    "Stage": 2,
+    "Quality": 1,
+    "BaseHealth": 181.0,
+    "BaseAttack": 14.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30303,
+    "EquipmentPosition": 3,
+    "Stage": 3,
+    "Quality": 1,
+    "BaseHealth": 212.0,
+    "BaseAttack": 16.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30304,
+    "EquipmentPosition": 3,
+    "Stage": 4,
+    "Quality": 1,
+    "BaseHealth": 244.0,
+    "BaseAttack": 18.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30305,
+    "EquipmentPosition": 3,
+    "Stage": 5,
+    "Quality": 1,
+    "BaseHealth": 277.0,
+    "BaseAttack": 21.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30306,
+    "EquipmentPosition": 3,
+    "Stage": 6,
+    "Quality": 1,
+    "BaseHealth": 311.0,
+    "BaseAttack": 23.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30307,
+    "EquipmentPosition": 3,
+    "Stage": 7,
+    "Quality": 2,
+    "BaseHealth": 412.0,
+    "BaseAttack": 31.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30308,
+    "EquipmentPosition": 3,
+    "Stage": 8,
+    "Quality": 2,
+    "BaseHealth": 486.0,
+    "BaseAttack": 36.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30309,
+    "EquipmentPosition": 3,
+    "Stage": 9,
+    "Quality": 2,
+    "BaseHealth": 562.0,
+    "BaseAttack": 42.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30310,
+    "EquipmentPosition": 3,
+    "Stage": 10,
+    "Quality": 2,
+    "BaseHealth": 642.0,
+    "BaseAttack": 48.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30311,
+    "EquipmentPosition": 3,
+    "Stage": 11,
+    "Quality": 2,
+    "BaseHealth": 726.0,
+    "BaseAttack": 54.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30312,
+    "EquipmentPosition": 3,
+    "Stage": 12,
+    "Quality": 2,
+    "BaseHealth": 813.0,
+    "BaseAttack": 61.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30313,
+    "EquipmentPosition": 3,
+    "Stage": 13,
+    "Quality": 3,
+    "BaseHealth": 1266.0,
+    "BaseAttack": 95.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30314,
+    "EquipmentPosition": 3,
+    "Stage": 14,
+    "Quality": 3,
+    "BaseHealth": 1425.0,
+    "BaseAttack": 107.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30315,
+    "EquipmentPosition": 3,
+    "Stage": 15,
+    "Quality": 3,
+    "BaseHealth": 1593.0,
+    "BaseAttack": 119.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30316,
+    "EquipmentPosition": 3,
+    "Stage": 16,
+    "Quality": 3,
+    "BaseHealth": 1771.0,
+    "BaseAttack": 133.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30317,
+    "EquipmentPosition": 3,
+    "Stage": 17,
+    "Quality": 3,
+    "BaseHealth": 1956.0,
+    "BaseAttack": 147.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30318,
+    "EquipmentPosition": 3,
+    "Stage": 18,
+    "Quality": 3,
+    "BaseHealth": 2152.0,
+    "BaseAttack": 161.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30319,
+    "EquipmentPosition": 3,
+    "Stage": 19,
+    "Quality": 4,
+    "BaseHealth": 3606.0,
+    "BaseAttack": 270.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30320,
+    "EquipmentPosition": 3,
+    "Stage": 20,
+    "Quality": 4,
+    "BaseHealth": 4095.0,
+    "BaseAttack": 307.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30321,
+    "EquipmentPosition": 3,
+    "Stage": 21,
+    "Quality": 4,
+    "BaseHealth": 4612.0,
+    "BaseAttack": 346.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30322,
+    "EquipmentPosition": 3,
+    "Stage": 22,
+    "Quality": 4,
+    "BaseHealth": 5159.0,
+    "BaseAttack": 387.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30323,
+    "EquipmentPosition": 3,
+    "Stage": 23,
+    "Quality": 4,
+    "BaseHealth": 5738.0,
+    "BaseAttack": 430.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30324,
+    "EquipmentPosition": 3,
+    "Stage": 24,
+    "Quality": 4,
+    "BaseHealth": 6350.0,
+    "BaseAttack": 476.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30325,
+    "EquipmentPosition": 3,
+    "Stage": 25,
+    "Quality": 5,
+    "BaseHealth": 9667.0,
+    "BaseAttack": 725.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30326,
+    "EquipmentPosition": 3,
+    "Stage": 26,
+    "Quality": 5,
+    "BaseHealth": 11050.0,
+    "BaseAttack": 829.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30327,
+    "EquipmentPosition": 3,
+    "Stage": 27,
+    "Quality": 5,
+    "BaseHealth": 12509.0,
+    "BaseAttack": 938.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30328,
+    "EquipmentPosition": 3,
+    "Stage": 28,
+    "Quality": 5,
+    "BaseHealth": 14048.0,
+    "BaseAttack": 1054.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30329,
+    "EquipmentPosition": 3,
+    "Stage": 29,
+    "Quality": 5,
+    "BaseHealth": 15671.0,
+    "BaseAttack": 1175.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30330,
+    "EquipmentPosition": 3,
+    "Stage": 30,
+    "Quality": 5,
+    "BaseHealth": 17403.0,
+    "BaseAttack": 1305.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30331,
+    "EquipmentPosition": 3,
+    "Stage": 31,
+    "Quality": 6,
+    "BaseHealth": 24582.0,
+    "BaseAttack": 1844.0,
+    "BaseDefense": 0.0
+  },
+  {
+    "Equipment_ID": 30401,
+    "EquipmentPosition": 4,
+    "Stage": 1,
+    "Quality": 1,
+    "BaseHealth": 0.0,
+    "BaseAttack": 8.0,
+    "BaseDefense": 11.0
+  },
+  {
+    "Equipment_ID": 30402,
+    "EquipmentPosition": 4,
+    "Stage": 2,
+    "Quality": 1,
+    "BaseHealth": 0.0,
+    "BaseAttack": 9.0,
+    "BaseDefense": 14.0
+  },
+  {
+    "Equipment_ID": 30403,
+    "EquipmentPosition": 4,
+    "Stage": 3,
+    "Quality": 1,
+    "BaseHealth": 0.0,
+    "BaseAttack": 11.0,
+    "BaseDefense": 16.0
+  },
+  {
+    "Equipment_ID": 30404,
+    "EquipmentPosition": 4,
+    "Stage": 4,
+    "Quality": 1,
+    "BaseHealth": 0.0,
+    "BaseAttack": 12.0,
+    "BaseDefense": 18.0
+  },
+  {
+    "Equipment_ID": 30405,
+    "EquipmentPosition": 4,
+    "Stage": 5,
+    "Quality": 1,
+    "BaseHealth": 0.0,
+    "BaseAttack": 14.0,
+    "BaseDefense": 21.0
+  },
+  {
+    "Equipment_ID": 30406,
+    "EquipmentPosition": 4,
+    "Stage": 6,
+    "Quality": 1,
+    "BaseHealth": 0.0,
+    "BaseAttack": 16.0,
+    "BaseDefense": 23.0
+  },
+  {
+    "Equipment_ID": 30407,
+    "EquipmentPosition": 4,
+    "Stage": 7,
+    "Quality": 2,
+    "BaseHealth": 0.0,
+    "BaseAttack": 21.0,
+    "BaseDefense": 31.0
+  },
+  {
+    "Equipment_ID": 30408,
+    "EquipmentPosition": 4,
+    "Stage": 8,
+    "Quality": 2,
+    "BaseHealth": 0.0,
+    "BaseAttack": 24.0,
+    "BaseDefense": 36.0
+  },
+  {
+    "Equipment_ID": 30409,
+    "EquipmentPosition": 4,
+    "Stage": 9,
+    "Quality": 2,
+    "BaseHealth": 0.0,
+    "BaseAttack": 28.0,
+    "BaseDefense": 42.0
+  },
+  {
+    "Equipment_ID": 30410,
+    "EquipmentPosition": 4,
+    "Stage": 10,
+    "Quality": 2,
+    "BaseHealth": 0.0,
+    "BaseAttack": 32.0,
+    "BaseDefense": 48.0
+  },
+  {
+    "Equipment_ID": 30411,
+    "EquipmentPosition": 4,
+    "Stage": 11,
+    "Quality": 2,
+    "BaseHealth": 0.0,
+    "BaseAttack": 36.0,
+    "BaseDefense": 54.0
+  },
+  {
+    "Equipment_ID": 30412,
+    "EquipmentPosition": 4,
+    "Stage": 12,
+    "Quality": 2,
+    "BaseHealth": 0.0,
+    "BaseAttack": 41.0,
+    "BaseDefense": 61.0
+  },
+  {
+    "Equipment_ID": 30413,
+    "EquipmentPosition": 4,
+    "Stage": 13,
+    "Quality": 3,
+    "BaseHealth": 0.0,
+    "BaseAttack": 63.0,
+    "BaseDefense": 95.0
+  },
+  {
+    "Equipment_ID": 30414,
+    "EquipmentPosition": 4,
+    "Stage": 14,
+    "Quality": 3,
+    "BaseHealth": 0.0,
+    "BaseAttack": 71.0,
+    "BaseDefense": 107.0
+  },
+  {
+    "Equipment_ID": 30415,
+    "EquipmentPosition": 4,
+    "Stage": 15,
+    "Quality": 3,
+    "BaseHealth": 0.0,
+    "BaseAttack": 80.0,
+    "BaseDefense": 119.0
+  },
+  {
+    "Equipment_ID": 30416,
+    "EquipmentPosition": 4,
+    "Stage": 16,
+    "Quality": 3,
+    "BaseHealth": 0.0,
+    "BaseAttack": 89.0,
+    "BaseDefense": 133.0
+  },
+  {
+    "Equipment_ID": 30417,
+    "EquipmentPosition": 4,
+    "Stage": 17,
+    "Quality": 3,
+    "BaseHealth": 0.0,
+    "BaseAttack": 98.0,
+    "BaseDefense": 147.0
+  },
+  {
+    "Equipment_ID": 30418,
+    "EquipmentPosition": 4,
+    "Stage": 18,
+    "Quality": 3,
+    "BaseHealth": 0.0,
+    "BaseAttack": 108.0,
+    "BaseDefense": 161.0
+  },
+  {
+    "Equipment_ID": 30419,
+    "EquipmentPosition": 4,
+    "Stage": 19,
+    "Quality": 4,
+    "BaseHealth": 0.0,
+    "BaseAttack": 180.0,
+    "BaseDefense": 270.0
+  },
+  {
+    "Equipment_ID": 30420,
+    "EquipmentPosition": 4,
+    "Stage": 20,
+    "Quality": 4,
+    "BaseHealth": 0.0,
+    "BaseAttack": 205.0,
+    "BaseDefense": 307.0
+  },
+  {
+    "Equipment_ID": 30421,
+    "EquipmentPosition": 4,
+    "Stage": 21,
+    "Quality": 4,
+    "BaseHealth": 0.0,
+    "BaseAttack": 231.0,
+    "BaseDefense": 346.0
+  },
+  {
+    "Equipment_ID": 30422,
+    "EquipmentPosition": 4,
+    "Stage": 22,
+    "Quality": 4,
+    "BaseHealth": 0.0,
+    "BaseAttack": 258.0,
+    "BaseDefense": 387.0
+  },
+  {
+    "Equipment_ID": 30423,
+    "EquipmentPosition": 4,
+    "Stage": 23,
+    "Quality": 4,
+    "BaseHealth": 0.0,
+    "BaseAttack": 287.0,
+    "BaseDefense": 430.0
+  },
+  {
+    "Equipment_ID": 30424,
+    "EquipmentPosition": 4,
+    "Stage": 24,
+    "Quality": 4,
+    "BaseHealth": 0.0,
+    "BaseAttack": 318.0,
+    "BaseDefense": 476.0
+  },
+  {
+    "Equipment_ID": 30425,
+    "EquipmentPosition": 4,
+    "Stage": 25,
+    "Quality": 5,
+    "BaseHealth": 0.0,
+    "BaseAttack": 483.0,
+    "BaseDefense": 725.0
+  },
+  {
+    "Equipment_ID": 30426,
+    "EquipmentPosition": 4,
+    "Stage": 26,
+    "Quality": 5,
+    "BaseHealth": 0.0,
+    "BaseAttack": 553.0,
+    "BaseDefense": 829.0
+  },
+  {
+    "Equipment_ID": 30427,
+    "EquipmentPosition": 4,
+    "Stage": 27,
+    "Quality": 5,
+    "BaseHealth": 0.0,
+    "BaseAttack": 625.0,
+    "BaseDefense": 938.0
+  },
+  {
+    "Equipment_ID": 30428,
+    "EquipmentPosition": 4,
+    "Stage": 28,
+    "Quality": 5,
+    "BaseHealth": 0.0,
+    "BaseAttack": 702.0,
+    "BaseDefense": 1054.0
+  },
+  {
+    "Equipment_ID": 30429,
+    "EquipmentPosition": 4,
+    "Stage": 29,
+    "Quality": 5,
+    "BaseHealth": 0.0,
+    "BaseAttack": 784.0,
+    "BaseDefense": 1175.0
+  },
+  {
+    "Equipment_ID": 30430,
+    "EquipmentPosition": 4,
+    "Stage": 30,
+    "Quality": 5,
+    "BaseHealth": 0.0,
+    "BaseAttack": 870.0,
+    "BaseDefense": 1305.0
+  },
+  {
+    "Equipment_ID": 30431,
+    "EquipmentPosition": 4,
+    "Stage": 31,
+    "Quality": 6,
+    "BaseHealth": 0.0,
+    "BaseAttack": 1229.0,
+    "BaseDefense": 1844.0
+  }
+]

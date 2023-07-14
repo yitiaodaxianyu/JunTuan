@@ -1,0 +1,118 @@
+
+Monster_40.png
+size: 556,298
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BoZi
+  rotate: false
+  xy: 175, 149
+  size: 133, 147
+  orig: 133, 147
+  offset: 0, 0
+  index: -1
+Body
+  rotate: false
+  xy: 310, 168
+  size: 122, 128
+  orig: 122, 128
+  offset: 0, 0
+  index: -1
+Huo_1
+  rotate: true
+  xy: 417, 95
+  size: 71, 66
+  orig: 74, 69
+  offset: 1, 2
+  index: -1
+Huo_2
+  rotate: true
+  xy: 347, 93
+  size: 73, 68
+  orig: 76, 72
+  offset: 1, 2
+  index: -1
+Huo_3
+  rotate: true
+  xy: 297, 12
+  size: 75, 70
+  orig: 79, 73
+  offset: 2, 1
+  index: -1
+Huo_4
+  rotate: true
+  xy: 171, 8
+  size: 78, 71
+  orig: 82, 75
+  offset: 2, 2
+  index: -1
+Huo_5
+  rotate: true
+  xy: 97, 7
+  size: 79, 72
+  orig: 82, 76
+  offset: 1, 2
+  index: -1
+Tou
+  rotate: true
+  xy: 2, 88
+  size: 208, 171
+  orig: 208, 171
+  offset: 0, 0
+  index: -1
+WeiBa
+  rotate: false
+  xy: 285, 89
+  size: 60, 58
+  orig: 60, 58
+  offset: 0, 0
+  index: -1
+Wink_L
+  rotate: false
+  xy: 2, 2
+  size: 93, 84
+  orig: 93, 84
+  offset: 0, 0
+  index: -1
+Wink_R
+  rotate: false
+  xy: 369, 2
+  size: 126, 89
+  orig: 126, 89
+  offset: 0, 0
+  index: -1
+XiaBa
+  rotate: true
+  xy: 434, 176
+  size: 120, 102
+  orig: 120, 102
+  offset: 0, 0
+  index: -1
+YouJiao
+  rotate: false
+  xy: 497, 65
+  size: 57, 109
+  orig: 57, 109
+  offset: 0, 0
+  index: -1
+YouShou
+  rotate: true
+  xy: 175, 88
+  size: 59, 108
+  orig: 60, 108
+  offset: 0, 0
+  index: -1
+ZuoJiao
+  rotate: false
+  xy: 497, 14
+  size: 45, 49
+  orig: 45, 49
+  offset: 0, 0
+  index: -1
+ZuoShou
+  rotate: false
+  xy: 244, 9
+  size: 51, 77
+  orig: 51, 78
+  offset: 0, 0
+  index: -1

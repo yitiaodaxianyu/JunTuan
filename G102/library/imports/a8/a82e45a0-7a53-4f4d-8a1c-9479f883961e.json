@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Cumulative_Bar_1",
+    "texture": "2573463d-4fd0-4d01-9ff7-a88a3cda39d4",
+    "atlas": "84dabe2f-9587-490a-9984-8ae68721507c",
+    "rect": [
+      828,
+      33,
+      186,
+      23
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      186,
+      23
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

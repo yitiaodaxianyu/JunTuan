@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Course_Man",
+    "texture": "bcf6a112-9f0d-4dbe-bdf8-95db8f8c9af9",
+    "atlas": "1240e4b1-0e47-4d0a-8adf-084026726c4f",
+    "rect": [
+      2,
+      72,
+      266,
+      232
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      266,
+      232
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

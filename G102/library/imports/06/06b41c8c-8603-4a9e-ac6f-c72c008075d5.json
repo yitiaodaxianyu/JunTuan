@@ -1,0 +1,125 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "boss8.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Boss13_AttackHit_00": {
+      "__uuid__": "41d98155-cf57-41d3-9e5c-a8180d55d751"
+    },
+    "Boss13_AttackHit_01": {
+      "__uuid__": "98d2a3ca-e6c7-4022-8c9c-140c17a4ca18"
+    },
+    "Boss13_AttackHit_02": {
+      "__uuid__": "2a880836-abb8-4c3a-85cb-34c401a96cf2"
+    },
+    "Boss13_AttackHit_03": {
+      "__uuid__": "b7fd5faa-2a89-42da-b2b1-4e9fcc1dd58b"
+    },
+    "Boss13_AttackHit_04": {
+      "__uuid__": "45e60058-70c1-4a54-82e6-198a9e3a07f5"
+    },
+    "Boss13_AttackHit_05": {
+      "__uuid__": "4142f14d-0d82-4987-b0ca-241b2bbe9979"
+    },
+    "Boss13_AttackHit_06": {
+      "__uuid__": "24a7efb4-6dac-471c-bfe4-5ac3b2b82ad0"
+    },
+    "Boss13_AttackHit_07": {
+      "__uuid__": "66751cac-a545-4170-9487-2a62aef5bc86"
+    },
+    "Boss13_AttackHit_08": {
+      "__uuid__": "a3ebda70-d97e-49bf-89de-33f6a66dd0ab"
+    },
+    "Boss13_AttackHit_09": {
+      "__uuid__": "9f6083e8-a354-467d-82b4-d961804be7ae"
+    },
+    "Boss13_Attack_00": {
+      "__uuid__": "b4046381-ec27-48b3-9708-3cc15a2668d7"
+    },
+    "Boss13_Attack_01": {
+      "__uuid__": "f6ad0d35-f50b-4588-94e9-5ede64069c0a"
+    },
+    "Boss13_Attack_02": {
+      "__uuid__": "cb202d8e-1aba-412e-a810-7c48c7aa23f5"
+    },
+    "Boss13_Attack_03": {
+      "__uuid__": "a60fe772-7618-410c-9d04-fa5292f65a69"
+    },
+    "Boss13_Attack_04": {
+      "__uuid__": "73d51f3a-dc72-442f-842c-0bdf2537011d"
+    },
+    "Boss13_Attack_05": {
+      "__uuid__": "5ed6ba52-89e5-4cd9-9474-75c1b3bfdeed"
+    },
+    "Boss13_Attack_06": {
+      "__uuid__": "99327cb1-f262-4231-b047-104e2b1840f7"
+    },
+    "Boss13_Attack_07": {
+      "__uuid__": "ea604e13-7b66-403b-a1c0-d96c09fd4a45"
+    },
+    "Boss13_Skill2Hit_00": {
+      "__uuid__": "14894c51-3901-48d1-b57e-40b46728d25f"
+    },
+    "Boss13_Skill2Hit_01": {
+      "__uuid__": "54cb3a83-20b6-42d7-8feb-4276aaef48cd"
+    },
+    "Boss13_Skill2Hit_02": {
+      "__uuid__": "345ad390-3758-420f-a2d0-44f0945f00cf"
+    },
+    "Boss13_Skill2Hit_03": {
+      "__uuid__": "652571fa-da02-4fe3-a426-742ba576a78e"
+    },
+    "Boss13_Skill2Hit_04": {
+      "__uuid__": "295ea67c-8930-4aed-9c62-5a514e8d38c9"
+    },
+    "Boss13_Skill2Hit_05": {
+      "__uuid__": "33ab761f-384f-4a2c-a6bf-19d82d9d9008"
+    },
+    "Boss13_Skill2Hit_06": {
+      "__uuid__": "e167c37c-d1e3-44fa-9bdf-4410a14a76f9"
+    },
+    "Boss13_Skill2Hit_07": {
+      "__uuid__": "d0f8b613-774c-41b7-801c-fd1b1a08cb91"
+    },
+    "Boss13_Skill2Hit_08": {
+      "__uuid__": "954a919b-ba3d-4827-945a-5b70b4dcaae1"
+    },
+    "Boss13_Skill2Hit_09": {
+      "__uuid__": "aed77ff1-ea70-4d58-92af-a49e80912f67"
+    },
+    "Boss13_Skill2Hit_10": {
+      "__uuid__": "e24097d9-e030-482b-bf17-0cbc591369b6"
+    },
+    "Boss13_Skill2Hit_11": {
+      "__uuid__": "2222df8d-9b5a-4725-b0b6-12f439a9dd82"
+    },
+    "Boss13_Skill2Hit_12": {
+      "__uuid__": "eaead9ff-d2b8-4b80-b9d8-f0a9d8871024"
+    },
+    "Boss13_Skill2_00": {
+      "__uuid__": "2597a6ed-b9f3-40ca-a96f-5788da63fa9d"
+    },
+    "Boss13_Skill2_01": {
+      "__uuid__": "574b9e8d-d6bf-45ab-86e5-49743c5faaa1"
+    },
+    "Boss13_Skill2_02": {
+      "__uuid__": "fffa9e5d-bd17-448d-ae96-525a8fe49aab"
+    },
+    "Boss13_Skill2_03": {
+      "__uuid__": "c4dfa812-2904-42ae-9bde-97c1b8173bc5"
+    },
+    "Boss13_Skill2_04": {
+      "__uuid__": "aae91159-56fb-4cfa-8024-7b67f693ac21"
+    },
+    "Boss13_Skill2_05": {
+      "__uuid__": "75d69e13-b619-49ef-b256-3fbee61d44f3"
+    },
+    "Boss13_Skill2_06": {
+      "__uuid__": "267cfd51-a2f0-47dc-89da-b2c6b1c87200"
+    },
+    "Boss13_Skill2_07": {
+      "__uuid__": "bc327076-2ad6-4583-8b09-2a88ee388af8"
+    }
+  }
+}

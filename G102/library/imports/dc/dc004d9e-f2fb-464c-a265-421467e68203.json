@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ZJM_baoxiang_02",
+    "texture": "5e7c97f8-dacb-44df-90ff-400e56d9de1c",
+    "atlas": "c2ca2cd0-b0f9-4824-91a5-4bcf0951b894",
+    "rect": [
+      367,
+      261,
+      86,
+      20
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      86,
+      20
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

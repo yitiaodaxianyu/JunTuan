@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "efeffb50-266c-48df-8700-92c6e954a982",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 549,
+  "height": 281,
+  "platformSettings": {},
+  "subMetas": {
+    "TY_logo_en": {
+      "ver": "1.0.6",
+      "uuid": "08230d62-25b7-474c-b5a5-9778eced490c",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "efeffb50-266c-48df-8700-92c6e954a982",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 549,
+      "height": 281,
+      "rawWidth": 549,
+      "rawHeight": 281,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

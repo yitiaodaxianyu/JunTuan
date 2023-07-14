@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Battle_Top_Bar_1",
+    "texture": "d2c8e048-a55b-4197-886f-a63b3fe510d1",
+    "atlas": "326cc4d3-6b9c-4ba5-966c-937f9aeb1b6d",
+    "rect": [
+      1502,
+      208,
+      2,
+      22
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      2,
+      22
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

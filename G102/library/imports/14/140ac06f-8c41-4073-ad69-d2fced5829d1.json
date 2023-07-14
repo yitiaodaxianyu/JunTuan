@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Gunner_ActiveSkill1_08",
+    "texture": "4a2e88f4-7ce8-4319-bec0-504d431c621a",
+    "atlas": "8932c782-c694-43bb-95b0-0e4c411b4b2e",
+    "rect": [
+      1673,
+      1581,
+      107,
+      107
+    ],
+    "offset": [
+      1,
+      0
+    ],
+    "originalSize": [
+      145,
+      145
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

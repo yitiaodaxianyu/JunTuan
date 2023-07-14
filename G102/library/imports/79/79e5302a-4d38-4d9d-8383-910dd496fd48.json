@@ -1,0 +1,80 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "user_level.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "CB_icon_GemL": {
+      "__uuid__": "02f48805-5fdc-4168-8cb9-e7326111bb6d"
+    },
+    "End_Btn_Go": {
+      "__uuid__": "f44804a9-5cb1-4f15-a161-5b403b4389a8"
+    },
+    "Idle_Bg_0": {
+      "__uuid__": "df99598e-1e23-4030-b0ff-ad72d33cd456"
+    },
+    "Idle_Bg_1": {
+      "__uuid__": "f543524d-2d4e-4d8d-86da-321e628556d4"
+    },
+    "Idle_frame_4": {
+      "__uuid__": "1116e5b9-8210-4ae2-a9c9-c3f99f8acf06"
+    },
+    "LevelUp_Arrow": {
+      "__uuid__": "0a88b66a-d20b-46e3-8334-42c6152cdf65"
+    },
+    "LevelUp_Bg_1": {
+      "__uuid__": "ad4687a3-d059-4aa6-90ce-10d2c575324c"
+    },
+    "LevelUp_Crown": {
+      "__uuid__": "92f57f75-9c6c-4311-a294-49e245f960e4"
+    },
+    "LevelUp_Icon_0": {
+      "__uuid__": "cc16bdf6-74a5-478e-ad6f-2d81d5e46b27"
+    },
+    "LevelUp_Star": {
+      "__uuid__": "aa2a07f7-48c3-4e56-8d07-ebe4fe1cda45"
+    },
+    "LevelUp_Title": {
+      "__uuid__": "0d33459a-2432-4a40-9aa1-4bc806b1e67f"
+    },
+    "LevelUp_bg_0": {
+      "__uuid__": "2fde9a94-8c8f-4cf1-961e-f20f73e19b84"
+    },
+    "LvRewards_Arrow": {
+      "__uuid__": "720538d4-bfa2-4a53-a199-63f14ebb440d"
+    },
+    "LvRewards_Bg_1": {
+      "__uuid__": "5a7d904d-e30c-45c6-a08e-99f5b5ed94a0"
+    },
+    "LvRewards_Bg_2": {
+      "__uuid__": "52579e5f-5e10-489b-aa6c-f61ea5d8921d"
+    },
+    "LvRewards_Bg_3": {
+      "__uuid__": "5dd0ab75-eb7f-4fd9-9d1e-29b85a2df5e0"
+    },
+    "LvRewards_Crown": {
+      "__uuid__": "dab4e7c5-d403-4878-90c2-4885b6b74647"
+    },
+    "LvRewards_Light": {
+      "__uuid__": "2b32ecb3-ab94-40a2-a6ff-21a109ae4c79"
+    },
+    "LvRewards_Star": {
+      "__uuid__": "a4fe62ac-f2b8-43a5-afdd-17263d446621"
+    },
+    "LvRewards_Title": {
+      "__uuid__": "e3fe325f-6907-424a-bfa9-667b658e2a95"
+    },
+    "LvRewards_bg_0": {
+      "__uuid__": "255ef77c-dcdd-4d76-b02e-0f78ad01d079"
+    },
+    "Rewards_Bg_0": {
+      "__uuid__": "fb5cde9b-c3d7-405e-9eb0-a60eca720420"
+    },
+    "Rewards_Bg_1": {
+      "__uuid__": "b97d2921-7466-43d8-b5e8-b34c6584c2c3"
+    },
+    "Rewards_Bg_2": {
+      "__uuid__": "0126688f-5863-4d56-827f-268d41239b0d"
+    }
+  }
+}

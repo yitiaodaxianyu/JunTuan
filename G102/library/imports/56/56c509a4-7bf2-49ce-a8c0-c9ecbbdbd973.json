@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "TY_Btn_01",
+    "texture": "1285ca30-7a98-499f-ba72-f85778528c3b",
+    "atlas": "fe5ccadc-aa3d-4fac-af82-15406c1c40d5",
+    "rect": [
+      772,
+      559,
+      48,
+      48
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      48,
+      48
+    ],
+    "capInsets": [
+      16,
+      16,
+      16,
+      16
+    ]
+  }
+}

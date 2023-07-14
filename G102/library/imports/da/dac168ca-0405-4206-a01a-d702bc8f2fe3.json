@@ -1,0 +1,320 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "store_hero.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "FaGuang_SS_00": {
+      "__uuid__": "28f49d11-99f5-4b93-8699-5c8be5d2398e"
+    },
+    "FaGuang_SS_01": {
+      "__uuid__": "13866091-0eaf-4b1d-9259-c31b01633f06"
+    },
+    "FaGuang_SS_02": {
+      "__uuid__": "af24cc2c-71a4-4622-96af-8d378a6f2e3f"
+    },
+    "FaGuang_SS_03": {
+      "__uuid__": "bc30b8f7-ba50-48a9-9adf-5e57932c0ad3"
+    },
+    "FaGuang_SS_04": {
+      "__uuid__": "51f49b92-65bc-4321-8029-0d3bd7f30123"
+    },
+    "FaGuang_SS_05": {
+      "__uuid__": "5c7c7720-6eb8-44eb-9801-2e22947b0222"
+    },
+    "FaGuang_SS_06": {
+      "__uuid__": "0e9e470f-ae8f-4d74-8a15-bb8806058103"
+    },
+    "FaGuang_SS_07": {
+      "__uuid__": "72586ec5-6c57-4607-974b-aa9db5b9fc9e"
+    },
+    "FaGuang_SS_08": {
+      "__uuid__": "bd06f71a-6dee-440f-bc37-80ceaac63bcf"
+    },
+    "FaGuang_SS_09": {
+      "__uuid__": "f2e21e90-b7e2-4f07-b5a6-f92bb2c10b7a"
+    },
+    "FaGuang_SS_10": {
+      "__uuid__": "b6f7a8d3-b86e-4755-bd1b-210fa1acf2dd"
+    },
+    "FaGuang_SS_11": {
+      "__uuid__": "fc129ef5-cdba-4255-9c17-b512554e2883"
+    },
+    "FaGuang_SS_12": {
+      "__uuid__": "16c9436f-9eea-4fb5-be2a-5e7ca0ddec6e"
+    },
+    "FaGuang_SS_13": {
+      "__uuid__": "4aceffd4-0338-4fb5-92fe-3eccb98244ad"
+    },
+    "FaGuang_SS_14": {
+      "__uuid__": "c43337e8-ea6e-44a1-beb7-b27e3f529854"
+    },
+    "FaGuang_SS_15": {
+      "__uuid__": "631308f1-db5d-44f7-980b-d12546ad1a61"
+    },
+    "FaGuang_SS_16": {
+      "__uuid__": "6f25c70d-ec62-4073-b5d8-b71e7e2b8ffc"
+    },
+    "FaGuang_SS_17": {
+      "__uuid__": "6ad37ae7-4993-47fc-a3de-13d654492f03"
+    },
+    "FaGuang_SS_18": {
+      "__uuid__": "047539dc-c113-431c-a77d-fade94b9487b"
+    },
+    "FaGuang_SS_19": {
+      "__uuid__": "cae8cf0b-4f91-490b-a19b-8fd4e68abba6"
+    },
+    "FaGuang_SS_20": {
+      "__uuid__": "89e12f2c-5859-4aaa-885f-abef87d9c55a"
+    },
+    "FaGuang_SS_21": {
+      "__uuid__": "d1fb7a50-4b1e-422b-9776-a16196ea098a"
+    },
+    "FaGuang_SS_22": {
+      "__uuid__": "f8034c08-ea26-497c-b40c-4afae9779390"
+    },
+    "FaGuang_SS_23": {
+      "__uuid__": "7595f94b-9366-4cc2-be58-6ff4b73ff2c0"
+    },
+    "FaGuang_SS_24": {
+      "__uuid__": "debb2494-81e6-4d02-9847-f61fa95c0967"
+    },
+    "FaGuang_SS_25": {
+      "__uuid__": "b6245e50-24b6-4b3f-84c8-b9cdcc10fca1"
+    },
+    "FaGuang_SS_26": {
+      "__uuid__": "25bea4b3-e78e-4349-ae2d-937d9c44c61f"
+    },
+    "FaGuang_S_00": {
+      "__uuid__": "c76c2341-aead-4a42-b7af-ab961fed1474"
+    },
+    "FaGuang_S_01": {
+      "__uuid__": "a7059e37-b980-47f9-8463-4aa51e3ebe75"
+    },
+    "FaGuang_S_02": {
+      "__uuid__": "6169c548-368a-4e7f-a0be-04b71f99478b"
+    },
+    "FaGuang_S_03": {
+      "__uuid__": "5fc01d46-0ec1-455b-b4bc-4164038c03ba"
+    },
+    "FaGuang_S_04": {
+      "__uuid__": "57e28430-b951-49bb-86dd-eed076dd15f6"
+    },
+    "FaGuang_S_05": {
+      "__uuid__": "5fb93f3f-3c2c-4129-b099-6f294c01ada6"
+    },
+    "FaGuang_S_06": {
+      "__uuid__": "2ab0c3e0-5ff2-49d8-a313-1e43631eef7c"
+    },
+    "FaGuang_S_07": {
+      "__uuid__": "66e00e5a-5bed-4aa1-b806-2ec5e1764d92"
+    },
+    "FaGuang_S_08": {
+      "__uuid__": "506b220b-6e8a-4bc1-b86e-28fb21270320"
+    },
+    "FaGuang_S_09": {
+      "__uuid__": "6b0ecb64-0e5c-4d5f-b936-456698458568"
+    },
+    "FaGuang_S_10": {
+      "__uuid__": "e0be1b73-dec9-4e41-9771-cba9ef0efbcc"
+    },
+    "FaGuang_S_11": {
+      "__uuid__": "abb94dfa-3094-47e7-be70-eb6ed7eed0ec"
+    },
+    "FaGuang_S_12": {
+      "__uuid__": "b9799d5e-8c84-4fdd-9897-7fb8e732678e"
+    },
+    "FaGuang_S_13": {
+      "__uuid__": "8af01176-4c6b-4b63-812f-ec8b975a275e"
+    },
+    "FaGuang_S_14": {
+      "__uuid__": "512ad89d-042c-4e39-9cb2-dec7ade2433a"
+    },
+    "FaGuang_S_15": {
+      "__uuid__": "01b820af-f4fb-4a5f-a3ec-908c72e19c3d"
+    },
+    "FaGuang_S_16": {
+      "__uuid__": "c7e4d77c-650a-4594-913f-5e6264236c26"
+    },
+    "FaGuang_S_17": {
+      "__uuid__": "62d9dff0-5440-4352-b6f3-9e5063c8e513"
+    },
+    "FaGuang_S_18": {
+      "__uuid__": "6b545d45-dea4-44cf-b87d-3cc35719448c"
+    },
+    "FaGuang_S_19": {
+      "__uuid__": "05981484-6fbc-42ce-9003-30d026ef28a5"
+    },
+    "FaGuang_S_20": {
+      "__uuid__": "99ac7db5-d3c2-4020-8a86-4a4b5701954b"
+    },
+    "FaGuang_S_21": {
+      "__uuid__": "368e0ca4-f5ad-4ed1-9de5-2579fc43b992"
+    },
+    "FaGuang_S_22": {
+      "__uuid__": "0d3050a1-f067-4e38-8474-c7a808238ac1"
+    },
+    "FaGuang_S_23": {
+      "__uuid__": "3d0f12cc-6f5b-47b4-9fd9-076960574110"
+    },
+    "FaGuang_S_24": {
+      "__uuid__": "8a51e36e-f47c-4723-93ec-a04e78eeab9e"
+    },
+    "FaGuang_S_25": {
+      "__uuid__": "d7306376-d8bc-40cd-b56a-387f1c406626"
+    },
+    "FaGuang_S_26": {
+      "__uuid__": "558aadfe-00bf-4449-94f7-a55e455ff59a"
+    },
+    "LiuGuang_SS_00": {
+      "__uuid__": "9a9c2707-79cb-4460-b53d-897b058fde79"
+    },
+    "LiuGuang_SS_01": {
+      "__uuid__": "56ed2edd-4ca3-4473-bf59-24f89303a27f"
+    },
+    "LiuGuang_SS_02": {
+      "__uuid__": "3614e5e5-d5c0-45c2-9dbb-18c568c410ee"
+    },
+    "LiuGuang_SS_03": {
+      "__uuid__": "24397eb2-022e-486c-9ecb-bc093f1afdf2"
+    },
+    "LiuGuang_SS_04": {
+      "__uuid__": "304846d9-38fc-4e96-ac28-093184b4cc32"
+    },
+    "LiuGuang_SS_05": {
+      "__uuid__": "53bb0862-f060-44c8-a0b2-23babf66ea8f"
+    },
+    "LiuGuang_SS_06": {
+      "__uuid__": "821712ff-afef-418e-9a8a-093cb0f07ff7"
+    },
+    "LiuGuang_SS_07": {
+      "__uuid__": "287c7a97-a11c-49f8-a53d-294f3d5cec56"
+    },
+    "LiuGuang_SS_08": {
+      "__uuid__": "2c10cd64-4c81-4c6b-9295-bb793bd3f837"
+    },
+    "LiuGuang_SS_09": {
+      "__uuid__": "cd3238a9-1eef-4a57-b642-490248ec72fb"
+    },
+    "LiuGuang_SS_10": {
+      "__uuid__": "211750f0-0a46-4b54-a095-bda51972217c"
+    },
+    "LiuGuang_SS_11": {
+      "__uuid__": "687c6d64-7e7b-4385-8fde-06e96fd0a5ec"
+    },
+    "LiuGuang_SS_12": {
+      "__uuid__": "4e3b6d31-685b-4e15-b737-9cb5c475c84b"
+    },
+    "LiuGuang_SS_13": {
+      "__uuid__": "73f55523-556b-4480-90af-bf006aa1a23c"
+    },
+    "LiuGuang_SS_14": {
+      "__uuid__": "b638d1c8-0102-4bd3-b4ed-55723f6a666d"
+    },
+    "LiuGuang_SS_15": {
+      "__uuid__": "a879f2e3-82e9-4541-9887-39be483c01c8"
+    },
+    "LiuGuang_SS_16": {
+      "__uuid__": "4d8efaff-6a4e-4d0b-99eb-bf53451c2cc3"
+    },
+    "LiuGuang_SS_17": {
+      "__uuid__": "395e5c4a-bdad-477a-9bed-867c321e18c7"
+    },
+    "LiuGuang_SS_18": {
+      "__uuid__": "6cc8f447-f3aa-4d48-8f9e-5b9c5c4b3c8f"
+    },
+    "LiuGuang_SS_19": {
+      "__uuid__": "e45618c8-fafc-4d0d-81d7-876e22544eb1"
+    },
+    "LiuGuang_SS_20": {
+      "__uuid__": "8a3d88f4-cf5b-4ab6-8df5-86a4c0e6d423"
+    },
+    "LiuGuang_SS_21": {
+      "__uuid__": "a94c4241-8daf-485c-adb2-00be19865e8b"
+    },
+    "LiuGuang_SS_22": {
+      "__uuid__": "12303711-3a8f-452e-85e4-32ccb464b122"
+    },
+    "LiuGuang_SS_23": {
+      "__uuid__": "e4439b98-0860-418b-8a93-bc36b33af0bb"
+    },
+    "LiuGuang_SS_24": {
+      "__uuid__": "0602a758-b775-4cc0-8af9-a1cb63525f0d"
+    },
+    "LiuGuang_S_00": {
+      "__uuid__": "a0429e7c-a0ee-4f18-8248-3aa9eb6cf2a5"
+    },
+    "LiuGuang_S_01": {
+      "__uuid__": "6c1e1f8e-971b-407e-9f2f-d205af45f277"
+    },
+    "LiuGuang_S_02": {
+      "__uuid__": "b866050e-0da5-4425-acf3-a1f88fe9d360"
+    },
+    "LiuGuang_S_03": {
+      "__uuid__": "0c6b4ecc-4742-4bf8-9215-afff399a0bb3"
+    },
+    "LiuGuang_S_04": {
+      "__uuid__": "a3ccf91f-b19d-4532-869d-c09f44f9d343"
+    },
+    "LiuGuang_S_05": {
+      "__uuid__": "b4300b13-5fb7-45cb-88bf-1bd998d9aea0"
+    },
+    "LiuGuang_S_06": {
+      "__uuid__": "d6e9766e-c83a-4ea2-ba2e-68e9ea93a925"
+    },
+    "LiuGuang_S_07": {
+      "__uuid__": "9239f75d-81b1-49a8-8ccf-07877613ee93"
+    },
+    "LiuGuang_S_08": {
+      "__uuid__": "f1922339-839a-4ee9-9cbe-3e5e3f284cf0"
+    },
+    "LiuGuang_S_09": {
+      "__uuid__": "b9ac538a-961e-4639-8734-48f2a6a50ca7"
+    },
+    "LiuGuang_S_10": {
+      "__uuid__": "cc1928fb-e184-4c14-ada5-e1574468c704"
+    },
+    "LiuGuang_S_11": {
+      "__uuid__": "55c7e6f2-486d-439e-8e36-1c1422b65e7b"
+    },
+    "LiuGuang_S_12": {
+      "__uuid__": "03fe26f6-e935-4de5-a698-bc2c6fefc6e6"
+    },
+    "LiuGuang_S_13": {
+      "__uuid__": "33f42157-e5c9-4100-9140-afe378513299"
+    },
+    "LiuGuang_S_14": {
+      "__uuid__": "298897e4-fbdc-40e8-80b6-f00d69256ae4"
+    },
+    "LiuGuang_S_15": {
+      "__uuid__": "58bd51ed-cba4-417e-ab8c-4d43ffa859a4"
+    },
+    "LiuGuang_S_16": {
+      "__uuid__": "557eb762-f807-463b-9b03-066663159427"
+    },
+    "LiuGuang_S_17": {
+      "__uuid__": "edff8dae-2f9c-427a-954c-46e129259083"
+    },
+    "LiuGuang_S_18": {
+      "__uuid__": "9ce0f7c7-489b-4af7-9aa9-8654903a85f0"
+    },
+    "LiuGuang_S_19": {
+      "__uuid__": "ea84be18-0ebd-4421-9a2d-becafdeaa155"
+    },
+    "LiuGuang_S_20": {
+      "__uuid__": "0c18708f-b0b0-4b9f-a7d7-a6c86235acb7"
+    },
+    "LiuGuang_S_21": {
+      "__uuid__": "2a9e808f-931c-4696-bd30-49cd0354b8e6"
+    },
+    "LiuGuang_S_22": {
+      "__uuid__": "f1de7c65-a14c-4a90-86c9-ee4d2a0335e7"
+    },
+    "LiuGuang_S_23": {
+      "__uuid__": "ee9c142f-b54b-450b-83d5-12ad8a1fa796"
+    },
+    "LiuGuang_S_24": {
+      "__uuid__": "e3596c34-54f7-4748-b2a5-7c9c1cfad49e"
+    }
+  }
+}

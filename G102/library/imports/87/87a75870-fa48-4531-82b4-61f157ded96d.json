@@ -1,0 +1,92 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "monster_common.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "AttackHit_01": {
+      "__uuid__": "87b849a2-1709-4b25-816a-11466325bf64"
+    },
+    "AttackHit_02": {
+      "__uuid__": "2c6237e1-c933-4003-8913-51ff9404a38c"
+    },
+    "AttackHit_03": {
+      "__uuid__": "c3be70f7-cf8b-43a2-9bdd-ed17f46f7098"
+    },
+    "AttackHit_04": {
+      "__uuid__": "eb7ce7d8-7180-4751-8297-303fe5d95a21"
+    },
+    "AttackHit_05": {
+      "__uuid__": "1ed28c74-13e2-4b52-abc2-a859187565c1"
+    },
+    "AttackHit_06": {
+      "__uuid__": "f67916d9-d4d0-47b6-987a-0d71124b05eb"
+    },
+    "AttackHit_07": {
+      "__uuid__": "29b500ab-1135-40ad-9753-e510694ea7c4"
+    },
+    "AttackHit_08": {
+      "__uuid__": "78dd2277-4975-4bd2-92a4-cbd6dc17a04b"
+    },
+    "AttackHit_09": {
+      "__uuid__": "8472622b-977c-4d5a-8f0b-e2058b67b56f"
+    },
+    "Attack_Trail1": {
+      "__uuid__": "be414763-0bda-4506-b40d-fd5342bb6481"
+    },
+    "Attack_Trail2": {
+      "__uuid__": "dab460d9-32f6-4843-9f72-32fadde29a30"
+    },
+    "Fx_Death_00": {
+      "__uuid__": "97c4400a-96c7-400f-9846-a73a356f5df9"
+    },
+    "Fx_Death_01": {
+      "__uuid__": "db209438-f2f8-44d3-8364-3d5fd280052a"
+    },
+    "Fx_Death_02": {
+      "__uuid__": "cf13bb25-543d-4903-b05f-76f71af621d3"
+    },
+    "Fx_Death_03": {
+      "__uuid__": "0635aa0f-aeb6-4bd7-a1f7-312caddfbb55"
+    },
+    "Fx_Death_04": {
+      "__uuid__": "5ca4d02b-d739-4149-b22c-7aad9a3dcaa4"
+    },
+    "Fx_Death_05": {
+      "__uuid__": "d8acb7b2-0b8f-4ed7-8610-3ced47a252e3"
+    },
+    "Fx_Death_06": {
+      "__uuid__": "255bcb17-c16c-4ca3-b844-7f3095de2e7e"
+    },
+    "Fx_Death_07": {
+      "__uuid__": "5eab4b9f-a4f0-4a2e-911a-30f53030c012"
+    },
+    "Fx_Death_08": {
+      "__uuid__": "05320cc1-f153-42da-ac34-eeaf9aea011e"
+    },
+    "Fx_Death_09": {
+      "__uuid__": "927ff235-a183-433f-aa3b-aca531b418c8"
+    },
+    "Fx_Death_10": {
+      "__uuid__": "02a05119-1747-4c32-82c7-2d1efc9b7855"
+    },
+    "Fx_Death_11": {
+      "__uuid__": "96e116ef-7ce5-44cd-963e-a9660e53cd6b"
+    },
+    "Fx_Death_12": {
+      "__uuid__": "dfbdeb4e-7c66-46ec-9b54-045950de282c"
+    },
+    "Fx_Death_13": {
+      "__uuid__": "fd143767-0437-44f2-ab11-e3f06841f7c0"
+    },
+    "Fx_Death_14": {
+      "__uuid__": "aa458783-8c34-4a59-aba7-5a8fca326e8c"
+    },
+    "monster_attack_00": {
+      "__uuid__": "191a6d83-9841-486d-a0d3-865c2dbeefd1"
+    },
+    "monster_attack_01": {
+      "__uuid__": "a289a8f3-3d42-41ef-9909-6b134770acb9"
+    }
+  }
+}

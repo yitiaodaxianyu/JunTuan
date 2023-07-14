@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "StarVeins",
+  "_objFlags": 0,
+  "_native": "",
+  "json": [
+    {
+      "StarVeinsId": 0,
+      "StarVeinsName": 0,
+      "Quality": 0,
+      "NodeNum": 0
+    }
+  ]
+}

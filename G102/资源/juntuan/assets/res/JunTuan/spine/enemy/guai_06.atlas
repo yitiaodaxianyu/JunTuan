@@ -1,0 +1,76 @@
+
+guai_06.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 160
+  size: 76, 94
+  orig: 76, 94
+  offset: 0, 0
+  index: -1
+l1
+  rotate: false
+  xy: 2, 34
+  size: 18, 45
+  orig: 18, 45
+  offset: 0, 0
+  index: -1
+l2
+  rotate: false
+  xy: 80, 209
+  size: 36, 45
+  orig: 36, 45
+  offset: 0, 0
+  index: -1
+l3
+  rotate: false
+  xy: 158, 232
+  size: 38, 22
+  orig: 38, 22
+  offset: 0, 0
+  index: -1
+l4
+  rotate: false
+  xy: 2, 2
+  size: 28, 30
+  orig: 28, 30
+  offset: 0, 0
+  index: -1
+r1
+  rotate: false
+  xy: 80, 163
+  size: 18, 44
+  orig: 18, 44
+  offset: 0, 0
+  index: -1
+r2
+  rotate: false
+  xy: 33, 113
+  size: 36, 45
+  orig: 36, 45
+  offset: 0, 0
+  index: -1
+r3
+  rotate: false
+  xy: 118, 231
+  size: 38, 23
+  orig: 38, 23
+  offset: 0, 0
+  index: -1
+r4
+  rotate: false
+  xy: 33, 81
+  size: 28, 30
+  orig: 28, 30
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 2, 81
+  size: 29, 77
+  orig: 29, 77
+  offset: 0, 0
+  index: -1

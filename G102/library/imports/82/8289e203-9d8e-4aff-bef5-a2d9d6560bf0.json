@@ -1,0 +1,62 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "chang_mao_shou.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Mao": {
+      "__uuid__": "12ddfc4a-2f30-4246-893a-f05cc994a299"
+    },
+    "Picador_Passive": {
+      "__uuid__": "5304ec61-aed7-4f59-bfdf-9ece8a01335d"
+    },
+    "Picador_Skill1_00": {
+      "__uuid__": "aa8897dc-c6eb-4a76-a81a-ecad3930ff0c"
+    },
+    "Picador_Skill1_01": {
+      "__uuid__": "2bd68b22-439b-4092-bbb0-5765f77bede1"
+    },
+    "Picador_Skill1_02": {
+      "__uuid__": "13e5c7b8-9a79-4253-8b15-594da2e610e3"
+    },
+    "Picador_Skill1_03": {
+      "__uuid__": "f64a99cf-11f2-4c70-b80b-1ce090094a9e"
+    },
+    "Picador_Skill1_04": {
+      "__uuid__": "60d102c9-ea0b-4eb6-ad38-b68d7b512a30"
+    },
+    "Picador_Skill1_05": {
+      "__uuid__": "eeb11f53-cc05-4b00-b68e-45d997683aec"
+    },
+    "Picador_Skill1_06": {
+      "__uuid__": "748a6836-fb41-40a7-923c-cb4b953f4db5"
+    },
+    "Picador_Skill1_07": {
+      "__uuid__": "a2aa5930-6ced-4f45-ad4d-5ab9643a4da1"
+    },
+    "Picador_Skill2_00": {
+      "__uuid__": "7e7a4b97-3dc8-40d4-97c4-a78093390ed4"
+    },
+    "Picador_Skill2_01": {
+      "__uuid__": "04b659f2-1b90-4c34-b86a-7f2a811711e0"
+    },
+    "Picador_Skill2_02": {
+      "__uuid__": "25c473f0-824e-47e3-a610-7d0656c8ee6e"
+    },
+    "Picador_Skill2_03": {
+      "__uuid__": "4ee17181-9df7-43cb-95cd-336a7207fff2"
+    },
+    "Picador_Skill2_04": {
+      "__uuid__": "e11c33e9-862b-45cf-804e-2798c7b80782"
+    },
+    "Picador_Skill2_05": {
+      "__uuid__": "bf9a25df-436f-4058-b973-a3512e44cefd"
+    },
+    "Picador_Skill2_06": {
+      "__uuid__": "daedf4e7-812d-4398-8c97-6bb058d00f38"
+    },
+    "Picador_Skill2_07": {
+      "__uuid__": "14bda796-a24c-44ea-8ece-c59e66272424"
+    }
+  }
+}

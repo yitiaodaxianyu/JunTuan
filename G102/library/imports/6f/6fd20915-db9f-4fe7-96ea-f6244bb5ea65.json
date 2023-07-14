@@ -1,0 +1,89 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "task_ui.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Task_Achieved": {
+      "__uuid__": "5220f120-88b8-473e-865c-35c11a6b92df"
+    },
+    "Task_Bar_0": {
+      "__uuid__": "cbcf422b-3a28-4721-b527-29914f233965"
+    },
+    "Task_Bar_0_0": {
+      "__uuid__": "4c869237-1d1d-4b8a-9fe8-a4be97371226"
+    },
+    "Task_Bar_0_1": {
+      "__uuid__": "f5feff40-b54a-46df-a6ce-ee5d4aa163b7"
+    },
+    "Task_Bar_0_2": {
+      "__uuid__": "0b013c4d-5dfb-466c-ac88-4acb84f13054"
+    },
+    "Task_Bar_1_0": {
+      "__uuid__": "6e57750a-606c-4438-bacc-3b0eb1cf3e06"
+    },
+    "Task_Bar_1_1": {
+      "__uuid__": "a87e961e-8a30-4dae-9d8a-5fe2fc2d4950"
+    },
+    "Task_Bar_1_2": {
+      "__uuid__": "7c4515fb-8baf-4f20-95c7-9972319bd6ab"
+    },
+    "Task_Bg_0": {
+      "__uuid__": "002cfe7f-5407-4379-9e30-d71e39c5cd43"
+    },
+    "Task_Bg_1": {
+      "__uuid__": "ee1e2963-6862-4e54-a373-ced14705b07f"
+    },
+    "Task_Bg_2": {
+      "__uuid__": "d1da1933-1ee9-4312-bef3-d1480e9d0983"
+    },
+    "Task_Bg_3": {
+      "__uuid__": "6617d9a3-e2f5-48c1-b090-421d929b3166"
+    },
+    "Task_Bg_4": {
+      "__uuid__": "cfe8715f-cb59-4193-9e5e-ef57e4c75aed"
+    },
+    "Task_Bg_5": {
+      "__uuid__": "54b1a68c-deab-4ba8-828d-c8e39faf8c2e"
+    },
+    "Task_Bg_6": {
+      "__uuid__": "274277e4-fdd5-4cb3-bd6e-14bd2b29eb5e"
+    },
+    "Task_Bg_7": {
+      "__uuid__": "47442704-ca25-4192-8584-6cbc385fe723"
+    },
+    "Task_Bg_8": {
+      "__uuid__": "25a49d59-b60b-44bd-8f3b-10728fcf8d5b"
+    },
+    "Task_Bg_Title": {
+      "__uuid__": "31d3ff9f-db89-4e16-9fb7-79d712c7017e"
+    },
+    "Task_Btn_Integral": {
+      "__uuid__": "b863bcb6-3fa4-4aec-a149-698f3dec30e1"
+    },
+    "Task_Checkmark": {
+      "__uuid__": "b2d36251-107c-4a19-94e3-2b2631d38134"
+    },
+    "Task_Chest_0": {
+      "__uuid__": "fffdfeb2-1b7c-4bab-aa42-70dbecf6290d"
+    },
+    "Task_Chest_1": {
+      "__uuid__": "08bf4553-00a9-4233-9600-ff4567be1ea1"
+    },
+    "Task_Chest_Light": {
+      "__uuid__": "c9d66bd0-19b5-4d5e-ad87-dde610d7f86c"
+    },
+    "Task_Icon_Integral_0": {
+      "__uuid__": "d61f940c-a724-4b07-8722-b8d1cf7e4946"
+    },
+    "Task_Icon_Integral_1": {
+      "__uuid__": "99ede607-128f-45e2-bb67-0b6408c02875"
+    },
+    "Task_Line": {
+      "__uuid__": "d351bf1b-8773-4377-abdd-9438b0dd4437"
+    },
+    "Task_Mask": {
+      "__uuid__": "bc92be2b-5f51-4402-a6e6-148fcdf9caa6"
+    }
+  }
+}

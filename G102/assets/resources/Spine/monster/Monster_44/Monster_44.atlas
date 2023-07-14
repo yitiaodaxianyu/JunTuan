@@ -1,0 +1,146 @@
+
+Monster_44.png
+size: 219,804
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: true
+  xy: 0, 670
+  size: 134, 142
+  orig: 134, 142
+  offset: 0, 0
+  index: -1
+Fa
+  rotate: true
+  xy: 119, 294
+  size: 151, 87
+  orig: 151, 87
+  offset: 0, 0
+  index: -1
+Head
+  rotate: true
+  xy: 0, 532
+  size: 130, 131
+  orig: 130, 131
+  offset: 0, 0
+  index: -1
+Monster_44_Attack
+  rotate: true
+  xy: 148, 739
+  size: 65, 71
+  orig: 66, 73
+  offset: 0, 1
+  index: -1
+Particle
+  rotate: false
+  xy: 183, 253
+  size: 33, 33
+  orig: 37, 37
+  offset: 2, 2
+  index: -1
+Qun
+  rotate: true
+  xy: 148, 653
+  size: 78, 52
+  orig: 78, 52
+  offset: 0, 0
+  index: -1
+Torch_00
+  rotate: false
+  xy: 137, 453
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+Torch_01
+  rotate: false
+  xy: 103, 212
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+Torch_02
+  rotate: false
+  xy: 0, 166
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+Torch_03
+  rotate: false
+  xy: 80, 130
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+Torch_04
+  rotate: false
+  xy: 0, 84
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+Torch_05
+  rotate: false
+  xy: 80, 48
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+Torch_06
+  rotate: false
+  xy: 0, 2
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+WuQi
+  rotate: true
+  xy: 160, 140
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+Yi
+  rotate: true
+  xy: 0, 382
+  size: 142, 113
+  orig: 142, 113
+  offset: 0, 0
+  index: -1
+YouJiao
+  rotate: true
+  xy: 80, 0
+  size: 40, 51
+  orig: 40, 51
+  offset: 0, 0
+  index: -1
+YouShou
+  rotate: false
+  xy: 0, 248
+  size: 97, 126
+  orig: 97, 126
+  offset: 0, 0
+  index: -1
+ZuoBi
+  rotate: false
+  xy: 137, 535
+  size: 74, 110
+  orig: 74, 110
+  offset: 0, 0
+  index: -1
+ZuoJiao
+  rotate: true
+  xy: 160, 31
+  size: 41, 57
+  orig: 41, 57
+  offset: 0, 0
+  index: -1
+ZuoShou
+  rotate: false
+  xy: 160, 80
+  size: 58, 52
+  orig: 58, 52
+  offset: 0, 0
+  index: -1

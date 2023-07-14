@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Cycle_Btn_WXZ",
+    "texture": "15b8afaa-70ca-403f-b5cc-4de9da02d730",
+    "atlas": "9668a438-2094-40f4-8fdf-2f0517f95fbe",
+    "rect": [
+      996,
+      1273,
+      185,
+      69
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      185,
+      69
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

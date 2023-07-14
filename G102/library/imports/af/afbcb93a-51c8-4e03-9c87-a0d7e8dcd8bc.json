@@ -1,0 +1,50 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "DailyTask",
+  "_objFlags": 0,
+  "_native": "",
+  "json": [
+    {
+      "Task_ID": 10101,
+      "Description_TextID": 210201,
+      "Type": 1,
+      "Target_Num": [
+        1000
+      ],
+      "Reward_ID": [
+        1
+      ],
+      "Reward_Num": [
+        1000
+      ]
+    },
+    {
+      "Task_ID": 10102,
+      "Description_TextID": 210202,
+      "Type": 1,
+      "Target_Num": [
+        4
+      ],
+      "Reward_ID": [
+        1
+      ],
+      "Reward_Num": [
+        1000
+      ]
+    },
+    {
+      "Task_ID": 10103,
+      "Description_TextID": 210203,
+      "Type": 1,
+      "Target_Num": [
+        200
+      ],
+      "Reward_ID": [
+        1
+      ],
+      "Reward_Num": [
+        1500
+      ]
+    }
+  ]
+}

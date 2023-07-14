@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "SignIn7_Bg_2_Mask",
+    "texture": "d9000efc-33e7-47e0-930e-222b09199a70",
+    "atlas": "4e47a9ba-49a4-4734-8041-c553c122508e",
+    "rect": [
+      754,
+      2,
+      168,
+      195
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      168,
+      195
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

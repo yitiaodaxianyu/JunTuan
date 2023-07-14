@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "MeiMo_Passive1_Speed_04",
+    "texture": "557dec60-f21a-44f8-a667-3ddda9643ed0",
+    "atlas": "9e5caf72-927a-41b6-858d-c2b7c253518e",
+    "rect": [
+      242,
+      1400,
+      100,
+      80
+    ],
+    "offset": [
+      0,
+      -35
+    ],
+    "originalSize": [
+      100,
+      150
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

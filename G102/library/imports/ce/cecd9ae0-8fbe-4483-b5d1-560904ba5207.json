@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "SPSpirit_DrawCardFX_4_07",
+    "texture": "dfc8e02d-ddbe-48aa-83a2-371049f8394e",
+    "atlas": "c571081a-2b6c-416d-bab2-61be3c49d6eb",
+    "rect": [
+      246,
+      1124,
+      210,
+      210
+    ],
+    "offset": [
+      20,
+      -10
+    ],
+    "originalSize": [
+      250,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

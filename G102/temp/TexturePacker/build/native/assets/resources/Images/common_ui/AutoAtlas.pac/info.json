@@ -1,0 +1,4795 @@
+{
+  "projectPath": "D:\\proSvn\\G102",
+  "actualPlatform": "wechatgame",
+  "mtimes": {
+    "dec87e5b-974e-4ac8-b302-2ac0d87c929e": {
+      "assetMtime": 1688719260923,
+      "metaMtime": 1689133962862
+    },
+    "009e7552-9478-4b93-818c-60f130219c59": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "7246ad07-c5e6-4e60-aebe-fa81d8199981": {
+      "assetMtime": 1688719260946,
+      "metaMtime": 1689133963005
+    },
+    "0299e645-c1ee-43e6-bd57-dc650ad5fc38": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "045cd788-1e8a-4e99-b34e-2a6edd94290b": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "07dcb078-a581-4e0e-8396-597999f1bc10": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "091b9d56-fef7-463f-95c4-00094c332129": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "0b27331e-4639-47c1-9aca-b8feb03aefbe": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "0bf1d47f-da81-454e-bf93-d22e2dcb8970": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "0c5b1b9c-09a7-4045-810a-5f4d4c647541": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "0cbe3991-95fa-4f6b-a40c-f095e39a9887": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "0cd9aefd-3d21-476e-b1be-3cfd37ad1be9": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "0dbbe77a-67cb-47b4-97cf-d705554dd5b5": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "118d7913-91a5-4b62-ba39-16b98259f401": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "11e02d57-71be-43fb-968c-cc8d68153c76": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "1413b49c-57e7-4855-9efb-7b1ead65e7ff": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "17a2e725-1b0e-4587-ac66-395bef3ec4de": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "181a1405-b522-4e6d-b2fd-29cd7b13cbe7": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "187ee445-40ce-4368-99af-41dac5d6abf8": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "189e9a3b-e259-4f8b-95e4-e1ff225c0b88": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "1918df6a-a0bd-4b92-b76a-ddc02c1df434": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "1b89e192-3b19-4434-abe2-bd9c066f0e70": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "1bf06bd6-587b-4f5c-a164-cd6da00325fc": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "1d4a1051-a2e6-45fa-a737-5227858761de": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "21cabbe8-9cee-443b-985e-0e6279be219d": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "224d7170-7a5f-4ce0-b938-80e829d2644a": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "2443bba5-91e6-459b-bb12-60d1ec47ddc9": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "2450f6a3-9feb-429c-85d4-f5cc33c91ee6": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "257316f9-7357-4d3b-804b-69e7641ae8a5": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "25bbebf4-e5e1-4dcc-a9ac-406623a2ca76": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "27de9add-3937-47e1-b559-158a9f056153": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "283f6022-b400-4035-8e1d-2744473ecc73": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "29882dad-892f-4dbb-adfc-77989f415aba": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "2c91ae3e-23f5-4215-801a-ebb7486c957a": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "2d3c9f0d-9fa7-45cf-9853-0b8b0ed90511": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "2de9e5c9-686c-4bfa-9158-706167908e1e": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "2e0bf06c-431e-4d7c-a1fc-8f40b8da67c4": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "2f0ac332-b4b9-40b3-b534-12ddc71ff095": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "30222a3f-58de-443e-af72-71ffa3ad7c0b": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "32986ade-1a97-4dc5-b85f-c7703b9314db": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "35753c78-f500-4aeb-8691-4dbec251b0ee": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "35890dcc-6a40-4520-a12a-7ea292f3f247": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "3754e55e-b48d-4858-9fea-d11d85ffcf4a": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "37a30f8c-d13f-4310-a58d-51433b1f4ab8": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "3924f2d1-34df-45d2-a165-4ec4505440e6": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "3b6e9d42-73b9-4e24-93ff-b099af6ddefe": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "3dba6b09-3983-4cce-97cb-707a691288e0": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "3f87d382-15a6-4612-bcf9-fd878a6e6e5f": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "40f08124-b190-4b2f-920c-e26f8e150307": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "413d6018-149c-4966-bc25-4361a845a62e": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "44f243d8-e618-49ed-abce-baee47b43321": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "4507a36c-7bf1-49e4-8772-a1dfc08d4834": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "4978dacf-12f3-4fef-8016-7847efb03f88": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "4a5cf4e1-acb7-40db-8e00-04067746b70c": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "4b2a5604-2be0-4234-a2fe-b119979ef4a1": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "4d996275-1425-4849-b1d4-3beee0a970bc": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "504ab24e-34d4-4327-9b47-291fcbd1e70c": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "50674850-4bfd-4b91-a447-5d34c060a0ce": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "55704755-f5b1-42bf-8596-d264b8adf137": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "56c66064-909d-48a1-b441-03df091efc42": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "573f6e96-1c39-4d7f-823a-b8608758a383": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "5795ea7a-984f-40e8-a137-9ffbf9975732": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "58f171d8-ac88-4619-8722-225378eff7e3": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "5d2fde93-4475-4fe0-8023-8939c3cbb9a4": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "5e709fe9-102b-46c2-b90b-c505154f56a7": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "6080858d-6a76-4dde-8ed8-aed052c46157": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "623269db-2139-45fc-8e9b-aa5244eac082": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "639ecf4c-0fbc-416a-b9f1-cb20f07bd166": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "64135f69-f927-44e9-a66f-291f5b17f98c": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "6493a4fb-dd16-4aff-827c-9fea30e432d8": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "6509cfcf-fbc9-45c8-bd04-14242d98d957": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "662f5f4a-46cb-42d5-a25a-3a2c9150866f": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "66b1acad-08b8-4b11-8494-c786d399ceeb": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "67defbd2-d68b-435b-9011-08cf9f0e893f": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "6880bcde-8032-460d-83a2-a84e9d2a930b": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "6d741fb6-a929-4449-b85f-3e7cb47ec7e5": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "6d78c8ad-6a4d-48ac-8f71-b3607c7bb4ff": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "6e474773-9035-41d0-b25c-cd17081ce999": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "6f15b325-dccf-4e80-a0bc-2e7767212a8a": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "7071a565-fd88-41f6-bcb3-032e3dd9d5e0": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "716c4b8c-8e96-4714-bcf0-4af5d8629d32": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "74e7d62e-55eb-487f-8e72-6956ccedef66": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "752077d4-93a8-4832-9bd0-d29da6e3c264": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "761d8dd4-ec0d-4a4f-87b8-94aa473b2919": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "77e80194-fa6b-4fcb-b29f-3810c28d23c8": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "785f8581-ba5c-47c6-8bb0-707a642b0183": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "7968ee65-18c7-4786-bbfc-014c1e304236": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "7bb8873c-9661-4cac-a906-55018fb14157": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "7c2241a0-3822-4e80-a073-543312ec0b20": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "7dc3441b-8d2c-4ecb-8fa1-6ee19aadc54c": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "8324dfdb-3284-4b3c-84f9-c5d3ba8d66f4": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "868e5e7a-0f03-4191-b4e7-aa630fe83fa7": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "87fce8c3-0684-413a-a5ec-d2a106f99b7f": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "88fbd3df-bad6-4541-aef6-f93496bbfa45": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "8a03cffe-25c3-44c6-bef3-009ce3365bf1": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "8a592590-9888-4106-9226-822f47ae855d": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "8accc67d-b452-42b8-b872-d7ee57307530": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "8c7b6523-2b17-4585-ac55-06ec04467f88": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "8e2934e8-69ca-4f93-a9b5-91e15320b1f6": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "8fc3ee2e-c703-49f0-9a37-d2f813d8934f": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "9268529a-e475-4743-89ce-431074f96b8f": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "9288d0a7-026b-4d2b-9597-664449389823": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "93571e41-dca0-44c5-b48a-34875914757f": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "94464496-e5a1-4f97-ad6a-fea007745d8d": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "94e98815-87ab-4f4e-af2c-ca2595cfdb8d": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "95c7d8a9-949b-4ace-927b-d64fbcb066d2": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "9905d3ea-7ae9-4126-94cc-cd53b15f668a": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "9916b5b2-98f5-48f3-aafd-b07b1d784c64": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "9996836e-d674-4211-9bf4-97470132c9c1": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "9d672808-94d2-4a7f-bce3-72a76a5ef02b": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "9ea1b0e4-09d9-4a23-8b1d-55ac0d7ba99c": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "9ed38d8e-3235-4c8a-8649-94646cb4cd84": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "9f12a1d1-c60a-4714-962a-b977880e2b3a": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "a0baa859-30c2-416a-bfc6-e2f0c97c28d3": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "a33c871d-b0a8-4034-9b9c-f7b415ba5709": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "a3c7e8f6-d4e9-4123-9f7f-aa2f88695914": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "a57558c5-ce58-486b-8622-022ac7066911": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "a67d14ba-965f-45ad-8c7e-0e5c99224d09": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "a74b016e-854b-4f48-8c3d-4a1f6f9e9b10": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "a79419d2-db11-4aed-ab88-3fff204f6536": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "a7ccd883-0f45-422b-8848-04b78eed97b8": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "a93e8a8d-190c-4c15-b768-a91997437a74": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "a959688c-c547-4295-8dfc-39578b4e6cef": {
+      "assetMtime": 1688719260948,
+      "metaMtime": 1689133962951
+    },
+    "144261db-3acc-4ff7-af42-c4bbeaac9107": {
+      "assetMtime": 1688719260948,
+      "metaMtime": 1689133962951
+    },
+    "aa527b57-e0a5-4845-aabb-ba3dbb2188ae": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "ab5d0d82-a786-4398-b1b4-d2bb7598f19a": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "abff462d-6d06-424e-b7db-4e9af8c5afde": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "ac04cea4-8e44-410a-9461-783f916ae0e6": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "ad5507e9-b880-48b9-ad03-1fca492fba8f": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "ad951481-f848-477f-b0eb-c0799564d284": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "afb06791-3d65-44a0-bb39-07fa3c2571a6": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "b22930d6-265e-4de1-84de-29b91ca9f71f": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "b74b4218-bee3-4d60-aa4a-97743b77f652": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "ba992427-0d13-4fca-b1be-ee2c4383b811": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "baa5f579-b0b7-4e47-a2f1-a35e0bce86c1": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "bdae71f3-c116-4285-a29c-e2d1e2bd15c8": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "c273fbe1-00a6-47e8-af43-d213dee76102": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "c2d440ed-f4a7-4ea4-8e97-a88cfd6fb700": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "c4c773ca-70ea-4e4c-8d71-c4d972a4862c": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "c63eeb1c-a0f7-4eee-bd0b-e47af1f2e952": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "ca4ff441-1a06-433f-a02d-324cbb930f62": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "cd97fa45-2f6d-48d3-9140-32613be3e8b4": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "ced5b024-67bf-4c76-8c7f-c720115013da": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "d009e83a-ae1a-4235-a87b-94d56b3c419a": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "d135f46d-f14c-4fec-873c-928fac2897e1": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "d1888e91-2f30-467d-ad8a-333d993011b5": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "d2215158-9225-4259-8635-a86d0965d3c5": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "d2f9cdaf-4b10-40ee-9bbc-83c477eff94e": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "d9167ca6-703b-4d11-8c05-1a034819b635": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "d9ee486a-f993-42e3-a4d5-f626daae2d49": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "da19f6e8-1793-44c3-ac50-792f8cf89298": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "dd71b61e-1c4c-4a68-8226-491a23f3e996": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "ddf7bb97-44fb-47e1-bd87-d849ddd72af0": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "de4271d3-5b4e-4262-a0a3-77da9025524d": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "de65ecf9-166a-4538-a096-85b32410ac25": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "df4ab8be-4410-403b-9bdc-e4884da08dc7": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "e3426010-f3b6-4b69-a159-9d229b404d3b": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "e363b01b-1ea5-4a43-b22c-1b8673c6b73a": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "e3eaa62e-2b83-48c5-91e0-a06e3cdce724": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "e4fb36b8-8e6e-4f9e-b4e6-f1038d39dec5": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "e6f3c21e-4e0a-4cb9-be48-cf6728d45d3f": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "e784da92-d817-4ef9-a5c2-46d042e1d23d": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "e8293d67-71e7-438b-97aa-b180287a849b": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "ea151e20-31b6-4502-86b1-6792c4f4b8e4": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "ead4b1c8-5652-4e70-808d-932274533c11": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "edb4e9cd-ddc9-49f7-9757-6c1569d40c20": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "f21778af-d997-4fe7-9983-32a252946db8": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "f4503c36-5407-46f7-a662-7543577cafa6": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "f52b44b8-88ce-4628-a139-f0546569d919": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "f799fb9e-5599-4178-8dd2-c4a49de28862": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "f7f107f9-f125-491b-820e-995b7233a06b": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "f9499d11-cfcf-40ee-af1d-a0a388228b0c": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "fac1ddc8-a77a-4413-a463-2a2a1ce9fa2e": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "fccfaa01-2917-410a-8f3b-689f101a75e0": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "ff283b2c-84de-42a8-8c46-dc35774053ce": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    },
+    "ffc91a66-63f8-4c1a-9343-ddbccb39d6b0": {
+      "assetMtime": 1688719260926,
+      "metaMtime": 1689133974924
+    }
+  },
+  "result": {
+    "name": "AutoAtlas-3",
+    "width": 846,
+    "height": 1021,
+    "ver": "1.2.5",
+    "uuid": "dec87e5b-974e-4ac8-b302-2ac0d87c929e",
+    "importer": "auto-atlas",
+    "maxWidth": 1024,
+    "maxHeight": 1024,
+    "padding": 2,
+    "compressionLevel": 6,
+    "allowRotation": true,
+    "forceSquared": false,
+    "powerOfTwo": false,
+    "algorithm": "MaxRects",
+    "format": "png",
+    "quality": 80,
+    "contourBleed": true,
+    "paddingBleed": true,
+    "filterUnused": true,
+    "packable": false,
+    "premultiplyAlpha": false,
+    "filterMode": "bilinear",
+    "platformSettings": {},
+    "subMetas": {},
+    "bleed": 1,
+    "atlases": [
+      {
+        "files": [
+          {
+            "name": "Evolve_Bg_0",
+            "uuid": "9905d3ea-7ae9-4126-94cc-cd53b15f668a",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324751_image_104.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 746,
+              "height": 659,
+              "rotatedWidth": 746,
+              "rotatedHeight": 659
+            },
+            "rawWidth": 746,
+            "rawHeight": 659,
+            "width": 752,
+            "height": 665,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 0,
+            "y": 0,
+            "rotatedWidth": 752,
+            "rotatedHeight": 665
+          },
+          {
+            "name": "Common_Window_Bg_3",
+            "uuid": "e363b01b-1ea5-4a43-b22c-1b8673c6b73a",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324756_image_154.png",
+            "trim": {
+              "x": 755,
+              "y": 3,
+              "width": 579,
+              "height": 216,
+              "rotatedWidth": 216,
+              "rotatedHeight": 579
+            },
+            "rawWidth": 579,
+            "rawHeight": 216,
+            "width": 585,
+            "height": 222,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 752,
+            "y": 0,
+            "rotated": true,
+            "rotatedWidth": 222,
+            "rotatedHeight": 585
+          },
+          {
+            "name": "Common_Line_1",
+            "uuid": "ff283b2c-84de-42a8-8c46-dc35774053ce",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324757_image_171.png",
+            "trim": {
+              "x": 977,
+              "y": 3,
+              "width": 460,
+              "height": 19,
+              "rotatedWidth": 19,
+              "rotatedHeight": 460
+            },
+            "rawWidth": 462,
+            "rawHeight": 19,
+            "width": 466,
+            "height": 25,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 974,
+            "y": 0,
+            "rotated": true,
+            "rotatedWidth": 25,
+            "rotatedHeight": 466
+          },
+          {
+            "name": "Common_Weapon_Bg_1",
+            "uuid": "7071a565-fd88-41f6-bcb3-032e3dd9d5e0",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324748_image_77.png",
+            "trim": {
+              "x": 977,
+              "y": 469,
+              "width": 193,
+              "height": 40,
+              "rotatedWidth": 40,
+              "rotatedHeight": 193
+            },
+            "rawWidth": 193,
+            "rawHeight": 40,
+            "width": 199,
+            "height": 46,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 974,
+            "y": 466,
+            "rotated": true,
+            "rotatedWidth": 46,
+            "rotatedHeight": 199
+          },
+          {
+            "name": "Common_Bar_1",
+            "uuid": "1b89e192-3b19-4434-abe2-bd9c066f0e70",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324742_image_19.png",
+            "trim": {
+              "x": 1002,
+              "y": 3,
+              "width": 276,
+              "height": 18,
+              "rotatedWidth": 18,
+              "rotatedHeight": 276
+            },
+            "rawWidth": 276,
+            "rawHeight": 18,
+            "width": 282,
+            "height": 24,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 999,
+            "y": 0,
+            "rotated": true,
+            "rotatedWidth": 24,
+            "rotatedHeight": 282
+          },
+          {
+            "name": "Common_Line_0",
+            "uuid": "de4271d3-5b4e-4262-a0a3-77da9025524d",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324756_image_150.png",
+            "trim": {
+              "x": 1002,
+              "y": 285,
+              "width": 159,
+              "height": 15,
+              "rotatedWidth": 15,
+              "rotatedHeight": 159
+            },
+            "rawWidth": 159,
+            "rawHeight": 15,
+            "width": 165,
+            "height": 21,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 999,
+            "y": 282,
+            "rotated": true,
+            "rotatedWidth": 21,
+            "rotatedHeight": 165
+          },
+          {
+            "name": "ExWeapon_Star_2_1",
+            "uuid": "0bf1d47f-da81-454e-bf93-d22e2dcb8970",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324741_image_6.png",
+            "trim": {
+              "x": 1002,
+              "y": 450,
+              "width": 16,
+              "height": 9,
+              "rotatedWidth": 16,
+              "rotatedHeight": 9
+            },
+            "rawWidth": 16,
+            "rawHeight": 9,
+            "width": 22,
+            "height": 15,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 999,
+            "y": 447,
+            "rotatedWidth": 22,
+            "rotatedHeight": 15
+          },
+          {
+            "name": "Common_Window_Bg_0",
+            "uuid": "118d7913-91a5-4b62-ba39-16b98259f401",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324741_image_11.png",
+            "trim": {
+              "x": 755,
+              "y": 588,
+              "width": 180,
+              "height": 244,
+              "rotatedWidth": 180,
+              "rotatedHeight": 244
+            },
+            "rawWidth": 180,
+            "rawHeight": 244,
+            "width": 186,
+            "height": 250,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 752,
+            "y": 585,
+            "rotatedWidth": 186,
+            "rotatedHeight": 250
+          },
+          {
+            "name": "Common_Bar_0",
+            "uuid": "25bbebf4-e5e1-4dcc-a9ac-406623a2ca76",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324743_image_27.png",
+            "trim": {
+              "x": 941,
+              "y": 588,
+              "width": 280,
+              "height": 22,
+              "rotatedWidth": 22,
+              "rotatedHeight": 280
+            },
+            "rawWidth": 280,
+            "rawHeight": 22,
+            "width": 286,
+            "height": 28,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 938,
+            "y": 585,
+            "rotated": true,
+            "rotatedWidth": 28,
+            "rotatedHeight": 286
+          },
+          {
+            "name": "Evolve_Bg_1",
+            "uuid": "9916b5b2-98f5-48f3-aafd-b07b1d784c64",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324751_image_105.png",
+            "trim": {
+              "x": 969,
+              "y": 668,
+              "width": 210,
+              "height": 52,
+              "rotatedWidth": 52,
+              "rotatedHeight": 210
+            },
+            "rawWidth": 210,
+            "rawHeight": 52,
+            "width": 216,
+            "height": 58,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 966,
+            "y": 665,
+            "rotated": true,
+            "rotatedWidth": 58,
+            "rotatedHeight": 216
+          },
+          {
+            "name": "Common_Edge_Bg_2",
+            "uuid": "f9499d11-cfcf-40ee-af1d-a0a388228b0c",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324757_image_168.png",
+            "trim": {
+              "x": 3,
+              "y": 838,
+              "width": 750,
+              "height": 163,
+              "rotatedWidth": 750,
+              "rotatedHeight": 163
+            },
+            "rawWidth": 750,
+            "rawHeight": 163,
+            "width": 756,
+            "height": 169,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 0,
+            "y": 835,
+            "rotatedWidth": 756,
+            "rotatedHeight": 169
+          },
+          {
+            "name": "Common_Function_Bg_0",
+            "uuid": "9268529a-e475-4743-89ce-431074f96b8f",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324751_image_98.png",
+            "trim": {
+              "x": 759,
+              "y": 874,
+              "width": 128,
+              "height": 128,
+              "rotatedWidth": 128,
+              "rotatedHeight": 128
+            },
+            "rawWidth": 128,
+            "rawHeight": 128,
+            "width": 134,
+            "height": 134,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 756,
+            "y": 871,
+            "rotatedWidth": 134,
+            "rotatedHeight": 134
+          },
+          {
+            "name": "Common_Edge_Bg_1",
+            "uuid": "5795ea7a-984f-40e8-a137-9ffbf9975732",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324746_image_59.png",
+            "trim": {
+              "x": 893,
+              "y": 838,
+              "width": 139,
+              "height": 39,
+              "rotatedWidth": 39,
+              "rotatedHeight": 139
+            },
+            "rawWidth": 139,
+            "rawHeight": 39,
+            "width": 145,
+            "height": 45,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 890,
+            "y": 835,
+            "rotated": true,
+            "rotatedWidth": 45,
+            "rotatedHeight": 145
+          },
+          {
+            "name": "Common_Window_Bg_5",
+            "uuid": "29882dad-892f-4dbb-adfc-77989f415aba",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324744_image_30.png",
+            "trim": {
+              "x": 893,
+              "y": 983,
+              "width": 122,
+              "height": 37,
+              "rotatedWidth": 122,
+              "rotatedHeight": 37
+            },
+            "rawWidth": 122,
+            "rawHeight": 37,
+            "width": 128,
+            "height": 43,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 890,
+            "y": 980,
+            "rotatedWidth": 128,
+            "rotatedHeight": 43
+          },
+          {
+            "name": "Item_frame_ZheZhao",
+            "uuid": "e6f3c21e-4e0a-4cb9-be48-cf6728d45d3f",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324756_image_157.png",
+            "trim": {
+              "x": 938,
+              "y": 884,
+              "width": 83,
+              "height": 83,
+              "rotatedWidth": 83,
+              "rotatedHeight": 83
+            },
+            "rawWidth": 83,
+            "rawHeight": 83,
+            "width": 89,
+            "height": 89,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 935,
+            "y": 881,
+            "rotatedWidth": 89,
+            "rotatedHeight": 89
+          },
+          {
+            "name": "Common_Window_Bg_4_2",
+            "uuid": "9d672808-94d2-4a7f-bce3-72a76a5ef02b",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324751_image_107.png",
+            "trim": {
+              "x": 759,
+              "y": 838,
+              "width": 68,
+              "height": 25,
+              "rotatedWidth": 68,
+              "rotatedHeight": 25
+            },
+            "rawWidth": 68,
+            "rawHeight": 25,
+            "width": 74,
+            "height": 31,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 756,
+            "y": 835,
+            "rotatedWidth": 74,
+            "rotatedHeight": 31
+          },
+          {
+            "name": "Text_Quality_4",
+            "uuid": "009e7552-9478-4b93-818c-60f130219c59",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324740_image_0.png",
+            "trim": {
+              "x": 833,
+              "y": 838,
+              "width": 39,
+              "height": 27,
+              "rotatedWidth": 39,
+              "rotatedHeight": 27
+            },
+            "rawWidth": 39,
+            "rawHeight": 27,
+            "width": 45,
+            "height": 33,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 830,
+            "y": 835,
+            "rotatedWidth": 45,
+            "rotatedHeight": 33
+          },
+          {
+            "name": "Common_UnderLine",
+            "uuid": "ba992427-0d13-4fca-b1be-ee2c4383b811",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324754_image_130.png",
+            "trim": {
+              "x": 878,
+              "y": 838,
+              "width": 8,
+              "height": 8,
+              "rotatedWidth": 8,
+              "rotatedHeight": 8
+            },
+            "rawWidth": 8,
+            "rawHeight": 8,
+            "width": 14,
+            "height": 14,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 875,
+            "y": 835,
+            "rotatedWidth": 14,
+            "rotatedHeight": 14
+          },
+          {
+            "name": "Rewards_Bg_1",
+            "uuid": "ffc91a66-63f8-4c1a-9343-ddbccb39d6b0",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324757_image_172.png",
+            "trim": {
+              "x": 3,
+              "y": 1007,
+              "width": 639,
+              "height": 3,
+              "rotatedWidth": 639,
+              "rotatedHeight": 3
+            },
+            "rawWidth": 639,
+            "rawHeight": 3,
+            "width": 645,
+            "height": 9,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 0,
+            "y": 1004,
+            "rotatedWidth": 645,
+            "rotatedHeight": 9
+          },
+          {
+            "name": "Common_Line_2",
+            "uuid": "091b9d56-fef7-463f-95c4-00094c332129",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324740_image_4.png",
+            "trim": {
+              "x": 3,
+              "y": 1016,
+              "width": 438,
+              "height": 2,
+              "rotatedWidth": 438,
+              "rotatedHeight": 2
+            },
+            "rawWidth": 438,
+            "rawHeight": 2,
+            "width": 444,
+            "height": 8,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 0,
+            "y": 1013,
+            "rotatedWidth": 444,
+            "rotatedHeight": 8
+          },
+          {
+            "name": "Common_UnderBG",
+            "uuid": "6880bcde-8032-460d-83a2-a84e9d2a930b",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324748_image_72.png",
+            "trim": {
+              "x": 3,
+              "y": 668,
+              "width": 640,
+              "height": 117,
+              "rotatedWidth": 640,
+              "rotatedHeight": 117
+            },
+            "rawWidth": 640,
+            "rawHeight": 117,
+            "width": 646,
+            "height": 123,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 0,
+            "y": 665,
+            "rotatedWidth": 646,
+            "rotatedHeight": 123
+          },
+          {
+            "name": "Common_IconBg_1",
+            "uuid": "7c2241a0-3822-4e80-a073-543312ec0b20",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324749_image_86.png",
+            "trim": {
+              "x": 649,
+              "y": 668,
+              "width": 128,
+              "height": 85,
+              "rotatedWidth": 85,
+              "rotatedHeight": 128
+            },
+            "rawWidth": 128,
+            "rawHeight": 85,
+            "width": 134,
+            "height": 91,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 646,
+            "y": 665,
+            "rotated": true,
+            "rotatedWidth": 91,
+            "rotatedHeight": 134
+          },
+          {
+            "name": "Common_Bg_10",
+            "uuid": "8accc67d-b452-42b8-b872-d7ee57307530",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324750_image_94.png",
+            "trim": {
+              "x": 3,
+              "y": 791,
+              "width": 152,
+              "height": 35,
+              "rotatedWidth": 152,
+              "rotatedHeight": 35
+            },
+            "rawWidth": 152,
+            "rawHeight": 35,
+            "width": 158,
+            "height": 41,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 0,
+            "y": 788,
+            "rotatedWidth": 158,
+            "rotatedHeight": 41
+          },
+          {
+            "name": "Weapon_Arrow",
+            "uuid": "6e474773-9035-41d0-b25c-cd17081ce999",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324748_image_75.png",
+            "trim": {
+              "x": 161,
+              "y": 791,
+              "width": 97,
+              "height": 38,
+              "rotatedWidth": 97,
+              "rotatedHeight": 38
+            },
+            "rawWidth": 97,
+            "rawHeight": 38,
+            "width": 103,
+            "height": 44,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 158,
+            "y": 788,
+            "rotatedWidth": 103,
+            "rotatedHeight": 44
+          },
+          {
+            "name": "Common_Btn_Plus",
+            "uuid": "c63eeb1c-a0f7-4eee-bd0b-e47af1f2e952",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324754_image_136.png",
+            "trim": {
+              "x": 264,
+              "y": 791,
+              "width": 45,
+              "height": 39,
+              "rotatedWidth": 45,
+              "rotatedHeight": 39
+            },
+            "rawWidth": 45,
+            "rawHeight": 39,
+            "width": 51,
+            "height": 45,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 261,
+            "y": 788,
+            "rotatedWidth": 51,
+            "rotatedHeight": 45
+          },
+          {
+            "name": "Common_Btn_Less",
+            "uuid": "d9ee486a-f993-42e3-a4d5-f626daae2d49",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324755_image_146.png",
+            "trim": {
+              "x": 315,
+              "y": 791,
+              "width": 43,
+              "height": 38,
+              "rotatedWidth": 43,
+              "rotatedHeight": 38
+            },
+            "rawWidth": 43,
+            "rawHeight": 38,
+            "width": 49,
+            "height": 44,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 312,
+            "y": 788,
+            "rotatedWidth": 49,
+            "rotatedHeight": 44
+          },
+          {
+            "name": "Head_Hero_S_6",
+            "uuid": "045cd788-1e8a-4e99-b34e-2a6edd94290b",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324740_image_2.png",
+            "trim": {
+              "x": 364,
+              "y": 791,
+              "width": 40,
+              "height": 40,
+              "rotatedWidth": 40,
+              "rotatedHeight": 40
+            },
+            "rawWidth": 40,
+            "rawHeight": 40,
+            "width": 46,
+            "height": 46,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 361,
+            "y": 788,
+            "rotatedWidth": 46,
+            "rotatedHeight": 46
+          },
+          {
+            "name": "Head_Hero_S_8",
+            "uuid": "1918df6a-a0bd-4b92-b76a-ddc02c1df434",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324742_image_18.png",
+            "trim": {
+              "x": 410,
+              "y": 791,
+              "width": 40,
+              "height": 40,
+              "rotatedWidth": 40,
+              "rotatedHeight": 40
+            },
+            "rawWidth": 40,
+            "rawHeight": 40,
+            "width": 46,
+            "height": 46,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 407,
+            "y": 788,
+            "rotatedWidth": 46,
+            "rotatedHeight": 46
+          },
+          {
+            "name": "Head_Hero_S_5",
+            "uuid": "3924f2d1-34df-45d2-a165-4ec4505440e6",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324745_image_42.png",
+            "trim": {
+              "x": 456,
+              "y": 791,
+              "width": 40,
+              "height": 40,
+              "rotatedWidth": 40,
+              "rotatedHeight": 40
+            },
+            "rawWidth": 40,
+            "rawHeight": 40,
+            "width": 46,
+            "height": 46,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 453,
+            "y": 788,
+            "rotatedWidth": 46,
+            "rotatedHeight": 46
+          },
+          {
+            "name": "Head_Hero_S_12",
+            "uuid": "40f08124-b190-4b2f-920c-e26f8e150307",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324745_image_46.png",
+            "trim": {
+              "x": 502,
+              "y": 791,
+              "width": 40,
+              "height": 40,
+              "rotatedWidth": 40,
+              "rotatedHeight": 40
+            },
+            "rawWidth": 40,
+            "rawHeight": 40,
+            "width": 46,
+            "height": 46,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 499,
+            "y": 788,
+            "rotatedWidth": 46,
+            "rotatedHeight": 46
+          },
+          {
+            "name": "Head_Hero_S_11",
+            "uuid": "4978dacf-12f3-4fef-8016-7847efb03f88",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324745_image_50.png",
+            "trim": {
+              "x": 548,
+              "y": 791,
+              "width": 40,
+              "height": 40,
+              "rotatedWidth": 40,
+              "rotatedHeight": 40
+            },
+            "rawWidth": 40,
+            "rawHeight": 40,
+            "width": 46,
+            "height": 46,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 545,
+            "y": 788,
+            "rotatedWidth": 46,
+            "rotatedHeight": 46
+          },
+          {
+            "name": "Head_Hero_S_2",
+            "uuid": "7bb8873c-9661-4cac-a906-55018fb14157",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324749_image_85.png",
+            "trim": {
+              "x": 594,
+              "y": 791,
+              "width": 40,
+              "height": 40,
+              "rotatedWidth": 40,
+              "rotatedHeight": 40
+            },
+            "rawWidth": 40,
+            "rawHeight": 40,
+            "width": 46,
+            "height": 46,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 591,
+            "y": 788,
+            "rotatedWidth": 46,
+            "rotatedHeight": 46
+          },
+          {
+            "name": "Weapon_Icon_Change",
+            "uuid": "5d2fde93-4475-4fe0-8023-8939c3cbb9a4",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324747_image_61.png",
+            "trim": {
+              "x": 640,
+              "y": 802,
+              "width": 35,
+              "height": 30,
+              "rotatedWidth": 35,
+              "rotatedHeight": 30
+            },
+            "rawWidth": 35,
+            "rawHeight": 30,
+            "width": 41,
+            "height": 36,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 637,
+            "y": 799,
+            "rotatedWidth": 41,
+            "rotatedHeight": 36
+          },
+          {
+            "name": "Hero_Stat_8",
+            "uuid": "1413b49c-57e7-4855-9efb-7b1ead65e7ff",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324742_image_13.png",
+            "trim": {
+              "x": 681,
+              "y": 802,
+              "width": 28,
+              "height": 35,
+              "rotatedWidth": 35,
+              "rotatedHeight": 28
+            },
+            "rawWidth": 28,
+            "rawHeight": 35,
+            "width": 34,
+            "height": 41,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 678,
+            "y": 799,
+            "rotated": true,
+            "rotatedWidth": 41,
+            "rotatedHeight": 34
+          },
+          {
+            "name": "Weapon_Icon_3",
+            "uuid": "1d4a1051-a2e6-45fa-a737-5227858761de",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324742_image_21.png",
+            "trim": {
+              "x": 722,
+              "y": 802,
+              "width": 29,
+              "height": 26,
+              "rotatedWidth": 26,
+              "rotatedHeight": 29
+            },
+            "rawWidth": 29,
+            "rawHeight": 26,
+            "width": 35,
+            "height": 32,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 719,
+            "y": 799,
+            "rotated": true,
+            "rotatedWidth": 32,
+            "rotatedHeight": 35
+          }
+        ],
+        "width": 1024,
+        "height": 1023,
+        "name": "AutoAtlas-1",
+        "imagePath": "D:\\proSvn\\G102\\temp\\TexturePacker\\build\\native\\assets\\resources\\Images\\common_ui\\AutoAtlas.pac\\AutoAtlas-1.png",
+        "compressd": {
+          "suffix": [
+            ".png"
+          ],
+          "imagePathNoExt": "D:\\proSvn\\G102\\temp\\TexturePacker\\build\\native\\assets\\resources\\Images\\common_ui\\AutoAtlas.pac\\compressed\\AutoAtlas-1"
+        }
+      },
+      {
+        "files": [
+          {
+            "name": "PowerUP_Bg",
+            "uuid": "4507a36c-7bf1-49e4-8772-a1dfc08d4834",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324745_image_49.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 750,
+              "height": 83,
+              "rotatedWidth": 750,
+              "rotatedHeight": 83
+            },
+            "rawWidth": 750,
+            "rawHeight": 83,
+            "width": 756,
+            "height": 89,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 0,
+            "y": 0,
+            "rotatedWidth": 756,
+            "rotatedHeight": 89
+          },
+          {
+            "name": "Common_Window_Bg_4",
+            "uuid": "f7f107f9-f125-491b-820e-995b7233a06b",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324757_image_167.png",
+            "trim": {
+              "x": 759,
+              "y": 3,
+              "width": 253,
+              "height": 224,
+              "rotatedWidth": 253,
+              "rotatedHeight": 224
+            },
+            "rawWidth": 253,
+            "rawHeight": 224,
+            "width": 259,
+            "height": 230,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 756,
+            "y": 0,
+            "rotatedWidth": 259,
+            "rotatedHeight": 230
+          },
+          {
+            "name": "Common_Edge_Bg_0",
+            "uuid": "a74b016e-854b-4f48-8c3d-4a1f6f9e9b10",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324752_image_116.png",
+            "trim": {
+              "x": 3,
+              "y": 92,
+              "width": 750,
+              "height": 74,
+              "rotatedWidth": 750,
+              "rotatedHeight": 74
+            },
+            "rawWidth": 750,
+            "rawHeight": 74,
+            "width": 756,
+            "height": 80,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 0,
+            "y": 89,
+            "rotatedWidth": 756,
+            "rotatedHeight": 80
+          },
+          {
+            "name": "Rewards_Bg_2",
+            "uuid": "9996836e-d674-4211-9bf4-97470132c9c1",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324751_image_106.png",
+            "trim": {
+              "x": 3,
+              "y": 172,
+              "width": 640,
+              "height": 365,
+              "rotatedWidth": 640,
+              "rotatedHeight": 365
+            },
+            "rawWidth": 640,
+            "rawHeight": 365,
+            "width": 646,
+            "height": 371,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 0,
+            "y": 169,
+            "rotatedWidth": 646,
+            "rotatedHeight": 371
+          },
+          {
+            "name": "Item_frame_2",
+            "uuid": "2450f6a3-9feb-429c-85d4-f5cc33c91ee6",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324743_image_25.png",
+            "trim": {
+              "x": 649,
+              "y": 172,
+              "width": 99,
+              "height": 99,
+              "rotatedWidth": 99,
+              "rotatedHeight": 99
+            },
+            "rawWidth": 99,
+            "rawHeight": 99,
+            "width": 105,
+            "height": 105,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 646,
+            "y": 169,
+            "rotatedWidth": 105,
+            "rotatedHeight": 105
+          },
+          {
+            "name": "Common_Bg_8",
+            "uuid": "fccfaa01-2917-410a-8f3b-689f101a75e0",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324757_image_170.png",
+            "trim": {
+              "x": 3,
+              "y": 543,
+              "width": 472,
+              "height": 48,
+              "rotatedWidth": 48,
+              "rotatedHeight": 472
+            },
+            "rawWidth": 472,
+            "rawHeight": 48,
+            "width": 478,
+            "height": 54,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 0,
+            "y": 540,
+            "rotated": true,
+            "rotatedWidth": 54,
+            "rotatedHeight": 478
+          },
+          {
+            "name": "Common_Light_0",
+            "uuid": "ced5b024-67bf-4c76-8c7f-c720115013da",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324755_image_139.png",
+            "trim": {
+              "x": 57,
+              "y": 543,
+              "width": 468,
+              "height": 501,
+              "rotatedWidth": 501,
+              "rotatedHeight": 468
+            },
+            "rawWidth": 468,
+            "rawHeight": 501,
+            "width": 474,
+            "height": 507,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 54,
+            "y": 540,
+            "rotated": true,
+            "rotatedWidth": 507,
+            "rotatedHeight": 474
+          },
+          {
+            "name": "Common_Window_Title",
+            "uuid": "4a5cf4e1-acb7-40db-8e00-04067746b70c",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324745_image_51.png",
+            "trim": {
+              "x": 649,
+              "y": 277,
+              "width": 358,
+              "height": 59,
+              "rotatedWidth": 358,
+              "rotatedHeight": 59
+            },
+            "rawWidth": 358,
+            "rawHeight": 59,
+            "width": 364,
+            "height": 65,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 646,
+            "y": 274,
+            "rotatedWidth": 364,
+            "rotatedHeight": 65
+          },
+          {
+            "name": "Common_Bar_2",
+            "uuid": "ab5d0d82-a786-4398-b1b4-d2bb7598f19a",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324753_image_122.png",
+            "trim": {
+              "x": 754,
+              "y": 233,
+              "width": 38,
+              "height": 38,
+              "rotatedWidth": 38,
+              "rotatedHeight": 38
+            },
+            "rawWidth": 38,
+            "rawHeight": 38,
+            "width": 44,
+            "height": 44,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 751,
+            "y": 230,
+            "rotatedWidth": 44,
+            "rotatedHeight": 44
+          },
+          {
+            "name": "Hero_Stat_3",
+            "uuid": "8a592590-9888-4106-9226-822f47ae855d",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324750_image_93.png",
+            "trim": {
+              "x": 798,
+              "y": 233,
+              "width": 28,
+              "height": 35,
+              "rotatedWidth": 28,
+              "rotatedHeight": 35
+            },
+            "rawWidth": 28,
+            "rawHeight": 35,
+            "width": 34,
+            "height": 41,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 795,
+            "y": 230,
+            "rotatedWidth": 34,
+            "rotatedHeight": 41
+          },
+          {
+            "name": "Weapon_Icon_2",
+            "uuid": "9ed38d8e-3235-4c8a-8649-94646cb4cd84",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324752_image_109.png",
+            "trim": {
+              "x": 832,
+              "y": 233,
+              "width": 28,
+              "height": 35,
+              "rotatedWidth": 28,
+              "rotatedHeight": 35
+            },
+            "rawWidth": 28,
+            "rawHeight": 35,
+            "width": 34,
+            "height": 41,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 829,
+            "y": 230,
+            "rotatedWidth": 34,
+            "rotatedHeight": 41
+          },
+          {
+            "name": "Hero_Stat_10",
+            "uuid": "f52b44b8-88ce-4628-a139-f0546569d919",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324757_image_165.png",
+            "trim": {
+              "x": 866,
+              "y": 233,
+              "width": 28,
+              "height": 35,
+              "rotatedWidth": 28,
+              "rotatedHeight": 35
+            },
+            "rawWidth": 28,
+            "rawHeight": 35,
+            "width": 34,
+            "height": 41,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 863,
+            "y": 230,
+            "rotatedWidth": 34,
+            "rotatedHeight": 41
+          },
+          {
+            "name": "Weapon_Bg_0",
+            "uuid": "2e0bf06c-431e-4d7c-a1fc-8f40b8da67c4",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324744_image_34.png",
+            "trim": {
+              "x": 900,
+              "y": 233,
+              "width": 32,
+              "height": 32,
+              "rotatedWidth": 32,
+              "rotatedHeight": 32
+            },
+            "rawWidth": 32,
+            "rawHeight": 32,
+            "width": 38,
+            "height": 38,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 897,
+            "y": 230,
+            "rotatedWidth": 38,
+            "rotatedHeight": 38
+          },
+          {
+            "name": "Common_ZheZhao",
+            "uuid": "88fbd3df-bad6-4541-aef6-f93496bbfa45",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324750_image_91.png",
+            "trim": {
+              "x": 938,
+              "y": 233,
+              "width": 32,
+              "height": 32,
+              "rotatedWidth": 32,
+              "rotatedHeight": 32
+            },
+            "rawWidth": 32,
+            "rawHeight": 32,
+            "width": 38,
+            "height": 38,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 935,
+            "y": 230,
+            "rotatedWidth": 38,
+            "rotatedHeight": 38
+          },
+          {
+            "name": "Common_Window_Bg_1",
+            "uuid": "a57558c5-ce58-486b-8622-022ac7066911",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324752_image_114.png",
+            "trim": {
+              "x": 976,
+              "y": 233,
+              "width": 32,
+              "height": 32,
+              "rotatedWidth": 32,
+              "rotatedHeight": 32
+            },
+            "rawWidth": 32,
+            "rawHeight": 32,
+            "width": 38,
+            "height": 38,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 973,
+            "y": 230,
+            "rotatedWidth": 38,
+            "rotatedHeight": 38
+          },
+          {
+            "name": "Rewards_Bg_0",
+            "uuid": "e8293d67-71e7-438b-97aa-b180287a849b",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324756_image_159.png",
+            "trim": {
+              "x": 649,
+              "y": 342,
+              "width": 638,
+              "height": 91,
+              "rotatedWidth": 91,
+              "rotatedHeight": 638
+            },
+            "rawWidth": 638,
+            "rawHeight": 91,
+            "width": 644,
+            "height": 97,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 646,
+            "y": 339,
+            "rotated": true,
+            "rotatedWidth": 97,
+            "rotatedHeight": 644
+          },
+          {
+            "name": "Common_Btn_1",
+            "uuid": "257316f9-7357-4d3b-804b-69e7641ae8a5",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324743_image_26.png",
+            "trim": {
+              "x": 564,
+              "y": 543,
+              "width": 253,
+              "height": 78,
+              "rotatedWidth": 78,
+              "rotatedHeight": 253
+            },
+            "rawWidth": 253,
+            "rawHeight": 78,
+            "width": 259,
+            "height": 84,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 561,
+            "y": 540,
+            "rotated": true,
+            "rotatedWidth": 84,
+            "rotatedHeight": 259
+          },
+          {
+            "name": "Common_Bg_9",
+            "uuid": "c2d440ed-f4a7-4ea4-8e97-a88cfd6fb700",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324754_image_134.png",
+            "trim": {
+              "x": 564,
+              "y": 986,
+              "width": 32,
+              "height": 32,
+              "rotatedWidth": 32,
+              "rotatedHeight": 32
+            },
+            "rawWidth": 32,
+            "rawHeight": 32,
+            "width": 38,
+            "height": 38,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 561,
+            "y": 983,
+            "rotatedWidth": 38,
+            "rotatedHeight": 38
+          },
+          {
+            "name": "Head_Hero_S_9",
+            "uuid": "94464496-e5a1-4f97-ad6a-fea007745d8d",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324751_image_101.png",
+            "trim": {
+              "x": 602,
+              "y": 802,
+              "width": 40,
+              "height": 40,
+              "rotatedWidth": 40,
+              "rotatedHeight": 40
+            },
+            "rawWidth": 40,
+            "rawHeight": 40,
+            "width": 46,
+            "height": 46,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 599,
+            "y": 799,
+            "rotatedWidth": 46,
+            "rotatedHeight": 46
+          },
+          {
+            "name": "Common_Window_Bg_2",
+            "uuid": "d009e83a-ae1a-4235-a87b-94d56b3c419a",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324755_image_140.png",
+            "trim": {
+              "x": 564,
+              "y": 802,
+              "width": 32,
+              "height": 32,
+              "rotatedWidth": 32,
+              "rotatedHeight": 32
+            },
+            "rawWidth": 32,
+            "rawHeight": 32,
+            "width": 38,
+            "height": 38,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 561,
+            "y": 799,
+            "rotatedWidth": 38,
+            "rotatedHeight": 38
+          },
+          {
+            "name": "Common_White",
+            "uuid": "df4ab8be-4410-403b-9bdc-e4884da08dc7",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324756_image_152.png",
+            "trim": {
+              "x": 564,
+              "y": 840,
+              "width": 32,
+              "height": 32,
+              "rotatedWidth": 32,
+              "rotatedHeight": 32
+            },
+            "rawWidth": 32,
+            "rawHeight": 32,
+            "width": 38,
+            "height": 38,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 561,
+            "y": 837,
+            "rotatedWidth": 38,
+            "rotatedHeight": 38
+          },
+          {
+            "name": "Head_Hero_S_7",
+            "uuid": "95c7d8a9-949b-4ace-927b-d64fbcb066d2",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324751_image_103.png",
+            "trim": {
+              "x": 602,
+              "y": 848,
+              "width": 40,
+              "height": 40,
+              "rotatedWidth": 40,
+              "rotatedHeight": 40
+            },
+            "rawWidth": 40,
+            "rawHeight": 40,
+            "width": 46,
+            "height": 46,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 599,
+            "y": 845,
+            "rotatedWidth": 46,
+            "rotatedHeight": 46
+          },
+          {
+            "name": "Common_Window_Bg_7",
+            "uuid": "e4fb36b8-8e6e-4f9e-b4e6-f1038d39dec5",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324756_image_156.png",
+            "trim": {
+              "x": 564,
+              "y": 878,
+              "width": 32,
+              "height": 32,
+              "rotatedWidth": 32,
+              "rotatedHeight": 32
+            },
+            "rawWidth": 32,
+            "rawHeight": 32,
+            "width": 38,
+            "height": 38,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 561,
+            "y": 875,
+            "rotatedWidth": 38,
+            "rotatedHeight": 38
+          },
+          {
+            "name": "Common_Weapon_Bg_0(1)",
+            "uuid": "07dcb078-a581-4e0e-8396-597999f1bc10",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324740_image_3.png",
+            "trim": {
+              "x": 564,
+              "y": 916,
+              "width": 64,
+              "height": 64,
+              "rotatedWidth": 64,
+              "rotatedHeight": 64
+            },
+            "rawWidth": 64,
+            "rawHeight": 64,
+            "width": 70,
+            "height": 70,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 561,
+            "y": 913,
+            "rotatedWidth": 70,
+            "rotatedHeight": 70
+          },
+          {
+            "name": "default_progressbar",
+            "uuid": "a959688c-c547-4295-8dfc-39578b4e6cef",
+            "textureUuid": "144261db-3acc-4ff7-af42-c4bbeaac9107",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324753_image_120.png",
+            "trim": {
+              "x": 602,
+              "y": 894,
+              "width": 30,
+              "height": 15,
+              "rotatedWidth": 30,
+              "rotatedHeight": 15
+            },
+            "rawWidth": 30,
+            "rawHeight": 15,
+            "width": 36,
+            "height": 21,
+            "originalPath": "D:/proSvn/G102/library/imports/14/144261db-3acc-4ff7-af42-c4bbeaac9107.png",
+            "x": 599,
+            "y": 891,
+            "rotatedWidth": 36,
+            "rotatedHeight": 21
+          },
+          {
+            "name": "Hero_Stat_7",
+            "uuid": "6493a4fb-dd16-4aff-827c-9fea30e432d8",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324747_image_67.png",
+            "trim": {
+              "x": 602,
+              "y": 986,
+              "width": 29,
+              "height": 32,
+              "rotatedWidth": 29,
+              "rotatedHeight": 32
+            },
+            "rawWidth": 29,
+            "rawHeight": 32,
+            "width": 35,
+            "height": 38,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 599,
+            "y": 983,
+            "rotatedWidth": 35,
+            "rotatedHeight": 38
+          },
+          {
+            "name": "Hero_Stat_6",
+            "uuid": "de65ecf9-166a-4538-a096-85b32410ac25",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324756_image_151.png",
+            "trim": {
+              "x": 637,
+              "y": 986,
+              "width": 29,
+              "height": 32,
+              "rotatedWidth": 29,
+              "rotatedHeight": 32
+            },
+            "rawWidth": 29,
+            "rawHeight": 32,
+            "width": 35,
+            "height": 38,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 634,
+            "y": 983,
+            "rotatedWidth": 35,
+            "rotatedHeight": 38
+          },
+          {
+            "name": "Hero_Stat_9",
+            "uuid": "d135f46d-f14c-4fec-873c-928fac2897e1",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324755_image_141.png",
+            "trim": {
+              "x": 672,
+              "y": 986,
+              "width": 31,
+              "height": 29,
+              "rotatedWidth": 29,
+              "rotatedHeight": 31
+            },
+            "rawWidth": 31,
+            "rawHeight": 29,
+            "width": 37,
+            "height": 35,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 669,
+            "y": 983,
+            "rotated": true,
+            "rotatedWidth": 35,
+            "rotatedHeight": 37
+          },
+          {
+            "name": "Weapon_Text_5_0",
+            "uuid": "181a1405-b522-4e6d-b2fd-29cd7b13cbe7",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324742_image_15.png",
+            "trim": {
+              "x": 707,
+              "y": 986,
+              "width": 29,
+              "height": 29,
+              "rotatedWidth": 29,
+              "rotatedHeight": 29
+            },
+            "rawWidth": 29,
+            "rawHeight": 29,
+            "width": 35,
+            "height": 35,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 704,
+            "y": 983,
+            "rotatedWidth": 35,
+            "rotatedHeight": 35
+          },
+          {
+            "name": "Weapon_Icon_0_2",
+            "uuid": "1bf06bd6-587b-4f5c-a164-cd6da00325fc",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324742_image_20.png",
+            "trim": {
+              "x": 742,
+              "y": 986,
+              "width": 29,
+              "height": 29,
+              "rotatedWidth": 29,
+              "rotatedHeight": 29
+            },
+            "rawWidth": 29,
+            "rawHeight": 29,
+            "width": 35,
+            "height": 35,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 739,
+            "y": 983,
+            "rotatedWidth": 35,
+            "rotatedHeight": 35
+          },
+          {
+            "name": "Common_Btn_2",
+            "uuid": "0cd9aefd-3d21-476e-b1be-3cfd37ad1be9",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324741_image_9.png",
+            "trim": {
+              "x": 777,
+              "y": 342,
+              "width": 237,
+              "height": 65,
+              "rotatedWidth": 237,
+              "rotatedHeight": 65
+            },
+            "rawWidth": 237,
+            "rawHeight": 65,
+            "width": 243,
+            "height": 71,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 774,
+            "y": 339,
+            "rotatedWidth": 243,
+            "rotatedHeight": 71
+          },
+          {
+            "name": "Weapon_Bg_2",
+            "uuid": "dd71b61e-1c4c-4a68-8226-491a23f3e996",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324755_image_148.png",
+            "trim": {
+              "x": 746,
+              "y": 342,
+              "width": 25,
+              "height": 27,
+              "rotatedWidth": 25,
+              "rotatedHeight": 27
+            },
+            "rawWidth": 25,
+            "rawHeight": 27,
+            "width": 31,
+            "height": 33,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 743,
+            "y": 339,
+            "rotatedWidth": 31,
+            "rotatedHeight": 33
+          },
+          {
+            "name": "Common_Weapon_Bg_2",
+            "uuid": "58f171d8-ac88-4619-8722-225378eff7e3",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324746_image_60.png",
+            "trim": {
+              "x": 746,
+              "y": 375,
+              "width": 25,
+              "height": 25,
+              "rotatedWidth": 25,
+              "rotatedHeight": 25
+            },
+            "rawWidth": 25,
+            "rawHeight": 25,
+            "width": 31,
+            "height": 31,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 743,
+            "y": 372,
+            "rotatedWidth": 31,
+            "rotatedHeight": 31
+          },
+          {
+            "name": "Weapon_Bg_1",
+            "uuid": "d9167ca6-703b-4d11-8c05-1a034819b635",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324755_image_145.png",
+            "trim": {
+              "x": 746,
+              "y": 406,
+              "width": 24,
+              "height": 24,
+              "rotatedWidth": 24,
+              "rotatedHeight": 24
+            },
+            "rawWidth": 24,
+            "rawHeight": 24,
+            "width": 30,
+            "height": 30,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 743,
+            "y": 403,
+            "rotatedWidth": 30,
+            "rotatedHeight": 30
+          },
+          {
+            "name": "Common_Btn_3",
+            "uuid": "64135f69-f927-44e9-a66f-291f5b17f98c",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324747_image_66.png",
+            "trim": {
+              "x": 777,
+              "y": 413,
+              "width": 237,
+              "height": 65,
+              "rotatedWidth": 237,
+              "rotatedHeight": 65
+            },
+            "rawWidth": 237,
+            "rawHeight": 65,
+            "width": 243,
+            "height": 71,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 774,
+            "y": 410,
+            "rotatedWidth": 243,
+            "rotatedHeight": 71
+          },
+          {
+            "name": "ExWeapon_Star_2_0",
+            "uuid": "a7ccd883-0f45-422b-8848-04b78eed97b8",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324753_image_118.png",
+            "trim": {
+              "x": 746,
+              "y": 436,
+              "width": 24,
+              "height": 17,
+              "rotatedWidth": 24,
+              "rotatedHeight": 17
+            },
+            "rawWidth": 24,
+            "rawHeight": 17,
+            "width": 30,
+            "height": 23,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 743,
+            "y": 433,
+            "rotatedWidth": 30,
+            "rotatedHeight": 23
+          },
+          {
+            "name": "Common_Function_Title",
+            "uuid": "3f87d382-15a6-4612-bcf9-fd878a6e6e5f",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324745_image_45.png",
+            "trim": {
+              "x": 746,
+              "y": 484,
+              "width": 493,
+              "height": 108,
+              "rotatedWidth": 108,
+              "rotatedHeight": 493
+            },
+            "rawWidth": 493,
+            "rawHeight": 108,
+            "width": 499,
+            "height": 114,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 743,
+            "y": 481,
+            "rotated": true,
+            "rotatedWidth": 114,
+            "rotatedHeight": 499
+          },
+          {
+            "name": "Weapon_Icon_0",
+            "uuid": "94e98815-87ab-4f4e-af2c-ca2595cfdb8d",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324751_image_102.png",
+            "trim": {
+              "x": 746,
+              "y": 459,
+              "width": 18,
+              "height": 18,
+              "rotatedWidth": 18,
+              "rotatedHeight": 18
+            },
+            "rawWidth": 18,
+            "rawHeight": 18,
+            "width": 24,
+            "height": 24,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 743,
+            "y": 456,
+            "rotatedWidth": 24,
+            "rotatedHeight": 24
+          },
+          {
+            "name": "Common_Window_Bg_4_1",
+            "uuid": "0dbbe77a-67cb-47b4-97cf-d705554dd5b5",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324741_image_10.png",
+            "trim": {
+              "x": 860,
+              "y": 484,
+              "width": 530,
+              "height": 84,
+              "rotatedWidth": 84,
+              "rotatedHeight": 530
+            },
+            "rawWidth": 530,
+            "rawHeight": 84,
+            "width": 536,
+            "height": 90,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 857,
+            "y": 481,
+            "rotated": true,
+            "rotatedWidth": 90,
+            "rotatedHeight": 536
+          },
+          {
+            "name": "Item_101004",
+            "uuid": "56c66064-909d-48a1-b441-03df091efc42",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324746_image_57.png",
+            "trim": {
+              "x": 950,
+              "y": 484,
+              "width": 68,
+              "height": 68,
+              "rotatedWidth": 68,
+              "rotatedHeight": 68
+            },
+            "rawWidth": 68,
+            "rawHeight": 68,
+            "width": 74,
+            "height": 74,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 947,
+            "y": 481,
+            "rotatedWidth": 74,
+            "rotatedHeight": 74
+          },
+          {
+            "name": "Item_101001",
+            "uuid": "6080858d-6a76-4dde-8ed8-aed052c46157",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324747_image_63.png",
+            "trim": {
+              "x": 950,
+              "y": 558,
+              "width": 68,
+              "height": 68,
+              "rotatedWidth": 68,
+              "rotatedHeight": 68
+            },
+            "rawWidth": 68,
+            "rawHeight": 68,
+            "width": 74,
+            "height": 74,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 947,
+            "y": 555,
+            "rotatedWidth": 74,
+            "rotatedHeight": 74
+          },
+          {
+            "name": "Item_101002",
+            "uuid": "6d741fb6-a929-4449-b85f-3e7cb47ec7e5",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324748_image_73.png",
+            "trim": {
+              "x": 950,
+              "y": 632,
+              "width": 68,
+              "height": 68,
+              "rotatedWidth": 68,
+              "rotatedHeight": 68
+            },
+            "rawWidth": 68,
+            "rawHeight": 68,
+            "width": 74,
+            "height": 74,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 947,
+            "y": 629,
+            "rotatedWidth": 74,
+            "rotatedHeight": 74
+          },
+          {
+            "name": "Item_101005",
+            "uuid": "8a03cffe-25c3-44c6-bef3-009ce3365bf1",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324750_image_92.png",
+            "trim": {
+              "x": 950,
+              "y": 706,
+              "width": 68,
+              "height": 68,
+              "rotatedWidth": 68,
+              "rotatedHeight": 68
+            },
+            "rawWidth": 68,
+            "rawHeight": 68,
+            "width": 74,
+            "height": 74,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 947,
+            "y": 703,
+            "rotatedWidth": 74,
+            "rotatedHeight": 74
+          },
+          {
+            "name": "Item_101003",
+            "uuid": "d2215158-9225-4259-8635-a86d0965d3c5",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324755_image_143.png",
+            "trim": {
+              "x": 950,
+              "y": 780,
+              "width": 68,
+              "height": 68,
+              "rotatedWidth": 68,
+              "rotatedHeight": 68
+            },
+            "rawWidth": 68,
+            "rawHeight": 68,
+            "width": 74,
+            "height": 74,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 947,
+            "y": 777,
+            "rotatedWidth": 74,
+            "rotatedHeight": 74
+          },
+          {
+            "name": "Item_100005",
+            "uuid": "0c5b1b9c-09a7-4045-810a-5f4d4c647541",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324741_image_7.png",
+            "trim": {
+              "x": 950,
+              "y": 854,
+              "width": 67,
+              "height": 67,
+              "rotatedWidth": 67,
+              "rotatedHeight": 67
+            },
+            "rawWidth": 67,
+            "rawHeight": 67,
+            "width": 73,
+            "height": 73,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 947,
+            "y": 851,
+            "rotatedWidth": 73,
+            "rotatedHeight": 73
+          },
+          {
+            "name": "Item_100002",
+            "uuid": "224d7170-7a5f-4ce0-b938-80e829d2644a",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324743_image_23.png",
+            "trim": {
+              "x": 950,
+              "y": 927,
+              "width": 67,
+              "height": 67,
+              "rotatedWidth": 67,
+              "rotatedHeight": 67
+            },
+            "rawWidth": 67,
+            "rawHeight": 67,
+            "width": 73,
+            "height": 73,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 947,
+            "y": 924,
+            "rotatedWidth": 73,
+            "rotatedHeight": 73
+          },
+          {
+            "name": "Text_Quality_3",
+            "uuid": "0299e645-c1ee-43e6-bd57-dc650ad5fc38",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324740_image_1.png",
+            "trim": {
+              "x": 950,
+              "y": 1000,
+              "width": 21,
+              "height": 27,
+              "rotatedWidth": 27,
+              "rotatedHeight": 21
+            },
+            "rawWidth": 21,
+            "rawHeight": 27,
+            "width": 27,
+            "height": 33,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 947,
+            "y": 997,
+            "rotated": true,
+            "rotatedWidth": 33,
+            "rotatedHeight": 27
+          },
+          {
+            "name": "Weapon_Text_1_0",
+            "uuid": "413d6018-149c-4966-bc25-4361a845a62e",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324745_image_47.png",
+            "trim": {
+              "x": 777,
+              "y": 983,
+              "width": 29,
+              "height": 29,
+              "rotatedWidth": 29,
+              "rotatedHeight": 29
+            },
+            "rawWidth": 29,
+            "rawHeight": 29,
+            "width": 35,
+            "height": 35,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 774,
+            "y": 980,
+            "rotatedWidth": 35,
+            "rotatedHeight": 35
+          },
+          {
+            "name": "Weapon_Text_4_0",
+            "uuid": "4d996275-1425-4849-b1d4-3beee0a970bc",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324746_image_53.png",
+            "trim": {
+              "x": 812,
+              "y": 983,
+              "width": 29,
+              "height": 29,
+              "rotatedWidth": 29,
+              "rotatedHeight": 29
+            },
+            "rawWidth": 29,
+            "rawHeight": 29,
+            "width": 35,
+            "height": 35,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 809,
+            "y": 980,
+            "rotatedWidth": 35,
+            "rotatedHeight": 35
+          }
+        ],
+        "width": 1021,
+        "height": 1024,
+        "name": "AutoAtlas-2",
+        "imagePath": "D:\\proSvn\\G102\\temp\\TexturePacker\\build\\native\\assets\\resources\\Images\\common_ui\\AutoAtlas.pac\\AutoAtlas-2.png",
+        "compressd": {
+          "suffix": [
+            ".png"
+          ],
+          "imagePathNoExt": "D:\\proSvn\\G102\\temp\\TexturePacker\\build\\native\\assets\\resources\\Images\\common_ui\\AutoAtlas.pac\\compressed\\AutoAtlas-2"
+        }
+      },
+      {
+        "files": [
+          {
+            "name": "Common_Window3_1",
+            "uuid": "189e9a3b-e259-4f8b-95e4-e1ff225c0b88",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324742_image_17.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 568,
+              "height": 527,
+              "rotatedWidth": 568,
+              "rotatedHeight": 527
+            },
+            "rawWidth": 568,
+            "rawHeight": 527,
+            "width": 574,
+            "height": 533,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 0,
+            "y": 0,
+            "rotatedWidth": 574,
+            "rotatedHeight": 533
+          },
+          {
+            "name": "Common_Loading_1",
+            "uuid": "3dba6b09-3983-4cce-97cb-707a691288e0",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324745_image_44.png",
+            "trim": {
+              "x": 577,
+              "y": 3,
+              "width": 200,
+              "height": 200,
+              "rotatedWidth": 200,
+              "rotatedHeight": 200
+            },
+            "rawWidth": 200,
+            "rawHeight": 200,
+            "width": 206,
+            "height": 206,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 574,
+            "y": 0,
+            "rotatedWidth": 206,
+            "rotatedHeight": 206
+          },
+          {
+            "name": "Common_Window3_2",
+            "uuid": "bdae71f3-c116-4285-a29c-e2d1e2bd15c8",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324754_image_132.png",
+            "trim": {
+              "x": 783,
+              "y": 3,
+              "width": 398,
+              "height": 60,
+              "rotatedWidth": 60,
+              "rotatedHeight": 398
+            },
+            "rawWidth": 398,
+            "rawHeight": 60,
+            "width": 404,
+            "height": 66,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 780,
+            "y": 0,
+            "rotated": true,
+            "rotatedWidth": 66,
+            "rotatedHeight": 404
+          },
+          {
+            "name": "Common_Btn_0",
+            "uuid": "f4503c36-5407-46f7-a662-7543577cafa6",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324757_image_164.png",
+            "trim": {
+              "x": 577,
+              "y": 209,
+              "width": 313,
+              "height": 87,
+              "rotatedWidth": 87,
+              "rotatedHeight": 313
+            },
+            "rawWidth": 313,
+            "rawHeight": 87,
+            "width": 319,
+            "height": 93,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 574,
+            "y": 206,
+            "rotated": true,
+            "rotatedWidth": 93,
+            "rotatedHeight": 319
+          },
+          {
+            "name": "Item_frame_0",
+            "uuid": "2f0ac332-b4b9-40b3-b534-12ddc71ff095",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324744_image_35.png",
+            "trim": {
+              "x": 670,
+              "y": 209,
+              "width": 99,
+              "height": 99,
+              "rotatedWidth": 99,
+              "rotatedHeight": 99
+            },
+            "rawWidth": 99,
+            "rawHeight": 99,
+            "width": 105,
+            "height": 105,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 667,
+            "y": 206,
+            "rotatedWidth": 105,
+            "rotatedHeight": 105
+          },
+          {
+            "name": "Item_frame_3",
+            "uuid": "55704755-f5b1-42bf-8596-d264b8adf137",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324746_image_56.png",
+            "trim": {
+              "x": 670,
+              "y": 314,
+              "width": 99,
+              "height": 99,
+              "rotatedWidth": 99,
+              "rotatedHeight": 99
+            },
+            "rawWidth": 99,
+            "rawHeight": 99,
+            "width": 105,
+            "height": 105,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 667,
+            "y": 311,
+            "rotatedWidth": 105,
+            "rotatedHeight": 105
+          },
+          {
+            "name": "Common_Arrow",
+            "uuid": "9f12a1d1-c60a-4714-962a-b977880e2b3a",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324752_image_110.png",
+            "trim": {
+              "x": 775,
+              "y": 407,
+              "width": 122,
+              "height": 64,
+              "rotatedWidth": 64,
+              "rotatedHeight": 122
+            },
+            "rawWidth": 122,
+            "rawHeight": 64,
+            "width": 128,
+            "height": 70,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 772,
+            "y": 404,
+            "rotated": true,
+            "rotatedWidth": 70,
+            "rotatedHeight": 128
+          },
+          {
+            "name": "Item_frame_5",
+            "uuid": "785f8581-ba5c-47c6-8bb0-707a642b0183",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324749_image_83.png",
+            "trim": {
+              "x": 670,
+              "y": 419,
+              "width": 99,
+              "height": 99,
+              "rotatedWidth": 99,
+              "rotatedHeight": 99
+            },
+            "rawWidth": 99,
+            "rawHeight": 99,
+            "width": 105,
+            "height": 105,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 667,
+            "y": 416,
+            "rotatedWidth": 105,
+            "rotatedHeight": 105
+          },
+          {
+            "name": "Item_frame_4",
+            "uuid": "87fce8c3-0684-413a-a5ec-d2a106f99b7f",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324750_image_90.png",
+            "trim": {
+              "x": 670,
+              "y": 524,
+              "width": 99,
+              "height": 99,
+              "rotatedWidth": 99,
+              "rotatedHeight": 99
+            },
+            "rawWidth": 99,
+            "rawHeight": 99,
+            "width": 105,
+            "height": 105,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 667,
+            "y": 521,
+            "rotatedWidth": 105,
+            "rotatedHeight": 105
+          },
+          {
+            "name": "Item_100009",
+            "uuid": "2443bba5-91e6-459b-bb12-60d1ec47ddc9",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324743_image_24.png",
+            "trim": {
+              "x": 775,
+              "y": 535,
+              "width": 67,
+              "height": 67,
+              "rotatedWidth": 67,
+              "rotatedHeight": 67
+            },
+            "rawWidth": 67,
+            "rawHeight": 67,
+            "width": 73,
+            "height": 73,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 772,
+            "y": 532,
+            "rotatedWidth": 73,
+            "rotatedHeight": 73
+          },
+          {
+            "name": "Item_100008",
+            "uuid": "30222a3f-58de-443e-af72-71ffa3ad7c0b",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324744_image_36.png",
+            "trim": {
+              "x": 775,
+              "y": 608,
+              "width": 67,
+              "height": 67,
+              "rotatedWidth": 67,
+              "rotatedHeight": 67
+            },
+            "rawWidth": 67,
+            "rawHeight": 67,
+            "width": 73,
+            "height": 73,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 772,
+            "y": 605,
+            "rotatedWidth": 73,
+            "rotatedHeight": 73
+          },
+          {
+            "name": "Sprite_Up_Btn_0",
+            "uuid": "4b2a5604-2be0-4234-a2fe-b119979ef4a1",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324745_image_52.png",
+            "trim": {
+              "x": 577,
+              "y": 528,
+              "width": 84,
+              "height": 84,
+              "rotatedWidth": 84,
+              "rotatedHeight": 84
+            },
+            "rawWidth": 84,
+            "rawHeight": 84,
+            "width": 90,
+            "height": 90,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 574,
+            "y": 525,
+            "rotatedWidth": 90,
+            "rotatedHeight": 90
+          },
+          {
+            "name": "Common_Loading_0",
+            "uuid": "2de9e5c9-686c-4bfa-9158-706167908e1e",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324744_image_33.png",
+            "trim": {
+              "x": 3,
+              "y": 618,
+              "width": 121,
+              "height": 119,
+              "rotatedWidth": 119,
+              "rotatedHeight": 121
+            },
+            "rawWidth": 125,
+            "rawHeight": 125,
+            "width": 127,
+            "height": 125,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 0,
+            "y": 615,
+            "rotated": true,
+            "rotatedWidth": 125,
+            "rotatedHeight": 127
+          },
+          {
+            "name": "Common_Btn_Back",
+            "uuid": "283f6022-b400-4035-8e1d-2744473ecc73",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324744_image_29.png",
+            "trim": {
+              "x": 3,
+              "y": 536,
+              "width": 89,
+              "height": 72,
+              "rotatedWidth": 89,
+              "rotatedHeight": 72
+            },
+            "rawWidth": 89,
+            "rawHeight": 72,
+            "width": 95,
+            "height": 78,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 0,
+            "y": 533,
+            "rotatedWidth": 95,
+            "rotatedHeight": 78
+          },
+          {
+            "name": "Item_30202",
+            "uuid": "0b27331e-4639-47c1-9aca-b8feb03aefbe",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324740_image_5.png",
+            "trim": {
+              "x": 98,
+              "y": 536,
+              "width": 73,
+              "height": 73,
+              "rotatedWidth": 73,
+              "rotatedHeight": 73
+            },
+            "rawWidth": 73,
+            "rawHeight": 73,
+            "width": 79,
+            "height": 79,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 95,
+            "y": 533,
+            "rotatedWidth": 79,
+            "rotatedHeight": 79
+          },
+          {
+            "name": "Weapon_Bg_3",
+            "uuid": "11e02d57-71be-43fb-968c-cc8d68153c76",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324742_image_12.png",
+            "trim": {
+              "x": 128,
+              "y": 615,
+              "width": 108,
+              "height": 129,
+              "rotatedWidth": 108,
+              "rotatedHeight": 129
+            },
+            "rawWidth": 108,
+            "rawHeight": 129,
+            "width": 114,
+            "height": 135,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 125,
+            "y": 612,
+            "rotatedWidth": 114,
+            "rotatedHeight": 135
+          },
+          {
+            "name": "Item_frame_Dark",
+            "uuid": "a79419d2-db11-4aed-ab88-3fff204f6536",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324753_image_117.png",
+            "trim": {
+              "x": 3,
+              "y": 745,
+              "width": 99,
+              "height": 99,
+              "rotatedWidth": 99,
+              "rotatedHeight": 99
+            },
+            "rawWidth": 99,
+            "rawHeight": 99,
+            "width": 105,
+            "height": 105,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 0,
+            "y": 742,
+            "rotatedWidth": 105,
+            "rotatedHeight": 105
+          },
+          {
+            "name": "Item_30101",
+            "uuid": "0cbe3991-95fa-4f6b-a40c-f095e39a9887",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324741_image_8.png",
+            "trim": {
+              "x": 177,
+              "y": 536,
+              "width": 73,
+              "height": 73,
+              "rotatedWidth": 73,
+              "rotatedHeight": 73
+            },
+            "rawWidth": 73,
+            "rawHeight": 73,
+            "width": 79,
+            "height": 79,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 174,
+            "y": 533,
+            "rotatedWidth": 79,
+            "rotatedHeight": 79
+          },
+          {
+            "name": "Item_frame_1",
+            "uuid": "e784da92-d817-4ef9-a5c2-46d042e1d23d",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324756_image_158.png",
+            "trim": {
+              "x": 242,
+              "y": 615,
+              "width": 99,
+              "height": 99,
+              "rotatedWidth": 99,
+              "rotatedHeight": 99
+            },
+            "rawWidth": 99,
+            "rawHeight": 99,
+            "width": 105,
+            "height": 105,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 239,
+            "y": 612,
+            "rotatedWidth": 105,
+            "rotatedHeight": 105
+          },
+          {
+            "name": "Item_30303",
+            "uuid": "21cabbe8-9cee-443b-985e-0e6279be219d",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324743_image_22.png",
+            "trim": {
+              "x": 256,
+              "y": 536,
+              "width": 73,
+              "height": 73,
+              "rotatedWidth": 73,
+              "rotatedHeight": 73
+            },
+            "rawWidth": 73,
+            "rawHeight": 73,
+            "width": 79,
+            "height": 79,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 253,
+            "y": 533,
+            "rotatedWidth": 79,
+            "rotatedHeight": 79
+          },
+          {
+            "name": "Item_30302",
+            "uuid": "2c91ae3e-23f5-4215-801a-ebb7486c957a",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324744_image_31.png",
+            "trim": {
+              "x": 335,
+              "y": 536,
+              "width": 73,
+              "height": 73,
+              "rotatedWidth": 73,
+              "rotatedHeight": 73
+            },
+            "rawWidth": 73,
+            "rawHeight": 73,
+            "width": 79,
+            "height": 79,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 332,
+            "y": 533,
+            "rotatedWidth": 79,
+            "rotatedHeight": 79
+          },
+          {
+            "name": "Common_IconBg_0",
+            "uuid": "a93e8a8d-190c-4c15-b768-a91997437a74",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324753_image_119.png",
+            "trim": {
+              "x": 414,
+              "y": 536,
+              "width": 90,
+              "height": 90,
+              "rotatedWidth": 90,
+              "rotatedHeight": 90
+            },
+            "rawWidth": 90,
+            "rawHeight": 90,
+            "width": 96,
+            "height": 96,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 411,
+            "y": 533,
+            "rotatedWidth": 96,
+            "rotatedHeight": 96
+          },
+          {
+            "name": "Common_Checkmark",
+            "uuid": "17a2e725-1b0e-4587-ac66-395bef3ec4de",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324742_image_14.png",
+            "trim": {
+              "x": 347,
+              "y": 615,
+              "width": 73,
+              "height": 60,
+              "rotatedWidth": 60,
+              "rotatedHeight": 73
+            },
+            "rawWidth": 73,
+            "rawHeight": 60,
+            "width": 79,
+            "height": 66,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 344,
+            "y": 612,
+            "rotated": true,
+            "rotatedWidth": 66,
+            "rotatedHeight": 79
+          },
+          {
+            "name": "Icon_ZhanLi",
+            "uuid": "aa527b57-e0a5-4845-aabb-ba3dbb2188ae",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324753_image_121.png",
+            "trim": {
+              "x": 510,
+              "y": 536,
+              "width": 63,
+              "height": 59,
+              "rotatedWidth": 59,
+              "rotatedHeight": 63
+            },
+            "rawWidth": 63,
+            "rawHeight": 59,
+            "width": 69,
+            "height": 65,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 507,
+            "y": 533,
+            "rotated": true,
+            "rotatedWidth": 65,
+            "rotatedHeight": 69
+          },
+          {
+            "name": "PowerUp_Icon_0",
+            "uuid": "a67d14ba-965f-45ad-8c7e-0e5c99224d09",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324752_image_115.png",
+            "trim": {
+              "x": 510,
+              "y": 605,
+              "width": 63,
+              "height": 58,
+              "rotatedWidth": 58,
+              "rotatedHeight": 63
+            },
+            "rawWidth": 63,
+            "rawHeight": 58,
+            "width": 69,
+            "height": 64,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 507,
+            "y": 602,
+            "rotated": true,
+            "rotatedWidth": 64,
+            "rotatedHeight": 69
+          },
+          {
+            "name": "Sprite_Up_Btn_1",
+            "uuid": "baa5f579-b0b7-4e47-a2f1-a35e0bce86c1",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324754_image_131.png",
+            "trim": {
+              "x": 413,
+              "y": 632,
+              "width": 84,
+              "height": 84,
+              "rotatedWidth": 84,
+              "rotatedHeight": 84
+            },
+            "rawWidth": 84,
+            "rawHeight": 84,
+            "width": 90,
+            "height": 90,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 410,
+            "y": 629,
+            "rotatedWidth": 90,
+            "rotatedHeight": 90
+          },
+          {
+            "name": "Common_YouHui",
+            "uuid": "752077d4-93a8-4832-9bd0-d29da6e3c264",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324749_image_80.png",
+            "trim": {
+              "x": 347,
+              "y": 694,
+              "width": 60,
+              "height": 60,
+              "rotatedWidth": 60,
+              "rotatedHeight": 60
+            },
+            "rawWidth": 60,
+            "rawHeight": 60,
+            "width": 66,
+            "height": 66,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 344,
+            "y": 691,
+            "rotatedWidth": 66,
+            "rotatedHeight": 66
+          },
+          {
+            "name": "Item_30306",
+            "uuid": "2d3c9f0d-9fa7-45cf-9853-0b8b0ed90511",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324744_image_32.png",
+            "trim": {
+              "x": 242,
+              "y": 720,
+              "width": 73,
+              "height": 73,
+              "rotatedWidth": 73,
+              "rotatedHeight": 73
+            },
+            "rawWidth": 73,
+            "rawHeight": 73,
+            "width": 79,
+            "height": 79,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 239,
+            "y": 717,
+            "rotatedWidth": 79,
+            "rotatedHeight": 79
+          },
+          {
+            "name": "Item_30205",
+            "uuid": "37a30f8c-d13f-4310-a58d-51433b1f4ab8",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324745_image_41.png",
+            "trim": {
+              "x": 108,
+              "y": 750,
+              "width": 73,
+              "height": 73,
+              "rotatedWidth": 73,
+              "rotatedHeight": 73
+            },
+            "rawWidth": 73,
+            "rawHeight": 73,
+            "width": 79,
+            "height": 79,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 105,
+            "y": 747,
+            "rotatedWidth": 79,
+            "rotatedHeight": 79
+          },
+          {
+            "name": "UseItem_Btn_2",
+            "uuid": "35890dcc-6a40-4520-a12a-7ea292f3f247",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324744_image_39.png",
+            "trim": {
+              "x": 187,
+              "y": 750,
+              "width": 49,
+              "height": 52,
+              "rotatedWidth": 49,
+              "rotatedHeight": 52
+            },
+            "rawWidth": 49,
+            "rawHeight": 52,
+            "width": 55,
+            "height": 58,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 184,
+            "y": 747,
+            "rotatedWidth": 55,
+            "rotatedHeight": 58
+          },
+          {
+            "name": "Item_30304",
+            "uuid": "3b6e9d42-73b9-4e24-93ff-b099af6ddefe",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324745_image_43.png",
+            "trim": {
+              "x": 574,
+              "y": 618,
+              "width": 73,
+              "height": 73,
+              "rotatedWidth": 73,
+              "rotatedHeight": 73
+            },
+            "rawWidth": 73,
+            "rawHeight": 73,
+            "width": 79,
+            "height": 79,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 571,
+            "y": 615,
+            "rotatedWidth": 79,
+            "rotatedHeight": 79
+          },
+          {
+            "name": "Common_Weapon_Bg_0",
+            "uuid": "6509cfcf-fbc9-45c8-bd04-14242d98d957",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324747_image_68.png",
+            "trim": {
+              "x": 503,
+              "y": 674,
+              "width": 64,
+              "height": 64,
+              "rotatedWidth": 64,
+              "rotatedHeight": 64
+            },
+            "rawWidth": 64,
+            "rawHeight": 64,
+            "width": 70,
+            "height": 70,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 500,
+            "y": 671,
+            "rotatedWidth": 70,
+            "rotatedHeight": 70
+          },
+          {
+            "name": "Item_30305",
+            "uuid": "44f243d8-e618-49ed-abce-baee47b43321",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324745_image_48.png",
+            "trim": {
+              "x": 413,
+              "y": 722,
+              "width": 73,
+              "height": 73,
+              "rotatedWidth": 73,
+              "rotatedHeight": 73
+            },
+            "rawWidth": 73,
+            "rawHeight": 73,
+            "width": 79,
+            "height": 79,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 410,
+            "y": 719,
+            "rotatedWidth": 79,
+            "rotatedHeight": 79
+          },
+          {
+            "name": "Item_30105",
+            "uuid": "662f5f4a-46cb-42d5-a25a-3a2c9150866f",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324747_image_69.png",
+            "trim": {
+              "x": 321,
+              "y": 760,
+              "width": 73,
+              "height": 73,
+              "rotatedWidth": 73,
+              "rotatedHeight": 73
+            },
+            "rawWidth": 73,
+            "rawHeight": 73,
+            "width": 79,
+            "height": 79,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 318,
+            "y": 757,
+            "rotatedWidth": 79,
+            "rotatedHeight": 79
+          },
+          {
+            "name": "Item_30201",
+            "uuid": "6d78c8ad-6a4d-48ac-8f71-b3607c7bb4ff",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324748_image_74.png",
+            "trim": {
+              "x": 242,
+              "y": 799,
+              "width": 73,
+              "height": 73,
+              "rotatedWidth": 73,
+              "rotatedHeight": 73
+            },
+            "rawWidth": 73,
+            "rawHeight": 73,
+            "width": 79,
+            "height": 79,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 239,
+            "y": 796,
+            "rotatedWidth": 79,
+            "rotatedHeight": 79
+          },
+          {
+            "name": "UseItem_Btn_1",
+            "uuid": "ad5507e9-b880-48b9-ad03-1fca492fba8f",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324753_image_125.png",
+            "trim": {
+              "x": 187,
+              "y": 808,
+              "width": 49,
+              "height": 52,
+              "rotatedWidth": 49,
+              "rotatedHeight": 52
+            },
+            "rawWidth": 49,
+            "rawHeight": 52,
+            "width": 55,
+            "height": 58,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 184,
+            "y": 805,
+            "rotatedWidth": 55,
+            "rotatedHeight": 58
+          },
+          {
+            "name": "Item_30301",
+            "uuid": "6f15b325-dccf-4e80-a0bc-2e7767212a8a",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324748_image_76.png",
+            "trim": {
+              "x": 108,
+              "y": 829,
+              "width": 73,
+              "height": 73,
+              "rotatedWidth": 73,
+              "rotatedHeight": 73
+            },
+            "rawWidth": 73,
+            "rawHeight": 73,
+            "width": 79,
+            "height": 79,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 105,
+            "y": 826,
+            "rotatedWidth": 79,
+            "rotatedHeight": 79
+          },
+          {
+            "name": "ExWeapon_Star_0_0",
+            "uuid": "868e5e7a-0f03-4191-b4e7-aa630fe83fa7",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324750_image_89.png",
+            "trim": {
+              "x": 187,
+              "y": 866,
+              "width": 44,
+              "height": 44,
+              "rotatedWidth": 44,
+              "rotatedHeight": 44
+            },
+            "rawWidth": 44,
+            "rawHeight": 44,
+            "width": 50,
+            "height": 50,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 184,
+            "y": 863,
+            "rotatedWidth": 50,
+            "rotatedHeight": 50
+          },
+          {
+            "name": "Item_30204",
+            "uuid": "716c4b8c-8e96-4714-bcf0-4af5d8629d32",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324749_image_78.png",
+            "trim": {
+              "x": 3,
+              "y": 850,
+              "width": 73,
+              "height": 73,
+              "rotatedWidth": 73,
+              "rotatedHeight": 73
+            },
+            "rawWidth": 73,
+            "rawHeight": 73,
+            "width": 79,
+            "height": 79,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 0,
+            "y": 847,
+            "rotatedWidth": 79,
+            "rotatedHeight": 79
+          },
+          {
+            "name": "Item_30104",
+            "uuid": "abff462d-6d06-424e-b7db-4e9af8c5afde",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324753_image_123.png",
+            "trim": {
+              "x": 82,
+              "y": 908,
+              "width": 73,
+              "height": 73,
+              "rotatedWidth": 73,
+              "rotatedHeight": 73
+            },
+            "rawWidth": 73,
+            "rawHeight": 73,
+            "width": 79,
+            "height": 79,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 79,
+            "y": 905,
+            "rotatedWidth": 79,
+            "rotatedHeight": 79
+          },
+          {
+            "name": "Item_30106",
+            "uuid": "ca4ff441-1a06-433f-a02d-324cbb930f62",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324754_image_137.png",
+            "trim": {
+              "x": 3,
+              "y": 929,
+              "width": 73,
+              "height": 73,
+              "rotatedWidth": 73,
+              "rotatedHeight": 73
+            },
+            "rawWidth": 73,
+            "rawHeight": 73,
+            "width": 79,
+            "height": 79,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 0,
+            "y": 926,
+            "rotatedWidth": 79,
+            "rotatedHeight": 79
+          },
+          {
+            "name": "Weapon_Text_0_1",
+            "uuid": "50674850-4bfd-4b91-a447-5d34c060a0ce",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324746_image_55.png",
+            "trim": {
+              "x": 82,
+              "y": 987,
+              "width": 29,
+              "height": 29,
+              "rotatedWidth": 29,
+              "rotatedHeight": 29
+            },
+            "rawWidth": 29,
+            "rawHeight": 29,
+            "width": 35,
+            "height": 35,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 79,
+            "y": 984,
+            "rotatedWidth": 35,
+            "rotatedHeight": 35
+          },
+          {
+            "name": "Weapon_Text_5_1",
+            "uuid": "573f6e96-1c39-4d7f-823a-b8608758a383",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324746_image_58.png",
+            "trim": {
+              "x": 117,
+              "y": 987,
+              "width": 29,
+              "height": 29,
+              "rotatedWidth": 29,
+              "rotatedHeight": 29
+            },
+            "rawWidth": 29,
+            "rawHeight": 29,
+            "width": 35,
+            "height": 35,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 114,
+            "y": 984,
+            "rotatedWidth": 35,
+            "rotatedHeight": 35
+          },
+          {
+            "name": "Weapon_Text_3_1",
+            "uuid": "623269db-2139-45fc-8e9b-aa5244eac082",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324747_image_64.png",
+            "trim": {
+              "x": 152,
+              "y": 987,
+              "width": 29,
+              "height": 29,
+              "rotatedWidth": 29,
+              "rotatedHeight": 29
+            },
+            "rawWidth": 29,
+            "rawHeight": 29,
+            "width": 35,
+            "height": 35,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 149,
+            "y": 984,
+            "rotatedWidth": 35,
+            "rotatedHeight": 35
+          },
+          {
+            "name": "Item_30102",
+            "uuid": "e3426010-f3b6-4b69-a159-9d229b404d3b",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324756_image_153.png",
+            "trim": {
+              "x": 653,
+              "y": 629,
+              "width": 73,
+              "height": 73,
+              "rotatedWidth": 73,
+              "rotatedHeight": 73
+            },
+            "rawWidth": 73,
+            "rawHeight": 73,
+            "width": 79,
+            "height": 79,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 650,
+            "y": 626,
+            "rotatedWidth": 79,
+            "rotatedHeight": 79
+          },
+          {
+            "name": "Weapon_Text_1_1",
+            "uuid": "7968ee65-18c7-4786-bbfc-014c1e304236",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324749_image_84.png",
+            "trim": {
+              "x": 732,
+              "y": 629,
+              "width": 29,
+              "height": 29,
+              "rotatedWidth": 29,
+              "rotatedHeight": 29
+            },
+            "rawWidth": 29,
+            "rawHeight": 29,
+            "width": 35,
+            "height": 35,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 729,
+            "y": 626,
+            "rotatedWidth": 35,
+            "rotatedHeight": 35
+          },
+          {
+            "name": "Weapon_Text_2_0",
+            "uuid": "7dc3441b-8d2c-4ecb-8fa1-6ee19aadc54c",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324749_image_87.png",
+            "trim": {
+              "x": 732,
+              "y": 664,
+              "width": 29,
+              "height": 29,
+              "rotatedWidth": 29,
+              "rotatedHeight": 29
+            },
+            "rawWidth": 29,
+            "rawHeight": 29,
+            "width": 35,
+            "height": 35,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 729,
+            "y": 661,
+            "rotatedWidth": 35,
+            "rotatedHeight": 35
+          },
+          {
+            "name": "Item_30203",
+            "uuid": "e3eaa62e-2b83-48c5-91e0-a06e3cdce724",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324756_image_155.png",
+            "trim": {
+              "x": 573,
+              "y": 697,
+              "width": 73,
+              "height": 73,
+              "rotatedWidth": 73,
+              "rotatedHeight": 73
+            },
+            "rawWidth": 73,
+            "rawHeight": 73,
+            "width": 79,
+            "height": 79,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 570,
+            "y": 694,
+            "rotatedWidth": 79,
+            "rotatedHeight": 79
+          },
+          {
+            "name": "Item_30206",
+            "uuid": "ea151e20-31b6-4502-86b1-6792c4f4b8e4",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324756_image_160.png",
+            "trim": {
+              "x": 492,
+              "y": 744,
+              "width": 73,
+              "height": 73,
+              "rotatedWidth": 73,
+              "rotatedHeight": 73
+            },
+            "rawWidth": 73,
+            "rawHeight": 73,
+            "width": 79,
+            "height": 79,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 489,
+            "y": 741,
+            "rotatedWidth": 79,
+            "rotatedHeight": 79
+          },
+          {
+            "name": "Item_30103",
+            "uuid": "ead4b1c8-5652-4e70-808d-932274533c11",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324757_image_161.png",
+            "trim": {
+              "x": 400,
+              "y": 801,
+              "width": 73,
+              "height": 73,
+              "rotatedWidth": 73,
+              "rotatedHeight": 73
+            },
+            "rawWidth": 73,
+            "rawHeight": 73,
+            "width": 79,
+            "height": 79,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 397,
+            "y": 798,
+            "rotatedWidth": 79,
+            "rotatedHeight": 79
+          },
+          {
+            "name": "Common_TextBG",
+            "uuid": "761d8dd4-ec0d-4a4f-87b8-94aa473b2919",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324749_image_81.png",
+            "trim": {
+              "x": 321,
+              "y": 839,
+              "width": 72,
+              "height": 72,
+              "rotatedWidth": 72,
+              "rotatedHeight": 72
+            },
+            "rawWidth": 72,
+            "rawHeight": 72,
+            "width": 78,
+            "height": 78,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 318,
+            "y": 836,
+            "rotatedWidth": 78,
+            "rotatedHeight": 78
+          },
+          {
+            "name": "Common_Window_Bg_6",
+            "uuid": "67defbd2-d68b-435b-9011-08cf9f0e893f",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324748_image_71.png",
+            "trim": {
+              "x": 161,
+              "y": 916,
+              "width": 64,
+              "height": 64,
+              "rotatedWidth": 64,
+              "rotatedHeight": 64
+            },
+            "rawWidth": 64,
+            "rawHeight": 64,
+            "width": 70,
+            "height": 70,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 158,
+            "y": 913,
+            "rotatedWidth": 70,
+            "rotatedHeight": 70
+          },
+          {
+            "name": "Item_100010",
+            "uuid": "35753c78-f500-4aeb-8691-4dbec251b0ee",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324744_image_38.png",
+            "trim": {
+              "x": 231,
+              "y": 916,
+              "width": 67,
+              "height": 67,
+              "rotatedWidth": 67,
+              "rotatedHeight": 67
+            },
+            "rawWidth": 67,
+            "rawHeight": 67,
+            "width": 73,
+            "height": 73,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 228,
+            "y": 913,
+            "rotatedWidth": 73,
+            "rotatedHeight": 73
+          },
+          {
+            "name": "Weapon_Text_0_0",
+            "uuid": "8fc3ee2e-c703-49f0-9a37-d2f813d8934f",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324750_image_97.png",
+            "trim": {
+              "x": 187,
+              "y": 986,
+              "width": 29,
+              "height": 29,
+              "rotatedWidth": 29,
+              "rotatedHeight": 29
+            },
+            "rawWidth": 29,
+            "rawHeight": 29,
+            "width": 35,
+            "height": 35,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 184,
+            "y": 983,
+            "rotatedWidth": 35,
+            "rotatedHeight": 35
+          },
+          {
+            "name": "Hero_Stat_5",
+            "uuid": "9288d0a7-026b-4d2b-9597-664449389823",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324751_image_99.png",
+            "trim": {
+              "x": 237,
+              "y": 878,
+              "width": 29,
+              "height": 29,
+              "rotatedWidth": 29,
+              "rotatedHeight": 29
+            },
+            "rawWidth": 29,
+            "rawHeight": 29,
+            "width": 35,
+            "height": 35,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 234,
+            "y": 875,
+            "rotatedWidth": 35,
+            "rotatedHeight": 35
+          },
+          {
+            "name": "Weapon_Text_3_0",
+            "uuid": "93571e41-dca0-44c5-b48a-34875914757f",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324751_image_100.png",
+            "trim": {
+              "x": 272,
+              "y": 878,
+              "width": 29,
+              "height": 29,
+              "rotatedWidth": 29,
+              "rotatedHeight": 29
+            },
+            "rawWidth": 29,
+            "rawHeight": 29,
+            "width": 35,
+            "height": 35,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 269,
+            "y": 875,
+            "rotatedWidth": 35,
+            "rotatedHeight": 35
+          },
+          {
+            "name": "Weapon_Text_2_1",
+            "uuid": "ac04cea4-8e44-410a-9461-783f916ae0e6",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324753_image_124.png",
+            "trim": {
+              "x": 222,
+              "y": 989,
+              "width": 29,
+              "height": 29,
+              "rotatedWidth": 29,
+              "rotatedHeight": 29
+            },
+            "rawWidth": 29,
+            "rawHeight": 29,
+            "width": 35,
+            "height": 35,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 219,
+            "y": 986,
+            "rotatedWidth": 35,
+            "rotatedHeight": 35
+          },
+          {
+            "name": "Weapon_Icon_0_1",
+            "uuid": "d2f9cdaf-4b10-40ee-9bbc-83c477eff94e",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324755_image_144.png",
+            "trim": {
+              "x": 257,
+              "y": 989,
+              "width": 29,
+              "height": 29,
+              "rotatedWidth": 29,
+              "rotatedHeight": 29
+            },
+            "rawWidth": 29,
+            "rawHeight": 29,
+            "width": 35,
+            "height": 35,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 254,
+            "y": 986,
+            "rotatedWidth": 35,
+            "rotatedHeight": 35
+          },
+          {
+            "name": "Weapon_Text_4_1",
+            "uuid": "f799fb9e-5599-4178-8dd2-c4a49de28862",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324757_image_166.png",
+            "trim": {
+              "x": 292,
+              "y": 989,
+              "width": 29,
+              "height": 29,
+              "rotatedWidth": 29,
+              "rotatedHeight": 29
+            },
+            "rawWidth": 29,
+            "rawHeight": 29,
+            "width": 35,
+            "height": 35,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 289,
+            "y": 986,
+            "rotatedWidth": 35,
+            "rotatedHeight": 35
+          },
+          {
+            "name": "Item_100004",
+            "uuid": "639ecf4c-0fbc-416a-b9f1-cb20f07bd166",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324747_image_65.png",
+            "trim": {
+              "x": 767,
+              "y": 681,
+              "width": 67,
+              "height": 67,
+              "rotatedWidth": 67,
+              "rotatedHeight": 67
+            },
+            "rawWidth": 67,
+            "rawHeight": 67,
+            "width": 73,
+            "height": 73,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 764,
+            "y": 678,
+            "rotatedWidth": 73,
+            "rotatedHeight": 73
+          },
+          {
+            "name": "Weapon_Icon_1",
+            "uuid": "5e709fe9-102b-46c2-b90b-c505154f56a7",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324747_image_62.png",
+            "trim": {
+              "x": 732,
+              "y": 699,
+              "width": 28,
+              "height": 28,
+              "rotatedWidth": 28,
+              "rotatedHeight": 28
+            },
+            "rawWidth": 28,
+            "rawHeight": 28,
+            "width": 34,
+            "height": 34,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 729,
+            "y": 696,
+            "rotatedWidth": 34,
+            "rotatedHeight": 34
+          },
+          {
+            "name": "Item_100012",
+            "uuid": "8324dfdb-3284-4b3c-84f9-c5d3ba8d66f4",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324750_image_88.png",
+            "trim": {
+              "x": 652,
+              "y": 708,
+              "width": 67,
+              "height": 67,
+              "rotatedWidth": 67,
+              "rotatedHeight": 67
+            },
+            "rawWidth": 67,
+            "rawHeight": 67,
+            "width": 73,
+            "height": 73,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 649,
+            "y": 705,
+            "rotatedWidth": 73,
+            "rotatedHeight": 73
+          },
+          {
+            "name": "Hero_Stat_2",
+            "uuid": "77e80194-fa6b-4fcb-b29f-3810c28d23c8",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324749_image_82.png",
+            "trim": {
+              "x": 725,
+              "y": 733,
+              "width": 28,
+              "height": 28,
+              "rotatedWidth": 28,
+              "rotatedHeight": 28
+            },
+            "rawWidth": 28,
+            "rawHeight": 28,
+            "width": 34,
+            "height": 34,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 722,
+            "y": 730,
+            "rotatedWidth": 34,
+            "rotatedHeight": 34
+          },
+          {
+            "name": "Item_100006",
+            "uuid": "8e2934e8-69ca-4f93-a9b5-91e15320b1f6",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324750_image_96.png",
+            "trim": {
+              "x": 571,
+              "y": 776,
+              "width": 67,
+              "height": 67,
+              "rotatedWidth": 67,
+              "rotatedHeight": 67
+            },
+            "rawWidth": 67,
+            "rawHeight": 67,
+            "width": 73,
+            "height": 73,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 568,
+            "y": 773,
+            "rotatedWidth": 73,
+            "rotatedHeight": 73
+          },
+          {
+            "name": "Item_100011",
+            "uuid": "a3c7e8f6-d4e9-4123-9f7f-aa2f88695914",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324752_image_113.png",
+            "trim": {
+              "x": 479,
+              "y": 823,
+              "width": 67,
+              "height": 67,
+              "rotatedWidth": 67,
+              "rotatedHeight": 67
+            },
+            "rawWidth": 67,
+            "rawHeight": 67,
+            "width": 73,
+            "height": 73,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 476,
+            "y": 820,
+            "rotatedWidth": 73,
+            "rotatedHeight": 73
+          },
+          {
+            "name": "Item_100007",
+            "uuid": "c273fbe1-00a6-47e8-af43-d213dee76102",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324754_image_133.png",
+            "trim": {
+              "x": 399,
+              "y": 880,
+              "width": 67,
+              "height": 67,
+              "rotatedWidth": 67,
+              "rotatedHeight": 67
+            },
+            "rawWidth": 67,
+            "rawHeight": 67,
+            "width": 73,
+            "height": 73,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 396,
+            "y": 877,
+            "rotatedWidth": 73,
+            "rotatedHeight": 73
+          },
+          {
+            "name": "Common_Btn_Close",
+            "uuid": "66b1acad-08b8-4b11-8494-c786d399ceeb",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324747_image_70.png",
+            "trim": {
+              "x": 304,
+              "y": 917,
+              "width": 66,
+              "height": 66,
+              "rotatedWidth": 66,
+              "rotatedHeight": 66
+            },
+            "rawWidth": 66,
+            "rawHeight": 66,
+            "width": 72,
+            "height": 72,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 301,
+            "y": 914,
+            "rotatedWidth": 72,
+            "rotatedHeight": 72
+          },
+          {
+            "name": "Hero_Stat_4",
+            "uuid": "b22930d6-265e-4de1-84de-29b91ca9f71f",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324754_image_128.png",
+            "trim": {
+              "x": 327,
+              "y": 989,
+              "width": 29,
+              "height": 26,
+              "rotatedWidth": 26,
+              "rotatedHeight": 29
+            },
+            "rawWidth": 29,
+            "rawHeight": 26,
+            "width": 35,
+            "height": 32,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 324,
+            "y": 986,
+            "rotated": true,
+            "rotatedWidth": 32,
+            "rotatedHeight": 35
+          },
+          {
+            "name": "Hero_Stat_1",
+            "uuid": "fac1ddc8-a77a-4413-a463-2a2a1ce9fa2e",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324757_image_169.png",
+            "trim": {
+              "x": 359,
+              "y": 989,
+              "width": 29,
+              "height": 26,
+              "rotatedWidth": 26,
+              "rotatedHeight": 29
+            },
+            "rawWidth": 29,
+            "rawHeight": 26,
+            "width": 35,
+            "height": 32,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 356,
+            "y": 986,
+            "rotated": true,
+            "rotatedWidth": 32,
+            "rotatedHeight": 35
+          },
+          {
+            "name": "Text_Quality_2",
+            "uuid": "cd97fa45-2f6d-48d3-9140-32613be3e8b4",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324754_image_138.png",
+            "trim": {
+              "x": 376,
+              "y": 953,
+              "width": 27,
+              "height": 27,
+              "rotatedWidth": 27,
+              "rotatedHeight": 27
+            },
+            "rawWidth": 27,
+            "rawHeight": 27,
+            "width": 33,
+            "height": 33,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 373,
+            "y": 950,
+            "rotatedWidth": 33,
+            "rotatedHeight": 33
+          },
+          {
+            "name": "Text_Quality_1",
+            "uuid": "27de9add-3937-47e1-b559-158a9f056153",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324743_image_28.png",
+            "trim": {
+              "x": 391,
+              "y": 986,
+              "width": 26,
+              "height": 27,
+              "rotatedWidth": 26,
+              "rotatedHeight": 27
+            },
+            "rawWidth": 26,
+            "rawHeight": 27,
+            "width": 32,
+            "height": 33,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 388,
+            "y": 983,
+            "rotatedWidth": 32,
+            "rotatedHeight": 33
+          },
+          {
+            "name": "Text_Quality_0",
+            "uuid": "afb06791-3d65-44a0-bb39-07fa3c2571a6",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324753_image_127.png",
+            "trim": {
+              "x": 409,
+              "y": 953,
+              "width": 22,
+              "height": 27,
+              "rotatedWidth": 22,
+              "rotatedHeight": 27
+            },
+            "rawWidth": 22,
+            "rawHeight": 27,
+            "width": 28,
+            "height": 33,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 406,
+            "y": 950,
+            "rotatedWidth": 28,
+            "rotatedHeight": 33
+          },
+          {
+            "name": "Common_Icon_RedDot",
+            "uuid": "8c7b6523-2b17-4585-ac55-06ec04467f88",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324750_image_95.png",
+            "trim": {
+              "x": 423,
+              "y": 986,
+              "width": 22,
+              "height": 22,
+              "rotatedWidth": 22,
+              "rotatedHeight": 22
+            },
+            "rawWidth": 22,
+            "rawHeight": 22,
+            "width": 28,
+            "height": 28,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 420,
+            "y": 983,
+            "rotatedWidth": 28,
+            "rotatedHeight": 28
+          },
+          {
+            "name": "Item_100001",
+            "uuid": "d1888e91-2f30-467d-ad8a-333d993011b5",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324755_image_142.png",
+            "trim": {
+              "x": 759,
+              "y": 754,
+              "width": 67,
+              "height": 67,
+              "rotatedWidth": 67,
+              "rotatedHeight": 67
+            },
+            "rawWidth": 67,
+            "rawHeight": 67,
+            "width": 73,
+            "height": 73,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 756,
+            "y": 751,
+            "rotatedWidth": 73,
+            "rotatedHeight": 73
+          },
+          {
+            "name": "Item_100003",
+            "uuid": "edb4e9cd-ddc9-49f7-9757-6c1569d40c20",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324757_image_162.png",
+            "trim": {
+              "x": 644,
+              "y": 781,
+              "width": 67,
+              "height": 67,
+              "rotatedWidth": 67,
+              "rotatedHeight": 67
+            },
+            "rawWidth": 67,
+            "rawHeight": 67,
+            "width": 73,
+            "height": 73,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 641,
+            "y": 778,
+            "rotatedWidth": 73,
+            "rotatedHeight": 73
+          },
+          {
+            "name": "Common_Icon_ADS",
+            "uuid": "c4c773ca-70ea-4e4c-8d71-c4d972a4862c",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324754_image_135.png",
+            "trim": {
+              "x": 552,
+              "y": 849,
+              "width": 60,
+              "height": 59,
+              "rotatedWidth": 60,
+              "rotatedHeight": 59
+            },
+            "rawWidth": 60,
+            "rawHeight": 59,
+            "width": 66,
+            "height": 65,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 549,
+            "y": 846,
+            "rotatedWidth": 66,
+            "rotatedHeight": 65
+          },
+          {
+            "name": "Item_30404",
+            "uuid": "187ee445-40ce-4368-99af-41dac5d6abf8",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324742_image_16.png",
+            "trim": {
+              "x": 472,
+              "y": 896,
+              "width": 53,
+              "height": 60,
+              "rotatedWidth": 60,
+              "rotatedHeight": 53
+            },
+            "rawWidth": 53,
+            "rawHeight": 60,
+            "width": 59,
+            "height": 66,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 469,
+            "y": 893,
+            "rotated": true,
+            "rotatedWidth": 66,
+            "rotatedHeight": 59
+          },
+          {
+            "name": "Item_30406",
+            "uuid": "32986ade-1a97-4dc5-b85f-c7703b9314db",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324744_image_37.png",
+            "trim": {
+              "x": 717,
+              "y": 827,
+              "width": 53,
+              "height": 60,
+              "rotatedWidth": 60,
+              "rotatedHeight": 53
+            },
+            "rawWidth": 53,
+            "rawHeight": 60,
+            "width": 59,
+            "height": 66,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 714,
+            "y": 824,
+            "rotated": true,
+            "rotatedWidth": 66,
+            "rotatedHeight": 59
+          },
+          {
+            "name": "Item_30403",
+            "uuid": "3754e55e-b48d-4858-9fea-d11d85ffcf4a",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324745_image_40.png",
+            "trim": {
+              "x": 783,
+              "y": 827,
+              "width": 53,
+              "height": 60,
+              "rotatedWidth": 60,
+              "rotatedHeight": 53
+            },
+            "rawWidth": 53,
+            "rawHeight": 60,
+            "width": 59,
+            "height": 66,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 780,
+            "y": 824,
+            "rotated": true,
+            "rotatedWidth": 66,
+            "rotatedHeight": 59
+          },
+          {
+            "name": "Item_30401",
+            "uuid": "74e7d62e-55eb-487f-8e72-6956ccedef66",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324749_image_79.png",
+            "trim": {
+              "x": 618,
+              "y": 854,
+              "width": 53,
+              "height": 60,
+              "rotatedWidth": 60,
+              "rotatedHeight": 53
+            },
+            "rawWidth": 53,
+            "rawHeight": 60,
+            "width": 59,
+            "height": 66,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 615,
+            "y": 851,
+            "rotated": true,
+            "rotatedWidth": 66,
+            "rotatedHeight": 59
+          },
+          {
+            "name": "Item_30405",
+            "uuid": "9ea1b0e4-09d9-4a23-8b1d-55ac0d7ba99c",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324751_image_108.png",
+            "trim": {
+              "x": 684,
+              "y": 886,
+              "width": 53,
+              "height": 60,
+              "rotatedWidth": 53,
+              "rotatedHeight": 60
+            },
+            "rawWidth": 53,
+            "rawHeight": 60,
+            "width": 59,
+            "height": 66,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 681,
+            "y": 883,
+            "rotatedWidth": 59,
+            "rotatedHeight": 66
+          },
+          {
+            "name": "Item_30402",
+            "uuid": "ad951481-f848-477f-b0eb-c0799564d284",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324753_image_126.png",
+            "trim": {
+              "x": 618,
+              "y": 913,
+              "width": 53,
+              "height": 60,
+              "rotatedWidth": 60,
+              "rotatedHeight": 53
+            },
+            "rawWidth": 53,
+            "rawHeight": 60,
+            "width": 59,
+            "height": 66,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 615,
+            "y": 910,
+            "rotated": true,
+            "rotatedWidth": 66,
+            "rotatedHeight": 59
+          },
+          {
+            "name": "ExWeapon_Star_1_0",
+            "uuid": "504ab24e-34d4-4327-9b47-291fcbd1e70c",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324746_image_54.png",
+            "trim": {
+              "x": 538,
+              "y": 914,
+              "width": 57,
+              "height": 53,
+              "rotatedWidth": 57,
+              "rotatedHeight": 53
+            },
+            "rawWidth": 57,
+            "rawHeight": 53,
+            "width": 63,
+            "height": 59,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 535,
+            "y": 911,
+            "rotatedWidth": 63,
+            "rotatedHeight": 59
+          },
+          {
+            "name": "ExWeapon_Star_1_1",
+            "uuid": "a33c871d-b0a8-4034-9b9c-f7b415ba5709",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324752_image_112.png",
+            "trim": {
+              "x": 451,
+              "y": 955,
+              "width": 57,
+              "height": 53,
+              "rotatedWidth": 53,
+              "rotatedHeight": 57
+            },
+            "rawWidth": 57,
+            "rawHeight": 53,
+            "width": 63,
+            "height": 59,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 448,
+            "y": 952,
+            "rotated": true,
+            "rotatedWidth": 59,
+            "rotatedHeight": 63
+          },
+          {
+            "name": "ExWeapon_Star_0_1",
+            "uuid": "da19f6e8-1793-44c3-ac50-792f8cf89298",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324755_image_147.png",
+            "trim": {
+              "x": 684,
+              "y": 952,
+              "width": 44,
+              "height": 44,
+              "rotatedWidth": 44,
+              "rotatedHeight": 44
+            },
+            "rawWidth": 44,
+            "rawHeight": 44,
+            "width": 50,
+            "height": 50,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 681,
+            "y": 949,
+            "rotatedWidth": 50,
+            "rotatedHeight": 50
+          },
+          {
+            "name": "Head_Hero_S_10",
+            "uuid": "a0baa859-30c2-416a-bfc6-e2f0c97c28d3",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324752_image_111.png",
+            "trim": {
+              "x": 601,
+              "y": 972,
+              "width": 40,
+              "height": 40,
+              "rotatedWidth": 40,
+              "rotatedHeight": 40
+            },
+            "rawWidth": 40,
+            "rawHeight": 40,
+            "width": 46,
+            "height": 46,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 598,
+            "y": 969,
+            "rotatedWidth": 46,
+            "rotatedHeight": 46
+          },
+          {
+            "name": "Head_Hero_S_3",
+            "uuid": "b74b4218-bee3-4d60-aa4a-97743b77f652",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324754_image_129.png",
+            "trim": {
+              "x": 510,
+              "y": 973,
+              "width": 40,
+              "height": 40,
+              "rotatedWidth": 40,
+              "rotatedHeight": 40
+            },
+            "rawWidth": 40,
+            "rawHeight": 40,
+            "width": 46,
+            "height": 46,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 507,
+            "y": 970,
+            "rotatedWidth": 46,
+            "rotatedHeight": 46
+          },
+          {
+            "name": "Head_Hero_S_4",
+            "uuid": "ddf7bb97-44fb-47e1-bd87-d849ddd72af0",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324755_image_149.png",
+            "trim": {
+              "x": 734,
+              "y": 952,
+              "width": 40,
+              "height": 40,
+              "rotatedWidth": 40,
+              "rotatedHeight": 40
+            },
+            "rawWidth": 40,
+            "rawHeight": 40,
+            "width": 46,
+            "height": 46,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 731,
+            "y": 949,
+            "rotatedWidth": 46,
+            "rotatedHeight": 46
+          },
+          {
+            "name": "Head_Hero_S_1",
+            "uuid": "f21778af-d997-4fe7-9983-32a252946db8",
+            "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229324757_image_163.png",
+            "trim": {
+              "x": 743,
+              "y": 886,
+              "width": 40,
+              "height": 40,
+              "rotatedWidth": 40,
+              "rotatedHeight": 40
+            },
+            "rawWidth": 40,
+            "rawHeight": 40,
+            "width": 46,
+            "height": 46,
+            "originalPath": "D:/proSvn/G102/library/imports/72/7246ad07-c5e6-4e60-aebe-fa81d8199981.png",
+            "x": 740,
+            "y": 883,
+            "rotatedWidth": 46,
+            "rotatedHeight": 46
+          }
+        ],
+        "width": 846,
+        "height": 1021,
+        "name": "AutoAtlas-3",
+        "imagePath": "D:\\proSvn\\G102\\temp\\TexturePacker\\build\\native\\assets\\resources\\Images\\common_ui\\AutoAtlas.pac\\AutoAtlas-3.png",
+        "compressd": {
+          "suffix": [
+            ".png"
+          ],
+          "imagePathNoExt": "D:\\proSvn\\G102\\temp\\TexturePacker\\build\\native\\assets\\resources\\Images\\common_ui\\AutoAtlas.pac\\compressed\\AutoAtlas-3"
+        }
+      }
+    ],
+    "unpackedTextures": []
+  }
+}

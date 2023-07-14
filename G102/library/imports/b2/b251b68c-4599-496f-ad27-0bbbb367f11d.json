@@ -1,0 +1,149 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "shop_ui.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "BuyGem_Bg_0": {
+      "__uuid__": "94e4eccf-d053-407f-bdbe-f08ee0b4ebe1"
+    },
+    "Card_Bg_0": {
+      "__uuid__": "f047e321-4281-4e09-ac55-b6c8b1581f59"
+    },
+    "Card_Bg_1": {
+      "__uuid__": "9f1fb5aa-0b7d-43a4-8406-b1e1cc4d986d"
+    },
+    "Card_Title_1_0": {
+      "__uuid__": "761c5abf-b2a1-42a2-9aa7-8407c8f3e859"
+    },
+    "Card_Title_1_1": {
+      "__uuid__": "419c603c-49bd-42f5-ac9c-7f22fcfd3bef"
+    },
+    "Card_Title_2_0": {
+      "__uuid__": "453a7b3e-0e89-4f9c-91bf-a6a7e7cdd0f7"
+    },
+    "Card_Title_2_1": {
+      "__uuid__": "b0848642-dd84-418a-89e1-dc9487aea38c"
+    },
+    "Card_Title_3_0": {
+      "__uuid__": "8335f7f8-e562-4982-9398-1d83c0fec60b"
+    },
+    "Card_Title_3_1": {
+      "__uuid__": "9fc3245d-57aa-4747-bd96-c64f93abcaae"
+    },
+    "Card_Title_4_0": {
+      "__uuid__": "30b2244a-2454-4d19-93df-eb68ff522600"
+    },
+    "Card_Title_4_1": {
+      "__uuid__": "c8d6abfb-f150-49e0-89af-9bf3de3af55a"
+    },
+    "Card_Title_5_0": {
+      "__uuid__": "8ec55d47-0ea6-4267-8d77-8ed495bc6168"
+    },
+    "Card_Title_5_1": {
+      "__uuid__": "c5984d04-791f-41ab-b3c2-2dc9cfd43564"
+    },
+    "Shop_Arrow": {
+      "__uuid__": "408d56b4-40a3-4bd1-9e0e-02576781db90"
+    },
+    "Shop_Bg_0": {
+      "__uuid__": "b1a5200b-d132-4951-8ba4-41754a53ba50"
+    },
+    "Shop_Bg_10": {
+      "__uuid__": "2ca085cf-3e4b-43e5-b407-476581a05879"
+    },
+    "Shop_Bg_1_0": {
+      "__uuid__": "d04925a8-401b-4d8c-b539-80a4ee20008e"
+    },
+    "Shop_Bg_1_1": {
+      "__uuid__": "a36bc1a2-bd71-49f3-a2c0-aeeffacd95a8"
+    },
+    "Shop_Bg_2_0": {
+      "__uuid__": "2dc2c767-72bc-45b6-9f31-f18c5b62ac8c"
+    },
+    "Shop_Bg_3": {
+      "__uuid__": "8e14fad1-704a-43ea-9ba5-ab343c23b0a9"
+    },
+    "Shop_Bg_4": {
+      "__uuid__": "cfbcd353-fafa-4ad6-8dca-0c16d08b6d69"
+    },
+    "Shop_Bg_5": {
+      "__uuid__": "2f087e76-ec03-469d-86ee-51b1676682d8"
+    },
+    "Shop_Bg_6": {
+      "__uuid__": "6bb93c3b-16b4-4a31-a250-4d0b930a6971"
+    },
+    "Shop_Bg_7": {
+      "__uuid__": "8bd4bb4a-d782-48ae-b0b4-6805582b3436"
+    },
+    "Shop_Bg_8": {
+      "__uuid__": "ed244b21-50dc-48a0-b95f-daef87913e71"
+    },
+    "Shop_Bg_8_1": {
+      "__uuid__": "f922e57c-2d29-4ecd-acc1-57f1541d69e2"
+    },
+    "Shop_Bg_9": {
+      "__uuid__": "8a7b5edd-b17c-4866-ba83-ecd8419d9715"
+    },
+    "Shop_Chest_0": {
+      "__uuid__": "631fd1dc-4311-4805-ae6a-540507842d5c"
+    },
+    "Shop_Discount": {
+      "__uuid__": "1130b2d5-a7a6-4bc0-a4cc-f8496eb6f758"
+    },
+    "Shop_Frame_0": {
+      "__uuid__": "883fbd9d-f945-40c9-a18a-49402b3d9b65"
+    },
+    "Shop_Frame_1": {
+      "__uuid__": "f8729329-5615-46f9-a19c-72dd0c1a29a9"
+    },
+    "Shop_Frame_2": {
+      "__uuid__": "99d9e89d-351f-4b6c-be42-959771331261"
+    },
+    "Shop_Frame_Mask": {
+      "__uuid__": "4d15d186-9498-4611-92d4-ccfba3cc908d"
+    },
+    "Shop_Hero": {
+      "__uuid__": "362a1b6e-4e3b-419e-88c1-a4e2ff25d922"
+    },
+    "Shop_Icon_ADS": {
+      "__uuid__": "14111482-7528-41f4-a61d-634c26decfb4"
+    },
+    "Shop_Icon_Coin_1": {
+      "__uuid__": "c1cdc766-0493-4323-897a-44cfa47d0ee0"
+    },
+    "Shop_Icon_Coin_2": {
+      "__uuid__": "0720a7a9-7209-4fd2-a423-8bdedb06852f"
+    },
+    "Shop_Icon_Coin_3": {
+      "__uuid__": "fd9a3c2a-a552-411e-ad57-6ac7c0507c6a"
+    },
+    "Shop_Icon_Gem_0": {
+      "__uuid__": "699a61ec-63d5-4e54-8aa8-da640b878f34"
+    },
+    "Shop_Icon_Gem_1": {
+      "__uuid__": "163e559d-8246-432e-9be3-1372dbc872d0"
+    },
+    "Shop_Icon_Gem_2": {
+      "__uuid__": "ea8e80fa-d30b-462d-8d67-17caa74fe37d"
+    },
+    "Shop_Icon_Gem_3": {
+      "__uuid__": "20ab6c5d-52fa-420b-acd7-5f119207c6a2"
+    },
+    "Shop_Icon_Gem_4": {
+      "__uuid__": "13ee67e3-d2a7-41ea-9229-451fb74b078e"
+    },
+    "Shop_Icon_Gem_5": {
+      "__uuid__": "7d970471-3b8e-4d97-9287-dbbd52eafbb3"
+    },
+    "Shop_Icon_Tips": {
+      "__uuid__": "80ab3a24-5106-41fd-995d-291dc98311cc"
+    },
+    "Shop_Shadow": {
+      "__uuid__": "abd662ef-6555-4f27-a09c-659e3a9042d6"
+    },
+    "Shop_Title_Bg": {
+      "__uuid__": "f7d40e36-1bc1-45f4-a2a5-a3d2ee79277b"
+    }
+  }
+}

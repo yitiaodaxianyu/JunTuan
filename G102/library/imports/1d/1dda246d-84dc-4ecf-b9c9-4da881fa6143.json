@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Forging_Bg_2",
+    "texture": "1285ca30-7a98-499f-ba72-f85778528c3b",
+    "atlas": "fe5ccadc-aa3d-4fac-af82-15406c1c40d5",
+    "rect": [
+      2,
+      1286,
+      375,
+      369
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      375,
+      369
+    ],
+    "rotated": 1,
+    "capInsets": [
+      138,
+      143,
+      137,
+      148
+    ]
+  }
+}

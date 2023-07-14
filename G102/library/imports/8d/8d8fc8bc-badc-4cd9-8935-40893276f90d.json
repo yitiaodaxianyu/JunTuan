@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Fx_StarBoom_01",
+    "texture": "6b0bab75-f054-4ecb-ad40-6f0977bb80b5",
+    "atlas": "",
+    "rect": [
+      82,
+      79,
+      85,
+      82
+    ],
+    "offset": [
+      -0.5,
+      5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

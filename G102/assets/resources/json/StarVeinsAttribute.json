@@ -1,0 +1,22 @@
+[
+  {
+    "Node": 0,
+    "StarVeinsId": 0,
+    "NodeOrdinal": 0,
+    "CostItem": 0,
+    "CostNum": 0,
+    "Attack": 0.0,
+    "Defense": 0.0,
+    "Health": 0.0,
+    "ExtraAttackSpeed": 0.0,
+    "Hit": 0.0,
+    "Miss": 0.0,
+    "Critical": 0.0,
+    "ExtraCritical": 0.0,
+    "AntiCritical": 0.0,
+    "AntiExtraCritical": 0.0,
+    "SpiritPercentageAttack": 0.0,
+    "SpiritPercentageDefense": 0.0,
+    "SpiritPercentageHealth": 0.0
+  }
+]

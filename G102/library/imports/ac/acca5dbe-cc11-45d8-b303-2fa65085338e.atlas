@@ -1,0 +1,307 @@
+
+GoldCoins.png
+size: 968, 253
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+Default-ParticleSystem
+  rotate: false
+  xy: 720, 46
+  size: 29, 29
+  orig: 32, 32
+  offset: 2, 1
+  index: -1
+Gold_0001
+  rotate: false
+  xy: 682, 77
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+Gold_0002
+  rotate: true
+  xy: 746, 77
+  size: 30, 25
+  orig: 30, 30
+  offset: 0, 2
+  index: -1
+Gold_0003
+  rotate: true
+  xy: 773, 2
+  size: 30, 19
+  orig: 30, 30
+  offset: 0, 4
+  index: -1
+Gold_0004
+  rotate: true
+  xy: 895, 77
+  size: 30, 14
+  orig: 30, 30
+  offset: 0, 6
+  index: -1
+Gold_0005
+  rotate: false
+  xy: 815, 2
+  size: 30, 9
+  orig: 30, 30
+  offset: 0, 8
+  index: -1
+Gold_0006
+  rotate: false
+  xy: 847, 2
+  size: 30, 9
+  orig: 30, 30
+  offset: 0, 8
+  index: -1
+Gold_0007
+  rotate: true
+  xy: 911, 45
+  size: 30, 14
+  orig: 30, 30
+  offset: 0, 6
+  index: -1
+Gold_0008
+  rotate: true
+  xy: 800, 77
+  size: 30, 20
+  orig: 30, 30
+  offset: 0, 4
+  index: -1
+Gold_0009
+  rotate: false
+  xy: 751, 50
+  size: 30, 25
+  orig: 30, 30
+  offset: 0, 2
+  index: -1
+Light_0001
+  rotate: true
+  xy: 496, 5
+  size: 26, 248
+  orig: 35, 250
+  offset: 5, 1
+  index: -1
+Light_0002
+  rotate: true
+  xy: 682, 109
+  size: 20, 248
+  orig: 35, 250
+  offset: 8, 1
+  index: -1
+Light_0003
+  rotate: false
+  xy: 932, 2
+  size: 15, 249
+  orig: 35, 250
+  offset: 10, 0
+  index: -1
+Light_0004
+  rotate: false
+  xy: 949, 2
+  size: 10, 249
+  orig: 35, 250
+  offset: 13, 0
+  index: -1
+Light_0005
+  rotate: false
+  xy: 961, 2
+  size: 5, 249
+  orig: 35, 250
+  offset: 15, 0
+  index: -1
+Liquid_00
+  rotate: false
+  xy: 783, 59
+  size: 46, 16
+  orig: 50, 25
+  offset: 2, 4
+  index: -1
+Silver_0001
+  rotate: false
+  xy: 714, 77
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+Silver_0002
+  rotate: true
+  xy: 773, 77
+  size: 30, 25
+  orig: 30, 30
+  offset: 0, 2
+  index: -1
+Silver_0003
+  rotate: true
+  xy: 794, 2
+  size: 30, 19
+  orig: 30, 30
+  offset: 0, 4
+  index: -1
+Silver_0004
+  rotate: true
+  xy: 911, 13
+  size: 30, 14
+  orig: 30, 30
+  offset: 0, 6
+  index: -1
+Silver_0005
+  rotate: false
+  xy: 879, 2
+  size: 30, 9
+  orig: 30, 30
+  offset: 0, 8
+  index: -1
+Silver_0006
+  rotate: true
+  xy: 895, 13
+  size: 30, 9
+  orig: 30, 30
+  offset: 0, 8
+  index: -1
+Silver_0007
+  rotate: true
+  xy: 895, 45
+  size: 30, 14
+  orig: 30, 30
+  offset: 0, 6
+  index: -1
+Silver_0008
+  rotate: true
+  xy: 822, 77
+  size: 30, 20
+  orig: 30, 30
+  offset: 0, 4
+  index: -1
+Silver_0009
+  rotate: true
+  xy: 746, 2
+  size: 30, 25
+  orig: 30, 30
+  offset: 0, 2
+  index: -1
+Soft
+  rotate: false
+  xy: 831, 13
+  size: 62, 62
+  orig: 64, 64
+  offset: 1, 1
+  index: -1
+circle
+  rotate: false
+  xy: 801, 137
+  size: 114, 114
+  orig: 128, 128
+  offset: 7, 6
+  index: -1
+glow
+  rotate: false
+  xy: 496, 67
+  size: 184, 184
+  orig: 256, 256
+  offset: 38, 34
+  index: -1
+line_sharp
+  rotate: false
+  xy: 496, 33
+  size: 222, 32
+  orig: 256, 256
+  offset: 0, 111
+  index: -1
+pao_00
+  rotate: true
+  xy: 862, 87
+  size: 20, 15
+  orig: 30, 20
+  offset: 5, 1
+  index: -1
+pao_01
+  rotate: true
+  xy: 795, 36
+  size: 21, 16
+  orig: 30, 20
+  offset: 4, 1
+  index: -1
+pao_02
+  rotate: true
+  xy: 844, 81
+  size: 26, 16
+  orig: 30, 20
+  offset: 2, 1
+  index: -1
+pao_03
+  rotate: true
+  xy: 911, 77
+  size: 30, 16
+  orig: 30, 20
+  offset: 0, 1
+  index: -1
+ring
+  rotate: false
+  xy: 2, 5
+  size: 246, 246
+  orig: 256, 256
+  offset: 5, 5
+  index: -1
+ring 1
+  rotate: false
+  xy: 250, 7
+  size: 244, 244
+  orig: 256, 256
+  offset: 6, 6
+  index: -1
+star1
+  rotate: true
+  xy: 682, 131
+  size: 120, 117
+  orig: 128, 128
+  offset: 4, 5
+  index: -1
+water_00
+  rotate: false
+  xy: 917, 135
+  size: 11, 35
+  orig: 25, 50
+  offset: 8, 4
+  index: -1
+water_01
+  rotate: false
+  xy: 917, 212
+  size: 13, 39
+  orig: 25, 50
+  offset: 6, 3
+  index: -1
+water_03
+  rotate: false
+  xy: 815, 17
+  size: 14, 40
+  orig: 25, 50
+  offset: 5, 3
+  index: -1
+water_04
+  rotate: true
+  xy: 752, 34
+  size: 14, 41
+  orig: 25, 50
+  offset: 5, 3
+  index: -1
+water_05
+  rotate: false
+  xy: 917, 172
+  size: 12, 38
+  orig: 25, 50
+  offset: 7, 2
+  index: -1
+water_06
+  rotate: true
+  xy: 720, 34
+  size: 10, 30
+  orig: 25, 50
+  offset: 8, 2
+  index: -1
+water_07
+  rotate: true
+  xy: 682, 67
+  size: 8, 28
+  orig: 25, 50
+  offset: 9, 2
+  index: -1

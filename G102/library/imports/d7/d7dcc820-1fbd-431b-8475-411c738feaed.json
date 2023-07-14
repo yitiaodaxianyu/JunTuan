@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ChouKa",
+    "texture": "f18f8504-a82a-42a6-b160-ef4f08e65fff",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      998,
+      1058
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      998,
+      1058
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

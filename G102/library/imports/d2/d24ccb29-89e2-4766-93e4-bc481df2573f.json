@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Boss12_AttackTrail",
+    "texture": "0493c171-fd6e-49e8-a67f-52af11a78991",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      58,
+      118
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      61,
+      120
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

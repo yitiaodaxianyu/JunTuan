@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Monster_71",
+    "texture": "b8d28ba4-977b-4244-ac24-8d924c9b9068",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      253,
+      269
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      253,
+      269
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "wishing_card_red2.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "SPSpirit_DrawCardFX_Red4_00": {
+      "__uuid__": "427c9ff9-20a5-48bb-861a-1af22dd88d79"
+    },
+    "SPSpirit_DrawCardFX_Red4_01": {
+      "__uuid__": "4394191c-33de-469c-9743-6ae01e554164"
+    },
+    "SPSpirit_DrawCardFX_Red4_02": {
+      "__uuid__": "fdfbf2d7-4abf-426f-ae61-cb293dc75454"
+    },
+    "SPSpirit_DrawCardFX_Red4_03": {
+      "__uuid__": "70ca5065-d1f2-4dd1-96fb-dfba9bac5e0d"
+    },
+    "SPSpirit_DrawCardFX_Red4_04": {
+      "__uuid__": "d65e747f-bef5-4ff6-ac9a-2e6e8f34f19b"
+    },
+    "SPSpirit_DrawCardFX_Red4_05": {
+      "__uuid__": "eb78de97-cb31-44ff-839a-2ea73260ffcd"
+    },
+    "SPSpirit_DrawCardFX_Red4_06": {
+      "__uuid__": "64870829-5a0f-4725-ba6b-b3d53fca0c72"
+    },
+    "SPSpirit_DrawCardFX_Red4_07": {
+      "__uuid__": "35f71c20-3b7a-4e23-b6c5-1b86b7c1e42a"
+    },
+    "SPSpirit_DrawCardFX_Red4_08": {
+      "__uuid__": "361d212c-151d-41df-87ad-f9440e978aa8"
+    },
+    "SPSpirit_DrawCardFX_Red4_09": {
+      "__uuid__": "7b01c89b-37cc-4d81-88ca-13376755db6f"
+    },
+    "SPSpirit_DrawCardFX_Red4_10": {
+      "__uuid__": "ec8921e5-e607-4a93-b41c-49f5878bb0ff"
+    },
+    "SPSpirit_DrawCardFX_Red4_11": {
+      "__uuid__": "75234773-d68a-4e9c-aa4f-c10e542d9487"
+    },
+    "SPSpirit_DrawCardFX_Red4_12": {
+      "__uuid__": "b715c9fb-3378-48dc-a19b-b912506cc2d7"
+    },
+    "SPSpirit_DrawCardFX_Red4_13": {
+      "__uuid__": "fffb8405-2406-452d-bc9b-622a2e195360"
+    },
+    "SPSpirit_DrawCardFX_Red4_14": {
+      "__uuid__": "86164fe8-5aad-42ad-80d9-7a650ab9486e"
+    },
+    "SPSpirit_DrawCardFX_Red4_15": {
+      "__uuid__": "e0bb3263-b8e3-4f70-bb64-2a70ab0125a5"
+    },
+    "SPSpirit_DrawCardFX_Red4_16": {
+      "__uuid__": "fce50bb1-f21a-4cb8-baaf-afc069877d26"
+    },
+    "SPSpirit_DrawCardFX_Red4_17": {
+      "__uuid__": "f80ce6e6-5f89-4c96-92f2-136ad86f0ad0"
+    },
+    "SPSpirit_DrawCardFX_Red4_18": {
+      "__uuid__": "cafaa45d-34f2-4033-a964-5f0b9f33a9bf"
+    },
+    "SPSpirit_DrawCardFX_Red4_19": {
+      "__uuid__": "2d9ffb3a-b73c-40c9-916d-98f8246edb40"
+    },
+    "SPSpirit_DrawCardFX_Red4_20": {
+      "__uuid__": "ebaa8845-bc0f-46bd-bdb7-12321e612505"
+    },
+    "SPSpirit_DrawCardFX_Red4_21": {
+      "__uuid__": "01d7e408-db6a-4467-841b-b89cf85f9e15"
+    },
+    "SPSpirit_DrawCardFX_Red4_22": {
+      "__uuid__": "074ce5bc-1a73-4dc6-bffa-84f85b6cf967"
+    },
+    "SPSpirit_DrawCardFX_Red4_23": {
+      "__uuid__": "129b4f8b-38e7-492f-9465-707c4fbab814"
+    },
+    "SPSpirit_DrawCardFX_Red4_24": {
+      "__uuid__": "a0ee57ab-e620-49a8-bdf7-1d6afa65d3a7"
+    },
+    "SPSpirit_DrawCardFX_Red4_25": {
+      "__uuid__": "ec19be58-5d8a-485e-9ab5-f36955bb2717"
+    },
+    "SPSpirit_DrawCardFX_Red4_26": {
+      "__uuid__": "98661c0e-2fa0-410c-8010-4eb722236321"
+    },
+    "SPSpirit_DrawCardFX_Red4_27": {
+      "__uuid__": "776b7931-fc99-4458-939f-fcb1f2da07ed"
+    },
+    "SPSpirit_DrawCardFX_Red4_28": {
+      "__uuid__": "49f8ca7a-1920-462d-b1ce-ced388d93b09"
+    },
+    "SPSpirit_DrawCardFX_Red4_29": {
+      "__uuid__": "b0407fb1-662c-4d1e-aaa3-a6fc4128c6c6"
+    },
+    "SPSpirit_DrawCardFX_Red4_30": {
+      "__uuid__": "fcbe5e30-9113-42cb-abeb-8949c2d9602b"
+    },
+    "SPSpirit_DrawCardFX_Red4_31": {
+      "__uuid__": "69338a4a-c129-4fa7-bd1f-0b0978f2b6c1"
+    }
+  }
+}

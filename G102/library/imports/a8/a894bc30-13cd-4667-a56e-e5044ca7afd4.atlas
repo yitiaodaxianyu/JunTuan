@@ -1,0 +1,342 @@
+
+Boss14.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 275, 6
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+2
+  rotate: true
+  xy: 318, 258
+  size: 55, 51
+  orig: 55, 51
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 469, 262
+  size: 73, 65
+  orig: 73, 65
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 1526, 428
+  size: 73, 80
+  orig: 73, 80
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 1449, 126
+  size: 75, 79
+  orig: 75, 79
+  offset: 0, 0
+  index: -1
+6
+  rotate: true
+  xy: 247, 256
+  size: 57, 67
+  orig: 57, 67
+  offset: 0, 0
+  index: -1
+Body
+  rotate: true
+  xy: 4, 253
+  size: 255, 239
+  orig: 255, 239
+  offset: 0, 0
+  index: -1
+Body2
+  rotate: true
+  xy: 470, 6
+  size: 66, 71
+  orig: 66, 71
+  offset: 0, 0
+  index: -1
+FX_Fire_00
+  rotate: true
+  xy: 195, 5
+  size: 41, 76
+  orig: 198, 198
+  offset: 79, 0
+  index: -1
+FX_Fire_01
+  rotate: false
+  xy: 1083, 344
+  size: 86, 164
+  orig: 198, 198
+  offset: 55, 4
+  index: -1
+FX_Fire_02
+  rotate: false
+  xy: 859, 341
+  size: 101, 167
+  orig: 198, 198
+  offset: 46, 11
+  index: -1
+FX_Fire_03
+  rotate: false
+  xy: 1095, 179
+  size: 107, 161
+  orig: 198, 198
+  offset: 44, 24
+  index: -1
+FX_Fire_04
+  rotate: false
+  xy: 864, 5
+  size: 108, 155
+  orig: 198, 198
+  offset: 42, 34
+  index: -1
+FX_Fire_05
+  rotate: false
+  xy: 1124, 18
+  size: 111, 157
+  orig: 198, 198
+  offset: 42, 35
+  index: -1
+Flash_00
+  rotate: false
+  xy: 545, 6
+  size: 70, 66
+  orig: 198, 132
+  offset: 71, 14
+  index: -1
+Flash_01
+  rotate: true
+  xy: 1347, 60
+  size: 129, 98
+  orig: 198, 132
+  offset: 46, 12
+  index: -1
+Flash_02
+  rotate: true
+  xy: 748, 162
+  size: 171, 104
+  orig: 198, 132
+  offset: 23, 11
+  index: -1
+Flash_03
+  rotate: true
+  xy: 441, 76
+  size: 180, 105
+  orig: 198, 132
+  offset: 16, 13
+  index: -1
+Flash_04
+  rotate: true
+  xy: 330, 66
+  size: 188, 107
+  orig: 198, 132
+  offset: 10, 13
+  index: -1
+Flash_05
+  rotate: true
+  xy: 247, 317
+  size: 191, 103
+  orig: 198, 132
+  offset: 6, 16
+  index: -1
+Flash_06
+  rotate: false
+  xy: 652, 302
+  size: 21, 25
+  orig: 198, 132
+  offset: 5, 91
+  index: -1
+Flash_07
+  rotate: true
+  xy: 354, 317
+  size: 191, 95
+  orig: 198, 132
+  offset: 5, 21
+  index: -1
+Guan_1
+  rotate: false
+  xy: 1353, 230
+  size: 87, 123
+  orig: 87, 123
+  offset: 0, 0
+  index: -1
+Guan_2
+  rotate: true
+  xy: 370, 10
+  size: 52, 96
+  orig: 52, 96
+  offset: 0, 0
+  index: -1
+Guan_3
+  rotate: true
+  xy: 373, 260
+  size: 53, 92
+  orig: 53, 92
+  offset: 0, 0
+  index: -1
+Guan_4
+  rotate: true
+  xy: 619, 4
+  size: 88, 125
+  orig: 88, 125
+  offset: 0, 0
+  index: -1
+Gunner_ActiveSkill_Hit_1
+  rotate: true
+  xy: 1437, 399
+  size: 109, 85
+  orig: 198, 132
+  offset: 48, 13
+  index: -1
+Gunner_ActiveSkill_Hit_10
+  rotate: true
+  xy: 453, 331
+  size: 177, 92
+  orig: 198, 132
+  offset: 10, 21
+  index: -1
+Gunner_ActiveSkill_Hit_11
+  rotate: true
+  xy: 645, 331
+  size: 177, 91
+  orig: 198, 132
+  offset: 10, 21
+  index: -1
+Gunner_ActiveSkill_Hit_12
+  rotate: true
+  xy: 549, 331
+  size: 177, 92
+  orig: 198, 132
+  offset: 10, 20
+  index: -1
+Gunner_ActiveSkill_Hit_2
+  rotate: true
+  xy: 1239, 50
+  size: 139, 104
+  orig: 198, 132
+  offset: 26, 6
+  index: -1
+Gunner_ActiveSkill_Hit_3
+  rotate: true
+  xy: 1173, 348
+  size: 160, 113
+  orig: 198, 132
+  offset: 17, 0
+  index: -1
+Gunner_ActiveSkill_Hit_4
+  rotate: true
+  xy: 976, 174
+  size: 164, 115
+  orig: 198, 132
+  offset: 16, 0
+  index: -1
+Gunner_ActiveSkill_Hit_5
+  rotate: true
+  xy: 964, 342
+  size: 166, 115
+  orig: 198, 132
+  offset: 15, 0
+  index: -1
+Gunner_ActiveSkill_Hit_6
+  rotate: true
+  xy: 856, 164
+  size: 169, 116
+  orig: 198, 132
+  offset: 12, 0
+  index: -1
+Gunner_ActiveSkill_Hit_7
+  rotate: true
+  xy: 740, 337
+  size: 171, 115
+  orig: 198, 132
+  offset: 10, 0
+  index: -1
+Gunner_ActiveSkill_Hit_8
+  rotate: true
+  xy: 648, 98
+  size: 174, 96
+  orig: 198, 132
+  offset: 10, 17
+  index: -1
+Gunner_ActiveSkill_Hit_9
+  rotate: true
+  xy: 550, 96
+  size: 176, 94
+  orig: 198, 132
+  offset: 10, 20
+  index: -1
+YouBi
+  rotate: false
+  xy: 748, 4
+  size: 112, 154
+  orig: 112, 154
+  offset: 0, 0
+  index: -1
+YouJiao
+  rotate: true
+  xy: 1206, 193
+  size: 151, 143
+  orig: 151, 143
+  offset: 0, 0
+  index: -1
+YouShou
+  rotate: false
+  xy: 4, 5
+  size: 187, 244
+  orig: 187, 244
+  offset: 0, 0
+  index: -1
+YouTui
+  rotate: false
+  xy: 1444, 304
+  size: 88, 91
+  orig: 88, 91
+  offset: 0, 0
+  index: -1
+ZhiDan
+  rotate: true
+  xy: 319, 20
+  size: 26, 47
+  orig: 26, 47
+  offset: 0, 0
+  index: -1
+ZhiDan_2
+  rotate: true
+  xy: 546, 276
+  size: 51, 102
+  orig: 51, 102
+  offset: 0, 0
+  index: -1
+ZuoBi
+  rotate: false
+  xy: 195, 50
+  size: 131, 199
+  orig: 131, 199
+  offset: 0, 0
+  index: -1
+ZuoJiao
+  rotate: true
+  xy: 1290, 357
+  size: 151, 143
+  orig: 151, 143
+  offset: 0, 0
+  index: -1
+ZuoShou
+  rotate: false
+  xy: 976, 7
+  size: 144, 163
+  orig: 144, 163
+  offset: 0, 0
+  index: -1
+ZuoTui
+  rotate: false
+  xy: 1444, 209
+  size: 88, 91
+  orig: 88, 91
+  offset: 0, 0
+  index: -1

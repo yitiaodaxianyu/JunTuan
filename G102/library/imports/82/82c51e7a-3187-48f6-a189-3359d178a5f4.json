@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Common_Hero_11",
+    "texture": "23cbbf20-613e-48b7-8828-8ea751c355b4",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      652,
+      701
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      652,
+      701
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

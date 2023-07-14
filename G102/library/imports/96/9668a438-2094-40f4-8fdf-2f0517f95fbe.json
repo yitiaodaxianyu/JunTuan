@@ -1,0 +1,209 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "payment_ui.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "ASSET FRONT V3 MAGMA": {
+      "__uuid__": "a0aa7915-7304-4ec7-8029-975f14bac83f"
+    },
+    "Card_Bg_0": {
+      "__uuid__": "a65b690d-2fe2-493b-9443-5e661ed002e6"
+    },
+    "Card_Bg_1": {
+      "__uuid__": "13cf9343-408c-4ef5-bdfa-5c4341deba31"
+    },
+    "Card_Bg_10": {
+      "__uuid__": "0ed1269e-f0ee-48c7-aa84-08c633e73444"
+    },
+    "Card_Bg_11": {
+      "__uuid__": "fd36b2af-7dcc-4d40-9e4c-2e885d1e6a9f"
+    },
+    "Card_Bg_12": {
+      "__uuid__": "83cd3dc3-fceb-4405-a287-4ef902eba199"
+    },
+    "Card_Bg_13": {
+      "__uuid__": "5e126c70-f743-4379-bec7-becba21ac954"
+    },
+    "Card_Bg_14": {
+      "__uuid__": "21e2b12c-26a3-4300-bfaa-f8ebc8284972"
+    },
+    "Card_Bg_15": {
+      "__uuid__": "716e7c02-fa12-4a64-bdba-5d5ce9b7d14c"
+    },
+    "Card_Bg_2": {
+      "__uuid__": "f5d284d2-f2f5-4ec0-a141-b4cecf4e85d4"
+    },
+    "Card_Bg_3": {
+      "__uuid__": "930cd30d-c78b-4643-bdf2-f6e09c68446f"
+    },
+    "Card_Bg_4": {
+      "__uuid__": "e81ca0cf-ee4b-49d2-a52e-d230f9eaa9c0"
+    },
+    "Card_Bg_5": {
+      "__uuid__": "63645382-7d68-4eb9-be45-5a95170e3ead"
+    },
+    "Card_Bg_6": {
+      "__uuid__": "4ebcef45-57da-46fa-b424-765af9e87364"
+    },
+    "Card_Bg_7": {
+      "__uuid__": "3079a660-d685-4ed6-a0a0-88984fa8bf36"
+    },
+    "Card_Bg_8": {
+      "__uuid__": "6f5b386e-7e53-4a07-a6c2-e027a3a35e4d"
+    },
+    "Card_Bg_9": {
+      "__uuid__": "3c63992b-4296-48d5-b834-62dfdce78e13"
+    },
+    "Card_Bg_TitleBlock": {
+      "__uuid__": "75d30955-ee1e-49e8-ad32-7f5c7a73e013"
+    },
+    "Card_Bg_Title_1": {
+      "__uuid__": "6c02b57d-c693-4625-bebe-b193ab0e6a70"
+    },
+    "Card_Btn_Purchase": {
+      "__uuid__": "64b46b1c-2efa-4165-a5d6-9caca51c4233"
+    },
+    "Card_Btn_Select": {
+      "__uuid__": "7b6750e2-0786-4213-af9c-6876a484a321"
+    },
+    "Card_Btn_Unchecked": {
+      "__uuid__": "c56efe19-2c5e-4334-a918-927c345bac5e"
+    },
+    "Card_Btn_switch": {
+      "__uuid__": "aa8875b2-3956-4b46-a7bc-41298cbdd968"
+    },
+    "Card_Icon_0": {
+      "__uuid__": "89fb62ec-c77b-477c-afab-62266ab3aed0"
+    },
+    "Card_Icon_1": {
+      "__uuid__": "97f03ad9-903b-40b4-a692-d9a6ac1d632d"
+    },
+    "Card_Icon_2": {
+      "__uuid__": "4e0bff7a-e6d2-4afd-9cd3-c2242d735241"
+    },
+    "Card_Icon_3": {
+      "__uuid__": "e041ad13-19e9-4f35-81d9-046603ce2c1a"
+    },
+    "Card_Icon_MonthlyCard": {
+      "__uuid__": "b051f30c-6fe8-49a6-b94f-a3118d5bb557"
+    },
+    "Card_Icon_SeasonCard": {
+      "__uuid__": "f87719b9-b2a1-4d7f-80e2-08320d173eb5"
+    },
+    "Common_Btn_Ask": {
+      "__uuid__": "7ef62943-c71a-415a-8c4d-f4a828f64858"
+    },
+    "Cycle_Bg_0": {
+      "__uuid__": "3097bf4b-bf30-4c1b-965a-f5a28a75859d"
+    },
+    "Cycle_Bg_1": {
+      "__uuid__": "1edb4bab-d1de-4264-a864-c46a29ce36e0"
+    },
+    "Cycle_Bg_2": {
+      "__uuid__": "0d66b163-ebc9-439a-b25b-8560cd97f5d8"
+    },
+    "Cycle_Bg_3": {
+      "__uuid__": "dfd5499d-3274-4f10-9550-0f26d5781832"
+    },
+    "Cycle_Bg_4": {
+      "__uuid__": "1a4804c2-5601-4baf-805e-a9e0f6f1f436"
+    },
+    "Cycle_Bg_Day": {
+      "__uuid__": "9e6458c9-1149-4048-92a8-2f2bf0b54759"
+    },
+    "Cycle_Bg_Month": {
+      "__uuid__": "3e8cb89a-e121-451a-b2dd-e6b30f6bbcb9"
+    },
+    "Cycle_Bg_Week": {
+      "__uuid__": "c7a99ded-7d5e-4c62-99e0-9abd4359adcb"
+    },
+    "Cycle_Btn_WXZ": {
+      "__uuid__": "db2dfd77-743b-44b2-816d-642f7bed1857"
+    },
+    "Cycle_Btn_XZ": {
+      "__uuid__": "255e246c-f7b2-4d68-a96d-5dba4fa6c40f"
+    },
+    "Cycle_Icon_Ads": {
+      "__uuid__": "4b9d7882-ad9c-4cce-84b7-204a84bd9cbe"
+    },
+    "FirstCharge_Bg_1": {
+      "__uuid__": "a5cf099b-94e1-498b-b848-23aa7124286a"
+    },
+    "FirstCharge_Bg_2": {
+      "__uuid__": "56d3aafb-402d-4d9b-a219-99cee7c7c81a"
+    },
+    "FirstCharge_Bg_3": {
+      "__uuid__": "e06c6011-f69b-4484-ba5a-8e6e396f379a"
+    },
+    "FirstCharge_Light": {
+      "__uuid__": "69866938-7a13-4e9f-9f38-b763a4663d7e"
+    },
+    "First_Bg_0": {
+      "__uuid__": "6a0dea50-f9c5-4248-bc47-c4c90bd66e26"
+    },
+    "First_Bg_1": {
+      "__uuid__": "967d2e26-8fac-4f01-954c-6a633d8a367f"
+    },
+    "First_Bg_2": {
+      "__uuid__": "23e1e2b4-4b84-4bb3-bbb5-d089a6702391"
+    },
+    "First_Hero": {
+      "__uuid__": "fb40330c-00db-404d-9a70-cfcdfd16f4f8"
+    },
+    "First_Icon_Plus": {
+      "__uuid__": "84b799c2-3acc-4023-b9a7-999956737b4e"
+    },
+    "Longjing_Bg_1": {
+      "__uuid__": "bc069c55-37b8-4c72-bb33-b453476e9aa3"
+    },
+    "Longjing_Bg_1_1": {
+      "__uuid__": "30e8b0c5-e07f-47aa-9b82-664e19604464"
+    },
+    "Longjing_Bg_2": {
+      "__uuid__": "32327310-8787-4850-9858-f2ed98e1335c"
+    },
+    "Longjing_Bg_2_1": {
+      "__uuid__": "96a801ad-a963-41ec-ba7c-b35772837283"
+    },
+    "Longjing_Bg_3": {
+      "__uuid__": "c33c40a8-06ae-4130-ba28-23d831243662"
+    },
+    "Longjing_Icon_1": {
+      "__uuid__": "315ea3e0-a083-4c1e-8c17-6b9efa0155af"
+    },
+    "Longjing_Jdt": {
+      "__uuid__": "4bbb7237-2f66-4816-9edc-4de4b1aaee33"
+    },
+    "Longjing_Jdtd": {
+      "__uuid__": "76963422-e79b-4715-aa6f-8c5ac74a2311"
+    },
+    "Rebate_Bg_1": {
+      "__uuid__": "b490027a-9638-43a9-bc03-ae52284ace3c"
+    },
+    "Rebate_Bg_2": {
+      "__uuid__": "449b63ca-1894-4584-9d73-c94419919abb"
+    },
+    "Rebate_Bg_3": {
+      "__uuid__": "0b341795-3533-4959-99a0-a38446209411"
+    },
+    "Recharge_Bg_1": {
+      "__uuid__": "afae82f5-0e7c-49ee-aad4-6d720c310ea4"
+    },
+    "Recharge_Bg_2": {
+      "__uuid__": "59c7d120-e8e8-4ec9-8019-3db144bede4b"
+    },
+    "Recharge_Bg_3": {
+      "__uuid__": "1f08ddc4-020d-408e-8fdf-8479b032e2d2"
+    },
+    "Task_Bar_0": {
+      "__uuid__": "d12502f9-c715-4518-86e8-b51cf427d73d"
+    },
+    "Task_Bar_0_1": {
+      "__uuid__": "a54c2f9c-33a5-4d7d-91de-45ca9cbc5e7a"
+    },
+    "组 18 拷贝 3": {
+      "__uuid__": "13021007-ccff-40bc-9559-03079b0ffaf3"
+    }
+  }
+}

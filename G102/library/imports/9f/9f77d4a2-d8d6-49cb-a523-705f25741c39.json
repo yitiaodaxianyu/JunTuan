@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Boss6_AttackTail",
+    "texture": "3aa39e45-5652-4f64-abc1-8c2fc6843793",
+    "atlas": "",
+    "rect": [
+      0,
+      5,
+      92,
+      215
+    ],
+    "offset": [
+      0,
+      -2.5
+    ],
+    "originalSize": [
+      92,
+      220
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

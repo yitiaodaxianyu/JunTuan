@@ -1,0 +1,139 @@
+
+master_back.png
+size: 94,444
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+aaa0
+  rotate: true
+  xy: 69, 387
+  size: 57, 24
+  orig: 57, 24
+  offset: 0, 0
+  index: -1
+aaa1
+  rotate: false
+  xy: 0, 226
+  size: 62, 98
+  orig: 62, 98
+  offset: 0, 0
+  index: -1
+aaa10
+  rotate: false
+  xy: 0, 326
+  size: 66, 61
+  orig: 66, 61
+  offset: 0, 0
+  index: -1
+aaa11
+  rotate: true
+  xy: 22, 18
+  size: 14, 20
+  orig: 14, 20
+  offset: 0, 0
+  index: -1
+aaa12
+  rotate: false
+  xy: 0, 143
+  size: 47, 31
+  orig: 47, 31
+  offset: 0, 0
+  index: -1
+aaa13
+  rotate: true
+  xy: 64, 213
+  size: 16, 20
+  orig: 16, 20
+  offset: 0, 0
+  index: -1
+aaa14
+  rotate: true
+  xy: 0, 16
+  size: 16, 20
+  orig: 16, 20
+  offset: 0, 0
+  index: -1
+aaa15
+  rotate: true
+  xy: 22, 0
+  size: 16, 19
+  orig: 16, 19
+  offset: 0, 0
+  index: -1
+aaa16
+  rotate: false
+  xy: 62, 175
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+aaa17
+  rotate: false
+  xy: 68, 344
+  size: 24, 41
+  orig: 24, 41
+  offset: 0, 0
+  index: -1
+aaa18
+  rotate: false
+  xy: 49, 60
+  size: 45, 113
+  orig: 45, 113
+  offset: 0, 0
+  index: -1
+aaa2
+  rotate: false
+  xy: 48, 9
+  size: 41, 37
+  orig: 41, 37
+  offset: 0, 0
+  index: -1
+aaa3
+  rotate: true
+  xy: 0, 176
+  size: 48, 60
+  orig: 48, 60
+  offset: 0, 0
+  index: -1
+aaa4
+  rotate: false
+  xy: 0, 389
+  size: 67, 55
+  orig: 67, 55
+  offset: 0, 0
+  index: -1
+aaa5
+  rotate: false
+  xy: 68, 309
+  size: 23, 33
+  orig: 23, 33
+  offset: 0, 0
+  index: -1
+aaa6
+  rotate: true
+  xy: 0, 34
+  size: 107, 46
+  orig: 107, 46
+  offset: 0, 0
+  index: -1
+aaa7
+  rotate: false
+  xy: 64, 265
+  size: 30, 42
+  orig: 30, 42
+  offset: 0, 0
+  index: -1
+aaa8
+  rotate: false
+  xy: 64, 231
+  size: 29, 32
+  orig: 29, 32
+  offset: 0, 0
+  index: -1
+aaa9
+  rotate: false
+  xy: 48, 48
+  size: 43, 10
+  orig: 43, 10
+  offset: 0, 0
+  index: -1

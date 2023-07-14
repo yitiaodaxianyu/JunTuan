@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Boss6_SkillHit_05",
+    "texture": "2f124999-fdc1-43e7-84ab-1e863e6b57b3",
+    "atlas": "4d065c18-fd8b-4e4d-9bb8-8db56bb0c9eb",
+    "rect": [
+      523,
+      714,
+      248,
+      250
+    ],
+    "offset": [
+      1,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

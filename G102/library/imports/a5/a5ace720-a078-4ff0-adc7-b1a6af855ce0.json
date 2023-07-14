@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Anubisi_AttackHit_04",
+    "texture": "6a1ebab8-98ee-474d-a733-defad466e062",
+    "atlas": "e26fee14-6351-44a3-b274-9c9367c4f58d",
+    "rect": [
+      371,
+      1956,
+      91,
+      90
+    ],
+    "offset": [
+      -1,
+      -10
+    ],
+    "originalSize": [
+      101,
+      126
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

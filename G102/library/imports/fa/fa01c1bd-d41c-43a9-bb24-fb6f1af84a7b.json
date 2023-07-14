@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Monster_Shadow",
+    "texture": "3b35f94b-9b1e-424e-97f6-77700dc36bd8",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      280,
+      280
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      280,
+      280
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

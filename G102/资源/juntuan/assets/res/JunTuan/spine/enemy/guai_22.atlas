@@ -1,0 +1,48 @@
+
+guai_22.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 2, 2
+  size: 101, 176
+  orig: 101, 176
+  offset: 0, 0
+  index: -1
+2
+  rotate: true
+  xy: 180, 2
+  size: 101, 176
+  orig: 101, 176
+  offset: 0, 0
+  index: -1
+3
+  rotate: true
+  xy: 358, 2
+  size: 101, 176
+  orig: 101, 176
+  offset: 0, 0
+  index: -1
+4
+  rotate: true
+  xy: 536, 2
+  size: 101, 176
+  orig: 101, 176
+  offset: 0, 0
+  index: -1
+5
+  rotate: true
+  xy: 714, 2
+  size: 101, 176
+  orig: 101, 176
+  offset: 0, 0
+  index: -1
+qi
+  rotate: false
+  xy: 892, 10
+  size: 54, 93
+  orig: 54, 93
+  offset: 0, 0
+  index: -1

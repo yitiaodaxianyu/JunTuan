@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Rank_Icon_NO2",
+    "texture": "b0f9764b-e01a-4ca6-ac6d-b5f1f4f6cd4b",
+    "atlas": "4b402d93-54bb-4ab6-9e70-f7ddbfd01e46",
+    "rect": [
+      354,
+      150,
+      92,
+      83
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      92,
+      83
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Witch_ActiveSkill_Hit_08",
+    "texture": "34e91499-baa3-4663-ae7d-a9be4f7f5f5b",
+    "atlas": "2be0d149-9fc4-41b1-b4f2-c55f94d460ed",
+    "rect": [
+      680,
+      1286,
+      93,
+      70
+    ],
+    "offset": [
+      1,
+      0
+    ],
+    "originalSize": [
+      95,
+      70
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

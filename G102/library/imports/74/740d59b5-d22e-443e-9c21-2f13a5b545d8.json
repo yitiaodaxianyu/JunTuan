@@ -1,0 +1,218 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "setting_ui.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Btn_facebook": {
+      "__uuid__": "7d422a5a-df75-4623-82d6-d7d77941cc7a"
+    },
+    "Btn_google": {
+      "__uuid__": "01cf1c41-b3e9-4399-ade4-76c94da2ad36"
+    },
+    "Set_JDT_00": {
+      "__uuid__": "4f762de3-cc81-40ae-a1fb-a4dea5033dbf"
+    },
+    "Set_JDT_01": {
+      "__uuid__": "2d313964-0e79-4f56-bc05-992a908fc00c"
+    },
+    "Set_JDT_02": {
+      "__uuid__": "f0f8df1b-8f32-42d5-ab4a-eeb4340c092d"
+    },
+    "Set_bg_00": {
+      "__uuid__": "f463ba0e-99ef-49b6-aa9c-2137d2817130"
+    },
+    "Set_bg_01": {
+      "__uuid__": "a89d1f8c-ae40-4532-9241-e8ee67f071b6"
+    },
+    "Set_bg_02": {
+      "__uuid__": "f9d5dcc8-524d-410c-987c-b3edbf0a01b8"
+    },
+    "Set_bg_03": {
+      "__uuid__": "dd2a3c45-36f0-4400-b5b3-9f7c8d9755a2"
+    },
+    "Set_icon_00": {
+      "__uuid__": "5977f265-1b4b-4cd3-a13a-cf282a6994a5"
+    },
+    "Set_icon_01": {
+      "__uuid__": "e1bff30c-9c06-41c3-9ccc-d45d7dcdab36"
+    },
+    "Set_icon_02": {
+      "__uuid__": "e1ad3722-f649-4c2a-b700-324da2478bd9"
+    },
+    "Set_icon_03": {
+      "__uuid__": "784b820c-8de4-4810-b37e-01df3e79cc8b"
+    },
+    "Set_icon_04": {
+      "__uuid__": "28ed2fe7-acce-4b79-bb7c-9a770c3dddda"
+    },
+    "Set_icon_05": {
+      "__uuid__": "3c8e8fbe-ebf8-4b31-85e9-988801cd89f4"
+    },
+    "Set_icon_06": {
+      "__uuid__": "ee6f0440-2c87-4a8e-bdcf-08a2f13726ef"
+    },
+    "Set_icon_07": {
+      "__uuid__": "00c63e71-008c-4e07-aa11-e44211ee9162"
+    },
+    "Set_icon_08": {
+      "__uuid__": "9faf49e8-b2a8-4618-acd9-d20793f6b55f"
+    },
+    "Setting_Bar_0": {
+      "__uuid__": "56aae80a-5ba8-4bbd-b082-d34a58ef1b29"
+    },
+    "Setting_Bar_0_1": {
+      "__uuid__": "c32d9540-b984-4681-9203-a403c9096b33"
+    },
+    "Setting_Bar_1": {
+      "__uuid__": "bab218cd-e116-42ea-90ac-e3eace2018df"
+    },
+    "Setting_Bg_0": {
+      "__uuid__": "0b382ad4-d185-4519-b653-f7b402daacc9"
+    },
+    "Setting_Bg_1": {
+      "__uuid__": "ab6676f0-4f72-4602-95d1-dbe31c9cbfce"
+    },
+    "Setting_Bg_2": {
+      "__uuid__": "40f7ac4c-ecc0-4ef8-b0cf-57a62d5bd310"
+    },
+    "Setting_Btn_Edit": {
+      "__uuid__": "282fcf27-37c2-4f0c-bdfa-a8b055425934"
+    },
+    "Setting_Btn_FB": {
+      "__uuid__": "f4612f57-3678-4d74-96f4-c66a2066c86c"
+    },
+    "Setting_Btn_GG": {
+      "__uuid__": "cca56431-10f2-4aa0-9470-5fe7b06822a4"
+    },
+    "Setting_Checkmark": {
+      "__uuid__": "586c4e0d-45f3-4b2f-bab1-ad1aba1694a1"
+    },
+    "Setting_Checkmark_Bg": {
+      "__uuid__": "d18a003c-a5b5-451a-a7ca-6482af5facd4"
+    },
+    "Setting_Head_Bg_0": {
+      "__uuid__": "f0e0d633-7a22-49e1-ba12-a454bacbacab"
+    },
+    "Setting_Head_Bg_1": {
+      "__uuid__": "c9fcbcec-d28c-49cd-913f-588ae4105197"
+    },
+    "Setting_Head_Bg_2": {
+      "__uuid__": "93b2c7af-a95a-45d2-8b85-189c7c0f71b3"
+    },
+    "Setting_Head_Frame": {
+      "__uuid__": "6280011a-7c65-4ad6-8ea8-4156cc129ad2"
+    },
+    "Setting_Head_Mask": {
+      "__uuid__": "a646898e-5ff3-49b0-b526-10d68e96193a"
+    },
+    "Setting_Music_0": {
+      "__uuid__": "1da90b07-a212-4138-a4ce-47ef1167158b"
+    },
+    "Setting_Music_1": {
+      "__uuid__": "7987c4e5-9810-4295-b569-0b7d0c1d8b76"
+    },
+    "Setting_Sound_0": {
+      "__uuid__": "434255a2-67c2-4e75-9375-013898a8dfea"
+    },
+    "Setting_Sound_1": {
+      "__uuid__": "13736d65-894f-429f-a71b-3ed602b5e474"
+    },
+    "TX_DaGou": {
+      "__uuid__": "25f06007-b3b6-4f72-b69f-fe1911c4fcd0"
+    },
+    "TY_Btn_00": {
+      "__uuid__": "55290498-db17-429e-b1ab-32511bb2a4e9"
+    },
+    "TY_Btn_03": {
+      "__uuid__": "2482d799-e54a-444f-8aba-b7e99824ac2d"
+    },
+    "TY_Btn_04": {
+      "__uuid__": "5c03b2f4-23dc-41c3-b33f-e3cd7c09a60f"
+    },
+    "TY_Btn_close": {
+      "__uuid__": "02ce0a3c-b924-4533-b313-7f3ac18b61d2"
+    },
+    "TY_GDT_00": {
+      "__uuid__": "4998b98d-3a11-438c-a03e-520760a8ecbb"
+    },
+    "TY_GDT_01": {
+      "__uuid__": "6c03b1f4-f953-411d-a5d4-39a925402d6c"
+    },
+    "TY_TCBG_00": {
+      "__uuid__": "de04eaf0-3f93-45d0-bd7a-1f676bc23ec2"
+    },
+    "TY_TCBG_01": {
+      "__uuid__": "3421020c-7e6e-4a5a-9ef1-72b4704358ad"
+    },
+    "TY_TCBG_02": {
+      "__uuid__": "a7bd0c4d-e5e3-432a-967a-48defdb4288e"
+    },
+    "TY_TCBG_03": {
+      "__uuid__": "155614bd-370b-4600-8c54-1d70faf58b20"
+    },
+    "TY_TCBG_11": {
+      "__uuid__": "8e2e3e22-1ffb-43bc-aec7-b492e8864a5c"
+    },
+    "TY_TCBG_12": {
+      "__uuid__": "a6c13a44-100d-4e8c-91c2-47e38abe8cb0"
+    },
+    "TY_TCBG_13": {
+      "__uuid__": "eda9555d-8694-493d-b437-59bdf4f58a2d"
+    },
+    "TY_TCBG_14": {
+      "__uuid__": "1adb3937-4526-47dc-a38f-a1c638305965"
+    },
+    "TY_TX_00": {
+      "__uuid__": "fb373897-56c9-4b85-8a6d-ace286a69afa"
+    },
+    "TY_TX_01": {
+      "__uuid__": "68cb3b46-77a5-472b-9cb7-ad41300245be"
+    },
+    "TY_TX_02": {
+      "__uuid__": "30982caa-8824-492d-a449-cbf268b4b515"
+    },
+    "TY_TX_03": {
+      "__uuid__": "79a9d8ed-4c87-4a1f-9832-2192c3555787"
+    },
+    "TY_TX_04": {
+      "__uuid__": "cedae166-9153-482f-bce1-7b12d7ee6a09"
+    },
+    "TY_TX_05": {
+      "__uuid__": "1bc44587-cd10-4da8-a7b9-e7a97438f43b"
+    },
+    "TY_TX_06": {
+      "__uuid__": "bac71477-d438-4c50-afdd-b4fca8c926b6"
+    },
+    "TY_TX_07": {
+      "__uuid__": "ac24036c-0017-4127-a46e-8ec2a32f4bce"
+    },
+    "TY_TX_08": {
+      "__uuid__": "49aa5561-f42c-4e36-bc56-ff3f11677e9b"
+    },
+    "TY_TX_09": {
+      "__uuid__": "e15c60bf-b047-41d8-be0f-75c488d88213"
+    },
+    "TY_TX_10": {
+      "__uuid__": "140f2b64-5c95-430d-9d28-a46ceb355954"
+    },
+    "TY_TX_11": {
+      "__uuid__": "f1ca7d51-a03c-47a9-81c4-48c9f933c9b3"
+    },
+    "TY_TX_12": {
+      "__uuid__": "27a6bf52-6c14-4c7a-ac7a-6aab5bc6bb76"
+    },
+    "TY_TX_13": {
+      "__uuid__": "770a8ed2-eddb-43aa-b442-3f05c099f30b"
+    },
+    "TY_TX_14": {
+      "__uuid__": "bafb6586-388f-444b-a53b-99f522f1b62c"
+    },
+    "TY_bg_00": {
+      "__uuid__": "2dc2efe0-73db-44c2-84eb-3ea61d848b95"
+    },
+    "TY_icon_dagou": {
+      "__uuid__": "f5e947f3-2d0c-4bfa-855d-0ff0dfd5b805"
+    }
+  }
+}

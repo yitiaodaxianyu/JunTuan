@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Fx_Evolve_F_08",
+    "texture": "793427dd-d902-49a5-b1eb-74289fc95ce2",
+    "atlas": "85aabf30-f4db-4612-9b8a-5627476a5c9b",
+    "rect": [
+      212,
+      1028,
+      272,
+      314
+    ],
+    "offset": [
+      -3,
+      18
+    ],
+    "originalSize": [
+      350,
+      350
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

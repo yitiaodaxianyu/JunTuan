@@ -1,0 +1,132 @@
+
+pao.png
+size: 1718,302
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 840, 151
+  size: 151, 185
+  orig: 152, 185
+  offset: 0, 0
+  index: -1
+body2
+  rotate: true
+  xy: 1586, 103
+  size: 120, 127
+  orig: 122, 130
+  offset: 1, 2
+  index: -1
+face
+  rotate: true
+  xy: 371, 87
+  size: 215, 213
+  orig: 217, 215
+  offset: 1, 1
+  index: -1
+hair
+  rotate: false
+  xy: 712, 39
+  size: 181, 91
+  orig: 181, 91
+  offset: 0, 0
+  index: -1
+hair2
+  rotate: true
+  xy: 371, 11
+  size: 74, 192
+  orig: 74, 193
+  offset: 0, 1
+  index: -1
+hair3
+  rotate: true
+  xy: 1075, 13
+  size: 153, 132
+  orig: 155, 134
+  offset: 1, 1
+  index: -1
+hair4
+  rotate: false
+  xy: 895, 3
+  size: 178, 146
+  orig: 178, 146
+  offset: 0, 0
+  index: -1
+hair5
+  rotate: false
+  xy: 1209, 12
+  size: 199, 184
+  orig: 200, 184
+  offset: 0, 0
+  index: -1
+hair6
+  rotate: true
+  xy: 1410, 6
+  size: 198, 174
+  orig: 199, 174
+  offset: 0, 0
+  index: -1
+hand1
+  rotate: true
+  xy: 1354, 206
+  size: 96, 123
+  orig: 99, 125
+  offset: 2, 1
+  index: -1
+leg
+  rotate: true
+  xy: 1605, 226
+  size: 76, 113
+  orig: 78, 115
+  offset: 1, 1
+  index: -1
+leg2
+  rotate: true
+  xy: 565, 3
+  size: 82, 145
+  orig: 84, 147
+  offset: 1, 1
+  index: -1
+pao
+  rotate: true
+  xy: 1198, 198
+  size: 104, 154
+  orig: 105, 154
+  offset: 0, 0
+  index: -1
+pao2
+  rotate: true
+  xy: 586, 132
+  size: 170, 252
+  orig: 170, 252
+  offset: 0, 0
+  index: -1
+pifeng
+  rotate: true
+  xy: 0, 4
+  size: 298, 369
+  orig: 298, 370
+  offset: 0, 1
+  index: -1
+pijiu
+  rotate: false
+  xy: 1586, 0
+  size: 94, 101
+  orig: 94, 101
+  offset: 0, 0
+  index: -1
+prop
+  rotate: false
+  xy: 1027, 168
+  size: 169, 134
+  orig: 169, 135
+  offset: 0, 1
+  index: -1
+shou
+  rotate: true
+  xy: 1479, 225
+  size: 77, 124
+  orig: 79, 124
+  offset: 2, 0
+  index: -1

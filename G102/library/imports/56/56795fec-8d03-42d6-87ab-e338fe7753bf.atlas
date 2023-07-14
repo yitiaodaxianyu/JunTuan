@@ -1,0 +1,167 @@
+
+Boss13.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body2_1
+  rotate: false
+  xy: 340, 104
+  size: 134, 144
+  orig: 134, 144
+  offset: 0, 0
+  index: -1
+Body2_2
+  rotate: false
+  xy: 478, 104
+  size: 134, 144
+  orig: 134, 144
+  offset: 0, 0
+  index: -1
+Body_2
+  rotate: false
+  xy: 478, 104
+  size: 134, 144
+  orig: 134, 144
+  offset: 0, 0
+  index: -1
+Body2_3
+  rotate: false
+  xy: 754, 110
+  size: 129, 138
+  orig: 129, 138
+  offset: 0, 0
+  index: -1
+Body_3
+  rotate: false
+  xy: 754, 110
+  size: 129, 138
+  orig: 129, 138
+  offset: 0, 0
+  index: -1
+Body2_4
+  rotate: false
+  xy: 887, 124
+  size: 115, 124
+  orig: 115, 124
+  offset: 0, 0
+  index: -1
+Body_4
+  rotate: false
+  xy: 887, 124
+  size: 115, 124
+  orig: 115, 124
+  offset: 0, 0
+  index: -1
+Body2_5
+  rotate: true
+  xy: 763, 5
+  size: 101, 109
+  orig: 101, 109
+  offset: 0, 0
+  index: -1
+Body_5
+  rotate: true
+  xy: 763, 5
+  size: 101, 109
+  orig: 101, 109
+  offset: 0, 0
+  index: -1
+Body2_6
+  rotate: false
+  xy: 670, 4
+  size: 89, 96
+  orig: 89, 96
+  offset: 0, 0
+  index: -1
+Body_6
+  rotate: false
+  xy: 670, 4
+  size: 89, 96
+  orig: 89, 96
+  offset: 0, 0
+  index: -1
+Body2_7
+  rotate: false
+  xy: 281, 4
+  size: 90, 69
+  orig: 90, 69
+  offset: 0, 0
+  index: -1
+Body_7
+  rotate: false
+  xy: 281, 4
+  size: 90, 69
+  orig: 90, 69
+  offset: 0, 0
+  index: -1
+Body2_8
+  rotate: true
+  xy: 991, 36
+  size: 84, 58
+  orig: 84, 58
+  offset: 0, 0
+  index: -1
+Body_8
+  rotate: true
+  xy: 991, 36
+  size: 84, 58
+  orig: 84, 58
+  offset: 0, 0
+  index: -1
+Body_1
+  rotate: false
+  xy: 616, 104
+  size: 134, 144
+  orig: 134, 144
+  offset: 0, 0
+  index: -1
+DiYing
+  rotate: true
+  xy: 375, 23
+  size: 77, 170
+  orig: 81, 175
+  offset: 2, 2
+  index: -1
+Head_1
+  rotate: true
+  xy: 4, 55
+  size: 193, 171
+  orig: 196, 174
+  offset: 0, 2
+  index: -1
+Head_2
+  rotate: true
+  xy: 179, 77
+  size: 171, 157
+  orig: 178, 174
+  offset: 0, 16
+  index: -1
+Shan_00
+  rotate: false
+  xy: 876, 51
+  size: 111, 55
+  orig: 120, 80
+  offset: 6, 5
+  index: -1
+Shan_01
+  rotate: true
+  xy: 1006, 171
+  size: 77, 55
+  orig: 120, 80
+  offset: 18, 5
+  index: -1
+Shan_02
+  rotate: false
+  xy: 549, 25
+  size: 117, 75
+  orig: 120, 80
+  offset: 0, 5
+  index: -1
+Shan_03
+  rotate: false
+  xy: 179, 8
+  size: 98, 65
+  orig: 120, 80
+  offset: 10, 5
+  index: -1

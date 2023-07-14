@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "TY_GDT_00",
+    "texture": "58ca313a-dd33-4f8b-a20b-b242e5afc644",
+    "atlas": "63314aa7-d807-4875-8f73-21a49f85c9f9",
+    "rect": [
+      121,
+      439,
+      14,
+      28
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      14,
+      28
+    ],
+    "rotated": 1,
+    "capInsets": [
+      4,
+      8,
+      4,
+      8
+    ]
+  }
+}

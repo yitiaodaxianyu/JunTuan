@@ -1,0 +1,272 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "WishSpend",
+  "_objFlags": 0,
+  "_native": "",
+  "json": [
+    {
+      "WishID": 1001,
+      "WishType": 1,
+      "Chapter": 1,
+      "GetRewardID": 1010003,
+      "OneDrawPropsID": 40004,
+      "OneDrawPropsSpend": 1,
+      "OneDrawDiamondsSpend": 100,
+      "TenDrawPropsSpend": 10,
+      "TenDrawDiamondSpend": 900
+    },
+    {
+      "WishID": 1002,
+      "WishType": 1,
+      "Chapter": 2,
+      "GetRewardID": 1010003,
+      "OneDrawPropsID": 40004,
+      "OneDrawPropsSpend": 1,
+      "OneDrawDiamondsSpend": 100,
+      "TenDrawPropsSpend": 10,
+      "TenDrawDiamondSpend": 900
+    },
+    {
+      "WishID": 1003,
+      "WishType": 1,
+      "Chapter": 3,
+      "GetRewardID": 1010003,
+      "OneDrawPropsID": 40004,
+      "OneDrawPropsSpend": 1,
+      "OneDrawDiamondsSpend": 100,
+      "TenDrawPropsSpend": 10,
+      "TenDrawDiamondSpend": 900
+    },
+    {
+      "WishID": 1004,
+      "WishType": 1,
+      "Chapter": 4,
+      "GetRewardID": 1010003,
+      "OneDrawPropsID": 40004,
+      "OneDrawPropsSpend": 1,
+      "OneDrawDiamondsSpend": 100,
+      "TenDrawPropsSpend": 10,
+      "TenDrawDiamondSpend": 900
+    },
+    {
+      "WishID": 1005,
+      "WishType": 1,
+      "Chapter": 5,
+      "GetRewardID": 1010004,
+      "OneDrawPropsID": 40004,
+      "OneDrawPropsSpend": 1,
+      "OneDrawDiamondsSpend": 100,
+      "TenDrawPropsSpend": 10,
+      "TenDrawDiamondSpend": 900
+    },
+    {
+      "WishID": 1006,
+      "WishType": 1,
+      "Chapter": 6,
+      "GetRewardID": 1010004,
+      "OneDrawPropsID": 40004,
+      "OneDrawPropsSpend": 1,
+      "OneDrawDiamondsSpend": 100,
+      "TenDrawPropsSpend": 10,
+      "TenDrawDiamondSpend": 900
+    },
+    {
+      "WishID": 1007,
+      "WishType": 1,
+      "Chapter": 7,
+      "GetRewardID": 1010004,
+      "OneDrawPropsID": 40004,
+      "OneDrawPropsSpend": 1,
+      "OneDrawDiamondsSpend": 100,
+      "TenDrawPropsSpend": 10,
+      "TenDrawDiamondSpend": 900
+    },
+    {
+      "WishID": 1008,
+      "WishType": 1,
+      "Chapter": 8,
+      "GetRewardID": 1010004,
+      "OneDrawPropsID": 40004,
+      "OneDrawPropsSpend": 1,
+      "OneDrawDiamondsSpend": 100,
+      "TenDrawPropsSpend": 10,
+      "TenDrawDiamondSpend": 900
+    },
+    {
+      "WishID": 1009,
+      "WishType": 1,
+      "Chapter": 9,
+      "GetRewardID": 1010004,
+      "OneDrawPropsID": 40004,
+      "OneDrawPropsSpend": 1,
+      "OneDrawDiamondsSpend": 100,
+      "TenDrawPropsSpend": 10,
+      "TenDrawDiamondSpend": 900
+    },
+    {
+      "WishID": 1010,
+      "WishType": 1,
+      "Chapter": 10,
+      "GetRewardID": 1010004,
+      "OneDrawPropsID": 40004,
+      "OneDrawPropsSpend": 1,
+      "OneDrawDiamondsSpend": 100,
+      "TenDrawPropsSpend": 10,
+      "TenDrawDiamondSpend": 900
+    },
+    {
+      "WishID": 1011,
+      "WishType": 1,
+      "Chapter": 11,
+      "GetRewardID": 1010004,
+      "OneDrawPropsID": 40004,
+      "OneDrawPropsSpend": 1,
+      "OneDrawDiamondsSpend": 100,
+      "TenDrawPropsSpend": 10,
+      "TenDrawDiamondSpend": 900
+    },
+    {
+      "WishID": 1012,
+      "WishType": 1,
+      "Chapter": 12,
+      "GetRewardID": 1010004,
+      "OneDrawPropsID": 40004,
+      "OneDrawPropsSpend": 1,
+      "OneDrawDiamondsSpend": 100,
+      "TenDrawPropsSpend": 10,
+      "TenDrawDiamondSpend": 900
+    },
+    {
+      "WishID": 2001,
+      "WishType": 2,
+      "Chapter": 1,
+      "GetRewardID": 1010005,
+      "OneDrawPropsID": 40005,
+      "OneDrawPropsSpend": 1,
+      "OneDrawDiamondsSpend": 300,
+      "TenDrawPropsSpend": 10,
+      "TenDrawDiamondSpend": 2700
+    },
+    {
+      "WishID": 2002,
+      "WishType": 2,
+      "Chapter": 2,
+      "GetRewardID": 1010005,
+      "OneDrawPropsID": 40005,
+      "OneDrawPropsSpend": 1,
+      "OneDrawDiamondsSpend": 300,
+      "TenDrawPropsSpend": 10,
+      "TenDrawDiamondSpend": 2700
+    },
+    {
+      "WishID": 2003,
+      "WishType": 2,
+      "Chapter": 3,
+      "GetRewardID": 1010005,
+      "OneDrawPropsID": 40005,
+      "OneDrawPropsSpend": 1,
+      "OneDrawDiamondsSpend": 300,
+      "TenDrawPropsSpend": 10,
+      "TenDrawDiamondSpend": 2700
+    },
+    {
+      "WishID": 2004,
+      "WishType": 2,
+      "Chapter": 4,
+      "GetRewardID": 1010005,
+      "OneDrawPropsID": 40005,
+      "OneDrawPropsSpend": 1,
+      "OneDrawDiamondsSpend": 300,
+      "TenDrawPropsSpend": 10,
+      "TenDrawDiamondSpend": 2700
+    },
+    {
+      "WishID": 2005,
+      "WishType": 2,
+      "Chapter": 5,
+      "GetRewardID": 1010005,
+      "OneDrawPropsID": 40005,
+      "OneDrawPropsSpend": 1,
+      "OneDrawDiamondsSpend": 300,
+      "TenDrawPropsSpend": 10,
+      "TenDrawDiamondSpend": 2700
+    },
+    {
+      "WishID": 2006,
+      "WishType": 2,
+      "Chapter": 6,
+      "GetRewardID": 1010006,
+      "OneDrawPropsID": 40005,
+      "OneDrawPropsSpend": 1,
+      "OneDrawDiamondsSpend": 300,
+      "TenDrawPropsSpend": 10,
+      "TenDrawDiamondSpend": 2700
+    },
+    {
+      "WishID": 2007,
+      "WishType": 2,
+      "Chapter": 7,
+      "GetRewardID": 1010006,
+      "OneDrawPropsID": 40005,
+      "OneDrawPropsSpend": 1,
+      "OneDrawDiamondsSpend": 300,
+      "TenDrawPropsSpend": 10,
+      "TenDrawDiamondSpend": 2700
+    },
+    {
+      "WishID": 2008,
+      "WishType": 2,
+      "Chapter": 8,
+      "GetRewardID": 1010006,
+      "OneDrawPropsID": 40005,
+      "OneDrawPropsSpend": 1,
+      "OneDrawDiamondsSpend": 300,
+      "TenDrawPropsSpend": 10,
+      "TenDrawDiamondSpend": 2700
+    },
+    {
+      "WishID": 2009,
+      "WishType": 2,
+      "Chapter": 9,
+      "GetRewardID": 1010006,
+      "OneDrawPropsID": 40005,
+      "OneDrawPropsSpend": 1,
+      "OneDrawDiamondsSpend": 300,
+      "TenDrawPropsSpend": 10,
+      "TenDrawDiamondSpend": 2700
+    },
+    {
+      "WishID": 2010,
+      "WishType": 2,
+      "Chapter": 10,
+      "GetRewardID": 1010006,
+      "OneDrawPropsID": 40005,
+      "OneDrawPropsSpend": 1,
+      "OneDrawDiamondsSpend": 300,
+      "TenDrawPropsSpend": 10,
+      "TenDrawDiamondSpend": 2700
+    },
+    {
+      "WishID": 2011,
+      "WishType": 2,
+      "Chapter": 11,
+      "GetRewardID": 1010006,
+      "OneDrawPropsID": 40005,
+      "OneDrawPropsSpend": 1,
+      "OneDrawDiamondsSpend": 300,
+      "TenDrawPropsSpend": 10,
+      "TenDrawDiamondSpend": 2700
+    },
+    {
+      "WishID": 2012,
+      "WishType": 2,
+      "Chapter": 12,
+      "GetRewardID": 1010006,
+      "OneDrawPropsID": 40005,
+      "OneDrawPropsSpend": 1,
+      "OneDrawDiamondsSpend": 300,
+      "TenDrawPropsSpend": 10,
+      "TenDrawDiamondSpend": 2700
+    }
+  ]
+}

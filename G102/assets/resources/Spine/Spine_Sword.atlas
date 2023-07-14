@@ -1,0 +1,62 @@
+
+Spine_Sword.png
+size: 512, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+Sword
+  rotate: true
+  xy: 2, 275
+  size: 98, 299
+  orig: 99, 300
+  offset: 0, 0
+  index: -1
+boom_1
+  rotate: false
+  xy: 2, 42
+  size: 87, 71
+  orig: 90, 73
+  offset: 2, 1
+  index: -1
+boom_2
+  rotate: true
+  xy: 168, 2
+  size: 124, 130
+  orig: 128, 133
+  offset: 2, 1
+  index: -1
+boom_3
+  rotate: true
+  xy: 168, 128
+  size: 145, 143
+  orig: 148, 145
+  offset: 2, 1
+  index: -1
+boom_4
+  rotate: false
+  xy: 2, 115
+  size: 164, 158
+  orig: 166, 160
+  offset: 1, 1
+  index: -1
+light
+  rotate: true
+  xy: 91, 19
+  size: 94, 62
+  orig: 105, 74
+  offset: 5, 7
+  index: -1
+light1
+  rotate: false
+  xy: 2, 3
+  size: 35, 37
+  orig: 38, 41
+  offset: 0, 2
+  index: -1
+light6
+  rotate: false
+  xy: 2, 375
+  size: 297, 294
+  orig: 300, 300
+  offset: 1, 5
+  index: -1

@@ -1,0 +1,83 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "enemy_info.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "GWTJ_BG": {
+      "__uuid__": "74e78e46-d1ab-4a48-97d2-2bb6bd3c27f1"
+    },
+    "GWTJ_DiZuo": {
+      "__uuid__": "ad8c103b-24b4-45fc-8ae4-47b605cc0b7c"
+    },
+    "GWTJ_JianTou": {
+      "__uuid__": "1d85f50f-4701-4d83-a8f6-ce5c8d85ca28"
+    },
+    "GWTJ_Number_00": {
+      "__uuid__": "d42e0e6a-a02d-4d60-befa-0393abcb5a10"
+    },
+    "GWTJ_Number_01": {
+      "__uuid__": "fccce8a8-7ba2-4ab4-975b-e85f779c7e58"
+    },
+    "GWTJ_TeXing": {
+      "__uuid__": "5fa24a3a-cae8-4615-ad77-a3ffc7defdba"
+    },
+    "GWTJ_bg_Name": {
+      "__uuid__": "9d5fa57b-3f17-49d6-a369-f9a92075fee4"
+    },
+    "GWTJ_dots_00": {
+      "__uuid__": "80f4f33a-1034-445e-9f7b-8bc60d7f4c1e"
+    },
+    "GWTJ_dots_01": {
+      "__uuid__": "b5841677-3725-46a4-a709-7dc125ace1ef"
+    },
+    "TY_Btn_00": {
+      "__uuid__": "3a84eb1c-6a06-4ebc-b9a2-f912c7f088eb"
+    },
+    "TY_Btn_01": {
+      "__uuid__": "23791f68-3ea9-41e5-a574-cf57d0809d77"
+    },
+    "TY_Btn_close": {
+      "__uuid__": "7d2e905a-8e2e-490c-9a2d-c0e2c4521cb4"
+    },
+    "TY_GDT_00": {
+      "__uuid__": "08d672ad-4f74-4ecf-8768-bc6ea8b01b9c"
+    },
+    "TY_GDT_01": {
+      "__uuid__": "28f1b876-ccf6-496e-88f7-c25fcebcd85a"
+    },
+    "TY_TCBG_00": {
+      "__uuid__": "09b5d918-257a-4347-a348-9dc10b453f9f"
+    },
+    "TY_TCBG_01": {
+      "__uuid__": "09f78e97-f35b-44c0-bab1-c0af71d46dbb"
+    },
+    "TY_TCBG_02": {
+      "__uuid__": "f517ba3e-211f-4556-96ed-5335d3243911"
+    },
+    "TY_WenHao": {
+      "__uuid__": "372d49b5-b48c-4578-8d89-a38e01897893"
+    },
+    "TY_icon_ADS": {
+      "__uuid__": "867176bd-7614-4879-8dc5-2d2f12bb12b4"
+    },
+    "TY_icon_Di": {
+      "__uuid__": "eb794449-1966-4ffb-85f0-07bca7962e98"
+    },
+    "TY_icon_Kong": {
+      "__uuid__": "ce698a42-ad03-4402-95fe-cb983d654f7c"
+    },
+    "TY_icon_Lu": {
+      "__uuid__": "63a943f3-a02c-40dc-a0f9-be0828d4e264"
+    },
+    "TY_icon_tips": {
+      "__uuid__": "a23ffe97-efb2-46ee-ab42-49be6f9baf9b"
+    },
+    "TY_icon_zuan_00": {
+      "__uuid__": "e56d7622-8a66-45a4-bc64-aa72ce806023"
+    },
+    "TY_icon_zuan_01": {
+      "__uuid__": "0fce8fb9-31be-442c-965c-2ea9f7c218a5"
+    }
+  }
+}

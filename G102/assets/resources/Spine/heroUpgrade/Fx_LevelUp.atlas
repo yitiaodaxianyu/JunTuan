@@ -1,0 +1,48 @@
+
+Fx_LevelUp.png
+size: 2006, 1111
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+Light_1
+  rotate: false
+  xy: 1563, 141
+  size: 443, 970
+  orig: 447, 980
+  offset: 2, 2
+  index: -1
+Light_2
+  rotate: true
+  xy: 591, 667
+  size: 444, 970
+  orig: 448, 980
+  offset: 2, 2
+  index: -1
+Piece_1
+  rotate: false
+  xy: 1157, 371
+  size: 72, 294
+  orig: 78, 310
+  offset: 3, 8
+  index: -1
+Soft
+  rotate: false
+  xy: 0, 0
+  size: 520, 520
+  orig: 526, 526
+  offset: 3, 3
+  index: -1
+Xing
+  rotate: false
+  xy: 591, 101
+  size: 564, 564
+  orig: 566, 566
+  offset: 1, 1
+  index: -1
+ring
+  rotate: false
+  xy: 0, 522
+  size: 589, 589
+  orig: 589, 589
+  offset: 0, 0
+  index: -1

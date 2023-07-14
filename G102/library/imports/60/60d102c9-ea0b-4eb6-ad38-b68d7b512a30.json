@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Picador_Skill1_04",
+    "texture": "e3e420a9-51ee-42c4-8483-e2bf896748af",
+    "atlas": "8289e203-9d8e-4aff-bef5-a2d9d6560bf0",
+    "rect": [
+      2,
+      492,
+      160,
+      204
+    ],
+    "offset": [
+      -1,
+      0
+    ],
+    "originalSize": [
+      170,
+      220
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

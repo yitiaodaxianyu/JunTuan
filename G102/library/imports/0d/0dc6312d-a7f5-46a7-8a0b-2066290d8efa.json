@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "FX_Speed_29",
+    "texture": "cd27942d-bb1b-4cfc-a662-0b9dea217108",
+    "atlas": "7dd9e47d-cd93-4798-8829-666f3d8f7b66",
+    "rect": [
+      2,
+      186,
+      128,
+      180
+    ],
+    "offset": [
+      -12,
+      -4
+    ],
+    "originalSize": [
+      200,
+      200
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

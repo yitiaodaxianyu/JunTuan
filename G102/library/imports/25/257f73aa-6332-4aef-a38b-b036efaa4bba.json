@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ZhanLin_JinDu_1",
+    "texture": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+    "atlas": "4a6c35f2-fad1-4143-8a26-638d0b5ecb2d",
+    "rect": [
+      805,
+      957,
+      33,
+      32
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      33,
+      32
+    ],
+    "capInsets": [
+      16,
+      10,
+      16,
+      10
+    ]
+  }
+}

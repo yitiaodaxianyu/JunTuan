@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Gunner_Attack_06",
+    "texture": "4a2e88f4-7ce8-4319-bec0-504d431c621a",
+    "atlas": "8932c782-c694-43bb-95b0-0e4c411b4b2e",
+    "rect": [
+      1951,
+      1624,
+      80,
+      92
+    ],
+    "offset": [
+      0,
+      -4
+    ],
+    "originalSize": [
+      80,
+      100
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

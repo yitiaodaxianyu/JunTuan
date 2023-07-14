@@ -1,0 +1,111 @@
+
+Picador_Back.png
+size: 246,78
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 138, 21
+  size: 43, 57
+  orig: 43, 57
+  offset: 0, 0
+  index: -1
+Mao
+  rotate: false
+  xy: 50, 20
+  size: 34, 58
+  orig: 34, 58
+  offset: 0, 0
+  index: -1
+Mao_2
+  rotate: false
+  xy: 183, 30
+  size: 37, 48
+  orig: 37, 48
+  offset: 0, 0
+  index: -1
+Tou
+  rotate: true
+  xy: 0, 5
+  size: 73, 48
+  orig: 73, 48
+  offset: 0, 0
+  index: -1
+TouFa
+  rotate: false
+  xy: 86, 21
+  size: 50, 57
+  orig: 50, 57
+  offset: 0, 0
+  index: -1
+YouBi
+  rotate: false
+  xy: 222, 38
+  size: 20, 40
+  orig: 20, 40
+  offset: 0, 0
+  index: -1
+YouDaBi
+  rotate: true
+  xy: 212, 3
+  size: 25, 34
+  orig: 25, 34
+  offset: 0, 0
+  index: -1
+YouJiao
+  rotate: true
+  xy: 89, 1
+  size: 18, 12
+  orig: 18, 12
+  offset: 0, 0
+  index: -1
+YouTui
+  rotate: false
+  xy: 146, 6
+  size: 11, 13
+  orig: 11, 13
+  offset: 0, 0
+  index: -1
+Youshou
+  rotate: true
+  xy: 120, 5
+  size: 14, 12
+  orig: 15, 12
+  offset: 0, 0
+  index: -1
+ZuoBi
+  rotate: true
+  xy: 50, 0
+  size: 18, 37
+  orig: 18, 37
+  offset: 0, 0
+  index: -1
+ZuoDaBi
+  rotate: false
+  xy: 183, 1
+  size: 27, 27
+  orig: 27, 27
+  offset: 0, 0
+  index: -1
+ZuoJiao
+  rotate: false
+  xy: 103, 4
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+ZuoShou
+  rotate: false
+  xy: 134, 5
+  size: 10, 14
+  orig: 10, 14
+  offset: 0, 0
+  index: -1
+ZuoTui
+  rotate: false
+  xy: 159, 7
+  size: 10, 12
+  orig: 10, 12
+  offset: 0, 0
+  index: -1

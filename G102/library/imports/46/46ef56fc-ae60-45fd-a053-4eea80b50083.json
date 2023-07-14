@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "week_card_ui.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Subscribe_Bg_0": {
+      "__uuid__": "41ac0907-60cb-4468-982c-b9620d462adc"
+    },
+    "Subscribe_Bg_1": {
+      "__uuid__": "2316aeb9-c34a-424b-a1f8-c50fc7cc0127"
+    },
+    "Subscribe_Bg_2": {
+      "__uuid__": "821cb195-d1dc-40ab-976f-07f8ce50bbfc"
+    },
+    "Subscribe_Bg_3": {
+      "__uuid__": "640cb54c-c38c-4994-b551-f98d17cb321f"
+    },
+    "Subscribe_Bg_4": {
+      "__uuid__": "f50606f7-6ff6-4b44-b213-0f93b1a51f72"
+    },
+    "Subscribe_Bg_5": {
+      "__uuid__": "556f3be3-b2c5-4cf0-8393-c52fd74a4999"
+    },
+    "Subscribe_Title": {
+      "__uuid__": "1950e5c4-02fe-4c48-b874-ea006dd4aacc"
+    }
+  }
+}

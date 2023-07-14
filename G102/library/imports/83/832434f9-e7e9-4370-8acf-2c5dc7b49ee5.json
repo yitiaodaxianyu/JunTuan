@@ -1,0 +1,266 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "zhen_de.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "ZhenDe_Attack": {
+      "__uuid__": "fd1bc71d-4657-4bfe-8b0f-916acf53822f"
+    },
+    "ZhenDe_AttackHit_00": {
+      "__uuid__": "7f937367-3c53-4233-b9d6-2808b67c4f8b"
+    },
+    "ZhenDe_AttackHit_01": {
+      "__uuid__": "ab3eb063-5f01-4636-a9b4-4cd82b101c42"
+    },
+    "ZhenDe_AttackHit_02": {
+      "__uuid__": "47adbc1c-aa46-4db2-9f9d-e78e35f2aeb1"
+    },
+    "ZhenDe_AttackHit_03": {
+      "__uuid__": "5d7eeb0e-b673-42f9-879b-2050e149df80"
+    },
+    "ZhenDe_AttackHit_04": {
+      "__uuid__": "aa9f41bf-d94e-40ad-801a-ad0017c4eeeb"
+    },
+    "ZhenDe_AttackHit_05": {
+      "__uuid__": "149f82f3-b719-46e8-a5de-cbd2c3d08b37"
+    },
+    "ZhenDe_AttackHit_06": {
+      "__uuid__": "bc4f18ad-7be9-4782-b644-c44d0c0f6864"
+    },
+    "ZhenDe_AttackHit_07": {
+      "__uuid__": "ca9b6204-532a-4d88-92b1-5eddbb84cbbe"
+    },
+    "ZhenDe_AttackHit_08": {
+      "__uuid__": "52cfa6c4-dc66-4e1a-9c39-7f188c3bc380"
+    },
+    "ZhenDe_AttackHit_09": {
+      "__uuid__": "02a2e667-aec9-4317-89c5-5d6e48c7f59b"
+    },
+    "ZhenDe_AttackHit_10": {
+      "__uuid__": "961d2aaf-f40b-4973-9d18-52cc66775dd6"
+    },
+    "ZhenDe_AttackHit_11": {
+      "__uuid__": "79620f95-e1ae-4f27-8561-ba929dac3d87"
+    },
+    "ZhenDe_AttackHit_12": {
+      "__uuid__": "cda98cb2-1943-4be3-99cf-f15c459c215a"
+    },
+    "ZhenDe_Passive_00": {
+      "__uuid__": "1aeee1d3-ada3-40bb-bf5f-2ad3a021ebb9"
+    },
+    "ZhenDe_Passive_01": {
+      "__uuid__": "f612e744-b02a-4bd5-924c-4d5443d28a26"
+    },
+    "ZhenDe_Passive_02": {
+      "__uuid__": "e0711afd-4f5a-4e39-a9f3-c8bf5d16e69e"
+    },
+    "ZhenDe_Passive_03": {
+      "__uuid__": "50b6f031-a01f-44b9-a805-b48475e806d3"
+    },
+    "ZhenDe_Passive_04": {
+      "__uuid__": "d6c3371f-8622-42a1-9f35-c2766d819ff4"
+    },
+    "ZhenDe_Passive_05": {
+      "__uuid__": "c828d9e6-8612-4d68-8b57-9cdc02970bbd"
+    },
+    "ZhenDe_Passive_06": {
+      "__uuid__": "19dda6f8-970f-4bba-8c26-e2893ff07f47"
+    },
+    "ZhenDe_Passive_07": {
+      "__uuid__": "49ef4783-4ab5-450e-b1e4-9f65a7c14c80"
+    },
+    "ZhenDe_Passive_08": {
+      "__uuid__": "255a1012-4f5d-4f1d-8c55-30c68ce7c3d9"
+    },
+    "ZhenDe_Passive_09": {
+      "__uuid__": "24543528-d752-4a78-a2f8-8a3d5b6cca0a"
+    },
+    "ZhenDe_Passive_10": {
+      "__uuid__": "7a590dc6-cd80-4905-aaa7-c4a2dd402620"
+    },
+    "ZhenDe_Passive_11": {
+      "__uuid__": "0ab782ea-df5c-42e6-af0e-100dcab85cd0"
+    },
+    "ZhenDe_Passive_12": {
+      "__uuid__": "53196fa5-4e8a-4bf3-8582-16bbb3ec3dd5"
+    },
+    "ZhenDe_Passive_13": {
+      "__uuid__": "6c089d84-6412-4e81-b4b4-974d1cacaa53"
+    },
+    "ZhenDe_Passive_14": {
+      "__uuid__": "77429b3d-0b63-4c49-a26b-6da952aff0c0"
+    },
+    "ZhenDe_Passive_15": {
+      "__uuid__": "54a8f5ce-ac47-4751-bfec-de45c1be0354"
+    },
+    "ZhenDe_Passive_16": {
+      "__uuid__": "4d2b46ce-b90a-425c-a4fe-ebf3e2ee2852"
+    },
+    "ZhenDe_Passive_17": {
+      "__uuid__": "2e756bd1-4c1f-4845-8a16-71205602b2a6"
+    },
+    "ZhenDe_Passive_18": {
+      "__uuid__": "95870ad4-9f73-4e2a-8790-ce2729205e75"
+    },
+    "ZhenDe_Passive_19": {
+      "__uuid__": "d09af118-d959-47b1-8867-424f63b45996"
+    },
+    "ZhenDe_Passive_20": {
+      "__uuid__": "acd4e3a1-59a8-40ca-8845-054402d03e11"
+    },
+    "ZhenDe_Skill1_1": {
+      "__uuid__": "7baaa0b0-6e08-4939-9208-9702f6dbe8d9"
+    },
+    "ZhenDe_Skill1_2_00": {
+      "__uuid__": "9c0ea287-c3c5-41e1-81e4-8522e97812f3"
+    },
+    "ZhenDe_Skill1_2_01": {
+      "__uuid__": "4ece6761-bf3a-40fd-b601-61befc9c2f82"
+    },
+    "ZhenDe_Skill1_2_02": {
+      "__uuid__": "14b07aeb-d663-4461-a9b2-4ee1ec90efbc"
+    },
+    "ZhenDe_Skill1_2_03": {
+      "__uuid__": "b43497a7-0f30-4a97-8aea-012ece2c067a"
+    },
+    "ZhenDe_Skill1_2_04": {
+      "__uuid__": "80018d86-ccfb-4aab-8fe6-4749447f672f"
+    },
+    "ZhenDe_Skill1_2_05": {
+      "__uuid__": "8b698003-3732-4991-a4c3-95cc9a7a57aa"
+    },
+    "ZhenDe_Skill1_2_06": {
+      "__uuid__": "4a3619fe-8809-463f-a5e1-b4365ed4994b"
+    },
+    "ZhenDe_Skill1_2_07": {
+      "__uuid__": "959ca327-7752-4854-a1c7-4cf86220ccd2"
+    },
+    "ZhenDe_Skill1_2_08": {
+      "__uuid__": "6c8762c3-acd9-45c7-b0e8-d7e4c40fa5d6"
+    },
+    "ZhenDe_Skill1_2_09": {
+      "__uuid__": "94e77799-7e07-48f4-9914-d00452443b5e"
+    },
+    "ZhenDe_Skill1_2_10": {
+      "__uuid__": "f035ff1b-8491-4353-ac4c-8ad5d1b374fb"
+    },
+    "ZhenDe_Skill1_2_11": {
+      "__uuid__": "a602aa5b-9470-4a97-9845-218729e13332"
+    },
+    "ZhenDe_Skill1_2_12": {
+      "__uuid__": "dcf39d18-2173-4e78-9f73-046811fa0a5c"
+    },
+    "ZhenDe_Skill1_2_13": {
+      "__uuid__": "9db0a64b-9fab-4352-b534-0dbab4f57b5a"
+    },
+    "ZhenDe_Skill1_2_14": {
+      "__uuid__": "71bf2c1f-0a30-44c8-8c96-100daa96a1d7"
+    },
+    "ZhenDe_Skill1_2_15": {
+      "__uuid__": "a77a47e4-e58b-4f42-bec7-93e4b8fc17d1"
+    },
+    "ZhenDe_Skill1_2_16": {
+      "__uuid__": "06c45251-7820-4b7d-bef4-1cfd09362364"
+    },
+    "ZhenDe_Skill1_2_17": {
+      "__uuid__": "05e8611a-f3bd-4bc5-91a0-ac957bae20b5"
+    },
+    "ZhenDe_Skill1_2_18": {
+      "__uuid__": "1455f880-1a9e-47d2-b49a-0a775ece033f"
+    },
+    "ZhenDe_Skill1_2_19": {
+      "__uuid__": "6781c066-d2d8-4749-8584-343fc15cfd6f"
+    },
+    "ZhenDe_Skill1_2_20": {
+      "__uuid__": "49ec5976-c0f8-49ea-bd13-fee9e46f7f74"
+    },
+    "ZhenDe_Skill1_2_21": {
+      "__uuid__": "75fd4b69-6063-454a-a2b4-0b184fd813a0"
+    },
+    "ZhenDe_Skill1_2_22": {
+      "__uuid__": "d95c92b2-4858-4b8d-ad62-d31aedb8d423"
+    },
+    "ZhenDe_Skill1_2_23": {
+      "__uuid__": "04f3c17d-c094-41a7-9c09-729c789da2c4"
+    },
+    "ZhenDe_Skill1_2_24": {
+      "__uuid__": "28a5a26e-dcc4-42ac-bc37-34e78aef6d8e"
+    },
+    "ZhenDe_Skill1_3": {
+      "__uuid__": "689204b5-4396-41b8-a6cf-3fbb6834ea89"
+    },
+    "ZhenDe_Skill2_00": {
+      "__uuid__": "6fe0a8ae-49e4-4d21-8df6-ac08400871ed"
+    },
+    "ZhenDe_Skill2_01": {
+      "__uuid__": "d8de080e-00aa-4bad-b3e4-45a7aa1a1203"
+    },
+    "ZhenDe_Skill2_02": {
+      "__uuid__": "25959c3e-ead2-4892-9819-1b9bfe4bc79a"
+    },
+    "ZhenDe_Skill2_03": {
+      "__uuid__": "d3c09263-db0d-4264-adca-f2b9b0398a95"
+    },
+    "ZhenDe_Skill2_04": {
+      "__uuid__": "cfd53351-d82b-4c16-8252-43518b368211"
+    },
+    "ZhenDe_Skill2_05": {
+      "__uuid__": "3483ed02-bd62-4ca9-af43-6ce33a776b40"
+    },
+    "ZhenDe_Skill2_06": {
+      "__uuid__": "c8125f77-478b-4bd9-a2c2-9e02333c46b5"
+    },
+    "ZhenDe_Skill2_07": {
+      "__uuid__": "191f5487-be49-4df2-90b1-7b3b31edc99f"
+    },
+    "ZhenDe_Skill2_08": {
+      "__uuid__": "f5426c35-e629-4fc3-b9e2-de90b4697bc7"
+    },
+    "ZhenDe_Skill2_09": {
+      "__uuid__": "5de04cc9-462b-46e7-9ab1-a0cccb8aa290"
+    },
+    "ZhenDe_Skill2_10": {
+      "__uuid__": "6d30a6d1-2201-46f8-828f-828e3ed7cf3a"
+    },
+    "ZhenDe_Skill2_11": {
+      "__uuid__": "238aed40-df55-4c3f-8e60-c48116ae2841"
+    },
+    "ZhenDe_Skill2_12": {
+      "__uuid__": "97c56b27-68d9-4314-b7ce-7639b032375f"
+    },
+    "ZhenDe_Skill2_13": {
+      "__uuid__": "aa81ff3f-ff79-4db2-a887-4969b7209113"
+    },
+    "ZhenDe_Skill2_14": {
+      "__uuid__": "8ab05182-62fa-4c4b-a9ce-cc87715cca9e"
+    },
+    "ZhenDe_Skill2_15": {
+      "__uuid__": "ba5ce899-796c-4ab4-95dc-4ceaf0029bb8"
+    },
+    "ZhenDe_Skill2_16": {
+      "__uuid__": "20bea921-5282-43ec-b67b-766c5988ddeb"
+    },
+    "ZhenDe_Skill2_17": {
+      "__uuid__": "1bb27099-07be-43ba-bb9c-87192b440586"
+    },
+    "ZhenDe_Skill2_18": {
+      "__uuid__": "339b1620-f0b3-4dfc-becc-d0539c67bdd1"
+    },
+    "ZhenDe_Skill2_19": {
+      "__uuid__": "317ee822-25cc-4062-aa14-b76bbfd90115"
+    },
+    "ZhenDe_Skill2_20": {
+      "__uuid__": "9e53f83e-5540-4c4e-87d6-b6a2caf844d7"
+    },
+    "ZhenDe_Skill2_21": {
+      "__uuid__": "1f6ee364-d8d8-465d-94ee-233b6f033286"
+    },
+    "ZhenDe_Skill2_22": {
+      "__uuid__": "5c67e5ef-140a-46e9-b43a-8370adcda454"
+    },
+    "ZhenDe_Skill2_23": {
+      "__uuid__": "dff5bbf1-82d0-440b-b883-104ad7691a25"
+    }
+  }
+}

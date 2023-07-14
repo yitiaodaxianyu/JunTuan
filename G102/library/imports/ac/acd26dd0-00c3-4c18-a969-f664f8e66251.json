@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "VIP_icon_04",
+    "texture": "bf4d600a-d80d-4979-8a27-e90610e7ba6d",
+    "atlas": "1917ef48-58dc-4389-b775-31707257063f",
+    "rect": [
+      392,
+      506,
+      60,
+      65
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      60,
+      65
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

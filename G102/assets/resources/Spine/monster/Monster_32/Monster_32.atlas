@@ -1,0 +1,97 @@
+
+Monster_32.png
+size: 141, 228
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+Huan
+  rotate: false
+  xy: 2, 16
+  size: 34, 33
+  orig: 34, 33
+  offset: 0, 0
+  index: -1
+KuZhi
+  rotate: false
+  xy: 94, 179
+  size: 39, 47
+  orig: 39, 47
+  offset: 0, 0
+  index: -1
+PiFeng
+  rotate: false
+  xy: 2, 51
+  size: 78, 48
+  orig: 78, 50
+  offset: 0, 2
+  index: -1
+ShenTi
+  rotate: true
+  xy: 94, 143
+  size: 34, 43
+  orig: 34, 43
+  offset: 0, 0
+  index: -1
+Tou
+  rotate: true
+  xy: 2, 153
+  size: 73, 90
+  orig: 73, 90
+  offset: 0, 0
+  index: -1
+YouJian
+  rotate: true
+  xy: 86, 63
+  size: 78, 51
+  orig: 78, 51
+  offset: 0, 0
+  index: -1
+YouJiao
+  rotate: true
+  xy: 79, 3
+  size: 22, 34
+  orig: 22, 34
+  offset: 0, 0
+  index: -1
+YouShou
+  rotate: true
+  xy: 115, 2
+  size: 23, 24
+  orig: 23, 24
+  offset: 0, 0
+  index: -1
+YouShouBi
+  rotate: true
+  xy: 38, 21
+  size: 28, 39
+  orig: 28, 39
+  offset: 0, 0
+  index: -1
+ZuoJian
+  rotate: true
+  xy: 2, 101
+  size: 50, 82
+  orig: 50, 82
+  offset: 0, 0
+  index: -1
+ZuoJiao
+  rotate: false
+  xy: 119, 27
+  size: 17, 34
+  orig: 17, 34
+  offset: 0, 0
+  index: -1
+ZuoShou
+  rotate: true
+  xy: 38, 4
+  size: 15, 19
+  orig: 15, 19
+  offset: 0, 0
+  index: -1
+ZuoShouBi
+  rotate: true
+  xy: 82, 27
+  size: 34, 35
+  orig: 34, 35
+  offset: 0, 0
+  index: -1

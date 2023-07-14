@@ -1,0 +1,38 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "tower_gift.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Icon_Power": {
+      "__uuid__": "7fa59637-08eb-4a04-91ac-559ed72040c6"
+    },
+    "JSTC_bg_05": {
+      "__uuid__": "cfc545da-74f5-4df2-8cb0-a02c52b078b5"
+    },
+    "SD_Chest_03": {
+      "__uuid__": "8d4570af-ecbe-4683-8541-8e2942f81332"
+    },
+    "TY_Btn_00": {
+      "__uuid__": "9510ad47-ff00-4e01-8523-6a81397f90d6"
+    },
+    "TY_Btn_01": {
+      "__uuid__": "a74244ab-5dd5-4b18-9109-cd0dfd1eed19"
+    },
+    "TY_Btn_close": {
+      "__uuid__": "0c621100-eca0-4fde-a3bc-7ba20810108e"
+    },
+    "TY_TCBG_11": {
+      "__uuid__": "1e1f87dd-a396-4e97-a7c6-aaa994ec5b44"
+    },
+    "TY_icon_ADS": {
+      "__uuid__": "35503a8c-cb13-4ee7-9762-7b986d39f105"
+    },
+    "TY_light_01": {
+      "__uuid__": "a998e100-1711-4168-96ca-6c8ad4a24d1f"
+    },
+    "TY_title_00": {
+      "__uuid__": "a44514b1-a292-49a8-b51e-d6631e320345"
+    }
+  }
+}

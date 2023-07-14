@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Map_Window_9",
+    "texture": "f966b285-f125-4117-bf2d-7b1d48c90e84",
+    "atlas": "d3a485a4-34a2-4880-93a6-02cdc3717cfe",
+    "rect": [
+      1857,
+      740,
+      491,
+      147
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      491,
+      147
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

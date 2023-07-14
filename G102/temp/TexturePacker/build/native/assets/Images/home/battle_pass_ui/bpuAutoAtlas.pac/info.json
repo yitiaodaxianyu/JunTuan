@@ -1,0 +1,524 @@
+{
+  "projectPath": "D:\\proSvn\\G102",
+  "actualPlatform": "wechatgame",
+  "mtimes": {
+    "c9ba14e0-aa8a-40b2-878b-534a465e3a7a": {
+      "assetMtime": 1688719261793,
+      "metaMtime": 1689133968567
+    },
+    "2af97d54-40ad-43f8-bc4e-e23539f7c28a": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "99af727f-665e-4276-a2bc-b23712b9f6d8": {
+      "assetMtime": 1688719261791,
+      "metaMtime": 1689133968671
+    },
+    "2f75080a-3e8a-43e2-a7a6-22521db93f20": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "30fb1285-75b4-43d3-8db3-f71262a93f67": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "33bdb8dc-511f-41f8-815f-4edb27d9f8fa": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "3ed2146d-0b25-46fb-9795-9c500c0705a7": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "47064744-c772-4be2-9caf-62cd4ed51517": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "4f6c6eed-6077-4c09-874a-9230b2abb4b0": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "58ab864c-cefa-47ef-88ea-d79c82cf1112": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "5c29cf95-da12-487b-b9be-8079ac616f02": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "63822abb-50d0-4bad-8856-bf0194e15e62": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "9df98d35-ccd1-488e-943f-d85f69acb276": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "a3291073-e245-415c-b396-5924d4993244": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "abdc54cf-d2fe-4a47-95e9-776a8e9a64aa": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "e17bc5d2-6765-4472-94da-c462799394c4": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "ea0363ca-7a9e-4fbe-94ab-c8bc799be904": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "f8314d86-39c3-4bd5-ab04-b92b78dfc2d3": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "f9574c8a-22dd-4486-bf23-c0caeb75a2b4": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    }
+  },
+  "result": {
+    "name": "bpuAutoAtlas",
+    "width": 1024,
+    "height": 1024,
+    "ver": "1.2.5",
+    "uuid": "c9ba14e0-aa8a-40b2-878b-534a465e3a7a",
+    "importer": "auto-atlas",
+    "maxWidth": 1024,
+    "maxHeight": 1024,
+    "padding": 2,
+    "compressionLevel": 6,
+    "allowRotation": true,
+    "forceSquared": false,
+    "powerOfTwo": false,
+    "algorithm": "MaxRects",
+    "format": "png",
+    "quality": 80,
+    "contourBleed": true,
+    "paddingBleed": true,
+    "filterUnused": true,
+    "packable": false,
+    "premultiplyAlpha": false,
+    "filterMode": "bilinear",
+    "platformSettings": {},
+    "subMetas": {},
+    "bleed": 1,
+    "atlases": [
+      {
+        "files": [
+          {
+            "name": "WarOrder_Bg_1",
+            "uuid": "2af97d54-40ad-43f8-bc4e-e23539f7c28a",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689228888200_image_0.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 640,
+              "height": 386,
+              "rotatedWidth": 640,
+              "rotatedHeight": 386
+            },
+            "rawWidth": 640,
+            "rawHeight": 386,
+            "width": 646,
+            "height": 392,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 0,
+            "y": 0,
+            "rotatedWidth": 646,
+            "rotatedHeight": 392
+          },
+          {
+            "name": "WarOrder_Bg_6",
+            "uuid": "63822abb-50d0-4bad-8856-bf0194e15e62",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689228888200_image_9.png",
+            "trim": {
+              "x": 649,
+              "y": 3,
+              "width": 630,
+              "height": 142,
+              "rotatedWidth": 142,
+              "rotatedHeight": 630
+            },
+            "rawWidth": 630,
+            "rawHeight": 142,
+            "width": 636,
+            "height": 148,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 646,
+            "y": 0,
+            "rotated": true,
+            "rotatedWidth": 148,
+            "rotatedHeight": 636
+          },
+          {
+            "name": "WarOrder_Btn_0",
+            "uuid": "58ab864c-cefa-47ef-88ea-d79c82cf1112",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689228888200_image_7.png",
+            "trim": {
+              "x": 3,
+              "y": 639,
+              "width": 257,
+              "height": 73,
+              "rotatedWidth": 257,
+              "rotatedHeight": 73
+            },
+            "rawWidth": 257,
+            "rawHeight": 73,
+            "width": 263,
+            "height": 79,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 0,
+            "y": 636,
+            "rotatedWidth": 263,
+            "rotatedHeight": 79
+          },
+          {
+            "name": "WarOrder_Light",
+            "uuid": "f9574c8a-22dd-4486-bf23-c0caeb75a2b4",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689228888201_image_16.png",
+            "trim": {
+              "x": 266,
+              "y": 395,
+              "width": 335,
+              "height": 311,
+              "rotatedWidth": 335,
+              "rotatedHeight": 311
+            },
+            "rawWidth": 335,
+            "rawHeight": 311,
+            "width": 341,
+            "height": 317,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 263,
+            "y": 392,
+            "rotatedWidth": 341,
+            "rotatedHeight": 317
+          },
+          {
+            "name": "WarOrder_Bg_3",
+            "uuid": "3ed2146d-0b25-46fb-9795-9c500c0705a7",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689228888200_image_4.png",
+            "trim": {
+              "x": 607,
+              "y": 395,
+              "width": 374,
+              "height": 34,
+              "rotatedWidth": 34,
+              "rotatedHeight": 374
+            },
+            "rawWidth": 374,
+            "rawHeight": 34,
+            "width": 380,
+            "height": 40,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 604,
+            "y": 392,
+            "rotated": true,
+            "rotatedWidth": 40,
+            "rotatedHeight": 380
+          },
+          {
+            "name": "ZhanLin_ZheZhao",
+            "uuid": "30fb1285-75b4-43d3-8db3-f71262a93f67",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689228888200_image_2.png",
+            "trim": {
+              "x": 647,
+              "y": 639,
+              "width": 89,
+              "height": 89,
+              "rotatedWidth": 89,
+              "rotatedHeight": 89
+            },
+            "rawWidth": 89,
+            "rawHeight": 89,
+            "width": 95,
+            "height": 95,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 644,
+            "y": 636,
+            "rotatedWidth": 95,
+            "rotatedHeight": 95
+          },
+          {
+            "name": "ZhanLin_Btn_2",
+            "uuid": "f8314d86-39c3-4bd5-ab04-b92b78dfc2d3",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689228888201_image_15.png",
+            "trim": {
+              "x": 742,
+              "y": 639,
+              "width": 133,
+              "height": 53,
+              "rotatedWidth": 53,
+              "rotatedHeight": 133
+            },
+            "rawWidth": 133,
+            "rawHeight": 53,
+            "width": 139,
+            "height": 59,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 739,
+            "y": 636,
+            "rotated": true,
+            "rotatedWidth": 59,
+            "rotatedHeight": 139
+          },
+          {
+            "name": "WarOrder_Jdt1",
+            "uuid": "4f6c6eed-6077-4c09-874a-9230b2abb4b0",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689228888200_image_6.png",
+            "trim": {
+              "x": 647,
+              "y": 734,
+              "width": 64,
+              "height": 64,
+              "rotatedWidth": 64,
+              "rotatedHeight": 64
+            },
+            "rawWidth": 64,
+            "rawHeight": 64,
+            "width": 70,
+            "height": 70,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 644,
+            "y": 731,
+            "rotatedWidth": 70,
+            "rotatedHeight": 70
+          },
+          {
+            "name": "WarOrder_Bg_2",
+            "uuid": "9df98d35-ccd1-488e-943f-d85f69acb276",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689228888200_image_10.png",
+            "trim": {
+              "x": 266,
+              "y": 712,
+              "width": 254,
+              "height": 44,
+              "rotatedWidth": 254,
+              "rotatedHeight": 44
+            },
+            "rawWidth": 254,
+            "rawHeight": 44,
+            "width": 260,
+            "height": 50,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 263,
+            "y": 709,
+            "rotatedWidth": 260,
+            "rotatedHeight": 50
+          },
+          {
+            "name": "ZhanLin_Icon_DaGou",
+            "uuid": "ea0363ca-7a9e-4fbe-94ab-c8bc799be904",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689228888201_image_14.png",
+            "trim": {
+              "x": 526,
+              "y": 712,
+              "width": 83,
+              "height": 68,
+              "rotatedWidth": 68,
+              "rotatedHeight": 83
+            },
+            "rawWidth": 83,
+            "rawHeight": 68,
+            "width": 89,
+            "height": 74,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 523,
+            "y": 709,
+            "rotated": true,
+            "rotatedWidth": 74,
+            "rotatedHeight": 89
+          },
+          {
+            "name": "WarOrder_Bg_4",
+            "uuid": "47064744-c772-4be2-9caf-62cd4ed51517",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689228888200_image_5.png",
+            "trim": {
+              "x": 3,
+              "y": 762,
+              "width": 247,
+              "height": 34,
+              "rotatedWidth": 247,
+              "rotatedHeight": 34
+            },
+            "rawWidth": 247,
+            "rawHeight": 34,
+            "width": 253,
+            "height": 40,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 0,
+            "y": 759,
+            "rotatedWidth": 253,
+            "rotatedHeight": 40
+          },
+          {
+            "name": "WarOrder_Jdtd",
+            "uuid": "33bdb8dc-511f-41f8-815f-4edb27d9f8fa",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689228888200_image_3.png",
+            "trim": {
+              "x": 256,
+              "y": 762,
+              "width": 35,
+              "height": 55,
+              "rotatedWidth": 55,
+              "rotatedHeight": 35
+            },
+            "rawWidth": 35,
+            "rawHeight": 55,
+            "width": 41,
+            "height": 61,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 253,
+            "y": 759,
+            "rotated": true,
+            "rotatedWidth": 61,
+            "rotatedHeight": 41
+          },
+          {
+            "name": "WarOrder_Jdt",
+            "uuid": "a3291073-e245-415c-b396-5924d4993244",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689228888200_image_11.png",
+            "trim": {
+              "x": 317,
+              "y": 762,
+              "width": 27,
+              "height": 47,
+              "rotatedWidth": 47,
+              "rotatedHeight": 27
+            },
+            "rawWidth": 27,
+            "rawHeight": 47,
+            "width": 33,
+            "height": 53,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 314,
+            "y": 759,
+            "rotated": true,
+            "rotatedWidth": 53,
+            "rotatedHeight": 33
+          },
+          {
+            "name": "ZhanLin_icon_lock",
+            "uuid": "5c29cf95-da12-487b-b9be-8079ac616f02",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689228888200_image_8.png",
+            "trim": {
+              "x": 370,
+              "y": 762,
+              "width": 34,
+              "height": 34,
+              "rotatedWidth": 34,
+              "rotatedHeight": 34
+            },
+            "rawWidth": 34,
+            "rawHeight": 34,
+            "width": 40,
+            "height": 40,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 367,
+            "y": 759,
+            "rotatedWidth": 40,
+            "rotatedHeight": 40
+          },
+          {
+            "name": "WarOrder_Icon_1",
+            "uuid": "abdc54cf-d2fe-4a47-95e9-776a8e9a64aa",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689228888200_image_12.png",
+            "trim": {
+              "x": 3,
+              "y": 395,
+              "width": 199,
+              "height": 165,
+              "rotatedWidth": 165,
+              "rotatedHeight": 199
+            },
+            "rawWidth": 199,
+            "rawHeight": 165,
+            "width": 205,
+            "height": 171,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 0,
+            "y": 392,
+            "rotated": true,
+            "rotatedWidth": 171,
+            "rotatedHeight": 205
+          },
+          {
+            "name": "ZhanLin_Bg_1",
+            "uuid": "2f75080a-3e8a-43e2-a7a6-22521db93f20",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689228888200_image_1.png",
+            "trim": {
+              "x": 174,
+              "y": 395,
+              "width": 64,
+              "height": 115,
+              "rotatedWidth": 64,
+              "rotatedHeight": 115
+            },
+            "rawWidth": 64,
+            "rawHeight": 115,
+            "width": 70,
+            "height": 121,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 171,
+            "y": 392,
+            "rotatedWidth": 70,
+            "rotatedHeight": 121
+          },
+          {
+            "name": "WarOrder_Btn_GoTo",
+            "uuid": "e17bc5d2-6765-4472-94da-c462799394c4",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689228888200_image_13.png",
+            "trim": {
+              "x": 174,
+              "y": 516,
+              "width": 84,
+              "height": 84,
+              "rotatedWidth": 84,
+              "rotatedHeight": 84
+            },
+            "rawWidth": 84,
+            "rawHeight": 84,
+            "width": 90,
+            "height": 90,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 171,
+            "y": 513,
+            "rotatedWidth": 90,
+            "rotatedHeight": 90
+          }
+        ],
+        "width": 798,
+        "height": 801,
+        "name": "bpuAutoAtlas-1",
+        "imagePath": "D:\\proSvn\\G102\\temp\\TexturePacker\\build\\native\\assets\\Images\\home\\battle_pass_ui\\bpuAutoAtlas.pac\\bpuAutoAtlas-1.png",
+        "compressd": {
+          "suffix": [
+            ".png"
+          ],
+          "imagePathNoExt": "D:\\proSvn\\G102\\temp\\TexturePacker\\build\\native\\assets\\Images\\home\\battle_pass_ui\\bpuAutoAtlas.pac\\compressed\\bpuAutoAtlas-1"
+        }
+      }
+    ],
+    "unpackedTextures": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bg11_wall",
+    "texture": "574746aa-7759-43fe-b495-3356bd9539be",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      640,
+      369
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      640,
+      369
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

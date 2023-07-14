@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Fx_LevelUp_B_03",
+    "texture": "b4851fb9-e811-490e-b4bb-ddda903bca0a",
+    "atlas": "ea16f466-95da-49c4-adce-93546454b440",
+    "rect": [
+      602,
+      2,
+      224,
+      40
+    ],
+    "offset": [
+      -2,
+      -100
+    ],
+    "originalSize": [
+      350,
+      350
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

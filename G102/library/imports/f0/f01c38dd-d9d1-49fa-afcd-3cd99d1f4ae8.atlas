@@ -1,0 +1,41 @@
+
+Pet-Feng.png
+size: 116,41
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body1
+  rotate: true
+  xy: 0, 0
+  size: 41, 34
+  orig: 41, 34
+  offset: 0, 0
+  index: -1
+Body2
+  rotate: true
+  xy: 36, 3
+  size: 38, 36
+  orig: 38, 36
+  offset: 0, 0
+  index: -1
+Body3
+  rotate: true
+  xy: 74, 2
+  size: 39, 32
+  orig: 39, 32
+  offset: 0, 0
+  index: -1
+Yan
+  rotate: true
+  xy: 108, 22
+  size: 19, 8
+  orig: 19, 8
+  offset: 0, 0
+  index: -1
+Yan2
+  rotate: true
+  xy: 108, 1
+  size: 19, 7
+  orig: 19, 7
+  offset: 0, 0
+  index: -1

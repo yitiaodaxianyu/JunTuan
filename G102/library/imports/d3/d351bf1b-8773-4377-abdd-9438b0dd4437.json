@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Task_Line",
+    "texture": "4844f090-08de-42d4-85a4-3660a2f224f6",
+    "atlas": "6fd20915-db9f-4fe7-96ea-f6244bb5ea65",
+    "rect": [
+      885,
+      168,
+      462,
+      18
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      462,
+      18
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

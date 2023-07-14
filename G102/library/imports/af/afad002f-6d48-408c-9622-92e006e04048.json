@@ -1,0 +1,11 @@
+{
+  "__type__": "cc.Material",
+  "_name": "map",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "7630f09b-d29f-4da0-bc6b-b1639aa2ea44"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {}
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ZhenDe",
+    "texture": "5a890ead-98ad-40ee-ad04-4faff2a3116f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      348,
+      157
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      348,
+      157
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

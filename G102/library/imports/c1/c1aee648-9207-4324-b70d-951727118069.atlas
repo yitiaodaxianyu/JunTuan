@@ -1,0 +1,139 @@
+
+Anubisi_Back.png
+size: 374,205
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+aaa26
+  rotate: false
+  xy: 313, 4
+  size: 19, 48
+  orig: 19, 48
+  offset: 0, 0
+  index: -1
+aaa27
+  rotate: true
+  xy: 134, 4
+  size: 36, 28
+  orig: 36, 28
+  offset: 0, 0
+  index: -1
+aaa28
+  rotate: true
+  xy: 227, 53
+  size: 63, 68
+  orig: 63, 68
+  offset: 0, 0
+  index: -1
+aaa29
+  rotate: false
+  xy: 338, 4
+  size: 6, 13
+  orig: 6, 13
+  offset: 0, 0
+  index: -1
+aaa30
+  rotate: true
+  xy: 168, 4
+  size: 10, 18
+  orig: 10, 18
+  offset: 0, 0
+  index: -1
+aaa31
+  rotate: true
+  xy: 15, 1
+  size: 10, 16
+  orig: 10, 16
+  offset: 0, 0
+  index: -1
+aaa32
+  rotate: false
+  xy: 71, 14
+  size: 57, 26
+  orig: 57, 26
+  offset: 0, 0
+  index: -1
+aaa33
+  rotate: false
+  xy: 223, 0
+  size: 60, 45
+  orig: 60, 45
+  offset: 0, 0
+  index: -1
+aaa34
+  rotate: false
+  xy: 227, 124
+  size: 73, 81
+  orig: 73, 81
+  offset: 0, 0
+  index: -1
+aaa35
+  rotate: false
+  xy: 289, 1
+  size: 18, 44
+  orig: 18, 44
+  offset: 0, 0
+  index: -1
+aaa36
+  rotate: true
+  xy: 0, 19
+  size: 21, 65
+  orig: 21, 65
+  offset: 0, 0
+  index: -1
+aaa37
+  rotate: false
+  xy: 338, 25
+  size: 13, 27
+  orig: 13, 27
+  offset: 0, 0
+  index: -1
+aaa38
+  rotate: true
+  xy: 357, 36
+  size: 16, 15
+  orig: 16, 15
+  offset: 0, 0
+  index: -1
+aaa39
+  rotate: false
+  xy: 0, 0
+  size: 9, 11
+  orig: 9, 11
+  offset: 0, 0
+  index: -1
+aaa40
+  rotate: true
+  xy: 168, 22
+  size: 60, 49
+  orig: 60, 49
+  offset: 0, 0
+  index: -1
+aaa41
+  rotate: false
+  xy: 168, 90
+  size: 53, 115
+  orig: 53, 115
+  offset: 0, 0
+  index: -1
+aaa9
+  rotate: false
+  xy: 306, 134
+  size: 68, 71
+  orig: 68, 71
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 306, 60
+  size: 66, 66
+  orig: 92, 92
+  offset: 14, 12
+  index: -1
+xian
+  rotate: false
+  xy: 0, 48
+  size: 162, 157
+  orig: 180, 180
+  offset: 10, 11
+  index: -1

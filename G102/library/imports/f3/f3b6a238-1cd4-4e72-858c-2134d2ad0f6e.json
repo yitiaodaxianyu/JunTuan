@@ -1,0 +1,80 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "bian_fu.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Monster_30_Skill_00": {
+      "__uuid__": "8ab5cea3-10db-421b-b98e-4a956a584c9f"
+    },
+    "Monster_30_Skill_01": {
+      "__uuid__": "06a8168a-a5dc-4ded-89da-b30be28f27df"
+    },
+    "Monster_30_Skill_02": {
+      "__uuid__": "440ed7c9-dbb2-4155-8e15-06bd70edecae"
+    },
+    "Monster_30_Skill_03": {
+      "__uuid__": "2d0bc537-96bb-4ed6-b1b4-c61b1ac991c9"
+    },
+    "Monster_30_Skill_04": {
+      "__uuid__": "4ebb45fc-e97b-4bce-816d-f07efbc21b09"
+    },
+    "Monster_30_Skill_05": {
+      "__uuid__": "07a3e628-a78f-4979-a22a-b77a41e88510"
+    },
+    "Monster_30_Skill_06": {
+      "__uuid__": "4e7b7a01-b57b-4be2-8258-1702aaf960a9"
+    },
+    "Monster_30_Skill_07": {
+      "__uuid__": "a9a1db6e-6410-4dca-bf56-e0333886a0ec"
+    },
+    "Monster_30_Skill_08": {
+      "__uuid__": "e9b31b7e-3e32-4573-a62f-a7e3823e12db"
+    },
+    "Monster_30_Skill_09": {
+      "__uuid__": "e016f4e4-abbc-46c2-81a5-76c45f006919"
+    },
+    "Monster_30_Skill_10": {
+      "__uuid__": "ccabb19b-951b-43c9-b44a-767a2ee1d986"
+    },
+    "Monster_30_Skill_11": {
+      "__uuid__": "a938bce0-56d1-4869-ab42-a7ff06d2d323"
+    },
+    "Monster_30_Skill_12": {
+      "__uuid__": "1c4ca7fe-c76f-44ea-af45-52bf5b6f4b67"
+    },
+    "Monster_30_Skill_13": {
+      "__uuid__": "5020f30c-129a-47c2-ba0d-d749725c9a3b"
+    },
+    "Monster_30_Skill_14": {
+      "__uuid__": "68571c36-0c0e-457d-80d9-254d20826d3b"
+    },
+    "Monster_30_Skill_15": {
+      "__uuid__": "4bc68cf2-6b95-4bfb-86a6-7c670adfc04d"
+    },
+    "Monster_30_Skill_16": {
+      "__uuid__": "66b7b9aa-cfeb-4e59-9930-5071b58cd2af"
+    },
+    "Monster_30_Skill_17": {
+      "__uuid__": "3b82fc25-d402-474a-9797-e2227d0308b6"
+    },
+    "Monster_30_Skill_18": {
+      "__uuid__": "97c40cb3-ec98-4ac5-8171-81d57c303022"
+    },
+    "Monster_30_Skill_19": {
+      "__uuid__": "69aea347-3295-4cd9-a3fe-66ffc41dbc12"
+    },
+    "Monster_30_Skill_20": {
+      "__uuid__": "2debcaa8-64ed-44b5-ab62-44f6c94bd7c8"
+    },
+    "Monster_30_Skill_21": {
+      "__uuid__": "fbf4d9c8-effc-45f7-9a73-70a517e521e2"
+    },
+    "Monster_30_Skill_22": {
+      "__uuid__": "b40ee022-fb80-4233-b2e4-3089c074cabf"
+    },
+    "Monster_30_Skill_23": {
+      "__uuid__": "bfd4d3bb-12d5-4e76-ae34-e9da5596fb10"
+    }
+  }
+}

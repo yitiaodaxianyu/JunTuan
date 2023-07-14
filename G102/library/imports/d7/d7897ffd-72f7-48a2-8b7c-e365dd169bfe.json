@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Fx_StarLevelUp_14",
+    "texture": "b5fc32e2-954c-4bff-a6f5-eaf8dbbffdd6",
+    "atlas": "341d4c03-d669-4e0c-ab2a-063f306f929a",
+    "rect": [
+      930,
+      266,
+      76,
+      80
+    ],
+    "offset": [
+      -3,
+      -8
+    ],
+    "originalSize": [
+      200,
+      200
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

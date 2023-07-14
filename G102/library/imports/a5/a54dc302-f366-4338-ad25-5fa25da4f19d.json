@@ -1,0 +1,218 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "boss3.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Boss8_AttackHit_00": {
+      "__uuid__": "e46ac3b1-05fe-4a26-aaa6-260f61d044e1"
+    },
+    "Boss8_AttackHit_01": {
+      "__uuid__": "a11f4f7e-7d57-4ed0-b96f-0b98cd42811b"
+    },
+    "Boss8_AttackHit_02": {
+      "__uuid__": "ac73f282-014e-434e-a7f5-efd38bc25c8c"
+    },
+    "Boss8_AttackHit_03": {
+      "__uuid__": "952d9fc2-270f-4a7e-9b4e-d083c69877a0"
+    },
+    "Boss8_AttackHit_04": {
+      "__uuid__": "4f22d69e-bd22-441c-95ec-2aca786b8c35"
+    },
+    "Boss8_AttackHit_05": {
+      "__uuid__": "8758fb07-4184-4d2e-b780-0070930977cd"
+    },
+    "Boss8_AttackHit_06": {
+      "__uuid__": "ecd4f26f-fcba-4b97-b524-e7f30a2b4210"
+    },
+    "Boss8_AttackHit_07": {
+      "__uuid__": "1e134a8a-48dc-46d7-8bc8-9d38e0d85ebc"
+    },
+    "Boss8_AttackHit_08": {
+      "__uuid__": "76f7f27a-d41e-4502-b94c-f1a80af88a2e"
+    },
+    "Boss8_AttackHit_09": {
+      "__uuid__": "0a08d217-8bd6-46b3-8add-e6aeb49e4289"
+    },
+    "Boss8_AttackHit_10": {
+      "__uuid__": "6978161c-aa1b-41bf-82b9-67aac1832505"
+    },
+    "Boss8_AttackHit_11": {
+      "__uuid__": "88d0988b-cd09-4f4c-998a-3824573a0415"
+    },
+    "Boss8_AttackHit_12": {
+      "__uuid__": "d12daede-79ec-4ebe-8de8-40924df3af88"
+    },
+    "Boss8_AttackHit_13": {
+      "__uuid__": "f4ce89d5-45f7-4170-9d1f-1a3df148aa50"
+    },
+    "Boss8_AttackHit_14": {
+      "__uuid__": "d831919d-84d1-4dc2-a6f4-a453f3458988"
+    },
+    "Boss8_AttackHit_15": {
+      "__uuid__": "99ac59f0-edc5-48d3-8a6c-8576ecd5e917"
+    },
+    "Boss8_AttackHit_16": {
+      "__uuid__": "080cb4d9-9961-4f31-961a-89b0d6b014d3"
+    },
+    "Boss8_AttackHit_17": {
+      "__uuid__": "6db045df-d340-45b1-949f-9103ffc219d6"
+    },
+    "Boss8_Buff_0": {
+      "__uuid__": "16d5a261-f44c-4ae5-949f-ea21781a607c"
+    },
+    "Boss8_Buff_1": {
+      "__uuid__": "7e0a37c1-d2a8-4e10-a2d7-c3789b6e33ef"
+    },
+    "Boss8_Skill2": {
+      "__uuid__": "994eab81-9ab4-4d6f-87c7-e7a5324a8766"
+    },
+    "Boss8_Skill2Hit2_00": {
+      "__uuid__": "942ecd11-5d1c-42dd-a57b-86b603ad9d1b"
+    },
+    "Boss8_Skill2Hit2_01": {
+      "__uuid__": "bdb14881-3a13-49c2-8dd2-dc5fe5317d3d"
+    },
+    "Boss8_Skill2Hit2_02": {
+      "__uuid__": "30a46ca3-3881-4e31-ac53-115ad1ddeec4"
+    },
+    "Boss8_Skill2Hit2_03": {
+      "__uuid__": "7aaef845-1a71-49db-a734-30c4b6947efa"
+    },
+    "Boss8_Skill2Hit2_04": {
+      "__uuid__": "6ff93ace-de90-4d07-8897-db2853cb224c"
+    },
+    "Boss8_Skill2Hit2_05": {
+      "__uuid__": "4a0b5d4c-5b07-4881-be4a-1cb070ee9845"
+    },
+    "Boss8_Skill2Hit2_06": {
+      "__uuid__": "f5559418-9f68-4794-98b0-03b804c0154a"
+    },
+    "Boss8_Skill2Hit_00": {
+      "__uuid__": "0843980f-f847-4897-a861-3448c2c19263"
+    },
+    "Boss8_Skill2Hit_01": {
+      "__uuid__": "23e49541-6ce5-4f2d-8724-e549efa2c15d"
+    },
+    "Boss8_Skill2Hit_02": {
+      "__uuid__": "173ff15e-1a1c-4480-9a62-d29ce754339b"
+    },
+    "Boss8_Skill2Hit_03": {
+      "__uuid__": "94c0fe6e-93c9-4afb-8367-06fbd47cc362"
+    },
+    "Boss8_Skill2Hit_04": {
+      "__uuid__": "2358b071-9323-40c8-a24c-d05a1b4f830e"
+    },
+    "Boss8_Skill2Hit_05": {
+      "__uuid__": "e9471217-9cc6-4b0a-be16-42cf74eb5722"
+    },
+    "Boss8_Skill2Hit_06": {
+      "__uuid__": "ad844d20-7c61-42b5-a314-a8c337d72acb"
+    },
+    "Boss8_Skill2Hit_07": {
+      "__uuid__": "93392680-612e-437c-aec6-d8b37768a5f4"
+    },
+    "Boss8_Skill2Hit_08": {
+      "__uuid__": "afb73ce7-4bd0-4425-a30e-f897f3efdaf5"
+    },
+    "Boss8_Skill2Hit_09": {
+      "__uuid__": "7feec338-5335-4608-8234-9e0041e7eb12"
+    },
+    "Boss8_Skill2Hit_10": {
+      "__uuid__": "e0c3ca97-c103-4bcb-8026-7070490d2094"
+    },
+    "Boss8_Skill2Hit_11": {
+      "__uuid__": "beddd37f-21db-4bab-a4f3-5f2a790da37b"
+    },
+    "Boss8_Skill2Hit_12": {
+      "__uuid__": "e7c1ea03-e6c6-4db5-bf31-5eae07bb2a7b"
+    },
+    "Boss8_Skill2Hit_13": {
+      "__uuid__": "3d790a01-493b-4630-a650-051af172bd81"
+    },
+    "Boss8_Skill2Hit_14": {
+      "__uuid__": "7d28e9ee-6066-4de4-9e1f-55b9556d9172"
+    },
+    "Boss8_Skill2Hit_15": {
+      "__uuid__": "dbe2ea22-ff5c-4eec-b4d1-151a4ecddfc9"
+    },
+    "Boss8_Skill2Hit_16": {
+      "__uuid__": "a3fe9a75-bc02-40ec-bb9e-1d194aa4a1d9"
+    },
+    "Boss8_Skill2Hit_17": {
+      "__uuid__": "3880ede2-72cb-43a4-935c-c94a0d4de986"
+    },
+    "Boss8_Skill2Hit_18": {
+      "__uuid__": "9af02f12-ae93-4c96-97c0-b154b78a95bf"
+    },
+    "Boss8_Skill2Hit_19": {
+      "__uuid__": "6957a692-a383-4035-9686-e3e35f4f4591"
+    },
+    "Boss8_Skill2Hit_20": {
+      "__uuid__": "b3829a72-52cc-42db-978c-f9d6c22c610a"
+    },
+    "Boss8_Skill2_Dun": {
+      "__uuid__": "913bcf36-5f42-4d65-baf9-229f881577e3"
+    },
+    "Boss8_SkillHit_00": {
+      "__uuid__": "eee658d4-d0ad-44df-b01b-ddc45348e82b"
+    },
+    "Boss8_SkillHit_01": {
+      "__uuid__": "92575b3a-9568-493f-a155-e7a265a9655f"
+    },
+    "Boss8_SkillHit_02": {
+      "__uuid__": "80796a44-23dc-427d-b786-7fb5b19d9eef"
+    },
+    "Boss8_SkillHit_03": {
+      "__uuid__": "e218f3a9-b4c6-4ecf-8e27-59e3a8ca97d7"
+    },
+    "Boss8_SkillHit_04": {
+      "__uuid__": "f3919cec-3b42-4d1a-ad69-e03f34d7785d"
+    },
+    "Boss8_SkillHit_05": {
+      "__uuid__": "7a686321-9bc7-4011-85fb-8f4a444b838b"
+    },
+    "Boss8_SkillHit_06": {
+      "__uuid__": "0fc23a85-95dd-48fe-9d4c-e6bcd0fb60f1"
+    },
+    "Boss8_SkillHit_07": {
+      "__uuid__": "a5eb4eb3-54cc-4c34-bfd2-a7973aa5e785"
+    },
+    "Boss8_SkillHit_08": {
+      "__uuid__": "308a0741-1a27-4370-97ee-6a75bb852c73"
+    },
+    "Boss8_SkillHit_09": {
+      "__uuid__": "7ed958ff-f86a-40a0-8df9-2b7033d71e9e"
+    },
+    "Boss8_SkillHit_10": {
+      "__uuid__": "7f378440-a366-4a5a-8ccc-e88a4db5d084"
+    },
+    "Boss8_SkillHit_11": {
+      "__uuid__": "556a0412-de3d-44fb-ae84-ed07e9515b11"
+    },
+    "Boss8_SkillHit_12": {
+      "__uuid__": "100d57e4-ffdd-4148-9e98-ee97da8f287a"
+    },
+    "Boss8_SkillHit_13": {
+      "__uuid__": "ab79c58d-d95a-4caf-b6e7-6efe664dac3a"
+    },
+    "Boss8_SkillHit_14": {
+      "__uuid__": "3d82efa5-1174-48cf-87de-230a89cb5ce3"
+    },
+    "Boss8_SkillHit_15": {
+      "__uuid__": "130ae554-92c1-4cd5-aeac-a3019d6f6aa7"
+    },
+    "Boss8_SkillHit_16": {
+      "__uuid__": "6219c629-e17e-4aae-b430-31e4fa5dbe6c"
+    },
+    "Boss8_SkillHit_17": {
+      "__uuid__": "1ceb2fbc-26b5-4a24-ab9a-9684a48c9a9a"
+    },
+    "XueQiuAttack": {
+      "__uuid__": "3bd5d635-cedb-40be-b7e8-0a831f389e09"
+    },
+    "XueQiuSkill1": {
+      "__uuid__": "ab0bdc3c-1322-44cf-ad65-3aa435b1cc2f"
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "TimeLimitedGiftPack",
+  "_objFlags": 0,
+  "_native": "",
+  "json": [
+    {
+      "GiftsBundle": 1001,
+      "UnlockLogic": 1,
+      "Parameter": 100000,
+      "RewardItem": [
+        10001,
+        10002
+      ],
+      "RewardNum": [
+        1000,
+        200
+      ]
+    },
+    {
+      "GiftsBundle": 1002,
+      "UnlockLogic": 1,
+      "Parameter": 150000,
+      "RewardItem": [
+        10001,
+        10002
+      ],
+      "RewardNum": [
+        1200,
+        220
+      ]
+    },
+    {
+      "GiftsBundle": 1003,
+      "UnlockLogic": 1,
+      "Parameter": 300000,
+      "RewardItem": [
+        10001,
+        10002
+      ],
+      "RewardNum": [
+        1500,
+        300
+      ]
+    },
+    {
+      "GiftsBundle": 2001,
+      "UnlockLogic": 2,
+      "Parameter": 12,
+      "RewardItem": [
+        10001,
+        10002
+      ],
+      "RewardNum": [
+        1000,
+        200
+      ]
+    },
+    {
+      "GiftsBundle": 2002,
+      "UnlockLogic": 2,
+      "Parameter": 16,
+      "RewardItem": [
+        10001,
+        10002
+      ],
+      "RewardNum": [
+        1200,
+        220
+      ]
+    },
+    {
+      "GiftsBundle": 2003,
+      "UnlockLogic": 2,
+      "Parameter": 21,
+      "RewardItem": [
+        10001,
+        10002
+      ],
+      "RewardNum": [
+        1500,
+        300
+      ]
+    },
+    {
+      "GiftsBundle": 3001,
+      "UnlockLogic": 3,
+      "Parameter": 3,
+      "RewardItem": [
+        10001,
+        10002
+      ],
+      "RewardNum": [
+        1000,
+        200
+      ]
+    },
+    {
+      "GiftsBundle": 3002,
+      "UnlockLogic": 3,
+      "Parameter": 5,
+      "RewardItem": [
+        10001,
+        10002
+      ],
+      "RewardNum": [
+        1200,
+        220
+      ]
+    },
+    {
+      "GiftsBundle": 3003,
+      "UnlockLogic": 3,
+      "Parameter": 8,
+      "RewardItem": [
+        10001,
+        10002
+      ],
+      "RewardNum": [
+        1500,
+        300
+      ]
+    }
+  ]
+}

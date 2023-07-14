@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Lucky_Title_TH",
+    "texture": "b40cec18-8be7-422b-80c3-a80acf7ea99f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      574,
+      119
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      574,
+      119
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

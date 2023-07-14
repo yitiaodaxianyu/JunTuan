@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Thor_Skill1_1_01",
+    "texture": "728a7518-88fe-47fc-b5f4-30aa49f17368",
+    "atlas": "fa8615fe-d538-4d56-aa79-32e80c284eb1",
+    "rect": [
+      154,
+      1136,
+      74,
+      906
+    ],
+    "offset": [
+      -3,
+      -4
+    ],
+    "originalSize": [
+      150,
+      1000
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,298 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "TaskInformation",
+  "_objFlags": 0,
+  "_native": "",
+  "json": [
+    {
+      "TaskID": 11001,
+      "TaskType": 11,
+      "Unlocklevel": 0,
+      "TaskDescription": 1320001,
+      "TaskParameters": 1,
+      "RewardPropID": 90001,
+      "RewardPropNum": 10,
+      "weights": 80
+    },
+    {
+      "TaskID": 12001,
+      "TaskType": 12,
+      "Unlocklevel": 12,
+      "TaskDescription": 1320002,
+      "TaskParameters": 1,
+      "RewardPropID": 90001,
+      "RewardPropNum": 10,
+      "weights": 80
+    },
+    {
+      "TaskID": 13001,
+      "TaskType": 13,
+      "Unlocklevel": 0,
+      "TaskDescription": 1320003,
+      "TaskParameters": 1,
+      "RewardPropID": 90001,
+      "RewardPropNum": 10,
+      "weights": 0
+    },
+    {
+      "TaskID": 14001,
+      "TaskType": 14,
+      "Unlocklevel": 99,
+      "TaskDescription": 1320004,
+      "TaskParameters": 1,
+      "RewardPropID": 90001,
+      "RewardPropNum": 10,
+      "weights": 0
+    },
+    {
+      "TaskID": 15001,
+      "TaskType": 15,
+      "Unlocklevel": 36,
+      "TaskDescription": 1320005,
+      "TaskParameters": 1,
+      "RewardPropID": 90001,
+      "RewardPropNum": 10,
+      "weights": 0
+    },
+    {
+      "TaskID": 16001,
+      "TaskType": 16,
+      "Unlocklevel": 51,
+      "TaskDescription": 1320006,
+      "TaskParameters": 1,
+      "RewardPropID": 90001,
+      "RewardPropNum": 10,
+      "weights": 0
+    },
+    {
+      "TaskID": 21001,
+      "TaskType": 21,
+      "Unlocklevel": 0,
+      "TaskDescription": 1320007,
+      "TaskParameters": 1,
+      "RewardPropID": 90001,
+      "RewardPropNum": 10,
+      "weights": 80
+    },
+    {
+      "TaskID": 22001,
+      "TaskType": 22,
+      "Unlocklevel": 25,
+      "TaskDescription": 1320008,
+      "TaskParameters": 1,
+      "RewardPropID": 90001,
+      "RewardPropNum": 10,
+      "weights": 50
+    },
+    {
+      "TaskID": 23001,
+      "TaskType": 23,
+      "Unlocklevel": 25,
+      "TaskDescription": 1320009,
+      "TaskParameters": 1,
+      "RewardPropID": 90001,
+      "RewardPropNum": 10,
+      "weights": 50
+    },
+    {
+      "TaskID": 24001,
+      "TaskType": 24,
+      "Unlocklevel": 26,
+      "TaskDescription": 1320010,
+      "TaskParameters": 1,
+      "RewardPropID": 90001,
+      "RewardPropNum": 10,
+      "weights": 0
+    },
+    {
+      "TaskID": 25001,
+      "TaskType": 25,
+      "Unlocklevel": 36,
+      "TaskDescription": 1320011,
+      "TaskParameters": 1,
+      "RewardPropID": 90001,
+      "RewardPropNum": 10,
+      "weights": 50
+    },
+    {
+      "TaskID": 21002,
+      "TaskType": 21,
+      "Unlocklevel": 0,
+      "TaskDescription": 1320012,
+      "TaskParameters": 3,
+      "RewardPropID": 90001,
+      "RewardPropNum": 10,
+      "weights": 80
+    },
+    {
+      "TaskID": 22002,
+      "TaskType": 22,
+      "Unlocklevel": 25,
+      "TaskDescription": 1320013,
+      "TaskParameters": 3,
+      "RewardPropID": 90001,
+      "RewardPropNum": 20,
+      "weights": 40
+    },
+    {
+      "TaskID": 23002,
+      "TaskType": 23,
+      "Unlocklevel": 25,
+      "TaskDescription": 1320014,
+      "TaskParameters": 3,
+      "RewardPropID": 90001,
+      "RewardPropNum": 20,
+      "weights": 40
+    },
+    {
+      "TaskID": 24002,
+      "TaskType": 24,
+      "Unlocklevel": 26,
+      "TaskDescription": 1320015,
+      "TaskParameters": 3,
+      "RewardPropID": 90001,
+      "RewardPropNum": 20,
+      "weights": 0
+    },
+    {
+      "TaskID": 31001,
+      "TaskType": 31,
+      "Unlocklevel": 0,
+      "TaskDescription": 1320016,
+      "TaskParameters": 1,
+      "RewardPropID": 90001,
+      "RewardPropNum": 10,
+      "weights": 80
+    },
+    {
+      "TaskID": 32001,
+      "TaskType": 32,
+      "Unlocklevel": 20,
+      "TaskDescription": 1320017,
+      "TaskParameters": 1,
+      "RewardPropID": 90001,
+      "RewardPropNum": 10,
+      "weights": 50
+    },
+    {
+      "TaskID": 33001,
+      "TaskType": 33,
+      "Unlocklevel": 0,
+      "TaskDescription": 1320018,
+      "TaskParameters": 1,
+      "RewardPropID": 90001,
+      "RewardPropNum": 10,
+      "weights": 80
+    },
+    {
+      "TaskID": 34001,
+      "TaskType": 34,
+      "Unlocklevel": 0,
+      "TaskDescription": 1320019,
+      "TaskParameters": 1,
+      "RewardPropID": 90001,
+      "RewardPropNum": 10,
+      "weights": 80
+    },
+    {
+      "TaskID": 35001,
+      "TaskType": 35,
+      "Unlocklevel": 0,
+      "TaskDescription": 1320020,
+      "TaskParameters": 1,
+      "RewardPropID": 90001,
+      "RewardPropNum": 10,
+      "weights": 80
+    },
+    {
+      "TaskID": 31002,
+      "TaskType": 31,
+      "Unlocklevel": 0,
+      "TaskDescription": 1320016,
+      "TaskParameters": 10,
+      "RewardPropID": 90001,
+      "RewardPropNum": 20,
+      "weights": 30
+    },
+    {
+      "TaskID": 32002,
+      "TaskType": 32,
+      "Unlocklevel": 20,
+      "TaskDescription": 1320017,
+      "TaskParameters": 10,
+      "RewardPropID": 90001,
+      "RewardPropNum": 20,
+      "weights": 30
+    },
+    {
+      "TaskID": 33002,
+      "TaskType": 33,
+      "Unlocklevel": 0,
+      "TaskDescription": 1320018,
+      "TaskParameters": 10,
+      "RewardPropID": 90001,
+      "RewardPropNum": 20,
+      "weights": 30
+    },
+    {
+      "TaskID": 41001,
+      "TaskType": 41,
+      "Unlocklevel": 0,
+      "TaskDescription": 1320021,
+      "TaskParameters": 1,
+      "RewardPropID": 90001,
+      "RewardPropNum": 10,
+      "weights": 80
+    },
+    {
+      "TaskID": 42001,
+      "TaskType": 42,
+      "Unlocklevel": 0,
+      "TaskDescription": 1320022,
+      "TaskParameters": 2,
+      "RewardPropID": 90001,
+      "RewardPropNum": 10,
+      "weights": 80
+    },
+    {
+      "TaskID": 43001,
+      "TaskType": 43,
+      "Unlocklevel": 0,
+      "TaskDescription": 1320023,
+      "TaskParameters": 1,
+      "RewardPropID": 90001,
+      "RewardPropNum": 10,
+      "weights": 80
+    },
+    {
+      "TaskID": 44001,
+      "TaskType": 44,
+      "Unlocklevel": 0,
+      "TaskDescription": 1320024,
+      "TaskParameters": 1,
+      "RewardPropID": 90001,
+      "RewardPropNum": 10,
+      "weights": 80
+    },
+    {
+      "TaskID": 44002,
+      "TaskType": 44,
+      "Unlocklevel": 0,
+      "TaskDescription": 1320024,
+      "TaskParameters": 3,
+      "RewardPropID": 90001,
+      "RewardPropNum": 20,
+      "weights": 80
+    },
+    {
+      "TaskID": 45001,
+      "TaskType": 45,
+      "Unlocklevel": 0,
+      "TaskDescription": 1320025,
+      "TaskParameters": 1,
+      "RewardPropID": 90001,
+      "RewardPropNum": 10,
+      "weights": 80
+    }
+  ]
+}

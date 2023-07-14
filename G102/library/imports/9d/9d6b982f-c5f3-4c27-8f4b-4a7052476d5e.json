@@ -1,0 +1,35 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "bag_ui.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Pack_Bg_0": {
+      "__uuid__": "2d200c7e-c73f-4c66-b88b-46974e61dd3e"
+    },
+    "Pack_Bg_1": {
+      "__uuid__": "10880292-fddd-4c43-8e5b-09a0a5486fc0"
+    },
+    "Pack_Bg_2": {
+      "__uuid__": "6918055a-ab98-4aa2-9357-edcfd414e54b"
+    },
+    "Pack_Bg_4": {
+      "__uuid__": "25162166-1830-4c11-af47-659c6d1d4cb0"
+    },
+    "Pack_Bg_Title": {
+      "__uuid__": "d5dcd7af-6b11-4163-8ce3-cb3e7a107c18"
+    },
+    "UseItem_Bg_0": {
+      "__uuid__": "61f92b09-a613-41bd-a043-d5c50f324a5f"
+    },
+    "UseItem_Btn_0": {
+      "__uuid__": "067ddbe5-b8c2-4d65-a712-99442f86ba13"
+    },
+    "UseItem_Btn_1": {
+      "__uuid__": "fac1bd87-d65b-4ebb-aed2-7fa992635780"
+    },
+    "UseItem_Btn_2": {
+      "__uuid__": "e1993c0d-7f57-4473-80bb-0b811c252ce8"
+    }
+  }
+}

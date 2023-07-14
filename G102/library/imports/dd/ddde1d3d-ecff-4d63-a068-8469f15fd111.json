@@ -1,0 +1,47 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "elite9.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Monster_69_Attack": {
+      "__uuid__": "3a92ded2-8ee6-4d92-ac0b-140af01f89be"
+    },
+    "Monster_69_Skill_00": {
+      "__uuid__": "64a8ffb8-f2c4-46c8-ad7b-35a718f6260f"
+    },
+    "Monster_69_Skill_01": {
+      "__uuid__": "a0c1156b-6b70-4a02-afbf-a2d264d19938"
+    },
+    "Monster_69_Skill_02": {
+      "__uuid__": "32148db8-80b7-4881-91d5-589ab3f4d693"
+    },
+    "Monster_69_Skill_03": {
+      "__uuid__": "9e74f708-77dc-4e78-b36d-9ed3d721be1e"
+    },
+    "Monster_69_Skill_04": {
+      "__uuid__": "47bf8f75-a343-4eb3-bcc8-89f3f8b1cf7a"
+    },
+    "Monster_69_Skill_05": {
+      "__uuid__": "a5a0a3d7-6688-4286-bae2-5a80690f88d8"
+    },
+    "Monster_69_Skill_06": {
+      "__uuid__": "d81c8828-4632-439c-b704-9a1ec1758f4a"
+    },
+    "Monster_69_Skill_07": {
+      "__uuid__": "7bbf85d9-05fa-43f6-a4e8-ab86948702d3"
+    },
+    "Monster_69_Skill_08": {
+      "__uuid__": "6d54c732-8d03-42d3-aa14-e5bdcab40739"
+    },
+    "Monster_69_Skill_09": {
+      "__uuid__": "f3bd76d1-2352-467f-823a-ea0fbf081dd8"
+    },
+    "Monster_69_Skill_10": {
+      "__uuid__": "d01b9134-a4dc-4800-aaf2-fc87e84da0a9"
+    },
+    "Monster_71_Attack": {
+      "__uuid__": "13823bb0-5c2d-4c74-b4df-453e7256f20b"
+    }
+  }
+}

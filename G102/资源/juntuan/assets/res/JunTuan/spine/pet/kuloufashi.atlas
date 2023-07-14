@@ -1,0 +1,230 @@
+
+kuloufashi.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 502, 118
+  size: 74, 26
+  orig: 74, 26
+  offset: 0, 0
+  index: -1
+bgguang
+  rotate: false
+  xy: 2, 128
+  size: 127, 126
+  orig: 127, 126
+  offset: 0, 0
+  index: -1
+fazhang
+  rotate: false
+  xy: 1639, 171
+  size: 67, 83
+  orig: 67, 83
+  offset: 0, 0
+  index: -1
+jiao1
+  rotate: true
+  xy: 130, 2
+  size: 23, 28
+  orig: 23, 28
+  offset: 0, 0
+  index: -1
+jiao2
+  rotate: true
+  xy: 578, 120
+  size: 24, 29
+  orig: 24, 29
+  offset: 0, 0
+  index: -1
+shengji/stage2/fazhang
+  rotate: false
+  xy: 1708, 171
+  size: 67, 83
+  orig: 67, 83
+  offset: 0, 0
+  index: -1
+shengji/stage2/tou
+  rotate: false
+  xy: 386, 79
+  size: 72, 65
+  orig: 72, 65
+  offset: 0, 0
+  index: -1
+shengji/stage2/yifu2
+  rotate: false
+  xy: 131, 146
+  size: 118, 108
+  orig: 118, 108
+  offset: 0, 0
+  index: -1
+shengji/stage3/fazhang
+  rotate: false
+  xy: 1777, 171
+  size: 67, 83
+  orig: 67, 83
+  offset: 0, 0
+  index: -1
+shengji/stage3/tou
+  rotate: false
+  xy: 1541, 167
+  size: 96, 87
+  orig: 96, 87
+  offset: 0, 0
+  index: -1
+shengji/stage3/yifu2
+  rotate: false
+  xy: 251, 146
+  size: 118, 108
+  orig: 118, 108
+  offset: 0, 0
+  index: -1
+shengji/stage4/fazhang
+  rotate: false
+  xy: 1846, 171
+  size: 67, 83
+  orig: 67, 83
+  offset: 0, 0
+  index: -1
+shengji/stage4/tou
+  rotate: false
+  xy: 1433, 159
+  size: 106, 95
+  orig: 106, 95
+  offset: 0, 0
+  index: -1
+shengji/stage4/yifu2
+  rotate: false
+  xy: 371, 146
+  size: 118, 108
+  orig: 118, 108
+  offset: 0, 0
+  index: -1
+shengji/stage5/fazhang
+  rotate: false
+  xy: 1915, 171
+  size: 67, 83
+  orig: 67, 83
+  offset: 0, 0
+  index: -1
+shengji/stage5/tou
+  rotate: false
+  xy: 1091, 149
+  size: 116, 105
+  orig: 116, 105
+  offset: 0, 0
+  index: -1
+shengji/stage5/yifu2
+  rotate: false
+  xy: 491, 146
+  size: 118, 108
+  orig: 118, 108
+  offset: 0, 0
+  index: -1
+shengji/stage6/fazhang
+  rotate: true
+  xy: 131, 77
+  size: 67, 83
+  orig: 67, 83
+  offset: 0, 0
+  index: -1
+shengji/stage6/tou
+  rotate: false
+  xy: 1323, 159
+  size: 108, 95
+  orig: 108, 95
+  offset: 0, 0
+  index: -1
+shengji/stage6/yifu2
+  rotate: false
+  xy: 611, 146
+  size: 118, 108
+  orig: 118, 108
+  offset: 0, 0
+  index: -1
+shengji/stage7/fazhang
+  rotate: true
+  xy: 216, 77
+  size: 67, 83
+  orig: 67, 83
+  offset: 0, 0
+  index: -1
+shengji/stage7/tou
+  rotate: false
+  xy: 1209, 153
+  size: 112, 101
+  orig: 112, 101
+  offset: 0, 0
+  index: -1
+shengji/stage7/yifu2
+  rotate: false
+  xy: 731, 146
+  size: 118, 108
+  orig: 118, 108
+  offset: 0, 0
+  index: -1
+shengji/stage8/fazhang
+  rotate: true
+  xy: 301, 77
+  size: 67, 83
+  orig: 67, 83
+  offset: 0, 0
+  index: -1
+shengji/stage8/tou
+  rotate: false
+  xy: 2, 13
+  size: 126, 113
+  orig: 126, 113
+  offset: 0, 0
+  index: -1
+shengji/stage8/yifu2
+  rotate: false
+  xy: 851, 146
+  size: 118, 108
+  orig: 118, 108
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 460, 80
+  size: 40, 64
+  orig: 40, 64
+  offset: 0, 0
+  index: -1
+shou1
+  rotate: false
+  xy: 502, 86
+  size: 24, 30
+  orig: 24, 30
+  offset: 0, 0
+  index: -1
+shou2
+  rotate: false
+  xy: 178, 42
+  size: 16, 33
+  orig: 16, 33
+  offset: 0, 0
+  index: -1
+tou
+  rotate: true
+  xy: 1984, 188
+  size: 66, 59
+  orig: 66, 59
+  offset: 0, 0
+  index: -1
+yifu1
+  rotate: false
+  xy: 130, 27
+  size: 46, 48
+  orig: 46, 48
+  offset: 0, 0
+  index: -1
+yifu2
+  rotate: false
+  xy: 971, 146
+  size: 118, 108
+  orig: 118, 108
+  offset: 0, 0
+  index: -1

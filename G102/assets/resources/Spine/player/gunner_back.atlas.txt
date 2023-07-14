@@ -1,0 +1,153 @@
+
+gunner_back.png
+size: 237,142
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+aaa0
+  rotate: false
+  xy: 129, 1
+  size: 46, 46
+  orig: 46, 46
+  offset: 0, 0
+  index: -1
+aaa1
+  rotate: false
+  xy: 0, 71
+  size: 63, 71
+  orig: 63, 71
+  offset: 0, 0
+  index: -1
+aaa10
+  rotate: true
+  xy: 141, 49
+  size: 48, 70
+  orig: 48, 70
+  offset: 0, 0
+  index: -1
+aaa11
+  rotate: true
+  xy: 213, 52
+  size: 25, 22
+  orig: 25, 22
+  offset: 0, 0
+  index: -1
+aaa12
+  rotate: true
+  xy: 129, 64
+  size: 21, 10
+  orig: 21, 10
+  offset: 0, 0
+  index: -1
+aaa13
+  rotate: true
+  xy: 213, 79
+  size: 18, 8
+  orig: 18, 8
+  offset: 0, 0
+  index: -1
+aaa14
+  rotate: false
+  xy: 177, 0
+  size: 20, 11
+  orig: 20, 11
+  offset: 0, 0
+  index: -1
+aaa15
+  rotate: true
+  xy: 65, 0
+  size: 21, 18
+  orig: 21, 18
+  offset: 0, 0
+  index: -1
+aaa16
+  rotate: false
+  xy: 222, 27
+  size: 15, 23
+  orig: 15, 23
+  offset: 0, 0
+  index: -1
+aaa17
+  rotate: true
+  xy: 102, 3
+  size: 18, 23
+  orig: 18, 23
+  offset: 0, 0
+  index: -1
+aaa18
+  rotate: false
+  xy: 177, 13
+  size: 23, 34
+  orig: 23, 34
+  offset: 0, 0
+  index: -1
+aaa2
+  rotate: false
+  xy: 65, 23
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1
+aaa20
+  rotate: false
+  xy: 141, 99
+  size: 80, 43
+  orig: 80, 43
+  offset: 0, 0
+  index: -1
+aaa3
+  rotate: true
+  xy: 223, 107
+  size: 35, 14
+  orig: 35, 14
+  offset: 0, 0
+  index: -1
+aaa4
+  rotate: false
+  xy: 0, 5
+  size: 63, 64
+  orig: 63, 64
+  offset: 0, 0
+  index: -1
+aaa5
+  rotate: true
+  xy: 65, 87
+  size: 55, 74
+  orig: 55, 74
+  offset: 0, 0
+  index: -1
+aaa6
+  rotate: false
+  xy: 202, 21
+  size: 18, 26
+  orig: 18, 26
+  offset: 0, 0
+  index: -1
+aaa7
+  rotate: false
+  xy: 223, 86
+  size: 14, 19
+  orig: 14, 19
+  offset: 0, 0
+  index: -1
+aaa8
+  rotate: false
+  xy: 202, 13
+  size: 4, 6
+  orig: 4, 6
+  offset: 0, 0
+  index: -1
+aaa9
+  rotate: true
+  xy: 85, 0
+  size: 21, 15
+  orig: 21, 15
+  offset: 0, 0
+  index: -1
+zui
+  rotate: true
+  xy: 129, 49
+  size: 13, 7
+  orig: 13, 7
+  offset: 0, 0
+  index: -1

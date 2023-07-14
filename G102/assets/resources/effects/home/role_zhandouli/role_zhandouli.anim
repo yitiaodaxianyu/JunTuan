@@ -1,0 +1,49 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "role_zhandouli",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.3333333333333333,
+  "sample": 15,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "3b702f32-554c-436c-ab40-afe35699a1b8"
+            }
+          },
+          {
+            "frame": 0.06666666666666667,
+            "value": {
+              "__uuid__": "7fa7a301-f4d3-45a1-87bf-d786116cc869"
+            }
+          },
+          {
+            "frame": 0.13333333333333333,
+            "value": {
+              "__uuid__": "c5aabc57-8b59-42ef-9718-55d32f76f9cb"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "946e7683-137d-45c8-b9a2-5bd669063b3d"
+            }
+          },
+          {
+            "frame": 0.26666666666666666,
+            "value": {
+              "__uuid__": "0ef4f771-6787-4c8a-9886-2937c84ed357"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

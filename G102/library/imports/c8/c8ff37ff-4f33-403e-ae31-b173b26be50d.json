@@ -1,0 +1,44 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "DiamondsRecharge",
+  "_objFlags": 0,
+  "_native": "",
+  "json": [
+    {
+      "RechargeID": 1,
+      "DiamondsNum": 200,
+      "GetDiamondsNum": 200,
+      "ProductId": "c201"
+    },
+    {
+      "RechargeID": 2,
+      "DiamondsNum": 1000,
+      "GetDiamondsNum": 1000,
+      "ProductId": "c202"
+    },
+    {
+      "RechargeID": 3,
+      "DiamondsNum": 3000,
+      "GetDiamondsNum": 3000,
+      "ProductId": "c203"
+    },
+    {
+      "RechargeID": 4,
+      "DiamondsNum": 6000,
+      "GetDiamondsNum": 6000,
+      "ProductId": "c204"
+    },
+    {
+      "RechargeID": 5,
+      "DiamondsNum": 10000,
+      "GetDiamondsNum": 10000,
+      "ProductId": "c205"
+    },
+    {
+      "RechargeID": 6,
+      "DiamondsNum": 20000,
+      "GetDiamondsNum": 20000,
+      "ProductId": "c206"
+    }
+  ]
+}

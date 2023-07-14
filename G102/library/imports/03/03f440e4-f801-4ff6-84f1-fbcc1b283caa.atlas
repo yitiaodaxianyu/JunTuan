@@ -1,0 +1,76 @@
+
+Monster_45.png
+size: 112,214
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body_1
+  rotate: true
+  xy: 0, 74
+  size: 58, 59
+  orig: 58, 59
+  offset: 0, 0
+  index: -1
+Head_1
+  rotate: true
+  xy: 0, 140
+  size: 74, 75
+  orig: 74, 75
+  offset: 0, 0
+  index: -1
+Jing_1
+  rotate: false
+  xy: 65, 22
+  size: 47, 39
+  orig: 47, 39
+  offset: 0, 0
+  index: -1
+Ku_1
+  rotate: false
+  xy: 64, 0
+  size: 20, 14
+  orig: 20, 14
+  offset: 0, 0
+  index: -1
+WuQi_1
+  rotate: true
+  xy: 65, 69
+  size: 56, 39
+  orig: 56, 39
+  offset: 0, 0
+  index: -1
+YouJiao_1
+  rotate: false
+  xy: 40, 12
+  size: 18, 23
+  orig: 18, 23
+  offset: 0, 0
+  index: -1
+YouShou_1
+  rotate: false
+  xy: 0, 2
+  size: 34, 64
+  orig: 34, 64
+  offset: 0, 0
+  index: -1
+ZuoBi_1
+  rotate: false
+  xy: 81, 178
+  size: 28, 36
+  orig: 28, 36
+  offset: 0, 0
+  index: -1
+ZuoJiao_1
+  rotate: false
+  xy: 40, 43
+  size: 19, 23
+  orig: 19, 23
+  offset: 0, 0
+  index: -1
+ZuoShou_1
+  rotate: false
+  xy: 81, 133
+  size: 27, 37
+  orig: 27, 37
+  offset: 0, 0
+  index: -1

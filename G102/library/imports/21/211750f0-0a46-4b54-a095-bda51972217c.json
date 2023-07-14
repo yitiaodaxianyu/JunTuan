@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "LiuGuang_SS_10",
+    "texture": "aa10602d-f99b-4b44-b19b-366d2ae9aa36",
+    "atlas": "dac168ca-0405-4206-a01a-d702bc8f2fe3",
+    "rect": [
+      616,
+      1126,
+      94,
+      94
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      100,
+      100
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

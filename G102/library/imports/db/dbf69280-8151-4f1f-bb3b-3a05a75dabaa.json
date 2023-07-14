@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "FX_Vertigo_18",
+    "texture": "cd27942d-bb1b-4cfc-a662-0b9dea217108",
+    "atlas": "7dd9e47d-cd93-4798-8829-666f3d8f7b66",
+    "rect": [
+      450,
+      1730,
+      88,
+      46
+    ],
+    "offset": [
+      -1,
+      0
+    ],
+    "originalSize": [
+      100,
+      50
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

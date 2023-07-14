@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Pet_Bing",
+    "texture": "135a714c-f1cc-43fd-b234-c99676d60eca",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      75,
+      41
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      75,
+      41
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

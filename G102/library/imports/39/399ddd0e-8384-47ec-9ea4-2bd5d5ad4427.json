@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Battle_Gem",
+    "texture": "b0a6d2c3-5f54-460c-a414-6acb16eb89e2",
+    "atlas": "eeaa1aa5-7b85-4aee-b825-13141a65c416",
+    "rect": [
+      87,
+      284,
+      65,
+      54
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      65,
+      54
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "chuguai",
+    "texture": "6f0e8fcb-91f5-4643-85dd-08d53583b539",
+    "atlas": "",
+    "rect": [
+      3,
+      3,
+      1000,
+      225
+    ],
+    "offset": [
+      -9,
+      12.5
+    ],
+    "originalSize": [
+      1024,
+      256
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

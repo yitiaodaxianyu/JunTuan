@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Cumulative_Text_TH",
+    "texture": "c59a17ce-787f-4589-a88b-4918f04fd10b",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      454,
+      124
+    ],
+    "offset": [
+      -53.5,
+      3
+    ],
+    "originalSize": [
+      561,
+      130
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

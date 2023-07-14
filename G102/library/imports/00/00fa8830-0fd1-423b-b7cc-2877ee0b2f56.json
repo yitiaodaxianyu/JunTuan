@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wall_shield_00",
+    "texture": "5c1975a3-c1f9-4b8e-a98d-a719fb1d31cb",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      640,
+      530
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      640,
+      530
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

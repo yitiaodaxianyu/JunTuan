@@ -1,0 +1,111 @@
+
+chuguai.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/1
+  rotate: false
+  xy: 2, 102
+  size: 173, 133
+  orig: 173, 133
+  offset: 0, 0
+  index: -1
+images/9
+  rotate: false
+  xy: 2, 102
+  size: 173, 133
+  orig: 173, 133
+  offset: 0, 0
+  index: -1
+images/10
+  rotate: true
+  xy: 877, 62
+  size: 173, 133
+  orig: 173, 133
+  offset: 0, 0
+  index: -1
+images/2
+  rotate: false
+  xy: 177, 102
+  size: 173, 133
+  orig: 173, 133
+  offset: 0, 0
+  index: -1
+images/8
+  rotate: false
+  xy: 177, 102
+  size: 173, 133
+  orig: 173, 133
+  offset: 0, 0
+  index: -1
+images/3
+  rotate: false
+  xy: 352, 102
+  size: 173, 133
+  orig: 173, 133
+  offset: 0, 0
+  index: -1
+images/7
+  rotate: false
+  xy: 352, 102
+  size: 173, 133
+  orig: 173, 133
+  offset: 0, 0
+  index: -1
+images/4
+  rotate: false
+  xy: 527, 102
+  size: 173, 133
+  orig: 173, 133
+  offset: 0, 0
+  index: -1
+images/6
+  rotate: false
+  xy: 527, 102
+  size: 173, 133
+  orig: 173, 133
+  offset: 0, 0
+  index: -1
+images/5
+  rotate: false
+  xy: 702, 102
+  size: 173, 133
+  orig: 173, 133
+  offset: 0, 0
+  index: -1
+images/bg
+  rotate: false
+  xy: 2, 2
+  size: 136, 98
+  orig: 136, 98
+  offset: 0, 0
+  index: -1
+images/kulou
+  rotate: false
+  xy: 548, 12
+  size: 103, 88
+  orig: 103, 88
+  offset: 0, 0
+  index: -1
+images/you
+  rotate: true
+  xy: 140, 36
+  size: 64, 134
+  orig: 64, 134
+  offset: 0, 0
+  index: -1
+images/zhong
+  rotate: true
+  xy: 276, 36
+  size: 64, 134
+  orig: 64, 134
+  offset: 0, 0
+  index: -1
+images/zuo
+  rotate: true
+  xy: 412, 36
+  size: 64, 134
+  orig: 64, 134
+  offset: 0, 0
+  index: -1

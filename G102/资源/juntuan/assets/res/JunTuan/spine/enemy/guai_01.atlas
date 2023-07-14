@@ -1,0 +1,90 @@
+
+guai_01.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: true
+  xy: 2, 13
+  size: 64, 28
+  orig: 64, 28
+  offset: 0, 0
+  index: -1
+fu
+  rotate: false
+  xy: 109, 99
+  size: 17, 27
+  orig: 17, 27
+  offset: 0, 0
+  index: -1
+jiao
+  rotate: false
+  xy: 65, 19
+  size: 24, 26
+  orig: 24, 26
+  offset: 0, 0
+  index: -1
+lgebo
+  rotate: false
+  xy: 62, 47
+  size: 27, 27
+  orig: 27, 27
+  offset: 0, 0
+  index: -1
+lian
+  rotate: false
+  xy: 65, 102
+  size: 42, 24
+  orig: 42, 24
+  offset: 0, 0
+  index: -1
+lshou
+  rotate: true
+  xy: 78, 4
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+maozi
+  rotate: false
+  xy: 2, 79
+  size: 61, 47
+  orig: 61, 47
+  offset: 0, 0
+  index: -1
+rgebo
+  rotate: true
+  xy: 97, 72
+  size: 25, 26
+  orig: 25, 26
+  offset: 0, 0
+  index: -1
+rshou
+  rotate: false
+  xy: 65, 2
+  size: 11, 15
+  orig: 11, 15
+  offset: 0, 0
+  index: -1
+shenti1
+  rotate: false
+  xy: 32, 10
+  size: 31, 29
+  orig: 31, 29
+  offset: 0, 0
+  index: -1
+shenti2
+  rotate: true
+  xy: 32, 41
+  size: 36, 28
+  orig: 36, 28
+  offset: 0, 0
+  index: -1
+shenti3
+  rotate: false
+  xy: 65, 76
+  size: 30, 24
+  orig: 30, 24
+  offset: 0, 0
+  index: -1

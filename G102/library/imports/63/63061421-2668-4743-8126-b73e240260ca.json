@@ -1,0 +1,32 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "skill_tip.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Skill_Range_0": {
+      "__uuid__": "a82e9832-6835-4117-86a4-8dd449cec3b8"
+    },
+    "Skill_Range_0_1": {
+      "__uuid__": "140a9a32-d35f-48a3-95c9-1ede06da96f2"
+    },
+    "Skill_Range_1": {
+      "__uuid__": "07cfad8a-4acc-4b51-89e7-2cd64cb201c9"
+    },
+    "Skill_Range_1_1": {
+      "__uuid__": "cadf9af1-1465-44ae-97df-5ba612721bbd"
+    },
+    "Skill_Range_2": {
+      "__uuid__": "3d56d282-94b8-484a-93eb-a389e514161d"
+    },
+    "Skill_Range_2_1": {
+      "__uuid__": "793a6dcf-ffa3-46db-bd63-19f9baed0e7d"
+    },
+    "Skill_Range_3": {
+      "__uuid__": "6e88d911-f387-4688-ab50-72c69c23b546"
+    },
+    "Skill_Range_3_1": {
+      "__uuid__": "2721b993-e5fd-40b8-a428-ff7fc5846695"
+    }
+  }
+}

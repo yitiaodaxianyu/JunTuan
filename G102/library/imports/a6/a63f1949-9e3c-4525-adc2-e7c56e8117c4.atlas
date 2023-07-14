@@ -1,0 +1,251 @@
+
+bingnv_beimian.png
+size: 397,1861
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BingNv_Skill1_00
+  rotate: true
+  xy: 2, 1637
+  size: 222, 224
+  orig: 224, 224
+  offset: 0, 0
+  index: -1
+BingNv_Skill1_01
+  rotate: true
+  xy: 2, 1428
+  size: 207, 218
+  orig: 224, 224
+  offset: 7, 6
+  index: -1
+BingNv_Skill1_02
+  rotate: true
+  xy: 2, 1229
+  size: 197, 212
+  orig: 224, 224
+  offset: 8, 7
+  index: -1
+BingNv_Skill1_03
+  rotate: true
+  xy: 2, 1045
+  size: 182, 202
+  orig: 224, 224
+  offset: 14, 13
+  index: -1
+BingNv_Skill1_04
+  rotate: false
+  xy: 222, 1355
+  size: 171, 196
+  orig: 224, 224
+  offset: 16, 15
+  index: -1
+BingNv_Skill1_05
+  rotate: true
+  xy: 2, 879
+  size: 164, 190
+  orig: 224, 224
+  offset: 17, 16
+  index: -1
+BingNv_Skill1_06
+  rotate: true
+  xy: 206, 1032
+  size: 162, 188
+  orig: 224, 224
+  offset: 16, 15
+  index: -1
+BingNv_Skill1_07
+  rotate: true
+  xy: 194, 870
+  size: 160, 183
+  orig: 224, 224
+  offset: 17, 16
+  index: -1
+BingNv_Skill1_08
+  rotate: true
+  xy: 216, 1196
+  size: 157, 176
+  orig: 224, 224
+  offset: 18, 17
+  index: -1
+BingNv_Skill1_09
+  rotate: true
+  xy: 166, 393
+  size: 150, 161
+  orig: 224, 224
+  offset: 24, 23
+  index: -1
+BingNv_Skill1_10
+  rotate: true
+  xy: 2, 242
+  size: 143, 145
+  orig: 224, 224
+  offset: 30, 29
+  index: -1
+BingNv_Skill1_19
+  rotate: true
+  xy: 141, 21
+  size: 94, 95
+  orig: 224, 224
+  offset: 70, 54
+  index: -1
+BingNv_Skill1_20
+  rotate: false
+  xy: 268, 118
+  size: 119, 119
+  orig: 224, 224
+  offset: 59, 42
+  index: -1
+BingNv_Skill1_21
+  rotate: true
+  xy: 2, 104
+  size: 136, 137
+  orig: 224, 224
+  offset: 52, 35
+  index: -1
+BingNv_Skill1_22
+  rotate: false
+  xy: 166, 239
+  size: 154, 152
+  orig: 224, 224
+  offset: 45, 29
+  index: -1
+BingNv_Skill1_23
+  rotate: true
+  xy: 2, 548
+  size: 163, 165
+  orig: 224, 224
+  offset: 41, 22
+  index: -1
+BingNv_Skill1_24
+  rotate: true
+  xy: 2, 713
+  size: 164, 166
+  orig: 224, 224
+  offset: 40, 21
+  index: -1
+BingNv_Skill1_25
+  rotate: true
+  xy: 228, 1694
+  size: 165, 167
+  orig: 224, 224
+  offset: 39, 21
+  index: -1
+BingNv_Skill1_26
+  rotate: true
+  xy: 228, 1553
+  size: 139, 167
+  orig: 224, 224
+  offset: 41, 21
+  index: -1
+BingNv_Skill1_27
+  rotate: true
+  xy: 192, 706
+  size: 162, 166
+  orig: 224, 224
+  offset: 42, 21
+  index: -1
+BingNv_Skill1_28
+  rotate: true
+  xy: 169, 545
+  size: 159, 164
+  orig: 224, 224
+  offset: 43, 22
+  index: -1
+BingNv_Skill1_29
+  rotate: true
+  xy: 2, 387
+  size: 159, 162
+  orig: 224, 224
+  offset: 43, 22
+  index: -1
+BingNv_Skill1_30
+  rotate: false
+  xy: 268, 2
+  size: 115, 114
+  orig: 224, 224
+  offset: 62, 46
+  index: -1
+Particle2
+  rotate: false
+  xy: 194, 1034
+  size: 9, 9
+  orig: 9, 9
+  offset: 0, 0
+  index: -1
+Soft
+  rotate: false
+  xy: 170, 771
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+aaa16
+  rotate: true
+  xy: 170, 791
+  size: 30, 19
+  orig: 30, 19
+  offset: 0, 0
+  index: -1
+aaa17
+  rotate: false
+  xy: 322, 320
+  size: 72, 71
+  orig: 72, 71
+  offset: 0, 0
+  index: -1
+aaa18
+  rotate: false
+  xy: 322, 251
+  size: 70, 67
+  orig: 70, 67
+  offset: 0, 0
+  index: -1
+aaa19
+  rotate: true
+  xy: 170, 823
+  size: 54, 20
+  orig: 54, 20
+  offset: 0, 0
+  index: -1
+aaa20
+  rotate: true
+  xy: 335, 638
+  size: 66, 55
+  orig: 66, 55
+  offset: 0, 0
+  index: -1
+aaa21
+  rotate: true
+  xy: 379, 1012
+  size: 18, 14
+  orig: 18, 14
+  offset: 0, 0
+  index: -1
+aaa22
+  rotate: false
+  xy: 379, 992
+  size: 13, 18
+  orig: 13, 18
+  offset: 0, 0
+  index: -1
+aaa23
+  rotate: false
+  xy: 335, 504
+  size: 37, 79
+  orig: 37, 79
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 335, 585
+  size: 51, 51
+  orig: 72, 72
+  offset: 11, 10
+  index: -1
+xian
+  rotate: false
+  xy: 141, 117
+  size: 125, 120
+  orig: 140, 140
+  offset: 8, 10
+  index: -1

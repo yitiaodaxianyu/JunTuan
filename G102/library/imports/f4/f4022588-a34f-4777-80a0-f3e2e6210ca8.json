@@ -1,0 +1,98 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "wishing_card_green.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "CommonSpirit_BackLight_Green": {
+      "__uuid__": "e866ad4c-ad33-44e2-972e-78329c0034ec"
+    },
+    "CommonSpirit_DrawCardFX_Green_00": {
+      "__uuid__": "ef29fe79-11f3-40e8-ad33-6549e936801f"
+    },
+    "CommonSpirit_DrawCardFX_Green_01": {
+      "__uuid__": "96814e86-8e9e-4910-96fd-6847f0402a75"
+    },
+    "CommonSpirit_DrawCardFX_Green_02": {
+      "__uuid__": "8a78a61a-87c9-4a63-8ac1-05bd228bcb13"
+    },
+    "CommonSpirit_DrawCardFX_Green_03": {
+      "__uuid__": "5f2a20f4-0215-42e3-944b-af9d5997cf87"
+    },
+    "CommonSpirit_DrawCardFX_Green_04": {
+      "__uuid__": "13cc7c8d-73ee-41ae-8c9b-3a104263eab1"
+    },
+    "CommonSpirit_DrawCardFX_Green_05": {
+      "__uuid__": "827d6558-7493-4dac-9a99-61b570741c15"
+    },
+    "CommonSpirit_DrawCardFX_Green_06": {
+      "__uuid__": "3ab6e020-8917-4d93-881e-828e2f9d835b"
+    },
+    "CommonSpirit_DrawCardFX_Green_07": {
+      "__uuid__": "dbb8177b-150a-4017-b302-1875c6c6a7f8"
+    },
+    "CommonSpirit_DrawCardFX_Green_08": {
+      "__uuid__": "1173e9ee-7787-4ba1-9a1e-d7f0c84f9cb9"
+    },
+    "CommonSpirit_DrawCardFX_Green_09": {
+      "__uuid__": "3f08645b-f0b8-4a6a-b0bc-869349b503ff"
+    },
+    "CommonSpirit_DrawCardFX_Green_10": {
+      "__uuid__": "f5291618-76a9-44de-90b7-acc5dbc405a9"
+    },
+    "CommonSpirit_DrawCardFX_Green_11": {
+      "__uuid__": "0d9d0b9a-8b1a-4bb3-ad71-cfca5d815452"
+    },
+    "CommonSpirit_DrawCardFX_Green_12": {
+      "__uuid__": "5f94bb97-505a-43e0-befb-a0dc91287088"
+    },
+    "CommonSpirit_DrawCardFX_Green_13": {
+      "__uuid__": "65b769cb-f19a-4683-8eb2-5637c1dfd35a"
+    },
+    "CommonSpirit_DrawCardFX_Green_14": {
+      "__uuid__": "80be9459-2adb-4a7d-9e46-386fe34aa28f"
+    },
+    "CommonSpirit_DrawCardFX_Green_15": {
+      "__uuid__": "d98a9225-1ae6-4f5e-90cf-604d4fd3a2b0"
+    },
+    "CommonSpirit_DrawCardFX_Green_16": {
+      "__uuid__": "370b9fc3-a5a1-44b0-af70-824d14effa0c"
+    },
+    "CommonSpirit_DrawCardFX_Green_17": {
+      "__uuid__": "f452804f-6131-4038-a836-bdfb4e8696aa"
+    },
+    "CommonSpirit_DrawCardFX_Green_18": {
+      "__uuid__": "74b0e35b-3a79-42d9-8755-46f7663229d1"
+    },
+    "CommonSpirit_DrawCardFX_Green_19": {
+      "__uuid__": "5bc3ec56-eddc-4f05-8bb5-80a519d0179d"
+    },
+    "CommonSpirit_DrawCardFX_Green_20": {
+      "__uuid__": "5e2c545d-ef89-4f13-9df3-45d4f59be624"
+    },
+    "CommonSpirit_DrawCardFX_Green_21": {
+      "__uuid__": "96523da9-1689-43fc-b936-e21daa87c19d"
+    },
+    "CommonSpirit_DrawCardFX_Green_22": {
+      "__uuid__": "b4b4e547-3d41-479c-8703-14b2496d8652"
+    },
+    "CommonSpirit_DrawCardFX_Green_23": {
+      "__uuid__": "067db249-0255-4af4-8913-e09a62febb36"
+    },
+    "CommonSpirit_DrawCardFX_Green_24": {
+      "__uuid__": "30efd786-e5a2-4fb3-9656-218053834dec"
+    },
+    "CommonSpirit_DrawCardFX_Green_25": {
+      "__uuid__": "d39dbe73-ac37-4a98-93f6-65853ed7c5b8"
+    },
+    "CommonSpirit_DrawCardFX_Green_26": {
+      "__uuid__": "45244fa6-41d1-4f16-b5de-98ed979acf77"
+    },
+    "CommonSpirit_DrawCardFX_Green_27": {
+      "__uuid__": "bf2181ea-14aa-404a-9c4f-4730faff1452"
+    },
+    "CommonSpirit_DrawCardFX_Green_28": {
+      "__uuid__": "0f7746f6-fa78-4a32-a309-1e9dc87212da"
+    }
+  }
+}

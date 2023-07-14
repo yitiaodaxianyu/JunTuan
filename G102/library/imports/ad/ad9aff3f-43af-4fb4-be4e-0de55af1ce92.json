@@ -1,0 +1,26 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "zhandou_texiao.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "TX_Hit_Archer_00": {
+      "__uuid__": "39828114-fae1-43c4-939d-d56fab289604"
+    },
+    "TX_Hit_Archer_01": {
+      "__uuid__": "a73bd256-38a9-4b04-b7ad-d9ad71523a1a"
+    },
+    "TX_Hit_Archer_02": {
+      "__uuid__": "1d0168be-95d9-4e6a-838c-8e656b47fee5"
+    },
+    "TX_Hit_Archer_03": {
+      "__uuid__": "3ac2de2d-1cc9-46bb-8f6c-fd32fca7a324"
+    },
+    "monster_attack_00": {
+      "__uuid__": "d80cae03-07f4-40ff-babe-67bfcfdb6e21"
+    },
+    "monster_attack_01": {
+      "__uuid__": "59852d8d-9289-4d07-85a6-5a5841141ff4"
+    }
+  }
+}

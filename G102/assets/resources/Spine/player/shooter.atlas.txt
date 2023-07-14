@@ -1,0 +1,153 @@
+
+shooter.png
+size: 1517,554
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 917, 20
+  size: 156, 194
+  orig: 156, 194
+  offset: 0, 0
+  index: -1
+diying
+  rotate: false
+  xy: 174, 4
+  size: 288, 110
+  orig: 300, 120
+  offset: 6, 5
+  index: -1
+gong
+  rotate: true
+  xy: 358, 160
+  size: 394, 58
+  orig: 394, 58
+  offset: 0, 0
+  index: -1
+hair
+  rotate: false
+  xy: 0, 116
+  size: 356, 438
+  orig: 356, 438
+  offset: 0, 0
+  index: -1
+hair2
+  rotate: false
+  xy: 1193, 42
+  size: 86, 172
+  orig: 86, 172
+  offset: 0, 0
+  index: -1
+hair3
+  rotate: true
+  xy: 1280, 246
+  size: 118, 158
+  orig: 118, 158
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 464, 2
+  size: 166, 182
+  orig: 166, 182
+  offset: 0, 0
+  index: -1
+left_hand
+  rotate: true
+  xy: 1281, 68
+  size: 94, 108
+  orig: 94, 108
+  offset: 0, 0
+  index: -1
+left_hand2
+  rotate: false
+  xy: 1281, 2
+  size: 108, 64
+  orig: 108, 64
+  offset: 0, 0
+  index: -1
+left_leg
+  rotate: true
+  xy: 1281, 164
+  size: 80, 118
+  orig: 80, 118
+  offset: 0, 0
+  index: -1
+left_leg2
+  rotate: false
+  xy: 748, 8
+  size: 74, 206
+  orig: 74, 206
+  offset: 0, 0
+  index: -1
+pifen
+  rotate: false
+  xy: 418, 170
+  size: 268, 384
+  orig: 268, 384
+  offset: 0, 0
+  index: -1
+pigu
+  rotate: true
+  xy: 1075, 42
+  size: 172, 116
+  orig: 172, 116
+  offset: 0, 0
+  index: -1
+prop
+  rotate: true
+  xy: 688, 216
+  size: 338, 590
+  orig: 338, 590
+  offset: 0, 0
+  index: -1
+prop2
+  rotate: false
+  xy: 1280, 366
+  size: 222, 188
+  orig: 222, 188
+  offset: 0, 0
+  index: -1
+prop3
+  rotate: false
+  xy: 648, 6
+  size: 98, 162
+  orig: 98, 162
+  offset: 0, 0
+  index: -1
+right_hand
+  rotate: false
+  xy: 0, 0
+  size: 58, 114
+  orig: 58, 114
+  offset: 0, 0
+  index: -1
+right_hand2
+  rotate: false
+  xy: 1401, 132
+  size: 116, 80
+  orig: 116, 80
+  offset: 0, 0
+  index: -1
+right_leg
+  rotate: false
+  xy: 1440, 214
+  size: 70, 150
+  orig: 70, 150
+  offset: 0, 0
+  index: -1
+right_leg2
+  rotate: false
+  xy: 824, 16
+  size: 91, 198
+  orig: 184, 198
+  offset: 93, 0
+  index: -1
+right_prop
+  rotate: true
+  xy: 60, 1
+  size: 113, 112
+  orig: 113, 112
+  offset: 0, 0
+  index: -1

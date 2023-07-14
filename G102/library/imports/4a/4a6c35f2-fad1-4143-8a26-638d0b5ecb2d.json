@@ -1,0 +1,125 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "battle_pass_ui.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "DiTu_BtnBack": {
+      "__uuid__": "9cc27dc0-ab08-4760-8a84-6f239e697861"
+    },
+    "Rank_Icon_Gem": {
+      "__uuid__": "11135c36-d4fb-4ca3-8378-6ec1f78346ad"
+    },
+    "TY_Btn_03": {
+      "__uuid__": "b8f3fe37-dd8b-4312-98f5-3d9959dc0c64"
+    },
+    "Tower_Bg_1": {
+      "__uuid__": "fe54e2b4-843f-4381-ab45-d10e8629ce18"
+    },
+    "Tower_Bg_2": {
+      "__uuid__": "48e7934c-4ba5-4e6d-9e00-9d1a51f78275"
+    },
+    "WarOrder_Bg_1": {
+      "__uuid__": "2af97d54-40ad-43f8-bc4e-e23539f7c28a"
+    },
+    "WarOrder_Bg_2": {
+      "__uuid__": "9df98d35-ccd1-488e-943f-d85f69acb276"
+    },
+    "WarOrder_Bg_3": {
+      "__uuid__": "3ed2146d-0b25-46fb-9795-9c500c0705a7"
+    },
+    "WarOrder_Bg_4": {
+      "__uuid__": "47064744-c772-4be2-9caf-62cd4ed51517"
+    },
+    "WarOrder_Bg_5": {
+      "__uuid__": "0ff22e40-8a00-43ee-83dc-d94aeae2d1cf"
+    },
+    "WarOrder_Bg_6": {
+      "__uuid__": "63822abb-50d0-4bad-8856-bf0194e15e62"
+    },
+    "WarOrder_Btn_0": {
+      "__uuid__": "58ab864c-cefa-47ef-88ea-d79c82cf1112"
+    },
+    "WarOrder_Btn_1": {
+      "__uuid__": "dcfc0ee8-0f4a-4a01-b667-be93651e02b5"
+    },
+    "WarOrder_Btn_GoTo": {
+      "__uuid__": "e17bc5d2-6765-4472-94da-c462799394c4"
+    },
+    "WarOrder_Icon_1": {
+      "__uuid__": "abdc54cf-d2fe-4a47-95e9-776a8e9a64aa"
+    },
+    "WarOrder_Jdt": {
+      "__uuid__": "a3291073-e245-415c-b396-5924d4993244"
+    },
+    "WarOrder_Jdt1": {
+      "__uuid__": "4f6c6eed-6077-4c09-874a-9230b2abb4b0"
+    },
+    "WarOrder_Jdtd": {
+      "__uuid__": "33bdb8dc-511f-41f8-815f-4edb27d9f8fa"
+    },
+    "WarOrder_Light": {
+      "__uuid__": "f9574c8a-22dd-4486-bf23-c0caeb75a2b4"
+    },
+    "ZhanLin_Bg_0": {
+      "__uuid__": "8c628b74-82a4-4d38-bdfe-9011e8642896"
+    },
+    "ZhanLin_Bg_1": {
+      "__uuid__": "2f75080a-3e8a-43e2-a7a6-22521db93f20"
+    },
+    "ZhanLin_Bg_2": {
+      "__uuid__": "7f75f8eb-1e7c-4130-ab9b-bfa3eb17657d"
+    },
+    "ZhanLin_Btn_0": {
+      "__uuid__": "4b8da819-d50a-415f-97d4-f83d56aa35c6"
+    },
+    "ZhanLin_Btn_1": {
+      "__uuid__": "5c75c0a5-4dbc-4b50-b681-00463899faf2"
+    },
+    "ZhanLin_Btn_2": {
+      "__uuid__": "f8314d86-39c3-4bd5-ab04-b92b78dfc2d3"
+    },
+    "ZhanLin_Btn_3": {
+      "__uuid__": "3ca4dcc0-7433-47d4-9287-8b38e62a811a"
+    },
+    "ZhanLin_Icon_DaGou": {
+      "__uuid__": "ea0363ca-7a9e-4fbe-94ab-c8bc799be904"
+    },
+    "ZhanLin_Information": {
+      "__uuid__": "2a72d003-7fef-4113-9782-8c4b7fd73040"
+    },
+    "ZhanLin_JinDu_0": {
+      "__uuid__": "01c80b32-1301-478c-9667-415c3b7bddd2"
+    },
+    "ZhanLin_JinDu_0_1": {
+      "__uuid__": "b9703c55-1e3b-41b5-b41f-5fef20d401c1"
+    },
+    "ZhanLin_JinDu_1": {
+      "__uuid__": "257f73aa-6332-4aef-a38b-b036efaa4bba"
+    },
+    "ZhanLin_JinDu_1_1": {
+      "__uuid__": "adb3693f-40e4-4881-b4c6-14a9a889546b"
+    },
+    "ZhanLin_Level": {
+      "__uuid__": "5ed3d6f3-e08d-45fd-b868-b432f6bebd12"
+    },
+    "ZhanLin_Level_JinDu_0": {
+      "__uuid__": "e5cd1cd2-6838-4486-b1b2-956589eac7c9"
+    },
+    "ZhanLin_Level_JinDu_1": {
+      "__uuid__": "21cb6618-f1db-4d92-ba18-32f82e5ae028"
+    },
+    "ZhanLin_Reset": {
+      "__uuid__": "a9b6b296-49a1-448d-8e48-72982fcb852e"
+    },
+    "ZhanLin_Top_Banner": {
+      "__uuid__": "5a5f58c0-e768-4229-a7f7-adcd4024f73c"
+    },
+    "ZhanLin_ZheZhao": {
+      "__uuid__": "30fb1285-75b4-43d3-8db3-f71262a93f67"
+    },
+    "ZhanLin_icon_lock": {
+      "__uuid__": "5c29cf95-da12-487b-b9be-8079ac616f02"
+    }
+  }
+}

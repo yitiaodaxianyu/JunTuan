@@ -1,0 +1,59 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "kuang_zhan_shi.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "KuangZhan_Attack": {
+      "__uuid__": "6011494b-4954-4a24-aeac-f46905de94ec"
+    },
+    "KuangZhan_Attack2": {
+      "__uuid__": "1c7b5081-56a9-480b-9b24-42b11993a51a"
+    },
+    "KuangZhan_AttackHit_00": {
+      "__uuid__": "c6af61a3-d5dd-4bde-b74e-aa64325eb7b3"
+    },
+    "KuangZhan_AttackHit_01": {
+      "__uuid__": "24b0b110-9d63-4f69-8624-b280fff8bb0f"
+    },
+    "KuangZhan_AttackHit_02": {
+      "__uuid__": "41c4652c-4e56-43b0-8e8c-395c60185079"
+    },
+    "KuangZhan_AttackHit_03": {
+      "__uuid__": "aad6ff69-54db-4f42-9c0a-3e8ca8dd3746"
+    },
+    "KuangZhan_AttackHit_04": {
+      "__uuid__": "b19d9766-318c-490f-9614-1688c01ceb2c"
+    },
+    "KuangZhan_AttackHit_05": {
+      "__uuid__": "4b2f9a1f-22cf-44bc-bd3a-ff6ad40ea299"
+    },
+    "KuangZhan_AttackHit_06": {
+      "__uuid__": "d87f7f4d-71df-4aa5-865c-526be50f6ee8"
+    },
+    "KuangZhan_AttackHit_07": {
+      "__uuid__": "44567a10-416f-417f-a038-04c9297205d1"
+    },
+    "KuangZhan_AttackHit_08": {
+      "__uuid__": "5a7b4001-719c-4ce1-8c4f-77c0accbebff"
+    },
+    "KuangZhan_PassiveHit_01": {
+      "__uuid__": "dceced9c-7f9b-472a-b041-cbf11f322132"
+    },
+    "KuangZhan_PassiveHit_02": {
+      "__uuid__": "aa18d7dc-9f98-4fbc-a094-21d74c588875"
+    },
+    "KuangZhan_PassiveHit_03": {
+      "__uuid__": "b2d7f11a-5f8f-4255-b6a1-65b82f4777ae"
+    },
+    "KuangZhan_PassiveHit_04": {
+      "__uuid__": "995eef19-9165-4f66-ac94-1ce8bc13c325"
+    },
+    "KuangZhan_PassiveHit_05": {
+      "__uuid__": "d68397fe-c09c-4ea4-8ac3-3ac6a08c10d6"
+    },
+    "KuangZhan_PassiveHit_06": {
+      "__uuid__": "bb56d94c-8082-44d4-bbb8-164e197fcd0b"
+    }
+  }
+}

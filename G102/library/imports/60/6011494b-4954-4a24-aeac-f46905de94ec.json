@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "KuangZhan_Attack",
+    "texture": "36d14239-9c7a-4eaa-a458-87aa26fdc067",
+    "atlas": "ac0bff62-00a4-4db3-897e-6959767cd48d",
+    "rect": [
+      132,
+      358,
+      46,
+      70
+    ],
+    "offset": [
+      -1,
+      0
+    ],
+    "originalSize": [
+      66,
+      70
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Monster_54_Skill_1",
+    "texture": "8745b6dd-de90-438f-a96f-1f0764f2b9f1",
+    "atlas": "d5b25b7c-df3a-46e0-9fe0-ddeb6bd6d156",
+    "rect": [
+      2,
+      2,
+      172,
+      190
+    ],
+    "offset": [
+      4,
+      0
+    ],
+    "originalSize": [
+      196,
+      190
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

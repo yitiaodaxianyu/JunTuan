@@ -1,0 +1,83 @@
+
+Monster_50.png
+size: 172,78
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 88, 34
+  size: 26, 44
+  orig: 26, 44
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 0, 1
+  size: 56, 77
+  orig: 56, 77
+  offset: 0, 0
+  index: -1
+WeiBa
+  rotate: true
+  xy: 159, 40
+  size: 14, 13
+  orig: 14, 13
+  offset: 0, 0
+  index: -1
+YouBi
+  rotate: true
+  xy: 62, 0
+  size: 23, 18
+  orig: 23, 18
+  offset: 0, 0
+  index: -1
+YouJiao
+  rotate: false
+  xy: 113, 7
+  size: 17, 19
+  orig: 17, 19
+  offset: 0, 0
+  index: -1
+YouShou
+  rotate: false
+  xy: 62, 31
+  size: 20, 47
+  orig: 31, 48
+  offset: 0, 0
+  index: -1
+YouTui
+  rotate: false
+  xy: 156, 62
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+ZuoBi
+  rotate: false
+  xy: 86, 2
+  size: 21, 21
+  orig: 21, 21
+  offset: 0, 0
+  index: -1
+ZuoJiao
+  rotate: false
+  xy: 136, 20
+  size: 17, 19
+  orig: 17, 19
+  offset: 0, 0
+  index: -1
+ZuoShou
+  rotate: true
+  xy: 120, 47
+  size: 31, 30
+  orig: 31, 30
+  offset: 0, 0
+  index: -1
+ZuoTui
+  rotate: false
+  xy: 136, 0
+  size: 14, 12
+  orig: 14, 12
+  offset: 0, 0
+  index: -1

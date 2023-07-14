@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "shooter",
+    "texture": "45617d54-2d4f-46e3-95e8-828df541de73",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1517,
+      554
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1517,
+      554
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

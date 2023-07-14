@@ -1,0 +1,7 @@
+{
+  "__type__": "cc.TextAsset",
+  "_name": "ChouKa.atlas",
+  "_objFlags": 0,
+  "_native": "",
+  "text": "\r\nChouKa.png\r\nsize: 998,1058\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nLight\r\n  rotate: true\r\n  xy: 566, 607\r\n  size: 451, 432\r\n  orig: 500, 500\r\n  offset: 26, 30\r\n  index: -1\r\nMagicArray\r\n  rotate: false\r\n  xy: 0, 494\r\n  size: 564, 564\r\n  orig: 600, 600\r\n  offset: 18, 18\r\n  index: -1\r\nglow\r\n  rotate: false\r\n  xy: 566, 237\r\n  size: 368, 368\r\n  orig: 512, 512\r\n  offset: 76, 68\r\n  index: -1\r\nring 1\r\n  rotate: false\r\n  xy: 0, 5\r\n  size: 487, 487\r\n  orig: 512, 512\r\n  offset: 12, 13\r\n  index: -1\r\nstar1\r\n  rotate: false\r\n  xy: 489, 0\r\n  size: 240, 235\r\n  orig: 256, 256\r\n  offset: 8, 10\r\n  index: -1\r\nstar2\r\n  rotate: false\r\n  xy: 731, 136\r\n  size: 95, 99\r\n  orig: 100, 100\r\n  offset: 2, 1\r\n  index: -1\r\n"
+}

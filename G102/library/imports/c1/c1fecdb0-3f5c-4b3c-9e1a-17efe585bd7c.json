@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "FX_Boss2_FireBall_Hit_03",
+    "texture": "798608f1-4fe1-43be-a3b9-ec2fa3b449d6",
+    "atlas": "6f8470e3-0706-440f-805c-42125ba7c6b6",
+    "rect": [
+      756,
+      1390,
+      168,
+      114
+    ],
+    "offset": [
+      -1,
+      -9
+    ],
+    "originalSize": [
+      180,
+      150
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Rank_Icon_Gem",
+    "texture": "b0f9764b-e01a-4ca6-ac6d-b5f1f4f6cd4b",
+    "atlas": "4b402d93-54bb-4ab6-9e70-f7ddbfd01e46",
+    "rect": [
+      68,
+      517,
+      43,
+      34
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      43,
+      34
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

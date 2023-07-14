@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Witch_Attack_1",
+    "texture": "34e91499-baa3-4663-ae7d-a9be4f7f5f5b",
+    "atlas": "2be0d149-9fc4-41b1-b4f2-c55f94d460ed",
+    "rect": [
+      179,
+      1530,
+      70,
+      68
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      70,
+      70
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "language_sprite.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "TY_logo_cn": {
+      "__uuid__": "841d74ef-f2d1-4df5-b6df-b1c4d336ad1c"
+    },
+    "TY_logo_en": {
+      "__uuid__": "233bcef1-8fc2-4c2e-b441-2235f4058895"
+    }
+  }
+}

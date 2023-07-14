@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Fx_CastleUnlock_15",
+    "texture": "a8872f61-8fa4-4216-ae49-44624dabb167",
+    "atlas": "cf7e3f65-6b91-4c2c-9364-e854e6465dc4",
+    "rect": [
+      2,
+      804,
+      192,
+      194
+    ],
+    "offset": [
+      3,
+      0
+    ],
+    "originalSize": [
+      200,
+      200
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

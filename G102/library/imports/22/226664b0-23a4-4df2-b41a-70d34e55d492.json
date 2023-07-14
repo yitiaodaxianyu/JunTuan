@@ -1,0 +1,19 @@
+{
+  "__type__": "cc.Material",
+  "_name": "white-spine",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "b40f41e5-a242-48d7-8dd0-82cca9b77101"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "props": {},
+      "defines": {
+        "USE_TINT": false,
+        "USE_ALPHA_TEST": true
+      }
+    }
+  }
+}

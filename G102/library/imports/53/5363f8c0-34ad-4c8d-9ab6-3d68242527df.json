@@ -1,0 +1,56 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "pet_advance_ui.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Common_Icon_RedDot": {
+      "__uuid__": "3dc6f583-f00e-436e-94f1-f80fd542f30e"
+    },
+    "Evo_Arrow": {
+      "__uuid__": "d5e2ed46-5561-499c-ba8d-323594616ba5"
+    },
+    "Evo_Bg_0": {
+      "__uuid__": "dbe186a9-bed3-443f-b5e0-d0f92114ae47"
+    },
+    "Evo_Bg_1": {
+      "__uuid__": "e358e860-d3dc-4495-884c-e73024f05cb3"
+    },
+    "Evo_Bg_2_0": {
+      "__uuid__": "a62ce4d7-3f2f-4b46-98c9-3fac3a261afa"
+    },
+    "Evo_Bg_2_1": {
+      "__uuid__": "e57a4042-0497-49f2-bd5b-40d38528b806"
+    },
+    "Evo_Checkmark": {
+      "__uuid__": "fb2ae74a-c59c-4cef-8940-4c1c7f7593b7"
+    },
+    "Evo_Checkmark_1": {
+      "__uuid__": "e3565a22-da73-45c2-b192-f57f18e04167"
+    },
+    "Evo_Frame_Bg": {
+      "__uuid__": "3814b3e8-17a3-4433-97e7-e8869dec1c40"
+    },
+    "Evo_Lock": {
+      "__uuid__": "a25b4d5e-06b4-4504-9380-d17f93cf77be"
+    },
+    "Evo_Mask_0": {
+      "__uuid__": "ff568283-5fe8-4f74-9fd7-33149bbc55f4"
+    },
+    "Evo_Mask_1": {
+      "__uuid__": "469ebdc5-c431-47ae-b402-32a63bcd45ab"
+    },
+    "Evo_Plus": {
+      "__uuid__": "c9695ad6-7961-4643-80b4-633412b2f4d4"
+    },
+    "Exclusive_Bg_1": {
+      "__uuid__": "0ca0437e-224b-405c-9285-9f66b5ce159c"
+    },
+    "Exclusive_Icon_Arrow": {
+      "__uuid__": "e46b5a69-33ca-49da-ad3f-2f0ff47ce3bb"
+    },
+    "Exclusive_Icon_Arrow_1": {
+      "__uuid__": "9fa4ff4f-af37-409a-9694-51bb037488ea"
+    }
+  }
+}

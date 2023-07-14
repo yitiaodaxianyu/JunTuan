@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "EndlessBuff_310",
+    "texture": "6f252f1d-ac80-45bb-a2cf-039617782c08",
+    "atlas": "7ce35ca0-3646-4312-b998-36280a3bb3c8",
+    "rect": [
+      1824,
+      1301,
+      74,
+      86
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      74,
+      86
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

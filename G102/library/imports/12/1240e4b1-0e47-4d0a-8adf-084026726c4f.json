@@ -1,0 +1,38 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "tutorials.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Common_Btn_2": {
+      "__uuid__": "a1f18d5a-cdee-4a5d-ad7b-d842bf87129c"
+    },
+    "Common_Btn_3": {
+      "__uuid__": "566db660-0c7e-4e6e-8698-d00868f2d034"
+    },
+    "Course_Bg": {
+      "__uuid__": "1881ed3f-f3e3-4de6-883b-8ec7209841f6"
+    },
+    "Course_Man": {
+      "__uuid__": "6f85752b-3d21-4426-9869-52b5ab6babcd"
+    },
+    "Course_Title": {
+      "__uuid__": "d025c02a-aefa-4884-80a6-89ef5afd9b21"
+    },
+    "Dialog_Bg_0": {
+      "__uuid__": "7bbba157-e88d-478a-99dc-c9f52bae4c9d"
+    },
+    "Dialog_Btn_Next": {
+      "__uuid__": "a890919e-2a26-411c-b025-4f391a42e4fc"
+    },
+    "Dialog_Title": {
+      "__uuid__": "93a6f4eb-161e-424d-bc26-8615e8972e00"
+    },
+    "TY_bg_00": {
+      "__uuid__": "a3783fc9-74ec-49f3-9f01-4f792cde1f02"
+    },
+    "XL_finger": {
+      "__uuid__": "0640d387-5f66-4937-a643-adda067438bf"
+    }
+  }
+}

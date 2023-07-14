@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "TY_icon_Kong",
+    "texture": "656c4118-0d35-4437-997e-e879549947a1",
+    "atlas": "ee928933-a9bc-4727-b3c6-b25b41b93023",
+    "rect": [
+      122,
+      333,
+      41,
+      52
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      41,
+      52
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

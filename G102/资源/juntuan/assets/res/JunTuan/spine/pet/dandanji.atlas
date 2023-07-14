@@ -1,0 +1,139 @@
+
+dandanji.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 842, 100
+  size: 74, 26
+  orig: 74, 26
+  offset: 0, 0
+  index: -1
+chibang
+  rotate: true
+  xy: 2, 2
+  size: 37, 34
+  orig: 37, 34
+  offset: 0, 0
+  index: -1
+shengji/stage2/chibang
+  rotate: true
+  xy: 38, 2
+  size: 37, 34
+  orig: 37, 34
+  offset: 0, 0
+  index: -1
+shengji/stage2/shenti
+  rotate: false
+  xy: 107, 41
+  size: 103, 85
+  orig: 103, 85
+  offset: 0, 0
+  index: -1
+shengji/stage3/chibang
+  rotate: true
+  xy: 74, 2
+  size: 37, 34
+  orig: 37, 34
+  offset: 0, 0
+  index: -1
+shengji/stage3/shenti
+  rotate: false
+  xy: 212, 41
+  size: 103, 85
+  orig: 103, 85
+  offset: 0, 0
+  index: -1
+shengji/stage4/chibang
+  rotate: true
+  xy: 110, 2
+  size: 37, 34
+  orig: 37, 34
+  offset: 0, 0
+  index: -1
+shengji/stage5/chibang
+  rotate: true
+  xy: 110, 2
+  size: 37, 34
+  orig: 37, 34
+  offset: 0, 0
+  index: -1
+shengji/stage4/shenti
+  rotate: false
+  xy: 317, 41
+  size: 103, 85
+  orig: 103, 85
+  offset: 0, 0
+  index: -1
+shengji/stage5/shenti
+  rotate: false
+  xy: 422, 41
+  size: 103, 85
+  orig: 103, 85
+  offset: 0, 0
+  index: -1
+shengji/stage6/chibang
+  rotate: true
+  xy: 146, 2
+  size: 37, 34
+  orig: 37, 34
+  offset: 0, 0
+  index: -1
+shengji/stage6/shenti
+  rotate: false
+  xy: 527, 41
+  size: 103, 85
+  orig: 103, 85
+  offset: 0, 0
+  index: -1
+shengji/stage7/chibang
+  rotate: true
+  xy: 182, 2
+  size: 37, 34
+  orig: 37, 34
+  offset: 0, 0
+  index: -1
+shengji/stage7/shenti
+  rotate: false
+  xy: 632, 41
+  size: 103, 85
+  orig: 103, 85
+  offset: 0, 0
+  index: -1
+shengji/stage8/chibang
+  rotate: true
+  xy: 218, 2
+  size: 37, 34
+  orig: 37, 34
+  offset: 0, 0
+  index: -1
+shengji/stage8/shenti
+  rotate: false
+  xy: 737, 41
+  size: 103, 85
+  orig: 103, 85
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 2, 41
+  size: 103, 85
+  orig: 103, 85
+  offset: 0, 0
+  index: -1
+tui1
+  rotate: false
+  xy: 842, 74
+  size: 25, 24
+  orig: 25, 24
+  offset: 0, 0
+  index: -1
+tui2
+  rotate: false
+  xy: 254, 14
+  size: 27, 25
+  orig: 27, 25
+  offset: 0, 0
+  index: -1

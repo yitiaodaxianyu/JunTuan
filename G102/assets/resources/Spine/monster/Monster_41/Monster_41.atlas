@@ -1,0 +1,90 @@
+
+Monster_41.png
+size: 190,78
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 119, 3
+  size: 37, 28
+  orig: 37, 28
+  offset: 0, 0
+  index: -1
+Gun
+  rotate: false
+  xy: 65, 2
+  size: 52, 23
+  orig: 52, 23
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 2, 9
+  size: 61, 67
+  orig: 67, 74
+  offset: 6, 0
+  index: -1
+Light_00
+  rotate: false
+  xy: 152, 53
+  size: 24, 23
+  orig: 52, 52
+  offset: 13, 26
+  index: -1
+Light_01
+  rotate: false
+  xy: 111, 33
+  size: 39, 43
+  orig: 52, 52
+  offset: 4, 6
+  index: -1
+Light_02
+  rotate: false
+  xy: 65, 27
+  size: 44, 49
+  orig: 52, 52
+  offset: 3, 0
+  index: -1
+YouBi
+  rotate: true
+  xy: 158, 18
+  size: 15, 17
+  orig: 15, 17
+  offset: 0, 0
+  index: -1
+YouJiao
+  rotate: true
+  xy: 178, 62
+  size: 14, 10
+  orig: 14, 10
+  offset: 0, 0
+  index: -1
+YouShou
+  rotate: true
+  xy: 178, 4
+  size: 13, 9
+  orig: 13, 9
+  offset: 0, 0
+  index: -1
+ZuoBi
+  rotate: true
+  xy: 158, 3
+  size: 13, 18
+  orig: 13, 18
+  offset: 0, 0
+  index: -1
+ZuoJiao
+  rotate: true
+  xy: 177, 19
+  size: 14, 10
+  orig: 14, 10
+  offset: 0, 0
+  index: -1
+ZuoShou
+  rotate: false
+  xy: 152, 35
+  size: 26, 16
+  orig: 26, 16
+  offset: 0, 0
+  index: -1

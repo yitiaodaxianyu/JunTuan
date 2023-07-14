@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "XuLi_TongYong_09",
+    "texture": "5cfa664c-f732-4a32-be47-c4b64ef065a2",
+    "atlas": "0d37e90e-d1b1-49d5-8309-220545534850",
+    "rect": [
+      2,
+      950,
+      198,
+      28
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

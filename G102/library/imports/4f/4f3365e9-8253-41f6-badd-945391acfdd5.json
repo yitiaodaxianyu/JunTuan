@@ -1,0 +1,11 @@
+{
+  "__type__": "cc.Material",
+  "_name": "2d-gray-spine",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "d6bec547-c6c5-4c08-aea0-1075d197b005"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {}
+}

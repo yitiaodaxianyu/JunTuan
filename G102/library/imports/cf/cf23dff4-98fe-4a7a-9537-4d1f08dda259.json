@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "NvWu_Passive2_10",
+    "texture": "2e04e25c-f570-4ee7-823b-719f8f5cc61a",
+    "atlas": "a50e06c3-c899-4367-9152-194d25e3e32f",
+    "rect": [
+      608,
+      2,
+      200,
+      200
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      200,
+      200
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

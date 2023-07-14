@@ -1,0 +1,48 @@
+
+guai_03.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: true
+  xy: 2, 44
+  size: 96, 40
+  orig: 96, 40
+  offset: 0, 0
+  index: -1
+lshou
+  rotate: false
+  xy: 44, 89
+  size: 43, 51
+  orig: 43, 51
+  offset: 0, 0
+  index: -1
+rshou
+  rotate: false
+  xy: 2, 2
+  size: 34, 40
+  orig: 34, 40
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 2, 142
+  size: 92, 70
+  orig: 92, 70
+  offset: 0, 0
+  index: -1
+tui
+  rotate: false
+  xy: 96, 161
+  size: 55, 51
+  orig: 55, 51
+  offset: 0, 0
+  index: -1
+yan
+  rotate: false
+  xy: 96, 153
+  size: 24, 6
+  orig: 24, 6
+  offset: 0, 0
+  index: -1

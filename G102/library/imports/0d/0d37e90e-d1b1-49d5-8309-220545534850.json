@@ -1,0 +1,38 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "skill_common.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "XuLi_TongYong_00": {
+      "__uuid__": "25d91783-bdab-4fb3-b2b4-29d322ae59d6"
+    },
+    "XuLi_TongYong_01": {
+      "__uuid__": "416b131c-7b68-47f1-b48f-27e043f1affc"
+    },
+    "XuLi_TongYong_02": {
+      "__uuid__": "4ca44caa-6fe0-4672-b131-ea23f51b9e10"
+    },
+    "XuLi_TongYong_03": {
+      "__uuid__": "ccb6505c-b82c-4340-82dd-62adb9cca48c"
+    },
+    "XuLi_TongYong_04": {
+      "__uuid__": "e279f1a7-8216-4904-a94d-723b9e9723eb"
+    },
+    "XuLi_TongYong_05": {
+      "__uuid__": "f397efd4-101f-4f9f-b477-07bfe62185bb"
+    },
+    "XuLi_TongYong_06": {
+      "__uuid__": "f27da230-e9d4-4d05-bae0-5ebf54c80e31"
+    },
+    "XuLi_TongYong_07": {
+      "__uuid__": "79f2d7e7-45c0-454e-a526-195c7a2c13ba"
+    },
+    "XuLi_TongYong_08": {
+      "__uuid__": "3d81d66e-27db-4188-ae61-94e7e03f4e75"
+    },
+    "XuLi_TongYong_09": {
+      "__uuid__": "ee2ce114-f5f2-435d-a6f6-7c6e6a5c583e"
+    }
+  }
+}

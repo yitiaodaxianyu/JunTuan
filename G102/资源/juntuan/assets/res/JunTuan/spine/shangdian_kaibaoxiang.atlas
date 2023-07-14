@@ -1,0 +1,194 @@
+shangdian_kaibaoxiang.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/1
+  rotate: false
+  xy: 180, 788
+  size: 268, 234
+  orig: 268, 234
+  offset: 0, 0
+  index: -1
+images/2_1
+  rotate: false
+  xy: 450, 788
+  size: 268, 234
+  orig: 268, 234
+  offset: 0, 0
+  index: -1
+images/2_2
+  rotate: false
+  xy: 1530, 788
+  size: 268, 234
+  orig: 268, 234
+  offset: 0, 0
+  index: -1
+images/3
+  rotate: false
+  xy: 1260, 788
+  size: 268, 234
+  orig: 268, 234
+  offset: 0, 0
+  index: -1
+images/3_1
+  rotate: false
+  xy: 720, 788
+  size: 268, 234
+  orig: 268, 234
+  offset: 0, 0
+  index: -1
+images/3_2
+  rotate: true
+  xy: 1800, 754
+  size: 268, 234
+  orig: 268, 234
+  offset: 0, 0
+  index: -1
+images/4_1
+  rotate: false
+  xy: 990, 788
+  size: 268, 234
+  orig: 268, 234
+  offset: 0, 0
+  index: -1
+images/4_2
+  rotate: false
+  xy: 2, 552
+  size: 268, 234
+  orig: 268, 234
+  offset: 0, 0
+  index: -1
+images/guang
+  rotate: true
+  xy: 2, 847
+  size: 175, 176
+  orig: 175, 176
+  offset: 0, 0
+  index: -1
+images/star/win1
+  rotate: true
+  xy: 272, 526
+  size: 260, 267
+  orig: 260, 267
+  offset: 0, 0
+  index: -1
+images/star/win10
+  rotate: true
+  xy: 809, 264
+  size: 260, 267
+  orig: 260, 267
+  offset: 0, 0
+  index: -1
+images/star/win11
+  rotate: true
+  xy: 1078, 264
+  size: 260, 267
+  orig: 260, 267
+  offset: 0, 0
+  index: -1
+images/star/win12
+  rotate: true
+  xy: 1347, 264
+  size: 260, 267
+  orig: 260, 267
+  offset: 0, 0
+  index: -1
+images/star/win13
+  rotate: true
+  xy: 1616, 230
+  size: 260, 267
+  orig: 260, 267
+  offset: 0, 0
+  index: -1
+images/star/win14
+  rotate: true
+  xy: 2, 28
+  size: 260, 267
+  orig: 260, 267
+  offset: 0, 0
+  index: -1
+images/star/win15
+  rotate: true
+  xy: 271, 2
+  size: 260, 267
+  orig: 260, 267
+  offset: 0, 0
+  index: -1
+images/star/win16
+  rotate: true
+  xy: 540, 2
+  size: 260, 267
+  orig: 260, 267
+  offset: 0, 0
+  index: -1
+images/star/win17
+  rotate: true
+  xy: 809, 2
+  size: 260, 267
+  orig: 260, 267
+  offset: 0, 0
+  index: -1
+images/star/win18
+  rotate: true
+  xy: 1078, 2
+  size: 260, 267
+  orig: 260, 267
+  offset: 0, 0
+  index: -1
+images/star/win2
+  rotate: true
+  xy: 541, 526
+  size: 260, 267
+  orig: 260, 267
+  offset: 0, 0
+  index: -1
+images/star/win3
+  rotate: true
+  xy: 810, 526
+  size: 260, 267
+  orig: 260, 267
+  offset: 0, 0
+  index: -1
+images/star/win4
+  rotate: true
+  xy: 1079, 526
+  size: 260, 267
+  orig: 260, 267
+  offset: 0, 0
+  index: -1
+images/star/win5
+  rotate: true
+  xy: 1348, 526
+  size: 260, 267
+  orig: 260, 267
+  offset: 0, 0
+  index: -1
+images/star/win6
+  rotate: true
+  xy: 1617, 492
+  size: 260, 267
+  orig: 260, 267
+  offset: 0, 0
+  index: -1
+images/star/win7
+  rotate: true
+  xy: 2, 290
+  size: 260, 267
+  orig: 260, 267
+  offset: 0, 0
+  index: -1
+images/star/win8
+  rotate: true
+  xy: 271, 264
+  size: 260, 267
+  orig: 260, 267
+  offset: 0, 0
+  index: -1
+images/star/win9
+  rotate: true
+  xy: 540, 264
+  size: 260, 267
+  orig: 260, 267
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,32 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "gold_mall_ui.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Shop_Banner_0": {
+      "__uuid__": "d08c7423-a456-409b-918a-a55b8c1acef4"
+    },
+    "Shop_Banner_1": {
+      "__uuid__": "0cf23165-09ef-47d7-ba0c-074c487bf728"
+    },
+    "Shop_Banner_2": {
+      "__uuid__": "cb4b9ff9-d87f-4f44-a086-d67c977c690c"
+    },
+    "Shop_Bg_0": {
+      "__uuid__": "0045607b-13a9-450a-8741-9dbbd002bee3"
+    },
+    "Shop_Bg_SoldOut": {
+      "__uuid__": "dbee5732-4f48-4948-b497-445a369b797b"
+    },
+    "Shop_Btn_Coin": {
+      "__uuid__": "8906252c-2309-4266-8b0f-9b4db41452ca"
+    },
+    "Shop_Btn_Refresh": {
+      "__uuid__": "363e60da-74a1-4957-8142-6a4b88cf8c66"
+    },
+    "Shop_Shelf": {
+      "__uuid__": "8ece1d1e-444c-4a66-926c-bfaf014661ae"
+    }
+  }
+}

@@ -1,0 +1,2390 @@
+[
+  {
+    "Level": 1,
+    "CostCoin": 30,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 2,
+    "CostCoin": 96,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 3,
+    "CostCoin": 162,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 4,
+    "CostCoin": 229,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 5,
+    "CostCoin": 297,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 6,
+    "CostCoin": 364,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 7,
+    "CostCoin": 433,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 8,
+    "CostCoin": 501,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 9,
+    "CostCoin": 570,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 10,
+    "CostCoin": 640,
+    "CostGem": 30,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 11,
+    "CostCoin": 709,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 12,
+    "CostCoin": 780,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 13,
+    "CostCoin": 850,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 14,
+    "CostCoin": 922,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 15,
+    "CostCoin": 993,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 16,
+    "CostCoin": 1065,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 17,
+    "CostCoin": 1137,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 18,
+    "CostCoin": 1210,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 19,
+    "CostCoin": 1283,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 20,
+    "CostCoin": 1357,
+    "CostGem": 100,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 21,
+    "CostCoin": 1431,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 22,
+    "CostCoin": 1506,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 23,
+    "CostCoin": 1581,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 24,
+    "CostCoin": 1656,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 25,
+    "CostCoin": 1732,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 26,
+    "CostCoin": 1809,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 27,
+    "CostCoin": 1886,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 28,
+    "CostCoin": 1963,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 29,
+    "CostCoin": 2041,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 30,
+    "CostCoin": 2119,
+    "CostGem": 100,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 31,
+    "CostCoin": 2198,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 32,
+    "CostCoin": 2277,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 33,
+    "CostCoin": 2357,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 34,
+    "CostCoin": 2437,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 35,
+    "CostCoin": 2517,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 36,
+    "CostCoin": 2598,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 37,
+    "CostCoin": 2680,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 38,
+    "CostCoin": 2762,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 39,
+    "CostCoin": 2845,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 40,
+    "CostCoin": 2928,
+    "CostGem": 200,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 41,
+    "CostCoin": 3011,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 42,
+    "CostCoin": 3095,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 43,
+    "CostCoin": 3180,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 44,
+    "CostCoin": 3265,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 45,
+    "CostCoin": 3351,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 46,
+    "CostCoin": 3437,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 47,
+    "CostCoin": 3523,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 48,
+    "CostCoin": 3611,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 49,
+    "CostCoin": 3698,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 50,
+    "CostCoin": 3786,
+    "CostGem": 200,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 51,
+    "CostCoin": 3875,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 52,
+    "CostCoin": 3964,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 53,
+    "CostCoin": 4054,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 54,
+    "CostCoin": 4144,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 55,
+    "CostCoin": 4235,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 56,
+    "CostCoin": 4327,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 57,
+    "CostCoin": 4419,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 58,
+    "CostCoin": 4511,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 59,
+    "CostCoin": 4604,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 60,
+    "CostCoin": 4698,
+    "CostGem": 300,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 61,
+    "CostCoin": 4792,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 62,
+    "CostCoin": 4887,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 63,
+    "CostCoin": 4982,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 64,
+    "CostCoin": 5078,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 65,
+    "CostCoin": 5175,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 66,
+    "CostCoin": 5272,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 67,
+    "CostCoin": 5369,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 68,
+    "CostCoin": 5467,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 69,
+    "CostCoin": 5566,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 70,
+    "CostCoin": 5666,
+    "CostGem": 300,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 71,
+    "CostCoin": 5766,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 72,
+    "CostCoin": 5866,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 73,
+    "CostCoin": 5967,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 74,
+    "CostCoin": 6069,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 75,
+    "CostCoin": 6172,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 76,
+    "CostCoin": 6275,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 77,
+    "CostCoin": 6378,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 78,
+    "CostCoin": 6483,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 79,
+    "CostCoin": 6588,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 80,
+    "CostCoin": 6693,
+    "CostGem": 600,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 81,
+    "CostCoin": 6799,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 82,
+    "CostCoin": 6906,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 83,
+    "CostCoin": 7013,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 84,
+    "CostCoin": 7122,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 85,
+    "CostCoin": 7230,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 86,
+    "CostCoin": 7340,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 87,
+    "CostCoin": 7450,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 88,
+    "CostCoin": 7560,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 89,
+    "CostCoin": 7672,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 90,
+    "CostCoin": 7784,
+    "CostGem": 600,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 91,
+    "CostCoin": 7897,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 92,
+    "CostCoin": 8010,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 93,
+    "CostCoin": 8124,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 94,
+    "CostCoin": 8239,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 95,
+    "CostCoin": 8354,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 96,
+    "CostCoin": 8470,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 97,
+    "CostCoin": 8587,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 98,
+    "CostCoin": 8705,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 99,
+    "CostCoin": 8823,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 100,
+    "CostCoin": 8942,
+    "CostGem": 600,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 101,
+    "CostCoin": 9061,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 102,
+    "CostCoin": 9182,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 103,
+    "CostCoin": 9303,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 104,
+    "CostCoin": 9425,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 105,
+    "CostCoin": 9547,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 106,
+    "CostCoin": 9671,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 107,
+    "CostCoin": 9795,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 108,
+    "CostCoin": 9919,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 109,
+    "CostCoin": 10045,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 110,
+    "CostCoin": 10171,
+    "CostGem": 600,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 111,
+    "CostCoin": 10298,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 112,
+    "CostCoin": 10426,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 113,
+    "CostCoin": 10555,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 114,
+    "CostCoin": 10684,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 115,
+    "CostCoin": 10814,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 116,
+    "CostCoin": 10945,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 117,
+    "CostCoin": 11077,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 118,
+    "CostCoin": 11209,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 119,
+    "CostCoin": 11342,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 120,
+    "CostCoin": 11476,
+    "CostGem": 600,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 121,
+    "CostCoin": 11611,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 122,
+    "CostCoin": 11747,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 123,
+    "CostCoin": 11883,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 124,
+    "CostCoin": 12021,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 125,
+    "CostCoin": 12159,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 126,
+    "CostCoin": 12298,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 127,
+    "CostCoin": 12438,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 128,
+    "CostCoin": 12578,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 129,
+    "CostCoin": 12720,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 130,
+    "CostCoin": 12862,
+    "CostGem": 600,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 131,
+    "CostCoin": 13005,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 132,
+    "CostCoin": 13149,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 133,
+    "CostCoin": 13294,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 134,
+    "CostCoin": 13440,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 135,
+    "CostCoin": 13586,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 136,
+    "CostCoin": 13734,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 137,
+    "CostCoin": 13882,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 138,
+    "CostCoin": 14032,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 139,
+    "CostCoin": 14182,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 140,
+    "CostCoin": 14333,
+    "CostGem": 600,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 141,
+    "CostCoin": 14485,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 142,
+    "CostCoin": 14638,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 143,
+    "CostCoin": 14792,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 144,
+    "CostCoin": 14946,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 145,
+    "CostCoin": 15102,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 146,
+    "CostCoin": 15259,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 147,
+    "CostCoin": 15416,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 148,
+    "CostCoin": 15575,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 149,
+    "CostCoin": 15734,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 150,
+    "CostCoin": 15895,
+    "CostGem": 600,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 151,
+    "CostCoin": 16056,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 152,
+    "CostCoin": 16218,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 153,
+    "CostCoin": 16382,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 154,
+    "CostCoin": 16546,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 155,
+    "CostCoin": 16711,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 156,
+    "CostCoin": 16878,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 157,
+    "CostCoin": 17045,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 158,
+    "CostCoin": 17213,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 159,
+    "CostCoin": 17382,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 160,
+    "CostCoin": 17553,
+    "CostGem": 600,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 161,
+    "CostCoin": 17724,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 162,
+    "CostCoin": 17896,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 163,
+    "CostCoin": 18070,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 164,
+    "CostCoin": 18244,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 165,
+    "CostCoin": 18420,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 166,
+    "CostCoin": 18596,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 167,
+    "CostCoin": 18774,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 168,
+    "CostCoin": 18952,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 169,
+    "CostCoin": 19132,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 170,
+    "CostCoin": 19313,
+    "CostGem": 600,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 171,
+    "CostCoin": 19495,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 172,
+    "CostCoin": 19678,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 173,
+    "CostCoin": 19862,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 174,
+    "CostCoin": 20047,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 175,
+    "CostCoin": 20233,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 176,
+    "CostCoin": 20421,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 177,
+    "CostCoin": 20609,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 178,
+    "CostCoin": 20799,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 179,
+    "CostCoin": 20990,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 180,
+    "CostCoin": 21182,
+    "CostGem": 600,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 181,
+    "CostCoin": 21375,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 182,
+    "CostCoin": 21569,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 183,
+    "CostCoin": 21764,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 184,
+    "CostCoin": 21961,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 185,
+    "CostCoin": 22159,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 186,
+    "CostCoin": 22358,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 187,
+    "CostCoin": 22558,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 188,
+    "CostCoin": 22759,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 189,
+    "CostCoin": 22962,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 190,
+    "CostCoin": 23165,
+    "CostGem": 600,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 191,
+    "CostCoin": 23370,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 192,
+    "CostCoin": 23577,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 193,
+    "CostCoin": 23784,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 194,
+    "CostCoin": 23993,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 195,
+    "CostCoin": 24203,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 196,
+    "CostCoin": 24414,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 197,
+    "CostCoin": 24627,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 198,
+    "CostCoin": 24840,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 199,
+    "CostCoin": 25055,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 200,
+    "CostCoin": 25272,
+    "CostGem": 600,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 201,
+    "CostCoin": 25489,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 202,
+    "CostCoin": 25708,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 203,
+    "CostCoin": 25929,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 204,
+    "CostCoin": 26150,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 205,
+    "CostCoin": 26373,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 206,
+    "CostCoin": 26597,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 207,
+    "CostCoin": 26823,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 208,
+    "CostCoin": 27050,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 209,
+    "CostCoin": 27278,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 210,
+    "CostCoin": 27508,
+    "CostGem": 600,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 211,
+    "CostCoin": 27739,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 212,
+    "CostCoin": 27971,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 213,
+    "CostCoin": 28205,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 214,
+    "CostCoin": 28440,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 215,
+    "CostCoin": 28677,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 216,
+    "CostCoin": 28915,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 217,
+    "CostCoin": 29154,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 218,
+    "CostCoin": 29395,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 219,
+    "CostCoin": 29638,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 220,
+    "CostCoin": 29882,
+    "CostGem": 600,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 221,
+    "CostCoin": 30127,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 222,
+    "CostCoin": 30374,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 223,
+    "CostCoin": 30622,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 224,
+    "CostCoin": 30872,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 225,
+    "CostCoin": 31123,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 226,
+    "CostCoin": 31376,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 227,
+    "CostCoin": 31630,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 228,
+    "CostCoin": 31886,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 229,
+    "CostCoin": 32143,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 230,
+    "CostCoin": 32402,
+    "CostGem": 600,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 231,
+    "CostCoin": 32662,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 232,
+    "CostCoin": 32924,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 233,
+    "CostCoin": 33188,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 234,
+    "CostCoin": 33453,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 235,
+    "CostCoin": 33720,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 236,
+    "CostCoin": 33988,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 237,
+    "CostCoin": 34258,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 238,
+    "CostCoin": 34529,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 239,
+    "CostCoin": 34803,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 240,
+    "CostCoin": 35077,
+    "CostGem": 600,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 241,
+    "CostCoin": 35354,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 242,
+    "CostCoin": 35632,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 243,
+    "CostCoin": 35912,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 244,
+    "CostCoin": 36193,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 245,
+    "CostCoin": 36476,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 246,
+    "CostCoin": 36761,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 247,
+    "CostCoin": 37048,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 248,
+    "CostCoin": 37336,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 249,
+    "CostCoin": 37626,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 250,
+    "CostCoin": 37918,
+    "CostGem": 600,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 251,
+    "CostCoin": 38211,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 252,
+    "CostCoin": 38507,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 253,
+    "CostCoin": 38804,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 254,
+    "CostCoin": 39103,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 255,
+    "CostCoin": 39403,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 256,
+    "CostCoin": 39706,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 257,
+    "CostCoin": 40010,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 258,
+    "CostCoin": 40316,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 259,
+    "CostCoin": 40624,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 260,
+    "CostCoin": 40934,
+    "CostGem": 600,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 261,
+    "CostCoin": 41245,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 262,
+    "CostCoin": 41559,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 263,
+    "CostCoin": 41874,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 264,
+    "CostCoin": 42191,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 265,
+    "CostCoin": 42510,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 266,
+    "CostCoin": 42831,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 267,
+    "CostCoin": 43154,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 268,
+    "CostCoin": 43479,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 269,
+    "CostCoin": 43806,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 270,
+    "CostCoin": 44135,
+    "CostGem": 600,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 271,
+    "CostCoin": 44466,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 272,
+    "CostCoin": 44799,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 273,
+    "CostCoin": 45134,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 274,
+    "CostCoin": 45470,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 275,
+    "CostCoin": 45809,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 276,
+    "CostCoin": 46150,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 277,
+    "CostCoin": 46493,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 278,
+    "CostCoin": 46838,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 279,
+    "CostCoin": 47185,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 280,
+    "CostCoin": 47534,
+    "CostGem": 600,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 281,
+    "CostCoin": 47885,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 282,
+    "CostCoin": 48239,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 283,
+    "CostCoin": 48594,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 284,
+    "CostCoin": 48952,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 285,
+    "CostCoin": 49311,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 286,
+    "CostCoin": 49673,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 287,
+    "CostCoin": 50037,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 288,
+    "CostCoin": 50403,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 289,
+    "CostCoin": 50772,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 290,
+    "CostCoin": 51142,
+    "CostGem": 600,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 291,
+    "CostCoin": 51515,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 292,
+    "CostCoin": 51890,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 293,
+    "CostCoin": 52268,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 294,
+    "CostCoin": 52647,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 295,
+    "CostCoin": 53029,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 296,
+    "CostCoin": 53413,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 297,
+    "CostCoin": 53800,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 298,
+    "CostCoin": 54189,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 299,
+    "CostCoin": 54580,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 300,
+    "CostCoin": 54973,
+    "CostGem": 600,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 301,
+    "CostCoin": 55369,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 302,
+    "CostCoin": 55767,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 303,
+    "CostCoin": 56168,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 304,
+    "CostCoin": 56571,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 305,
+    "CostCoin": 56976,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 306,
+    "CostCoin": 57384,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 307,
+    "CostCoin": 57795,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 308,
+    "CostCoin": 58207,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 309,
+    "CostCoin": 58623,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 310,
+    "CostCoin": 59040,
+    "CostGem": 600,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 311,
+    "CostCoin": 59461,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 312,
+    "CostCoin": 59883,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 313,
+    "CostCoin": 60309,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 314,
+    "CostCoin": 60737,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 315,
+    "CostCoin": 61167,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 316,
+    "CostCoin": 61600,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 317,
+    "CostCoin": 62036,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 318,
+    "CostCoin": 62474,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 319,
+    "CostCoin": 62915,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 320,
+    "CostCoin": 63358,
+    "CostGem": 600,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 321,
+    "CostCoin": 63804,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 322,
+    "CostCoin": 64253,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 323,
+    "CostCoin": 64705,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 324,
+    "CostCoin": 65159,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 325,
+    "CostCoin": 65616,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 326,
+    "CostCoin": 66076,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 327,
+    "CostCoin": 66538,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 328,
+    "CostCoin": 67003,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 329,
+    "CostCoin": 67471,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 330,
+    "CostCoin": 67942,
+    "CostGem": 600,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 331,
+    "CostCoin": 68416,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 332,
+    "CostCoin": 68892,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 333,
+    "CostCoin": 69372,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 334,
+    "CostCoin": 69854,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 335,
+    "CostCoin": 70339,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 336,
+    "CostCoin": 70827,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 337,
+    "CostCoin": 71318,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 338,
+    "CostCoin": 71812,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 339,
+    "CostCoin": 72309,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 340,
+    "CostCoin": 72809,
+    "CostGem": 600,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 341,
+    "CostCoin": 73311,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 342,
+    "CostCoin": 73817,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 343,
+    "CostCoin": 74326,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 344,
+    "CostCoin": 74838,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 345,
+    "CostCoin": 75353,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 346,
+    "CostCoin": 75871,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 347,
+    "CostCoin": 76393,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 348,
+    "CostCoin": 76917,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 349,
+    "CostCoin": 77444,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 350,
+    "CostCoin": 77975,
+    "CostGem": 600,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 351,
+    "CostCoin": 78509,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 352,
+    "CostCoin": 79046,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 353,
+    "CostCoin": 79586,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 354,
+    "CostCoin": 80130,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 355,
+    "CostCoin": 80677,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 356,
+    "CostCoin": 81227,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 357,
+    "CostCoin": 81780,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 358,
+    "CostCoin": 82337,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 359,
+    "CostCoin": 82897,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 360,
+    "CostCoin": 83460,
+    "CostGem": 600,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 361,
+    "CostCoin": 84027,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 362,
+    "CostCoin": 84597,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 363,
+    "CostCoin": 85171,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 364,
+    "CostCoin": 85748,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 365,
+    "CostCoin": 86328,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 366,
+    "CostCoin": 86912,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 367,
+    "CostCoin": 87500,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 368,
+    "CostCoin": 88091,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 369,
+    "CostCoin": 88685,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 370,
+    "CostCoin": 89283,
+    "CostGem": 600,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 371,
+    "CostCoin": 89885,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 372,
+    "CostCoin": 90490,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 373,
+    "CostCoin": 91099,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 374,
+    "CostCoin": 91712,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 375,
+    "CostCoin": 92328,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 376,
+    "CostCoin": 92948,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 377,
+    "CostCoin": 93572,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 378,
+    "CostCoin": 94199,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 379,
+    "CostCoin": 94830,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 380,
+    "CostCoin": 95465,
+    "CostGem": 600,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 381,
+    "CostCoin": 96104,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 382,
+    "CostCoin": 96747,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 383,
+    "CostCoin": 97393,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 384,
+    "CostCoin": 98044,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 385,
+    "CostCoin": 98698,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 386,
+    "CostCoin": 99356,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 387,
+    "CostCoin": 100018,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 388,
+    "CostCoin": 100684,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 389,
+    "CostCoin": 101354,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 390,
+    "CostCoin": 102029,
+    "CostGem": 600,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 391,
+    "CostCoin": 102707,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 392,
+    "CostCoin": 103389,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 393,
+    "CostCoin": 104075,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 394,
+    "CostCoin": 104766,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 395,
+    "CostCoin": 105460,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 396,
+    "CostCoin": 106159,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 397,
+    "CostCoin": 106862,
+    "CostGem": 0,
+    "LevelLimit": 0
+  },
+  {
+    "Level": 398,
+    "CostCoin": 107569,
+    "CostGem": 0,
+    "LevelLimit": 0
+  }
+]

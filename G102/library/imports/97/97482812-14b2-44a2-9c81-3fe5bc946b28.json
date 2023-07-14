@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Maze_Buff_Icon_2",
+    "texture": "c7a618d3-bcc5-4eaf-a01f-fc341640df6e",
+    "atlas": "7a0e22a1-cafb-41da-9ee7-62cefa0700b5",
+    "rect": [
+      162,
+      923,
+      149,
+      157
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      149,
+      157
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

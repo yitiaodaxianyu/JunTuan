@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "knight_back",
+    "texture": "b0456d92-f579-4732-bbe2-5fab47664929",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1469,
+      380
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      1470,
+      380
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

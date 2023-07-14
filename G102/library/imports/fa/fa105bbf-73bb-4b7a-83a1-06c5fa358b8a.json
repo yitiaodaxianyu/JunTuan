@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Top_Btn_Setting",
+    "texture": "5e7c97f8-dacb-44df-90ff-400e56d9de1c",
+    "atlas": "c2ca2cd0-b0f9-4824-91a5-4bcf0951b894",
+    "rect": [
+      2,
+      1412,
+      39,
+      43
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      39,
+      43
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

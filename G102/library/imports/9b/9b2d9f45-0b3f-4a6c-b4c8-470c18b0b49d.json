@@ -1,0 +1,47 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "city_ui.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "City_Bg_0": {
+      "__uuid__": "c537b2f6-92fd-4bce-93ed-908f4c16f286"
+    },
+    "City_Bg_1": {
+      "__uuid__": "08b32df1-1fe8-4702-b6ba-abb8bbd40223"
+    },
+    "City_Build_Blacksmith": {
+      "__uuid__": "87c8c08e-9229-4998-8408-d376c82ff345"
+    },
+    "City_Build_DragonNest": {
+      "__uuid__": "298eee56-dd03-413b-bd2f-b55d91d6b3f5"
+    },
+    "City_Build_Sanctuary": {
+      "__uuid__": "bb74f7f2-7970-4ec8-badd-1242bc0d0b61"
+    },
+    "City_Build_Shop": {
+      "__uuid__": "8d1ce9e9-7662-428b-b88c-c44029ac5c28"
+    },
+    "City_Build_TreviFountain": {
+      "__uuid__": "aef16e2d-874c-4acb-8df0-b64b0ac60869"
+    },
+    "City_Cloud_0": {
+      "__uuid__": "abbf4fe3-20a0-4448-909b-b8f798855caa"
+    },
+    "City_Cloud_1": {
+      "__uuid__": "db8799ad-c49c-466a-a9f0-d514f8832c43"
+    },
+    "City_Cloud_2": {
+      "__uuid__": "9b3fdb10-e2b3-4599-be1c-c406720b1db9"
+    },
+    "City_Cloud_3": {
+      "__uuid__": "0d627c51-7df0-4576-9438-7024f828a92d"
+    },
+    "City_Lock": {
+      "__uuid__": "babd7a3f-f78b-4435-bc26-4f5fc7d9fb8b"
+    },
+    "City_Name_Bg": {
+      "__uuid__": "440d6462-04e5-4c19-8c6e-08b2458ddf2b"
+    }
+  }
+}

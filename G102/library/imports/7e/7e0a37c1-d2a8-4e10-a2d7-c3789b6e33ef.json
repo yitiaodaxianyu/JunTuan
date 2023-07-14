@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Boss8_Buff_1",
+    "texture": "f5afcaf2-ecc7-4417-af40-3cfdc108155a",
+    "atlas": "a54dc302-f366-4338-ad25-5fa25da4f19d",
+    "rect": [
+      916,
+      92,
+      50,
+      60
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      50,
+      60
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

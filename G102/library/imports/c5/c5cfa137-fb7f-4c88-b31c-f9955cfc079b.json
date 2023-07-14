@@ -1,0 +1,1088 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "EWStarUpCost",
+  "_objFlags": 0,
+  "_native": "",
+  "json": [
+    {
+      "StarUp": 1001,
+      "ExclusiveWeaponQuality": 1,
+      "Stage": 1,
+      "CostNum": 2
+    },
+    {
+      "StarUp": 1002,
+      "ExclusiveWeaponQuality": 1,
+      "Stage": 2,
+      "CostNum": 2
+    },
+    {
+      "StarUp": 1003,
+      "ExclusiveWeaponQuality": 1,
+      "Stage": 3,
+      "CostNum": 2
+    },
+    {
+      "StarUp": 1004,
+      "ExclusiveWeaponQuality": 1,
+      "Stage": 4,
+      "CostNum": 2
+    },
+    {
+      "StarUp": 1005,
+      "ExclusiveWeaponQuality": 1,
+      "Stage": 5,
+      "CostNum": 2
+    },
+    {
+      "StarUp": 1006,
+      "ExclusiveWeaponQuality": 1,
+      "Stage": 6,
+      "CostNum": 2
+    },
+    {
+      "StarUp": 1007,
+      "ExclusiveWeaponQuality": 1,
+      "Stage": 7,
+      "CostNum": 4
+    },
+    {
+      "StarUp": 1008,
+      "ExclusiveWeaponQuality": 1,
+      "Stage": 8,
+      "CostNum": 4
+    },
+    {
+      "StarUp": 1009,
+      "ExclusiveWeaponQuality": 1,
+      "Stage": 9,
+      "CostNum": 4
+    },
+    {
+      "StarUp": 1010,
+      "ExclusiveWeaponQuality": 1,
+      "Stage": 10,
+      "CostNum": 4
+    },
+    {
+      "StarUp": 1011,
+      "ExclusiveWeaponQuality": 1,
+      "Stage": 11,
+      "CostNum": 4
+    },
+    {
+      "StarUp": 1012,
+      "ExclusiveWeaponQuality": 1,
+      "Stage": 12,
+      "CostNum": 4
+    },
+    {
+      "StarUp": 1013,
+      "ExclusiveWeaponQuality": 1,
+      "Stage": 13,
+      "CostNum": 8
+    },
+    {
+      "StarUp": 1014,
+      "ExclusiveWeaponQuality": 1,
+      "Stage": 14,
+      "CostNum": 8
+    },
+    {
+      "StarUp": 1015,
+      "ExclusiveWeaponQuality": 1,
+      "Stage": 15,
+      "CostNum": 8
+    },
+    {
+      "StarUp": 1016,
+      "ExclusiveWeaponQuality": 1,
+      "Stage": 16,
+      "CostNum": 8
+    },
+    {
+      "StarUp": 1017,
+      "ExclusiveWeaponQuality": 1,
+      "Stage": 17,
+      "CostNum": 8
+    },
+    {
+      "StarUp": 1018,
+      "ExclusiveWeaponQuality": 1,
+      "Stage": 18,
+      "CostNum": 8
+    },
+    {
+      "StarUp": 1019,
+      "ExclusiveWeaponQuality": 1,
+      "Stage": 19,
+      "CostNum": 16
+    },
+    {
+      "StarUp": 1020,
+      "ExclusiveWeaponQuality": 1,
+      "Stage": 20,
+      "CostNum": 16
+    },
+    {
+      "StarUp": 1021,
+      "ExclusiveWeaponQuality": 1,
+      "Stage": 21,
+      "CostNum": 16
+    },
+    {
+      "StarUp": 1022,
+      "ExclusiveWeaponQuality": 1,
+      "Stage": 22,
+      "CostNum": 16
+    },
+    {
+      "StarUp": 1023,
+      "ExclusiveWeaponQuality": 1,
+      "Stage": 23,
+      "CostNum": 16
+    },
+    {
+      "StarUp": 1024,
+      "ExclusiveWeaponQuality": 1,
+      "Stage": 24,
+      "CostNum": 16
+    },
+    {
+      "StarUp": 1025,
+      "ExclusiveWeaponQuality": 1,
+      "Stage": 25,
+      "CostNum": 28
+    },
+    {
+      "StarUp": 1026,
+      "ExclusiveWeaponQuality": 1,
+      "Stage": 26,
+      "CostNum": 28
+    },
+    {
+      "StarUp": 1027,
+      "ExclusiveWeaponQuality": 1,
+      "Stage": 27,
+      "CostNum": 28
+    },
+    {
+      "StarUp": 1028,
+      "ExclusiveWeaponQuality": 1,
+      "Stage": 28,
+      "CostNum": 28
+    },
+    {
+      "StarUp": 1029,
+      "ExclusiveWeaponQuality": 1,
+      "Stage": 29,
+      "CostNum": 28
+    },
+    {
+      "StarUp": 1030,
+      "ExclusiveWeaponQuality": 1,
+      "Stage": 30,
+      "CostNum": 28
+    },
+    {
+      "StarUp": 2001,
+      "ExclusiveWeaponQuality": 2,
+      "Stage": 1,
+      "CostNum": 3
+    },
+    {
+      "StarUp": 2002,
+      "ExclusiveWeaponQuality": 2,
+      "Stage": 2,
+      "CostNum": 3
+    },
+    {
+      "StarUp": 2003,
+      "ExclusiveWeaponQuality": 2,
+      "Stage": 3,
+      "CostNum": 3
+    },
+    {
+      "StarUp": 2004,
+      "ExclusiveWeaponQuality": 2,
+      "Stage": 4,
+      "CostNum": 3
+    },
+    {
+      "StarUp": 2005,
+      "ExclusiveWeaponQuality": 2,
+      "Stage": 5,
+      "CostNum": 3
+    },
+    {
+      "StarUp": 2006,
+      "ExclusiveWeaponQuality": 2,
+      "Stage": 6,
+      "CostNum": 3
+    },
+    {
+      "StarUp": 2007,
+      "ExclusiveWeaponQuality": 2,
+      "Stage": 7,
+      "CostNum": 5
+    },
+    {
+      "StarUp": 2008,
+      "ExclusiveWeaponQuality": 2,
+      "Stage": 8,
+      "CostNum": 5
+    },
+    {
+      "StarUp": 2009,
+      "ExclusiveWeaponQuality": 2,
+      "Stage": 9,
+      "CostNum": 5
+    },
+    {
+      "StarUp": 2010,
+      "ExclusiveWeaponQuality": 2,
+      "Stage": 10,
+      "CostNum": 5
+    },
+    {
+      "StarUp": 2011,
+      "ExclusiveWeaponQuality": 2,
+      "Stage": 11,
+      "CostNum": 5
+    },
+    {
+      "StarUp": 2012,
+      "ExclusiveWeaponQuality": 2,
+      "Stage": 12,
+      "CostNum": 5
+    },
+    {
+      "StarUp": 2013,
+      "ExclusiveWeaponQuality": 2,
+      "Stage": 13,
+      "CostNum": 10
+    },
+    {
+      "StarUp": 2014,
+      "ExclusiveWeaponQuality": 2,
+      "Stage": 14,
+      "CostNum": 10
+    },
+    {
+      "StarUp": 2015,
+      "ExclusiveWeaponQuality": 2,
+      "Stage": 15,
+      "CostNum": 10
+    },
+    {
+      "StarUp": 2016,
+      "ExclusiveWeaponQuality": 2,
+      "Stage": 16,
+      "CostNum": 10
+    },
+    {
+      "StarUp": 2017,
+      "ExclusiveWeaponQuality": 2,
+      "Stage": 17,
+      "CostNum": 10
+    },
+    {
+      "StarUp": 2018,
+      "ExclusiveWeaponQuality": 2,
+      "Stage": 18,
+      "CostNum": 10
+    },
+    {
+      "StarUp": 2019,
+      "ExclusiveWeaponQuality": 2,
+      "Stage": 19,
+      "CostNum": 20
+    },
+    {
+      "StarUp": 2020,
+      "ExclusiveWeaponQuality": 2,
+      "Stage": 20,
+      "CostNum": 20
+    },
+    {
+      "StarUp": 2021,
+      "ExclusiveWeaponQuality": 2,
+      "Stage": 21,
+      "CostNum": 20
+    },
+    {
+      "StarUp": 2022,
+      "ExclusiveWeaponQuality": 2,
+      "Stage": 22,
+      "CostNum": 20
+    },
+    {
+      "StarUp": 2023,
+      "ExclusiveWeaponQuality": 2,
+      "Stage": 23,
+      "CostNum": 20
+    },
+    {
+      "StarUp": 2024,
+      "ExclusiveWeaponQuality": 2,
+      "Stage": 24,
+      "CostNum": 20
+    },
+    {
+      "StarUp": 2025,
+      "ExclusiveWeaponQuality": 2,
+      "Stage": 25,
+      "CostNum": 34
+    },
+    {
+      "StarUp": 2026,
+      "ExclusiveWeaponQuality": 2,
+      "Stage": 26,
+      "CostNum": 35
+    },
+    {
+      "StarUp": 2027,
+      "ExclusiveWeaponQuality": 2,
+      "Stage": 27,
+      "CostNum": 35
+    },
+    {
+      "StarUp": 2028,
+      "ExclusiveWeaponQuality": 2,
+      "Stage": 28,
+      "CostNum": 35
+    },
+    {
+      "StarUp": 2029,
+      "ExclusiveWeaponQuality": 2,
+      "Stage": 29,
+      "CostNum": 35
+    },
+    {
+      "StarUp": 2030,
+      "ExclusiveWeaponQuality": 2,
+      "Stage": 30,
+      "CostNum": 35
+    },
+    {
+      "StarUp": 3001,
+      "ExclusiveWeaponQuality": 3,
+      "Stage": 1,
+      "CostNum": 3
+    },
+    {
+      "StarUp": 3002,
+      "ExclusiveWeaponQuality": 3,
+      "Stage": 2,
+      "CostNum": 3
+    },
+    {
+      "StarUp": 3003,
+      "ExclusiveWeaponQuality": 3,
+      "Stage": 3,
+      "CostNum": 3
+    },
+    {
+      "StarUp": 3004,
+      "ExclusiveWeaponQuality": 3,
+      "Stage": 4,
+      "CostNum": 3
+    },
+    {
+      "StarUp": 3005,
+      "ExclusiveWeaponQuality": 3,
+      "Stage": 5,
+      "CostNum": 3
+    },
+    {
+      "StarUp": 3006,
+      "ExclusiveWeaponQuality": 3,
+      "Stage": 6,
+      "CostNum": 3
+    },
+    {
+      "StarUp": 3007,
+      "ExclusiveWeaponQuality": 3,
+      "Stage": 7,
+      "CostNum": 6
+    },
+    {
+      "StarUp": 3008,
+      "ExclusiveWeaponQuality": 3,
+      "Stage": 8,
+      "CostNum": 6
+    },
+    {
+      "StarUp": 3009,
+      "ExclusiveWeaponQuality": 3,
+      "Stage": 9,
+      "CostNum": 6
+    },
+    {
+      "StarUp": 3010,
+      "ExclusiveWeaponQuality": 3,
+      "Stage": 10,
+      "CostNum": 6
+    },
+    {
+      "StarUp": 3011,
+      "ExclusiveWeaponQuality": 3,
+      "Stage": 11,
+      "CostNum": 6
+    },
+    {
+      "StarUp": 3012,
+      "ExclusiveWeaponQuality": 3,
+      "Stage": 12,
+      "CostNum": 6
+    },
+    {
+      "StarUp": 3013,
+      "ExclusiveWeaponQuality": 3,
+      "Stage": 13,
+      "CostNum": 12
+    },
+    {
+      "StarUp": 3014,
+      "ExclusiveWeaponQuality": 3,
+      "Stage": 14,
+      "CostNum": 12
+    },
+    {
+      "StarUp": 3015,
+      "ExclusiveWeaponQuality": 3,
+      "Stage": 15,
+      "CostNum": 12
+    },
+    {
+      "StarUp": 3016,
+      "ExclusiveWeaponQuality": 3,
+      "Stage": 16,
+      "CostNum": 12
+    },
+    {
+      "StarUp": 3017,
+      "ExclusiveWeaponQuality": 3,
+      "Stage": 17,
+      "CostNum": 12
+    },
+    {
+      "StarUp": 3018,
+      "ExclusiveWeaponQuality": 3,
+      "Stage": 18,
+      "CostNum": 12
+    },
+    {
+      "StarUp": 3019,
+      "ExclusiveWeaponQuality": 3,
+      "Stage": 19,
+      "CostNum": 25
+    },
+    {
+      "StarUp": 3020,
+      "ExclusiveWeaponQuality": 3,
+      "Stage": 20,
+      "CostNum": 25
+    },
+    {
+      "StarUp": 3021,
+      "ExclusiveWeaponQuality": 3,
+      "Stage": 21,
+      "CostNum": 25
+    },
+    {
+      "StarUp": 3022,
+      "ExclusiveWeaponQuality": 3,
+      "Stage": 22,
+      "CostNum": 25
+    },
+    {
+      "StarUp": 3023,
+      "ExclusiveWeaponQuality": 3,
+      "Stage": 23,
+      "CostNum": 25
+    },
+    {
+      "StarUp": 3024,
+      "ExclusiveWeaponQuality": 3,
+      "Stage": 24,
+      "CostNum": 25
+    },
+    {
+      "StarUp": 3025,
+      "ExclusiveWeaponQuality": 3,
+      "Stage": 25,
+      "CostNum": 40
+    },
+    {
+      "StarUp": 3026,
+      "ExclusiveWeaponQuality": 3,
+      "Stage": 26,
+      "CostNum": 40
+    },
+    {
+      "StarUp": 3027,
+      "ExclusiveWeaponQuality": 3,
+      "Stage": 27,
+      "CostNum": 40
+    },
+    {
+      "StarUp": 3028,
+      "ExclusiveWeaponQuality": 3,
+      "Stage": 28,
+      "CostNum": 40
+    },
+    {
+      "StarUp": 3029,
+      "ExclusiveWeaponQuality": 3,
+      "Stage": 29,
+      "CostNum": 40
+    },
+    {
+      "StarUp": 3030,
+      "ExclusiveWeaponQuality": 3,
+      "Stage": 30,
+      "CostNum": 40
+    },
+    {
+      "StarUp": 4001,
+      "ExclusiveWeaponQuality": 4,
+      "Stage": 1,
+      "CostNum": 4
+    },
+    {
+      "StarUp": 4002,
+      "ExclusiveWeaponQuality": 4,
+      "Stage": 2,
+      "CostNum": 4
+    },
+    {
+      "StarUp": 4003,
+      "ExclusiveWeaponQuality": 4,
+      "Stage": 3,
+      "CostNum": 4
+    },
+    {
+      "StarUp": 4004,
+      "ExclusiveWeaponQuality": 4,
+      "Stage": 4,
+      "CostNum": 4
+    },
+    {
+      "StarUp": 4005,
+      "ExclusiveWeaponQuality": 4,
+      "Stage": 5,
+      "CostNum": 4
+    },
+    {
+      "StarUp": 4006,
+      "ExclusiveWeaponQuality": 4,
+      "Stage": 6,
+      "CostNum": 4
+    },
+    {
+      "StarUp": 4007,
+      "ExclusiveWeaponQuality": 4,
+      "Stage": 7,
+      "CostNum": 8
+    },
+    {
+      "StarUp": 4008,
+      "ExclusiveWeaponQuality": 4,
+      "Stage": 8,
+      "CostNum": 8
+    },
+    {
+      "StarUp": 4009,
+      "ExclusiveWeaponQuality": 4,
+      "Stage": 9,
+      "CostNum": 8
+    },
+    {
+      "StarUp": 4010,
+      "ExclusiveWeaponQuality": 4,
+      "Stage": 10,
+      "CostNum": 8
+    },
+    {
+      "StarUp": 4011,
+      "ExclusiveWeaponQuality": 4,
+      "Stage": 11,
+      "CostNum": 8
+    },
+    {
+      "StarUp": 4012,
+      "ExclusiveWeaponQuality": 4,
+      "Stage": 12,
+      "CostNum": 8
+    },
+    {
+      "StarUp": 4013,
+      "ExclusiveWeaponQuality": 4,
+      "Stage": 13,
+      "CostNum": 16
+    },
+    {
+      "StarUp": 4014,
+      "ExclusiveWeaponQuality": 4,
+      "Stage": 14,
+      "CostNum": 16
+    },
+    {
+      "StarUp": 4015,
+      "ExclusiveWeaponQuality": 4,
+      "Stage": 15,
+      "CostNum": 16
+    },
+    {
+      "StarUp": 4016,
+      "ExclusiveWeaponQuality": 4,
+      "Stage": 16,
+      "CostNum": 16
+    },
+    {
+      "StarUp": 4017,
+      "ExclusiveWeaponQuality": 4,
+      "Stage": 17,
+      "CostNum": 16
+    },
+    {
+      "StarUp": 4018,
+      "ExclusiveWeaponQuality": 4,
+      "Stage": 18,
+      "CostNum": 16
+    },
+    {
+      "StarUp": 4019,
+      "ExclusiveWeaponQuality": 4,
+      "Stage": 19,
+      "CostNum": 30
+    },
+    {
+      "StarUp": 4020,
+      "ExclusiveWeaponQuality": 4,
+      "Stage": 20,
+      "CostNum": 30
+    },
+    {
+      "StarUp": 4021,
+      "ExclusiveWeaponQuality": 4,
+      "Stage": 21,
+      "CostNum": 30
+    },
+    {
+      "StarUp": 4022,
+      "ExclusiveWeaponQuality": 4,
+      "Stage": 22,
+      "CostNum": 30
+    },
+    {
+      "StarUp": 4023,
+      "ExclusiveWeaponQuality": 4,
+      "Stage": 23,
+      "CostNum": 30
+    },
+    {
+      "StarUp": 4024,
+      "ExclusiveWeaponQuality": 4,
+      "Stage": 24,
+      "CostNum": 30
+    },
+    {
+      "StarUp": 4025,
+      "ExclusiveWeaponQuality": 4,
+      "Stage": 25,
+      "CostNum": 55
+    },
+    {
+      "StarUp": 4026,
+      "ExclusiveWeaponQuality": 4,
+      "Stage": 26,
+      "CostNum": 55
+    },
+    {
+      "StarUp": 4027,
+      "ExclusiveWeaponQuality": 4,
+      "Stage": 27,
+      "CostNum": 55
+    },
+    {
+      "StarUp": 4028,
+      "ExclusiveWeaponQuality": 4,
+      "Stage": 28,
+      "CostNum": 55
+    },
+    {
+      "StarUp": 4029,
+      "ExclusiveWeaponQuality": 4,
+      "Stage": 29,
+      "CostNum": 55
+    },
+    {
+      "StarUp": 4030,
+      "ExclusiveWeaponQuality": 4,
+      "Stage": 30,
+      "CostNum": 55
+    },
+    {
+      "StarUp": 5001,
+      "ExclusiveWeaponQuality": 5,
+      "Stage": 1,
+      "CostNum": 5
+    },
+    {
+      "StarUp": 5002,
+      "ExclusiveWeaponQuality": 5,
+      "Stage": 2,
+      "CostNum": 5
+    },
+    {
+      "StarUp": 5003,
+      "ExclusiveWeaponQuality": 5,
+      "Stage": 3,
+      "CostNum": 5
+    },
+    {
+      "StarUp": 5004,
+      "ExclusiveWeaponQuality": 5,
+      "Stage": 4,
+      "CostNum": 5
+    },
+    {
+      "StarUp": 5005,
+      "ExclusiveWeaponQuality": 5,
+      "Stage": 5,
+      "CostNum": 5
+    },
+    {
+      "StarUp": 5006,
+      "ExclusiveWeaponQuality": 5,
+      "Stage": 6,
+      "CostNum": 5
+    },
+    {
+      "StarUp": 5007,
+      "ExclusiveWeaponQuality": 5,
+      "Stage": 7,
+      "CostNum": 10
+    },
+    {
+      "StarUp": 5008,
+      "ExclusiveWeaponQuality": 5,
+      "Stage": 8,
+      "CostNum": 10
+    },
+    {
+      "StarUp": 5009,
+      "ExclusiveWeaponQuality": 5,
+      "Stage": 9,
+      "CostNum": 10
+    },
+    {
+      "StarUp": 5010,
+      "ExclusiveWeaponQuality": 5,
+      "Stage": 10,
+      "CostNum": 10
+    },
+    {
+      "StarUp": 5011,
+      "ExclusiveWeaponQuality": 5,
+      "Stage": 11,
+      "CostNum": 10
+    },
+    {
+      "StarUp": 5012,
+      "ExclusiveWeaponQuality": 5,
+      "Stage": 12,
+      "CostNum": 10
+    },
+    {
+      "StarUp": 5013,
+      "ExclusiveWeaponQuality": 5,
+      "Stage": 13,
+      "CostNum": 20
+    },
+    {
+      "StarUp": 5014,
+      "ExclusiveWeaponQuality": 5,
+      "Stage": 14,
+      "CostNum": 20
+    },
+    {
+      "StarUp": 5015,
+      "ExclusiveWeaponQuality": 5,
+      "Stage": 15,
+      "CostNum": 20
+    },
+    {
+      "StarUp": 5016,
+      "ExclusiveWeaponQuality": 5,
+      "Stage": 16,
+      "CostNum": 20
+    },
+    {
+      "StarUp": 5017,
+      "ExclusiveWeaponQuality": 5,
+      "Stage": 17,
+      "CostNum": 20
+    },
+    {
+      "StarUp": 5018,
+      "ExclusiveWeaponQuality": 5,
+      "Stage": 18,
+      "CostNum": 20
+    },
+    {
+      "StarUp": 5019,
+      "ExclusiveWeaponQuality": 5,
+      "Stage": 19,
+      "CostNum": 38
+    },
+    {
+      "StarUp": 5020,
+      "ExclusiveWeaponQuality": 5,
+      "Stage": 20,
+      "CostNum": 38
+    },
+    {
+      "StarUp": 5021,
+      "ExclusiveWeaponQuality": 5,
+      "Stage": 21,
+      "CostNum": 38
+    },
+    {
+      "StarUp": 5022,
+      "ExclusiveWeaponQuality": 5,
+      "Stage": 22,
+      "CostNum": 38
+    },
+    {
+      "StarUp": 5023,
+      "ExclusiveWeaponQuality": 5,
+      "Stage": 23,
+      "CostNum": 38
+    },
+    {
+      "StarUp": 5024,
+      "ExclusiveWeaponQuality": 5,
+      "Stage": 24,
+      "CostNum": 38
+    },
+    {
+      "StarUp": 5025,
+      "ExclusiveWeaponQuality": 5,
+      "Stage": 25,
+      "CostNum": 65
+    },
+    {
+      "StarUp": 5026,
+      "ExclusiveWeaponQuality": 5,
+      "Stage": 26,
+      "CostNum": 65
+    },
+    {
+      "StarUp": 5027,
+      "ExclusiveWeaponQuality": 5,
+      "Stage": 27,
+      "CostNum": 65
+    },
+    {
+      "StarUp": 5028,
+      "ExclusiveWeaponQuality": 5,
+      "Stage": 28,
+      "CostNum": 65
+    },
+    {
+      "StarUp": 5029,
+      "ExclusiveWeaponQuality": 5,
+      "Stage": 29,
+      "CostNum": 65
+    },
+    {
+      "StarUp": 5030,
+      "ExclusiveWeaponQuality": 5,
+      "Stage": 30,
+      "CostNum": 65
+    },
+    {
+      "StarUp": 6001,
+      "ExclusiveWeaponQuality": 6,
+      "Stage": 1,
+      "CostNum": 6
+    },
+    {
+      "StarUp": 6002,
+      "ExclusiveWeaponQuality": 6,
+      "Stage": 2,
+      "CostNum": 6
+    },
+    {
+      "StarUp": 6003,
+      "ExclusiveWeaponQuality": 6,
+      "Stage": 3,
+      "CostNum": 6
+    },
+    {
+      "StarUp": 6004,
+      "ExclusiveWeaponQuality": 6,
+      "Stage": 4,
+      "CostNum": 6
+    },
+    {
+      "StarUp": 6005,
+      "ExclusiveWeaponQuality": 6,
+      "Stage": 5,
+      "CostNum": 6
+    },
+    {
+      "StarUp": 6006,
+      "ExclusiveWeaponQuality": 6,
+      "Stage": 6,
+      "CostNum": 6
+    },
+    {
+      "StarUp": 6007,
+      "ExclusiveWeaponQuality": 6,
+      "Stage": 7,
+      "CostNum": 12
+    },
+    {
+      "StarUp": 6008,
+      "ExclusiveWeaponQuality": 6,
+      "Stage": 8,
+      "CostNum": 12
+    },
+    {
+      "StarUp": 6009,
+      "ExclusiveWeaponQuality": 6,
+      "Stage": 9,
+      "CostNum": 12
+    },
+    {
+      "StarUp": 6010,
+      "ExclusiveWeaponQuality": 6,
+      "Stage": 10,
+      "CostNum": 12
+    },
+    {
+      "StarUp": 6011,
+      "ExclusiveWeaponQuality": 6,
+      "Stage": 11,
+      "CostNum": 12
+    },
+    {
+      "StarUp": 6012,
+      "ExclusiveWeaponQuality": 6,
+      "Stage": 12,
+      "CostNum": 12
+    },
+    {
+      "StarUp": 6013,
+      "ExclusiveWeaponQuality": 6,
+      "Stage": 13,
+      "CostNum": 25
+    },
+    {
+      "StarUp": 6014,
+      "ExclusiveWeaponQuality": 6,
+      "Stage": 14,
+      "CostNum": 25
+    },
+    {
+      "StarUp": 6015,
+      "ExclusiveWeaponQuality": 6,
+      "Stage": 15,
+      "CostNum": 25
+    },
+    {
+      "StarUp": 6016,
+      "ExclusiveWeaponQuality": 6,
+      "Stage": 16,
+      "CostNum": 25
+    },
+    {
+      "StarUp": 6017,
+      "ExclusiveWeaponQuality": 6,
+      "Stage": 17,
+      "CostNum": 25
+    },
+    {
+      "StarUp": 6018,
+      "ExclusiveWeaponQuality": 6,
+      "Stage": 18,
+      "CostNum": 25
+    },
+    {
+      "StarUp": 6019,
+      "ExclusiveWeaponQuality": 6,
+      "Stage": 19,
+      "CostNum": 50
+    },
+    {
+      "StarUp": 6020,
+      "ExclusiveWeaponQuality": 6,
+      "Stage": 20,
+      "CostNum": 50
+    },
+    {
+      "StarUp": 6021,
+      "ExclusiveWeaponQuality": 6,
+      "Stage": 21,
+      "CostNum": 50
+    },
+    {
+      "StarUp": 6022,
+      "ExclusiveWeaponQuality": 6,
+      "Stage": 22,
+      "CostNum": 50
+    },
+    {
+      "StarUp": 6023,
+      "ExclusiveWeaponQuality": 6,
+      "Stage": 23,
+      "CostNum": 50
+    },
+    {
+      "StarUp": 6024,
+      "ExclusiveWeaponQuality": 6,
+      "Stage": 24,
+      "CostNum": 50
+    },
+    {
+      "StarUp": 6025,
+      "ExclusiveWeaponQuality": 6,
+      "Stage": 25,
+      "CostNum": 80
+    },
+    {
+      "StarUp": 6026,
+      "ExclusiveWeaponQuality": 6,
+      "Stage": 26,
+      "CostNum": 80
+    },
+    {
+      "StarUp": 6027,
+      "ExclusiveWeaponQuality": 6,
+      "Stage": 27,
+      "CostNum": 80
+    },
+    {
+      "StarUp": 6028,
+      "ExclusiveWeaponQuality": 6,
+      "Stage": 28,
+      "CostNum": 80
+    },
+    {
+      "StarUp": 6029,
+      "ExclusiveWeaponQuality": 6,
+      "Stage": 29,
+      "CostNum": 80
+    },
+    {
+      "StarUp": 6030,
+      "ExclusiveWeaponQuality": 6,
+      "Stage": 30,
+      "CostNum": 80
+    }
+  ]
+}

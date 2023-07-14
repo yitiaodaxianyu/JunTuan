@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Monster_77_SkillTail",
+    "texture": "682fffc0-f3a0-4c6c-9513-f98474276686",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      48,
+      106
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      50,
+      108
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

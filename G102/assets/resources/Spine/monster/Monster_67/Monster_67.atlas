@@ -1,0 +1,83 @@
+
+Monster_67.png
+size: 137,266
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 2, 194
+  size: 74, 70
+  orig: 74, 70
+  offset: 0, 0
+  index: -1
+Body_1
+  rotate: false
+  xy: 2, 84
+  size: 61, 51
+  orig: 61, 51
+  offset: 0, 0
+  index: -1
+Body_2
+  rotate: false
+  xy: 78, 151
+  size: 57, 55
+  orig: 57, 55
+  offset: 0, 0
+  index: -1
+Body_3
+  rotate: false
+  xy: 65, 44
+  size: 60, 48
+  orig: 60, 48
+  offset: 0, 0
+  index: -1
+YouShou
+  rotate: false
+  xy: 61, 2
+  size: 30, 40
+  orig: 30, 40
+  offset: 0, 0
+  index: -1
+ZuoShou
+  rotate: true
+  xy: 93, 12
+  size: 30, 40
+  orig: 30, 40
+  offset: 0, 0
+  index: -1
+f_1
+  rotate: false
+  xy: 78, 208
+  size: 57, 56
+  orig: 57, 56
+  offset: 0, 0
+  index: -1
+f_2
+  rotate: false
+  xy: 2, 137
+  size: 62, 55
+  orig: 62, 55
+  offset: 0, 0
+  index: -1
+f_3
+  rotate: false
+  xy: 66, 94
+  size: 62, 55
+  orig: 62, 55
+  offset: 0, 0
+  index: -1
+f_4
+  rotate: false
+  xy: 2, 27
+  size: 57, 55
+  orig: 57, 55
+  offset: 0, 0
+  index: -1
+yan
+  rotate: true
+  xy: 66, 164
+  size: 28, 8
+  orig: 28, 9
+  offset: 0, 0
+  index: -1

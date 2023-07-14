@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "BeastMaster_Side",
+    "texture": "c843fe37-fbb5-4c23-a00b-ad82b2ec3069",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1191,
+      271
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1191,
+      271
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

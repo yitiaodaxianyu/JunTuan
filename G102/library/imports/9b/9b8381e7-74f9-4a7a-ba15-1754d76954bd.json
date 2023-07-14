@@ -1,0 +1,50 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "SignNum",
+  "_objFlags": 0,
+  "_native": "",
+  "json": [
+    {
+      "DayNumID": 601,
+      "DayNum": 4,
+      "Item": 10002,
+      "Num": 50
+    },
+    {
+      "DayNumID": 602,
+      "DayNum": 8,
+      "Item": 10002,
+      "Num": 100
+    },
+    {
+      "DayNumID": 603,
+      "DayNum": 12,
+      "Item": 10002,
+      "Num": 150
+    },
+    {
+      "DayNumID": 604,
+      "DayNum": 16,
+      "Item": 10002,
+      "Num": 200
+    },
+    {
+      "DayNumID": 605,
+      "DayNum": 20,
+      "Item": 10002,
+      "Num": 250
+    },
+    {
+      "DayNumID": 606,
+      "DayNum": 24,
+      "Item": 10002,
+      "Num": 300
+    },
+    {
+      "DayNumID": 607,
+      "DayNum": 28,
+      "Item": 10002,
+      "Num": 350
+    }
+  ]
+}

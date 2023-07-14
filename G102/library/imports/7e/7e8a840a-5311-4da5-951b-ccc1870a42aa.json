@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ShengXing",
+    "texture": "7c975b2c-37b5-484f-b1f8-38925b4c7a77",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1973,
+      1564
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1973,
+      1564
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

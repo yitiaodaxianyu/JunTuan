@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Picador_Side",
+    "texture": "33e17d7a-788c-4518-a296-36f1f18171a0",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      629,
+      528
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      629,
+      528
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

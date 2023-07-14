@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Top_icon_zuan",
+    "texture": "2ada9203-cdc0-4d7e-b84d-f430bc479714",
+    "atlas": "5fa52152-9c07-4942-91ee-561447fb0cc3",
+    "rect": [
+      310,
+      252,
+      37,
+      30
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      37,
+      30
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

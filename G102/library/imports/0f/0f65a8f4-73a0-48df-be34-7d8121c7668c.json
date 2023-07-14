@@ -1,0 +1,65 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "exclusive_weapons_ui.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Exclusive_Bg_0": {
+      "__uuid__": "c7b70b24-ca1e-4e90-b815-8bd3a375ddfc"
+    },
+    "Exclusive_Bg_1": {
+      "__uuid__": "eb51ca83-0045-4c3e-b334-1ad97eaea78b"
+    },
+    "Exclusive_Icon_Arrow": {
+      "__uuid__": "c60739f3-cfcc-416a-8591-4e255bb3136a"
+    },
+    "Exclusive_Info_0": {
+      "__uuid__": "93ea10a7-d252-49dc-bb40-a5f71745edee"
+    },
+    "Exclusive_Info_1": {
+      "__uuid__": "5bf2f04c-74f1-47f9-8437-5019bbe47c90"
+    },
+    "Exclusive_Skill_1": {
+      "__uuid__": "76719330-410f-46c6-800d-83768f92095e"
+    },
+    "Exclusive_Skill_2": {
+      "__uuid__": "a7fd60b7-d7ad-4e03-a2c5-8f2d8400a1c9"
+    },
+    "Exclusive_Skill_3": {
+      "__uuid__": "0fa18d93-a7e2-48e7-9115-bcd9b2a1e5eb"
+    },
+    "Exclusive_Skill_4": {
+      "__uuid__": "ba0c193e-fbc3-41ab-9046-c11da6ba4003"
+    },
+    "Exclusive_Skill_Frame": {
+      "__uuid__": "18e4931a-b038-4d90-9b08-5e28cce4d442"
+    },
+    "Exclusive_Stone_Bg_0": {
+      "__uuid__": "59c26af3-bf52-465d-806c-653a71a4cc71"
+    },
+    "Exclusive_Stone_Bg_2": {
+      "__uuid__": "af97cba4-6f94-4ae1-9b45-cb68d11c575d"
+    },
+    "Exclusive_Stone_Bg_3": {
+      "__uuid__": "85d571c4-3d31-4e94-a45f-aff8176c9ed9"
+    },
+    "Exclusive_Stone_Bg_4": {
+      "__uuid__": "cc404bfe-d939-4357-b5a2-b2470497963d"
+    },
+    "Exclusive_Weapon_1": {
+      "__uuid__": "54552bb9-9246-4518-8ed3-49c33b0b1cfb"
+    },
+    "Exclusive_Weapon_2": {
+      "__uuid__": "9ba01288-bf03-4f68-a4b7-8fb8a1561f9d"
+    },
+    "Exclusive_Weapon_3": {
+      "__uuid__": "a8452b25-db50-4b91-b27d-b3fc953637f9"
+    },
+    "Exclusive_Weapon_4": {
+      "__uuid__": "8a0c4bc0-aa26-4154-9d23-cd19fce7c638"
+    },
+    "Exclusive_Weapon_Mask": {
+      "__uuid__": "fa50813b-1993-4bd3-8a5b-f4bbb0d7eac4"
+    }
+  }
+}

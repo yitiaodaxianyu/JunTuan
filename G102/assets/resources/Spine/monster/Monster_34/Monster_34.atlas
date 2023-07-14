@@ -1,0 +1,146 @@
+
+Monster_34.png
+size: 1736,578
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Huo
+  rotate: false
+  xy: 569, 141
+  size: 231, 435
+  orig: 233, 435
+  offset: 0, 0
+  index: -1
+Ku
+  rotate: true
+  xy: 1290, 356
+  size: 220, 154
+  orig: 220, 154
+  offset: 0, 0
+  index: -1
+Yan
+  rotate: true
+  xy: 1290, 252
+  size: 102, 149
+  orig: 102, 149
+  offset: 0, 0
+  index: -1
+YouBi
+  rotate: true
+  xy: 569, 2
+  size: 137, 252
+  orig: 140, 254
+  offset: 0, 2
+  index: -1
+YouJiao
+  rotate: false
+  xy: 1612, 12
+  size: 107, 127
+  orig: 109, 127
+  offset: 0, 0
+  index: -1
+YouShou
+  rotate: true
+  xy: 823, 8
+  size: 162, 202
+  orig: 162, 202
+  offset: 0, 0
+  index: -1
+ZuoBi
+  rotate: false
+  xy: 1238, 17
+  size: 118, 232
+  orig: 118, 232
+  offset: 0, 0
+  index: -1
+ZuoJiao
+  rotate: false
+  xy: 1486, 8
+  size: 124, 130
+  orig: 124, 130
+  offset: 0, 0
+  index: -1
+ZuoShou
+  rotate: true
+  xy: 1027, 14
+  size: 156, 209
+  orig: 156, 209
+  offset: 0, 0
+  index: -1
+chongcitexiao0001
+  rotate: true
+  xy: 1486, 140
+  size: 144, 123
+  orig: 147, 128
+  offset: 3, 2
+  index: -1
+chongcitexiao0002
+  rotate: true
+  xy: 1574, 433
+  size: 143, 126
+  orig: 147, 128
+  offset: 4, 0
+  index: -1
+chongcitexiao0003
+  rotate: true
+  xy: 1358, 105
+  size: 145, 126
+  orig: 147, 128
+  offset: 2, 1
+  index: -1
+chongcitexiao0008
+  rotate: true
+  xy: 1358, 105
+  size: 145, 126
+  orig: 147, 128
+  offset: 2, 1
+  index: -1
+chongcitexiao0004
+  rotate: true
+  xy: 1446, 286
+  size: 144, 125
+  orig: 147, 128
+  offset: 3, 1
+  index: -1
+chongcitexiao0005
+  rotate: true
+  xy: 1611, 141
+  size: 143, 123
+  orig: 147, 128
+  offset: 4, 3
+  index: -1
+chongcitexiao0006
+  rotate: true
+  xy: 1573, 286
+  size: 144, 122
+  orig: 147, 128
+  offset: 3, 3
+  index: -1
+chongcitexiao0007
+  rotate: true
+  xy: 1446, 432
+  size: 144, 126
+  orig: 147, 128
+  offset: 3, 0
+  index: -1
+glow
+  rotate: false
+  xy: 802, 172
+  size: 404, 404
+  orig: 563, 563
+  offset: 84, 75
+  index: -1
+piece01
+  rotate: true
+  xy: 1208, 251
+  size: 325, 80
+  orig: 361, 92
+  offset: 18, 6
+  index: -1
+ring02
+  rotate: true
+  xy: 2, 5
+  size: 571, 565
+  orig: 572, 565
+  offset: 0, 0
+  index: -1

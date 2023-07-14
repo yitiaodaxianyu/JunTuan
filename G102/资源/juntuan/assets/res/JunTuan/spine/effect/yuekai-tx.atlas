@@ -1,0 +1,41 @@
+
+yuekai-tx.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fangsheguang
+  rotate: false
+  xy: 2, 119
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+guangdian
+  rotate: false
+  xy: 91, 82
+  size: 32, 35
+  orig: 32, 35
+  offset: 0, 0
+  index: -1
+xing
+  rotate: false
+  xy: 2, 2
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+yuka
+  rotate: false
+  xy: 2, 42
+  size: 87, 75
+  orig: 87, 75
+  offset: 0, 0
+  index: -1
+zhou
+  rotate: false
+  xy: 132, 172
+  size: 87, 75
+  orig: 87, 75
+  offset: 0, 0
+  index: -1

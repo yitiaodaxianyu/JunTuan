@@ -1,0 +1,308 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "PurchaseCoins",
+  "_objFlags": 0,
+  "_native": "",
+  "json": [
+    {
+      "CoinPurchaseID": 101,
+      "Chapter": 1,
+      "DisplayPosition": 1,
+      "DisplayPositionTextID": 1470001,
+      "ConsumeDiamondsNum": 200,
+      "GetCoinNum": 20000,
+      "AdReward": 1,
+      "AdPlayableTimes": 1
+    },
+    {
+      "CoinPurchaseID": 102,
+      "Chapter": 1,
+      "DisplayPosition": 2,
+      "DisplayPositionTextID": 1470002,
+      "ConsumeDiamondsNum": 400,
+      "GetCoinNum": 40000,
+      "AdReward": 0,
+      "AdPlayableTimes": 0
+    },
+    {
+      "CoinPurchaseID": 103,
+      "Chapter": 1,
+      "DisplayPosition": 3,
+      "DisplayPositionTextID": 1470003,
+      "ConsumeDiamondsNum": 1200,
+      "GetCoinNum": 144000,
+      "AdReward": 0,
+      "AdPlayableTimes": 0
+    },
+    {
+      "CoinPurchaseID": 201,
+      "Chapter": 2,
+      "DisplayPosition": 1,
+      "DisplayPositionTextID": 1470001,
+      "ConsumeDiamondsNum": 200,
+      "GetCoinNum": 20000,
+      "AdReward": 1,
+      "AdPlayableTimes": 1
+    },
+    {
+      "CoinPurchaseID": 202,
+      "Chapter": 2,
+      "DisplayPosition": 2,
+      "DisplayPositionTextID": 1470002,
+      "ConsumeDiamondsNum": 400,
+      "GetCoinNum": 40000,
+      "AdReward": 0,
+      "AdPlayableTimes": 0
+    },
+    {
+      "CoinPurchaseID": 203,
+      "Chapter": 2,
+      "DisplayPosition": 3,
+      "DisplayPositionTextID": 1470003,
+      "ConsumeDiamondsNum": 1200,
+      "GetCoinNum": 144000,
+      "AdReward": 0,
+      "AdPlayableTimes": 0
+    },
+    {
+      "CoinPurchaseID": 301,
+      "Chapter": 3,
+      "DisplayPosition": 1,
+      "DisplayPositionTextID": 1470001,
+      "ConsumeDiamondsNum": 200,
+      "GetCoinNum": 21120,
+      "AdReward": 1,
+      "AdPlayableTimes": 1
+    },
+    {
+      "CoinPurchaseID": 302,
+      "Chapter": 3,
+      "DisplayPosition": 2,
+      "DisplayPositionTextID": 1470002,
+      "ConsumeDiamondsNum": 400,
+      "GetCoinNum": 42240,
+      "AdReward": 0,
+      "AdPlayableTimes": 0
+    },
+    {
+      "CoinPurchaseID": 303,
+      "Chapter": 3,
+      "DisplayPosition": 3,
+      "DisplayPositionTextID": 1470003,
+      "ConsumeDiamondsNum": 1200,
+      "GetCoinNum": 152000,
+      "AdReward": 0,
+      "AdPlayableTimes": 0
+    },
+    {
+      "CoinPurchaseID": 401,
+      "Chapter": 4,
+      "DisplayPosition": 1,
+      "DisplayPositionTextID": 1470001,
+      "ConsumeDiamondsNum": 200,
+      "GetCoinNum": 24000,
+      "AdReward": 1,
+      "AdPlayableTimes": 1
+    },
+    {
+      "CoinPurchaseID": 402,
+      "Chapter": 4,
+      "DisplayPosition": 2,
+      "DisplayPositionTextID": 1470002,
+      "ConsumeDiamondsNum": 400,
+      "GetCoinNum": 48000,
+      "AdReward": 0,
+      "AdPlayableTimes": 0
+    },
+    {
+      "CoinPurchaseID": 403,
+      "Chapter": 4,
+      "DisplayPosition": 3,
+      "DisplayPositionTextID": 1470003,
+      "ConsumeDiamondsNum": 1200,
+      "GetCoinNum": 173000,
+      "AdReward": 0,
+      "AdPlayableTimes": 0
+    },
+    {
+      "CoinPurchaseID": 501,
+      "Chapter": 5,
+      "DisplayPosition": 1,
+      "DisplayPositionTextID": 1470001,
+      "ConsumeDiamondsNum": 200,
+      "GetCoinNum": 36000,
+      "AdReward": 1,
+      "AdPlayableTimes": 1
+    },
+    {
+      "CoinPurchaseID": 502,
+      "Chapter": 5,
+      "DisplayPosition": 2,
+      "DisplayPositionTextID": 1470002,
+      "ConsumeDiamondsNum": 400,
+      "GetCoinNum": 72000,
+      "AdReward": 0,
+      "AdPlayableTimes": 0
+    },
+    {
+      "CoinPurchaseID": 503,
+      "Chapter": 5,
+      "DisplayPosition": 3,
+      "DisplayPositionTextID": 1470003,
+      "ConsumeDiamondsNum": 1200,
+      "GetCoinNum": 259000,
+      "AdReward": 0,
+      "AdPlayableTimes": 0
+    },
+    {
+      "CoinPurchaseID": 601,
+      "Chapter": 6,
+      "DisplayPosition": 1,
+      "DisplayPositionTextID": 1470001,
+      "ConsumeDiamondsNum": 200,
+      "GetCoinNum": 48000,
+      "AdReward": 1,
+      "AdPlayableTimes": 1
+    },
+    {
+      "CoinPurchaseID": 602,
+      "Chapter": 6,
+      "DisplayPosition": 2,
+      "DisplayPositionTextID": 1470002,
+      "ConsumeDiamondsNum": 400,
+      "GetCoinNum": 96000,
+      "AdReward": 0,
+      "AdPlayableTimes": 0
+    },
+    {
+      "CoinPurchaseID": 603,
+      "Chapter": 6,
+      "DisplayPosition": 3,
+      "DisplayPositionTextID": 1470003,
+      "ConsumeDiamondsNum": 1200,
+      "GetCoinNum": 346000,
+      "AdReward": 0,
+      "AdPlayableTimes": 0
+    },
+    {
+      "CoinPurchaseID": 701,
+      "Chapter": 7,
+      "DisplayPosition": 1,
+      "DisplayPositionTextID": 1470001,
+      "ConsumeDiamondsNum": 200,
+      "GetCoinNum": 60000,
+      "AdReward": 1,
+      "AdPlayableTimes": 1
+    },
+    {
+      "CoinPurchaseID": 702,
+      "Chapter": 7,
+      "DisplayPosition": 2,
+      "DisplayPositionTextID": 1470002,
+      "ConsumeDiamondsNum": 400,
+      "GetCoinNum": 120000,
+      "AdReward": 0,
+      "AdPlayableTimes": 0
+    },
+    {
+      "CoinPurchaseID": 703,
+      "Chapter": 7,
+      "DisplayPosition": 3,
+      "DisplayPositionTextID": 1470003,
+      "ConsumeDiamondsNum": 1200,
+      "GetCoinNum": 432000,
+      "AdReward": 0,
+      "AdPlayableTimes": 0
+    },
+    {
+      "CoinPurchaseID": 801,
+      "Chapter": 8,
+      "DisplayPosition": 1,
+      "DisplayPositionTextID": 1470001,
+      "ConsumeDiamondsNum": 200,
+      "GetCoinNum": 72000,
+      "AdReward": 1,
+      "AdPlayableTimes": 1
+    },
+    {
+      "CoinPurchaseID": 802,
+      "Chapter": 8,
+      "DisplayPosition": 2,
+      "DisplayPositionTextID": 1470002,
+      "ConsumeDiamondsNum": 400,
+      "GetCoinNum": 144000,
+      "AdReward": 0,
+      "AdPlayableTimes": 0
+    },
+    {
+      "CoinPurchaseID": 803,
+      "Chapter": 8,
+      "DisplayPosition": 3,
+      "DisplayPositionTextID": 1470003,
+      "ConsumeDiamondsNum": 1200,
+      "GetCoinNum": 518000,
+      "AdReward": 0,
+      "AdPlayableTimes": 0
+    },
+    {
+      "CoinPurchaseID": 901,
+      "Chapter": 9,
+      "DisplayPosition": 1,
+      "DisplayPositionTextID": 1470001,
+      "ConsumeDiamondsNum": 200,
+      "GetCoinNum": 96000,
+      "AdReward": 1,
+      "AdPlayableTimes": 1
+    },
+    {
+      "CoinPurchaseID": 902,
+      "Chapter": 9,
+      "DisplayPosition": 2,
+      "DisplayPositionTextID": 1470002,
+      "ConsumeDiamondsNum": 400,
+      "GetCoinNum": 192000,
+      "AdReward": 0,
+      "AdPlayableTimes": 0
+    },
+    {
+      "CoinPurchaseID": 903,
+      "Chapter": 9,
+      "DisplayPosition": 3,
+      "DisplayPositionTextID": 1470003,
+      "ConsumeDiamondsNum": 1200,
+      "GetCoinNum": 691000,
+      "AdReward": 0,
+      "AdPlayableTimes": 0
+    },
+    {
+      "CoinPurchaseID": 1001,
+      "Chapter": 10,
+      "DisplayPosition": 1,
+      "DisplayPositionTextID": 1470001,
+      "ConsumeDiamondsNum": 200,
+      "GetCoinNum": 120000,
+      "AdReward": 1,
+      "AdPlayableTimes": 1
+    },
+    {
+      "CoinPurchaseID": 1002,
+      "Chapter": 10,
+      "DisplayPosition": 2,
+      "DisplayPositionTextID": 1470002,
+      "ConsumeDiamondsNum": 400,
+      "GetCoinNum": 240000,
+      "AdReward": 0,
+      "AdPlayableTimes": 0
+    },
+    {
+      "CoinPurchaseID": 1003,
+      "Chapter": 10,
+      "DisplayPosition": 3,
+      "DisplayPositionTextID": 1470003,
+      "ConsumeDiamondsNum": 1200,
+      "GetCoinNum": 864000,
+      "AdReward": 0,
+      "AdPlayableTimes": 0
+    }
+  ]
+}

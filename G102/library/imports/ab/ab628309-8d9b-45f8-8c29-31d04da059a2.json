@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Monster_34_SkillHit_10",
+    "texture": "7aea5f70-ebdf-489a-92ee-233714329454",
+    "atlas": "74ddd472-a9bc-4716-b9af-c65dfcb4b78e",
+    "rect": [
+      314,
+      2,
+      310,
+      310
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      310,
+      310
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

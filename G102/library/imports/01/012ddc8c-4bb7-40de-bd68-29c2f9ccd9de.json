@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Lucky_Bg_4",
+    "texture": "667df522-d9e8-4377-b4b5-f01d84836cec",
+    "atlas": "9da86448-8d0a-4818-b3cd-23fda7cd8f26",
+    "rect": [
+      2,
+      887,
+      127,
+      127
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      127,
+      127
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

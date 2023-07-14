@@ -1,0 +1,98 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "SpiritQualityMessage",
+  "_objFlags": 0,
+  "_native": "",
+  "json": [
+    {
+      "SpiritQuality": 1,
+      "SpiritQualityName": 110005,
+      "SpiritQualityframe": 1,
+      "SpiritQualityStar": 0
+    },
+    {
+      "SpiritQuality": 2,
+      "SpiritQualityName": 110007,
+      "SpiritQualityframe": 2,
+      "SpiritQualityStar": 0
+    },
+    {
+      "SpiritQuality": 3,
+      "SpiritQualityName": 110008,
+      "SpiritQualityframe": 3,
+      "SpiritQualityStar": 0
+    },
+    {
+      "SpiritQuality": 4,
+      "SpiritQualityName": 110027,
+      "SpiritQualityframe": 4,
+      "SpiritQualityStar": 0
+    },
+    {
+      "SpiritQuality": 5,
+      "SpiritQualityName": 110028,
+      "SpiritQualityframe": 5,
+      "SpiritQualityStar": 0
+    },
+    {
+      "SpiritQuality": 6,
+      "SpiritQualityName": 110009,
+      "SpiritQualityframe": 6,
+      "SpiritQualityStar": 0
+    },
+    {
+      "SpiritQuality": 7,
+      "SpiritQualityName": 110010,
+      "SpiritQualityframe": 7,
+      "SpiritQualityStar": 0
+    },
+    {
+      "SpiritQuality": 8,
+      "SpiritQualityName": 110011,
+      "SpiritQualityframe": 8,
+      "SpiritQualityStar": 0
+    },
+    {
+      "SpiritQuality": 9,
+      "SpiritQualityName": 110012,
+      "SpiritQualityframe": 9,
+      "SpiritQualityStar": 0
+    },
+    {
+      "SpiritQuality": 10,
+      "SpiritQualityName": 110013,
+      "SpiritQualityframe": 10,
+      "SpiritQualityStar": 0
+    },
+    {
+      "SpiritQuality": 11,
+      "SpiritQualityName": 110013,
+      "SpiritQualityframe": 10,
+      "SpiritQualityStar": 1
+    },
+    {
+      "SpiritQuality": 12,
+      "SpiritQualityName": 110013,
+      "SpiritQualityframe": 10,
+      "SpiritQualityStar": 2
+    },
+    {
+      "SpiritQuality": 13,
+      "SpiritQualityName": 110013,
+      "SpiritQualityframe": 10,
+      "SpiritQualityStar": 3
+    },
+    {
+      "SpiritQuality": 14,
+      "SpiritQualityName": 110013,
+      "SpiritQualityframe": 10,
+      "SpiritQualityStar": 4
+    },
+    {
+      "SpiritQuality": 15,
+      "SpiritQualityName": 110013,
+      "SpiritQualityframe": 10,
+      "SpiritQualityStar": 5
+    }
+  ]
+}

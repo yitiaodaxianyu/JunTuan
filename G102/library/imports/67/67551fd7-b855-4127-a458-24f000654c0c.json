@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "HeroList_Bg_0",
+    "texture": "d4aa0b2a-2f8e-4aa9-839e-3e76cd9a4a56",
+    "atlas": "9c5853ba-a6c5-4856-8603-83fa6d0934c6",
+    "rect": [
+      2,
+      2,
+      750,
+      1624
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      750,
+      1624
+    ],
+    "capInsets": [
+      91,
+      154,
+      83,
+      284
+    ]
+  }
+}

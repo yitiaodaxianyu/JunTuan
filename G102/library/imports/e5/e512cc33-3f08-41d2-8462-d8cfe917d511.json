@@ -1,0 +1,71 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "elite5.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Monster_43_Skill_00": {
+      "__uuid__": "a1bcd811-3933-4f56-99bd-45c0bbbb8ce0"
+    },
+    "Monster_43_Skill_01": {
+      "__uuid__": "995c9061-b0d8-4f24-92e9-465ce8ff6f37"
+    },
+    "Monster_43_Skill_02": {
+      "__uuid__": "fc6c5fc0-598d-4a98-977d-6ac71994b671"
+    },
+    "Monster_43_Skill_03": {
+      "__uuid__": "9130555a-30bc-4e71-a7cb-e98f52220fd6"
+    },
+    "Monster_43_Skill_04": {
+      "__uuid__": "6c2ab633-0d0d-4dca-b662-932bed071496"
+    },
+    "Monster_43_Skill_05": {
+      "__uuid__": "1017552e-f672-4203-8cbc-615ad12eeca4"
+    },
+    "Monster_43_Skill_06": {
+      "__uuid__": "ec0defcf-bc60-4c44-aef8-816a764e9000"
+    },
+    "Monster_43_Skill_07": {
+      "__uuid__": "03b1a65d-1fea-464e-8320-6c2b22d7e506"
+    },
+    "Monster_43_Skill_08": {
+      "__uuid__": "d832be5f-fd73-42ac-b915-4d6e928dedf1"
+    },
+    "Monster_43_Skill_09": {
+      "__uuid__": "d2ca08d2-adfe-46ac-bf8e-82fb7dea4203"
+    },
+    "Monster_43_Skill_10": {
+      "__uuid__": "bd8329d8-ea76-461f-a220-d7f78ac18144"
+    },
+    "Monster_43_Skill_11": {
+      "__uuid__": "57d9f5d6-1459-4258-b67b-47c4e9188baf"
+    },
+    "Monster_43_Skill_12": {
+      "__uuid__": "276d54a0-b195-46de-b732-bf9b49ae92c3"
+    },
+    "Monster_43_Skill_13": {
+      "__uuid__": "28013b67-5e4e-42bd-9e62-65137f71ea2d"
+    },
+    "Monster_43_Skill_14": {
+      "__uuid__": "0e546cf2-f33e-44b5-ae27-551b0de313ab"
+    },
+    "Monster_43_Skill_15": {
+      "__uuid__": "7a4fa72c-2c5b-4c7c-abbb-ea7e65c3bcb5"
+    },
+    "Monster_43_Skill_16": {
+      "__uuid__": "61ed0496-c92b-492a-ae0d-0a129e722993"
+    },
+    "Monster_43_Skill_17": {
+      "__uuid__": "5b6efa32-6b5c-4ad9-a0cc-3348c5c5e8a2"
+    },
+    "Monster_43_Skill_18": {
+      "__uuid__": "40ea798a-2ff9-49a6-b7f0-5f9dba210a5e"
+    },
+    "Monster_44_Attack": {
+      "__uuid__": "89dfcbe7-5eeb-42b0-b937-f15db790714b"
+    },
+    "Monster_46_Attack": {
+      "__uuid__": "e40fa7bb-53da-4d8c-8587-c4d494d7be50"
+    }
+  }
+}

@@ -1,0 +1,97 @@
+
+ZhenDe.png
+size: 348,157
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+aaa10
+  rotate: false
+  xy: 0, 7
+  size: 165, 150
+  orig: 165, 150
+  offset: 0, 0
+  index: -1
+aaa21
+  rotate: false
+  xy: 286, 5
+  size: 39, 88
+  orig: 39, 88
+  offset: 0, 0
+  index: -1
+aaa22
+  rotate: false
+  xy: 167, 50
+  size: 81, 107
+  orig: 81, 107
+  offset: 0, 0
+  index: -1
+aaa23
+  rotate: false
+  xy: 270, 13
+  size: 8, 6
+  orig: 8, 6
+  offset: 0, 0
+  index: -1
+aaa24
+  rotate: true
+  xy: 327, 77
+  size: 16, 21
+  orig: 16, 21
+  offset: 0, 0
+  index: -1
+aaa25
+  rotate: false
+  xy: 327, 52
+  size: 17, 23
+  orig: 17, 23
+  offset: 0, 0
+  index: -1
+aaa26
+  rotate: true
+  xy: 0, 0
+  size: 5, 10
+  orig: 5, 10
+  offset: 0, 0
+  index: -1
+aaa27
+  rotate: true
+  xy: 223, 4
+  size: 18, 25
+  orig: 18, 25
+  offset: 0, 0
+  index: -1
+aaa28
+  rotate: false
+  xy: 250, 0
+  size: 18, 19
+  orig: 18, 19
+  offset: 0, 0
+  index: -1
+aaa29
+  rotate: false
+  xy: 167, 4
+  size: 54, 44
+  orig: 54, 44
+  offset: 0, 0
+  index: -1
+aaa30
+  rotate: true
+  xy: 223, 24
+  size: 24, 25
+  orig: 24, 25
+  offset: 0, 0
+  index: -1
+aaa31
+  rotate: false
+  xy: 250, 21
+  size: 34, 136
+  orig: 34, 136
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 286, 95
+  size: 62, 62
+  orig: 87, 87
+  offset: 13, 12
+  index: -1

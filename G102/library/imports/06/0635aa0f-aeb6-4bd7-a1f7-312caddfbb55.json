@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Fx_Death_03",
+    "texture": "078aaa25-f5e8-42e5-b69a-193640aa3361",
+    "atlas": "87a75870-fa48-4531-82b4-61f157ded96d",
+    "rect": [
+      2,
+      606,
+      174,
+      196
+    ],
+    "offset": [
+      2,
+      8
+    ],
+    "originalSize": [
+      200,
+      216
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

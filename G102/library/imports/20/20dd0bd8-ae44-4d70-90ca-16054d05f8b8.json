@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "gunner",
+    "texture": "ecb3b43f-bff0-45b1-9330-7c6d5c8b16df",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      720,
+      271
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      720,
+      271
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

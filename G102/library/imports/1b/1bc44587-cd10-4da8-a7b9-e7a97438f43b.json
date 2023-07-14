@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "TY_TX_05",
+    "texture": "30acfe76-d42d-4d61-9259-db7d12a22331",
+    "atlas": "740d59b5-d22e-443e-9c21-2f13a5b545d8",
+    "rect": [
+      86,
+      466,
+      80,
+      82
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      80,
+      82
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

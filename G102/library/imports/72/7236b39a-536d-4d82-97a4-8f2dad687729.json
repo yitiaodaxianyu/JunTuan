@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Hero_Evolve_0_3",
+    "texture": "4098681b-4f05-49ec-bb58-63cf99b63df2",
+    "atlas": "bd1e8d67-49b8-4072-a8a6-6c94baaabd1f",
+    "rect": [
+      741,
+      1628,
+      276,
+      61
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      276,
+      61
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

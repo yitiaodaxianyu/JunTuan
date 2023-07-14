@@ -1,0 +1,307 @@
+[
+  {
+    "JakcpotsID": 101,
+    "JackpotID": [
+      10001
+    ],
+    "JackpotType": 1,
+    "ConfigureWeights": 2.0,
+    "WeightType": 0,
+    "Parameter_1": 0.0,
+    "Parameter_2": 0.0,
+    "Parameter_3": 0.0
+  },
+  {
+    "JakcpotsID": 102,
+    "JackpotID": [
+      10002
+    ],
+    "JackpotType": 1,
+    "ConfigureWeights": 2.0,
+    "WeightType": 0,
+    "Parameter_1": 0.0,
+    "Parameter_2": 0.0,
+    "Parameter_3": 0.0
+  },
+  {
+    "JakcpotsID": 103,
+    "JackpotID": [
+      10003
+    ],
+    "JackpotType": 1,
+    "ConfigureWeights": 2.0,
+    "WeightType": 0,
+    "Parameter_1": 0.0,
+    "Parameter_2": 0.0,
+    "Parameter_3": 0.0
+  },
+  {
+    "JakcpotsID": 104,
+    "JackpotID": [
+      10004
+    ],
+    "JackpotType": 1,
+    "ConfigureWeights": 1.6,
+    "WeightType": 0,
+    "Parameter_1": 0.0,
+    "Parameter_2": 0.0,
+    "Parameter_3": 0.0
+  },
+  {
+    "JakcpotsID": 105,
+    "JackpotID": [
+      10005
+    ],
+    "JackpotType": 1,
+    "ConfigureWeights": 0.92,
+    "WeightType": 0,
+    "Parameter_1": 0.0,
+    "Parameter_2": 0.0,
+    "Parameter_3": 0.0
+  },
+  {
+    "JakcpotsID": 106,
+    "JackpotID": [
+      20001
+    ],
+    "JackpotType": 1,
+    "ConfigureWeights": 1.0,
+    "WeightType": 0,
+    "Parameter_1": 0.0,
+    "Parameter_2": 0.0,
+    "Parameter_3": 0.0
+  },
+  {
+    "JakcpotsID": 107,
+    "JackpotID": [
+      20002
+    ],
+    "JackpotType": 1,
+    "ConfigureWeights": 0.62,
+    "WeightType": 0,
+    "Parameter_1": 0.0,
+    "Parameter_2": 0.0,
+    "Parameter_3": 0.0
+  },
+  {
+    "JakcpotsID": 108,
+    "JackpotID": [
+      20003
+    ],
+    "JackpotType": 1,
+    "ConfigureWeights": 0.36,
+    "WeightType": 0,
+    "Parameter_1": 0.0,
+    "Parameter_2": 0.0,
+    "Parameter_3": 0.0
+  },
+  {
+    "JakcpotsID": 109,
+    "JackpotID": [
+      20004,
+      20005
+    ],
+    "JackpotType": 1,
+    "ConfigureWeights": 0.29,
+    "WeightType": 1,
+    "Parameter_1": 1.3,
+    "Parameter_2": 15.0,
+    "Parameter_3": 30.0
+  },
+  {
+    "JakcpotsID": 111,
+    "JackpotID": [
+      20004
+    ],
+    "JackpotType": 11,
+    "ConfigureWeights": 0.2,
+    "WeightType": 1,
+    "Parameter_1": 1.51,
+    "Parameter_2": 0.0,
+    "Parameter_3": 0.0
+  },
+  {
+    "JakcpotsID": 112,
+    "JackpotID": [
+      20005
+    ],
+    "JackpotType": 11,
+    "ConfigureWeights": 0.08,
+    "WeightType": 1,
+    "Parameter_1": 1.27,
+    "Parameter_2": 0.0,
+    "Parameter_3": 0.0
+  },
+  {
+    "JakcpotsID": 201,
+    "JackpotID": [
+      30001
+    ],
+    "JackpotType": 2,
+    "ConfigureWeights": 1.0,
+    "WeightType": 0,
+    "Parameter_1": 0.0,
+    "Parameter_2": 0.0,
+    "Parameter_3": 0.0
+  },
+  {
+    "JakcpotsID": 202,
+    "JackpotID": [
+      30002
+    ],
+    "JackpotType": 2,
+    "ConfigureWeights": 0.62,
+    "WeightType": 0,
+    "Parameter_1": 0.0,
+    "Parameter_2": 0.0,
+    "Parameter_3": 0.0
+  },
+  {
+    "JakcpotsID": 203,
+    "JackpotID": [
+      30003
+    ],
+    "JackpotType": 2,
+    "ConfigureWeights": 0.36,
+    "WeightType": 0,
+    "Parameter_1": 0.0,
+    "Parameter_2": 0.0,
+    "Parameter_3": 0.0
+  },
+  {
+    "JakcpotsID": 204,
+    "JackpotID": [
+      30004,
+      30005,
+      30006
+    ],
+    "JackpotType": 2,
+    "ConfigureWeights": 0.29,
+    "WeightType": 1,
+    "Parameter_1": 1.3,
+    "Parameter_2": 15.0,
+    "Parameter_3": 30.0
+  },
+  {
+    "JakcpotsID": 211,
+    "JackpotID": [
+      30004
+    ],
+    "JackpotType": 21,
+    "ConfigureWeights": 0.2,
+    "WeightType": 1,
+    "Parameter_1": 1.51,
+    "Parameter_2": 0.0,
+    "Parameter_3": 0.0
+  },
+  {
+    "JakcpotsID": 212,
+    "JackpotID": [
+      30005
+    ],
+    "JackpotType": 21,
+    "ConfigureWeights": 0.08,
+    "WeightType": 1,
+    "Parameter_1": 1.27,
+    "Parameter_2": 0.0,
+    "Parameter_3": 0.0
+  },
+  {
+    "JakcpotsID": 213,
+    "JackpotID": [
+      30006
+    ],
+    "JackpotType": 21,
+    "ConfigureWeights": 0.01,
+    "WeightType": 1,
+    "Parameter_1": 1.16,
+    "Parameter_2": 0.0,
+    "Parameter_3": 0.0
+  },
+  {
+    "JakcpotsID": 301,
+    "JackpotID": [
+      40001
+    ],
+    "JackpotType": 3,
+    "ConfigureWeights": 1.0,
+    "WeightType": 0,
+    "Parameter_1": 0.0,
+    "Parameter_2": 0.0,
+    "Parameter_3": 0.0
+  },
+  {
+    "JakcpotsID": 302,
+    "JackpotID": [
+      40002
+    ],
+    "JackpotType": 3,
+    "ConfigureWeights": 0.62,
+    "WeightType": 0,
+    "Parameter_1": 0.0,
+    "Parameter_2": 0.0,
+    "Parameter_3": 0.0
+  },
+  {
+    "JakcpotsID": 303,
+    "JackpotID": [
+      40003
+    ],
+    "JackpotType": 3,
+    "ConfigureWeights": 0.36,
+    "WeightType": 0,
+    "Parameter_1": 0.0,
+    "Parameter_2": 0.0,
+    "Parameter_3": 0.0
+  },
+  {
+    "JakcpotsID": 304,
+    "JackpotID": [
+      40004,
+      40005,
+      40006
+    ],
+    "JackpotType": 3,
+    "ConfigureWeights": 0.29,
+    "WeightType": 1,
+    "Parameter_1": 1.3,
+    "Parameter_2": 15.0,
+    "Parameter_3": 30.0
+  },
+  {
+    "JakcpotsID": 311,
+    "JackpotID": [
+      40004
+    ],
+    "JackpotType": 31,
+    "ConfigureWeights": 0.2,
+    "WeightType": 1,
+    "Parameter_1": 1.51,
+    "Parameter_2": 0.0,
+    "Parameter_3": 0.0
+  },
+  {
+    "JakcpotsID": 312,
+    "JackpotID": [
+      40005
+    ],
+    "JackpotType": 31,
+    "ConfigureWeights": 0.08,
+    "WeightType": 1,
+    "Parameter_1": 1.27,
+    "Parameter_2": 0.0,
+    "Parameter_3": 0.0
+  },
+  {
+    "JakcpotsID": 313,
+    "JackpotID": [
+      40006
+    ],
+    "JackpotType": 31,
+    "ConfigureWeights": 0.01,
+    "WeightType": 1,
+    "Parameter_1": 1.16,
+    "Parameter_2": 0.0,
+    "Parameter_3": 0.0
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "role_zhandouli.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Fx_ZhanDouLi_1": {
+      "__uuid__": "3b702f32-554c-436c-ab40-afe35699a1b8"
+    },
+    "Fx_ZhanDouLi_2": {
+      "__uuid__": "7fa7a301-f4d3-45a1-87bf-d786116cc869"
+    },
+    "Fx_ZhanDouLi_3": {
+      "__uuid__": "c5aabc57-8b59-42ef-9718-55d32f76f9cb"
+    },
+    "Fx_ZhanDouLi_4": {
+      "__uuid__": "946e7683-137d-45c8-b9a2-5bd669063b3d"
+    },
+    "Fx_ZhanDouLi_5": {
+      "__uuid__": "0ef4f771-6787-4c8a-9886-2937c84ed357"
+    }
+  }
+}

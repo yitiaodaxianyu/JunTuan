@@ -1,0 +1,125 @@
+
+bingnv_zhengmian.png
+size: 761,242
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+aaa0
+  rotate: false
+  xy: 690, 136
+  size: 49, 104
+  orig: 49, 104
+  offset: 0, 0
+  index: -1
+aaa1
+  rotate: false
+  xy: 392, 5
+  size: 71, 59
+  orig: 71, 59
+  offset: 0, 0
+  index: -1
+aaa10
+  rotate: false
+  xy: 516, 67
+  size: 48, 29
+  orig: 48, 29
+  offset: 0, 0
+  index: -1
+aaa11
+  rotate: false
+  xy: 495, 66
+  size: 19, 30
+  orig: 19, 30
+  offset: 0, 0
+  index: -1
+aaa12
+  rotate: false
+  xy: 731, 113
+  size: 19, 21
+  orig: 19, 21
+  offset: 0, 0
+  index: -1
+aaa13
+  rotate: false
+  xy: 2, 6
+  size: 137, 234
+  orig: 137, 234
+  offset: 0, 0
+  index: -1
+aaa14
+  rotate: true
+  xy: 536, 13
+  size: 52, 39
+  orig: 52, 39
+  offset: 0, 0
+  index: -1
+aaa15
+  rotate: false
+  xy: 495, 98
+  size: 71, 142
+  orig: 71, 142
+  offset: 0, 0
+  index: -1
+aaa2
+  rotate: false
+  xy: 360, 2
+  size: 30, 62
+  orig: 30, 62
+  offset: 0, 0
+  index: -1
+aaa24
+  rotate: true
+  xy: 360, 66
+  size: 174, 133
+  orig: 174, 133
+  offset: 0, 0
+  index: -1
+aaa3
+  rotate: true
+  xy: 690, 109
+  size: 25, 39
+  orig: 25, 39
+  offset: 0, 0
+  index: -1
+aaa4
+  rotate: true
+  xy: 577, 2
+  size: 66, 50
+  orig: 66, 50
+  offset: 0, 0
+  index: -1
+aaa5
+  rotate: true
+  xy: 141, 9
+  size: 231, 217
+  orig: 231, 217
+  offset: 0, 0
+  index: -1
+aaa6
+  rotate: false
+  xy: 465, 8
+  size: 69, 56
+  orig: 69, 56
+  offset: 0, 0
+  index: -1
+aaa7
+  rotate: false
+  xy: 629, 5
+  size: 130, 98
+  orig: 130, 98
+  offset: 0, 0
+  index: -1
+aaa8
+  rotate: true
+  xy: 568, 105
+  size: 135, 120
+  orig: 135, 120
+  offset: 0, 0
+  index: -1
+aaa9
+  rotate: false
+  xy: 566, 70
+  size: 41, 26
+  orig: 41, 26
+  offset: 0, 0
+  index: -1

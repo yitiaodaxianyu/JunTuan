@@ -1,0 +1,68 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "wall_skill_unlock.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Fx_CastleUnlock_00": {
+      "__uuid__": "906d7bb4-3610-4cb3-be6f-4b44bf30c2d0"
+    },
+    "Fx_CastleUnlock_01": {
+      "__uuid__": "faed863d-7e0c-4f3f-b872-bfc967822292"
+    },
+    "Fx_CastleUnlock_02": {
+      "__uuid__": "871b2323-2eed-4062-a94c-a2ce770057f5"
+    },
+    "Fx_CastleUnlock_03": {
+      "__uuid__": "c9accccc-3263-4505-a996-7bf8d7130b33"
+    },
+    "Fx_CastleUnlock_04": {
+      "__uuid__": "c2ce2c8b-ed50-42ad-803d-5326505c2c60"
+    },
+    "Fx_CastleUnlock_05": {
+      "__uuid__": "478af764-c325-45ca-b7bb-079a769688ea"
+    },
+    "Fx_CastleUnlock_06": {
+      "__uuid__": "a4499f72-04ad-4c2e-814b-2304bf9c18e8"
+    },
+    "Fx_CastleUnlock_07": {
+      "__uuid__": "38403952-c6a1-46e5-9286-b52df01049ba"
+    },
+    "Fx_CastleUnlock_08": {
+      "__uuid__": "d2828873-79dc-430d-89d5-2375f4c3704e"
+    },
+    "Fx_CastleUnlock_09": {
+      "__uuid__": "07c6d011-722e-4276-a336-e657ff875ac9"
+    },
+    "Fx_CastleUnlock_10": {
+      "__uuid__": "8b7cee89-13a4-4115-8390-ea585f79cd1a"
+    },
+    "Fx_CastleUnlock_11": {
+      "__uuid__": "39ac7fbc-95d0-495d-bab6-df273356c686"
+    },
+    "Fx_CastleUnlock_12": {
+      "__uuid__": "9845a2aa-b38f-4b9c-9a60-531be0275868"
+    },
+    "Fx_CastleUnlock_13": {
+      "__uuid__": "232edab3-4458-4c9c-8466-cd2814cf20c7"
+    },
+    "Fx_CastleUnlock_14": {
+      "__uuid__": "ae1e83d7-cea3-490b-aa9f-7b69e6263d72"
+    },
+    "Fx_CastleUnlock_15": {
+      "__uuid__": "0ec24de1-1c9d-43a1-b571-1e96d4bcde63"
+    },
+    "Fx_CastleUnlock_16": {
+      "__uuid__": "86f9cacc-49d4-4e36-905d-22f01bc5cf55"
+    },
+    "Fx_CastleUnlock_17": {
+      "__uuid__": "af2d9595-ed83-43bc-a2ac-afe2746aa347"
+    },
+    "Fx_CastleUnlock_18": {
+      "__uuid__": "b23f7083-4d7e-49b5-b795-6178cf87f935"
+    },
+    "Fx_CastleUnlock_19": {
+      "__uuid__": "9521dbdb-345b-4d98-bf2c-549b7e346672"
+    }
+  }
+}

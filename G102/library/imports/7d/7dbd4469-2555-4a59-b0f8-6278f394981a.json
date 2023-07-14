@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Boss15_Skill2_1_06",
+    "texture": "f097c030-cac9-4ec7-ab8b-a2318fd24548",
+    "atlas": "0dbf8162-ccfc-4712-a0a3-540a5846e8ad",
+    "rect": [
+      744,
+      1308,
+      70,
+      80
+    ],
+    "offset": [
+      3,
+      0
+    ],
+    "originalSize": [
+      80,
+      80
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

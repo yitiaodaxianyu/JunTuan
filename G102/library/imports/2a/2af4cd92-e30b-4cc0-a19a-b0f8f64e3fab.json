@@ -1,0 +1,80 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "HeroInfo",
+  "_objFlags": 0,
+  "_native": "",
+  "json": [
+    {
+      "Hero_ID": 1,
+      "NameText_ID": 11001,
+      "ProfessionText_ID": 11101,
+      "AttackText_ID": 11201,
+      "PassiveText_ID": 11301,
+      "SkillText_ID": 11401,
+      "Fragment_ID": 100
+    },
+    {
+      "Hero_ID": 2,
+      "NameText_ID": 11002,
+      "ProfessionText_ID": 11102,
+      "AttackText_ID": 11202,
+      "PassiveText_ID": 11302,
+      "SkillText_ID": 11402,
+      "Fragment_ID": 200
+    },
+    {
+      "Hero_ID": 3,
+      "NameText_ID": 11003,
+      "ProfessionText_ID": 11103,
+      "AttackText_ID": 11203,
+      "PassiveText_ID": 11303,
+      "SkillText_ID": 11403,
+      "Fragment_ID": 300
+    },
+    {
+      "Hero_ID": 4,
+      "NameText_ID": 11004,
+      "ProfessionText_ID": 11104,
+      "AttackText_ID": 11204,
+      "PassiveText_ID": 11304,
+      "SkillText_ID": 11404,
+      "Fragment_ID": 400
+    },
+    {
+      "Hero_ID": 5,
+      "NameText_ID": 11005,
+      "ProfessionText_ID": 11105,
+      "AttackText_ID": 11205,
+      "PassiveText_ID": 11305,
+      "SkillText_ID": 11405,
+      "Fragment_ID": 500
+    },
+    {
+      "Hero_ID": 6,
+      "NameText_ID": 11006,
+      "ProfessionText_ID": 11106,
+      "AttackText_ID": 11206,
+      "PassiveText_ID": 11306,
+      "SkillText_ID": 11406,
+      "Fragment_ID": 600
+    },
+    {
+      "Hero_ID": 7,
+      "NameText_ID": 11007,
+      "ProfessionText_ID": 11107,
+      "AttackText_ID": 11207,
+      "PassiveText_ID": 11307,
+      "SkillText_ID": 11407,
+      "Fragment_ID": 700
+    },
+    {
+      "Hero_ID": 8,
+      "NameText_ID": 11008,
+      "ProfessionText_ID": 11108,
+      "AttackText_ID": 11208,
+      "PassiveText_ID": 11308,
+      "SkillText_ID": 11408,
+      "Fragment_ID": 800
+    }
+  ]
+}

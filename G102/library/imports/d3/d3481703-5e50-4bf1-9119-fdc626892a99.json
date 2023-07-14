@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "FX_Boss0_FireBall_Fly_06",
+    "texture": "798608f1-4fe1-43be-a3b9-ec2fa3b449d6",
+    "atlas": "6f8470e3-0706-440f-805c-42125ba7c6b6",
+    "rect": [
+      1336,
+      1514,
+      88,
+      140
+    ],
+    "offset": [
+      -4,
+      5
+    ],
+    "originalSize": [
+      180,
+      150
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

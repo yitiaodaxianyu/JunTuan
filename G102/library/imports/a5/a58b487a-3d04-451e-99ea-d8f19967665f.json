@@ -1,0 +1,50 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "CumulativeCard",
+  "_objFlags": 0,
+  "_native": "",
+  "json": [
+    {
+      "CumulativeRewardID": 1020,
+      "WishType": 1,
+      "CumulativeCardDrawingTimes": 20,
+      "ItemID": 50023,
+      "RewardNum": 1
+    },
+    {
+      "CumulativeRewardID": 1030,
+      "WishType": 1,
+      "CumulativeCardDrawingTimes": 30,
+      "ItemID": 50034,
+      "RewardNum": 1
+    },
+    {
+      "CumulativeRewardID": 1050,
+      "WishType": 1,
+      "CumulativeCardDrawingTimes": 50,
+      "ItemID": 40006,
+      "RewardNum": 2
+    },
+    {
+      "CumulativeRewardID": 2020,
+      "WishType": 2,
+      "CumulativeCardDrawingTimes": 20,
+      "ItemID": 50014,
+      "RewardNum": 1
+    },
+    {
+      "CumulativeRewardID": 2030,
+      "WishType": 2,
+      "CumulativeCardDrawingTimes": 30,
+      "ItemID": 50024,
+      "RewardNum": 1
+    },
+    {
+      "CumulativeRewardID": 2050,
+      "WishType": 2,
+      "CumulativeCardDrawingTimes": 50,
+      "ItemID": 40007,
+      "RewardNum": 2
+    }
+  ]
+}

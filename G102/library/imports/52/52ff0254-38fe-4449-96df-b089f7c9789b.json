@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "StarVeinsAttribute",
+  "_objFlags": 0,
+  "_native": "",
+  "json": [
+    {
+      "Node": 0,
+      "StarVeinsId": 0,
+      "NodeOrdinal": 0,
+      "CostItem": 0,
+      "CostNum": 0,
+      "Attack": 0,
+      "Defense": 0,
+      "Health": 0,
+      "ExtraAttackSpeed": 0,
+      "Hit": 0,
+      "Miss": 0,
+      "Critical": 0,
+      "ExtraCritical": 0,
+      "AntiCritical": 0,
+      "AntiExtraCritical": 0,
+      "SpiritPercentageAttack": 0,
+      "SpiritPercentageDefense": 0,
+      "SpiritPercentageHealth": 0
+    }
+  ]
+}

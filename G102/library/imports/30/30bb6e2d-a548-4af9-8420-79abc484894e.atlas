@@ -1,0 +1,76 @@
+
+Monster_38.png
+size: 154,78
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bao
+  rotate: true
+  xy: 131, 26
+  size: 22, 23
+  orig: 28, 24
+  offset: 0, 0
+  index: -1
+Body
+  rotate: false
+  xy: 112, 50
+  size: 34, 28
+  orig: 34, 28
+  offset: 0, 0
+  index: -1
+Huo
+  rotate: true
+  xy: 0, 0
+  size: 7, 15
+  orig: 7, 15
+  offset: 0, 0
+  index: -1
+Shou
+  rotate: false
+  xy: 68, 1
+  size: 16, 11
+  orig: 16, 11
+  offset: 0, 0
+  index: -1
+TieGaoZi
+  rotate: true
+  xy: 68, 14
+  size: 64, 42
+  orig: 64, 42
+  offset: 0, 0
+  index: -1
+Tou
+  rotate: false
+  xy: 0, 9
+  size: 66, 69
+  orig: 68, 70
+  offset: 0, 0
+  index: -1
+YouJiao
+  rotate: false
+  xy: 86, 1
+  size: 14, 11
+  orig: 14, 11
+  offset: 0, 0
+  index: -1
+YouShou
+  rotate: false
+  xy: 112, 17
+  size: 17, 31
+  orig: 17, 31
+  offset: 0, 0
+  index: -1
+ZouShou
+  rotate: false
+  xy: 131, 2
+  size: 21, 22
+  orig: 21, 22
+  offset: 0, 0
+  index: -1
+ZuoJiao
+  rotate: false
+  xy: 102, 1
+  size: 14, 11
+  orig: 14, 11
+  offset: 0, 0
+  index: -1

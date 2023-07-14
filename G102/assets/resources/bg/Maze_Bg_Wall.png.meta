@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "5488c7aa-2fe6-4514-b3ca-6d5cb3bee70d",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 750,
+  "height": 450,
+  "platformSettings": {},
+  "subMetas": {
+    "Maze_Bg_Wall": {
+      "ver": "1.0.6",
+      "uuid": "e8f344f2-9cc2-4ccc-bd5d-855bce7c3783",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "5488c7aa-2fe6-4514-b3ca-6d5cb3bee70d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 750,
+      "height": 450,
+      "rawWidth": 750,
+      "rawHeight": 450,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

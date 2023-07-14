@@ -1,0 +1,83 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "rabate_ui.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Common_Title_0": {
+      "__uuid__": "7bc02e5d-c83b-4835-b2ab-6d523d26f286"
+    },
+    "DiTu_BtnBack": {
+      "__uuid__": "ed981b35-f281-4a85-a7ad-31321d83c7c3"
+    },
+    "FanLi_Banner_0": {
+      "__uuid__": "6dd92cb9-c45b-4d26-951c-5022d245b729"
+    },
+    "FanLi_Banner_0_1": {
+      "__uuid__": "b3e8e89a-d456-4adc-9f53-5972f64b969c"
+    },
+    "FanLi_Banner_0_2": {
+      "__uuid__": "044aa164-9527-42ef-bcb6-9e0cbe9d17aa"
+    },
+    "FanLi_Banner_0_3": {
+      "__uuid__": "8c1d1b6d-9f8f-4540-8621-c454290556cc"
+    },
+    "FanLi_Banner_1": {
+      "__uuid__": "e8517f94-4c39-4f32-a488-202742cd8329"
+    },
+    "FanLi_Banner_1_1": {
+      "__uuid__": "a0069875-0e75-4a8e-93c0-55dd9818669b"
+    },
+    "FanLi_Banner_1_2": {
+      "__uuid__": "7ee2bfa7-5f32-4452-9733-f4733e96a479"
+    },
+    "FanLi_Bg_0": {
+      "__uuid__": "f13cb293-7e38-462f-b990-7ca506e73b51"
+    },
+    "FanLi_Bg_1": {
+      "__uuid__": "c414231a-95b9-4bf1-b726-fc7c51e5a478"
+    },
+    "FanLi_Bg_2": {
+      "__uuid__": "4a5cb360-35f5-4dec-8b43-697edbc7bb2c"
+    },
+    "FanLi_Bg_3": {
+      "__uuid__": "a76cb7f0-d699-40d7-9d98-27df615cc2e7"
+    },
+    "FanLi_Bg_4": {
+      "__uuid__": "5fd898e5-2b49-4453-84b1-1bb852a8b957"
+    },
+    "FanLi_Btn_0": {
+      "__uuid__": "af63712d-a47d-4eab-b63d-e16857a56122"
+    },
+    "FanLi_Btn_1": {
+      "__uuid__": "d0f9c99d-8789-43e3-a935-b41157c82df5"
+    },
+    "FanLi_Icon_WenHao": {
+      "__uuid__": "f8157799-31c1-49b5-8226-fa845f227f48"
+    },
+    "Gift_Bg_1": {
+      "__uuid__": "3ae8204f-fc0a-409b-9783-12c2c00a232a"
+    },
+    "Gift_Bg_6": {
+      "__uuid__": "0f4c8ee6-4609-4d33-8e5c-8597ea6e38de"
+    },
+    "Idle_frame_4": {
+      "__uuid__": "375daf90-e9d4-40d7-9719-233395fdb761"
+    },
+    "JS_icon_ChuZhan": {
+      "__uuid__": "45d27acf-3c6f-4282-928c-ac482d141566"
+    },
+    "TY_Btn_00": {
+      "__uuid__": "6e92cbd3-5fc9-46c8-976f-4115266c3b4b"
+    },
+    "TY_Btn_03": {
+      "__uuid__": "40f672d2-5e9c-429c-89ff-4b6ba99fc18a"
+    },
+    "TY_icon_Zuan_00": {
+      "__uuid__": "5149bd78-a6fc-47c2-a28a-1e9fefb3929a"
+    },
+    "ZJM_icon_09": {
+      "__uuid__": "6d8587d4-4dea-4ee6-b577-cb02d3b19e15"
+    }
+  }
+}

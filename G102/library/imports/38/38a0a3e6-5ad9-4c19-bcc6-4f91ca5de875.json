@@ -1,0 +1,3877 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "Witch_PassiveSkill",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "lI1vWmUuQSg",
+      "spine": "3.8-from-4.0.64",
+      "x": -66.1,
+      "y": -62.5,
+      "width": 141.65,
+      "height": 1247.09,
+      "images": "./images/",
+      "audio": "E:/ccl-工作/220831-新版德鲁伊主动技能/被动/images"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "zong",
+        "parent": "root",
+        "y": -12.5
+      },
+      {
+        "name": "Witch_Rattan1",
+        "parent": "zong",
+        "length": 36.69,
+        "rotation": 87.83,
+        "x": -10.27,
+        "y": 24.88
+      },
+      {
+        "name": "Witch_Rattan2",
+        "parent": "zong",
+        "length": 92.83,
+        "rotation": 90.29,
+        "x": -28.42,
+        "y": 294.43
+      },
+      {
+        "name": "Witch_Rattan3",
+        "parent": "zong",
+        "length": 36.69,
+        "rotation": 87.83,
+        "x": 26.33,
+        "y": 105.52
+      },
+      {
+        "name": "Witch_Rattan4",
+        "parent": "zong",
+        "length": 92.83,
+        "rotation": 90.29,
+        "x": 10.14,
+        "y": 232.54,
+        "scaleX": 0.9,
+        "scaleY": 0.9
+      },
+      {
+        "name": "Witch_Rattan5",
+        "parent": "zong",
+        "length": 36.69,
+        "rotation": 87.83,
+        "x": -13.24,
+        "y": 143.75
+      },
+      {
+        "name": "Witch_Rattan6",
+        "parent": "zong",
+        "length": 92.83,
+        "rotation": 90.29,
+        "x": 13.44,
+        "y": 426.41
+      },
+      {
+        "name": "Witch_Rattan7",
+        "parent": "zong",
+        "length": 36.69,
+        "rotation": 87.83,
+        "x": 30.78,
+        "y": 369.31
+      },
+      {
+        "name": "Witch_Rattan8",
+        "parent": "zong",
+        "length": 92.83,
+        "rotation": 90.29,
+        "x": -16.11,
+        "y": 497.68
+      },
+      {
+        "name": "di",
+        "parent": "zong"
+      },
+      {
+        "name": "lv",
+        "parent": "di",
+        "length": 566.56,
+        "rotation": 90,
+        "x": 6.49,
+        "y": 31.42,
+        "scaleX": 1.8103
+      },
+      {
+        "name": "Witch_Rattan9",
+        "parent": "zong",
+        "length": 36.69,
+        "rotation": 87.83,
+        "x": 29.37,
+        "y": 186.3
+      },
+      {
+        "name": "Witch_Rattan10",
+        "parent": "zong",
+        "length": 36.69,
+        "rotation": 87.83,
+        "x": -22.75,
+        "y": 212.99
+      },
+      {
+        "name": "Witch_Rattan11",
+        "parent": "zong",
+        "length": 36.69,
+        "rotation": 87.83,
+        "x": 19.29,
+        "y": 583.64
+      },
+      {
+        "name": "Witch_Rattan12",
+        "parent": "zong",
+        "length": 36.69,
+        "rotation": 87.83,
+        "x": -34.6,
+        "y": 663.05
+      },
+      {
+        "name": "Witch_Rattan13",
+        "parent": "zong",
+        "length": 36.69,
+        "rotation": 87.83,
+        "x": 25.68,
+        "y": 852.99,
+        "scaleX": 0.8,
+        "scaleY": 0.8
+      },
+      {
+        "name": "Witch_Rattan14",
+        "parent": "zong",
+        "length": 36.69,
+        "rotation": 87.83,
+        "x": -16.29,
+        "y": 1013.64,
+        "scaleX": 0.8,
+        "scaleY": 0.8
+      },
+      {
+        "name": "Witch_Rattan15",
+        "parent": "zong",
+        "length": 92.83,
+        "rotation": 90.29,
+        "x": 19.12,
+        "y": 691.45,
+        "scaleX": 0.7,
+        "scaleY": 0.7
+      },
+      {
+        "name": "Witch_Rattan16",
+        "parent": "zong",
+        "length": 92.83,
+        "rotation": 90.29,
+        "x": -25.14,
+        "y": 786.51,
+        "scaleX": 0.8,
+        "scaleY": 0.8
+      },
+      {
+        "name": "Witch_Rattan17",
+        "parent": "zong",
+        "length": 92.83,
+        "rotation": 90.29,
+        "x": -2.13,
+        "y": 922.72,
+        "scaleX": 0.8,
+        "scaleY": 0.8
+      },
+      {
+        "name": "Witch_Rattan18",
+        "parent": "zong",
+        "length": 36.69,
+        "rotation": 87.83,
+        "x": 9.39,
+        "y": 978.65
+      },
+      {
+        "name": "Witch_Rattan19",
+        "parent": "zong",
+        "length": 36.69,
+        "rotation": 87.83,
+        "x": -22.28,
+        "y": 888.2
+      },
+      {
+        "name": "Witch_Rattan20",
+        "parent": "zong",
+        "length": 36.69,
+        "rotation": 87.83,
+        "x": 17.26,
+        "y": 777.48
+      },
+      {
+        "name": "Witch_Rattan21",
+        "parent": "zong",
+        "length": 36.69,
+        "rotation": 87.83,
+        "x": 5.93,
+        "y": 1048.2
+      },
+      {
+        "name": "Witch_Rattan22",
+        "parent": "zong",
+        "length": 92.83,
+        "rotation": 90.29,
+        "x": 1.84,
+        "y": 74.72,
+        "scaleX": 0.8,
+        "scaleY": 0.8
+      },
+      {
+        "name": "Witch_Rattan23",
+        "parent": "zong",
+        "length": 92.83,
+        "rotation": 90.29,
+        "x": -17.74,
+        "y": 387.37,
+        "scaleX": 0.8,
+        "scaleY": 0.8
+      },
+      {
+        "name": "Witch_Rattan24",
+        "parent": "zong",
+        "length": 36.69,
+        "rotation": 87.83,
+        "x": 15.48,
+        "y": 311.78,
+        "scaleX": 1.236
+      },
+      {
+        "name": "Witch_Rattan25",
+        "parent": "zong",
+        "length": 36.69,
+        "rotation": 87.83,
+        "x": 26.64,
+        "y": 36.54,
+        "scaleX": 0.7,
+        "scaleY": 0.7
+      },
+      {
+        "name": "Witch_Rattan26",
+        "parent": "zong",
+        "length": 92.83,
+        "rotation": 90.29,
+        "x": 37.19,
+        "y": 750.45,
+        "scaleX": 0.8,
+        "scaleY": 0.8
+      },
+      {
+        "name": "Witch_Rattan27",
+        "parent": "zong",
+        "length": 36.69,
+        "rotation": 87.83,
+        "x": 31.53,
+        "y": 911.84,
+        "scaleX": 0.8,
+        "scaleY": 0.8
+      },
+      {
+        "name": "Witch_Rattan28",
+        "parent": "zong",
+        "length": 36.69,
+        "rotation": 87.83,
+        "x": 29.06,
+        "y": 1001.86,
+        "scaleX": 0.8,
+        "scaleY": 0.8
+      },
+      {
+        "name": "Witch_Rattan29",
+        "parent": "zong",
+        "length": 92.83,
+        "rotation": 90.29,
+        "x": 0.12,
+        "y": 816.84,
+        "scaleX": 0.6,
+        "scaleY": 0.6
+      },
+      {
+        "name": "Witch_Rattan30",
+        "parent": "zong",
+        "length": 92.83,
+        "rotation": 90.29,
+        "x": -10.4,
+        "y": 726.41,
+        "scaleX": 0.6,
+        "scaleY": 0.6
+      },
+      {
+        "name": "Witch_Rattan31",
+        "parent": "zong",
+        "length": 36.69,
+        "rotation": 87.83,
+        "x": 37.56,
+        "y": 644.62
+      },
+      {
+        "name": "Witch_Rattan32",
+        "parent": "zong",
+        "length": 36.69,
+        "rotation": 87.83,
+        "x": 36.67,
+        "y": 524.49
+      },
+      {
+        "name": "Witch_Rattan33",
+        "parent": "zong",
+        "length": 36.69,
+        "rotation": 87.83,
+        "x": -21.85,
+        "y": 603.59
+      },
+      {
+        "name": "Witch_Rattan34",
+        "parent": "zong",
+        "length": 36.69,
+        "rotation": 87.83,
+        "x": 34.85,
+        "y": 265.54,
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "Di1",
+        "parent": "zong",
+        "length": 347.28,
+        "rotation": 89.86,
+        "x": 2.56,
+        "y": 9.11,
+        "scaleX": 2.6854,
+        "scaleY": 1.6683
+      },
+      {
+        "name": "Di2",
+        "parent": "zong",
+        "length": 425.14,
+        "rotation": 89.65,
+        "x": -0.98,
+        "y": 8.24,
+        "scaleX": 2.6854,
+        "scaleY": 2.1209
+      },
+      {
+        "name": "Witch_Rattan35",
+        "parent": "zong",
+        "length": 36.69,
+        "rotation": 87.83,
+        "x": 20.79,
+        "y": 1083.27,
+        "scaleX": 0.8,
+        "scaleY": 0.8
+      },
+      {
+        "name": "Witch_Rattan36",
+        "parent": "zong",
+        "length": 36.69,
+        "rotation": 87.83,
+        "x": -7.71,
+        "y": 1104.81,
+        "scaleX": 0.8,
+        "scaleY": 0.8
+      },
+      {
+        "name": "Ball",
+        "parent": "zong",
+        "length": 61.05,
+        "rotation": 89.15,
+        "x": -2.1,
+        "y": -29.75
+      },
+      {
+        "name": "Attack1",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "Di2",
+        "bone": "Di2",
+        "attachment": "Di2"
+      },
+      {
+        "name": "Di1",
+        "bone": "Di1",
+        "attachment": "Di1"
+      },
+      {
+        "name": "lv",
+        "bone": "lv",
+        "blend": "additive"
+      },
+      {
+        "name": "Witch_Rattan2",
+        "bone": "Witch_Rattan2",
+        "attachment": "Witch_Rattan2"
+      },
+      {
+        "name": "Witch_Rattan4",
+        "bone": "Witch_Rattan4",
+        "attachment": "Witch_Rattan2"
+      },
+      {
+        "name": "Witch_Rattan22",
+        "bone": "Witch_Rattan22",
+        "attachment": "Witch_Rattan2"
+      },
+      {
+        "name": "Witch_Rattan6",
+        "bone": "Witch_Rattan6",
+        "attachment": "Witch_Rattan2"
+      },
+      {
+        "name": "Witch_Rattan23",
+        "bone": "Witch_Rattan23",
+        "attachment": "Witch_Rattan2"
+      },
+      {
+        "name": "Witch_Rattan8",
+        "bone": "Witch_Rattan8",
+        "attachment": "Witch_Rattan2"
+      },
+      {
+        "name": "Witch_Rattan15",
+        "bone": "Witch_Rattan15",
+        "attachment": "Witch_Rattan2"
+      },
+      {
+        "name": "Witch_Rattan16",
+        "bone": "Witch_Rattan16",
+        "attachment": "Witch_Rattan2"
+      },
+      {
+        "name": "Witch_Rattan29",
+        "bone": "Witch_Rattan29",
+        "attachment": "Witch_Rattan2"
+      },
+      {
+        "name": "Witch_Rattan30",
+        "bone": "Witch_Rattan30",
+        "attachment": "Witch_Rattan2"
+      },
+      {
+        "name": "Witch_Rattan26",
+        "bone": "Witch_Rattan26",
+        "attachment": "Witch_Rattan2"
+      },
+      {
+        "name": "Witch_Rattan17",
+        "bone": "Witch_Rattan17",
+        "attachment": "Witch_Rattan2"
+      },
+      {
+        "name": "Witch_Rattan1",
+        "bone": "Witch_Rattan1",
+        "attachment": "Witch_Rattan1"
+      },
+      {
+        "name": "Witch_Rattan25",
+        "bone": "Witch_Rattan25",
+        "attachment": "Witch_Rattan1"
+      },
+      {
+        "name": "Witch_Rattan3",
+        "bone": "Witch_Rattan3",
+        "attachment": "Witch_Rattan1"
+      },
+      {
+        "name": "Witch_Rattan5",
+        "bone": "Witch_Rattan5",
+        "attachment": "Witch_Rattan1"
+      },
+      {
+        "name": "Witch_Rattan9",
+        "bone": "Witch_Rattan9",
+        "attachment": "Witch_Rattan1"
+      },
+      {
+        "name": "Witch_Rattan34",
+        "bone": "Witch_Rattan34",
+        "attachment": "Witch_Rattan1"
+      },
+      {
+        "name": "Witch_Rattan10",
+        "bone": "Witch_Rattan10",
+        "attachment": "Witch_Rattan1"
+      },
+      {
+        "name": "Witch_Rattan11",
+        "bone": "Witch_Rattan11",
+        "attachment": "Witch_Rattan1"
+      },
+      {
+        "name": "Witch_Rattan31",
+        "bone": "Witch_Rattan31",
+        "attachment": "Witch_Rattan1"
+      },
+      {
+        "name": "Witch_Rattan12",
+        "bone": "Witch_Rattan12",
+        "attachment": "Witch_Rattan1"
+      },
+      {
+        "name": "Witch_Rattan20",
+        "bone": "Witch_Rattan20",
+        "attachment": "Witch_Rattan1"
+      },
+      {
+        "name": "Witch_Rattan13",
+        "bone": "Witch_Rattan13",
+        "attachment": "Witch_Rattan1"
+      },
+      {
+        "name": "Witch_Rattan27",
+        "bone": "Witch_Rattan27",
+        "attachment": "Witch_Rattan1"
+      },
+      {
+        "name": "Witch_Rattan36",
+        "bone": "Witch_Rattan36",
+        "attachment": "Witch_Rattan1"
+      },
+      {
+        "name": "Witch_Rattan28",
+        "bone": "Witch_Rattan28",
+        "attachment": "Witch_Rattan1"
+      },
+      {
+        "name": "Witch_Rattan14",
+        "bone": "Witch_Rattan14",
+        "attachment": "Witch_Rattan1"
+      },
+      {
+        "name": "Witch_Rattan35",
+        "bone": "Witch_Rattan35",
+        "attachment": "Witch_Rattan1"
+      },
+      {
+        "name": "Witch_Rattan18",
+        "bone": "Witch_Rattan18",
+        "attachment": "Witch_Rattan1"
+      },
+      {
+        "name": "Witch_Rattan21",
+        "bone": "Witch_Rattan21",
+        "attachment": "Witch_Rattan1"
+      },
+      {
+        "name": "Witch_Rattan19",
+        "bone": "Witch_Rattan19",
+        "attachment": "Witch_Rattan1"
+      },
+      {
+        "name": "Witch_Rattan7",
+        "bone": "Witch_Rattan7",
+        "attachment": "Witch_Rattan1"
+      },
+      {
+        "name": "Witch_Rattan32",
+        "bone": "Witch_Rattan32",
+        "attachment": "Witch_Rattan1"
+      },
+      {
+        "name": "Witch_Rattan33",
+        "bone": "Witch_Rattan33",
+        "attachment": "Witch_Rattan1"
+      },
+      {
+        "name": "Witch_Rattan24",
+        "bone": "Witch_Rattan24",
+        "attachment": "Witch_Rattan1"
+      },
+      {
+        "name": "Ball",
+        "bone": "Ball",
+        "attachment": "Ball"
+      }
+    ],
+    "skins": [
+      {
+        "name": "default",
+        "attachments": {
+          "Ball": {
+            "Ball": {
+              "x": 29.79,
+              "y": -2.16,
+              "rotation": -89.15,
+              "width": 97,
+              "height": 100
+            }
+          },
+          "Di1": {
+            "Di1": {
+              "x": 211.79,
+              "y": -0.93,
+              "rotation": -89.86,
+              "width": 70,
+              "height": 445
+            }
+          },
+          "Di2": {
+            "Di2": {
+              "x": 212.67,
+              "y": -1.03,
+              "rotation": -89.65,
+              "width": 66,
+              "height": 460
+            }
+          },
+          "lv": {
+            "lv": {
+              "x": 297.21,
+              "y": 8.67,
+              "rotation": -134.18,
+              "width": 458,
+              "height": 487
+            }
+          },
+          "Witch_Rattan1": {
+            "Witch_Rattan1": {
+              "x": 15.22,
+              "y": -0.85,
+              "rotation": -87.83,
+              "width": 18,
+              "height": 35
+            }
+          },
+          "Witch_Rattan2": {
+            "Witch_Rattan2": {
+              "x": 29.96,
+              "y": -1.19,
+              "rotation": -90.29,
+              "width": 28,
+              "height": 62
+            }
+          },
+          "Witch_Rattan3": {
+            "Witch_Rattan1": {
+              "x": 15.22,
+              "y": -0.85,
+              "rotation": -87.83,
+              "width": 18,
+              "height": 35
+            }
+          },
+          "Witch_Rattan4": {
+            "Witch_Rattan2": {
+              "x": 30.19,
+              "y": -1.19,
+              "rotation": -90.29,
+              "width": 28,
+              "height": 62
+            }
+          },
+          "Witch_Rattan5": {
+            "Witch_Rattan1": {
+              "x": 15.22,
+              "y": -0.85,
+              "rotation": -87.83,
+              "width": 18,
+              "height": 35
+            }
+          },
+          "Witch_Rattan6": {
+            "Witch_Rattan2": {
+              "x": 29.96,
+              "y": -1.19,
+              "rotation": -90.29,
+              "width": 28,
+              "height": 62
+            }
+          },
+          "Witch_Rattan7": {
+            "Witch_Rattan1": {
+              "x": 15.22,
+              "y": -0.85,
+              "rotation": -87.83,
+              "width": 18,
+              "height": 35
+            }
+          },
+          "Witch_Rattan8": {
+            "Witch_Rattan2": {
+              "x": 29.96,
+              "y": -1.19,
+              "rotation": -90.29,
+              "width": 28,
+              "height": 62
+            }
+          },
+          "Witch_Rattan9": {
+            "Witch_Rattan1": {
+              "x": 15.22,
+              "y": -0.85,
+              "rotation": -87.83,
+              "width": 18,
+              "height": 35
+            }
+          },
+          "Witch_Rattan10": {
+            "Witch_Rattan1": {
+              "x": 15.22,
+              "y": -0.85,
+              "rotation": -87.83,
+              "width": 18,
+              "height": 35
+            }
+          },
+          "Witch_Rattan11": {
+            "Witch_Rattan1": {
+              "x": 15.22,
+              "y": -0.85,
+              "rotation": -87.83,
+              "width": 18,
+              "height": 35
+            }
+          },
+          "Witch_Rattan12": {
+            "Witch_Rattan1": {
+              "x": 15.22,
+              "y": -0.85,
+              "rotation": -87.83,
+              "width": 18,
+              "height": 35
+            }
+          },
+          "Witch_Rattan13": {
+            "Witch_Rattan1": {
+              "x": 15.22,
+              "y": -0.85,
+              "rotation": -87.83,
+              "width": 18,
+              "height": 35
+            }
+          },
+          "Witch_Rattan14": {
+            "Witch_Rattan1": {
+              "x": 15.22,
+              "y": -0.85,
+              "rotation": -87.83,
+              "width": 18,
+              "height": 35
+            }
+          },
+          "Witch_Rattan15": {
+            "Witch_Rattan2": {
+              "x": 29.96,
+              "y": -1.19,
+              "rotation": -90.29,
+              "width": 28,
+              "height": 62
+            }
+          },
+          "Witch_Rattan16": {
+            "Witch_Rattan2": {
+              "x": 29.96,
+              "y": -1.19,
+              "rotation": -90.29,
+              "width": 28,
+              "height": 62
+            }
+          },
+          "Witch_Rattan17": {
+            "Witch_Rattan2": {
+              "x": 29.96,
+              "y": -1.19,
+              "rotation": -90.29,
+              "width": 28,
+              "height": 62
+            }
+          },
+          "Witch_Rattan18": {
+            "Witch_Rattan1": {
+              "x": 15.22,
+              "y": -0.85,
+              "rotation": -87.83,
+              "width": 18,
+              "height": 35
+            }
+          },
+          "Witch_Rattan19": {
+            "Witch_Rattan1": {
+              "x": 15.22,
+              "y": -0.85,
+              "rotation": -87.83,
+              "width": 18,
+              "height": 35
+            }
+          },
+          "Witch_Rattan20": {
+            "Witch_Rattan1": {
+              "x": 15.22,
+              "y": -0.85,
+              "rotation": -87.83,
+              "width": 18,
+              "height": 35
+            }
+          },
+          "Witch_Rattan21": {
+            "Witch_Rattan1": {
+              "x": 15.22,
+              "y": -0.85,
+              "rotation": -87.83,
+              "width": 18,
+              "height": 35
+            }
+          },
+          "Witch_Rattan22": {
+            "Witch_Rattan2": {
+              "x": 30.19,
+              "y": -1.19,
+              "rotation": -90.29,
+              "width": 28,
+              "height": 62
+            }
+          },
+          "Witch_Rattan23": {
+            "Witch_Rattan2": {
+              "x": 29.96,
+              "y": -1.19,
+              "rotation": -90.29,
+              "width": 28,
+              "height": 62
+            }
+          },
+          "Witch_Rattan24": {
+            "Witch_Rattan1": {
+              "x": 15.22,
+              "y": -0.85,
+              "rotation": -87.83,
+              "width": 18,
+              "height": 35
+            }
+          },
+          "Witch_Rattan25": {
+            "Witch_Rattan1": {
+              "x": 15.22,
+              "y": -0.85,
+              "rotation": -87.83,
+              "width": 18,
+              "height": 35
+            }
+          },
+          "Witch_Rattan26": {
+            "Witch_Rattan2": {
+              "x": 29.96,
+              "y": -1.19,
+              "rotation": -90.29,
+              "width": 28,
+              "height": 62
+            }
+          },
+          "Witch_Rattan27": {
+            "Witch_Rattan1": {
+              "x": 15.22,
+              "y": -0.85,
+              "rotation": -87.83,
+              "width": 18,
+              "height": 35
+            }
+          },
+          "Witch_Rattan28": {
+            "Witch_Rattan1": {
+              "x": 15.22,
+              "y": -0.85,
+              "rotation": -87.83,
+              "width": 18,
+              "height": 35
+            }
+          },
+          "Witch_Rattan29": {
+            "Witch_Rattan2": {
+              "x": 29.96,
+              "y": -1.19,
+              "rotation": -90.29,
+              "width": 28,
+              "height": 62
+            }
+          },
+          "Witch_Rattan30": {
+            "Witch_Rattan2": {
+              "x": 29.96,
+              "y": -1.19,
+              "rotation": -90.29,
+              "width": 28,
+              "height": 62
+            }
+          },
+          "Witch_Rattan31": {
+            "Witch_Rattan1": {
+              "x": 15.22,
+              "y": -0.85,
+              "rotation": -87.83,
+              "width": 18,
+              "height": 35
+            }
+          },
+          "Witch_Rattan32": {
+            "Witch_Rattan1": {
+              "x": 15.22,
+              "y": -0.85,
+              "rotation": -87.83,
+              "width": 18,
+              "height": 35
+            }
+          },
+          "Witch_Rattan33": {
+            "Witch_Rattan1": {
+              "x": 15.22,
+              "y": -0.85,
+              "rotation": -87.83,
+              "width": 18,
+              "height": 35
+            }
+          },
+          "Witch_Rattan34": {
+            "Witch_Rattan1": {
+              "x": 15.22,
+              "y": -0.85,
+              "rotation": -87.83,
+              "width": 18,
+              "height": 35
+            }
+          },
+          "Witch_Rattan35": {
+            "Witch_Rattan1": {
+              "x": 15.22,
+              "y": -0.85,
+              "rotation": -87.83,
+              "width": 18,
+              "height": 35
+            }
+          },
+          "Witch_Rattan36": {
+            "Witch_Rattan1": {
+              "x": 15.22,
+              "y": -0.85,
+              "rotation": -87.83,
+              "width": 18,
+              "height": 35
+            }
+          }
+        }
+      }
+    ],
+    "animations": {
+      "Witch_PassiveSkill1": {
+        "slots": {
+          "Ball": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Di1": {
+            "color": [
+              {
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3667,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffff82"
+              },
+              {
+                "time": 0.8333,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Di2": {
+            "color": [
+              {
+                "color": "625c006d",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6,
+                "color": "625c006d"
+              },
+              {
+                "time": 0.8333,
+                "color": "877f0000"
+              }
+            ],
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "lv": {
+            "color": [
+              {
+                "time": 0.4,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.5333,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "Witch_Rattan2": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.1333,
+                "name": "Witch_Rattan2"
+              }
+            ]
+          },
+          "Witch_Rattan3": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.0667,
+                "name": "Witch_Rattan1"
+              }
+            ]
+          },
+          "Witch_Rattan4": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.1,
+                "name": "Witch_Rattan2"
+              }
+            ]
+          },
+          "Witch_Rattan5": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.0667,
+                "name": "Witch_Rattan1"
+              }
+            ]
+          },
+          "Witch_Rattan6": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.1667,
+                "name": "Witch_Rattan2"
+              }
+            ]
+          },
+          "Witch_Rattan7": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.1667,
+                "name": "Witch_Rattan1"
+              }
+            ]
+          },
+          "Witch_Rattan8": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.1667,
+                "name": "Witch_Rattan2"
+              }
+            ]
+          },
+          "Witch_Rattan9": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.1,
+                "name": "Witch_Rattan1"
+              }
+            ]
+          },
+          "Witch_Rattan10": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.1,
+                "name": "Witch_Rattan1"
+              }
+            ]
+          },
+          "Witch_Rattan11": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.1667,
+                "name": "Witch_Rattan1"
+              }
+            ]
+          },
+          "Witch_Rattan12": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.2,
+                "name": "Witch_Rattan1"
+              }
+            ]
+          },
+          "Witch_Rattan13": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.2667,
+                "name": "Witch_Rattan1"
+              }
+            ]
+          },
+          "Witch_Rattan14": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.3333,
+                "name": "Witch_Rattan1"
+              }
+            ]
+          },
+          "Witch_Rattan15": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.2,
+                "name": "Witch_Rattan2"
+              }
+            ]
+          },
+          "Witch_Rattan16": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.2333,
+                "name": "Witch_Rattan2"
+              }
+            ]
+          },
+          "Witch_Rattan17": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.2667,
+                "name": "Witch_Rattan2"
+              }
+            ]
+          },
+          "Witch_Rattan18": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.3,
+                "name": "Witch_Rattan1"
+              }
+            ]
+          },
+          "Witch_Rattan19": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.2667,
+                "name": "Witch_Rattan1"
+              }
+            ]
+          },
+          "Witch_Rattan20": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.2333,
+                "name": "Witch_Rattan1"
+              }
+            ]
+          },
+          "Witch_Rattan21": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.3333,
+                "name": "Witch_Rattan1"
+              }
+            ]
+          },
+          "Witch_Rattan22": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.0333,
+                "name": "Witch_Rattan2"
+              }
+            ]
+          },
+          "Witch_Rattan23": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.1333,
+                "name": "Witch_Rattan2"
+              }
+            ]
+          },
+          "Witch_Rattan24": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.1333,
+                "name": "Witch_Rattan1"
+              }
+            ]
+          },
+          "Witch_Rattan25": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.0333,
+                "name": "Witch_Rattan1"
+              }
+            ]
+          },
+          "Witch_Rattan26": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.2,
+                "name": "Witch_Rattan2"
+              }
+            ]
+          },
+          "Witch_Rattan27": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.2667,
+                "name": "Witch_Rattan1"
+              }
+            ]
+          },
+          "Witch_Rattan28": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.3,
+                "name": "Witch_Rattan1"
+              }
+            ]
+          },
+          "Witch_Rattan29": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.2667,
+                "name": "Witch_Rattan2"
+              }
+            ]
+          },
+          "Witch_Rattan30": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.2,
+                "name": "Witch_Rattan2"
+              }
+            ]
+          },
+          "Witch_Rattan31": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.2,
+                "name": "Witch_Rattan1"
+              }
+            ]
+          },
+          "Witch_Rattan32": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.1667,
+                "name": "Witch_Rattan1"
+              }
+            ]
+          },
+          "Witch_Rattan33": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.2,
+                "name": "Witch_Rattan1"
+              }
+            ]
+          },
+          "Witch_Rattan34": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.1,
+                "name": "Witch_Rattan1"
+              }
+            ]
+          },
+          "Witch_Rattan35": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.3333,
+                "name": "Witch_Rattan1"
+              }
+            ]
+          },
+          "Witch_Rattan36": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.3,
+                "name": "Witch_Rattan1"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "Witch_Rattan2": {
+            "rotate": [
+              {
+                "angle": -4.14
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.1333,
+                "x": 0.137,
+                "y": 0.137
+              },
+              {
+                "time": 0.2,
+                "x": 1.246,
+                "y": 1.128
+              },
+              {
+                "time": 0.3333,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5667
+              },
+              {
+                "time": 0.6333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan1": {
+            "rotate": [
+              {
+                "angle": -3.15
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.1,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.2,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.4333
+              },
+              {
+                "time": 0.5,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan3": {
+            "rotate": [
+              {
+                "angle": 4.09
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.0667,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.1667,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.2667,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5
+              },
+              {
+                "time": 0.5667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan4": {
+            "scale": [
+              {
+                "time": 0.1,
+                "x": 0.137,
+                "y": 0.137
+              },
+              {
+                "time": 0.2,
+                "x": 1.246,
+                "y": 1.128
+              },
+              {
+                "time": 0.3333,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5333
+              },
+              {
+                "time": 0.6333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan5": {
+            "rotate": [
+              {
+                "angle": -4.47
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.0667,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.1667,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.2667,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5
+              },
+              {
+                "time": 0.5667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan6": {
+            "scale": [
+              {
+                "time": 0.1667,
+                "x": 0.137,
+                "y": 0.137
+              },
+              {
+                "time": 0.2333,
+                "x": 1.246,
+                "y": 1.128
+              },
+              {
+                "time": 0.3667,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5667
+              },
+              {
+                "time": 0.6667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan7": {
+            "rotate": [
+              {
+                "angle": 5.43
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.1667,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.2333,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.3667,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5667
+              },
+              {
+                "time": 0.6667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan8": {
+            "scale": [
+              {
+                "time": 0.1667,
+                "x": 0.137,
+                "y": 0.137
+              },
+              {
+                "time": 0.2333,
+                "x": 1.246,
+                "y": 1.128
+              },
+              {
+                "time": 0.3667,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5667
+              },
+              {
+                "time": 0.6667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan9": {
+            "scale": [
+              {
+                "time": 0.1,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.1667,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.3,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5
+              },
+              {
+                "time": 0.6,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan10": {
+            "scale": [
+              {
+                "time": 0.1,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.1667,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.3,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5
+              },
+              {
+                "time": 0.6,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan11": {
+            "scale": [
+              {
+                "time": 0.1667,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.2667,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.4,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6
+              },
+              {
+                "time": 0.7,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan12": {
+            "rotate": [
+              {
+                "angle": -8.85
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.2,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.2667,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.4,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6333
+              },
+              {
+                "time": 0.7,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan13": {
+            "rotate": [
+              {
+                "angle": 10.49
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.2667,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.3333,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.4667,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.7
+              },
+              {
+                "time": 0.7667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan14": {
+            "rotate": [
+              {
+                "angle": -1.53
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.3333,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.4,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.5333,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.7667
+              },
+              {
+                "time": 0.8333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan15": {
+            "rotate": [
+              {
+                "angle": 2.91
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.2,
+                "x": 0.137,
+                "y": 0.137
+              },
+              {
+                "time": 0.3,
+                "x": 1.246,
+                "y": 1.128
+              },
+              {
+                "time": 0.4333,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6333
+              },
+              {
+                "time": 0.7333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan16": {
+            "scale": [
+              {
+                "time": 0.2333,
+                "x": 0.137,
+                "y": 0.137
+              },
+              {
+                "time": 0.3333,
+                "x": 1.246,
+                "y": 1.128
+              },
+              {
+                "time": 0.4667,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6667
+              },
+              {
+                "time": 0.7667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan17": {
+            "scale": [
+              {
+                "time": 0.2667,
+                "x": 0.137,
+                "y": 0.137
+              },
+              {
+                "time": 0.3667,
+                "x": 1.246,
+                "y": 1.128
+              },
+              {
+                "time": 0.5,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.7
+              },
+              {
+                "time": 0.8,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan18": {
+            "scale": [
+              {
+                "time": 0.3,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.4,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.5,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.7333
+              },
+              {
+                "time": 0.8,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan19": {
+            "rotate": [
+              {
+                "angle": -5.5
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.2667,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.3333,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.4667,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.7
+              },
+              {
+                "time": 0.7667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan20": {
+            "scale": [
+              {
+                "time": 0.2333,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.3333,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.4667,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6667
+              },
+              {
+                "time": 0.7667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan21": {
+            "scale": [
+              {
+                "time": 0.3333,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.4,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.5333,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.7667
+              },
+              {
+                "time": 0.8333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan22": {
+            "scale": [
+              {
+                "time": 0.0333,
+                "x": 0.137,
+                "y": 0.137
+              },
+              {
+                "time": 0.1333,
+                "x": 1.246,
+                "y": 1.128
+              },
+              {
+                "time": 0.2667,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.4667
+              },
+              {
+                "time": 0.5667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan23": {
+            "rotate": [
+              {
+                "angle": -4.32
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.1333,
+                "x": 0.137,
+                "y": 0.137
+              },
+              {
+                "time": 0.2,
+                "x": 1.246,
+                "y": 1.128
+              },
+              {
+                "time": 0.3333,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5667
+              },
+              {
+                "time": 0.6333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan24": {
+            "scale": [
+              {
+                "time": 0.1333,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.2,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.3333,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5667
+              },
+              {
+                "time": 0.6333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan25": {
+            "scale": [
+              {
+                "time": 0.0333,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.1,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.2333,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.4667
+              },
+              {
+                "time": 0.5333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan26": {
+            "scale": [
+              {
+                "time": 0.2,
+                "x": 0.137,
+                "y": 0.137
+              },
+              {
+                "time": 0.3,
+                "x": 1.246,
+                "y": 1.128
+              },
+              {
+                "time": 0.4333,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6333
+              },
+              {
+                "time": 0.7333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan27": {
+            "scale": [
+              {
+                "time": 0.2667,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.3667,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.5,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.7
+              },
+              {
+                "time": 0.8,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan28": {
+            "rotate": [
+              {
+                "angle": 5.41
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.3,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.4,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.5,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.7333
+              },
+              {
+                "time": 0.8,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan29": {
+            "scale": [
+              {
+                "time": 0.2667,
+                "x": 0.137,
+                "y": 0.137
+              },
+              {
+                "time": 0.3333,
+                "x": 1.246,
+                "y": 1.128
+              },
+              {
+                "time": 0.4667,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.7
+              },
+              {
+                "time": 0.7667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan30": {
+            "scale": [
+              {
+                "time": 0.2,
+                "x": 0.137,
+                "y": 0.137
+              },
+              {
+                "time": 0.3,
+                "x": 1.246,
+                "y": 1.128
+              },
+              {
+                "time": 0.4333,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6333
+              },
+              {
+                "time": 0.7333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan31": {
+            "scale": [
+              {
+                "time": 0.2,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.2667,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.4,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6333
+              },
+              {
+                "time": 0.7,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan32": {
+            "rotate": [
+              {
+                "angle": 9.26
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.1667,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.2667,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.4,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6
+              },
+              {
+                "time": 0.7,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan33": {
+            "rotate": [
+              {
+                "angle": -4.16
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.2,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.2667,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.4,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6333
+              },
+              {
+                "time": 0.7,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan34": {
+            "scale": [
+              {
+                "time": 0.1,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.2,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.3333,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5333
+              },
+              {
+                "time": 0.6333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "lv": {
+            "translate": [
+              {
+                "time": 0.0333,
+                "x": -2.57,
+                "y": -15.42
+              },
+              {
+                "time": 0.4,
+                "x": -2.57,
+                "y": -25.71
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.0333,
+                "x": 0.025,
+                "y": 0.86
+              },
+              {
+                "time": 0.4
+              }
+            ]
+          },
+          "di": {
+            "scale": [
+              {
+                "y": 1.069
+              }
+            ]
+          },
+          "Di2": {
+            "rotate": [
+              {
+                "angle": 0.37
+              }
+            ],
+            "scale": [
+              {
+                "x": 0.006,
+                "y": 0.568
+              },
+              {
+                "time": 0.1,
+                "x": 0.14,
+                "y": 0.646
+              },
+              {
+                "time": 0.2333,
+                "x": 0.702,
+                "y": 0.914
+              },
+              {
+                "time": 0.3667
+              }
+            ]
+          },
+          "Witch_Rattan35": {
+            "scale": [
+              {
+                "time": 0.3333,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.4,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.5333,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.7667
+              },
+              {
+                "time": 0.8333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan36": {
+            "rotate": [
+              {
+                "angle": -4.63
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.3,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.4,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.5333,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.7333
+              },
+              {
+                "time": 0.8333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        }
+      },
+      "Witch_PassiveSkill2": {
+        "slots": {
+          "Ball": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Di1": {
+            "color": [
+              {
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3667,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffff82"
+              },
+              {
+                "time": 0.8333,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "Di2": {
+            "color": [
+              {
+                "color": "625c006d",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6,
+                "color": "625c006d"
+              },
+              {
+                "time": 0.8333,
+                "color": "877f0000"
+              }
+            ]
+          },
+          "lv": {
+            "color": [
+              {
+                "time": 0.4,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.5333,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "Witch_Rattan1": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Witch_Rattan2": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Witch_Rattan3": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Witch_Rattan4": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Witch_Rattan5": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Witch_Rattan6": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Witch_Rattan7": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Witch_Rattan8": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Witch_Rattan9": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Witch_Rattan10": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Witch_Rattan11": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Witch_Rattan12": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Witch_Rattan13": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Witch_Rattan14": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Witch_Rattan15": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Witch_Rattan16": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Witch_Rattan17": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Witch_Rattan18": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Witch_Rattan19": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Witch_Rattan20": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Witch_Rattan21": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Witch_Rattan22": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Witch_Rattan23": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Witch_Rattan24": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Witch_Rattan25": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Witch_Rattan26": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Witch_Rattan27": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Witch_Rattan28": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Witch_Rattan29": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Witch_Rattan30": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Witch_Rattan31": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Witch_Rattan32": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Witch_Rattan33": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Witch_Rattan34": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Witch_Rattan35": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Witch_Rattan36": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "Witch_Rattan2": {
+            "rotate": [
+              {
+                "angle": -4.14
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.1333,
+                "x": 0.137,
+                "y": 0.137
+              },
+              {
+                "time": 0.2,
+                "x": 1.246,
+                "y": 1.128
+              },
+              {
+                "time": 0.3333,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5667
+              },
+              {
+                "time": 0.6333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan1": {
+            "rotate": [
+              {
+                "angle": -3.15
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.1,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.2,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.4333
+              },
+              {
+                "time": 0.5,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan3": {
+            "rotate": [
+              {
+                "angle": 4.09
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.0667,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.1667,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.2667,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5
+              },
+              {
+                "time": 0.5667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan4": {
+            "scale": [
+              {
+                "time": 0.1,
+                "x": 0.137,
+                "y": 0.137
+              },
+              {
+                "time": 0.2,
+                "x": 1.246,
+                "y": 1.128
+              },
+              {
+                "time": 0.3333,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5333
+              },
+              {
+                "time": 0.6333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan5": {
+            "rotate": [
+              {
+                "angle": -4.47
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.0667,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.1667,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.2667,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5
+              },
+              {
+                "time": 0.5667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan6": {
+            "scale": [
+              {
+                "time": 0.1667,
+                "x": 0.137,
+                "y": 0.137
+              },
+              {
+                "time": 0.2333,
+                "x": 1.246,
+                "y": 1.128
+              },
+              {
+                "time": 0.3667,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5667
+              },
+              {
+                "time": 0.6667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan7": {
+            "rotate": [
+              {
+                "angle": 5.43
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.2333,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.3667,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5667
+              },
+              {
+                "time": 0.6667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan8": {
+            "scale": [
+              {
+                "time": 0.1667,
+                "x": 0.137,
+                "y": 0.137
+              },
+              {
+                "time": 0.2333,
+                "x": 1.246,
+                "y": 1.128
+              },
+              {
+                "time": 0.3667,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5667
+              },
+              {
+                "time": 0.6667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan9": {
+            "scale": [
+              {
+                "time": 0.1,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.1667,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.3,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5
+              },
+              {
+                "time": 0.6,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan10": {
+            "scale": [
+              {
+                "time": 0.1,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.1667,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.3,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5
+              },
+              {
+                "time": 0.6,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan11": {
+            "scale": [
+              {
+                "time": 0.2667,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.4,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6
+              },
+              {
+                "time": 0.7,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan12": {
+            "rotate": [
+              {
+                "angle": -8.85
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.2667,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.4,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6333
+              },
+              {
+                "time": 0.7,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan13": {
+            "rotate": [
+              {
+                "angle": 10.49
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.3333,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.4667,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.7
+              },
+              {
+                "time": 0.7667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan14": {
+            "rotate": [
+              {
+                "angle": -1.53
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.4,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.5333,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.7667
+              },
+              {
+                "time": 0.8333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan15": {
+            "rotate": [
+              {
+                "angle": 2.91
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.3,
+                "x": 1.246,
+                "y": 1.128
+              },
+              {
+                "time": 0.4333,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6333
+              },
+              {
+                "time": 0.7333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan16": {
+            "scale": [
+              {
+                "time": 0.3333,
+                "x": 1.246,
+                "y": 1.128
+              },
+              {
+                "time": 0.4667,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6667
+              },
+              {
+                "time": 0.7667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan17": {
+            "scale": [
+              {
+                "time": 0.3667,
+                "x": 1.246,
+                "y": 1.128
+              },
+              {
+                "time": 0.5,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.7
+              },
+              {
+                "time": 0.8,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan18": {
+            "scale": [
+              {
+                "time": 0.3,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.4,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.5,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.7333
+              },
+              {
+                "time": 0.8,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan19": {
+            "rotate": [
+              {
+                "angle": -5.5
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.2667,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.3333,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.4667,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.7
+              },
+              {
+                "time": 0.7667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan20": {
+            "scale": [
+              {
+                "time": 0.2333,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.3333,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.4667,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6667
+              },
+              {
+                "time": 0.7667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan21": {
+            "scale": [
+              {
+                "time": 0.3333,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.4,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.5333,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.7667
+              },
+              {
+                "time": 0.8333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan22": {
+            "scale": [
+              {
+                "time": 0.0333,
+                "x": 0.137,
+                "y": 0.137
+              },
+              {
+                "time": 0.1333,
+                "x": 1.246,
+                "y": 1.128
+              },
+              {
+                "time": 0.2667,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.4667
+              },
+              {
+                "time": 0.5667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan23": {
+            "rotate": [
+              {
+                "angle": -4.32
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.1333,
+                "x": 0.137,
+                "y": 0.137
+              },
+              {
+                "time": 0.2,
+                "x": 1.246,
+                "y": 1.128
+              },
+              {
+                "time": 0.3333,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5667
+              },
+              {
+                "time": 0.6333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan24": {
+            "scale": [
+              {
+                "time": 0.1333,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.2,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.3333,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5667
+              },
+              {
+                "time": 0.6333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan25": {
+            "scale": [
+              {
+                "time": 0.0333,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.1,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.2333,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.4667
+              },
+              {
+                "time": 0.5333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan26": {
+            "scale": [
+              {
+                "time": 0.2,
+                "x": 0.137,
+                "y": 0.137
+              },
+              {
+                "time": 0.3,
+                "x": 1.246,
+                "y": 1.128
+              },
+              {
+                "time": 0.4333,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6333
+              },
+              {
+                "time": 0.7333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan27": {
+            "scale": [
+              {
+                "time": 0.2667,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.3667,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.5,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.7
+              },
+              {
+                "time": 0.8,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan28": {
+            "rotate": [
+              {
+                "angle": 5.41
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.3,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.4,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.5,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.7333
+              },
+              {
+                "time": 0.8,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan29": {
+            "scale": [
+              {
+                "time": 0.2667,
+                "x": 0.137,
+                "y": 0.137
+              },
+              {
+                "time": 0.3333,
+                "x": 1.246,
+                "y": 1.128
+              },
+              {
+                "time": 0.4667,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.7
+              },
+              {
+                "time": 0.7667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan30": {
+            "scale": [
+              {
+                "time": 0.2,
+                "x": 0.137,
+                "y": 0.137
+              },
+              {
+                "time": 0.3,
+                "x": 1.246,
+                "y": 1.128
+              },
+              {
+                "time": 0.4333,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6333
+              },
+              {
+                "time": 0.7333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan31": {
+            "scale": [
+              {
+                "time": 0.2,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.2667,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.4,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6333
+              },
+              {
+                "time": 0.7,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan32": {
+            "rotate": [
+              {
+                "angle": 9.26
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.1667,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.2667,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.4,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6
+              },
+              {
+                "time": 0.7,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan33": {
+            "rotate": [
+              {
+                "angle": -4.16
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.2,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.2667,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.4,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6333
+              },
+              {
+                "time": 0.7,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan34": {
+            "scale": [
+              {
+                "time": 0.1,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.2,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.3333,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5333
+              },
+              {
+                "time": 0.6333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "lv": {
+            "translate": [
+              {
+                "time": 0.0333,
+                "x": -2.57,
+                "y": -15.42
+              },
+              {
+                "time": 0.4,
+                "x": -2.57,
+                "y": -25.71
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.0333,
+                "x": 0.025,
+                "y": 0.86
+              },
+              {
+                "time": 0.4
+              }
+            ]
+          },
+          "di": {
+            "scale": [
+              {
+                "y": 1.069
+              }
+            ]
+          },
+          "Di2": {
+            "rotate": [
+              {
+                "angle": 0.37
+              }
+            ],
+            "scale": [
+              {
+                "x": 0.006,
+                "y": 0.568
+              },
+              {
+                "time": 0.1,
+                "x": 0.14,
+                "y": 0.646
+              },
+              {
+                "time": 0.2333,
+                "x": 0.702,
+                "y": 0.914
+              },
+              {
+                "time": 0.3667
+              }
+            ]
+          },
+          "Witch_Rattan35": {
+            "scale": [
+              {
+                "time": 0.3333,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.4,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.5333,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.7667
+              },
+              {
+                "time": 0.8333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Witch_Rattan36": {
+            "rotate": [
+              {
+                "angle": -4.63
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.3,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.4,
+                "x": 1.269,
+                "y": 1.089
+              },
+              {
+                "time": 0.5333,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.7333
+              },
+              {
+                "time": 0.8333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Attack1": {
+            "translate": [
+              {},
+              {
+                "time": 0.0333,
+                "y": 41.8
+              },
+              {
+                "time": 0.0667,
+                "y": 90.81
+              },
+              {
+                "time": 0.1,
+                "y": 142.02
+              },
+              {
+                "time": 0.1667,
+                "y": 450.15
+              },
+              {
+                "time": 0.2,
+                "y": 600.9
+              },
+              {
+                "time": 0.2333,
+                "y": 743.57
+              },
+              {
+                "time": 0.2667,
+                "y": 837.58
+              },
+              {
+                "time": 0.3667,
+                "y": 1070.41
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\r\nWitch_PassiveSkill.png\r\nsize: 292, 270\r\nformat: RGBA8888\r\nfilter: Linear, Linear\r\nrepeat: none\r\nBall\r\n  rotate: true\r\n  xy: 243, 2\r\n  size: 34, 47\r\n  orig: 49, 50\r\n  offset: 8, 2\r\n  index: -1\r\nDi1\r\n  rotate: true\r\n  xy: 2, 4\r\n  size: 35, 223\r\n  orig: 35, 223\r\n  offset: 0, 0\r\n  index: -1\r\nDi2\r\n  rotate: false\r\n  xy: 245, 38\r\n  size: 33, 230\r\n  orig: 33, 230\r\n  offset: 0, 0\r\n  index: -1\r\nWitch_Rattan1\r\n  rotate: false\r\n  xy: 280, 250\r\n  size: 9, 18\r\n  orig: 9, 18\r\n  offset: 0, 0\r\n  index: -1\r\nWitch_Rattan2\r\n  rotate: false\r\n  xy: 227, 8\r\n  size: 14, 31\r\n  orig: 14, 31\r\n  offset: 0, 0\r\n  index: -1\r\nlv\r\n  rotate: true\r\n  xy: 2, 41\r\n  size: 227, 241\r\n  orig: 229, 244\r\n  offset: 0, 3\r\n  index: -1\r\n",
+  "textures": [
+    {
+      "__uuid__": "b05b1024-33d9-449d-a8ee-c24ac1a5673f"
+    }
+  ],
+  "textureNames": [
+    "Witch_PassiveSkill.png"
+  ],
+  "scale": 1
+}

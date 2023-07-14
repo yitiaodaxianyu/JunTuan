@@ -1,0 +1,391 @@
+
+ShengXing.png
+size: 1973,1564
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Fx_RoundLevelUp_00
+  rotate: true
+  xy: 877, 1297
+  size: 267, 256
+  orig: 300, 300
+  offset: 9, 22
+  index: -1
+Fx_RoundLevelUp_01
+  rotate: true
+  xy: 1135, 1306
+  size: 258, 252
+  orig: 300, 300
+  offset: 11, 24
+  index: -1
+Fx_RoundLevelUp_02
+  rotate: true
+  xy: 819, 41
+  size: 283, 275
+  orig: 300, 300
+  offset: 10, 17
+  index: -1
+Fx_RoundLevelUp_03
+  rotate: false
+  xy: 628, 983
+  size: 270, 270
+  orig: 300, 300
+  offset: 17, 18
+  index: -1
+Fx_RoundLevelUp_04
+  rotate: false
+  xy: 1096, 67
+  size: 270, 276
+  orig: 300, 300
+  offset: 18, 16
+  index: -1
+Fx_RoundLevelUp_05
+  rotate: false
+  xy: 900, 1033
+  size: 247, 262
+  orig: 300, 300
+  offset: 25, 22
+  index: -1
+Fx_RoundLevelUp_06
+  rotate: false
+  xy: 1389, 1322
+  size: 223, 242
+  orig: 300, 300
+  offset: 45, 35
+  index: -1
+Fx_RoundLevelUp_07
+  rotate: false
+  xy: 1626, 927
+  size: 197, 189
+  orig: 300, 300
+  offset: 58, 60
+  index: -1
+Fx_RoundLevelUp_08
+  rotate: false
+  xy: 1170, 349
+  size: 176, 176
+  orig: 300, 300
+  offset: 68, 66
+  index: -1
+Fx_RoundLevelUp_09
+  rotate: true
+  xy: 1149, 912
+  size: 147, 153
+  orig: 300, 300
+  offset: 72, 68
+  index: -1
+Fx_RoundLevelUp_10
+  rotate: true
+  xy: 1646, 85
+  size: 138, 136
+  orig: 300, 300
+  offset: 80, 74
+  index: -1
+Fx_RoundLevelUp_11
+  rotate: false
+  xy: 900, 909
+  size: 128, 122
+  orig: 300, 300
+  offset: 88, 79
+  index: -1
+Fx_RoundLevelUp_12
+  rotate: true
+  xy: 1030, 912
+  size: 119, 112
+  orig: 300, 300
+  offset: 93, 84
+  index: -1
+Fx_RoundLevelUp_13
+  rotate: false
+  xy: 1304, 913
+  size: 146, 146
+  orig: 300, 300
+  offset: 79, 77
+  index: -1
+Fx_RoundLevelUp_14
+  rotate: true
+  xy: 1368, 435
+  size: 232, 233
+  orig: 300, 300
+  offset: 35, 35
+  index: -1
+Fx_RoundLevelUp_15
+  rotate: false
+  xy: 901, 652
+  size: 253, 255
+  orig: 300, 300
+  offset: 25, 23
+  index: -1
+Fx_RoundLevelUp_16
+  rotate: false
+  xy: 555, 4
+  size: 262, 262
+  orig: 300, 300
+  offset: 21, 20
+  index: -1
+Fx_RoundLevelUp_17
+  rotate: false
+  xy: 290, 2
+  size: 263, 263
+  orig: 300, 300
+  offset: 20, 19
+  index: -1
+Fx_RoundLevelUp_18
+  rotate: false
+  xy: 1156, 669
+  size: 241, 241
+  orig: 300, 300
+  offset: 31, 31
+  index: -1
+Fx_RoundLevelUp_19
+  rotate: false
+  xy: 1149, 1061
+  size: 241, 243
+  orig: 300, 300
+  offset: 31, 29
+  index: -1
+Fx_RoundLevelUp_20
+  rotate: false
+  xy: 1392, 1084
+  size: 232, 236
+  orig: 300, 300
+  offset: 35, 32
+  index: -1
+Fx_RoundLevelUp_21
+  rotate: false
+  xy: 1399, 695
+  size: 215, 215
+  orig: 300, 300
+  offset: 44, 44
+  index: -1
+Fx_StarLevelUp_00
+  rotate: true
+  xy: 322, 909
+  size: 317, 304
+  orig: 350, 350
+  offset: 6, 19
+  index: -1
+Fx_StarLevelUp_01
+  rotate: true
+  xy: 0, 267
+  size: 306, 300
+  orig: 350, 350
+  offset: 9, 21
+  index: -1
+Fx_StarLevelUp_02
+  rotate: true
+  xy: 0, 1228
+  size: 336, 328
+  orig: 350, 350
+  offset: 7, 13
+  index: -1
+Fx_StarLevelUp_03
+  rotate: false
+  xy: 0, 575
+  size: 321, 321
+  orig: 350, 350
+  offset: 15, 14
+  index: -1
+Fx_StarLevelUp_04
+  rotate: false
+  xy: 0, 898
+  size: 320, 328
+  orig: 350, 350
+  offset: 17, 12
+  index: -1
+Fx_StarLevelUp_05
+  rotate: false
+  xy: 330, 1252
+  size: 294, 312
+  orig: 350, 350
+  offset: 24, 19
+  index: -1
+Fx_StarLevelUp_06
+  rotate: true
+  xy: 0, 0
+  size: 265, 288
+  orig: 350, 350
+  offset: 49, 34
+  index: -1
+Fx_StarLevelUp_07
+  rotate: true
+  xy: 1614, 1330
+  size: 234, 225
+  orig: 350, 350
+  offset: 65, 64
+  index: -1
+Fx_StarLevelUp_08
+  rotate: false
+  xy: 1626, 1118
+  size: 210, 210
+  orig: 350, 350
+  offset: 74, 70
+  index: -1
+Fx_StarLevelUp_09
+  rotate: true
+  xy: 1616, 562
+  size: 175, 183
+  orig: 350, 350
+  offset: 80, 73
+  index: -1
+Fx_StarLevelUp_10
+  rotate: false
+  xy: 1601, 225
+  size: 164, 162
+  orig: 350, 350
+  offset: 90, 81
+  index: -1
+Fx_StarLevelUp_11
+  rotate: true
+  xy: 1825, 935
+  size: 153, 145
+  orig: 350, 350
+  offset: 99, 87
+  index: -1
+Fx_StarLevelUp_12
+  rotate: true
+  xy: 1838, 1090
+  size: 141, 133
+  orig: 350, 350
+  offset: 106, 93
+  index: -1
+Fx_StarLevelUp_13
+  rotate: true
+  xy: 1511, 60
+  size: 140, 133
+  orig: 350, 350
+  offset: 107, 93
+  index: -1
+Fx_StarLevelUp_14
+  rotate: false
+  xy: 1368, 59
+  size: 141, 141
+  orig: 350, 350
+  offset: 106, 101
+  index: -1
+Fx_StarLevelUp_15
+  rotate: false
+  xy: 1626, 739
+  size: 186, 186
+  orig: 350, 350
+  offset: 83, 78
+  index: -1
+Fx_StarLevelUp_16
+  rotate: false
+  xy: 1368, 202
+  size: 231, 231
+  orig: 350, 350
+  offset: 61, 56
+  index: -1
+Fx_StarLevelUp_17
+  rotate: false
+  xy: 892, 345
+  size: 276, 276
+  orig: 350, 350
+  offset: 38, 33
+  index: -1
+Fx_StarLevelUp_18
+  rotate: false
+  xy: 604, 326
+  size: 286, 286
+  orig: 350, 350
+  offset: 32, 29
+  index: -1
+Fx_StarLevelUp_19
+  rotate: false
+  xy: 617, 623
+  size: 282, 284
+  orig: 350, 350
+  offset: 36, 31
+  index: -1
+Fx_StarLevelUp_20
+  rotate: false
+  xy: 302, 268
+  size: 300, 305
+  orig: 350, 350
+  offset: 27, 23
+  index: -1
+Fx_StarLevelUp_21
+  rotate: false
+  xy: 323, 614
+  size: 292, 293
+  orig: 350, 350
+  offset: 33, 23
+  index: -1
+Fx_StarLevelUp_22
+  rotate: false
+  xy: 626, 1255
+  size: 249, 309
+  orig: 350, 350
+  offset: 18, 23
+  index: -1
+Fx_StarLevelUp_23
+  rotate: false
+  xy: 1801, 393
+  size: 171, 229
+  orig: 350, 350
+  offset: 90, 33
+  index: -1
+Fx_StarLevelUp_24
+  rotate: true
+  xy: 1781, 225
+  size: 166, 168
+  orig: 350, 350
+  offset: 90, 98
+  index: -1
+Fx_StarLevelUp_25
+  rotate: true
+  xy: 1452, 912
+  size: 170, 172
+  orig: 350, 350
+  offset: 88, 97
+  index: -1
+Fx_StarLevelUp_26
+  rotate: true
+  xy: 1603, 389
+  size: 171, 176
+  orig: 350, 350
+  offset: 88, 95
+  index: -1
+Fx_StarLevelUp_27
+  rotate: true
+  xy: 1170, 527
+  size: 140, 179
+  orig: 350, 350
+  offset: 120, 94
+  index: -1
+Fx_StarLevelUp_28
+  rotate: false
+  xy: 1825, 754
+  size: 141, 179
+  orig: 350, 350
+  offset: 120, 95
+  index: -1
+Fx_StarLevelUp_29
+  rotate: false
+  xy: 1841, 1399
+  size: 132, 165
+  orig: 350, 350
+  offset: 129, 109
+  index: -1
+Fx_StarLevelUp_30
+  rotate: false
+  xy: 1841, 1233
+  size: 132, 164
+  orig: 350, 350
+  offset: 130, 110
+  index: -1
+Fx_StarLevelUp_31
+  rotate: true
+  xy: 1814, 624
+  size: 128, 159
+  orig: 350, 350
+  offset: 133, 115
+  index: -1
+Fx_StarLevelUp_32
+  rotate: true
+  xy: 1784, 96
+  size: 127, 129
+  orig: 350, 350
+  offset: 134, 145
+  index: -1

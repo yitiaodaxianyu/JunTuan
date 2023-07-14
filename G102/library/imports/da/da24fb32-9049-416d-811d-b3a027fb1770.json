@@ -1,0 +1,108 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "AwakenCultivation",
+  "_objFlags": 0,
+  "_native": "",
+  "json": [
+    {
+      "AwenkenId": 300,
+      "SpiritRarity": 3,
+      "AwakenStage": 0,
+      "CurrentStarVeinsNum": 0,
+      "CurrentStarVeins": [
+        0
+      ],
+      "FetterSkillLevel": 1
+    },
+    {
+      "AwenkenId": 301,
+      "SpiritRarity": 3,
+      "AwakenStage": 1,
+      "CurrentStarVeinsNum": 2,
+      "CurrentStarVeins": [
+        0
+      ],
+      "FetterSkillLevel": 2
+    },
+    {
+      "AwenkenId": 302,
+      "SpiritRarity": 3,
+      "AwakenStage": 2,
+      "CurrentStarVeinsNum": 4,
+      "CurrentStarVeins": [
+        0
+      ],
+      "FetterSkillLevel": 3
+    },
+    {
+      "AwenkenId": 303,
+      "SpiritRarity": 3,
+      "AwakenStage": 3,
+      "CurrentStarVeinsNum": 6,
+      "CurrentStarVeins": [
+        0
+      ],
+      "FetterSkillLevel": 3
+    },
+    {
+      "AwenkenId": 304,
+      "SpiritRarity": 3,
+      "AwakenStage": 4,
+      "CurrentStarVeinsNum": 8,
+      "CurrentStarVeins": [
+        0
+      ],
+      "FetterSkillLevel": 3
+    },
+    {
+      "AwenkenId": 400,
+      "SpiritRarity": 4,
+      "AwakenStage": 0,
+      "CurrentStarVeinsNum": 0,
+      "CurrentStarVeins": [
+        0
+      ],
+      "FetterSkillLevel": 1
+    },
+    {
+      "AwenkenId": 401,
+      "SpiritRarity": 4,
+      "AwakenStage": 1,
+      "CurrentStarVeinsNum": 3,
+      "CurrentStarVeins": [
+        0
+      ],
+      "FetterSkillLevel": 2
+    },
+    {
+      "AwenkenId": 402,
+      "SpiritRarity": 4,
+      "AwakenStage": 2,
+      "CurrentStarVeinsNum": 6,
+      "CurrentStarVeins": [
+        0
+      ],
+      "FetterSkillLevel": 3
+    },
+    {
+      "AwenkenId": 403,
+      "SpiritRarity": 4,
+      "AwakenStage": 3,
+      "CurrentStarVeinsNum": 9,
+      "CurrentStarVeins": [
+        0
+      ],
+      "FetterSkillLevel": 3
+    },
+    {
+      "AwenkenId": 404,
+      "SpiritRarity": 4,
+      "AwakenStage": 4,
+      "CurrentStarVeinsNum": 12,
+      "CurrentStarVeins": [
+        0
+      ],
+      "FetterSkillLevel": 3
+    }
+  ]
+}

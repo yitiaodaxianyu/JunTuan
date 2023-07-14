@@ -1,0 +1,266 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "a_nu_bi_si.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Anubisi_Attack": {
+      "__uuid__": "2cd320b8-cbed-4c13-885e-63d3ce76757d"
+    },
+    "Anubisi_AttackHit_00": {
+      "__uuid__": "19ff66f0-693c-4899-b466-89fa9cb2a816"
+    },
+    "Anubisi_AttackHit_01": {
+      "__uuid__": "e2ef69b4-7317-4c24-8f68-ec17970349e9"
+    },
+    "Anubisi_AttackHit_02": {
+      "__uuid__": "a030f5bc-f22b-462b-8e4b-ee5df39e6f93"
+    },
+    "Anubisi_AttackHit_03": {
+      "__uuid__": "102892a4-026c-40ca-9610-dbe04b89b86e"
+    },
+    "Anubisi_AttackHit_04": {
+      "__uuid__": "a5ace720-a078-4ff0-adc7-b1a6af855ce0"
+    },
+    "Anubisi_AttackHit_05": {
+      "__uuid__": "38368a02-9fcc-4ca4-b5b1-0a617931bc1c"
+    },
+    "Anubisi_AttackHit_06": {
+      "__uuid__": "7834b79c-7e47-475c-af53-32e3bd22b8bc"
+    },
+    "Anubisi_AttackHit_07": {
+      "__uuid__": "746efc1f-2d47-43e9-8502-1524c237b2f6"
+    },
+    "Anubisi_AttackHit_08": {
+      "__uuid__": "327b0efc-a29b-414f-8780-8f03a3485588"
+    },
+    "Anubisi_AttackHit_09": {
+      "__uuid__": "ae279718-e94c-4ad4-8ad0-e4ebacf686d5"
+    },
+    "Anubisi_AttackHit_10": {
+      "__uuid__": "73fedd6b-4e02-4226-ae28-fa113dd3b2d4"
+    },
+    "Anubisi_AttackHit_11": {
+      "__uuid__": "03aad9fa-a7b9-41ee-9158-5414dfae9ae2"
+    },
+    "Anubisi_AttackHit_12": {
+      "__uuid__": "fba0470f-a204-4213-83a8-b27f0b789fd1"
+    },
+    "Anubisi_PassiveHit_00": {
+      "__uuid__": "7d0910a9-df5e-49d6-82bf-db81d5a7b0b5"
+    },
+    "Anubisi_PassiveHit_01": {
+      "__uuid__": "8d9e8a4c-32f2-48cc-ac4b-5c6a64ece44a"
+    },
+    "Anubisi_PassiveHit_02": {
+      "__uuid__": "68817249-0a83-4c01-a36d-adc37a045204"
+    },
+    "Anubisi_PassiveHit_03": {
+      "__uuid__": "9cfa9127-c6d8-4d59-966b-d7f4fdbd1c73"
+    },
+    "Anubisi_PassiveHit_04": {
+      "__uuid__": "9626449a-b61d-4c88-a6b5-958de5aa151d"
+    },
+    "Anubisi_PassiveHit_05": {
+      "__uuid__": "3a75f6ec-902f-4fb4-81ae-4c5a98cab41e"
+    },
+    "Anubisi_PassiveHit_06": {
+      "__uuid__": "84b1fb50-d255-4439-a0d2-5ad7048d621b"
+    },
+    "Anubisi_PassiveHit_07": {
+      "__uuid__": "aa074900-76cb-46de-94d7-ff4b943a68a5"
+    },
+    "Anubisi_PassiveHit_08": {
+      "__uuid__": "879cd9a9-0936-4382-afaf-3383396ecc10"
+    },
+    "Anubisi_PassiveHit_09": {
+      "__uuid__": "411049c6-f10e-44e9-901f-faedf944c0ba"
+    },
+    "Anubisi_Passive_02": {
+      "__uuid__": "3da0bde6-a8e1-4e8d-ad39-acf6819abd52"
+    },
+    "Anubisi_Passive_03": {
+      "__uuid__": "3c1d8511-7ee0-4feb-abcf-b346be10b5d4"
+    },
+    "Anubisi_Passive_04": {
+      "__uuid__": "d07f014b-b518-4019-90c8-525dde6a8238"
+    },
+    "Anubisi_Passive_05": {
+      "__uuid__": "b48a68b5-3dd9-4927-9fcf-4fb2d8f67e21"
+    },
+    "Anubisi_Passive_06": {
+      "__uuid__": "009228be-af5e-4ffb-aa30-b9448c8bfcab"
+    },
+    "Anubisi_Passive_07": {
+      "__uuid__": "a9cb0ce4-57d4-4ab4-9d5b-8be57b19301f"
+    },
+    "Anubisi_Passive_08": {
+      "__uuid__": "1ccb8484-abdf-4b62-a382-87b89444200b"
+    },
+    "Anubisi_Passive_09": {
+      "__uuid__": "a00de416-e05a-4448-bb9b-ab6d51e876b3"
+    },
+    "Anubisi_Passive_10": {
+      "__uuid__": "1b376d12-ed64-4055-97ec-590e1f436a5c"
+    },
+    "Anubisi_Passive_11": {
+      "__uuid__": "f5113b36-33b8-450b-90c5-7045ca0781a3"
+    },
+    "Anubisi_Passive_12": {
+      "__uuid__": "d4ec271c-6233-45f4-86f1-1f12ad72c185"
+    },
+    "Anubisi_Passive_13": {
+      "__uuid__": "e5b11a32-54fc-4593-b158-0ae548085d6a"
+    },
+    "Anubisi_Passive_14": {
+      "__uuid__": "36917967-040d-46ce-a60e-d8595eaba0fd"
+    },
+    "Anubisi_Passive_15": {
+      "__uuid__": "0181dac8-62f0-4c76-9eb4-8b61ba52d132"
+    },
+    "Anubisi_Passive_16": {
+      "__uuid__": "10116aa7-195d-4ca0-8564-e2d25bc0ad48"
+    },
+    "Anubisi_Passive_17": {
+      "__uuid__": "d05cbfb3-a42e-4598-92c7-70892c67227b"
+    },
+    "Anubisi_Passive_18": {
+      "__uuid__": "0918b8a6-5932-4439-80ac-81ada8c418d7"
+    },
+    "Anubisi_Skill_00": {
+      "__uuid__": "68129a3d-1209-418f-a2c8-d8b6877c8988"
+    },
+    "Anubisi_Skill_01": {
+      "__uuid__": "a538aa6c-a7be-45c5-858e-c1e0615b7c95"
+    },
+    "Anubisi_Skill_02": {
+      "__uuid__": "b84ddc12-72c9-40f0-859b-bb1a3f3adcb7"
+    },
+    "Anubisi_Skill_03": {
+      "__uuid__": "b9775163-0ffd-4859-bb74-d2213e29f48b"
+    },
+    "Anubisi_Skill_04": {
+      "__uuid__": "774fe0e6-fc98-4a77-a99a-0fab326eadda"
+    },
+    "Anubisi_Skill_05": {
+      "__uuid__": "cee6e94e-b75c-4fea-b3b5-f36bbc9e7bb6"
+    },
+    "Anubisi_Skill_06": {
+      "__uuid__": "4bfe7d2b-d3c1-47e7-b5e4-c865f7d030fe"
+    },
+    "Anubisi_Skill_07": {
+      "__uuid__": "277076f0-aa0d-4c57-88fb-cc36cc53dfc6"
+    },
+    "Anubisi_Skill_08": {
+      "__uuid__": "cae0aee7-0cd9-43c0-8a98-3d2b9c1c3008"
+    },
+    "Anubisi_Skill_09": {
+      "__uuid__": "1d08e592-c6e0-44b3-862c-a86d36924582"
+    },
+    "Anubisi_Skill_10": {
+      "__uuid__": "17199756-bb39-4da1-9bda-3ab985b16c8e"
+    },
+    "Anubisi_Skill_11": {
+      "__uuid__": "51551edc-8153-4265-9caf-69f8b119b474"
+    },
+    "Anubisi_Skill_12": {
+      "__uuid__": "446f93d2-86fb-4b16-96ee-0bef9165f628"
+    },
+    "Anubisi_Skill_13": {
+      "__uuid__": "8bd9d0d2-0ebd-4858-8e38-4908185dd69a"
+    },
+    "Anubisi_Skill_14": {
+      "__uuid__": "0e354bbd-836d-48f8-b0e0-35840383e491"
+    },
+    "Anubisi_Skill_15": {
+      "__uuid__": "0abad091-c68a-4dc1-ba5f-d6e88ac3f1dc"
+    },
+    "Anubisi_Skill_16": {
+      "__uuid__": "e91dbf68-3f05-41b4-9699-2a3f84b91a56"
+    },
+    "Anubisi_Skill_17": {
+      "__uuid__": "07a62ccc-6e7e-42b6-a36d-f753d4f8875d"
+    },
+    "Anubisi_Skill_18": {
+      "__uuid__": "694d21ae-356a-47e5-b14f-ae8576fa1c8a"
+    },
+    "Anubisi_Skill_19": {
+      "__uuid__": "b82ddee7-5278-47ab-a1a4-34e4c7a2aa9e"
+    },
+    "Anubisi_Skill_20": {
+      "__uuid__": "9fef5322-f206-47cc-92a1-4a68b2928adb"
+    },
+    "Anubisi_Skill_21": {
+      "__uuid__": "76824712-8228-48fe-b6f3-8c363986c9da"
+    },
+    "Anubisi_Skill_2_00": {
+      "__uuid__": "737b4064-e7e5-4d20-9545-cc0ba9efe38c"
+    },
+    "Anubisi_Skill_2_01": {
+      "__uuid__": "d0a19733-7b75-4dff-a40b-096b7b4d8e50"
+    },
+    "Anubisi_Skill_2_02": {
+      "__uuid__": "ea177bbc-09b5-4b42-bd6b-f2fccccde5cb"
+    },
+    "Anubisi_Skill_2_03": {
+      "__uuid__": "fc2d1c4a-194f-4f2b-aec3-50e0e61379f3"
+    },
+    "Anubisi_Skill_2_04": {
+      "__uuid__": "0fb494d6-0287-424b-8e62-90a71907f458"
+    },
+    "Anubisi_Skill_2_05": {
+      "__uuid__": "7439adb6-1d4f-4d17-a3c3-ff45bbde367e"
+    },
+    "Anubisi_Skill_2_06": {
+      "__uuid__": "efaa4fa7-6a71-4201-91f3-3a7477337fdf"
+    },
+    "Anubisi_Skill_2_07": {
+      "__uuid__": "4955d067-b1ed-4d28-98fd-d90a918aa754"
+    },
+    "Anubisi_Skill_2_08": {
+      "__uuid__": "1aa29c13-6a71-4bcc-9c1c-395ed1556d01"
+    },
+    "Anubisi_Skill_2_09": {
+      "__uuid__": "0f107f4e-26b0-4243-ba8c-418a018d83da"
+    },
+    "Anubisi_Skill_2_10": {
+      "__uuid__": "fbdc26a7-5d90-43bd-b35b-8b1cc7a71f31"
+    },
+    "Anubisi_Skill_2_11": {
+      "__uuid__": "7d9e0009-921f-47b8-8f07-e8d97844cea4"
+    },
+    "Anubisi_Skill_3": {
+      "__uuid__": "b27e5940-f7bc-4a22-95ef-cd8b3bd32811"
+    },
+    "Anubisi_Skill_4_00": {
+      "__uuid__": "cd9cc6a6-6ca4-42e9-bb88-11cb3f98661d"
+    },
+    "Anubisi_Skill_4_01": {
+      "__uuid__": "198963a1-4211-47d4-8bbd-e514d9676834"
+    },
+    "Anubisi_Skill_4_02": {
+      "__uuid__": "ae987ed6-142a-4b8f-a09b-33f646430263"
+    },
+    "Anubisi_Skill_4_03": {
+      "__uuid__": "72f31d15-0ff9-43d4-b7d8-0a7c057f357e"
+    },
+    "Anubisi_Skill_4_04": {
+      "__uuid__": "b66c0a46-00f4-42e6-9d6f-228dc2f5159c"
+    },
+    "Anubisi_Skill_4_05": {
+      "__uuid__": "05eeb620-dc6a-4cd1-ba0b-c94057b46785"
+    },
+    "Anubisi_Skill_4_06": {
+      "__uuid__": "314a190b-a808-43b6-b9e3-c28568da7887"
+    },
+    "Anubisi_Skill_4_07": {
+      "__uuid__": "151b647a-11e1-4198-b531-3511c9ffaf30"
+    },
+    "Anubisi_Skill_4_08": {
+      "__uuid__": "f6fa5b67-1b3a-4ceb-a34d-6e5320124f18"
+    },
+    "Anubisi_Skill_4_09": {
+      "__uuid__": "7da4c274-d1ef-4c58-92dc-79cbfb37d31f"
+    }
+  }
+}

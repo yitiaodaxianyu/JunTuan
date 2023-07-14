@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "MeiMo_Skill_1_06",
+    "texture": "557dec60-f21a-44f8-a667-3ddda9643ed0",
+    "atlas": "9e5caf72-927a-41b6-858d-c2b7c253518e",
+    "rect": [
+      2,
+      1728,
+      240,
+      240
+    ],
+    "offset": [
+      3,
+      -5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

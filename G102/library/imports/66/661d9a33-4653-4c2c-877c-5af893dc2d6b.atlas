@@ -1,0 +1,755 @@
+
+Boss12.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BingNv_Passive2
+  rotate: false
+  xy: 753, 1018
+  size: 31, 81
+  orig: 33, 83
+  offset: 1, 1
+  index: -1
+Body
+  rotate: true
+  xy: 1702, 1165
+  size: 192, 258
+  orig: 192, 258
+  offset: 0, 0
+  index: -1
+Boss12_Attack
+  rotate: true
+  xy: 1105, 1363
+  size: 56, 63
+  orig: 56, 63
+  offset: 0, 0
+  index: -1
+Boss12_Dead_00
+  rotate: true
+  xy: 1146, 1131
+  size: 40, 19
+  orig: 270, 270
+  offset: 107, 140
+  index: -1
+Boss12_Dead_01
+  rotate: false
+  xy: 1091, 1137
+  size: 51, 34
+  orig: 270, 270
+  offset: 100, 131
+  index: -1
+Boss12_Dead_02
+  rotate: false
+  xy: 1968, 1491
+  size: 67, 48
+  orig: 270, 270
+  offset: 99, 119
+  index: -1
+Boss12_Dead_03
+  rotate: true
+  xy: 760, 1103
+  size: 78, 56
+  orig: 270, 270
+  offset: 92, 111
+  index: -1
+Boss12_Dead_04
+  rotate: true
+  xy: 769, 1231
+  size: 88, 61
+  orig: 270, 270
+  offset: 86, 107
+  index: -1
+Boss12_Dead_05
+  rotate: true
+  xy: 186, 149
+  size: 95, 157
+  orig: 270, 270
+  offset: 82, 15
+  index: -1
+Boss12_Dead_06
+  rotate: false
+  xy: 1934, 804
+  size: 107, 172
+  orig: 270, 270
+  offset: 79, 6
+  index: -1
+Boss12_Dead_07
+  rotate: true
+  xy: 230, 538
+  size: 115, 219
+  orig: 270, 270
+  offset: 73, 6
+  index: -1
+Boss12_Dead_08
+  rotate: true
+  xy: 1168, 627
+  size: 133, 227
+  orig: 270, 270
+  offset: 63, 5
+  index: -1
+Boss12_Dead_09
+  rotate: false
+  xy: 1891, 241
+  size: 148, 225
+  orig: 270, 270
+  offset: 55, 0
+  index: -1
+Boss12_Dead_10
+  rotate: true
+  xy: 1655, 614
+  size: 159, 235
+  orig: 270, 270
+  offset: 47, 0
+  index: -1
+Boss12_Dead_11
+  rotate: true
+  xy: 1169, 764
+  size: 168, 240
+  orig: 270, 270
+  offset: 42, 3
+  index: -1
+Boss12_Dead_12
+  rotate: true
+  xy: 1669, 777
+  size: 188, 244
+  orig: 270, 270
+  offset: 39, 0
+  index: -1
+Boss12_Dead_13
+  rotate: true
+  xy: 4, 697
+  size: 197, 251
+  orig: 270, 270
+  offset: 38, 0
+  index: -1
+Boss12_Dead_14
+  rotate: true
+  xy: 497, 922
+  size: 203, 252
+  orig: 270, 270
+  offset: 34, 0
+  index: -1
+Boss12_Dead_15
+  rotate: true
+  xy: 1439, 1334
+  size: 207, 259
+  orig: 270, 270
+  offset: 32, 1
+  index: -1
+Boss12_Dead_16
+  rotate: true
+  xy: 950, 544
+  size: 207, 214
+  orig: 270, 270
+  offset: 30, 25
+  index: -1
+Boss12_Dead_17
+  rotate: true
+  xy: 1413, 578
+  size: 209, 238
+  orig: 270, 270
+  offset: 26, 9
+  index: -1
+Boss12_Dead_18
+  rotate: false
+  xy: 1613, 248
+  size: 211, 158
+  orig: 270, 270
+  offset: 23, 66
+  index: -1
+Boss12_Dead_19
+  rotate: false
+  xy: 230, 372
+  size: 212, 162
+  orig: 270, 270
+  offset: 21, 68
+  index: -1
+Boss12_Dead_20
+  rotate: false
+  xy: 453, 401
+  size: 213, 167
+  orig: 270, 270
+  offset: 18, 67
+  index: -1
+Boss12_Dead_21
+  rotate: false
+  xy: 486, 572
+  size: 221, 168
+  orig: 270, 270
+  offset: 13, 65
+  index: -1
+Boss12_Dead_22
+  rotate: false
+  xy: 496, 744
+  size: 225, 174
+  orig: 270, 270
+  offset: 10, 61
+  index: -1
+Boss12_Dead_23
+  rotate: false
+  xy: 265, 873
+  size: 227, 178
+  orig: 270, 270
+  offset: 9, 63
+  index: -1
+Boss12_Dead_24
+  rotate: false
+  xy: 753, 763
+  size: 231, 166
+  orig: 270, 270
+  offset: 8, 68
+  index: -1
+Boss12_Dead_25
+  rotate: false
+  xy: 1421, 791
+  size: 244, 198
+  orig: 270, 270
+  offset: 4, 41
+  index: -1
+Boss12_Dead_26
+  rotate: false
+  xy: 1169, 936
+  size: 248, 197
+  orig: 270, 270
+  offset: 0, 41
+  index: -1
+Boss12_Dead_27
+  rotate: false
+  xy: 1682, 969
+  size: 248, 192
+  orig: 270, 270
+  offset: 0, 41
+  index: -1
+Boss12_Dead_28
+  rotate: false
+  xy: 1429, 993
+  size: 249, 192
+  orig: 270, 270
+  offset: 0, 41
+  index: -1
+Boss12_Dead_29
+  rotate: false
+  xy: 1171, 1137
+  size: 254, 193
+  orig: 270, 270
+  offset: 0, 41
+  index: -1
+Boss12_Dead_30
+  rotate: false
+  xy: 499, 1129
+  size: 257, 189
+  orig: 270, 270
+  offset: 0, 46
+  index: -1
+Boss12_Dead_31
+  rotate: false
+  xy: 843, 1235
+  size: 258, 184
+  orig: 270, 270
+  offset: 0, 54
+  index: -1
+Boss12_Dead_32
+  rotate: false
+  xy: 1704, 1361
+  size: 260, 184
+  orig: 270, 270
+  offset: 0, 61
+  index: -1
+Boss12_Dead_33
+  rotate: false
+  xy: 834, 1057
+  size: 253, 174
+  orig: 270, 270
+  offset: 10, 68
+  index: -1
+Boss12_Dead_34
+  rotate: false
+  xy: 4, 898
+  size: 257, 176
+  orig: 270, 270
+  offset: 8, 67
+  index: -1
+Boss12_Dead_35
+  rotate: false
+  xy: 4, 1078
+  size: 257, 181
+  orig: 270, 270
+  offset: 8, 65
+  index: -1
+Boss12_Dead_36
+  rotate: false
+  xy: 1704, 1549
+  size: 261, 184
+  orig: 270, 270
+  offset: 6, 64
+  index: -1
+Boss12_Dead_37
+  rotate: false
+  xy: 1439, 1545
+  size: 261, 188
+  orig: 270, 270
+  offset: 9, 62
+  index: -1
+Boss12_Dead_38
+  rotate: false
+  xy: 1173, 1334
+  size: 259, 185
+  orig: 270, 270
+  offset: 10, 61
+  index: -1
+Boss12_Dead_39
+  rotate: false
+  xy: 1655, 410
+  size: 232, 200
+  orig: 270, 270
+  offset: 16, 57
+  index: -1
+Boss12_Dead_40
+  rotate: false
+  xy: 259, 657
+  size: 223, 212
+  orig: 270, 270
+  offset: 24, 54
+  index: -1
+Boss12_Dead_41
+  rotate: true
+  xy: 1391, 362
+  size: 212, 218
+  orig: 270, 270
+  offset: 37, 52
+  index: -1
+Boss12_Dead_42
+  rotate: true
+  xy: 725, 562
+  size: 197, 221
+  orig: 270, 270
+  offset: 53, 48
+  index: -1
+Boss12_Dead_43
+  rotate: true
+  xy: 1168, 431
+  size: 192, 219
+  orig: 270, 270
+  offset: 58, 45
+  index: -1
+Boss12_Dead_44
+  rotate: true
+  xy: 4, 497
+  size: 196, 222
+  orig: 270, 270
+  offset: 55, 42
+  index: -1
+Boss12_Dead_45
+  rotate: true
+  xy: 265, 1055
+  size: 204, 228
+  orig: 270, 270
+  offset: 47, 40
+  index: -1
+Boss12_Dead_46
+  rotate: true
+  xy: 4, 354
+  size: 139, 212
+  orig: 270, 270
+  offset: 46, 39
+  index: -1
+Boss12_Dead_47
+  rotate: false
+  xy: 1917, 593
+  size: 127, 207
+  orig: 270, 270
+  offset: 56, 40
+  index: -1
+Boss12_Dead_48
+  rotate: true
+  xy: 220, 248
+  size: 120, 182
+  orig: 270, 270
+  offset: 58, 42
+  index: -1
+Boss12_Dead_49
+  rotate: false
+  xy: 1060, 4
+  size: 98, 101
+  orig: 270, 270
+  offset: 80, 42
+  index: -1
+Boss12_Dead_50
+  rotate: false
+  xy: 1968, 1404
+  size: 66, 83
+  orig: 270, 270
+  offset: 104, 45
+  index: -1
+Boss12_Dead_51
+  rotate: true
+  xy: 1105, 1256
+  size: 49, 60
+  orig: 270, 270
+  offset: 113, 46
+  index: -1
+Boss12_Dead_52
+  rotate: false
+  xy: 2040, 1618
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+Boss12_Dead_53
+  rotate: false
+  xy: 2040, 1618
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+Boss12_Dead_54
+  rotate: false
+  xy: 2040, 1618
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+Dao_1
+  rotate: false
+  xy: 1934, 980
+  size: 108, 105
+  orig: 108, 105
+  offset: 0, 0
+  index: -1
+Dao_2
+  rotate: false
+  xy: 499, 1592
+  size: 342, 141
+  orig: 342, 141
+  offset: 0, 0
+  index: -1
+Dao_3
+  rotate: false
+  xy: 1429, 1189
+  size: 250, 141
+  orig: 342, 141
+  offset: 92, 0
+  index: -1
+FX_Fire_00
+  rotate: true
+  xy: 769, 1323
+  size: 33, 62
+  orig: 162, 162
+  offset: 65, 0
+  index: -1
+FX_Fire_01
+  rotate: false
+  xy: 769, 1360
+  size: 70, 134
+  orig: 162, 162
+  offset: 45, 3
+  index: -1
+FX_Fire_02
+  rotate: true
+  xy: 1305, 165
+  size: 82, 137
+  orig: 162, 162
+  offset: 38, 9
+  index: -1
+FX_Fire_03
+  rotate: true
+  xy: 1162, 100
+  size: 88, 133
+  orig: 162, 162
+  offset: 36, 19
+  index: -1
+FX_Fire_04
+  rotate: false
+  xy: 714, 99
+  size: 87, 127
+  orig: 162, 162
+  offset: 35, 27
+  index: -1
+FX_Fire_05
+  rotate: false
+  xy: 1067, 109
+  size: 91, 128
+  orig: 162, 162
+  offset: 34, 29
+  index: -1
+FX_Fire_06
+  rotate: false
+  xy: 1080, 426
+  size: 83, 114
+  orig: 162, 162
+  offset: 39, 42
+  index: -1
+FX_ZiLiao_00_01
+  rotate: false
+  xy: 1683, 1312
+  size: 14, 18
+  orig: 216, 216
+  offset: 59, 9
+  index: -1
+FX_ZiLiao_00_02
+  rotate: false
+  xy: 1143, 1099
+  size: 18, 28
+  orig: 216, 216
+  offset: 57, 26
+  index: -1
+FX_ZiLiao_00_03
+  rotate: true
+  xy: 1969, 1623
+  size: 110, 73
+  orig: 216, 216
+  offset: 55, 9
+  index: -1
+FX_ZiLiao_00_04
+  rotate: true
+  xy: 1964, 1200
+  size: 112, 80
+  orig: 216, 216
+  offset: 55, 28
+  index: -1
+FX_ZiLiao_00_05
+  rotate: false
+  xy: 1497, 233
+  size: 112, 125
+  orig: 216, 216
+  offset: 55, 9
+  index: -1
+FX_ZiLiao_00_06
+  rotate: true
+  xy: 1164, 192
+  size: 113, 137
+  orig: 216, 216
+  offset: 55, 22
+  index: -1
+FX_ZiLiao_00_07
+  rotate: true
+  xy: 988, 755
+  size: 114, 176
+  orig: 216, 216
+  offset: 55, 9
+  index: -1
+FX_ZiLiao_00_08
+  rotate: true
+  xy: 446, 285
+  size: 112, 187
+  orig: 216, 216
+  offset: 57, 16
+  index: -1
+FX_ZiLiao_00_09
+  rotate: true
+  xy: 4, 255
+  size: 95, 182
+  orig: 216, 216
+  offset: 72, 8
+  index: -1
+FX_ZiLiao_00_10
+  rotate: true
+  xy: 406, 194
+  size: 87, 169
+  orig: 216, 216
+  offset: 72, 22
+  index: -1
+FX_ZiLiao_00_11
+  rotate: false
+  xy: 1078, 241
+  size: 82, 181
+  orig: 216, 216
+  offset: 72, 9
+  index: -1
+FX_ZiLiao_00_12
+  rotate: true
+  xy: 670, 316
+  size: 82, 190
+  orig: 216, 216
+  offset: 72, 21
+  index: -1
+FX_ZiLiao_00_13
+  rotate: true
+  xy: 637, 230
+  size: 82, 170
+  orig: 216, 216
+  offset: 72, 45
+  index: -1
+FX_ZiLiao_00_14
+  rotate: true
+  xy: 579, 144
+  size: 82, 131
+  orig: 216, 216
+  offset: 72, 71
+  index: -1
+FX_ZiLiao_00_15
+  rotate: true
+  xy: 950, 171
+  size: 81, 113
+  orig: 216, 216
+  offset: 73, 96
+  index: -1
+FX_ZiLiao_00_16
+  rotate: false
+  xy: 1091, 1023
+  size: 45, 79
+  orig: 216, 216
+  offset: 108, 122
+  index: -1
+FX_ZiLiao_00_17
+  rotate: true
+  xy: 760, 1185
+  size: 42, 58
+  orig: 216, 216
+  offset: 104, 142
+  index: -1
+FX_ZiLiao_00_18
+  rotate: true
+  xy: 1091, 1106
+  size: 27, 48
+  orig: 216, 216
+  offset: 102, 163
+  index: -1
+Head
+  rotate: false
+  xy: 1173, 1523
+  size: 262, 210
+  orig: 262, 210
+  offset: 0, 0
+  index: -1
+Mao
+  rotate: false
+  xy: 1167, 309
+  size: 183, 118
+  orig: 183, 118
+  offset: 0, 0
+  index: -1
+Qiang
+  rotate: true
+  xy: 4, 93
+  size: 158, 178
+  orig: 158, 178
+  offset: 0, 0
+  index: -1
+XiaBai
+  rotate: false
+  xy: 788, 933
+  size: 241, 120
+  orig: 241, 120
+  offset: 0, 0
+  index: -1
+YiLing
+  rotate: true
+  xy: 950, 71
+  size: 96, 106
+  orig: 96, 106
+  offset: 0, 0
+  index: -1
+YiLing_2
+  rotate: false
+  xy: 1968, 1316
+  size: 63, 84
+  orig: 65, 85
+  offset: 0, 1
+  index: -1
+YiLing_3
+  rotate: false
+  xy: 876, 458
+  size: 200, 82
+  orig: 200, 82
+  offset: 0, 0
+  index: -1
+YouBi
+  rotate: false
+  xy: 1964, 1089
+  size: 80, 107
+  orig: 80, 107
+  offset: 0, 0
+  index: -1
+YouJian
+  rotate: true
+  xy: 769, 1498
+  size: 90, 72
+  orig: 90, 72
+  offset: 0, 0
+  index: -1
+YouJiao
+  rotate: true
+  xy: 1354, 251
+  size: 107, 139
+  orig: 107, 139
+  offset: 0, 0
+  index: -1
+YouShou
+  rotate: true
+  xy: 1891, 470
+  size: 119, 149
+  orig: 119, 149
+  offset: 0, 0
+  index: -1
+YouShou_1
+  rotate: false
+  xy: 1105, 1175
+  size: 58, 77
+  orig: 58, 77
+  offset: 0, 0
+  index: -1
+YouShou_2
+  rotate: true
+  xy: 811, 152
+  size: 100, 135
+  orig: 102, 136
+  offset: 1, 0
+  index: -1
+ZuoJian
+  rotate: true
+  xy: 1969, 1543
+  size: 76, 67
+  orig: 76, 67
+  offset: 0, 0
+  index: -1
+ZuoJiao
+  rotate: true
+  xy: 1033, 873
+  size: 146, 132
+  orig: 146, 132
+  offset: 0, 0
+  index: -1
+ZuoShou
+  rotate: true
+  xy: 670, 402
+  size: 156, 202
+  orig: 156, 203
+  offset: 0, 0
+  index: -1
+ZuoShou_1
+  rotate: false
+  xy: 1105, 1309
+  size: 62, 50
+  orig: 62, 50
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 876, 256
+  size: 198, 198
+  orig: 276, 276
+  offset: 41, 37
+  index: -1
+light1
+  rotate: true
+  xy: 845, 1423
+  size: 310, 324
+  orig: 324, 324
+  offset: 12, 0
+  index: -1
+ring
+  rotate: false
+  xy: 499, 1322
+  size: 266, 266
+  orig: 276, 276
+  offset: 5, 5
+  index: -1
+xian
+  rotate: false
+  xy: 4, 1263
+  size: 491, 470
+  orig: 540, 540
+  offset: 31, 33
+  index: -1

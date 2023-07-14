@@ -1,0 +1,58 @@
+[
+  {
+    "SpiritType": 1,
+    "SpiritName": 470001,
+    "InitialQuality": 3,
+    "StageLimit": 13,
+    "ActiveSkillsIntro": 610001,
+    "SpiritSkillName": 600001
+  },
+  {
+    "SpiritType": 2,
+    "SpiritName": 470002,
+    "InitialQuality": 3,
+    "StageLimit": 13,
+    "ActiveSkillsIntro": 610002,
+    "SpiritSkillName": 600002
+  },
+  {
+    "SpiritType": 3,
+    "SpiritName": 470003,
+    "InitialQuality": 3,
+    "StageLimit": 13,
+    "ActiveSkillsIntro": 610003,
+    "SpiritSkillName": 600003
+  },
+  {
+    "SpiritType": 4,
+    "SpiritName": 470004,
+    "InitialQuality": 3,
+    "StageLimit": 13,
+    "ActiveSkillsIntro": 610004,
+    "SpiritSkillName": 600004
+  },
+  {
+    "SpiritType": 5,
+    "SpiritName": 470005,
+    "InitialQuality": 3,
+    "StageLimit": 13,
+    "ActiveSkillsIntro": 610005,
+    "SpiritSkillName": 600005
+  },
+  {
+    "SpiritType": 6,
+    "SpiritName": 470006,
+    "InitialQuality": 3,
+    "StageLimit": 13,
+    "ActiveSkillsIntro": 610006,
+    "SpiritSkillName": 600006
+  },
+  {
+    "SpiritType": 7,
+    "SpiritName": 470007,
+    "InitialQuality": 3,
+    "StageLimit": 13,
+    "ActiveSkillsIntro": 610007,
+    "SpiritSkillName": 600007
+  }
+]

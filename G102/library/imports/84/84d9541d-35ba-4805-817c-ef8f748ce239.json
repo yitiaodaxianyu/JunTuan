@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Comic_4",
+    "texture": "ab120149-f2e2-4f53-be44-eeae069564fc",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      844,
+      384
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      844,
+      384
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

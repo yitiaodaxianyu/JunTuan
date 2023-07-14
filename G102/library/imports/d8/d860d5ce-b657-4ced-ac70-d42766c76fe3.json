@@ -1,0 +1,99 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "SpiritCultivate",
+  "_objFlags": 0,
+  "_native": "",
+  "json": [
+    {
+      "Stage": 1,
+      "FoodCost": 220,
+      "CoinCost": 6000,
+      "CoinSpirit": 0,
+      "DiamondCost": 0
+    },
+    {
+      "Stage": 2,
+      "FoodCost": 380,
+      "CoinCost": 9000,
+      "CoinSpirit": 0,
+      "DiamondCost": 0
+    },
+    {
+      "Stage": 3,
+      "FoodCost": 650,
+      "CoinCost": 12000,
+      "CoinSpirit": 0,
+      "DiamondCost": 0
+    },
+    {
+      "Stage": 4,
+      "FoodCost": 950,
+      "CoinCost": 15000,
+      "CoinSpirit": 0,
+      "DiamondCost": 0
+    },
+    {
+      "Stage": 5,
+      "FoodCost": 1500,
+      "CoinCost": 20000,
+      "CoinSpirit": 0,
+      "DiamondCost": 0
+    },
+    {
+      "Stage": 6,
+      "FoodCost": 0,
+      "CoinCost": 0,
+      "CoinSpirit": 3,
+      "DiamondCost": 600
+    },
+    {
+      "Stage": 7,
+      "FoodCost": 2500,
+      "CoinCost": 33000,
+      "CoinSpirit": 0,
+      "DiamondCost": 0
+    },
+    {
+      "Stage": 8,
+      "FoodCost": 3500,
+      "CoinCost": 45000,
+      "CoinSpirit": 0,
+      "DiamondCost": 0
+    },
+    {
+      "Stage": 9,
+      "FoodCost": 4800,
+      "CoinCost": 57000,
+      "CoinSpirit": 0,
+      "DiamondCost": 0
+    },
+    {
+      "Stage": 10,
+      "FoodCost": 6200,
+      "CoinCost": 73000,
+      "CoinSpirit": 0,
+      "DiamondCost": 0
+    },
+    {
+      "Stage": 11,
+      "FoodCost": 8000,
+      "CoinCost": 96000,
+      "CoinSpirit": 0,
+      "DiamondCost": 0
+    },
+    {
+      "Stage": 12,
+      "FoodCost": 0,
+      "CoinCost": 0,
+      "CoinSpirit": 10,
+      "DiamondCost": 1200
+    },
+    {
+      "Stage": 13,
+      "FoodCost": 0,
+      "CoinCost": 0,
+      "CoinSpirit": 0,
+      "DiamondCost": 0
+    }
+  ]
+}

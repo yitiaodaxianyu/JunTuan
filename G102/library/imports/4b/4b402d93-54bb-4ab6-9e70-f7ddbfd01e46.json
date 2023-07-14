@@ -1,0 +1,89 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "rank_ui.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Rank_Bg_0": {
+      "__uuid__": "1594716f-5cc9-47c8-818e-1170f3b08d71"
+    },
+    "Rank_Bg_1": {
+      "__uuid__": "87ef15b8-5e8c-4b80-81a7-43beebe991d6"
+    },
+    "Rank_Bg_2": {
+      "__uuid__": "9dd7d289-e29e-4ef4-99e1-6db6800d121f"
+    },
+    "Rank_Bg_3": {
+      "__uuid__": "32437dfb-1af0-4cf4-b828-0920be152d0c"
+    },
+    "Rank_Bg_4": {
+      "__uuid__": "f0f7f17d-8b15-41ee-9bd6-459a793b6af9"
+    },
+    "Rank_Bg_5": {
+      "__uuid__": "9514d2a7-3037-4b92-99f7-a9941d453b14"
+    },
+    "Rank_Bg_TX": {
+      "__uuid__": "e61bcf8e-283c-4cd0-823b-aaeb2f0baca7"
+    },
+    "Rank_Frame_Gem": {
+      "__uuid__": "4ab6951e-ae90-4994-b660-e2de539ce389"
+    },
+    "Rank_Frame_NO1": {
+      "__uuid__": "d6bbac51-8474-47ea-a66b-a33bb07a9fdb"
+    },
+    "Rank_Frame_NO2": {
+      "__uuid__": "705cbe0a-0b30-4008-b4f0-261006074d98"
+    },
+    "Rank_Frame_NO3": {
+      "__uuid__": "334f96ea-28a5-4455-b162-ac9b0eef8989"
+    },
+    "Rank_Icon_Gem": {
+      "__uuid__": "34e9b3c9-d691-4bdc-97a0-b149f63b0cab"
+    },
+    "Rank_Icon_NO1": {
+      "__uuid__": "31dd755e-e112-4b48-bbbe-c038964df1bb"
+    },
+    "Rank_Icon_NO2": {
+      "__uuid__": "d7cb42c4-01da-43e7-aabd-cb868dd61250"
+    },
+    "Rank_Icon_NO3": {
+      "__uuid__": "367eb746-5c5f-4485-b5f5-f1452d23d1c4"
+    },
+    "Rank_Title_0": {
+      "__uuid__": "5280f8f7-09fb-4eec-b602-000f8ca0f7f9"
+    },
+    "TY_Btn_00": {
+      "__uuid__": "3f1938a1-bfd6-40ac-8650-07dc6fa863d1"
+    },
+    "TY_Btn_01": {
+      "__uuid__": "94e5d827-f305-4bd2-befa-f82ea60b6658"
+    },
+    "TY_Btn_close": {
+      "__uuid__": "d08afb4e-ec4d-4e32-ba8a-4366bd507a9f"
+    },
+    "TY_GDT_00": {
+      "__uuid__": "a8e5f731-2277-47c6-97b2-9c4e57cb27b2"
+    },
+    "TY_GDT_01": {
+      "__uuid__": "7f919b47-65e9-4d4d-aa0a-4914562e0ca0"
+    },
+    "TY_TCBG_03": {
+      "__uuid__": "7e024b10-48b6-4e06-9250-c955ea6282e3"
+    },
+    "TY_TCBG_05": {
+      "__uuid__": "4db95fbb-569b-48d3-a09d-3dc39e7db998"
+    },
+    "TY_TCBG_06": {
+      "__uuid__": "367d9c8a-7690-4c11-9994-daf0744ffe43"
+    },
+    "TY_TCBG_07": {
+      "__uuid__": "34376e9e-f61c-463c-8443-f9843759fefc"
+    },
+    "TY_TCBG_08": {
+      "__uuid__": "0c298eda-94b8-4f97-bf66-7379959909bf"
+    },
+    "TY_TCBG_09": {
+      "__uuid__": "b6ad0756-d875-4c2b-99c1-894238587c71"
+    }
+  }
+}

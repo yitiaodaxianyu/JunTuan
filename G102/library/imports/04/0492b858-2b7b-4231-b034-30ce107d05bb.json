@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "HeroList_Mask_0",
+    "texture": "d4aa0b2a-2f8e-4aa9-839e-3e76cd9a4a56",
+    "atlas": "9c5853ba-a6c5-4856-8603-83fa6d0934c6",
+    "rect": [
+      2,
+      1744,
+      134,
+      220
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      134,
+      220
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

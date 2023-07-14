@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "WarChariot",
+    "texture": "469a3c79-1226-4ee2-90cc-1686b90605ad",
+    "atlas": "",
+    "rect": [
+      4,
+      4,
+      1952,
+      1562
+    ],
+    "offset": [
+      -44,
+      239
+    ],
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

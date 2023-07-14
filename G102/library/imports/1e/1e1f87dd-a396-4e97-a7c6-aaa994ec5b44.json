@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "TY_TCBG_11",
+    "texture": "f74bf5a5-e5f2-4524-98b7-0db1d1225316",
+    "atlas": "195ad1a3-b402-45cc-bfb6-5b2a96cfce93",
+    "rect": [
+      114,
+      329,
+      85,
+      86
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      85,
+      86
+    ],
+    "capInsets": [
+      32,
+      32,
+      32,
+      32
+    ]
+  }
+}

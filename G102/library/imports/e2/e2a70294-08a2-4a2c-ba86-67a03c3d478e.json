@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Thor_Side",
+    "texture": "e5eab9e9-2806-4d9c-9680-b2f5478e625f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1763,
+      523
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1763,
+      523
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

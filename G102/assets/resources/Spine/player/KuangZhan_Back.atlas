@@ -1,0 +1,237 @@
+
+KuangZhan_Back.png
+size: 520,142
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 352, 29
+  size: 22, 32
+  orig: 22, 32
+  offset: 0, 0
+  index: -1
+Soft
+  rotate: false
+  xy: 502, 19
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+aaa20
+  rotate: true
+  xy: 96, 57
+  size: 85, 60
+  orig: 85, 60
+  offset: 0, 0
+  index: -1
+aaa21
+  rotate: true
+  xy: 0, 47
+  size: 95, 90
+  orig: 95, 90
+  offset: 0, 0
+  index: -1
+aaa22
+  rotate: true
+  xy: 376, 1
+  size: 20, 26
+  orig: 20, 26
+  offset: 0, 0
+  index: -1
+aaa23
+  rotate: false
+  xy: 380, 29
+  size: 19, 32
+  orig: 19, 32
+  offset: 0, 0
+  index: -1
+aaa24
+  rotate: false
+  xy: 40, 4
+  size: 29, 35
+  orig: 29, 35
+  offset: 0, 0
+  index: -1
+aaa25
+  rotate: false
+  xy: 0, 4
+  size: 34, 35
+  orig: 34, 35
+  offset: 0, 0
+  index: -1
+aaa26
+  rotate: false
+  xy: 292, 4
+  size: 54, 57
+  orig: 54, 57
+  offset: 0, 0
+  index: -1
+aaa26_2
+  rotate: false
+  xy: 246, 69
+  size: 73, 73
+  orig: 73, 73
+  offset: 0, 0
+  index: -1
+aaa27
+  rotate: false
+  xy: 352, 0
+  size: 18, 21
+  orig: 18, 21
+  offset: 0, 0
+  index: -1
+aaa28
+  rotate: false
+  xy: 75, 5
+  size: 30, 34
+  orig: 30, 34
+  offset: 0, 0
+  index: -1
+aaa29
+  rotate: true
+  xy: 505, 78
+  size: 14, 13
+  orig: 14, 13
+  offset: 0, 0
+  index: -1
+aaa30
+  rotate: true
+  xy: 441, 36
+  size: 28, 27
+  orig: 28, 27
+  offset: 0, 0
+  index: -1
+aaa31
+  rotate: true
+  xy: 111, 4
+  size: 45, 57
+  orig: 45, 57
+  offset: 0, 0
+  index: -1
+aaa31_2
+  rotate: false
+  xy: 325, 69
+  size: 73, 73
+  orig: 73, 73
+  offset: 0, 0
+  index: -1
+aaa32
+  rotate: false
+  xy: 174, 1
+  size: 55, 51
+  orig: 55, 54
+  offset: 0, 3
+  index: -1
+aaa33
+  rotate: false
+  xy: 434, 6
+  size: 18, 20
+  orig: 19, 20
+  offset: 1, 0
+  index: -1
+aaa34
+  rotate: true
+  xy: 458, 8
+  size: 20, 15
+  orig: 20, 15
+  offset: 0, 0
+  index: -1
+aaa35
+  rotate: false
+  xy: 408, 6
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+aaa36
+  rotate: false
+  xy: 502, 0
+  size: 13, 11
+  orig: 13, 11
+  offset: 0, 0
+  index: -1
+aaa37
+  rotate: false
+  xy: 405, 34
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+chongcitexiao0001
+  rotate: true
+  xy: 480, 123
+  size: 19, 16
+  orig: 19, 16
+  offset: 0, 0
+  index: -1
+chongcitexiao0002
+  rotate: true
+  xy: 480, 96
+  size: 19, 16
+  orig: 19, 16
+  offset: 0, 0
+  index: -1
+chongcitexiao0003
+  rotate: true
+  xy: 502, 125
+  size: 17, 16
+  orig: 17, 16
+  offset: 0, 0
+  index: -1
+chongcitexiao0004
+  rotate: true
+  xy: 474, 45
+  size: 19, 17
+  orig: 19, 17
+  offset: 0, 0
+  index: -1
+chongcitexiao0005
+  rotate: true
+  xy: 479, 18
+  size: 19, 17
+  orig: 19, 17
+  offset: 0, 0
+  index: -1
+chongcitexiao0006
+  rotate: false
+  xy: 480, 72
+  size: 19, 16
+  orig: 19, 16
+  offset: 0, 0
+  index: -1
+chongcitexiao0007
+  rotate: true
+  xy: 502, 100
+  size: 17, 16
+  orig: 17, 16
+  offset: 0, 0
+  index: -1
+chongcitexiao0008
+  rotate: true
+  xy: 497, 45
+  size: 19, 16
+  orig: 19, 16
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 235, 1
+  size: 51, 51
+  orig: 72, 72
+  offset: 11, 10
+  index: -1
+light1
+  rotate: false
+  xy: 162, 60
+  size: 78, 82
+  orig: 84, 84
+  offset: 4, 2
+  index: -1
+ring
+  rotate: false
+  xy: 404, 72
+  size: 70, 70
+  orig: 72, 72
+  offset: 1, 1
+  index: -1

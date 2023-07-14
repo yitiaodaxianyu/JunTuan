@@ -1,0 +1,62 @@
+
+guai_07.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 184
+  size: 106, 56
+  orig: 106, 56
+  offset: 0, 0
+  index: -1
+chui
+  rotate: false
+  xy: 2, 56
+  size: 46, 50
+  orig: 46, 50
+  offset: 0, 0
+  index: -1
+lshou
+  rotate: false
+  xy: 64, 127
+  size: 38, 55
+  orig: 38, 55
+  offset: 0, 0
+  index: -1
+ltui
+  rotate: false
+  xy: 2, 25
+  size: 22, 29
+  orig: 22, 29
+  offset: 0, 0
+  index: -1
+rshou
+  rotate: true
+  xy: 110, 202
+  size: 38, 62
+  orig: 38, 62
+  offset: 0, 0
+  index: -1
+rtui
+  rotate: false
+  xy: 223, 211
+  size: 19, 29
+  orig: 19, 29
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 2, 108
+  size: 60, 74
+  orig: 60, 74
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 174, 205
+  size: 47, 35
+  orig: 47, 35
+  offset: 0, 0
+  index: -1

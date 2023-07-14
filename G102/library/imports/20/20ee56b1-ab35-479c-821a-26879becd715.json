@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "spine_bosscoming",
+    "texture": "d5b61df8-54ce-4f13-ae24-0ea09f6275ee",
+    "atlas": "",
+    "rect": [
+      4,
+      4,
+      2039,
+      1006
+    ],
+    "offset": [
+      -0.5,
+      5
+    ],
+    "originalSize": [
+      2048,
+      1024
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

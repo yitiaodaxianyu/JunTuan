@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "HeroList_Hero_5",
+    "texture": "d4aa0b2a-2f8e-4aa9-839e-3e76cd9a4a56",
+    "atlas": "9c5853ba-a6c5-4856-8603-83fa6d0934c6",
+    "rect": [
+      754,
+      1492,
+      135,
+      222
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      135,
+      222
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

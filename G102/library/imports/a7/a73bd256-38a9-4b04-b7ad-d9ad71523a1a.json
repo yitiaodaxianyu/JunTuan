@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "TX_Hit_Archer_01",
+    "texture": "c75be153-dd2a-4e3d-ac4a-c18f1e5b576d",
+    "atlas": "ad9aff3f-43af-4fb4-be4e-0de55af1ce92",
+    "rect": [
+      130,
+      2,
+      99,
+      124
+    ],
+    "offset": [
+      -1,
+      0
+    ],
+    "originalSize": [
+      101,
+      126
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

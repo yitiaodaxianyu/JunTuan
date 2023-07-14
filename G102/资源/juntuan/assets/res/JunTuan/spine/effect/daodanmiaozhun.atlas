@@ -1,0 +1,41 @@
+
+daodanmiaozhun.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+g1
+  rotate: false
+  xy: 2, 44
+  size: 40, 34
+  orig: 40, 34
+  offset: 0, 0
+  index: -1
+g2
+  rotate: false
+  xy: 165, 207
+  size: 40, 34
+  orig: 40, 34
+  offset: 0, 0
+  index: -1
+g3
+  rotate: false
+  xy: 2, 2
+  size: 34, 40
+  orig: 34, 40
+  offset: 0, 0
+  index: -1
+g4
+  rotate: true
+  xy: 44, 44
+  size: 34, 40
+  orig: 34, 40
+  offset: 0, 0
+  index: -1
+m
+  rotate: false
+  xy: 2, 80
+  size: 161, 161
+  orig: 161, 161
+  offset: 0, 0
+  index: -1

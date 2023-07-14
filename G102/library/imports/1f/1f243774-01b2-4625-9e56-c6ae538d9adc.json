@@ -1,0 +1,32 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "RankingList.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Ranking_Bg_0": {
+      "__uuid__": "5df6b1ca-b949-45fa-8cca-4b25f8e7a17c"
+    },
+    "Ranking_Bg_1_0": {
+      "__uuid__": "60057296-94c8-4ad3-a228-f68c17f406bf"
+    },
+    "Ranking_Bg_2_0": {
+      "__uuid__": "30ad0786-bca1-4f3f-b14b-dd5c28e881a5"
+    },
+    "Ranking_Bg_3_0": {
+      "__uuid__": "9f485d90-83e4-4501-99e0-28148bb508e2"
+    },
+    "Ranking_Bg_4": {
+      "__uuid__": "78d177c4-1bf8-4725-ad06-a5eb87e17f82"
+    },
+    "Ranking_Bg_5": {
+      "__uuid__": "85804ffe-a6e4-4e4a-a384-9cbdad03bf56"
+    },
+    "Ranking_Btn_0": {
+      "__uuid__": "d8b064b0-e9f2-451f-97ea-204ede743254"
+    },
+    "Ranking_Btn_1": {
+      "__uuid__": "cd808498-628e-4063-af45-a90fb1071359"
+    }
+  }
+}

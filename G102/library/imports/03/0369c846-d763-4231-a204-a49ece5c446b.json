@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "jianshi",
+    "texture": "2e4d0340-4eb0-4ab5-b73c-f16d43ea1121",
+    "atlas": "a4a901c3-ef86-47ad-93b5-14749d456ebd",
+    "rect": [
+      29,
+      141,
+      29,
+      108
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      29,
+      108
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "SignIn_Light",
+    "texture": "d9000efc-33e7-47e0-930e-222b09199a70",
+    "atlas": "4e47a9ba-49a4-4734-8041-c553c122508e",
+    "rect": [
+      320,
+      863,
+      149,
+      149
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      149,
+      149
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "__type__": "cc.Material",
+  "_name": "red-spine",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "9511b2a6-3d15-4078-bd6e-2f90bb4a137c"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "props": {},
+      "defines": {
+        "USE_ALPHA_TEST": false,
+        "USE_TINT": true,
+        "INPUT_IS_GAMMA": false
+      }
+    }
+  }
+}

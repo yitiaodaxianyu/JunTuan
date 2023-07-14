@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "NewRecord_IN",
+    "texture": "cfa2f495-1480-42b0-978f-e0ff585357b3",
+    "atlas": "",
+    "rect": [
+      52,
+      4,
+      249,
+      46
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      352,
+      53
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

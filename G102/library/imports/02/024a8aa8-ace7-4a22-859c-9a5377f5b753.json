@@ -1,0 +1,44 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "wall_upgrade.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "FX_Wall_LvUp_0": {
+      "__uuid__": "94c6a8c3-2989-4a10-989f-ae10d7abd8a0"
+    },
+    "FX_Wall_LvUp_1": {
+      "__uuid__": "cc02fa51-30e9-41c6-abf3-c99d9cad9d99"
+    },
+    "FX_Wall_LvUp_10": {
+      "__uuid__": "e45dbdc9-e5f8-4e9f-a14f-e7c36b13e74c"
+    },
+    "FX_Wall_LvUp_11": {
+      "__uuid__": "db03c432-511e-45d6-9b08-2fa637f337da"
+    },
+    "FX_Wall_LvUp_2": {
+      "__uuid__": "b9085a08-1d52-46eb-a1bf-bdd0f810ce2a"
+    },
+    "FX_Wall_LvUp_3": {
+      "__uuid__": "fbeea22f-1ff2-4773-a3a9-75a3278d9955"
+    },
+    "FX_Wall_LvUp_4": {
+      "__uuid__": "8a9cdd44-0a09-4362-9c8c-cdd099a1f1ed"
+    },
+    "FX_Wall_LvUp_5": {
+      "__uuid__": "d6f81116-995d-45fc-a657-4acbd3ee9c73"
+    },
+    "FX_Wall_LvUp_6": {
+      "__uuid__": "b328f43e-0783-416e-9d39-0380ef208bf5"
+    },
+    "FX_Wall_LvUp_7": {
+      "__uuid__": "eb94b9d5-7197-4140-bc6b-8dc33365c2c5"
+    },
+    "FX_Wall_LvUp_8": {
+      "__uuid__": "644acc4b-cd73-4ce5-9c71-7ae5884d1593"
+    },
+    "FX_Wall_LvUp_9": {
+      "__uuid__": "bb2eedeb-2fa6-421a-acd3-4ced9283f033"
+    }
+  }
+}

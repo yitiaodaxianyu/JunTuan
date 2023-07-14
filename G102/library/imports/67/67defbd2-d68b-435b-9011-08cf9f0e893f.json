@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Common_Window_Bg_6",
+    "texture": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
+    "atlas": "57ace228-f6e6-4ece-87f3-a1c1688c0cf6",
+    "rect": [
+      110,
+      1308,
+      64,
+      64
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      16,
+      16,
+      16,
+      16
+    ]
+  }
+}

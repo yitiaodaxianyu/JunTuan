@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "BingNv_JianSu_10",
+    "texture": "aea89b86-580a-47cc-a06c-c518389022d7",
+    "atlas": "c9425f3d-1a10-4d58-ada5-89a73c0b8c49",
+    "rect": [
+      354,
+      1076,
+      156,
+      122
+    ],
+    "offset": [
+      0,
+      -3
+    ],
+    "originalSize": [
+      200,
+      150
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

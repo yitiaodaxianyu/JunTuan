@@ -1,0 +1,1021 @@
+
+Monster_21.png
+size: 3090, 206
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+2HEAD EYES CLOSED
+  rotate: false
+  xy: 102, 29
+  size: 14, 7
+  orig: 15, 7
+  offset: 0, 0
+  index: -1
+2SHIELD
+  rotate: true
+  xy: 1411, 82
+  size: 122, 114
+  orig: 124, 115
+  offset: 0, 0
+  index: -1
+3ARM A1
+  rotate: true
+  xy: 1447, 5
+  size: 75, 93
+  orig: 76, 93
+  offset: 1, 0
+  index: -1
+BackARM_L13
+  rotate: true
+  xy: 1447, 5
+  size: 75, 93
+  orig: 76, 93
+  offset: 1, 0
+  index: -1
+FrontARM L13
+  rotate: true
+  xy: 1447, 5
+  size: 75, 93
+  orig: 76, 93
+  offset: 1, 0
+  index: -1
+3ARM B1
+  rotate: true
+  xy: 1655, 2
+  size: 79, 86
+  orig: 80, 87
+  offset: 0, 0
+  index: -1
+3ARM B2
+  rotate: false
+  xy: 2930, 71
+  size: 41, 46
+  orig: 41, 46
+  offset: 0, 0
+  index: -1
+FrontARM L23
+  rotate: false
+  xy: 2930, 71
+  size: 41, 46
+  orig: 41, 46
+  offset: 0, 0
+  index: -1
+3BODY
+  rotate: false
+  xy: 2334, 3
+  size: 94, 99
+  orig: 104, 105
+  offset: 10, 1
+  index: -1
+3HAND B
+  rotate: true
+  xy: 76, 38
+  size: 166, 75
+  orig: 166, 79
+  offset: 0, 2
+  index: -1
+3HEAD
+  rotate: true
+  xy: 2655, 140
+  size: 64, 53
+  orig: 64, 56
+  offset: 0, 3
+  index: -1
+3HEAD EYES
+  rotate: false
+  xy: 1972, 3
+  size: 13, 9
+  orig: 14, 10
+  offset: 1, 1
+  index: -1
+3HEAD EYES CLOSED
+  rotate: true
+  xy: 93, 28
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+3HIP
+  rotate: true
+  xy: 971, 3
+  size: 54, 62
+  orig: 54, 62
+  offset: 0, 0
+  index: -1
+3HIP CLOTH
+  rotate: true
+  xy: 2604, 3
+  size: 31, 51
+  orig: 33, 53
+  offset: 1, 1
+  index: -1
+FrontCLOTH3
+  rotate: true
+  xy: 2604, 3
+  size: 31, 51
+  orig: 33, 53
+  offset: 1, 1
+  index: -1
+3LEG 1
+  rotate: true
+  xy: 2787, 2
+  size: 45, 46
+  orig: 47, 49
+  offset: 0, 0
+  index: -1
+FrontLEG R13
+  rotate: true
+  xy: 2787, 2
+  size: 45, 46
+  orig: 47, 49
+  offset: 0, 0
+  index: -1
+LEG_R1_back3
+  rotate: true
+  xy: 2787, 2
+  size: 45, 46
+  orig: 47, 49
+  offset: 0, 0
+  index: -1
+3LEG 2
+  rotate: true
+  xy: 2949, 119
+  size: 37, 43
+  orig: 37, 43
+  offset: 0, 0
+  index: -1
+FrontLEG R23
+  rotate: true
+  xy: 2949, 119
+  size: 37, 43
+  orig: 37, 43
+  offset: 0, 0
+  index: -1
+LEG_R2_back3
+  rotate: true
+  xy: 2949, 119
+  size: 37, 43
+  orig: 37, 43
+  offset: 0, 0
+  index: -1
+3LEG 3
+  rotate: false
+  xy: 2526, 4
+  size: 37, 25
+  orig: 37, 25
+  offset: 0, 0
+  index: -1
+FrontLEG R33
+  rotate: false
+  xy: 2526, 4
+  size: 37, 25
+  orig: 37, 25
+  offset: 0, 0
+  index: -1
+3SHIELD
+  rotate: true
+  xy: 1813, 88
+  size: 116, 108
+  orig: 119, 110
+  offset: 1, 1
+  index: -1
+ARM A1
+  rotate: true
+  xy: 1542, 2
+  size: 79, 111
+  orig: 79, 111
+  offset: 0, 0
+  index: -1
+ARM B1
+  rotate: true
+  xy: 1743, 3
+  size: 82, 108
+  orig: 82, 108
+  offset: 0, 0
+  index: -1
+ARM B2
+  rotate: true
+  xy: 3024, 164
+  size: 40, 46
+  orig: 40, 46
+  offset: 0, 0
+  index: -1
+BODY
+  rotate: false
+  xy: 1717, 87
+  size: 94, 117
+  orig: 94, 118
+  offset: 0, 1
+  index: -1
+BODY CAPE
+  rotate: true
+  xy: 2526, 31
+  size: 72, 39
+  orig: 73, 41
+  offset: 0, 1
+  index: -1
+BackARM_L11
+  rotate: false
+  xy: 2063, 93
+  size: 66, 111
+  orig: 67, 111
+  offset: 0, 0
+  index: -1
+FrontARM L11
+  rotate: false
+  xy: 2063, 93
+  size: 66, 111
+  orig: 67, 111
+  offset: 0, 0
+  index: -1
+BackARM_L12
+  rotate: true
+  xy: 1357, 3
+  size: 69, 88
+  orig: 70, 88
+  offset: 1, 0
+  index: -1
+FrontARM L12
+  rotate: true
+  xy: 1357, 3
+  size: 69, 88
+  orig: 70, 88
+  offset: 1, 0
+  index: -1
+SideARM A12
+  rotate: true
+  xy: 1357, 3
+  size: 69, 88
+  orig: 70, 88
+  offset: 1, 0
+  index: -1
+BackARM_L21
+  rotate: true
+  xy: 232, 3
+  size: 37, 50
+  orig: 38, 51
+  offset: 1, 1
+  index: -1
+BackARM_L22
+  rotate: true
+  xy: 284, 3
+  size: 37, 49
+  orig: 37, 50
+  offset: 0, 0
+  index: -1
+BackARM_L23
+  rotate: false
+  xy: 2835, 2
+  size: 37, 49
+  orig: 37, 50
+  offset: 0, 1
+  index: -1
+BackARM_R11
+  rotate: false
+  xy: 2131, 93
+  size: 66, 111
+  orig: 67, 111
+  offset: 1, 0
+  index: -1
+FrontARM R11
+  rotate: false
+  xy: 2131, 93
+  size: 66, 111
+  orig: 67, 111
+  offset: 1, 0
+  index: -1
+BackARM_R12
+  rotate: false
+  xy: 2067, 3
+  size: 69, 88
+  orig: 70, 88
+  offset: 0, 0
+  index: -1
+FrontARM R12
+  rotate: false
+  xy: 2067, 3
+  size: 69, 88
+  orig: 70, 88
+  offset: 0, 0
+  index: -1
+BackARM_R13
+  rotate: true
+  xy: 1972, 14
+  size: 75, 93
+  orig: 76, 93
+  offset: 0, 0
+  index: -1
+FrontARM R13
+  rotate: true
+  xy: 1972, 14
+  size: 75, 93
+  orig: 76, 93
+  offset: 0, 0
+  index: -1
+BackARM_R21
+  rotate: false
+  xy: 2895, 155
+  size: 37, 49
+  orig: 38, 51
+  offset: 1, 1
+  index: -1
+BackARM_R22
+  rotate: false
+  xy: 2820, 154
+  size: 36, 50
+  orig: 37, 50
+  offset: 1, 0
+  index: -1
+BackARM_R23
+  rotate: false
+  xy: 2891, 66
+  size: 37, 49
+  orig: 37, 50
+  offset: 0, 1
+  index: -1
+BackBODY1
+  rotate: false
+  xy: 1527, 83
+  size: 93, 121
+  orig: 94, 122
+  offset: 1, 0
+  index: -1
+BackBODY2
+  rotate: false
+  xy: 2497, 105
+  size: 90, 99
+  orig: 92, 110
+  offset: 1, 0
+  index: -1
+BackBODY3
+  rotate: false
+  xy: 2401, 105
+  size: 94, 99
+  orig: 104, 105
+  offset: 0, 1
+  index: -1
+BackCAPE3
+  rotate: true
+  xy: 2138, 16
+  size: 75, 92
+  orig: 77, 95
+  offset: 1, 2
+  index: -1
+BackHEAD1
+  rotate: false
+  xy: 1225, 2
+  size: 64, 70
+  orig: 65, 70
+  offset: 0, 0
+  index: -1
+BackHEAD2
+  rotate: true
+  xy: 2735, 3
+  size: 43, 50
+  orig: 45, 52
+  offset: 1, 1
+  index: -1
+BackHEAD3
+  rotate: true
+  xy: 2766, 143
+  size: 61, 52
+  orig: 62, 56
+  offset: 1, 3
+  index: -1
+BackHIP1
+  rotate: true
+  xy: 2589, 138
+  size: 66, 64
+  orig: 67, 65
+  offset: 1, 1
+  index: -1
+BackHIP2
+  rotate: false
+  xy: 1035, 2
+  size: 62, 63
+  orig: 62, 64
+  offset: 0, 0
+  index: -1
+BackHIP3
+  rotate: true
+  xy: 1163, 2
+  size: 63, 60
+  orig: 63, 62
+  offset: 0, 1
+  index: -1
+BackLEG L11
+  rotate: false
+  xy: 536, 2
+  size: 33, 47
+  orig: 34, 47
+  offset: 1, 0
+  index: -1
+BackLEG L12
+  rotate: false
+  xy: 2847, 63
+  size: 42, 51
+  orig: 42, 55
+  offset: 0, 1
+  index: -1
+BackLEG L13
+  rotate: false
+  xy: 2934, 158
+  size: 45, 46
+  orig: 47, 49
+  offset: 2, 0
+  index: -1
+FrontLEG L13
+  rotate: false
+  xy: 2934, 158
+  size: 45, 46
+  orig: 47, 49
+  offset: 2, 0
+  index: -1
+BackLEG L21
+  rotate: true
+  xy: 118, 2
+  size: 34, 40
+  orig: 35, 41
+  offset: 0, 1
+  index: -1
+BackLEG L22
+  rotate: false
+  xy: 2973, 74
+  size: 37, 43
+  orig: 37, 43
+  offset: 0, 0
+  index: -1
+FrontLEG L22
+  rotate: false
+  xy: 2973, 74
+  size: 37, 43
+  orig: 37, 43
+  offset: 0, 0
+  index: -1
+BackLEG L23
+  rotate: false
+  xy: 3004, 29
+  size: 37, 43
+  orig: 37, 43
+  offset: 0, 0
+  index: -1
+FrontLEG L23
+  rotate: false
+  xy: 3004, 29
+  size: 37, 43
+  orig: 37, 43
+  offset: 0, 0
+  index: -1
+BackLEG L31
+  rotate: false
+  xy: 2, 2
+  size: 33, 24
+  orig: 33, 26
+  offset: 0, 1
+  index: -1
+BackLEG L32
+  rotate: false
+  xy: 2819, 116
+  size: 34, 25
+  orig: 35, 25
+  offset: 0, 0
+  index: -1
+BackLEG L33
+  rotate: false
+  xy: 2745, 115
+  size: 35, 25
+  orig: 37, 25
+  offset: 1, 0
+  index: -1
+BackLEG R11
+  rotate: false
+  xy: 571, 2
+  size: 33, 47
+  orig: 34, 47
+  offset: 0, 0
+  index: -1
+BackLEG R12
+  rotate: false
+  xy: 2874, 10
+  size: 42, 51
+  orig: 42, 55
+  offset: 0, 1
+  index: -1
+BackLEG R21
+  rotate: true
+  xy: 2907, 119
+  size: 34, 40
+  orig: 35, 41
+  offset: 1, 1
+  index: -1
+BackLEG R22
+  rotate: false
+  xy: 3012, 77
+  size: 37, 43
+  orig: 37, 43
+  offset: 0, 0
+  index: -1
+FrontLEG R22
+  rotate: false
+  xy: 3012, 77
+  size: 37, 43
+  orig: 37, 43
+  offset: 0, 0
+  index: -1
+SideLEG B22
+  rotate: false
+  xy: 3012, 77
+  size: 37, 43
+  orig: 37, 43
+  offset: 0, 0
+  index: -1
+BackLEG R31
+  rotate: false
+  xy: 37, 2
+  size: 33, 24
+  orig: 33, 26
+  offset: 0, 1
+  index: -1
+BackLEG R32
+  rotate: true
+  xy: 2994, 122
+  size: 34, 25
+  orig: 35, 25
+  offset: 1, 0
+  index: -1
+BackSHIELD1
+  rotate: true
+  xy: 576, 52
+  size: 152, 127
+  orig: 152, 127
+  offset: 0, 0
+  index: -1
+BackSHIELD2
+  rotate: true
+  xy: 979, 67
+  size: 137, 108
+  orig: 139, 108
+  offset: 1, 0
+  index: -1
+BackSHIELD3
+  rotate: true
+  xy: 1199, 74
+  size: 130, 104
+  orig: 131, 105
+  offset: 1, 0
+  index: -1
+BackWEAPON1
+  rotate: false
+  xy: 332, 48
+  size: 70, 156
+  orig: 70, 157
+  offset: 0, 1
+  index: -1
+BackWEAPON2
+  rotate: false
+  xy: 2251, 100
+  size: 52, 104
+  orig: 56, 105
+  offset: 0, 1
+  index: -1
+BackWEAPON3
+  rotate: false
+  xy: 404, 50
+  size: 89, 154
+  orig: 90, 155
+  offset: 1, 0
+  index: -1
+BackWEAPONHammerHead2
+  rotate: false
+  xy: 1923, 91
+  size: 68, 113
+  orig: 68, 114
+  offset: 0, 1
+  index: -1
+FrontARM L21
+  rotate: true
+  xy: 2855, 117
+  size: 35, 50
+  orig: 37, 51
+  offset: 1, 1
+  index: -1
+FrontARM L22
+  rotate: true
+  xy: 3024, 122
+  size: 40, 46
+  orig: 40, 46
+  offset: 0, 0
+  index: -1
+FrontARM R21
+  rotate: false
+  xy: 2858, 154
+  size: 35, 50
+  orig: 37, 51
+  offset: 1, 1
+  index: -1
+FrontARM R22
+  rotate: false
+  xy: 2962, 23
+  size: 40, 46
+  orig: 40, 46
+  offset: 0, 0
+  index: -1
+FrontARM R23
+  rotate: false
+  xy: 2981, 158
+  size: 41, 46
+  orig: 41, 46
+  offset: 0, 0
+  index: -1
+FrontBODY1
+  rotate: false
+  xy: 1622, 83
+  size: 93, 121
+  orig: 94, 122
+  offset: 0, 0
+  index: -1
+FrontBODY2
+  rotate: true
+  xy: 2232, 4
+  size: 90, 100
+  orig: 92, 100
+  offset: 1, 0
+  index: -1
+FrontBODY3
+  rotate: false
+  xy: 2305, 104
+  size: 94, 100
+  orig: 94, 101
+  offset: 0, 1
+  index: -1
+FrontCAPE3
+  rotate: true
+  xy: 2567, 36
+  size: 67, 41
+  orig: 69, 43
+  offset: 1, 1
+  index: -1
+FrontEYES_CLOSED2
+  rotate: false
+  xy: 2011, 5
+  size: 13, 7
+  orig: 14, 7
+  offset: 1, 0
+  index: -1
+FrontEYES_CLOSED3
+  rotate: false
+  xy: 1987, 5
+  size: 22, 7
+  orig: 23, 7
+  offset: 0, 0
+  index: -1
+FrontHEAD GLOW1
+  rotate: true
+  xy: 2657, 2
+  size: 39, 23
+  orig: 44, 29
+  offset: 3, 3
+  index: -1
+FrontHEAD1
+  rotate: false
+  xy: 1291, 2
+  size: 64, 70
+  orig: 65, 70
+  offset: 1, 0
+  index: -1
+FrontHEAD2
+  rotate: false
+  xy: 926, 2
+  size: 43, 55
+  orig: 53, 56
+  offset: 5, 1
+  index: -1
+FrontHEAD3
+  rotate: true
+  xy: 2794, 53
+  size: 61, 51
+  orig: 62, 56
+  offset: 0, 4
+  index: -1
+FrontHIP1
+  rotate: true
+  xy: 2610, 43
+  size: 66, 64
+  orig: 67, 65
+  offset: 0, 1
+  index: -1
+FrontHIP2
+  rotate: false
+  xy: 1099, 2
+  size: 62, 63
+  orig: 62, 64
+  offset: 0, 0
+  index: -1
+FrontHIP3
+  rotate: true
+  xy: 2676, 48
+  size: 63, 60
+  orig: 63, 62
+  offset: 0, 1
+  index: -1
+FrontLEG L11
+  rotate: false
+  xy: 335, 2
+  size: 52, 44
+  orig: 53, 44
+  offset: 1, 0
+  index: -1
+FrontLEG L12
+  rotate: true
+  xy: 606, 2
+  size: 48, 46
+  orig: 48, 49
+  offset: 0, 0
+  index: -1
+FrontLEG L21
+  rotate: false
+  xy: 3051, 77
+  size: 37, 43
+  orig: 37, 43
+  offset: 0, 0
+  index: -1
+FrontLEG L31
+  rotate: false
+  xy: 2565, 4
+  size: 37, 25
+  orig: 37, 25
+  offset: 0, 0
+  index: -1
+FrontLEG L32
+  rotate: false
+  xy: 2589, 111
+  size: 37, 25
+  orig: 37, 25
+  offset: 0, 0
+  index: -1
+FrontLEG L33
+  rotate: false
+  xy: 2628, 111
+  size: 37, 25
+  orig: 37, 25
+  offset: 0, 0
+  index: -1
+FrontLEG R11
+  rotate: false
+  xy: 389, 2
+  size: 52, 44
+  orig: 53, 44
+  offset: 0, 0
+  index: -1
+FrontLEG R12
+  rotate: true
+  xy: 654, 2
+  size: 48, 46
+  orig: 48, 49
+  offset: 0, 0
+  index: -1
+SideLEG B12
+  rotate: true
+  xy: 654, 2
+  size: 48, 46
+  orig: 48, 49
+  offset: 0, 0
+  index: -1
+FrontLEG R21
+  rotate: true
+  xy: 3043, 38
+  size: 37, 43
+  orig: 37, 43
+  offset: 0, 0
+  index: -1
+LEG 2
+  rotate: true
+  xy: 3043, 38
+  size: 37, 43
+  orig: 37, 43
+  offset: 0, 0
+  index: -1
+FrontLEG R31
+  rotate: false
+  xy: 2667, 113
+  size: 37, 25
+  orig: 37, 25
+  offset: 0, 0
+  index: -1
+LEG 3
+  rotate: false
+  xy: 2667, 113
+  size: 37, 25
+  orig: 37, 25
+  offset: 0, 0
+  index: -1
+FrontLEG R32
+  rotate: false
+  xy: 2706, 113
+  size: 37, 25
+  orig: 37, 25
+  offset: 0, 0
+  index: -1
+SideLEG B32
+  rotate: false
+  xy: 2706, 113
+  size: 37, 25
+  orig: 37, 25
+  offset: 0, 0
+  index: -1
+FrontSHIELD GLOW1
+  rotate: true
+  xy: 1930, 4
+  size: 85, 40
+  orig: 89, 45
+  offset: 2, 3
+  index: -1
+FrontSHIELD1
+  rotate: true
+  xy: 705, 52
+  size: 152, 127
+  orig: 152, 127
+  offset: 0, 0
+  index: -1
+FrontSHIELD2
+  rotate: true
+  xy: 1089, 67
+  size: 137, 108
+  orig: 139, 108
+  offset: 1, 0
+  index: -1
+FrontSHIELD3
+  rotate: true
+  xy: 1305, 74
+  size: 130, 104
+  orig: 131, 105
+  offset: 0, 0
+  index: -1
+FrontWEAPON1
+  rotate: false
+  xy: 495, 51
+  size: 79, 153
+  orig: 80, 154
+  offset: 0, 1
+  index: -1
+FrontWEAPON2
+  rotate: false
+  xy: 2199, 96
+  size: 50, 108
+  orig: 50, 108
+  offset: 0, 0
+  index: -1
+FrontWEAPON3
+  rotate: false
+  xy: 268, 42
+  size: 62, 162
+  orig: 64, 163
+  offset: 1, 0
+  index: -1
+FrontWEAPONHeadHammer2
+  rotate: false
+  xy: 1993, 91
+  size: 68, 113
+  orig: 68, 114
+  offset: 0, 1
+  index: -1
+HAND B
+  rotate: true
+  xy: 2, 28
+  size: 176, 72
+  orig: 180, 76
+  offset: 1, 0
+  index: -1
+HEAD
+  rotate: true
+  xy: 854, 2
+  size: 55, 70
+  orig: 55, 70
+  offset: 0, 0
+  index: -1
+HEAD EYES
+  rotate: false
+  xy: 72, 3
+  size: 44, 23
+  orig: 49, 29
+  offset: 3, 3
+  index: -1
+HEAD EYES ACC
+  rotate: true
+  xy: 2138, 3
+  size: 11, 17
+  orig: 14, 20
+  offset: 2, 2
+  index: -1
+HIP
+  rotate: false
+  xy: 2738, 49
+  size: 54, 62
+  orig: 54, 62
+  offset: 0, 0
+  index: -1
+LEG 1
+  rotate: false
+  xy: 743, 4
+  size: 58, 46
+  orig: 59, 49
+  offset: 0, 0
+  index: -1
+LEG_R3_back3
+  rotate: false
+  xy: 2782, 116
+  size: 35, 25
+  orig: 37, 25
+  offset: 1, 0
+  index: -1
+SHIELD
+  rotate: false
+  xy: 834, 59
+  size: 143, 145
+  orig: 143, 145
+  offset: 0, 0
+  index: -1
+SHIELD EYES
+  rotate: false
+  xy: 443, 2
+  size: 91, 46
+  orig: 95, 51
+  offset: 2, 3
+  index: -1
+SideARM A22
+  rotate: true
+  xy: 2918, 18
+  size: 46, 42
+  orig: 47, 43
+  offset: 0, 0
+  index: -1
+SideARM B12
+  rotate: false
+  xy: 1853, 6
+  size: 75, 80
+  orig: 75, 80
+  offset: 0, 0
+  index: -1
+SideARM B22
+  rotate: true
+  xy: 702, 2
+  size: 48, 39
+  orig: 49, 40
+  offset: 0, 0
+  index: -1
+SideBODY2
+  rotate: false
+  xy: 2430, 4
+  size: 94, 99
+  orig: 94, 105
+  offset: 0, 1
+  index: -1
+SideEYES_CLOSED2
+  rotate: false
+  xy: 76, 28
+  size: 15, 8
+  orig: 17, 8
+  offset: 1, 0
+  index: -1
+SideHEAD2
+  rotate: true
+  xy: 2682, 3
+  size: 43, 51
+  orig: 49, 56
+  offset: 6, 5
+  index: -1
+SideHIP2
+  rotate: false
+  xy: 2710, 142
+  size: 54, 62
+  orig: 54, 62
+  offset: 0, 0
+  index: -1
+SideLEG A12
+  rotate: false
+  xy: 803, 4
+  size: 49, 46
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+SideLEG A22
+  rotate: true
+  xy: 160, 2
+  size: 38, 43
+  orig: 38, 43
+  offset: 0, 0
+  index: -1
+SideLEG A32
+  rotate: true
+  xy: 205, 2
+  size: 38, 25
+  orig: 38, 25
+  offset: 0, 0
+  index: -1
+SideWEAPON2
+  rotate: true
+  xy: 153, 42
+  size: 162, 113
+  orig: 163, 114
+  offset: 1, 1
+  index: -1

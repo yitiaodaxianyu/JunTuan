@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "SCradPool",
+  "_objFlags": 0,
+  "_native": "",
+  "json": [
+    {
+      "JackpotID": 20004
+    },
+    {
+      "JackpotID": 20005
+    }
+  ]
+}

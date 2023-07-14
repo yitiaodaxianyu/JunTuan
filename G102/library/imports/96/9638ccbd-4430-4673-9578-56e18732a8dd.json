@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Sprite_Quality_Star_2",
+    "texture": "69e3feeb-ce70-4e39-bffc-911e0970a3cc",
+    "atlas": "456ef21b-fb3f-4bf5-908f-e3dc669ba5d3",
+    "rect": [
+      2004,
+      232,
+      113,
+      25
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      113,
+      25
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

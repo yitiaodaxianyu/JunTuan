@@ -1,0 +1,560 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "text",
+  "_objFlags": 0,
+  "_native": "",
+  "json": [
+    {
+      "text_id": 1001,
+      "english": "ATK+",
+      "chinese": "攻击+",
+      "Indonesian": "ATK+",
+      "Russian": "Атака+",
+      "Thai": "โจมตี+"
+    },
+    {
+      "text_id": 1002,
+      "english": "ATK SPD+",
+      "chinese": "攻击速度+",
+      "Indonesian": "ASPD+",
+      "Russian": "Скорость атаки+",
+      "Thai": "ความเร็วโจมตี+"
+    },
+    {
+      "text_id": 1003,
+      "english": "CRIT RATE+",
+      "chinese": "暴击率+",
+      "Indonesian": "CRIT Rate+",
+      "Russian": "Шанс критического урона+",
+      "Thai": "อัตราคริต+"
+    },
+    {
+      "text_id": 1004,
+      "english": "CRIT DMG+",
+      "chinese": "暴击伤害+",
+      "Indonesian": "CRIT DMG+",
+      "Russian": "Критический урон+",
+      "Thai": "ดาเมจคริต+"
+    },
+    {
+      "text_id": 1005,
+      "english": "MAX WALL HP+",
+      "chinese": "城墙血量上限+",
+      "Indonesian": "Max HP City Wall+",
+      "Russian": "Верхний предел количества жизней в городских стенах+",
+      "Thai": "ขีดจำกัดปริมาณเลือดกำแพงเมือง+"
+    },
+    {
+      "text_id": 1006,
+      "english": "WALL HP REGEN+",
+      "chinese": "城墙血量恢复",
+      "Indonesian": "HP Regen City Wall",
+      "Russian": "Восстановление количества жизней в городских стенах+",
+      "Thai": "ฟื้นฟูปริมาณเลือดกำแพง"
+    },
+    {
+      "text_id": 1007,
+      "english": "Blaze x",
+      "chinese": "连续射击x",
+      "Indonesian": "Combo x",
+      "Russian": "Непрерывный огонь x",
+      "Thai": "ยิงโจมตีต่อเนื่องx"
+    },
+    {
+      "text_id": 1008,
+      "english": "Diagonal",
+      "chinese": "斜向+",
+      "Indonesian": "Slant+",
+      "Russian": "Наискосок+",
+      "Thai": "เฉียง+"
+    },
+    {
+      "text_id": 1009,
+      "english": "Frontal ATK+",
+      "chinese": "正向+",
+      "Indonesian": "Forward+",
+      "Russian": "В прямом направлении+",
+      "Thai": "ด้านตรง+"
+    },
+    {
+      "text_id": 2001,
+      "english": "Quick and agile monster",
+      "chinese": "速度较快的灵敏型怪物",
+      "Indonesian": "Monster jenis AGI yang mempunyai SPD lebih cepat",
+      "Russian": "Быстрый и сообразительный монстр",
+      "Thai": "มอนสเตอร์ประเภทว่องไวที่มีความเร็วมาก"
+    },
+    {
+      "text_id": 2002,
+      "english": "A tank-type monster that is adept at taking damage",
+      "chinese": "擅长吸引火力的肉盾型怪物",
+      "Indonesian": "Monster jenis Tank yang ahli dalam memancing serangan senjata",
+      "Russian": "Монстр с живым щитом, позволяющим поглощать огневую мощь",
+      "Thai": "ประเภทโล่เนื้อที่ชำนาญดึงดูดพลังไฟ"
+    },
+    {
+      "text_id": 2003,
+      "english": "Possesses power to continuously heal nearby monsters of different kinds",
+      "chinese": "拥有为周围非同类怪物持续回血的能力",
+      "Indonesian": "Memiliki kemampuan untuk memulihkan HP untuk monter tidak sejenis yang berada di sekitar",
+      "Russian": "Обладает умением постоянного возвращения крови разным окружающим монстрам",
+      "Thai": "มีความสามารถในการฟื้นฟูเลือดต่อเนื่องให้กับมอนสเตอร์ประเภทอื่นที่อยู่รอบตัว"
+    },
+    {
+      "text_id": 2004,
+      "english": "Split and generate small skeletal soldiers after it gets killed",
+      "chinese": "被击杀后可分裂产生小骷髅",
+      "Indonesian": "Setelah dibunuh bisa membelah menjadi tengkorak kecil",
+      "Russian": "После убийства может расщепляться на мелкие скелеты",
+      "Thai": "เมื่อถูกฆ่าสามารถแยกตัวเป็นโครงกระดูกขนาดเล็กได้"
+    },
+    {
+      "text_id": 2005,
+      "english": "Stealthy monster that can easily conceal itself",
+      "chinese": "隐蔽性较强的可隐身怪物",
+      "Indonesian": "Monster yang dapat menyembunyikan diri sendiri dengan penyembunyian yang kuat",
+      "Russian": "Скрытный монстр, который может становиться невидимым",
+      "Thai": "มอนสเตอร์ที่มีความสามารถในการซ่อนตัวที่แข็งแกร่ง"
+    },
+    {
+      "text_id": 2006,
+      "english": "Has the ability to periodically summon small spiders",
+      "chinese": "拥有周期召唤小蜘蛛的能力",
+      "Indonesian": "Memiliki kemampuan untuk memanggil laba-laba kecil secara berkala",
+      "Russian": "Обладает умением периодического призыва пауков",
+      "Thai": "มีความสามารถในการเรียกแมงมุมขนาดเล็กเป็นช่วงเวลา"
+    },
+    {
+      "text_id": 2007,
+      "english": "Flying unit, said to be afraid of pesticides",
+      "chinese": "飞行单位，听说惧怕杀虫剂",
+      "Indonesian": "Unit terbang, dengar-dengar takut akan insektisida",
+      "Russian": "Летающий объект, который, как поговаривают, боится пестицидов",
+      "Thai": "หน่วยบิน ได้ยินมาว่ากลัวยาฆ่าแมลง"
+    },
+    {
+      "text_id": 2008,
+      "english": "Can replenish a substantial amount of blood for nearby units after its death",
+      "chinese": "死亡后可为周围单位大幅补充血量",
+      "Indonesian": "Setelah mati dapat mengisi HP unit siang hari dengan drastis",
+      "Russian": "Позволяет значительно пополнить запасы количества жизней после смерти",
+      "Thai": "หลังตายสามารถเสริมปริมาณเลือดจำนวนมากแก่หน่วยกลางวัน"
+    },
+    {
+      "text_id": 2009,
+      "english": "Speed increases greatly after its first injury",
+      "chinese": "首次受伤后大幅度增加移动速度",
+      "Indonesian": "Meningkatkan SPD gerakan dengan drastis setelah terluka pertama kali",
+      "Russian": "Значительно увеличивает скорость перемещения после своего первого ранения",
+      "Thai": "หลังได้รับบาดเจ็บครั้งแรกความเร็วการเคลื่อนที่เพิ่มขึ้นอย่างมาก"
+    },
+    {
+      "text_id": 2010,
+      "english": "Moves underground, and will occasionally drill out of the ground",
+      "chinese": "在地下移动，偶尔会钻出地面",
+      "Indonesian": "Bergerak di bawah tanah, terkadang keluar ke permukaan tanah",
+      "Russian": "Передвигается под землей, но иногда вырывается из земли",
+      "Thai": "เคลื่อนที่ตามใต้ดิน บางครั้งมุดขึ้นมาบนพื้นดิน"
+    },
+    {
+      "text_id": 2011,
+      "english": "Has the ability to increase speed for other monsters",
+      "chinese": "拥有为其它怪物加速的能力",
+      "Indonesian": "Memiliki kemampuan untuk menambah kecepatan monster lain",
+      "Russian": "Обладает умением ускорения других монстров",
+      "Thai": "มีความสามารถในการเร่งความเร็วแก่มอนสเตอร์ตัวอื่น"
+    },
+    {
+      "text_id": 2012,
+      "english": "Immediately jumps when it's under attack",
+      "chinese": "受到攻击会立即跳跃的怪物",
+      "Indonesian": "Monster yang akan langsung meloncat ketika diserang",
+      "Russian": "Монстр, который способен мгновенно отскакивать при попадании под обстрел",
+      "Thai": "มอนสเตอร์ที่จะกระโดดทันทีเมื่อถูกโจมตี"
+    },
+    {
+      "text_id": 2013,
+      "english": "Has the ability to increase the invincible shield for other monsters",
+      "chinese": "拥有为非本类怪物提高无敌护罩能力",
+      "Indonesian": "Mempunyai kemampuan untuk meningkatkan pelindung yang tak tertandingi kepada non-monster",
+      "Russian": "Обладает способностью поднимать щиты неуязвимости для монстров, не относящихся к этому типу",
+      "Thai": "มีความสามารถในการเพิ่มเกราะคงกระพันแก่มอนสเตอร์ประเภทอื่น"
+    },
+    {
+      "text_id": 2014,
+      "english": "Flesh shield with a strong recovery ability",
+      "chinese": "拥有强力恢复能力的肉盾型怪物",
+      "Indonesian": "Monster jenis tank yang mempunyai kemampuan pemulihan yang kuat",
+      "Russian": "Монстр с живым щитом, обладающий сильными способностями к восстановлению",
+      "Thai": "มอนสเตอร์ประเภทโล่เนื้อมีความแข็งแกร่งในการฟื้นฟูความสามารถ"
+    },
+    {
+      "text_id": 2015,
+      "english": "Flying unit. Please board the airship one after another on the airship platform",
+      "chinese": "飞行单位，请在飞艇站台陆续登上飞艇",
+      "Indonesian": "Unit terbang, silakan naik ke kapal udara satu demi satu di stasiun kapal udara",
+      "Russian": "Летающий объект, на который ты можешь сесть в порту для дирижаблей",
+      "Thai": "หน่วยบิน โปรดทำการขึ้นเรือเหาะทีละคนบนสถานีเรือเหาะ"
+    },
+    {
+      "text_id": 2016,
+      "english": "Assault monster immune to penetration and catapult",
+      "chinese": "可免疫穿透和弹射的突击型怪物",
+      "Indonesian": "Monster penyerang yang kebal ditembus dan serangan artileri",
+      "Russian": "Атакующий монстр, невосприимчивый к проникающим и метательным снарядам",
+      "Thai": "มอนสเตอร์ประเภทจู่โจมมีภูมิคุ้มกันต่อการเจาะทะลุและการยิง"
+    },
+    {
+      "text_id": 2017,
+      "english": "Moves underground, and no one has seen its underground part",
+      "chinese": "在地下移动，地下的部分没人见过",
+      "Indonesian": "Bergerak di bawah tanah, bagian bawah tanah yang tidak pernah dilihat orang",
+      "Russian": "Передвигается под землей, в той части, на которую еще не ступала нога человека",
+      "Thai": "เคลื่อนที่ตามใต้ดิน ไม่มีใครเคยเห็นลำตัวส่วนใต้ดิน"
+    },
+    {
+      "text_id": 3001,
+      "english": "Commander, our base is currently under attack. Click 'Start' to defeat the enemy.",
+      "chinese": "指挥官，我们的基地正在遭受攻击，点击'开始游戏'击败敌人",
+      "Indonesian": "Komandan, markas kita sedang diserang, klik 'Mulai Permainan' untuk mengalahkan musuh",
+      "Russian": "Командир, наша база подверглась нападению, нажми ‘Начать игру’, чтобы сразить врага",
+      "Thai": "ผู้บัญชาการ ฐานทัพของเรากำลังถูกโจมตี กด”เริ่มเกม“เอาชนะศัตรู"
+    },
+    {
+      "text_id": 3003,
+      "english": "The Star Buff can provide buff effects to your hero. Try to add a Star Buff to your hero.",
+      "chinese": "星星buff能够为英雄提供属性加成，尝试为英雄装载星星buff",
+      "Indonesian": "Buff Bintang bisa memberikan bonus atribut kepada Hero, coba menggunakan Buff Bintang untuk Hero",
+      "Russian": "Звездные баффы дают бонусы к атрибутам героя, попробуй загрузить баффы для героя",
+      "Thai": "buffดวงดาวสามารถมอบโบนัสคุณสมบัติแก่ฮีโร่ ลองสวมใส่buffดวงดาวให้ฮีโร่"
+    },
+    {
+      "text_id": 3004,
+      "english": "Drag the Level Buff to 'Skills' to increase EP",
+      "chinese": "拖动关卡技能至英雄技能栏，增强战力",
+      "Indonesian": "Seret skill stage ke bar skill Hero, menambah kekuatan bertempur ",
+      "Russian": "Перетащи умения уровня на полосу умений героя, чтобы повысить боеспособность",
+      "Thai": "ลากสกิลด่านไปยังรายการสกิลฮีโร่ เพิ่มความแข็งแกร่งกำลังรบ"
+    },
+    {
+      "text_id": 3005,
+      "english": "Commander, we obtained a powerful new equipment. Go put it on your hero! ",
+      "chinese": "指挥官，我们现在获得了一件强大的新装备，快去为英雄穿戴吧",
+      "Indonesian": "Komandan, sekarang kita mendapatkan sebuah perlengkapan baru yang kuat, cepat pergi pasangkan ke Hero",
+      "Russian": "Командир, мы получили новейшую и мощнейшую боевую оснастку, скорее используй ее на героях ",
+      "Thai": "ผู้บัญชาการ ตอนนี้พวกเราได้รับไอเทมใหม่ 1 ชิ้นที่ทรงพลัง รีบไปสวมใส่ให้ฮีโร่กันเถอะ"
+    },
+    {
+      "text_id": 3006,
+      "english": "The equipment will greatly improve your EP after you put it on.",
+      "chinese": "穿戴装备后，战斗力会大幅上升",
+      "Indonesian": "Setelah perlengkapan dipasangkan, kekuatan tempur akan meningkat drastis",
+      "Russian": "При ношении оснастки боеспособность значительно возрастает",
+      "Thai": "หลังสวมใส่ไอเทม กำลังรบจะเพิ่มสูงขึ้น"
+    },
+    {
+      "text_id": 3007,
+      "english": "Commander, your current EP can unlock a Milestone Reward. Go check it out.",
+      "chinese": "指挥官，当前战斗力已满足里程碑奖励解锁条件，快去看看吧",
+      "Indonesian": "Komandan, kekuatan tempur sekarang sudah memenuhi syarat untuk membuka hadiah pencapaian, cepat pergi lihat",
+      "Russian": "Командир, текущая боеспособность позволяет разблокировать награды этапа, скорее проверь",
+      "Thai": "ผู้บัญชาการ กำลังรบปัจจุบันตรงตามเงื่อนไขปลดล็อกรางวัลเหตุการณ์สำคัญแล้ว รีบไปดูกันเถอะ"
+    },
+    {
+      "text_id": 3008,
+      "english": "Congratulations, Commander, a new Hero joined our team!",
+      "chinese": "恭喜指挥官，有一名新英雄加入了我们的队伍",
+      "Indonesian": "Selamat Komandan, ada seorang Hero baru bergabung dengan tim kita",
+      "Russian": "Поздравляю, командир, к нашей команде присоединился новый герой",
+      "Thai": "ยินดีด้วยผู้บัญชาการ มีฮีโร่ใหม่ 1 คนเข้าร่วมทีมพวกเราแล้ว"
+    },
+    {
+      "text_id": 3009,
+      "english": "Click 'Start' to dispatch heroes into battle",
+      "chinese": "点击开始游戏，在准备阶段上阵英雄",
+      "Indonesian": "Klik untuk memulai permainan, gerakkan Hero saat fase persiapan",
+      "Russian": "Нажми 'Начать игру', чтобы сразиться с героями на этапе подготовки ",
+      "Thai": "กดเริ่มเกม กำลังอยู่ในช่วงเตรียมฮีโร่เข้าทัพ"
+    },
+    {
+      "text_id": 3010,
+      "english": "Drag the new hero into your battle formation",
+      "chinese": "将新加入的英雄拖到出战阵容中",
+      "Indonesian": "Klik avatar Hero untuk pergi bertempur",
+      "Russian": "Нажми на автар героя, чтобы вступить в сражение",
+      "Thai": "กดรูปไอคอนฮีโร่ เพื่อออกรบทันที"
+    },
+    {
+      "text_id": 3011,
+      "english": "Gunners have a stronger AOE. Drag the Skill icon to aim and kill a wide rage of enemies",
+      "chinese": "炮手拥有更强的范围伤害，拖动技能图标进行瞄准，击杀大量敌人",
+      "Indonesian": "Penembak meriam memiliki kekuatan dmg area yang lebih kuat, seret ikon skill untuk membidik, dan membunuh musuh dalam jumlah besar",
+      "Russian": "Артиллерист способен наносить урон на огромное расстояние, перетащи значок умения, чтобы прицелиться и разбить как можно больше врагов",
+      "Thai": "ระเบิดมือมีอาณาเขตความเสียหายที่แข็งแกร่ง ลากรูปไอคอนสกิลทำการเล็งเป้า ฆ่าศัตรูจำนวนมาก"
+    },
+    {
+      "text_id": 3012,
+      "english": "Elite Monsters ahead! Elite Monsters can provide a Buff for other monsters. Eliminate them now!",
+      "chinese": "前方出现精英怪！精英怪能为其他怪物提供增益效果，需要尽快消灭",
+      "Indonesian": "Ada monster elit di depan! Monster elit dapat memberikan buff kepada monster lain, harus segera dibunuh",
+      "Russian": "Впереди появился элитный монстр! Элитные монстры способны обеспечивать баффами других монстров, поэтому их необходимо уничтожить как можно скорее",
+      "Thai": "มอนสเตอร์ยอดฝีมือปรากฏตัวเบื้องหน้า！มอนสเตอร์ยอดฝีมือสามารถมอบเอฟเฟกต์บัฟแก่มอนสเตอร์ตัวอื่นได้ ต้องรีบกำจัด"
+    },
+    {
+      "text_id": 3013,
+      "english": "Boss ahead! The Boss' HP is far greater than ordinary critters. Please be careful, Commander!",
+      "chinese": "前方出现BOSS！BOSS血量远高于普通小怪，请指挥官小心",
+      "Indonesian": "Muncul BOSS d depan! HP BOSS jauh lebih tinggi dari monster biasa, harap komandan berhati-hati",
+      "Russian": "Впереди появился БОСС! У БОССА гораздо больше крови, чем у других монстров, будь осторожен, командир!",
+      "Thai": "BOSSปรากฏตัวเบื้องหน้า！ปริมาณเลือดBOSSสูงกว่ามอนสเตอร์ขนาดเล็กทั่วไปมาก ผู้บัญชาการโปรดระวัง"
+    },
+    {
+      "text_id": 3014,
+      "english": "Check Daily Tasks, claim a great amount of rewards after completing the tasks",
+      "chinese": "查看每日任务，完成任务后可以领取大量奖励",
+      "Indonesian": "Periksa misi harian, setelah menyelesaikan misi bisa mendapatkan hadiah dalam jumlah banyak",
+      "Russian": "Просматривай ежедневные задания, и после их выполнения ты сможешь получить щедрую награду",
+      "Thai": "ตรวจดูภารกิจรายวัน หลังสำเร็จภารกิจรับรางวัลจำนวนมาก"
+    },
+    {
+      "text_id": 3015,
+      "english": "Upgrade heroes on the Hero's Page. Commander, please upgrade Archers to Lv. 10.",
+      "chinese": "在英雄界面可以为英雄升级。指挥官，请将弓箭手升至10级",
+      "Indonesian": "Bisa menaikkan level Hero di antarmuka Hero. Komandan, silakan naikkan level pemanah ke level 10",
+      "Russian": "В интерфейсе героев можно повышать уровень героев. Командир, повысьте своих лучников до 10 ур.",
+      "Thai": "ในหน้าฮีโร่สามารถอัปเกรดฮีโร่ได้ ผู้บัญชาการโปรดอัปมือธนูถึงLv.10"
+    },
+    {
+      "text_id": 3016,
+      "english": "Commander, the current hero may be promoted. Promoting a hero can greatly increase its EP.",
+      "chinese": "指挥官，当前英雄已解锁晋升功能，英雄晋升后可大幅提升战斗力",
+      "Indonesian": "Komandan, Hero sekarang sudah membuka fitur promosi, setelah Hero dipromosi bisa meningkatkan kekuatan bertempur secara drastis",
+      "Russian": "Командир, для этого героя уже доступно повышение уровня, после повышения его боеспособность значительно увеличится",
+      "Thai": "ผู้บัญชาการ ฮีโร่ปัจจุบันปลดล็อกฟังก์ชั่นเลื่อนขั้นแล้ว หลังฮีโร่เลื่อนขั้นเพิ่มกำลังรบสูงขึ้น"
+    },
+    {
+      "text_id": 3017,
+      "english": "Promotion requirements not met. Please claim your free reward at the Treasure Chest Page.",
+      "chinese": "当前还缺少晋升条件，请前往宝箱页面领取免费奖励",
+      "Indonesian": "Saat ini masih belum memenuhi syarat promosi, silakan pergi ke halaman peti harta untuk mengklaim hadiah",
+      "Russian": "Не все требования для повышения уровня соблюдены, перейди на страницу с наградами, чтобы получить бесплатные призы",
+      "Thai": "ปัจจุบันยังไม่ตรงตามเงื่อนไขเลื่อนขั้น โปรดไปยังหน้าหีบสมบัติเพื่อรับรางวัล"
+    },
+    {
+      "text_id": 3018,
+      "english": "Congratulations, Commander, we just need a bit more equipment to promote our hero!",
+      "chinese": "恭喜指挥官，现在我们只差一点装备就能满足英雄晋升条件",
+      "Indonesian": "Selamat Komandan, sekarang kita hanya kurang sedikit perlengkapan untuk bisa memenuhi syarat promosi",
+      "Russian": "Поздравляю, командир, нужно дополнить оснастку, чтобы мы выполнили все требования для повышения уровня героя",
+      "Thai": "ยินดีด้วยผู้บัญชาการ ปัจจุบันพวกเราขาดไอเทมอีกนิดเดียวก็จะครบเงื่อนไขเลื่อนขั้นฮีโร่แล้ว "
+    },
+    {
+      "text_id": 3019,
+      "english": "Click Equipment Chest to claim rewards. Skip Ads available.",
+      "chinese": "点击装备宝箱获取奖励，本次可免看广告",
+      "Indonesian": "Klik peti harta perlengkapan untuk mendapatkan hadiah, kali ini dapat melewati iklan",
+      "Russian": "Нажми на сундук с оснасткой, чтобы получить награду, в этот раз без просмотра рекламы",
+      "Thai": "กดหีบสมบัติไอเทมเพื่อรับรางวัล ครั้งนี้ดูโฆษณาฟรี"
+    },
+    {
+      "text_id": 3020,
+      "english": "Click on ’Promotion‘",
+      "chinese": "点击晋升按钮",
+      "Indonesian": "Klik tombol promosi",
+      "Russian": "Нажми на кнопку для повышения уровня",
+      "Thai": "กดปุ่มเลื่อนขั้น"
+    },
+    {
+      "text_id": 3022,
+      "english": "Head to the Sign-In Page to claim your sign-in rewards",
+      "chinese": "前往签到页面，领取签到奖励",
+      "Indonesian": "Pergi ke halaman login, klaim hadiah login",
+      "Russian": "Перейди на страницу регистрации, чтобы получить награду",
+      "Thai": "ไปหน้ารายงานตัว รับรางวัลรายงานตัว"
+    },
+    {
+      "text_id": 3023,
+      "english": "Claim daily free gems here",
+      "chinese": "在这里可以领取每日免费钻石",
+      "Indonesian": "Di sini bisa mengklaim diamond gratis setiap hari",
+      "Russian": "Здесь можно ежедневно получать бесплатные алмазы",
+      "Thai": "ที่นี่สามารถรับเพชรฟรีได้ทุกวัน"
+    },
+    {
+      "text_id": 3024,
+      "english": "AFK Function unlocked, AFK Revenue will accumulate through time. There's a max limit to the AFK Revenue. Please claim your earnings in time, Commander.",
+      "chinese": "挂机功能已解锁，挂机收益会随着时间累计。挂机收益有上限，请指挥官及时领取。",
+      "Indonesian": "Fungsi idle sudah dibuka, pendapatan idle akan diakumulasi seiring dengan waktu. Pendapatan idle memiliki batas atas, silakan komandan klaim tepat waktu.",
+      "Russian": "Функция авторежима уже разблокирована, доход будет накапливаться со временем. При авторежиме существует ограничение дохода, поэтому необходимо осуществлять своевременный сбор.",
+      "Thai": "ปลดล็อกฟังก์ชั่นAIแล้ว บัฟAIจะเพิ่มขึ้นตามเวลาสะสม บัฟAIมีขีดจำกัด ผู้บัญชาการรีบรับให้ทันเวลานะ"
+    },
+    {
+      "text_id": 3025,
+      "english": "The Wheel of Fortune is available.",
+      "chinese": "幸运转盘现已解锁",
+      "Indonesian": "Lucky Wheel sudah dibuka",
+      "Russian": "Колесо фортуны уже разблокировано",
+      "Thai": "ตอนนี้วงล้อโชคดีปลดล็อกแล้ว"
+    },
+    {
+      "text_id": 3026,
+      "english": "The enemy is too powerful. Please increase hero's EP.",
+      "chinese": "当前敌人过于强大，需要提升英雄战斗力",
+      "Indonesian": "Musuh saat ini terlalu kuat, harus meningkatkan kekuatan bertempur Hero",
+      "Russian": "Этот враг слишком силен, нужно повысить боеспособность героя",
+      "Thai": "ศัตรูปัจจุบันแข็งแกร่งมาก ต้องอัปกำลังรบฮีโร่ให้สูงขึ้น"
+    },
+    {
+      "text_id": 3027,
+      "english": "Challenge completed levels again for a chance to obtain equipment rewards",
+      "chinese": "重复挑战已通关关卡，有概率获得装备奖励",
+      "Indonesian": "Menantang ulang stage yang sudah diselesaikan, ada kemungkinan untuk mendapatkan hadiah perlengkapan",
+      "Russian": "Повторяй задания на пройденных уровнях, чтобы получить в награду оснастку",
+      "Thai": "ท้าสู้ซ้ำในด่านที่ผ่านแล้ว มีโอกาสได้รับรางวัลไอเทม"
+    },
+    {
+      "text_id": 3028,
+      "english": "Monster Guide unlocked",
+      "chinese": "怪物图鉴现已解锁",
+      "Indonesian": "Galeri monster sekarang sudah terbuka",
+      "Russian": "Иллюстрированный справочник монстров уже разблокирован",
+      "Thai": "รูปภาพมอนสเตอร์ตอนนี้ปลดล็อกแล้ว"
+    },
+    {
+      "text_id": 3101,
+      "english": "Win the game for a chance to obtain rare rewards",
+      "chinese": "游戏胜利后有概率获得稀有奖励",
+      "Indonesian": "Setelah membunuh BOSS ada kemungkinan untuk mendapatkan hadiah langka",
+      "Russian": "После сражения с БОССОМ появится шанс получить редкую награду",
+      "Thai": "หลังฆ่าBOSSมีโอกาสรับรางวัลหายาก"
+    },
+    {
+      "text_id": 3102,
+      "english": "Click to upgrade heroes",
+      "chinese": "点击这里，为英雄升级",
+      "Indonesian": "Klik di sini, untuk upgrade Hero",
+      "Russian": "Нажми сюда, чтобы повысить уровень героя",
+      "Thai": "กดที่นี่ เพื่ออัปเกรดฮีโร่"
+    },
+    {
+      "text_id": 3104,
+      "english": "Click to start the game and dispatch heroes",
+      "chinese": "点击这里开始游戏，在准备阶段上阵英雄",
+      "Indonesian": "Klik di sini untuk memulai permainan, mainkan Hero dalam tahap persiapan",
+      "Russian": "Нажми сюда, чтобы начать игру и сразиться с героями на этапе подготовки ",
+      "Thai": "กดที่นี่เริ่มเกม กำลังอยู่ในช่วงเตรียมฮีโร่เข้าทัพ"
+    },
+    {
+      "text_id": 3106,
+      "english": "Wonderful, Commander! You already learned all the skills. Please continue with your adventure.",
+      "chinese": "太好了指挥官，您已经学会了全部技巧，请继续冒险吧",
+      "Indonesian": "Berita bagus komandan, kamu sudah mempelajari semua skill, silakan lanjutkan petualangan",
+      "Russian": "Отличная работа командир! Вы уже овладели всеми умениями, продолжайте свое приключение!",
+      "Thai": "สุดยอดไปเลยผู้บัญชาการ ท่านเรียนรู้เคล็ดลับทั้งหมดแล้ว โปรดผจญภัยต่อไปเถอะ"
+    },
+    {
+      "text_id": 3200,
+      "english": "New recruit training",
+      "chinese": "新兵训练",
+      "Indonesian": "Pelatihan anggota baru",
+      "Russian": "Обучение новобранцев",
+      "Thai": "ฝึกซ้อมทหารใหม่"
+    },
+    {
+      "text_id": 3201,
+      "english": "Click to enter battle",
+      "chinese": "点击开始挑战进入战斗",
+      "Indonesian": "Tekan mulai tantangan untuk masuk ke pertarungan",
+      "Russian": "Нажми ‘Начать’, чтобы вступить в бой",
+      "Thai": "กดเริ่มท้าสู้เข้าสู่การต่อสู้"
+    },
+    {
+      "text_id": 3202,
+      "english": "Hero will automatically shoot monsters",
+      "chinese": "英雄会自动射击怪物，击杀怪物可以获得能量",
+      "Indonesian": "Pahlawan akan menembak monster secara otomatis, membunuh monster dapat memperoleh energi",
+      "Russian": "Герой будет автоматически стрелять в монстра, убийство монстра может получить энергию",
+      "Thai": "ฮีโร่จะทำกการยิงโจมตีมอนสเตอร์อัตโนมัติ ฆ่ามอนสเตอร์สามารถได้รับพลัง"
+    },
+    {
+      "text_id": 3203,
+      "english": "Click to release extra abilities",
+      "chinese": "点击释放超级技能",
+      "Indonesian": "Tekan untuk melepaskan skill super",
+      "Russian": "Нажми, чтобы выпустить супер-умение",
+      "Thai": "กดปล่อยสกิลขั้นสุดยอด"
+    },
+    {
+      "text_id": 3204,
+      "english": "Press and drag to manually aim and release extra abilities",
+      "chinese": "按住拖动可以手动瞄准释放超级技能",
+      "Indonesian": "Tekan dan geser untuk membidik secara manual dan melepaskan skill super",
+      "Russian": "Удерживай и перемещай, чтобы вручную прицелиться и высвободить супер-умения",
+      "Thai": "กดค้างเเละลากสามารถเล็งเป้าปล่อยสกิลขั้นสุดยอดได้ด้วยตัวเอง"
+    },
+    {
+      "text_id": 3205,
+      "english": "Click to enter Hero's page",
+      "chinese": "点击进入英雄页面",
+      "Indonesian": "Tekan untuk masuk ke halaman pahlawan",
+      "Russian": "Нажми, чтобы перейти на страницу героя",
+      "Thai": "กดเข้าสู่หน้าฮีโร่"
+    },
+    {
+      "text_id": 3206,
+      "english": "Click Equipment to open equipment inventory",
+      "chinese": "点击装备栏可打开装备背包",
+      "Indonesian": "Tekan slot perlengkapan untuk membuka ransel perlengkapan",
+      "Russian": "Нажми на панель оснастки, чтобы открыть рюкзак снаряжения",
+      "Thai": "กดรายการไอเทมสามารถเปิดเป้ไอเทมได้"
+    },
+    {
+      "text_id": 3207,
+      "english": "Drag to combine equipment",
+      "chinese": "拖动可以合成装备",
+      "Indonesian": "Geser untuk mensintesis perlengkapan",
+      "Russian": "Перетащи чтобы синтезировать оснастку",
+      "Thai": "ลากสามารถผสานไอเทมได้"
+    },
+    {
+      "text_id": 3208,
+      "english": "Drag Hero's icon to dispatch",
+      "chinese": "拖动英雄头像即可出战",
+      "Indonesian": "Geser avatar pahlawan untuk pergi bertarung",
+      "Russian": "Перетащи аватар героя, чтобы начать сражение",
+      "Thai": "ลากรูปไอคอนฮีโร่สามารถออกรบได้"
+    },
+    {
+      "text_id": 3209,
+      "english": "Click Store",
+      "chinese": "点击商店",
+      "Indonesian": "Tekan Toko",
+      "Russian": "Нажми на магазин",
+      "Thai": "กดร้านค้า"
+    },
+    {
+      "text_id": 3210,
+      "english": "Claim free Reward chests at the store",
+      "chinese": "在商店可以领取免费的宝箱",
+      "Indonesian": "Dapat mengklaim peti harta karun gratis di toko",
+      "Russian": "В магазине можно получить бесплатные сундуки с драгоценностями",
+      "Thai": "ในร้านสามารถรับหีบสมบัติได้ฟรี"
+    },
+    {
+      "text_id": 3301,
+      "english": "Andre's cannon may seem cumbersome, yet its wide range splash range can terrify hordes of enemies. His attacks can also cause a secondary splash and stun effect.",
+      "chinese": "安德烈的炮弹虽然笨重，但是大范围的炮弹溅射可以令成群的敌人闻风丧胆，并且攻击能附带二次溅射、眩晕的能力",
+      "Indonesian": "Meskipun bola meriam Andre tidak praktis, tapi percikan bola meriam skala besar dapat membuat sekelompok musuh ketakutan, dan serangan memiliki kemampuan percikan tambahan dan stun.",
+      "Russian": "Хотя снаряды Андре довольно тяжелые, они разлетаются на огромное расстояние и способны спугнуть полчища врагов, а атака сопровождается вторичным сбросом снарядов и оглушением",
+      "Thai": "ถึงแม้ปืนใหญ่ของอังเดรจะมีขนาดใหญ่เทอะทะ แต่ขอบเขตการยิงวงกว้าง สามารถทำให้กลุ่มศัตรูหวาดกลัวได้ มีความสามารถสร้างความเสียหายการยิงระเบิด 2 ครั้ง"
+    },
+    {
+      "text_id": 3302,
+      "english": "Nory possesses the ability to control the power of vines. Her attack can perice through the enemy and her ultimate skill can cause a large AOE stun effect.",
+      "chinese": "娜蕊拥有操控藤蔓的力量，她的攻击能够穿刺敌人。大招可以对敌人造成大范围眩晕",
+      "Indonesian": "Narui memiliki kekuatan untuk memanipulasi tanaman merambat, serangannya dapat menembus musuh. Jurus pamungkasnya bisa membuat musuh terkena efek stun dalam area yang luas",
+      "Russian": "Нари обладает способностью управлять лианами, а ее атака способна пронзить врага насквозь. Коронный удар позволяет нанести врагу мощнейший эффект оглушения",
+      "Thai": "นารุอิมีพลังในการควบคุมเถาวัลย์ การโจมตีของเขาสามารถเจาะทะลุศัตรูได้ ท่าไม้ตายทำให้ศัตรูวิงเวียนในขอบเขตขนาดใหญ่"
+    }
+  ]
+}

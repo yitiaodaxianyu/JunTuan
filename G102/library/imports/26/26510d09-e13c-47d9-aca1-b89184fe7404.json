@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "VIP_Tips_CN",
+    "texture": "3a6b8123-7642-4fac-b9ef-dd49a7f55737",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      571,
+      79
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      571,
+      79
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

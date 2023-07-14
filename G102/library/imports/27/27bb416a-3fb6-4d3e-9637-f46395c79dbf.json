@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Thor_Passive2_02",
+    "texture": "728a7518-88fe-47fc-b5f4-30aa49f17368",
+    "atlas": "fa8615fe-d538-4d56-aa79-32e80c284eb1",
+    "rect": [
+      835,
+      1889,
+      82,
+      150
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      82,
+      150
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

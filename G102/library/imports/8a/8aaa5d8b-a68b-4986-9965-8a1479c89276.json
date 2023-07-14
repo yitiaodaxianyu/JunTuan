@@ -1,0 +1,20 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "guaji_ui.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Reward_Bg_0": {
+      "__uuid__": "0f121db6-74c8-4cf5-aea6-d252d2f8c48b"
+    },
+    "Reward_Bg_1": {
+      "__uuid__": "4cf59324-99de-4a75-8d39-4f773430971a"
+    },
+    "Reward_Bg_2": {
+      "__uuid__": "89aaec4d-56e3-4cba-98cb-ced5930d403d"
+    },
+    "Reward_Chest": {
+      "__uuid__": "78f93b83-0e2a-4f73-b748-5e38e067fdd7"
+    }
+  }
+}

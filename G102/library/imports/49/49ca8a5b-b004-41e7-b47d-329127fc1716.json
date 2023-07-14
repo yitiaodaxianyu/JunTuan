@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Font_Number_HeiBian_0",
+    "texture": "2db4a937-8c2f-4bcc-85bb-deaeca2943da",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      252,
+      408
+    ],
+    "offset": [
+      -2,
+      52
+    ],
+    "originalSize": [
+      256,
+      512
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Dungeon_Bg_2",
+    "texture": "0fa26554-18aa-4685-943c-8687476a8daa",
+    "atlas": "20cb05a8-719e-4878-bafb-23c08de83024",
+    "rect": [
+      579,
+      906,
+      98,
+      100
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      98,
+      100
+    ],
+    "rotated": 1,
+    "capInsets": [
+      32,
+      32,
+      32,
+      32
+    ]
+  }
+}

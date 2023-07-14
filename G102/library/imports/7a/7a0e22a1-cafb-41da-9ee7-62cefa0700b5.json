@@ -1,0 +1,128 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "maze_ui.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Maze_Arrow": {
+      "__uuid__": "ed7b6de7-c5df-452f-a972-a6a5fdd246ee"
+    },
+    "Maze_Bg_1": {
+      "__uuid__": "dfc0d3c4-c9b6-40f1-8201-c0ceed1f4518"
+    },
+    "Maze_Bg_1_1": {
+      "__uuid__": "8542aff9-3cdb-46c8-ab92-8cfe37c2f017"
+    },
+    "Maze_Bg_1_2": {
+      "__uuid__": "2a4101af-8b8c-4fb0-ae7c-1807de4484b7"
+    },
+    "Maze_Bg_2": {
+      "__uuid__": "4d320458-6df0-4f4f-96cf-e63f8a8c61c5"
+    },
+    "Maze_Bg_3": {
+      "__uuid__": "f46eb3fd-c131-4f4b-b544-2eea14ccf275"
+    },
+    "Maze_Bg_ZhanLi": {
+      "__uuid__": "780aedf0-75d6-4ef8-b460-e0ed6a2e8092"
+    },
+    "Maze_Btn_Bag": {
+      "__uuid__": "18e09659-b13a-4496-962f-fb01bf4230c8"
+    },
+    "Maze_Btn_Repair": {
+      "__uuid__": "5f0e95e7-4bba-4c29-994b-05a820563646"
+    },
+    "Maze_Btn_Tips": {
+      "__uuid__": "6dc00048-44f2-4669-9d9b-4ecfa5a6df5a"
+    },
+    "Maze_Btn_WallHp": {
+      "__uuid__": "a38eb746-c728-4a3c-97c4-04d3b52ea05e"
+    },
+    "Maze_Buff_Bg_0": {
+      "__uuid__": "c79952d9-651e-4082-9c25-a9b3270f68ea"
+    },
+    "Maze_Buff_Bg_0_1": {
+      "__uuid__": "ed34d6d8-9e3a-45e8-a4b0-1c42b61868fe"
+    },
+    "Maze_Buff_Bg_0_2": {
+      "__uuid__": "1fa7dd69-1364-428d-8f6b-799556587630"
+    },
+    "Maze_Buff_Icon_1": {
+      "__uuid__": "a7d3386c-80c5-4649-ba8a-9a4ab5d1de6e"
+    },
+    "Maze_Buff_Icon_2": {
+      "__uuid__": "97482812-14b2-44a2-9c81-3fe5bc946b28"
+    },
+    "Maze_Buff_Icon_3": {
+      "__uuid__": "946d9099-c54b-41ad-9c0e-7e2037c41fc2"
+    },
+    "Maze_Buff_Icon_4": {
+      "__uuid__": "f652f8ef-eb3d-4a5f-bfe3-38cb8089f95e"
+    },
+    "Maze_Buff_Icon_5": {
+      "__uuid__": "0020530b-52fc-4eb6-9cf3-df48e187c340"
+    },
+    "Maze_Buff_Icon_6": {
+      "__uuid__": "53847700-f4e6-476d-80c4-c2ad7f821d8b"
+    },
+    "Maze_Buff_Icon_7": {
+      "__uuid__": "a25ff58f-f70d-4b29-adc9-805998b2f142"
+    },
+    "Maze_Buff_Icon_8": {
+      "__uuid__": "0e700009-5af4-4b0c-b192-161cf144e815"
+    },
+    "Maze_Buff_Icon_9": {
+      "__uuid__": "717babba-4c54-4bab-beeb-02598449be23"
+    },
+    "Maze_Buff_Light": {
+      "__uuid__": "b64847b9-80a5-4533-ba3d-4d3b2c45975d"
+    },
+    "Maze_Checkmark": {
+      "__uuid__": "2f956f44-87c7-4d79-afde-13a002293554"
+    },
+    "Maze_HPbar_0": {
+      "__uuid__": "a9ffa1b3-070e-46ea-a7fe-ae35e1955bde"
+    },
+    "Maze_HPbar_1": {
+      "__uuid__": "93aa76e7-e5c9-4c24-8062-2dbb19fb71a9"
+    },
+    "Maze_Icon_0": {
+      "__uuid__": "a102fb4b-1b37-4b32-a287-159d68213154"
+    },
+    "Maze_Icon_1": {
+      "__uuid__": "df74ef11-620c-4f75-ae84-641dae45e4cc"
+    },
+    "Maze_Icon_2": {
+      "__uuid__": "f2c66ef5-197e-4fec-b339-b764e34213f6"
+    },
+    "Maze_Icon_3": {
+      "__uuid__": "70d9d9ec-e30d-4bbc-9b31-157d260633b7"
+    },
+    "Maze_Icon_4": {
+      "__uuid__": "2dc4d7bc-72e2-448b-a173-fe8c902bad2b"
+    },
+    "Maze_Icon_5": {
+      "__uuid__": "901e3e55-5c1e-43bb-bb0c-5116ce8c61de"
+    },
+    "Maze_Icon_6": {
+      "__uuid__": "d7395211-e4d1-44d2-b2ec-93cb69753a40"
+    },
+    "Maze_Icon_Repair": {
+      "__uuid__": "4e7d2b76-dbe2-448e-acad-9b5bab459ea0"
+    },
+    "Maze_Line_0": {
+      "__uuid__": "73a1e013-048e-4030-84d0-8412988a782b"
+    },
+    "Maze_Quality_0": {
+      "__uuid__": "a0dc86ab-1b12-48f0-863b-231bcc3e2762"
+    },
+    "Maze_Quality_1": {
+      "__uuid__": "49ca40a2-8b7a-4e8f-9997-719691555b3a"
+    },
+    "Maze_Quality_2": {
+      "__uuid__": "3c287f44-f825-45e7-a868-16ce310dccf4"
+    },
+    "Maze_Shadow": {
+      "__uuid__": "b3c82c29-830b-4ee7-807b-abb946271460"
+    }
+  }
+}

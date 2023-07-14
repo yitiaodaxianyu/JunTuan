@@ -1,0 +1,110 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "boss1.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Boss6_AttackTail": {
+      "__uuid__": "86619ea2-4e1d-445d-b0a5-5b43ce7d05b1"
+    },
+    "Boss6_Skill": {
+      "__uuid__": "8ab107c5-9f26-45f8-9e1b-c6d9ee7e2afe"
+    },
+    "Boss6_SkillHit_01": {
+      "__uuid__": "fa8b0fbb-f2c0-4cde-aea2-5df1bce73c75"
+    },
+    "Boss6_SkillHit_02": {
+      "__uuid__": "6b1c6ed8-f6dc-4e6a-9beb-650d6b19d83c"
+    },
+    "Boss6_SkillHit_03": {
+      "__uuid__": "064e1870-6f53-4f9a-8c46-d1b4d25ba45e"
+    },
+    "Boss6_SkillHit_04": {
+      "__uuid__": "c72b675f-32d2-4a5b-b8bd-297340316bf1"
+    },
+    "Boss6_SkillHit_05": {
+      "__uuid__": "f71645d5-1150-48c4-b502-14bbe767ccb2"
+    },
+    "Boss6_SkillHit_06": {
+      "__uuid__": "8b0660e8-b41b-4280-8c15-f5ce0ef7aeb9"
+    },
+    "Boss6_SkillHit_07": {
+      "__uuid__": "37f9212b-21b0-4b05-8f05-1535d6783a49"
+    },
+    "Boss6_SkillHit_08": {
+      "__uuid__": "2d37db57-6bc5-43ed-9462-10491a7fac65"
+    },
+    "Boss6_SkillHit_09": {
+      "__uuid__": "ada23673-3e90-403b-afe2-9a291fbe7975"
+    },
+    "Boss6_SkillHit_10": {
+      "__uuid__": "f85e4416-2c75-434e-885a-ac095a383b15"
+    },
+    "Boss6_SkillHit_11": {
+      "__uuid__": "a7994ff9-1271-4575-be6a-53f05b242e35"
+    },
+    "Boss6_SkillTail": {
+      "__uuid__": "ef55eb83-74b4-4fc5-8966-02c8c9f8ec51"
+    },
+    "Boss6_Skill_01": {
+      "__uuid__": "b43f94a4-42df-4882-a002-c185b0c60e88"
+    },
+    "Spirit_Attack": {
+      "__uuid__": "382b5cbe-8635-4efb-b9e6-820fd9239c31"
+    },
+    "Spirit_AttackHit_00": {
+      "__uuid__": "e63e0dbe-c150-4b0b-be75-777bab3b3d53"
+    },
+    "Spirit_AttackHit_01": {
+      "__uuid__": "02d1ccc9-1ea6-450a-8dce-f6382fc72b6d"
+    },
+    "Spirit_AttackHit_02": {
+      "__uuid__": "2063aadb-443c-4003-9576-688e9df12cfc"
+    },
+    "Spirit_AttackHit_03": {
+      "__uuid__": "410702b7-60f3-47ac-a9f9-2708ad4310d7"
+    },
+    "Spirit_AttackHit_04": {
+      "__uuid__": "ac3a9afd-667c-465a-bcd9-2ee7c8bf351d"
+    },
+    "Spirit_AttackHit_05": {
+      "__uuid__": "85ae0734-cd96-4dc0-b5ee-26c05bd86514"
+    },
+    "Spirit_AttackHit_06": {
+      "__uuid__": "720edd6d-8db4-4edc-acce-d5b56a36d331"
+    },
+    "Spirit_AttackHit_07": {
+      "__uuid__": "45b45a99-194c-4d2f-9feb-2295b5a5abb2"
+    },
+    "Spirit_AttackHit_08": {
+      "__uuid__": "fa8a2e28-0c2a-4337-9c05-6d5d6a94355d"
+    },
+    "Spirit_AttackHit_09": {
+      "__uuid__": "6fa9a5b1-7e93-4060-a7a2-fff1089a988b"
+    },
+    "Spirit_AttackHit_10": {
+      "__uuid__": "e80dc8dc-5a32-4597-9b46-2e7cde7a0a11"
+    },
+    "Spirit_AttackHit_11": {
+      "__uuid__": "67a66099-bff4-4923-86b1-25eed5f84ef7"
+    },
+    "Spirit_AttackHit_12": {
+      "__uuid__": "70489287-05b9-4f03-9561-46faa60d220c"
+    },
+    "Spirit_AttackHit_13": {
+      "__uuid__": "5621255d-048e-43ae-96d7-48253d8ddc61"
+    },
+    "Spirit_AttackHit_14": {
+      "__uuid__": "d6c89baa-73c7-4ff5-9744-7aba47454be8"
+    },
+    "Spirit_AttackHit_15": {
+      "__uuid__": "ec3092cc-d734-48b6-bc38-492ec60ff398"
+    },
+    "Spirit_AttackHit_16": {
+      "__uuid__": "e0054079-5928-4f5b-ac11-f6e04e7d2831"
+    },
+    "Spirit_AttackHit_17": {
+      "__uuid__": "a76af3cf-4972-45a2-b392-260fea3f076f"
+    }
+  }
+}

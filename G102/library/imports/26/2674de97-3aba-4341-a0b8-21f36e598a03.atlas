@@ -1,0 +1,118 @@
+
+Boss15.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 864, 231
+  size: 234, 240
+  orig: 234, 240
+  offset: 0, 0
+  index: -1
+Body_2
+  rotate: true
+  xy: 4, 75
+  size: 341, 314
+  orig: 341, 314
+  offset: 0, 0
+  index: -1
+Flash18
+  rotate: true
+  xy: 583, 695
+  size: 324, 322
+  orig: 338, 338
+  offset: 6, 8
+  index: -1
+Head
+  rotate: true
+  xy: 909, 720
+  size: 299, 260
+  orig: 299, 260
+  offset: 0, 0
+  index: -1
+Lian_1
+  rotate: false
+  xy: 1066, 70
+  size: 141, 157
+  orig: 141, 157
+  offset: 0, 0
+  index: -1
+Lian_2
+  rotate: true
+  xy: 202, 6
+  size: 65, 50
+  orig: 65, 50
+  offset: 0, 0
+  index: -1
+Lian_3
+  rotate: false
+  xy: 1173, 872
+  size: 100, 147
+  orig: 100, 147
+  offset: 0, 0
+  index: -1
+Qun
+  rotate: false
+  xy: 583, 475
+  size: 480, 216
+  orig: 480, 216
+  offset: 0, 0
+  index: -1
+Soft
+  rotate: false
+  xy: 322, 4
+  size: 82, 82
+  orig: 84, 84
+  offset: 1, 1
+  index: -1
+YouJian
+  rotate: false
+  xy: 1067, 523
+  size: 173, 193
+  orig: 173, 193
+  offset: 0, 0
+  index: -1
+YouShou
+  rotate: true
+  xy: 652, 18
+  size: 166, 263
+  orig: 166, 263
+  offset: 0, 0
+  index: -1
+ZuoJian
+  rotate: false
+  xy: 919, 49
+  size: 143, 178
+  orig: 143, 178
+  offset: 0, 0
+  index: -1
+ZuoShou
+  rotate: false
+  xy: 652, 188
+  size: 208, 283
+  orig: 208, 283
+  offset: 0, 0
+  index: -1
+piece01
+  rotate: false
+  xy: 4, 24
+  size: 194, 47
+  orig: 216, 55
+  offset: 11, 4
+  index: -1
+ring
+  rotate: false
+  xy: 322, 90
+  size: 326, 326
+  orig: 338, 338
+  offset: 6, 6
+  index: -1
+xian
+  rotate: true
+  xy: 4, 420
+  size: 599, 575
+  orig: 660, 660
+  offset: 38, 40
+  index: -1

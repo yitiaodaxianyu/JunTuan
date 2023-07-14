@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "XL_finger",
+    "texture": "bcf6a112-9f0d-4dbe-bdf8-95db8f8c9af9",
+    "atlas": "1240e4b1-0e47-4d0a-8adf-084026726c4f",
+    "rect": [
+      270,
+      297,
+      71,
+      85
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      71,
+      85
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

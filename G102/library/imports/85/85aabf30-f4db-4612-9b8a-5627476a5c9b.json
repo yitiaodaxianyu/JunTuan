@@ -1,0 +1,116 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "role_shengjie.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Fx_Evolve_B_00": {
+      "__uuid__": "3b9de607-bd1f-41d9-b9c5-57f3910bc6b0"
+    },
+    "Fx_Evolve_B_01": {
+      "__uuid__": "b6593407-c9a1-4ef7-90b0-18c20a022029"
+    },
+    "Fx_Evolve_B_02": {
+      "__uuid__": "979b4dc9-abed-4f73-a671-3c3b6316972a"
+    },
+    "Fx_Evolve_B_03": {
+      "__uuid__": "987bd9dc-5682-4a7e-902d-6e778e870099"
+    },
+    "Fx_Evolve_B_04": {
+      "__uuid__": "a6ab39af-84f1-4b5c-a5ff-a8daec6fb295"
+    },
+    "Fx_Evolve_B_05": {
+      "__uuid__": "6c55139b-6ba7-43e0-8ac6-acf015e42286"
+    },
+    "Fx_Evolve_B_06": {
+      "__uuid__": "0650267f-0977-4d80-a0be-e89fca8bf84b"
+    },
+    "Fx_Evolve_B_07": {
+      "__uuid__": "32b50974-86bc-4edf-8ae6-a10b968e850b"
+    },
+    "Fx_Evolve_B_08": {
+      "__uuid__": "8c0a994d-ea27-4142-8dc0-bcdf9ca372be"
+    },
+    "Fx_Evolve_B_09": {
+      "__uuid__": "3f8d1cf5-f0f9-4627-bf6a-054a4996b9da"
+    },
+    "Fx_Evolve_B_10": {
+      "__uuid__": "4ddd8a83-3b75-4b88-9ecc-9920b2942181"
+    },
+    "Fx_Evolve_B_11": {
+      "__uuid__": "726f6c29-4115-4efa-830c-a0adc28b2d28"
+    },
+    "Fx_Evolve_B_12": {
+      "__uuid__": "3a3b5f18-271a-4f61-ba23-b89d4e3ed8d7"
+    },
+    "Fx_Evolve_B_13": {
+      "__uuid__": "31aa672e-2447-47d2-8d40-5a12d317c3fb"
+    },
+    "Fx_Evolve_B_14": {
+      "__uuid__": "f2242c85-7dd2-406e-9236-b461a1ea8699"
+    },
+    "Fx_Evolve_B_15": {
+      "__uuid__": "bc519329-135c-4526-915d-a0a274eb9b44"
+    },
+    "Fx_Evolve_B_16": {
+      "__uuid__": "6f66ac8a-b6b6-4fe9-9474-53a35ff817c2"
+    },
+    "Fx_Evolve_B_17": {
+      "__uuid__": "ae08af3c-dee9-4c1b-a30e-abe60b3a1c14"
+    },
+    "Fx_Evolve_F_00": {
+      "__uuid__": "35c48c7c-c41e-4374-93a9-1b52c1e462ff"
+    },
+    "Fx_Evolve_F_01": {
+      "__uuid__": "826a3c1b-a461-41f7-bc12-8d11ece610d8"
+    },
+    "Fx_Evolve_F_02": {
+      "__uuid__": "32746adf-2d42-4ba5-8882-07bafeed1966"
+    },
+    "Fx_Evolve_F_03": {
+      "__uuid__": "1d6068e1-3a79-4bf1-8701-3a20465bf842"
+    },
+    "Fx_Evolve_F_04": {
+      "__uuid__": "ed881b2d-53d1-4d12-a60d-93edbb44b329"
+    },
+    "Fx_Evolve_F_05": {
+      "__uuid__": "e2ac6344-2a5b-4053-9cd5-7d9b2ecceffd"
+    },
+    "Fx_Evolve_F_06": {
+      "__uuid__": "8ff9f72e-30a7-4354-aca4-4cd429f75dc3"
+    },
+    "Fx_Evolve_F_07": {
+      "__uuid__": "e873218a-0af0-44ed-9faf-12b0d0b1a4bb"
+    },
+    "Fx_Evolve_F_08": {
+      "__uuid__": "6fde0207-92a1-4f2b-a30f-e51d4b16de91"
+    },
+    "Fx_Evolve_F_09": {
+      "__uuid__": "ab769398-59b3-4212-9a42-61ce32409e3e"
+    },
+    "Fx_Evolve_F_10": {
+      "__uuid__": "57f34726-905c-470a-95b6-2430e25db4f0"
+    },
+    "Fx_Evolve_F_11": {
+      "__uuid__": "371d2a4d-b085-4dea-9fac-1f73602dcb5b"
+    },
+    "Fx_Evolve_F_12": {
+      "__uuid__": "436fa9d6-c2ca-490d-81b2-897b9f342e72"
+    },
+    "Fx_Evolve_F_13": {
+      "__uuid__": "9a1f2ffc-c8c1-49e6-b626-448f78926ad3"
+    },
+    "Fx_Evolve_F_14": {
+      "__uuid__": "5c64d33d-858d-4d7d-8c0f-b2acac08b1b6"
+    },
+    "Fx_Evolve_F_15": {
+      "__uuid__": "2c921b9a-977c-4b06-89ba-bd6906d2cbc8"
+    },
+    "Fx_Evolve_F_16": {
+      "__uuid__": "07f6df7d-0ba5-453c-ae56-9e438bff9f37"
+    },
+    "Fx_Evolve_F_17": {
+      "__uuid__": "4eeee5f8-a14c-4cb2-b00b-9027e5748efe"
+    }
+  }
+}

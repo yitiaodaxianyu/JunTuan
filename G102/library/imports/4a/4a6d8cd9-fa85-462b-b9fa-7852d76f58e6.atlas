@@ -1,0 +1,55 @@
+
+Pet_Huo.png
+size: 92,72
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: true
+  xy: 0, 36
+  size: 36, 31
+  orig: 36, 31
+  offset: 0, 0
+  index: -1
+Huo_1
+  rotate: true
+  xy: 32, 2
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+Huo_2
+  rotate: false
+  xy: 63, 42
+  size: 29, 30
+  orig: 29, 30
+  offset: 0, 0
+  index: -1
+Huo_3
+  rotate: true
+  xy: 65, 11
+  size: 29, 27
+  orig: 29, 27
+  offset: 0, 0
+  index: -1
+Huo_4
+  rotate: true
+  xy: 0, 0
+  size: 34, 30
+  orig: 34, 30
+  offset: 0, 0
+  index: -1
+Huo_5
+  rotate: true
+  xy: 33, 38
+  size: 34, 28
+  orig: 34, 28
+  offset: 0, 0
+  index: -1
+Yan
+  rotate: false
+  xy: 65, 0
+  size: 23, 9
+  orig: 23, 9
+  offset: 0, 0
+  index: -1

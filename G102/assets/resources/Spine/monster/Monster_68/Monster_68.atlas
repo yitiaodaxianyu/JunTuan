@@ -1,0 +1,62 @@
+
+Monster_68.png
+size: 180, 84
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+SideARM1Av1
+  rotate: false
+  xy: 134, 0
+  size: 17, 29
+  orig: 17, 29
+  offset: 0, 0
+  index: -1
+SideARM1Bv1
+  rotate: true
+  xy: 0, 37
+  size: 47, 106
+  orig: 47, 106
+  offset: 0, 0
+  index: -1
+SideARM2Av1
+  rotate: false
+  xy: 153, 3
+  size: 19, 26
+  orig: 19, 27
+  offset: 0, 1
+  index: -1
+SideARM2Bv1
+  rotate: false
+  xy: 108, 5
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+SideARM2Cv1
+  rotate: false
+  xy: 78, 10
+  size: 28, 25
+  orig: 28, 25
+  offset: 0, 0
+  index: -1
+SideBODYv1
+  rotate: true
+  xy: 108, 31
+  size: 53, 72
+  orig: 53, 72
+  offset: 0, 0
+  index: -1
+SideEYECLOSEDv1
+  rotate: true
+  xy: 54, 2
+  size: 33, 22
+  orig: 33, 24
+  offset: 0, 0
+  index: -1
+SideHEADv1
+  rotate: true
+  xy: 0, 0
+  size: 35, 52
+  orig: 35, 54
+  offset: 0, 0
+  index: -1

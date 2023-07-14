@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Pet-Feng",
+    "texture": "a5f0306f-683d-440d-8091-dc7129e925c0",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      116,
+      41
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      116,
+      41
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

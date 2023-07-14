@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "TY_logo_en",
+    "texture": "efeffb50-266c-48df-8700-92c6e954a982",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      549,
+      281
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      549,
+      281
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

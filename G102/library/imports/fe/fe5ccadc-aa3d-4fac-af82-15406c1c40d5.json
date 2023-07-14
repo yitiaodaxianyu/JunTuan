@@ -1,0 +1,131 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "equip_merge_ui.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Forging_Bar_0": {
+      "__uuid__": "17014192-fe73-4bf4-b396-7f6026f092fb"
+    },
+    "Forging_Bar_1": {
+      "__uuid__": "08a36073-41ea-41f3-a11e-5802a699e6e4"
+    },
+    "Forging_Bg_0": {
+      "__uuid__": "e4aa59d3-2e32-4dc0-8bc8-458924e622f0"
+    },
+    "Forging_Bg_1": {
+      "__uuid__": "f72dba54-4fe6-42f1-92b2-aea45c49fbb0"
+    },
+    "Forging_Bg_2": {
+      "__uuid__": "1dda246d-84dc-4ecf-b9c9-4da881fa6143"
+    },
+    "Forging_Bg_3": {
+      "__uuid__": "aac94ebb-a915-461e-8154-d02d60fd4da6"
+    },
+    "Forging_BtnTab_0": {
+      "__uuid__": "554bcb6c-d400-4b15-a7aa-14498f0a1d29"
+    },
+    "Forging_BtnTab_0_1": {
+      "__uuid__": "31799028-f57b-4f30-8b38-8aab0db95395"
+    },
+    "Forging_BtnTab_1": {
+      "__uuid__": "6ec2b5e5-8520-4263-9fe3-38a54db8fba5"
+    },
+    "Forging_BtnTab_1_1": {
+      "__uuid__": "f5ac1b46-3120-4352-a5be-bad1287fa50e"
+    },
+    "Forging_BtnTab_2": {
+      "__uuid__": "41c618c7-653e-45e5-b9f2-69a635c04f53"
+    },
+    "Forging_BtnTab_2_1": {
+      "__uuid__": "c569cd25-1d6e-45b8-a36e-ee3bfd5308ae"
+    },
+    "Forging_BtnTab_3": {
+      "__uuid__": "f1e582d0-452c-4be3-927d-f7f84b740a9e"
+    },
+    "Forging_BtnTab_3_1": {
+      "__uuid__": "40034506-1e47-4c5d-a69d-d6955f52e0be"
+    },
+    "Forging_Btn_1": {
+      "__uuid__": "79641bd7-3953-4892-b003-73d41a02d4bf"
+    },
+    "Forging_Btn_2": {
+      "__uuid__": "e1473c32-57e1-4f7b-953a-ce778eedb272"
+    },
+    "Forging_Plus": {
+      "__uuid__": "1faa995e-6b36-4356-ab2a-c0ffe444889c"
+    },
+    "Function_Btn_Forging": {
+      "__uuid__": "3295b506-8574-42a8-ba6a-2cea64af7124"
+    },
+    "HC_Bg_0": {
+      "__uuid__": "0a79af0d-bca7-4962-ab70-1ce9119977e6"
+    },
+    "HC_BtnTab_0": {
+      "__uuid__": "8a5af2ec-74bd-426e-b4f2-494e83e39689"
+    },
+    "HC_BtnTab_1": {
+      "__uuid__": "85d99f01-f30e-44ab-8838-64f71b7e4e5f"
+    },
+    "HC_BtnTab_2": {
+      "__uuid__": "0e7b146e-a415-4964-acc8-67bfab0d6fef"
+    },
+    "HC_BtnTab_3": {
+      "__uuid__": "9574aad4-9be0-497a-a6a0-c1ec307a243b"
+    },
+    "HC_BtnTab_4": {
+      "__uuid__": "8bc08e10-491a-475c-a448-e8bb22884461"
+    },
+    "HC_Btn_0": {
+      "__uuid__": "9803e35c-d0ba-4c9a-a4d8-5b45bc44484e"
+    },
+    "HC_Btn_1": {
+      "__uuid__": "0a5126c7-445f-49d2-9731-9d2451f0c0e3"
+    },
+    "HC_Btn_2": {
+      "__uuid__": "bbbc9466-565b-4da1-8554-b1f5d60b5908"
+    },
+    "HC_frame_0": {
+      "__uuid__": "508ff3c6-60eb-4d78-bf8f-72d61f55f115"
+    },
+    "HC_frame_1": {
+      "__uuid__": "3af0b249-1f4f-4833-960d-2766293c2954"
+    },
+    "HC_frame_2": {
+      "__uuid__": "ddbe5990-c551-43b3-b359-02cc69b6abce"
+    },
+    "HC_frame_3": {
+      "__uuid__": "7a2490cd-a824-46f5-9121-4bc28168d487"
+    },
+    "HC_frame_4": {
+      "__uuid__": "53525918-b370-4214-bfcf-94c8da3244e9"
+    },
+    "HC_frame_5": {
+      "__uuid__": "80bfdc2a-7c72-4fd2-8720-531fd7da360a"
+    },
+    "HC_frame_6": {
+      "__uuid__": "85e978a9-583b-4823-bf45-f646415be116"
+    },
+    "HC_frame_7": {
+      "__uuid__": "cb2f4bc5-8cac-42d2-ae7c-bfa411bd958e"
+    },
+    "HC_icon_Select": {
+      "__uuid__": "266b3ea5-ed52-41ec-abb4-f0f5e50bf94f"
+    },
+    "HC_icon_coin": {
+      "__uuid__": "3258beb8-076e-40a4-a384-010be1c0e8e7"
+    },
+    "JS_ZBK": {
+      "__uuid__": "94c17165-117b-4422-8906-23049c5cc758"
+    },
+    "TY_Btn_00": {
+      "__uuid__": "7be35b30-595a-451e-b34c-306a1f60f416"
+    },
+    "TY_Btn_01": {
+      "__uuid__": "56c509a4-7bf2-49ce-a8c0-c9ecbbdbd973"
+    },
+    "TY_Btn_04": {
+      "__uuid__": "42a31e34-5850-4f1b-ad2f-496382374bdb"
+    }
+  }
+}

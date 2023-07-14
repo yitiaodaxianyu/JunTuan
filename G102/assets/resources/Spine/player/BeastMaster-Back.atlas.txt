@@ -1,0 +1,125 @@
+
+BeastMaster-Back.png
+size: 440,142
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 380, 3
+  size: 60, 62
+  orig: 60, 62
+  offset: 0, 0
+  index: -1
+DaBi_L
+  rotate: false
+  xy: 254, 7
+  size: 38, 43
+  orig: 38, 43
+  offset: 0, 0
+  index: -1
+DaTui_L
+  rotate: true
+  xy: 356, 9
+  size: 21, 17
+  orig: 21, 17
+  offset: 0, 0
+  index: -1
+DaTui_R
+  rotate: false
+  xy: 192, 38
+  size: 15, 12
+  orig: 15, 12
+  offset: 0, 0
+  index: -1
+Gong
+  rotate: true
+  xy: 0, 7
+  size: 135, 100
+  orig: 135, 100
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 123, 37
+  size: 67, 105
+  orig: 67, 105
+  offset: 0, 0
+  index: -1
+Jian
+  rotate: false
+  xy: 102, 35
+  size: 19, 107
+  orig: 19, 107
+  offset: 0, 0
+  index: -1
+JianTong
+  rotate: false
+  xy: 284, 57
+  size: 80, 85
+  orig: 80, 85
+  offset: 0, 0
+  index: -1
+Mao
+  rotate: false
+  xy: 366, 67
+  size: 74, 75
+  orig: 74, 75
+  offset: 0, 0
+  index: -1
+Soft
+  rotate: false
+  xy: 355, 32
+  size: 23, 23
+  orig: 23, 23
+  offset: 0, 0
+  index: -1
+XiaoBi_L
+  rotate: false
+  xy: 294, 15
+  size: 37, 40
+  orig: 37, 40
+  offset: 0, 0
+  index: -1
+XiaoBi_L1
+  rotate: false
+  xy: 209, 5
+  size: 43, 45
+  orig: 43, 45
+  offset: 0, 0
+  index: -1
+XiaoBi_R
+  rotate: true
+  xy: 151, 0
+  size: 35, 43
+  orig: 35, 43
+  offset: 0, 0
+  index: -1
+XiaoTui_L
+  rotate: false
+  xy: 333, 28
+  size: 20, 27
+  orig: 20, 27
+  offset: 0, 0
+  index: -1
+XiaoTui_R
+  rotate: false
+  xy: 333, 2
+  size: 21, 24
+  orig: 21, 24
+  offset: 0, 0
+  index: -1
+Yao
+  rotate: false
+  xy: 102, 3
+  size: 47, 30
+  orig: 47, 30
+  offset: 0, 0
+  index: -1
+ring
+  rotate: false
+  xy: 192, 52
+  size: 90, 90
+  orig: 92, 92
+  offset: 1, 1
+  index: -1

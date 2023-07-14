@@ -1,0 +1,48 @@
+
+Witch_PassiveSkill.png
+size: 292, 270
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+Ball
+  rotate: true
+  xy: 243, 2
+  size: 34, 47
+  orig: 49, 50
+  offset: 8, 2
+  index: -1
+Di1
+  rotate: true
+  xy: 2, 4
+  size: 35, 223
+  orig: 35, 223
+  offset: 0, 0
+  index: -1
+Di2
+  rotate: false
+  xy: 245, 38
+  size: 33, 230
+  orig: 33, 230
+  offset: 0, 0
+  index: -1
+Witch_Rattan1
+  rotate: false
+  xy: 280, 250
+  size: 9, 18
+  orig: 9, 18
+  offset: 0, 0
+  index: -1
+Witch_Rattan2
+  rotate: false
+  xy: 227, 8
+  size: 14, 31
+  orig: 14, 31
+  offset: 0, 0
+  index: -1
+lv
+  rotate: true
+  xy: 2, 41
+  size: 227, 241
+  orig: 229, 244
+  offset: 0, 3
+  index: -1

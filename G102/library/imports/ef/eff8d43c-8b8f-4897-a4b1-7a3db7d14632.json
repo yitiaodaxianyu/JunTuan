@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Spin_bulb_01",
+    "texture": "96954239-a663-4f3d-a528-8c05ddbd474a",
+    "atlas": "031f189e-cc12-43ee-a357-6f6cf7038c29",
+    "rect": [
+      586,
+      346,
+      56,
+      58
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      72,
+      72
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

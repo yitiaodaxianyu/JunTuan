@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "BuyGem_TH",
+    "texture": "7563bb70-4add-437f-a929-abd9ce4124d9",
+    "atlas": "",
+    "rect": [
+      9,
+      4,
+      259,
+      62
+    ],
+    "offset": [
+      4.5,
+      9.5
+    ],
+    "originalSize": [
+      268,
+      89
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

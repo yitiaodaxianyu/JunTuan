@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Pet_Huo_Attack_01",
+    "texture": "5f99c752-f700-4578-aad7-6eacd94b3ea8",
+    "atlas": "f4299e07-e1a1-4ee6-b903-8dfa05496286",
+    "rect": [
+      756,
+      1359,
+      49,
+      102
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      51,
+      110
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

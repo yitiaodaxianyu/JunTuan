@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "FanLi_Btn_1",
+    "texture": "5b0e3594-9584-4795-a197-04c7c2b55504",
+    "atlas": "940ea6ab-d7c2-4c60-ad24-330b70ffb4bf",
+    "rect": [
+      929,
+      340,
+      211,
+      88
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      211,
+      88
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

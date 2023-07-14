@@ -1,0 +1,118 @@
+
+Monster_48.png
+size: 426,191
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 0, 12
+  size: 216, 179
+  orig: 216, 179
+  offset: 0, 0
+  index: -1
+Eye
+  rotate: true
+  xy: 222, 88
+  size: 103, 31
+  orig: 103, 31
+  offset: 0, 0
+  index: -1
+Monster_48_FX_00
+  rotate: false
+  xy: 222, 3
+  size: 16, 18
+  orig: 54, 54
+  offset: 20, 18
+  index: -1
+Monster_48_FX_01
+  rotate: false
+  xy: 278, 0
+  size: 24, 23
+  orig: 54, 54
+  offset: 16, 15
+  index: -1
+Monster_48_FX_02
+  rotate: true
+  xy: 332, 51
+  size: 29, 28
+  orig: 54, 54
+  offset: 14, 13
+  index: -1
+Monster_48_FX_03
+  rotate: false
+  xy: 386, 111
+  size: 36, 34
+  orig: 54, 54
+  offset: 11, 10
+  index: -1
+Monster_48_FX_04
+  rotate: false
+  xy: 386, 153
+  size: 40, 38
+  orig: 54, 54
+  offset: 9, 8
+  index: -1
+Monster_48_FX_05
+  rotate: true
+  xy: 332, 0
+  size: 43, 42
+  orig: 54, 54
+  offset: 7, 6
+  index: -1
+Monster_48_FX_06
+  rotate: false
+  xy: 380, 5
+  size: 46, 44
+  orig: 54, 54
+  offset: 6, 5
+  index: -1
+Monster_48_FX_07
+  rotate: false
+  xy: 259, 88
+  size: 48, 46
+  orig: 54, 54
+  offset: 5, 4
+  index: -1
+Monster_48_FX_08
+  rotate: false
+  xy: 366, 57
+  size: 48, 46
+  orig: 54, 54
+  offset: 5, 4
+  index: -1
+Monster_48_FX_09
+  rotate: false
+  xy: 332, 144
+  size: 48, 47
+  orig: 54, 54
+  offset: 5, 3
+  index: -1
+Monster_48_FX_10
+  rotate: true
+  xy: 313, 88
+  size: 48, 47
+  orig: 54, 54
+  offset: 5, 3
+  index: -1
+Monster_48_FX_11
+  rotate: true
+  xy: 259, 142
+  size: 49, 48
+  orig: 54, 54
+  offset: 4, 3
+  index: -1
+Monster_48_FX_12
+  rotate: true
+  xy: 222, 29
+  size: 51, 50
+  orig: 54, 54
+  offset: 3, 2
+  index: -1
+Monster_48_FX_13
+  rotate: true
+  xy: 278, 31
+  size: 49, 48
+  orig: 54, 54
+  offset: 4, 3
+  index: -1

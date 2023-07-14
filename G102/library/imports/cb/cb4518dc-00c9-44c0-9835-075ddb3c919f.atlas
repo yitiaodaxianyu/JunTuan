@@ -1,0 +1,181 @@
+
+Spine_Boss10.png
+size: 351,1575
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: true
+  xy: 2, 1127
+  size: 212, 236
+  orig: 212, 236
+  offset: 0, 0
+  index: -1
+Dan
+  rotate: true
+  xy: 240, 1302
+  size: 37, 109
+  orig: 37, 109
+  offset: 0, 0
+  index: -1
+Dao_0001
+  rotate: false
+  xy: 229, 952
+  size: 116, 90
+  orig: 230, 230
+  offset: 48, 1
+  index: -1
+Dao_0002
+  rotate: false
+  xy: 213, 105
+  size: 123, 203
+  orig: 230, 230
+  offset: 70, 16
+  index: -1
+Dao_0003
+  rotate: true
+  xy: 2, 170
+  size: 122, 166
+  orig: 230, 230
+  offset: 71, 54
+  index: -1
+Dao_0004
+  rotate: true
+  xy: 213, 310
+  size: 124, 132
+  orig: 230, 230
+  offset: 69, 88
+  index: -1
+Dao_0005
+  rotate: false
+  xy: 229, 737
+  size: 113, 49
+  orig: 230, 230
+  offset: 70, 170
+  index: -1
+Head
+  rotate: true
+  xy: 2, 1341
+  size: 232, 347
+  orig: 232, 347
+  offset: 0, 0
+  index: -1
+HuTou
+  rotate: true
+  xy: 2, 294
+  size: 190, 209
+  orig: 190, 210
+  offset: 0, 0
+  index: -1
+HuTou-Pi
+  rotate: true
+  xy: 2, 486
+  size: 194, 215
+  orig: 194, 216
+  offset: 0, 0
+  index: -1
+TuTeng
+  rotate: true
+  xy: 2, 682
+  size: 443, 225
+  orig: 443, 236
+  offset: 0, 11
+  index: -1
+YaoDai
+  rotate: false
+  xy: 2, 92
+  size: 148, 76
+  orig: 148, 77
+  offset: 0, 1
+  index: -1
+YouBi
+  rotate: true
+  xy: 203, 2
+  size: 101, 122
+  orig: 101, 122
+  offset: 0, 0
+  index: -1
+YouJianJia
+  rotate: false
+  xy: 240, 1044
+  size: 104, 133
+  orig: 105, 133
+  offset: 0, 0
+  index: -1
+YouJiao
+  rotate: true
+  xy: 2, 30
+  size: 60, 83
+  orig: 61, 83
+  offset: 1, 0
+  index: -1
+YouShou
+  rotate: false
+  xy: 229, 788
+  size: 114, 162
+  orig: 115, 163
+  offset: 1, 1
+  index: -1
+YouTui
+  rotate: true
+  xy: 152, 82
+  size: 75, 49
+  orig: 75, 49
+  offset: 0, 0
+  index: -1
+YouTuiBu
+  rotate: true
+  xy: 170, 205
+  size: 44, 38
+  orig: 45, 39
+  offset: 1, 1
+  index: -1
+ZuoBi
+  rotate: false
+  xy: 240, 1179
+  size: 106, 121
+  orig: 106, 121
+  offset: 0, 0
+  index: -1
+ZuoJianJia
+  rotate: false
+  xy: 229, 602
+  size: 104, 133
+  orig: 105, 133
+  offset: 1, 0
+  index: -1
+ZuoJiao
+  rotate: false
+  xy: 87, 7
+  size: 60, 83
+  orig: 61, 83
+  offset: 0, 0
+  index: -1
+ZuoShou
+  rotate: false
+  xy: 219, 436
+  size: 125, 164
+  orig: 125, 164
+  offset: 0, 0
+  index: -1
+ZuoShouZhi
+  rotate: false
+  xy: 170, 251
+  size: 41, 41
+  orig: 41, 41
+  offset: 0, 0
+  index: -1
+ZuoTui
+  rotate: true
+  xy: 149, 5
+  size: 75, 49
+  orig: 75, 49
+  offset: 0, 0
+  index: -1
+ZuoTuiBu
+  rotate: true
+  xy: 170, 159
+  size: 44, 38
+  orig: 45, 39
+  offset: 0, 1
+  index: -1

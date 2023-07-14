@@ -1,0 +1,261 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "MonsterAttribute",
+  "_objFlags": 0,
+  "_native": "",
+  "json": [
+    {
+      "Monster": 50010,
+      "MosterName_TextID": 20001,
+      "BaseHP": 879,
+      "BaseAttack": 20,
+      "BaseAttackSpeed": 60,
+      "Area": [
+        1
+      ],
+      "Feature": 1,
+      "Speed": 140,
+      "BossMultiple": 3,
+      "SummonMultiple": 0.85
+    },
+    {
+      "Monster": 50020,
+      "MosterName_TextID": 20002,
+      "BaseHP": 2050,
+      "BaseAttack": 20,
+      "BaseAttackSpeed": 60,
+      "Area": [
+        1
+      ],
+      "Feature": 2,
+      "Speed": 60,
+      "BossMultiple": 3,
+      "SummonMultiple": 1.98
+    },
+    {
+      "Monster": 50030,
+      "MosterName_TextID": 20003,
+      "BaseHP": 1031,
+      "BaseAttack": 20,
+      "BaseAttackSpeed": 60,
+      "Area": [
+        1
+      ],
+      "Feature": 3,
+      "Speed": 72,
+      "BossMultiple": 3,
+      "SummonMultiple": 1
+    },
+    {
+      "Monster": 50040,
+      "MosterName_TextID": 20004,
+      "BaseHP": 911,
+      "BaseAttack": 20,
+      "BaseAttackSpeed": 60,
+      "Area": [
+        1
+      ],
+      "Feature": 4,
+      "Speed": 45,
+      "BossMultiple": 3,
+      "SummonMultiple": 0.88
+    },
+    {
+      "Monster": 50050,
+      "MosterName_TextID": 20005,
+      "BaseHP": 1318,
+      "BaseAttack": 20,
+      "BaseAttackSpeed": 60,
+      "Area": [
+        1
+      ],
+      "Feature": 5,
+      "Speed": 56,
+      "BossMultiple": 3,
+      "SummonMultiple": 1.27
+    },
+    {
+      "Monster": 50060,
+      "MosterName_TextID": 20006,
+      "BaseHP": 683,
+      "BaseAttack": 20,
+      "BaseAttackSpeed": 60,
+      "Area": [
+        1
+      ],
+      "Feature": 6,
+      "Speed": 60,
+      "BossMultiple": 3,
+      "SummonMultiple": 0.66
+    },
+    {
+      "Monster": 50070,
+      "MosterName_TextID": 20007,
+      "BaseHP": 683,
+      "BaseAttack": 20,
+      "BaseAttackSpeed": 60,
+      "Area": [
+        2
+      ],
+      "Feature": 7,
+      "Speed": 64,
+      "BossMultiple": 3,
+      "SummonMultiple": 0.66
+    },
+    {
+      "Monster": 50080,
+      "MosterName_TextID": 20008,
+      "BaseHP": 769,
+      "BaseAttack": 20,
+      "BaseAttackSpeed": 60,
+      "Area": [
+        1
+      ],
+      "Feature": 8,
+      "Speed": 72,
+      "BossMultiple": 3,
+      "SummonMultiple": 0.74
+    },
+    {
+      "Monster": 50090,
+      "MosterName_TextID": 20009,
+      "BaseHP": 1424,
+      "BaseAttack": 20,
+      "BaseAttackSpeed": 60,
+      "Area": [
+        1
+      ],
+      "Feature": 9,
+      "Speed": 60,
+      "BossMultiple": 3,
+      "SummonMultiple": 1.38
+    },
+    {
+      "Monster": 50100,
+      "MosterName_TextID": 20010,
+      "BaseHP": 1253,
+      "BaseAttack": 20,
+      "BaseAttackSpeed": 60,
+      "Area": [
+        1,
+        3
+      ],
+      "Feature": 10,
+      "Speed": 96,
+      "BossMultiple": 3,
+      "SummonMultiple": 1.21
+    },
+    {
+      "Monster": 50110,
+      "MosterName_TextID": 20011,
+      "BaseHP": 525,
+      "BaseAttack": 20,
+      "BaseAttackSpeed": 60,
+      "Area": [
+        1
+      ],
+      "Feature": 11,
+      "Speed": 64,
+      "BossMultiple": 3,
+      "SummonMultiple": 0.5
+    },
+    {
+      "Monster": 50120,
+      "MosterName_TextID": 20012,
+      "BaseHP": 1174,
+      "BaseAttack": 20,
+      "BaseAttackSpeed": 60,
+      "Area": [
+        2
+      ],
+      "Feature": 12,
+      "Speed": 72,
+      "BossMultiple": 3,
+      "SummonMultiple": 1.13
+    },
+    {
+      "Monster": 50130,
+      "MosterName_TextID": 20013,
+      "BaseHP": 1239,
+      "BaseAttack": 20,
+      "BaseAttackSpeed": 60,
+      "Area": [
+        1
+      ],
+      "Feature": 13,
+      "Speed": 64,
+      "BossMultiple": 3,
+      "SummonMultiple": 1.2
+    },
+    {
+      "Monster": 50140,
+      "MosterName_TextID": 20014,
+      "BaseHP": 1153,
+      "BaseAttack": 20,
+      "BaseAttackSpeed": 60,
+      "Area": [
+        1
+      ],
+      "Feature": 14,
+      "Speed": 72,
+      "BossMultiple": 3,
+      "SummonMultiple": 1.1
+    },
+    {
+      "Monster": 50150,
+      "MosterName_TextID": 20015,
+      "BaseHP": 1044,
+      "BaseAttack": 20,
+      "BaseAttackSpeed": 60,
+      "Area": [
+        2
+      ],
+      "Feature": 15,
+      "Speed": 64,
+      "BossMultiple": 3,
+      "SummonMultiple": 1.01
+    },
+    {
+      "Monster": 50160,
+      "MosterName_TextID": 20016,
+      "BaseHP": 1634,
+      "BaseAttack": 20,
+      "BaseAttackSpeed": 60,
+      "Area": [
+        1
+      ],
+      "Feature": 16,
+      "Speed": 72,
+      "BossMultiple": 3,
+      "SummonMultiple": 1.58
+    },
+    {
+      "Monster": 50170,
+      "MosterName_TextID": 20017,
+      "BaseHP": 492,
+      "BaseAttack": 20,
+      "BaseAttackSpeed": 60,
+      "Area": [
+        3
+      ],
+      "Feature": 17,
+      "Speed": 50,
+      "BossMultiple": 3,
+      "SummonMultiple": 0.47
+    },
+    {
+      "Monster": 50180,
+      "MosterName_TextID": 20018,
+      "BaseHP": 3500,
+      "BaseAttack": 50,
+      "BaseAttackSpeed": 25,
+      "Area": [
+        1
+      ],
+      "Feature": 18,
+      "Speed": 128,
+      "BossMultiple": 3,
+      "SummonMultiple": 0
+    }
+  ]
+}

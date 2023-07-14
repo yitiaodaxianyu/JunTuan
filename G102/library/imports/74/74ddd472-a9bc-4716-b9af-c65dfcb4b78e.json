@@ -1,0 +1,62 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "elite1.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Monster_34_SkillHit_00": {
+      "__uuid__": "564ada44-2241-4992-a807-675d7b042731"
+    },
+    "Monster_34_SkillHit_01": {
+      "__uuid__": "c438f5c3-488d-4138-a753-6fe3e17e0d8f"
+    },
+    "Monster_34_SkillHit_02": {
+      "__uuid__": "f7733ddf-2350-47a9-a619-242190413574"
+    },
+    "Monster_34_SkillHit_03": {
+      "__uuid__": "38448f53-aad1-4ca6-beb5-ba5c77aa3873"
+    },
+    "Monster_34_SkillHit_04": {
+      "__uuid__": "11937c55-53c7-401f-a96a-7a98b6fd913f"
+    },
+    "Monster_34_SkillHit_05": {
+      "__uuid__": "b4d06ec6-901a-462d-ad90-97ee1296649a"
+    },
+    "Monster_34_SkillHit_06": {
+      "__uuid__": "b0f0f99a-df56-4714-9ca3-4ab76c071c01"
+    },
+    "Monster_34_SkillHit_07": {
+      "__uuid__": "59c3568c-d66b-471e-a17e-4a0ff2845faa"
+    },
+    "Monster_34_SkillHit_08": {
+      "__uuid__": "7633aeca-d679-4772-bb86-b1cbc5eaba79"
+    },
+    "Monster_34_SkillHit_09": {
+      "__uuid__": "61243406-4ec2-491e-95a4-f1dac40eaa3c"
+    },
+    "Monster_34_SkillHit_10": {
+      "__uuid__": "ab628309-8d9b-45f8-8c29-31d04da059a2"
+    },
+    "Monster_34_SkillHit_11": {
+      "__uuid__": "12cdd892-1eaf-4000-8054-664988f374ee"
+    },
+    "Monster_34_SkillHit_12": {
+      "__uuid__": "2977b27e-0ce3-4921-bde9-5411fadbd280"
+    },
+    "Monster_34_SkillHit_13": {
+      "__uuid__": "05854549-c14e-4777-b6a7-20068932316f"
+    },
+    "Monster_34_SkillHit_14": {
+      "__uuid__": "df5c1274-5d92-4a76-8db4-7ee3a692d224"
+    },
+    "Monster_34_SkillHit_15": {
+      "__uuid__": "092271a6-75df-47a0-86f5-fb8201735b0a"
+    },
+    "Monster_34_SkillHit_16": {
+      "__uuid__": "0d8f279a-66fa-4c45-b724-56d0696f7949"
+    },
+    "Monster_34_SkillHit_17": {
+      "__uuid__": "b81ddfc8-e66e-40ed-bc83-a3cfab7d1ac3"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "guaji_fighting.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Battle_Coin": {
+      "__uuid__": "92469ac1-b766-421c-8b4c-1b726817004c"
+    },
+    "Battle_Gem": {
+      "__uuid__": "399ddd0e-8384-47ec-9ea4-2bd5d5ad4427"
+    },
+    "Monster_Shadow": {
+      "__uuid__": "8a16ff30-6e55-49c9-8c3d-fcc68be065ff"
+    },
+    "Spirit17_SupportSkill_1": {
+      "__uuid__": "8694df98-c56f-4313-a488-b30f8e489d49"
+    },
+    "Spirit17_SupportSkill_2": {
+      "__uuid__": "94c5c4e3-da5e-4f00-be17-7aff2b61cc1c"
+    },
+    "jianshi": {
+      "__uuid__": "87de8973-971f-444f-a0d9-8caf13a0670e"
+    }
+  }
+}

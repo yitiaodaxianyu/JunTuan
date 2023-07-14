@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ZDL_bg",
+    "texture": "58ca313a-dd33-4f8b-a20b-b242e5afc644",
+    "atlas": "63314aa7-d807-4875-8f73-21a49f85c9f9",
+    "rect": [
+      2,
+      2,
+      299,
+      72
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      299,
+      72
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

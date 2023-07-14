@@ -1,0 +1,62 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "pet_info_ui.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Pet_1_Skill_0": {
+      "__uuid__": "75dc0d40-b222-45ad-8a05-fac94ccf4ecb"
+    },
+    "Pet_2_Skill_0": {
+      "__uuid__": "71ebffa3-10b6-4241-92e8-3a4f8e3d1e1c"
+    },
+    "Pet_3_Skill_0": {
+      "__uuid__": "26c5511d-477f-4a5f-a59f-ccb797a31c9f"
+    },
+    "Pet_4_Skill_0": {
+      "__uuid__": "ac7a54dc-fcb8-46ce-b02f-a43211e8aa71"
+    },
+    "Pet_Bg_0": {
+      "__uuid__": "32f594b1-8909-4725-ad39-5df08c1fa1e9"
+    },
+    "Pet_Bg_1": {
+      "__uuid__": "5ca1fbea-4863-4f78-b744-0720d72e1cf2"
+    },
+    "Pet_Bg_2": {
+      "__uuid__": "f9d91bd9-1183-40eb-b6e9-8506d8b7245b"
+    },
+    "Pet_Icon_0": {
+      "__uuid__": "81a3784d-dd22-4e68-8c58-0d68c46079e0"
+    },
+    "Pet_Line": {
+      "__uuid__": "ef028cc1-4f9a-4851-9044-58f707b70f10"
+    },
+    "Pet_Stats_1": {
+      "__uuid__": "3c46b9ab-0544-4779-9b35-75baf0bd8cfa"
+    },
+    "Pet_Stats_2": {
+      "__uuid__": "45e6d080-2dab-4c43-b36b-73fe76c0e3d0"
+    },
+    "Pet_Stats_3": {
+      "__uuid__": "f5154696-f6c9-4fd5-9b72-0af5eec57ce9"
+    },
+    "Pet_Stats_4": {
+      "__uuid__": "20d4d32f-9803-477d-a799-13af133a361c"
+    },
+    "Pet_Stats_5": {
+      "__uuid__": "21000c4f-bf4f-46d1-bbb0-ff48b12c805d"
+    },
+    "Pet_Stats_6": {
+      "__uuid__": "f8d5a71d-638d-455e-91f8-a865c4b27a0e"
+    },
+    "Pet_Stats_7": {
+      "__uuid__": "d513e2e6-f50e-4a12-8139-143ad257b15f"
+    },
+    "Pet_Stats_8": {
+      "__uuid__": "7a37e6df-b538-4042-8547-49217b765710"
+    },
+    "Pet_Stats_9": {
+      "__uuid__": "8e09dcab-6a24-46db-bb35-c5d0a7428e2b"
+    }
+  }
+}

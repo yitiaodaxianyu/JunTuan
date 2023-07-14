@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Boss8_Skill2Hit_02",
+    "texture": "f5afcaf2-ecc7-4417-af40-3cfdc108155a",
+    "atlas": "a54dc302-f366-4338-ad25-5fa25da4f19d",
+    "rect": [
+      986,
+      1386,
+      170,
+      168
+    ],
+    "offset": [
+      6,
+      -9
+    ],
+    "originalSize": [
+      200,
+      200
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

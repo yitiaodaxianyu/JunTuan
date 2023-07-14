@@ -1,0 +1,140 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "boss7.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Boss12_Attack": {
+      "__uuid__": "1969fff3-4cca-4e1b-8f27-11f7fefd0d42"
+    },
+    "Boss12_AttackHit_00": {
+      "__uuid__": "bb2f645d-3acf-48e6-ad98-06b44e247666"
+    },
+    "Boss12_AttackHit_01": {
+      "__uuid__": "91fd0aeb-c452-4c51-8908-40f9eefb2dcc"
+    },
+    "Boss12_AttackHit_02": {
+      "__uuid__": "3d8fd707-4974-40c8-b44e-7c689475138d"
+    },
+    "Boss12_AttackHit_03": {
+      "__uuid__": "b499d977-ac0e-4c92-b892-b72cd3de9606"
+    },
+    "Boss12_AttackHit_04": {
+      "__uuid__": "a1fdb106-676e-46b0-b4e3-5f1b9327f0e3"
+    },
+    "Boss12_AttackHit_05": {
+      "__uuid__": "c8c697fa-2192-4c63-ab66-587bfb75dda2"
+    },
+    "Boss12_AttackHit_06": {
+      "__uuid__": "02009bc3-edda-4e79-a872-ebf41dcc3745"
+    },
+    "Boss12_AttackHit_07": {
+      "__uuid__": "1a52de70-dfa5-4853-a1da-577dd15addb8"
+    },
+    "Boss12_AttackHit_08": {
+      "__uuid__": "64553436-e6de-451e-b09c-7c403a4148b3"
+    },
+    "Boss12_AttackHit_09": {
+      "__uuid__": "5978622d-3858-416a-b8c4-11127850e83a"
+    },
+    "Boss12_AttackHit_10": {
+      "__uuid__": "cc76c9b4-766b-4fef-af15-0d88c35557aa"
+    },
+    "Boss12_AttackHit_11": {
+      "__uuid__": "c65971fd-b704-42ea-98a8-13762beb937e"
+    },
+    "Boss12_AttackHit_12": {
+      "__uuid__": "617ab52a-0beb-47d4-9903-e8ee21f8db0e"
+    },
+    "Boss12_AttackHit_13": {
+      "__uuid__": "8f22e11c-a031-4847-a5f5-0f1044ac5ce2"
+    },
+    "Boss12_AttackHit_14": {
+      "__uuid__": "9bc82c0b-e9c6-482d-8375-3aff880b21fa"
+    },
+    "Boss12_AttackTrail": {
+      "__uuid__": "0220d520-7482-4059-abc7-13b174891194"
+    },
+    "Boss12_Skill1_Hit_00": {
+      "__uuid__": "9b45a8c5-0395-44a8-b5fa-7f0df5dc68da"
+    },
+    "Boss12_Skill1_Hit_01": {
+      "__uuid__": "21b9ea9d-719a-4437-b7fd-d5082e34d597"
+    },
+    "Boss12_Skill1_Hit_02": {
+      "__uuid__": "b0e97874-639c-4940-aaab-f2017e6173da"
+    },
+    "Boss12_Skill1_Hit_03": {
+      "__uuid__": "64cc5383-34f7-477b-a887-f072bcc18933"
+    },
+    "Boss12_Skill1_Hit_04": {
+      "__uuid__": "82f815cf-84ca-46da-b327-42f6b6b8bf09"
+    },
+    "Boss12_Skill1_Hit_05": {
+      "__uuid__": "cccf16af-a6c8-4b6b-8e1f-f3cabc1f0129"
+    },
+    "Boss12_Skill1_Hit_06": {
+      "__uuid__": "104c855d-f9a3-42ee-ac11-f8286e5a985e"
+    },
+    "Boss12_Skill1_Hit_07": {
+      "__uuid__": "b5b81fea-fcee-45d1-b81c-7f55809fc8c6"
+    },
+    "Boss12_Skill1_Hit_08": {
+      "__uuid__": "f9579461-3c28-4d19-a373-96a003bedf60"
+    },
+    "Boss12_Skill1_Hit_09": {
+      "__uuid__": "79844727-fe6e-45c3-8174-f4bf21185b88"
+    },
+    "Boss12_Skill1_Hit_10": {
+      "__uuid__": "97ccc3c4-6a37-4d36-bcc7-fd1e532fd97f"
+    },
+    "Boss12_Skill1_Hit_11": {
+      "__uuid__": "fb92d9e7-c9fe-4bc8-8fe6-251a4d361d10"
+    },
+    "Boss12_Skill1_Hit_12": {
+      "__uuid__": "9ec3bf9a-89ae-4ec9-8086-4a2b81485575"
+    },
+    "Boss12_Skill1_Hit_13": {
+      "__uuid__": "c78841c7-fd13-42de-9fed-9006bc51a922"
+    },
+    "Boss12_Skill1_Hit_14": {
+      "__uuid__": "255905e6-0ac2-4c4e-8064-9e6035994cb9"
+    },
+    "Boss12_Skill1_Hit_15": {
+      "__uuid__": "0b58021f-be5a-48b6-bc05-b6226b0a3a63"
+    },
+    "Boss12_Skill1_Hit_16": {
+      "__uuid__": "d66acfd9-eb18-4f9b-9639-f214f410f02c"
+    },
+    "Boss12_Skill1_PaoDan_00": {
+      "__uuid__": "18bf9275-f56d-4fc7-b53f-01ecf0da4952"
+    },
+    "Boss12_Skill1_PaoDan_01": {
+      "__uuid__": "f6b40258-cf69-49ff-a666-d4375e9023cd"
+    },
+    "Boss12_Skill1_PaoDan_02": {
+      "__uuid__": "6a181433-c897-4a6f-947f-2bdca9f7fec6"
+    },
+    "Boss12_Skill1_PaoDan_03": {
+      "__uuid__": "4db34c36-7a94-4108-b726-f72faeab9d0a"
+    },
+    "Boss12_Skill1_PaoDan_04": {
+      "__uuid__": "9925d8d2-4a81-4d9a-9de0-7868e55824f4"
+    },
+    "Boss12_Skill1_PaoDan_05": {
+      "__uuid__": "fae75071-4b02-411b-bc77-68935e012b2e"
+    },
+    "Boss12_Skill1_PaoDan_06": {
+      "__uuid__": "2f47b9ec-4a49-480b-946c-5f37aedbbb75"
+    },
+    "Boss12_Skill1_PaoDan_07": {
+      "__uuid__": "10ee91a6-57c1-4a49-bf67-e55199a8ca15"
+    },
+    "Boss12_Skill1_PaoDan_08": {
+      "__uuid__": "5dbf7ff3-6a1d-4ed9-b48e-ed159f150c26"
+    },
+    "boss7_buff": {
+      "__uuid__": "819ab5b8-b763-43f6-86a6-7f47ec584afd"
+    }
+  }
+}

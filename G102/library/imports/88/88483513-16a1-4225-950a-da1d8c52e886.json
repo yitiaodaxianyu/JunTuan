@@ -1,0 +1,32 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "take_egg_ui.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Hatch_Arrow": {
+      "__uuid__": "41efc00e-9300-46c5-bf69-644dc21d441c"
+    },
+    "Hatch_Bg_0": {
+      "__uuid__": "0cbb2ead-d47d-49cd-9f3f-6b429e52ed8f"
+    },
+    "Hatch_Bg_1": {
+      "__uuid__": "c1d73552-f5ce-4727-9c16-1d86c8d43ac8"
+    },
+    "Hatch_Bg_2": {
+      "__uuid__": "1878a284-9e9c-447e-986a-76bf9c36356e"
+    },
+    "Hatch_Btn_Tab_0": {
+      "__uuid__": "738086eb-8459-45f4-83e2-04c3253269e3"
+    },
+    "Hatch_Btn_Tab_0_1": {
+      "__uuid__": "e4f41c83-cf56-4a76-9322-4f73888c469b"
+    },
+    "Hatch_Btn_Tab_1": {
+      "__uuid__": "47ae8e72-a406-460d-9b53-6557245578a2"
+    },
+    "Hatch_Btn_Tab_1_1": {
+      "__uuid__": "0332fdce-f534-4fa3-af9a-59a9415480d4"
+    }
+  }
+}

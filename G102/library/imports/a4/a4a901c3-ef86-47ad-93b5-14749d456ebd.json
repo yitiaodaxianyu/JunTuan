@@ -1,0 +1,53 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "fighting.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Game_Text_Block": {
+      "__uuid__": "4a7fd974-6734-425a-83e3-1429b829e6f2"
+    },
+    "Game_Text_Control.png8": {
+      "__uuid__": "154e7ab2-c79f-4f46-9804-02102cc171db"
+    },
+    "Game_Text_Crit": {
+      "__uuid__": "96455a82-a165-440b-afd4-b4eec80a3de7"
+    },
+    "Game_Text_HS": {
+      "__uuid__": "75f70c8b-c9d2-4e48-99ee-e4c8f15bf02b"
+    },
+    "Game_Text_Invalid": {
+      "__uuid__": "03d65ce1-9cdc-44c2-9f10-e64a0809ef79"
+    },
+    "Game_Text_Miss": {
+      "__uuid__": "6f1ddefb-c964-44e5-aa95-4be80cc6c291"
+    },
+    "Game_Text_SHS": {
+      "__uuid__": "e8fd7348-14de-4785-ae32-df59e8d80c21"
+    },
+    "TY_GuaiWuHP_01": {
+      "__uuid__": "955d3521-1877-4eaa-b987-f725f4a5aad5"
+    },
+    "TY_GuaiWuHP_02": {
+      "__uuid__": "26b99100-1921-43c6-9901-c4fead0361f0"
+    },
+    "feibiao_att": {
+      "__uuid__": "aa7971fd-8c32-451b-aaf6-4000204ffe40"
+    },
+    "jianshi": {
+      "__uuid__": "0369c846-d763-4231-a204-a49ece5c446b"
+    },
+    "kulou": {
+      "__uuid__": "14e903ba-a502-4541-91ca-9c5bb9f58d24"
+    },
+    "paodan": {
+      "__uuid__": "382a5463-db6c-4236-b4a8-d0eb10b685f7"
+    },
+    "paodan_1": {
+      "__uuid__": "b514a68a-458f-48e8-8e92-e5e07b1f7cc6"
+    },
+    "super_jianshi": {
+      "__uuid__": "99458ab4-d43e-455a-a4a6-b9c8f6f826b2"
+    }
+  }
+}

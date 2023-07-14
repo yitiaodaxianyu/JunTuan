@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Spirit_JinTail3_10",
+    "texture": "b5c9763d-5655-469e-a911-81c1e3a4bfdb",
+    "atlas": "5a43ddef-e2d1-4c07-80d0-a3b87e9d6197",
+    "rect": [
+      850,
+      1102,
+      36,
+      38
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      40,
+      40
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

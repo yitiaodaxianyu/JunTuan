@@ -1,0 +1,437 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "role_ui.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Equipped_Hero_1": {
+      "__uuid__": "8f686a5d-e04c-473d-8e6a-50aa0f09b833"
+    },
+    "Equipped_Hero_2": {
+      "__uuid__": "b01b86dc-0c50-43a2-9df2-8d8f86b6b6d5"
+    },
+    "Equipped_Hero_3": {
+      "__uuid__": "459d3d4e-52a8-4d4d-b6ac-c9cea5c6015c"
+    },
+    "Equipped_Hero_4": {
+      "__uuid__": "de7e85cd-d635-4750-bbdc-b3fc6efbc757"
+    },
+    "Equipped_Hero_5": {
+      "__uuid__": "3b8278e1-a105-431d-af6b-c0fc809fc2bc"
+    },
+    "Equipped_Icon": {
+      "__uuid__": "87c795d2-f724-478f-a536-535a6ee15988"
+    },
+    "Evolve_Bg_0": {
+      "__uuid__": "440d5209-7d56-4bc4-b213-0d275531266f"
+    },
+    "Hero_10_Skill_0": {
+      "__uuid__": "3307c063-268e-4be4-813b-e5355bc29fe9"
+    },
+    "Hero_10_Skill_1": {
+      "__uuid__": "f6e07e9c-99d8-40a7-9697-1867a220bfcb"
+    },
+    "Hero_10_Skill_2": {
+      "__uuid__": "34c6bd73-8c45-447f-9761-6e568d239644"
+    },
+    "Hero_11_Skill_0": {
+      "__uuid__": "4fecf39f-b771-4388-a842-854a5947dfe6"
+    },
+    "Hero_11_Skill_1": {
+      "__uuid__": "8796a32d-ad9b-4382-823c-0b922a911a64"
+    },
+    "Hero_11_Skill_2": {
+      "__uuid__": "ee04a365-5625-4496-90d4-0d8278a04717"
+    },
+    "Hero_12_Skill_0": {
+      "__uuid__": "1061fb1c-0e7c-4aee-8169-873d6ed16bbe"
+    },
+    "Hero_12_Skill_1": {
+      "__uuid__": "21db30cf-5da2-414e-b2d1-8e76721d90d3"
+    },
+    "Hero_12_Skill_2": {
+      "__uuid__": "f32cd653-4cf7-4b5a-9138-d1a344e4603e"
+    },
+    "Hero_1_Skill_0": {
+      "__uuid__": "08d7d88a-e645-4d13-89cd-a02868e6e891"
+    },
+    "Hero_1_Skill_1": {
+      "__uuid__": "79aa6ca2-eb0c-4692-a730-9d464ad055f5"
+    },
+    "Hero_2_Skill_0": {
+      "__uuid__": "7826aba3-e9ff-4e16-8aef-0226cd7a9367"
+    },
+    "Hero_2_Skill_1": {
+      "__uuid__": "60eaea9d-2ce6-45ab-9fb2-32dbc5c298e0"
+    },
+    "Hero_3_Skill_0": {
+      "__uuid__": "902cc840-6627-464f-82f4-f95c50343019"
+    },
+    "Hero_3_Skill_1": {
+      "__uuid__": "ece768ff-3211-4bd5-b397-1f68be7bbbee"
+    },
+    "Hero_4_Skill_0": {
+      "__uuid__": "23c1e625-cd8f-4c2f-9c7b-bbd324623bfd"
+    },
+    "Hero_4_Skill_1": {
+      "__uuid__": "67bcbce5-60b0-4c8f-b425-658d16c97479"
+    },
+    "Hero_5_Skill_0": {
+      "__uuid__": "f0698f7e-b036-41f9-a016-ac50b7e8f01d"
+    },
+    "Hero_5_Skill_1": {
+      "__uuid__": "21ebed75-2075-433f-9506-d40456886d6a"
+    },
+    "Hero_6_Skill_0": {
+      "__uuid__": "07e9755a-cb8a-4c6a-8747-fe13ee44180e"
+    },
+    "Hero_6_Skill_1": {
+      "__uuid__": "baaa8086-d702-477d-8ec5-10ce8d6c65f8"
+    },
+    "Hero_6_Skill_2": {
+      "__uuid__": "c70bb1c1-3266-4751-885e-2125519860d9"
+    },
+    "Hero_7_Skill_0": {
+      "__uuid__": "21f20979-b345-4d4a-880a-013016dda0ee"
+    },
+    "Hero_7_Skill_1": {
+      "__uuid__": "fcc49abc-c114-406b-9a57-c26513522cf5"
+    },
+    "Hero_7_Skill_2": {
+      "__uuid__": "bb90a118-d332-4a35-b8e6-6701f318daaf"
+    },
+    "Hero_8_Skill_0": {
+      "__uuid__": "a7b9ab7d-5767-4ec2-95ca-8ca3e7623898"
+    },
+    "Hero_8_Skill_1": {
+      "__uuid__": "81c5822a-e7c4-4eeb-93b0-43982d1de18a"
+    },
+    "Hero_8_Skill_2": {
+      "__uuid__": "27ff6c2a-8021-4eaa-9448-d3d143010e98"
+    },
+    "Hero_9_Skill_0": {
+      "__uuid__": "95b0f01f-362f-42ad-bc48-84453dc75564"
+    },
+    "Hero_9_Skill_1": {
+      "__uuid__": "cb2bf1f4-1082-41a7-a6c5-32fe13f3d056"
+    },
+    "Hero_9_Skill_2": {
+      "__uuid__": "11938bc9-eb0b-4d77-bc5e-877a6ed6aa0e"
+    },
+    "Hero_Arrow": {
+      "__uuid__": "84ff5ff5-e55e-4529-ab66-d4fe62e82f5a"
+    },
+    "Hero_Avatar_Bg": {
+      "__uuid__": "2fd8ab8a-498f-4b15-9d33-834d60e7432d"
+    },
+    "Hero_Avatar_Frame": {
+      "__uuid__": "ea55622e-01b8-4804-b247-bb315457122c"
+    },
+    "Hero_Avatar_Light": {
+      "__uuid__": "37ed573c-2f1e-4268-a5fe-2633bd8f92e3"
+    },
+    "Hero_Avatar_Line_0": {
+      "__uuid__": "9a3fcf57-c20a-4d6b-ba38-8181e29aea90"
+    },
+    "Hero_Avatar_Line_1": {
+      "__uuid__": "9d1d2910-ca5c-4a00-9cb1-0d514828df54"
+    },
+    "Hero_Avatar_Mask": {
+      "__uuid__": "8c6c13f2-93b3-477f-8068-b72e2a0c9534"
+    },
+    "Hero_Avatar_Next": {
+      "__uuid__": "db0bdb14-8e6e-47a7-85c8-55be8bf19a54"
+    },
+    "Hero_Bg_0": {
+      "__uuid__": "44c9c742-1b01-45d7-b75d-3e33c92de162"
+    },
+    "Hero_Bg_1": {
+      "__uuid__": "b7fb7a57-f12d-4ca9-9a15-5e31174a4a80"
+    },
+    "Hero_Bg_2": {
+      "__uuid__": "d41b7f00-f906-4941-baca-1c80e9b973c5"
+    },
+    "Hero_Bg_3": {
+      "__uuid__": "048d6326-06fe-4d49-8df8-59aab23bfed2"
+    },
+    "Hero_Bg_4": {
+      "__uuid__": "6c046559-00ea-40d6-8360-54983a1cbba5"
+    },
+    "Hero_Bg_5": {
+      "__uuid__": "0a9f3d69-4f8b-4927-ba98-841c7bd56f51"
+    },
+    "Hero_Bg_6": {
+      "__uuid__": "10c242eb-3977-48f1-b32f-e75819aea511"
+    },
+    "Hero_Bg_7": {
+      "__uuid__": "59e4eb65-de47-415e-a95b-7c780a581386"
+    },
+    "Hero_Bg_8": {
+      "__uuid__": "77275740-8a8f-4801-8d07-4f339e3a7aba"
+    },
+    "Hero_Btn_Arrow": {
+      "__uuid__": "c6593e29-53f4-4912-b3c5-d6ebc1df5e79"
+    },
+    "Hero_Btn_Revert": {
+      "__uuid__": "fe7ceef8-68b2-4dda-883c-32f5715905c7"
+    },
+    "Hero_Btn_Sprite": {
+      "__uuid__": "a8148998-119e-4abe-858a-a52ed9b4ec45"
+    },
+    "Hero_Btn_Tips": {
+      "__uuid__": "57a35066-4595-4943-8a9c-af55e892ac1b"
+    },
+    "Hero_Equip_Frame": {
+      "__uuid__": "a079a1f9-45f1-4fcb-b743-da8821cf155f"
+    },
+    "Hero_Equip_Lock": {
+      "__uuid__": "c27e3908-03ec-4561-9741-ebccaa44a529"
+    },
+    "Hero_Equip_Plus": {
+      "__uuid__": "428ce17c-a3cb-4826-b06e-9d160cc84329"
+    },
+    "Hero_Evolve_0_0": {
+      "__uuid__": "e398ca93-d100-4a82-ab40-5be0c5968560"
+    },
+    "Hero_Evolve_0_1": {
+      "__uuid__": "ac40e44a-7c7f-4f16-8156-f7269951c1ab"
+    },
+    "Hero_Evolve_0_2": {
+      "__uuid__": "2b641663-d44f-4410-a143-afc546afa529"
+    },
+    "Hero_Evolve_0_3": {
+      "__uuid__": "7236b39a-536d-4d82-97a4-8f2dad687729"
+    },
+    "Hero_Evolve_0_4": {
+      "__uuid__": "eb2ca3d5-605f-4456-a7ac-4532df3cc6e7"
+    },
+    "Hero_Evolve_1_0": {
+      "__uuid__": "558ffc4c-4493-442e-85a7-0f6ef02f5dc9"
+    },
+    "Hero_Evolve_1_1": {
+      "__uuid__": "e8bf7544-15a2-4f42-98d4-a357f7c2689f"
+    },
+    "Hero_Evolve_2_0": {
+      "__uuid__": "5f9cd336-e4b2-46e9-9b8b-71127c2c6294"
+    },
+    "Hero_Evolve_2_1": {
+      "__uuid__": "319803ed-3446-43d3-b82e-a86d5337391d"
+    },
+    "Hero_Evolve_2_2": {
+      "__uuid__": "d85e730d-91c2-4539-8561-2ec51470f4da"
+    },
+    "Hero_Evolve_3_0": {
+      "__uuid__": "64c0624d-dd3c-4161-a6c4-270775406ff7"
+    },
+    "Hero_Evolve_3_1": {
+      "__uuid__": "d657d254-b133-4b14-900c-fc01faf6cb1a"
+    },
+    "Hero_Frame_0": {
+      "__uuid__": "9ffaca90-3c76-4c32-99d5-396671247446"
+    },
+    "Hero_Frame_1": {
+      "__uuid__": "8d54fef7-bc9f-411a-92ed-57cefcc3768b"
+    },
+    "Hero_Frame_2": {
+      "__uuid__": "803f4b35-5aba-43c9-bebf-8fafec2a0b16"
+    },
+    "Hero_Frame_3": {
+      "__uuid__": "7254da93-59e5-4d35-b107-ef0a97c5b48a"
+    },
+    "Hero_Frame_4": {
+      "__uuid__": "45d0aebd-a180-4c36-96a3-5686cf352ded"
+    },
+    "Hero_Frame_Lock": {
+      "__uuid__": "e9f55e9a-b983-4921-bfa6-8c619bc22b0d"
+    },
+    "Hero_Frame_Plus": {
+      "__uuid__": "d01126d0-c7da-405e-b550-10ce9e56974e"
+    },
+    "Hero_Icon_0": {
+      "__uuid__": "34a23b4b-ebfb-4a35-a801-01db7ce18e1a"
+    },
+    "Hero_Icon_1": {
+      "__uuid__": "83ac2189-55bc-4872-811f-0066fad414dc"
+    },
+    "Hero_Icon_2": {
+      "__uuid__": "5034c48f-51a2-4837-859e-9bf18781eafc"
+    },
+    "Hero_Icon_3": {
+      "__uuid__": "0a8249b1-fdf6-495a-9982-ea8d2e2aa67a"
+    },
+    "Hero_Line_1": {
+      "__uuid__": "693cea84-1189-47a0-b5b0-49656ef29fd2"
+    },
+    "Hero_Mask_0": {
+      "__uuid__": "fd1a83c3-2bfd-4c45-b013-3c18940ec22c"
+    },
+    "Hero_Quality_1": {
+      "__uuid__": "5bffdde5-f496-4dfa-853b-556571cda4cb"
+    },
+    "Hero_Quality_10": {
+      "__uuid__": "d88952a1-bc41-4d13-868e-033e91b28da2"
+    },
+    "Hero_Quality_11": {
+      "__uuid__": "45acfcb3-531c-45ac-9a00-5b46e36709a8"
+    },
+    "Hero_Quality_12": {
+      "__uuid__": "69ae0fab-b4f8-4cc2-928b-2d2504d2bbe1"
+    },
+    "Hero_Quality_2": {
+      "__uuid__": "44209eb4-377b-477a-9586-23da1f5ae073"
+    },
+    "Hero_Quality_3": {
+      "__uuid__": "e8c5b02c-1264-4e11-8f61-697b103b9b9f"
+    },
+    "Hero_Quality_4": {
+      "__uuid__": "dff3dcc1-0a1d-4bfe-8410-aa7fe7e9bc06"
+    },
+    "Hero_Quality_5": {
+      "__uuid__": "c15fa574-b966-44d6-a70a-f3c95505bdc3"
+    },
+    "Hero_Quality_6": {
+      "__uuid__": "21e9252d-d275-45e1-89f6-ae6de5be28b4"
+    },
+    "Hero_Quality_7": {
+      "__uuid__": "b87153f6-2690-4f1f-af03-8d3476b3eafe"
+    },
+    "Hero_Quality_8": {
+      "__uuid__": "43f593be-b555-454d-8dee-4a47a9c3bbfa"
+    },
+    "Hero_Quality_9": {
+      "__uuid__": "9df65c2e-dbe1-4bc1-a407-8667cf73487f"
+    },
+    "Hero_SkillBg": {
+      "__uuid__": "7ab2a985-15eb-4460-bc6e-ccbab8710834"
+    },
+    "Hero_Skill_Level": {
+      "__uuid__": "52417f55-e514-4c23-ab75-2498d98fbea3"
+    },
+    "Hero_Skill_Lock": {
+      "__uuid__": "632ff9bb-23c7-4f7d-b64f-d1a65b2bffa3"
+    },
+    "Hero_Skill_Lock_0": {
+      "__uuid__": "1451a20c-fcb7-4bd0-8647-2b4dfbabd69a"
+    },
+    "Hero_Skill_Lock_1": {
+      "__uuid__": "3775f089-a5e9-4f55-a3f0-f3f515cfb4d1"
+    },
+    "Hero_Sprite_Mask": {
+      "__uuid__": "752d7040-220f-4ff5-a0aa-9d37892b5a16"
+    },
+    "Hero_Star_1": {
+      "__uuid__": "4704916e-cc4a-42b1-8a7a-89fb5191928c"
+    },
+    "Hero_Star_2": {
+      "__uuid__": "4c2a3a6d-44a4-42f2-a171-c70859217af1"
+    },
+    "Hero_Star_3": {
+      "__uuid__": "27c93b24-2463-48c4-acb9-74d17e397f57"
+    },
+    "Hero_Star_4": {
+      "__uuid__": "d2603eaa-2d1a-4b0d-a0b4-7be989d62294"
+    },
+    "Hero_Star_5": {
+      "__uuid__": "0a4c9b1e-bd3b-4a7b-be7c-93570bd54fc7"
+    },
+    "Hero_Stat_1": {
+      "__uuid__": "3de3a1be-ea98-48cf-99fa-4829ddddb23f"
+    },
+    "Hero_Stat_10": {
+      "__uuid__": "1440412c-8597-4c2f-9b69-f0cc6a3c1d76"
+    },
+    "Hero_Stat_2": {
+      "__uuid__": "8ec28e8f-7a18-423c-b412-65a91e86f067"
+    },
+    "Hero_Stat_3": {
+      "__uuid__": "b650d59c-f2d9-4836-9eb1-656c09c27f27"
+    },
+    "Hero_Stat_4": {
+      "__uuid__": "18dfa5d7-b2f9-4d88-a94d-ebd830c9bb00"
+    },
+    "Hero_Stat_5": {
+      "__uuid__": "e7a7c274-625d-486d-ae35-1c16afbe2fc0"
+    },
+    "Hero_Stat_6": {
+      "__uuid__": "e9eb5df3-4374-4f3b-b4b5-cbc664be75d9"
+    },
+    "Hero_Stat_7": {
+      "__uuid__": "149aac17-1635-492b-8c2a-1f7d0bb6cc44"
+    },
+    "Hero_Stat_8": {
+      "__uuid__": "1e359b72-d34a-4f4d-8dc3-e07837ad8034"
+    },
+    "Hero_Stat_9": {
+      "__uuid__": "4c3a68e1-10ac-4056-8fee-8aa73b8ae265"
+    },
+    "Hero_Tab_Btn_0": {
+      "__uuid__": "ee2fc36e-5951-4b08-b292-f9e0c18e9c21"
+    },
+    "Hero_Tab_Btn_0_1": {
+      "__uuid__": "59a51919-3b57-4ae3-b352-b51055bf8be7"
+    },
+    "Hero_Tab_Btn_1": {
+      "__uuid__": "af2be561-e1d2-4946-98f8-c262ba896a80"
+    },
+    "Hero_Tab_Btn_1_1": {
+      "__uuid__": "872c58bd-36d9-416a-8cfa-32a6ee00c626"
+    },
+    "Hero_Tab_Btn_Equip_0": {
+      "__uuid__": "bcec1fd3-86f6-4af6-acc1-451b16dbd653"
+    },
+    "Hero_Tab_Btn_Equip_1": {
+      "__uuid__": "b9f2ee12-9909-4522-9e0d-e899778e854f"
+    },
+    "Hero_Tab_Btn_Skill_0": {
+      "__uuid__": "e8552f77-bbe9-44fe-9cae-ae9072ed36b3"
+    },
+    "Hero_Tab_Btn_Skill_1": {
+      "__uuid__": "ef7b1dfb-9b18-4075-a29c-fbf879b8d0cb"
+    },
+    "Hero_Title_1_0": {
+      "__uuid__": "cc5f2ffd-b1fc-4e35-bfc3-2419158836b6"
+    },
+    "Hero_Title_1_1": {
+      "__uuid__": "35c2bd46-afcd-4186-912c-525df60e52d2"
+    },
+    "Hero_Title_2_0": {
+      "__uuid__": "25e07a61-5e04-4abb-8f31-a32108c0b252"
+    },
+    "Hero_Title_2_1": {
+      "__uuid__": "aee67c51-0842-4928-a591-eb271d1608db"
+    },
+    "Hero_Title_3_0": {
+      "__uuid__": "345ed84d-2902-4c3b-9361-be286f383856"
+    },
+    "Hero_Title_3_1": {
+      "__uuid__": "cd1e7f03-988c-4dbd-8f5f-71bbcf5668e1"
+    },
+    "Hero_Title_4_0": {
+      "__uuid__": "88543c02-dcc3-4056-b307-e1abcd16652a"
+    },
+    "Hero_Title_4_1": {
+      "__uuid__": "f0593de3-0b77-4c75-8713-d62d92362608"
+    },
+    "Hero_Title_5_0": {
+      "__uuid__": "9ac82abf-baec-426c-9ae8-83b86c128aad"
+    },
+    "Hero_Title_5_1": {
+      "__uuid__": "146a3dcb-4c9e-45f7-b95a-bc54f61e9ec2"
+    },
+    "Hero_Type_1": {
+      "__uuid__": "aa87f85f-224e-4b6b-b5d2-6aa7f81b1833"
+    },
+    "Hero_Type_2": {
+      "__uuid__": "3a514ab1-52c6-4a18-a3e8-6d94d83da53d"
+    },
+    "Hero_Type_3": {
+      "__uuid__": "bd32d915-5930-4015-92dc-82eb033d5f45"
+    },
+    "Pet_Skill_1": {
+      "__uuid__": "980dfaee-3b72-4ff0-a764-5a3f0274ba10"
+    },
+    "Sprite_Icon_Power": {
+      "__uuid__": "4e96b28f-1cfb-407f-959a-804640420bd7"
+    }
+  }
+}

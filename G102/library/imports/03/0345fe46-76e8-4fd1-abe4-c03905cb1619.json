@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Pet_Dian",
+    "texture": "e11dd759-f9c3-44c9-9f5a-ea80423bf9b1",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      61,
+      226
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      61,
+      226
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

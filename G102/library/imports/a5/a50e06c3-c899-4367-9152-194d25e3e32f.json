@@ -1,0 +1,137 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "nv_wu.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "NvWu_AttackHit_00": {
+      "__uuid__": "3a41e6ae-b885-42a5-a41f-944a3ab7b95b"
+    },
+    "NvWu_AttackHit_01": {
+      "__uuid__": "2de844b3-211c-4888-97ce-5ce60b4f2519"
+    },
+    "NvWu_AttackHit_02": {
+      "__uuid__": "069aa91f-3850-4eb6-8e74-b1afcc536d3d"
+    },
+    "NvWu_AttackHit_03": {
+      "__uuid__": "7cfc383d-3b43-47a8-9f2e-0ca8463df7f2"
+    },
+    "NvWu_AttackHit_04": {
+      "__uuid__": "69ce1d88-04f0-42ba-ae4a-b5427d29578d"
+    },
+    "NvWu_AttackHit_05": {
+      "__uuid__": "6fc5543a-aa1f-468b-aa35-940dbac0fc2f"
+    },
+    "NvWu_AttackHit_06": {
+      "__uuid__": "11153b37-8519-41b5-a774-e5de3cd6279b"
+    },
+    "NvWu_AttackHit_07": {
+      "__uuid__": "ebf15f33-fcdb-4dd7-a70c-8998199f5e42"
+    },
+    "NvWu_AttackHit_08": {
+      "__uuid__": "75e6575f-78e2-4b76-9bb7-e49f822f538f"
+    },
+    "NvWu_AttackHit_09": {
+      "__uuid__": "10bab0b9-3f79-4cb3-a2f6-2fa177ad697f"
+    },
+    "NvWu_AttackHit_10": {
+      "__uuid__": "cf73a611-1cae-4a1f-89fc-b97e7d4fc34d"
+    },
+    "NvWu_Attack_00": {
+      "__uuid__": "501a21a4-276e-4f5d-9bc7-11c13e276c55"
+    },
+    "NvWu_Attack_01": {
+      "__uuid__": "fa0258bf-e0c4-4117-9900-f881e2413f11"
+    },
+    "NvWu_Attack_02": {
+      "__uuid__": "508f39e3-1dce-47fb-a334-988e03673297"
+    },
+    "NvWu_Attack_03": {
+      "__uuid__": "808e1983-794c-4e83-a672-e8c44ef18d1f"
+    },
+    "NvWu_Attack_04": {
+      "__uuid__": "5e34700c-7712-42c0-9ab9-7ec1c65530f0"
+    },
+    "NvWu_Attack_05": {
+      "__uuid__": "2497ae48-81e3-41ae-9b78-c920bb7ecc90"
+    },
+    "NvWu_Passive2_00": {
+      "__uuid__": "f7a0f280-2b3d-438f-92d9-84c0ed026fb3"
+    },
+    "NvWu_Passive2_01": {
+      "__uuid__": "64dc07d0-c8a8-4132-8d48-9a70749c000e"
+    },
+    "NvWu_Passive2_02": {
+      "__uuid__": "01b94151-d32c-42e3-a4c9-d428d718eff4"
+    },
+    "NvWu_Passive2_03": {
+      "__uuid__": "f05a814b-11de-45fc-bc54-e7a3045656ec"
+    },
+    "NvWu_Passive2_04": {
+      "__uuid__": "338bd330-9d30-49f3-bc9a-c97e1553122a"
+    },
+    "NvWu_Passive2_05": {
+      "__uuid__": "2047daf4-923f-4a50-b652-44eaee5cfffc"
+    },
+    "NvWu_Passive2_06": {
+      "__uuid__": "441310e0-3875-4234-ac73-bf70d29f589b"
+    },
+    "NvWu_Passive2_07": {
+      "__uuid__": "72ca94f1-139d-4388-a12d-699627bf0391"
+    },
+    "NvWu_Passive2_08": {
+      "__uuid__": "d68b6bfe-3d74-4e1e-9b44-3ed36ed634dc"
+    },
+    "NvWu_Passive2_09": {
+      "__uuid__": "c30ece62-afb7-48bd-8faa-c9f46bef7fd5"
+    },
+    "NvWu_Passive2_10": {
+      "__uuid__": "cf23dff4-98fe-4a7a-9537-4d1f08dda259"
+    },
+    "NvWu_Skill_00": {
+      "__uuid__": "356d13bf-4fd8-450c-8a61-90faeb73f983"
+    },
+    "NvWu_Skill_01": {
+      "__uuid__": "7d717a32-f65f-446e-9154-c3c4c0e54260"
+    },
+    "NvWu_Skill_02": {
+      "__uuid__": "7346613b-1759-4b51-9310-174876dc965f"
+    },
+    "NvWu_Skill_03": {
+      "__uuid__": "d3131da7-283c-4585-aad4-6ead905fb5f3"
+    },
+    "NvWu_Skill_04": {
+      "__uuid__": "75b4d568-a14f-4cdb-863c-8db976cb5dfd"
+    },
+    "NvWu_Skill_05": {
+      "__uuid__": "5283f0c1-120f-4a20-8584-af55582df61f"
+    },
+    "NvWu_Skill_06": {
+      "__uuid__": "c522f888-362d-41e4-9962-d6670f42fad8"
+    },
+    "NvWu_Skill_07": {
+      "__uuid__": "25d0791b-1b9a-4120-a9bd-1bb59780aebf"
+    },
+    "NvWu_Skill_08": {
+      "__uuid__": "98887f00-5a57-4ba5-be9a-2a2d66bf05ac"
+    },
+    "NvWu_Skill_09": {
+      "__uuid__": "32c95034-55f5-4dae-ace6-f150eeb284ee"
+    },
+    "NvWu_Skill_10": {
+      "__uuid__": "ea60a828-398b-4633-abfe-895696aa8ca6"
+    },
+    "NvWu_Skill_11": {
+      "__uuid__": "a7532041-c045-4e2d-be03-fc44b9bd94ca"
+    },
+    "NvWu_Skill_12": {
+      "__uuid__": "8c655602-c788-481b-a9a3-0c2802b9f8d8"
+    },
+    "NvWu_Skill_13": {
+      "__uuid__": "d2755d31-1088-46a0-a335-ad638b986989"
+    },
+    "NvWu_Skill_14": {
+      "__uuid__": "840a8652-0cee-438d-9ba5-6dd60e0dbd44"
+    }
+  }
+}

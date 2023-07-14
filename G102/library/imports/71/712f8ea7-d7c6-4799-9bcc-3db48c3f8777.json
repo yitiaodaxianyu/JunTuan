@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "NvWu_Side",
+    "texture": "be11c4d2-5664-40ec-9220-9ecf2bd36f3d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      650,
+      204
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      650,
+      204
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

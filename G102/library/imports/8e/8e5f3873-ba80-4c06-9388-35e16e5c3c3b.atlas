@@ -1,0 +1,286 @@
+
+bingnv_zhengmian.png
+size: 1037,529
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BingNv_Skill1_00
+  rotate: false
+  xy: 203, 68
+  size: 143, 144
+  orig: 144, 144
+  offset: 1, 0
+  index: -1
+BingNv_Skill1_01
+  rotate: true
+  xy: 563, 255
+  size: 133, 140
+  orig: 144, 144
+  offset: 6, 4
+  index: -1
+BingNv_Skill1_02
+  rotate: false
+  xy: 705, 252
+  size: 126, 136
+  orig: 144, 144
+  offset: 7, 5
+  index: -1
+BingNv_Skill1_03
+  rotate: false
+  xy: 348, 105
+  size: 117, 130
+  orig: 144, 144
+  offset: 11, 9
+  index: -1
+BingNv_Skill1_04
+  rotate: false
+  xy: 467, 87
+  size: 110, 126
+  orig: 144, 144
+  offset: 12, 10
+  index: -1
+BingNv_Skill1_05
+  rotate: false
+  xy: 679, 128
+  size: 105, 122
+  orig: 144, 144
+  offset: 13, 10
+  index: -1
+BingNv_Skill1_06
+  rotate: false
+  xy: 786, 129
+  size: 104, 121
+  orig: 144, 144
+  offset: 12, 10
+  index: -1
+BingNv_Skill1_07
+  rotate: false
+  xy: 892, 152
+  size: 103, 118
+  orig: 144, 144
+  offset: 12, 10
+  index: -1
+BingNv_Skill1_08
+  rotate: true
+  xy: 348, 2
+  size: 101, 113
+  orig: 144, 144
+  offset: 13, 11
+  index: -1
+BingNv_Skill1_09
+  rotate: true
+  xy: 579, 24
+  size: 97, 103
+  orig: 144, 144
+  offset: 17, 15
+  index: -1
+BingNv_Skill1_10
+  rotate: false
+  xy: 684, 32
+  size: 92, 94
+  orig: 144, 144
+  offset: 21, 18
+  index: -1
+BingNv_Skill1_19
+  rotate: false
+  xy: 900, 36
+  size: 61, 62
+  orig: 144, 144
+  offset: 46, 34
+  index: -1
+Shan
+  rotate: true
+  xy: 970, 282
+  size: 51, 65
+  orig: 51, 67
+  offset: 0, 2
+  index: -1
+aaa0
+  rotate: false
+  xy: 975, 423
+  size: 49, 104
+  orig: 49, 104
+  offset: 0, 0
+  index: -1
+aaa1
+  rotate: true
+  xy: 976, 79
+  size: 71, 59
+  orig: 71, 59
+  offset: 0, 0
+  index: -1
+aaa10
+  rotate: true
+  xy: 997, 168
+  size: 48, 29
+  orig: 48, 29
+  offset: 0, 0
+  index: -1
+aaa11
+  rotate: false
+  xy: 557, 223
+  size: 19, 30
+  orig: 19, 30
+  offset: 0, 0
+  index: -1
+aaa12
+  rotate: false
+  xy: 975, 400
+  size: 19, 21
+  orig: 19, 21
+  offset: 0, 0
+  index: -1
+aaa13
+  rotate: true
+  xy: 563, 390
+  size: 137, 234
+  orig: 137, 234
+  offset: 0, 0
+  index: -1
+aaa14
+  rotate: true
+  xy: 307, 14
+  size: 52, 39
+  orig: 52, 39
+  offset: 0, 0
+  index: -1
+aaa15
+  rotate: true
+  xy: 330, 237
+  size: 71, 142
+  orig: 71, 142
+  offset: 0, 0
+  index: -1
+aaa2
+  rotate: false
+  xy: 997, 218
+  size: 30, 62
+  orig: 30, 62
+  offset: 0, 0
+  index: -1
+aaa24
+  rotate: false
+  xy: 799, 394
+  size: 174, 133
+  orig: 174, 133
+  offset: 0, 0
+  index: -1
+aaa3
+  rotate: false
+  xy: 970, 353
+  size: 25, 39
+  orig: 25, 39
+  offset: 0, 0
+  index: -1
+aaa4
+  rotate: false
+  xy: 963, 27
+  size: 66, 50
+  orig: 66, 50
+  offset: 0, 0
+  index: -1
+aaa5
+  rotate: false
+  xy: 330, 310
+  size: 231, 217
+  orig: 231, 217
+  offset: 0, 0
+  index: -1
+aaa6
+  rotate: true
+  xy: 842, 2
+  size: 69, 56
+  orig: 69, 56
+  offset: 0, 0
+  index: -1
+aaa7
+  rotate: true
+  xy: 579, 123
+  size: 130, 98
+  orig: 130, 98
+  offset: 0, 0
+  index: -1
+aaa8
+  rotate: false
+  xy: 833, 272
+  size: 135, 120
+  orig: 135, 120
+  offset: 0, 0
+  index: -1
+aaa9
+  rotate: false
+  xy: 900, 8
+  size: 41, 26
+  orig: 41, 26
+  offset: 0, 0
+  index: -1
+bin1
+  rotate: true
+  xy: 463, 8
+  size: 77, 111
+  orig: 77, 111
+  offset: 0, 0
+  index: -1
+bin2
+  rotate: false
+  xy: 474, 215
+  size: 81, 93
+  orig: 81, 93
+  offset: 0, 0
+  index: -1
+bin3
+  rotate: true
+  xy: 778, 9
+  size: 44, 55
+  orig: 44, 55
+  offset: 0, 0
+  index: -1
+bin4
+  rotate: false
+  xy: 842, 73
+  size: 47, 54
+  orig: 47, 54
+  offset: 0, 0
+  index: -1
+bin5
+  rotate: false
+  xy: 997, 335
+  size: 38, 86
+  orig: 38, 86
+  offset: 0, 0
+  index: -1
+bin6
+  rotate: true
+  xy: 778, 55
+  size: 71, 62
+  orig: 71, 62
+  offset: 0, 0
+  index: -1
+bin7
+  rotate: true
+  xy: 892, 100
+  size: 50, 82
+  orig: 50, 82
+  offset: 0, 0
+  index: -1
+smoker_01
+  rotate: false
+  xy: 203, 4
+  size: 102, 62
+  orig: 108, 72
+  offset: 3, 6
+  index: -1
+water
+  rotate: false
+  xy: 2, 12
+  size: 199, 200
+  orig: 205, 208
+  offset: 6, 0
+  index: -1
+xian
+  rotate: false
+  xy: 2, 214
+  size: 326, 313
+  orig: 360, 360
+  offset: 21, 22
+  index: -1

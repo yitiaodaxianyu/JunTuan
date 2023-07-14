@@ -1,0 +1,55 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "boss3_skill_move",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.6,
+  "sample": 10,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "952b800f-b0b7-4504-9242-ef3b1730befa"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "404adcdd-16af-47f8-99aa-80e439e20da8"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "29aa1cf7-0a58-49a8-972c-98dcef43d30f"
+            }
+          },
+          {
+            "frame": 0.3,
+            "value": {
+              "__uuid__": "e138dd35-95db-43cd-ba9b-37e1ada08596"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "29aa1cf7-0a58-49a8-972c-98dcef43d30f"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "404adcdd-16af-47f8-99aa-80e439e20da8"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

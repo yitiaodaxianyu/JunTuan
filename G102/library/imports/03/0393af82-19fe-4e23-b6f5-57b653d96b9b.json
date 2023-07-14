@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Ninja_ActiveSkill_2",
+    "texture": "9f87b80c-3e6c-484d-9f23-528a861f71e6",
+    "atlas": "",
+    "rect": [
+      8,
+      0,
+      80,
+      100
+    ],
+    "offset": [
+      -2,
+      0
+    ],
+    "originalSize": [
+      100,
+      100
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

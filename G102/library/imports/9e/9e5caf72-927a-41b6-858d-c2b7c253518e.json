@@ -1,0 +1,383 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "mei_mo.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "MeiMo_Attack": {
+      "__uuid__": "cfacdecb-9a9f-4a88-ac8a-e60bdfda2f78"
+    },
+    "MeiMo_AttackHit_00": {
+      "__uuid__": "ce0ea615-d7a1-438f-a2d3-ac0611041d32"
+    },
+    "MeiMo_AttackHit_01": {
+      "__uuid__": "3775c019-96cd-4c55-a253-b0bf7b32a7d9"
+    },
+    "MeiMo_AttackHit_02": {
+      "__uuid__": "b10c634b-2069-4c53-bb06-6337cbaa0952"
+    },
+    "MeiMo_AttackHit_03": {
+      "__uuid__": "650a1180-97fe-43b8-81b5-5e4dafdd4086"
+    },
+    "MeiMo_AttackHit_04": {
+      "__uuid__": "29d06857-0cfd-4533-ac57-fd6d7a4bdac6"
+    },
+    "MeiMo_AttackHit_05": {
+      "__uuid__": "76049dc8-ce7b-46ee-9592-436b2520a941"
+    },
+    "MeiMo_AttackHit_06": {
+      "__uuid__": "e0763662-ab62-4667-9ad5-8fee5b05b959"
+    },
+    "MeiMo_AttackHit_07": {
+      "__uuid__": "1d18649e-c89e-4cd3-907f-bfc60244b993"
+    },
+    "MeiMo_Passive1_Hit_00": {
+      "__uuid__": "eb037b55-6817-4250-93f3-646e881452b3"
+    },
+    "MeiMo_Passive1_Hit_01": {
+      "__uuid__": "eecd2ec2-5c2f-46a0-bbfb-eda098656f47"
+    },
+    "MeiMo_Passive1_Hit_02": {
+      "__uuid__": "e4614acc-cc96-4be8-a619-6b7f62aad00c"
+    },
+    "MeiMo_Passive1_Hit_03": {
+      "__uuid__": "70358cd1-082f-46f8-aaad-1ce1b1fa6301"
+    },
+    "MeiMo_Passive1_Hit_04": {
+      "__uuid__": "623b4167-7050-40ce-bf97-1b91cca3a067"
+    },
+    "MeiMo_Passive1_Hit_05": {
+      "__uuid__": "37e52487-c86d-412f-8d7b-0eff8259b485"
+    },
+    "MeiMo_Passive1_Hit_06": {
+      "__uuid__": "94339402-c88b-48cf-b61e-3e91ff93f249"
+    },
+    "MeiMo_Passive1_Hit_07": {
+      "__uuid__": "601c02c0-20ee-4be6-bce2-d69671e3a5b5"
+    },
+    "MeiMo_Passive1_Hit_08": {
+      "__uuid__": "f56091b5-957c-40a0-9b35-8b53fe6aaad3"
+    },
+    "MeiMo_Passive1_Hit_09": {
+      "__uuid__": "4447ee94-f135-4614-9ff6-d6ce00986864"
+    },
+    "MeiMo_Passive1_Hit_10": {
+      "__uuid__": "ee115844-f32d-4e24-90dd-4ad6a821b968"
+    },
+    "MeiMo_Passive1_Speed_00": {
+      "__uuid__": "ec3ec9b5-d7a8-4abe-8f2e-a35111798e30"
+    },
+    "MeiMo_Passive1_Speed_01": {
+      "__uuid__": "dc11c53f-19dd-415d-b1cd-2d0728e10438"
+    },
+    "MeiMo_Passive1_Speed_02": {
+      "__uuid__": "74a905a8-0451-4207-99c2-ba75f93055dd"
+    },
+    "MeiMo_Passive1_Speed_03": {
+      "__uuid__": "54694975-bb24-4e66-b684-b734fbd49081"
+    },
+    "MeiMo_Passive1_Speed_04": {
+      "__uuid__": "7330fb21-f95e-4e3d-a243-21654bc8604e"
+    },
+    "MeiMo_Passive1_Speed_05": {
+      "__uuid__": "820b52c9-1c61-42fa-9569-cfcd0fed4a87"
+    },
+    "MeiMo_Passive1_Speed_06": {
+      "__uuid__": "1314bcff-aae1-4320-bc6f-3392fc8f2498"
+    },
+    "MeiMo_Passive1_Speed_07": {
+      "__uuid__": "ddbb5e1c-e664-4d6a-8e6c-6a6c6b7b77d2"
+    },
+    "MeiMo_Passive1_Speed_08": {
+      "__uuid__": "5d9dfa1c-ecc6-4eb0-a1b9-4ffb2239c331"
+    },
+    "MeiMo_Passive1_Speed_09": {
+      "__uuid__": "c032838e-c652-4670-be6d-224030b53bbb"
+    },
+    "MeiMo_Passive1_Speed_10": {
+      "__uuid__": "d6302e78-f41c-4ed5-add4-d67856f71394"
+    },
+    "MeiMo_Passive1_Speed_11": {
+      "__uuid__": "89092418-fdbf-4844-950e-026ac7b12f1a"
+    },
+    "MeiMo_Passive1_Speed_12": {
+      "__uuid__": "6db98053-672c-427c-a97d-56ff1b316cca"
+    },
+    "MeiMo_Passive1_Speed_13": {
+      "__uuid__": "5513b734-6714-4270-8a16-6c9215b7c2bc"
+    },
+    "MeiMo_Passive1_Speed_14": {
+      "__uuid__": "956fd781-d843-4ebe-815e-4306b7eb9d43"
+    },
+    "MeiMo_Passive1_Speed_15": {
+      "__uuid__": "2f17f005-07c9-4c42-bf72-cc2a1a4ff98d"
+    },
+    "MeiMo_Passive1_Speed_16": {
+      "__uuid__": "20f04fd8-35e9-458b-bd0c-e1e59fc999e2"
+    },
+    "MeiMo_Passive1_Speed_17": {
+      "__uuid__": "4f26e18a-9b43-4415-a393-464100a744ab"
+    },
+    "MeiMo_Passive1_Speed_18": {
+      "__uuid__": "563fa65e-42d2-4461-a6bc-6508afd52dd0"
+    },
+    "MeiMo_Passive2_Hit_00": {
+      "__uuid__": "28f0f7af-63f3-4e28-85ea-dca9373ad117"
+    },
+    "MeiMo_Passive2_Hit_01": {
+      "__uuid__": "9a5f4e30-5b2f-46ab-82e5-a08c298a226d"
+    },
+    "MeiMo_Passive2_Hit_02": {
+      "__uuid__": "37ca8259-9437-4a08-94be-34fcf3d100de"
+    },
+    "MeiMo_Passive2_Hit_03": {
+      "__uuid__": "e1b36983-ea5b-4afb-9e0a-ffb966179721"
+    },
+    "MeiMo_Passive2_Hit_04": {
+      "__uuid__": "51e24bb4-cf76-4686-8dc6-e309ebf4f778"
+    },
+    "MeiMo_Passive2_Hit_05": {
+      "__uuid__": "5626a4ac-d99c-4f5e-91a7-8fce3a7b057d"
+    },
+    "MeiMo_Passive2_Hit_06": {
+      "__uuid__": "87cf0b1c-ac16-4b79-8dcc-5b2fb327ea1a"
+    },
+    "MeiMo_Passive2_Hit_07": {
+      "__uuid__": "3fea4e88-0f61-4a1a-aeef-cd9d25816e5e"
+    },
+    "MeiMo_Passive2_Hit_08": {
+      "__uuid__": "24ba9746-59d6-465f-935c-7e3e89960a1a"
+    },
+    "MeiMo_Passive2_Hit_09": {
+      "__uuid__": "569e36ad-6464-496d-927a-11a9b909772d"
+    },
+    "MeiMo_Passive2_Hit_10": {
+      "__uuid__": "47d8a2df-124e-4f47-b2d9-f586fab03caf"
+    },
+    "MeiMo_Passive2_Hit_11": {
+      "__uuid__": "d36159a1-ce33-445f-b123-5d2c503d553a"
+    },
+    "MeiMo_Passive2_Hit_12": {
+      "__uuid__": "ccd70c6a-95d4-4146-a9a6-c6a220af227d"
+    },
+    "MeiMo_Passive2_Hit_13": {
+      "__uuid__": "d1cbdcee-6d17-4b22-ad73-3751ade37d55"
+    },
+    "MeiMo_Passive2_Hit_14": {
+      "__uuid__": "b7cb4ea0-bea3-414a-9d0d-2d572c8fdb81"
+    },
+    "MeiMo_Skill_1_00": {
+      "__uuid__": "effb6dec-7676-4ef3-a1ef-d5f3f5cf2568"
+    },
+    "MeiMo_Skill_1_01": {
+      "__uuid__": "b2cdfd7a-2d43-420d-a643-3bc76edcd8f2"
+    },
+    "MeiMo_Skill_1_02": {
+      "__uuid__": "bf7d5364-f26a-4858-ad8d-3e708be53ac5"
+    },
+    "MeiMo_Skill_1_03": {
+      "__uuid__": "7629a9ca-4eb0-4831-8e2b-b11829926785"
+    },
+    "MeiMo_Skill_1_04": {
+      "__uuid__": "b3ce5e21-b002-40e3-876b-481c0a52507f"
+    },
+    "MeiMo_Skill_1_05": {
+      "__uuid__": "9e98eafb-fa12-4651-a178-7a790c3345d4"
+    },
+    "MeiMo_Skill_1_06": {
+      "__uuid__": "85f78636-3e6c-4bb7-ad5b-e23755d9a368"
+    },
+    "MeiMo_Skill_1_07": {
+      "__uuid__": "b505a64a-6d2a-4af2-b9dd-88b2ebc44d33"
+    },
+    "MeiMo_Skill_1_08": {
+      "__uuid__": "e158ae92-11ab-40a1-b45b-29c4754fe7c1"
+    },
+    "MeiMo_Skill_1_09": {
+      "__uuid__": "5b120d63-b90a-4cd4-8259-20625ddabd0b"
+    },
+    "MeiMo_Skill_2_00": {
+      "__uuid__": "d4d996fc-6d85-4126-9c3a-541219affa37"
+    },
+    "MeiMo_Skill_2_01": {
+      "__uuid__": "091e1741-3750-4071-8a20-c1582755f2ec"
+    },
+    "MeiMo_Skill_2_02": {
+      "__uuid__": "fceda024-cc5c-4c88-ae51-19aa4f6ffba4"
+    },
+    "MeiMo_Skill_2_03": {
+      "__uuid__": "dfb66b77-398d-4cbd-9af2-cbf7e239491a"
+    },
+    "MeiMo_Skill_2_04": {
+      "__uuid__": "0f40ae06-d1fc-4dee-83e9-e5841d76c91a"
+    },
+    "MeiMo_Skill_2_05": {
+      "__uuid__": "e81a92e2-a486-4320-8db7-9cd3627b9c3f"
+    },
+    "MeiMo_Skill_2_06": {
+      "__uuid__": "67c4a786-b85f-413e-a89a-975157baadda"
+    },
+    "MeiMo_Skill_2_07": {
+      "__uuid__": "40d959a8-4d8b-48ec-80de-91db6928316a"
+    },
+    "MeiMo_Skill_2_08": {
+      "__uuid__": "44515f3e-1161-4751-9cd9-85c4a79611e6"
+    },
+    "MeiMo_Skill_2_09": {
+      "__uuid__": "18f21bf0-21c7-4119-ae0e-9448761f53ef"
+    },
+    "MeiMo_Skill_2_10": {
+      "__uuid__": "0a78ddbb-347f-4d04-98b9-7cfe3701fa49"
+    },
+    "MeiMo_Skill_2_11": {
+      "__uuid__": "5e083bc4-5564-4850-93bc-c424423eeb63"
+    },
+    "MeiMo_Skill_2_12": {
+      "__uuid__": "4e569959-3de3-43be-96a7-f2ed8a486374"
+    },
+    "MeiMo_Skill_2_13": {
+      "__uuid__": "ae393e76-df36-4000-ab54-5ed1b5a67148"
+    },
+    "MeiMo_Skill_2_14": {
+      "__uuid__": "96c01e37-536a-4859-a2d1-c5c44419637f"
+    },
+    "MeiMo_Skill_2_15": {
+      "__uuid__": "7c3aa441-6f01-401e-99c4-d622f9cebc89"
+    },
+    "MeiMo_Skill_2_16": {
+      "__uuid__": "ce344fc7-a927-4fa5-a696-7b2f99ad6566"
+    },
+    "MeiMo_Skill_2_17": {
+      "__uuid__": "65e42272-06e2-474f-b968-a07031eb4886"
+    },
+    "MeiMo_Skill_2_18": {
+      "__uuid__": "21a31774-d3da-4dfd-b41c-547f097a932f"
+    },
+    "MeiMo_Skill_2_19": {
+      "__uuid__": "5b5e8d6a-5a51-415c-92b8-5d1d05a71542"
+    },
+    "MeiMo_Skill_2_20": {
+      "__uuid__": "62a0612a-bf50-463c-b319-3955e7e3cc9a"
+    },
+    "MeiMo_Skill_2_21": {
+      "__uuid__": "263875ea-178a-4a22-97e1-f7526e9927f0"
+    },
+    "MeiMo_Skill_2_22": {
+      "__uuid__": "c298a0e0-d378-48bd-9b9b-c4bf52485e11"
+    },
+    "MeiMo_Skill_2_23": {
+      "__uuid__": "07b7b32b-778f-4f50-a90c-356605ffc601"
+    },
+    "MeiMo_Skill_2_24": {
+      "__uuid__": "d4202867-0b38-42c1-ab4d-13e26c00f907"
+    },
+    "MeiMo_Skill_3_00": {
+      "__uuid__": "d375ec7b-b0e9-4dfe-9018-f807278b98dd"
+    },
+    "MeiMo_Skill_3_01": {
+      "__uuid__": "b180372e-2be5-4a57-badf-7928ba586da4"
+    },
+    "MeiMo_Skill_3_02": {
+      "__uuid__": "463b850b-502d-4206-bd04-cf0f86474be6"
+    },
+    "MeiMo_Skill_3_03": {
+      "__uuid__": "d797421c-6f5f-444b-81da-ed865b9ce371"
+    },
+    "MeiMo_Skill_3_04": {
+      "__uuid__": "65228e7d-284a-4664-a68c-4971e720bc7d"
+    },
+    "MeiMo_Skill_3_05": {
+      "__uuid__": "d5ab9948-a49b-4775-b11b-4297b30e59bc"
+    },
+    "MeiMo_Skill_3_06": {
+      "__uuid__": "5388212e-bbb4-4a9e-895d-33feb6e499da"
+    },
+    "MeiMo_Skill_3_07": {
+      "__uuid__": "c4cb9819-515c-4da5-b1da-6d8b87fa9ae2"
+    },
+    "MeiMo_Skill_3_08": {
+      "__uuid__": "5a219b52-6661-473a-b3ef-ecaeb2d995c9"
+    },
+    "MeiMo_Skill_3_09": {
+      "__uuid__": "2cb3bce6-f50f-400a-b667-2945518e2a36"
+    },
+    "MeiMo_Skill_3_10": {
+      "__uuid__": "80312eaa-5dee-4950-9780-06d7dc0a427e"
+    },
+    "MeiMo_Skill_4_00": {
+      "__uuid__": "8203da9f-ef41-4599-825a-4eb5101de0c3"
+    },
+    "MeiMo_Skill_4_01": {
+      "__uuid__": "a6947399-9500-4036-adde-dc0148873e1e"
+    },
+    "MeiMo_Skill_4_02": {
+      "__uuid__": "ecf4d09a-cc55-4f55-83a2-b9f83381cfab"
+    },
+    "MeiMo_Skill_4_03": {
+      "__uuid__": "ce1b7701-2428-4b00-a888-a3a74bfccfd9"
+    },
+    "MeiMo_Skill_4_04": {
+      "__uuid__": "5491ebc7-cf6d-4950-811e-49b5349529fa"
+    },
+    "MeiMo_Skill_4_05": {
+      "__uuid__": "f44ca735-5db6-4f2a-a5e6-530ec073f91f"
+    },
+    "MeiMo_Skill_4_06": {
+      "__uuid__": "f6f2d739-9e58-4593-9e64-0cf63bd2a7ab"
+    },
+    "MeiMo_Skill_4_07": {
+      "__uuid__": "313c48e2-6425-43d6-a89e-87543ddff2f5"
+    },
+    "MeiMo_Skill_4_08": {
+      "__uuid__": "fb82e24c-2621-40ba-8d51-9dba36d30056"
+    },
+    "MeiMo_Skill_4_09": {
+      "__uuid__": "8f650359-d367-4985-afce-6dcfd510ad0e"
+    },
+    "MeiMo_Skill_4_10": {
+      "__uuid__": "ca9c896c-9280-429b-9ee5-1cdf31f73905"
+    },
+    "MeiMo_Skill_4_11": {
+      "__uuid__": "f48b2ffe-f156-4ced-a9f6-69577cce95a6"
+    },
+    "MeiMo_Skill_4_12": {
+      "__uuid__": "fbffb054-ae28-4f06-b6ac-fc07bcec1a49"
+    },
+    "MeiMo_Skill_4_13": {
+      "__uuid__": "8b0d5516-cf2c-4ae9-8d7e-279abe6cbf2e"
+    },
+    "MeiMo_Skill_4_14": {
+      "__uuid__": "6a30c440-18db-4c37-a335-7c3d4474b6d8"
+    },
+    "MeiMo_Skill_4_15": {
+      "__uuid__": "691ee062-6f5c-43cc-b615-a386cceca3ab"
+    },
+    "MeiMo_Skill_4_16": {
+      "__uuid__": "d645839c-bce8-4dba-9d78-d71b18d8c6e9"
+    },
+    "MeiMo_Skill_4_17": {
+      "__uuid__": "5b616332-92f7-40e6-88cf-a6be539b6c21"
+    },
+    "MeiMo_Skill_4_18": {
+      "__uuid__": "f6fceaf2-8d7e-4f69-9f0b-71b039fb094a"
+    },
+    "MeiMo_Skill_4_19": {
+      "__uuid__": "dfca6139-f568-4124-8608-145bbcc7a1f4"
+    },
+    "MeiMo_Skill_4_20": {
+      "__uuid__": "a9bc1ccc-f965-499f-bb14-771728e5b8b0"
+    },
+    "MeiMo_Skill_4_21": {
+      "__uuid__": "626249cc-6767-4478-ab37-c21f3a272a68"
+    },
+    "MeiMo_Skill_4_22": {
+      "__uuid__": "15528d20-bb23-4b47-8b18-f9bcee4aec05"
+    },
+    "MeiMo_Skill_4_23": {
+      "__uuid__": "61928795-3fbf-4e74-a3cb-2066f1f84afa"
+    },
+    "MeiMo_Skill_4_24": {
+      "__uuid__": "fc49f8ca-b6de-45e9-83cb-32a2eb747412"
+    }
+  }
+}

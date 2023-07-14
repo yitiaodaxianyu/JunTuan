@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Raid_Line",
+    "texture": "0fa26554-18aa-4685-943c-8687476a8daa",
+    "atlas": "20cb05a8-719e-4878-bafb-23c08de83024",
+    "rect": [
+      749,
+      258,
+      24,
+      3
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      24,
+      3
+    ],
+    "rotated": 1,
+    "capInsets": [
+      7,
+      1,
+      6,
+      1
+    ]
+  }
+}

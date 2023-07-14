@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "BossRush_Chest_2",
+    "texture": "6f252f1d-ac80-45bb-a2cf-039617782c08",
+    "atlas": "7ce35ca0-3646-4312-b998-36280a3bb3c8",
+    "rect": [
+      722,
+      1036,
+      96,
+      88
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      96,
+      90
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

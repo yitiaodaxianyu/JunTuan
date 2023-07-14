@@ -1,0 +1,76 @@
+
+kaishianniu.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/1
+  rotate: false
+  xy: 2, 86
+  size: 291, 82
+  orig: 291, 82
+  offset: 0, 0
+  index: -1
+images/11
+  rotate: false
+  xy: 588, 2
+  size: 291, 82
+  orig: 291, 82
+  offset: 0, 0
+  index: -1
+images/2
+  rotate: false
+  xy: 295, 170
+  size: 291, 82
+  orig: 291, 82
+  offset: 0, 0
+  index: -1
+images/3
+  rotate: false
+  xy: 2, 2
+  size: 291, 82
+  orig: 291, 82
+  offset: 0, 0
+  index: -1
+images/4
+  rotate: false
+  xy: 295, 86
+  size: 291, 82
+  orig: 291, 82
+  offset: 0, 0
+  index: -1
+images/5
+  rotate: false
+  xy: 588, 170
+  size: 291, 82
+  orig: 291, 82
+  offset: 0, 0
+  index: -1
+images/6
+  rotate: false
+  xy: 295, 2
+  size: 291, 82
+  orig: 291, 82
+  offset: 0, 0
+  index: -1
+images/7
+  rotate: false
+  xy: 588, 86
+  size: 291, 82
+  orig: 291, 82
+  offset: 0, 0
+  index: -1
+images/8
+  rotate: false
+  xy: 881, 170
+  size: 291, 82
+  orig: 291, 82
+  offset: 0, 0
+  index: -1
+images/9
+  rotate: false
+  xy: 2, 170
+  size: 291, 82
+  orig: 291, 82
+  offset: 0, 0
+  index: -1

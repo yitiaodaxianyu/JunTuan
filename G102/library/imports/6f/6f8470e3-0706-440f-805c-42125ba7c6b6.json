@@ -1,0 +1,353 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "game_effects.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "FX_Boss0_FireBall_Fly_00": {
+      "__uuid__": "b20a4683-cc93-4a85-8a68-de86d0f3df50"
+    },
+    "FX_Boss0_FireBall_Fly_01": {
+      "__uuid__": "69eed56b-f54c-44e5-be40-5192a9aa2fd7"
+    },
+    "FX_Boss0_FireBall_Fly_02": {
+      "__uuid__": "761fcc95-33b9-4b09-b21c-d0eff46dbc53"
+    },
+    "FX_Boss0_FireBall_Fly_03": {
+      "__uuid__": "1ba1c150-7ef2-4ad0-83b5-947c6095b769"
+    },
+    "FX_Boss0_FireBall_Fly_04": {
+      "__uuid__": "e435a9d6-69cf-482e-b84f-82a124024a45"
+    },
+    "FX_Boss0_FireBall_Fly_05": {
+      "__uuid__": "c65e7b89-57be-49f7-b5cd-e5583f1e2ea7"
+    },
+    "FX_Boss0_FireBall_Fly_06": {
+      "__uuid__": "d3481703-5e50-4bf1-9119-fdc626892a99"
+    },
+    "FX_Boss0_FireBall_Fly_07": {
+      "__uuid__": "2e1a3467-59f2-45af-bf5c-1dec62461231"
+    },
+    "FX_Boss0_FireBall_Fly_08": {
+      "__uuid__": "04d0f64e-5686-4335-9188-b3c929c85457"
+    },
+    "FX_Boss0_FireBall_Hit_00": {
+      "__uuid__": "d2f5373d-9c35-407f-8770-18f0f9a9018c"
+    },
+    "FX_Boss0_FireBall_Hit_01": {
+      "__uuid__": "835cf5a8-00c1-477f-b513-42bd5c56d74a"
+    },
+    "FX_Boss0_FireBall_Hit_02": {
+      "__uuid__": "e33a5253-6921-4217-8377-961fafdaf201"
+    },
+    "FX_Boss0_FireBall_Hit_03": {
+      "__uuid__": "6d271c4f-f2d0-4fa9-a77b-cf6dd6151697"
+    },
+    "FX_Boss0_FireBall_Hit_04": {
+      "__uuid__": "4d1b68ff-8a50-44bf-88bf-5c50150171d0"
+    },
+    "FX_Boss0_FireBall_Hit_05": {
+      "__uuid__": "3cc17bed-7816-43a2-bd8b-f78713e95766"
+    },
+    "FX_Boss0_FireBall_Hit_06": {
+      "__uuid__": "5eae7d76-587f-4d0c-9695-abba872719a8"
+    },
+    "FX_Boss0_FireBall_Hit_07": {
+      "__uuid__": "c02d55a1-e15f-4063-a1df-62d24203d1b9"
+    },
+    "FX_Boss0_FireBall_Hit_08": {
+      "__uuid__": "5f02fb5a-cabf-486c-b7ed-d24820ad49f5"
+    },
+    "FX_Boss0_FireBall_Hit_09": {
+      "__uuid__": "1e35d4b3-3318-4745-816f-3373493c130c"
+    },
+    "FX_Boss0_FireBall_Hit_10": {
+      "__uuid__": "8cdc93df-667d-4644-bad0-ab018be68a97"
+    },
+    "FX_Boss0_FireBall_Hit_11": {
+      "__uuid__": "14384716-0238-463b-a8e5-bbcd085e1bf0"
+    },
+    "FX_Boss0_FireBall_Hit_12": {
+      "__uuid__": "74d29230-e661-44e1-9469-5abde032c9c7"
+    },
+    "FX_Boss2_FireBall_Fly_00": {
+      "__uuid__": "aaf54f93-c1a0-4530-a95a-da8853fa5546"
+    },
+    "FX_Boss2_FireBall_Fly_01": {
+      "__uuid__": "c49b3a90-adf1-4585-aaee-046a3552156b"
+    },
+    "FX_Boss2_FireBall_Fly_02": {
+      "__uuid__": "7da4dc8e-5593-4226-a124-2e79746f678d"
+    },
+    "FX_Boss2_FireBall_Fly_03": {
+      "__uuid__": "b43b630a-4316-4079-b3d8-535b2f235ec1"
+    },
+    "FX_Boss2_FireBall_Fly_04": {
+      "__uuid__": "efd35d6c-5630-4c32-aa11-3b85972919c6"
+    },
+    "FX_Boss2_FireBall_Fly_05": {
+      "__uuid__": "e2c80874-3166-443f-9730-7b6b3897fdd2"
+    },
+    "FX_Boss2_FireBall_Fly_06": {
+      "__uuid__": "cfce11ef-bd67-4928-8cdd-f4a0fff7c19a"
+    },
+    "FX_Boss2_FireBall_Fly_07": {
+      "__uuid__": "d70ed237-0163-48fb-a022-b8e3a4260fe2"
+    },
+    "FX_Boss2_FireBall_Fly_08": {
+      "__uuid__": "0b531cc5-2c87-484e-9711-62beeb751036"
+    },
+    "FX_Boss2_FireBall_Hit_00": {
+      "__uuid__": "3c32a509-4bc7-4a22-9cff-224411116cf6"
+    },
+    "FX_Boss2_FireBall_Hit_01": {
+      "__uuid__": "159b54d1-9408-49aa-9321-5efd6351531c"
+    },
+    "FX_Boss2_FireBall_Hit_02": {
+      "__uuid__": "5b862dba-cfea-423e-8e5d-aff91c540423"
+    },
+    "FX_Boss2_FireBall_Hit_03": {
+      "__uuid__": "c1fecdb0-3f5c-4b3c-9e1a-17efe585bd7c"
+    },
+    "FX_Boss2_FireBall_Hit_04": {
+      "__uuid__": "6d3d4cd4-e9ab-4f82-9c3c-8e575ec5a6fb"
+    },
+    "FX_Boss2_FireBall_Hit_05": {
+      "__uuid__": "345abaa2-6d4c-41ec-a8b5-b5503471b1bc"
+    },
+    "FX_Boss2_FireBall_Hit_06": {
+      "__uuid__": "916bb23a-bcbb-457a-8fe7-86e7dc59e747"
+    },
+    "FX_Boss2_FireBall_Hit_07": {
+      "__uuid__": "33f00d06-a324-4224-a31d-539b6d56926a"
+    },
+    "FX_Boss2_FireBall_Hit_08": {
+      "__uuid__": "1d852aa4-131c-47ed-ba94-8e87acb2deb8"
+    },
+    "FX_Boss2_FireBall_Hit_09": {
+      "__uuid__": "bc988007-e158-47e8-9204-3159b7b45abe"
+    },
+    "FX_Boss2_FireBall_Hit_10": {
+      "__uuid__": "29fe6e07-639c-4b49-a84d-bc9e6338a037"
+    },
+    "FX_Boss2_FireBall_Hit_11": {
+      "__uuid__": "f8de4929-9ccd-4992-99c6-f2575ca8b767"
+    },
+    "FX_Boss2_FireBall_Hit_12": {
+      "__uuid__": "04ad748f-9d02-4dc2-b0c1-b2d2b12a39b3"
+    },
+    "FX_Boss2_FlameWave_66": {
+      "__uuid__": "952b800f-b0b7-4504-9242-ef3b1730befa"
+    },
+    "FX_Boss2_FlameWave_67": {
+      "__uuid__": "404adcdd-16af-47f8-99aa-80e439e20da8"
+    },
+    "FX_Boss2_FlameWave_68": {
+      "__uuid__": "29aa1cf7-0a58-49a8-972c-98dcef43d30f"
+    },
+    "FX_Boss2_FlameWave_69": {
+      "__uuid__": "e138dd35-95db-43cd-ba9b-37e1ada08596"
+    },
+    "FX_Stone_0001": {
+      "__uuid__": "d5e94415-badf-4965-b383-8b27bd426a30"
+    },
+    "FX_Stone_0002": {
+      "__uuid__": "ebba95db-b151-4fff-ba8b-e1ae96495d73"
+    },
+    "FX_Stone_0003": {
+      "__uuid__": "e1ff2713-5afd-42d4-95af-cc359102bc46"
+    },
+    "FX_Stone_0004": {
+      "__uuid__": "dfd40e69-3671-4987-90c7-90ba168e0fa4"
+    },
+    "FX_Stone_0005": {
+      "__uuid__": "2ff358a4-6898-44b7-bd7f-c9a5442f4a00"
+    },
+    "FX_Stone_0006": {
+      "__uuid__": "54f7b454-727b-4665-8f42-267d66b958fa"
+    },
+    "FX_Stone_0007": {
+      "__uuid__": "3aff77e4-ece8-4c2f-8937-541a03b7eda2"
+    },
+    "FX_Stone_0008": {
+      "__uuid__": "c59aab01-5fd7-44f1-aef6-17d24c3ff614"
+    },
+    "FX_Stone_0009": {
+      "__uuid__": "a6e1ec83-0eb4-4b0d-b298-c4d08931176c"
+    },
+    "FX_Stone_0010": {
+      "__uuid__": "0414bf5d-54b0-46e7-bc22-12684915d7ee"
+    },
+    "FX_Stone_0011": {
+      "__uuid__": "3694853f-b2d2-470e-a4b9-145155c6bbaa"
+    },
+    "FX_Stone_0012": {
+      "__uuid__": "0856676f-50f7-4ed0-9301-e9486a38482b"
+    },
+    "FX_Stone_0013": {
+      "__uuid__": "942e05be-2112-4ec7-b356-2069a5dac322"
+    },
+    "FX_Stone_0014": {
+      "__uuid__": "2bcfc9dc-8b1a-43e1-bd4b-66928dbb5c09"
+    },
+    "FX_Stone_0015": {
+      "__uuid__": "4dcdd053-7091-4a71-a951-05dd26dc49c5"
+    },
+    "FX_Stone_0016": {
+      "__uuid__": "eb5cd895-3f87-485c-b8bb-75e485cbcb1e"
+    },
+    "FX_Stone_0017": {
+      "__uuid__": "5e14858b-32c0-49a0-9aaf-4b52f659577a"
+    },
+    "FX_Stone_0018": {
+      "__uuid__": "43f82829-5f8b-45b9-b21b-2a20c2455470"
+    },
+    "FX_Stone_0019": {
+      "__uuid__": "3fd6a160-2bd5-4876-8f11-c3f34e3b9bd6"
+    },
+    "FX_Stone_0020": {
+      "__uuid__": "c5da58d7-b94e-4476-8a39-3afe089e4f22"
+    },
+    "FX_Stone_0021": {
+      "__uuid__": "4a859ae1-83a0-421c-a8a8-0e1e0a6e2ccb"
+    },
+    "FX_Stone_0022": {
+      "__uuid__": "915a75e3-1bcd-4374-a1a2-a7acdb4f4f70"
+    },
+    "FX_Stone_0023": {
+      "__uuid__": "88fdd48f-8352-4cf7-ba33-72bf554305ef"
+    },
+    "FX_Stone_0024": {
+      "__uuid__": "e22a5760-6edc-4714-bf5c-711b8678f978"
+    },
+    "FX_Stone_0025": {
+      "__uuid__": "4a986611-7831-4faf-82ec-138a4e59c787"
+    },
+    "FX_Stone_0026": {
+      "__uuid__": "5b0fca4e-b039-42e0-80f3-b475a5f1dbcc"
+    },
+    "FX_Stone_0027": {
+      "__uuid__": "fe39f91c-a948-4b41-966a-3c58bd6bb4d1"
+    },
+    "FX_Stone_0028": {
+      "__uuid__": "89c931b8-9b67-49a6-86fb-561eba7a4c6e"
+    },
+    "FX_Stone_0029": {
+      "__uuid__": "374045cb-04ab-45f3-bcd0-769b35778f1a"
+    },
+    "FX_Stone_0030": {
+      "__uuid__": "3c5369eb-1d7b-4c66-a33a-f1913412d21c"
+    },
+    "FX_Stone_0031": {
+      "__uuid__": "a6407ad7-f146-49d2-bf15-203436d12652"
+    },
+    "FX_Stone_0032": {
+      "__uuid__": "c3a02b83-8252-4690-8d14-992d17f10aba"
+    },
+    "FX_Stone_0033": {
+      "__uuid__": "4c80c04d-6e23-457d-b6cc-d52f6ffb6852"
+    },
+    "FX_Stone_0034": {
+      "__uuid__": "483305b2-69d4-4cc5-af50-b0bf85907dab"
+    },
+    "FX_Stone_0035": {
+      "__uuid__": "c5f2ecf3-199b-43b3-8eda-2f700962804e"
+    },
+    "FX_skill1_hit_72": {
+      "__uuid__": "650f9b8a-bb28-4f01-9b8e-f65d6f80ff3d"
+    },
+    "FX_skill1_hit_73": {
+      "__uuid__": "51d5b14c-afe0-4f4f-b5d1-67391bce1e6b"
+    },
+    "FX_skill1_hit_74": {
+      "__uuid__": "3a15aed8-3e25-4ecf-9ffa-8f66af5fe98b"
+    },
+    "FX_skill1_hit_75": {
+      "__uuid__": "246fffde-ba11-4d6a-b994-e349dd298d2e"
+    },
+    "FX_skill1_hit_76": {
+      "__uuid__": "d3de268f-7d92-45cc-8567-0108927add6e"
+    },
+    "FX_skill1_hit_77": {
+      "__uuid__": "ff173bbe-3dd9-42f7-8df9-0a80f1d68b81"
+    },
+    "FX_skill1_hit_78": {
+      "__uuid__": "db1b179d-4663-4c99-87e2-a5067e3a636c"
+    },
+    "FX_skill1_hit_79": {
+      "__uuid__": "4166fcfa-4918-4450-83e7-576d1917d175"
+    },
+    "FX_skill1_hit_80": {
+      "__uuid__": "9da7efcf-3050-4a32-9a77-9214c6cf6000"
+    },
+    "FX_skill1_hit_81": {
+      "__uuid__": "9d4ac57c-7011-4a95-acc5-afcc519c46a9"
+    },
+    "FX_skill1_hit_82": {
+      "__uuid__": "3d0b0128-b1e3-4bf9-bffd-5569262de977"
+    },
+    "FX_skill1_hit_83": {
+      "__uuid__": "fce823e6-a01a-40d0-9298-7a0e0cfe920c"
+    },
+    "FX_skill1_hit_84": {
+      "__uuid__": "c3f7e8d1-b1c0-4ada-af00-e96489130a4f"
+    },
+    "FX_skill1_hit_85": {
+      "__uuid__": "1f6a2a21-b2d7-4e1b-98b5-d3942ae9be74"
+    },
+    "FX_skill1_hit_86": {
+      "__uuid__": "0b7ef185-4f5e-43f7-9de9-294698fe4404"
+    },
+    "FX_skill1_hit_87": {
+      "__uuid__": "1a193af3-7932-42f8-ab3a-c9d9248d1569"
+    },
+    "FX_skill1_hit_88": {
+      "__uuid__": "9d54e481-b5df-4cfa-863a-38f102cb6f48"
+    },
+    "FX_skill1_hit_89": {
+      "__uuid__": "de8e3abf-0d25-433a-b635-fc61d4c625c5"
+    },
+    "FX_skill1_hit_90": {
+      "__uuid__": "2bc38827-1639-44df-b08a-7f61fb7198b0"
+    },
+    "FX_smoke_43": {
+      "__uuid__": "1e679d0d-1ad6-4a5f-b735-933d2de1a27b"
+    },
+    "FX_smoke_44": {
+      "__uuid__": "95309b7c-93a0-4891-960f-42eb3cff9766"
+    },
+    "FX_smoke_45": {
+      "__uuid__": "fd21f51f-ce8c-4197-a428-67e673ca2b2a"
+    },
+    "FX_smoke_46": {
+      "__uuid__": "0dbc4036-80a5-4a0b-a10e-7e62515b71f4"
+    },
+    "FX_smoke_47": {
+      "__uuid__": "428a1333-876e-4d94-9501-fa6f5fdb05a2"
+    },
+    "FX_smoke_48": {
+      "__uuid__": "20ed7ed5-c741-4765-9ff9-bf2b2dfc5a93"
+    },
+    "FX_smoke_49": {
+      "__uuid__": "ee9cfcbd-cf42-489f-8592-86f13961366e"
+    },
+    "FX_smoke_50": {
+      "__uuid__": "528fad29-d573-41d0-8ea1-453cf1d716a1"
+    },
+    "FX_smoke_51": {
+      "__uuid__": "b9a95b04-5d2b-42ec-932d-47d261f9bf3b"
+    },
+    "FX_smoke_52": {
+      "__uuid__": "3ce90ce0-3d74-4955-8ca7-d40c528fe7d1"
+    },
+    "FX_smoke_53": {
+      "__uuid__": "9b23651b-9d9d-41c2-8bf0-42eb72f8e923"
+    },
+    "FX_smoke_54": {
+      "__uuid__": "1b117796-ee54-4064-bb50-d022ad4da073"
+    },
+    "FX_smoke_55": {
+      "__uuid__": "5296c517-550c-4243-a461-f80eee23400c"
+    }
+  }
+}

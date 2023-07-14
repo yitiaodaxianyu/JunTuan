@@ -1,0 +1,258 @@
+
+daodanbaozha.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0
+  rotate: false
+  xy: 2, 62
+  size: 173, 160
+  orig: 173, 160
+  offset: 0, 0
+  index: -1
+1
+  rotate: false
+  xy: 1815, 358
+  size: 173, 160
+  orig: 173, 160
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 1815, 196
+  size: 173, 160
+  orig: 173, 160
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 177, 53
+  size: 173, 160
+  orig: 173, 160
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 352, 53
+  size: 173, 160
+  orig: 173, 160
+  offset: 0, 0
+  index: -1
+5
+  rotate: true
+  xy: 919, 96
+  size: 104, 92
+  orig: 104, 92
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 919, 2
+  size: 91, 92
+  orig: 91, 92
+  offset: 0, 0
+  index: -1
+bz/bz (1)
+  rotate: false
+  xy: 333, 772
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+bz/bz (10)
+  rotate: false
+  xy: 2, 224
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+bz/bz (11)
+  rotate: false
+  xy: 585, 772
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+bz/bz (12)
+  rotate: false
+  xy: 837, 772
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+bz/bz (2)
+  rotate: false
+  xy: 1089, 772
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+bz/bz (3)
+  rotate: false
+  xy: 1341, 772
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+bz/bz (4)
+  rotate: false
+  xy: 1593, 772
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+bz/bz (5)
+  rotate: false
+  xy: 282, 467
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+bz/bz (6)
+  rotate: false
+  xy: 254, 215
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+bz/bz (7)
+  rotate: false
+  xy: 534, 467
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+bz/bz (8)
+  rotate: false
+  xy: 506, 215
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+bz/bz (9)
+  rotate: false
+  xy: 786, 520
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+daodandi
+  rotate: false
+  xy: 333, 719
+  size: 375, 51
+  orig: 375, 51
+  offset: 0, 0
+  index: -1
+daodang2
+  rotate: false
+  xy: 692, 89
+  size: 113, 111
+  orig: 113, 111
+  offset: 0, 0
+  index: -1
+daodanzi
+  rotate: false
+  xy: 786, 454
+  size: 271, 64
+  orig: 271, 64
+  offset: 0, 0
+  index: -1
+guangdian
+  rotate: false
+  xy: 2, 476
+  size: 278, 241
+  orig: 278, 241
+  offset: 0, 0
+  index: -1
+huoyan/HM (1)
+  rotate: false
+  xy: 1038, 520
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+huoyan/HM (17)
+  rotate: false
+  xy: 1290, 520
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+huoyan/HM (24)
+  rotate: false
+  xy: 1542, 520
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+huoyan/HM (30)
+  rotate: false
+  xy: 758, 202
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+huoyan/HM (34)
+  rotate: false
+  xy: 1059, 268
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+huoyan/HM (39)
+  rotate: false
+  xy: 1311, 268
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+huoyan/HM (42)
+  rotate: false
+  xy: 1563, 268
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+huoyan/HM (8)
+  rotate: false
+  xy: 1794, 520
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+lizi
+  rotate: true
+  xy: 692, 2
+  size: 85, 90
+  orig: 85, 90
+  offset: 0, 0
+  index: -1
+qiu
+  rotate: false
+  xy: 807, 94
+  size: 110, 106
+  orig: 110, 106
+  offset: 0, 0
+  index: -1
+quan
+  rotate: false
+  xy: 2, 719
+  size: 329, 303
+  orig: 329, 303
+  offset: 0, 0
+  index: -1
+wq
+  rotate: false
+  xy: 1845, 828
+  size: 194, 194
+  orig: 194, 194
+  offset: 0, 0
+  index: -1
+zq
+  rotate: false
+  xy: 527, 51
+  size: 163, 162
+  orig: 163, 162
+  offset: 0, 0
+  index: -1

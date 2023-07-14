@@ -1,0 +1,3699 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "Gunner_End",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "tT2yR7j0UNdOFtxDj/Ja58Qevzk",
+      "spine": "3.8.99",
+      "x": -150,
+      "y": -150,
+      "width": 300,
+      "height": 300,
+      "images": "./image/",
+      "audio": ""
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "fire_00",
+        "parent": "root",
+        "rotation": 180,
+        "x": 0.08,
+        "y": -0.08
+      },
+      {
+        "name": "Gunner_ActiveSkill1_00",
+        "parent": "root"
+      },
+      {
+        "name": "fire_0",
+        "parent": "root",
+        "rotation": 180,
+        "x": 0.08,
+        "y": -0.08
+      },
+      {
+        "name": "fire_1",
+        "parent": "root",
+        "rotation": 180,
+        "x": 0.08,
+        "y": -0.08
+      },
+      {
+        "name": "fire_2",
+        "parent": "root",
+        "rotation": 180,
+        "x": 0.08,
+        "y": -0.08
+      },
+      {
+        "name": "fire_3",
+        "parent": "root",
+        "rotation": 180,
+        "x": 0.08,
+        "y": -0.08
+      },
+      {
+        "name": "fire_4",
+        "parent": "root",
+        "rotation": 180,
+        "x": 0.08,
+        "y": -0.08
+      },
+      {
+        "name": "fire_5",
+        "parent": "root",
+        "rotation": 180,
+        "x": 0.08,
+        "y": -0.08
+      },
+      {
+        "name": "fire_6",
+        "parent": "root",
+        "rotation": 180,
+        "x": 0.08,
+        "y": -0.08
+      },
+      {
+        "name": "fire_7",
+        "parent": "root",
+        "rotation": 180,
+        "x": 0.08,
+        "y": -0.08,
+        "scaleX": -1
+      },
+      {
+        "name": "fire_8",
+        "parent": "root",
+        "rotation": 180,
+        "x": 0.08,
+        "y": -0.08
+      },
+      {
+        "name": "fire_9",
+        "parent": "root",
+        "rotation": 180,
+        "x": 0.08,
+        "y": -0.08
+      },
+      {
+        "name": "fire_10",
+        "parent": "root",
+        "rotation": 180,
+        "x": 0.08,
+        "y": -0.08
+      },
+      {
+        "name": "fire_11",
+        "parent": "root",
+        "rotation": 180,
+        "x": 0.08,
+        "y": -0.08,
+        "scaleX": -1
+      },
+      {
+        "name": "end0001",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "fire_00",
+        "bone": "fire_00",
+        "attachment": "fire_00"
+      },
+      {
+        "name": "fire_4",
+        "bone": "fire_4",
+        "attachment": "fire_00"
+      },
+      {
+        "name": "fire_7",
+        "bone": "fire_7",
+        "attachment": "fire_00"
+      },
+      {
+        "name": "fire_10",
+        "bone": "fire_10",
+        "attachment": "fire_00"
+      },
+      {
+        "name": "fire_5",
+        "bone": "fire_5",
+        "attachment": "fire_00"
+      },
+      {
+        "name": "fire_8",
+        "bone": "fire_8",
+        "attachment": "fire_00"
+      },
+      {
+        "name": "fire_11",
+        "bone": "fire_11",
+        "attachment": "fire_00"
+      },
+      {
+        "name": "fire_2",
+        "bone": "fire_2",
+        "attachment": "fire_00"
+      },
+      {
+        "name": "fire_0",
+        "bone": "fire_0",
+        "attachment": "fire_00"
+      },
+      {
+        "name": "fire_3",
+        "bone": "fire_3",
+        "attachment": "fire_00"
+      },
+      {
+        "name": "fire_6",
+        "bone": "fire_6",
+        "attachment": "fire_00"
+      },
+      {
+        "name": "fire_9",
+        "bone": "fire_9",
+        "attachment": "fire_00"
+      },
+      {
+        "name": "fire_1",
+        "bone": "fire_1",
+        "attachment": "fire_00"
+      },
+      {
+        "name": "Gunner_ActiveSkill1_00",
+        "bone": "Gunner_ActiveSkill1_00",
+        "attachment": "Gunner_ActiveSkill1_00"
+      },
+      {
+        "name": "end0001",
+        "bone": "end0001",
+        "attachment": "end0001"
+      }
+    ],
+    "skins": [
+      {
+        "name": "default",
+        "attachments": {
+          "Gunner_ActiveSkill1_00": {
+            "Gunner_ActiveSkill1_00": {
+              "x": -0.34,
+              "y": -0.66,
+              "rotation": -180,
+              "width": 145,
+              "height": 145
+            }
+          },
+          "end0001": {
+            "end0001": {
+              "width": 300,
+              "height": 300
+            },
+            "end0002": {
+              "width": 300,
+              "height": 300
+            },
+            "end0003": {
+              "width": 300,
+              "height": 300
+            },
+            "end0004": {
+              "width": 300,
+              "height": 300
+            },
+            "end0005": {
+              "width": 300,
+              "height": 300
+            },
+            "end0006": {
+              "width": 300,
+              "height": 300
+            },
+            "end0007": {
+              "width": 300,
+              "height": 300
+            },
+            "end0008": {
+              "width": 300,
+              "height": 300
+            },
+            "end0009": {
+              "width": 300,
+              "height": 300
+            },
+            "end0010": {
+              "width": 300,
+              "height": 300
+            },
+            "end0011": {
+              "width": 300,
+              "height": 300
+            },
+            "end0012": {
+              "width": 300,
+              "height": 300
+            }
+          },
+          "fire_0": {
+            "fire_00": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_01": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_02": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_03": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_04": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_05": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_06": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_07": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_08": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_09": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_10": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_11": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_12": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_13": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_14": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_15": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_16": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_17": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_18": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_19": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            }
+          },
+          "fire_00": {
+            "fire_00": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_01": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_02": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_03": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_04": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_05": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_06": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_07": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_08": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_09": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_10": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_11": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_12": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_13": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_14": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_15": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_16": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_17": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_18": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_19": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            }
+          },
+          "fire_1": {
+            "fire_00": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_01": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_02": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_03": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_04": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_05": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_06": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_07": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_08": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_09": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_10": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_11": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_12": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_13": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_14": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_15": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_16": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_17": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_18": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_19": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            }
+          },
+          "fire_2": {
+            "fire_00": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_01": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_02": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_03": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_04": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_05": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_06": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_07": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_08": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_09": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_10": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_11": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_12": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_13": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_14": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_15": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_16": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_17": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_18": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_19": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            }
+          },
+          "fire_3": {
+            "fire_00": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_01": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_02": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_03": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_04": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_05": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_06": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_07": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_08": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_09": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_10": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_11": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_12": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_13": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_14": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_15": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_16": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_17": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_18": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_19": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            }
+          },
+          "fire_4": {
+            "fire_00": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_01": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_02": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_03": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_04": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_05": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_06": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_07": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_08": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_09": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_10": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_11": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_12": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_13": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_14": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_15": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_16": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_17": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_18": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_19": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            }
+          },
+          "fire_5": {
+            "fire_00": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_01": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_02": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_03": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_04": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_05": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_06": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_07": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_08": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_09": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_10": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_11": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_12": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_13": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_14": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_15": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_16": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_17": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_18": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_19": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            }
+          },
+          "fire_6": {
+            "fire_00": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_01": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_02": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_03": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_04": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_05": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_06": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_07": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_08": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_09": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_10": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_11": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_12": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_13": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_14": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_15": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_16": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_17": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_18": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_19": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            }
+          },
+          "fire_7": {
+            "fire_00": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_01": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_02": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_03": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_04": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_05": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_06": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_07": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_08": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_09": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_10": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_11": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_12": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_13": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_14": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_15": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_16": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_17": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_18": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_19": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            }
+          },
+          "fire_8": {
+            "fire_00": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_01": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_02": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_03": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_04": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_05": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_06": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_07": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_08": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_09": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_10": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_11": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_12": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_13": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_14": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_15": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_16": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_17": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_18": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_19": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            }
+          },
+          "fire_9": {
+            "fire_00": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_01": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_02": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_03": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_04": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_05": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_06": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_07": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_08": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_09": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_10": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_11": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_12": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_13": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_14": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_15": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_16": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_17": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_18": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_19": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            }
+          },
+          "fire_10": {
+            "fire_00": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_01": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_02": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_03": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_04": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_05": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_06": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_07": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_08": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_09": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_10": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_11": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_12": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_13": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_14": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_15": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_16": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_17": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_18": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_19": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            }
+          },
+          "fire_11": {
+            "fire_00": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_01": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_02": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_03": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_04": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_05": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_06": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_07": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_08": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_09": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_10": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_11": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_12": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_13": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_14": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_15": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_16": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_17": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_18": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            },
+            "fire_19": {
+              "x": 0.03,
+              "y": -10.31,
+              "width": 40,
+              "height": 40
+            }
+          }
+        }
+      }
+    ],
+    "animations": {
+      "Skill_MiaoZhun": {
+        "slots": {
+          "Gunner_ActiveSkill1_00": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "end0001": {
+            "color": [
+              {
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.1667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.3333,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0.0333,
+                "name": "end0002"
+              },
+              {
+                "time": 0.0667,
+                "name": "end0003"
+              },
+              {
+                "time": 0.1,
+                "name": "end0004"
+              },
+              {
+                "time": 0.1333,
+                "name": "end0005"
+              },
+              {
+                "time": 0.1667,
+                "name": "end0006"
+              },
+              {
+                "time": 0.2,
+                "name": "end0007"
+              },
+              {
+                "time": 0.2333,
+                "name": "end0008"
+              },
+              {
+                "time": 0.2667,
+                "name": "end0009"
+              },
+              {
+                "time": 0.3,
+                "name": "end0010"
+              },
+              {
+                "time": 0.3333,
+                "name": "end0011"
+              },
+              {
+                "time": 0.3667,
+                "name": "end0012"
+              },
+              {
+                "time": 0.4,
+                "name": "end0001"
+              },
+              {
+                "time": 0.4333,
+                "name": "end0002"
+              },
+              {
+                "time": 0.4667,
+                "name": "end0003"
+              },
+              {
+                "time": 0.5,
+                "name": "end0004"
+              },
+              {
+                "time": 0.5333,
+                "name": "end0005"
+              },
+              {
+                "time": 0.5667,
+                "name": "end0006"
+              },
+              {
+                "time": 0.6,
+                "name": "end0007"
+              },
+              {
+                "time": 0.6333,
+                "name": "end0008"
+              },
+              {
+                "time": 0.6667,
+                "name": "end0009"
+              },
+              {
+                "time": 0.7,
+                "name": "end0010"
+              },
+              {
+                "time": 0.7333,
+                "name": "end0011"
+              },
+              {
+                "time": 0.7667,
+                "name": "end0012"
+              },
+              {
+                "time": 0.8,
+                "name": "end0001"
+              },
+              {
+                "time": 0.8333,
+                "name": "end0002"
+              },
+              {
+                "time": 0.8667,
+                "name": "end0003"
+              },
+              {
+                "time": 0.9,
+                "name": "end0004"
+              },
+              {
+                "time": 0.9333,
+                "name": "end0005"
+              },
+              {
+                "time": 0.9667,
+                "name": "end0006"
+              },
+              {
+                "time": 1,
+                "name": "end0007"
+              },
+              {
+                "time": 1.0333,
+                "name": "end0008"
+              },
+              {
+                "time": 1.0667,
+                "name": "end0009"
+              },
+              {
+                "time": 1.1,
+                "name": "end0010"
+              },
+              {
+                "time": 1.1333,
+                "name": "end0011"
+              },
+              {
+                "time": 1.1667,
+                "name": "end0012"
+              },
+              {
+                "time": 1.2,
+                "name": "end0001"
+              },
+              {
+                "time": 1.2333,
+                "name": "end0002"
+              },
+              {
+                "time": 1.2667,
+                "name": "end0003"
+              },
+              {
+                "time": 1.3,
+                "name": "end0004"
+              },
+              {
+                "time": 1.3333,
+                "name": "end0005"
+              }
+            ]
+          },
+          "fire_0": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "fire_00": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "fire_1": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "fire_2": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "fire_3": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "fire_4": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "fire_5": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "fire_6": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "fire_7": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "fire_8": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "fire_9": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "fire_10": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "fire_11": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "fire_0": {
+            "rotate": [
+              {
+                "angle": -10.41
+              }
+            ],
+            "translate": [
+              {
+                "x": -0.31
+              }
+            ]
+          },
+          "Gunner_ActiveSkill1_00": {
+            "scale": [
+              {
+                "x": 0.6,
+                "y": 0.6
+              }
+            ]
+          }
+        }
+      },
+      "Skill_WeiYan": {
+        "slots": {
+          "Gunner_ActiveSkill1_00": {
+            "color": [
+              {
+                "time": 1.1667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.3333,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "end0001": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "fire_0": {
+            "attachment": [
+              {
+                "time": 0.0333,
+                "name": "fire_01"
+              },
+              {
+                "time": 0.0667,
+                "name": "fire_02"
+              },
+              {
+                "time": 0.1,
+                "name": "fire_03"
+              },
+              {
+                "time": 0.1333,
+                "name": "fire_04"
+              },
+              {
+                "time": 0.1667,
+                "name": "fire_05"
+              },
+              {
+                "time": 0.2,
+                "name": "fire_06"
+              },
+              {
+                "time": 0.2333,
+                "name": "fire_07"
+              },
+              {
+                "time": 0.2667,
+                "name": "fire_08"
+              },
+              {
+                "time": 0.3,
+                "name": "fire_09"
+              },
+              {
+                "time": 0.3333,
+                "name": "fire_10"
+              },
+              {
+                "time": 0.3667,
+                "name": "fire_11"
+              },
+              {
+                "time": 0.4,
+                "name": "fire_12"
+              },
+              {
+                "time": 0.4333,
+                "name": "fire_13"
+              },
+              {
+                "time": 0.4667,
+                "name": "fire_14"
+              },
+              {
+                "time": 0.5,
+                "name": "fire_15"
+              },
+              {
+                "time": 0.5333,
+                "name": "fire_16"
+              },
+              {
+                "time": 0.5667,
+                "name": "fire_17"
+              },
+              {
+                "time": 0.6,
+                "name": "fire_18"
+              },
+              {
+                "time": 0.6333,
+                "name": "fire_19"
+              },
+              {
+                "time": 0.6667,
+                "name": null
+              }
+            ]
+          },
+          "fire_00": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.0667,
+                "name": "fire_00"
+              },
+              {
+                "time": 0.1,
+                "name": "fire_01"
+              },
+              {
+                "time": 0.1333,
+                "name": "fire_02"
+              },
+              {
+                "time": 0.1667,
+                "name": "fire_03"
+              },
+              {
+                "time": 0.2,
+                "name": "fire_04"
+              },
+              {
+                "time": 0.2333,
+                "name": "fire_05"
+              },
+              {
+                "time": 0.2667,
+                "name": "fire_06"
+              },
+              {
+                "time": 0.3,
+                "name": "fire_07"
+              },
+              {
+                "time": 0.3333,
+                "name": "fire_08"
+              },
+              {
+                "time": 0.3667,
+                "name": "fire_09"
+              },
+              {
+                "time": 0.4,
+                "name": "fire_10"
+              },
+              {
+                "time": 0.4333,
+                "name": "fire_11"
+              },
+              {
+                "time": 0.4667,
+                "name": "fire_12"
+              },
+              {
+                "time": 0.5,
+                "name": "fire_13"
+              },
+              {
+                "time": 0.5333,
+                "name": "fire_14"
+              },
+              {
+                "time": 0.5667,
+                "name": "fire_15"
+              },
+              {
+                "time": 0.6,
+                "name": "fire_16"
+              },
+              {
+                "time": 0.6333,
+                "name": "fire_17"
+              },
+              {
+                "time": 0.6667,
+                "name": "fire_18"
+              },
+              {
+                "time": 0.7,
+                "name": "fire_19"
+              },
+              {
+                "time": 0.7333,
+                "name": null
+              }
+            ]
+          },
+          "fire_1": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.1333,
+                "name": "fire_00"
+              },
+              {
+                "time": 0.1667,
+                "name": "fire_01"
+              },
+              {
+                "time": 0.2,
+                "name": "fire_02"
+              },
+              {
+                "time": 0.2333,
+                "name": "fire_03"
+              },
+              {
+                "time": 0.2667,
+                "name": "fire_04"
+              },
+              {
+                "time": 0.3,
+                "name": "fire_05"
+              },
+              {
+                "time": 0.3333,
+                "name": "fire_06"
+              },
+              {
+                "time": 0.3667,
+                "name": "fire_07"
+              },
+              {
+                "time": 0.4,
+                "name": "fire_08"
+              },
+              {
+                "time": 0.4333,
+                "name": "fire_09"
+              },
+              {
+                "time": 0.4667,
+                "name": "fire_10"
+              },
+              {
+                "time": 0.5,
+                "name": "fire_11"
+              },
+              {
+                "time": 0.5333,
+                "name": "fire_12"
+              },
+              {
+                "time": 0.5667,
+                "name": "fire_13"
+              },
+              {
+                "time": 0.6,
+                "name": "fire_14"
+              },
+              {
+                "time": 0.6333,
+                "name": "fire_15"
+              },
+              {
+                "time": 0.6667,
+                "name": "fire_16"
+              },
+              {
+                "time": 0.7,
+                "name": "fire_17"
+              },
+              {
+                "time": 0.7333,
+                "name": "fire_18"
+              },
+              {
+                "time": 0.7667,
+                "name": "fire_19"
+              },
+              {
+                "time": 0.8,
+                "name": null
+              }
+            ]
+          },
+          "fire_2": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.3,
+                "name": "fire_00"
+              },
+              {
+                "time": 0.3333,
+                "name": "fire_01"
+              },
+              {
+                "time": 0.3667,
+                "name": "fire_02"
+              },
+              {
+                "time": 0.4,
+                "name": "fire_03"
+              },
+              {
+                "time": 0.4333,
+                "name": "fire_04"
+              },
+              {
+                "time": 0.4667,
+                "name": "fire_05"
+              },
+              {
+                "time": 0.5,
+                "name": "fire_06"
+              },
+              {
+                "time": 0.5333,
+                "name": "fire_07"
+              },
+              {
+                "time": 0.5667,
+                "name": "fire_08"
+              },
+              {
+                "time": 0.6,
+                "name": "fire_09"
+              },
+              {
+                "time": 0.6333,
+                "name": "fire_10"
+              },
+              {
+                "time": 0.6667,
+                "name": "fire_11"
+              },
+              {
+                "time": 0.7,
+                "name": "fire_12"
+              },
+              {
+                "time": 0.7333,
+                "name": "fire_13"
+              },
+              {
+                "time": 0.7667,
+                "name": "fire_14"
+              },
+              {
+                "time": 0.8,
+                "name": "fire_15"
+              },
+              {
+                "time": 0.8333,
+                "name": "fire_16"
+              },
+              {
+                "time": 0.8667,
+                "name": "fire_17"
+              },
+              {
+                "time": 0.9,
+                "name": "fire_18"
+              },
+              {
+                "time": 0.9333,
+                "name": "fire_19"
+              },
+              {
+                "time": 0.9667,
+                "name": null
+              }
+            ]
+          },
+          "fire_3": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.1667,
+                "name": "fire_00"
+              },
+              {
+                "time": 0.2,
+                "name": "fire_01"
+              },
+              {
+                "time": 0.2333,
+                "name": "fire_02"
+              },
+              {
+                "time": 0.2667,
+                "name": "fire_03"
+              },
+              {
+                "time": 0.3,
+                "name": "fire_04"
+              },
+              {
+                "time": 0.3333,
+                "name": "fire_05"
+              },
+              {
+                "time": 0.3667,
+                "name": "fire_06"
+              },
+              {
+                "time": 0.4,
+                "name": "fire_07"
+              },
+              {
+                "time": 0.4333,
+                "name": "fire_08"
+              },
+              {
+                "time": 0.4667,
+                "name": "fire_09"
+              },
+              {
+                "time": 0.5,
+                "name": "fire_10"
+              },
+              {
+                "time": 0.5333,
+                "name": "fire_11"
+              },
+              {
+                "time": 0.5667,
+                "name": "fire_12"
+              },
+              {
+                "time": 0.6,
+                "name": "fire_13"
+              },
+              {
+                "time": 0.6333,
+                "name": "fire_14"
+              },
+              {
+                "time": 0.6667,
+                "name": "fire_15"
+              },
+              {
+                "time": 0.7,
+                "name": "fire_16"
+              },
+              {
+                "time": 0.7333,
+                "name": "fire_17"
+              },
+              {
+                "time": 0.7667,
+                "name": "fire_18"
+              },
+              {
+                "time": 0.8,
+                "name": "fire_19"
+              },
+              {
+                "time": 0.8333,
+                "name": null
+              }
+            ]
+          },
+          "fire_4": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.2,
+                "name": "fire_00"
+              },
+              {
+                "time": 0.2333,
+                "name": "fire_01"
+              },
+              {
+                "time": 0.2667,
+                "name": "fire_02"
+              },
+              {
+                "time": 0.3,
+                "name": "fire_03"
+              },
+              {
+                "time": 0.3333,
+                "name": "fire_04"
+              },
+              {
+                "time": 0.3667,
+                "name": "fire_05"
+              },
+              {
+                "time": 0.4,
+                "name": "fire_06"
+              },
+              {
+                "time": 0.4333,
+                "name": "fire_07"
+              },
+              {
+                "time": 0.4667,
+                "name": "fire_08"
+              },
+              {
+                "time": 0.5,
+                "name": "fire_09"
+              },
+              {
+                "time": 0.5333,
+                "name": "fire_10"
+              },
+              {
+                "time": 0.5667,
+                "name": "fire_11"
+              },
+              {
+                "time": 0.6,
+                "name": "fire_12"
+              },
+              {
+                "time": 0.6333,
+                "name": "fire_13"
+              },
+              {
+                "time": 0.6667,
+                "name": "fire_14"
+              },
+              {
+                "time": 0.7,
+                "name": "fire_15"
+              },
+              {
+                "time": 0.7333,
+                "name": "fire_16"
+              },
+              {
+                "time": 0.7667,
+                "name": "fire_17"
+              },
+              {
+                "time": 0.8,
+                "name": "fire_18"
+              },
+              {
+                "time": 0.8333,
+                "name": "fire_19"
+              },
+              {
+                "time": 0.8667,
+                "name": null
+              }
+            ]
+          },
+          "fire_5": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.4333,
+                "name": "fire_00"
+              },
+              {
+                "time": 0.4667,
+                "name": "fire_01"
+              },
+              {
+                "time": 0.5,
+                "name": "fire_02"
+              },
+              {
+                "time": 0.5333,
+                "name": "fire_03"
+              },
+              {
+                "time": 0.5667,
+                "name": "fire_04"
+              },
+              {
+                "time": 0.6,
+                "name": "fire_05"
+              },
+              {
+                "time": 0.6333,
+                "name": "fire_06"
+              },
+              {
+                "time": 0.6667,
+                "name": "fire_07"
+              },
+              {
+                "time": 0.7,
+                "name": "fire_08"
+              },
+              {
+                "time": 0.7333,
+                "name": "fire_09"
+              },
+              {
+                "time": 0.7667,
+                "name": "fire_10"
+              },
+              {
+                "time": 0.8,
+                "name": "fire_11"
+              },
+              {
+                "time": 0.8333,
+                "name": "fire_12"
+              },
+              {
+                "time": 0.8667,
+                "name": "fire_13"
+              },
+              {
+                "time": 0.9,
+                "name": "fire_14"
+              },
+              {
+                "time": 0.9333,
+                "name": "fire_15"
+              },
+              {
+                "time": 0.9667,
+                "name": "fire_16"
+              },
+              {
+                "time": 1,
+                "name": "fire_17"
+              },
+              {
+                "time": 1.0333,
+                "name": "fire_18"
+              },
+              {
+                "time": 1.0667,
+                "name": "fire_19"
+              },
+              {
+                "time": 1.1,
+                "name": null
+              }
+            ]
+          },
+          "fire_6": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.3333,
+                "name": "fire_00"
+              },
+              {
+                "time": 0.3667,
+                "name": "fire_01"
+              },
+              {
+                "time": 0.4,
+                "name": "fire_02"
+              },
+              {
+                "time": 0.4333,
+                "name": "fire_03"
+              },
+              {
+                "time": 0.4667,
+                "name": "fire_04"
+              },
+              {
+                "time": 0.5,
+                "name": "fire_05"
+              },
+              {
+                "time": 0.5333,
+                "name": "fire_06"
+              },
+              {
+                "time": 0.5667,
+                "name": "fire_07"
+              },
+              {
+                "time": 0.6,
+                "name": "fire_08"
+              },
+              {
+                "time": 0.6333,
+                "name": "fire_09"
+              },
+              {
+                "time": 0.6667,
+                "name": "fire_10"
+              },
+              {
+                "time": 0.7,
+                "name": "fire_11"
+              },
+              {
+                "time": 0.7333,
+                "name": "fire_12"
+              },
+              {
+                "time": 0.7667,
+                "name": "fire_13"
+              },
+              {
+                "time": 0.8,
+                "name": "fire_14"
+              },
+              {
+                "time": 0.8333,
+                "name": "fire_15"
+              },
+              {
+                "time": 0.8667,
+                "name": "fire_16"
+              },
+              {
+                "time": 0.9,
+                "name": "fire_17"
+              },
+              {
+                "time": 0.9333,
+                "name": "fire_18"
+              },
+              {
+                "time": 0.9667,
+                "name": "fire_19"
+              },
+              {
+                "time": 1,
+                "name": null
+              }
+            ]
+          },
+          "fire_7": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.4,
+                "name": "fire_00"
+              },
+              {
+                "time": 0.4333,
+                "name": "fire_01"
+              },
+              {
+                "time": 0.4667,
+                "name": "fire_02"
+              },
+              {
+                "time": 0.5,
+                "name": "fire_03"
+              },
+              {
+                "time": 0.5333,
+                "name": "fire_04"
+              },
+              {
+                "time": 0.5667,
+                "name": "fire_05"
+              },
+              {
+                "time": 0.6,
+                "name": "fire_06"
+              },
+              {
+                "time": 0.6333,
+                "name": "fire_07"
+              },
+              {
+                "time": 0.6667,
+                "name": "fire_08"
+              },
+              {
+                "time": 0.7,
+                "name": "fire_09"
+              },
+              {
+                "time": 0.7333,
+                "name": "fire_10"
+              },
+              {
+                "time": 0.7667,
+                "name": "fire_11"
+              },
+              {
+                "time": 0.8,
+                "name": "fire_12"
+              },
+              {
+                "time": 0.8333,
+                "name": "fire_13"
+              },
+              {
+                "time": 0.8667,
+                "name": "fire_14"
+              },
+              {
+                "time": 0.9,
+                "name": "fire_15"
+              },
+              {
+                "time": 0.9333,
+                "name": "fire_16"
+              },
+              {
+                "time": 0.9667,
+                "name": "fire_17"
+              },
+              {
+                "time": 1,
+                "name": "fire_18"
+              },
+              {
+                "time": 1.0333,
+                "name": "fire_19"
+              },
+              {
+                "time": 1.0667,
+                "name": null
+              }
+            ]
+          },
+          "fire_8": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.4333,
+                "name": "fire_00"
+              },
+              {
+                "time": 0.4667,
+                "name": "fire_01"
+              },
+              {
+                "time": 0.5,
+                "name": "fire_02"
+              },
+              {
+                "time": 0.5333,
+                "name": "fire_03"
+              },
+              {
+                "time": 0.5667,
+                "name": "fire_04"
+              },
+              {
+                "time": 0.6,
+                "name": "fire_05"
+              },
+              {
+                "time": 0.6333,
+                "name": "fire_06"
+              },
+              {
+                "time": 0.6667,
+                "name": "fire_07"
+              },
+              {
+                "time": 0.7,
+                "name": "fire_08"
+              },
+              {
+                "time": 0.7333,
+                "name": "fire_09"
+              },
+              {
+                "time": 0.7667,
+                "name": "fire_10"
+              },
+              {
+                "time": 0.8,
+                "name": "fire_11"
+              },
+              {
+                "time": 0.8333,
+                "name": "fire_12"
+              },
+              {
+                "time": 0.8667,
+                "name": "fire_13"
+              },
+              {
+                "time": 0.9,
+                "name": "fire_14"
+              },
+              {
+                "time": 0.9333,
+                "name": "fire_15"
+              },
+              {
+                "time": 0.9667,
+                "name": "fire_16"
+              },
+              {
+                "time": 1,
+                "name": "fire_17"
+              },
+              {
+                "time": 1.0333,
+                "name": "fire_18"
+              },
+              {
+                "time": 1.0667,
+                "name": "fire_19"
+              },
+              {
+                "time": 1.1,
+                "name": null
+              }
+            ]
+          },
+          "fire_9": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.4333,
+                "name": "fire_00"
+              },
+              {
+                "time": 0.4667,
+                "name": "fire_01"
+              },
+              {
+                "time": 0.5,
+                "name": "fire_02"
+              },
+              {
+                "time": 0.5333,
+                "name": "fire_03"
+              },
+              {
+                "time": 0.5667,
+                "name": "fire_04"
+              },
+              {
+                "time": 0.6,
+                "name": "fire_05"
+              },
+              {
+                "time": 0.6333,
+                "name": "fire_06"
+              },
+              {
+                "time": 0.6667,
+                "name": "fire_07"
+              },
+              {
+                "time": 0.7,
+                "name": "fire_08"
+              },
+              {
+                "time": 0.7333,
+                "name": "fire_09"
+              },
+              {
+                "time": 0.7667,
+                "name": "fire_10"
+              },
+              {
+                "time": 0.8,
+                "name": "fire_11"
+              },
+              {
+                "time": 0.8333,
+                "name": "fire_12"
+              },
+              {
+                "time": 0.8667,
+                "name": "fire_13"
+              },
+              {
+                "time": 0.9,
+                "name": "fire_14"
+              },
+              {
+                "time": 0.9333,
+                "name": "fire_15"
+              },
+              {
+                "time": 0.9667,
+                "name": "fire_16"
+              },
+              {
+                "time": 1,
+                "name": "fire_17"
+              },
+              {
+                "time": 1.0333,
+                "name": "fire_18"
+              },
+              {
+                "time": 1.0667,
+                "name": "fire_19"
+              },
+              {
+                "time": 1.1,
+                "name": null
+              }
+            ]
+          },
+          "fire_10": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.6333,
+                "name": "fire_00"
+              },
+              {
+                "time": 0.6667,
+                "name": "fire_01"
+              },
+              {
+                "time": 0.7,
+                "name": "fire_02"
+              },
+              {
+                "time": 0.7333,
+                "name": "fire_03"
+              },
+              {
+                "time": 0.7667,
+                "name": "fire_04"
+              },
+              {
+                "time": 0.8,
+                "name": "fire_05"
+              },
+              {
+                "time": 0.8333,
+                "name": "fire_06"
+              },
+              {
+                "time": 0.8667,
+                "name": "fire_07"
+              },
+              {
+                "time": 0.9,
+                "name": "fire_08"
+              },
+              {
+                "time": 0.9333,
+                "name": "fire_09"
+              },
+              {
+                "time": 0.9667,
+                "name": "fire_10"
+              },
+              {
+                "time": 1,
+                "name": "fire_11"
+              },
+              {
+                "time": 1.0333,
+                "name": "fire_12"
+              },
+              {
+                "time": 1.0667,
+                "name": "fire_13"
+              },
+              {
+                "time": 1.1,
+                "name": "fire_14"
+              },
+              {
+                "time": 1.1333,
+                "name": "fire_15"
+              },
+              {
+                "time": 1.1667,
+                "name": "fire_16"
+              },
+              {
+                "time": 1.2,
+                "name": "fire_17"
+              },
+              {
+                "time": 1.2333,
+                "name": "fire_18"
+              },
+              {
+                "time": 1.2667,
+                "name": "fire_19"
+              },
+              {
+                "time": 1.3,
+                "name": null
+              }
+            ]
+          },
+          "fire_11": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.5667,
+                "name": "fire_00"
+              },
+              {
+                "time": 0.6,
+                "name": "fire_01"
+              },
+              {
+                "time": 0.6333,
+                "name": "fire_02"
+              },
+              {
+                "time": 0.6667,
+                "name": "fire_03"
+              },
+              {
+                "time": 0.7,
+                "name": "fire_04"
+              },
+              {
+                "time": 0.7333,
+                "name": "fire_05"
+              },
+              {
+                "time": 0.7667,
+                "name": "fire_06"
+              },
+              {
+                "time": 0.8,
+                "name": "fire_07"
+              },
+              {
+                "time": 0.8333,
+                "name": "fire_08"
+              },
+              {
+                "time": 0.8667,
+                "name": "fire_09"
+              },
+              {
+                "time": 0.9,
+                "name": "fire_10"
+              },
+              {
+                "time": 0.9333,
+                "name": "fire_11"
+              },
+              {
+                "time": 0.9667,
+                "name": "fire_12"
+              },
+              {
+                "time": 1,
+                "name": "fire_13"
+              },
+              {
+                "time": 1.0333,
+                "name": "fire_14"
+              },
+              {
+                "time": 1.0667,
+                "name": "fire_15"
+              },
+              {
+                "time": 1.1,
+                "name": "fire_16"
+              },
+              {
+                "time": 1.1333,
+                "name": "fire_17"
+              },
+              {
+                "time": 1.1667,
+                "name": "fire_18"
+              },
+              {
+                "time": 1.2,
+                "name": "fire_19"
+              },
+              {
+                "time": 1.2333,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "fire_00": {
+            "rotate": [
+              {
+                "time": 0.7,
+                "angle": 5.49
+              }
+            ],
+            "translate": [
+              {
+                "time": 0.0667
+              },
+              {
+                "time": 0.7,
+                "x": -18.02,
+                "y": 52.53
+              }
+            ]
+          },
+          "fire_0": {
+            "rotate": [
+              {
+                "angle": -10.41
+              }
+            ],
+            "translate": [
+              {
+                "x": -0.31
+              },
+              {
+                "time": 0.6333,
+                "x": 4.63,
+                "y": 55.91
+              }
+            ]
+          },
+          "fire_1": {
+            "rotate": [
+              {
+                "time": 0.1333,
+                "angle": -10.41
+              }
+            ],
+            "translate": [
+              {
+                "time": 0.1333,
+                "x": 7.67,
+                "y": 26.08
+              },
+              {
+                "time": 0.7667,
+                "x": 21.2,
+                "y": 82.3
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.1333,
+                "x": 0.496,
+                "y": 0.496
+              },
+              {
+                "time": 0.4667
+              }
+            ]
+          },
+          "fire_2": {
+            "rotate": [
+              {
+                "time": 0.3,
+                "angle": 5.49
+              }
+            ],
+            "translate": [
+              {
+                "time": 0.3,
+                "x": -7.41,
+                "y": 39.96
+              },
+              {
+                "time": 0.9333,
+                "x": -23.26,
+                "y": 95.32
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.3,
+                "x": 0.64,
+                "y": 0.64
+              },
+              {
+                "time": 0.6333
+              }
+            ]
+          },
+          "fire_3": {
+            "rotate": [
+              {
+                "time": 0.1667,
+                "angle": -10.41
+              }
+            ],
+            "translate": [
+              {
+                "time": 0.1667,
+                "x": 7.42
+              },
+              {
+                "time": 0.8,
+                "x": 19.1,
+                "y": 55.91
+              }
+            ]
+          },
+          "fire_4": {
+            "rotate": [
+              {
+                "time": 0.8333,
+                "angle": 5.49
+              }
+            ],
+            "translate": [
+              {
+                "time": 0.2
+              },
+              {
+                "time": 0.8333,
+                "x": -6.36,
+                "y": 55.35
+              }
+            ]
+          },
+          "fire_5": {
+            "rotate": [
+              {
+                "time": 0.4333,
+                "angle": -2.06
+              },
+              {
+                "time": 1.0667,
+                "angle": 1.29
+              }
+            ],
+            "translate": [
+              {
+                "time": 0.1,
+                "x": 0.77
+              },
+              {
+                "time": 0.4333,
+                "x": 5.78,
+                "y": 43.73
+              },
+              {
+                "time": 1.0667,
+                "x": 1.28,
+                "y": 113.09
+              }
+            ]
+          },
+          "fire_6": {
+            "rotate": [
+              {
+                "time": 0.3333,
+                "angle": -18.75
+              }
+            ],
+            "translate": [
+              {
+                "time": 0.3333,
+                "x": -0.72
+              },
+              {
+                "time": 1,
+                "x": 16.39,
+                "y": 65.85
+              }
+            ]
+          },
+          "fire_7": {
+            "rotate": [
+              {
+                "time": 1.0333,
+                "angle": 5.49
+              }
+            ],
+            "translate": [
+              {
+                "time": 0.4
+              },
+              {
+                "time": 1.0333,
+                "x": -13.77,
+                "y": 97.67
+              }
+            ]
+          },
+          "fire_8": {
+            "rotate": [
+              {
+                "time": 0.4333,
+                "angle": -2.06
+              },
+              {
+                "time": 1.0667,
+                "angle": 1.29
+              }
+            ],
+            "translate": [
+              {
+                "time": 0.4333,
+                "x": 0.71,
+                "y": -0.99
+              },
+              {
+                "time": 1.0667,
+                "x": -7.73,
+                "y": 65.39
+              }
+            ]
+          },
+          "fire_9": {
+            "rotate": [
+              {
+                "time": 0.4333,
+                "angle": -31.14
+              },
+              {
+                "time": 1.1,
+                "angle": -16.59
+              }
+            ],
+            "translate": [
+              {
+                "time": 0.4333,
+                "x": -0.09
+              },
+              {
+                "time": 1.1,
+                "x": 9.55,
+                "y": 49.99
+              }
+            ]
+          },
+          "fire_10": {
+            "rotate": [
+              {
+                "time": 0.6333,
+                "angle": 1.92
+              }
+            ],
+            "translate": [
+              {
+                "time": 0.6333
+              },
+              {
+                "time": 1.2667,
+                "x": -2.56,
+                "y": 46.26
+              }
+            ]
+          },
+          "fire_11": {
+            "rotate": [
+              {
+                "time": 0.5667,
+                "angle": -2.06
+              },
+              {
+                "time": 1.2,
+                "angle": 1.29
+              }
+            ],
+            "translate": [
+              {
+                "time": 0.5667,
+                "x": 0.71,
+                "y": -0.99
+              },
+              {
+                "time": 1.2,
+                "x": 0.35,
+                "y": 65.39
+              }
+            ]
+          },
+          "Gunner_ActiveSkill1_00": {
+            "scale": [
+              {
+                "x": 0.6,
+                "y": 0.6,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.3333,
+                "x": 0.65,
+                "y": 0.65,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.6667,
+                "x": 0.6,
+                "y": 0.6,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1,
+                "x": 0.65,
+                "y": 0.65,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.3333,
+                "x": 0.6,
+                "y": 0.6
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\r\nGunner_End.png\r\nsize: 1916,602\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nGunner_ActiveSkill1_00\r\n  rotate: false\r\n  xy: 1812, 498\r\n  size: 104, 104\r\n  orig: 145, 145\r\n  offset: 22, 20\r\n  index: -1\r\nend0001\r\n  rotate: false\r\n  xy: 0, 0\r\n  size: 300, 300\r\n  orig: 300, 300\r\n  offset: 0, 0\r\n  index: -1\r\nend0002\r\n  rotate: false\r\n  xy: 302, 302\r\n  size: 300, 300\r\n  orig: 300, 300\r\n  offset: 0, 0\r\n  index: -1\r\nend0003\r\n  rotate: false\r\n  xy: 302, 0\r\n  size: 300, 300\r\n  orig: 300, 300\r\n  offset: 0, 0\r\n  index: -1\r\nend0004\r\n  rotate: false\r\n  xy: 604, 302\r\n  size: 300, 300\r\n  orig: 300, 300\r\n  offset: 0, 0\r\n  index: -1\r\nend0005\r\n  rotate: false\r\n  xy: 604, 0\r\n  size: 300, 300\r\n  orig: 300, 300\r\n  offset: 0, 0\r\n  index: -1\r\nend0006\r\n  rotate: false\r\n  xy: 906, 302\r\n  size: 300, 300\r\n  orig: 300, 300\r\n  offset: 0, 0\r\n  index: -1\r\nend0007\r\n  rotate: false\r\n  xy: 1208, 303\r\n  size: 300, 299\r\n  orig: 300, 300\r\n  offset: 0, 0\r\n  index: -1\r\nend0008\r\n  rotate: false\r\n  xy: 1208, 2\r\n  size: 300, 299\r\n  orig: 300, 300\r\n  offset: 0, 0\r\n  index: -1\r\nend0009\r\n  rotate: false\r\n  xy: 1510, 304\r\n  size: 300, 298\r\n  orig: 300, 300\r\n  offset: 0, 1\r\n  index: -1\r\nend0010\r\n  rotate: false\r\n  xy: 1510, 4\r\n  size: 300, 298\r\n  orig: 300, 300\r\n  offset: 0, 1\r\n  index: -1\r\nend0011\r\n  rotate: false\r\n  xy: 906, 0\r\n  size: 300, 300\r\n  orig: 300, 300\r\n  offset: 0, 0\r\n  index: -1\r\nend0012\r\n  rotate: false\r\n  xy: 0, 302\r\n  size: 300, 300\r\n  orig: 300, 300\r\n  offset: 0, 0\r\n  index: -1\r\nfire_00\r\n  rotate: false\r\n  xy: 1812, 64\r\n  size: 25, 24\r\n  orig: 40, 40\r\n  offset: 8, 9\r\n  index: -1\r\nfire_01\r\n  rotate: false\r\n  xy: 1812, 90\r\n  size: 26, 27\r\n  orig: 40, 40\r\n  offset: 8, 7\r\n  index: -1\r\nfire_02\r\n  rotate: false\r\n  xy: 1812, 119\r\n  size: 27, 27\r\n  orig: 40, 40\r\n  offset: 7, 7\r\n  index: -1\r\nfire_03\r\n  rotate: false\r\n  xy: 1812, 148\r\n  size: 27, 29\r\n  orig: 40, 40\r\n  offset: 7, 6\r\n  index: -1\r\nfire_04\r\n  rotate: false\r\n  xy: 1882, 400\r\n  size: 29, 30\r\n  orig: 40, 40\r\n  offset: 6, 5\r\n  index: -1\r\nfire_05\r\n  rotate: false\r\n  xy: 1812, 316\r\n  size: 30, 32\r\n  orig: 40, 40\r\n  offset: 6, 4\r\n  index: -1\r\nfire_06\r\n  rotate: false\r\n  xy: 1812, 350\r\n  size: 31, 34\r\n  orig: 40, 40\r\n  offset: 5, 3\r\n  index: -1\r\nfire_07\r\n  rotate: false\r\n  xy: 1812, 423\r\n  size: 33, 35\r\n  orig: 40, 40\r\n  offset: 4, 2\r\n  index: -1\r\nfire_08\r\n  rotate: false\r\n  xy: 1812, 460\r\n  size: 33, 36\r\n  orig: 40, 40\r\n  offset: 4, 1\r\n  index: -1\r\nfire_09\r\n  rotate: false\r\n  xy: 1847, 461\r\n  size: 33, 35\r\n  orig: 40, 40\r\n  offset: 4, 1\r\n  index: -1\r\nfire_10\r\n  rotate: false\r\n  xy: 1812, 386\r\n  size: 33, 35\r\n  orig: 40, 40\r\n  offset: 4, 0\r\n  index: -1\r\nfire_11\r\n  rotate: false\r\n  xy: 1847, 425\r\n  size: 33, 34\r\n  orig: 40, 40\r\n  offset: 4, 0\r\n  index: -1\r\nfire_12\r\n  rotate: false\r\n  xy: 1882, 464\r\n  size: 34, 32\r\n  orig: 40, 40\r\n  offset: 4, 0\r\n  index: -1\r\nfire_13\r\n  rotate: false\r\n  xy: 1847, 393\r\n  size: 33, 30\r\n  orig: 40, 40\r\n  offset: 5, 0\r\n  index: -1\r\nfire_14\r\n  rotate: false\r\n  xy: 1882, 432\r\n  size: 33, 30\r\n  orig: 40, 40\r\n  offset: 5, 0\r\n  index: -1\r\nfire_15\r\n  rotate: true\r\n  xy: 1812, 281\r\n  size: 33, 26\r\n  orig: 40, 40\r\n  offset: 5, 0\r\n  index: -1\r\nfire_16\r\n  rotate: true\r\n  xy: 1812, 246\r\n  size: 33, 23\r\n  orig: 40, 40\r\n  offset: 5, 0\r\n  index: -1\r\nfire_17\r\n  rotate: true\r\n  xy: 1812, 212\r\n  size: 32, 23\r\n  orig: 40, 40\r\n  offset: 5, 0\r\n  index: -1\r\nfire_18\r\n  rotate: true\r\n  xy: 1812, 179\r\n  size: 31, 22\r\n  orig: 40, 40\r\n  offset: 5, 0\r\n  index: -1\r\nfire_19\r\n  rotate: false\r\n  xy: 1812, 52\r\n  size: 16, 10\r\n  orig: 40, 40\r\n  offset: 6, 0\r\n  index: -1\r\n",
+  "textures": [
+    {
+      "__uuid__": "1a3fabf7-dbe8-4977-87df-1bce3abed61d"
+    }
+  ],
+  "textureNames": [
+    "Gunner_End.png"
+  ],
+  "scale": 1
+}

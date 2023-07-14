@@ -1,0 +1,202 @@
+
+Spine_Boss7.png
+size: 2656,535
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 2245, 9
+  size: 155, 161
+  orig: 155, 161
+  offset: 0, 0
+  index: -1
+Body_2
+  rotate: false
+  xy: 2245, 172
+  size: 121, 123
+  orig: 121, 123
+  offset: 0, 0
+  index: -1
+Dao
+  rotate: false
+  xy: 2074, 35
+  size: 169, 244
+  orig: 169, 244
+  offset: 0, 0
+  index: -1
+Dao_0001
+  rotate: true
+  xy: 1898, 10
+  size: 221, 174
+  orig: 227, 181
+  offset: 4, 6
+  index: -1
+Dao_0002
+  rotate: false
+  xy: 952, 143
+  size: 236, 390
+  orig: 240, 393
+  offset: 4, 0
+  index: -1
+Dao_0003
+  rotate: false
+  xy: 1190, 213
+  size: 234, 320
+  orig: 237, 325
+  offset: 2, 2
+  index: -1
+Dao_0004
+  rotate: false
+  xy: 1949, 281
+  size: 239, 252
+  orig: 241, 256
+  offset: 1, 2
+  index: -1
+Dao_0005
+  rotate: false
+  xy: 515, 2
+  size: 217, 94
+  orig: 223, 98
+  offset: 3, 0
+  index: -1
+Dun
+  rotate: false
+  xy: 1629, 4
+  size: 267, 224
+  orig: 267, 224
+  offset: 0, 0
+  index: -1
+Dun_2
+  rotate: false
+  xy: 907, 25
+  size: 150, 71
+  orig: 155, 77
+  offset: 2, 3
+  index: -1
+Guang_0001
+  rotate: false
+  xy: 1059, 3
+  size: 134, 138
+  orig: 138, 138
+  offset: 4, 0
+  index: -1
+Guang_0002
+  rotate: false
+  xy: 2190, 297
+  size: 176, 236
+  orig: 179, 240
+  offset: 2, 2
+  index: -1
+Guang_0003
+  rotate: false
+  xy: 2402, 26
+  size: 101, 191
+  orig: 104, 196
+  offset: 2, 3
+  index: -1
+Head
+  rotate: true
+  xy: 734, 8
+  size: 88, 171
+  orig: 88, 171
+  offset: 0, 0
+  index: -1
+Shield_Gold1
+  rotate: true
+  xy: 1426, 230
+  size: 303, 260
+  orig: 310, 266
+  offset: 4, 3
+  index: -1
+Shield_Gold2
+  rotate: true
+  xy: 1195, 4
+  size: 207, 215
+  orig: 209, 217
+  offset: 1, 1
+  index: -1
+Shield_Gold3
+  rotate: true
+  xy: 1688, 233
+  size: 300, 259
+  orig: 301, 260
+  offset: 0, 1
+  index: -1
+Shield_Gold4
+  rotate: true
+  xy: 1412, 4
+  size: 207, 215
+  orig: 209, 217
+  offset: 1, 1
+  index: -1
+YouBi
+  rotate: true
+  xy: 2368, 377
+  size: 156, 213
+  orig: 156, 213
+  offset: 0, 0
+  index: -1
+YouJiao
+  rotate: true
+  xy: 2583, 483
+  size: 50, 71
+  orig: 50, 71
+  offset: 0, 0
+  index: -1
+YouShou
+  rotate: true
+  xy: 2505, 118
+  size: 99, 145
+  orig: 99, 145
+  offset: 0, 0
+  index: -1
+YouTui
+  rotate: true
+  xy: 2583, 377
+  size: 52, 64
+  orig: 52, 64
+  offset: 0, 0
+  index: -1
+ZuoBi
+  rotate: true
+  xy: 2368, 219
+  size: 156, 213
+  orig: 156, 213
+  offset: 0, 0
+  index: -1
+ZuoJiao
+  rotate: true
+  xy: 2583, 431
+  size: 50, 71
+  orig: 50, 71
+  offset: 0, 0
+  index: -1
+ZuoShou
+  rotate: true
+  xy: 2505, 17
+  size: 99, 145
+  orig: 99, 145
+  offset: 0, 0
+  index: -1
+ZuoTui
+  rotate: true
+  xy: 2583, 323
+  size: 52, 64
+  orig: 52, 64
+  offset: 0, 0
+  index: -1
+light _y
+  rotate: true
+  xy: 2, 16
+  size: 517, 511
+  orig: 522, 520
+  offset: 0, 5
+  index: -1
+ring
+  rotate: false
+  xy: 515, 98
+  size: 435, 435
+  orig: 435, 435
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,111 @@
+
+Monster_33.png
+size: 205, 146
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+body
+  rotate: true
+  xy: 54, 73
+  size: 71, 59
+  orig: 71, 59
+  offset: 0, 0
+  index: -1
+chibang
+  rotate: false
+  xy: 48, 3
+  size: 30, 47
+  orig: 30, 47
+  offset: 0, 0
+  index: -1
+chibang2
+  rotate: true
+  xy: 151, 47
+  size: 29, 46
+  orig: 29, 46
+  offset: 0, 0
+  index: -1
+chibang3
+  rotate: false
+  xy: 115, 75
+  size: 33, 43
+  orig: 33, 43
+  offset: 0, 0
+  index: -1
+eye1
+  rotate: true
+  xy: 151, 22
+  size: 23, 20
+  orig: 23, 20
+  offset: 0, 0
+  index: -1
+eye2
+  rotate: true
+  xy: 150, 78
+  size: 31, 41
+  orig: 31, 41
+  offset: 0, 0
+  index: -1
+eye3
+  rotate: true
+  xy: 173, 25
+  size: 20, 23
+  orig: 20, 23
+  offset: 0, 0
+  index: -1
+hand
+  rotate: true
+  xy: 151, 111
+  size: 33, 52
+  orig: 33, 52
+  offset: 0, 0
+  index: -1
+hand2
+  rotate: true
+  xy: 115, 120
+  size: 24, 34
+  orig: 24, 34
+  offset: 0, 0
+  index: -1
+jiao
+  rotate: true
+  xy: 77, 55
+  size: 16, 28
+  orig: 16, 28
+  offset: 0, 0
+  index: -1
+jiao2
+  rotate: true
+  xy: 54, 53
+  size: 18, 21
+  orig: 18, 21
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: true
+  xy: 80, 6
+  size: 47, 28
+  orig: 47, 28
+  offset: 0, 0
+  index: -1
+prop
+  rotate: true
+  xy: 110, 11
+  size: 60, 39
+  orig: 60, 42
+  offset: 0, 0
+  index: -1
+prop2
+  rotate: true
+  xy: 2, 52
+  size: 92, 50
+  orig: 92, 50
+  offset: 0, 0
+  index: -1
+weiba
+  rotate: true
+  xy: 2, 2
+  size: 48, 44
+  orig: 48, 44
+  offset: 0, 0
+  index: -1

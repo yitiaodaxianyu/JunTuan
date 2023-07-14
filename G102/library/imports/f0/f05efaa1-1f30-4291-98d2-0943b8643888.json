@@ -1,0 +1,239 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "monster_effects_2.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "FX_HPRecovery_00": {
+      "__uuid__": "bcd93036-3adc-4346-ae13-9616f737fe67"
+    },
+    "FX_HPRecovery_01": {
+      "__uuid__": "dde31bde-3388-436e-84d7-49bb0a7fbd94"
+    },
+    "FX_HPRecovery_02": {
+      "__uuid__": "42134ee1-599c-43e2-9ab0-871f933f0703"
+    },
+    "FX_HPRecovery_03": {
+      "__uuid__": "60a97439-7b80-4b83-b521-8365524393bb"
+    },
+    "FX_HPRecovery_04": {
+      "__uuid__": "424f5dfd-acb6-4e68-b072-592a5a0a4c6c"
+    },
+    "FX_HPRecovery_05": {
+      "__uuid__": "f7b55e60-26f8-4fb8-b521-e9c7f54bf4e5"
+    },
+    "FX_HPRecovery_06": {
+      "__uuid__": "f36fe525-ed3d-443b-9978-977e5d1ad11b"
+    },
+    "FX_HPRecovery_07": {
+      "__uuid__": "235d7a86-b827-422d-a38f-0cc543460ebd"
+    },
+    "FX_HPRecovery_08": {
+      "__uuid__": "0d7fdce2-8b89-421c-8044-762edba17485"
+    },
+    "FX_HPRecovery_09": {
+      "__uuid__": "7801f710-607f-4098-a702-62043a200bfc"
+    },
+    "FX_HPRecovery_10": {
+      "__uuid__": "618126a3-813c-4ce4-838f-465984e7aa94"
+    },
+    "FX_HPRecovery_11": {
+      "__uuid__": "fc76cab2-5c76-4193-bd0d-01b03a9d8056"
+    },
+    "FX_HPRecovery_12": {
+      "__uuid__": "76ba5b32-ec64-47ac-b30b-9d9c85bb093d"
+    },
+    "FX_HPRecovery_13": {
+      "__uuid__": "565c6848-cec9-47d4-a707-620929a1eb4e"
+    },
+    "FX_HPRecovery_14": {
+      "__uuid__": "d21a15c1-bf3e-47f7-ba87-d88093da19e4"
+    },
+    "FX_HPRecovery_15": {
+      "__uuid__": "1064db09-2dac-45d0-9798-4646b827e338"
+    },
+    "FX_HPRecovery_16": {
+      "__uuid__": "cc9f8b9c-bfba-4e8b-a2ae-e21575ecd36d"
+    },
+    "FX_HPRecovery_17": {
+      "__uuid__": "44065e1c-a739-42f0-9f09-946506219d5f"
+    },
+    "FX_HPRecovery_18": {
+      "__uuid__": "6d0084eb-c243-421e-b30a-895b9d817b19"
+    },
+    "FX_HPRecovery_19": {
+      "__uuid__": "90b8ba33-3ae2-470f-87e9-23b5a767e5d1"
+    },
+    "FX_HPRecovery_20": {
+      "__uuid__": "8908eafa-62b3-4c78-8c0a-fc4f1972b42d"
+    },
+    "FX_HPRecovery_21": {
+      "__uuid__": "e39b1181-2ee4-4698-8848-ed3fe23074be"
+    },
+    "FX_HPRecovery_22": {
+      "__uuid__": "4ac9f227-9644-45d3-b43e-91b075654c94"
+    },
+    "FX_HPRecovery_23": {
+      "__uuid__": "12afe871-48eb-4849-95b7-c4bd7bfd1591"
+    },
+    "FX_HPRecovery_24": {
+      "__uuid__": "790ac1ef-db4c-462e-acc5-862765047083"
+    },
+    "FX_HPRecovery_25": {
+      "__uuid__": "2dfc4f2f-ef11-4101-a1e7-16020a92ff2b"
+    },
+    "FX_HPRecovery_26": {
+      "__uuid__": "a802bd12-49b1-4acb-9f67-3e228efe29d9"
+    },
+    "FX_Invincible_00": {
+      "__uuid__": "ad94f332-ffe9-43b3-b352-d7f855fac04c"
+    },
+    "FX_Invincible_01": {
+      "__uuid__": "b357039d-d724-46ca-8793-6e4d5a0e5f6e"
+    },
+    "FX_Invincible_02": {
+      "__uuid__": "07fd1e18-9cff-4602-bde7-a50527004acb"
+    },
+    "FX_Invincible_03": {
+      "__uuid__": "203d7de6-c3bd-46d2-9484-ec66bdf17ecf"
+    },
+    "FX_Invincible_04": {
+      "__uuid__": "9259816d-1bba-4fdc-aad2-f70f599bb662"
+    },
+    "FX_Invincible_05": {
+      "__uuid__": "d7e11f55-0a7c-4bc1-a6ba-c235c16807ab"
+    },
+    "FX_Invincible_06": {
+      "__uuid__": "fb944b2f-d7ed-4e12-bb58-23a92ce552ce"
+    },
+    "FX_Invincible_07": {
+      "__uuid__": "538aed4d-58a8-4910-84df-2368788d9b4c"
+    },
+    "FX_Invincible_08": {
+      "__uuid__": "34651d41-f1d3-41a4-aa2c-129bd129baf1"
+    },
+    "FX_Invincible_09": {
+      "__uuid__": "1304cfbd-02cf-42bb-8492-e9124d2e754b"
+    },
+    "FX_Invincible_10": {
+      "__uuid__": "249f7e83-9193-4f40-9406-68a95a5640b1"
+    },
+    "FX_Invincible_11": {
+      "__uuid__": "4dc2822f-4c04-43d8-8fe2-26f5e1470b19"
+    },
+    "FX_Invincible_12": {
+      "__uuid__": "0f9abf8e-bc43-4ca5-9458-b06470d8870c"
+    },
+    "FX_Invincible_13": {
+      "__uuid__": "461371f7-f41d-421e-9da6-351abaadcd96"
+    },
+    "FX_Invincible_14": {
+      "__uuid__": "9c1eb649-0398-4afc-aec9-192f4b9c677f"
+    },
+    "FX_Invincible_15": {
+      "__uuid__": "09b6833d-e03a-4ba1-919b-2c43690e2725"
+    },
+    "FX_Invincible_16": {
+      "__uuid__": "34dac858-451c-42f9-af16-4496986adeef"
+    },
+    "FX_Invincible_17": {
+      "__uuid__": "f6c2249f-47de-40db-b623-b28541035589"
+    },
+    "FX_Invincible_18": {
+      "__uuid__": "5a6851f4-bb0e-4b3e-ae51-dd20446b4c4c"
+    },
+    "FX_Invincible_19": {
+      "__uuid__": "52a4a96e-2f4d-4abb-9ff0-dfbc85fbbae3"
+    },
+    "FX_Invincible_20": {
+      "__uuid__": "b4dd0dd9-28b5-4087-8e3a-caea03be2ff6"
+    },
+    "FX_Invincible_21": {
+      "__uuid__": "4a024917-dbfd-4a3a-ab67-0b19e20b7d4f"
+    },
+    "FX_Invincible_22": {
+      "__uuid__": "acbdc4c5-b663-4251-bf89-bfa4226bf601"
+    },
+    "FX_Invincible_23": {
+      "__uuid__": "41833716-eee8-4d26-89d3-33c6779f13e0"
+    },
+    "FX_Invincible_24": {
+      "__uuid__": "63d7f080-686a-4a3e-a1fb-0ad469658e3b"
+    },
+    "FX_Magic_00": {
+      "__uuid__": "925b7802-4b8d-4c8c-89cd-897d8abb28db"
+    },
+    "FX_Magic_01": {
+      "__uuid__": "5a46a70a-d2df-46a8-8e82-14e18cd269eb"
+    },
+    "FX_Magic_02": {
+      "__uuid__": "93dbc373-b9bf-4e75-b66e-cdd124af10b4"
+    },
+    "FX_Magic_03": {
+      "__uuid__": "5885a5fc-fce9-457d-90c4-51648c1c45ad"
+    },
+    "FX_Magic_04": {
+      "__uuid__": "f78d5ca4-f882-4bb8-bd82-aafe6c794799"
+    },
+    "FX_Magic_05": {
+      "__uuid__": "8c8f2e82-3dd7-4296-9814-29c1078e9c07"
+    },
+    "FX_Magic_06": {
+      "__uuid__": "b2ad0a9c-b77d-4040-9507-afdc16d3cd05"
+    },
+    "FX_Magic_07": {
+      "__uuid__": "04957970-b828-4a54-b614-c1682472d602"
+    },
+    "FX_Magic_08": {
+      "__uuid__": "1aa3952b-e27a-46e8-acbc-0b86010ab577"
+    },
+    "FX_Magic_09": {
+      "__uuid__": "a1672962-a22f-4961-a793-d265229ed083"
+    },
+    "FX_Magic_10": {
+      "__uuid__": "be9d390c-3a10-4479-85b4-b5ccf35d3558"
+    },
+    "FX_Magic_11": {
+      "__uuid__": "a5d3380f-31f3-498c-90c1-041165ec8928"
+    },
+    "FX_Magic_12": {
+      "__uuid__": "ab2f1299-2bbf-4674-abf6-f6b645e4f1e9"
+    },
+    "FX_Magic_13": {
+      "__uuid__": "afe1e405-51d1-4745-86ca-233f772ea6a6"
+    },
+    "FX_Magic_14": {
+      "__uuid__": "26602334-723f-4b9b-82a6-d95d00dfd5e6"
+    },
+    "FX_Magic_15": {
+      "__uuid__": "904cccfa-e554-4a72-858e-da6296fb8a7a"
+    },
+    "FX_Magic_16": {
+      "__uuid__": "41b93959-75db-49cd-8d7a-50d54f6a12a5"
+    },
+    "FX_Magic_17": {
+      "__uuid__": "39936507-a101-4683-b5e4-f6a365b61332"
+    },
+    "FX_Magic_18": {
+      "__uuid__": "a4212153-6824-4210-8fff-7c98f3d4fefa"
+    },
+    "FX_Magic_19": {
+      "__uuid__": "119c15ed-f094-4b0d-a219-14b85073f504"
+    },
+    "FX_Magic_20": {
+      "__uuid__": "7b616973-c46e-4b84-a61e-dffa35a5a6fe"
+    },
+    "FX_Magic_21": {
+      "__uuid__": "367c2379-8a63-40bc-93a2-ce72575e8e5a"
+    },
+    "FX_Magic_22": {
+      "__uuid__": "167796a0-71e3-4aee-9665-344fb51d52d1"
+    },
+    "FX_Magic_23": {
+      "__uuid__": "8f8c1c11-66ee-4303-8bbd-90a2fba65a38"
+    },
+    "FX_Magic_24": {
+      "__uuid__": "a48e49ad-96c3-48b6-9f40-acea661a4b5a"
+    }
+  }
+}

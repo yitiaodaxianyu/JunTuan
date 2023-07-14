@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "BeastMaster-Back",
+    "texture": "27f9f1af-6ac6-40d4-aed8-0813f2b89fd5",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      440,
+      142
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      440,
+      142
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

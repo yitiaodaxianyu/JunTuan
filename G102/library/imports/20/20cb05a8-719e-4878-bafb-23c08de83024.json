@@ -1,0 +1,176 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "activity_ui.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "DiTu_BtnBack": {
+      "__uuid__": "3fb88f7b-649e-4aac-9c18-01560c3b2978"
+    },
+    "DiTu_bg_02": {
+      "__uuid__": "043ee71f-b25a-4591-a06b-760ff6fb99f3"
+    },
+    "Dungeon_Banner_0": {
+      "__uuid__": "6e1e4719-a568-4870-8fc0-d7043f505166"
+    },
+    "Dungeon_Banner_1": {
+      "__uuid__": "f3b9cde7-607f-4190-b401-9a2fc4ea5296"
+    },
+    "Dungeon_Banner_2": {
+      "__uuid__": "a64cc192-e671-4528-86c7-cf63d5923276"
+    },
+    "Dungeon_Banner_3": {
+      "__uuid__": "df990985-f68e-402c-98d6-064cecd0eb1c"
+    },
+    "Dungeon_Bg_0": {
+      "__uuid__": "e7044e09-8f40-4288-99a1-027124404816"
+    },
+    "Dungeon_Bg_1": {
+      "__uuid__": "75296dbf-6dc7-45e7-a730-7a93a8fee405"
+    },
+    "Dungeon_Bg_2": {
+      "__uuid__": "f7de0c75-52de-4b41-bfff-99a1ca80c0b7"
+    },
+    "Dungeon_Bg_3": {
+      "__uuid__": "a8116029-0102-440a-9125-1922ceba92ae"
+    },
+    "Dungeon_Bg_4": {
+      "__uuid__": "2f375ba8-6357-47f8-97a9-362d597b0861"
+    },
+    "Dungeon_Bg_5": {
+      "__uuid__": "d7dd430d-0473-40ac-aece-7df7ff9bfc2c"
+    },
+    "Dungeon_Bg_6": {
+      "__uuid__": "796f4dd3-c67c-4b2b-afed-47597ae76112"
+    },
+    "Dungeon_Frame_0": {
+      "__uuid__": "dbb51a3e-3b5f-45a0-9fcb-3b064dd5f9dd"
+    },
+    "Dungeon_Frame_1": {
+      "__uuid__": "d012c8d7-c361-4ac3-b802-4b7759cda4f0"
+    },
+    "Dungeon_Icon_0": {
+      "__uuid__": "51041b9f-d9ec-48da-942d-b25bdfc1f8c4"
+    },
+    "Dungeon_Icon_1": {
+      "__uuid__": "3c515eed-7d03-4c0d-bb0f-4edff2b8d7d4"
+    },
+    "Dungeon_Icon_2": {
+      "__uuid__": "88eb16b5-5e0a-4b68-934a-3e63017aab8e"
+    },
+    "Dungeon_Icon_Plus": {
+      "__uuid__": "95e45e92-03bd-4298-861e-5b0a9c38b7bc"
+    },
+    "Dungeon_Title": {
+      "__uuid__": "e6ff2382-7d4a-40b7-871a-348c6d7b2138"
+    },
+    "Raid_Banner_0": {
+      "__uuid__": "8d7a0e14-44df-47d0-ab10-d668ff9b9fde"
+    },
+    "Raid_Banner_1": {
+      "__uuid__": "c39dd025-3eb8-411b-baa6-400bce368a22"
+    },
+    "Raid_Banner_2": {
+      "__uuid__": "5f3539ca-4d70-4348-9559-98dc7df704ef"
+    },
+    "Raid_Banner_2_1": {
+      "__uuid__": "55bd72b6-df92-471f-8761-bfc0282c008d"
+    },
+    "Raid_Banner_3": {
+      "__uuid__": "7306f55c-e146-459a-ab3c-650c95fa8376"
+    },
+    "Raid_Banner_4": {
+      "__uuid__": "64c38964-1ec4-46e9-8a11-770d013c82ea"
+    },
+    "Raid_Bg_0": {
+      "__uuid__": "8c630567-9b0f-447b-bc1d-6fe5bec537b5"
+    },
+    "Raid_Bg_1": {
+      "__uuid__": "9774a816-dbd2-4a1c-ae4a-bff7fd6c3c55"
+    },
+    "Raid_Bg_2": {
+      "__uuid__": "8a7fce85-ced9-4037-bd65-cfa5a936383f"
+    },
+    "Raid_Bg_3": {
+      "__uuid__": "949c5882-9958-4555-84ba-8a42bf12d9f6"
+    },
+    "Raid_Btn_0": {
+      "__uuid__": "27aefab1-20aa-4025-b96e-648c795c75bd"
+    },
+    "Raid_Btn_0_1": {
+      "__uuid__": "c587a58b-7b8f-427b-9e4f-2f81da0e5af8"
+    },
+    "Raid_Btn_1": {
+      "__uuid__": "4c85e1ae-e1b1-4cab-acc0-c3f44dc72abe"
+    },
+    "Raid_Btn_1_1": {
+      "__uuid__": "573f4cef-564f-4ddb-8a33-5e082759a78f"
+    },
+    "Raid_Btn_Lock": {
+      "__uuid__": "934591db-625f-433f-835c-868e3843fbec"
+    },
+    "Raid_Line": {
+      "__uuid__": "fb9999c1-1dba-4f8a-acd9-af9df71f834f"
+    },
+    "Raid_Time": {
+      "__uuid__": "df7ad170-80e5-4fdf-84f6-d7eb6e67c78e"
+    },
+    "SD_Chest_00": {
+      "__uuid__": "9e54956b-52d5-4f1a-87ac-ca8270ee0b79"
+    },
+    "SD_Chest_01": {
+      "__uuid__": "17e2b251-b197-4dc6-ac99-5e678efded05"
+    },
+    "SD_Chest_02": {
+      "__uuid__": "98aea76b-750f-432f-ab69-0ee0155f306e"
+    },
+    "SD_Chest_03": {
+      "__uuid__": "d3db75d1-71c0-4e7d-b916-68de49cbd230"
+    },
+    "TY_Btn_00": {
+      "__uuid__": "1e3380a0-f350-4f42-844e-095ff6783eb3"
+    },
+    "TY_Btn_03": {
+      "__uuid__": "8b8be7b0-d459-4044-ae91-9d60dd76574a"
+    },
+    "TY_Btn_04": {
+      "__uuid__": "ae145190-a476-433a-a4d7-ab43813a6653"
+    },
+    "TY_icon_ADS": {
+      "__uuid__": "6f001049-3f5b-4222-8048-24b1fa8f895a"
+    },
+    "Top_BG_0": {
+      "__uuid__": "bb11417a-6b31-4c33-9aaa-4bbb7c7d22a0"
+    },
+    "WuJin_Bg_0": {
+      "__uuid__": "8ab2e398-235c-4a9e-8fbe-a81bd22f33cf"
+    },
+    "WuJin_Bg_1": {
+      "__uuid__": "8aa6b925-9aaf-4bea-8143-0ee5861bb255"
+    },
+    "WuJin_JDT_0": {
+      "__uuid__": "71b95ab4-4178-4840-948e-2302a82d1237"
+    },
+    "WuJin_JDT_1": {
+      "__uuid__": "9173c7c2-9d2b-422a-9e30-a2fdab70b0ee"
+    },
+    "ZJM_bonus_00": {
+      "__uuid__": "7b835cc4-89ee-47d4-84ec-c4f28d5ae27b"
+    },
+    "ZJM_bonus_01": {
+      "__uuid__": "d22bb38f-865d-475c-bba6-f693af22b0db"
+    },
+    "ZJM_bonus_02": {
+      "__uuid__": "6c748a7e-7190-464c-97ef-f586ac5e7a0e"
+    },
+    "ZJM_bonus_03": {
+      "__uuid__": "214a0ade-34a8-4608-b9ef-3cb425ca9c1b"
+    },
+    "ZJM_bonus_04": {
+      "__uuid__": "f3dddc3c-1403-4d63-8ed2-951db954ebf9"
+    },
+    "ZJM_bonus_06": {
+      "__uuid__": "e87c495d-bf8b-4b6a-8acf-a004979b5e7f"
+    }
+  }
+}

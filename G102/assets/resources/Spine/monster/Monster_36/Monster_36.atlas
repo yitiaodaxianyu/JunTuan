@@ -1,0 +1,55 @@
+
+Monster_36.png
+size: 440,119
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: true
+  xy: 132, 2
+  size: 117, 127
+  orig: 117, 127
+  offset: 0, 0
+  index: -1
+Tou
+  rotate: false
+  xy: 0, 0
+  size: 130, 119
+  orig: 130, 119
+  offset: 0, 0
+  index: -1
+XueQiuAttack
+  rotate: false
+  xy: 307, 12
+  size: 39, 40
+  orig: 39, 40
+  offset: 0, 0
+  index: -1
+YouJiao
+  rotate: false
+  xy: 348, 6
+  size: 34, 46
+  orig: 34, 46
+  offset: 0, 0
+  index: -1
+YouShou
+  rotate: true
+  xy: 261, 54
+  size: 65, 131
+  orig: 85, 131
+  offset: 0, 0
+  index: -1
+ZuoJiao
+  rotate: true
+  xy: 261, 11
+  size: 41, 44
+  orig: 41, 44
+  offset: 0, 0
+  index: -1
+ZuoShou
+  rotate: false
+  xy: 394, 20
+  size: 46, 99
+  orig: 46, 99
+  offset: 0, 0
+  index: -1

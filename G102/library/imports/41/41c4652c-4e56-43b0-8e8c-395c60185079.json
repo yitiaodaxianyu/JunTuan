@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "KuangZhan_AttackHit_02",
+    "texture": "36d14239-9c7a-4eaa-a458-87aa26fdc067",
+    "atlas": "ac0bff62-00a4-4db3-897e-6959767cd48d",
+    "rect": [
+      2,
+      412,
+      84,
+      98
+    ],
+    "offset": [
+      3,
+      -1
+    ],
+    "originalSize": [
+      100,
+      100
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

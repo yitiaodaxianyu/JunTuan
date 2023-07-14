@@ -1,0 +1,62 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "spin.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Spin_JianTou": {
+      "__uuid__": "02173726-c4f3-4257-be66-aa21c6909390"
+    },
+    "Spin_bulb_00": {
+      "__uuid__": "61a7632c-804c-4bb1-ab15-79fcd0b1028e"
+    },
+    "Spin_bulb_01": {
+      "__uuid__": "eff8d43c-8b8f-4897-a4b1-7a3db7d14632"
+    },
+    "Spin_bulb_02": {
+      "__uuid__": "5407f2fa-8198-4341-8d68-2976589d498a"
+    },
+    "Spin_bulb_03": {
+      "__uuid__": "29e08138-fca5-4cb3-ad7c-b529dcf5c62c"
+    },
+    "Spin_bulb_04": {
+      "__uuid__": "53048b51-8ecc-4af3-93e8-cb71edbb6636"
+    },
+    "Spin_bulb_05": {
+      "__uuid__": "70154c74-93d8-4e57-bce6-c52e6413024e"
+    },
+    "Spin_bulb_06": {
+      "__uuid__": "0659c37d-d767-4bbe-aaa7-6668ef158663"
+    },
+    "Spin_center": {
+      "__uuid__": "c9aff3aa-7143-42a2-a9a9-2ebf181e000f"
+    },
+    "Spin_light": {
+      "__uuid__": "328c2a36-f0d8-4463-996d-7d4f99e5c303"
+    },
+    "Spin_plate": {
+      "__uuid__": "f43184ce-277e-47fe-be5e-50e13649c5bf"
+    },
+    "Spin_shell": {
+      "__uuid__": "f5203c6e-34c8-43a4-a41c-70f3d82c5ba7"
+    },
+    "TY_Btn_00": {
+      "__uuid__": "08381bdd-4952-41a3-86bf-f3262c97cebb"
+    },
+    "TY_Btn_close": {
+      "__uuid__": "2701ade0-0de2-4631-bab2-0d1559f4a068"
+    },
+    "TY_bg_00": {
+      "__uuid__": "977e4c87-693c-4abe-b444-81393aa2067d"
+    },
+    "TY_icon_ADS": {
+      "__uuid__": "8b4235fc-e6c6-4474-a5c8-0d787f9dd171"
+    },
+    "TY_icon_TYSP": {
+      "__uuid__": "1eddc701-5aff-4594-a15d-2cfa9ffeca32"
+    },
+    "TY_title_00": {
+      "__uuid__": "b29063b4-a0d1-490d-bdb6-58bf8032937f"
+    }
+  }
+}

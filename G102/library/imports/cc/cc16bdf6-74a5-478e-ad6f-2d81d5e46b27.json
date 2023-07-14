@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "LevelUp_Icon_0",
+    "texture": "ae8a7560-37d5-4d1b-ae53-3b41dbb35a39",
+    "atlas": "79e5302a-4d38-4d9d-8383-910dd496fd48",
+    "rect": [
+      610,
+      873,
+      84,
+      84
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      84,
+      84
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

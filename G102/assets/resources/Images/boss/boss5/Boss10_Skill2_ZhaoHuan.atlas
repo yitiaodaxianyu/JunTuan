@@ -1,0 +1,55 @@
+
+Boss10_Skill2_ZhaoHuan.png
+size: 322,431
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bo
+  rotate: true
+  xy: 0, 419
+  size: 12, 13
+  orig: 15, 15
+  offset: 1, 1
+  index: -1
+light
+  rotate: true
+  xy: 194, 309
+  size: 122, 128
+  orig: 124, 131
+  offset: 1, 1
+  index: -1
+sheng_1
+  rotate: false
+  xy: 19, 355
+  size: 77, 76
+  orig: 78, 78
+  offset: 0, 1
+  index: -1
+sheng_2
+  rotate: false
+  xy: 102, 345
+  size: 86, 86
+  orig: 88, 88
+  offset: 1, 1
+  index: -1
+sheng_3
+  rotate: true
+  xy: 0, 174
+  size: 163, 165
+  orig: 172, 178
+  offset: 4, 6
+  index: -1
+sheng_4
+  rotate: false
+  xy: 0, 0
+  size: 164, 166
+  orig: 170, 174
+  offset: 3, 4
+  index: -1
+sheng_5
+  rotate: true
+  xy: 171, 21
+  size: 280, 150
+  orig: 280, 150
+  offset: 0, 0
+  index: -1

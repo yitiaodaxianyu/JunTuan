@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Exclusive_Stone_Bg_0",
+    "texture": "011c02ef-91c2-4cbb-b4ff-ab1026c43714",
+    "atlas": "0f65a8f4-73a0-48df-be34-7d8121c7668c",
+    "rect": [
+      949,
+      46,
+      170,
+      44
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      170,
+      44
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

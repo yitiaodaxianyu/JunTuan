@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Spine_Sword",
+    "texture": "4b38114d-3136-4486-bd73-e2c3967a7d7b",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      309,
+      667
+    ],
+    "offset": [
+      -99.5,
+      176.5
+    ],
+    "originalSize": [
+      512,
+      1024
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

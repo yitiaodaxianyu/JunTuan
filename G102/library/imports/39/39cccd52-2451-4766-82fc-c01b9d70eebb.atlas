@@ -1,0 +1,27 @@
+
+Pet_Bing.png
+size: 75,41
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 39, 10
+  size: 36, 31
+  orig: 36, 31
+  offset: 0, 0
+  index: -1
+Ice
+  rotate: true
+  xy: 0, 0
+  size: 41, 37
+  orig: 41, 37
+  offset: 0, 0
+  index: -1
+Xue
+  rotate: false
+  xy: 39, 1
+  size: 6, 7
+  orig: 6, 7
+  offset: 0, 0
+  index: -1

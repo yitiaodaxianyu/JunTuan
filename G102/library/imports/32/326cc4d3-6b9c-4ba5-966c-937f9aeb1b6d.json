@@ -1,0 +1,416 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "game_ui.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Battle_BossHP_0": {
+      "__uuid__": "6076c6d7-4e35-40e6-8bdd-e4cb10b5bc29"
+    },
+    "Battle_BossHP_0_1": {
+      "__uuid__": "2f5f64c7-67b4-42dd-9b37-23d7d40e27a9"
+    },
+    "Battle_BossHP_1": {
+      "__uuid__": "6a45132c-4015-4428-a884-7aa818471e75"
+    },
+    "Battle_BossHP_2": {
+      "__uuid__": "1756eb3d-b31e-4846-9edb-3ce9ae739599"
+    },
+    "Battle_BossHP_3": {
+      "__uuid__": "ef0fe4c8-ffeb-4a9f-b2fd-f8602e130916"
+    },
+    "Battle_BossHP_4": {
+      "__uuid__": "a97c6540-7e22-4517-ae3e-1adc5e8fa95a"
+    },
+    "Battle_BossHP_5": {
+      "__uuid__": "483cbe36-6196-4578-89f3-fc13bb2ec9ab"
+    },
+    "Battle_Boss_Frame": {
+      "__uuid__": "4e54d198-fe58-4f6e-8bb2-82d2ac86a329"
+    },
+    "Battle_Btn_Auto_0": {
+      "__uuid__": "81b1dd8a-0ff2-472c-9783-42513d0a7139"
+    },
+    "Battle_Btn_Auto_1": {
+      "__uuid__": "d4499098-11ae-409a-9636-52fccf3247df"
+    },
+    "Battle_Btn_Chariot": {
+      "__uuid__": "fe8df32f-98d5-462e-8f02-33372dfa011d"
+    },
+    "Battle_Btn_Pause": {
+      "__uuid__": "473649d6-0cad-4029-b57e-0a7d39524b56"
+    },
+    "Battle_Btn_SpeedUp_0": {
+      "__uuid__": "d8020366-33fa-43b5-bfbc-2319a751a600"
+    },
+    "Battle_Btn_SpeedUp_1": {
+      "__uuid__": "cca15053-48d9-4624-b54e-42aaf115d2bf"
+    },
+    "Battle_Btn_SpeedUp_2": {
+      "__uuid__": "19a38bb6-fe96-446c-800e-6a3d44e40f21"
+    },
+    "Battle_Btn_SpeedUp_3": {
+      "__uuid__": "55f08829-8c91-4884-aa22-7bf6b4166f22"
+    },
+    "Battle_Btn_SpeedUp_4": {
+      "__uuid__": "aa327c69-d1d4-4eea-ac3a-c87a1f746f75"
+    },
+    "Battle_Btn_SpeedUp_5": {
+      "__uuid__": "91e9fc5f-e233-4c88-9ad2-ab62de8812d0"
+    },
+    "Battle_Coin": {
+      "__uuid__": "0cc412dc-a365-426d-a98c-f32c61398ba2"
+    },
+    "Battle_Effect_0": {
+      "__uuid__": "cf40a46e-38de-4456-a677-8a693384be7d"
+    },
+    "Battle_Effect_1": {
+      "__uuid__": "8fc93988-226d-49ba-845e-4794b6768536"
+    },
+    "Battle_Gem": {
+      "__uuid__": "a0dad25c-b536-4fdf-b242-fd8eb41498e2"
+    },
+    "Battle_HP_Monster_0": {
+      "__uuid__": "d1947262-d527-499a-8bfb-91c1a5dd02ea"
+    },
+    "Battle_HP_Monster_0_1": {
+      "__uuid__": "7854fb98-3232-47d5-8935-ee0fdc5470ae"
+    },
+    "Battle_HP_Monster_0_2": {
+      "__uuid__": "95097ce1-521f-4ec5-bd0a-fc2422addfc7"
+    },
+    "Battle_Icon_Bag": {
+      "__uuid__": "82aa3a17-c4b8-41a9-9cc4-4d909612c690"
+    },
+    "Battle_Icon_Number": {
+      "__uuid__": "e36dbeae-1134-40fe-91aa-f16109c15ee8"
+    },
+    "Battle_Icon_Time": {
+      "__uuid__": "6d316802-f171-4f62-b051-694928aba02b"
+    },
+    "Battle_Item_1": {
+      "__uuid__": "08e454a0-5b74-4088-94a4-71cd999d8677"
+    },
+    "Battle_Item_2": {
+      "__uuid__": "9f97a088-9fd4-4336-ac0c-83e19c1f8928"
+    },
+    "Battle_Item_3": {
+      "__uuid__": "75a3d054-5cc8-49fd-b2d7-82030ad4c75c"
+    },
+    "Battle_Lock": {
+      "__uuid__": "dda51e94-1277-4b6d-89c3-af650ab21776"
+    },
+    "Battle_Shield_0": {
+      "__uuid__": "fe47c43b-16da-4099-b093-31d2d77e9eeb"
+    },
+    "Battle_Shield_1": {
+      "__uuid__": "2f326538-1b85-40f5-b45c-0486f52686ab"
+    },
+    "Battle_SkillCD_0": {
+      "__uuid__": "eea48984-0670-442e-83fc-a4335e8e190e"
+    },
+    "Battle_SkillCD_0_1": {
+      "__uuid__": "a43f95ea-6ba6-47d0-85b5-78b6768f058c"
+    },
+    "Battle_SkillCD_1": {
+      "__uuid__": "4ed6f9b3-96c4-456e-a4db-fdd3a2d449b0"
+    },
+    "Battle_SkillCD_2": {
+      "__uuid__": "5b682580-10dc-4e80-b4b3-37bdb7905bf8"
+    },
+    "Battle_SkillCD_3": {
+      "__uuid__": "f319d464-9af8-4d7d-b83a-28ec33e40f3f"
+    },
+    "Battle_Skill_0": {
+      "__uuid__": "935c80d7-2813-4b2b-8aa6-73203f78f331"
+    },
+    "Battle_Skill_1": {
+      "__uuid__": "6e36befa-a41f-4520-aeb7-720f539a29be"
+    },
+    "Battle_Skill_Bar_0": {
+      "__uuid__": "c0b75222-a789-4526-a0cf-df3a58ae0440"
+    },
+    "Battle_Skill_Bar_0_1": {
+      "__uuid__": "f9ab17f9-0dd3-4ad1-adec-b4a9aa4629c4"
+    },
+    "Battle_Skill_Mask": {
+      "__uuid__": "efe1cde6-f034-4f11-bcce-6e4462fa1b52"
+    },
+    "Battle_Skill_Range": {
+      "__uuid__": "3e1025f4-d786-427d-8e22-2a10cd4a46f4"
+    },
+    "Battle_Top_Bar_0": {
+      "__uuid__": "3cf6ca3c-4dc6-448f-9370-27322f9dcc9d"
+    },
+    "Battle_Top_Bar_1": {
+      "__uuid__": "99a6d078-00bb-4c2b-b28f-f7fc3131f7bd"
+    },
+    "Battle_Top_Bar_2": {
+      "__uuid__": "fec6de3e-2f6f-4b81-937a-fb42cf4d5ce1"
+    },
+    "Battle_Top_Bar_3": {
+      "__uuid__": "c320539d-41c0-4194-8ab5-ebbb47fcc479"
+    },
+    "Battle_Top_Bar_4": {
+      "__uuid__": "ae9e5e8b-d557-403c-84fb-2c3cf7a116b7"
+    },
+    "Battle_Top_Bar_5": {
+      "__uuid__": "ee02bc80-28ed-4959-b8f8-f3d382d6f1a3"
+    },
+    "Battle_Top_Bg_0": {
+      "__uuid__": "61f77f07-3588-463e-ada0-b8eea69bcb70"
+    },
+    "Battle_Top_Bg_1": {
+      "__uuid__": "74a394a4-8657-4f48-b3de-e65d7efbad36"
+    },
+    "Battle_Top_Bg_2": {
+      "__uuid__": "7ce50669-1efd-4687-a025-26fa3a2f3aa4"
+    },
+    "Battle_Top_Number_0": {
+      "__uuid__": "2846ab96-7282-4228-8017-88656e1c9ec2"
+    },
+    "Battle_Top_Number_0_1": {
+      "__uuid__": "d1b8f57e-dda8-465b-975c-c4b22581d994"
+    },
+    "Battle_Txt_Bg": {
+      "__uuid__": "c60c86a3-bf2d-46e9-8ec0-18e88c1215f6"
+    },
+    "Battle_WallHP_0": {
+      "__uuid__": "89c7981f-6c9a-4874-8819-b3a944e7f4a1"
+    },
+    "Battle_WallHP_1": {
+      "__uuid__": "1bd09900-f68c-4ed8-a917-0d93d4a4fdbe"
+    },
+    "Battle_WallHP_2": {
+      "__uuid__": "68a13c6b-1257-46f2-8d1e-53a2c2eae1e8"
+    },
+    "Battle_WallHP_3": {
+      "__uuid__": "1974281c-79bd-4339-9569-b560a165e7dc"
+    },
+    "Battle_WallHP_Bg": {
+      "__uuid__": "b95bff31-85a6-416b-87b1-5030a05dc7b7"
+    },
+    "Battle_Warning_0": {
+      "__uuid__": "0a5a3f27-f916-4a50-9c42-8507b855b5b4"
+    },
+    "Battle_Warning_1": {
+      "__uuid__": "e0e56223-7dfe-4ee3-b001-fffe8890020b"
+    },
+    "Buff_Icon_1": {
+      "__uuid__": "a7c395ab-8bc8-4ae4-9f41-2a8c07b23fb6"
+    },
+    "Buff_Icon_10": {
+      "__uuid__": "57333530-094a-45fd-bf4e-5e5d4234f67e"
+    },
+    "Buff_Icon_2": {
+      "__uuid__": "34d9a341-c529-4273-8c4a-5711de2d6683"
+    },
+    "Buff_Icon_3": {
+      "__uuid__": "3ba169ad-0dda-4734-b12a-a571f26c5679"
+    },
+    "Buff_Icon_4": {
+      "__uuid__": "d8741076-c86a-406d-a27a-668bfbd7b53c"
+    },
+    "Buff_Icon_5": {
+      "__uuid__": "dfa3a3f5-46b4-4cf9-9846-5e435cbc03f2"
+    },
+    "Buff_Icon_6": {
+      "__uuid__": "c494ed1b-cf8c-44e5-90dc-99cd1e527f1e"
+    },
+    "Buff_Icon_7": {
+      "__uuid__": "fb2002e0-1074-492f-a93c-28b44b5dcff5"
+    },
+    "Buff_Icon_8": {
+      "__uuid__": "b1add658-a3c7-4673-bd78-94f26731a6b1"
+    },
+    "Buff_Icon_9": {
+      "__uuid__": "d4009ee3-1344-45fb-8c91-97f69af281db"
+    },
+    "Common_Line_0": {
+      "__uuid__": "a2a16616-fd6c-4299-8d03-cd5d32cbab3f"
+    },
+    "Data_Bar_0": {
+      "__uuid__": "17eee370-b5c0-41b6-b9af-e60fe4604f8e"
+    },
+    "Data_Bar_0_1": {
+      "__uuid__": "0ebb0e3d-b27c-4d10-b2eb-cd2a9f855b60"
+    },
+    "Data_Bar_1": {
+      "__uuid__": "0247eaef-24ed-4ea8-b672-775a5ddbe3ad"
+    },
+    "Data_Bar_1_1": {
+      "__uuid__": "9ff59380-1158-4f2a-896a-75eda0dc421d"
+    },
+    "Data_Bar_2": {
+      "__uuid__": "3573b5a3-4f50-45bf-9b8f-45015454bc3e"
+    },
+    "Data_Bg_0": {
+      "__uuid__": "3324af17-a6ec-44fb-bf14-a7d629326329"
+    },
+    "Data_Bg_1": {
+      "__uuid__": "0dd57577-861d-46c2-9852-b535ef41b9e8"
+    },
+    "Data_Bg_2": {
+      "__uuid__": "c45a0085-1d56-4eaf-9fd1-b64144cce734"
+    },
+    "Data_Icon_0": {
+      "__uuid__": "a89b1419-7bd0-4207-a34d-85d15d7713b8"
+    },
+    "Data_Icon_1": {
+      "__uuid__": "8cd45361-a794-407a-a152-a98f90961a1d"
+    },
+    "Debuff_Icon_1": {
+      "__uuid__": "2a6120ca-429c-4dc1-8ec9-ded79e45c711"
+    },
+    "Debuff_Icon_10": {
+      "__uuid__": "e9523bf2-6bba-49c0-adc0-22a640b2b58a"
+    },
+    "Debuff_Icon_2": {
+      "__uuid__": "c5419c0c-7bf4-4fe6-a59d-2ba1080e694d"
+    },
+    "Debuff_Icon_3": {
+      "__uuid__": "01cecb13-fc92-4158-b26f-4c6236322dc2"
+    },
+    "Debuff_Icon_4": {
+      "__uuid__": "c73cb9fd-b9f9-41fa-ba98-23dc4cc63a7a"
+    },
+    "Debuff_Icon_5": {
+      "__uuid__": "4114b8af-489f-41e7-a2df-93dcccffc9f9"
+    },
+    "Debuff_Icon_6": {
+      "__uuid__": "934351c1-2fd9-48f7-897a-cb8f9d9fb56f"
+    },
+    "Debuff_Icon_7": {
+      "__uuid__": "ed7775a2-75e3-4563-9ee5-0f32df773078"
+    },
+    "Debuff_Icon_8": {
+      "__uuid__": "142d1c6a-6714-4952-b903-c230217f7624"
+    },
+    "Debuff_Icon_9": {
+      "__uuid__": "bf750c85-5b45-4c6d-8239-a6bd93963548"
+    },
+    "End_Acquired": {
+      "__uuid__": "59f50d55-6707-481e-a7b6-ebe3adec65bd"
+    },
+    "End_Bar_0": {
+      "__uuid__": "adf133ba-eb31-45d6-88f3-d63f927865a2"
+    },
+    "End_Bar_1": {
+      "__uuid__": "f8efaa19-6a3c-4e04-86bf-da6bac023d1e"
+    },
+    "End_Bg_0": {
+      "__uuid__": "01ec4e95-ded1-473f-bf88-94b87cbf9a47"
+    },
+    "End_Bg_1": {
+      "__uuid__": "9078cd66-9b8a-46f3-8907-bbba657e9485"
+    },
+    "End_Bg_2": {
+      "__uuid__": "24f01868-d447-44e7-9b21-f4d9b17564f5"
+    },
+    "End_Bg_2_1": {
+      "__uuid__": "da60a913-80b2-4314-8ff4-1c48c7e71405"
+    },
+    "End_Bg_3": {
+      "__uuid__": "faf4f246-ce6b-4161-beab-de9f4f585177"
+    },
+    "End_Bg_4": {
+      "__uuid__": "6f404715-f1b8-4c24-817e-05663068286c"
+    },
+    "End_Btn_Data": {
+      "__uuid__": "a9323475-f801-422c-ac11-c85e83980ac7"
+    },
+    "End_Btn_Go": {
+      "__uuid__": "c5faa260-45f7-4850-9c5c-97e8dd5d4318"
+    },
+    "End_Btn_Home": {
+      "__uuid__": "a3dfa1a1-2d71-4bbc-8e13-99d1a8d1938f"
+    },
+    "End_Icon_0": {
+      "__uuid__": "c66372d0-17eb-4f2f-b26e-6f809c3db4e8"
+    },
+    "End_Icon_Ads": {
+      "__uuid__": "7a31b650-26a4-4ffb-8902-4b91e30784ca"
+    },
+    "End_Light_0": {
+      "__uuid__": "6cfa3a07-cbbe-4a41-b417-0343505c72d8"
+    },
+    "End_Message_Bg": {
+      "__uuid__": "26cc5724-2379-4a2b-8be5-acf799637f9f"
+    },
+    "End_Star_0": {
+      "__uuid__": "7b683036-e623-4461-910e-29f183805f82"
+    },
+    "End_Star_0_S": {
+      "__uuid__": "2e134327-aeb8-4aae-8c3d-36fd831baacb"
+    },
+    "End_Star_1": {
+      "__uuid__": "aaf37638-bb6d-4593-ba10-7c2159710485"
+    },
+    "End_Star_1_S": {
+      "__uuid__": "6a1e4448-2c8b-4da7-a67d-8e0a68366422"
+    },
+    "End_Tick": {
+      "__uuid__": "ed0656cb-c8c0-4d0d-a1ad-31755ef0c3f9"
+    },
+    "End_Title_0": {
+      "__uuid__": "7f4fdfc1-4148-4599-afc6-ecd3bd005654"
+    },
+    "End_Title_1": {
+      "__uuid__": "6cfaf4d2-76bb-464e-bc7b-c245c5df1954"
+    },
+    "FuHuo_Bg_wall": {
+      "__uuid__": "5a37c2c4-62c7-4c59-84c8-e91fa772164a"
+    },
+    "FuHuo_Icon_Ads": {
+      "__uuid__": "5400a410-38ff-41c7-82e4-42d390386630"
+    },
+    "LevelUp_Bg_1": {
+      "__uuid__": "4ab21db6-b062-49a2-a258-070b8f7276c3"
+    },
+    "Monster_Shadow": {
+      "__uuid__": "24c7283a-5c82-45d1-91d5-51113f178bb7"
+    },
+    "Pause_Bg_0": {
+      "__uuid__": "bf4780e3-7583-4dca-8afb-f06fc7dde3db"
+    },
+    "Pause_Btn_0": {
+      "__uuid__": "44cb0125-1130-41ae-a844-541c78aef6b6"
+    },
+    "Pause_Btn_1": {
+      "__uuid__": "9620c311-6d42-4d9e-bc6a-2dd55d1abca4"
+    },
+    "Pause_Btn_1_1": {
+      "__uuid__": "8be8dd23-60fe-4a52-9f20-34094b75a0a5"
+    },
+    "Pause_Btn_2": {
+      "__uuid__": "de3de48f-cd98-4a68-bb00-7d260ae2bdd6"
+    },
+    "Pause_Btn_2_1": {
+      "__uuid__": "3a4c3e35-be87-44ab-9c7c-1cfd6127d913"
+    },
+    "Pause_Line": {
+      "__uuid__": "4db951be-197d-4e5b-b0ea-5a50c8744b72"
+    },
+    "Setting_Bar_0": {
+      "__uuid__": "7cbc1124-13fe-42e7-b374-9fdb1dd6fae8"
+    },
+    "Setting_Bar_0_1": {
+      "__uuid__": "7673270a-cf25-45f0-bd25-e95dff47da3e"
+    },
+    "Setting_Bar_1": {
+      "__uuid__": "706124cc-e4fd-4dab-986d-5c96eb4aecfa"
+    },
+    "Setting_Music_0": {
+      "__uuid__": "1e95ffee-877e-4f4e-b324-9b2db51b10d7"
+    },
+    "Setting_Music_1": {
+      "__uuid__": "659eecc2-0a44-4bb3-af8a-70b2cfa0df67"
+    },
+    "Setting_Sound_0": {
+      "__uuid__": "3867ab02-5d72-4890-b0e6-b00170613674"
+    },
+    "Setting_Sound_1": {
+      "__uuid__": "555298ab-c13f-42a0-99bd-75d085de000f"
+    }
+  }
+}

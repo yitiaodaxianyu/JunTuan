@@ -1,0 +1,101 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "BigMap.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Map_Bg_0": {
+      "__uuid__": "119a14dc-361e-433f-80ab-900bb38696df"
+    },
+    "Map_Bg_2": {
+      "__uuid__": "353af188-4de1-46a2-95ef-867a88728eff"
+    },
+    "Map_Bg_3": {
+      "__uuid__": "086ea936-85fe-44ad-b916-13f7268c71d2"
+    },
+    "Map_Bg_4": {
+      "__uuid__": "f49f6028-3ab0-4828-859b-ca3657efe8b9"
+    },
+    "Map_Bg_5": {
+      "__uuid__": "eb344325-cb64-4310-85b2-bd5cdfccb2c7"
+    },
+    "Map_Chapter_1": {
+      "__uuid__": "a68b709e-2f7f-44de-9c87-d2a378713b33"
+    },
+    "Map_Chapter_10": {
+      "__uuid__": "9704f4fa-67d9-4309-99a2-911ad0129e06"
+    },
+    "Map_Chapter_2": {
+      "__uuid__": "0abe88f2-16e5-45a4-a070-6eeac32a61a9"
+    },
+    "Map_Chapter_3": {
+      "__uuid__": "bd63ccbf-fb00-4c91-9b7b-019019653937"
+    },
+    "Map_Chapter_4": {
+      "__uuid__": "1c77aaca-0854-475c-8bf0-4327ad3b0969"
+    },
+    "Map_Chapter_5": {
+      "__uuid__": "c31edfbb-8462-4a12-89e1-01021ce3d774"
+    },
+    "Map_Chapter_6": {
+      "__uuid__": "bcea00e3-dcc0-4301-baa5-0545dc358624"
+    },
+    "Map_Chapter_7": {
+      "__uuid__": "1890c768-69d1-44bc-ac1e-37202f4d2b20"
+    },
+    "Map_Chapter_8": {
+      "__uuid__": "712485f0-2443-4811-8dd6-7894ba0870c2"
+    },
+    "Map_Chapter_9": {
+      "__uuid__": "05958f74-2f46-4d73-ae48-943a6e460d6b"
+    },
+    "Map_Cloud_0": {
+      "__uuid__": "f6fa9f1f-d29a-44d2-8684-bc70bce8b86a"
+    },
+    "Map_Cloud_1": {
+      "__uuid__": "2e8aee37-b02d-41c6-8736-ff9f68f77894"
+    },
+    "Map_Cloud_2": {
+      "__uuid__": "67d88dd8-5d15-4c08-98c1-2869b6bf6ee5"
+    },
+    "Map_Flag_0": {
+      "__uuid__": "b2b23dad-c3b5-4b27-828b-4c61b6bf0052"
+    },
+    "Map_Flag_1": {
+      "__uuid__": "c1e5e401-e3bf-4a46-96ba-56a72b5c18fe"
+    },
+    "Map_Sword": {
+      "__uuid__": "a256efa1-6619-4c85-9690-d66d7008d2d4"
+    },
+    "Map_Window_1": {
+      "__uuid__": "f7cb7fd9-7a91-4f1c-9c25-9abebb859ebb"
+    },
+    "Map_Window_10": {
+      "__uuid__": "4e1e992c-4a58-43be-82c2-4b4930d66c2b"
+    },
+    "Map_Window_2": {
+      "__uuid__": "8e621695-1221-44de-aa4f-32a0ec21c74f"
+    },
+    "Map_Window_3": {
+      "__uuid__": "6f06f9bf-ee6b-4374-9960-ea22f586c169"
+    },
+    "Map_Window_4": {
+      "__uuid__": "35c305de-382e-4ca9-8369-5ec25ca003a3"
+    },
+    "Map_Window_5": {
+      "__uuid__": "dbe34ee4-55c0-461f-86c2-474c0d84a505"
+    },
+    "Map_Window_6": {
+      "__uuid__": "e9ea64e5-2b26-42ff-9cc1-79116c3409ef"
+    },
+    "Map_Window_7": {
+      "__uuid__": "2d2d8b45-fd74-47cf-8a97-b98b1b888905"
+    },
+    "Map_Window_8": {
+      "__uuid__": "36b3d4a1-efe1-4b9f-b1af-75ade54def58"
+    },
+    "Map_Window_9": {
+      "__uuid__": "79d088b6-dc71-4f85-9589-fe99bf330a40"
+    }
+  }
+}

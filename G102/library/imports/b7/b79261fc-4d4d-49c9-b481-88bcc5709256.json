@@ -1,0 +1,20 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "elite8.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Monster_67_Attack_00": {
+      "__uuid__": "04b36f1b-ff9a-4b5f-82d6-185fefeacc79"
+    },
+    "Monster_67_Attack_01": {
+      "__uuid__": "00752c3d-4355-42cb-a8b0-2a37d5a336a0"
+    },
+    "Monster_67_Attack_02": {
+      "__uuid__": "e6d8b5b5-675b-4dc7-b6db-a13d4e971a82"
+    },
+    "Monster_67_Attack_03": {
+      "__uuid__": "a1318efd-41c9-41ed-a812-b644864fb25b"
+    }
+  }
+}

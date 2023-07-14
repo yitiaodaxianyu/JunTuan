@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Boss10_Skill2_ZhaoHuan",
+    "texture": "af61e0e1-df0a-4dab-bb61-f44f03bcd54e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      322,
+      431
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      322,
+      431
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Common_Star_3",
+    "texture": "be8318b6-99cd-4045-9a1f-ddfdf7717d0b",
+    "atlas": "b0688a99-30a6-4600-bba9-8bbec2e61311",
+    "rect": [
+      209,
+      1148,
+      27,
+      50
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      27,
+      50
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

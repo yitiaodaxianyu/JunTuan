@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "KuangZhan_Side",
+    "texture": "16aade05-4962-4e53-97ba-76eb80856471",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1191,
+      409
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1191,
+      409
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

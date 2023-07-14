@@ -1,0 +1,26 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "reward_ss_hero_ui.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Bonus_Bg_0": {
+      "__uuid__": "24ab6b13-d407-43fa-ba4e-2dc454685448"
+    },
+    "Bonus_Bg_1": {
+      "__uuid__": "76b85e5a-60fc-4151-b642-6b8a81b6c72e"
+    },
+    "Bonus_Card_1": {
+      "__uuid__": "6e6b40a8-7ba7-486f-90d7-4bc81afd50e4"
+    },
+    "Bonus_Card_2": {
+      "__uuid__": "6a77a953-a449-407a-bdde-ff9a3b84f9af"
+    },
+    "Bonus_Card_3": {
+      "__uuid__": "73c7ba2f-c21c-475c-aad4-4a2f4fb65d82"
+    },
+    "Bonus_Line": {
+      "__uuid__": "2072d93b-67c0-468b-b7c0-ba740c46a44c"
+    }
+  }
+}

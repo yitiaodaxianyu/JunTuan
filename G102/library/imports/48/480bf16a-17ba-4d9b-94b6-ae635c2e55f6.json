@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Pet_Huo_AttackHit2_14",
+    "texture": "5f99c752-f700-4578-aad7-6eacd94b3ea8",
+    "atlas": "f4299e07-e1a1-4ee6-b903-8dfa05496286",
+    "rect": [
+      606,
+      759,
+      198,
+      200
+    ],
+    "offset": [
+      -1,
+      0
+    ],
+    "originalSize": [
+      200,
+      200
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "AccumulatedInformation",
+  "_objFlags": 0,
+  "_native": "",
+  "json": [
+    {
+      "AccumulatedPointsID": 102001,
+      "TaskType": 1,
+      "AccumulatedPoints": 20,
+      "PropID_1": 10001,
+      "PropNum_1": 3000
+    },
+    {
+      "AccumulatedPointsID": 104002,
+      "TaskType": 1,
+      "AccumulatedPoints": 40,
+      "PropID_1": 10002,
+      "PropNum_1": 200
+    },
+    {
+      "AccumulatedPointsID": 106003,
+      "TaskType": 1,
+      "AccumulatedPoints": 60,
+      "PropID_1": 10001,
+      "PropNum_1": 5000
+    },
+    {
+      "AccumulatedPointsID": 108004,
+      "TaskType": 1,
+      "AccumulatedPoints": 80,
+      "PropID_1": 10002,
+      "PropNum_1": 200
+    },
+    {
+      "AccumulatedPointsID": 110005,
+      "TaskType": 1,
+      "AccumulatedPoints": 100,
+      "PropID_1": 10001,
+      "PropNum_1": 8000
+    },
+    {
+      "AccumulatedPointsID": 210006,
+      "TaskType": 2,
+      "AccumulatedPoints": 100,
+      "PropID_1": 10002,
+      "PropNum_1": 500
+    },
+    {
+      "AccumulatedPointsID": 220007,
+      "TaskType": 2,
+      "AccumulatedPoints": 200,
+      "PropID_1": 40006,
+      "PropNum_1": 5
+    },
+    {
+      "AccumulatedPointsID": 230008,
+      "TaskType": 2,
+      "AccumulatedPoints": 300,
+      "PropID_1": 101004,
+      "PropNum_1": 20
+    },
+    {
+      "AccumulatedPointsID": 240009,
+      "TaskType": 2,
+      "AccumulatedPoints": 400,
+      "PropID_1": 40006,
+      "PropNum_1": 5
+    },
+    {
+      "AccumulatedPointsID": 250010,
+      "TaskType": 2,
+      "AccumulatedPoints": 500,
+      "PropID_1": 40004,
+      "PropNum_1": 10
+    }
+  ]
+}

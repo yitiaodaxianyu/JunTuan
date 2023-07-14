@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Gunner_Tail",
+    "texture": "68db0851-1202-464b-a85b-24ab09a97f09",
+    "atlas": "",
+    "rect": [
+      3,
+      4,
+      39,
+      81
+    ],
+    "offset": [
+      0,
+      -2
+    ],
+    "originalSize": [
+      45,
+      85
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+
+Archer_Side.png
+size: 899,277
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+aaa14
+  rotate: false
+  xy: 758, 6
+  size: 43, 46
+  orig: 43, 46
+  offset: 0, 0
+  index: -1
+aaa15
+  rotate: true
+  xy: 607, 87
+  size: 190, 112
+  orig: 190, 112
+  offset: 0, 0
+  index: -1
+aaa16
+  rotate: true
+  xy: 815, 0
+  size: 55, 53
+  orig: 55, 53
+  offset: 0, 0
+  index: -1
+aaa17
+  rotate: true
+  xy: 253, 20
+  size: 257, 127
+  orig: 261, 129
+  offset: 2, 1
+  index: -1
+aaa18
+  rotate: false
+  xy: 382, 33
+  size: 223, 244
+  orig: 223, 244
+  offset: 0, 0
+  index: -1
+aaa19
+  rotate: true
+  xy: 721, 209
+  size: 68, 35
+  orig: 68, 35
+  offset: 0, 0
+  index: -1
+aaa20
+  rotate: false
+  xy: 607, 6
+  size: 87, 79
+  orig: 87, 79
+  offset: 0, 0
+  index: -1
+aaa21
+  rotate: false
+  xy: 758, 115
+  size: 141, 162
+  orig: 141, 162
+  offset: 0, 0
+  index: -1
+aaa22
+  rotate: false
+  xy: 696, 13
+  size: 60, 72
+  orig: 60, 73
+  offset: 0, 0
+  index: -1
+aaa23
+  rotate: false
+  xy: 471, 6
+  size: 58, 25
+  orig: 58, 25
+  offset: 0, 0
+  index: -1
+aaa24
+  rotate: false
+  xy: 721, 157
+  size: 34, 50
+  orig: 34, 50
+  offset: 0, 0
+  index: -1
+aaa25
+  rotate: true
+  xy: 441, 2
+  size: 29, 28
+  orig: 29, 28
+  offset: 0, 0
+  index: -1
+aaa26
+  rotate: true
+  xy: 382, 0
+  size: 31, 57
+  orig: 31, 57
+  offset: 0, 0
+  index: -1
+aaa27
+  rotate: false
+  xy: 815, 57
+  size: 58, 56
+  orig: 58, 56
+  offset: 0, 0
+  index: -1
+aaa28
+  rotate: false
+  xy: 721, 103
+  size: 33, 52
+  orig: 33, 52
+  offset: 0, 0
+  index: -1
+aaa29
+  rotate: true
+  xy: 758, 54
+  size: 59, 55
+  orig: 60, 55
+  offset: 0, 0
+  index: -1
+aaa30
+  rotate: true
+  xy: 0, 5
+  size: 272, 251
+  orig: 272, 251
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "FX_ClickBule_08",
+    "texture": "0767f6ea-6dd3-452a-9a5e-ccafebc33167",
+    "atlas": "6be7e9b0-0b27-473a-9e37-6101e12ac38e",
+    "rect": [
+      112,
+      352,
+      98,
+      98
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      120,
+      120
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,895 @@
+
+03_01.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/cemian/bg
+  rotate: true
+  xy: 326, 53
+  size: 97, 81
+  orig: 97, 81
+  offset: 0, 0
+  index: -1
+images/cemian/cemianqiang
+  rotate: false
+  xy: 2, 11
+  size: 106, 139
+  orig: 106, 139
+  offset: 0, 0
+  index: -1
+images/cemian/rjian
+  rotate: false
+  xy: 1265, 219
+  size: 29, 32
+  orig: 29, 32
+  offset: 0, 0
+  index: -1
+images/shengji/stage11/ce/rjian
+  rotate: false
+  xy: 1265, 219
+  size: 29, 32
+  orig: 29, 32
+  offset: 0, 0
+  index: -1
+images/shengji/stage3/ce/rjian
+  rotate: false
+  xy: 1265, 219
+  size: 29, 32
+  orig: 29, 32
+  offset: 0, 0
+  index: -1
+images/shengji/stage5/ce/rjian
+  rotate: false
+  xy: 1265, 219
+  size: 29, 32
+  orig: 29, 32
+  offset: 0, 0
+  index: -1
+images/shengji/stage6/ce/rjian
+  rotate: false
+  xy: 1265, 219
+  size: 29, 32
+  orig: 29, 32
+  offset: 0, 0
+  index: -1
+images/cemian/rshou
+  rotate: false
+  xy: 545, 113
+  size: 45, 52
+  orig: 45, 52
+  offset: 0, 0
+  index: -1
+images/cemian/shenti
+  rotate: true
+  xy: 1619, 220
+  size: 48, 51
+  orig: 48, 51
+  offset: 0, 0
+  index: -1
+images/cemian/tou
+  rotate: true
+  xy: 990, 303
+  size: 66, 71
+  orig: 66, 71
+  offset: 0, 0
+  index: -1
+images/cemian/tui
+  rotate: false
+  xy: 1717, 330
+  size: 61, 58
+  orig: 61, 58
+  offset: 0, 0
+  index: -1
+images/qiangfx/0
+  rotate: false
+  xy: 2, 332
+  size: 201, 178
+  orig: 201, 178
+  offset: 0, 0
+  index: -1
+images/qiangfx/1
+  rotate: false
+  xy: 2, 152
+  size: 201, 178
+  orig: 201, 178
+  offset: 0, 0
+  index: -1
+images/qiangfx/2
+  rotate: false
+  xy: 205, 332
+  size: 201, 178
+  orig: 201, 178
+  offset: 0, 0
+  index: -1
+images/qiangfx/3
+  rotate: false
+  xy: 205, 152
+  size: 201, 178
+  orig: 201, 178
+  offset: 0, 0
+  index: -1
+images/qiangfx/4
+  rotate: false
+  xy: 408, 332
+  size: 201, 178
+  orig: 201, 178
+  offset: 0, 0
+  index: -1
+images/shengji/stage10/ce/cemianqiang
+  rotate: false
+  xy: 1151, 371
+  size: 106, 139
+  orig: 106, 139
+  offset: 0, 0
+  index: -1
+images/shengji/stage10/ce/rjian
+  rotate: false
+  xy: 1268, 185
+  size: 29, 32
+  orig: 29, 32
+  offset: 0, 0
+  index: -1
+images/shengji/stage10/ce/rshou
+  rotate: true
+  xy: 796, 149
+  size: 45, 52
+  orig: 45, 52
+  offset: 0, 0
+  index: -1
+images/shengji/stage10/ce/shenti
+  rotate: true
+  xy: 983, 245
+  size: 56, 59
+  orig: 56, 59
+  offset: 0, 0
+  index: -1
+images/shengji/stage10/ce/tou
+  rotate: false
+  xy: 409, 45
+  size: 66, 71
+  orig: 66, 71
+  offset: 0, 0
+  index: -1
+images/shengji/stage10/zheng/lshou1
+  rotate: false
+  xy: 1299, 189
+  size: 24, 28
+  orig: 24, 28
+  offset: 0, 0
+  index: -1
+images/shengji/stage8/zheng/lshou1
+  rotate: false
+  xy: 1299, 189
+  size: 24, 28
+  orig: 24, 28
+  offset: 0, 0
+  index: -1
+images/zhengmian/lshou1
+  rotate: false
+  xy: 1299, 189
+  size: 24, 28
+  orig: 24, 28
+  offset: 0, 0
+  index: -1
+images/shengji/stage10/zheng/qiang1
+  rotate: true
+  xy: 1367, 451
+  size: 59, 167
+  orig: 59, 167
+  offset: 0, 0
+  index: -1
+images/shengji/stage10/zheng/rshou1
+  rotate: false
+  xy: 761, 204
+  size: 33, 39
+  orig: 33, 39
+  offset: 0, 0
+  index: -1
+images/shengji/stage10/zheng/shenti
+  rotate: true
+  xy: 1847, 336
+  size: 52, 65
+  orig: 52, 65
+  offset: 0, 0
+  index: -1
+images/shengji/stage10/zheng/tou
+  rotate: true
+  xy: 840, 306
+  size: 63, 74
+  orig: 63, 74
+  offset: 0, 0
+  index: -1
+images/shengji/stage10/zheng/tui
+  rotate: false
+  xy: 1981, 331
+  size: 61, 57
+  orig: 61, 57
+  offset: 0, 0
+  index: -1
+images/shengji/stage11/ce/cemianqiang
+  rotate: false
+  xy: 1259, 371
+  size: 106, 139
+  orig: 106, 139
+  offset: 0, 0
+  index: -1
+images/shengji/stage11/ce/rshou
+  rotate: false
+  xy: 714, 128
+  size: 45, 52
+  orig: 45, 52
+  offset: 0, 0
+  index: -1
+images/shengji/stage11/ce/shenti
+  rotate: true
+  xy: 1150, 203
+  size: 48, 51
+  orig: 48, 51
+  offset: 0, 0
+  index: -1
+images/shengji/stage11/ce/tou
+  rotate: false
+  xy: 477, 94
+  size: 66, 71
+  orig: 66, 71
+  offset: 0, 0
+  index: -1
+images/shengji/stage11/zheng/lshou1
+  rotate: false
+  xy: 1778, 239
+  size: 24, 28
+  orig: 24, 28
+  offset: 0, 0
+  index: -1
+images/shengji/stage11/zheng/qiang1
+  rotate: true
+  xy: 1367, 390
+  size: 59, 167
+  orig: 59, 167
+  offset: 0, 0
+  index: -1
+images/shengji/stage11/zheng/rshou1
+  rotate: false
+  xy: 761, 163
+  size: 33, 39
+  orig: 33, 39
+  offset: 0, 0
+  index: -1
+images/shengji/stage11/zheng/shenti
+  rotate: true
+  xy: 1914, 336
+  size: 52, 65
+  orig: 52, 65
+  offset: 0, 0
+  index: -1
+images/shengji/stage11/zheng/tou
+  rotate: true
+  xy: 916, 306
+  size: 63, 72
+  orig: 63, 72
+  offset: 0, 0
+  index: -1
+images/shengji/stage11/zheng/tui
+  rotate: false
+  xy: 1420, 270
+  size: 61, 57
+  orig: 61, 57
+  offset: 0, 0
+  index: -1
+images/shengji/stage2/ce/cemianqiang
+  rotate: false
+  xy: 408, 191
+  size: 106, 139
+  orig: 106, 139
+  offset: 0, 0
+  index: -1
+images/shengji/stage2/ce/rjian
+  rotate: false
+  xy: 1296, 219
+  size: 29, 32
+  orig: 29, 32
+  offset: 0, 0
+  index: -1
+images/shengji/stage2/ce/rshou
+  rotate: true
+  xy: 1349, 228
+  size: 45, 52
+  orig: 45, 52
+  offset: 0, 0
+  index: -1
+images/shengji/stage2/ce/shenti
+  rotate: true
+  xy: 1672, 219
+  size: 48, 51
+  orig: 48, 51
+  offset: 0, 0
+  index: -1
+images/shengji/stage2/ce/tou
+  rotate: true
+  xy: 1063, 303
+  size: 66, 71
+  orig: 66, 71
+  offset: 0, 0
+  index: -1
+images/shengji/stage2/zheng/lshou1
+  rotate: false
+  xy: 1804, 241
+  size: 24, 28
+  orig: 24, 28
+  offset: 0, 0
+  index: -1
+images/shengji/stage2/zheng/qiang1
+  rotate: true
+  xy: 1536, 451
+  size: 59, 167
+  orig: 59, 167
+  offset: 0, 0
+  index: -1
+images/shengji/stage4/zheng/qiang1
+  rotate: true
+  xy: 1536, 451
+  size: 59, 167
+  orig: 59, 167
+  offset: 0, 0
+  index: -1
+images/shengji/stage5/zheng/qiang1
+  rotate: true
+  xy: 1536, 451
+  size: 59, 167
+  orig: 59, 167
+  offset: 0, 0
+  index: -1
+images/shengji/stage2/zheng/rshou1
+  rotate: true
+  xy: 387, 2
+  size: 29, 35
+  orig: 29, 35
+  offset: 0, 0
+  index: -1
+images/shengji/stage2/zheng/shenti
+  rotate: true
+  xy: 326, 3
+  size: 48, 59
+  orig: 48, 59
+  offset: 0, 0
+  index: -1
+images/shengji/stage2/zheng/tou
+  rotate: true
+  xy: 477, 33
+  size: 59, 68
+  orig: 59, 68
+  offset: 0, 0
+  index: -1
+images/shengji/stage2/zheng/tui
+  rotate: false
+  xy: 1483, 270
+  size: 61, 57
+  orig: 61, 57
+  offset: 0, 0
+  index: -1
+images/shengji/stage3/ce/cemianqiang
+  rotate: false
+  xy: 611, 371
+  size: 106, 139
+  orig: 106, 139
+  offset: 0, 0
+  index: -1
+images/shengji/stage3/ce/rshou
+  rotate: true
+  xy: 1403, 223
+  size: 45, 52
+  orig: 45, 52
+  offset: 0, 0
+  index: -1
+images/shengji/stage3/ce/shenti
+  rotate: true
+  xy: 1725, 219
+  size: 48, 51
+  orig: 48, 51
+  offset: 0, 0
+  index: -1
+images/shengji/stage3/ce/tou
+  rotate: true
+  xy: 1136, 303
+  size: 66, 71
+  orig: 66, 71
+  offset: 0, 0
+  index: -1
+images/shengji/stage3/zheng/lshou1
+  rotate: false
+  xy: 1778, 209
+  size: 24, 28
+  orig: 24, 28
+  offset: 0, 0
+  index: -1
+images/shengji/stage3/zheng/qiang1
+  rotate: true
+  xy: 1536, 390
+  size: 59, 167
+  orig: 59, 167
+  offset: 0, 0
+  index: -1
+images/shengji/stage3/zheng/rshou1
+  rotate: true
+  xy: 424, 2
+  size: 29, 35
+  orig: 29, 35
+  offset: 0, 0
+  index: -1
+images/shengji/stage3/zheng/shenti
+  rotate: true
+  xy: 1044, 253
+  size: 48, 59
+  orig: 48, 59
+  offset: 0, 0
+  index: -1
+images/shengji/stage3/zheng/tou
+  rotate: true
+  xy: 1367, 329
+  size: 59, 68
+  orig: 59, 68
+  offset: 0, 0
+  index: -1
+images/shengji/stage3/zheng/tui
+  rotate: false
+  xy: 1546, 270
+  size: 61, 57
+  orig: 61, 57
+  offset: 0, 0
+  index: -1
+images/shengji/stage4/ce/cemianqiang
+  rotate: false
+  xy: 110, 11
+  size: 106, 139
+  orig: 106, 139
+  offset: 0, 0
+  index: -1
+images/shengji/stage4/ce/rjian
+  rotate: true
+  xy: 667, 146
+  size: 29, 32
+  orig: 29, 32
+  offset: 0, 0
+  index: -1
+images/shengji/stage4/ce/rshou
+  rotate: true
+  xy: 1457, 223
+  size: 45, 52
+  orig: 45, 52
+  offset: 0, 0
+  index: -1
+images/shengji/stage4/ce/shenti
+  rotate: true
+  xy: 794, 99
+  size: 48, 51
+  orig: 48, 51
+  offset: 0, 0
+  index: -1
+images/shengji/stage4/ce/tou
+  rotate: true
+  xy: 1209, 303
+  size: 66, 71
+  orig: 66, 71
+  offset: 0, 0
+  index: -1
+images/shengji/stage4/zheng/lshou1
+  rotate: false
+  xy: 1804, 211
+  size: 24, 28
+  orig: 24, 28
+  offset: 0, 0
+  index: -1
+images/shengji/stage4/zheng/rshou1
+  rotate: true
+  xy: 461, 2
+  size: 29, 35
+  orig: 29, 35
+  offset: 0, 0
+  index: -1
+images/shengji/stage4/zheng/shenti
+  rotate: true
+  xy: 1105, 253
+  size: 48, 59
+  orig: 48, 59
+  offset: 0, 0
+  index: -1
+images/shengji/stage4/zheng/tou
+  rotate: true
+  xy: 1437, 329
+  size: 59, 68
+  orig: 59, 68
+  offset: 0, 0
+  index: -1
+images/shengji/stage4/zheng/tui
+  rotate: false
+  xy: 1609, 270
+  size: 61, 57
+  orig: 61, 57
+  offset: 0, 0
+  index: -1
+images/shengji/stage5/ce/cemianqiang
+  rotate: false
+  xy: 719, 371
+  size: 106, 139
+  orig: 106, 139
+  offset: 0, 0
+  index: -1
+images/shengji/stage5/ce/rshou
+  rotate: true
+  xy: 1511, 223
+  size: 45, 52
+  orig: 45, 52
+  offset: 0, 0
+  index: -1
+images/shengji/stage5/ce/shenti
+  rotate: true
+  xy: 1044, 203
+  size: 48, 51
+  orig: 48, 51
+  offset: 0, 0
+  index: -1
+images/shengji/stage5/ce/tou
+  rotate: true
+  xy: 1282, 303
+  size: 66, 71
+  orig: 66, 71
+  offset: 0, 0
+  index: -1
+images/shengji/stage5/zheng/lshou1
+  rotate: false
+  xy: 1830, 241
+  size: 24, 28
+  orig: 24, 28
+  offset: 0, 0
+  index: -1
+images/shengji/stage5/zheng/rshou1
+  rotate: true
+  xy: 498, 2
+  size: 29, 35
+  orig: 29, 35
+  offset: 0, 0
+  index: -1
+images/shengji/stage5/zheng/shenti
+  rotate: true
+  xy: 1166, 253
+  size: 48, 59
+  orig: 48, 59
+  offset: 0, 0
+  index: -1
+images/shengji/stage5/zheng/tou
+  rotate: true
+  xy: 1507, 329
+  size: 59, 68
+  orig: 59, 68
+  offset: 0, 0
+  index: -1
+images/shengji/stage5/zheng/tui
+  rotate: true
+  xy: 1787, 271
+  size: 61, 57
+  orig: 61, 57
+  offset: 0, 0
+  index: -1
+images/shengji/stage6/ce/cemianqiang
+  rotate: false
+  xy: 218, 11
+  size: 106, 139
+  orig: 106, 139
+  offset: 0, 0
+  index: -1
+images/shengji/stage6/ce/rshou
+  rotate: true
+  xy: 1565, 223
+  size: 45, 52
+  orig: 45, 52
+  offset: 0, 0
+  index: -1
+images/shengji/stage6/ce/shenti
+  rotate: true
+  xy: 1097, 203
+  size: 48, 51
+  orig: 48, 51
+  offset: 0, 0
+  index: -1
+images/shengji/stage6/ce/tou
+  rotate: true
+  xy: 604, 231
+  size: 66, 71
+  orig: 66, 71
+  offset: 0, 0
+  index: -1
+images/shengji/stage6/zheng/lshou1
+  rotate: false
+  xy: 1830, 211
+  size: 24, 28
+  orig: 24, 28
+  offset: 0, 0
+  index: -1
+images/shengji/stage6/zheng/qiang1
+  rotate: true
+  xy: 1705, 451
+  size: 59, 167
+  orig: 59, 167
+  offset: 0, 0
+  index: -1
+images/shengji/stage6/zheng/rshou1
+  rotate: true
+  xy: 535, 2
+  size: 29, 35
+  orig: 29, 35
+  offset: 0, 0
+  index: -1
+images/shengji/stage6/zheng/shenti
+  rotate: true
+  xy: 1227, 253
+  size: 48, 59
+  orig: 48, 59
+  offset: 0, 0
+  index: -1
+images/shengji/stage6/zheng/tou
+  rotate: true
+  xy: 1577, 329
+  size: 59, 68
+  orig: 59, 68
+  offset: 0, 0
+  index: -1
+images/shengji/stage6/zheng/tui
+  rotate: true
+  xy: 677, 236
+  size: 61, 57
+  orig: 61, 57
+  offset: 0, 0
+  index: -1
+images/shengji/stage7/ce/cemianqiang
+  rotate: false
+  xy: 827, 371
+  size: 106, 139
+  orig: 106, 139
+  offset: 0, 0
+  index: -1
+images/shengji/stage7/ce/rjian
+  rotate: false
+  xy: 663, 112
+  size: 29, 32
+  orig: 29, 32
+  offset: 0, 0
+  index: -1
+images/shengji/stage7/ce/rshou
+  rotate: false
+  xy: 667, 177
+  size: 45, 52
+  orig: 45, 52
+  offset: 0, 0
+  index: -1
+images/shengji/stage7/ce/shenti
+  rotate: true
+  xy: 1672, 269
+  size: 58, 55
+  orig: 58, 55
+  offset: 0, 0
+  index: -1
+images/shengji/stage7/ce/tou
+  rotate: true
+  xy: 611, 299
+  size: 70, 75
+  orig: 70, 75
+  offset: 0, 0
+  index: -1
+images/shengji/stage7/zheng/lshou1
+  rotate: false
+  xy: 547, 83
+  size: 24, 28
+  orig: 24, 28
+  offset: 0, 0
+  index: -1
+images/shengji/stage7/zheng/qiang1
+  rotate: true
+  xy: 1705, 390
+  size: 59, 167
+  orig: 59, 167
+  offset: 0, 0
+  index: -1
+images/shengji/stage7/zheng/rshou1
+  rotate: false
+  xy: 1203, 216
+  size: 29, 35
+  orig: 29, 35
+  offset: 0, 0
+  index: -1
+images/shengji/stage7/zheng/shenti
+  rotate: true
+  xy: 1355, 275
+  size: 52, 63
+  orig: 52, 63
+  offset: 0, 0
+  index: -1
+images/shengji/stage7/zheng/tou
+  rotate: true
+  xy: 516, 167
+  size: 65, 76
+  orig: 65, 76
+  offset: 0, 0
+  index: -1
+images/shengji/stage7/zheng/tui
+  rotate: false
+  xy: 736, 245
+  size: 61, 57
+  orig: 61, 57
+  offset: 0, 0
+  index: -1
+images/shengji/stage8/ce/cemianqiang
+  rotate: false
+  xy: 935, 371
+  size: 106, 139
+  orig: 106, 139
+  offset: 0, 0
+  index: -1
+images/shengji/stage8/ce/rjian
+  rotate: true
+  xy: 1203, 185
+  size: 29, 32
+  orig: 29, 32
+  offset: 0, 0
+  index: -1
+images/shengji/stage8/ce/rshou
+  rotate: false
+  xy: 714, 182
+  size: 45, 52
+  orig: 45, 52
+  offset: 0, 0
+  index: -1
+images/shengji/stage8/ce/shenti
+  rotate: false
+  xy: 1729, 269
+  size: 56, 59
+  orig: 56, 59
+  offset: 0, 0
+  index: -1
+images/shengji/stage8/ce/tou
+  rotate: true
+  xy: 594, 163
+  size: 66, 71
+  orig: 66, 71
+  offset: 0, 0
+  index: -1
+images/shengji/stage8/zheng/qiang1
+  rotate: true
+  xy: 1874, 451
+  size: 59, 167
+  orig: 59, 167
+  offset: 0, 0
+  index: -1
+images/shengji/stage8/zheng/rshou1
+  rotate: false
+  xy: 761, 124
+  size: 31, 37
+  orig: 31, 37
+  offset: 0, 0
+  index: -1
+images/shengji/stage8/zheng/shenti
+  rotate: true
+  xy: 592, 105
+  size: 56, 69
+  orig: 56, 69
+  offset: 0, 0
+  index: -1
+images/shengji/stage8/zheng/tou
+  rotate: true
+  xy: 688, 304
+  size: 65, 74
+  orig: 65, 74
+  offset: 0, 0
+  index: -1
+images/shengji/stage8/zheng/tui
+  rotate: false
+  xy: 857, 247
+  size: 61, 57
+  orig: 61, 57
+  offset: 0, 0
+  index: -1
+images/shengji/stage9/ce/cemianqiang
+  rotate: false
+  xy: 1043, 371
+  size: 106, 139
+  orig: 106, 139
+  offset: 0, 0
+  index: -1
+images/shengji/stage9/ce/rjian
+  rotate: false
+  xy: 1237, 182
+  size: 29, 32
+  orig: 29, 32
+  offset: 0, 0
+  index: -1
+images/shengji/stage9/ce/rshou
+  rotate: true
+  xy: 796, 196
+  size: 45, 52
+  orig: 45, 52
+  offset: 0, 0
+  index: -1
+images/shengji/stage9/ce/shenti
+  rotate: false
+  xy: 799, 243
+  size: 56, 59
+  orig: 56, 59
+  offset: 0, 0
+  index: -1
+images/shengji/stage9/ce/tou
+  rotate: false
+  xy: 409, 118
+  size: 66, 71
+  orig: 66, 71
+  offset: 0, 0
+  index: -1
+images/shengji/stage9/zheng/lshou1
+  rotate: false
+  xy: 547, 53
+  size: 24, 28
+  orig: 24, 28
+  offset: 0, 0
+  index: -1
+images/shengji/stage9/zheng/qiang1
+  rotate: true
+  xy: 1874, 390
+  size: 59, 167
+  orig: 59, 167
+  offset: 0, 0
+  index: -1
+images/shengji/stage9/zheng/rshou1
+  rotate: false
+  xy: 1234, 216
+  size: 29, 35
+  orig: 29, 35
+  offset: 0, 0
+  index: -1
+images/zhengmian/rshou1
+  rotate: false
+  xy: 1234, 216
+  size: 29, 35
+  orig: 29, 35
+  offset: 0, 0
+  index: -1
+images/shengji/stage9/zheng/shenti
+  rotate: true
+  xy: 1780, 334
+  size: 54, 65
+  orig: 54, 65
+  offset: 0, 0
+  index: -1
+images/shengji/stage9/zheng/tou
+  rotate: true
+  xy: 764, 304
+  size: 65, 74
+  orig: 65, 74
+  offset: 0, 0
+  index: -1
+images/shengji/stage9/zheng/tui
+  rotate: false
+  xy: 920, 247
+  size: 61, 57
+  orig: 61, 57
+  offset: 0, 0
+  index: -1
+images/zhengmian/bg
+  rotate: true
+  xy: 516, 234
+  size: 96, 86
+  orig: 96, 86
+  offset: 0, 0
+  index: -1
+images/zhengmian/shenti
+  rotate: true
+  xy: 1288, 253
+  size: 48, 59
+  orig: 48, 59
+  offset: 0, 0
+  index: -1
+images/zhengmian/tou
+  rotate: true
+  xy: 1647, 329
+  size: 59, 68
+  orig: 59, 68
+  offset: 0, 0
+  index: -1

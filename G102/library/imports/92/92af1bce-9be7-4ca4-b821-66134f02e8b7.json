@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Maze_Bg_0",
+    "texture": "f406e299-7090-42ab-8b8e-437df0a1a7f5",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      640,
+      1400
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      640,
+      1400
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

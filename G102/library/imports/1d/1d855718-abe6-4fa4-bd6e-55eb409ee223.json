@@ -1,0 +1,71 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "BossWeeklyReward",
+  "_objFlags": 0,
+  "_native": "",
+  "json": [
+    {
+      "RewardGrade": 1,
+      "RewarItem_1": 20003,
+      "RewardNum_1": 12000,
+      "RewarItem_2": 10002,
+      "RewardNum_2": 3600,
+      "RewarItem_3": 40006,
+      "RewardNum_3": 10
+    },
+    {
+      "RewardGrade": 2,
+      "RewarItem_1": 20003,
+      "RewardNum_1": 7500,
+      "RewarItem_2": 10002,
+      "RewardNum_2": 2600,
+      "RewarItem_3": 40006,
+      "RewardNum_3": 10
+    },
+    {
+      "RewardGrade": 3,
+      "RewarItem_1": 20003,
+      "RewardNum_1": 5000,
+      "RewarItem_2": 10002,
+      "RewardNum_2": 1800,
+      "RewarItem_3": 40006,
+      "RewardNum_3": 10
+    },
+    {
+      "RewardGrade": 4,
+      "RewarItem_1": 20003,
+      "RewardNum_1": 2000,
+      "RewarItem_2": 10002,
+      "RewardNum_2": 1200,
+      "RewarItem_3": 40006,
+      "RewardNum_3": 6
+    },
+    {
+      "RewardGrade": 5,
+      "RewarItem_1": 20003,
+      "RewardNum_1": 1200,
+      "RewarItem_2": 10002,
+      "RewardNum_2": 800,
+      "RewarItem_3": 40006,
+      "RewardNum_3": 3
+    },
+    {
+      "RewardGrade": 6,
+      "RewarItem_1": 20003,
+      "RewardNum_1": 500,
+      "RewarItem_2": 10002,
+      "RewardNum_2": 500,
+      "RewarItem_3": 40006,
+      "RewardNum_3": 1
+    },
+    {
+      "RewardGrade": 7,
+      "RewarItem_1": 20003,
+      "RewardNum_1": 300,
+      "RewarItem_2": 10002,
+      "RewardNum_2": 200,
+      "RewarItem_3": 10002,
+      "RewardNum_3": 0
+    }
+  ]
+}

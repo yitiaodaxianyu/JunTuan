@@ -1,0 +1,43 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "Firstgift",
+  "_objFlags": 0,
+  "_native": "",
+  "json": [
+    {
+      "DisplayPosition": 1,
+      "ItemsID": 110008,
+      "ItemsNum": 1
+    },
+    {
+      "DisplayPosition": 2,
+      "ItemsID": 30113,
+      "ItemsNum": 1
+    },
+    {
+      "DisplayPosition": 3,
+      "ItemsID": 30213,
+      "ItemsNum": 1
+    },
+    {
+      "DisplayPosition": 4,
+      "ItemsID": 30313,
+      "ItemsNum": 1
+    },
+    {
+      "DisplayPosition": 5,
+      "ItemsID": 30413,
+      "ItemsNum": 1
+    },
+    {
+      "DisplayPosition": 6,
+      "ItemsID": 10002,
+      "ItemsNum": 600
+    },
+    {
+      "DisplayPosition": 7,
+      "ItemsID": 40004,
+      "ItemsNum": 10
+    }
+  ]
+}

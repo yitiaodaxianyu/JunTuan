@@ -1,0 +1,48 @@
+
+guai_09.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 89
+  size: 96, 40
+  orig: 96, 40
+  offset: 0, 0
+  index: -1
+lshou
+  rotate: false
+  xy: 120, 152
+  size: 57, 67
+  orig: 57, 67
+  offset: 0, 0
+  index: -1
+rshou
+  rotate: false
+  xy: 179, 169
+  size: 42, 50
+  orig: 42, 50
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 2, 131
+  size: 116, 88
+  orig: 116, 88
+  offset: 0, 0
+  index: -1
+tui
+  rotate: false
+  xy: 2, 36
+  size: 55, 51
+  orig: 55, 51
+  offset: 0, 0
+  index: -1
+yan
+  rotate: true
+  xy: 100, 97
+  size: 32, 12
+  orig: 32, 12
+  offset: 0, 0
+  index: -1

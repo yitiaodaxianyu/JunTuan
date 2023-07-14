@@ -1,0 +1,265 @@
+
+Loading_Comic.png
+size: 2023,1328
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Comic_1
+  rotate: true
+  xy: 2, 314
+  size: 1012, 310
+  orig: 1014, 312
+  offset: 1, 1
+  index: -1
+Comic_1_1
+  rotate: false
+  xy: 1186, 865
+  size: 124, 100
+  orig: 126, 102
+  offset: 1, 1
+  index: -1
+Comic_1_2
+  rotate: false
+  xy: 1743, 327
+  size: 138, 105
+  orig: 140, 107
+  offset: 1, 1
+  index: -1
+Comic_1_3
+  rotate: true
+  xy: 1835, 153
+  size: 172, 174
+  orig: 174, 176
+  offset: 1, 1
+  index: -1
+Comic_2
+  rotate: false
+  xy: 1610, 20
+  size: 223, 288
+  orig: 223, 288
+  offset: 0, 0
+  index: -1
+Comic_3
+  rotate: false
+  xy: 1426, 677
+  size: 568, 288
+  orig: 570, 290
+  offset: 1, 1
+  index: -1
+Comic_3_1
+  rotate: false
+  xy: 1536, 434
+  size: 485, 155
+  orig: 487, 157
+  offset: 1, 1
+  index: -1
+Comic_3_2
+  rotate: false
+  xy: 2000, 1287
+  size: 21, 39
+  orig: 23, 41
+  offset: 1, 1
+  index: -1
+Comic_4
+  rotate: false
+  xy: 2, 2
+  size: 698, 310
+  orig: 700, 312
+  offset: 1, 1
+  index: -1
+Comic_4_1
+  rotate: true
+  xy: 1402, 5
+  size: 302, 206
+  orig: 305, 208
+  offset: 1, 1
+  index: -1
+Comic_4_10
+  rotate: false
+  xy: 1883, 328
+  size: 104, 104
+  orig: 106, 106
+  offset: 1, 1
+  index: -1
+Comic_4_11
+  rotate: false
+  xy: 959, 862
+  size: 225, 127
+  orig: 243, 132
+  offset: 17, 1
+  index: -1
+Comic_4_12
+  rotate: true
+  xy: 959, 991
+  size: 335, 236
+  orig: 339, 247
+  offset: 3, 4
+  index: -1
+Comic_4_2
+  rotate: false
+  xy: 1858, 630
+  size: 93, 45
+  orig: 95, 47
+  offset: 1, 1
+  index: -1
+Comic_4_3
+  rotate: true
+  xy: 1402, 309
+  size: 156, 131
+  orig: 158, 133
+  offset: 1, 1
+  index: -1
+Comic_4_4
+  rotate: false
+  xy: 1573, 599
+  size: 110, 76
+  orig: 112, 78
+  offset: 1, 1
+  index: -1
+Comic_4_5
+  rotate: false
+  xy: 1535, 310
+  size: 105, 122
+  orig: 107, 124
+  offset: 1, 1
+  index: -1
+Comic_4_6
+  rotate: false
+  xy: 1316, 590
+  size: 106, 95
+  orig: 108, 97
+  offset: 1, 1
+  index: -1
+Comic_4_7
+  rotate: true
+  xy: 1334, 786
+  size: 78, 90
+  orig: 110, 110
+  offset: 13, 20
+  index: -1
+Comic_4_8
+  rotate: false
+  xy: 1746, 607
+  size: 110, 68
+  orig: 112, 70
+  offset: 1, 1
+  index: -1
+Comic_4_9
+  rotate: false
+  xy: 1208, 321
+  size: 124, 144
+  orig: 126, 146
+  offset: 1, 1
+  index: -1
+Comic_5
+  rotate: false
+  xy: 1208, 967
+  size: 790, 359
+  orig: 792, 361
+  offset: 1, 1
+  index: -1
+Comic_5_1
+  rotate: false
+  xy: 959, 467
+  size: 355, 393
+  orig: 359, 395
+  offset: 1, 1
+  index: -1
+Comic_5_2
+  rotate: true
+  xy: 1316, 467
+  size: 121, 218
+  orig: 123, 220
+  offset: 1, 1
+  index: -1
+Comic_Bg_1
+  rotate: false
+  xy: 702, 2
+  size: 698, 310
+  orig: 700, 312
+  offset: 1, 1
+  index: -1
+Comic_Bg_2
+  rotate: true
+  xy: 819, 434
+  size: 892, 138
+  orig: 894, 140
+  offset: 1, 1
+  index: -1
+Comic_Bg_3
+  rotate: false
+  xy: 314, 314
+  size: 892, 118
+  orig: 894, 120
+  offset: 1, 1
+  index: -1
+Comic_Bg_4
+  rotate: true
+  xy: 314, 434
+  size: 892, 503
+  orig: 894, 505
+  offset: 1, 1
+  index: -1
+Frame_1
+  rotate: false
+  xy: 1334, 400
+  size: 65, 65
+  orig: 67, 67
+  offset: 1, 1
+  index: -1
+Frame_2
+  rotate: true
+  xy: 1835, 47
+  size: 104, 88
+  orig: 106, 90
+  offset: 1, 1
+  index: -1
+Frame_3
+  rotate: true
+  xy: 1502, 591
+  size: 84, 69
+  orig: 86, 71
+  offset: 1, 1
+  index: -1
+Frame_4
+  rotate: false
+  xy: 1312, 866
+  size: 112, 99
+  orig: 114, 101
+  offset: 1, 1
+  index: -1
+Frame_5
+  rotate: true
+  xy: 1642, 320
+  size: 112, 99
+  orig: 114, 101
+  offset: 1, 1
+  index: -1
+Frame_6
+  rotate: true
+  xy: 1685, 602
+  size: 73, 59
+  orig: 75, 61
+  offset: 1, 1
+  index: -1
+Frame_7
+  rotate: true
+  xy: 1424, 591
+  size: 84, 76
+  orig: 86, 78
+  offset: 1, 1
+  index: -1
+Frame_8
+  rotate: false
+  xy: 1316, 687
+  size: 107, 97
+  orig: 109, 99
+  offset: 1, 1
+  index: -1
+Frame_9
+  rotate: false
+  xy: 1334, 333
+  size: 65, 65
+  orig: 67, 67
+  offset: 1, 1
+  index: -1

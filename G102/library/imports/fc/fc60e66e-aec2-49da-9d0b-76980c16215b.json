@@ -1,0 +1,143 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "wishing_ui.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Card_Back": {
+      "__uuid__": "141d94de-8334-4b0c-85c7-d06437ad44b4"
+    },
+    "Card_Item": {
+      "__uuid__": "61300f3f-ada2-4f5a-949e-924c45437dec"
+    },
+    "CommonSpirit_BackLight_1": {
+      "__uuid__": "061004f9-1a29-4d81-83ac-8253c0d89087"
+    },
+    "CommonSpirit_BackLight_2": {
+      "__uuid__": "ac9a3d94-ab3e-4a49-a6df-fc7aafa30feb"
+    },
+    "CommonSpirit_BackLight_3": {
+      "__uuid__": "8ef5e7f8-5e8f-49e8-bbe9-0dc4e1d7f7cf"
+    },
+    "Sprite_Avatar_1": {
+      "__uuid__": "e8a6d3bb-4cff-44fe-b13a-f63fcea2de2d"
+    },
+    "Sprite_Avatar_10": {
+      "__uuid__": "e80ac4a1-0529-424d-b42b-48d715e5bd23"
+    },
+    "Sprite_Avatar_11": {
+      "__uuid__": "8790229d-0ced-4800-899b-1c3e52479d46"
+    },
+    "Sprite_Avatar_12": {
+      "__uuid__": "a17a86db-3ca6-454f-bbdb-b0b28d220741"
+    },
+    "Sprite_Avatar_13": {
+      "__uuid__": "42a0c912-bd76-48a1-a294-aa8027e05e6d"
+    },
+    "Sprite_Avatar_14": {
+      "__uuid__": "06184039-6e15-4a08-a183-2102ba44ea6d"
+    },
+    "Sprite_Avatar_15": {
+      "__uuid__": "4a1730c3-bd21-4cdf-ab6c-2a6c7b4fbaf8"
+    },
+    "Sprite_Avatar_16": {
+      "__uuid__": "efe27d62-6183-47e6-aae6-f058479ac5f6"
+    },
+    "Sprite_Avatar_17": {
+      "__uuid__": "5e18a8dd-c821-4a0c-b638-ed19e690dd11"
+    },
+    "Sprite_Avatar_18": {
+      "__uuid__": "2276d79f-2283-4f7f-a67a-4481a6db11da"
+    },
+    "Sprite_Avatar_19": {
+      "__uuid__": "95ef576d-6e0b-45ab-b34b-acbaef2d8258"
+    },
+    "Sprite_Avatar_2": {
+      "__uuid__": "34c2eb2a-9fef-4aed-83eb-c32e68ddb419"
+    },
+    "Sprite_Avatar_20": {
+      "__uuid__": "f1ec7d86-6cc0-4c11-b84a-8ae951473f59"
+    },
+    "Sprite_Avatar_21": {
+      "__uuid__": "fed46994-f492-4025-b44d-c53bf3011ee7"
+    },
+    "Sprite_Avatar_3": {
+      "__uuid__": "82d6d6bb-a797-43f5-a677-b99f7f3e860c"
+    },
+    "Sprite_Avatar_4": {
+      "__uuid__": "8308764e-f4a5-476f-8a97-7622dd9e6b6d"
+    },
+    "Sprite_Avatar_5": {
+      "__uuid__": "29b2e3fe-af80-4f02-b26d-28857f509a07"
+    },
+    "Sprite_Avatar_6": {
+      "__uuid__": "e73b0404-0da9-48de-b400-0716fb74e4c7"
+    },
+    "Sprite_Avatar_7": {
+      "__uuid__": "783a7392-e637-4100-9614-643ce81e19fa"
+    },
+    "Sprite_Avatar_8": {
+      "__uuid__": "b4cb41bb-a07e-4476-96b3-c8114c728061"
+    },
+    "Sprite_Avatar_9": {
+      "__uuid__": "752eff05-0b30-47d7-84fe-ef5c078f6f5a"
+    },
+    "Wish_Bar_0": {
+      "__uuid__": "35d67460-3b6d-49cb-8cac-20075bff56c6"
+    },
+    "Wish_Bar_0_1": {
+      "__uuid__": "75d19e92-981a-4603-876c-854872e48364"
+    },
+    "Wish_Bar_0_2": {
+      "__uuid__": "c54815a8-7721-4a84-844f-74d12579d1ed"
+    },
+    "Wish_Bg_0": {
+      "__uuid__": "2274cb30-7f59-4005-b516-8aec80dca51f"
+    },
+    "Wish_Bg_1": {
+      "__uuid__": "40939c94-1347-4ef0-ba29-0d16094ea53e"
+    },
+    "Wish_Bg_2": {
+      "__uuid__": "abc7a58a-dee7-4054-8528-aefbda353574"
+    },
+    "Wish_Bg_3": {
+      "__uuid__": "9488da37-2da8-4300-a0ef-0e366e9eb791"
+    },
+    "Wish_Btn_Bg": {
+      "__uuid__": "f9719636-ec65-4c1b-b9bc-ffff747d90e8"
+    },
+    "Wish_Btn_Integral": {
+      "__uuid__": "c0e8fefa-f0d1-4a70-8098-a67def374d18"
+    },
+    "Wish_Btn_Tab_0": {
+      "__uuid__": "0e38db51-59f6-4600-a010-640bbde0d975"
+    },
+    "Wish_Btn_Tab_0_1": {
+      "__uuid__": "a2df4340-27cf-499f-93a0-fa7e914c1c3c"
+    },
+    "Wish_Btn_Tab_1": {
+      "__uuid__": "4150293d-f3f4-460e-b64a-e98216df8ec4"
+    },
+    "Wish_Btn_Tab_1_1": {
+      "__uuid__": "0e67c2ca-5166-4549-9531-bfa502d285db"
+    },
+    "Wish_Btn_Tips": {
+      "__uuid__": "85151c45-9e87-43cf-8ba2-384cd3a9e440"
+    },
+    "Wish_Quality_0": {
+      "__uuid__": "7e022fc5-a2c3-49fb-ad7c-bb660e3a083a"
+    },
+    "Wish_Quality_1": {
+      "__uuid__": "0eeeb447-a475-4e23-b65c-30ee30e58d16"
+    },
+    "Wish_Quality_2": {
+      "__uuid__": "9de7114e-f0aa-493d-8a06-6a2b9867057a"
+    },
+    "Wish_Quality_3": {
+      "__uuid__": "2fcbb1e8-5adf-4bd1-9927-2648d54cf96d"
+    },
+    "Wish_Quality_4": {
+      "__uuid__": "5aa0a3fc-c20d-4b26-949d-d34b253cf08a"
+    }
+  }
+}

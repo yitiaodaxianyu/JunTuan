@@ -1,0 +1,41 @@
+
+Monster_57.png
+size: 72,153
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 0, 103
+  size: 45, 50
+  orig: 45, 50
+  offset: 0, 0
+  index: -1
+Er_1
+  rotate: false
+  xy: 51, 120
+  size: 20, 33
+  orig: 20, 33
+  offset: 0, 0
+  index: -1
+Er_2
+  rotate: true
+  xy: 36, 0
+  size: 21, 29
+  orig: 21, 29
+  offset: 0, 0
+  index: -1
+Wink_1
+  rotate: true
+  xy: 36, 29
+  size: 66, 36
+  orig: 66, 36
+  offset: 0, 0
+  index: -1
+Wink_2
+  rotate: true
+  xy: 0, 24
+  size: 71, 30
+  orig: 71, 30
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Spine_Chest",
+    "texture": "64dc20cd-40b6-40a0-9e76-1a6fd99148b9",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      1568,
+      124
+    ],
+    "offset": [
+      -238,
+      0
+    ],
+    "originalSize": [
+      2048,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

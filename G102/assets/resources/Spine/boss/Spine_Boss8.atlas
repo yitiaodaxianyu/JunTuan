@@ -1,0 +1,181 @@
+
+Spine_Boss8.png
+size: 543, 1017
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+ShenTi
+  rotate: false
+  xy: 0, 720
+  size: 254, 297
+  orig: 254, 297
+  offset: 0, 0
+  index: -1
+Smoke_01
+  rotate: true
+  xy: 188, 0
+  size: 129, 42
+  orig: 220, 83
+  offset: 44, 17
+  index: -1
+Smoke_02
+  rotate: true
+  xy: 426, 190
+  size: 185, 56
+  orig: 220, 83
+  offset: 20, 14
+  index: -1
+Smoke_03
+  rotate: true
+  xy: 421, 381
+  size: 189, 60
+  orig: 220, 83
+  offset: 18, 12
+  index: -1
+Smoke_04
+  rotate: true
+  xy: 483, 377
+  size: 193, 60
+  orig: 220, 83
+  offset: 16, 12
+  index: -1
+Smoke_05
+  rotate: true
+  xy: 305, 113
+  size: 196, 62
+  orig: 220, 83
+  offset: 14, 11
+  index: -1
+Smoke_06
+  rotate: true
+  xy: 240, 110
+  size: 199, 63
+  orig: 220, 83
+  offset: 11, 10
+  index: -1
+Smoke_07
+  rotate: true
+  xy: 369, 111
+  size: 198, 55
+  orig: 220, 83
+  offset: 10, 10
+  index: -1
+Tou
+  rotate: false
+  xy: 263, 425
+  size: 156, 151
+  orig: 156, 151
+  offset: 0, 0
+  index: -1
+XueQiu_1
+  rotate: true
+  xy: 484, 251
+  size: 62, 54
+  orig: 63, 64
+  offset: 1, 5
+  index: -1
+XueQiu_2
+  rotate: false
+  xy: 263, 578
+  size: 162, 165
+  orig: 162, 165
+  offset: 0, 0
+  index: -1
+YaoDai
+  rotate: true
+  xy: 427, 572
+  size: 171, 112
+  orig: 171, 112
+  offset: 0, 0
+  index: -1
+YouBi
+  rotate: false
+  xy: 122, 131
+  size: 116, 190
+  orig: 116, 190
+  offset: 0, 0
+  index: -1
+YouJiao
+  rotate: true
+  xy: 232, 18
+  size: 90, 89
+  orig: 90, 89
+  offset: 0, 0
+  index: -1
+YouShou
+  rotate: false
+  xy: 0, 324
+  size: 139, 195
+  orig: 139, 197
+  offset: 0, 0
+  index: -1
+YouShou2
+  rotate: false
+  xy: 0, 521
+  size: 139, 197
+  orig: 139, 197
+  offset: 0, 0
+  index: -1
+YouTui
+  rotate: false
+  xy: 426, 125
+  size: 54, 63
+  orig: 54, 63
+  offset: 0, 0
+  index: -1
+ZuoBi
+  rotate: true
+  xy: 0, 0
+  size: 116, 186
+  orig: 116, 186
+  offset: 0, 0
+  index: -1
+ZuoJiao
+  rotate: false
+  xy: 323, 20
+  size: 90, 89
+  orig: 90, 89
+  offset: 0, 0
+  index: -1
+ZuoShou
+  rotate: false
+  xy: 0, 118
+  size: 120, 204
+  orig: 120, 204
+  offset: 0, 0
+  index: -1
+ZuoShou2
+  rotate: true
+  xy: 262, 311
+  size: 112, 155
+  orig: 112, 155
+  offset: 0, 0
+  index: -1
+ZuoShou3
+  rotate: false
+  xy: 141, 521
+  size: 120, 197
+  orig: 120, 205
+  offset: 0, 8
+  index: -1
+ZuoShou4
+  rotate: false
+  xy: 141, 323
+  size: 119, 196
+  orig: 120, 205
+  offset: 1, 9
+  index: -1
+ZuoTui
+  rotate: false
+  xy: 484, 315
+  size: 57, 60
+  orig: 57, 60
+  offset: 0, 0
+  index: -1
+ring
+  rotate: false
+  xy: 256, 745
+  size: 272, 272
+  orig: 282, 282
+  offset: 5, 5
+  index: -1

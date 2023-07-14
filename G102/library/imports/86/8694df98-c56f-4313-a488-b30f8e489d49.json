@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Spirit17_SupportSkill_1",
+    "texture": "b0a6d2c3-5f54-460c-a414-6acb16eb89e2",
+    "atlas": "eeaa1aa5-7b85-4aee-b825-13141a65c416",
+    "rect": [
+      35,
+      458,
+      42,
+      94
+    ],
+    "offset": [
+      0,
+      -3
+    ],
+    "originalSize": [
+      50,
+      100
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

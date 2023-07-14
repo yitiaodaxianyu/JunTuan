@@ -1,0 +1,68 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "pet_list_ui.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Hero_Type_1": {
+      "__uuid__": "4a17e233-abd2-43a0-a17f-06967c545adf"
+    },
+    "Hero_Type_2": {
+      "__uuid__": "629ddbc2-f40d-49be-a944-a8eb17f77580"
+    },
+    "Hero_Type_3": {
+      "__uuid__": "3018880d-a52c-4b13-a3b3-b1a864e61021"
+    },
+    "Release_Bg_0": {
+      "__uuid__": "01df0f39-9692-48af-a030-901058c50ed0"
+    },
+    "Release_Bg_1": {
+      "__uuid__": "9a85c776-d9fe-4903-8c15-3aae29672862"
+    },
+    "Release_Bg_2": {
+      "__uuid__": "949e703d-acbb-4e54-8237-da69485313e5"
+    },
+    "Release_Checkmark": {
+      "__uuid__": "7f1a48bb-9bae-43f6-9d2e-474fc3d7a9bf"
+    },
+    "Release_Checkmark_Bg": {
+      "__uuid__": "c2c179e2-3dbf-45b7-9dcc-b990baa6468f"
+    },
+    "Release_Line": {
+      "__uuid__": "190c9aa6-ee48-4291-8705-44d2d9e7b9cc"
+    },
+    "Sprite_Banner_0": {
+      "__uuid__": "5b77fbba-c820-472c-8ce0-24e8cfffec00"
+    },
+    "Sprite_Banner_1": {
+      "__uuid__": "7de6a526-5064-4d0f-ae86-b52c8af55e9f"
+    },
+    "Sprite_Bg_0": {
+      "__uuid__": "11e3b78b-986f-4094-85c8-ccf3d89781b3"
+    },
+    "Sprite_Bg_1": {
+      "__uuid__": "2f56cb80-5d07-4688-8a79-2824b775fb71"
+    },
+    "Sprite_Btn_Tab_0": {
+      "__uuid__": "5b1f5a88-0d40-475f-bd90-5dd711f23570"
+    },
+    "Sprite_Btn_Tab_1": {
+      "__uuid__": "edb85d78-b4d0-4156-85e2-c8f6ee773207"
+    },
+    "Sprite_Btn_Type_0": {
+      "__uuid__": "f7683c37-4dc1-4ada-8780-d20b33a3f6ec"
+    },
+    "Sprite_Btn_Type_0_1": {
+      "__uuid__": "d6a6a27b-65ff-460c-a9b5-b98d676d1c06"
+    },
+    "Sprite_Line": {
+      "__uuid__": "13c705a1-a101-4749-8b7f-12ecd78a96e8"
+    },
+    "Sprite_Quality_Mask": {
+      "__uuid__": "9e0e3031-3906-438a-be71-71bac6987a2d"
+    },
+    "Sprite_Tab_Bg": {
+      "__uuid__": "99a7b83b-58e0-416f-ae37-0c4062337c62"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Loading_Comic",
+    "texture": "829ceb85-47a9-4c21-a734-4051e5a926a3",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      2019,
+      1324
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      2023,
+      1328
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Anubisi_Skill_4_08",
+    "texture": "6a1ebab8-98ee-474d-a733-defad466e062",
+    "atlas": "e26fee14-6351-44a3-b274-9c9367c4f58d",
+    "rect": [
+      532,
+      574,
+      16,
+      132
+    ],
+    "offset": [
+      19,
+      68
+    ],
+    "originalSize": [
+      100,
+      400
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

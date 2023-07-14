@@ -1,0 +1,95 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "elite10.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Monster_70_Skill_1": {
+      "__uuid__": "8431ea24-0729-409f-b6a5-4f5d5adcc47d"
+    },
+    "Monster_70_Skill_2": {
+      "__uuid__": "3280ba79-e2db-49ff-83e7-640d5cbfd1b6"
+    },
+    "Monster_74_Attack_00": {
+      "__uuid__": "7f253f56-e36f-4c66-a8eb-df9ebf4c7100"
+    },
+    "Monster_74_Attack_01": {
+      "__uuid__": "8e4d282c-d015-470b-82fe-cf5e10ebf036"
+    },
+    "Monster_74_Attack_02": {
+      "__uuid__": "d7d362cb-1e54-47d7-81ba-8ee019f5f46f"
+    },
+    "Monster_74_Attack_03": {
+      "__uuid__": "2ead9c56-ec3a-4591-893c-bdb3a817b5c0"
+    },
+    "Monster_77_Attack_00": {
+      "__uuid__": "d5a3e0eb-e309-4a08-93ae-eb709ed28801"
+    },
+    "Monster_77_Attack_01": {
+      "__uuid__": "a4216246-7acd-4b93-b3cb-4203bf07f4df"
+    },
+    "Monster_77_Attack_02": {
+      "__uuid__": "2f8b1f4c-3109-4fd7-8014-b49298aade3e"
+    },
+    "Monster_77_Attack_03": {
+      "__uuid__": "d3595feb-ddf9-404e-b417-d7944f4e9110"
+    },
+    "Monster_77_SkillHit_00": {
+      "__uuid__": "a116b6e3-04d0-4948-8e48-5b89b7459059"
+    },
+    "Monster_77_SkillHit_01": {
+      "__uuid__": "ec96df75-ef3d-4cc1-865d-92208977d771"
+    },
+    "Monster_77_SkillHit_02": {
+      "__uuid__": "219f6049-54c7-418e-89db-1127b4f10137"
+    },
+    "Monster_77_SkillHit_03": {
+      "__uuid__": "41450605-a20e-47e6-b0ad-e2e36bcb3d93"
+    },
+    "Monster_77_SkillHit_04": {
+      "__uuid__": "a91742d9-0524-484c-b305-b731e16e898d"
+    },
+    "Monster_77_SkillHit_05": {
+      "__uuid__": "4d28318d-10fd-4c51-b2e1-d5782df0019b"
+    },
+    "Monster_77_SkillHit_06": {
+      "__uuid__": "9ed73191-8637-4bd7-a4a5-d904262be6e8"
+    },
+    "Monster_77_SkillHit_07": {
+      "__uuid__": "ac6f31d0-e4d6-48c4-9b3f-4dca97faf3fb"
+    },
+    "Monster_77_SkillHit_08": {
+      "__uuid__": "ab38d72b-8bbf-464a-9985-e48168c2ca3a"
+    },
+    "Monster_77_SkillHit_09": {
+      "__uuid__": "12f884eb-5fbe-411b-9aa7-6afa67828dd1"
+    },
+    "Monster_77_SkillHit_10": {
+      "__uuid__": "f594ea24-a2df-419c-a513-57f669d00809"
+    },
+    "Monster_77_SkillHit_11": {
+      "__uuid__": "94718890-6f42-4a9c-9a7f-db4e186476df"
+    },
+    "Monster_77_SkillHit_12": {
+      "__uuid__": "faa9b2c9-0558-4f92-a330-383d27260e74"
+    },
+    "Monster_77_SkillHit_13": {
+      "__uuid__": "c72a0966-3f1f-433e-8430-7074e8a3cf7d"
+    },
+    "Monster_77_SkillHit_14": {
+      "__uuid__": "7a344117-482b-42fc-ae11-eb3bf2b88b57"
+    },
+    "Monster_77_SkillHit_15": {
+      "__uuid__": "4a9ca223-1c91-47fb-ba5c-bac5ece220df"
+    },
+    "Monster_77_SkillHit_16": {
+      "__uuid__": "0847428e-e461-4c35-ad61-9cc4af090110"
+    },
+    "Monster_77_SkillHit_17": {
+      "__uuid__": "ac21c469-247f-42a7-841a-6bf109415f09"
+    },
+    "Monster_77_SkillTail": {
+      "__uuid__": "8af1c60f-78ba-457b-b0a2-88b97e2aea38"
+    }
+  }
+}

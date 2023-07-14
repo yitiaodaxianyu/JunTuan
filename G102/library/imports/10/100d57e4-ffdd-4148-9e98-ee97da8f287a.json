@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Boss8_SkillHit_12",
+    "texture": "f5afcaf2-ecc7-4417-af40-3cfdc108155a",
+    "atlas": "a54dc302-f366-4338-ad25-5fa25da4f19d",
+    "rect": [
+      348,
+      1404,
+      342,
+      328
+    ],
+    "offset": [
+      4,
+      11
+    ],
+    "originalSize": [
+      350,
+      350
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

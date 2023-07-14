@@ -1,0 +1,55 @@
+
+guai_17.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 126, 108
+  size: 62, 28
+  orig: 62, 28
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 126, 170
+  size: 69, 28
+  orig: 69, 28
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 126, 138
+  size: 67, 30
+  orig: 67, 30
+  offset: 0, 0
+  index: -1
+bg
+  rotate: true
+  xy: 2, 2
+  size: 92, 39
+  orig: 92, 39
+  offset: 0, 0
+  index: -1
+lshou
+  rotate: false
+  xy: 43, 29
+  size: 38, 65
+  orig: 38, 65
+  offset: 0, 0
+  index: -1
+rshou
+  rotate: false
+  xy: 85, 128
+  size: 39, 70
+  orig: 39, 70
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 2, 96
+  size: 81, 102
+  orig: 81, 102
+  offset: 0, 0
+  index: -1

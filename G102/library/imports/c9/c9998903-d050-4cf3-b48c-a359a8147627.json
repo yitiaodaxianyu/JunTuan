@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Sprite_Up_Quality_5",
+    "texture": "69e3feeb-ce70-4e39-bffc-911e0970a3cc",
+    "atlas": "456ef21b-fb3f-4bf5-908f-e3dc669ba5d3",
+    "rect": [
+      1766,
+      2,
+      236,
+      69
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      236,
+      69
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

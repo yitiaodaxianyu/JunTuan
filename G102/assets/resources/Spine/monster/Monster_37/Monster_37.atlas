@@ -1,0 +1,41 @@
+
+Monster_37.png
+size: 101,65
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: true
+  xy: 0, 0
+  size: 65, 82
+  orig: 65, 82
+  offset: 0, 0
+  index: -1
+YouJiao
+  rotate: false
+  xy: 84, 15
+  size: 17, 12
+  orig: 17, 12
+  offset: 0, 0
+  index: -1
+YouShou
+  rotate: false
+  xy: 84, 48
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+ZuoJiao
+  rotate: false
+  xy: 84, 1
+  size: 17, 12
+  orig: 17, 12
+  offset: 0, 0
+  index: -1
+ZuoShou
+  rotate: false
+  xy: 84, 29
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1

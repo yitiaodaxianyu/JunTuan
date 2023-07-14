@@ -1,0 +1,132 @@
+
+shooter_back.png
+size: 1465,555
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gong
+  rotate: true
+  xy: 844, 161
+  size: 394, 58
+  orig: 396, 60
+  offset: 1, 1
+  index: -1
+gongjian
+  rotate: false
+  xy: 289, 37
+  size: 255, 518
+  orig: 256, 519
+  offset: 0, 0
+  index: -1
+gongjian2
+  rotate: false
+  xy: 0, 5
+  size: 287, 550
+  orig: 300, 570
+  offset: 6, 12
+  index: -1
+hair
+  rotate: false
+  xy: 816, 9
+  size: 79, 129
+  orig: 79, 154
+  offset: 0, 25
+  index: -1
+hair2
+  rotate: false
+  xy: 904, 240
+  size: 147, 315
+  orig: 147, 315
+  offset: 0, 0
+  index: -1
+hair3
+  rotate: false
+  xy: 1192, 2
+  size: 197, 296
+  orig: 225, 345
+  offset: 27, 49
+  index: -1
+hair4
+  rotate: true
+  xy: 897, 7
+  size: 152, 293
+  orig: 166, 411
+  offset: 13, 117
+  index: -1
+head
+  rotate: true
+  xy: 1192, 300
+  size: 255, 273
+  orig: 327, 577
+  offset: 70, 303
+  index: -1
+left_hand
+  rotate: false
+  xy: 1053, 310
+  size: 110, 103
+  orig: 110, 104
+  offset: 0, 0
+  index: -1
+left_hand2
+  rotate: true
+  xy: 1391, 9
+  size: 67, 65
+  orig: 69, 67
+  offset: 1, 1
+  index: -1
+pifeng
+  rotate: false
+  xy: 546, 140
+  size: 296, 415
+  orig: 297, 415
+  offset: 0, 0
+  index: -1
+right_hand
+  rotate: false
+  xy: 1053, 415
+  size: 116, 140
+  orig: 118, 143
+  offset: 1, 1
+  index: -1
+right_hand2
+  rotate: false
+  xy: 1053, 222
+  size: 104, 86
+  orig: 106, 89
+  offset: 1, 1
+  index: -1
+right_hand3
+  rotate: false
+  xy: 904, 179
+  size: 56, 59
+  orig: 59, 61
+  offset: 1, 1
+  index: -1
+right_hand4
+  rotate: false
+  xy: 1391, 192
+  size: 72, 106
+  orig: 75, 109
+  offset: 1, 2
+  index: -1
+right_leg
+  rotate: false
+  xy: 1391, 78
+  size: 69, 112
+  orig: 72, 114
+  offset: 1, 1
+  index: -1
+right_leg2
+  rotate: false
+  xy: 546, 0
+  size: 77, 138
+  orig: 80, 141
+  offset: 1, 2
+  index: -1
+shengti
+  rotate: true
+  xy: 625, 5
+  size: 133, 189
+  orig: 135, 191
+  offset: 1, 1
+  index: -1

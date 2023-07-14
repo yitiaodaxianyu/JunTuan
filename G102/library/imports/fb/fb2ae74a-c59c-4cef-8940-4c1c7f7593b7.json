@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Evo_Checkmark",
+    "texture": "981459a2-289a-4916-a136-f2b73a721c50",
+    "atlas": "5363f8c0-34ad-4c8d-9ab6-3d68242527df",
+    "rect": [
+      644,
+      58,
+      92,
+      78
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      92,
+      78
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

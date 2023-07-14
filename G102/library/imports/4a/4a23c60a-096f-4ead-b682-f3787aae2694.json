@@ -1,0 +1,1974 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "Rouge",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "BI3JP8WesT8",
+      "spine": "3.8-from-4.0.64",
+      "x": -337,
+      "y": -545.46,
+      "width": 675,
+      "height": 990.46,
+      "images": "./images/",
+      "audio": "E:/ccl-工作/220812/images"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "Maze_Buff_Bg",
+        "parent": "root",
+        "x": 6.57,
+        "y": -2.96
+      },
+      {
+        "name": "Maze_Buff_Light1",
+        "parent": "root",
+        "x": 6.07,
+        "y": -68.96
+      },
+      {
+        "name": "Maze_Buff_Light2",
+        "parent": "root",
+        "x": 6.57,
+        "y": -96.46
+      },
+      {
+        "name": "Maze_Buff_Light3",
+        "parent": "root",
+        "x": 0.5
+      },
+      {
+        "name": "Particle2",
+        "parent": "root",
+        "x": 6.23,
+        "y": -234.55
+      },
+      {
+        "name": "Maze_Buff_Light4",
+        "parent": "root",
+        "x": 6.07,
+        "y": -68.96
+      },
+      {
+        "name": "Maze_Buff_Bg2",
+        "parent": "root",
+        "y": 0.5
+      },
+      {
+        "name": "Particle3",
+        "parent": "root",
+        "x": 105.28,
+        "y": -234.55
+      },
+      {
+        "name": "Particle4",
+        "parent": "root",
+        "x": -99.96,
+        "y": -234.55
+      },
+      {
+        "name": "Particle5",
+        "parent": "root",
+        "x": 56.83,
+        "y": -234.55
+      },
+      {
+        "name": "Particle6",
+        "parent": "root",
+        "x": -45.78,
+        "y": -234.55
+      },
+      {
+        "name": "Particle7",
+        "parent": "root",
+        "x": -45.78,
+        "y": 234.67
+      },
+      {
+        "name": "Particle8",
+        "parent": "root",
+        "x": 7.45,
+        "y": 234.67
+      },
+      {
+        "name": "Particle9",
+        "parent": "root",
+        "x": 60.69,
+        "y": 234.67
+      },
+      {
+        "name": "Particle10",
+        "parent": "root",
+        "x": 96.17,
+        "y": 234.67
+      },
+      {
+        "name": "Particle11",
+        "parent": "root",
+        "x": -82.06,
+        "y": 234.67
+      },
+      {
+        "name": "zong",
+        "parent": "root",
+        "x": 1.81,
+        "y": 95.38
+      },
+      {
+        "name": "glow_smoke",
+        "parent": "zong",
+        "x": -1.31,
+        "y": -94.88
+      },
+      {
+        "name": "Light",
+        "parent": "root",
+        "x": 0.5
+      },
+      {
+        "name": "XxuanWo",
+        "parent": "zong",
+        "x": -1.81,
+        "y": -94.88
+      },
+      {
+        "name": "XxuanWo1",
+        "parent": "zong",
+        "x": -1.31,
+        "y": -95.38
+      },
+      {
+        "name": "XxuanWo2",
+        "parent": "zong",
+        "x": -1.81,
+        "y": -94.88
+      },
+      {
+        "name": "XxuanWo3",
+        "parent": "zong",
+        "x": -1.81,
+        "y": -95.38
+      },
+      {
+        "name": "XxuanWo4",
+        "parent": "zong",
+        "x": -1.81,
+        "y": -94.88
+      },
+      {
+        "name": "XxuanWo5",
+        "parent": "zong",
+        "x": -1.31,
+        "y": -94.88
+      },
+      {
+        "name": "Light2",
+        "parent": "root",
+        "x": 0.5
+      },
+      {
+        "name": "Light3",
+        "parent": "root",
+        "x": 0.5
+      },
+      {
+        "name": "Light4",
+        "parent": "root",
+        "x": 0.5
+      },
+      {
+        "name": "Light5",
+        "parent": "root",
+        "x": 0.5
+      },
+      {
+        "name": "Light6",
+        "parent": "root",
+        "x": 0.5
+      },
+      {
+        "name": "Light7",
+        "parent": "root",
+        "x": 0.5
+      },
+      {
+        "name": "Light8",
+        "parent": "root",
+        "x": 0.5
+      },
+      {
+        "name": "Light9",
+        "parent": "root",
+        "x": 0.5
+      },
+      {
+        "name": "Light10",
+        "parent": "root",
+        "x": 0.5
+      },
+      {
+        "name": "Light11",
+        "parent": "root",
+        "x": 0.5
+      },
+      {
+        "name": "Light12",
+        "parent": "root",
+        "x": 0.5
+      },
+      {
+        "name": "Light13",
+        "parent": "root",
+        "x": 0.5
+      },
+      {
+        "name": "Maze_Buff_Light5",
+        "parent": "root",
+        "x": 6.57,
+        "y": -96.46
+      },
+      {
+        "name": "Light14",
+        "parent": "root",
+        "x": 0.5
+      },
+      {
+        "name": "Light15",
+        "parent": "root",
+        "x": 0.5
+      }
+    ],
+    "slots": [
+      {
+        "name": "Maze_Buff_Light2",
+        "bone": "Maze_Buff_Light2",
+        "attachment": "Maze_Buff_Light2"
+      },
+      {
+        "name": "Maze_Buff_Light5",
+        "bone": "Maze_Buff_Light5",
+        "attachment": "Maze_Buff_Light2"
+      },
+      {
+        "name": "Maze_Buff_Light1",
+        "bone": "Maze_Buff_Light1",
+        "attachment": "Maze_Buff_Light1"
+      },
+      {
+        "name": "Maze_Buff_Light4",
+        "bone": "Maze_Buff_Light4",
+        "attachment": "Maze_Buff_Light1"
+      },
+      {
+        "name": "Maze_Buff_Light3",
+        "bone": "Maze_Buff_Light3",
+        "attachment": "Maze_Buff_Light3"
+      },
+      {
+        "name": "Particle2",
+        "bone": "Particle2",
+        "attachment": "Particle2"
+      },
+      {
+        "name": "Particle3",
+        "bone": "Particle3",
+        "attachment": "Particle2"
+      },
+      {
+        "name": "Particle4",
+        "bone": "Particle4",
+        "attachment": "Particle2"
+      },
+      {
+        "name": "Particle5",
+        "bone": "Particle5",
+        "attachment": "Particle2"
+      },
+      {
+        "name": "Particle6",
+        "bone": "Particle6",
+        "attachment": "Particle2"
+      },
+      {
+        "name": "Particle7",
+        "bone": "Particle7",
+        "attachment": "Particle2"
+      },
+      {
+        "name": "Particle8",
+        "bone": "Particle8",
+        "attachment": "Particle2"
+      },
+      {
+        "name": "Particle9",
+        "bone": "Particle9",
+        "attachment": "Particle2"
+      },
+      {
+        "name": "Particle10",
+        "bone": "Particle10",
+        "attachment": "Particle2"
+      },
+      {
+        "name": "Particle11",
+        "bone": "Particle11",
+        "attachment": "Particle2"
+      },
+      {
+        "name": "Maze_Buff_Bg",
+        "bone": "Maze_Buff_Bg",
+        "attachment": "Maze_Buff_Bg"
+      },
+      {
+        "name": "Maze_Buff_Bg2",
+        "bone": "Maze_Buff_Bg2",
+        "attachment": "Maze_Buff_Bg2"
+      },
+      {
+        "name": "XxuanWo5",
+        "bone": "XxuanWo5",
+        "attachment": "XxuanWo5"
+      },
+      {
+        "name": "XxuanWo4",
+        "bone": "XxuanWo4",
+        "attachment": "XxuanWo4"
+      },
+      {
+        "name": "XxuanWo3",
+        "bone": "XxuanWo3",
+        "attachment": "XxuanWo3"
+      },
+      {
+        "name": "XxuanWo2",
+        "bone": "XxuanWo2",
+        "attachment": "XxuanWo2"
+      },
+      {
+        "name": "glow_smoke",
+        "bone": "glow_smoke",
+        "attachment": "glow_smoke",
+        "blend": "additive"
+      },
+      {
+        "name": "XxuanWo1",
+        "bone": "XxuanWo1",
+        "attachment": "XxuanWo1"
+      },
+      {
+        "name": "XxuanWo",
+        "bone": "XxuanWo",
+        "attachment": "XxuanWo"
+      },
+      {
+        "name": "Light",
+        "bone": "Light",
+        "attachment": "Light"
+      },
+      {
+        "name": "Light9",
+        "bone": "Light9",
+        "attachment": "Light"
+      },
+      {
+        "name": "Light15",
+        "bone": "Light15",
+        "attachment": "Light"
+      },
+      {
+        "name": "Light2",
+        "bone": "Light2",
+        "attachment": "Light"
+      },
+      {
+        "name": "Light13",
+        "bone": "Light13",
+        "attachment": "Light"
+      },
+      {
+        "name": "Light3",
+        "bone": "Light3",
+        "attachment": "Light"
+      },
+      {
+        "name": "Light10",
+        "bone": "Light10",
+        "attachment": "Light"
+      },
+      {
+        "name": "Light4",
+        "bone": "Light4",
+        "attachment": "Light"
+      },
+      {
+        "name": "Light6",
+        "bone": "Light6",
+        "attachment": "Light"
+      },
+      {
+        "name": "Light14",
+        "bone": "Light14",
+        "attachment": "Light"
+      },
+      {
+        "name": "Light11",
+        "bone": "Light11",
+        "attachment": "Light"
+      },
+      {
+        "name": "Light7",
+        "bone": "Light7",
+        "attachment": "Light"
+      },
+      {
+        "name": "Light8",
+        "bone": "Light8",
+        "attachment": "Light"
+      },
+      {
+        "name": "Light12",
+        "bone": "Light12",
+        "attachment": "Light"
+      },
+      {
+        "name": "Light5",
+        "bone": "Light5",
+        "attachment": "Light"
+      }
+    ],
+    "skins": [
+      {
+        "name": "default",
+        "attachments": {
+          "glow_smoke": {
+            "glow_smoke": {
+              "width": 675,
+              "height": 675
+            }
+          },
+          "Light": {
+            "Light": {
+              "width": 39,
+              "height": 150
+            }
+          },
+          "Light2": {
+            "Light": {
+              "width": 39,
+              "height": 150
+            }
+          },
+          "Light3": {
+            "Light": {
+              "width": 39,
+              "height": 150
+            }
+          },
+          "Light4": {
+            "Light": {
+              "width": 39,
+              "height": 150
+            }
+          },
+          "Light5": {
+            "Light": {
+              "width": 39,
+              "height": 150
+            }
+          },
+          "Light6": {
+            "Light": {
+              "width": 39,
+              "height": 150
+            }
+          },
+          "Light7": {
+            "Light": {
+              "width": 39,
+              "height": 150
+            }
+          },
+          "Light8": {
+            "Light": {
+              "width": 39,
+              "height": 150
+            }
+          },
+          "Light9": {
+            "Light": {
+              "width": 39,
+              "height": 150
+            }
+          },
+          "Light10": {
+            "Light": {
+              "width": 39,
+              "height": 150
+            }
+          },
+          "Light11": {
+            "Light": {
+              "width": 39,
+              "height": 150
+            }
+          },
+          "Light12": {
+            "Light": {
+              "width": 39,
+              "height": 150
+            }
+          },
+          "Light13": {
+            "Light": {
+              "width": 39,
+              "height": 150
+            }
+          },
+          "Light14": {
+            "Light": {
+              "width": 39,
+              "height": 150
+            }
+          },
+          "Light15": {
+            "Light": {
+              "width": 39,
+              "height": 150
+            }
+          },
+          "Maze_Buff_Bg": {
+            "Maze_Buff_Bg": {
+              "width": 238,
+              "height": 501
+            }
+          },
+          "Maze_Buff_Bg2": {
+            "Maze_Buff_Bg2": {
+              "width": 286,
+              "height": 549
+            }
+          },
+          "Maze_Buff_Light1": {
+            "Maze_Buff_Light1": {
+              "width": 137,
+              "height": 927
+            }
+          },
+          "Maze_Buff_Light2": {
+            "Maze_Buff_Light2": {
+              "width": 228,
+              "height": 898
+            }
+          },
+          "Maze_Buff_Light3": {
+            "Maze_Buff_Light3": {
+              "width": 135,
+              "height": 890
+            }
+          },
+          "Maze_Buff_Light4": {
+            "Maze_Buff_Light1": {
+              "width": 137,
+              "height": 927
+            }
+          },
+          "Maze_Buff_Light5": {
+            "Maze_Buff_Light2": {
+              "width": 228,
+              "height": 898
+            }
+          },
+          "Particle2": {
+            "Particle2": {
+              "scaleX": 0.5,
+              "scaleY": 0.5,
+              "width": 64,
+              "height": 64
+            }
+          },
+          "Particle3": {
+            "Particle2": {
+              "scaleX": 0.5,
+              "scaleY": 0.5,
+              "width": 64,
+              "height": 64
+            }
+          },
+          "Particle4": {
+            "Particle2": {
+              "scaleX": 0.5,
+              "scaleY": 0.5,
+              "width": 64,
+              "height": 64
+            }
+          },
+          "Particle5": {
+            "Particle2": {
+              "scaleX": 0.5,
+              "scaleY": 0.5,
+              "width": 64,
+              "height": 64
+            }
+          },
+          "Particle6": {
+            "Particle2": {
+              "scaleX": 0.5,
+              "scaleY": 0.5,
+              "width": 64,
+              "height": 64
+            }
+          },
+          "Particle7": {
+            "Particle2": {
+              "scaleX": 0.5,
+              "scaleY": 0.5,
+              "width": 64,
+              "height": 64
+            }
+          },
+          "Particle8": {
+            "Particle2": {
+              "scaleX": 0.5,
+              "scaleY": 0.5,
+              "width": 64,
+              "height": 64
+            }
+          },
+          "Particle9": {
+            "Particle2": {
+              "scaleX": 0.5,
+              "scaleY": 0.5,
+              "width": 64,
+              "height": 64
+            }
+          },
+          "Particle10": {
+            "Particle2": {
+              "scaleX": 0.5,
+              "scaleY": 0.5,
+              "width": 64,
+              "height": 64
+            }
+          },
+          "Particle11": {
+            "Particle2": {
+              "scaleX": 0.5,
+              "scaleY": 0.5,
+              "width": 64,
+              "height": 64
+            }
+          },
+          "XxuanWo": {
+            "XxuanWo": {
+              "width": 250,
+              "height": 301
+            }
+          },
+          "XxuanWo1": {
+            "XxuanWo1": {
+              "width": 211,
+              "height": 216
+            }
+          },
+          "XxuanWo2": {
+            "XxuanWo2": {
+              "width": 322,
+              "height": 301
+            }
+          },
+          "XxuanWo3": {
+            "XxuanWo3": {
+              "width": 368,
+              "height": 372
+            }
+          },
+          "XxuanWo4": {
+            "XxuanWo4": {
+              "width": 524,
+              "height": 503
+            }
+          },
+          "XxuanWo5": {
+            "XxuanWo5": {
+              "width": 663,
+              "height": 657
+            }
+          }
+        }
+      }
+    ],
+    "animations": {
+      "Rouge_XuanWo": {
+        "slots": {
+          "glow_smoke": {
+            "color": [
+              {
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.1333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.3333,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "Light": {
+            "attachment": [
+              {
+                "time": 0.7,
+                "name": null
+              }
+            ]
+          },
+          "Light2": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.3333,
+                "name": "Light"
+              },
+              {
+                "time": 1.0333,
+                "name": null
+              }
+            ]
+          },
+          "Light3": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.6667,
+                "name": "Light"
+              },
+              {
+                "time": 1.3333,
+                "name": null
+              }
+            ]
+          },
+          "Light4": {
+            "attachment": [
+              {
+                "time": 0.3333,
+                "name": null
+              },
+              {
+                "time": 1,
+                "name": "Light"
+              }
+            ]
+          },
+          "Light5": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.6667,
+                "name": "Light"
+              },
+              {
+                "time": 1.3333,
+                "name": null
+              }
+            ]
+          },
+          "Light6": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.2,
+                "name": "Light"
+              },
+              {
+                "time": 0.8333,
+                "name": null
+              }
+            ]
+          },
+          "Light7": {
+            "attachment": [
+              {
+                "time": 0.3333,
+                "name": null
+              },
+              {
+                "time": 1,
+                "name": "Light"
+              }
+            ]
+          },
+          "Light8": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.4667,
+                "name": "Light"
+              },
+              {
+                "time": 1.1333,
+                "name": null
+              }
+            ]
+          },
+          "Light9": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.1333,
+                "name": "Light"
+              },
+              {
+                "time": 0.7,
+                "name": null
+              }
+            ]
+          },
+          "Light10": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.6667,
+                "name": "Light"
+              },
+              {
+                "time": 1.2667,
+                "name": null
+              }
+            ]
+          },
+          "Light11": {
+            "attachment": [
+              {
+                "time": 0.7,
+                "name": null
+              }
+            ]
+          },
+          "Light12": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.4667,
+                "name": "Light"
+              },
+              {
+                "time": 1.1333,
+                "name": null
+              }
+            ]
+          },
+          "Light13": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.3333,
+                "name": "Light"
+              },
+              {
+                "time": 1.0333,
+                "name": null
+              }
+            ]
+          },
+          "Light14": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.2667,
+                "name": "Light"
+              },
+              {
+                "time": 0.9,
+                "name": null
+              }
+            ]
+          },
+          "Light15": {
+            "attachment": [
+              {
+                "time": 0.5667,
+                "name": null
+              }
+            ]
+          },
+          "Maze_Buff_Bg": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Maze_Buff_Bg2": {
+            "color": [
+              {
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Maze_Buff_Light1": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Maze_Buff_Light2": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Maze_Buff_Light3": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Maze_Buff_Light4": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Maze_Buff_Light5": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Particle2": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Particle3": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Particle4": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Particle5": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Particle6": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Particle7": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Particle8": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Particle9": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Particle10": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "Particle11": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "Maze_Buff_Light3": {
+            "translate": [
+              {
+                "x": 6.09
+              }
+            ],
+            "scale": [
+              {
+                "y": 0.569
+              }
+            ]
+          },
+          "Maze_Buff_Light1": {
+            "translate": [
+              {
+                "y": 63.19
+              }
+            ],
+            "scale": [
+              {
+                "y": 0.507
+              }
+            ]
+          },
+          "Maze_Buff_Light2": {
+            "scale": [
+              {
+                "x": 0.928,
+                "y": 0.431
+              }
+            ]
+          },
+          "Maze_Buff_Light4": {
+            "translate": [
+              {
+                "y": 64.99
+              }
+            ],
+            "scale": [
+              {
+                "x": 0.652,
+                "y": 0.665
+              }
+            ]
+          },
+          "Maze_Buff_Bg2": {
+            "translate": [
+              {
+                "x": 6.57,
+                "y": -3.46
+              }
+            ]
+          },
+          "Particle3": {
+            "translate": [
+              {
+                "y": -97.38
+              }
+            ]
+          },
+          "Particle4": {
+            "translate": [
+              {
+                "y": -48.69
+              }
+            ]
+          },
+          "Particle5": {
+            "translate": [
+              {
+                "y": -48.69
+              }
+            ]
+          },
+          "Particle6": {
+            "translate": [
+              {
+                "y": -146.07
+              }
+            ],
+            "scale": [
+              {
+                "x": 0.714,
+                "y": 0.714
+              }
+            ]
+          },
+          "Particle7": {
+            "translate": [
+              {
+                "y": 97.82
+              }
+            ]
+          },
+          "Particle9": {
+            "translate": [
+              {
+                "y": 65.22
+              }
+            ]
+          },
+          "Particle10": {
+            "translate": [
+              {
+                "y": 45.65
+              }
+            ]
+          },
+          "Particle11": {
+            "translate": [
+              {
+                "y": 32.61
+              }
+            ]
+          },
+          "XxuanWo": {
+            "rotate": [
+              {},
+              {
+                "time": 1.3333,
+                "angle": -360
+              }
+            ],
+            "scale": [
+              {},
+              {
+                "time": 0.6667,
+                "y": 1.167
+              },
+              {
+                "time": 1.3333
+              }
+            ]
+          },
+          "XxuanWo1": {
+            "rotate": [
+              {},
+              {
+                "time": 1.3333,
+                "angle": -360
+              }
+            ],
+            "scale": [
+              {},
+              {
+                "time": 0.6667,
+                "y": 0.969
+              },
+              {
+                "time": 1.3333
+              }
+            ]
+          },
+          "XxuanWo2": {
+            "rotate": [
+              {},
+              {
+                "time": 1.3333,
+                "angle": -360
+              }
+            ],
+            "translate": [
+              {
+                "y": -10.44
+              },
+              {
+                "time": 0.3333,
+                "x": -7.29,
+                "y": 3.12
+              },
+              {
+                "time": 0.6667,
+                "x": 4.17,
+                "y": 7.3
+              },
+              {
+                "time": 1,
+                "x": 11.47,
+                "y": -6.25
+              },
+              {
+                "time": 1.3333,
+                "y": -10.44
+              }
+            ],
+            "scale": [
+              {},
+              {
+                "time": 0.6667,
+                "y": 1.031
+              },
+              {
+                "time": 1.3333
+              }
+            ]
+          },
+          "XxuanWo3": {
+            "rotate": [
+              {},
+              {
+                "time": 1.3333,
+                "angle": -360
+              }
+            ],
+            "translate": [
+              {
+                "time": 0.6667
+              },
+              {
+                "time": 1,
+                "x": 3.51
+              },
+              {
+                "time": 1.3333
+              }
+            ],
+            "scale": [
+              {},
+              {
+                "time": 0.3333,
+                "x": 0.965
+              },
+              {
+                "time": 0.6667,
+                "x": 0.965,
+                "y": 0.925
+              },
+              {
+                "time": 1,
+                "y": 1.023
+              },
+              {
+                "time": 1.3333
+              }
+            ]
+          },
+          "XxuanWo4": {
+            "rotate": [
+              {},
+              {
+                "time": 1.3333,
+                "angle": -360
+              }
+            ],
+            "scale": [
+              {
+                "x": 1.097,
+                "y": 1.097
+              },
+              {
+                "time": 0.6667,
+                "x": 0.959,
+                "y": 0.959
+              },
+              {
+                "time": 1.3333,
+                "x": 1.097,
+                "y": 1.097
+              }
+            ]
+          },
+          "XxuanWo5": {
+            "rotate": [
+              {},
+              {
+                "time": 1.3333,
+                "angle": -360
+              }
+            ],
+            "scale": [
+              {},
+              {
+                "time": 0.6667,
+                "x": 0.832,
+                "y": 0.968
+              },
+              {
+                "time": 1.3333
+              }
+            ]
+          },
+          "glow_smoke": {
+            "rotate": [
+              {},
+              {
+                "time": 1.3333,
+                "angle": -85.97
+              }
+            ],
+            "scale": [
+              {},
+              {
+                "time": 1.3333,
+                "x": 0.691,
+                "y": 0.691
+              }
+            ]
+          },
+          "Light": {
+            "translate": [
+              {
+                "x": 0.77,
+                "y": -416.65
+              },
+              {
+                "time": 0.6667,
+                "x": 0.77,
+                "y": -13.74
+              }
+            ],
+            "scale": [
+              {
+                "x": 0.602,
+                "y": 0.398
+              },
+              {
+                "time": 0.1333,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5333
+              },
+              {
+                "time": 0.6667,
+                "x": 0.475,
+                "y": 0.352
+              }
+            ]
+          },
+          "Light2": {
+            "rotate": [
+              {
+                "time": 0.3333,
+                "angle": 90
+              }
+            ],
+            "translate": [
+              {
+                "time": 0.3333,
+                "x": 428.68,
+                "y": 3.14
+              },
+              {
+                "time": 1,
+                "x": 0.77,
+                "y": -13.74
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.3333,
+                "x": 0.602,
+                "y": 0.398
+              },
+              {
+                "time": 0.4667,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.8667
+              },
+              {
+                "time": 1,
+                "x": 0.475,
+                "y": 0.352
+              }
+            ]
+          },
+          "Light3": {
+            "translate": [
+              {
+                "time": 0.6667,
+                "x": 0.77,
+                "y": 404.38
+              },
+              {
+                "time": 1.3333,
+                "x": 0.77,
+                "y": -13.74
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.6667,
+                "x": 0.602,
+                "y": 0.398
+              },
+              {
+                "time": 0.8,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.2
+              },
+              {
+                "time": 1.3333,
+                "x": 0.475,
+                "y": 0.352
+              }
+            ]
+          },
+          "Light4": {
+            "rotate": [
+              {
+                "angle": -91.72
+              }
+            ],
+            "translate": [
+              {
+                "x": -185.01,
+                "y": -6.67
+              },
+              {
+                "time": 0.3,
+                "x": 0.77,
+                "y": -13.74
+              },
+              {
+                "time": 0.3333,
+                "x": -412.07,
+                "y": 1.98,
+                "curve": "stepped"
+              },
+              {
+                "time": 1,
+                "x": -412.07,
+                "y": 1.98
+              },
+              {
+                "time": 1.3333,
+                "x": -185.01,
+                "y": -6.67
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.1667
+              },
+              {
+                "time": 0.3,
+                "x": 0.475,
+                "y": 0.352
+              },
+              {
+                "time": 0.3333,
+                "x": 0.602,
+                "y": 0.398,
+                "curve": "stepped"
+              },
+              {
+                "time": 1,
+                "x": 0.602,
+                "y": 0.398
+              },
+              {
+                "time": 1.1333
+              }
+            ]
+          },
+          "Light5": {
+            "rotate": [
+              {
+                "time": 0.6667,
+                "angle": -38.51
+              }
+            ],
+            "translate": [
+              {
+                "time": 0.6667,
+                "x": -301.72,
+                "y": -314.78
+              },
+              {
+                "time": 1.3333,
+                "x": 0.77,
+                "y": -13.74
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.6667,
+                "x": 0.602,
+                "y": 0.398
+              },
+              {
+                "time": 0.8,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.2
+              },
+              {
+                "time": 1.3333,
+                "x": 0.475,
+                "y": 0.352
+              }
+            ]
+          },
+          "Light6": {
+            "rotate": [
+              {
+                "time": 0.2,
+                "angle": -46.47
+              }
+            ],
+            "translate": [
+              {
+                "time": 0.2,
+                "x": -304.93,
+                "y": -254.09
+              },
+              {
+                "time": 0.8,
+                "x": 0.77,
+                "y": -13.74
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.2,
+                "x": 0.602,
+                "y": 0.398
+              },
+              {
+                "time": 0.3333,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6667
+              },
+              {
+                "time": 0.8,
+                "x": 0.475,
+                "y": 0.352
+              }
+            ]
+          },
+          "Light7": {
+            "rotate": [
+              {
+                "angle": -223.61
+              }
+            ],
+            "translate": [
+              {
+                "x": 161.73,
+                "y": 148.32
+              },
+              {
+                "time": 0.3,
+                "x": 0.77,
+                "y": -13.74
+              },
+              {
+                "time": 0.3333,
+                "x": 358.47,
+                "y": 346.4,
+                "curve": "stepped"
+              },
+              {
+                "time": 1,
+                "x": 358.47,
+                "y": 346.4
+              },
+              {
+                "time": 1.3333,
+                "x": 161.73,
+                "y": 148.32
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.1667
+              },
+              {
+                "time": 0.3,
+                "x": 0.475,
+                "y": 0.352
+              },
+              {
+                "time": 0.3333,
+                "x": 0.602,
+                "y": 0.398,
+                "curve": "stepped"
+              },
+              {
+                "time": 1,
+                "x": 0.602,
+                "y": 0.398
+              },
+              {
+                "time": 1.1333
+              }
+            ]
+          },
+          "Light8": {
+            "rotate": [
+              {
+                "time": 0.4667,
+                "angle": 151.3
+              }
+            ],
+            "translate": [
+              {
+                "time": 0.4667,
+                "x": 210.19,
+                "y": 349.36
+              },
+              {
+                "time": 1.1333,
+                "x": 0.77,
+                "y": -13.74
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.4667,
+                "x": 0.602,
+                "y": 0.398
+              },
+              {
+                "time": 0.6,
+                "curve": "stepped"
+              },
+              {
+                "time": 1
+              },
+              {
+                "time": 1.1333,
+                "x": 0.475,
+                "y": 0.352
+              }
+            ]
+          },
+          "Light9": {
+            "rotate": [
+              {
+                "time": 0.1333,
+                "angle": 56.76
+              }
+            ],
+            "translate": [
+              {
+                "time": 0.1333,
+                "x": 386.57,
+                "y": -249.07
+              },
+              {
+                "time": 0.6667,
+                "x": 0.77,
+                "y": -13.74
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.1333,
+                "x": 0.602,
+                "y": 0.398
+              },
+              {
+                "time": 0.2667,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5333
+              },
+              {
+                "time": 0.6667,
+                "x": 0.475,
+                "y": 0.352
+              }
+            ]
+          },
+          "Light10": {
+            "rotate": [
+              {
+                "time": 0.6667,
+                "angle": 57.83
+              }
+            ],
+            "translate": [
+              {
+                "time": 0.6667,
+                "x": -306.33,
+                "y": 218.94
+              },
+              {
+                "time": 1.2667,
+                "x": 0.77,
+                "y": -13.74
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.6667,
+                "x": 0.602,
+                "y": 0.398
+              },
+              {
+                "time": 0.8,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.1333
+              },
+              {
+                "time": 1.2667,
+                "x": 0.475,
+                "y": 0.352
+              }
+            ]
+          },
+          "Light11": {
+            "rotate": [
+              {
+                "angle": -127.43
+              }
+            ],
+            "translate": [
+              {
+                "x": -329.41,
+                "y": 342.07
+              },
+              {
+                "time": 0.6667,
+                "x": 0.77,
+                "y": -13.74
+              }
+            ],
+            "scale": [
+              {
+                "x": 0.602,
+                "y": 0.398
+              },
+              {
+                "time": 0.1333,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5333
+              },
+              {
+                "time": 0.6667,
+                "x": 0.475,
+                "y": 0.352
+              }
+            ]
+          },
+          "Light12": {
+            "rotate": [
+              {
+                "time": 0.4667,
+                "angle": 46.4
+              }
+            ],
+            "translate": [
+              {
+                "time": 0.4667,
+                "x": 307.1,
+                "y": -299.93
+              },
+              {
+                "time": 1.1333,
+                "x": 0.77,
+                "y": -13.74
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.4667,
+                "x": 0.602,
+                "y": 0.398
+              },
+              {
+                "time": 0.6,
+                "curve": "stepped"
+              },
+              {
+                "time": 1
+              },
+              {
+                "time": 1.1333,
+                "x": 0.475,
+                "y": 0.352
+              }
+            ]
+          },
+          "Light13": {
+            "rotate": [
+              {
+                "time": 0.3333,
+                "angle": 90
+              }
+            ],
+            "translate": [
+              {
+                "time": 0.3333,
+                "x": 428.68,
+                "y": 3.14
+              },
+              {
+                "time": 1,
+                "x": 0.77,
+                "y": -13.74
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.3333,
+                "x": 0.602,
+                "y": 0.398
+              },
+              {
+                "time": 0.4667,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.8667
+              },
+              {
+                "time": 1,
+                "x": 0.475,
+                "y": 0.352
+              }
+            ]
+          },
+          "Maze_Buff_Light5": {
+            "scale": [
+              {
+                "x": 0.928,
+                "y": 0.431
+              }
+            ]
+          },
+          "Light14": {
+            "rotate": [
+              {
+                "time": 0.2667,
+                "angle": -91.17
+              }
+            ],
+            "translate": [
+              {
+                "time": 0.2667,
+                "x": -435.57,
+                "y": 1.84
+              },
+              {
+                "time": 0.8667,
+                "x": 0.77,
+                "y": -13.74
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.2667,
+                "x": 0.602,
+                "y": 0.398
+              },
+              {
+                "time": 0.4,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.7333
+              },
+              {
+                "time": 0.8667,
+                "x": 0.475,
+                "y": 0.352
+              }
+            ]
+          },
+          "Light15": {
+            "rotate": [
+              {
+                "angle": -238.9
+              }
+            ],
+            "translate": [
+              {
+                "x": 404.82,
+                "y": 256.46
+              },
+              {
+                "time": 0.5333,
+                "x": 0.77,
+                "y": -13.74
+              }
+            ],
+            "scale": [
+              {
+                "x": 0.602,
+                "y": 0.398
+              },
+              {
+                "time": 0.1333,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.4
+              },
+              {
+                "time": 0.5333,
+                "x": 0.475,
+                "y": 0.352
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\r\nRouge.png\r\nsize: 3552, 636\r\nformat: RGBA8888\r\nfilter: Linear, Linear\r\nrepeat: none\r\nLight\r\n  rotate: true\r\n  xy: 648, 19\r\n  size: 34, 130\r\n  orig: 39, 150\r\n  offset: 2, 13\r\n  index: -1\r\nMaze_Buff_Bg\r\n  rotate: true\r\n  xy: 1229, 29\r\n  size: 238, 501\r\n  orig: 238, 501\r\n  offset: 0, 0\r\n  index: -1\r\nMaze_Buff_Bg2\r\n  rotate: true\r\n  xy: 3007, 354\r\n  size: 280, 543\r\n  orig: 286, 549\r\n  offset: 3, 3\r\n  index: -1\r\nMaze_Buff_Light1\r\n  rotate: true\r\n  xy: 2098, 497\r\n  size: 137, 907\r\n  orig: 137, 927\r\n  offset: 0, 10\r\n  index: -1\r\nMaze_Buff_Light2\r\n  rotate: true\r\n  xy: 1229, 406\r\n  size: 228, 867\r\n  orig: 228, 898\r\n  offset: 0, 15\r\n  index: -1\r\nMaze_Buff_Light3\r\n  rotate: true\r\n  xy: 1229, 269\r\n  size: 135, 889\r\n  orig: 135, 890\r\n  offset: 0, 0\r\n  index: -1\r\nParticle2\r\n  rotate: false\r\n  xy: 2635, 64\r\n  size: 57, 57\r\n  orig: 64, 64\r\n  offset: 4, 3\r\n  index: -1\r\nXxuanWo\r\n  rotate: true\r\n  xy: 1732, 29\r\n  size: 238, 299\r\n  orig: 250, 301\r\n  offset: 7, 1\r\n  index: -1\r\nXxuanWo1\r\n  rotate: false\r\n  xy: 3319, 149\r\n  size: 203, 203\r\n  orig: 211, 216\r\n  offset: 4, 6\r\n  index: -1\r\nXxuanWo2\r\n  rotate: false\r\n  xy: 3004, 58\r\n  size: 313, 294\r\n  orig: 322, 301\r\n  offset: 4, 7\r\n  index: -1\r\nXxuanWo3\r\n  rotate: false\r\n  xy: 2635, 123\r\n  size: 367, 372\r\n  orig: 368, 372\r\n  offset: 0, 0\r\n  index: -1\r\nXxuanWo4\r\n  rotate: false\r\n  xy: 2120, 2\r\n  size: 513, 493\r\n  orig: 524, 503\r\n  offset: 6, 7\r\n  index: -1\r\nXxuanWo5\r\n  rotate: false\r\n  xy: 2, 13\r\n  size: 644, 621\r\n  orig: 663, 657\r\n  offset: 3, 3\r\n  index: -1\r\nglow_smoke\r\n  rotate: false\r\n  xy: 648, 55\r\n  size: 579, 579\r\n  orig: 675, 675\r\n  offset: 45, 51\r\n  index: -1\r\n",
+  "textures": [
+    {
+      "__uuid__": "09c53be2-be46-45ab-8fba-129f26e5edef"
+    }
+  ],
+  "textureNames": [
+    "Rouge.png"
+  ],
+  "scale": 1
+}

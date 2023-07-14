@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Already_KR",
+    "texture": "aa5d210c-c577-4c9e-a1ef-f392ede92dfc",
+    "atlas": "",
+    "rect": [
+      4,
+      12,
+      105,
+      21
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      112,
+      44
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Subscribe_Bg_4",
+    "texture": "ea7e02cc-aed2-4319-92a6-bf5e4fefdeb6",
+    "atlas": "46ef56fc-ae60-45fd-a053-4eea80b50083",
+    "rect": [
+      109,
+      931,
+      25,
+      25
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      25,
+      25
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

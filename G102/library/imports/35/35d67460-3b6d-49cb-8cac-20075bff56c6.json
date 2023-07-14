@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Wish_Bar_0",
+    "texture": "a5e030db-22b8-4718-8b39-9a8ddf439ef4",
+    "atlas": "fc60e66e-aec2-49da-9d0b-76980c16215b",
+    "rect": [
+      1994,
+      371,
+      32,
+      45
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      32,
+      45
+    ],
+    "rotated": 1,
+    "capInsets": [
+      13,
+      16,
+      13,
+      16
+    ]
+  }
+}

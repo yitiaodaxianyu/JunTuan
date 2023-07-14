@@ -1,0 +1,12 @@
+[
+  {
+    "Monster": 1,
+    "MosterName_TextID": 20018,
+    "BaseHP": 3500,
+    "BaseAttack": 50,
+    "BaseAttackSpeed": 25,
+    "Feature": 11,
+    "Speed": 128,
+    "Skill": 1
+  }
+]

@@ -1,0 +1,398 @@
+
+zhende_beimian.png
+size: 1082,397
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+30001
+  rotate: false
+  xy: 357, 5
+  size: 9, 25
+  orig: 9, 33
+  offset: 0, 4
+  index: -1
+30002
+  rotate: true
+  xy: 1040, 69
+  size: 13, 37
+  orig: 13, 39
+  offset: 0, 1
+  index: -1
+30003
+  rotate: false
+  xy: 341, 4
+  size: 14, 26
+  orig: 14, 30
+  offset: 0, 2
+  index: -1
+Shua_01
+  rotate: true
+  xy: 427, 26
+  size: 4, 9
+  orig: 62, 62
+  offset: 19, 5
+  index: -1
+Shua_02
+  rotate: false
+  xy: 1001, 9
+  size: 29, 17
+  orig: 62, 62
+  offset: 18, 5
+  index: -1
+Shua_03
+  rotate: false
+  xy: 972, 81
+  size: 34, 24
+  orig: 62, 62
+  offset: 14, 5
+  index: -1
+Shua_04
+  rotate: false
+  xy: 918, 3
+  size: 35, 32
+  orig: 62, 62
+  offset: 13, 5
+  index: -1
+Shua_05
+  rotate: false
+  xy: 877, 194
+  size: 38, 39
+  orig: 62, 62
+  offset: 10, 5
+  index: -1
+Shua_06
+  rotate: true
+  xy: 913, 37
+  size: 41, 47
+  orig: 62, 62
+  offset: 8, 5
+  index: -1
+Shua_07
+  rotate: true
+  xy: 916, 80
+  size: 40, 54
+  orig: 62, 62
+  offset: 9, 5
+  index: -1
+Shua_08
+  rotate: true
+  xy: 974, 107
+  size: 41, 54
+  orig: 62, 62
+  offset: 8, 7
+  index: -1
+Shua_09
+  rotate: true
+  xy: 976, 150
+  size: 40, 56
+  orig: 62, 62
+  offset: 9, 5
+  index: -1
+Shua_10
+  rotate: true
+  xy: 824, 189
+  size: 44, 51
+  orig: 62, 62
+  offset: 8, 7
+  index: -1
+Shua_11
+  rotate: true
+  xy: 769, 189
+  size: 44, 53
+  orig: 62, 62
+  offset: 9, 5
+  index: -1
+Shua_12
+  rotate: false
+  xy: 1034, 115
+  size: 45, 53
+  orig: 62, 62
+  offset: 8, 9
+  index: -1
+Shua_13
+  rotate: true
+  xy: 864, 35
+  size: 44, 47
+  orig: 62, 62
+  offset: 9, 15
+  index: -1
+Shua_14
+  rotate: true
+  xy: 962, 37
+  size: 41, 45
+  orig: 62, 62
+  offset: 12, 17
+  index: -1
+Shua_15
+  rotate: true
+  xy: 401, 32
+  size: 33, 39
+  orig: 62, 62
+  offset: 20, 23
+  index: -1
+Shua_16
+  rotate: true
+  xy: 1040, 84
+  size: 29, 37
+  orig: 62, 62
+  offset: 24, 25
+  index: -1
+Shua_17
+  rotate: false
+  xy: 955, 4
+  size: 23, 31
+  orig: 62, 62
+  offset: 30, 30
+  index: -1
+Shua_18
+  rotate: true
+  xy: 1008, 82
+  size: 23, 30
+  orig: 62, 62
+  offset: 30, 32
+  index: -1
+Shua_19
+  rotate: false
+  xy: 980, 3
+  size: 19, 23
+  orig: 62, 62
+  offset: 31, 39
+  index: -1
+Shua_20
+  rotate: false
+  xy: 427, 18
+  size: 6, 6
+  orig: 62, 62
+  offset: 41, 41
+  index: -1
+Yuan_00
+  rotate: true
+  xy: 368, 5
+  size: 25, 4
+  orig: 62, 62
+  offset: 19, 10
+  index: -1
+Yuan_01
+  rotate: false
+  xy: 877, 180
+  size: 38, 12
+  orig: 62, 62
+  offset: 12, 6
+  index: -1
+Yuan_02
+  rotate: false
+  xy: 1034, 170
+  size: 46, 20
+  orig: 62, 62
+  offset: 8, 2
+  index: -1
+Yuan_03
+  rotate: false
+  xy: 374, 6
+  size: 51, 24
+  orig: 62, 62
+  offset: 6, 0
+  index: -1
+Yuan_04
+  rotate: false
+  xy: 86, 3
+  size: 57, 27
+  orig: 62, 62
+  offset: 3, 0
+  index: -1
+Yuan_05
+  rotate: false
+  xy: 248, 4
+  size: 58, 26
+  orig: 62, 62
+  offset: 2, 0
+  index: -1
+Yuan_06
+  rotate: false
+  xy: 185, 4
+  size: 61, 26
+  orig: 62, 62
+  offset: 1, 0
+  index: -1
+Yuan_07
+  rotate: false
+  xy: 22, 3
+  size: 62, 27
+  orig: 62, 62
+  offset: 0, 0
+  index: -1
+ZhenDe_Attack
+  rotate: false
+  xy: 2, 2
+  size: 18, 28
+  orig: 21, 29
+  offset: 2, 1
+  index: -1
+aaa0
+  rotate: false
+  xy: 442, 3
+  size: 115, 62
+  orig: 115, 62
+  offset: 0, 0
+  index: -1
+aaa1
+  rotate: true
+  xy: 485, 67
+  size: 114, 60
+  orig: 114, 60
+  offset: 0, 0
+  index: -1
+aaa10
+  rotate: false
+  xy: 2, 32
+  size: 397, 363
+  orig: 397, 363
+  offset: 0, 0
+  index: -1
+aaa11
+  rotate: false
+  xy: 917, 158
+  size: 57, 32
+  orig: 57, 32
+  offset: 0, 0
+  index: -1
+aaa12
+  rotate: true
+  xy: 864, 81
+  size: 48, 50
+  orig: 48, 50
+  offset: 0, 0
+  index: -1
+aaa13
+  rotate: false
+  xy: 917, 192
+  size: 75, 58
+  orig: 75, 58
+  offset: 0, 0
+  index: -1
+aaa14
+  rotate: true
+  xy: 917, 327
+  size: 68, 99
+  orig: 68, 99
+  offset: 0, 0
+  index: -1
+aaa15
+  rotate: true
+  xy: 917, 252
+  size: 73, 87
+  orig: 73, 87
+  offset: 0, 0
+  index: -1
+aaa16
+  rotate: true
+  xy: 1006, 271
+  size: 11, 73
+  orig: 11, 73
+  offset: 0, 0
+  index: -1
+aaa17
+  rotate: true
+  xy: 1018, 343
+  size: 52, 60
+  orig: 52, 60
+  offset: 0, 0
+  index: -1
+aaa18
+  rotate: true
+  xy: 917, 122
+  size: 34, 55
+  orig: 34, 55
+  offset: 0, 0
+  index: -1
+aaa19
+  rotate: true
+  xy: 864, 2
+  size: 31, 52
+  orig: 31, 52
+  offset: 0, 0
+  index: -1
+aaa2
+  rotate: false
+  xy: 581, 189
+  size: 186, 206
+  orig: 186, 206
+  offset: 0, 0
+  index: -1
+aaa20
+  rotate: false
+  xy: 1009, 28
+  size: 29, 52
+  orig: 29, 52
+  offset: 0, 0
+  index: -1
+aaa21
+  rotate: false
+  xy: 485, 183
+  size: 94, 212
+  orig: 94, 212
+  offset: 0, 0
+  index: -1
+aaa3
+  rotate: true
+  xy: 145, 3
+  size: 27, 38
+  orig: 27, 38
+  offset: 0, 0
+  index: -1
+aaa31
+  rotate: false
+  xy: 401, 67
+  size: 82, 328
+  orig: 82, 328
+  offset: 0, 0
+  index: -1
+aaa32
+  rotate: false
+  xy: 559, 4
+  size: 143, 177
+  orig: 143, 177
+  offset: 0, 0
+  index: -1
+aaa4
+  rotate: true
+  xy: 704, 6
+  size: 181, 158
+  orig: 181, 158
+  offset: 0, 0
+  index: -1
+aaa5
+  rotate: false
+  xy: 769, 235
+  size: 146, 160
+  orig: 146, 160
+  offset: 0, 0
+  index: -1
+aaa6
+  rotate: true
+  xy: 1018, 284
+  size: 57, 59
+  orig: 57, 59
+  offset: 0, 0
+  index: -1
+aaa7
+  rotate: true
+  xy: 864, 131
+  size: 47, 51
+  orig: 47, 51
+  offset: 0, 0
+  index: -1
+aaa8
+  rotate: false
+  xy: 1006, 192
+  size: 66, 77
+  orig: 66, 77
+  offset: 0, 0
+  index: -1
+aaa9
+  rotate: true
+  xy: 308, 4
+  size: 26, 31
+  orig: 26, 31
+  offset: 0, 0
+  index: -1

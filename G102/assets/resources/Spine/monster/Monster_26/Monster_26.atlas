@@ -1,0 +1,356 @@
+
+Monster_26.png
+size: 1264, 270
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+2EYES CLOSED A
+  rotate: true
+  xy: 555, 16
+  size: 22, 79
+  orig: 23, 80
+  offset: 0, 0
+  index: -1
+2EYES CLOSED B
+  rotate: true
+  xy: 717, 14
+  size: 34, 77
+  orig: 35, 78
+  offset: 0, 0
+  index: -1
+2EYES OPEN  A
+  rotate: true
+  xy: 636, 16
+  size: 22, 79
+  orig: 23, 80
+  offset: 0, 0
+  index: -1
+2EYES OPEN B
+  rotate: true
+  xy: 677, 95
+  size: 34, 77
+  orig: 35, 78
+  offset: 0, 0
+  index: -1
+BODY
+  rotate: false
+  xy: 2, 2
+  size: 140, 100
+  orig: 140, 100
+  offset: 0, 0
+  index: -1
+BackBODY1
+  rotate: false
+  xy: 428, 16
+  size: 125, 97
+  orig: 125, 97
+  offset: 0, 0
+  index: -1
+BackBODY2
+  rotate: false
+  xy: 428, 16
+  size: 125, 97
+  orig: 125, 97
+  offset: 0, 0
+  index: -1
+FrontBODY1
+  rotate: false
+  xy: 428, 16
+  size: 125, 97
+  orig: 125, 97
+  offset: 0, 0
+  index: -1
+FrontBODY2
+  rotate: false
+  xy: 428, 16
+  size: 125, 97
+  orig: 125, 97
+  offset: 0, 0
+  index: -1
+BackBODY3
+  rotate: false
+  xy: 144, 2
+  size: 140, 100
+  orig: 140, 100
+  offset: 0, 0
+  index: -1
+FrontBODY3
+  rotate: false
+  xy: 144, 2
+  size: 140, 100
+  orig: 140, 100
+  offset: 0, 0
+  index: -1
+BackEYESL2
+  rotate: true
+  xy: 756, 107
+  size: 22, 79
+  orig: 24, 80
+  offset: 1, 0
+  index: -1
+BackEYESR2
+  rotate: true
+  xy: 756, 83
+  size: 22, 79
+  orig: 24, 80
+  offset: 1, 0
+  index: -1
+BackSHELL1
+  rotate: true
+  xy: 2, 104
+  size: 164, 146
+  orig: 170, 147
+  offset: 0, 1
+  index: -1
+BackSHELL2
+  rotate: false
+  xy: 936, 142
+  size: 162, 126
+  orig: 162, 126
+  offset: 0, 0
+  index: -1
+BackSHELL3
+  rotate: false
+  xy: 606, 131
+  size: 163, 137
+  orig: 163, 138
+  offset: 0, 0
+  index: -1
+FrontBODYACC1
+  rotate: false
+  xy: 555, 77
+  size: 120, 41
+  orig: 120, 41
+  offset: 0, 0
+  index: -1
+FrontBODYACC2
+  rotate: false
+  xy: 555, 77
+  size: 120, 41
+  orig: 120, 41
+  offset: 0, 0
+  index: -1
+FrontBODYACC3
+  rotate: false
+  xy: 649, 50
+  size: 126, 25
+  orig: 126, 25
+  offset: 0, 0
+  index: -1
+FrontEYESCLOSED1
+  rotate: false
+  xy: 502, 3
+  size: 73, 11
+  orig: 75, 12
+  offset: 1, 1
+  index: -1
+FrontEYESCLOSED3
+  rotate: false
+  xy: 428, 2
+  size: 72, 12
+  orig: 72, 12
+  offset: 0, 0
+  index: -1
+FrontEYESCLOSEDL2
+  rotate: true
+  xy: 777, 59
+  size: 22, 79
+  orig: 24, 80
+  offset: 1, 0
+  index: -1
+FrontEYESCLOSEDR2
+  rotate: true
+  xy: 796, 35
+  size: 22, 79
+  orig: 24, 80
+  offset: 1, 0
+  index: -1
+FrontEYESOPEN1
+  rotate: false
+  xy: 837, 84
+  size: 70, 22
+  orig: 70, 22
+  offset: 0, 0
+  index: -1
+FrontEYESOPEN3
+  rotate: false
+  xy: 555, 40
+  size: 92, 35
+  orig: 98, 41
+  offset: 3, 3
+  index: -1
+FrontEYESOPENL2
+  rotate: true
+  xy: 796, 11
+  size: 22, 79
+  orig: 24, 80
+  offset: 1, 0
+  index: -1
+FrontEYESOPENR2
+  rotate: true
+  xy: 837, 108
+  size: 22, 79
+  orig: 24, 80
+  offset: 1, 0
+  index: -1
+FrontMOUTHCLOSED1
+  rotate: false
+  xy: 577, 2
+  size: 37, 12
+  orig: 38, 12
+  offset: 1, 0
+  index: -1
+FrontMOUTHOPEN1
+  rotate: false
+  xy: 858, 60
+  size: 40, 22
+  orig: 40, 22
+  offset: 0, 0
+  index: -1
+FrontMOUTHOPEN2
+  rotate: false
+  xy: 858, 60
+  size: 40, 22
+  orig: 40, 22
+  offset: 0, 0
+  index: -1
+FrontMOUTHOPEN3
+  rotate: true
+  xy: 914, 16
+  size: 42, 24
+  orig: 42, 24
+  offset: 0, 0
+  index: -1
+FrontSHELL1
+  rotate: true
+  xy: 150, 104
+  size: 164, 146
+  orig: 176, 147
+  offset: 6, 1
+  index: -1
+FrontSHELL2
+  rotate: false
+  xy: 1100, 150
+  size: 162, 118
+  orig: 162, 118
+  offset: 0, 0
+  index: -1
+FrontSHELL3
+  rotate: false
+  xy: 771, 132
+  size: 163, 136
+  orig: 163, 137
+  offset: 0, 0
+  index: -1
+HELM
+  rotate: false
+  xy: 966, 2
+  size: 157, 138
+  orig: 157, 138
+  offset: 0, 0
+  index: -1
+SHELLBACK_side
+  rotate: true
+  xy: 298, 115
+  size: 153, 150
+  orig: 153, 150
+  offset: 0, 0
+  index: -1
+SideBODY3
+  rotate: false
+  xy: 286, 2
+  size: 140, 100
+  orig: 140, 100
+  offset: 0, 0
+  index: -1
+SideBODYACCA1
+  rotate: true
+  xy: 677, 77
+  size: 16, 36
+  orig: 16, 37
+  offset: 0, 0
+  index: -1
+SideBODYACCA3
+  rotate: true
+  xy: 918, 108
+  size: 22, 24
+  orig: 22, 25
+  offset: 0, 0
+  index: -1
+SideBODYACCB1
+  rotate: true
+  xy: 900, 60
+  size: 22, 35
+  orig: 23, 35
+  offset: 1, 0
+  index: -1
+SideBODYACCB3
+  rotate: false
+  xy: 940, 33
+  size: 24, 25
+  orig: 24, 26
+  offset: 0, 0
+  index: -1
+SideEYESCLOSED1
+  rotate: false
+  xy: 616, 2
+  size: 37, 12
+  orig: 37, 12
+  offset: 0, 0
+  index: -1
+SideEYESOPEN1
+  rotate: false
+  xy: 909, 84
+  size: 35, 22
+  orig: 35, 22
+  offset: 0, 0
+  index: -1
+SideEYESOPEN3
+  rotate: true
+  xy: 877, 9
+  size: 49, 35
+  orig: 53, 41
+  offset: 2, 3
+  index: -1
+SideMOUTHCLOSED1
+  rotate: false
+  xy: 655, 2
+  size: 18, 12
+  orig: 20, 14
+  offset: 0, 2
+  index: -1
+SideMOUTHOPEN1
+  rotate: true
+  xy: 937, 60
+  size: 22, 23
+  orig: 22, 23
+  offset: 0, 0
+  index: -1
+SideMOUTHOPEN2
+  rotate: true
+  xy: 937, 60
+  size: 22, 23
+  orig: 22, 23
+  offset: 0, 0
+  index: -1
+SideMOUTHOPEN3
+  rotate: true
+  xy: 940, 6
+  size: 25, 23
+  orig: 25, 23
+  offset: 0, 0
+  index: -1
+SideSHELL2
+  rotate: true
+  xy: 1125, 2
+  size: 146, 128
+  orig: 146, 128
+  offset: 0, 0
+  index: -1
+SideSHELL3
+  rotate: false
+  xy: 450, 120
+  size: 154, 148
+  orig: 154, 150
+  offset: 0, 0
+  index: -1

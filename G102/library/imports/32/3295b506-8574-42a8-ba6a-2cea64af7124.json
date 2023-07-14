@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Function_Btn_Forging",
+    "texture": "1285ca30-7a98-499f-ba72-f85778528c3b",
+    "atlas": "fe5ccadc-aa3d-4fac-af82-15406c1c40d5",
+    "rect": [
+      866,
+      340,
+      84,
+      84
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      84,
+      84
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

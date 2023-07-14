@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Game_Text_Block",
+    "texture": "2e4d0340-4eb0-4ab5-b73c-f16d43ea1121",
+    "atlas": "a4a901c3-ef86-47ad-93b5-14749d456ebd",
+    "rect": [
+      81,
+      109,
+      95,
+      25
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      95,
+      25
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Release_Checkmark",
+    "texture": "1b0bb15f-1881-4aba-9129-30f23ce57291",
+    "atlas": "4e025b91-fa85-4ec3-98d9-a28af504a318",
+    "rect": [
+      991,
+      2,
+      35,
+      29
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      35,
+      29
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

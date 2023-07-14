@@ -1,0 +1,58 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "DrawCardProbability",
+  "_objFlags": 0,
+  "_native": "",
+  "json": [
+    {
+      "ProbabilityID": 1,
+      "PropbabilityText": 1510001,
+      "PropbabilityNum": 0.00697488
+    },
+    {
+      "ProbabilityID": 2,
+      "PropbabilityText": 1510002,
+      "PropbabilityNum": 0.0838
+    },
+    {
+      "ProbabilityID": 3,
+      "PropbabilityText": 1510003,
+      "PropbabilityNum": 0.01813152
+    },
+    {
+      "ProbabilityID": 4,
+      "PropbabilityText": 1510004,
+      "PropbabilityNum": 0.1452
+    },
+    {
+      "ProbabilityID": 5,
+      "PropbabilityText": 1510005,
+      "PropbabilityNum": 0.033
+    },
+    {
+      "ProbabilityID": 6,
+      "PropbabilityText": 1510006,
+      "PropbabilityNum": 0.1815
+    },
+    {
+      "ProbabilityID": 7,
+      "PropbabilityText": 1510007,
+      "PropbabilityNum": 0.0558
+    },
+    {
+      "ProbabilityID": 8,
+      "PropbabilityText": 1510008,
+      "PropbabilityNum": 0.1815
+    },
+    {
+      "ProbabilityID": 9,
+      "PropbabilityText": 1510009,
+      "PropbabilityNum": 0.0907
+    },
+    {
+      "ProbabilityID": 10,
+      "PropbabilityText": 1510010,
+      "PropbabilityNum": 0.1815
+    }
+  ]
+}

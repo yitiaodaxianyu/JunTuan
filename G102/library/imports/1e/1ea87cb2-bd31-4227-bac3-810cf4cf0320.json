@@ -1,0 +1,83 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "equipment.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "BB_Jiaobiao_1": {
+      "__uuid__": "8393dc5b-6ead-4f8d-a567-504f7e99be0e"
+    },
+    "BB_Jiaobiao_2": {
+      "__uuid__": "35493c5a-3717-4872-b0b7-3bc2e694f152"
+    },
+    "BB_Jiaobiao_3": {
+      "__uuid__": "08103f9e-77aa-4acb-8b9c-3056a9795eca"
+    },
+    "BB_Jiaobiao_4": {
+      "__uuid__": "511c88cf-55c2-4aea-b4cc-921936753257"
+    },
+    "BB_Jiaobiao_5": {
+      "__uuid__": "2c8836db-5e95-482b-bd20-df10af295227"
+    },
+    "BB_Jiaobiao_6": {
+      "__uuid__": "620e66da-eba8-472c-beb3-a9bbc5ddd9c3"
+    },
+    "HC_frame_3": {
+      "__uuid__": "a90020ba-fceb-4b01-aca1-0ae091f74460"
+    },
+    "HC_frame_4": {
+      "__uuid__": "fd21abe7-c688-4b4c-9986-95a8163f0b8f"
+    },
+    "equip1": {
+      "__uuid__": "d850ccfc-3cab-471a-87b6-66c541126909"
+    },
+    "equip2": {
+      "__uuid__": "312df2af-da41-4bb9-bdd1-980cb55a4f36"
+    },
+    "equip3": {
+      "__uuid__": "44a3dd93-c119-4171-aa17-525d292771bb"
+    },
+    "icon_ZB_star_00": {
+      "__uuid__": "22754e21-cafa-4c79-a92e-d3fca9e2dfa5"
+    },
+    "icon_ZB_star_01": {
+      "__uuid__": "7624325c-797a-47b1-b9ae-7d88b7dbf8ca"
+    },
+    "quality1": {
+      "__uuid__": "68b6ab3e-e137-488f-9cfa-df65a13d3fde"
+    },
+    "quality2": {
+      "__uuid__": "d852c3ee-cc9b-4674-bf48-e640ddfddbca"
+    },
+    "quality3": {
+      "__uuid__": "02400dc1-1f6c-4fa6-99c2-ef7149a3bcde"
+    },
+    "quality4": {
+      "__uuid__": "cad23a29-369a-4c9a-8725-1d4752352319"
+    },
+    "quality5": {
+      "__uuid__": "dbd076b1-235c-4e4e-9b5e-cfeccfd65680"
+    },
+    "quality6": {
+      "__uuid__": "f4cfe6bc-f144-4972-9fef-b2092f3ca679"
+    },
+    "type1": {
+      "__uuid__": "15e193ca-9e45-4f1e-be5d-6c150827f2ab"
+    },
+    "type2": {
+      "__uuid__": "a90856be-ccde-4d3b-81a6-e54a7bdbf06b"
+    },
+    "type3": {
+      "__uuid__": "b42b5b0d-97eb-4087-94c5-e8ed2ff7a567"
+    },
+    "typeB1": {
+      "__uuid__": "3cae66d5-689e-48be-85d9-64711ce4ddaf"
+    },
+    "typeB2": {
+      "__uuid__": "774f3006-6f4b-4e32-baa7-0211f7fc05d1"
+    },
+    "typeB3": {
+      "__uuid__": "49a6d0e9-c66c-40a6-9911-8e4d922f89cc"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon_ZB_star_01",
+    "texture": "5a2fdfa0-f77e-4432-9392-2ecbdbae1d2f",
+    "atlas": "1ea87cb2-bd31-4227-bac3-810cf4cf0320",
+    "rect": [
+      242,
+      287,
+      12,
+      11
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      12,
+      11
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

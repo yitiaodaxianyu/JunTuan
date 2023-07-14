@@ -1,0 +1,26 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "Turntable.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Lucky_ADS": {
+      "__uuid__": "5a885d9d-a5b3-4d79-a480-08d8caf8a032"
+    },
+    "Lucky_Bg_0": {
+      "__uuid__": "9ac8ecdd-8820-4e78-9c36-6a9cdfa56497"
+    },
+    "Lucky_Bg_1": {
+      "__uuid__": "5085ffed-4155-4106-bc67-49c9b6fa153b"
+    },
+    "Lucky_Bg_2": {
+      "__uuid__": "23e7aefb-e420-4d9b-a241-11824ab39de6"
+    },
+    "Lucky_Bg_3": {
+      "__uuid__": "54cb539d-aa24-4cd3-bd97-d4f96dd3d0a0"
+    },
+    "Lucky_Bg_4": {
+      "__uuid__": "012ddc8c-4bb7-40de-bd68-29c2f9ccd9de"
+    }
+  }
+}

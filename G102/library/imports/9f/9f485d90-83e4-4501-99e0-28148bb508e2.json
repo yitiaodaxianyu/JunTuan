@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Ranking_Bg_3_0",
+    "texture": "b6fb050d-f128-4f7f-9a80-36d3724ddacb",
+    "atlas": "1f243774-01b2-4625-9e56-c6ae538d9adc",
+    "rect": [
+      112,
+      174,
+      547,
+      107
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      547,
+      107
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

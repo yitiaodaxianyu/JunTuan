@@ -1,0 +1,90 @@
+
+Monster_54.png
+size: 495,169
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: true
+  xy: 295, 76
+  size: 93, 94
+  orig: 93, 94
+  offset: 0, 0
+  index: -1
+Guan
+  rotate: false
+  xy: 454, 50
+  size: 41, 48
+  orig: 41, 48
+  offset: 0, 0
+  index: -1
+Head
+  rotate: true
+  xy: 181, 68
+  size: 101, 108
+  orig: 101, 108
+  offset: 0, 0
+  index: -1
+Lian_1
+  rotate: true
+  xy: 181, 35
+  size: 25, 74
+  orig: 25, 74
+  offset: 0, 0
+  index: -1
+Lian_2
+  rotate: true
+  xy: 181, 2
+  size: 25, 74
+  orig: 25, 74
+  offset: 0, 0
+  index: -1
+Mao
+  rotate: false
+  xy: 0, 0
+  size: 175, 169
+  orig: 175, 169
+  offset: 0, 0
+  index: -1
+YouJiao
+  rotate: false
+  xy: 456, 131
+  size: 33, 38
+  orig: 33, 38
+  offset: 0, 0
+  index: -1
+YouShou
+  rotate: false
+  xy: 395, 6
+  size: 53, 92
+  orig: 53, 92
+  offset: 0, 0
+  index: -1
+ZuoBi
+  rotate: true
+  xy: 295, 16
+  size: 52, 79
+  orig: 52, 79
+  offset: 0, 0
+  index: -1
+ZuoJiao
+  rotate: false
+  xy: 454, 3
+  size: 32, 39
+  orig: 32, 39
+  offset: 0, 0
+  index: -1
+ZuoShou_1
+  rotate: false
+  xy: 395, 106
+  size: 55, 63
+  orig: 55, 63
+  offset: 0, 0
+  index: -1
+ZuoShou_2
+  rotate: false
+  xy: 261, 26
+  size: 28, 34
+  orig: 28, 34
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Shop_Shelf",
+    "texture": "1158689d-d16e-4728-84cd-345e0ece9ab5",
+    "atlas": "f6939bed-f30d-4e57-b1a9-017c6c7ff7ae",
+    "rect": [
+      378,
+      129,
+      610,
+      78
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      610,
+      78
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

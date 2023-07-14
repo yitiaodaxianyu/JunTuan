@@ -1,0 +1,1169 @@
+{
+  "projectPath": "D:\\proSvn\\G102",
+  "actualPlatform": "wechatgame",
+  "mtimes": {
+    "c9ba14e0-aa8a-40b2-878b-534a465e3a7a": {
+      "assetMtime": 1688719261793,
+      "metaMtime": 1689133968567
+    },
+    "01c80b32-1301-478c-9667-415c3b7bddd2": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "99af727f-665e-4276-a2bc-b23712b9f6d8": {
+      "assetMtime": 1688719261791,
+      "metaMtime": 1689133968671
+    },
+    "0ff22e40-8a00-43ee-83dc-d94aeae2d1cf": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "11135c36-d4fb-4ca3-8378-6ec1f78346ad": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "21cb6618-f1db-4d92-ba18-32f82e5ae028": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "257f73aa-6332-4aef-a38b-b036efaa4bba": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "2a72d003-7fef-4113-9782-8c4b7fd73040": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "2af97d54-40ad-43f8-bc4e-e23539f7c28a": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "2f75080a-3e8a-43e2-a7a6-22521db93f20": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "30fb1285-75b4-43d3-8db3-f71262a93f67": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "33bdb8dc-511f-41f8-815f-4edb27d9f8fa": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "3ca4dcc0-7433-47d4-9287-8b38e62a811a": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "3ed2146d-0b25-46fb-9795-9c500c0705a7": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "47064744-c772-4be2-9caf-62cd4ed51517": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "48e7934c-4ba5-4e6d-9e00-9d1a51f78275": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "4b8da819-d50a-415f-97d4-f83d56aa35c6": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "4f6c6eed-6077-4c09-874a-9230b2abb4b0": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "58ab864c-cefa-47ef-88ea-d79c82cf1112": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "5a5f58c0-e768-4229-a7f7-adcd4024f73c": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "5c29cf95-da12-487b-b9be-8079ac616f02": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "5c75c0a5-4dbc-4b50-b681-00463899faf2": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "5ed3d6f3-e08d-45fd-b868-b432f6bebd12": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "63822abb-50d0-4bad-8856-bf0194e15e62": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "7f75f8eb-1e7c-4130-ab9b-bfa3eb17657d": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "8c628b74-82a4-4d38-bdfe-9011e8642896": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "9cc27dc0-ab08-4760-8a84-6f239e697861": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "9df98d35-ccd1-488e-943f-d85f69acb276": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "a3291073-e245-415c-b396-5924d4993244": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "a9b6b296-49a1-448d-8e48-72982fcb852e": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "abdc54cf-d2fe-4a47-95e9-776a8e9a64aa": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "adb3693f-40e4-4881-b4c6-14a9a889546b": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "b8f3fe37-dd8b-4312-98f5-3d9959dc0c64": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "b9703c55-1e3b-41b5-b41f-5fef20d401c1": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "c1ccddb0-b191-4dfe-8312-48cf1d4aba74": {
+      "assetMtime": 1688719261770,
+      "metaMtime": 1689133968637
+    },
+    "ae0941bf-323e-4514-8d05-aa602bf3ff65": {
+      "assetMtime": 1688719261770,
+      "metaMtime": 1689133968637
+    },
+    "dcfc0ee8-0f4a-4a01-b667-be93651e02b5": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "e17bc5d2-6765-4472-94da-c462799394c4": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "e5cd1cd2-6838-4486-b1b2-956589eac7c9": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "ea0363ca-7a9e-4fbe-94ab-c8bc799be904": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "f8314d86-39c3-4bd5-ab04-b92b78dfc2d3": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "f9574c8a-22dd-4486-bf23-c0caeb75a2b4": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    },
+    "fe54e2b4-843f-4381-ab45-d10e8629ce18": {
+      "assetMtime": 1688719261771,
+      "metaMtime": 1689133977386
+    }
+  },
+  "result": {
+    "name": "bpuAutoAtlas-2",
+    "width": 108,
+    "height": 223,
+    "ver": "1.2.5",
+    "uuid": "c9ba14e0-aa8a-40b2-878b-534a465e3a7a",
+    "importer": "auto-atlas",
+    "maxWidth": 1024,
+    "maxHeight": 1024,
+    "padding": 2,
+    "compressionLevel": 6,
+    "allowRotation": true,
+    "forceSquared": false,
+    "powerOfTwo": false,
+    "algorithm": "MaxRects",
+    "format": "png",
+    "quality": 80,
+    "contourBleed": true,
+    "paddingBleed": true,
+    "filterUnused": true,
+    "packable": false,
+    "premultiplyAlpha": false,
+    "filterMode": "bilinear",
+    "platformSettings": {},
+    "subMetas": {},
+    "bleed": 1,
+    "atlases": [
+      {
+        "files": [
+          {
+            "name": "WarOrder_Bg_1",
+            "uuid": "2af97d54-40ad-43f8-bc4e-e23539f7c28a",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229321826_image_6.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 640,
+              "height": 386,
+              "rotatedWidth": 640,
+              "rotatedHeight": 386
+            },
+            "rawWidth": 640,
+            "rawHeight": 386,
+            "width": 646,
+            "height": 392,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 0,
+            "y": 0,
+            "rotatedWidth": 646,
+            "rotatedHeight": 392
+          },
+          {
+            "name": "ZhanLin_Top_Banner",
+            "uuid": "5a5f58c0-e768-4229-a7f7-adcd4024f73c",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229321828_image_17.png",
+            "trim": {
+              "x": 649,
+              "y": 3,
+              "width": 640,
+              "height": 214,
+              "rotatedWidth": 214,
+              "rotatedHeight": 640
+            },
+            "rawWidth": 640,
+            "rawHeight": 214,
+            "width": 646,
+            "height": 220,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 646,
+            "y": 0,
+            "rotated": true,
+            "rotatedWidth": 220,
+            "rotatedHeight": 646
+          },
+          {
+            "name": "WarOrder_Light",
+            "uuid": "f9574c8a-22dd-4486-bf23-c0caeb75a2b4",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229321831_image_38.png",
+            "trim": {
+              "x": 3,
+              "y": 395,
+              "width": 335,
+              "height": 311,
+              "rotatedWidth": 335,
+              "rotatedHeight": 311
+            },
+            "rawWidth": 335,
+            "rawHeight": 311,
+            "width": 341,
+            "height": 317,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 0,
+            "y": 392,
+            "rotatedWidth": 341,
+            "rotatedHeight": 317
+          },
+          {
+            "name": "WarOrder_Bg_6",
+            "uuid": "63822abb-50d0-4bad-8856-bf0194e15e62",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229321829_image_21.png",
+            "trim": {
+              "x": 344,
+              "y": 649,
+              "width": 630,
+              "height": 142,
+              "rotatedWidth": 630,
+              "rotatedHeight": 142
+            },
+            "rawWidth": 630,
+            "rawHeight": 142,
+            "width": 636,
+            "height": 148,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 341,
+            "y": 646,
+            "rotatedWidth": 636,
+            "rotatedHeight": 148
+          },
+          {
+            "name": "ZhanLin_Bg_2",
+            "uuid": "7f75f8eb-1e7c-4130-ab9b-bfa3eb17657d",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229321829_image_22.png",
+            "trim": {
+              "x": 869,
+              "y": 3,
+              "width": 640,
+              "height": 138,
+              "rotatedWidth": 138,
+              "rotatedHeight": 640
+            },
+            "rawWidth": 640,
+            "rawHeight": 138,
+            "width": 646,
+            "height": 144,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 866,
+            "y": 0,
+            "rotated": true,
+            "rotatedWidth": 144,
+            "rotatedHeight": 646
+          },
+          {
+            "name": "ZhanLin_Level_JinDu_0",
+            "uuid": "e5cd1cd2-6838-4486-b1b2-956589eac7c9",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229321831_image_35.png",
+            "trim": {
+              "x": 980,
+              "y": 649,
+              "width": 366,
+              "height": 35,
+              "rotatedWidth": 35,
+              "rotatedHeight": 366
+            },
+            "rawWidth": 366,
+            "rawHeight": 35,
+            "width": 372,
+            "height": 41,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 977,
+            "y": 646,
+            "rotated": true,
+            "rotatedWidth": 41,
+            "rotatedHeight": 372
+          },
+          {
+            "name": "WarOrder_Icon_1",
+            "uuid": "abdc54cf-d2fe-4a47-95e9-776a8e9a64aa",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229321830_image_28.png",
+            "trim": {
+              "x": 344,
+              "y": 395,
+              "width": 199,
+              "height": 165,
+              "rotatedWidth": 199,
+              "rotatedHeight": 165
+            },
+            "rawWidth": 199,
+            "rawHeight": 165,
+            "width": 205,
+            "height": 171,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 341,
+            "y": 392,
+            "rotatedWidth": 205,
+            "rotatedHeight": 171
+          },
+          {
+            "name": "ZhanLin_Btn_0",
+            "uuid": "4b8da819-d50a-415f-97d4-f83d56aa35c6",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229321827_image_14.png",
+            "trim": {
+              "x": 549,
+              "y": 395,
+              "width": 220,
+              "height": 83,
+              "rotatedWidth": 83,
+              "rotatedHeight": 220
+            },
+            "rawWidth": 220,
+            "rawHeight": 83,
+            "width": 226,
+            "height": 89,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 546,
+            "y": 392,
+            "rotated": true,
+            "rotatedWidth": 89,
+            "rotatedHeight": 226
+          },
+          {
+            "name": "ZhanLin_Btn_1",
+            "uuid": "5c75c0a5-4dbc-4b50-b681-00463899faf2",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229321829_image_19.png",
+            "trim": {
+              "x": 344,
+              "y": 566,
+              "width": 133,
+              "height": 65,
+              "rotatedWidth": 133,
+              "rotatedHeight": 65
+            },
+            "rawWidth": 133,
+            "rawHeight": 65,
+            "width": 139,
+            "height": 71,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 341,
+            "y": 563,
+            "rotatedWidth": 139,
+            "rotatedHeight": 71
+          },
+          {
+            "name": "ZhanLin_Information",
+            "uuid": "2a72d003-7fef-4113-9782-8c4b7fd73040",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229321826_image_5.png",
+            "trim": {
+              "x": 483,
+              "y": 566,
+              "width": 52,
+              "height": 57,
+              "rotatedWidth": 52,
+              "rotatedHeight": 57
+            },
+            "rawWidth": 52,
+            "rawHeight": 57,
+            "width": 58,
+            "height": 63,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 480,
+            "y": 563,
+            "rotatedWidth": 58,
+            "rotatedHeight": 63
+          },
+          {
+            "name": "Tower_Bg_1",
+            "uuid": "fe54e2b4-843f-4381-ab45-d10e8629ce18",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229321831_image_39.png",
+            "trim": {
+              "x": 3,
+              "y": 712,
+              "width": 128,
+              "height": 128,
+              "rotatedWidth": 128,
+              "rotatedHeight": 128
+            },
+            "rawWidth": 128,
+            "rawHeight": 128,
+            "width": 134,
+            "height": 134,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 0,
+            "y": 709,
+            "rotatedWidth": 134,
+            "rotatedHeight": 134
+          },
+          {
+            "name": "WarOrder_Btn_0",
+            "uuid": "58ab864c-cefa-47ef-88ea-d79c82cf1112",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229321827_image_16.png",
+            "trim": {
+              "x": 137,
+              "y": 712,
+              "width": 257,
+              "height": 73,
+              "rotatedWidth": 73,
+              "rotatedHeight": 257
+            },
+            "rawWidth": 257,
+            "rawHeight": 73,
+            "width": 263,
+            "height": 79,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 134,
+            "y": 709,
+            "rotated": true,
+            "rotatedWidth": 79,
+            "rotatedHeight": 263
+          },
+          {
+            "name": "ZhanLin_Level",
+            "uuid": "5ed3d6f3-e08d-45fd-b868-b432f6bebd12",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229321829_image_20.png",
+            "trim": {
+              "x": 3,
+              "y": 846,
+              "width": 111,
+              "height": 111,
+              "rotatedWidth": 111,
+              "rotatedHeight": 111
+            },
+            "rawWidth": 111,
+            "rawHeight": 111,
+            "width": 117,
+            "height": 117,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 0,
+            "y": 843,
+            "rotatedWidth": 117,
+            "rotatedHeight": 117
+          },
+          {
+            "name": "ZhanLin_Btn_3",
+            "uuid": "3ca4dcc0-7433-47d4-9287-8b38e62a811a",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229321827_image_10.png",
+            "trim": {
+              "x": 3,
+              "y": 963,
+              "width": 115,
+              "height": 42,
+              "rotatedWidth": 115,
+              "rotatedHeight": 42
+            },
+            "rawWidth": 115,
+            "rawHeight": 42,
+            "width": 121,
+            "height": 48,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 0,
+            "y": 960,
+            "rotatedWidth": 121,
+            "rotatedHeight": 48
+          },
+          {
+            "name": "WarOrder_Bg_2",
+            "uuid": "9df98d35-ccd1-488e-943f-d85f69acb276",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229321829_image_25.png",
+            "trim": {
+              "x": 216,
+              "y": 712,
+              "width": 254,
+              "height": 44,
+              "rotatedWidth": 44,
+              "rotatedHeight": 254
+            },
+            "rawWidth": 254,
+            "rawHeight": 44,
+            "width": 260,
+            "height": 50,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 213,
+            "y": 709,
+            "rotated": true,
+            "rotatedWidth": 50,
+            "rotatedHeight": 260
+          },
+          {
+            "name": "WarOrder_Bg_4",
+            "uuid": "47064744-c772-4be2-9caf-62cd4ed51517",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229321827_image_12.png",
+            "trim": {
+              "x": 266,
+              "y": 712,
+              "width": 247,
+              "height": 34,
+              "rotatedWidth": 34,
+              "rotatedHeight": 247
+            },
+            "rawWidth": 247,
+            "rawHeight": 34,
+            "width": 253,
+            "height": 40,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 263,
+            "y": 709,
+            "rotated": true,
+            "rotatedWidth": 40,
+            "rotatedHeight": 253
+          },
+          {
+            "name": "WarOrder_Bg_5",
+            "uuid": "0ff22e40-8a00-43ee-83dc-d94aeae2d1cf",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229321826_image_1.png",
+            "trim": {
+              "x": 306,
+              "y": 712,
+              "width": 78,
+              "height": 32,
+              "rotatedWidth": 32,
+              "rotatedHeight": 78
+            },
+            "rawWidth": 78,
+            "rawHeight": 32,
+            "width": 84,
+            "height": 38,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 303,
+            "y": 709,
+            "rotated": true,
+            "rotatedWidth": 38,
+            "rotatedHeight": 84
+          },
+          {
+            "name": "WarOrder_Jdt",
+            "uuid": "a3291073-e245-415c-b396-5924d4993244",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229321830_image_26.png",
+            "trim": {
+              "x": 306,
+              "y": 796,
+              "width": 27,
+              "height": 47,
+              "rotatedWidth": 27,
+              "rotatedHeight": 47
+            },
+            "rawWidth": 27,
+            "rawHeight": 47,
+            "width": 33,
+            "height": 53,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 303,
+            "y": 793,
+            "rotatedWidth": 33,
+            "rotatedHeight": 53
+          },
+          {
+            "name": "WarOrder_Bg_3",
+            "uuid": "3ed2146d-0b25-46fb-9795-9c500c0705a7",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229321827_image_11.png",
+            "trim": {
+              "x": 339,
+              "y": 797,
+              "width": 374,
+              "height": 34,
+              "rotatedWidth": 374,
+              "rotatedHeight": 34
+            },
+            "rawWidth": 374,
+            "rawHeight": 34,
+            "width": 380,
+            "height": 40,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 336,
+            "y": 794,
+            "rotatedWidth": 380,
+            "rotatedHeight": 40
+          },
+          {
+            "name": "ZhanLin_Bg_1",
+            "uuid": "2f75080a-3e8a-43e2-a7a6-22521db93f20",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229321826_image_7.png",
+            "trim": {
+              "x": 719,
+              "y": 797,
+              "width": 64,
+              "height": 115,
+              "rotatedWidth": 115,
+              "rotatedHeight": 64
+            },
+            "rawWidth": 64,
+            "rawHeight": 115,
+            "width": 70,
+            "height": 121,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 716,
+            "y": 794,
+            "rotated": true,
+            "rotatedWidth": 121,
+            "rotatedHeight": 70
+          },
+          {
+            "name": "ZhanLin_Btn_2",
+            "uuid": "f8314d86-39c3-4bd5-ab04-b92b78dfc2d3",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229321831_image_37.png",
+            "trim": {
+              "x": 840,
+              "y": 797,
+              "width": 133,
+              "height": 53,
+              "rotatedWidth": 53,
+              "rotatedHeight": 133
+            },
+            "rawWidth": 133,
+            "rawHeight": 53,
+            "width": 139,
+            "height": 59,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 837,
+            "y": 794,
+            "rotated": true,
+            "rotatedWidth": 59,
+            "rotatedHeight": 139
+          },
+          {
+            "name": "Font_Number_0",
+            "uuid": "c1ccddb0-b191-4dfe-8312-48cf1d4aba74",
+            "textureUuid": "ae0941bf-323e-4514-8d05-aa602bf3ff65",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229321830_image_32.png",
+            "trim": {
+              "x": 899,
+              "y": 797,
+              "width": 126,
+              "height": 59,
+              "rotatedWidth": 59,
+              "rotatedHeight": 126
+            },
+            "rawWidth": 128,
+            "rawHeight": 64,
+            "width": 132,
+            "height": 65,
+            "originalPath": "D:/proSvn/G102/library/imports/ae/ae0941bf-323e-4514-8d05-aa602bf3ff65.png",
+            "x": 896,
+            "y": 794,
+            "rotated": true,
+            "rotatedWidth": 65,
+            "rotatedHeight": 132
+          },
+          {
+            "name": "ZhanLin_Icon_DaGou",
+            "uuid": "ea0363ca-7a9e-4fbe-94ab-c8bc799be904",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229321831_image_36.png",
+            "trim": {
+              "x": 899,
+              "y": 929,
+              "width": 83,
+              "height": 68,
+              "rotatedWidth": 68,
+              "rotatedHeight": 83
+            },
+            "rawWidth": 83,
+            "rawHeight": 68,
+            "width": 89,
+            "height": 74,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 896,
+            "y": 926,
+            "rotated": true,
+            "rotatedWidth": 74,
+            "rotatedHeight": 89
+          },
+          {
+            "name": "Tower_Bg_2",
+            "uuid": "48e7934c-4ba5-4e6d-9e00-9d1a51f78275",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229321827_image_13.png",
+            "trim": {
+              "x": 306,
+              "y": 849,
+              "width": 309,
+              "height": 57,
+              "rotatedWidth": 309,
+              "rotatedHeight": 57
+            },
+            "rawWidth": 309,
+            "rawHeight": 57,
+            "width": 315,
+            "height": 63,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 303,
+            "y": 846,
+            "rotatedWidth": 315,
+            "rotatedHeight": 63
+          },
+          {
+            "name": "ZhanLin_ZheZhao",
+            "uuid": "30fb1285-75b4-43d3-8db3-f71262a93f67",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229321827_image_8.png",
+            "trim": {
+              "x": 621,
+              "y": 837,
+              "width": 89,
+              "height": 89,
+              "rotatedWidth": 89,
+              "rotatedHeight": 89
+            },
+            "rawWidth": 89,
+            "rawHeight": 89,
+            "width": 95,
+            "height": 95,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 618,
+            "y": 834,
+            "rotatedWidth": 95,
+            "rotatedHeight": 95
+          },
+          {
+            "name": "WarOrder_Btn_GoTo",
+            "uuid": "e17bc5d2-6765-4472-94da-c462799394c4",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229321831_image_34.png",
+            "trim": {
+              "x": 716,
+              "y": 867,
+              "width": 84,
+              "height": 84,
+              "rotatedWidth": 84,
+              "rotatedHeight": 84
+            },
+            "rawWidth": 84,
+            "rawHeight": 84,
+            "width": 90,
+            "height": 90,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 713,
+            "y": 864,
+            "rotatedWidth": 90,
+            "rotatedHeight": 90
+          },
+          {
+            "name": "ZhanLin_JinDu_0",
+            "uuid": "01c80b32-1301-478c-9667-415c3b7bddd2",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229321825_image_0.png",
+            "trim": {
+              "x": 806,
+              "y": 936,
+              "width": 77,
+              "height": 77,
+              "rotatedWidth": 77,
+              "rotatedHeight": 77
+            },
+            "rawWidth": 77,
+            "rawHeight": 77,
+            "width": 83,
+            "height": 83,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 803,
+            "y": 933,
+            "rotatedWidth": 83,
+            "rotatedHeight": 83
+          },
+          {
+            "name": "ZhanLin_Level_JinDu_1",
+            "uuid": "21cb6618-f1db-4d92-ba18-32f82e5ae028",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229321826_image_3.png",
+            "trim": {
+              "x": 306,
+              "y": 932,
+              "width": 351,
+              "height": 27,
+              "rotatedWidth": 351,
+              "rotatedHeight": 27
+            },
+            "rawWidth": 351,
+            "rawHeight": 27,
+            "width": 357,
+            "height": 33,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 303,
+            "y": 929,
+            "rotatedWidth": 357,
+            "rotatedHeight": 33
+          },
+          {
+            "name": "WarOrder_Jdtd",
+            "uuid": "33bdb8dc-511f-41f8-815f-4edb27d9f8fa",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229321827_image_9.png",
+            "trim": {
+              "x": 663,
+              "y": 932,
+              "width": 35,
+              "height": 55,
+              "rotatedWidth": 35,
+              "rotatedHeight": 55
+            },
+            "rawWidth": 35,
+            "rawHeight": 55,
+            "width": 41,
+            "height": 61,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 660,
+            "y": 929,
+            "rotatedWidth": 41,
+            "rotatedHeight": 61
+          },
+          {
+            "name": "DiTu_BtnBack",
+            "uuid": "9cc27dc0-ab08-4760-8a84-6f239e697861",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229321829_image_24.png",
+            "trim": {
+              "x": 704,
+              "y": 957,
+              "width": 53,
+              "height": 46,
+              "rotatedWidth": 53,
+              "rotatedHeight": 46
+            },
+            "rawWidth": 53,
+            "rawHeight": 46,
+            "width": 59,
+            "height": 52,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 701,
+            "y": 954,
+            "rotatedWidth": 59,
+            "rotatedHeight": 52
+          },
+          {
+            "name": "Rank_Icon_Gem",
+            "uuid": "11135c36-d4fb-4ca3-8378-6ec1f78346ad",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229321826_image_2.png",
+            "trim": {
+              "x": 763,
+              "y": 957,
+              "width": 43,
+              "height": 34,
+              "rotatedWidth": 34,
+              "rotatedHeight": 43
+            },
+            "rawWidth": 43,
+            "rawHeight": 34,
+            "width": 49,
+            "height": 40,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 760,
+            "y": 954,
+            "rotated": true,
+            "rotatedWidth": 40,
+            "rotatedHeight": 49
+          },
+          {
+            "name": "ZhanLin_Reset",
+            "uuid": "a9b6b296-49a1-448d-8e48-72982fcb852e",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229321830_image_27.png",
+            "trim": {
+              "x": 266,
+              "y": 965,
+              "width": 321,
+              "height": 36,
+              "rotatedWidth": 321,
+              "rotatedHeight": 36
+            },
+            "rawWidth": 321,
+            "rawHeight": 36,
+            "width": 327,
+            "height": 42,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 263,
+            "y": 962,
+            "rotatedWidth": 327,
+            "rotatedHeight": 42
+          },
+          {
+            "name": "ZhanLin_icon_lock",
+            "uuid": "5c29cf95-da12-487b-b9be-8079ac616f02",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229321828_image_18.png",
+            "trim": {
+              "x": 216,
+              "y": 972,
+              "width": 34,
+              "height": 34,
+              "rotatedWidth": 34,
+              "rotatedHeight": 34
+            },
+            "rawWidth": 34,
+            "rawHeight": 34,
+            "width": 40,
+            "height": 40,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 213,
+            "y": 969,
+            "rotatedWidth": 40,
+            "rotatedHeight": 40
+          },
+          {
+            "name": "TY_Btn_03",
+            "uuid": "b8f3fe37-dd8b-4312-98f5-3d9959dc0c64",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229321830_image_30.png",
+            "trim": {
+              "x": 593,
+              "y": 965,
+              "width": 48,
+              "height": 48,
+              "rotatedWidth": 48,
+              "rotatedHeight": 48
+            },
+            "rawWidth": 48,
+            "rawHeight": 48,
+            "width": 54,
+            "height": 54,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 590,
+            "y": 962,
+            "rotatedWidth": 54,
+            "rotatedHeight": 54
+          },
+          {
+            "name": "ZhanLin_JinDu_1",
+            "uuid": "257f73aa-6332-4aef-a38b-b036efaa4bba",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229321826_image_4.png",
+            "trim": {
+              "x": 124,
+              "y": 975,
+              "width": 33,
+              "height": 32,
+              "rotatedWidth": 33,
+              "rotatedHeight": 32
+            },
+            "rawWidth": 33,
+            "rawHeight": 32,
+            "width": 39,
+            "height": 38,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 121,
+            "y": 972,
+            "rotatedWidth": 39,
+            "rotatedHeight": 38
+          },
+          {
+            "name": "ZhanLin_JinDu_1_1",
+            "uuid": "adb3693f-40e4-4881-b4c6-14a9a889546b",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229321830_image_29.png",
+            "trim": {
+              "x": 163,
+              "y": 975,
+              "width": 33,
+              "height": 32,
+              "rotatedWidth": 33,
+              "rotatedHeight": 32
+            },
+            "rawWidth": 33,
+            "rawHeight": 32,
+            "width": 39,
+            "height": 38,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 160,
+            "y": 972,
+            "rotatedWidth": 39,
+            "rotatedHeight": 38
+          }
+        ],
+        "width": 1018,
+        "height": 1018,
+        "name": "bpuAutoAtlas-1",
+        "imagePath": "D:\\proSvn\\G102\\temp\\TexturePacker\\build\\native\\assets\\resources\\Images\\home\\battle_pass_ui\\bpuAutoAtlas.pac\\bpuAutoAtlas-1.png",
+        "compressd": {
+          "suffix": [
+            ".png"
+          ],
+          "imagePathNoExt": "D:\\proSvn\\G102\\temp\\TexturePacker\\build\\native\\assets\\resources\\Images\\home\\battle_pass_ui\\bpuAutoAtlas.pac\\compressed\\bpuAutoAtlas-1"
+        }
+      },
+      {
+        "files": [
+          {
+            "name": "ZhanLin_JinDu_0_1",
+            "uuid": "b9703c55-1e3b-41b5-b41f-5fef20d401c1",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229321830_image_31.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 77,
+              "height": 77,
+              "rotatedWidth": 77,
+              "rotatedHeight": 77
+            },
+            "rawWidth": 77,
+            "rawHeight": 77,
+            "width": 83,
+            "height": 83,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 0,
+            "y": 0,
+            "rotatedWidth": 83,
+            "rotatedHeight": 83
+          },
+          {
+            "name": "WarOrder_Jdt1",
+            "uuid": "4f6c6eed-6077-4c09-874a-9230b2abb4b0",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229321827_image_15.png",
+            "trim": {
+              "x": 3,
+              "y": 86,
+              "width": 64,
+              "height": 64,
+              "rotatedWidth": 64,
+              "rotatedHeight": 64
+            },
+            "rawWidth": 64,
+            "rawHeight": 64,
+            "width": 70,
+            "height": 70,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 0,
+            "y": 83,
+            "rotatedWidth": 70,
+            "rotatedHeight": 70
+          },
+          {
+            "name": "ZhanLin_Bg_0",
+            "uuid": "8c628b74-82a4-4d38-bdfe-9011e8642896",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229321829_image_23.png",
+            "trim": {
+              "x": 73,
+              "y": 86,
+              "width": 32,
+              "height": 32,
+              "rotatedWidth": 32,
+              "rotatedHeight": 32
+            },
+            "rawWidth": 32,
+            "rawHeight": 32,
+            "width": 38,
+            "height": 38,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 70,
+            "y": 83,
+            "rotatedWidth": 38,
+            "rotatedHeight": 38
+          },
+          {
+            "name": "WarOrder_Btn_1",
+            "uuid": "dcfc0ee8-0f4a-4a01-b667-be93651e02b5",
+            "textureUuid": "99af727f-665e-4276-a2bc-b23712b9f6d8",
+            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229321831_image_33.png",
+            "trim": {
+              "x": 3,
+              "y": 156,
+              "width": 64,
+              "height": 64,
+              "rotatedWidth": 64,
+              "rotatedHeight": 64
+            },
+            "rawWidth": 64,
+            "rawHeight": 64,
+            "width": 70,
+            "height": 70,
+            "originalPath": "D:/proSvn/G102/library/imports/99/99af727f-665e-4276-a2bc-b23712b9f6d8.png",
+            "x": 0,
+            "y": 153,
+            "rotatedWidth": 70,
+            "rotatedHeight": 70
+          }
+        ],
+        "width": 108,
+        "height": 223,
+        "name": "bpuAutoAtlas-2",
+        "imagePath": "D:\\proSvn\\G102\\temp\\TexturePacker\\build\\native\\assets\\resources\\Images\\home\\battle_pass_ui\\bpuAutoAtlas.pac\\bpuAutoAtlas-2.png",
+        "compressd": {
+          "suffix": [
+            ".png"
+          ],
+          "imagePathNoExt": "D:\\proSvn\\G102\\temp\\TexturePacker\\build\\native\\assets\\resources\\Images\\home\\battle_pass_ui\\bpuAutoAtlas.pac\\compressed\\bpuAutoAtlas-2"
+        }
+      }
+    ],
+    "unpackedTextures": []
+  }
+}

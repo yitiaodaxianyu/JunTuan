@@ -1,0 +1,48 @@
+
+Monster_35.png
+size: 352,162
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: true
+  xy: 137, 58
+  size: 104, 135
+  orig: 104, 135
+  offset: 0, 0
+  index: -1
+Tou
+  rotate: false
+  xy: 0, 46
+  size: 135, 116
+  orig: 135, 116
+  offset: 0, 0
+  index: -1
+YouJiao
+  rotate: true
+  xy: 0, 10
+  size: 34, 53
+  orig: 34, 53
+  offset: 0, 0
+  index: -1
+YouShou
+  rotate: false
+  xy: 274, 12
+  size: 78, 150
+  orig: 78, 150
+  offset: 0, 0
+  index: -1
+ZuoJiao
+  rotate: false
+  xy: 55, 4
+  size: 41, 40
+  orig: 41, 40
+  offset: 0, 0
+  index: -1
+ZuoShou
+  rotate: true
+  xy: 137, 0
+  size: 56, 127
+  orig: 56, 127
+  offset: 0, 0
+  index: -1

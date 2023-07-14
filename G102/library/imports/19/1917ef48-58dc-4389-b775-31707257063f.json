@@ -1,0 +1,68 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "vip_ui.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "TY_Btn_00": {
+      "__uuid__": "043cfc28-b587-4296-ac35-102a56f8b947"
+    },
+    "TY_Btn_01": {
+      "__uuid__": "3755dbdc-c872-424e-af3a-986b3be935b2"
+    },
+    "TY_Btn_03": {
+      "__uuid__": "5902d5d4-ff57-4756-afc6-8bc223425fc8"
+    },
+    "TY_Btn_close": {
+      "__uuid__": "1d499a19-cd00-4957-bf46-85448f2c99d5"
+    },
+    "TY_TCBG_05": {
+      "__uuid__": "829378f9-85d4-4fc7-8b98-1c77ab032c84"
+    },
+    "TY_TCBG_06": {
+      "__uuid__": "06b9a6a3-1766-42d3-8312-b4be7c744a1d"
+    },
+    "TY_TCBG_07": {
+      "__uuid__": "c442c6e5-ffd5-48e4-8693-7688a6eb6280"
+    },
+    "TY_TCBG_08": {
+      "__uuid__": "cfe253e5-a26c-4fee-96d0-cf8a051e10ea"
+    },
+    "TY_TCBG_09": {
+      "__uuid__": "45abd076-c37b-45e5-99f8-d2f04bc4ae36"
+    },
+    "TY_TCBG_10": {
+      "__uuid__": "ea65da0d-3111-4015-ab9b-30f725a13aab"
+    },
+    "TY_light_02": {
+      "__uuid__": "c4b2c9c6-c011-4b68-82e9-97f5bc19556b"
+    },
+    "VIP_bg_00": {
+      "__uuid__": "3cfb74d4-a391-48fa-9925-ee3a9e730e6b"
+    },
+    "VIP_bg_01": {
+      "__uuid__": "b5eae04a-fb4c-43d0-8dc7-a56924496669"
+    },
+    "VIP_bg_02": {
+      "__uuid__": "35d4fd39-817f-45cf-9b34-7dc08f310f86"
+    },
+    "VIP_clock": {
+      "__uuid__": "571ddfde-ec27-4b81-9abb-ade02716991a"
+    },
+    "VIP_icon_01": {
+      "__uuid__": "2bbf3fa2-8814-44f3-a191-8bc15d1f2e29"
+    },
+    "VIP_icon_02": {
+      "__uuid__": "4c91e038-4a42-4539-9d59-79bc867ae63e"
+    },
+    "VIP_icon_03": {
+      "__uuid__": "0ae97ce7-1c4e-4afe-8ac0-e2286740330c"
+    },
+    "VIP_icon_04": {
+      "__uuid__": "acd26dd0-00c3-4c18-a969-f664f8e66251"
+    },
+    "VIP_title": {
+      "__uuid__": "798fe208-1716-450b-9faf-960999e2d54a"
+    }
+  }
+}

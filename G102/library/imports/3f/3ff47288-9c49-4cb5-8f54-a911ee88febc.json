@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Tower_Cloud_0",
+    "texture": "c58cccad-d4c4-40e0-975b-ba1582ca2e15",
+    "atlas": "3d4c0f9d-6899-4448-bf55-19a5e9b15179",
+    "rect": [
+      718,
+      2,
+      941,
+      439
+    ],
+    "offset": [
+      -21,
+      1
+    ],
+    "originalSize": [
+      1001,
+      451
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

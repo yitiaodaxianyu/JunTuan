@@ -1,0 +1,161 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "tower_ui.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "DiTu_BtnBack": {
+      "__uuid__": "fa4ae0cf-43fb-45d0-9aa0-c116166e3573"
+    },
+    "DiTu_bg_02": {
+      "__uuid__": "3207681f-390b-42e4-9951-43174aff887d"
+    },
+    "Idle_frame_1": {
+      "__uuid__": "d053889d-3855-4300-9817-15731976ab52"
+    },
+    "Idle_frame_2": {
+      "__uuid__": "6e7e4e66-8375-43d5-9ce5-97b740537837"
+    },
+    "Idle_frame_3": {
+      "__uuid__": "ae6e6813-f40e-4e39-bac4-ce9001dadb25"
+    },
+    "Idle_icon_EXP": {
+      "__uuid__": "5a749d40-bb97-412c-87e0-4a9ec01565e6"
+    },
+    "Idle_icon_JYZ": {
+      "__uuid__": "716f5c07-e7c6-46e9-8b49-1c51bbaf71b2"
+    },
+    "Idle_icon_coin": {
+      "__uuid__": "70033fbe-afb2-4674-ad63-0e898ec226f1"
+    },
+    "SD_Chest_03": {
+      "__uuid__": "e8d558f9-535e-4617-b8ec-0f9ea65c5f8c"
+    },
+    "TY_Btn_03": {
+      "__uuid__": "bbffb61c-896b-4a5c-bb18-24d8910b0e81"
+    },
+    "TY_Btn_04": {
+      "__uuid__": "783c09d3-250b-4597-9ef9-b6af5e879152"
+    },
+    "TY_icon_Zuan_00": {
+      "__uuid__": "fce699e7-c1f9-4418-8e3f-7ff7622677b7"
+    },
+    "Torch": {
+      "__uuid__": "e030b9ba-3dd4-4ee7-a38c-7882f2226d55"
+    },
+    "Torch_00": {
+      "__uuid__": "3a4a59ad-98db-4a62-950f-c35f7ddb0455"
+    },
+    "Torch_01": {
+      "__uuid__": "8c545bad-1fdd-46ce-a1a6-32e649372e6b"
+    },
+    "Torch_02": {
+      "__uuid__": "6f15516c-1a4d-4b99-aa75-fa361cb22897"
+    },
+    "Torch_03": {
+      "__uuid__": "42f79552-4487-4042-a990-04112c897df5"
+    },
+    "Torch_04": {
+      "__uuid__": "437a9067-0dd7-4ee5-b2b9-792cfffc9851"
+    },
+    "Torch_05": {
+      "__uuid__": "dfb46c5b-9766-40f6-877b-c22405036c29"
+    },
+    "Torch_06": {
+      "__uuid__": "33b5b539-d010-4388-912c-f4cf7b0a8376"
+    },
+    "Torch_1": {
+      "__uuid__": "67c18453-b732-4a15-9668-866161a4b8da"
+    },
+    "Torch_2": {
+      "__uuid__": "d9553499-34af-457d-8b4d-f69bb6495f5f"
+    },
+    "Torch_3": {
+      "__uuid__": "2cb6ab48-29f0-4c07-87fb-625c89e3c879"
+    },
+    "Torch_4": {
+      "__uuid__": "aab1967d-86c4-4792-87d6-ced92ce0465c"
+    },
+    "Tower_Arrow": {
+      "__uuid__": "e445a0e9-e236-44b5-b84e-1780eed7049b"
+    },
+    "Tower_Bg_0": {
+      "__uuid__": "f248335e-aff6-43a4-abcf-952621ac04ea"
+    },
+    "Tower_Bg_1": {
+      "__uuid__": "f1ad968b-6a31-42d0-bcc1-88fd4e1fac21"
+    },
+    "Tower_Bg_1_1": {
+      "__uuid__": "39009947-0b1b-4997-9fe5-190e0f3f6c9d"
+    },
+    "Tower_Bg_2": {
+      "__uuid__": "27b2c5c2-d25d-4436-820b-e1315e5a8be8"
+    },
+    "Tower_Bg_3": {
+      "__uuid__": "f534c87b-8897-4776-8a2c-8b2719905a80"
+    },
+    "Tower_Bg_4": {
+      "__uuid__": "e193009e-08e3-469a-9b2a-246c985d8551"
+    },
+    "Tower_BtnArrow_0": {
+      "__uuid__": "1e43f0e6-4bfb-4949-b2cf-a08c870814ed"
+    },
+    "Tower_BtnArrow_1": {
+      "__uuid__": "209a687f-eae4-48de-aca9-f9ea320707a0"
+    },
+    "Tower_BtnTips": {
+      "__uuid__": "12ad50a8-514a-4852-9d28-9ed3d7d7f534"
+    },
+    "Tower_Btn_Tips": {
+      "__uuid__": "ec9c73df-9961-4481-9ff6-cb91a9da1541"
+    },
+    "Tower_Chesk_0": {
+      "__uuid__": "ea7e6a02-cf12-4457-9ba4-d7918d7cc1c4"
+    },
+    "Tower_Chesk_1": {
+      "__uuid__": "cdcdf7fc-d9ad-445c-8bf9-795658096884"
+    },
+    "Tower_Cloud_0": {
+      "__uuid__": "3ff47288-9c49-4cb5-8f54-a911ee88febc"
+    },
+    "Tower_Cloud_1": {
+      "__uuid__": "77b6aee7-9e33-419f-9186-b8c2cac8cd95"
+    },
+    "Tower_Door_0": {
+      "__uuid__": "91fd1fe4-2f55-4dd7-aa8e-5d287cfce642"
+    },
+    "Tower_Door_1": {
+      "__uuid__": "becf5293-8eda-4c48-8c0f-16ab3fe24db1"
+    },
+    "Tower_Door_1_1": {
+      "__uuid__": "c2781f92-9315-49b7-8346-d2805679f5ec"
+    },
+    "Tower_Door_2": {
+      "__uuid__": "d6a51711-6730-4d6f-aaae-9ff2dbae1097"
+    },
+    "Tower_Flag": {
+      "__uuid__": "e32cef72-a1e8-4dfb-9f65-e5e49013e09b"
+    },
+    "Tower_Line": {
+      "__uuid__": "31d1ac7c-9142-4cc5-aaac-a523fbded776"
+    },
+    "Tower_Main_0": {
+      "__uuid__": "baf08b35-3813-461f-ba27-f3426962d74f"
+    },
+    "Tower_Main_1": {
+      "__uuid__": "49bcd96d-d475-408c-b5e5-d654bdd308b1"
+    },
+    "Tower_RewardsBg_0": {
+      "__uuid__": "5bccb45a-fb70-4f85-a72d-d559a4a9e2d0"
+    },
+    "Tower_RewardsBg_1": {
+      "__uuid__": "8f52d2be-0941-471d-96f2-99aeee1476ab"
+    },
+    "Tower_Shadow_0": {
+      "__uuid__": "0684a19a-a458-49ad-84f2-b9914d0022a5"
+    },
+    "Tower_Shadow_1": {
+      "__uuid__": "0049ec6a-db50-4f2e-a6a0-48478a6648f7"
+    }
+  }
+}

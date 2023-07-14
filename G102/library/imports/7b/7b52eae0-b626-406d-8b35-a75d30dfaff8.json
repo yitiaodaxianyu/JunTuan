@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "CommonSpirit_DrawCardFX_Bule_26",
+    "texture": "e6ed8c79-b2a1-4e03-b7dc-564d6cba36f4",
+    "atlas": "c53409cf-584b-40c4-9879-41de5d91dc62",
+    "rect": [
+      2,
+      1216,
+      124,
+      202
+    ],
+    "offset": [
+      4,
+      0
+    ],
+    "originalSize": [
+      210,
+      260
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,167 @@
+
+Archer_Skill.png
+size: 1072, 1052
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+Arrow
+  rotate: true
+  xy: 759, 14
+  size: 31, 136
+  orig: 33, 140
+  offset: 1, 2
+  index: -1
+Arrow2
+  rotate: false
+  xy: 1000, 411
+  size: 31, 123
+  orig: 33, 135
+  offset: 1, 10
+  index: -1
+FX_Flame1
+  rotate: false
+  xy: 2, 110
+  size: 375, 382
+  orig: 383, 394
+  offset: 4, 6
+  index: -1
+FX_Flame2
+  rotate: false
+  xy: 2, 494
+  size: 557, 556
+  orig: 567, 571
+  offset: 5, 8
+  index: -1
+FX_Hit1
+  rotate: false
+  xy: 142, 38
+  size: 96, 70
+  orig: 100, 73
+  offset: 1, 0
+  index: -1
+FX_Hit2
+  rotate: false
+  xy: 918, 61
+  size: 152, 110
+  orig: 156, 113
+  offset: 2, 0
+  index: -1
+FX_Hit3
+  rotate: true
+  xy: 918, 173
+  size: 174, 126
+  orig: 177, 127
+  offset: 1, 0
+  index: -1
+FX_Hit4
+  rotate: true
+  xy: 868, 349
+  size: 180, 130
+  orig: 180, 130
+  offset: 0, 0
+  index: -1
+FX_Hit5
+  rotate: true
+  xy: 759, 47
+  size: 218, 157
+  orig: 220, 159
+  offset: 1, 0
+  index: -1
+FX_Hit6
+  rotate: true
+  xy: 867, 808
+  size: 242, 179
+  orig: 245, 181
+  offset: 1, 0
+  index: -1
+FX_Launch1
+  rotate: false
+  xy: 2, 7
+  size: 138, 101
+  orig: 142, 106
+  offset: 2, 0
+  index: -1
+FX_Launch2
+  rotate: true
+  xy: 633, 11
+  size: 194, 124
+  orig: 200, 134
+  offset: 3, 3
+  index: -1
+FX_Launch3
+  rotate: true
+  xy: 727, 267
+  size: 244, 139
+  orig: 250, 149
+  offset: 3, 3
+  index: -1
+FX_Launch4
+  rotate: true
+  xy: 781, 531
+  size: 275, 145
+  orig: 281, 151
+  offset: 3, 0
+  index: -1
+FX_Launch5
+  rotate: true
+  xy: 928, 536
+  size: 270, 137
+  orig: 276, 141
+  offset: 3, 0
+  index: -1
+FX_Launch6
+  rotate: true
+  xy: 447, 188
+  size: 304, 142
+  orig: 310, 147
+  offset: 3, 0
+  index: -1
+FX_Launch7
+  rotate: true
+  xy: 591, 207
+  size: 304, 134
+  orig: 304, 134
+  offset: 0, 0
+  index: -1
+FX_Light
+  rotate: true
+  xy: 142, 2
+  size: 34, 123
+  orig: 36, 127
+  offset: 1, 2
+  index: -1
+FX_Light1
+  rotate: false
+  xy: 561, 824
+  size: 304, 226
+  orig: 314, 228
+  offset: 5, 2
+  index: -1
+FX_Light2
+  rotate: true
+  xy: 561, 513
+  size: 309, 218
+  orig: 318, 225
+  offset: 5, 7
+  index: -1
+FX_Shadow
+  rotate: false
+  xy: 240, 70
+  size: 118, 38
+  orig: 121, 42
+  offset: 1, 2
+  index: -1
+Trailing
+  rotate: false
+  xy: 379, 45
+  size: 66, 447
+  orig: 66, 447
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 447, 2
+  size: 184, 184
+  orig: 256, 256
+  offset: 38, 34
+  index: -1

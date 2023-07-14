@@ -1,0 +1,113 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "elite65.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Monster_36_Attack": {
+      "__uuid__": "41709d91-deab-46de-b326-35f9e092d9b4"
+    },
+    "Monster_36_AttackBaoJi_00": {
+      "__uuid__": "6fd825ba-96c1-438e-912d-07db5b2115d9"
+    },
+    "Monster_36_AttackBaoJi_01": {
+      "__uuid__": "f34f8c8d-a1e8-4008-b7f1-8045e11d2730"
+    },
+    "Monster_36_AttackBaoJi_02": {
+      "__uuid__": "fabdfe99-3a6c-4676-bb36-c8156d080a60"
+    },
+    "Monster_36_AttackBaoJi_03": {
+      "__uuid__": "f8405169-72c1-4670-9e0a-727eadcbe098"
+    },
+    "Monster_36_AttackBaoJi_04": {
+      "__uuid__": "06832fd8-08e6-4781-a1fb-2a0f5e4ade6a"
+    },
+    "Monster_36_AttackBaoJi_05": {
+      "__uuid__": "051529aa-f1c7-44ca-afa9-49ff848eda8b"
+    },
+    "Monster_36_AttackBaoJi_06": {
+      "__uuid__": "0a12e3bf-b60a-4b86-8972-aecf24eedbc2"
+    },
+    "Monster_36_AttackBaoJi_07": {
+      "__uuid__": "47f2cd93-7536-41f5-9799-0767bad66fb3"
+    },
+    "Monster_36_AttackBaoJi_08": {
+      "__uuid__": "e811c88f-da93-48b4-961f-63c358dd6f39"
+    },
+    "Monster_36_AttackBaoJi_09": {
+      "__uuid__": "1dc9de79-615d-4076-bde3-65fbbc9667b7"
+    },
+    "Monster_36_AttackBaoJi_10": {
+      "__uuid__": "e5ce0d02-a0af-46a8-bf2f-8fff97c46aa8"
+    },
+    "Monster_36_AttackBaoJi_11": {
+      "__uuid__": "be12fac7-261a-4bea-82ff-0d5285a4c3a7"
+    },
+    "Monster_36_AttackBaoJi_12": {
+      "__uuid__": "f38501c6-ae27-4e0f-91ae-8c0071cd0531"
+    },
+    "Monster_36_AttackBaoJi_13": {
+      "__uuid__": "33ff0c24-ef8d-4b95-8ba3-b5b291cbd457"
+    },
+    "Monster_36_AttackBaoJi_14": {
+      "__uuid__": "2645c2ea-478d-4b35-a97e-16219f900b4c"
+    },
+    "Monster_36_AttackBaoJi_15": {
+      "__uuid__": "3de97bf6-5f2f-42fa-949c-3bb642daecce"
+    },
+    "Monster_36_AttackBaoJi_16": {
+      "__uuid__": "7773c135-031d-4986-a5e4-17f036c6ea33"
+    },
+    "Monster_36_AttackHit_00": {
+      "__uuid__": "cdf73aff-a0ac-4581-b070-62cf96c60df7"
+    },
+    "Monster_36_AttackHit_01": {
+      "__uuid__": "9dcf2735-f332-4ed7-a528-710f5c601f33"
+    },
+    "Monster_36_AttackHit_02": {
+      "__uuid__": "5bad5b22-4486-4346-a7dd-8e485472961c"
+    },
+    "Monster_36_AttackHit_03": {
+      "__uuid__": "9e4e74d2-6f9f-4cbf-94ab-42eff47c5245"
+    },
+    "Monster_36_AttackHit_04": {
+      "__uuid__": "63a64ac3-28ad-4993-847b-5353cb65a398"
+    },
+    "Monster_36_AttackHit_05": {
+      "__uuid__": "a193a5ca-4485-4697-82d5-9a235e411c3d"
+    },
+    "Monster_36_AttackHit_06": {
+      "__uuid__": "09f19bf0-3c52-4c19-b73a-59d61b922ef6"
+    },
+    "Monster_36_AttackHit_07": {
+      "__uuid__": "1686276a-1555-4a47-90cd-f5ada9a76337"
+    },
+    "Monster_36_AttackHit_08": {
+      "__uuid__": "6e921d89-1fd2-4cb4-914b-e95791d85d95"
+    },
+    "Monster_36_AttackHit_09": {
+      "__uuid__": "511ad911-38da-47c8-a8ef-abe02460740c"
+    },
+    "Monster_36_AttackHit_10": {
+      "__uuid__": "f2fdf273-1265-45fb-8e6b-e4e1f66eb97e"
+    },
+    "Monster_36_AttackHit_11": {
+      "__uuid__": "195d26b1-ee03-41cf-bd0b-3fffdd3c8028"
+    },
+    "Monster_36_AttackHit_12": {
+      "__uuid__": "73efd286-ad2b-4095-a2c3-937b3abe601f"
+    },
+    "Monster_36_AttackHit_13": {
+      "__uuid__": "5ef7af25-42b3-44aa-a4b7-55a42f13f48f"
+    },
+    "Monster_36_AttackHit_14": {
+      "__uuid__": "0fb4511e-2fe6-4939-926d-d3d9152730bf"
+    },
+    "Monster_36_AttackHit_15": {
+      "__uuid__": "57c609c7-9305-443f-9b5b-79fb47b80906"
+    },
+    "Monster_36_AttackHit_16": {
+      "__uuid__": "c02fbd0e-1368-4c2f-930b-532258055dc4"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Gunner_PassiveSkill2_22",
+    "texture": "4a2e88f4-7ce8-4319-bec0-504d431c621a",
+    "atlas": "8932c782-c694-43bb-95b0-0e4c411b4b2e",
+    "rect": [
+      1584,
+      996,
+      130,
+      146
+    ],
+    "offset": [
+      -2,
+      -9
+    ],
+    "originalSize": [
+      180,
+      180
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

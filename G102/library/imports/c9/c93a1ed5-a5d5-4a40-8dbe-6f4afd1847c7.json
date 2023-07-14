@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Home_Chapter9_1",
+    "texture": "a98a30a7-7b12-48bb-b5c8-7c23b55457b3",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1500,
+      772
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1500,
+      772
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

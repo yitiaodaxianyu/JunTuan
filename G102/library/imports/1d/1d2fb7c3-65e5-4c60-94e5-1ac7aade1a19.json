@@ -1,0 +1,64 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "RoguefastPass",
+  "_objFlags": 0,
+  "_native": "",
+  "json": [
+    {
+      "ChapterLevel": 1,
+      "PropID_1": 60001,
+      "PropNum_1": 1000,
+      "PropID_2": 90002,
+      "PropNum_2": 30
+    },
+    {
+      "ChapterLevel": 2,
+      "PropID_1": 60001,
+      "PropNum_1": 1300,
+      "PropID_2": 90002,
+      "PropNum_2": 30
+    },
+    {
+      "ChapterLevel": 3,
+      "PropID_1": 60001,
+      "PropNum_1": 1633,
+      "PropID_2": 90002,
+      "PropNum_2": 30
+    },
+    {
+      "ChapterLevel": 4,
+      "PropID_1": 60001,
+      "PropNum_1": 2000,
+      "PropID_2": 90002,
+      "PropNum_2": 30
+    },
+    {
+      "ChapterLevel": 5,
+      "PropID_1": 60001,
+      "PropNum_1": 2400,
+      "PropID_2": 90002,
+      "PropNum_2": 30
+    },
+    {
+      "ChapterLevel": 6,
+      "PropID_1": 60001,
+      "PropNum_1": 2833,
+      "PropID_2": 90002,
+      "PropNum_2": 30
+    },
+    {
+      "ChapterLevel": 7,
+      "PropID_1": 60001,
+      "PropNum_1": 3300,
+      "PropID_2": 90002,
+      "PropNum_2": 30
+    },
+    {
+      "ChapterLevel": 8,
+      "PropID_1": 60001,
+      "PropNum_1": 3833,
+      "PropID_2": 90002,
+      "PropNum_2": 30
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "BingNv_PassiveBao_14",
+    "texture": "aea89b86-580a-47cc-a06c-c518389022d7",
+    "atlas": "c9425f3d-1a10-4d58-ada5-89a73c0b8c49",
+    "rect": [
+      2,
+      594,
+      182,
+      178
+    ],
+    "offset": [
+      5,
+      0
+    ],
+    "originalSize": [
+      200,
+      200
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

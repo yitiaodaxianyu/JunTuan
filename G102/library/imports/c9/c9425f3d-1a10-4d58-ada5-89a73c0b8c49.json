@@ -1,0 +1,206 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "bing_nv.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "BingNv_Attack": {
+      "__uuid__": "8f62274f-f87b-429a-9723-0611a195bad0"
+    },
+    "BingNv_AttackHit_00": {
+      "__uuid__": "6edfa634-ae85-4b10-b29e-34533b9a46ac"
+    },
+    "BingNv_AttackHit_01": {
+      "__uuid__": "a8b73585-68eb-4033-a2b7-962df306997c"
+    },
+    "BingNv_AttackHit_02": {
+      "__uuid__": "a0a4429f-8c50-4a70-af4b-f29af35a2bcd"
+    },
+    "BingNv_AttackHit_03": {
+      "__uuid__": "bda6219b-3015-4064-a688-588be78bc9cb"
+    },
+    "BingNv_AttackHit_04": {
+      "__uuid__": "4081dad5-4f47-4b68-a1fc-9a4678c7ea0b"
+    },
+    "BingNv_AttackHit_05": {
+      "__uuid__": "103ea008-711f-442e-9907-963a4e0092f0"
+    },
+    "BingNv_AttackHit_06": {
+      "__uuid__": "af3bcf0e-8764-457b-95dd-bf85f7f20e54"
+    },
+    "BingNv_AttackHit_07": {
+      "__uuid__": "409a9e5c-c76c-44b9-a6b8-aa33c4ab95fd"
+    },
+    "BingNv_AttackHit_08": {
+      "__uuid__": "7d910484-eb8e-471c-b246-a91fd28aed7c"
+    },
+    "BingNv_AttackHit_09": {
+      "__uuid__": "70b3bb62-3ffa-4ae2-babf-487a1a445f96"
+    },
+    "BingNv_AttackHit_10": {
+      "__uuid__": "773bf6e8-2ed8-4ebc-ba55-6aef3b7427cc"
+    },
+    "BingNv_AttackHit_11": {
+      "__uuid__": "b692f8dd-56c8-4814-8e9b-6c72140a2be4"
+    },
+    "BingNv_AttackHit_12": {
+      "__uuid__": "9d2ef81e-fa8b-4a89-9e4e-25315fa7ab74"
+    },
+    "BingNv_AttackHit_13": {
+      "__uuid__": "c215111a-885c-4b5e-9bba-1ae85c3f7d45"
+    },
+    "BingNv_AttackHit_14": {
+      "__uuid__": "1f8a012d-da78-4144-91c4-ca4778ca61c7"
+    },
+    "BingNv_JianSu_00": {
+      "__uuid__": "e4fd2dcd-e35e-4923-a806-87e7de7b80d8"
+    },
+    "BingNv_JianSu_01": {
+      "__uuid__": "5f777f3c-cca7-4b81-9828-3248dbfecae5"
+    },
+    "BingNv_JianSu_02": {
+      "__uuid__": "ee013969-dd20-4106-999b-3919e89f1c6b"
+    },
+    "BingNv_JianSu_03": {
+      "__uuid__": "b428c980-adf3-4772-a84f-ae175d11430c"
+    },
+    "BingNv_JianSu_04": {
+      "__uuid__": "8d1a646c-d85c-410d-bfbe-87499fccfad4"
+    },
+    "BingNv_JianSu_05": {
+      "__uuid__": "4524b7dd-4e04-457c-b319-bdbac1cd3f1b"
+    },
+    "BingNv_JianSu_06": {
+      "__uuid__": "f20b0a13-636c-45e5-a966-7b535aa2f861"
+    },
+    "BingNv_JianSu_07": {
+      "__uuid__": "3146da68-7727-49e8-af95-77508990073d"
+    },
+    "BingNv_JianSu_08": {
+      "__uuid__": "867bb78c-4b41-4c83-934a-622f47991073"
+    },
+    "BingNv_JianSu_09": {
+      "__uuid__": "e8dddcb2-50db-40dd-9249-d25fb1b19749"
+    },
+    "BingNv_JianSu_10": {
+      "__uuid__": "40f19761-4d97-4acc-ba47-de9a2e6b4dd9"
+    },
+    "BingNv_JianSu_11": {
+      "__uuid__": "150f2341-a7bf-46a1-aec1-f1c567972b1a"
+    },
+    "BingNv_JianSu_12": {
+      "__uuid__": "dc59e31d-e346-430d-a89c-0d41e6084fe5"
+    },
+    "BingNv_JianSu_13": {
+      "__uuid__": "9a63d3f0-e9a2-44ce-9f35-d959190d5eab"
+    },
+    "BingNv_JianSu_14": {
+      "__uuid__": "21ee4712-8138-4d32-9ca2-3faa704d29d0"
+    },
+    "BingNv_JianSu_15": {
+      "__uuid__": "4d83e654-00ec-4107-9559-e505e902399f"
+    },
+    "BingNv_JianSu_16": {
+      "__uuid__": "a41bd167-a63e-4082-9c77-95e5421728a4"
+    },
+    "BingNv_Passive1": {
+      "__uuid__": "8500be97-a2e0-4201-96dc-f207a836842c"
+    },
+    "BingNv_Passive2": {
+      "__uuid__": "b453362d-fd3a-420e-bdd1-248d3fa25797"
+    },
+    "BingNv_PassiveBao_00": {
+      "__uuid__": "eb886cdb-a4f5-402e-9c13-d2828a996edc"
+    },
+    "BingNv_PassiveBao_01": {
+      "__uuid__": "5272a30d-d364-4ee0-b7d7-a36385962613"
+    },
+    "BingNv_PassiveBao_02": {
+      "__uuid__": "758c83a3-73a7-4a03-80dc-0a0ef7fda1c1"
+    },
+    "BingNv_PassiveBao_03": {
+      "__uuid__": "3f8652e0-1f0a-4f6d-93ac-3a5d3a5d38ae"
+    },
+    "BingNv_PassiveBao_04": {
+      "__uuid__": "6539c00d-b48d-495d-8bb8-53e0442a9828"
+    },
+    "BingNv_PassiveBao_05": {
+      "__uuid__": "cbbff653-5d8d-497b-bf37-28b0574e9714"
+    },
+    "BingNv_PassiveBao_06": {
+      "__uuid__": "ff6f130b-04b5-49d9-8f73-92f783162f9d"
+    },
+    "BingNv_PassiveBao_07": {
+      "__uuid__": "91619d7a-4253-4a7e-ac24-0193444daee5"
+    },
+    "BingNv_PassiveBao_08": {
+      "__uuid__": "6b296dac-df9e-4ec3-9bba-0276fb3b9350"
+    },
+    "BingNv_PassiveBao_09": {
+      "__uuid__": "4e7d56f1-b8aa-456b-9f7f-ff5277954ab7"
+    },
+    "BingNv_PassiveBao_10": {
+      "__uuid__": "c6478c2d-3dbb-4f4d-b5bb-54625ef774a7"
+    },
+    "BingNv_PassiveBao_11": {
+      "__uuid__": "2b1e7b76-1fd5-4cae-897a-f731ead7f7f6"
+    },
+    "BingNv_PassiveBao_12": {
+      "__uuid__": "b9683883-7c56-4abb-8f71-88316dfa4e37"
+    },
+    "BingNv_PassiveBao_13": {
+      "__uuid__": "411c859c-16ab-4fef-a021-5a8c5fdd8a15"
+    },
+    "BingNv_PassiveBao_14": {
+      "__uuid__": "6f2226e6-5153-4345-862e-4f2ee110755d"
+    },
+    "BingNv_PassiveBao_15": {
+      "__uuid__": "b2627c12-a201-415e-b537-3255c9060e7f"
+    },
+    "BingNv_PassiveHit_00": {
+      "__uuid__": "e29283d5-b76d-44de-be07-4c18d7cd4acb"
+    },
+    "BingNv_PassiveHit_01": {
+      "__uuid__": "346fec76-0dd8-44f8-851f-a88563831c08"
+    },
+    "BingNv_PassiveHit_02": {
+      "__uuid__": "3a7f4d31-080e-4f1e-92be-7def09ff464f"
+    },
+    "BingNv_PassiveHit_03": {
+      "__uuid__": "fb965e0f-6eb0-40fe-815f-4453944913a3"
+    },
+    "BingNv_PassiveHit_04": {
+      "__uuid__": "d6145893-c969-4b35-9908-8a17ccb7dc6a"
+    },
+    "BingNv_PassiveHit_05": {
+      "__uuid__": "ec40cb3f-b93b-4bad-b7e7-fd647d7e8ab9"
+    },
+    "BingNv_PassiveHit_06": {
+      "__uuid__": "75bed8c9-aea8-422f-b1d9-1bd780bda474"
+    },
+    "BingNv_PassiveHit_07": {
+      "__uuid__": "2aa4bb8d-61ad-4351-87ea-50eef38e6980"
+    },
+    "BingNv_PassiveHit_08": {
+      "__uuid__": "6174388a-985d-4a43-bcd6-853c37bf4908"
+    },
+    "BingNv_PassiveHit_09": {
+      "__uuid__": "b0d3b281-751a-4354-94f8-4299c6de2db2"
+    },
+    "BingNv_PassiveHit_10": {
+      "__uuid__": "a7e2e517-582d-48e1-a386-2f1bb715eed9"
+    },
+    "BingNv_PassiveHit_11": {
+      "__uuid__": "254079e3-c52e-42cd-933e-a84a9985d3ea"
+    },
+    "BingNv_PassiveHit_12": {
+      "__uuid__": "a133202c-62a2-469b-9357-b121d9ed6b03"
+    },
+    "BingNv_PassiveHit_13": {
+      "__uuid__": "bcb43b59-3d6d-4ff1-9a32-5dc11028ac98"
+    },
+    "BingNv_PassiveHit_14": {
+      "__uuid__": "04cabc22-744f-4540-bb41-53b95476a895"
+    }
+  }
+}

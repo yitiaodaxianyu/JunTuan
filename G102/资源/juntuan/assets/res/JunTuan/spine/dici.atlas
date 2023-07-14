@@ -1,0 +1,97 @@
+
+dici.png
+size: 280,583
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/1
+  rotate: false
+  xy: 2, 454
+  size: 127, 127
+  orig: 127, 127
+  offset: 0, 0
+  index: -1
+images/11
+  rotate: false
+  xy: 2, 219
+  size: 137, 104
+  orig: 137, 104
+  offset: 0, 0
+  index: -1
+images/2
+  rotate: false
+  xy: 131, 454
+  size: 127, 127
+  orig: 127, 127
+  offset: 0, 0
+  index: -1
+images/22
+  rotate: false
+  xy: 141, 219
+  size: 137, 104
+  orig: 137, 104
+  offset: 0, 0
+  index: -1
+images/3
+  rotate: false
+  xy: 2, 325
+  size: 127, 127
+  orig: 127, 127
+  offset: 0, 0
+  index: -1
+images/33
+  rotate: true
+  xy: 2, 80
+  size: 137, 104
+  orig: 137, 104
+  offset: 0, 0
+  index: -1
+images/4
+  rotate: false
+  xy: 131, 325
+  size: 127, 127
+  orig: 127, 127
+  offset: 0, 0
+  index: -1
+images/44
+  rotate: true
+  xy: 108, 80
+  size: 137, 104
+  orig: 137, 104
+  offset: 0, 0
+  index: -1
+images/ci
+  rotate: false
+  xy: 214, 115
+  size: 29, 102
+  orig: 29, 102
+  offset: 0, 0
+  index: -1
+images/ci2
+  rotate: true
+  xy: 2, 2
+  size: 37, 134
+  orig: 37, 134
+  offset: 0, 0
+  index: -1
+images/ci3
+  rotate: true
+  xy: 138, 41
+  size: 37, 134
+  orig: 37, 134
+  offset: 0, 0
+  index: -1
+images/ci4
+  rotate: true
+  xy: 138, 2
+  size: 37, 134
+  orig: 37, 134
+  offset: 0, 0
+  index: -1
+images/ci5
+  rotate: true
+  xy: 2, 41
+  size: 37, 134
+  orig: 37, 134
+  offset: 0, 0
+  index: -1

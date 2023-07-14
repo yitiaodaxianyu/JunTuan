@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "KuangZhan_Back",
+    "texture": "ff316674-7821-4a32-b414-9e6dfc4bf12a",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      520,
+      142
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      520,
+      142
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,912 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "ShengXing",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "Ra6F1FyQktgW2SZfPUp7GRZhZCg",
+      "spine": "3.8.99",
+      "images": "./images/",
+      "audio": ""
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "zong",
+        "parent": "root"
+      },
+      {
+        "name": "Fx_RoundLevelUp_00",
+        "parent": "zong"
+      },
+      {
+        "name": "Fx_StarLevelUp_00",
+        "parent": "zong"
+      }
+    ],
+    "slots": [
+      {
+        "name": "Fx_RoundLevelUp_00",
+        "bone": "Fx_RoundLevelUp_00"
+      },
+      {
+        "name": "Fx_StarLevelUp_00",
+        "bone": "Fx_StarLevelUp_00"
+      }
+    ],
+    "skins": [
+      {
+        "name": "default",
+        "attachments": {
+          "Fx_RoundLevelUp_00": {
+            "Fx_RoundLevelUp_00": {
+              "width": 300,
+              "height": 300
+            },
+            "Fx_RoundLevelUp_01": {
+              "width": 300,
+              "height": 300
+            },
+            "Fx_RoundLevelUp_02": {
+              "width": 300,
+              "height": 300
+            },
+            "Fx_RoundLevelUp_03": {
+              "width": 300,
+              "height": 300
+            },
+            "Fx_RoundLevelUp_04": {
+              "width": 300,
+              "height": 300
+            },
+            "Fx_RoundLevelUp_05": {
+              "width": 300,
+              "height": 300
+            },
+            "Fx_RoundLevelUp_06": {
+              "width": 300,
+              "height": 300
+            },
+            "Fx_RoundLevelUp_07": {
+              "width": 300,
+              "height": 300
+            },
+            "Fx_RoundLevelUp_08": {
+              "width": 300,
+              "height": 300
+            },
+            "Fx_RoundLevelUp_09": {
+              "width": 300,
+              "height": 300
+            },
+            "Fx_RoundLevelUp_10": {
+              "width": 300,
+              "height": 300
+            },
+            "Fx_RoundLevelUp_11": {
+              "width": 300,
+              "height": 300
+            },
+            "Fx_RoundLevelUp_12": {
+              "width": 300,
+              "height": 300
+            },
+            "Fx_RoundLevelUp_13": {
+              "width": 300,
+              "height": 300
+            },
+            "Fx_RoundLevelUp_14": {
+              "width": 300,
+              "height": 300
+            },
+            "Fx_RoundLevelUp_15": {
+              "width": 300,
+              "height": 300
+            },
+            "Fx_RoundLevelUp_16": {
+              "width": 300,
+              "height": 300
+            },
+            "Fx_RoundLevelUp_17": {
+              "width": 300,
+              "height": 300
+            },
+            "Fx_RoundLevelUp_18": {
+              "width": 300,
+              "height": 300
+            },
+            "Fx_RoundLevelUp_19": {
+              "width": 300,
+              "height": 300
+            },
+            "Fx_RoundLevelUp_20": {
+              "width": 300,
+              "height": 300
+            },
+            "Fx_RoundLevelUp_21": {
+              "width": 300,
+              "height": 300
+            }
+          },
+          "Fx_StarLevelUp_00": {
+            "Fx_StarLevelUp_00": {
+              "width": 350,
+              "height": 350
+            },
+            "Fx_StarLevelUp_01": {
+              "width": 350,
+              "height": 350
+            },
+            "Fx_StarLevelUp_02": {
+              "width": 350,
+              "height": 350
+            },
+            "Fx_StarLevelUp_03": {
+              "width": 350,
+              "height": 350
+            },
+            "Fx_StarLevelUp_04": {
+              "width": 350,
+              "height": 350
+            },
+            "Fx_StarLevelUp_05": {
+              "width": 350,
+              "height": 350
+            },
+            "Fx_StarLevelUp_06": {
+              "width": 350,
+              "height": 350
+            },
+            "Fx_StarLevelUp_07": {
+              "width": 350,
+              "height": 350
+            },
+            "Fx_StarLevelUp_08": {
+              "width": 350,
+              "height": 350
+            },
+            "Fx_StarLevelUp_09": {
+              "width": 350,
+              "height": 350
+            },
+            "Fx_StarLevelUp_10": {
+              "width": 350,
+              "height": 350
+            },
+            "Fx_StarLevelUp_11": {
+              "width": 350,
+              "height": 350
+            },
+            "Fx_StarLevelUp_12": {
+              "width": 350,
+              "height": 350
+            },
+            "Fx_StarLevelUp_13": {
+              "width": 350,
+              "height": 350
+            },
+            "Fx_StarLevelUp_14": {
+              "width": 350,
+              "height": 350
+            },
+            "Fx_StarLevelUp_15": {
+              "width": 350,
+              "height": 350
+            },
+            "Fx_StarLevelUp_16": {
+              "width": 350,
+              "height": 350
+            },
+            "Fx_StarLevelUp_17": {
+              "width": 350,
+              "height": 350
+            },
+            "Fx_StarLevelUp_18": {
+              "width": 350,
+              "height": 350
+            },
+            "Fx_StarLevelUp_19": {
+              "width": 350,
+              "height": 350
+            },
+            "Fx_StarLevelUp_20": {
+              "width": 350,
+              "height": 350
+            },
+            "Fx_StarLevelUp_21": {
+              "width": 350,
+              "height": 350
+            },
+            "Fx_StarLevelUp_22": {
+              "width": 350,
+              "height": 350
+            },
+            "Fx_StarLevelUp_23": {
+              "width": 350,
+              "height": 350
+            },
+            "Fx_StarLevelUp_24": {
+              "width": 350,
+              "height": 350
+            },
+            "Fx_StarLevelUp_25": {
+              "width": 350,
+              "height": 350
+            },
+            "Fx_StarLevelUp_26": {
+              "width": 350,
+              "height": 350
+            },
+            "Fx_StarLevelUp_27": {
+              "width": 350,
+              "height": 350
+            },
+            "Fx_StarLevelUp_28": {
+              "width": 350,
+              "height": 350
+            },
+            "Fx_StarLevelUp_29": {
+              "width": 350,
+              "height": 350
+            },
+            "Fx_StarLevelUp_30": {
+              "width": 350,
+              "height": 350
+            },
+            "Fx_StarLevelUp_31": {
+              "width": 350,
+              "height": 350
+            },
+            "Fx_StarLevelUp_32": {
+              "width": 350,
+              "height": 350
+            }
+          }
+        }
+      }
+    ],
+    "events": {
+      "Xing": {}
+    },
+    "animations": {
+      "ShengXing1": {
+        "slots": {
+          "Fx_RoundLevelUp_00": {
+            "attachment": [
+              {
+                "name": "Fx_RoundLevelUp_00"
+              },
+              {
+                "time": 0.0333,
+                "name": "Fx_RoundLevelUp_01"
+              },
+              {
+                "time": 0.0667,
+                "name": "Fx_RoundLevelUp_02"
+              },
+              {
+                "time": 0.1,
+                "name": "Fx_RoundLevelUp_03"
+              },
+              {
+                "time": 0.1333,
+                "name": "Fx_RoundLevelUp_04"
+              },
+              {
+                "time": 0.1667,
+                "name": "Fx_RoundLevelUp_05"
+              },
+              {
+                "time": 0.2,
+                "name": "Fx_RoundLevelUp_06"
+              },
+              {
+                "time": 0.2333,
+                "name": "Fx_RoundLevelUp_07"
+              },
+              {
+                "time": 0.2667,
+                "name": "Fx_RoundLevelUp_08"
+              },
+              {
+                "time": 0.3,
+                "name": "Fx_RoundLevelUp_09"
+              },
+              {
+                "time": 0.3333,
+                "name": "Fx_RoundLevelUp_10"
+              },
+              {
+                "time": 0.3667,
+                "name": "Fx_RoundLevelUp_11"
+              },
+              {
+                "time": 0.4,
+                "name": "Fx_RoundLevelUp_12"
+              },
+              {
+                "time": 0.4333,
+                "name": "Fx_RoundLevelUp_13"
+              },
+              {
+                "time": 0.4667,
+                "name": "Fx_RoundLevelUp_14"
+              },
+              {
+                "time": 0.5,
+                "name": "Fx_RoundLevelUp_15"
+              },
+              {
+                "time": 0.5333,
+                "name": "Fx_RoundLevelUp_16"
+              },
+              {
+                "time": 0.5667,
+                "name": "Fx_RoundLevelUp_17"
+              },
+              {
+                "time": 0.6,
+                "name": "Fx_RoundLevelUp_18"
+              },
+              {
+                "time": 0.6333,
+                "name": "Fx_RoundLevelUp_19"
+              },
+              {
+                "time": 0.6667,
+                "name": "Fx_RoundLevelUp_20"
+              },
+              {
+                "time": 0.7,
+                "name": "Fx_RoundLevelUp_21"
+              },
+              {
+                "time": 0.7333,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "Fx_RoundLevelUp_00": {
+            "translate": [
+              {
+                "x": -203.62,
+                "y": 152.49
+              }
+            ],
+            "scale": [
+              {
+                "x": 0.5,
+                "y": 0.5
+              }
+            ]
+          }
+        },
+        "events": [
+          {
+            "time": 0.5,
+            "name": "Xing"
+          }
+        ]
+      },
+      "ShengXing2": {
+        "slots": {
+          "Fx_RoundLevelUp_00": {
+            "attachment": [
+              {
+                "name": "Fx_RoundLevelUp_00"
+              },
+              {
+                "time": 0.0333,
+                "name": "Fx_RoundLevelUp_01"
+              },
+              {
+                "time": 0.0667,
+                "name": "Fx_RoundLevelUp_02"
+              },
+              {
+                "time": 0.1,
+                "name": "Fx_RoundLevelUp_03"
+              },
+              {
+                "time": 0.1333,
+                "name": "Fx_RoundLevelUp_04"
+              },
+              {
+                "time": 0.1667,
+                "name": "Fx_RoundLevelUp_05"
+              },
+              {
+                "time": 0.2,
+                "name": "Fx_RoundLevelUp_06"
+              },
+              {
+                "time": 0.2333,
+                "name": "Fx_RoundLevelUp_07"
+              },
+              {
+                "time": 0.2667,
+                "name": "Fx_RoundLevelUp_08"
+              },
+              {
+                "time": 0.3,
+                "name": "Fx_RoundLevelUp_09"
+              },
+              {
+                "time": 0.3333,
+                "name": "Fx_RoundLevelUp_10"
+              },
+              {
+                "time": 0.3667,
+                "name": "Fx_RoundLevelUp_11"
+              },
+              {
+                "time": 0.4,
+                "name": "Fx_RoundLevelUp_12"
+              },
+              {
+                "time": 0.4333,
+                "name": "Fx_RoundLevelUp_13"
+              },
+              {
+                "time": 0.4667,
+                "name": "Fx_RoundLevelUp_14"
+              },
+              {
+                "time": 0.5,
+                "name": "Fx_RoundLevelUp_15"
+              },
+              {
+                "time": 0.5333,
+                "name": "Fx_RoundLevelUp_16"
+              },
+              {
+                "time": 0.5667,
+                "name": "Fx_RoundLevelUp_17"
+              },
+              {
+                "time": 0.6,
+                "name": "Fx_RoundLevelUp_18"
+              },
+              {
+                "time": 0.6333,
+                "name": "Fx_RoundLevelUp_19"
+              },
+              {
+                "time": 0.6667,
+                "name": "Fx_RoundLevelUp_20"
+              },
+              {
+                "time": 0.7,
+                "name": "Fx_RoundLevelUp_21"
+              },
+              {
+                "time": 0.7333,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "Fx_RoundLevelUp_00": {
+            "translate": [
+              {
+                "x": 210.69,
+                "y": 150.12
+              }
+            ],
+            "scale": [
+              {
+                "x": 0.5,
+                "y": 0.5
+              }
+            ]
+          }
+        },
+        "events": [
+          {
+            "time": 0.5,
+            "name": "Xing"
+          }
+        ]
+      },
+      "ShengXing3": {
+        "slots": {
+          "Fx_RoundLevelUp_00": {
+            "attachment": [
+              {
+                "name": "Fx_RoundLevelUp_00"
+              },
+              {
+                "time": 0.0333,
+                "name": "Fx_RoundLevelUp_01"
+              },
+              {
+                "time": 0.0667,
+                "name": "Fx_RoundLevelUp_02"
+              },
+              {
+                "time": 0.1,
+                "name": "Fx_RoundLevelUp_03"
+              },
+              {
+                "time": 0.1333,
+                "name": "Fx_RoundLevelUp_04"
+              },
+              {
+                "time": 0.1667,
+                "name": "Fx_RoundLevelUp_05"
+              },
+              {
+                "time": 0.2,
+                "name": "Fx_RoundLevelUp_06"
+              },
+              {
+                "time": 0.2333,
+                "name": "Fx_RoundLevelUp_07"
+              },
+              {
+                "time": 0.2667,
+                "name": "Fx_RoundLevelUp_08"
+              },
+              {
+                "time": 0.3,
+                "name": "Fx_RoundLevelUp_09"
+              },
+              {
+                "time": 0.3333,
+                "name": "Fx_RoundLevelUp_10"
+              },
+              {
+                "time": 0.3667,
+                "name": "Fx_RoundLevelUp_11"
+              },
+              {
+                "time": 0.4,
+                "name": "Fx_RoundLevelUp_12"
+              },
+              {
+                "time": 0.4333,
+                "name": "Fx_RoundLevelUp_13"
+              },
+              {
+                "time": 0.4667,
+                "name": "Fx_RoundLevelUp_14"
+              },
+              {
+                "time": 0.5,
+                "name": "Fx_RoundLevelUp_15"
+              },
+              {
+                "time": 0.5333,
+                "name": "Fx_RoundLevelUp_16"
+              },
+              {
+                "time": 0.5667,
+                "name": "Fx_RoundLevelUp_17"
+              },
+              {
+                "time": 0.6,
+                "name": "Fx_RoundLevelUp_18"
+              },
+              {
+                "time": 0.6333,
+                "name": "Fx_RoundLevelUp_19"
+              },
+              {
+                "time": 0.6667,
+                "name": "Fx_RoundLevelUp_20"
+              },
+              {
+                "time": 0.7,
+                "name": "Fx_RoundLevelUp_21"
+              },
+              {
+                "time": 0.7333,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "Fx_RoundLevelUp_00": {
+            "translate": [
+              {
+                "x": -281.59,
+                "y": 49.43
+              }
+            ]
+          }
+        }
+      },
+      "ShengXing4": {
+        "slots": {
+          "Fx_RoundLevelUp_00": {
+            "attachment": [
+              {
+                "name": "Fx_RoundLevelUp_00"
+              },
+              {
+                "time": 0.0333,
+                "name": "Fx_RoundLevelUp_01"
+              },
+              {
+                "time": 0.0667,
+                "name": "Fx_RoundLevelUp_02"
+              },
+              {
+                "time": 0.1,
+                "name": "Fx_RoundLevelUp_03"
+              },
+              {
+                "time": 0.1333,
+                "name": "Fx_RoundLevelUp_04"
+              },
+              {
+                "time": 0.1667,
+                "name": "Fx_RoundLevelUp_05"
+              },
+              {
+                "time": 0.2,
+                "name": "Fx_RoundLevelUp_06"
+              },
+              {
+                "time": 0.2333,
+                "name": "Fx_RoundLevelUp_07"
+              },
+              {
+                "time": 0.2667,
+                "name": "Fx_RoundLevelUp_08"
+              },
+              {
+                "time": 0.3,
+                "name": "Fx_RoundLevelUp_09"
+              },
+              {
+                "time": 0.3333,
+                "name": "Fx_RoundLevelUp_10"
+              },
+              {
+                "time": 0.3667,
+                "name": "Fx_RoundLevelUp_11"
+              },
+              {
+                "time": 0.4,
+                "name": "Fx_RoundLevelUp_12"
+              },
+              {
+                "time": 0.4333,
+                "name": "Fx_RoundLevelUp_13"
+              },
+              {
+                "time": 0.4667,
+                "name": "Fx_RoundLevelUp_14"
+              },
+              {
+                "time": 0.5,
+                "name": "Fx_RoundLevelUp_15"
+              },
+              {
+                "time": 0.5333,
+                "name": "Fx_RoundLevelUp_16"
+              },
+              {
+                "time": 0.5667,
+                "name": "Fx_RoundLevelUp_17"
+              },
+              {
+                "time": 0.6,
+                "name": "Fx_RoundLevelUp_18"
+              },
+              {
+                "time": 0.6333,
+                "name": "Fx_RoundLevelUp_19"
+              },
+              {
+                "time": 0.6667,
+                "name": "Fx_RoundLevelUp_20"
+              },
+              {
+                "time": 0.7,
+                "name": "Fx_RoundLevelUp_21"
+              },
+              {
+                "time": 0.7333,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "Fx_RoundLevelUp_00": {
+            "translate": [
+              {
+                "x": 278.36,
+                "y": 50.01
+              }
+            ]
+          }
+        },
+        "events": [
+          {
+            "time": 0.5,
+            "name": "Xing"
+          }
+        ]
+      },
+      "ShengXing5": {
+        "slots": {
+          "Fx_StarLevelUp_00": {
+            "attachment": [
+              {
+                "name": "Fx_StarLevelUp_00"
+              },
+              {
+                "time": 0.0333,
+                "name": "Fx_StarLevelUp_01"
+              },
+              {
+                "time": 0.0667,
+                "name": "Fx_StarLevelUp_02"
+              },
+              {
+                "time": 0.1,
+                "name": "Fx_StarLevelUp_03"
+              },
+              {
+                "time": 0.1333,
+                "name": "Fx_StarLevelUp_04"
+              },
+              {
+                "time": 0.1667,
+                "name": "Fx_StarLevelUp_05"
+              },
+              {
+                "time": 0.2,
+                "name": "Fx_StarLevelUp_06"
+              },
+              {
+                "time": 0.2333,
+                "name": "Fx_StarLevelUp_07"
+              },
+              {
+                "time": 0.2667,
+                "name": "Fx_StarLevelUp_08"
+              },
+              {
+                "time": 0.3,
+                "name": "Fx_StarLevelUp_09"
+              },
+              {
+                "time": 0.3333,
+                "name": "Fx_StarLevelUp_10"
+              },
+              {
+                "time": 0.3667,
+                "name": "Fx_StarLevelUp_11"
+              },
+              {
+                "time": 0.4,
+                "name": "Fx_StarLevelUp_12"
+              },
+              {
+                "time": 0.4333,
+                "name": "Fx_StarLevelUp_13"
+              },
+              {
+                "time": 0.4667,
+                "name": "Fx_StarLevelUp_14"
+              },
+              {
+                "time": 0.5,
+                "name": "Fx_StarLevelUp_15"
+              },
+              {
+                "time": 0.5333,
+                "name": "Fx_StarLevelUp_16"
+              },
+              {
+                "time": 0.5667,
+                "name": "Fx_StarLevelUp_17"
+              },
+              {
+                "time": 0.6,
+                "name": "Fx_StarLevelUp_18"
+              },
+              {
+                "time": 0.6333,
+                "name": "Fx_StarLevelUp_19"
+              },
+              {
+                "time": 0.6667,
+                "name": "Fx_StarLevelUp_20"
+              },
+              {
+                "time": 0.7,
+                "name": "Fx_StarLevelUp_21"
+              },
+              {
+                "time": 0.7333,
+                "name": "Fx_StarLevelUp_22"
+              },
+              {
+                "time": 0.7667,
+                "name": "Fx_StarLevelUp_23"
+              },
+              {
+                "time": 0.8,
+                "name": "Fx_StarLevelUp_24"
+              },
+              {
+                "time": 0.8333,
+                "name": "Fx_StarLevelUp_25"
+              },
+              {
+                "time": 0.8667,
+                "name": "Fx_StarLevelUp_26"
+              },
+              {
+                "time": 0.9,
+                "name": "Fx_StarLevelUp_27"
+              },
+              {
+                "time": 0.9333,
+                "name": "Fx_StarLevelUp_28"
+              },
+              {
+                "time": 0.9667,
+                "name": "Fx_StarLevelUp_29"
+              },
+              {
+                "time": 1,
+                "name": "Fx_StarLevelUp_30"
+              },
+              {
+                "time": 1.0333,
+                "name": "Fx_StarLevelUp_31"
+              },
+              {
+                "time": 1.0667,
+                "name": "Fx_StarLevelUp_32"
+              },
+              {
+                "time": 1.1,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "Fx_StarLevelUp_00": {
+            "scale": [
+              {
+                "x": 2,
+                "y": 2
+              }
+            ]
+          }
+        },
+        "events": [
+          {
+            "time": 0.7333,
+            "name": "Xing"
+          }
+        ]
+      }
+    }
+  },
+  "_atlasText": "\r\nShengXing.png\r\nsize: 1973,1564\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nFx_RoundLevelUp_00\r\n  rotate: true\r\n  xy: 877, 1297\r\n  size: 267, 256\r\n  orig: 300, 300\r\n  offset: 9, 22\r\n  index: -1\r\nFx_RoundLevelUp_01\r\n  rotate: true\r\n  xy: 1135, 1306\r\n  size: 258, 252\r\n  orig: 300, 300\r\n  offset: 11, 24\r\n  index: -1\r\nFx_RoundLevelUp_02\r\n  rotate: true\r\n  xy: 819, 41\r\n  size: 283, 275\r\n  orig: 300, 300\r\n  offset: 10, 17\r\n  index: -1\r\nFx_RoundLevelUp_03\r\n  rotate: false\r\n  xy: 628, 983\r\n  size: 270, 270\r\n  orig: 300, 300\r\n  offset: 17, 18\r\n  index: -1\r\nFx_RoundLevelUp_04\r\n  rotate: false\r\n  xy: 1096, 67\r\n  size: 270, 276\r\n  orig: 300, 300\r\n  offset: 18, 16\r\n  index: -1\r\nFx_RoundLevelUp_05\r\n  rotate: false\r\n  xy: 900, 1033\r\n  size: 247, 262\r\n  orig: 300, 300\r\n  offset: 25, 22\r\n  index: -1\r\nFx_RoundLevelUp_06\r\n  rotate: false\r\n  xy: 1389, 1322\r\n  size: 223, 242\r\n  orig: 300, 300\r\n  offset: 45, 35\r\n  index: -1\r\nFx_RoundLevelUp_07\r\n  rotate: false\r\n  xy: 1626, 927\r\n  size: 197, 189\r\n  orig: 300, 300\r\n  offset: 58, 60\r\n  index: -1\r\nFx_RoundLevelUp_08\r\n  rotate: false\r\n  xy: 1170, 349\r\n  size: 176, 176\r\n  orig: 300, 300\r\n  offset: 68, 66\r\n  index: -1\r\nFx_RoundLevelUp_09\r\n  rotate: true\r\n  xy: 1149, 912\r\n  size: 147, 153\r\n  orig: 300, 300\r\n  offset: 72, 68\r\n  index: -1\r\nFx_RoundLevelUp_10\r\n  rotate: true\r\n  xy: 1646, 85\r\n  size: 138, 136\r\n  orig: 300, 300\r\n  offset: 80, 74\r\n  index: -1\r\nFx_RoundLevelUp_11\r\n  rotate: false\r\n  xy: 900, 909\r\n  size: 128, 122\r\n  orig: 300, 300\r\n  offset: 88, 79\r\n  index: -1\r\nFx_RoundLevelUp_12\r\n  rotate: true\r\n  xy: 1030, 912\r\n  size: 119, 112\r\n  orig: 300, 300\r\n  offset: 93, 84\r\n  index: -1\r\nFx_RoundLevelUp_13\r\n  rotate: false\r\n  xy: 1304, 913\r\n  size: 146, 146\r\n  orig: 300, 300\r\n  offset: 79, 77\r\n  index: -1\r\nFx_RoundLevelUp_14\r\n  rotate: true\r\n  xy: 1368, 435\r\n  size: 232, 233\r\n  orig: 300, 300\r\n  offset: 35, 35\r\n  index: -1\r\nFx_RoundLevelUp_15\r\n  rotate: false\r\n  xy: 901, 652\r\n  size: 253, 255\r\n  orig: 300, 300\r\n  offset: 25, 23\r\n  index: -1\r\nFx_RoundLevelUp_16\r\n  rotate: false\r\n  xy: 555, 4\r\n  size: 262, 262\r\n  orig: 300, 300\r\n  offset: 21, 20\r\n  index: -1\r\nFx_RoundLevelUp_17\r\n  rotate: false\r\n  xy: 290, 2\r\n  size: 263, 263\r\n  orig: 300, 300\r\n  offset: 20, 19\r\n  index: -1\r\nFx_RoundLevelUp_18\r\n  rotate: false\r\n  xy: 1156, 669\r\n  size: 241, 241\r\n  orig: 300, 300\r\n  offset: 31, 31\r\n  index: -1\r\nFx_RoundLevelUp_19\r\n  rotate: false\r\n  xy: 1149, 1061\r\n  size: 241, 243\r\n  orig: 300, 300\r\n  offset: 31, 29\r\n  index: -1\r\nFx_RoundLevelUp_20\r\n  rotate: false\r\n  xy: 1392, 1084\r\n  size: 232, 236\r\n  orig: 300, 300\r\n  offset: 35, 32\r\n  index: -1\r\nFx_RoundLevelUp_21\r\n  rotate: false\r\n  xy: 1399, 695\r\n  size: 215, 215\r\n  orig: 300, 300\r\n  offset: 44, 44\r\n  index: -1\r\nFx_StarLevelUp_00\r\n  rotate: true\r\n  xy: 322, 909\r\n  size: 317, 304\r\n  orig: 350, 350\r\n  offset: 6, 19\r\n  index: -1\r\nFx_StarLevelUp_01\r\n  rotate: true\r\n  xy: 0, 267\r\n  size: 306, 300\r\n  orig: 350, 350\r\n  offset: 9, 21\r\n  index: -1\r\nFx_StarLevelUp_02\r\n  rotate: true\r\n  xy: 0, 1228\r\n  size: 336, 328\r\n  orig: 350, 350\r\n  offset: 7, 13\r\n  index: -1\r\nFx_StarLevelUp_03\r\n  rotate: false\r\n  xy: 0, 575\r\n  size: 321, 321\r\n  orig: 350, 350\r\n  offset: 15, 14\r\n  index: -1\r\nFx_StarLevelUp_04\r\n  rotate: false\r\n  xy: 0, 898\r\n  size: 320, 328\r\n  orig: 350, 350\r\n  offset: 17, 12\r\n  index: -1\r\nFx_StarLevelUp_05\r\n  rotate: false\r\n  xy: 330, 1252\r\n  size: 294, 312\r\n  orig: 350, 350\r\n  offset: 24, 19\r\n  index: -1\r\nFx_StarLevelUp_06\r\n  rotate: true\r\n  xy: 0, 0\r\n  size: 265, 288\r\n  orig: 350, 350\r\n  offset: 49, 34\r\n  index: -1\r\nFx_StarLevelUp_07\r\n  rotate: true\r\n  xy: 1614, 1330\r\n  size: 234, 225\r\n  orig: 350, 350\r\n  offset: 65, 64\r\n  index: -1\r\nFx_StarLevelUp_08\r\n  rotate: false\r\n  xy: 1626, 1118\r\n  size: 210, 210\r\n  orig: 350, 350\r\n  offset: 74, 70\r\n  index: -1\r\nFx_StarLevelUp_09\r\n  rotate: true\r\n  xy: 1616, 562\r\n  size: 175, 183\r\n  orig: 350, 350\r\n  offset: 80, 73\r\n  index: -1\r\nFx_StarLevelUp_10\r\n  rotate: false\r\n  xy: 1601, 225\r\n  size: 164, 162\r\n  orig: 350, 350\r\n  offset: 90, 81\r\n  index: -1\r\nFx_StarLevelUp_11\r\n  rotate: true\r\n  xy: 1825, 935\r\n  size: 153, 145\r\n  orig: 350, 350\r\n  offset: 99, 87\r\n  index: -1\r\nFx_StarLevelUp_12\r\n  rotate: true\r\n  xy: 1838, 1090\r\n  size: 141, 133\r\n  orig: 350, 350\r\n  offset: 106, 93\r\n  index: -1\r\nFx_StarLevelUp_13\r\n  rotate: true\r\n  xy: 1511, 60\r\n  size: 140, 133\r\n  orig: 350, 350\r\n  offset: 107, 93\r\n  index: -1\r\nFx_StarLevelUp_14\r\n  rotate: false\r\n  xy: 1368, 59\r\n  size: 141, 141\r\n  orig: 350, 350\r\n  offset: 106, 101\r\n  index: -1\r\nFx_StarLevelUp_15\r\n  rotate: false\r\n  xy: 1626, 739\r\n  size: 186, 186\r\n  orig: 350, 350\r\n  offset: 83, 78\r\n  index: -1\r\nFx_StarLevelUp_16\r\n  rotate: false\r\n  xy: 1368, 202\r\n  size: 231, 231\r\n  orig: 350, 350\r\n  offset: 61, 56\r\n  index: -1\r\nFx_StarLevelUp_17\r\n  rotate: false\r\n  xy: 892, 345\r\n  size: 276, 276\r\n  orig: 350, 350\r\n  offset: 38, 33\r\n  index: -1\r\nFx_StarLevelUp_18\r\n  rotate: false\r\n  xy: 604, 326\r\n  size: 286, 286\r\n  orig: 350, 350\r\n  offset: 32, 29\r\n  index: -1\r\nFx_StarLevelUp_19\r\n  rotate: false\r\n  xy: 617, 623\r\n  size: 282, 284\r\n  orig: 350, 350\r\n  offset: 36, 31\r\n  index: -1\r\nFx_StarLevelUp_20\r\n  rotate: false\r\n  xy: 302, 268\r\n  size: 300, 305\r\n  orig: 350, 350\r\n  offset: 27, 23\r\n  index: -1\r\nFx_StarLevelUp_21\r\n  rotate: false\r\n  xy: 323, 614\r\n  size: 292, 293\r\n  orig: 350, 350\r\n  offset: 33, 23\r\n  index: -1\r\nFx_StarLevelUp_22\r\n  rotate: false\r\n  xy: 626, 1255\r\n  size: 249, 309\r\n  orig: 350, 350\r\n  offset: 18, 23\r\n  index: -1\r\nFx_StarLevelUp_23\r\n  rotate: false\r\n  xy: 1801, 393\r\n  size: 171, 229\r\n  orig: 350, 350\r\n  offset: 90, 33\r\n  index: -1\r\nFx_StarLevelUp_24\r\n  rotate: true\r\n  xy: 1781, 225\r\n  size: 166, 168\r\n  orig: 350, 350\r\n  offset: 90, 98\r\n  index: -1\r\nFx_StarLevelUp_25\r\n  rotate: true\r\n  xy: 1452, 912\r\n  size: 170, 172\r\n  orig: 350, 350\r\n  offset: 88, 97\r\n  index: -1\r\nFx_StarLevelUp_26\r\n  rotate: true\r\n  xy: 1603, 389\r\n  size: 171, 176\r\n  orig: 350, 350\r\n  offset: 88, 95\r\n  index: -1\r\nFx_StarLevelUp_27\r\n  rotate: true\r\n  xy: 1170, 527\r\n  size: 140, 179\r\n  orig: 350, 350\r\n  offset: 120, 94\r\n  index: -1\r\nFx_StarLevelUp_28\r\n  rotate: false\r\n  xy: 1825, 754\r\n  size: 141, 179\r\n  orig: 350, 350\r\n  offset: 120, 95\r\n  index: -1\r\nFx_StarLevelUp_29\r\n  rotate: false\r\n  xy: 1841, 1399\r\n  size: 132, 165\r\n  orig: 350, 350\r\n  offset: 129, 109\r\n  index: -1\r\nFx_StarLevelUp_30\r\n  rotate: false\r\n  xy: 1841, 1233\r\n  size: 132, 164\r\n  orig: 350, 350\r\n  offset: 130, 110\r\n  index: -1\r\nFx_StarLevelUp_31\r\n  rotate: true\r\n  xy: 1814, 624\r\n  size: 128, 159\r\n  orig: 350, 350\r\n  offset: 133, 115\r\n  index: -1\r\nFx_StarLevelUp_32\r\n  rotate: true\r\n  xy: 1784, 96\r\n  size: 127, 129\r\n  orig: 350, 350\r\n  offset: 134, 145\r\n  index: -1\r\n",
+  "textures": [
+    {
+      "__uuid__": "7c975b2c-37b5-484f-b1f8-38925b4c7a77"
+    }
+  ],
+  "textureNames": [
+    "ShengXing.png"
+  ],
+  "scale": 1
+}

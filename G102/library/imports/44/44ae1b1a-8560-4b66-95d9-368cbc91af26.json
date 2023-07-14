@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ZhanChe",
+    "texture": "822ce58f-e2fe-484a-b717-acebe6aca27f",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      1099,
+      284
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1103,
+      288
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

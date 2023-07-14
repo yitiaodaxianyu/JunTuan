@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Witch_PassiveSkill",
+    "texture": "b05b1024-33d9-449d-a8ee-c24ac1a5673f",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      288,
+      266
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      292,
+      270
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

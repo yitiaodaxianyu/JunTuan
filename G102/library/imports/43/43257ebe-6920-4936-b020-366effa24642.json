@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "feibiao_att1",
+    "texture": "b595a71a-0cff-40df-a0ca-fda8dab4f576",
+    "atlas": "7e726f41-915e-4c55-a9d9-9de500b5eaba",
+    "rect": [
+      331,
+      942,
+      79,
+      81
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      79,
+      81
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

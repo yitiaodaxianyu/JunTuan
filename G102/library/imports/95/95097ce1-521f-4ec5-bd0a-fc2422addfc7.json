@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Battle_HP_Monster_0_2",
+    "texture": "d2c8e048-a55b-4197-886f-a63b3fe510d1",
+    "atlas": "326cc4d3-6b9c-4ba5-966c-937f9aeb1b6d",
+    "rect": [
+      2012,
+      434,
+      63,
+      6
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      63,
+      6
+    ],
+    "rotated": 1,
+    "capInsets": [
+      16,
+      2,
+      16,
+      2
+    ]
+  }
+}

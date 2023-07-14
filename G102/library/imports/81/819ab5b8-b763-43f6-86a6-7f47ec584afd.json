@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "boss7_buff",
+    "texture": "403b9f3e-c975-4295-b5cd-e0f809fe4279",
+    "atlas": "8071b7d3-eeed-4862-bbcf-37e2c28c30bd",
+    "rect": [
+      919,
+      820,
+      66,
+      69
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      66,
+      69
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

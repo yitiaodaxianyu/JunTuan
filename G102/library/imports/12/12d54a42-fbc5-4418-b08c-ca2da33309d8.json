@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Prepare_Star_3",
+    "texture": "dd39c8d2-069e-4e18-a7e9-beee05e2597c",
+    "atlas": "c5cb0a7e-6106-4136-9ff4-97c7f3e054e2",
+    "rect": [
+      867,
+      1300,
+      85,
+      20
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      85,
+      20
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

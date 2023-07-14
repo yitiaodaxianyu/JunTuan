@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "VIP_title",
+    "texture": "bf4d600a-d80d-4979-8a27-e90610e7ba6d",
+    "atlas": "1917ef48-58dc-4389-b775-31707257063f",
+    "rect": [
+      2,
+      2,
+      485,
+      224
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      485,
+      224
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

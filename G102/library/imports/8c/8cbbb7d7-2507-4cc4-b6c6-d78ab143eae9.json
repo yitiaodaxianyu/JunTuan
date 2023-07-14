@@ -1,0 +1,2408 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "TowerLevel",
+  "_objFlags": 0,
+  "_native": "",
+  "json": [
+    {
+      "Floor": 1,
+      "MonsterGroup": 245,
+      "MonsterLevel": 1
+    },
+    {
+      "Floor": 2,
+      "MonsterGroup": 246,
+      "MonsterLevel": 1
+    },
+    {
+      "Floor": 3,
+      "MonsterGroup": 247,
+      "MonsterLevel": 2
+    },
+    {
+      "Floor": 4,
+      "MonsterGroup": 248,
+      "MonsterLevel": 2
+    },
+    {
+      "Floor": 5,
+      "MonsterGroup": 249,
+      "MonsterLevel": 3
+    },
+    {
+      "Floor": 6,
+      "MonsterGroup": 250,
+      "MonsterLevel": 3
+    },
+    {
+      "Floor": 7,
+      "MonsterGroup": 251,
+      "MonsterLevel": 4
+    },
+    {
+      "Floor": 8,
+      "MonsterGroup": 252,
+      "MonsterLevel": 4
+    },
+    {
+      "Floor": 9,
+      "MonsterGroup": 253,
+      "MonsterLevel": 5
+    },
+    {
+      "Floor": 10,
+      "MonsterGroup": 254,
+      "MonsterLevel": 5
+    },
+    {
+      "Floor": 11,
+      "MonsterGroup": 255,
+      "MonsterLevel": 6
+    },
+    {
+      "Floor": 12,
+      "MonsterGroup": 256,
+      "MonsterLevel": 6
+    },
+    {
+      "Floor": 13,
+      "MonsterGroup": 257,
+      "MonsterLevel": 7
+    },
+    {
+      "Floor": 14,
+      "MonsterGroup": 258,
+      "MonsterLevel": 7
+    },
+    {
+      "Floor": 15,
+      "MonsterGroup": 259,
+      "MonsterLevel": 8
+    },
+    {
+      "Floor": 16,
+      "MonsterGroup": 260,
+      "MonsterLevel": 8
+    },
+    {
+      "Floor": 17,
+      "MonsterGroup": 261,
+      "MonsterLevel": 9
+    },
+    {
+      "Floor": 18,
+      "MonsterGroup": 262,
+      "MonsterLevel": 9
+    },
+    {
+      "Floor": 19,
+      "MonsterGroup": 263,
+      "MonsterLevel": 10
+    },
+    {
+      "Floor": 20,
+      "MonsterGroup": 264,
+      "MonsterLevel": 10
+    },
+    {
+      "Floor": 21,
+      "MonsterGroup": 265,
+      "MonsterLevel": 11
+    },
+    {
+      "Floor": 22,
+      "MonsterGroup": 266,
+      "MonsterLevel": 11
+    },
+    {
+      "Floor": 23,
+      "MonsterGroup": 267,
+      "MonsterLevel": 12
+    },
+    {
+      "Floor": 24,
+      "MonsterGroup": 268,
+      "MonsterLevel": 12
+    },
+    {
+      "Floor": 25,
+      "MonsterGroup": 269,
+      "MonsterLevel": 13
+    },
+    {
+      "Floor": 26,
+      "MonsterGroup": 270,
+      "MonsterLevel": 13
+    },
+    {
+      "Floor": 27,
+      "MonsterGroup": 271,
+      "MonsterLevel": 14
+    },
+    {
+      "Floor": 28,
+      "MonsterGroup": 272,
+      "MonsterLevel": 14
+    },
+    {
+      "Floor": 29,
+      "MonsterGroup": 273,
+      "MonsterLevel": 15
+    },
+    {
+      "Floor": 30,
+      "MonsterGroup": 274,
+      "MonsterLevel": 15
+    },
+    {
+      "Floor": 31,
+      "MonsterGroup": 275,
+      "MonsterLevel": 16
+    },
+    {
+      "Floor": 32,
+      "MonsterGroup": 276,
+      "MonsterLevel": 16
+    },
+    {
+      "Floor": 33,
+      "MonsterGroup": 277,
+      "MonsterLevel": 17
+    },
+    {
+      "Floor": 34,
+      "MonsterGroup": 278,
+      "MonsterLevel": 17
+    },
+    {
+      "Floor": 35,
+      "MonsterGroup": 279,
+      "MonsterLevel": 18
+    },
+    {
+      "Floor": 36,
+      "MonsterGroup": 280,
+      "MonsterLevel": 18
+    },
+    {
+      "Floor": 37,
+      "MonsterGroup": 281,
+      "MonsterLevel": 19
+    },
+    {
+      "Floor": 38,
+      "MonsterGroup": 282,
+      "MonsterLevel": 19
+    },
+    {
+      "Floor": 39,
+      "MonsterGroup": 283,
+      "MonsterLevel": 20
+    },
+    {
+      "Floor": 40,
+      "MonsterGroup": 284,
+      "MonsterLevel": 20
+    },
+    {
+      "Floor": 41,
+      "MonsterGroup": 245,
+      "MonsterLevel": 21
+    },
+    {
+      "Floor": 42,
+      "MonsterGroup": 246,
+      "MonsterLevel": 21
+    },
+    {
+      "Floor": 43,
+      "MonsterGroup": 247,
+      "MonsterLevel": 22
+    },
+    {
+      "Floor": 44,
+      "MonsterGroup": 248,
+      "MonsterLevel": 22
+    },
+    {
+      "Floor": 45,
+      "MonsterGroup": 249,
+      "MonsterLevel": 23
+    },
+    {
+      "Floor": 46,
+      "MonsterGroup": 250,
+      "MonsterLevel": 23
+    },
+    {
+      "Floor": 47,
+      "MonsterGroup": 251,
+      "MonsterLevel": 24
+    },
+    {
+      "Floor": 48,
+      "MonsterGroup": 252,
+      "MonsterLevel": 24
+    },
+    {
+      "Floor": 49,
+      "MonsterGroup": 253,
+      "MonsterLevel": 25
+    },
+    {
+      "Floor": 50,
+      "MonsterGroup": 254,
+      "MonsterLevel": 25
+    },
+    {
+      "Floor": 51,
+      "MonsterGroup": 255,
+      "MonsterLevel": 26
+    },
+    {
+      "Floor": 52,
+      "MonsterGroup": 256,
+      "MonsterLevel": 26
+    },
+    {
+      "Floor": 53,
+      "MonsterGroup": 257,
+      "MonsterLevel": 27
+    },
+    {
+      "Floor": 54,
+      "MonsterGroup": 258,
+      "MonsterLevel": 27
+    },
+    {
+      "Floor": 55,
+      "MonsterGroup": 259,
+      "MonsterLevel": 28
+    },
+    {
+      "Floor": 56,
+      "MonsterGroup": 260,
+      "MonsterLevel": 28
+    },
+    {
+      "Floor": 57,
+      "MonsterGroup": 261,
+      "MonsterLevel": 29
+    },
+    {
+      "Floor": 58,
+      "MonsterGroup": 262,
+      "MonsterLevel": 29
+    },
+    {
+      "Floor": 59,
+      "MonsterGroup": 263,
+      "MonsterLevel": 30
+    },
+    {
+      "Floor": 60,
+      "MonsterGroup": 264,
+      "MonsterLevel": 30
+    },
+    {
+      "Floor": 61,
+      "MonsterGroup": 265,
+      "MonsterLevel": 31
+    },
+    {
+      "Floor": 62,
+      "MonsterGroup": 266,
+      "MonsterLevel": 31
+    },
+    {
+      "Floor": 63,
+      "MonsterGroup": 267,
+      "MonsterLevel": 32
+    },
+    {
+      "Floor": 64,
+      "MonsterGroup": 268,
+      "MonsterLevel": 32
+    },
+    {
+      "Floor": 65,
+      "MonsterGroup": 269,
+      "MonsterLevel": 33
+    },
+    {
+      "Floor": 66,
+      "MonsterGroup": 270,
+      "MonsterLevel": 33
+    },
+    {
+      "Floor": 67,
+      "MonsterGroup": 271,
+      "MonsterLevel": 34
+    },
+    {
+      "Floor": 68,
+      "MonsterGroup": 272,
+      "MonsterLevel": 34
+    },
+    {
+      "Floor": 69,
+      "MonsterGroup": 273,
+      "MonsterLevel": 35
+    },
+    {
+      "Floor": 70,
+      "MonsterGroup": 274,
+      "MonsterLevel": 35
+    },
+    {
+      "Floor": 71,
+      "MonsterGroup": 275,
+      "MonsterLevel": 36
+    },
+    {
+      "Floor": 72,
+      "MonsterGroup": 276,
+      "MonsterLevel": 36
+    },
+    {
+      "Floor": 73,
+      "MonsterGroup": 277,
+      "MonsterLevel": 37
+    },
+    {
+      "Floor": 74,
+      "MonsterGroup": 278,
+      "MonsterLevel": 37
+    },
+    {
+      "Floor": 75,
+      "MonsterGroup": 279,
+      "MonsterLevel": 38
+    },
+    {
+      "Floor": 76,
+      "MonsterGroup": 280,
+      "MonsterLevel": 38
+    },
+    {
+      "Floor": 77,
+      "MonsterGroup": 281,
+      "MonsterLevel": 39
+    },
+    {
+      "Floor": 78,
+      "MonsterGroup": 282,
+      "MonsterLevel": 39
+    },
+    {
+      "Floor": 79,
+      "MonsterGroup": 283,
+      "MonsterLevel": 40
+    },
+    {
+      "Floor": 80,
+      "MonsterGroup": 284,
+      "MonsterLevel": 40
+    },
+    {
+      "Floor": 81,
+      "MonsterGroup": 245,
+      "MonsterLevel": 41
+    },
+    {
+      "Floor": 82,
+      "MonsterGroup": 246,
+      "MonsterLevel": 41
+    },
+    {
+      "Floor": 83,
+      "MonsterGroup": 247,
+      "MonsterLevel": 42
+    },
+    {
+      "Floor": 84,
+      "MonsterGroup": 248,
+      "MonsterLevel": 42
+    },
+    {
+      "Floor": 85,
+      "MonsterGroup": 249,
+      "MonsterLevel": 43
+    },
+    {
+      "Floor": 86,
+      "MonsterGroup": 250,
+      "MonsterLevel": 43
+    },
+    {
+      "Floor": 87,
+      "MonsterGroup": 251,
+      "MonsterLevel": 44
+    },
+    {
+      "Floor": 88,
+      "MonsterGroup": 252,
+      "MonsterLevel": 44
+    },
+    {
+      "Floor": 89,
+      "MonsterGroup": 253,
+      "MonsterLevel": 45
+    },
+    {
+      "Floor": 90,
+      "MonsterGroup": 254,
+      "MonsterLevel": 45
+    },
+    {
+      "Floor": 91,
+      "MonsterGroup": 255,
+      "MonsterLevel": 46
+    },
+    {
+      "Floor": 92,
+      "MonsterGroup": 256,
+      "MonsterLevel": 46
+    },
+    {
+      "Floor": 93,
+      "MonsterGroup": 257,
+      "MonsterLevel": 47
+    },
+    {
+      "Floor": 94,
+      "MonsterGroup": 258,
+      "MonsterLevel": 47
+    },
+    {
+      "Floor": 95,
+      "MonsterGroup": 259,
+      "MonsterLevel": 48
+    },
+    {
+      "Floor": 96,
+      "MonsterGroup": 260,
+      "MonsterLevel": 48
+    },
+    {
+      "Floor": 97,
+      "MonsterGroup": 261,
+      "MonsterLevel": 49
+    },
+    {
+      "Floor": 98,
+      "MonsterGroup": 262,
+      "MonsterLevel": 49
+    },
+    {
+      "Floor": 99,
+      "MonsterGroup": 263,
+      "MonsterLevel": 50
+    },
+    {
+      "Floor": 100,
+      "MonsterGroup": 264,
+      "MonsterLevel": 50
+    },
+    {
+      "Floor": 101,
+      "MonsterGroup": 265,
+      "MonsterLevel": 51
+    },
+    {
+      "Floor": 102,
+      "MonsterGroup": 266,
+      "MonsterLevel": 51
+    },
+    {
+      "Floor": 103,
+      "MonsterGroup": 267,
+      "MonsterLevel": 52
+    },
+    {
+      "Floor": 104,
+      "MonsterGroup": 268,
+      "MonsterLevel": 52
+    },
+    {
+      "Floor": 105,
+      "MonsterGroup": 269,
+      "MonsterLevel": 53
+    },
+    {
+      "Floor": 106,
+      "MonsterGroup": 270,
+      "MonsterLevel": 53
+    },
+    {
+      "Floor": 107,
+      "MonsterGroup": 271,
+      "MonsterLevel": 54
+    },
+    {
+      "Floor": 108,
+      "MonsterGroup": 272,
+      "MonsterLevel": 54
+    },
+    {
+      "Floor": 109,
+      "MonsterGroup": 273,
+      "MonsterLevel": 55
+    },
+    {
+      "Floor": 110,
+      "MonsterGroup": 274,
+      "MonsterLevel": 55
+    },
+    {
+      "Floor": 111,
+      "MonsterGroup": 275,
+      "MonsterLevel": 56
+    },
+    {
+      "Floor": 112,
+      "MonsterGroup": 276,
+      "MonsterLevel": 56
+    },
+    {
+      "Floor": 113,
+      "MonsterGroup": 277,
+      "MonsterLevel": 57
+    },
+    {
+      "Floor": 114,
+      "MonsterGroup": 278,
+      "MonsterLevel": 57
+    },
+    {
+      "Floor": 115,
+      "MonsterGroup": 279,
+      "MonsterLevel": 58
+    },
+    {
+      "Floor": 116,
+      "MonsterGroup": 280,
+      "MonsterLevel": 58
+    },
+    {
+      "Floor": 117,
+      "MonsterGroup": 281,
+      "MonsterLevel": 59
+    },
+    {
+      "Floor": 118,
+      "MonsterGroup": 282,
+      "MonsterLevel": 59
+    },
+    {
+      "Floor": 119,
+      "MonsterGroup": 283,
+      "MonsterLevel": 60
+    },
+    {
+      "Floor": 120,
+      "MonsterGroup": 284,
+      "MonsterLevel": 60
+    },
+    {
+      "Floor": 121,
+      "MonsterGroup": 245,
+      "MonsterLevel": 61
+    },
+    {
+      "Floor": 122,
+      "MonsterGroup": 246,
+      "MonsterLevel": 61
+    },
+    {
+      "Floor": 123,
+      "MonsterGroup": 247,
+      "MonsterLevel": 62
+    },
+    {
+      "Floor": 124,
+      "MonsterGroup": 248,
+      "MonsterLevel": 62
+    },
+    {
+      "Floor": 125,
+      "MonsterGroup": 249,
+      "MonsterLevel": 63
+    },
+    {
+      "Floor": 126,
+      "MonsterGroup": 250,
+      "MonsterLevel": 63
+    },
+    {
+      "Floor": 127,
+      "MonsterGroup": 251,
+      "MonsterLevel": 64
+    },
+    {
+      "Floor": 128,
+      "MonsterGroup": 252,
+      "MonsterLevel": 64
+    },
+    {
+      "Floor": 129,
+      "MonsterGroup": 253,
+      "MonsterLevel": 65
+    },
+    {
+      "Floor": 130,
+      "MonsterGroup": 254,
+      "MonsterLevel": 65
+    },
+    {
+      "Floor": 131,
+      "MonsterGroup": 255,
+      "MonsterLevel": 66
+    },
+    {
+      "Floor": 132,
+      "MonsterGroup": 256,
+      "MonsterLevel": 66
+    },
+    {
+      "Floor": 133,
+      "MonsterGroup": 257,
+      "MonsterLevel": 67
+    },
+    {
+      "Floor": 134,
+      "MonsterGroup": 258,
+      "MonsterLevel": 67
+    },
+    {
+      "Floor": 135,
+      "MonsterGroup": 259,
+      "MonsterLevel": 68
+    },
+    {
+      "Floor": 136,
+      "MonsterGroup": 260,
+      "MonsterLevel": 68
+    },
+    {
+      "Floor": 137,
+      "MonsterGroup": 261,
+      "MonsterLevel": 69
+    },
+    {
+      "Floor": 138,
+      "MonsterGroup": 262,
+      "MonsterLevel": 69
+    },
+    {
+      "Floor": 139,
+      "MonsterGroup": 263,
+      "MonsterLevel": 70
+    },
+    {
+      "Floor": 140,
+      "MonsterGroup": 264,
+      "MonsterLevel": 70
+    },
+    {
+      "Floor": 141,
+      "MonsterGroup": 265,
+      "MonsterLevel": 71
+    },
+    {
+      "Floor": 142,
+      "MonsterGroup": 266,
+      "MonsterLevel": 71
+    },
+    {
+      "Floor": 143,
+      "MonsterGroup": 267,
+      "MonsterLevel": 72
+    },
+    {
+      "Floor": 144,
+      "MonsterGroup": 268,
+      "MonsterLevel": 72
+    },
+    {
+      "Floor": 145,
+      "MonsterGroup": 269,
+      "MonsterLevel": 73
+    },
+    {
+      "Floor": 146,
+      "MonsterGroup": 270,
+      "MonsterLevel": 73
+    },
+    {
+      "Floor": 147,
+      "MonsterGroup": 271,
+      "MonsterLevel": 74
+    },
+    {
+      "Floor": 148,
+      "MonsterGroup": 272,
+      "MonsterLevel": 74
+    },
+    {
+      "Floor": 149,
+      "MonsterGroup": 273,
+      "MonsterLevel": 75
+    },
+    {
+      "Floor": 150,
+      "MonsterGroup": 274,
+      "MonsterLevel": 75
+    },
+    {
+      "Floor": 151,
+      "MonsterGroup": 275,
+      "MonsterLevel": 76
+    },
+    {
+      "Floor": 152,
+      "MonsterGroup": 276,
+      "MonsterLevel": 76
+    },
+    {
+      "Floor": 153,
+      "MonsterGroup": 277,
+      "MonsterLevel": 77
+    },
+    {
+      "Floor": 154,
+      "MonsterGroup": 278,
+      "MonsterLevel": 77
+    },
+    {
+      "Floor": 155,
+      "MonsterGroup": 279,
+      "MonsterLevel": 78
+    },
+    {
+      "Floor": 156,
+      "MonsterGroup": 280,
+      "MonsterLevel": 78
+    },
+    {
+      "Floor": 157,
+      "MonsterGroup": 281,
+      "MonsterLevel": 79
+    },
+    {
+      "Floor": 158,
+      "MonsterGroup": 282,
+      "MonsterLevel": 79
+    },
+    {
+      "Floor": 159,
+      "MonsterGroup": 283,
+      "MonsterLevel": 80
+    },
+    {
+      "Floor": 160,
+      "MonsterGroup": 284,
+      "MonsterLevel": 80
+    },
+    {
+      "Floor": 161,
+      "MonsterGroup": 245,
+      "MonsterLevel": 81
+    },
+    {
+      "Floor": 162,
+      "MonsterGroup": 246,
+      "MonsterLevel": 81
+    },
+    {
+      "Floor": 163,
+      "MonsterGroup": 247,
+      "MonsterLevel": 82
+    },
+    {
+      "Floor": 164,
+      "MonsterGroup": 248,
+      "MonsterLevel": 82
+    },
+    {
+      "Floor": 165,
+      "MonsterGroup": 249,
+      "MonsterLevel": 83
+    },
+    {
+      "Floor": 166,
+      "MonsterGroup": 250,
+      "MonsterLevel": 83
+    },
+    {
+      "Floor": 167,
+      "MonsterGroup": 251,
+      "MonsterLevel": 84
+    },
+    {
+      "Floor": 168,
+      "MonsterGroup": 252,
+      "MonsterLevel": 84
+    },
+    {
+      "Floor": 169,
+      "MonsterGroup": 253,
+      "MonsterLevel": 85
+    },
+    {
+      "Floor": 170,
+      "MonsterGroup": 254,
+      "MonsterLevel": 85
+    },
+    {
+      "Floor": 171,
+      "MonsterGroup": 255,
+      "MonsterLevel": 86
+    },
+    {
+      "Floor": 172,
+      "MonsterGroup": 256,
+      "MonsterLevel": 86
+    },
+    {
+      "Floor": 173,
+      "MonsterGroup": 257,
+      "MonsterLevel": 87
+    },
+    {
+      "Floor": 174,
+      "MonsterGroup": 258,
+      "MonsterLevel": 87
+    },
+    {
+      "Floor": 175,
+      "MonsterGroup": 259,
+      "MonsterLevel": 88
+    },
+    {
+      "Floor": 176,
+      "MonsterGroup": 260,
+      "MonsterLevel": 88
+    },
+    {
+      "Floor": 177,
+      "MonsterGroup": 261,
+      "MonsterLevel": 89
+    },
+    {
+      "Floor": 178,
+      "MonsterGroup": 262,
+      "MonsterLevel": 89
+    },
+    {
+      "Floor": 179,
+      "MonsterGroup": 263,
+      "MonsterLevel": 90
+    },
+    {
+      "Floor": 180,
+      "MonsterGroup": 264,
+      "MonsterLevel": 90
+    },
+    {
+      "Floor": 181,
+      "MonsterGroup": 265,
+      "MonsterLevel": 91
+    },
+    {
+      "Floor": 182,
+      "MonsterGroup": 266,
+      "MonsterLevel": 91
+    },
+    {
+      "Floor": 183,
+      "MonsterGroup": 267,
+      "MonsterLevel": 92
+    },
+    {
+      "Floor": 184,
+      "MonsterGroup": 268,
+      "MonsterLevel": 92
+    },
+    {
+      "Floor": 185,
+      "MonsterGroup": 269,
+      "MonsterLevel": 93
+    },
+    {
+      "Floor": 186,
+      "MonsterGroup": 270,
+      "MonsterLevel": 93
+    },
+    {
+      "Floor": 187,
+      "MonsterGroup": 271,
+      "MonsterLevel": 94
+    },
+    {
+      "Floor": 188,
+      "MonsterGroup": 272,
+      "MonsterLevel": 94
+    },
+    {
+      "Floor": 189,
+      "MonsterGroup": 273,
+      "MonsterLevel": 95
+    },
+    {
+      "Floor": 190,
+      "MonsterGroup": 274,
+      "MonsterLevel": 95
+    },
+    {
+      "Floor": 191,
+      "MonsterGroup": 275,
+      "MonsterLevel": 96
+    },
+    {
+      "Floor": 192,
+      "MonsterGroup": 276,
+      "MonsterLevel": 96
+    },
+    {
+      "Floor": 193,
+      "MonsterGroup": 277,
+      "MonsterLevel": 97
+    },
+    {
+      "Floor": 194,
+      "MonsterGroup": 278,
+      "MonsterLevel": 97
+    },
+    {
+      "Floor": 195,
+      "MonsterGroup": 279,
+      "MonsterLevel": 98
+    },
+    {
+      "Floor": 196,
+      "MonsterGroup": 280,
+      "MonsterLevel": 98
+    },
+    {
+      "Floor": 197,
+      "MonsterGroup": 281,
+      "MonsterLevel": 99
+    },
+    {
+      "Floor": 198,
+      "MonsterGroup": 282,
+      "MonsterLevel": 99
+    },
+    {
+      "Floor": 199,
+      "MonsterGroup": 283,
+      "MonsterLevel": 100
+    },
+    {
+      "Floor": 200,
+      "MonsterGroup": 284,
+      "MonsterLevel": 100
+    },
+    {
+      "Floor": 201,
+      "MonsterGroup": 245,
+      "MonsterLevel": 101
+    },
+    {
+      "Floor": 202,
+      "MonsterGroup": 246,
+      "MonsterLevel": 101
+    },
+    {
+      "Floor": 203,
+      "MonsterGroup": 247,
+      "MonsterLevel": 102
+    },
+    {
+      "Floor": 204,
+      "MonsterGroup": 248,
+      "MonsterLevel": 102
+    },
+    {
+      "Floor": 205,
+      "MonsterGroup": 249,
+      "MonsterLevel": 103
+    },
+    {
+      "Floor": 206,
+      "MonsterGroup": 250,
+      "MonsterLevel": 103
+    },
+    {
+      "Floor": 207,
+      "MonsterGroup": 251,
+      "MonsterLevel": 104
+    },
+    {
+      "Floor": 208,
+      "MonsterGroup": 252,
+      "MonsterLevel": 104
+    },
+    {
+      "Floor": 209,
+      "MonsterGroup": 253,
+      "MonsterLevel": 105
+    },
+    {
+      "Floor": 210,
+      "MonsterGroup": 254,
+      "MonsterLevel": 105
+    },
+    {
+      "Floor": 211,
+      "MonsterGroup": 255,
+      "MonsterLevel": 106
+    },
+    {
+      "Floor": 212,
+      "MonsterGroup": 256,
+      "MonsterLevel": 106
+    },
+    {
+      "Floor": 213,
+      "MonsterGroup": 257,
+      "MonsterLevel": 107
+    },
+    {
+      "Floor": 214,
+      "MonsterGroup": 258,
+      "MonsterLevel": 107
+    },
+    {
+      "Floor": 215,
+      "MonsterGroup": 259,
+      "MonsterLevel": 108
+    },
+    {
+      "Floor": 216,
+      "MonsterGroup": 260,
+      "MonsterLevel": 108
+    },
+    {
+      "Floor": 217,
+      "MonsterGroup": 261,
+      "MonsterLevel": 109
+    },
+    {
+      "Floor": 218,
+      "MonsterGroup": 262,
+      "MonsterLevel": 109
+    },
+    {
+      "Floor": 219,
+      "MonsterGroup": 263,
+      "MonsterLevel": 110
+    },
+    {
+      "Floor": 220,
+      "MonsterGroup": 264,
+      "MonsterLevel": 110
+    },
+    {
+      "Floor": 221,
+      "MonsterGroup": 265,
+      "MonsterLevel": 111
+    },
+    {
+      "Floor": 222,
+      "MonsterGroup": 266,
+      "MonsterLevel": 111
+    },
+    {
+      "Floor": 223,
+      "MonsterGroup": 267,
+      "MonsterLevel": 112
+    },
+    {
+      "Floor": 224,
+      "MonsterGroup": 268,
+      "MonsterLevel": 112
+    },
+    {
+      "Floor": 225,
+      "MonsterGroup": 269,
+      "MonsterLevel": 113
+    },
+    {
+      "Floor": 226,
+      "MonsterGroup": 270,
+      "MonsterLevel": 113
+    },
+    {
+      "Floor": 227,
+      "MonsterGroup": 271,
+      "MonsterLevel": 114
+    },
+    {
+      "Floor": 228,
+      "MonsterGroup": 272,
+      "MonsterLevel": 114
+    },
+    {
+      "Floor": 229,
+      "MonsterGroup": 273,
+      "MonsterLevel": 115
+    },
+    {
+      "Floor": 230,
+      "MonsterGroup": 274,
+      "MonsterLevel": 115
+    },
+    {
+      "Floor": 231,
+      "MonsterGroup": 275,
+      "MonsterLevel": 116
+    },
+    {
+      "Floor": 232,
+      "MonsterGroup": 276,
+      "MonsterLevel": 116
+    },
+    {
+      "Floor": 233,
+      "MonsterGroup": 277,
+      "MonsterLevel": 117
+    },
+    {
+      "Floor": 234,
+      "MonsterGroup": 278,
+      "MonsterLevel": 117
+    },
+    {
+      "Floor": 235,
+      "MonsterGroup": 279,
+      "MonsterLevel": 118
+    },
+    {
+      "Floor": 236,
+      "MonsterGroup": 280,
+      "MonsterLevel": 118
+    },
+    {
+      "Floor": 237,
+      "MonsterGroup": 281,
+      "MonsterLevel": 119
+    },
+    {
+      "Floor": 238,
+      "MonsterGroup": 282,
+      "MonsterLevel": 119
+    },
+    {
+      "Floor": 239,
+      "MonsterGroup": 283,
+      "MonsterLevel": 120
+    },
+    {
+      "Floor": 240,
+      "MonsterGroup": 284,
+      "MonsterLevel": 120
+    },
+    {
+      "Floor": 241,
+      "MonsterGroup": 245,
+      "MonsterLevel": 121
+    },
+    {
+      "Floor": 242,
+      "MonsterGroup": 246,
+      "MonsterLevel": 121
+    },
+    {
+      "Floor": 243,
+      "MonsterGroup": 247,
+      "MonsterLevel": 122
+    },
+    {
+      "Floor": 244,
+      "MonsterGroup": 248,
+      "MonsterLevel": 122
+    },
+    {
+      "Floor": 245,
+      "MonsterGroup": 249,
+      "MonsterLevel": 123
+    },
+    {
+      "Floor": 246,
+      "MonsterGroup": 250,
+      "MonsterLevel": 123
+    },
+    {
+      "Floor": 247,
+      "MonsterGroup": 251,
+      "MonsterLevel": 124
+    },
+    {
+      "Floor": 248,
+      "MonsterGroup": 252,
+      "MonsterLevel": 124
+    },
+    {
+      "Floor": 249,
+      "MonsterGroup": 253,
+      "MonsterLevel": 125
+    },
+    {
+      "Floor": 250,
+      "MonsterGroup": 254,
+      "MonsterLevel": 125
+    },
+    {
+      "Floor": 251,
+      "MonsterGroup": 255,
+      "MonsterLevel": 126
+    },
+    {
+      "Floor": 252,
+      "MonsterGroup": 256,
+      "MonsterLevel": 126
+    },
+    {
+      "Floor": 253,
+      "MonsterGroup": 257,
+      "MonsterLevel": 127
+    },
+    {
+      "Floor": 254,
+      "MonsterGroup": 258,
+      "MonsterLevel": 127
+    },
+    {
+      "Floor": 255,
+      "MonsterGroup": 259,
+      "MonsterLevel": 128
+    },
+    {
+      "Floor": 256,
+      "MonsterGroup": 260,
+      "MonsterLevel": 128
+    },
+    {
+      "Floor": 257,
+      "MonsterGroup": 261,
+      "MonsterLevel": 129
+    },
+    {
+      "Floor": 258,
+      "MonsterGroup": 262,
+      "MonsterLevel": 129
+    },
+    {
+      "Floor": 259,
+      "MonsterGroup": 263,
+      "MonsterLevel": 130
+    },
+    {
+      "Floor": 260,
+      "MonsterGroup": 264,
+      "MonsterLevel": 130
+    },
+    {
+      "Floor": 261,
+      "MonsterGroup": 265,
+      "MonsterLevel": 131
+    },
+    {
+      "Floor": 262,
+      "MonsterGroup": 266,
+      "MonsterLevel": 131
+    },
+    {
+      "Floor": 263,
+      "MonsterGroup": 267,
+      "MonsterLevel": 132
+    },
+    {
+      "Floor": 264,
+      "MonsterGroup": 268,
+      "MonsterLevel": 132
+    },
+    {
+      "Floor": 265,
+      "MonsterGroup": 269,
+      "MonsterLevel": 133
+    },
+    {
+      "Floor": 266,
+      "MonsterGroup": 270,
+      "MonsterLevel": 133
+    },
+    {
+      "Floor": 267,
+      "MonsterGroup": 271,
+      "MonsterLevel": 134
+    },
+    {
+      "Floor": 268,
+      "MonsterGroup": 272,
+      "MonsterLevel": 134
+    },
+    {
+      "Floor": 269,
+      "MonsterGroup": 273,
+      "MonsterLevel": 135
+    },
+    {
+      "Floor": 270,
+      "MonsterGroup": 274,
+      "MonsterLevel": 135
+    },
+    {
+      "Floor": 271,
+      "MonsterGroup": 275,
+      "MonsterLevel": 136
+    },
+    {
+      "Floor": 272,
+      "MonsterGroup": 276,
+      "MonsterLevel": 136
+    },
+    {
+      "Floor": 273,
+      "MonsterGroup": 277,
+      "MonsterLevel": 137
+    },
+    {
+      "Floor": 274,
+      "MonsterGroup": 278,
+      "MonsterLevel": 137
+    },
+    {
+      "Floor": 275,
+      "MonsterGroup": 279,
+      "MonsterLevel": 138
+    },
+    {
+      "Floor": 276,
+      "MonsterGroup": 280,
+      "MonsterLevel": 138
+    },
+    {
+      "Floor": 277,
+      "MonsterGroup": 281,
+      "MonsterLevel": 139
+    },
+    {
+      "Floor": 278,
+      "MonsterGroup": 282,
+      "MonsterLevel": 139
+    },
+    {
+      "Floor": 279,
+      "MonsterGroup": 283,
+      "MonsterLevel": 140
+    },
+    {
+      "Floor": 280,
+      "MonsterGroup": 284,
+      "MonsterLevel": 140
+    },
+    {
+      "Floor": 281,
+      "MonsterGroup": 245,
+      "MonsterLevel": 141
+    },
+    {
+      "Floor": 282,
+      "MonsterGroup": 246,
+      "MonsterLevel": 141
+    },
+    {
+      "Floor": 283,
+      "MonsterGroup": 247,
+      "MonsterLevel": 142
+    },
+    {
+      "Floor": 284,
+      "MonsterGroup": 248,
+      "MonsterLevel": 142
+    },
+    {
+      "Floor": 285,
+      "MonsterGroup": 249,
+      "MonsterLevel": 143
+    },
+    {
+      "Floor": 286,
+      "MonsterGroup": 250,
+      "MonsterLevel": 143
+    },
+    {
+      "Floor": 287,
+      "MonsterGroup": 251,
+      "MonsterLevel": 144
+    },
+    {
+      "Floor": 288,
+      "MonsterGroup": 252,
+      "MonsterLevel": 144
+    },
+    {
+      "Floor": 289,
+      "MonsterGroup": 253,
+      "MonsterLevel": 145
+    },
+    {
+      "Floor": 290,
+      "MonsterGroup": 254,
+      "MonsterLevel": 145
+    },
+    {
+      "Floor": 291,
+      "MonsterGroup": 255,
+      "MonsterLevel": 146
+    },
+    {
+      "Floor": 292,
+      "MonsterGroup": 256,
+      "MonsterLevel": 146
+    },
+    {
+      "Floor": 293,
+      "MonsterGroup": 257,
+      "MonsterLevel": 147
+    },
+    {
+      "Floor": 294,
+      "MonsterGroup": 258,
+      "MonsterLevel": 147
+    },
+    {
+      "Floor": 295,
+      "MonsterGroup": 259,
+      "MonsterLevel": 148
+    },
+    {
+      "Floor": 296,
+      "MonsterGroup": 260,
+      "MonsterLevel": 148
+    },
+    {
+      "Floor": 297,
+      "MonsterGroup": 261,
+      "MonsterLevel": 149
+    },
+    {
+      "Floor": 298,
+      "MonsterGroup": 262,
+      "MonsterLevel": 149
+    },
+    {
+      "Floor": 299,
+      "MonsterGroup": 263,
+      "MonsterLevel": 150
+    },
+    {
+      "Floor": 300,
+      "MonsterGroup": 264,
+      "MonsterLevel": 150
+    },
+    {
+      "Floor": 301,
+      "MonsterGroup": 265,
+      "MonsterLevel": 151
+    },
+    {
+      "Floor": 302,
+      "MonsterGroup": 266,
+      "MonsterLevel": 151
+    },
+    {
+      "Floor": 303,
+      "MonsterGroup": 267,
+      "MonsterLevel": 152
+    },
+    {
+      "Floor": 304,
+      "MonsterGroup": 268,
+      "MonsterLevel": 152
+    },
+    {
+      "Floor": 305,
+      "MonsterGroup": 269,
+      "MonsterLevel": 153
+    },
+    {
+      "Floor": 306,
+      "MonsterGroup": 270,
+      "MonsterLevel": 153
+    },
+    {
+      "Floor": 307,
+      "MonsterGroup": 271,
+      "MonsterLevel": 154
+    },
+    {
+      "Floor": 308,
+      "MonsterGroup": 272,
+      "MonsterLevel": 154
+    },
+    {
+      "Floor": 309,
+      "MonsterGroup": 273,
+      "MonsterLevel": 155
+    },
+    {
+      "Floor": 310,
+      "MonsterGroup": 274,
+      "MonsterLevel": 155
+    },
+    {
+      "Floor": 311,
+      "MonsterGroup": 275,
+      "MonsterLevel": 156
+    },
+    {
+      "Floor": 312,
+      "MonsterGroup": 276,
+      "MonsterLevel": 156
+    },
+    {
+      "Floor": 313,
+      "MonsterGroup": 277,
+      "MonsterLevel": 157
+    },
+    {
+      "Floor": 314,
+      "MonsterGroup": 278,
+      "MonsterLevel": 157
+    },
+    {
+      "Floor": 315,
+      "MonsterGroup": 279,
+      "MonsterLevel": 158
+    },
+    {
+      "Floor": 316,
+      "MonsterGroup": 280,
+      "MonsterLevel": 158
+    },
+    {
+      "Floor": 317,
+      "MonsterGroup": 281,
+      "MonsterLevel": 159
+    },
+    {
+      "Floor": 318,
+      "MonsterGroup": 282,
+      "MonsterLevel": 159
+    },
+    {
+      "Floor": 319,
+      "MonsterGroup": 283,
+      "MonsterLevel": 160
+    },
+    {
+      "Floor": 320,
+      "MonsterGroup": 284,
+      "MonsterLevel": 160
+    },
+    {
+      "Floor": 321,
+      "MonsterGroup": 245,
+      "MonsterLevel": 161
+    },
+    {
+      "Floor": 322,
+      "MonsterGroup": 246,
+      "MonsterLevel": 161
+    },
+    {
+      "Floor": 323,
+      "MonsterGroup": 247,
+      "MonsterLevel": 162
+    },
+    {
+      "Floor": 324,
+      "MonsterGroup": 248,
+      "MonsterLevel": 162
+    },
+    {
+      "Floor": 325,
+      "MonsterGroup": 249,
+      "MonsterLevel": 163
+    },
+    {
+      "Floor": 326,
+      "MonsterGroup": 250,
+      "MonsterLevel": 163
+    },
+    {
+      "Floor": 327,
+      "MonsterGroup": 251,
+      "MonsterLevel": 164
+    },
+    {
+      "Floor": 328,
+      "MonsterGroup": 252,
+      "MonsterLevel": 164
+    },
+    {
+      "Floor": 329,
+      "MonsterGroup": 253,
+      "MonsterLevel": 165
+    },
+    {
+      "Floor": 330,
+      "MonsterGroup": 254,
+      "MonsterLevel": 165
+    },
+    {
+      "Floor": 331,
+      "MonsterGroup": 255,
+      "MonsterLevel": 166
+    },
+    {
+      "Floor": 332,
+      "MonsterGroup": 256,
+      "MonsterLevel": 166
+    },
+    {
+      "Floor": 333,
+      "MonsterGroup": 257,
+      "MonsterLevel": 167
+    },
+    {
+      "Floor": 334,
+      "MonsterGroup": 258,
+      "MonsterLevel": 167
+    },
+    {
+      "Floor": 335,
+      "MonsterGroup": 259,
+      "MonsterLevel": 168
+    },
+    {
+      "Floor": 336,
+      "MonsterGroup": 260,
+      "MonsterLevel": 168
+    },
+    {
+      "Floor": 337,
+      "MonsterGroup": 261,
+      "MonsterLevel": 169
+    },
+    {
+      "Floor": 338,
+      "MonsterGroup": 262,
+      "MonsterLevel": 169
+    },
+    {
+      "Floor": 339,
+      "MonsterGroup": 263,
+      "MonsterLevel": 170
+    },
+    {
+      "Floor": 340,
+      "MonsterGroup": 264,
+      "MonsterLevel": 170
+    },
+    {
+      "Floor": 341,
+      "MonsterGroup": 265,
+      "MonsterLevel": 171
+    },
+    {
+      "Floor": 342,
+      "MonsterGroup": 266,
+      "MonsterLevel": 171
+    },
+    {
+      "Floor": 343,
+      "MonsterGroup": 267,
+      "MonsterLevel": 172
+    },
+    {
+      "Floor": 344,
+      "MonsterGroup": 268,
+      "MonsterLevel": 172
+    },
+    {
+      "Floor": 345,
+      "MonsterGroup": 269,
+      "MonsterLevel": 173
+    },
+    {
+      "Floor": 346,
+      "MonsterGroup": 270,
+      "MonsterLevel": 173
+    },
+    {
+      "Floor": 347,
+      "MonsterGroup": 271,
+      "MonsterLevel": 174
+    },
+    {
+      "Floor": 348,
+      "MonsterGroup": 272,
+      "MonsterLevel": 174
+    },
+    {
+      "Floor": 349,
+      "MonsterGroup": 273,
+      "MonsterLevel": 175
+    },
+    {
+      "Floor": 350,
+      "MonsterGroup": 274,
+      "MonsterLevel": 175
+    },
+    {
+      "Floor": 351,
+      "MonsterGroup": 275,
+      "MonsterLevel": 176
+    },
+    {
+      "Floor": 352,
+      "MonsterGroup": 276,
+      "MonsterLevel": 176
+    },
+    {
+      "Floor": 353,
+      "MonsterGroup": 277,
+      "MonsterLevel": 177
+    },
+    {
+      "Floor": 354,
+      "MonsterGroup": 278,
+      "MonsterLevel": 177
+    },
+    {
+      "Floor": 355,
+      "MonsterGroup": 279,
+      "MonsterLevel": 178
+    },
+    {
+      "Floor": 356,
+      "MonsterGroup": 280,
+      "MonsterLevel": 178
+    },
+    {
+      "Floor": 357,
+      "MonsterGroup": 281,
+      "MonsterLevel": 179
+    },
+    {
+      "Floor": 358,
+      "MonsterGroup": 282,
+      "MonsterLevel": 179
+    },
+    {
+      "Floor": 359,
+      "MonsterGroup": 283,
+      "MonsterLevel": 180
+    },
+    {
+      "Floor": 360,
+      "MonsterGroup": 284,
+      "MonsterLevel": 180
+    },
+    {
+      "Floor": 361,
+      "MonsterGroup": 245,
+      "MonsterLevel": 181
+    },
+    {
+      "Floor": 362,
+      "MonsterGroup": 246,
+      "MonsterLevel": 181
+    },
+    {
+      "Floor": 363,
+      "MonsterGroup": 247,
+      "MonsterLevel": 182
+    },
+    {
+      "Floor": 364,
+      "MonsterGroup": 248,
+      "MonsterLevel": 182
+    },
+    {
+      "Floor": 365,
+      "MonsterGroup": 249,
+      "MonsterLevel": 183
+    },
+    {
+      "Floor": 366,
+      "MonsterGroup": 250,
+      "MonsterLevel": 183
+    },
+    {
+      "Floor": 367,
+      "MonsterGroup": 251,
+      "MonsterLevel": 184
+    },
+    {
+      "Floor": 368,
+      "MonsterGroup": 252,
+      "MonsterLevel": 184
+    },
+    {
+      "Floor": 369,
+      "MonsterGroup": 253,
+      "MonsterLevel": 185
+    },
+    {
+      "Floor": 370,
+      "MonsterGroup": 254,
+      "MonsterLevel": 185
+    },
+    {
+      "Floor": 371,
+      "MonsterGroup": 255,
+      "MonsterLevel": 186
+    },
+    {
+      "Floor": 372,
+      "MonsterGroup": 256,
+      "MonsterLevel": 186
+    },
+    {
+      "Floor": 373,
+      "MonsterGroup": 257,
+      "MonsterLevel": 187
+    },
+    {
+      "Floor": 374,
+      "MonsterGroup": 258,
+      "MonsterLevel": 187
+    },
+    {
+      "Floor": 375,
+      "MonsterGroup": 259,
+      "MonsterLevel": 188
+    },
+    {
+      "Floor": 376,
+      "MonsterGroup": 260,
+      "MonsterLevel": 188
+    },
+    {
+      "Floor": 377,
+      "MonsterGroup": 261,
+      "MonsterLevel": 189
+    },
+    {
+      "Floor": 378,
+      "MonsterGroup": 262,
+      "MonsterLevel": 189
+    },
+    {
+      "Floor": 379,
+      "MonsterGroup": 263,
+      "MonsterLevel": 190
+    },
+    {
+      "Floor": 380,
+      "MonsterGroup": 264,
+      "MonsterLevel": 190
+    },
+    {
+      "Floor": 381,
+      "MonsterGroup": 265,
+      "MonsterLevel": 191
+    },
+    {
+      "Floor": 382,
+      "MonsterGroup": 266,
+      "MonsterLevel": 191
+    },
+    {
+      "Floor": 383,
+      "MonsterGroup": 267,
+      "MonsterLevel": 192
+    },
+    {
+      "Floor": 384,
+      "MonsterGroup": 268,
+      "MonsterLevel": 192
+    },
+    {
+      "Floor": 385,
+      "MonsterGroup": 269,
+      "MonsterLevel": 193
+    },
+    {
+      "Floor": 386,
+      "MonsterGroup": 270,
+      "MonsterLevel": 193
+    },
+    {
+      "Floor": 387,
+      "MonsterGroup": 271,
+      "MonsterLevel": 194
+    },
+    {
+      "Floor": 388,
+      "MonsterGroup": 272,
+      "MonsterLevel": 194
+    },
+    {
+      "Floor": 389,
+      "MonsterGroup": 273,
+      "MonsterLevel": 195
+    },
+    {
+      "Floor": 390,
+      "MonsterGroup": 274,
+      "MonsterLevel": 195
+    },
+    {
+      "Floor": 391,
+      "MonsterGroup": 275,
+      "MonsterLevel": 196
+    },
+    {
+      "Floor": 392,
+      "MonsterGroup": 276,
+      "MonsterLevel": 196
+    },
+    {
+      "Floor": 393,
+      "MonsterGroup": 277,
+      "MonsterLevel": 197
+    },
+    {
+      "Floor": 394,
+      "MonsterGroup": 278,
+      "MonsterLevel": 197
+    },
+    {
+      "Floor": 395,
+      "MonsterGroup": 279,
+      "MonsterLevel": 198
+    },
+    {
+      "Floor": 396,
+      "MonsterGroup": 280,
+      "MonsterLevel": 198
+    },
+    {
+      "Floor": 397,
+      "MonsterGroup": 281,
+      "MonsterLevel": 199
+    },
+    {
+      "Floor": 398,
+      "MonsterGroup": 282,
+      "MonsterLevel": 199
+    },
+    {
+      "Floor": 399,
+      "MonsterGroup": 283,
+      "MonsterLevel": 200
+    },
+    {
+      "Floor": 400,
+      "MonsterGroup": 284,
+      "MonsterLevel": 200
+    },
+    {
+      "Floor": 401,
+      "MonsterGroup": 245,
+      "MonsterLevel": 201
+    },
+    {
+      "Floor": 402,
+      "MonsterGroup": 246,
+      "MonsterLevel": 201
+    },
+    {
+      "Floor": 403,
+      "MonsterGroup": 247,
+      "MonsterLevel": 202
+    },
+    {
+      "Floor": 404,
+      "MonsterGroup": 248,
+      "MonsterLevel": 202
+    },
+    {
+      "Floor": 405,
+      "MonsterGroup": 249,
+      "MonsterLevel": 203
+    },
+    {
+      "Floor": 406,
+      "MonsterGroup": 250,
+      "MonsterLevel": 203
+    },
+    {
+      "Floor": 407,
+      "MonsterGroup": 251,
+      "MonsterLevel": 204
+    },
+    {
+      "Floor": 408,
+      "MonsterGroup": 252,
+      "MonsterLevel": 204
+    },
+    {
+      "Floor": 409,
+      "MonsterGroup": 253,
+      "MonsterLevel": 205
+    },
+    {
+      "Floor": 410,
+      "MonsterGroup": 254,
+      "MonsterLevel": 205
+    },
+    {
+      "Floor": 411,
+      "MonsterGroup": 255,
+      "MonsterLevel": 206
+    },
+    {
+      "Floor": 412,
+      "MonsterGroup": 256,
+      "MonsterLevel": 206
+    },
+    {
+      "Floor": 413,
+      "MonsterGroup": 257,
+      "MonsterLevel": 207
+    },
+    {
+      "Floor": 414,
+      "MonsterGroup": 258,
+      "MonsterLevel": 207
+    },
+    {
+      "Floor": 415,
+      "MonsterGroup": 259,
+      "MonsterLevel": 208
+    },
+    {
+      "Floor": 416,
+      "MonsterGroup": 260,
+      "MonsterLevel": 208
+    },
+    {
+      "Floor": 417,
+      "MonsterGroup": 261,
+      "MonsterLevel": 209
+    },
+    {
+      "Floor": 418,
+      "MonsterGroup": 262,
+      "MonsterLevel": 209
+    },
+    {
+      "Floor": 419,
+      "MonsterGroup": 263,
+      "MonsterLevel": 210
+    },
+    {
+      "Floor": 420,
+      "MonsterGroup": 264,
+      "MonsterLevel": 210
+    },
+    {
+      "Floor": 421,
+      "MonsterGroup": 265,
+      "MonsterLevel": 211
+    },
+    {
+      "Floor": 422,
+      "MonsterGroup": 266,
+      "MonsterLevel": 211
+    },
+    {
+      "Floor": 423,
+      "MonsterGroup": 267,
+      "MonsterLevel": 212
+    },
+    {
+      "Floor": 424,
+      "MonsterGroup": 268,
+      "MonsterLevel": 212
+    },
+    {
+      "Floor": 425,
+      "MonsterGroup": 269,
+      "MonsterLevel": 213
+    },
+    {
+      "Floor": 426,
+      "MonsterGroup": 270,
+      "MonsterLevel": 213
+    },
+    {
+      "Floor": 427,
+      "MonsterGroup": 271,
+      "MonsterLevel": 214
+    },
+    {
+      "Floor": 428,
+      "MonsterGroup": 272,
+      "MonsterLevel": 214
+    },
+    {
+      "Floor": 429,
+      "MonsterGroup": 273,
+      "MonsterLevel": 215
+    },
+    {
+      "Floor": 430,
+      "MonsterGroup": 274,
+      "MonsterLevel": 215
+    },
+    {
+      "Floor": 431,
+      "MonsterGroup": 275,
+      "MonsterLevel": 216
+    },
+    {
+      "Floor": 432,
+      "MonsterGroup": 276,
+      "MonsterLevel": 216
+    },
+    {
+      "Floor": 433,
+      "MonsterGroup": 277,
+      "MonsterLevel": 217
+    },
+    {
+      "Floor": 434,
+      "MonsterGroup": 278,
+      "MonsterLevel": 217
+    },
+    {
+      "Floor": 435,
+      "MonsterGroup": 279,
+      "MonsterLevel": 218
+    },
+    {
+      "Floor": 436,
+      "MonsterGroup": 280,
+      "MonsterLevel": 218
+    },
+    {
+      "Floor": 437,
+      "MonsterGroup": 281,
+      "MonsterLevel": 219
+    },
+    {
+      "Floor": 438,
+      "MonsterGroup": 282,
+      "MonsterLevel": 219
+    },
+    {
+      "Floor": 439,
+      "MonsterGroup": 283,
+      "MonsterLevel": 220
+    },
+    {
+      "Floor": 440,
+      "MonsterGroup": 284,
+      "MonsterLevel": 220
+    },
+    {
+      "Floor": 441,
+      "MonsterGroup": 245,
+      "MonsterLevel": 221
+    },
+    {
+      "Floor": 442,
+      "MonsterGroup": 246,
+      "MonsterLevel": 221
+    },
+    {
+      "Floor": 443,
+      "MonsterGroup": 247,
+      "MonsterLevel": 222
+    },
+    {
+      "Floor": 444,
+      "MonsterGroup": 248,
+      "MonsterLevel": 222
+    },
+    {
+      "Floor": 445,
+      "MonsterGroup": 249,
+      "MonsterLevel": 223
+    },
+    {
+      "Floor": 446,
+      "MonsterGroup": 250,
+      "MonsterLevel": 223
+    },
+    {
+      "Floor": 447,
+      "MonsterGroup": 251,
+      "MonsterLevel": 224
+    },
+    {
+      "Floor": 448,
+      "MonsterGroup": 252,
+      "MonsterLevel": 224
+    },
+    {
+      "Floor": 449,
+      "MonsterGroup": 253,
+      "MonsterLevel": 225
+    },
+    {
+      "Floor": 450,
+      "MonsterGroup": 254,
+      "MonsterLevel": 225
+    },
+    {
+      "Floor": 451,
+      "MonsterGroup": 255,
+      "MonsterLevel": 226
+    },
+    {
+      "Floor": 452,
+      "MonsterGroup": 256,
+      "MonsterLevel": 226
+    },
+    {
+      "Floor": 453,
+      "MonsterGroup": 257,
+      "MonsterLevel": 227
+    },
+    {
+      "Floor": 454,
+      "MonsterGroup": 258,
+      "MonsterLevel": 227
+    },
+    {
+      "Floor": 455,
+      "MonsterGroup": 259,
+      "MonsterLevel": 228
+    },
+    {
+      "Floor": 456,
+      "MonsterGroup": 260,
+      "MonsterLevel": 228
+    },
+    {
+      "Floor": 457,
+      "MonsterGroup": 261,
+      "MonsterLevel": 229
+    },
+    {
+      "Floor": 458,
+      "MonsterGroup": 262,
+      "MonsterLevel": 229
+    },
+    {
+      "Floor": 459,
+      "MonsterGroup": 263,
+      "MonsterLevel": 230
+    },
+    {
+      "Floor": 460,
+      "MonsterGroup": 264,
+      "MonsterLevel": 230
+    },
+    {
+      "Floor": 461,
+      "MonsterGroup": 265,
+      "MonsterLevel": 231
+    },
+    {
+      "Floor": 462,
+      "MonsterGroup": 266,
+      "MonsterLevel": 231
+    },
+    {
+      "Floor": 463,
+      "MonsterGroup": 267,
+      "MonsterLevel": 232
+    },
+    {
+      "Floor": 464,
+      "MonsterGroup": 268,
+      "MonsterLevel": 232
+    },
+    {
+      "Floor": 465,
+      "MonsterGroup": 269,
+      "MonsterLevel": 233
+    },
+    {
+      "Floor": 466,
+      "MonsterGroup": 270,
+      "MonsterLevel": 233
+    },
+    {
+      "Floor": 467,
+      "MonsterGroup": 271,
+      "MonsterLevel": 234
+    },
+    {
+      "Floor": 468,
+      "MonsterGroup": 272,
+      "MonsterLevel": 234
+    },
+    {
+      "Floor": 469,
+      "MonsterGroup": 273,
+      "MonsterLevel": 235
+    },
+    {
+      "Floor": 470,
+      "MonsterGroup": 274,
+      "MonsterLevel": 235
+    },
+    {
+      "Floor": 471,
+      "MonsterGroup": 275,
+      "MonsterLevel": 236
+    },
+    {
+      "Floor": 472,
+      "MonsterGroup": 276,
+      "MonsterLevel": 236
+    },
+    {
+      "Floor": 473,
+      "MonsterGroup": 277,
+      "MonsterLevel": 237
+    },
+    {
+      "Floor": 474,
+      "MonsterGroup": 278,
+      "MonsterLevel": 237
+    },
+    {
+      "Floor": 475,
+      "MonsterGroup": 279,
+      "MonsterLevel": 238
+    },
+    {
+      "Floor": 476,
+      "MonsterGroup": 280,
+      "MonsterLevel": 238
+    },
+    {
+      "Floor": 477,
+      "MonsterGroup": 281,
+      "MonsterLevel": 239
+    },
+    {
+      "Floor": 478,
+      "MonsterGroup": 282,
+      "MonsterLevel": 239
+    },
+    {
+      "Floor": 479,
+      "MonsterGroup": 283,
+      "MonsterLevel": 240
+    },
+    {
+      "Floor": 480,
+      "MonsterGroup": 284,
+      "MonsterLevel": 240
+    }
+  ]
+}

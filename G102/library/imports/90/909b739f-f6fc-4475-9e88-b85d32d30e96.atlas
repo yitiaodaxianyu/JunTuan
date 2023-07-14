@@ -1,0 +1,76 @@
+
+Monster_47.png
+size: 144,175
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body_2
+  rotate: true
+  xy: 0, 47
+  size: 58, 59
+  orig: 58, 59
+  offset: 0, 0
+  index: -1
+Head_2
+  rotate: false
+  xy: 0, 113
+  size: 103, 62
+  orig: 103, 62
+  offset: 0, 0
+  index: -1
+Jing_2
+  rotate: false
+  xy: 0, 0
+  size: 47, 39
+  orig: 47, 39
+  offset: 0, 0
+  index: -1
+Ku_2
+  rotate: false
+  xy: 53, 2
+  size: 20, 14
+  orig: 20, 14
+  offset: 0, 0
+  index: -1
+WuQi_2
+  rotate: false
+  xy: 94, 3
+  size: 47, 65
+  orig: 47, 65
+  offset: 0, 0
+  index: -1
+YouJiao_2
+  rotate: true
+  xy: 65, 24
+  size: 18, 23
+  orig: 18, 23
+  offset: 0, 0
+  index: -1
+YouShou_2
+  rotate: false
+  xy: 109, 111
+  size: 34, 64
+  orig: 34, 64
+  offset: 0, 0
+  index: -1
+ZuoBi_2
+  rotate: true
+  xy: 65, 77
+  size: 28, 36
+  orig: 28, 36
+  offset: 0, 0
+  index: -1
+ZuoJiao_2
+  rotate: true
+  xy: 65, 50
+  size: 19, 23
+  orig: 19, 23
+  offset: 0, 0
+  index: -1
+ZuoShou_2
+  rotate: true
+  xy: 107, 76
+  size: 27, 37
+  orig: 27, 37
+  offset: 0, 0
+  index: -1

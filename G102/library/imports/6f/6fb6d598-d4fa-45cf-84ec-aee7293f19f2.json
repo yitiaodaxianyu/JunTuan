@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Avatar_Monster_10421",
+    "texture": "9972a89c-c028-4246-8d1d-5a01743805f6",
+    "atlas": "1986c13b-3839-451c-9606-772edb572989",
+    "rect": [
+      406,
+      505,
+      85,
+      99
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      99,
+      99
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

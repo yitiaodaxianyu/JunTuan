@@ -1,0 +1,139 @@
+
+Picador_Side.png
+size: 629,528
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 0, 33
+  size: 129, 118
+  orig: 129, 118
+  offset: 0, 0
+  index: -1
+JianJia
+  rotate: true
+  xy: 554, 20
+  size: 87, 69
+  orig: 87, 69
+  offset: 0, 0
+  index: -1
+JianJia_2
+  rotate: true
+  xy: 201, 10
+  size: 56, 69
+  orig: 56, 69
+  offset: 0, 0
+  index: -1
+Ku
+  rotate: true
+  xy: 313, 253
+  size: 81, 51
+  orig: 81, 56
+  offset: 0, 0
+  index: -1
+Mao_1
+  rotate: false
+  xy: 0, 336
+  size: 366, 192
+  orig: 366, 192
+  offset: 0, 0
+  index: -1
+Mao_2
+  rotate: false
+  xy: 313, 50
+  size: 239, 160
+  orig: 280, 184
+  offset: 41, 24
+  index: -1
+Mao_4
+  rotate: false
+  xy: 0, 153
+  size: 311, 181
+  orig: 335, 186
+  offset: 0, 0
+  index: -1
+Tou
+  rotate: true
+  xy: 368, 212
+  size: 316, 260
+  orig: 316, 260
+  offset: 0, 0
+  index: -1
+YouDaBi
+  rotate: true
+  xy: 131, 83
+  size: 68, 99
+  orig: 68, 99
+  offset: 0, 0
+  index: -1
+YouJiao
+  rotate: false
+  xy: 463, 8
+  size: 46, 40
+  orig: 46, 40
+  offset: 0, 0
+  index: -1
+YouShou
+  rotate: false
+  xy: 0, 0
+  size: 34, 31
+  orig: 34, 31
+  offset: 0, 0
+  index: -1
+YouShouBi
+  rotate: true
+  xy: 131, 17
+  size: 64, 68
+  orig: 64, 68
+  offset: 0, 0
+  index: -1
+YouShou_2
+  rotate: true
+  xy: 272, 24
+  size: 42, 32
+  orig: 42, 32
+  offset: 0, 0
+  index: -1
+YouTui
+  rotate: true
+  xy: 418, 7
+  size: 41, 43
+  orig: 41, 43
+  offset: 0, 0
+  index: -1
+ZuoDaBi
+  rotate: false
+  xy: 232, 68
+  size: 66, 83
+  orig: 66, 83
+  offset: 0, 0
+  index: -1
+ZuoJiao
+  rotate: false
+  xy: 306, 2
+  size: 52, 46
+  orig: 52, 46
+  offset: 0, 0
+  index: -1
+ZuoTui
+  rotate: true
+  xy: 313, 216
+  size: 35, 40
+  orig: 35, 40
+  offset: 0, 0
+  index: -1
+ZuoXiaoBi
+  rotate: false
+  xy: 554, 109
+  size: 75, 101
+  orig: 75, 101
+  offset: 0, 0
+  index: -1
+ku_2
+  rotate: false
+  xy: 360, 4
+  size: 56, 44
+  orig: 56, 44
+  offset: 0, 0
+  index: -1

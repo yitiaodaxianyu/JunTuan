@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Number_Crit_0",
+    "texture": "7d5f3720-e591-455c-8407-c97da975f3b6",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      253,
+      96
+    ],
+    "offset": [
+      -1.5,
+      16
+    ],
+    "originalSize": [
+      256,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

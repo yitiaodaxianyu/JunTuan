@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Archer_Side",
+    "texture": "b6d625f3-7d5c-450b-8752-d6ebf8546236",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      899,
+      277
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      899,
+      277
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

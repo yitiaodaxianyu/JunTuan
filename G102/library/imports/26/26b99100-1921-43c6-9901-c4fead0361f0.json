@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "TY_GuaiWuHP_02",
+    "texture": "2e4d0340-4eb0-4ab5-b73c-f16d43ea1121",
+    "atlas": "a4a901c3-ef86-47ad-93b5-14749d456ebd",
+    "rect": [
+      40,
+      118,
+      17,
+      14
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      17,
+      14
+    ],
+    "rotated": 1,
+    "capInsets": [
+      8,
+      0,
+      8,
+      0
+    ]
+  }
+}

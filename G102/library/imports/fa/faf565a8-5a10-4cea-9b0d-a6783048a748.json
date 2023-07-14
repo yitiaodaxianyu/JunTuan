@@ -1,0 +1,77 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "func_unlock_ui.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Common_Frame_0": {
+      "__uuid__": "d66718e4-96c7-4f6b-b4e7-b7de9d4cba78"
+    },
+    "Common_Light_0": {
+      "__uuid__": "14dd12b0-1fe2-41ca-8703-02612a190da6"
+    },
+    "Common_Title_0": {
+      "__uuid__": "12a56667-a1f4-493f-9636-e4b1e20ef03a"
+    },
+    "Main_Icon_26": {
+      "__uuid__": "a42eaa8b-498b-4fc9-b2f4-4fe697e21c30"
+    },
+    "Main_UIBg_1": {
+      "__uuid__": "75db248d-aa35-4d72-955c-c921ba8e09b1"
+    },
+    "TY_Btn_00": {
+      "__uuid__": "567d4fb7-486c-4819-ac32-3288bead2396"
+    },
+    "TY_Btn_03": {
+      "__uuid__": "5d1da0d1-af46-4cfa-8da8-3d624db5eedc"
+    },
+    "func1": {
+      "__uuid__": "6ae99181-3393-4ea3-bd80-bd19b753929a"
+    },
+    "func10": {
+      "__uuid__": "0bf4e834-80b1-4086-8f4f-f90412c01476"
+    },
+    "func11": {
+      "__uuid__": "9145b1cc-6d57-4e1b-8446-d14fe6c7bf17"
+    },
+    "func14": {
+      "__uuid__": "ae838f52-4f57-472f-bb7a-3dd9894705dd"
+    },
+    "func15": {
+      "__uuid__": "a447f724-3eca-456b-a684-0ed9a5a4b94c"
+    },
+    "func16": {
+      "__uuid__": "4b20ace4-9a5f-40d4-852f-58bc12dbb2e6"
+    },
+    "func17": {
+      "__uuid__": "eda47530-2487-4d38-986c-9eef3acd1cd7"
+    },
+    "func2": {
+      "__uuid__": "67d29acb-d64d-40e3-abaa-04e282492d6c"
+    },
+    "func25": {
+      "__uuid__": "6e5f5073-0f38-4589-bc1a-4815695b09c4"
+    },
+    "func3": {
+      "__uuid__": "49c24a50-d8bc-4f73-9a08-7d18705428ca"
+    },
+    "func4": {
+      "__uuid__": "1735a7dc-55ab-4f3f-a814-37eb941c95bb"
+    },
+    "func5": {
+      "__uuid__": "d1e45bdc-db92-4d6c-bc5a-a5078e56518a"
+    },
+    "func6": {
+      "__uuid__": "6802a47d-8a59-4126-b548-f1070f2668c0"
+    },
+    "func7": {
+      "__uuid__": "ef5f4501-7abb-43b5-a962-ec18dcf6901d"
+    },
+    "func8": {
+      "__uuid__": "db9aec9f-e9e4-45c6-860d-332b0356839a"
+    },
+    "func9": {
+      "__uuid__": "d29a026d-ef90-4f27-8580-9d6bdcdadd65"
+    }
+  }
+}

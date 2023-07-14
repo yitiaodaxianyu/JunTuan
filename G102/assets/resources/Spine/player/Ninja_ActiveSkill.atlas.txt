@@ -1,0 +1,174 @@
+
+Ninja_ActiveSkill.png
+size: 2023,323
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+beam0
+  rotate: true
+  xy: 726, 16
+  size: 118, 315
+  orig: 170, 338
+  offset: 26, 1
+  index: -1
+beam1
+  rotate: true
+  xy: 0, 16
+  size: 69, 370
+  orig: 70, 373
+  offset: 1, 1
+  index: -1
+beam2
+  rotate: true
+  xy: 681, 136
+  size: 187, 342
+  orig: 194, 352
+  offset: 4, 3
+  index: -1
+beam3
+  rotate: true
+  xy: 0, 87
+  size: 236, 389
+  orig: 241, 395
+  offset: 1, 6
+  index: -1
+beam4
+  rotate: true
+  xy: 1025, 174
+  size: 149, 383
+  orig: 163, 390
+  offset: 0, 0
+  index: -1
+beam5
+  rotate: false
+  xy: 1043, 14
+  size: 239, 158
+  orig: 242, 160
+  offset: 1, 0
+  index: -1
+beam6
+  rotate: false
+  xy: 1641, 1
+  size: 250, 207
+  orig: 250, 220
+  offset: 0, 1
+  index: -1
+ring
+  rotate: false
+  xy: 1410, 195
+  size: 171, 128
+  orig: 171, 128
+  offset: 0, 0
+  index: -1
+shan0
+  rotate: false
+  xy: 1425, 2
+  size: 214, 191
+  orig: 223, 192
+  offset: 4, 0
+  index: -1
+shan1
+  rotate: true
+  xy: 391, 94
+  size: 229, 288
+  orig: 250, 288
+  offset: 11, 0
+  index: -1
+shan2
+  rotate: true
+  xy: 290, 1
+  size: 13, 105
+  orig: 14, 115
+  offset: 0, 4
+  index: -1
+shan3
+  rotate: true
+  xy: 145, 2
+  size: 12, 143
+  orig: 12, 154
+  offset: 0, 4
+  index: -1
+shan4
+  rotate: true
+  xy: 0, 0
+  size: 14, 143
+  orig: 14, 154
+  offset: 0, 4
+  index: -1
+shan5
+  rotate: true
+  xy: 372, 57
+  size: 28, 199
+  orig: 33, 223
+  offset: 2, 9
+  index: -1
+shan6
+  rotate: true
+  xy: 397, 3
+  size: 21, 111
+  orig: 22, 120
+  offset: 1, 4
+  index: -1
+shan7
+  rotate: true
+  xy: 372, 26
+  size: 29, 132
+  orig: 31, 140
+  offset: 1, 4
+  index: -1
+smoke
+  rotate: false
+  xy: 1893, 43
+  size: 123, 123
+  orig: 144, 144
+  offset: 10, 11
+  index: -1
+wing
+  rotate: true
+  xy: 510, 14
+  size: 41, 61
+  orig: 41, 64
+  offset: 0, 1
+  index: -1
+yuan0
+  rotate: true
+  xy: 1893, 168
+  size: 155, 130
+  orig: 163, 135
+  offset: 3, 2
+  index: -1
+yuan1
+  rotate: true
+  xy: 1284, 0
+  size: 172, 139
+  orig: 182, 147
+  offset: 5, 4
+  index: -1
+yuan2
+  rotate: false
+  xy: 1735, 213
+  size: 143, 110
+  orig: 144, 110
+  offset: 1, 0
+  index: -1
+yuan3
+  rotate: false
+  xy: 573, 14
+  size: 105, 78
+  orig: 113, 84
+  offset: 4, 3
+  index: -1
+yuan4
+  rotate: false
+  xy: 1583, 210
+  size: 150, 113
+  orig: 151, 114
+  offset: 0, 1
+  index: -1
+yue
+  rotate: false
+  xy: 680, 44
+  size: 44, 48
+  orig: 46, 50
+  offset: 1, 1
+  index: -1

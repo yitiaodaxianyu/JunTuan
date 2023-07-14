@@ -1,0 +1,413 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "hero.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "DuiWu_TX_Lock": {
+      "__uuid__": "7bcb09a8-88f0-4591-8884-2c9ad153ec71"
+    },
+    "DuiWu_TX_Plus": {
+      "__uuid__": "5d35e8c1-038b-4f59-a285-05ec7730851d"
+    },
+    "DuiWu_TX_XZ": {
+      "__uuid__": "b39d70e5-11c1-4bff-9936-dc0e390350bd"
+    },
+    "DuiWu_TX_ZheZhao": {
+      "__uuid__": "3b0bbf05-1d07-4ce7-ab61-b9865fd62d7f"
+    },
+    "DuiWu_TX_nul": {
+      "__uuid__": "84d06e9a-ab82-475e-bfa2-efeae0086424"
+    },
+    "Head_Hero_S_1": {
+      "__uuid__": "4fbb791c-19eb-4529-ab40-8b286385e9d1"
+    },
+    "Head_Hero_S_10": {
+      "__uuid__": "e4bc07a8-6487-4b01-bd13-b78d0feba413"
+    },
+    "Head_Hero_S_11": {
+      "__uuid__": "0167fdef-bdc5-4dc2-9ab0-a67269dac5f6"
+    },
+    "Head_Hero_S_12": {
+      "__uuid__": "cd58c84e-3d3e-4fcf-94eb-c6a211a2d449"
+    },
+    "Head_Hero_S_2": {
+      "__uuid__": "34af9ef8-4901-4765-aebc-c9c82aaacab5"
+    },
+    "Head_Hero_S_3": {
+      "__uuid__": "05705170-6015-42cb-99e0-9b322695808d"
+    },
+    "Head_Hero_S_4": {
+      "__uuid__": "6da16730-2499-4088-af11-17ff51a5c4b8"
+    },
+    "Head_Hero_S_5": {
+      "__uuid__": "bdef5c27-3cfe-452c-9db1-2b0db18abdb4"
+    },
+    "Head_Hero_S_6": {
+      "__uuid__": "bb24aff1-1d90-4a39-a3da-6a4217c692c7"
+    },
+    "Head_Hero_S_7": {
+      "__uuid__": "03988016-0667-49e7-830e-9d9f0d70bdea"
+    },
+    "Head_Hero_S_8": {
+      "__uuid__": "c65a214d-9edb-4895-b689-59bf8dc29cc8"
+    },
+    "Head_Hero_S_9": {
+      "__uuid__": "e84d18e6-1ccb-4906-87c8-b7e407238a1e"
+    },
+    "Hero_10_Skill_0": {
+      "__uuid__": "56ec0051-f459-4e70-bde4-5717d1a89715"
+    },
+    "Hero_10_Skill_1": {
+      "__uuid__": "3b224b09-c6fb-4948-8f0c-d3adefe56813"
+    },
+    "Hero_10_Skill_2": {
+      "__uuid__": "40e69f4b-11b6-4eb6-b0a8-025c82992784"
+    },
+    "Hero_11_Skill_0": {
+      "__uuid__": "b62528c0-b8d5-4bb4-9e21-c0dbd337c656"
+    },
+    "Hero_11_Skill_1": {
+      "__uuid__": "b80bb319-dbf6-45bd-82e6-91ce0fb38671"
+    },
+    "Hero_11_Skill_2": {
+      "__uuid__": "addb12bc-98a5-43bf-b6df-5b8d4aa6a611"
+    },
+    "Hero_12_Skill_0": {
+      "__uuid__": "a9207409-bfeb-414a-a4bc-2c36bca13443"
+    },
+    "Hero_12_Skill_1": {
+      "__uuid__": "80507cdb-5250-4d0e-afd2-78f65ed376ed"
+    },
+    "Hero_12_Skill_2": {
+      "__uuid__": "e2599617-4e73-4425-81b8-1598c0affdc0"
+    },
+    "Hero_1_Skill_0": {
+      "__uuid__": "0b0cab66-a421-4f74-adff-b86e2611fdd9"
+    },
+    "Hero_1_Skill_1": {
+      "__uuid__": "a568e3af-7868-49e2-97a3-eec11f7d24e5"
+    },
+    "Hero_2_Skill_0": {
+      "__uuid__": "69a82f75-8c96-491f-8f36-3d39ab7021c7"
+    },
+    "Hero_2_Skill_1": {
+      "__uuid__": "4d1ae795-f6c7-4cca-9207-90ec43364df8"
+    },
+    "Hero_3_Skill_0": {
+      "__uuid__": "e0831a25-20cb-4182-aa5f-2d4718bb8a46"
+    },
+    "Hero_3_Skill_1": {
+      "__uuid__": "d1200161-8bfb-45da-8428-2dabbc33ff04"
+    },
+    "Hero_4_Skill_0": {
+      "__uuid__": "09580c8c-036a-4cc8-9015-84288080f437"
+    },
+    "Hero_4_Skill_1": {
+      "__uuid__": "46104dd8-ec82-4174-aca8-d080645a1630"
+    },
+    "Hero_5_Skill_0": {
+      "__uuid__": "fd6cd0d9-d551-4096-b82e-67dff5160695"
+    },
+    "Hero_5_Skill_1": {
+      "__uuid__": "c6d1a45d-11e4-450a-bc07-820c6659687a"
+    },
+    "Hero_6_Skill_0": {
+      "__uuid__": "6a1cf8d7-68c1-41cb-99e9-ea8a53c7b589"
+    },
+    "Hero_6_Skill_1": {
+      "__uuid__": "6905aad2-abdd-4988-869f-5bcb6cb49eb1"
+    },
+    "Hero_6_Skill_2": {
+      "__uuid__": "0abaca59-fd39-422c-8929-514c2f2a1747"
+    },
+    "Hero_7_Skill_0": {
+      "__uuid__": "75497180-33e3-4710-81e4-61f44813b8a8"
+    },
+    "Hero_7_Skill_1": {
+      "__uuid__": "af3922df-7728-4a96-bb1a-97b93e4f0eb9"
+    },
+    "Hero_7_Skill_2": {
+      "__uuid__": "988e4fd6-bd04-487c-98b3-79d688ecd2c0"
+    },
+    "Hero_8_Skill_0": {
+      "__uuid__": "90ebd91b-8502-4d13-8b19-c1d70a9372f8"
+    },
+    "Hero_8_Skill_1": {
+      "__uuid__": "ddb6eec9-9f78-4058-8c49-988b8f4a51d0"
+    },
+    "Hero_8_Skill_2": {
+      "__uuid__": "d9d2d1c8-b4d6-463d-ab83-4b6a720cb9eb"
+    },
+    "Hero_9_Skill_0": {
+      "__uuid__": "c221ad0c-f0e3-401d-8d48-7bf7b6629f85"
+    },
+    "Hero_9_Skill_1": {
+      "__uuid__": "a2e73bef-7487-4869-a42e-96a7497c3563"
+    },
+    "Hero_9_Skill_2": {
+      "__uuid__": "143a31fa-398f-41ff-a75e-1f8f3134fe91"
+    },
+    "Hero_Star_1": {
+      "__uuid__": "657e428b-6524-46d0-98b5-cf75710870ae"
+    },
+    "Hero_Star_2": {
+      "__uuid__": "f54d3274-9bf0-4896-97c9-fdced4ebfa54"
+    },
+    "Hero_Star_3": {
+      "__uuid__": "8977f82e-a236-4937-8d5c-f75c94e34d90"
+    },
+    "Hero_Star_4": {
+      "__uuid__": "aec62e0c-10bb-4083-b87f-bfe6b6dc1f86"
+    },
+    "Hero_Star_5": {
+      "__uuid__": "52aab159-6231-4713-bb92-ac207c50dc5b"
+    },
+    "Hero_Title_1_0": {
+      "__uuid__": "ef0a5d4e-5a6e-4d77-96ef-7303de39909e"
+    },
+    "Hero_Title_1_1": {
+      "__uuid__": "6d4a8284-2814-4585-b644-c2ca79319598"
+    },
+    "Hero_Title_2_0": {
+      "__uuid__": "0078abab-7098-4d23-a8d3-4f1bb3bf3fc4"
+    },
+    "Hero_Title_2_1": {
+      "__uuid__": "ea4188db-cd4b-4de0-b394-75922b5aec74"
+    },
+    "Hero_Title_3_0": {
+      "__uuid__": "d5eec464-1a5f-4fe5-905e-398c5b3e81f2"
+    },
+    "Hero_Title_3_1": {
+      "__uuid__": "8542e0ca-e6f1-4f5f-ae54-24299ad03cb7"
+    },
+    "Hero_Title_4_0": {
+      "__uuid__": "36825642-247d-4c6b-92dc-86c3de10f499"
+    },
+    "Hero_Title_4_1": {
+      "__uuid__": "8aa1c6ff-33a7-4b02-a081-27bbbfc8427c"
+    },
+    "Hero_Title_5_0": {
+      "__uuid__": "dde6a830-4c1c-481e-ab42-5f100c6de028"
+    },
+    "Hero_Title_5_1": {
+      "__uuid__": "f98bef5d-395e-4b5e-a0df-e44700442ed4"
+    },
+    "Hero_Type_1": {
+      "__uuid__": "3b5c45ff-9c96-4411-ac0b-cf995ce060e0"
+    },
+    "Hero_Type_2": {
+      "__uuid__": "1452d429-da1e-4e6b-9518-425dc2079007"
+    },
+    "Hero_Type_3": {
+      "__uuid__": "2f8f2546-d6f6-4028-b84e-57e63d162093"
+    },
+    "Item_31010_Skill": {
+      "__uuid__": "b7cceceb-8295-4485-b587-2adafdb8e8ea"
+    },
+    "Item_31020_Skill": {
+      "__uuid__": "431594d3-6e25-4339-940d-df9b4cf9bc09"
+    },
+    "Item_31030_Skill": {
+      "__uuid__": "5fbfeaad-03e5-4068-964d-93cd4cc9b641"
+    },
+    "Item_31040_Skill": {
+      "__uuid__": "0775f1f1-a6a5-4dc6-ba4c-2bed36e8903c"
+    },
+    "Item_31050_Skill": {
+      "__uuid__": "2f502d8c-2264-4c94-9088-50a3cc3a9b2a"
+    },
+    "Item_31060_Skill": {
+      "__uuid__": "7f040114-a8b9-4380-ac24-30edf1160089"
+    },
+    "Item_31070_Skill": {
+      "__uuid__": "486e4c0c-6340-4bd7-b5fe-b0c8a27b6f92"
+    },
+    "Item_31080_Skill": {
+      "__uuid__": "c17fb6b7-2cc1-41ce-aefa-3e8460f63bb2"
+    },
+    "Item_31090_Skill": {
+      "__uuid__": "4093cf5f-63e1-4b83-b758-b0ccd70e6ee7"
+    },
+    "Item_31100_Skill": {
+      "__uuid__": "b6030411-2ed4-4833-b55a-8a655133c7c5"
+    },
+    "Item_31110_Skill": {
+      "__uuid__": "dc5fd90e-1262-4d84-81d4-c0955cbed6d0"
+    },
+    "Item_31120_Skill": {
+      "__uuid__": "804e12ed-d5f8-493c-9c22-59585760660f"
+    },
+    "JS_Grade_0": {
+      "__uuid__": "89c99f52-c405-467e-8a96-4a120a4def6c"
+    },
+    "JS_Grade_1": {
+      "__uuid__": "a516c7df-ab11-4c1b-aa75-204db4c50a27"
+    },
+    "JS_Grade_2": {
+      "__uuid__": "35067aba-ee8f-4c95-8306-94174b8d6f39"
+    },
+    "JS_Grade_3": {
+      "__uuid__": "a0fb2fdc-2fab-48b4-885e-e3227fe1546e"
+    },
+    "JS_Grade_4": {
+      "__uuid__": "cb6611e7-13f5-4375-b038-3335a55cf3ab"
+    },
+    "JS_Grade_5": {
+      "__uuid__": "6c2e89a9-5449-42e6-89d9-5770ebcc59ab"
+    },
+    "JS_Shadow": {
+      "__uuid__": "ca978e4d-b2d8-4f82-9900-be4fa86ed0a4"
+    },
+    "JS_Star_00": {
+      "__uuid__": "1322aa91-3924-49ef-99cf-246d30e8c165"
+    },
+    "JS_Star_01": {
+      "__uuid__": "2234a8b2-e04d-4ae3-b4dd-292aca0df121"
+    },
+    "JS_ZheZhao_00": {
+      "__uuid__": "ed2bb61d-0829-4830-9934-7c4701c3dfc6"
+    },
+    "JS_ZheZhao_01": {
+      "__uuid__": "c248962f-43db-4511-8f15-3fd48fec2cf7"
+    },
+    "JS_frame_0": {
+      "__uuid__": "3962ae44-8b93-4eca-84bc-ae7ecfd77c8c"
+    },
+    "JS_frame_1": {
+      "__uuid__": "730b56d6-0464-44ce-bf5a-eaf32726af98"
+    },
+    "JS_frame_2": {
+      "__uuid__": "2ea69561-3403-4a73-ba1a-0db97c198c28"
+    },
+    "JS_frame_3": {
+      "__uuid__": "411306f4-770f-4cb0-92ab-bbf218bfa65f"
+    },
+    "JS_frame_4": {
+      "__uuid__": "576dddc7-6287-4a28-bdbf-9639f477306d"
+    },
+    "JS_frame_5": {
+      "__uuid__": "e8c9a81a-96a2-499c-8ab0-25ef7fe0a165"
+    },
+    "JS_frame_Select": {
+      "__uuid__": "76229ae6-46e2-4371-a623-7cd96a4cdac7"
+    },
+    "JS_icon_ChuZhan": {
+      "__uuid__": "3a800764-a936-420b-b2a0-e12abce5a67b"
+    },
+    "Pet_1_Skill_0": {
+      "__uuid__": "af62e9f5-96de-4eac-9f92-9afd95ed9214"
+    },
+    "Pet_2_Skill_0": {
+      "__uuid__": "07093438-ecce-4f34-97d3-2f69398c6167"
+    },
+    "Pet_3_Skill_0": {
+      "__uuid__": "d379a061-110d-449b-92df-1d25beb2aa79"
+    },
+    "Pet_4_Skill_0": {
+      "__uuid__": "c2dd31a1-66cf-47c3-b965-0ee6249b2fdc"
+    },
+    "Prepare_Frame_0": {
+      "__uuid__": "348c00c8-4d85-4be2-8f55-9284d379ed85"
+    },
+    "Prepare_Frame_Ban": {
+      "__uuid__": "53859c0c-1433-4494-9718-4e1af613223c"
+    },
+    "Prepare_Frame_Lock": {
+      "__uuid__": "eb7a0aa5-bf4f-4271-b0b8-9b7acc90279c"
+    },
+    "Prepare_Frame_Mask": {
+      "__uuid__": "b86775b2-2afc-46cb-a34b-1d41deef44e7"
+    },
+    "Prepare_Frame_Select": {
+      "__uuid__": "70ab0ec1-db71-4dd6-872d-e591cf277813"
+    },
+    "Prepare_Quality_1": {
+      "__uuid__": "d29a1e36-11df-4e01-9486-efe4d75fa514"
+    },
+    "Prepare_Quality_10": {
+      "__uuid__": "3707c99b-048f-4912-83b6-f8e3b5cdc014"
+    },
+    "Prepare_Quality_2": {
+      "__uuid__": "a75c506f-7491-4e58-afae-39e7eef3a3b9"
+    },
+    "Prepare_Quality_3": {
+      "__uuid__": "20244837-b78a-4fb6-8eba-002ee86997f2"
+    },
+    "Prepare_Quality_4": {
+      "__uuid__": "05747b02-bdfa-4acc-8737-748ef32f19bb"
+    },
+    "Prepare_Quality_5": {
+      "__uuid__": "4a1224c4-284c-4c8e-9e4d-cb11687487d1"
+    },
+    "Prepare_Quality_6": {
+      "__uuid__": "a9b0f522-6cfe-4f1d-bdfa-71b7503bc889"
+    },
+    "Prepare_Quality_7": {
+      "__uuid__": "7080f61a-ea86-42c9-b3f4-6a7db18dd11c"
+    },
+    "Prepare_Quality_8": {
+      "__uuid__": "ff6cd967-e978-4155-b39e-4894e230f84f"
+    },
+    "Prepare_Quality_9": {
+      "__uuid__": "3ed34038-e0df-463d-8640-4dd806655756"
+    },
+    "Prepare_Star_1": {
+      "__uuid__": "f78e56db-3a65-4bb5-9dbc-7b4531684c06"
+    },
+    "Prepare_Star_2": {
+      "__uuid__": "09906ae6-2f71-431e-a7fc-20fd95cfcdcc"
+    },
+    "Prepare_Star_3": {
+      "__uuid__": "d168e161-cafc-46d7-8b7e-a71566e7d770"
+    },
+    "Prepare_Star_4": {
+      "__uuid__": "b7885a8d-a2ea-4d18-a36b-fdcec3200dd6"
+    },
+    "Prepare_Star_5": {
+      "__uuid__": "a6f454b5-19f7-4183-b989-18ad3690c520"
+    },
+    "Skill_Icon_Ban": {
+      "__uuid__": "254c93e8-cf5a-4610-a765-9963f69516ad"
+    },
+    "SuiPian_Frame": {
+      "__uuid__": "0466af31-4069-433c-9d89-46672e72f30d"
+    },
+    "SuiPian_Icon": {
+      "__uuid__": "7037b9ae-6af4-4a8c-b649-fee42a0aa40b"
+    },
+    "SuiPian_ZheZhao": {
+      "__uuid__": "59e51fbb-bb0a-4d98-80bb-fe24b4883e46"
+    },
+    "TY_WenHao_01": {
+      "__uuid__": "665b9973-1b33-4933-9bcf-6fac6eeaf236"
+    },
+    "hero0": {
+      "__uuid__": "1c0b7364-62e6-49d5-9045-e682e0559eed"
+    },
+    "hero1": {
+      "__uuid__": "aafb509d-c95b-4208-b5f5-171271e6f961"
+    },
+    "hero2": {
+      "__uuid__": "57c702e5-34bc-45c2-b9cb-ef0d68c3f54b"
+    },
+    "hero3": {
+      "__uuid__": "8afddc1a-5ef9-4fbe-9137-c804fd408388"
+    },
+    "hero4": {
+      "__uuid__": "c270c194-ea29-42d3-b93f-33d0f0f82fa0"
+    },
+    "hero5": {
+      "__uuid__": "d92c541e-2858-4f5d-9263-39ec4f84d34f"
+    },
+    "r1": {
+      "__uuid__": "811623c4-d09f-4003-ae70-f35d72469b48"
+    },
+    "r2": {
+      "__uuid__": "39336236-31d6-416f-9ff7-b85c23933fdb"
+    },
+    "r3": {
+      "__uuid__": "186ca515-1a6a-4dd1-aa02-ffccb4868556"
+    }
+  }
+}

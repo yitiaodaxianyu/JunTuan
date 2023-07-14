@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "PTSpirit_Tail2",
+    "texture": "2b396ee4-88b7-41d4-95d2-ee7259d9870b",
+    "atlas": "",
+    "rect": [
+      4,
+      12,
+      28,
+      82
+    ],
+    "offset": [
+      0.5,
+      -3
+    ],
+    "originalSize": [
+      35,
+      100
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

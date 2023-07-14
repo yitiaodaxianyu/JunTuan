@@ -1,0 +1,160 @@
+
+BeastMaster_Side.png
+size: 1191,271
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+CongZi
+  rotate: false
+  xy: 174, 17
+  size: 14, 18
+  orig: 20, 20
+  offset: 0, 1
+  index: -1
+DaBi_L
+  rotate: true
+  xy: 836, 12
+  size: 87, 124
+  orig: 87, 124
+  offset: 0, 0
+  index: -1
+DaBi_R
+  rotate: false
+  xy: 1046, 21
+  size: 70, 85
+  orig: 70, 85
+  offset: 0, 0
+  index: -1
+DaTui_L
+  rotate: false
+  xy: 226, 1
+  size: 41, 41
+  orig: 41, 41
+  offset: 0, 0
+  index: -1
+DaTui_R
+  rotate: true
+  xy: 386, 13
+  size: 46, 44
+  orig: 46, 44
+  offset: 0, 0
+  index: -1
+DiYing
+  rotate: true
+  xy: 226, 44
+  size: 227, 41
+  orig: 227, 41
+  offset: 0, 0
+  index: -1
+Gong
+  rotate: false
+  xy: 0, 37
+  size: 224, 234
+  orig: 224, 234
+  offset: 0, 0
+  index: -1
+Jian
+  rotate: false
+  xy: 0, 4
+  size: 172, 31
+  orig: 172, 31
+  offset: 0, 0
+  index: -1
+JianTong
+  rotate: false
+  xy: 794, 101
+  size: 164, 170
+  orig: 164, 170
+  offset: 0, 0
+  index: -1
+Mao_1
+  rotate: false
+  xy: 1113, 131
+  size: 73, 140
+  orig: 73, 140
+  offset: 0, 0
+  index: -1
+Mao_2
+  rotate: false
+  xy: 432, 17
+  size: 39, 46
+  orig: 39, 46
+  offset: 0, 0
+  index: -1
+Mao_3
+  rotate: false
+  xy: 962, 20
+  size: 82, 86
+  orig: 82, 86
+  offset: 0, 0
+  index: -1
+ShenTi
+  rotate: true
+  xy: 960, 108
+  size: 163, 151
+  orig: 163, 151
+  offset: 0, 0
+  index: -1
+Shou_1
+  rotate: false
+  xy: 269, 0
+  size: 51, 59
+  orig: 51, 59
+  offset: 0, 0
+  index: -1
+Tou
+  rotate: false
+  xy: 269, 61
+  size: 158, 210
+  orig: 158, 226
+  offset: 0, 16
+  index: -1
+Xian
+  rotate: false
+  xy: 637, 100
+  size: 155, 171
+  orig: 160, 177
+  offset: 5, 6
+  index: -1
+XiaoBi_L
+  rotate: true
+  xy: 733, 5
+  size: 93, 101
+  orig: 93, 101
+  offset: 0, 0
+  index: -1
+XiaoBi_R
+  rotate: true
+  xy: 637, 0
+  size: 98, 94
+  orig: 98, 94
+  offset: 0, 0
+  index: -1
+XiaoTui_L
+  rotate: false
+  xy: 322, 11
+  size: 62, 48
+  orig: 62, 48
+  offset: 0, 0
+  index: -1
+XiaoTui_R
+  rotate: false
+  xy: 473, 25
+  size: 65, 38
+  orig: 65, 38
+  offset: 0, 0
+  index: -1
+Yao
+  rotate: true
+  xy: 1118, 11
+  size: 118, 73
+  orig: 118, 73
+  offset: 0, 0
+  index: -1
+ring02
+  rotate: false
+  xy: 429, 65
+  size: 206, 206
+  orig: 208, 206
+  offset: 2, 0
+  index: -1

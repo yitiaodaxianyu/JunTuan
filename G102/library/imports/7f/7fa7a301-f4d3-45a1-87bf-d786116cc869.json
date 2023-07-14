@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Fx_ZhanDouLi_2",
+    "texture": "e6a984b7-5890-4d3e-8613-07aa63393ae9",
+    "atlas": "098893c6-9acd-4af0-a6ba-514fd01dc83e",
+    "rect": [
+      2,
+      184,
+      250,
+      180
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      180
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
