@@ -93,6 +93,8 @@ var Game = /** @class */ (function (_super) {
         _this.start_time = 0;
         _this.time_jishu = 0;
         _this.time_label = null;
+        _this.bg0 = null;
+        _this.bg1 = null;
         _this.dps_label = null;
         //关卡进度条
         _this.level_progress = null;
@@ -102,6 +104,7 @@ var Game = /** @class */ (function (_super) {
         _this.endless_ts = null;
         //当前背景使用的名称
         _this.cur_bg_name = 'bg2';
+        _this.bgSpeed = 50;
         //战斗药水
         _this.battlepotion = []; //红色   绿色   蓝色
         _this.battlepotionPropId = [PropConfig_1.PropId.RedPotion, PropConfig_1.PropId.GreenPotion, PropConfig_1.PropId.BluePotion]; //战斗药水的道具id
@@ -181,6 +184,10 @@ var Game = /** @class */ (function (_super) {
         //hp
         var hp = cc.find('Canvas/Ui_Root/hp_root');
         hp.y = -wp.height / 2 + hp.height - 27; //27是血条的坐标
+        this.bg0 = this.node.getChildByName('bg0');
+        this.bg1 = this.node.getChildByName('bg1');
+        this.bg0.y = cc.winSize.height / 2 - this.bg0.height / 2;
+        this.bg1.y = this.bg0.y + this.bg0.height;
         //上碰撞点
         //cc.find('Canvas/wall_root/wall_top').y=topUi.y;
     };
@@ -256,14 +263,19 @@ var Game = /** @class */ (function (_super) {
                 this.loadHero(heroType, i);
             }
         }
-        //预加载弓手
+        // let heroRoot=cc.find('Canvas/Hero_Root');
+        // for(let i=0; i<heroRoot.childrenCount; i++){
+        //     let hero=heroRoot.children[i].getComponent(Hero);
+        // }
+        //预加载弓手Hero_Root
         // if (TutorailsManager.getInstance().is_finish_game == false && LevelManager.getInstance().start_level == 5) {
         //     cc.resources.load('heros/hero8');
         // }
     };
     Game.prototype.loadHero = function (heroType, posIndex, callback) {
         Hero_1.default.max_load_num++;
-        var posX = posIndex * 144 - 288;
+        var posX = 2 * 144 - 288;
+        var posY = (4 - posIndex) * 70;
         cc.resources.load('heros/hero' + heroType, cc.Prefab, function (error, assets) {
             if (error) {
                 console.log(error);
@@ -273,7 +285,9 @@ var Game = /** @class */ (function (_super) {
             node.parent = cc.find('Canvas/Hero_Root');
             node.x = posX;
             var hp = cc.find('Canvas/Ui_Root/hp_root');
-            node.y = hp.y + 112;
+            node.y = hp.y + posY;
+            node.setSiblingIndex(posIndex);
+            node.getComponent(Hero_1.default).leaterNum = posIndex;
             BuffStateManager_1.default.getInstance().createBuffRoot(cc.v2(posX, node.y + 150), heroType);
             if (callback) {
                 callback();
@@ -459,15 +473,17 @@ var Game = /** @class */ (function (_super) {
         }
     };
     Game.prototype.setBgImg = function () {
+        var _this = this;
         ///let level=LevelManager.getInstance().start_level;
-        var bg0 = this.node.getChildByName('bg0');
+        // let bg0 = this.node.getChildByName('bg0');
         var wallBg = this.node.getChildByName('wall_bg');
         var wallDown = wallBg.getChildByName('wall_down');
         //适配坐标
         // let hp=cc.find('Canvas/Ui_Root/wall_root');
         // wallBg.y=hp.y+108;
         GameManager_1.default.getInstance().enemy_att_y = wallBg.y + wallDown.y + wallDown.height / 2;
-        bg0.y = cc.winSize.height / 2 - bg0.height / 2;
+        this.bg0.y = cc.winSize.height / 2 - this.bg0.height / 2;
+        this.bg1.y = this.bg0.y + this.bg0.height;
         //章
         //let name=LevelManager.getLevelName(level);
         var fightingInfo = GameManager_1.default.getInstance().fighting_info;
@@ -478,7 +494,8 @@ var Game = /** @class */ (function (_super) {
                 console.log(error);
                 return;
             }
-            bg0.getComponent(cc.Sprite).spriteFrame = assets;
+            _this.bg0.getComponent(cc.Sprite).spriteFrame = assets;
+            _this.bg1.getComponent(cc.Sprite).spriteFrame = assets;
         });
         cc.resources.load(fightingInfo.wall_name, cc.SpriteFrame, function (error, assets) {
             if (error) {
@@ -970,6 +987,17 @@ var Game = /** @class */ (function (_super) {
                     this.setBtnRateShow();
                 }
                 this.setTryRateLabel();
+            }
+            //背景循环
+            if (this.bg0 && this.bg1) {
+                this.bg1.y -= dt * this.bgSpeed;
+                this.bg0.y -= dt * this.bgSpeed;
+                if (this.bg0.y <= cc.winSize.height / 2 - this.bg0.height / 2 - cc.winSize.height) {
+                    this.bg0.y = this.bg1.y + this.bg0.height;
+                }
+                if (this.bg1.y <= cc.winSize.height / 2 - this.bg0.height / 2 - cc.winSize.height) {
+                    this.bg1.y = this.bg0.y + this.bg0.height;
+                }
             }
         }
     };

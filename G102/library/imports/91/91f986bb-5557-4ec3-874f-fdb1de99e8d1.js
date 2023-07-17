@@ -146,6 +146,8 @@ var GameManager = /** @class */ (function (_super) {
         _this.cur_team_list = [];
         //是否显示了退出游戏的对话框
         _this.is_show_exit = false;
+        //游戏动画存储数据
+        _this.moveData = [];
         return _this;
     }
     GameManager_1 = GameManager;

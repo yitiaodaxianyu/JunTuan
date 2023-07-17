@@ -24,7 +24,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var HeroConfig_1 = require("./HeroConfig");
-var MpProgress_1 = require("./MpProgress");
 var HeroData_1 = require("../Data/HeroData");
 var GameManager_1 = require("../../GameManager");
 var GameEffectsManager_1 = require("../../Game/GameEffectsManager");
@@ -49,6 +48,7 @@ var IcePet_1 = require("../../Pet/Game/IcePet");
 var WindPet_1 = require("../../Pet/Game/WindPet");
 var RayPet_1 = require("../../Pet/Game/RayPet");
 var Monster_1 = require("../../Monster/Monster");
+var Joystick_1 = require("../../Joystick/Joystick");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var Hero = /** @class */ (function (_super) {
     __extends(Hero, _super);
@@ -121,7 +121,7 @@ var Hero = /** @class */ (function (_super) {
         _this.must_crit = 0;
         /**宠物21可以触发增伤次数 */
         _this.crit_increase_cd_3_num = 0;
-        _this.setup_scale = 1;
+        _this.setup_scale = 0.60;
         _this.base_att_jiange = 0;
         /**buff状态 */
         _this.map_buff_state = null;
@@ -148,6 +148,19 @@ var Hero = /** @class */ (function (_super) {
         _this.skill_queue = [];
         /**是否连续攻击 */
         _this.is_double_attack = false;
+        /**层级*/
+        _this.v_Index = 0;
+        /**---------------------------------操作相关---------------------------------------------- */
+        //-----------------------------------触摸移动事件------------------------------------------------------------
+        _this.leaterNum = 0; //延迟数据播放动画
+        _this.leaterSpeed = 10;
+        _this.speedType = Joystick_1.SpeedType.STOP;
+        _this.moveDir = cc.v2(0, 1);
+        //抄别人的，本来有两种速度，现在先用一个数据
+        _this.normalSpeed = 300;
+        _this.fastSpeed = 300;
+        _this.stopSpeed = 0;
+        _this.moveSpeed = 0;
         return _this;
     }
     Hero_1 = Hero;
@@ -189,11 +202,11 @@ var Hero = /** @class */ (function (_super) {
         this.loadMpProgress();
         this.loadPet();
         var selfShadow = this.node.getChildByName('Monster_Shadow');
-        var pos = selfShadow.getPosition();
+        this.pos = selfShadow.getPosition();
         this.node_shadow = cc.instantiate(selfShadow);
         this.node_shadow.parent = cc.find('Canvas/Hero_Shadow_Root');
         this.node_shadow.scale = this.setup_scale;
-        this.node_shadow.setPosition(cc.v2(this.node.x + pos.x * this.setup_scale, this.node.y + pos.y * this.setup_scale));
+        this.node_shadow.setPosition(cc.v2(this.node.x + this.pos.x * this.setup_scale, this.node.y + this.pos.y * this.setup_scale));
         selfShadow.removeFromParent();
         if (this.getHeroState() == HeroConfig_1.Hero_State.exit) {
             this.node_shadow.opacity = 0;
@@ -212,10 +225,13 @@ var Hero = /** @class */ (function (_super) {
         //取消监听触摸事件
         var touchNode = this.node.getChildByName('touchNode');
         if (touchNode) {
-            touchNode.off(cc.Node.EventType.TOUCH_START, this.onTouchStart, this);
-            touchNode.off(cc.Node.EventType.TOUCH_MOVE, this.onTouchMove, this);
-            touchNode.off(cc.Node.EventType.TOUCH_END, this.onTouchEnd, this);
-            touchNode.off(cc.Node.EventType.TOUCH_CANCEL, this.onTouchCancel, this);
+            // touchNode.off(cc.Node.EventType.TOUCH_START,this.onTouchStart,this);
+            // touchNode.off(cc.Node.EventType.TOUCH_MOVE,this.onTouchMove,this);
+            // touchNode.off(cc.Node.EventType.TOUCH_END,this.onTouchEnd,this);
+            // touchNode.off(cc.Node.EventType.TOUCH_CANCEL,this.onTouchCancel,this);
+            Joystick_1.instance.off(cc.Node.EventType.TOUCH_START, this.onTouchStartByJoy, this);
+            Joystick_1.instance.off(cc.Node.EventType.TOUCH_MOVE, this.onTouchMoveByJoy, this);
+            Joystick_1.instance.off(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
         }
         GameManager_1.default.getInstance().all_hero.delete(this.hero_type);
     };
@@ -265,10 +281,13 @@ var Hero = /** @class */ (function (_super) {
         //监听触摸事件
         var touchNode = this.node.getChildByName('touchNode');
         if (touchNode) {
-            touchNode.on(cc.Node.EventType.TOUCH_START, this.onTouchStart, this);
-            touchNode.on(cc.Node.EventType.TOUCH_MOVE, this.onTouchMove, this);
-            touchNode.on(cc.Node.EventType.TOUCH_END, this.onTouchEnd, this);
-            touchNode.on(cc.Node.EventType.TOUCH_CANCEL, this.onTouchCancel, this);
+            // touchNode.on(cc.Node.EventType.TOUCH_START,this.onTouchStart,this);
+            // touchNode.on(cc.Node.EventType.TOUCH_MOVE,this.onTouchMove,this);
+            // touchNode.on(cc.Node.EventType.TOUCH_END,this.onTouchEnd,this);
+            // touchNode.on(cc.Node.EventType.TOUCH_CANCEL,this.onTouchCancel,this);
+            Joystick_1.instance.on(cc.Node.EventType.TOUCH_START, this.onTouchStartByJoy, this);
+            Joystick_1.instance.on(cc.Node.EventType.TOUCH_MOVE, this.onTouchMoveByJoy, this);
+            Joystick_1.instance.on(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
         }
     };
     Hero.prototype.initPos = function () {
@@ -311,26 +330,27 @@ var Hero = /** @class */ (function (_super) {
         this.loaded_callback = callBack;
     };
     Hero.prototype.loadMpProgress = function () {
-        var _this = this;
-        cc.resources.load('heros/skill_icon', cc.Prefab, function (error, assets) {
-            if (error) {
-                console.log(error);
-                return;
-            }
-            var mpNode = cc.instantiate(assets);
-            mpNode.parent = cc.find('Canvas/Fighting_Ui');
-            mpNode.setPosition(cc.v2(_this.node.x, _this.node.y + 15));
-            _this.mp_progress = mpNode.getComponent(MpProgress_1.default);
-            _this.mp_progress.init(_this.hero_type);
-            _this.changeCD(_this.hero_data.getSkillColdDown(HeroConfig_1.SkillType.Active) / 3);
-            _this.skill_total_time = _this.hero_data.getSkillColdDown(HeroConfig_1.SkillType.Active);
-            if (_this.getHeroState() == HeroConfig_1.Hero_State.exit) {
-                _this.mp_progress.hide();
-            }
-        });
+        // cc.resources.load('heros/skill_icon',cc.Prefab,(error: Error, assets:cc.Prefab)=>{
+        //     if(error)
+        //     {
+        //         console.log(error);
+        //         return;
+        //     }
+        //     let mpNode=cc.instantiate(assets);
+        //     mpNode.parent=cc.find('Canvas/Fighting_Ui');
+        //     mpNode.setPosition(cc.v2(this.node.x,this.node.y+15));
+        //     this.mp_progress=mpNode.getComponent(MpProgress);
+        //     this.mp_progress.init(this.hero_type);
+        //     this.changeCD(this.hero_data.getSkillColdDown(SkillType.Active)/3);
+        //     this.skill_total_time=this.hero_data.getSkillColdDown(SkillType.Active);
+        //     if(this.getHeroState()==Hero_State.exit){
+        //         this.mp_progress.hide();
+        //     }
+        // });
     };
     Hero.prototype.loadZhiShiQi = function (zhishiqi, type) {
         this.zhishiqi_type = type;
+        console.log("加载hero" + zhishiqi);
         cc.resources.load('heros/' + zhishiqi, cc.Prefab, function (error, assets) {
             if (error) {
                 console.log(error);
@@ -428,8 +448,50 @@ var Hero = /** @class */ (function (_super) {
         //let tier=HeroQualityManager.getInstance().getTier(heroQuality);
         //this.spine.setSkin('stage'+(HeroManager.getSkinIndex(tier)));
     };
+    /**
+  * 移动
+  */
+    Hero.prototype.move = function () {
+        // this.node.angle =
+        //   cc.misc.radiansToDegrees(Math.atan2(this.moveDir.y, this.moveDir.x)) - 90;
+        // if (this.rigidbody) {
+        //   this._body.applyForceToCenter(
+        //     cc.v2(this.moveDir.x * 200, this.moveDir.y * 200),
+        //     true
+        //   );
+        // } else {
+        //   const oldPos = cc.v2();
+        //   this.node.getPosition(oldPos);
+        //   const newPos = oldPos.add(this.moveDir.mul(this._moveSpeed / 120));
+        //   this.node.setPosition(newPos);
+        // }
+        if (this.speedType !== Joystick_1.SpeedType.STOP) {
+            var oldPos = cc.v2();
+            this.node.getPosition(oldPos);
+            this.newPos = oldPos.add(this.moveDir.mul(this.moveSpeed / 120));
+            this.newPos.y = oldPos.y;
+            this.posYTemp = oldPos.y;
+        }
+        if (this.leaterNum == 0) {
+            GameManager_1.default.getInstance().moveData.unshift(this.newPos);
+        }
+        if (GameManager_1.default.getInstance().moveData[this.leaterNum * this.leaterSpeed] != null) {
+            var newPosTepm = GameManager_1.default.getInstance().moveData[this.leaterNum * this.leaterSpeed];
+            newPosTepm.y = this.posYTemp;
+            this.node.setPosition(newPosTepm);
+        }
+        this.node_shadow.setPosition(cc.v2(this.node.x + this.pos.x * this.setup_scale, this.node.y + this.pos.y * this.setup_scale));
+    };
+    Hero.prototype.onTouchStartByJoy = function () { };
+    Hero.prototype.onTouchMoveByJoy = function (event, data) {
+        this.speedType = data.speedType;
+        this.moveDir = data.moveDistance;
+    };
+    Hero.prototype.onTouchEndByJoy = function (event, data) {
+        this.speedType = data.speedType;
+    };
     /**---------------------------------操作相关---------------------------------------------- */
-    //-----------------------------------触摸事件------------------------------------------------------------
+    //-----------------------------------触摸事件------------------------------------------------------------//旧版功能
     Hero.prototype.onTouchStart = function (e) {
         if (this.isHaveDeBuff(HeroConfig_1.BuffId.Monster_XuanYun) && this.hero_type != HeroConfig_1.Hero_Type.ZhenDe) {
             this.is_can_touch = false;
@@ -1388,6 +1450,20 @@ var Hero = /** @class */ (function (_super) {
         if (this.click_remain > 0) {
             this.click_remain -= dt;
         }
+        switch (this.speedType) {
+            case Joystick_1.SpeedType.STOP:
+                this.moveSpeed = this.stopSpeed;
+                break;
+            case Joystick_1.SpeedType.NORMAL:
+                this.moveSpeed = this.normalSpeed;
+                break;
+            case Joystick_1.SpeedType.FAST:
+                this.moveSpeed = this.fastSpeed;
+                break;
+            default:
+                break;
+        }
+        this.move();
     };
     Hero.prototype.updateCheck = function (dt) {
         if (this.isHaveDeBuff(HeroConfig_1.BuffId.Monster_XuanYun)) {

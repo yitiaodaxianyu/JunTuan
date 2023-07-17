@@ -83,6 +83,8 @@ export default class Game extends cc.Component {
     start_time: number = 0;
     time_jishu: number = 0;
     time_label: cc.Label = null;
+    bg0: cc.Node = null;
+    bg1: cc.Node = null;
     dps_label: cc.Label = null;
     //关卡进度条
     level_progress: cc.ProgressBar = null;
@@ -92,6 +94,8 @@ export default class Game extends cc.Component {
     endless_ts: EndlessgGameUi = null;
     //当前背景使用的名称
     cur_bg_name: string = 'bg2';
+
+    private bgSpeed: number = 50;
 
     //战斗药水
     @property(cc.Node)
@@ -178,6 +182,10 @@ export default class Game extends cc.Component {
         //hp
         let hp = cc.find('Canvas/Ui_Root/hp_root');
         hp.y = -wp.height / 2 + hp.height - 27;//27是血条的坐标
+        this.bg0 = this.node.getChildByName('bg0');
+        this.bg1 = this.node.getChildByName('bg1');
+        this.bg0.y = cc.winSize.height / 2 - this.bg0.height / 2;
+        this.bg1.y = this.bg0.y + this.bg0.height;
         //上碰撞点
         //cc.find('Canvas/wall_root/wall_top').y=topUi.y;
     }
@@ -244,13 +252,20 @@ export default class Game extends cc.Component {
         Pet.max_load_num = 0;
         Pet.cur_loaded_num = 0;
         let teamList = HeroManager.getInstance().getTeamList(GameManager.getInstance().cur_game_mode);
+
+
         for (let i = 0; i < teamList.length; i++) {
             let heroType = teamList[i];
             if (heroType > 0) {
                 this.loadHero(heroType, i)
             }
         }
-        //预加载弓手
+        // let heroRoot=cc.find('Canvas/Hero_Root');
+        // for(let i=0; i<heroRoot.childrenCount; i++){
+        //     let hero=heroRoot.children[i].getComponent(Hero);
+
+        // }
+        //预加载弓手Hero_Root
         // if (TutorailsManager.getInstance().is_finish_game == false && LevelManager.getInstance().start_level == 5) {
         //     cc.resources.load('heros/hero8');
         // }
@@ -258,7 +273,8 @@ export default class Game extends cc.Component {
 
     loadHero(heroType: Hero_Type, posIndex: number, callback?: Function) {
         Hero.max_load_num++;
-        let posX = posIndex * 144 - 288;
+        let posX = 2 * 144 - 288;
+        let posY = (4 - posIndex) * 70;
         cc.resources.load('heros/hero' + heroType, cc.Prefab, (error: Error, assets: cc.Prefab) => {
             if (error) {
                 console.log(error);
@@ -268,7 +284,9 @@ export default class Game extends cc.Component {
             node.parent = cc.find('Canvas/Hero_Root');
             node.x = posX;
             let hp = cc.find('Canvas/Ui_Root/hp_root');
-            node.y = hp.y + 112;
+            node.y = hp.y + posY;
+            node.setSiblingIndex(posIndex);
+            node.getComponent(Hero).leaterNum=posIndex;
             BuffStateManager.getInstance().createBuffRoot(cc.v2(posX, node.y + 150), heroType);
             if (callback) {
                 callback();
@@ -453,14 +471,15 @@ export default class Game extends cc.Component {
 
     setBgImg() {
         ///let level=LevelManager.getInstance().start_level;
-        let bg0 = this.node.getChildByName('bg0');
+        // let bg0 = this.node.getChildByName('bg0');
         let wallBg = this.node.getChildByName('wall_bg');
         let wallDown = wallBg.getChildByName('wall_down');
         //适配坐标
         // let hp=cc.find('Canvas/Ui_Root/wall_root');
         // wallBg.y=hp.y+108;
         GameManager.getInstance().enemy_att_y = wallBg.y + wallDown.y + wallDown.height / 2;
-        bg0.y = cc.winSize.height / 2 - bg0.height / 2;
+        this.bg0.y = cc.winSize.height / 2 - this.bg0.height / 2;
+        this.bg1.y = this.bg0.y + this.bg0.height;
         //章
         //let name=LevelManager.getLevelName(level);
         let fightingInfo = GameManager.getInstance().fighting_info;
@@ -471,7 +490,8 @@ export default class Game extends cc.Component {
                 console.log(error);
                 return;
             }
-            bg0.getComponent(cc.Sprite).spriteFrame = assets;
+            this.bg0.getComponent(cc.Sprite).spriteFrame = assets;
+            this.bg1.getComponent(cc.Sprite).spriteFrame = assets;
         });
         cc.resources.load(fightingInfo.wall_name, cc.SpriteFrame, (error: Error, assets: cc.SpriteFrame) => {
             if (error) {
@@ -982,6 +1002,22 @@ export default class Game extends cc.Component {
                 }
                 this.setTryRateLabel();
             }
+            //背景循环
+            if (this.bg0 && this.bg1) {
+                this.bg1.y -= dt * this.bgSpeed;
+                this.bg0.y -= dt * this.bgSpeed;
+
+                if (this.bg0.y <= cc.winSize.height / 2 - this.bg0.height / 2 - cc.winSize.height) {
+                    this.bg0.y = this.bg1.y + this.bg0.height;
+                }
+
+                if (this.bg1.y <= cc.winSize.height / 2 - this.bg0.height / 2 - cc.winSize.height) {
+                    this.bg1.y = this.bg0.y + this.bg0.height;
+                }
+            }
+
+
+
         }
     }
 

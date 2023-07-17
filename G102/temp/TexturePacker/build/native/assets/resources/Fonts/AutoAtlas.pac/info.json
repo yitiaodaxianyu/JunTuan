@@ -1,5 +1,5 @@
 {
-  "projectPath": "D:\\proSvn\\G102",
+  "projectPath": "D:\\progit\\JunTuan\\G102",
   "actualPlatform": "wechatgame",
   "mtimes": {
     "31a816d2-5055-4215-9dd5-2ab61b6e0b2b": {
@@ -112,7 +112,7 @@
             "name": "Number_Power_0",
             "uuid": "eeff427d-793e-4566-83ef-baeab1f5a1bd",
             "textureUuid": "be885a3c-7a0e-4a79-916c-708233c9ef1e",
-            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229320224_image_8.png",
+            "path": "D:\\progit\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1689571445021_image_8.png",
             "trim": {
               "x": 3,
               "y": 3,
@@ -125,7 +125,7 @@
             "rawHeight": 256,
             "width": 515,
             "height": 161,
-            "originalPath": "D:/proSvn/G102/library/imports/be/be885a3c-7a0e-4a79-916c-708233c9ef1e.png",
+            "originalPath": "D:/progit/JunTuan/G102/library/imports/be/be885a3c-7a0e-4a79-916c-708233c9ef1e.png",
             "x": 0,
             "y": 0,
             "rotated": true,
@@ -136,7 +136,7 @@
             "name": "Number_Crit_0",
             "uuid": "d285365c-5250-4fc1-885e-25580d3d0a52",
             "textureUuid": "7d5f3720-e591-455c-8407-c97da975f3b6",
-            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229320224_image_6.png",
+            "path": "D:\\progit\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1689571445020_image_6.png",
             "trim": {
               "x": 164,
               "y": 3,
@@ -149,7 +149,7 @@
             "rawHeight": 128,
             "width": 259,
             "height": 102,
-            "originalPath": "D:/proSvn/G102/library/imports/7d/7d5f3720-e591-455c-8407-c97da975f3b6.png",
+            "originalPath": "D:/progit/JunTuan/G102/library/imports/7d/7d5f3720-e591-455c-8407-c97da975f3b6.png",
             "x": 161,
             "y": 0,
             "rotated": true,
@@ -160,7 +160,7 @@
             "name": "font_white_32_0",
             "uuid": "049742e3-c3f9-4ce0-99e6-88eacd9b41e5",
             "textureUuid": "a473dfbb-5256-49e1-822c-8604e6f63121",
-            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229320223_image_0.png",
+            "path": "D:\\progit\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1689571445018_image_0.png",
             "trim": {
               "x": 164,
               "y": 262,
@@ -173,7 +173,7 @@
             "rawHeight": 128,
             "width": 133,
             "height": 131,
-            "originalPath": "D:/proSvn/G102/library/imports/a4/a473dfbb-5256-49e1-822c-8604e6f63121.png",
+            "originalPath": "D:/progit/JunTuan/G102/library/imports/a4/a473dfbb-5256-49e1-822c-8604e6f63121.png",
             "x": 161,
             "y": 259,
             "rotatedWidth": 133,
@@ -183,7 +183,7 @@
             "name": "Attack_Number_3_0",
             "uuid": "2e6b1cca-685f-4185-b8d2-956b0fae2386",
             "textureUuid": "fd7222a6-41e8-4bec-b7a1-fc0a3f630c14",
-            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229320223_image_1.png",
+            "path": "D:\\progit\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1689571445019_image_1.png",
             "trim": {
               "x": 266,
               "y": 3,
@@ -196,7 +196,7 @@
             "rawHeight": 128,
             "width": 130,
             "height": 123,
-            "originalPath": "D:/proSvn/G102/library/imports/fd/fd7222a6-41e8-4bec-b7a1-fc0a3f630c14.png",
+            "originalPath": "D:/progit/JunTuan/G102/library/imports/fd/fd7222a6-41e8-4bec-b7a1-fc0a3f630c14.png",
             "x": 263,
             "y": 0,
             "rotated": true,
@@ -207,7 +207,7 @@
             "name": "Attack_Number_5_0",
             "uuid": "4c64b159-40f9-4324-ae13-acd24305c260",
             "textureUuid": "4b8a85b9-df81-4a7d-9df7-fda358b99039",
-            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229320223_image_2.png",
+            "path": "D:\\progit\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1689571445020_image_2.png",
             "trim": {
               "x": 266,
               "y": 133,
@@ -220,7 +220,7 @@
             "rawHeight": 128,
             "width": 130,
             "height": 123,
-            "originalPath": "D:/proSvn/G102/library/imports/4b/4b8a85b9-df81-4a7d-9df7-fda358b99039.png",
+            "originalPath": "D:/progit/JunTuan/G102/library/imports/4b/4b8a85b9-df81-4a7d-9df7-fda358b99039.png",
             "x": 263,
             "y": 130,
             "rotatedWidth": 130,
@@ -230,7 +230,7 @@
             "name": "Attack_Number_4_0",
             "uuid": "7f4b7c28-c8ca-41aa-b756-c74c76b10964",
             "textureUuid": "4e1e2ba5-74d7-4820-8045-66f982664743",
-            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229320223_image_3.png",
+            "path": "D:\\progit\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1689571445020_image_3.png",
             "trim": {
               "x": 389,
               "y": 3,
@@ -243,7 +243,7 @@
             "rawHeight": 128,
             "width": 130,
             "height": 123,
-            "originalPath": "D:/proSvn/G102/library/imports/4e/4e1e2ba5-74d7-4820-8045-66f982664743.png",
+            "originalPath": "D:/progit/JunTuan/G102/library/imports/4e/4e1e2ba5-74d7-4820-8045-66f982664743.png",
             "x": 386,
             "y": 0,
             "rotated": true,
@@ -254,7 +254,7 @@
             "name": "Attack_Number_1_0",
             "uuid": "c7661fe7-888a-4736-aa78-61fc96c06c76",
             "textureUuid": "146c44f8-4024-4308-8c99-0a66d1fdee95",
-            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229320223_image_5.png",
+            "path": "D:\\progit\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1689571445020_image_5.png",
             "trim": {
               "x": 297,
               "y": 256,
@@ -267,7 +267,7 @@
             "rawHeight": 128,
             "width": 130,
             "height": 123,
-            "originalPath": "D:/proSvn/G102/library/imports/14/146c44f8-4024-4308-8c99-0a66d1fdee95.png",
+            "originalPath": "D:/progit/JunTuan/G102/library/imports/14/146c44f8-4024-4308-8c99-0a66d1fdee95.png",
             "x": 294,
             "y": 253,
             "rotated": true,
@@ -278,7 +278,7 @@
             "name": "Attack_Heal_0",
             "uuid": "aaf677bd-e675-4d4b-9d53-f67e9687d053",
             "textureUuid": "d9638f2b-6542-423a-aa61-48f40d2352c1",
-            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229320223_image_4.png",
+            "path": "D:\\progit\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1689571445020_image_4.png",
             "trim": {
               "x": 396,
               "y": 133,
@@ -291,7 +291,7 @@
             "rawHeight": 128,
             "width": 118,
             "height": 123,
-            "originalPath": "D:/proSvn/G102/library/imports/d9/d9638f2b-6542-423a-aa61-48f40d2352c1.png",
+            "originalPath": "D:/progit/JunTuan/G102/library/imports/d9/d9638f2b-6542-423a-aa61-48f40d2352c1.png",
             "x": 393,
             "y": 130,
             "rotatedWidth": 118,
@@ -301,7 +301,7 @@
             "name": "Attack_Number_2_0",
             "uuid": "de48b39b-0c47-48dc-8156-b7393578a3bc",
             "textureUuid": "65eec6cc-cdaa-4095-bbfe-5f6cc67fd178",
-            "path": "D:\\proSvn\\G102\\temp\\trimImages\\spritesheet_js_1689229320224_image_7.png",
+            "path": "D:\\progit\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1689571445021_image_7.png",
             "trim": {
               "x": 297,
               "y": 386,
@@ -314,7 +314,7 @@
             "rawHeight": 128,
             "width": 130,
             "height": 123,
-            "originalPath": "D:/proSvn/G102/library/imports/65/65eec6cc-cdaa-4095-bbfe-5f6cc67fd178.png",
+            "originalPath": "D:/progit/JunTuan/G102/library/imports/65/65eec6cc-cdaa-4095-bbfe-5f6cc67fd178.png",
             "x": 294,
             "y": 383,
             "rotatedWidth": 130,
@@ -324,12 +324,12 @@
         "width": 511,
         "height": 515,
         "name": "AutoAtlas-1",
-        "imagePath": "D:\\proSvn\\G102\\temp\\TexturePacker\\build\\native\\assets\\resources\\Fonts\\AutoAtlas.pac\\AutoAtlas-1.png",
+        "imagePath": "D:\\progit\\JunTuan\\G102\\temp\\TexturePacker\\build\\native\\assets\\resources\\Fonts\\AutoAtlas.pac\\AutoAtlas-1.png",
         "compressd": {
           "suffix": [
             ".png"
           ],
-          "imagePathNoExt": "D:\\proSvn\\G102\\temp\\TexturePacker\\build\\native\\assets\\resources\\Fonts\\AutoAtlas.pac\\compressed\\AutoAtlas-1"
+          "imagePathNoExt": "D:\\progit\\JunTuan\\G102\\temp\\TexturePacker\\build\\native\\assets\\resources\\Fonts\\AutoAtlas.pac\\compressed\\AutoAtlas-1"
         }
       }
     ],

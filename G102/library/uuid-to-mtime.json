@@ -50,8 +50,8 @@
     "relativePath": "Scenes"
   },
   "aa8bca72-a983-4011-9e49-6cb203ffb44e": {
-    "asset": 1689305406414,
-    "meta": 1689315636439,
+    "asset": 1689328206739,
+    "meta": 1689557198784,
     "relativePath": "Scripts"
   },
   "4f8ea0eb-3812-4d2b-abc3-f57446a9a90e": {
@@ -1075,8 +1075,8 @@
     "relativePath": "resources\\Images\\get_hint.png"
   },
   "c2b29c22-b703-4d69-9932-06eafc1afd76": {
-    "asset": 1689311514168,
-    "meta": 1689311514175,
+    "asset": 1689571379472,
+    "meta": 1689571379477,
     "relativePath": "Scenes\\game.fire"
   },
   "f7fe28b5-3fd3-4031-91b5-d4d08dd1d46a": {
@@ -2319,11 +2319,6 @@
     "meta": 1689133963385,
     "relativePath": "resources\\bg\\bg6.jpg"
   },
-  "c822c47e-9cc5-40a2-b154-454ff24b2c67": {
-    "asset": 1688719265957,
-    "meta": 1689133963389,
-    "relativePath": "resources\\bg\\bg2.jpg"
-  },
   "57fece8a-424c-43d5-a2b2-aa4094952482": {
     "asset": 1688719265970,
     "meta": 1689133963399,
@@ -2545,8 +2540,8 @@
     "relativePath": "resources\\bg\\bg8.jpg"
   },
   "b351c944-3f88-40a8-b66c-b56d84962eca": {
-    "asset": 1688719266742,
-    "meta": 1689133963542,
+    "asset": 1689321542297,
+    "meta": 1689321542311,
     "relativePath": "resources\\heros\\hero1.prefab"
   },
   "0bf55b5c-0213-4d72-9751-b4e411bb13a1": {
@@ -2560,8 +2555,8 @@
     "relativePath": "resources\\heros\\hero11.prefab"
   },
   "0c576623-3c2c-4371-baa8-8b8a2f92e4f7": {
-    "asset": 1688719266745,
-    "meta": 1689133963545,
+    "asset": 1689330744035,
+    "meta": 1689330744049,
     "relativePath": "resources\\heros\\hero12.prefab"
   },
   "5b92de18-ae0e-4fb8-a40d-e066a22a7bcb": {
@@ -12249,11 +12244,6 @@
     "meta": 1689133970764,
     "relativePath": "resources\\sounds\\home\\YX_JinSheng.mp3"
   },
-  "47edb50b-8706-4f86-86dd-2cc730934e1c": {
-    "asset": 1688719263515,
-    "meta": 1689133970873,
-    "relativePath": "Scripts\\Hero\\Game\\Hero.ts"
-  },
   "aa1e4122-cf61-4802-8cde-9f0b9957f3f4": {
     "asset": 1688719263516,
     "meta": 1689133970894,
@@ -14589,11 +14579,6 @@
     "meta": 1689133979393,
     "relativePath": "resources\\Spine\\pet\\pet4\\Pet_Huo.json"
   },
-  "3737319f-5d5f-486e-ad03-2475ca168052": {
-    "asset": 1689134206198,
-    "meta": 1689134211214,
-    "relativePath": "Scripts\\Game\\Game.ts"
-  },
   "ca4ba23f-5b38-4a01-9f4e-302d62e7dbea": {
     "asset": 1689134508304,
     "meta": 1689134518108,
@@ -15114,11 +15099,6 @@
     "meta": 1689231714181,
     "relativePath": "Scripts\\Test\\TestTest.ts"
   },
-  "91f986bb-5557-4ec3-874f-fdb1de99e8d1": {
-    "asset": 1689232672265,
-    "meta": 1689232674632,
-    "relativePath": "Scripts\\GameManager.ts"
-  },
   "95d9ad2d-d73e-43be-8934-60bf8a15c5b6": {
     "asset": 1689232715159,
     "meta": 1689232718317,
@@ -15284,11 +15264,6 @@
     "meta": 1689305524798,
     "relativePath": "resources\\test\\scenes"
   },
-  "73162971-b790-4bc5-bb6b-fefa712df5dd": {
-    "asset": 1689305173816,
-    "meta": 1689305524842,
-    "relativePath": "Scripts\\Joystick\\Joystick.ts"
-  },
   "ba4529e7-55c2-4c3d-821a-bb027815abf1": {
     "asset": 1596998030000,
     "meta": 1689305524869,
@@ -15343,5 +15318,30 @@
     "asset": 1689316501157,
     "meta": 1689316523044,
     "relativePath": "Scripts\\Loading\\Cartoon.ts"
+  },
+  "c822c47e-9cc5-40a2-b154-454ff24b2c67": {
+    "asset": 1689330125011,
+    "meta": 1689330212498,
+    "relativePath": "resources\\bg\\bg2.jpg"
+  },
+  "3737319f-5d5f-486e-ad03-2475ca168052": {
+    "asset": 1689562474754,
+    "meta": 1689563200546,
+    "relativePath": "Scripts\\Game\\Game.ts"
+  },
+  "91f986bb-5557-4ec3-874f-fdb1de99e8d1": {
+    "asset": 1689565983562,
+    "meta": 1689566029159,
+    "relativePath": "Scripts\\GameManager.ts"
+  },
+  "73162971-b790-4bc5-bb6b-fefa712df5dd": {
+    "asset": 1689565928469,
+    "meta": 1689566029337,
+    "relativePath": "Scripts\\Joystick\\Joystick.ts"
+  },
+  "47edb50b-8706-4f86-86dd-2cc730934e1c": {
+    "asset": 1689566307998,
+    "meta": 1689566310918,
+    "relativePath": "Scripts\\Hero\\Game\\Hero.ts"
   }
 }

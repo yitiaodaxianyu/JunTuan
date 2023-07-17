@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, '73162lxt5BLxbtr/vpxLfXd', 'Joystick');
-// resources/test/scripts/Joystick.ts
+// Scripts/Joystick/Joystick.ts
 
 "use strict";
 var __extends = (this && this.__extends) || (function () {
