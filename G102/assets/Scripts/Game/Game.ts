@@ -34,6 +34,7 @@ import WallManager from "../Wall/WallManager";
 import WeekCardUi from "../WeekCard/WeekCardUi";
 import BuffStateManager from "./BuffStateManager";
 import { GameEffectId, GameEffectsManager } from "./GameEffectsManager";
+import { instance } from "./TouchPlane/TouchPlane";
 import BuyBattlePotion from "./Ui/BuyBattlePotion";
 
 const { ccclass, property } = cc._decorator;
@@ -103,6 +104,8 @@ export default class Game extends cc.Component {
     battlepotionPropId: PropId[] = [PropId.RedPotion, PropId.GreenPotion, PropId.BluePotion]//战斗药水的道具id
     battlepotionstate: number[] = [1, 1, 1]//战斗药水在这一局是否使用了  默认每一个药水有一次使用的机会
 
+    bg2_wall: cc.Node;
+
     onLoad() {
         cc.director.getCollisionManager().enabled = true;
         GameData.getInstance();
@@ -136,8 +139,11 @@ export default class Game extends cc.Component {
         this.setTryAutoLabel();
         this.setTryRateLabel();
         GameManager.getInstance().setGameRate(1);
+        instance.on(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
     }
-
+    protected onDestroy(): void {
+        instance.off(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
+    }
     start() {
         this.showLoading();
         //this.startTest();
@@ -244,7 +250,7 @@ export default class Game extends cc.Component {
             }, 0.2);
         }
     }
-
+    private indexLoad: Array<number> = [2, 1, 3, 0, 4];
     loadHeros() {
         //获取队列
         Hero.max_load_num = 0;
@@ -255,9 +261,9 @@ export default class Game extends cc.Component {
 
 
         for (let i = 0; i < teamList.length; i++) {
-            let heroType = teamList[i];
+            let heroType = teamList[this.indexLoad[i]];
             if (heroType > 0) {
-                this.loadHero(heroType, i)
+                this.loadHero(heroType, this.indexLoad[i])
             }
         }
         // let heroRoot=cc.find('Canvas/Hero_Root');
@@ -270,11 +276,24 @@ export default class Game extends cc.Component {
         //     cc.resources.load('heros/hero8');
         // }
     }
-
+    private indexData: Array<number> = [3, 1, 0, 2, 4];
     loadHero(heroType: Hero_Type, posIndex: number, callback?: Function) {
         Hero.max_load_num++;
-        let posX = 2 * 144 - 288;
-        let posY = (4 - posIndex) * 70;
+        let xIndexTepm = posIndex;
+        let yIndexTepm = posIndex;
+        if (posIndex == 0) {
+            xIndexTepm = 1;
+        }
+        if (posIndex == 4) {
+            xIndexTepm = 3;
+            yIndexTepm = 0;
+        }
+
+        if (posIndex == 3) {
+            yIndexTepm = 1;
+        }
+        let posX = xIndexTepm * 45 - 90;
+        let posY = yIndexTepm * 60 - 120;
         cc.resources.load('heros/hero' + heroType, cc.Prefab, (error: Error, assets: cc.Prefab) => {
             if (error) {
                 console.log(error);
@@ -284,9 +303,11 @@ export default class Game extends cc.Component {
             node.parent = cc.find('Canvas/Hero_Root');
             node.x = posX;
             let hp = cc.find('Canvas/Ui_Root/hp_root');
-            node.y = hp.y + posY;
-            node.setSiblingIndex(posIndex);
-            node.getComponent(Hero).leaterNum=posIndex;
+            node.y = hp.y + posY + 150;
+            node.getComponent(Hero).targetX = node.x;
+            node.getComponent(Hero).posX = node.x;
+
+            node.setSiblingIndex(this.indexData[posIndex]);
             BuffStateManager.getInstance().createBuffRoot(cc.v2(posX, node.y + 150), heroType);
             if (callback) {
                 callback();
@@ -499,6 +520,7 @@ export default class Game extends cc.Component {
                 return;
             }
             wallBg.getChildByName('bg2_wall').getComponent(cc.Sprite).spriteFrame = assets;
+            this.bg2_wall = wallBg.getChildByName('bg2_wall');
             //let bc = wallBg.getChildByName('wall_down').getComponent(cc.BoxCollider);
             // this.scheduleOnce(() => {
             //     bc.size = wallBg.getContentSize();
@@ -945,6 +967,11 @@ export default class Game extends cc.Component {
 
     }
 
+    targetX: number = 0;
+    easing: number = 0.2;
+    onTouchEndByJoy(event: cc.Event.EventTouch, data) {
+        this.targetX = (GameManager.getInstance().aniType - 2) * 150;
+    }
 
 
     update(dt) {
@@ -1016,9 +1043,14 @@ export default class Game extends cc.Component {
                 }
             }
 
-
+            if (this.bg2_wall) {
+                let vx: number = (this.targetX - this.bg2_wall.x) * this.easing;
+                this.bg2_wall.x += vx;
+            }
 
         }
+       
+
     }
 
     // protected lateUpdate(dt: number): void {

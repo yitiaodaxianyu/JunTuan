@@ -87,6 +87,7 @@ require('./assets/Scripts/Game/MapNodePool');
 require('./assets/Scripts/Game/Move');
 require('./assets/Scripts/Game/SkillManager');
 require('./assets/Scripts/Game/SkyManager');
+require('./assets/Scripts/Game/TouchPlane/TouchPlane');
 require('./assets/Scripts/Game/Ui/BuyBattlePotion');
 require('./assets/Scripts/Game/Ui/DamageStatsUi');
 require('./assets/Scripts/Game/Ui/GameLose');

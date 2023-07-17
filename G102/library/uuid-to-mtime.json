@@ -50,8 +50,8 @@
     "relativePath": "Scenes"
   },
   "aa8bca72-a983-4011-9e49-6cb203ffb44e": {
-    "asset": 1689328206739,
-    "meta": 1689557198784,
+    "asset": 1689580353697,
+    "meta": 1689583560469,
     "relativePath": "Scripts"
   },
   "4f8ea0eb-3812-4d2b-abc3-f57446a9a90e": {
@@ -830,8 +830,8 @@
     "relativePath": "Scripts\\ExclusiveInfoUi"
   },
   "b7c04d6e-7612-40ff-a1cf-71a4af767986": {
-    "asset": 1689301855745,
-    "meta": 1689305228960,
+    "asset": 1689580353697,
+    "meta": 1689583560471,
     "relativePath": "Scripts\\Game"
   },
   "4e1e2ba5-74d7-4820-8045-66f982664743": {
@@ -1075,8 +1075,8 @@
     "relativePath": "resources\\Images\\get_hint.png"
   },
   "c2b29c22-b703-4d69-9932-06eafc1afd76": {
-    "asset": 1689573154648,
-    "meta": 1689573154657,
+    "asset": 1689586274050,
+    "meta": 1689586274055,
     "relativePath": "Scenes\\game.fire"
   },
   "f7fe28b5-3fd3-4031-91b5-d4d08dd1d46a": {
@@ -5788,11 +5788,6 @@
     "asset": 1688719263912,
     "meta": 1689133966695,
     "relativePath": "Scripts\\Tools\\PressButton.ts"
-  },
-  "d86ce141-adde-4a14-a1ac-6099d3268523": {
-    "asset": 1688719263913,
-    "meta": 1689133966717,
-    "relativePath": "Scripts\\Tools\\RedTip.ts"
   },
   "3cc43763-6db7-4be4-b31d-aade322f88af": {
     "asset": 1688719263915,
@@ -15324,24 +15319,39 @@
     "meta": 1689330212498,
     "relativePath": "resources\\bg\\bg2.jpg"
   },
-  "3737319f-5d5f-486e-ad03-2475ca168052": {
-    "asset": 1689562474754,
-    "meta": 1689563200546,
-    "relativePath": "Scripts\\Game\\Game.ts"
+  "92f1a8c2-5eae-44e9-97b6-f65b27403d70": {
+    "asset": 1689580378077,
+    "meta": 1689583560472,
+    "relativePath": "Scripts\\Game\\TouchPlane"
   },
   "91f986bb-5557-4ec3-874f-fdb1de99e8d1": {
-    "asset": 1689565983562,
-    "meta": 1689566029159,
+    "asset": 1689581931333,
+    "meta": 1689582533434,
     "relativePath": "Scripts\\GameManager.ts"
   },
   "73162971-b790-4bc5-bb6b-fefa712df5dd": {
-    "asset": 1689565928469,
-    "meta": 1689566029337,
+    "asset": 1689581485108,
+    "meta": 1689582533563,
     "relativePath": "Scripts\\Joystick\\Joystick.ts"
   },
+  "3737319f-5d5f-486e-ad03-2475ca168052": {
+    "asset": 1689583414350,
+    "meta": 1689583417572,
+    "relativePath": "Scripts\\Game\\Game.ts"
+  },
   "47edb50b-8706-4f86-86dd-2cc730934e1c": {
-    "asset": 1689573680813,
-    "meta": 1689573683220,
+    "asset": 1689584049079,
+    "meta": 1689584053114,
     "relativePath": "Scripts\\Hero\\Game\\Hero.ts"
+  },
+  "d86ce141-adde-4a14-a1ac-6099d3268523": {
+    "asset": 1689583973649,
+    "meta": 1689584053207,
+    "relativePath": "Scripts\\Tools\\RedTip.ts"
+  },
+  "24d5d685-2553-4784-8e2a-24db0467194e": {
+    "asset": 1689584521335,
+    "meta": 1689584522988,
+    "relativePath": "Scripts\\Game\\TouchPlane\\TouchPlane.ts"
   }
 }

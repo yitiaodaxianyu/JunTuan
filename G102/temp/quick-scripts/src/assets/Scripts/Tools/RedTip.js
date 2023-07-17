@@ -486,7 +486,7 @@ var RedTip = /** @class */ (function (_super) {
                         isTip = false;
                         break;
                     }
-                    isTip = PayManager_1.PayManager.getInstance().getFuncTodayShow(Constants_1.FuncType.WeekCard) <= 0 || (DingYueManager_1.DingYueManager.getInstance().getWeekInfo().is_buy && StorageManager_1.TheStorageManager.getInstance().getInt(StorageConfig_1.StorageKey.WeekCardIsReceiveToday, 0) <= 0);
+                    isTip = PayManager_1.PayManager.getInstance().getFuncTodayShow(Constants_1.FuncType.WeekCard) <= 0 || (DingYueManager_1.DingYueManager.getInstance().getWeekInfo() && DingYueManager_1.DingYueManager.getInstance().getWeekInfo().is_buy && StorageManager_1.TheStorageManager.getInstance().getInt(StorageConfig_1.StorageKey.WeekCardIsReceiveToday, 0) <= 0);
                 }
                 break;
             case EventManager_1.RedEventType.Btn_Main_LeiChong:

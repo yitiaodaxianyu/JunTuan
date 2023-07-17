@@ -440,7 +440,7 @@ export default class RedTip extends cc.Component {
                     isTip=false;
                     break;
                 }
-                isTip=PayManager.getInstance().getFuncTodayShow(FuncType.WeekCard)<=0||(DingYueManager.getInstance().getWeekInfo().is_buy&&TheStorageManager.getInstance().getInt(StorageKey.WeekCardIsReceiveToday,0)<=0);
+                isTip=PayManager.getInstance().getFuncTodayShow(FuncType.WeekCard)<=0||(DingYueManager.getInstance().getWeekInfo()&&DingYueManager.getInstance().getWeekInfo().is_buy&&TheStorageManager.getInstance().getInt(StorageKey.WeekCardIsReceiveToday,0)<=0);
             }break;
             case RedEventType.Btn_Main_LeiChong:{
                 if(!FunctionDefinitionManager.getInstance().getIsUnlock(FuncType.AccumulatedRecharge)){

@@ -146,11 +146,13 @@ var GameManager = /** @class */ (function (_super) {
         _this.cur_team_list = [];
         //是否显示了退出游戏的对话框
         _this.is_show_exit = false;
-        //游戏动画存储数据
-        _this.moveData = [];
+        //动画位置
+        _this.aniType = 2;
         return _this;
     }
     GameManager_1 = GameManager;
+    //游戏动画存储数据
+    // public moveData: Array<cc.Vec2> = [];
     GameManager.getInstance = function () {
         return this._instance;
     };
@@ -164,6 +166,7 @@ var GameManager = /** @class */ (function (_super) {
         this.unscheduleAllCallbacks();
         this.cur_game_scene = scene;
         this.is_loaded = false;
+        this.aniType = 2;
         switch (this.cur_game_scene) {
             case Constants_1.GameScene.home:
                 {
@@ -1010,13 +1013,15 @@ var GameManager = /** @class */ (function (_super) {
             return;
         this.cur_game_state = Constants_1.GameState.Game_Pause;
         //cc.director.pause();
-        UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.BuffDisplay, UIConfig_1.UILayerLevel.Two, { onCompleted: function (uiNode) {
+        UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.BuffDisplay, UIConfig_1.UILayerLevel.Two, {
+            onCompleted: function (uiNode) {
                 uiNode.getComponent(BuffDisplay_1.default).init({
                     onClose: function () {
                     }
                 });
                 uiNode.getComponent(BuffDisplay_1.default).initUi(type);
-            }, });
+            },
+        });
     };
     GameManager.prototype.showGameWin = function () {
         // console.log("打完一回合了")
@@ -1039,9 +1044,11 @@ var GameManager = /** @class */ (function (_super) {
                         LevelManager_1.LevelManager.getInstance().finish_level = curStartLevel;
                         this.game.showCoin();
                         this.scheduleOnce(function () {
-                            UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.GameWin, UIConfig_1.UILayerLevel.One, { onCompleted: function (uiNode) {
+                            UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.GameWin, UIConfig_1.UILayerLevel.One, {
+                                onCompleted: function (uiNode) {
                                     uiNode.getComponent(GameWin_1.default).initUi();
-                                } });
+                                }
+                            });
                         }, 1);
                     }
                     else {
@@ -1050,9 +1057,11 @@ var GameManager = /** @class */ (function (_super) {
                             TutorailsManager_1.default.getInstance().saveTutorials(202);
                             TutorailsManager_1.default.getInstance().saveTutorials(203);
                             TutorailsManager_1.default.getInstance().saveFinishFromGame();
-                            UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.RewardSSUI, UIConfig_1.UILayerLevel.One, { onCompleted: function (uiNode) {
+                            UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.RewardSSUI, UIConfig_1.UILayerLevel.One, {
+                                onCompleted: function (uiNode) {
                                     uiNode.getComponent(RewardSSUi_1.default).initData(0);
-                                } });
+                                }
+                            });
                             // TutorailsManager.getInstance().showTutorials(204,()=>{
                             //     TutorailsManager.getInstance().saveTutorials(204);
                             //     TutorailsManager.getInstance().saveFinishFromGame();
@@ -1080,9 +1089,11 @@ var GameManager = /** @class */ (function (_super) {
                 {
                     this.game.showCoin();
                     this.scheduleOnce(function () {
-                        UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.GameWin, UIConfig_1.UILayerLevel.One, { onCompleted: function (uiNode) {
+                        UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.GameWin, UIConfig_1.UILayerLevel.One, {
+                            onCompleted: function (uiNode) {
                                 uiNode.getComponent(GameWin_1.default).initUi();
-                            } });
+                            }
+                        });
                     }, 1);
                 }
                 break;
@@ -1255,17 +1266,21 @@ var GameManager = /** @class */ (function (_super) {
             case Constants_1.GameMode.Endless:
                 {
                     // console.log("无尽挑战胜利")
-                    UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.GameWin, UIConfig_1.UILayerLevel.One, { onCompleted: function (uiNode) {
+                    UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.GameWin, UIConfig_1.UILayerLevel.One, {
+                        onCompleted: function (uiNode) {
                             uiNode.getComponent(GameWin_1.default).initUi();
-                        } });
+                        }
+                    });
                 }
                 break;
             case Constants_1.GameMode.Boss_Challenge:
                 {
                     // console.log("Boss挑战胜利")
-                    UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.GameWin, UIConfig_1.UILayerLevel.One, { onCompleted: function (uiNode) {
+                    UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.GameWin, UIConfig_1.UILayerLevel.One, {
+                        onCompleted: function (uiNode) {
                             uiNode.getComponent(GameWin_1.default).initUi();
-                        } });
+                        }
+                    });
                 }
                 break;
         }

@@ -56,6 +56,7 @@ var WallManager_1 = require("../Wall/WallManager");
 var WeekCardUi_1 = require("../WeekCard/WeekCardUi");
 var BuffStateManager_1 = require("./BuffStateManager");
 var GameEffectsManager_1 = require("./GameEffectsManager");
+var TouchPlane_1 = require("./TouchPlane/TouchPlane");
 var BuyBattlePotion_1 = require("./Ui/BuyBattlePotion");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var Game = /** @class */ (function (_super) {
@@ -109,6 +110,10 @@ var Game = /** @class */ (function (_super) {
         _this.battlepotion = []; //红色   绿色   蓝色
         _this.battlepotionPropId = [PropConfig_1.PropId.RedPotion, PropConfig_1.PropId.GreenPotion, PropConfig_1.PropId.BluePotion]; //战斗药水的道具id
         _this.battlepotionstate = [1, 1, 1]; //战斗药水在这一局是否使用了  默认每一个药水有一次使用的机会
+        _this.indexLoad = [2, 1, 3, 0, 4];
+        _this.indexData = [3, 1, 0, 2, 4];
+        _this.targetX = 0;
+        _this.easing = 0.2;
         return _this;
     }
     Game.prototype.onLoad = function () {
@@ -143,6 +148,10 @@ var Game = /** @class */ (function (_super) {
         this.setTryAutoLabel();
         this.setTryRateLabel();
         GameManager_1.default.getInstance().setGameRate(1);
+        TouchPlane_1.instance.on(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
+    };
+    Game.prototype.onDestroy = function () {
+        TouchPlane_1.instance.off(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
     };
     Game.prototype.start = function () {
         this.showLoading();
@@ -258,9 +267,9 @@ var Game = /** @class */ (function (_super) {
         Pet_1.default.cur_loaded_num = 0;
         var teamList = HeroManager_1.HeroManager.getInstance().getTeamList(GameManager_1.default.getInstance().cur_game_mode);
         for (var i = 0; i < teamList.length; i++) {
-            var heroType = teamList[i];
+            var heroType = teamList[this.indexLoad[i]];
             if (heroType > 0) {
-                this.loadHero(heroType, i);
+                this.loadHero(heroType, this.indexLoad[i]);
             }
         }
         // let heroRoot=cc.find('Canvas/Hero_Root');
@@ -273,9 +282,22 @@ var Game = /** @class */ (function (_super) {
         // }
     };
     Game.prototype.loadHero = function (heroType, posIndex, callback) {
+        var _this = this;
         Hero_1.default.max_load_num++;
-        var posX = 2 * 144 - 288;
-        var posY = (4 - posIndex) * 70;
+        var xIndexTepm = posIndex;
+        var yIndexTepm = posIndex;
+        if (posIndex == 0) {
+            xIndexTepm = 1;
+        }
+        if (posIndex == 4) {
+            xIndexTepm = 3;
+            yIndexTepm = 0;
+        }
+        if (posIndex == 3) {
+            yIndexTepm = 1;
+        }
+        var posX = xIndexTepm * 45 - 90;
+        var posY = yIndexTepm * 60 - 120;
         cc.resources.load('heros/hero' + heroType, cc.Prefab, function (error, assets) {
             if (error) {
                 console.log(error);
@@ -285,9 +307,10 @@ var Game = /** @class */ (function (_super) {
             node.parent = cc.find('Canvas/Hero_Root');
             node.x = posX;
             var hp = cc.find('Canvas/Ui_Root/hp_root');
-            node.y = hp.y + posY;
-            node.setSiblingIndex(posIndex);
-            node.getComponent(Hero_1.default).leaterNum = posIndex;
+            node.y = hp.y + posY + 150;
+            node.getComponent(Hero_1.default).targetX = node.x;
+            node.getComponent(Hero_1.default).posX = node.x;
+            node.setSiblingIndex(_this.indexData[posIndex]);
             BuffStateManager_1.default.getInstance().createBuffRoot(cc.v2(posX, node.y + 150), heroType);
             if (callback) {
                 callback();
@@ -503,6 +526,7 @@ var Game = /** @class */ (function (_super) {
                 return;
             }
             wallBg.getChildByName('bg2_wall').getComponent(cc.Sprite).spriteFrame = assets;
+            _this.bg2_wall = wallBg.getChildByName('bg2_wall');
             //let bc = wallBg.getChildByName('wall_down').getComponent(cc.BoxCollider);
             // this.scheduleOnce(() => {
             //     bc.size = wallBg.getContentSize();
@@ -930,6 +954,9 @@ var Game = /** @class */ (function (_super) {
         //     this.dps_label.string='DPS '+dps;
         // }
     };
+    Game.prototype.onTouchEndByJoy = function (event, data) {
+        this.targetX = (GameManager_1.default.getInstance().aniType - 2) * 150;
+    };
     Game.prototype.update = function (dt) {
         if (GameManager_1.default.getInstance().cur_game_state == Constants_1.GameState.Game_Playing) {
             this.time_jishu += dt;
@@ -998,6 +1025,10 @@ var Game = /** @class */ (function (_super) {
                 if (this.bg1.y <= cc.winSize.height / 2 - this.bg0.height / 2 - cc.winSize.height) {
                     this.bg1.y = this.bg0.y + this.bg0.height;
                 }
+            }
+            if (this.bg2_wall) {
+                var vx = (this.targetX - this.bg2_wall.x) * this.easing;
+                this.bg2_wall.x += vx;
             }
         }
     };
