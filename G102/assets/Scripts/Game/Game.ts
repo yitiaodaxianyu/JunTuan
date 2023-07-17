@@ -9,6 +9,7 @@ import GameManager from "../GameManager";
 import { HeroManager } from "../Hero/Data/HeroManager";
 import Hero from "../Hero/Game/Hero";
 import { Hero_Type } from "../Hero/Game/HeroConfig";
+import { instance, SpeedType } from "../Joystick/Joystick";
 import { LevelManager } from "../Level/LevelManager";
 import { MissionLevelManager } from "../Level/MissionLevel";
 import { Follow_Type } from "../multiLanguage/FollowConstants";
@@ -34,7 +35,7 @@ import WallManager from "../Wall/WallManager";
 import WeekCardUi from "../WeekCard/WeekCardUi";
 import BuffStateManager from "./BuffStateManager";
 import { GameEffectId, GameEffectsManager } from "./GameEffectsManager";
-import { instance } from "./TouchPlane/TouchPlane";
+// import { instance } from "./TouchPlane/TouchPlane";
 import BuyBattlePotion from "./Ui/BuyBattlePotion";
 
 const { ccclass, property } = cc._decorator;
@@ -139,9 +140,14 @@ export default class Game extends cc.Component {
         this.setTryAutoLabel();
         this.setTryRateLabel();
         GameManager.getInstance().setGameRate(1);
+        instance.on(cc.Node.EventType.TOUCH_START, this.onTouchStartByJoy, this);
+        instance.on(cc.Node.EventType.TOUCH_MOVE, this.onTouchMoveByJoy, this);
         instance.on(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
+
     }
     protected onDestroy(): void {
+        instance.off(cc.Node.EventType.TOUCH_START, this.onTouchStartByJoy, this);
+        instance.off(cc.Node.EventType.TOUCH_MOVE, this.onTouchMoveByJoy, this);
         instance.off(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
     }
     start() {
@@ -304,8 +310,7 @@ export default class Game extends cc.Component {
             node.x = posX;
             let hp = cc.find('Canvas/Ui_Root/hp_root');
             node.y = hp.y + posY + 150;
-            node.getComponent(Hero).targetX = node.x;
-            node.getComponent(Hero).posX = node.x;
+
 
             node.setSiblingIndex(this.indexData[posIndex]);
             BuffStateManager.getInstance().createBuffRoot(cc.v2(posX, node.y + 150), heroType);
@@ -967,12 +972,44 @@ export default class Game extends cc.Component {
 
     }
 
-    targetX: number = 0;
-    easing: number = 0.2;
-    onTouchEndByJoy(event: cc.Event.EventTouch, data) {
-        this.targetX = (GameManager.getInstance().aniType - 2) * 150;
+    // targetX: number = 0;
+    // easing: number = 0.2;
+    // onTouchEndByJoy(event: cc.Event.EventTouch, data) {
+    //     this.targetX = (GameManager.getInstance().aniType - 2) * 150;
+    // }
+
+    speedType: SpeedType = SpeedType.STOP;
+    moveDir = cc.v2(0, 1);
+    // //抄别人的，本来有两种速度，现在先用一个数据
+    normalSpeed = 600;
+    fastSpeed = 600;
+
+    stopSpeed = 0;
+
+    moveSpeed = 0;
+    /**
+* 移动
+*/
+    move() {
+        // this.node.angle =
+        // cc.misc.radiansToDegrees(Math.atan2(this.moveDir.y, this.moveDir.x)) - 90;
+
+        const oldPos = cc.v2();
+        this.bg2_wall.getPosition(oldPos);
+        const newPos = oldPos.add(this.moveDir.mul(this.moveSpeed / 120));
+        this.bg2_wall.setPosition(newPos);
+
+    }
+    onTouchStartByJoy() { }
+
+    onTouchMoveByJoy(event: cc.Event.EventTouch, data) {
+        this.speedType = data.speedType;
+        this.moveDir = data.moveDistance;
     }
 
+    onTouchEndByJoy(event: cc.Event.EventTouch, data) {
+        this.speedType = data.speedType;
+    }
 
     update(dt) {
         if (GameManager.getInstance().cur_game_state == GameState.Game_Playing) {
@@ -1043,13 +1080,25 @@ export default class Game extends cc.Component {
                 }
             }
 
-            if (this.bg2_wall) {
-                let vx: number = (this.targetX - this.bg2_wall.x) * this.easing;
-                this.bg2_wall.x += vx;
+            switch (this.speedType) {
+                case SpeedType.STOP:
+                    this.moveSpeed = this.stopSpeed;
+                    break;
+                case SpeedType.NORMAL:
+                    this.moveSpeed = this.normalSpeed;
+                    break;
+                case SpeedType.FAST:
+                    this.moveSpeed = this.fastSpeed;
+                    break;
+                default:
+                    break;
+            }
+            if (this.speedType !== SpeedType.STOP&&this.bg2_wall) {
+                this.move();
             }
 
         }
-       
+
 
     }
 

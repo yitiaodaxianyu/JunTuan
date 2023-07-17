@@ -32,6 +32,7 @@ var GameData_1 = require("../GameData");
 var GameManager_1 = require("../GameManager");
 var HeroManager_1 = require("../Hero/Data/HeroManager");
 var Hero_1 = require("../Hero/Game/Hero");
+var Joystick_1 = require("../Joystick/Joystick");
 var LevelManager_1 = require("../Level/LevelManager");
 var MissionLevel_1 = require("../Level/MissionLevel");
 var FollowConstants_1 = require("../multiLanguage/FollowConstants");
@@ -56,7 +57,7 @@ var WallManager_1 = require("../Wall/WallManager");
 var WeekCardUi_1 = require("../WeekCard/WeekCardUi");
 var BuffStateManager_1 = require("./BuffStateManager");
 var GameEffectsManager_1 = require("./GameEffectsManager");
-var TouchPlane_1 = require("./TouchPlane/TouchPlane");
+// import { instance } from "./TouchPlane/TouchPlane";
 var BuyBattlePotion_1 = require("./Ui/BuyBattlePotion");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var Game = /** @class */ (function (_super) {
@@ -112,8 +113,18 @@ var Game = /** @class */ (function (_super) {
         _this.battlepotionstate = [1, 1, 1]; //战斗药水在这一局是否使用了  默认每一个药水有一次使用的机会
         _this.indexLoad = [2, 1, 3, 0, 4];
         _this.indexData = [3, 1, 0, 2, 4];
-        _this.targetX = 0;
-        _this.easing = 0.2;
+        // targetX: number = 0;
+        // easing: number = 0.2;
+        // onTouchEndByJoy(event: cc.Event.EventTouch, data) {
+        //     this.targetX = (GameManager.getInstance().aniType - 2) * 150;
+        // }
+        _this.speedType = Joystick_1.SpeedType.STOP;
+        _this.moveDir = cc.v2(0, 1);
+        // //抄别人的，本来有两种速度，现在先用一个数据
+        _this.normalSpeed = 600;
+        _this.fastSpeed = 600;
+        _this.stopSpeed = 0;
+        _this.moveSpeed = 0;
         return _this;
     }
     Game.prototype.onLoad = function () {
@@ -148,10 +159,14 @@ var Game = /** @class */ (function (_super) {
         this.setTryAutoLabel();
         this.setTryRateLabel();
         GameManager_1.default.getInstance().setGameRate(1);
-        TouchPlane_1.instance.on(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
+        Joystick_1.instance.on(cc.Node.EventType.TOUCH_START, this.onTouchStartByJoy, this);
+        Joystick_1.instance.on(cc.Node.EventType.TOUCH_MOVE, this.onTouchMoveByJoy, this);
+        Joystick_1.instance.on(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
     };
     Game.prototype.onDestroy = function () {
-        TouchPlane_1.instance.off(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
+        Joystick_1.instance.off(cc.Node.EventType.TOUCH_START, this.onTouchStartByJoy, this);
+        Joystick_1.instance.off(cc.Node.EventType.TOUCH_MOVE, this.onTouchMoveByJoy, this);
+        Joystick_1.instance.off(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
     };
     Game.prototype.start = function () {
         this.showLoading();
@@ -308,8 +323,6 @@ var Game = /** @class */ (function (_super) {
             node.x = posX;
             var hp = cc.find('Canvas/Ui_Root/hp_root');
             node.y = hp.y + posY + 150;
-            node.getComponent(Hero_1.default).targetX = node.x;
-            node.getComponent(Hero_1.default).posX = node.x;
             node.setSiblingIndex(_this.indexData[posIndex]);
             BuffStateManager_1.default.getInstance().createBuffRoot(cc.v2(posX, node.y + 150), heroType);
             if (callback) {
@@ -954,8 +967,24 @@ var Game = /** @class */ (function (_super) {
         //     this.dps_label.string='DPS '+dps;
         // }
     };
+    /**
+* 移动
+*/
+    Game.prototype.move = function () {
+        // this.node.angle =
+        // cc.misc.radiansToDegrees(Math.atan2(this.moveDir.y, this.moveDir.x)) - 90;
+        var oldPos = cc.v2();
+        this.bg2_wall.getPosition(oldPos);
+        var newPos = oldPos.add(this.moveDir.mul(this.moveSpeed / 120));
+        this.bg2_wall.setPosition(newPos);
+    };
+    Game.prototype.onTouchStartByJoy = function () { };
+    Game.prototype.onTouchMoveByJoy = function (event, data) {
+        this.speedType = data.speedType;
+        this.moveDir = data.moveDistance;
+    };
     Game.prototype.onTouchEndByJoy = function (event, data) {
-        this.targetX = (GameManager_1.default.getInstance().aniType - 2) * 150;
+        this.speedType = data.speedType;
     };
     Game.prototype.update = function (dt) {
         if (GameManager_1.default.getInstance().cur_game_state == Constants_1.GameState.Game_Playing) {
@@ -1026,9 +1055,21 @@ var Game = /** @class */ (function (_super) {
                     this.bg1.y = this.bg0.y + this.bg0.height;
                 }
             }
-            if (this.bg2_wall) {
-                var vx = (this.targetX - this.bg2_wall.x) * this.easing;
-                this.bg2_wall.x += vx;
+            switch (this.speedType) {
+                case Joystick_1.SpeedType.STOP:
+                    this.moveSpeed = this.stopSpeed;
+                    break;
+                case Joystick_1.SpeedType.NORMAL:
+                    this.moveSpeed = this.normalSpeed;
+                    break;
+                case Joystick_1.SpeedType.FAST:
+                    this.moveSpeed = this.fastSpeed;
+                    break;
+                default:
+                    break;
+            }
+            if (this.speedType !== Joystick_1.SpeedType.STOP && this.bg2_wall) {
+                this.move();
             }
         }
     };

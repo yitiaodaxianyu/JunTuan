@@ -1075,8 +1075,8 @@
     "relativePath": "resources\\Images\\get_hint.png"
   },
   "c2b29c22-b703-4d69-9932-06eafc1afd76": {
-    "asset": 1689586274050,
-    "meta": 1689586274055,
+    "asset": 1689587011522,
+    "meta": 1689587011527,
     "relativePath": "Scenes\\game.fire"
   },
   "f7fe28b5-3fd3-4031-91b5-d4d08dd1d46a": {
@@ -15334,16 +15334,6 @@
     "meta": 1689582533563,
     "relativePath": "Scripts\\Joystick\\Joystick.ts"
   },
-  "3737319f-5d5f-486e-ad03-2475ca168052": {
-    "asset": 1689583414350,
-    "meta": 1689583417572,
-    "relativePath": "Scripts\\Game\\Game.ts"
-  },
-  "47edb50b-8706-4f86-86dd-2cc730934e1c": {
-    "asset": 1689584049079,
-    "meta": 1689584053114,
-    "relativePath": "Scripts\\Hero\\Game\\Hero.ts"
-  },
   "d86ce141-adde-4a14-a1ac-6099d3268523": {
     "asset": 1689583973649,
     "meta": 1689584053207,
@@ -15353,5 +15343,15 @@
     "asset": 1689584521335,
     "meta": 1689584522988,
     "relativePath": "Scripts\\Game\\TouchPlane\\TouchPlane.ts"
+  },
+  "47edb50b-8706-4f86-86dd-2cc730934e1c": {
+    "asset": 1689587434593,
+    "meta": 1689587442192,
+    "relativePath": "Scripts\\Hero\\Game\\Hero.ts"
+  },
+  "3737319f-5d5f-486e-ad03-2475ca168052": {
+    "asset": 1689588038464,
+    "meta": 1689588043461,
+    "relativePath": "Scripts\\Game\\Game.ts"
   }
 }

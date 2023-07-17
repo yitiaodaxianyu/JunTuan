@@ -27,7 +27,8 @@ import IcePet from "../../Pet/Game/IcePet";
 import WindPet from "../../Pet/Game/WindPet";
 import RayPet from "../../Pet/Game/RayPet";
 import Monster from "../../Monster/Monster";
-import { instance } from "../../Game/TouchPlane/TouchPlane";
+import { SpeedType, instance } from "../../Joystick/Joystick";
+// import { instance } from "../../Game/TouchPlane/TouchPlane";
 
 
 
@@ -212,8 +213,8 @@ export default class Hero extends cc.Component {
             // touchNode.off(cc.Node.EventType.TOUCH_MOVE,this.onTouchMove,this);
             // touchNode.off(cc.Node.EventType.TOUCH_END,this.onTouchEnd,this);
             // touchNode.off(cc.Node.EventType.TOUCH_CANCEL,this.onTouchCancel,this);
-            // instance.off(cc.Node.EventType.TOUCH_START, this.onTouchStartByJoy, this);
-            // instance.off(cc.Node.EventType.TOUCH_MOVE, this.onTouchMoveByJoy, this);
+            instance.off(cc.Node.EventType.TOUCH_START, this.onTouchStartByJoy, this);
+            instance.off(cc.Node.EventType.TOUCH_MOVE, this.onTouchMoveByJoy, this);
             instance.off(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
         }
         GameManager.getInstance().all_hero.delete(this.hero_type)
@@ -265,8 +266,8 @@ export default class Hero extends cc.Component {
             // touchNode.on(cc.Node.EventType.TOUCH_MOVE,this.onTouchMove,this);
             // touchNode.on(cc.Node.EventType.TOUCH_END,this.onTouchEnd,this);
             // touchNode.on(cc.Node.EventType.TOUCH_CANCEL,this.onTouchCancel,this);
-            // instance.on(cc.Node.EventType.TOUCH_START, this.onTouchStartByJoy, this);
-            // instance.on(cc.Node.EventType.TOUCH_MOVE, this.onTouchMoveByJoy, this);
+            instance.on(cc.Node.EventType.TOUCH_START, this.onTouchStartByJoy, this);
+            instance.on(cc.Node.EventType.TOUCH_MOVE, this.onTouchMoveByJoy, this);
             instance.on(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
         }
     }
@@ -423,12 +424,12 @@ export default class Hero extends cc.Component {
         this.node_shadow.opacity = 255;
         this.mp_progress.show();
     }
-    posX: number = 0;//初始化时候的位置
-    targetX: number = 0;
-    easing: number = 0.2;
-    onTouchEndByJoy(event: cc.Event.EventTouch, data) {
-        this.targetX = (GameManager.getInstance().aniType - 2) * 150 + this.posX;
-    }
+    // posX: number = 0;//初始化时候的位置
+    // targetX: number = 0;
+    // easing: number = 0.2;
+    // onTouchEndByJoy(event: cc.Event.EventTouch, data) {
+    //     this.targetX = (GameManager.getInstance().aniType - 2) * 150 + this.posX;
+    // }
     //----------------------------------【皮肤】----------------------------------------------
     protected setSkin() {
         //let heroQuality=HeroManager.getInstance().getHeroQuality(this.hero_type);
@@ -444,74 +445,40 @@ export default class Hero extends cc.Component {
     // newPos: cc.Vec2;
     // posYTemp: number;
 
-    // speedType: SpeedType = SpeedType.STOP;
-    // moveDir = cc.v2(0, 1);
+    speedType: SpeedType = SpeedType.STOP;
+    moveDir = cc.v2(0, 1);
     // //抄别人的，本来有两种速度，现在先用一个数据
-    // normalSpeed = 600;
-    // fastSpeed = 600;
+    normalSpeed = 600;
+    fastSpeed = 600;
 
-    // stopSpeed = 0;
+    stopSpeed = 0;
 
-    // moveSpeed = 0;
+    moveSpeed = 0;
 
 
     /**
   * 移动
   */
-    // move() {
-    //     // this.node.angle =
-    //     //   cc.misc.radiansToDegrees(Math.atan2(this.moveDir.y, this.moveDir.x)) - 90;
+    move() {
+        // this.node.angle =
+        // cc.misc.radiansToDegrees(Math.atan2(this.moveDir.y, this.moveDir.x)) - 90;
 
-    //     // if (this.rigidbody) {
-    //     //   this._body.applyForceToCenter(
-    //     //     cc.v2(this.moveDir.x * 200, this.moveDir.y * 200),
-    //     //     true
-    //     //   );
-    //     // } else {
-    //     //   const oldPos = cc.v2();
-    //     //   this.node.getPosition(oldPos);
-    //     //   const newPos = oldPos.add(this.moveDir.mul(this._moveSpeed / 120));
-    //     //   this.node.setPosition(newPos);
-    //     // }
+        const oldPos = cc.v2();
+        this.node.getPosition(oldPos);
+        const newPos = oldPos.add(this.moveDir.mul(this.moveSpeed / 120));
+        this.node.setPosition(newPos);
+      
+    }
+    onTouchStartByJoy() { }
 
-    //     if (this.speedType !== SpeedType.STOP) {
-    //         const oldPos = cc.v2();
-    //         this.node.getPosition(oldPos);
-    //         this.newPos = oldPos.add(this.moveDir.mul(this.moveSpeed / 120));
-    //         this.newPos.y = oldPos.y;
-    //         this.posYTemp = oldPos.y;
+    onTouchMoveByJoy(event: cc.Event.EventTouch, data) {
+        this.speedType = data.speedType;
+        this.moveDir = data.moveDistance;
+    }
 
-    //     }
-    //     if (this.leaterNum == 0) {
-    //         GameManager.getInstance().moveData.unshift(this.newPos);
-
-    //     }
-
-
-    //     if (GameManager.getInstance().moveData[this.leaterNum * this.leaterSpeed] != null) {
-    //         const newPosTepm = GameManager.getInstance().moveData[this.leaterNum * this.leaterSpeed];
-    //         newPosTepm.y=this.posYTemp;
-    //         this.node.setPosition(newPosTepm);
-    //     }
-    //     if(GameManager.getInstance().moveData.length>60){
-
-    //         GameManager.getInstance().moveData.splice(60,GameManager.getInstance().moveData.length-60);
-
-
-    //     }
-
-    //     this.node_shadow.setPosition(cc.v2(this.node.x + this.pos.x * this.setup_scale, this.node.y + this.pos.y * this.setup_scale));
-    // }
-    // onTouchStartByJoy() { }
-
-    // onTouchMoveByJoy(event: cc.Event.EventTouch, data) {
-    //     this.speedType = data.speedType;
-    //     this.moveDir = data.moveDistance;
-    // }
-
-    // onTouchEndByJoy(event: cc.Event.EventTouch, data) {
-    //     this.speedType = data.speedType;
-    // }
+    onTouchEndByJoy(event: cc.Event.EventTouch, data) {
+        this.speedType = data.speedType;
+    }
     /**---------------------------------操作相关---------------------------------------------- */
     //-----------------------------------触摸事件------------------------------------------------------------//旧版功能
     onTouchStart(e: cc.Event.EventTouch) {
@@ -1401,27 +1368,28 @@ export default class Hero extends cc.Component {
             this.click_remain -= dt;
         }
 
-        let vx: number = (this.targetX - this.node.x) * this.easing;
-        this.node.x += vx;
-        if(this.node_shadow){
+        // let vx: number = (this.targetX - this.node.x) * this.easing;
+        // this.node.x += vx;
+      
+        switch (this.speedType) {
+            case SpeedType.STOP:
+              this.moveSpeed = this.stopSpeed;
+              break;
+            case SpeedType.NORMAL:
+              this.moveSpeed = this.normalSpeed;
+              break;
+            case SpeedType.FAST:
+              this.moveSpeed = this.fastSpeed;
+              break;
+            default:
+              break;
+          }
+          if (this.speedType !== SpeedType.STOP) {
+            this.move();
+          }
+            if(this.node_shadow){
             this.node_shadow.setPosition(cc.v2(this.node.x + this.pos.x * this.setup_scale, this.node.y + this.pos.y * this.setup_scale));
         }
-        // switch (this.speedType) {
-        //     case SpeedType.STOP:
-        //         this.moveSpeed = this.stopSpeed;
-        //         break;
-        //     case SpeedType.NORMAL:
-        //         this.moveSpeed = this.normalSpeed;
-        //         break;
-        //     case SpeedType.FAST:
-        //         this.moveSpeed = this.fastSpeed;
-        //         break;
-        //     default:
-        //         break;
-        // }
-
-
-        // this.move();
 
     }
 

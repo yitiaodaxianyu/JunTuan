@@ -48,7 +48,8 @@ var IcePet_1 = require("../../Pet/Game/IcePet");
 var WindPet_1 = require("../../Pet/Game/WindPet");
 var RayPet_1 = require("../../Pet/Game/RayPet");
 var Monster_1 = require("../../Monster/Monster");
-var TouchPlane_1 = require("../../Game/TouchPlane/TouchPlane");
+var Joystick_1 = require("../../Joystick/Joystick");
+// import { instance } from "../../Game/TouchPlane/TouchPlane";
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var Hero = /** @class */ (function (_super) {
     __extends(Hero, _super);
@@ -150,9 +151,19 @@ var Hero = /** @class */ (function (_super) {
         _this.is_double_attack = false;
         /**层级*/
         _this.v_Index = 0;
-        _this.posX = 0; //初始化时候的位置
-        _this.targetX = 0;
-        _this.easing = 0.2;
+        /**---------------------------------操作相关---------------------------------------------- */
+        //-----------------------------------触摸移动事件------------------------------------------------------------
+        // leaterNum: number = 0;//延迟数据播放动画
+        // leaterSpeed: number = 5;
+        // newPos: cc.Vec2;
+        // posYTemp: number;
+        _this.speedType = Joystick_1.SpeedType.STOP;
+        _this.moveDir = cc.v2(0, 1);
+        // //抄别人的，本来有两种速度，现在先用一个数据
+        _this.normalSpeed = 600;
+        _this.fastSpeed = 600;
+        _this.stopSpeed = 0;
+        _this.moveSpeed = 0;
         return _this;
     }
     Hero_1 = Hero;
@@ -221,9 +232,9 @@ var Hero = /** @class */ (function (_super) {
             // touchNode.off(cc.Node.EventType.TOUCH_MOVE,this.onTouchMove,this);
             // touchNode.off(cc.Node.EventType.TOUCH_END,this.onTouchEnd,this);
             // touchNode.off(cc.Node.EventType.TOUCH_CANCEL,this.onTouchCancel,this);
-            // instance.off(cc.Node.EventType.TOUCH_START, this.onTouchStartByJoy, this);
-            // instance.off(cc.Node.EventType.TOUCH_MOVE, this.onTouchMoveByJoy, this);
-            TouchPlane_1.instance.off(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
+            Joystick_1.instance.off(cc.Node.EventType.TOUCH_START, this.onTouchStartByJoy, this);
+            Joystick_1.instance.off(cc.Node.EventType.TOUCH_MOVE, this.onTouchMoveByJoy, this);
+            Joystick_1.instance.off(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
         }
         GameManager_1.default.getInstance().all_hero.delete(this.hero_type);
     };
@@ -277,9 +288,9 @@ var Hero = /** @class */ (function (_super) {
             // touchNode.on(cc.Node.EventType.TOUCH_MOVE,this.onTouchMove,this);
             // touchNode.on(cc.Node.EventType.TOUCH_END,this.onTouchEnd,this);
             // touchNode.on(cc.Node.EventType.TOUCH_CANCEL,this.onTouchCancel,this);
-            // instance.on(cc.Node.EventType.TOUCH_START, this.onTouchStartByJoy, this);
-            // instance.on(cc.Node.EventType.TOUCH_MOVE, this.onTouchMoveByJoy, this);
-            TouchPlane_1.instance.on(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
+            Joystick_1.instance.on(cc.Node.EventType.TOUCH_START, this.onTouchStartByJoy, this);
+            Joystick_1.instance.on(cc.Node.EventType.TOUCH_MOVE, this.onTouchMoveByJoy, this);
+            Joystick_1.instance.on(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
         }
     };
     Hero.prototype.initPos = function () {
@@ -434,73 +445,37 @@ var Hero = /** @class */ (function (_super) {
         this.node_shadow.opacity = 255;
         this.mp_progress.show();
     };
-    Hero.prototype.onTouchEndByJoy = function (event, data) {
-        this.targetX = (GameManager_1.default.getInstance().aniType - 2) * 150 + this.posX;
-    };
+    // posX: number = 0;//初始化时候的位置
+    // targetX: number = 0;
+    // easing: number = 0.2;
+    // onTouchEndByJoy(event: cc.Event.EventTouch, data) {
+    //     this.targetX = (GameManager.getInstance().aniType - 2) * 150 + this.posX;
+    // }
     //----------------------------------【皮肤】----------------------------------------------
     Hero.prototype.setSkin = function () {
         //let heroQuality=HeroManager.getInstance().getHeroQuality(this.hero_type);
         //let tier=HeroQualityManager.getInstance().getTier(heroQuality);
         //this.spine.setSkin('stage'+(HeroManager.getSkinIndex(tier)));
     };
-    /**---------------------------------操作相关---------------------------------------------- */
-    //-----------------------------------触摸移动事件------------------------------------------------------------
-    // leaterNum: number = 0;//延迟数据播放动画
-    // leaterSpeed: number = 5;
-    // newPos: cc.Vec2;
-    // posYTemp: number;
-    // speedType: SpeedType = SpeedType.STOP;
-    // moveDir = cc.v2(0, 1);
-    // //抄别人的，本来有两种速度，现在先用一个数据
-    // normalSpeed = 600;
-    // fastSpeed = 600;
-    // stopSpeed = 0;
-    // moveSpeed = 0;
     /**
   * 移动
   */
-    // move() {
-    //     // this.node.angle =
-    //     //   cc.misc.radiansToDegrees(Math.atan2(this.moveDir.y, this.moveDir.x)) - 90;
-    //     // if (this.rigidbody) {
-    //     //   this._body.applyForceToCenter(
-    //     //     cc.v2(this.moveDir.x * 200, this.moveDir.y * 200),
-    //     //     true
-    //     //   );
-    //     // } else {
-    //     //   const oldPos = cc.v2();
-    //     //   this.node.getPosition(oldPos);
-    //     //   const newPos = oldPos.add(this.moveDir.mul(this._moveSpeed / 120));
-    //     //   this.node.setPosition(newPos);
-    //     // }
-    //     if (this.speedType !== SpeedType.STOP) {
-    //         const oldPos = cc.v2();
-    //         this.node.getPosition(oldPos);
-    //         this.newPos = oldPos.add(this.moveDir.mul(this.moveSpeed / 120));
-    //         this.newPos.y = oldPos.y;
-    //         this.posYTemp = oldPos.y;
-    //     }
-    //     if (this.leaterNum == 0) {
-    //         GameManager.getInstance().moveData.unshift(this.newPos);
-    //     }
-    //     if (GameManager.getInstance().moveData[this.leaterNum * this.leaterSpeed] != null) {
-    //         const newPosTepm = GameManager.getInstance().moveData[this.leaterNum * this.leaterSpeed];
-    //         newPosTepm.y=this.posYTemp;
-    //         this.node.setPosition(newPosTepm);
-    //     }
-    //     if(GameManager.getInstance().moveData.length>60){
-    //         GameManager.getInstance().moveData.splice(60,GameManager.getInstance().moveData.length-60);
-    //     }
-    //     this.node_shadow.setPosition(cc.v2(this.node.x + this.pos.x * this.setup_scale, this.node.y + this.pos.y * this.setup_scale));
-    // }
-    // onTouchStartByJoy() { }
-    // onTouchMoveByJoy(event: cc.Event.EventTouch, data) {
-    //     this.speedType = data.speedType;
-    //     this.moveDir = data.moveDistance;
-    // }
-    // onTouchEndByJoy(event: cc.Event.EventTouch, data) {
-    //     this.speedType = data.speedType;
-    // }
+    Hero.prototype.move = function () {
+        // this.node.angle =
+        // cc.misc.radiansToDegrees(Math.atan2(this.moveDir.y, this.moveDir.x)) - 90;
+        var oldPos = cc.v2();
+        this.node.getPosition(oldPos);
+        var newPos = oldPos.add(this.moveDir.mul(this.moveSpeed / 120));
+        this.node.setPosition(newPos);
+    };
+    Hero.prototype.onTouchStartByJoy = function () { };
+    Hero.prototype.onTouchMoveByJoy = function (event, data) {
+        this.speedType = data.speedType;
+        this.moveDir = data.moveDistance;
+    };
+    Hero.prototype.onTouchEndByJoy = function (event, data) {
+        this.speedType = data.speedType;
+    };
     /**---------------------------------操作相关---------------------------------------------- */
     //-----------------------------------触摸事件------------------------------------------------------------//旧版功能
     Hero.prototype.onTouchStart = function (e) {
@@ -1461,25 +1436,27 @@ var Hero = /** @class */ (function (_super) {
         if (this.click_remain > 0) {
             this.click_remain -= dt;
         }
-        var vx = (this.targetX - this.node.x) * this.easing;
-        this.node.x += vx;
+        // let vx: number = (this.targetX - this.node.x) * this.easing;
+        // this.node.x += vx;
+        switch (this.speedType) {
+            case Joystick_1.SpeedType.STOP:
+                this.moveSpeed = this.stopSpeed;
+                break;
+            case Joystick_1.SpeedType.NORMAL:
+                this.moveSpeed = this.normalSpeed;
+                break;
+            case Joystick_1.SpeedType.FAST:
+                this.moveSpeed = this.fastSpeed;
+                break;
+            default:
+                break;
+        }
+        if (this.speedType !== Joystick_1.SpeedType.STOP) {
+            this.move();
+        }
         if (this.node_shadow) {
             this.node_shadow.setPosition(cc.v2(this.node.x + this.pos.x * this.setup_scale, this.node.y + this.pos.y * this.setup_scale));
         }
-        // switch (this.speedType) {
-        //     case SpeedType.STOP:
-        //         this.moveSpeed = this.stopSpeed;
-        //         break;
-        //     case SpeedType.NORMAL:
-        //         this.moveSpeed = this.normalSpeed;
-        //         break;
-        //     case SpeedType.FAST:
-        //         this.moveSpeed = this.fastSpeed;
-        //         break;
-        //     default:
-        //         break;
-        // }
-        // this.move();
     };
     Hero.prototype.updateCheck = function (dt) {
         if (this.isHaveDeBuff(HeroConfig_1.BuffId.Monster_XuanYun)) {
