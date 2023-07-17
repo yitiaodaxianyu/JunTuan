@@ -153,12 +153,12 @@ var Hero = /** @class */ (function (_super) {
         /**---------------------------------操作相关---------------------------------------------- */
         //-----------------------------------触摸移动事件------------------------------------------------------------
         _this.leaterNum = 0; //延迟数据播放动画
-        _this.leaterSpeed = 10;
+        _this.leaterSpeed = 5;
         _this.speedType = Joystick_1.SpeedType.STOP;
         _this.moveDir = cc.v2(0, 1);
         //抄别人的，本来有两种速度，现在先用一个数据
-        _this.normalSpeed = 300;
-        _this.fastSpeed = 300;
+        _this.normalSpeed = 600;
+        _this.fastSpeed = 600;
         _this.stopSpeed = 0;
         _this.moveSpeed = 0;
         return _this;
@@ -479,6 +479,9 @@ var Hero = /** @class */ (function (_super) {
             var newPosTepm = GameManager_1.default.getInstance().moveData[this.leaterNum * this.leaterSpeed];
             newPosTepm.y = this.posYTemp;
             this.node.setPosition(newPosTepm);
+        }
+        if (GameManager_1.default.getInstance().moveData.length > 60) {
+            GameManager_1.default.getInstance().moveData.splice(60, GameManager_1.default.getInstance().moveData.length - 60);
         }
         this.node_shadow.setPosition(cc.v2(this.node.x + this.pos.x * this.setup_scale, this.node.y + this.pos.y * this.setup_scale));
     };

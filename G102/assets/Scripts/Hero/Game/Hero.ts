@@ -434,7 +434,7 @@ export default class Hero extends cc.Component {
     //-----------------------------------触摸移动事件------------------------------------------------------------
 
     leaterNum: number = 0;//延迟数据播放动画
-    leaterSpeed: number = 10;
+    leaterSpeed: number = 5;
 
     newPos: cc.Vec2;
     posYTemp: number;
@@ -442,8 +442,8 @@ export default class Hero extends cc.Component {
     speedType: SpeedType = SpeedType.STOP;
     moveDir = cc.v2(0, 1);
     //抄别人的，本来有两种速度，现在先用一个数据
-    normalSpeed = 300;
-    fastSpeed = 300;
+    normalSpeed = 600;
+    fastSpeed = 600;
 
     stopSpeed = 0;
 
@@ -479,6 +479,7 @@ export default class Hero extends cc.Component {
         }
         if (this.leaterNum == 0) {
             GameManager.getInstance().moveData.unshift(this.newPos);
+          
         }
 
 
@@ -487,7 +488,12 @@ export default class Hero extends cc.Component {
             newPosTepm.y=this.posYTemp;
             this.node.setPosition(newPosTepm);
         }
+        if(GameManager.getInstance().moveData.length>60){
 
+            GameManager.getInstance().moveData.splice(60,GameManager.getInstance().moveData.length-60);
+            
+            
+        }
 
         this.node_shadow.setPosition(cc.v2(this.node.x + this.pos.x * this.setup_scale, this.node.y + this.pos.y * this.setup_scale));
     }

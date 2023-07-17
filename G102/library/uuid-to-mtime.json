@@ -1075,8 +1075,8 @@
     "relativePath": "resources\\Images\\get_hint.png"
   },
   "c2b29c22-b703-4d69-9932-06eafc1afd76": {
-    "asset": 1689571379472,
-    "meta": 1689571379477,
+    "asset": 1689573154648,
+    "meta": 1689573154657,
     "relativePath": "Scenes\\game.fire"
   },
   "f7fe28b5-3fd3-4031-91b5-d4d08dd1d46a": {
@@ -15340,8 +15340,8 @@
     "relativePath": "Scripts\\Joystick\\Joystick.ts"
   },
   "47edb50b-8706-4f86-86dd-2cc730934e1c": {
-    "asset": 1689566307998,
-    "meta": 1689566310918,
+    "asset": 1689573680813,
+    "meta": 1689573683220,
     "relativePath": "Scripts\\Hero\\Game\\Hero.ts"
   }
 }
