@@ -147,7 +147,7 @@ var GameManager = /** @class */ (function (_super) {
         //是否显示了退出游戏的对话框
         _this.is_show_exit = false;
         //动画位置
-        _this.aniType = 2;
+        _this.aniType = 4;
         return _this;
     }
     GameManager_1 = GameManager;
@@ -166,7 +166,7 @@ var GameManager = /** @class */ (function (_super) {
         this.unscheduleAllCallbacks();
         this.cur_game_scene = scene;
         this.is_loaded = false;
-        this.aniType = 2;
+        this.aniType = 4;
         switch (this.cur_game_scene) {
             case Constants_1.GameScene.home:
                 {

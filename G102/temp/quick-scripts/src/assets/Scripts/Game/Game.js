@@ -113,7 +113,7 @@ var Game = /** @class */ (function (_super) {
         _this.indexLoad = [2, 1, 3, 0, 4];
         _this.indexData = [3, 1, 0, 2, 4];
         _this.targetX = 0;
-        _this.easing = 0.2;
+        _this.easing = 0.1;
         return _this;
     }
     Game.prototype.onLoad = function () {
@@ -955,7 +955,7 @@ var Game = /** @class */ (function (_super) {
         // }
     };
     Game.prototype.onTouchEndByJoy = function (event, data) {
-        this.targetX = (GameManager_1.default.getInstance().aniType - 2) * 150;
+        this.targetX = (GameManager_1.default.getInstance().aniType - 4) * 75;
     };
     Game.prototype.update = function (dt) {
         if (GameManager_1.default.getInstance().cur_game_state == Constants_1.GameState.Game_Playing) {

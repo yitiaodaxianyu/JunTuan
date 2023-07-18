@@ -84,10 +84,10 @@ var TouchPlane = /** @class */ (function (_super) {
     TouchPlane.prototype._touchEndEvent = function (event) {
         var touchPos = this.node.convertToNodeSpaceAR(event.getLocation());
         var directiontype = DirectionType.LEFT;
-        var cheWeiPos = (GameManager_1.default.getInstance().aniType - 2) * 150;
+        var cheWeiPos = (GameManager_1.default.getInstance().aniType - 4) * 75;
         if (touchPos.x > cheWeiPos) {
             directiontype = DirectionType.RIGHT;
-            if (GameManager_1.default.getInstance().aniType < 4) {
+            if (GameManager_1.default.getInstance().aniType < 8) {
                 GameManager_1.default.getInstance().aniType++;
             }
         }

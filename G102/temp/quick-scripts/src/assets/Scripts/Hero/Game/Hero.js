@@ -152,7 +152,7 @@ var Hero = /** @class */ (function (_super) {
         _this.v_Index = 0;
         _this.posX = 0; //初始化时候的位置
         _this.targetX = 0;
-        _this.easing = 0.2;
+        _this.easing = 0.1;
         return _this;
     }
     Hero_1 = Hero;
@@ -435,7 +435,7 @@ var Hero = /** @class */ (function (_super) {
         this.mp_progress.show();
     };
     Hero.prototype.onTouchEndByJoy = function (event, data) {
-        this.targetX = (GameManager_1.default.getInstance().aniType - 2) * 150 + this.posX;
+        this.targetX = (GameManager_1.default.getInstance().aniType - 4) * 75 + this.posX;
     };
     //----------------------------------【皮肤】----------------------------------------------
     Hero.prototype.setSkin = function () {

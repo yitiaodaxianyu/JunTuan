@@ -63,10 +63,10 @@ export default class TouchPlane extends cc.Component {
         const touchPos = this.node.convertToNodeSpaceAR(event.getLocation());
 
         let directiontype = DirectionType.LEFT;
-        let cheWeiPos: number = (GameManager.getInstance().aniType - 2) * 150;
+        let cheWeiPos: number = (GameManager.getInstance().aniType - 4) * 75;
         if (touchPos.x > cheWeiPos) {
             directiontype = DirectionType.RIGHT;
-            if (GameManager.getInstance().aniType < 4) {
+            if (GameManager.getInstance().aniType < 8) {
                 GameManager.getInstance().aniType++;
             }
         } else {

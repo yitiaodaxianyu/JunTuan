@@ -425,9 +425,9 @@ export default class Hero extends cc.Component {
     }
     posX: number = 0;//初始化时候的位置
     targetX: number = 0;
-    easing: number = 0.2;
+    easing: number = 0.1;
     onTouchEndByJoy(event: cc.Event.EventTouch, data) {
-        this.targetX = (GameManager.getInstance().aniType - 2) * 150 + this.posX;
+        this.targetX = (GameManager.getInstance().aniType - 4) * 75 + this.posX;
     }
     //----------------------------------【皮肤】----------------------------------------------
     protected setSkin() {

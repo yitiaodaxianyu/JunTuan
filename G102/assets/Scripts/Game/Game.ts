@@ -968,9 +968,9 @@ export default class Game extends cc.Component {
     }
 
     targetX: number = 0;
-    easing: number = 0.2;
+    easing: number = 0.1;
     onTouchEndByJoy(event: cc.Event.EventTouch, data) {
-        this.targetX = (GameManager.getInstance().aniType - 2) * 150;
+        this.targetX = (GameManager.getInstance().aniType - 4) * 75;
     }
 
 
