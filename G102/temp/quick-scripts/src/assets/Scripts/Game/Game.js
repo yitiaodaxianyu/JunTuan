@@ -307,9 +307,10 @@ var Game = /** @class */ (function (_super) {
             node.parent = cc.find('Canvas/Hero_Root');
             node.x = posX;
             var hp = cc.find('Canvas/Ui_Root/hp_root');
-            node.y = hp.y + posY + 150;
+            node.y = hp.y + posY + 150 + 300;
             node.getComponent(Hero_1.default).targetX = node.x;
             node.getComponent(Hero_1.default).posX = node.x;
+            node.getComponent(Hero_1.default).posIndex = posIndex;
             node.setSiblingIndex(_this.indexData[posIndex]);
             BuffStateManager_1.default.getInstance().createBuffRoot(cc.v2(posX, node.y + 150), heroType);
             if (callback) {

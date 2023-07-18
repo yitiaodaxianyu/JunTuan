@@ -299,7 +299,8 @@ var MonsterManager = /** @class */ (function (_super) {
      * @param fanwei 指定的检测范围，一般是攻击距离
      * @returns 所有满足条件的敌人
      */
-    MonsterManager.prototype.getMonstersForNearest = function (cheakNum, targetPos, fanwei) {
+    MonsterManager.prototype.getMonstersForNearest = function (cheakNum, targetPos, fanwei, posIndex) {
+        if (posIndex === void 0) { posIndex = null; }
         if (cheakNum == 0) {
             return null;
         }
@@ -315,7 +316,14 @@ var MonsterManager = /** @class */ (function (_super) {
             if (monsterTS && monsterTS.getIsCanCheck()) {
                 var distance = targetPos.sub(monster.getPosition()).mag();
                 if (distance <= fanwei) {
-                    attMonsters.push(monster);
+                    if (posIndex == null || posIndex == -1) {
+                        attMonsters.push(monster);
+                    }
+                    else {
+                        if (Math.abs(monster.x - GameManager_1.default.getInstance().charPosX) <= 75) {
+                            attMonsters.push(monster);
+                        }
+                    }
                 }
             }
         }

@@ -144,8 +144,12 @@ export default class GameManager extends cc.Component {
     public is_show_exit: boolean = false;
     //动画位置
     public aniType: number = 4;
+
+    //战车的位置x
+    public charPosX: number = 0;
     //游戏动画存储数据
     // public moveData: Array<cc.Vec2> = [];
+
     public static getInstance(): GameManager {
         return this._instance;
     }

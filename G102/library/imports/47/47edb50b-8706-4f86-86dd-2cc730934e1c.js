@@ -84,6 +84,8 @@ var Hero = /** @class */ (function (_super) {
         _this.bullet_speed = 1000;
         //消耗的MP值
         _this.cost_mp = 20;
+        //英雄位置
+        _this.posIndex = -1;
         _this.mp_progress = null;
         /**英雄当前拥有的buff */
         _this.hero_buff = null;
@@ -203,7 +205,7 @@ var Hero = /** @class */ (function (_super) {
         if (this.getHeroState() == HeroConfig_1.Hero_State.exit) {
             this.node_shadow.opacity = 0;
         }
-        this.node.zIndex = 2;
+        // this.node.zIndex = 2;
         this.casting_distance = this.hero_data.gongji_fanwei;
         if (cc.winSize.height / cc.winSize.width > 2) {
             this.casting_distance = this.hero_data.gongji_fanwei + 200;
@@ -1212,7 +1214,8 @@ var Hero = /** @class */ (function (_super) {
         switch (this.cur_fangxiang) {
             case HeroConfig_1.GongJi_FangXiang.zuo:
                 {
-                    this.node.scaleX = -this.setup_scale;
+                    this.node.scaleX = this.setup_scale;
+                    //this.node.scaleX = -this.setup_scale;
                 }
                 break;
             case HeroConfig_1.GongJi_FangXiang.zhong:
@@ -1463,6 +1466,9 @@ var Hero = /** @class */ (function (_super) {
         }
         var vx = (this.targetX - this.node.x) * this.easing;
         this.node.x += vx;
+        if (this.posIndex == 2) {
+            GameManager_1.default.getInstance().charPosX = this.node.x;
+        }
         if (this.node_shadow) {
             this.node_shadow.setPosition(cc.v2(this.node.x + this.pos.x * this.setup_scale, this.node.y + this.pos.y * this.setup_scale));
         }
@@ -1505,7 +1511,7 @@ var Hero = /** @class */ (function (_super) {
         //自动攻击
         if (this.is_can_gongji && this.getHeroState() != HeroConfig_1.Hero_State.skill) {
             this.is_can_gongji = false;
-            var monsters = MonsterManager_1.default.getInstance().getMonstersForNearest(this.max_gongji_num, this.node.getPosition(), this.hero_data.gongji_fanwei);
+            var monsters = MonsterManager_1.default.getInstance().getMonstersForNearest(this.max_gongji_num, this.node.getPosition(), this.hero_data.gongji_fanwei, this.posIndex);
             if (monsters) {
                 this.gongji_jishu = 0;
                 this.is_can_gongji = true;

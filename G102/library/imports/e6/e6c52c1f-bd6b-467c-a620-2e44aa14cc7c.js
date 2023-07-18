@@ -23,10 +23,10 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var HttpManager_1 = require("../../NetWork/HttpManager");
 var GameData_1 = require("../GameData");
 var GameManager_1 = require("../GameManager");
 var LanguageManager_1 = require("../multiLanguage/LanguageManager");
+var HttpManager_1 = require("../NetWork/HttpManager");
 var Item_1 = require("../Prop/Data/Item");
 var PropConfig_1 = require("../Prop/PropConfig");
 var PropManager_1 = require("../Prop/PropManager");

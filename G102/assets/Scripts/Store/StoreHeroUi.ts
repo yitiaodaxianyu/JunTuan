@@ -1,10 +1,11 @@
-import { HttpManager, AccessName } from "../../NetWork/HttpManager";
+
 import { IsDebug } from "../Constants";
 import GameData from "../GameData";
 import GameManager from "../GameManager";
 import { HeroManager } from "../Hero/Data/HeroManager";
 import { RewardHeroData } from "../JsonData/LevelJsonData";
 import LanguageManager from "../multiLanguage/LanguageManager";
+import { HttpManager, AccessName } from "../NetWork/HttpManager";
 import { ItemManager } from "../Prop/Data/Item";
 import { PropAction } from "../Prop/PropConfig";
 import { PropManager } from "../Prop/PropManager";

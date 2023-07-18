@@ -148,6 +148,8 @@ var GameManager = /** @class */ (function (_super) {
         _this.is_show_exit = false;
         //动画位置
         _this.aniType = 4;
+        //战车的位置x
+        _this.charPosX = 0;
         return _this;
     }
     GameManager_1 = GameManager;

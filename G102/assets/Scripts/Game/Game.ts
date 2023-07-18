@@ -303,10 +303,10 @@ export default class Game extends cc.Component {
             node.parent = cc.find('Canvas/Hero_Root');
             node.x = posX;
             let hp = cc.find('Canvas/Ui_Root/hp_root');
-            node.y = hp.y + posY + 150;
+            node.y = hp.y + posY + 150 + 300;
             node.getComponent(Hero).targetX = node.x;
             node.getComponent(Hero).posX = node.x;
-
+            node.getComponent(Hero).posIndex = posIndex;
             node.setSiblingIndex(this.indexData[posIndex]);
             BuffStateManager.getInstance().createBuffRoot(cc.v2(posX, node.y + 150), heroType);
             if (callback) {
@@ -1049,7 +1049,7 @@ export default class Game extends cc.Component {
             }
 
         }
-       
+
 
     }
 
