@@ -1205,7 +1205,7 @@ export default class Monster extends cc.Component {
 
     getIsDie():boolean
     {
-        return this.monster_state==Enemy_State.die;
+        return this.monster_state==Enemy_State.die||this.monster_state==Enemy_State.ship;
     }
 
     getEnemyState():Enemy_State
@@ -1407,8 +1407,45 @@ export default class Monster extends cc.Component {
                 }
             }
         })
-    }
 
+        let mainWall=WallManager.getInstance().getMainWall();
+        let mainRect=mainWall.getWallRect();
+
+        if(mainRect.contains(this.node.getPosition())){
+            if(this.node.y>mainWall.node.y){
+                this.node.y=mainRect.yMax;
+            }
+            if(this.node.y<mainWall.node.y){
+                this.node.y=mainRect.yMin;
+            }
+            this.onCollisionShip();
+        }
+        if(this.node.y<mainRect.yMin){
+           
+        }
+        if(this.node.y<=mainRect.yMin-200){
+            this.node.y=mainRect.yMin-200;
+            if(this.monster_state!=Enemy_State.ship){
+                MonsterManager.getInstance().ship_monster_num++;
+                
+                
+                this.setEnemyState(Enemy_State.ship);
+                MonsterManager.getInstance().upShipMonster();
+            }
+        }
+    }
+    private onCollisionShip(){
+        let md=new MonsterAttData();
+        md.damage_type=DamageType.Ship;
+        md.is_bullet=false;
+        md.skill_rate=0;
+        md.monster_attribute=this.monster_data;
+        md.zengshang_rate=this.zengshang_rate;
+        md.monster_ts=this;
+        md.strength_type=this.getStrengthType()
+        WallManager.getInstance().getMainWall().beInjured(md,false,this.getCurHp()*0.5)
+        this.changeHp(-9999999999);
+    }
     setPos(pos:cc.Vec2){
         this.setX(pos.x);
         this.setY(pos.y);

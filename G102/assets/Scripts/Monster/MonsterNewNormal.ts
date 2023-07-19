@@ -239,7 +239,7 @@ export default class MonsterNewNormal extends Monster {
 
     private moving(dt)
     {
-        if(!this.isHaveDeBuff(BuffId.Hero_XuanYun)&&(this.getEnemyState()==Enemy_State.move)){
+        if(!this.isHaveDeBuff(BuffId.Hero_XuanYun)&&(this.getEnemyState()==Enemy_State.move||this.getEnemyState()==Enemy_State.ship)){
             let speed=this.cur_move_speed*dt;
             if(this.move_target_pos){
                 let offsetPos=this.move_target_pos.sub(this.node.getPosition());

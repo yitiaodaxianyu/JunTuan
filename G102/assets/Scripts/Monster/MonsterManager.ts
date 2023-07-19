@@ -10,6 +10,7 @@ import GroundManager from "../Game/GroundManager";
 import { BingNvWallData } from "../Hero/Game/HeroConfig";
 import { JsonMonsterGrowthAttributes } from "./Data/MonsterGrowthAttributes";
 import { Enemy_State } from "../Enemy/EnemyConfig";
+import WallManager from "../Wall/WallManager";
 
 
 
@@ -24,6 +25,8 @@ export default class MonsterManager extends MapNodePool {
     total_monster_num: number = 0;
     /**击杀怪物数量 */
     killed_monster_num: number = 0;
+    //上船的怪物数量
+    private _ship_monster_num: number = 0;
     /**剩余怪物数量 */
     drop_root: cc.Node = null;
     coin_pos: cc.Vec2 = cc.v2();
@@ -59,6 +62,8 @@ export default class MonsterManager extends MapNodePool {
         this.ok_num = 0;
         let fightingInfo = GameManager.getInstance().fighting_info;
         this.killed_monster_num = 0;
+        this.ship_monster_num = 0;
+        this.destroyAllMonster();
         this.total_monster_num = fightingInfo.total_monster_num;
         this.prev_uuid = "";
         //怪物id数组
@@ -99,6 +104,19 @@ export default class MonsterManager extends MapNodePool {
         GameEffectsManager.getInstance().addEffectPoolById(GameEffectId.drop_gem_shadow, 16);
         GameEffectsManager.getInstance().addEffectPoolById(GameEffectId.drop_coin_shadow, 16);
     }
+
+    public set ship_monster_num(v: number) {
+        this._ship_monster_num = v;
+        if (this._ship_monster_num >= 10) {
+            GameManager.getInstance().showGameLose();
+        }
+    }
+
+
+    public get ship_monster_num(): number {
+        return this._ship_monster_num;
+    }
+
 
     addMonsterPool(id: number, initCount: number, loadCallback?: Function) {
         let MSM = MonsterConfigureManager.getInstance();
@@ -161,6 +179,16 @@ export default class MonsterManager extends MapNodePool {
         }
         return isActionDie;
     }
+    //有怪上船了
+    upShipMonster(): void {
+        if (this.killed_monster_num + this.ship_monster_num >= this.total_monster_num) {
+
+            if (this.getRemainMonster() <= 0) {
+                GameManager.getInstance().showGameWin();
+            }
+
+        }
+    }
     /**回收敌人到对象池 */
     destroyMonster(node: cc.Node, type: number, isCanWin: boolean = true) {
         node.color = cc.Color.WHITE;
@@ -176,8 +204,10 @@ export default class MonsterManager extends MapNodePool {
             this.killed_monster_num++;
             GameManager.getInstance().onEnemyDie(monsterTs.score, monsterTs.is_can_count);
         }
-        if (this.killed_monster_num >= this.total_monster_num) {
+
+        if (this.killed_monster_num + this.ship_monster_num >= this.total_monster_num) {
             if (isCanWin) {
+
                 if (this.getRemainMonster() <= 0) {
                     GameManager.getInstance().showGameWin();
                 }
@@ -305,7 +335,7 @@ export default class MonsterManager extends MapNodePool {
                     if (posIndex == null || posIndex == -1) {
                         attMonsters.push(monster);
                     } else {
-                        if(Math.abs(monster.x-GameManager.getInstance().charPosX)<=75){
+                        if (Math.abs(monster.x - GameManager.getInstance().charPosX) <= 75 && monster.y > WallManager.getInstance().getMainWall().getWallRect().yMax) {
                             attMonsters.push(monster);
                         }
                     }

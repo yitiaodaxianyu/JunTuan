@@ -140,8 +140,9 @@ export default class Wall extends cc.Component {
      * @param strengthType 怪物类型
      * @param monsterData 怪物数据
      * @param isReal 是否真实伤害
+     * @param ship 船撞的时候的伤害
      */
-    beInjured(monsterAttData:MonsterAttData,isReal:boolean=false):InjuredData{
+    beInjured(monsterAttData:MonsterAttData,isReal:boolean=false,ship:number=0):InjuredData{
         let monsterData=monsterAttData.monster_attribute;
         let data=new InjuredData();
         let missRate=0;        
@@ -195,6 +196,9 @@ export default class Wall extends cc.Component {
                 damage=InjuredData.calcSkillDamageNum(monsterData.Attack,monsterAttData.skill_rate,this.attribute_data.Defense,monsterAttData.zengshang_rate,this.attribute_data.reduce_injury_rate);
             }
             data.setDamageNum(damage);
+        }else if(monsterAttData.damage_type==DamageType.Ship){
+            data.feedback_type=FeedBackType.Null;
+            data.setDamageNum(ship);
         }
         if(data.getDamageNum()>0){
             //cc.log(data.getDamageNum());

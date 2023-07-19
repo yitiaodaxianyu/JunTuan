@@ -172,6 +172,9 @@ export enum DamageType{
     /**主动技能的伤害 */
     Skill,
     /**被动技能的伤害 */
+
+    //船撞的伤害
+    Ship
 }
 
 export enum ShieldType{

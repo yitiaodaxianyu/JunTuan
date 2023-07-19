@@ -24,6 +24,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var ApkManager_1 = require("../Ads/ApkManager");
+var Constants_1 = require("../Constants");
 var HpProgressBar_1 = require("../Monster/HpProgressBar");
 var GameManager_1 = require("../GameManager");
 var MyTool_1 = require("../Tools/MyTool");
@@ -34,9 +35,9 @@ var BuffStateManager_1 = require("../Game/BuffStateManager");
 var Wall_1 = require("./Wall");
 var WallManager_1 = require("./WallManager");
 var WallConfig_1 = require("./WallConfig");
-var GameEffectsManager_1 = require("../Game/GameEffectsManager");
 var FightingManager_1 = require("../Game/FightingManager");
 var BuffData_1 = require("../Hero/Game/BuffData");
+var TouchPlane_1 = require("../Game/TouchPlane/TouchPlane");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var MainWall = /** @class */ (function (_super) {
     __extends(MainWall, _super);
@@ -55,6 +56,8 @@ var MainWall = /** @class */ (function (_super) {
         _this.injured_action = null;
         _this.node_vertigo = null;
         _this.vertigo_action = null;
+        _this.targetX = 0;
+        _this.easing = 0.1;
         return _this;
     }
     MainWall.prototype.onLoad = function () {
@@ -77,15 +80,31 @@ var MainWall = /** @class */ (function (_super) {
         WallManager_1.default.getInstance().addWall(WallConfig_1.WallType.Main, this);
         this.showHp();
         this.showShildProgress();
+        TouchPlane_1.instance.on(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
     };
     MainWall.prototype.start = function () {
         BuffStateManager_1.default.getInstance().createBuffRoot(cc.v2(this.node.x, this.node.y + 150), HeroConfig_1.Hero_Type.Hero_Num);
-        var wallDown = this.node.getChildByName('wall_down');
-        var worldPos = wallDown.parent.convertToWorldSpaceAR(wallDown.getPosition());
-        var pos = GameEffectsManager_1.GameEffectsManager.getInstance().node.convertToNodeSpaceAR(worldPos);
-        this.setWallRect(cc.rect(-cc.winSize.width / 2, pos.y - wallDown.height / 2, cc.winSize.width, wallDown.height));
-        var ggp = FightingManager_1.default.getInstance().node.getComponent(cc.Graphics);
-        ggp.rect(this.getWallRect().x, this.getWallRect().y, this.getWallRect().width, this.getWallRect().height);
+        //let wallDown = this.node.getChildByName('wall_down');
+        //let worldPos = wallDown.parent.convertToWorldSpaceAR(wallDown.getPosition());
+        //let pos = GameEffectsManager.getInstance().node.convertToNodeSpaceAR(worldPos);
+        // this.setWallRect(cc.rect(wallDown.x, wallDown.y, wallDown.width, wallDown.height));
+    };
+    MainWall.prototype.onDestroy = function () {
+        TouchPlane_1.instance.off(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
+    };
+    MainWall.prototype.onTouchEndByJoy = function (event, data) {
+        this.targetX = (GameManager_1.default.getInstance().aniType - 4) * 75;
+    };
+    MainWall.prototype.update = function (dt) {
+        if (GameManager_1.default.getInstance().cur_game_state != Constants_1.GameState.Game_Playing)
+            return;
+        if (this.node) {
+            var vx = (this.targetX - this.node.x) * this.easing;
+            this.node.x += vx;
+            this.setWallRect(cc.rect(this.node.x - this.node.width / 2, this.node.y - this.node.height / 2, this.node.width, this.node.height));
+            var ggp = FightingManager_1.default.getInstance().node.getComponent(cc.Graphics);
+            ggp.rect(this.getWallRect().x, this.getWallRect().y, this.getWallRect().width, this.getWallRect().height);
+        }
     };
     MainWall.prototype.onWallDie = function () {
         GameManager_1.default.getInstance().onWallDie();

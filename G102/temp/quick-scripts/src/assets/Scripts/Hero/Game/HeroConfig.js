@@ -173,6 +173,8 @@ var DamageType;
     /**主动技能的伤害 */
     DamageType[DamageType["Skill"] = 2] = "Skill";
     /**被动技能的伤害 */
+    //船撞的伤害
+    DamageType[DamageType["Ship"] = 3] = "Ship";
 })(DamageType = exports.DamageType || (exports.DamageType = {}));
 var ShieldType;
 (function (ShieldType) {

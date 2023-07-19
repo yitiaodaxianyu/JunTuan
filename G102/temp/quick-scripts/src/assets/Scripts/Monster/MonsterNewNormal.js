@@ -243,7 +243,7 @@ var MonsterNewNormal = /** @class */ (function (_super) {
         }
     };
     MonsterNewNormal.prototype.moving = function (dt) {
-        if (!this.isHaveDeBuff(HeroConfig_1.BuffId.Hero_XuanYun) && (this.getEnemyState() == EnemyConfig_1.Enemy_State.move)) {
+        if (!this.isHaveDeBuff(HeroConfig_1.BuffId.Hero_XuanYun) && (this.getEnemyState() == EnemyConfig_1.Enemy_State.move || this.getEnemyState() == EnemyConfig_1.Enemy_State.ship)) {
             var speed = this.cur_move_speed * dt;
             if (this.move_target_pos) {
                 var offsetPos = this.move_target_pos.sub(this.node.getPosition());

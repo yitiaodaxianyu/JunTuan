@@ -56,7 +56,6 @@ var WallManager_1 = require("../Wall/WallManager");
 var WeekCardUi_1 = require("../WeekCard/WeekCardUi");
 var BuffStateManager_1 = require("./BuffStateManager");
 var GameEffectsManager_1 = require("./GameEffectsManager");
-var TouchPlane_1 = require("./TouchPlane/TouchPlane");
 var BuyBattlePotion_1 = require("./Ui/BuyBattlePotion");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var Game = /** @class */ (function (_super) {
@@ -112,8 +111,6 @@ var Game = /** @class */ (function (_super) {
         _this.battlepotionstate = [1, 1, 1]; //战斗药水在这一局是否使用了  默认每一个药水有一次使用的机会
         _this.indexLoad = [2, 1, 3, 0, 4];
         _this.indexData = [3, 1, 0, 2, 4];
-        _this.targetX = 0;
-        _this.easing = 0.1;
         return _this;
     }
     Game.prototype.onLoad = function () {
@@ -148,10 +145,10 @@ var Game = /** @class */ (function (_super) {
         this.setTryAutoLabel();
         this.setTryRateLabel();
         GameManager_1.default.getInstance().setGameRate(1);
-        TouchPlane_1.instance.on(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
+        // instance.on(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
     };
     Game.prototype.onDestroy = function () {
-        TouchPlane_1.instance.off(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
+        // instance.off(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
     };
     Game.prototype.start = function () {
         this.showLoading();
@@ -955,9 +952,6 @@ var Game = /** @class */ (function (_super) {
         //     this.dps_label.string='DPS '+dps;
         // }
     };
-    Game.prototype.onTouchEndByJoy = function (event, data) {
-        this.targetX = (GameManager_1.default.getInstance().aniType - 4) * 75;
-    };
     Game.prototype.update = function (dt) {
         if (GameManager_1.default.getInstance().cur_game_state == Constants_1.GameState.Game_Playing) {
             this.time_jishu += dt;
@@ -1027,10 +1021,10 @@ var Game = /** @class */ (function (_super) {
                     this.bg1.y = this.bg0.y + this.bg0.height;
                 }
             }
-            if (this.bg2_wall) {
-                var vx = (this.targetX - this.bg2_wall.x) * this.easing;
-                this.bg2_wall.x += vx;
-            }
+            // if (this.bg2_wall) {
+            //     let vx: number = (this.targetX - this.bg2_wall.x) * this.easing;
+            //     this.bg2_wall.x += vx;
+            // }
         }
     };
     // protected lateUpdate(dt: number): void {

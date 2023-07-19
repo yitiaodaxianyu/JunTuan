@@ -1265,7 +1265,7 @@ var Monster = /** @class */ (function (_super) {
         return this.hidden_attribute;
     };
     Monster.prototype.getIsDie = function () {
-        return this.monster_state == EnemyConfig_1.Enemy_State.die;
+        return this.monster_state == EnemyConfig_1.Enemy_State.die || this.monster_state == EnemyConfig_1.Enemy_State.ship;
     };
     Monster.prototype.getEnemyState = function () {
         return this.monster_state;
@@ -1445,6 +1445,38 @@ var Monster = /** @class */ (function (_super) {
                 }
             }
         });
+        var mainWall = WallManager_1.default.getInstance().getMainWall();
+        var mainRect = mainWall.getWallRect();
+        if (mainRect.contains(this.node.getPosition())) {
+            if (this.node.y > mainWall.node.y) {
+                this.node.y = mainRect.yMax;
+            }
+            if (this.node.y < mainWall.node.y) {
+                this.node.y = mainRect.yMin;
+            }
+            this.onCollisionShip();
+        }
+        if (this.node.y < mainRect.yMin) {
+        }
+        if (this.node.y <= mainRect.yMin - 200) {
+            this.node.y = mainRect.yMin - 200;
+            if (this.monster_state != EnemyConfig_1.Enemy_State.ship) {
+                MonsterManager_1.default.getInstance().ship_monster_num++;
+                this.setEnemyState(EnemyConfig_1.Enemy_State.ship);
+            }
+        }
+    };
+    Monster.prototype.onCollisionShip = function () {
+        var md = new MonsterData_1.MonsterAttData();
+        md.damage_type = HeroConfig_1.DamageType.Ship;
+        md.is_bullet = false;
+        md.skill_rate = 0;
+        md.monster_attribute = this.monster_data;
+        md.zengshang_rate = this.zengshang_rate;
+        md.monster_ts = this;
+        md.strength_type = this.getStrengthType();
+        WallManager_1.default.getInstance().getMainWall().beInjured(md, false, this.getCurHp() * 0.5);
+        this.changeHp(-9999999999);
     };
     Monster.prototype.setPos = function (pos) {
         this.setX(pos.x);

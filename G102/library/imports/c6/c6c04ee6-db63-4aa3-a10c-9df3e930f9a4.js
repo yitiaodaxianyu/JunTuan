@@ -84,6 +84,8 @@ var Enemy_State;
     Enemy_State[Enemy_State["die"] = 4] = "die";
     /**出生，此时是无敌的 */
     Enemy_State[Enemy_State["born"] = 5] = "born";
+    //上船
+    Enemy_State[Enemy_State["ship"] = 6] = "ship";
 })(Enemy_State = exports.Enemy_State || (exports.Enemy_State = {}));
 var Enemy_Buff_Type;
 (function (Enemy_Buff_Type) {

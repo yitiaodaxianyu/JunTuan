@@ -156,9 +156,11 @@ var Wall = /** @class */ (function (_super) {
      * @param strengthType 怪物类型
      * @param monsterData 怪物数据
      * @param isReal 是否真实伤害
+     * @param ship 船撞的时候的伤害
      */
-    Wall.prototype.beInjured = function (monsterAttData, isReal) {
+    Wall.prototype.beInjured = function (monsterAttData, isReal, ship) {
         if (isReal === void 0) { isReal = false; }
+        if (ship === void 0) { ship = 0; }
         var monsterData = monsterAttData.monster_attribute;
         var data = new MonsterData_1.InjuredData();
         var missRate = 0;
@@ -222,6 +224,10 @@ var Wall = /** @class */ (function (_super) {
                 damage = MonsterData_1.InjuredData.calcSkillDamageNum(monsterData.Attack, monsterAttData.skill_rate, this.attribute_data.Defense, monsterAttData.zengshang_rate, this.attribute_data.reduce_injury_rate);
             }
             data.setDamageNum(damage);
+        }
+        else if (monsterAttData.damage_type == HeroConfig_1.DamageType.Ship) {
+            data.feedback_type = MonsterData_1.FeedBackType.Null;
+            data.setDamageNum(ship);
         }
         if (data.getDamageNum() > 0) {
             //cc.log(data.getDamageNum());

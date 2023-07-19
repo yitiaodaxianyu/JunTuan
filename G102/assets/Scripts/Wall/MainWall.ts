@@ -1,11 +1,11 @@
 import ApkManager from "../Ads/ApkManager";
-import { JiaSu } from "../Constants";
+import { GameState, JiaSu } from "../Constants";
 import HpProgressBar from "../Monster/HpProgressBar";
 import GameManager from "../GameManager";
 import MyTool from "../Tools/MyTool";
 import ImmunityShield from "./ImmunityShield";
 import Shield from "./Shield";
-import { BuffId, BuffType, Hero_Type, SkillType } from "../Hero/Game/HeroConfig";
+import { BuffId, BuffType, Hero_State, Hero_Type, SkillType } from "../Hero/Game/HeroConfig";
 import { LevelManager } from "../Level/LevelManager";
 import TutorailsManager from "../Tutorials/TutorailsManager";
 import BuffStateManager from "../Game/BuffStateManager";
@@ -15,6 +15,7 @@ import { WallType } from "./WallConfig";
 import { GameEffectsManager } from "../Game/GameEffectsManager";
 import FightingManager from "../Game/FightingManager";
 import { BuffData } from "../Hero/Game/BuffData";
+import { instance } from "../Game/TouchPlane/TouchPlane";
 
 
 const { ccclass, property } = cc._decorator;
@@ -56,19 +57,46 @@ export default class MainWall extends Wall {
         WallManager.getInstance().addWall(WallType.Main, this);
         this.showHp();
         this.showShildProgress();
+        instance.on(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
 
     }
 
     start() {
         BuffStateManager.getInstance().createBuffRoot(cc.v2(this.node.x, this.node.y + 150), Hero_Type.Hero_Num);
-        let wallDown = this.node.getChildByName('wall_down');
-        let worldPos = wallDown.parent.convertToWorldSpaceAR(wallDown.getPosition());
-        let pos = GameEffectsManager.getInstance().node.convertToNodeSpaceAR(worldPos);
-        this.setWallRect(cc.rect(-cc.winSize.width / 2, pos.y - wallDown.height / 2, cc.winSize.width, wallDown.height));
-        let ggp = FightingManager.getInstance().node.getComponent(cc.Graphics);
-        ggp.rect(this.getWallRect().x, this.getWallRect().y, this.getWallRect().width, this.getWallRect().height);
+        //let wallDown = this.node.getChildByName('wall_down');
+        //let worldPos = wallDown.parent.convertToWorldSpaceAR(wallDown.getPosition());
+        //let pos = GameEffectsManager.getInstance().node.convertToNodeSpaceAR(worldPos);
+        // this.setWallRect(cc.rect(wallDown.x, wallDown.y, wallDown.width, wallDown.height));
+      
     }
+    protected onDestroy(): void {
+        instance.off(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
+    }
+    targetX: number = 0;
+    easing: number = 0.1;
+    onTouchEndByJoy(event: cc.Event.EventTouch, data) {
+        this.targetX = (GameManager.getInstance().aniType - 4) * 75;
+    }
+    protected update(dt: number): void {
 
+        if (GameManager.getInstance().cur_game_state != GameState.Game_Playing)
+            return;
+        if(this.node){
+
+            let vx: number = (this.targetX - this.node.x) * this.easing;
+            this.node.x += vx;
+
+            this.setWallRect(cc.rect( this.node.x-this.node.width/2,  this.node.y-this.node.height/2,  this.node.width,  this.node.height));
+            let ggp = FightingManager.getInstance().node.getComponent(cc.Graphics);
+            ggp.rect(this.getWallRect().x, this.getWallRect().y, this.getWallRect().width, this.getWallRect().height);
+
+           
+               
+            
+
+        }
+         
+    }
     onWallDie() {
         GameManager.getInstance().onWallDie();
     }

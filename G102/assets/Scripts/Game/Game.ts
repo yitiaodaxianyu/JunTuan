@@ -139,10 +139,10 @@ export default class Game extends cc.Component {
         this.setTryAutoLabel();
         this.setTryRateLabel();
         GameManager.getInstance().setGameRate(1);
-        instance.on(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
+        // instance.on(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
     }
     protected onDestroy(): void {
-        instance.off(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
+        // instance.off(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
     }
     start() {
         this.showLoading();
@@ -967,11 +967,7 @@ export default class Game extends cc.Component {
 
     }
 
-    targetX: number = 0;
-    easing: number = 0.1;
-    onTouchEndByJoy(event: cc.Event.EventTouch, data) {
-        this.targetX = (GameManager.getInstance().aniType - 4) * 75;
-    }
+   
 
 
     update(dt) {
@@ -1043,10 +1039,10 @@ export default class Game extends cc.Component {
                 }
             }
 
-            if (this.bg2_wall) {
-                let vx: number = (this.targetX - this.bg2_wall.x) * this.easing;
-                this.bg2_wall.x += vx;
-            }
+            // if (this.bg2_wall) {
+            //     let vx: number = (this.targetX - this.bg2_wall.x) * this.easing;
+            //     this.bg2_wall.x += vx;
+            // }
 
         }
 

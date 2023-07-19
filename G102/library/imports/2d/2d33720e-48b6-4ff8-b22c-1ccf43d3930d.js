@@ -34,6 +34,7 @@ var MonsterData_1 = require("./MonsterData");
 var GroundManager_1 = require("../Game/GroundManager");
 var HeroConfig_1 = require("../Hero/Game/HeroConfig");
 var EnemyConfig_1 = require("../Enemy/EnemyConfig");
+var WallManager_1 = require("../Wall/WallManager");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var MonsterManager = /** @class */ (function (_super) {
     __extends(MonsterManager, _super);
@@ -45,6 +46,8 @@ var MonsterManager = /** @class */ (function (_super) {
         _this.total_monster_num = 0;
         /**击杀怪物数量 */
         _this.killed_monster_num = 0;
+        //上船的怪物数量
+        _this._ship_monster_num = 0;
         /**剩余怪物数量 */
         _this.drop_root = null;
         _this.coin_pos = cc.v2();
@@ -77,6 +80,8 @@ var MonsterManager = /** @class */ (function (_super) {
         this.ok_num = 0;
         var fightingInfo = GameManager_1.default.getInstance().fighting_info;
         this.killed_monster_num = 0;
+        this.ship_monster_num = 0;
+        this.destroyAllMonster();
         this.total_monster_num = fightingInfo.total_monster_num;
         this.prev_uuid = "";
         //怪物id数组
@@ -116,6 +121,19 @@ var MonsterManager = /** @class */ (function (_super) {
         GameEffectsManager_1.GameEffectsManager.getInstance().addEffectPoolById(GameEffectsManager_1.GameEffectId.drop_gem_shadow, 16);
         GameEffectsManager_1.GameEffectsManager.getInstance().addEffectPoolById(GameEffectsManager_1.GameEffectId.drop_coin_shadow, 16);
     };
+    Object.defineProperty(MonsterManager.prototype, "ship_monster_num", {
+        get: function () {
+            return this._ship_monster_num;
+        },
+        set: function (v) {
+            this._ship_monster_num = v;
+            if (this._ship_monster_num >= 10) {
+                GameManager_1.default.getInstance().showGameLose();
+            }
+        },
+        enumerable: false,
+        configurable: true
+    });
     MonsterManager.prototype.addMonsterPool = function (id, initCount, loadCallback) {
         var MSM = MonsterConfigure_1.MonsterConfigureManager.getInstance();
         var jsonData = MSM.getJsonMonsterConfigure(id);
@@ -194,7 +212,7 @@ var MonsterManager = /** @class */ (function (_super) {
             this.killed_monster_num++;
             GameManager_1.default.getInstance().onEnemyDie(monsterTs.score, monsterTs.is_can_count);
         }
-        if (this.killed_monster_num >= this.total_monster_num) {
+        if (this.killed_monster_num + this.ship_monster_num >= this.total_monster_num) {
             if (isCanWin) {
                 if (this.getRemainMonster() <= 0) {
                     GameManager_1.default.getInstance().showGameWin();
@@ -320,7 +338,7 @@ var MonsterManager = /** @class */ (function (_super) {
                         attMonsters.push(monster);
                     }
                     else {
-                        if (Math.abs(monster.x - GameManager_1.default.getInstance().charPosX) <= 75) {
+                        if (Math.abs(monster.x - GameManager_1.default.getInstance().charPosX) <= 75 && monster.y > WallManager_1.default.getInstance().getMainWall().getWallRect().yMax) {
                             attMonsters.push(monster);
                         }
                     }

@@ -80,6 +80,8 @@ export enum Enemy_State
     die = 4,
     /**出生，此时是无敌的 */
     born,
+    //上船
+    ship,
 }
 
 export enum Enemy_Buff_Type
