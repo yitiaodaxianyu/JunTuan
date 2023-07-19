@@ -338,7 +338,7 @@ export default class MonsterNewNormal extends Monster {
             this.startAttack();
         }else{
             this.setMoveDir(Math.PI*3/2);
-            this.move_target_pos=null;        
+            this.move_target_pos=null;       
             this.moving(dt);
         }
     }

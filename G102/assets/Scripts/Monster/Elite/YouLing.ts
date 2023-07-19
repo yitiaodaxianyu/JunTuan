@@ -8,7 +8,6 @@ import { WallType } from "../../Wall/WallConfig";
 import WallManager from "../../Wall/WallManager";
 import { StrengthType } from "../MonsterData";
 import MonsterNewNormal from "../MonsterNewNormal";
-import MonsterNormal from "../MonsterNormal";
 
 
 const {ccclass, property} = cc._decorator;

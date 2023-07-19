@@ -6,7 +6,7 @@ import { HaloData, HaloId } from "../../Hero/Game/HeroConfig";
 import Monster from "../Monster";
 import MonsterManager from "../MonsterManager";
 import MonsterNewNormal from "../MonsterNewNormal";
-import MonsterNormal from "../MonsterNormal";
+
 
 
 const {ccclass, property} = cc._decorator;
