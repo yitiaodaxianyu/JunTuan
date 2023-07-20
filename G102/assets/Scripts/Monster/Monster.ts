@@ -1467,7 +1467,10 @@ export default class Monster extends cc.Component {
     setFlip(isRight:boolean){
         this.node.scaleX=isRight?this.setup_scale:-this.setup_scale;
     }
-
+    //隐藏阴影
+    hidShadow(){
+        this.shadow.opacity=0;
+    }
     update(dt)
     {        
         if(this.hp_progress)

@@ -832,6 +832,8 @@ export default class Game extends cc.Component {
         this.dist_xx = -315;
         this.wave_pos_x = new Array();
         let waveTypes = GameManager.getInstance().fighting_info.getWaveTypes();
+       
+        
         let len = waveTypes.length;
         waveBg.removeAllChildren();
         //算出每个的长度
@@ -890,6 +892,8 @@ export default class Game extends cc.Component {
                     this.cur_wave_sp.width = this.one_width;
                 }
                 let waveBg = cc.find('Canvas/Ui_Root/top_ui/waveBg');
+               
+                
                 this.cur_wave_sp = waveBg.getChildByName(gm.cur_wave.toString());
                 let types = GameManager.getInstance().fighting_info.getWaveTypes();
                 this.cur_wave_sp.getComponent(cc.Sprite).spriteFrame = this.sp_wave[types[gm.cur_wave] + 1];

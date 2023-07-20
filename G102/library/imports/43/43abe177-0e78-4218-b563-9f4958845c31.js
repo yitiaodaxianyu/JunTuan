@@ -1463,6 +1463,7 @@ var Monster = /** @class */ (function (_super) {
             if (this.monster_state != EnemyConfig_1.Enemy_State.ship) {
                 MonsterManager_1.default.getInstance().ship_monster_num++;
                 this.setEnemyState(EnemyConfig_1.Enemy_State.ship);
+                MonsterManager_1.default.getInstance().upShipMonster();
             }
         }
     };
@@ -1495,6 +1496,10 @@ var Monster = /** @class */ (function (_super) {
     /**设置翻转 */
     Monster.prototype.setFlip = function (isRight) {
         this.node.scaleX = isRight ? this.setup_scale : -this.setup_scale;
+    };
+    //隐藏阴影
+    Monster.prototype.hidShadow = function () {
+        this.shadow.opacity = 0;
     };
     Monster.prototype.update = function (dt) {
         if (this.hp_progress) {

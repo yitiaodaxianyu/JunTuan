@@ -5019,11 +5019,6 @@
     "meta": 1689133965011,
     "relativePath": "Scripts\\Game\\mapmove.ts"
   },
-  "54330240-d110-4601-a66a-dd466dc321ae": {
-    "asset": 1688719263414,
-    "meta": 1689133965017,
-    "relativePath": "Scripts\\Game\\MapNodePool.ts"
-  },
   "b3adb262-4bda-47cb-9159-4618a8f2178b": {
     "asset": 1688719263415,
     "meta": 1689133965028,
@@ -15254,11 +15249,6 @@
     "meta": 1689739075081,
     "relativePath": "Scripts\\Game\\TouchPlane\\TouchPlane.ts"
   },
-  "91f986bb-5557-4ec3-874f-fdb1de99e8d1": {
-    "asset": 1689739012817,
-    "meta": 1689739075258,
-    "relativePath": "Scripts\\GameManager.ts"
-  },
   "47edb50b-8706-4f86-86dd-2cc730934e1c": {
     "asset": 1689739012830,
     "meta": 1689739075394,
@@ -15290,19 +15280,14 @@
     "relativePath": "resources\\json\\MonsterConfigure.json"
   },
   "c2b29c22-b703-4d69-9932-06eafc1afd76": {
-    "asset": 1689762579474,
-    "meta": 1689762579483,
+    "asset": 1689835270540,
+    "meta": 1689835270548,
     "relativePath": "Scenes\\game.fire"
   },
   "d2c8e048-a55b-4197-886f-a63b3fe510d1": {
     "asset": 1688719261076,
     "meta": 1689746962504,
     "relativePath": "resources\\Images\\game_ui\\game_ui.png"
-  },
-  "3737319f-5d5f-486e-ad03-2475ca168052": {
-    "asset": 1689749118141,
-    "meta": 1689749125090,
-    "relativePath": "Scripts\\Game\\Game.ts"
   },
   "4ae3bc42-f6fa-4d2c-b84e-8747ca4a90a2": {
     "asset": 1689749993598,
@@ -15344,14 +15329,29 @@
     "meta": 1689763904728,
     "relativePath": "Scripts\\Monster\\MonsterNewNormal.ts"
   },
+  "54330240-d110-4601-a66a-dd466dc321ae": {
+    "asset": 1689820659645,
+    "meta": 1689820691783,
+    "relativePath": "Scripts\\Game\\MapNodePool.ts"
+  },
   "43abe177-0e78-4218-b563-9f4958845c31": {
-    "asset": 1689764305379,
-    "meta": 1689764309942,
+    "asset": 1689823359913,
+    "meta": 1689823442538,
     "relativePath": "Scripts\\Monster\\Monster.ts"
   },
+  "3737319f-5d5f-486e-ad03-2475ca168052": {
+    "asset": 1689832796807,
+    "meta": 1689832801551,
+    "relativePath": "Scripts\\Game\\Game.ts"
+  },
   "2d33720e-48b6-4ff8-b22c-1ccf43d3930d": {
-    "asset": 1689764430121,
-    "meta": 1689764433813,
+    "asset": 1689834981888,
+    "meta": 1689834996775,
     "relativePath": "Scripts\\Monster\\MonsterManager.ts"
+  },
+  "91f986bb-5557-4ec3-874f-fdb1de99e8d1": {
+    "asset": 1689835172191,
+    "meta": 1689835173614,
+    "relativePath": "Scripts\\GameManager.ts"
   }
 }

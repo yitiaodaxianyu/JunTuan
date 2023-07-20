@@ -58,12 +58,13 @@ export default class MonsterManager extends MapNodePool {
 
     //加载当前关卡会出现的怪物
     loadData() {
+    
         this.is_load_ok = false;
         this.ok_num = 0;
         let fightingInfo = GameManager.getInstance().fighting_info;
         this.killed_monster_num = 0;
         this.ship_monster_num = 0;
-        this.destroyAllMonster();
+
         this.total_monster_num = fightingInfo.total_monster_num;
         this.prev_uuid = "";
         //怪物id数组
@@ -171,12 +172,12 @@ export default class MonsterManager extends MapNodePool {
         let isActionDie = true;
         GameManager.getInstance().sound_manager.playSound(SoundIndex.YX_Shouji);
         //爆金币
-        let pos = monsterTs.node.getPosition();
-        if (GameManager.getInstance().cur_game_mode == GameMode.Main) {
-            this.createDropProp(pos, GameEffectId.drop_coin);
-            this.createDropProp(pos, GameEffectId.drop_coin);
-            this.createDropProp(pos, GameEffectId.drop_gem);
-        }
+        // let pos = monsterTs.node.getPosition();
+        // if (GameManager.getInstance().cur_game_mode == GameMode.Main) {
+        //     this.createDropProp(pos, GameEffectId.drop_coin);
+        //     this.createDropProp(pos, GameEffectId.drop_coin);
+        //     this.createDropProp(pos, GameEffectId.drop_gem);
+        // }
         return isActionDie;
     }
     //有怪上船了
@@ -191,6 +192,7 @@ export default class MonsterManager extends MapNodePool {
     }
     /**回收敌人到对象池 */
     destroyMonster(node: cc.Node, type: number, isCanWin: boolean = true) {
+      
         node.color = cc.Color.WHITE;
         let monsterTs = node.getComponent(Monster);
         monsterTs.setEnemyState(Enemy_State.die);
@@ -283,7 +285,7 @@ export default class MonsterManager extends MapNodePool {
         let drops = this.drop_root.children;
         let len = drops.length;
         for (let i = 0; i < len; i++) {
-            let prop = drops[i];
+            let prop = drops[0];
             let id = parseInt(prop.name);
             if (id) {
                 cc.tween(prop).to(0.5, { opacity: 0 }).call(() => {
@@ -297,11 +299,16 @@ export default class MonsterManager extends MapNodePool {
     destroyAllMonster() {
         let allMonster = this.node.children;
         let len = allMonster.length;
+
+       
+        
         for (let i = 0; i < len; i++) {
-            let monster = allMonster[i];
+            let monster = allMonster[0];
+       
             if (monster) {
                 let monsterTS = monster.getComponent(Monster);
                 if (monsterTS) {
+                    monsterTS.hidShadow();
                     this.destroyMonster(monster, monsterTS.monster_type);
                 }
             }

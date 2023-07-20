@@ -757,7 +757,7 @@
         "__id__": 16
       }
     ],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 18
@@ -4738,7 +4738,7 @@
       "__id__": 101
     },
     "_children": [],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 105
@@ -6063,7 +6063,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 61.22,
+      "width": 4,
       "height": 36.76
     },
     "_anchorPoint": {

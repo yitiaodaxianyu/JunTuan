@@ -23,7 +23,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var Constants_1 = require("../Constants");
 var GameEffectsManager_1 = require("../Game/GameEffectsManager");
 var GameManager_1 = require("../GameManager");
 var MapNodePool_1 = require("../Game/MapNodePool");
@@ -81,7 +80,6 @@ var MonsterManager = /** @class */ (function (_super) {
         var fightingInfo = GameManager_1.default.getInstance().fighting_info;
         this.killed_monster_num = 0;
         this.ship_monster_num = 0;
-        this.destroyAllMonster();
         this.total_monster_num = fightingInfo.total_monster_num;
         this.prev_uuid = "";
         //怪物id数组
@@ -188,13 +186,21 @@ var MonsterManager = /** @class */ (function (_super) {
         var isActionDie = true;
         GameManager_1.default.getInstance().sound_manager.playSound(AudioConstants_1.SoundIndex.YX_Shouji);
         //爆金币
-        var pos = monsterTs.node.getPosition();
-        if (GameManager_1.default.getInstance().cur_game_mode == Constants_1.GameMode.Main) {
-            this.createDropProp(pos, GameEffectsManager_1.GameEffectId.drop_coin);
-            this.createDropProp(pos, GameEffectsManager_1.GameEffectId.drop_coin);
-            this.createDropProp(pos, GameEffectsManager_1.GameEffectId.drop_gem);
-        }
+        // let pos = monsterTs.node.getPosition();
+        // if (GameManager.getInstance().cur_game_mode == GameMode.Main) {
+        //     this.createDropProp(pos, GameEffectId.drop_coin);
+        //     this.createDropProp(pos, GameEffectId.drop_coin);
+        //     this.createDropProp(pos, GameEffectId.drop_gem);
+        // }
         return isActionDie;
+    };
+    //有怪上船了
+    MonsterManager.prototype.upShipMonster = function () {
+        if (this.killed_monster_num + this.ship_monster_num >= this.total_monster_num) {
+            if (this.getRemainMonster() <= 0) {
+                GameManager_1.default.getInstance().showGameWin();
+            }
+        }
     };
     /**回收敌人到对象池 */
     MonsterManager.prototype.destroyMonster = function (node, type, isCanWin) {
@@ -284,7 +290,7 @@ var MonsterManager = /** @class */ (function (_super) {
         var drops = this.drop_root.children;
         var len = drops.length;
         var _loop_1 = function (i) {
-            var prop = drops[i];
+            var prop = drops[0];
             var id = parseInt(prop.name);
             if (id) {
                 cc.tween(prop).to(0.5, { opacity: 0 }).call(function () {
@@ -300,10 +306,11 @@ var MonsterManager = /** @class */ (function (_super) {
         var allMonster = this.node.children;
         var len = allMonster.length;
         for (var i = 0; i < len; i++) {
-            var monster = allMonster[i];
+            var monster = allMonster[0];
             if (monster) {
                 var monsterTS = monster.getComponent(Monster_1.default);
                 if (monsterTS) {
+                    monsterTS.hidShadow();
                     this.destroyMonster(monster, monsterTS.monster_type);
                 }
             }

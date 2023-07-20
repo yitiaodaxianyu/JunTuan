@@ -549,10 +549,10 @@ var GameManager = /** @class */ (function (_super) {
     //----------------------------------------------------GAME------------------------------------------------------------------------
     GameManager.prototype.startNextLevel = function () {
         this.unscheduleAllCallbacks();
-        this.cur_wave = 0;
-        this.cur_total_num = 0;
         MonsterManager_1.default.getInstance().destroyAllDrop();
         MonsterManager_1.default.getInstance().destroyAllMonster();
+        this.cur_wave = 0;
+        this.cur_total_num = 0;
         switch (GameManager_1.getInstance().cur_game_mode) {
             case Constants_1.GameMode.Main:
                 {
@@ -823,6 +823,7 @@ var GameManager = /** @class */ (function (_super) {
     };
     GameManager.prototype.loadNextWave = function () {
         if (this.cur_wave < this.fighting_info.monster_datas.length - 1) {
+            console.log("关卡增加" + this.cur_wave);
             this.cur_wave++;
             this.loadLevel();
         }

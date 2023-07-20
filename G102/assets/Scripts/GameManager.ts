@@ -555,10 +555,13 @@ export default class GameManager extends cc.Component {
     //----------------------------------------------------GAME------------------------------------------------------------------------
     startNextLevel() {
         this.unscheduleAllCallbacks();
-        this.cur_wave = 0;
-        this.cur_total_num = 0;
+      
+        
+
         MonsterManager.getInstance().destroyAllDrop();
         MonsterManager.getInstance().destroyAllMonster();
+        this.cur_wave = 0;
+        this.cur_total_num = 0;
         switch (GameManager.getInstance().cur_game_mode) {
             case GameMode.Main: {
                 if (!TutorailsManager.getInstance().is_finish_game) {
@@ -811,6 +814,8 @@ export default class GameManager extends cc.Component {
 
     loadNextWave() {
         if (this.cur_wave < this.fighting_info.monster_datas.length - 1) {
+            console.log("关卡增加"+this.cur_wave);
+            
             this.cur_wave++;
             this.loadLevel();
         }
