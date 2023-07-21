@@ -1,1 +1,0 @@
-[1,0,0,[["cc.TextAsset",["_name","text"],1]],[[0,0,1,3]],[[0,"ad.d","interface Window {\r\n\tnewCallback: Function;\r\n\tadShow:Function;\r\n\tadInit:Function;\r\n\tgetSystemInfo:Function;\r\n};\r\ndeclare const wx: any=null;\r\n\r\ndeclare namespace cc{\r\n\texport var APK:any;\r\n}\r\n"]],0,0,[],[],[]]
