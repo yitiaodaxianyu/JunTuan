@@ -13,13 +13,13 @@
         "type": "dock-h",
         "children": [
           {
-            "width": 308.390625,
+            "width": 308,
             "height": 916,
             "type": "dock-v",
             "children": [
               {
-                "width": 308.390625,
-                "height": 568.046875,
+                "width": 308,
+                "height": 568,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -27,8 +27,8 @@
                 ]
               },
               {
-                "width": 308.390625,
-                "height": 344.953125,
+                "width": 308,
+                "height": 345,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -38,17 +38,17 @@
             ]
           },
           {
-            "width": 1130.46875,
+            "width": 1130.984375,
             "height": 916,
             "type": "dock-v",
             "children": [
               {
-                "width": 1130.46875,
+                "width": 1130.984375,
                 "height": 647,
                 "type": "dock-h",
                 "children": [
                   {
-                    "width": 863.453125,
+                    "width": 863.734375,
                     "height": 647,
                     "type": "panel",
                     "active": 0,
@@ -57,7 +57,7 @@
                     ]
                   },
                   {
-                    "width": 264,
+                    "width": 264.234375,
                     "height": 647,
                     "type": "panel",
                     "active": 0,
@@ -68,7 +68,7 @@
                 ]
               },
               {
-                "width": 1130.46875,
+                "width": 1130.984375,
                 "height": 266,
                 "type": "panel",
                 "active": 0,
@@ -81,7 +81,7 @@
             ]
           },
           {
-            "width": 459.125,
+            "width": 459,
             "height": 916,
             "type": "panel",
             "active": 0,
@@ -103,7 +103,9 @@
         "inspector",
         "cocos-services"
       ]
-    }
+    },
+    "window-1689907808661": {},
+    " build-worker-worker": {}
   },
   "panels": {
     "preferences": {
