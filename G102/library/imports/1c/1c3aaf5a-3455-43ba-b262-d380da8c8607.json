@@ -1,0 +1,26 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "RogueLikeList.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "roguelikeBtn0": {
+      "__uuid__": "a9243831-0296-482f-b506-7078169151de"
+    },
+    "roguelikeBtn0_an": {
+      "__uuid__": "0f96c1a8-cbb3-4a29-bd94-f61a026105c6"
+    },
+    "roguelikeBtn1": {
+      "__uuid__": "7ea8e8c7-8fba-4778-9b88-e3e466692f17"
+    },
+    "roguelikeBtn1_an": {
+      "__uuid__": "0bb08589-5187-4c3d-ab58-1bbc278d7647"
+    },
+    "roguelikeBtn2": {
+      "__uuid__": "4e537c56-73c1-4513-8511-6543a3e12a23"
+    },
+    "roguelikeBtn2_an": {
+      "__uuid__": "153747ab-22ec-475e-83e4-25f489f45e6c"
+    }
+  }
+}

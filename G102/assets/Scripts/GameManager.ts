@@ -708,7 +708,7 @@ export default class GameManager extends cc.Component {
 
     //显示关卡数据
     public loadLevel() {
-
+       
         if (MonsterManager.getInstance() && MonsterManager.getInstance().is_load_ok && (Hero.cur_loaded_num >= Hero.max_load_num) && (Pet.cur_loaded_num >= Pet.max_load_num) && this.fighting_info && this.cur_game_state == GameState.Game_Playing) {
             if (GameManager.getInstance().cur_game_mode == GameMode.Endless) {
                 let top = cc.find("Canvas/Ui_Root/top_ui");
@@ -814,10 +814,18 @@ export default class GameManager extends cc.Component {
 
     loadNextWave() {
         if (this.cur_wave < this.fighting_info.monster_datas.length - 1) {
-            console.log("关卡增加"+this.cur_wave);
+           
             
             this.cur_wave++;
-            this.loadLevel();
+            console.log("关卡增加到"+this.cur_wave+" "+this.cur_wave%3);
+            if(this.cur_wave%3==0){
+                console.log("显示提示TIp");
+                
+                this.showRoguelike();
+            }else{
+                this.loadLevel();
+            }
+           
         }
     }
 
@@ -987,7 +995,14 @@ export default class GameManager extends cc.Component {
             dangerText.active = true;
         }
     }
+    showRoguelike(){
+        if (this.cur_game_state == GameState.Game_Roguelike)
+            return;
 
+        this.cur_game_state = GameState.Game_Roguelike;
+        cc.director.pause();
+        UIManager.getInstance().showRoguelikeTip();
+    }
     showGamePause() {
         if (this.cur_game_state == GameState.Game_Pause)
             return;

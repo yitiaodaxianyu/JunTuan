@@ -497,15 +497,24 @@ var ToPlayMainUi = /** @class */ (function (_super) {
         if (touchTeam.getChildByName("shangzheng").active == false) {
             //上阵该英雄
             var teamList = HeroManager_1.HeroManager.getInstance().getTeamList(GameManager_1.default.getInstance().cur_game_mode);
-            for (var index = 0; index < teamList.length; index++) {
-                // @ts-ignore
-                if (teamList[index] == -1 || teamList[index] == HeroConfig_1.Hero_Type.NULL) {
-                    teamList[index] = touchTeam.getComponent(HeroItem_1.default).hero_type;
-                    HeroManager_1.HeroManager.getInstance().saveTeamList(GameManager_1.default.getInstance().cur_game_mode, teamList);
-                    this.Refreshheroitmestatus();
-                    return;
-                }
+            if (teamList[2] == -1 || teamList[2] == HeroConfig_1.Hero_Type.NULL) {
+                teamList[2] = touchTeam.getComponent(HeroItem_1.default).hero_type;
+                HeroManager_1.HeroManager.getInstance().saveTeamList(GameManager_1.default.getInstance().cur_game_mode, teamList);
+                this.Refreshheroitmestatus();
+                return;
             }
+            // for (let index = 0; index < teamList.length; index++) {
+            //     // @ts-ignore
+            //     if(index!=2){
+            //         return;
+            //     }
+            //     if(teamList[index]==-1||teamList[index]==Hero_Type.NULL){
+            //         teamList[index]=touchTeam.getComponent(HeroItem).hero_type
+            //         HeroManager.getInstance().saveTeamList(GameManager.getInstance().cur_game_mode,teamList)
+            //         this.Refreshheroitmestatus()
+            //         return
+            //     }
+            // }
             GameManager_1.default.getInstance().showMessage(LanguageManager_1.default.getInstance().getStrByTextId(130013));
         }
         else {

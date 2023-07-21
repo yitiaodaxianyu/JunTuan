@@ -1757,7 +1757,7 @@
   {
     "Text_ID": 130006,
     "English": "At least one hero",
-    "Chinese": "至少上阵一名英雄",
+    "Chinese": "你必须上阵一名英雄！",
     "Indonesian": "Setidaknya satu pahlawan",
     "Russian": "Хоть один герой",
     "Thai": "ฮีโร่อย่างน้อยหนึ่งตัว",
@@ -1820,7 +1820,7 @@
   {
     "Text_ID": 130013,
     "English": "The current heroes are full！",
-    "Chinese": "当前出战英雄已满！",
+    "Chinese": "你开始只能有一位英雄出战！",
     "Indonesian": "Para pahlawan saat ini adalah penuh",
     "Russian": "Нынешние герои полны!",
     "Thai": "วีรบุรุษปัจจุบันเต็มโศรกศพ",

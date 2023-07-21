@@ -1580,6 +1580,23 @@ var UIManager = /** @class */ (function (_super) {
             });
         }
     };
+    UIManager.prototype.showRoguelikeTip = function () {
+        var _this = this;
+        if (GameManager_1.default.getInstance().cur_game_scene == Constants_1.GameScene.game) {
+            var path = 'ui/game/roguelike_tip';
+            var prefab = this.getPrefab(path);
+            if (prefab) {
+                var node = cc.instantiate(prefab);
+                this.node.addChild(node);
+            }
+            else {
+                this.loadPrefab(path, function (asset) {
+                    var node = cc.instantiate(asset);
+                    _this.node.addChild(node);
+                });
+            }
+        }
+    };
     UIManager.prototype.showDamageStatsUi = function () {
         var _this = this;
         if (GameManager_1.default.getInstance().cur_game_scene == Constants_1.GameScene.game) {

@@ -135,6 +135,7 @@ var GameState;
     GameState[GameState["Game_Pause"] = 2] = "Game_Pause";
     GameState[GameState["Game_Lose"] = 3] = "Game_Lose";
     GameState[GameState["Game_Win"] = 4] = "Game_Win";
+    GameState[GameState["Game_Roguelike"] = 5] = "Game_Roguelike";
 })(GameState = exports.GameState || (exports.GameState = {}));
 var FightingInfo = /** @class */ (function () {
     function FightingInfo() {

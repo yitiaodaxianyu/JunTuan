@@ -38,11 +38,13 @@ var UIComponent = /** @class */ (function (_super) {
     UIComponent.prototype.onLoad = function () {
         var _this = this;
         var bg = this.node.getChildByName('bg');
-        bg.width = 800;
-        bg.height = 1642;
-        bg.on(cc.Node.EventType.TOUCH_START, function () {
-            _this.onClose();
-        }, this);
+        if (bg) {
+            bg.width = 800;
+            bg.height = 1642;
+            bg.on(cc.Node.EventType.TOUCH_START, function () {
+                _this.onClose();
+            }, this);
+        }
     };
     UIComponent.prototype.init = function (uiAc) {
         this.ui_aciton = uiAc;

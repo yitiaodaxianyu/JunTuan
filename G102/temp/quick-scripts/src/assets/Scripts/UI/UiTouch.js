@@ -36,7 +36,7 @@ var UiTouch = /** @class */ (function (_super) {
     UiTouch.prototype.onLoad = function () {
         var _this = this;
         this.node.on(cc.Node.EventType.TOUCH_START, function (e) {
-            if (GameManager_1.default.getInstance().cur_game_state == Constants_1.GameState.Game_Pause) {
+            if (GameManager_1.default.getInstance().cur_game_state == Constants_1.GameState.Game_Pause || GameManager_1.default.getInstance().cur_game_state == Constants_1.GameState.Game_Roguelike) {
                 return;
             }
             var worldPos = e.getLocation();

@@ -134,7 +134,8 @@ export enum GameState {
     Game_Playing = 1,
     Game_Pause = 2,
     Game_Lose = 3,
-    Game_Win = 4
+    Game_Win = 4,
+    Game_Roguelike = 5
 }
 
 export class FightingInfo{

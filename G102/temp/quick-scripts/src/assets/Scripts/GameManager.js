@@ -823,9 +823,15 @@ var GameManager = /** @class */ (function (_super) {
     };
     GameManager.prototype.loadNextWave = function () {
         if (this.cur_wave < this.fighting_info.monster_datas.length - 1) {
-            console.log("关卡增加" + this.cur_wave);
             this.cur_wave++;
-            this.loadLevel();
+            console.log("关卡增加到" + this.cur_wave + " " + this.cur_wave % 3);
+            if (this.cur_wave % 3 == 0) {
+                console.log("显示提示TIp");
+                this.showRoguelike();
+            }
+            else {
+                this.loadLevel();
+            }
         }
     };
     GameManager.prototype.reloadLevelDatas = function () {
@@ -1003,6 +1009,13 @@ var GameManager = /** @class */ (function (_super) {
         else {
             dangerText.active = true;
         }
+    };
+    GameManager.prototype.showRoguelike = function () {
+        if (this.cur_game_state == Constants_1.GameState.Game_Roguelike)
+            return;
+        this.cur_game_state = Constants_1.GameState.Game_Roguelike;
+        cc.director.pause();
+        UIManager_1.UIManager.getInstance().showRoguelikeTip();
     };
     GameManager.prototype.showGamePause = function () {
         if (this.cur_game_state == Constants_1.GameState.Game_Pause)

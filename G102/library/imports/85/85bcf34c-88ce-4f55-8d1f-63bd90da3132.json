@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "zhanche",
+    "texture": "83c62c34-c133-4b84-a6bf-9e7f7d167003",
+    "atlas": "",
+    "rect": [
+      2,
+      22,
+      1073,
+      1054
+    ],
+    "offset": [
+      -0.5,
+      -10
+    ],
+    "originalSize": [
+      1078,
+      1078
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

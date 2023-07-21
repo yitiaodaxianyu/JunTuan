@@ -17,11 +17,14 @@ export default class UIComponent extends cc.Component implements UiInterface  {
 
     onLoad(){
         let bg=this.node.getChildByName('bg');
-        bg.width=800;
-        bg.height=1642;
-        bg.on(cc.Node.EventType.TOUCH_START,()=>{
-            this.onClose();
-        },this);
+        if(bg){
+            bg.width=800;
+            bg.height=1642;
+            bg.on(cc.Node.EventType.TOUCH_START,()=>{
+                this.onClose();
+            },this);
+        }
+      
     }
 
     init(uiAc: UiAction) {

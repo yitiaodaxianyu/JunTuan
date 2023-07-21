@@ -524,15 +524,25 @@ export default class ToPlayMainUi extends UIComponent {
         if(touchTeam.getChildByName("shangzheng").active==false){
             //上阵该英雄
             let teamList=HeroManager.getInstance().getTeamList(GameManager.getInstance().cur_game_mode);
-            for (let index = 0; index < teamList.length; index++) {
-                // @ts-ignore
-                if(teamList[index]==-1||teamList[index]==Hero_Type.NULL){
-                    teamList[index]=touchTeam.getComponent(HeroItem).hero_type
-                    HeroManager.getInstance().saveTeamList(GameManager.getInstance().cur_game_mode,teamList)
-                    this.Refreshheroitmestatus()
-                    return
-                }
+          
+            if(teamList[2]==-1||teamList[2]==Hero_Type.NULL){
+                teamList[2]=touchTeam.getComponent(HeroItem).hero_type
+                HeroManager.getInstance().saveTeamList(GameManager.getInstance().cur_game_mode,teamList)
+                this.Refreshheroitmestatus()
+                return
             }
+            // for (let index = 0; index < teamList.length; index++) {
+            //     // @ts-ignore
+            //     if(index!=2){
+            //         return;
+            //     }
+            //     if(teamList[index]==-1||teamList[index]==Hero_Type.NULL){
+            //         teamList[index]=touchTeam.getComponent(HeroItem).hero_type
+            //         HeroManager.getInstance().saveTeamList(GameManager.getInstance().cur_game_mode,teamList)
+            //         this.Refreshheroitmestatus()
+            //         return
+            //     }
+            // }
             GameManager.getInstance().showMessage(LanguageManager.getInstance().getStrByTextId(130013))
         }else{
             GameManager.getInstance().showMessage(LanguageManager.getInstance().getStrByTextId(100091))

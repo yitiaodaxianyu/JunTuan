@@ -219,6 +219,8 @@ export default class UserData {
             deviceId:deviceId,
             name:"Test-"+this.randomLetter(4)
         }
+        //this.saveUserID("123456789");
+        // this.is_load_ok=true;
         HttpManager.post(AccessName.userBasic,JSON.stringify(json)).then((data:any)=>{
             if(data.uid){
                 this.saveUserID(data.uid);

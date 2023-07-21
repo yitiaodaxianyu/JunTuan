@@ -11,7 +11,7 @@ export default class UiTouch extends cc.Component {
 
     onLoad () {
         this.node.on(cc.Node.EventType.TOUCH_START,(e:cc.Event.EventTouch)=>{
-            if(GameManager.getInstance().cur_game_state==GameState.Game_Pause){
+            if(GameManager.getInstance().cur_game_state==GameState.Game_Pause||GameManager.getInstance().cur_game_state==GameState.Game_Roguelike){
                 return;
             }
             let worldPos=e.getLocation();

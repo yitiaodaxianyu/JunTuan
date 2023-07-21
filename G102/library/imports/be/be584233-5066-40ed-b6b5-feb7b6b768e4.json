@@ -3465,7 +3465,7 @@
         "__id__": 101
       }
     ],
-    "_active": true,
+    "_active": false,
     "_components": [],
     "_prefab": {
       "__id__": 104
@@ -3993,7 +3993,7 @@
         "__id__": 115
       }
     ],
-    "_active": true,
+    "_active": false,
     "_components": [],
     "_prefab": {
       "__id__": 118
@@ -5049,7 +5049,7 @@
         "__id__": 143
       }
     ],
-    "_active": true,
+    "_active": false,
     "_components": [],
     "_prefab": {
       "__id__": 146
@@ -5577,7 +5577,7 @@
         "__id__": 157
       }
     ],
-    "_active": true,
+    "_active": false,
     "_components": [],
     "_prefab": {
       "__id__": 160

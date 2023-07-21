@@ -179,6 +179,8 @@ var UserData = /** @class */ (function () {
             deviceId: deviceId,
             name: "Test-" + this.randomLetter(4)
         };
+        //this.saveUserID("123456789");
+        // this.is_load_ok=true;
         HttpManager_1.HttpManager.post(HttpManager_1.AccessName.userBasic, JSON.stringify(json)).then(function (data) {
             if (data.uid) {
                 _this.saveUserID(data.uid);

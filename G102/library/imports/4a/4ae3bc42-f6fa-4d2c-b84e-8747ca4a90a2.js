@@ -47,6 +47,8 @@ var MainWall = /** @class */ (function (_super) {
         _this.wall_spine0 = null;
         /**城墙1特效 */
         _this.wall_spine1 = null;
+        /**战车特效 */
+        _this.che_spine = null;
         /**当前城墙的阶段 */
         _this.cur_wall_stage = 0;
         /**上一个城墙的阶段 */
@@ -75,6 +77,7 @@ var MainWall = /** @class */ (function (_super) {
         this.node_vertigo = hpRoot.parent.getChildByName('vertigo');
         this.wall_spine0 = this.node.getChildByName('wall0').getComponent(sp.Skeleton);
         this.wall_spine1 = this.node.getChildByName('wall1').getComponent(sp.Skeleton);
+        this.che_spine = this.node.getChildByName('bg2_wall copy').getComponent(sp.Skeleton);
         this.wall_spine0.node.active = false;
         this.wall_spine1.node.active = false;
         WallManager_1.default.getInstance().addWall(WallConfig_1.WallType.Main, this);
@@ -84,6 +87,7 @@ var MainWall = /** @class */ (function (_super) {
     };
     MainWall.prototype.start = function () {
         BuffStateManager_1.default.getInstance().createBuffRoot(cc.v2(this.node.x, this.node.y + 150), HeroConfig_1.Hero_Type.Hero_Num);
+        this.che_spine.setAnimation(0, 'walk', true);
         //let wallDown = this.node.getChildByName('wall_down');
         //let worldPos = wallDown.parent.convertToWorldSpaceAR(wallDown.getPosition());
         //let pos = GameEffectsManager.getInstance().node.convertToNodeSpaceAR(worldPos);

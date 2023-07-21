@@ -1622,7 +1622,21 @@ export class UIManager extends UIPool  {
             });
         }
     }
-
+    showRoguelikeTip(){
+        if(GameManager.getInstance().cur_game_scene==GameScene.game){
+            let path='ui/game/roguelike_tip';
+            let prefab=this.getPrefab(path);
+            if(prefab){
+                let node=cc.instantiate(prefab);
+                this.node.addChild(node);
+            }else{
+                this.loadPrefab(path,(asset:cc.Prefab)=>{
+                    let node=cc.instantiate(asset);
+                    this.node.addChild(node);
+                });
+            }
+        }
+    }
     showDamageStatsUi(){
         if(GameManager.getInstance().cur_game_scene==GameScene.game){
             let path='ui/game/damage_stats_ui';

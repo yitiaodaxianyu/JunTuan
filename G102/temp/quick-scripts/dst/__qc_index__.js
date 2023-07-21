@@ -105,6 +105,7 @@ require('./assets/Scripts/Game/Ui/GameLose');
 require('./assets/Scripts/Game/Ui/GamePause');
 require('./assets/Scripts/Game/Ui/GameWin');
 require('./assets/Scripts/Game/Ui/HeroDamage');
+require('./assets/Scripts/Game/Ui/RoguelikeTip');
 require('./assets/Scripts/Game/Ui/SpeedUp');
 require('./assets/Scripts/Game/Ui/StatsUi');
 require('./assets/Scripts/Game/mapmove');

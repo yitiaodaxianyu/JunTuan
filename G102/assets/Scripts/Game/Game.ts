@@ -104,7 +104,7 @@ export default class Game extends cc.Component {
     battlepotionPropId: PropId[] = [PropId.RedPotion, PropId.GreenPotion, PropId.BluePotion]//战斗药水的道具id
     battlepotionstate: number[] = [1, 1, 1]//战斗药水在这一局是否使用了  默认每一个药水有一次使用的机会
 
-    bg2_wall: cc.Node;
+    // bg2_wall: cc.Node;
 
     onLoad() {
         cc.director.getCollisionManager().enabled = true;
@@ -519,8 +519,8 @@ export default class Game extends cc.Component {
                 console.log(error);
                 return;
             }
-            wallBg.getChildByName('bg2_wall').getComponent(cc.Sprite).spriteFrame = assets;
-            this.bg2_wall = wallBg.getChildByName('bg2_wall');
+            // wallBg.getChildByName('bg2_wall').getComponent(cc.Sprite).spriteFrame = assets;
+            // this.bg2_wall = wallBg.getChildByName('bg2_wall');
             //let bc = wallBg.getChildByName('wall_down').getComponent(cc.BoxCollider);
             // this.scheduleOnce(() => {
             //     bc.size = wallBg.getContentSize();

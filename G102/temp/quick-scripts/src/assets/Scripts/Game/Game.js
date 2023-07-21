@@ -113,6 +113,7 @@ var Game = /** @class */ (function (_super) {
         _this.indexData = [3, 1, 0, 2, 4];
         return _this;
     }
+    // bg2_wall: cc.Node;
     Game.prototype.onLoad = function () {
         cc.director.getCollisionManager().enabled = true;
         GameData_1.default.getInstance();
@@ -523,8 +524,8 @@ var Game = /** @class */ (function (_super) {
                 console.log(error);
                 return;
             }
-            wallBg.getChildByName('bg2_wall').getComponent(cc.Sprite).spriteFrame = assets;
-            _this.bg2_wall = wallBg.getChildByName('bg2_wall');
+            // wallBg.getChildByName('bg2_wall').getComponent(cc.Sprite).spriteFrame = assets;
+            // this.bg2_wall = wallBg.getChildByName('bg2_wall');
             //let bc = wallBg.getChildByName('wall_down').getComponent(cc.BoxCollider);
             // this.scheduleOnce(() => {
             //     bc.size = wallBg.getContentSize();
