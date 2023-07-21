@@ -845,6 +845,7 @@ export default class Game extends cc.Component {
         this.left_xx = -waveBg.width / 2 + 5;
         let oneWidth = waveWidth + jiangeWidth;
         this.one_width = oneWidth;
+        console.log("初始化关卡"+waveTypes.length);
         for (let i = 0; i < len; i++) {
             let type = waveTypes[i];
             let node: cc.Node = null;
@@ -892,6 +893,7 @@ export default class Game extends cc.Component {
                     this.cur_wave_sp.width = this.one_width;
                 }
                 let waveBg = cc.find('Canvas/Ui_Root/top_ui/waveBg');
+                console.log("开始关卡"+gm.cur_wave);
                
                 
                 this.cur_wave_sp = waveBg.getChildByName(gm.cur_wave.toString());

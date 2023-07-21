@@ -1,0 +1,112 @@
+[
+  {
+    "GiftID": 101,
+    "Chapter": 1,
+    "GetCoinNum": 5000,
+    "GetGemNum": 500,
+    "ItemId_1": 30104,
+    "ItemNum_1": 1,
+    "ItemId_2": 30304,
+    "ItemNum_2": 1,
+    "ProductId": "b301"
+  },
+  {
+    "GiftID": 201,
+    "Chapter": 2,
+    "GetCoinNum": 5500,
+    "GetGemNum": 550,
+    "ItemId_1": 30204,
+    "ItemNum_1": 1,
+    "ItemId_2": 30404,
+    "ItemNum_2": 1,
+    "ProductId": "b302"
+  },
+  {
+    "GiftID": 301,
+    "Chapter": 3,
+    "GetCoinNum": 6000,
+    "GetGemNum": 600,
+    "ItemId_1": 30105,
+    "ItemNum_1": 1,
+    "ItemId_2": 30305,
+    "ItemNum_2": 1,
+    "ProductId": "b303"
+  },
+  {
+    "GiftID": 401,
+    "Chapter": 4,
+    "GetCoinNum": 6500,
+    "GetGemNum": 650,
+    "ItemId_1": 30205,
+    "ItemNum_1": 1,
+    "ItemId_2": 30405,
+    "ItemNum_2": 1,
+    "ProductId": "b304"
+  },
+  {
+    "GiftID": 501,
+    "Chapter": 5,
+    "GetCoinNum": 7000,
+    "GetGemNum": 700,
+    "ItemId_1": 30106,
+    "ItemNum_1": 1,
+    "ItemId_2": 30206,
+    "ItemNum_2": 1,
+    "ProductId": "b305"
+  },
+  {
+    "GiftID": 601,
+    "Chapter": 6,
+    "GetCoinNum": 7500,
+    "GetGemNum": 750,
+    "ItemId_1": 30306,
+    "ItemNum_1": 1,
+    "ItemId_2": 30406,
+    "ItemNum_2": 1,
+    "ProductId": "b306"
+  },
+  {
+    "GiftID": 701,
+    "Chapter": 7,
+    "GetCoinNum": 8000,
+    "GetGemNum": 800,
+    "ItemId_1": 40004,
+    "ItemNum_1": 5,
+    "ItemId_2": 40006,
+    "ItemNum_2": 5,
+    "ProductId": "b307"
+  },
+  {
+    "GiftID": 801,
+    "Chapter": 8,
+    "GetCoinNum": 8500,
+    "GetGemNum": 850,
+    "ItemId_1": 40005,
+    "ItemNum_1": 5,
+    "ItemId_2": 40007,
+    "ItemNum_2": 5,
+    "ProductId": "b308"
+  },
+  {
+    "GiftID": 901,
+    "Chapter": 9,
+    "GetCoinNum": 9000,
+    "GetGemNum": 900,
+    "ItemId_1": 40004,
+    "ItemNum_1": 10,
+    "ItemId_2": 40006,
+    "ItemNum_2": 10,
+    "ProductId": "b309"
+  },
+  {
+    "GiftID": 1001,
+    "Chapter": 10,
+    "GetCoinNum": 9500,
+    "GetGemNum": 950,
+    "ItemId_1": 40005,
+    "ItemNum_1": 10,
+    "ItemId_2": 40007,
+    "ItemNum_2": 10,
+    "ProductId": "b310"
+  }
+]

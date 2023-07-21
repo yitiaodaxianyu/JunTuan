@@ -1,0 +1,38 @@
+[
+  {
+    "RechargeID": 1,
+    "DiamondsNum": 200,
+    "GetDiamondsNum": 80,
+    "ProductId": "c201"
+  },
+  {
+    "RechargeID": 2,
+    "DiamondsNum": 1000,
+    "GetDiamondsNum": 500,
+    "ProductId": "c202"
+  },
+  {
+    "RechargeID": 3,
+    "DiamondsNum": 3000,
+    "GetDiamondsNum": 1200,
+    "ProductId": "c203"
+  },
+  {
+    "RechargeID": 4,
+    "DiamondsNum": 6000,
+    "GetDiamondsNum": 2500,
+    "ProductId": "c204"
+  },
+  {
+    "RechargeID": 5,
+    "DiamondsNum": 10000,
+    "GetDiamondsNum": 6500,
+    "ProductId": "c205"
+  },
+  {
+    "RechargeID": 6,
+    "DiamondsNum": 20000,
+    "GetDiamondsNum": 15000,
+    "ProductId": "c206"
+  }
+]

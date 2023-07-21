@@ -1,0 +1,28 @@
+[
+  {
+    "GiftsBundle": 1001,
+    "TitleText": 81001,
+    "DisplayOrder": 1,
+    "OpitionalPool": 1,
+    "OpitionalTimes": 2,
+    "GetCoin": 200000,
+    "GetGem": 600,
+    "GetItemId": 0,
+    "GetItemNum": 0,
+    "VipPoints": 680,
+    "PurchaseTimesLimit": 2
+  },
+  {
+    "GiftsBundle": 1002,
+    "TitleText": 81002,
+    "DisplayOrder": 2,
+    "OpitionalPool": 2,
+    "OpitionalTimes": 2,
+    "GetCoin": 160000,
+    "GetGem": 400,
+    "GetItemId": 0,
+    "GetItemNum": 0,
+    "VipPoints": 680,
+    "PurchaseTimesLimit": 2
+  }
+]

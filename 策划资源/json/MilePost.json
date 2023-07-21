@@ -1,0 +1,1442 @@
+[
+  {
+    "MilePost_ID": 1,
+    "RequiredFightCapacity": 500,
+    "Reward_ID": 2001,
+    "Reward_Num": 1,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 2,
+    "RequiredFightCapacity": 750,
+    "Reward_ID": 1,
+    "Reward_Num": 600,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 3,
+    "RequiredFightCapacity": 1000,
+    "Reward_ID": 1,
+    "Reward_Num": 650,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 4,
+    "RequiredFightCapacity": 1250,
+    "Reward_ID": 1,
+    "Reward_Num": 700,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 5,
+    "RequiredFightCapacity": 1500,
+    "Reward_ID": 2,
+    "Reward_Num": 50,
+    "ADReward_ID": 3002,
+    "ADReward_Num": 1
+  },
+  {
+    "MilePost_ID": 6,
+    "RequiredFightCapacity": 1750,
+    "Reward_ID": 1,
+    "Reward_Num": 800,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 7,
+    "RequiredFightCapacity": 2000,
+    "Reward_ID": 1,
+    "Reward_Num": 850,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 8,
+    "RequiredFightCapacity": 2250,
+    "Reward_ID": 1,
+    "Reward_Num": 900,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 9,
+    "RequiredFightCapacity": 2500,
+    "Reward_ID": 1,
+    "Reward_Num": 950,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 10,
+    "RequiredFightCapacity": 2750,
+    "Reward_ID": 2003,
+    "Reward_Num": 1,
+    "ADReward_ID": 2,
+    "ADReward_Num": 150
+  },
+  {
+    "MilePost_ID": 11,
+    "RequiredFightCapacity": 3000,
+    "Reward_ID": 1,
+    "Reward_Num": 1050,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 12,
+    "RequiredFightCapacity": 3250,
+    "Reward_ID": 1,
+    "Reward_Num": 1100,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 13,
+    "RequiredFightCapacity": 3500,
+    "Reward_ID": 1,
+    "Reward_Num": 1150,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 14,
+    "RequiredFightCapacity": 3750,
+    "Reward_ID": 1,
+    "Reward_Num": 1200,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 15,
+    "RequiredFightCapacity": 4000,
+    "Reward_ID": 2,
+    "Reward_Num": 50,
+    "ADReward_ID": 3004,
+    "ADReward_Num": 1
+  },
+  {
+    "MilePost_ID": 16,
+    "RequiredFightCapacity": 4250,
+    "Reward_ID": 1,
+    "Reward_Num": 1300,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 17,
+    "RequiredFightCapacity": 4500,
+    "Reward_ID": 1,
+    "Reward_Num": 1350,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 18,
+    "RequiredFightCapacity": 4750,
+    "Reward_ID": 1,
+    "Reward_Num": 1400,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 19,
+    "RequiredFightCapacity": 5000,
+    "Reward_ID": 1,
+    "Reward_Num": 1450,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 20,
+    "RequiredFightCapacity": 5250,
+    "Reward_ID": 2005,
+    "Reward_Num": 1,
+    "ADReward_ID": 2,
+    "ADReward_Num": 150
+  },
+  {
+    "MilePost_ID": 21,
+    "RequiredFightCapacity": 5500,
+    "Reward_ID": 1,
+    "Reward_Num": 1550,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 22,
+    "RequiredFightCapacity": 5750,
+    "Reward_ID": 1,
+    "Reward_Num": 1600,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 23,
+    "RequiredFightCapacity": 6000,
+    "Reward_ID": 1,
+    "Reward_Num": 1650,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 24,
+    "RequiredFightCapacity": 6250,
+    "Reward_ID": 1,
+    "Reward_Num": 1700,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 25,
+    "RequiredFightCapacity": 6500,
+    "Reward_ID": 2,
+    "Reward_Num": 50,
+    "ADReward_ID": 3006,
+    "ADReward_Num": 1
+  },
+  {
+    "MilePost_ID": 26,
+    "RequiredFightCapacity": 6750,
+    "Reward_ID": 1,
+    "Reward_Num": 1800,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 27,
+    "RequiredFightCapacity": 7000,
+    "Reward_ID": 1,
+    "Reward_Num": 1850,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 28,
+    "RequiredFightCapacity": 7250,
+    "Reward_ID": 1,
+    "Reward_Num": 1900,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 29,
+    "RequiredFightCapacity": 7500,
+    "Reward_ID": 1,
+    "Reward_Num": 1950,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 30,
+    "RequiredFightCapacity": 7750,
+    "Reward_ID": 2007,
+    "Reward_Num": 1,
+    "ADReward_ID": 2,
+    "ADReward_Num": 150
+  },
+  {
+    "MilePost_ID": 31,
+    "RequiredFightCapacity": 8000,
+    "Reward_ID": 1,
+    "Reward_Num": 2050,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 32,
+    "RequiredFightCapacity": 8300,
+    "Reward_ID": 1,
+    "Reward_Num": 2100,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 33,
+    "RequiredFightCapacity": 8600,
+    "Reward_ID": 1,
+    "Reward_Num": 2150,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 34,
+    "RequiredFightCapacity": 8900,
+    "Reward_ID": 1,
+    "Reward_Num": 2200,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 35,
+    "RequiredFightCapacity": 9200,
+    "Reward_ID": 2,
+    "Reward_Num": 100,
+    "ADReward_ID": 3008,
+    "ADReward_Num": 1
+  },
+  {
+    "MilePost_ID": 36,
+    "RequiredFightCapacity": 9500,
+    "Reward_ID": 1,
+    "Reward_Num": 2300,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 37,
+    "RequiredFightCapacity": 9800,
+    "Reward_ID": 1,
+    "Reward_Num": 2350,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 38,
+    "RequiredFightCapacity": 10100,
+    "Reward_ID": 1,
+    "Reward_Num": 2400,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 39,
+    "RequiredFightCapacity": 10400,
+    "Reward_ID": 1,
+    "Reward_Num": 2450,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 40,
+    "RequiredFightCapacity": 10700,
+    "Reward_ID": 2009,
+    "Reward_Num": 1,
+    "ADReward_ID": 2,
+    "ADReward_Num": 150
+  },
+  {
+    "MilePost_ID": 41,
+    "RequiredFightCapacity": 11000,
+    "Reward_ID": 1,
+    "Reward_Num": 2550,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 42,
+    "RequiredFightCapacity": 11300,
+    "Reward_ID": 1,
+    "Reward_Num": 2600,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 43,
+    "RequiredFightCapacity": 11600,
+    "Reward_ID": 1,
+    "Reward_Num": 2650,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 44,
+    "RequiredFightCapacity": 11900,
+    "Reward_ID": 1,
+    "Reward_Num": 2700,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 45,
+    "RequiredFightCapacity": 12200,
+    "Reward_ID": 2,
+    "Reward_Num": 50,
+    "ADReward_ID": 3010,
+    "ADReward_Num": 1
+  },
+  {
+    "MilePost_ID": 46,
+    "RequiredFightCapacity": 12500,
+    "Reward_ID": 1,
+    "Reward_Num": 2800,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 47,
+    "RequiredFightCapacity": 12800,
+    "Reward_ID": 1,
+    "Reward_Num": 2850,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 48,
+    "RequiredFightCapacity": 13100,
+    "Reward_ID": 1,
+    "Reward_Num": 2900,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 49,
+    "RequiredFightCapacity": 13400,
+    "Reward_ID": 1,
+    "Reward_Num": 2950,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 50,
+    "RequiredFightCapacity": 13700,
+    "Reward_ID": 2011,
+    "Reward_Num": 1,
+    "ADReward_ID": 2,
+    "ADReward_Num": 150
+  },
+  {
+    "MilePost_ID": 51,
+    "RequiredFightCapacity": 14000,
+    "Reward_ID": 1,
+    "Reward_Num": 3050,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 52,
+    "RequiredFightCapacity": 14300,
+    "Reward_ID": 1,
+    "Reward_Num": 3100,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 53,
+    "RequiredFightCapacity": 14600,
+    "Reward_ID": 1,
+    "Reward_Num": 3150,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 54,
+    "RequiredFightCapacity": 14900,
+    "Reward_ID": 1,
+    "Reward_Num": 3200,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 55,
+    "RequiredFightCapacity": 15200,
+    "Reward_ID": 2,
+    "Reward_Num": 50,
+    "ADReward_ID": 3012,
+    "ADReward_Num": 1
+  },
+  {
+    "MilePost_ID": 56,
+    "RequiredFightCapacity": 15500,
+    "Reward_ID": 10001,
+    "Reward_Num": 3300,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 57,
+    "RequiredFightCapacity": 15800,
+    "Reward_ID": 10001,
+    "Reward_Num": 3350,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 58,
+    "RequiredFightCapacity": 16100,
+    "Reward_ID": 10001,
+    "Reward_Num": 3400,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 59,
+    "RequiredFightCapacity": 16400,
+    "Reward_ID": 10001,
+    "Reward_Num": 3450,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 60,
+    "RequiredFightCapacity": 16700,
+    "Reward_ID": 31301,
+    "Reward_Num": 1,
+    "ADReward_ID": 2,
+    "ADReward_Num": 150
+  },
+  {
+    "MilePost_ID": 61,
+    "RequiredFightCapacity": 17000,
+    "Reward_ID": 10001,
+    "Reward_Num": 3550,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 62,
+    "RequiredFightCapacity": 17500,
+    "Reward_ID": 10001,
+    "Reward_Num": 3600,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 63,
+    "RequiredFightCapacity": 18000,
+    "Reward_ID": 10001,
+    "Reward_Num": 3650,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 64,
+    "RequiredFightCapacity": 18500,
+    "Reward_ID": 10001,
+    "Reward_Num": 3700,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 65,
+    "RequiredFightCapacity": 19000,
+    "Reward_ID": 10002,
+    "Reward_Num": 50,
+    "ADReward_ID": 32302,
+    "ADReward_Num": 1
+  },
+  {
+    "MilePost_ID": 66,
+    "RequiredFightCapacity": 19500,
+    "Reward_ID": 10001,
+    "Reward_Num": 3800,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 67,
+    "RequiredFightCapacity": 20000,
+    "Reward_ID": 10001,
+    "Reward_Num": 3850,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 68,
+    "RequiredFightCapacity": 20500,
+    "Reward_ID": 10001,
+    "Reward_Num": 3900,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 69,
+    "RequiredFightCapacity": 21000,
+    "Reward_ID": 10001,
+    "Reward_Num": 3950,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 70,
+    "RequiredFightCapacity": 21500,
+    "Reward_ID": 31303,
+    "Reward_Num": 1,
+    "ADReward_ID": 2,
+    "ADReward_Num": 150
+  },
+  {
+    "MilePost_ID": 71,
+    "RequiredFightCapacity": 22000,
+    "Reward_ID": 10001,
+    "Reward_Num": 4050,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 72,
+    "RequiredFightCapacity": 22500,
+    "Reward_ID": 10001,
+    "Reward_Num": 4100,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 73,
+    "RequiredFightCapacity": 23000,
+    "Reward_ID": 10001,
+    "Reward_Num": 4150,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 74,
+    "RequiredFightCapacity": 23500,
+    "Reward_ID": 10001,
+    "Reward_Num": 4200,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 75,
+    "RequiredFightCapacity": 24000,
+    "Reward_ID": 10002,
+    "Reward_Num": 50,
+    "ADReward_ID": 32304,
+    "ADReward_Num": 1
+  },
+  {
+    "MilePost_ID": 76,
+    "RequiredFightCapacity": 24500,
+    "Reward_ID": 10001,
+    "Reward_Num": 4300,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 77,
+    "RequiredFightCapacity": 25000,
+    "Reward_ID": 10001,
+    "Reward_Num": 4350,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 78,
+    "RequiredFightCapacity": 25500,
+    "Reward_ID": 10001,
+    "Reward_Num": 4400,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 79,
+    "RequiredFightCapacity": 26000,
+    "Reward_ID": 10001,
+    "Reward_Num": 4450,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 80,
+    "RequiredFightCapacity": 26500,
+    "Reward_ID": 31305,
+    "Reward_Num": 1,
+    "ADReward_ID": 2,
+    "ADReward_Num": 150
+  },
+  {
+    "MilePost_ID": 81,
+    "RequiredFightCapacity": 27000,
+    "Reward_ID": 10001,
+    "Reward_Num": 4550,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 82,
+    "RequiredFightCapacity": 27500,
+    "Reward_ID": 10001,
+    "Reward_Num": 4600,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 83,
+    "RequiredFightCapacity": 28000,
+    "Reward_ID": 10001,
+    "Reward_Num": 4650,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 84,
+    "RequiredFightCapacity": 28500,
+    "Reward_ID": 10001,
+    "Reward_Num": 4700,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 85,
+    "RequiredFightCapacity": 29000,
+    "Reward_ID": 10002,
+    "Reward_Num": 50,
+    "ADReward_ID": 32306,
+    "ADReward_Num": 1
+  },
+  {
+    "MilePost_ID": 86,
+    "RequiredFightCapacity": 29500,
+    "Reward_ID": 10001,
+    "Reward_Num": 4800,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 87,
+    "RequiredFightCapacity": 30000,
+    "Reward_ID": 10001,
+    "Reward_Num": 4850,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 88,
+    "RequiredFightCapacity": 30500,
+    "Reward_ID": 10001,
+    "Reward_Num": 4900,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 89,
+    "RequiredFightCapacity": 31000,
+    "Reward_ID": 10001,
+    "Reward_Num": 4950,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 90,
+    "RequiredFightCapacity": 31500,
+    "Reward_ID": 31307,
+    "Reward_Num": 1,
+    "ADReward_ID": 2,
+    "ADReward_Num": 150
+  },
+  {
+    "MilePost_ID": 91,
+    "RequiredFightCapacity": 33000,
+    "Reward_ID": 10001,
+    "Reward_Num": 5050,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 92,
+    "RequiredFightCapacity": 34500,
+    "Reward_ID": 10001,
+    "Reward_Num": 5100,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 93,
+    "RequiredFightCapacity": 36000,
+    "Reward_ID": 10001,
+    "Reward_Num": 5150,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 94,
+    "RequiredFightCapacity": 37500,
+    "Reward_ID": 10001,
+    "Reward_Num": 5200,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 95,
+    "RequiredFightCapacity": 39000,
+    "Reward_ID": 10002,
+    "Reward_Num": 50,
+    "ADReward_ID": 32308,
+    "ADReward_Num": 1
+  },
+  {
+    "MilePost_ID": 96,
+    "RequiredFightCapacity": 40500,
+    "Reward_ID": 10001,
+    "Reward_Num": 5300,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 97,
+    "RequiredFightCapacity": 42000,
+    "Reward_ID": 10001,
+    "Reward_Num": 5350,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 98,
+    "RequiredFightCapacity": 43500,
+    "Reward_ID": 10001,
+    "Reward_Num": 5400,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 99,
+    "RequiredFightCapacity": 45000,
+    "Reward_ID": 10001,
+    "Reward_Num": 5450,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 100,
+    "RequiredFightCapacity": 46500,
+    "Reward_ID": 31309,
+    "Reward_Num": 1,
+    "ADReward_ID": 2,
+    "ADReward_Num": 150
+  },
+  {
+    "MilePost_ID": 101,
+    "RequiredFightCapacity": 48000,
+    "Reward_ID": 10001,
+    "Reward_Num": 5550,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 102,
+    "RequiredFightCapacity": 49500,
+    "Reward_ID": 10001,
+    "Reward_Num": 5600,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 103,
+    "RequiredFightCapacity": 51000,
+    "Reward_ID": 10001,
+    "Reward_Num": 5650,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 104,
+    "RequiredFightCapacity": 52500,
+    "Reward_ID": 10001,
+    "Reward_Num": 5700,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 105,
+    "RequiredFightCapacity": 54000,
+    "Reward_ID": 10002,
+    "Reward_Num": 50,
+    "ADReward_ID": 32310,
+    "ADReward_Num": 1
+  },
+  {
+    "MilePost_ID": 106,
+    "RequiredFightCapacity": 55500,
+    "Reward_ID": 10001,
+    "Reward_Num": 5800,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 107,
+    "RequiredFightCapacity": 57000,
+    "Reward_ID": 10001,
+    "Reward_Num": 5850,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 108,
+    "RequiredFightCapacity": 58500,
+    "Reward_ID": 10001,
+    "Reward_Num": 5900,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 109,
+    "RequiredFightCapacity": 60000,
+    "Reward_ID": 10001,
+    "Reward_Num": 5950,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 110,
+    "RequiredFightCapacity": 61500,
+    "Reward_ID": 31311,
+    "Reward_Num": 1,
+    "ADReward_ID": 2,
+    "ADReward_Num": 150
+  },
+  {
+    "MilePost_ID": 111,
+    "RequiredFightCapacity": 63000,
+    "Reward_ID": 10001,
+    "Reward_Num": 6050,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 112,
+    "RequiredFightCapacity": 64500,
+    "Reward_ID": 10001,
+    "Reward_Num": 6100,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 113,
+    "RequiredFightCapacity": 66000,
+    "Reward_ID": 10001,
+    "Reward_Num": 6150,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 114,
+    "RequiredFightCapacity": 67500,
+    "Reward_ID": 10001,
+    "Reward_Num": 6200,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 115,
+    "RequiredFightCapacity": 69000,
+    "Reward_ID": 10002,
+    "Reward_Num": 50,
+    "ADReward_ID": 32312,
+    "ADReward_Num": 1
+  },
+  {
+    "MilePost_ID": 116,
+    "RequiredFightCapacity": 70500,
+    "Reward_ID": 10001,
+    "Reward_Num": 6300,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 117,
+    "RequiredFightCapacity": 72000,
+    "Reward_ID": 10001,
+    "Reward_Num": 6350,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 118,
+    "RequiredFightCapacity": 73500,
+    "Reward_ID": 10001,
+    "Reward_Num": 6400,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 119,
+    "RequiredFightCapacity": 75000,
+    "Reward_ID": 10001,
+    "Reward_Num": 6450,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 120,
+    "RequiredFightCapacity": 76500,
+    "Reward_ID": 31313,
+    "Reward_Num": 1,
+    "ADReward_ID": 2,
+    "ADReward_Num": 150
+  },
+  {
+    "MilePost_ID": 121,
+    "RequiredFightCapacity": 79000,
+    "Reward_ID": 10001,
+    "Reward_Num": 6550,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 122,
+    "RequiredFightCapacity": 81500,
+    "Reward_ID": 10001,
+    "Reward_Num": 6600,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 123,
+    "RequiredFightCapacity": 84000,
+    "Reward_ID": 10001,
+    "Reward_Num": 6650,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 124,
+    "RequiredFightCapacity": 86500,
+    "Reward_ID": 10001,
+    "Reward_Num": 6700,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 125,
+    "RequiredFightCapacity": 89000,
+    "Reward_ID": 10002,
+    "Reward_Num": 50,
+    "ADReward_ID": 32314,
+    "ADReward_Num": 1
+  },
+  {
+    "MilePost_ID": 126,
+    "RequiredFightCapacity": 91500,
+    "Reward_ID": 10001,
+    "Reward_Num": 6800,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 127,
+    "RequiredFightCapacity": 94000,
+    "Reward_ID": 10001,
+    "Reward_Num": 6850,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 128,
+    "RequiredFightCapacity": 96500,
+    "Reward_ID": 10001,
+    "Reward_Num": 6900,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 129,
+    "RequiredFightCapacity": 99000,
+    "Reward_ID": 10001,
+    "Reward_Num": 6950,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 130,
+    "RequiredFightCapacity": 101500,
+    "Reward_ID": 31315,
+    "Reward_Num": 1,
+    "ADReward_ID": 2,
+    "ADReward_Num": 150
+  },
+  {
+    "MilePost_ID": 131,
+    "RequiredFightCapacity": 104000,
+    "Reward_ID": 10001,
+    "Reward_Num": 7050,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 132,
+    "RequiredFightCapacity": 106500,
+    "Reward_ID": 10001,
+    "Reward_Num": 7100,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 133,
+    "RequiredFightCapacity": 109000,
+    "Reward_ID": 10001,
+    "Reward_Num": 7150,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 134,
+    "RequiredFightCapacity": 111500,
+    "Reward_ID": 10001,
+    "Reward_Num": 7200,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 135,
+    "RequiredFightCapacity": 114000,
+    "Reward_ID": 10002,
+    "Reward_Num": 50,
+    "ADReward_ID": 32316,
+    "ADReward_Num": 1
+  },
+  {
+    "MilePost_ID": 136,
+    "RequiredFightCapacity": 116500,
+    "Reward_ID": 10001,
+    "Reward_Num": 7300,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 137,
+    "RequiredFightCapacity": 119000,
+    "Reward_ID": 10001,
+    "Reward_Num": 7350,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 138,
+    "RequiredFightCapacity": 121500,
+    "Reward_ID": 10001,
+    "Reward_Num": 7400,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 139,
+    "RequiredFightCapacity": 124000,
+    "Reward_ID": 10001,
+    "Reward_Num": 7450,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 140,
+    "RequiredFightCapacity": 126500,
+    "Reward_ID": 31317,
+    "Reward_Num": 1,
+    "ADReward_ID": 2,
+    "ADReward_Num": 150
+  },
+  {
+    "MilePost_ID": 141,
+    "RequiredFightCapacity": 129000,
+    "Reward_ID": 10001,
+    "Reward_Num": 7550,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 142,
+    "RequiredFightCapacity": 131500,
+    "Reward_ID": 10001,
+    "Reward_Num": 7600,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 143,
+    "RequiredFightCapacity": 134000,
+    "Reward_ID": 10001,
+    "Reward_Num": 7650,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 144,
+    "RequiredFightCapacity": 136500,
+    "Reward_ID": 10001,
+    "Reward_Num": 7700,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 145,
+    "RequiredFightCapacity": 139000,
+    "Reward_ID": 10002,
+    "Reward_Num": 50,
+    "ADReward_ID": 32318,
+    "ADReward_Num": 1
+  },
+  {
+    "MilePost_ID": 146,
+    "RequiredFightCapacity": 141500,
+    "Reward_ID": 10001,
+    "Reward_Num": 7800,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 147,
+    "RequiredFightCapacity": 144000,
+    "Reward_ID": 10001,
+    "Reward_Num": 7850,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 148,
+    "RequiredFightCapacity": 146500,
+    "Reward_ID": 10001,
+    "Reward_Num": 7900,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 149,
+    "RequiredFightCapacity": 149000,
+    "Reward_ID": 10001,
+    "Reward_Num": 7950,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 150,
+    "RequiredFightCapacity": 151500,
+    "Reward_ID": 31319,
+    "Reward_Num": 1,
+    "ADReward_ID": 2,
+    "ADReward_Num": 150
+  },
+  {
+    "MilePost_ID": 151,
+    "RequiredFightCapacity": 154500,
+    "Reward_ID": 10001,
+    "Reward_Num": 8050,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 152,
+    "RequiredFightCapacity": 158500,
+    "Reward_ID": 10001,
+    "Reward_Num": 8100,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 153,
+    "RequiredFightCapacity": 162500,
+    "Reward_ID": 10001,
+    "Reward_Num": 8150,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 154,
+    "RequiredFightCapacity": 166500,
+    "Reward_ID": 10001,
+    "Reward_Num": 8200,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 155,
+    "RequiredFightCapacity": 170500,
+    "Reward_ID": 10002,
+    "Reward_Num": 50,
+    "ADReward_ID": 32320,
+    "ADReward_Num": 1
+  },
+  {
+    "MilePost_ID": 156,
+    "RequiredFightCapacity": 174500,
+    "Reward_ID": 10001,
+    "Reward_Num": 8300,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 157,
+    "RequiredFightCapacity": 178500,
+    "Reward_ID": 10001,
+    "Reward_Num": 8350,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 158,
+    "RequiredFightCapacity": 182500,
+    "Reward_ID": 10001,
+    "Reward_Num": 8400,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 159,
+    "RequiredFightCapacity": 186500,
+    "Reward_ID": 10001,
+    "Reward_Num": 8450,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 160,
+    "RequiredFightCapacity": 190500,
+    "Reward_ID": 31321,
+    "Reward_Num": 1,
+    "ADReward_ID": 2,
+    "ADReward_Num": 150
+  },
+  {
+    "MilePost_ID": 161,
+    "RequiredFightCapacity": 194500,
+    "Reward_ID": 10001,
+    "Reward_Num": 8550,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 162,
+    "RequiredFightCapacity": 198500,
+    "Reward_ID": 10001,
+    "Reward_Num": 8600,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 163,
+    "RequiredFightCapacity": 202500,
+    "Reward_ID": 10001,
+    "Reward_Num": 8650,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 164,
+    "RequiredFightCapacity": 206500,
+    "Reward_ID": 10001,
+    "Reward_Num": 8700,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 165,
+    "RequiredFightCapacity": 210500,
+    "Reward_ID": 10002,
+    "Reward_Num": 50,
+    "ADReward_ID": 32322,
+    "ADReward_Num": 1
+  },
+  {
+    "MilePost_ID": 166,
+    "RequiredFightCapacity": 214500,
+    "Reward_ID": 10001,
+    "Reward_Num": 8800,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 167,
+    "RequiredFightCapacity": 218500,
+    "Reward_ID": 10001,
+    "Reward_Num": 8850,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 168,
+    "RequiredFightCapacity": 222500,
+    "Reward_ID": 10001,
+    "Reward_Num": 8900,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 169,
+    "RequiredFightCapacity": 226500,
+    "Reward_ID": 10001,
+    "Reward_Num": 8950,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 170,
+    "RequiredFightCapacity": 230500,
+    "Reward_ID": 31323,
+    "Reward_Num": 1,
+    "ADReward_ID": 2,
+    "ADReward_Num": 150
+  },
+  {
+    "MilePost_ID": 171,
+    "RequiredFightCapacity": 234500,
+    "Reward_ID": 10001,
+    "Reward_Num": 9050,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 172,
+    "RequiredFightCapacity": 238500,
+    "Reward_ID": 10001,
+    "Reward_Num": 9100,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 173,
+    "RequiredFightCapacity": 242500,
+    "Reward_ID": 10001,
+    "Reward_Num": 9150,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 174,
+    "RequiredFightCapacity": 246500,
+    "Reward_ID": 10001,
+    "Reward_Num": 9200,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 175,
+    "RequiredFightCapacity": 250500,
+    "Reward_ID": 10002,
+    "Reward_Num": 50,
+    "ADReward_ID": 32324,
+    "ADReward_Num": 1
+  },
+  {
+    "MilePost_ID": 176,
+    "RequiredFightCapacity": 254500,
+    "Reward_ID": 10001,
+    "Reward_Num": 9300,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 177,
+    "RequiredFightCapacity": 258500,
+    "Reward_ID": 10001,
+    "Reward_Num": 9350,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 178,
+    "RequiredFightCapacity": 262500,
+    "Reward_ID": 10001,
+    "Reward_Num": 9400,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 179,
+    "RequiredFightCapacity": 266500,
+    "Reward_ID": 10001,
+    "Reward_Num": 9450,
+    "ADReward_ID": 0,
+    "ADReward_Num": 0
+  },
+  {
+    "MilePost_ID": 180,
+    "RequiredFightCapacity": 270500,
+    "Reward_ID": 31324,
+    "Reward_Num": 1,
+    "ADReward_ID": 2,
+    "ADReward_Num": 150
+  }
+]

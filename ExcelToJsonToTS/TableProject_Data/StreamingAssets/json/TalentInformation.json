@@ -1,0 +1,74 @@
+[
+  {
+    "TalentType": 1,
+    "TalentName": 6001,
+    "TalentDiscribe": 6101,
+    "RandomWeight": 100,
+    "ParameterDivisor": 1000,
+    "MaxLevel": 7,
+    "ValueTextType": 1
+  },
+  {
+    "TalentType": 2,
+    "TalentName": 6002,
+    "TalentDiscribe": 6102,
+    "RandomWeight": 100,
+    "ParameterDivisor": 1000,
+    "MaxLevel": 5,
+    "ValueTextType": 1
+  },
+  {
+    "TalentType": 3,
+    "TalentName": 6003,
+    "TalentDiscribe": 6103,
+    "RandomWeight": 100,
+    "ParameterDivisor": 1000,
+    "MaxLevel": 9,
+    "ValueTextType": 1
+  },
+  {
+    "TalentType": 4,
+    "TalentName": 6004,
+    "TalentDiscribe": 6104,
+    "RandomWeight": 100,
+    "ParameterDivisor": 1000,
+    "MaxLevel": 3,
+    "ValueTextType": 1
+  },
+  {
+    "TalentType": 5,
+    "TalentName": 6005,
+    "TalentDiscribe": 6105,
+    "RandomWeight": 100,
+    "ParameterDivisor": 1000,
+    "MaxLevel": 3,
+    "ValueTextType": 1
+  },
+  {
+    "TalentType": 6,
+    "TalentName": 6006,
+    "TalentDiscribe": 6106,
+    "RandomWeight": 100,
+    "ParameterDivisor": 100,
+    "MaxLevel": 2,
+    "ValueTextType": 1
+  },
+  {
+    "TalentType": 7,
+    "TalentName": 6007,
+    "TalentDiscribe": 6107,
+    "RandomWeight": 100,
+    "ParameterDivisor": 100,
+    "MaxLevel": 2,
+    "ValueTextType": 1
+  },
+  {
+    "TalentType": 8,
+    "TalentName": 6008,
+    "TalentDiscribe": 6108,
+    "RandomWeight": 100,
+    "ParameterDivisor": 100,
+    "MaxLevel": 2,
+    "ValueTextType": 1
+  }
+]

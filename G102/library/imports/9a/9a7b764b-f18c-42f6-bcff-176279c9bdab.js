@@ -109,7 +109,7 @@ var Elite1 = /** @class */ (function (_super) {
             return;
         }
         _super.prototype.update.call(this, dt);
-        this.checkSkill(dt);
+        //this.checkSkill(dt);
     };
     Elite1.prototype.checkSkill = function (dt) {
         var _this = this;

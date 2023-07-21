@@ -828,6 +828,7 @@ var Game = /** @class */ (function (_super) {
         this.left_xx = -waveBg.width / 2 + 5;
         var oneWidth = waveWidth + jiangeWidth;
         this.one_width = oneWidth;
+        console.log("初始化关卡" + waveTypes.length);
         for (var i = 0; i < len; i++) {
             var type = waveTypes[i];
             var node = null;
@@ -879,6 +880,7 @@ var Game = /** @class */ (function (_super) {
                         this.cur_wave_sp.width = this.one_width;
                     }
                     var waveBg = cc.find('Canvas/Ui_Root/top_ui/waveBg');
+                    console.log("开始关卡" + gm.cur_wave);
                     this.cur_wave_sp = waveBg.getChildByName(gm.cur_wave.toString());
                     var types = GameManager_1.default.getInstance().fighting_info.getWaveTypes();
                     this.cur_wave_sp.getComponent(cc.Sprite).spriteFrame = this.sp_wave[types[gm.cur_wave] + 1];

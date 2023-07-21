@@ -1,0 +1,46 @@
+[
+  {
+    "CoinRecharge": 20101,
+    "DisplayPosition": 1,
+    "AdReward": 1,
+    "AdPlayableTimes": 5,
+    "RefreshCycle": 2,
+    "AvailableTimes": 5,
+    "GemCost": 0.0,
+    "GetItem": 5,
+    "GetNum": 2
+  },
+  {
+    "CoinRecharge": 20002,
+    "DisplayPosition": 2,
+    "AdReward": 0,
+    "AdPlayableTimes": 0,
+    "RefreshCycle": 2,
+    "AvailableTimes": 3,
+    "GemCost": 100.0,
+    "GetItem": 5,
+    "GetNum": 4
+  },
+  {
+    "CoinRecharge": 20003,
+    "DisplayPosition": 3,
+    "AdReward": 0,
+    "AdPlayableTimes": 0,
+    "RefreshCycle": 2,
+    "AvailableTimes": 3,
+    "GemCost": 300.0,
+    "GetItem": 5,
+    "GetNum": 12
+  },
+  {
+    "CoinRecharge": 20004,
+    "DisplayPosition": 4,
+    "AdReward": 0,
+    "AdPlayableTimes": 0,
+    "RefreshCycle": 2,
+    "AvailableTimes": 3,
+    "GemCost": 600.0,
+    "GetItem": 5,
+    "GetNum": 24
+  }
+]

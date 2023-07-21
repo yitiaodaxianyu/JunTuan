@@ -530,8 +530,8 @@
     "relativePath": "Material\\map.mtl"
   },
   "a61f821d-713e-4ff6-aa06-ad48131a7ef7": {
-    "asset": 1689739012875,
-    "meta": 1689746276209,
+    "asset": 1689837298345,
+    "meta": 1689837576597,
     "relativePath": "resources\\json"
   },
   "f3786414-0c1b-40ae-a501-3891548e8850": {
@@ -2894,11 +2894,6 @@
     "meta": 1689133963664,
     "relativePath": "resources\\json\\FunctionDefinition.json"
   },
-  "10e4e739-8368-40dc-ac90-b611bea226fa": {
-    "asset": 1688719266902,
-    "meta": 1689133963664,
-    "relativePath": "resources\\json\\HeroAttribute.json"
-  },
   "7a2afe4d-8404-4ef4-8307-08dbeff4e42d": {
     "asset": 1688719266905,
     "meta": 1689133963664,
@@ -2908,11 +2903,6 @@
     "asset": 1688719266907,
     "meta": 1689133963664,
     "relativePath": "resources\\json\\HeroTitle.json"
-  },
-  "c5b53712-6a3b-4538-ae8d-111c05aa3bec": {
-    "asset": 1688719266903,
-    "meta": 1689133963664,
-    "relativePath": "resources\\json\\HeroBaseInfo.json"
   },
   "2af4cd92-e30b-4cc0-a19a-b0f8f64e3fab": {
     "asset": 1688719266904,
@@ -12359,11 +12349,6 @@
     "meta": 1689133971445,
     "relativePath": "Scripts\\Monster\\Elite\\Block75.ts"
   },
-  "9a7b764b-f18c-42f6-bcff-176279c9bdab": {
-    "asset": 1688719263701,
-    "meta": 1689133971471,
-    "relativePath": "Scripts\\Monster\\Elite\\Elite1.ts"
-  },
   "9d3124ef-c3f2-4ecd-b4c2-8a1151f43117": {
     "asset": 1688719263703,
     "meta": 1689133971481,
@@ -15114,11 +15099,6 @@
     "meta": 1689233695699,
     "relativePath": "Scripts\\ZXEdit.ts"
   },
-  "cb2deb3d-b253-4326-900a-1c1f33f12b1b": {
-    "asset": 1689233914375,
-    "meta": 1689233955312,
-    "relativePath": "Scripts\\NetWork\\HttpManager.ts"
-  },
   "9bfbc1c4-405b-4ca4-b306-e8d3ba576f14": {
     "asset": 1689234322000,
     "meta": 1689234323237,
@@ -15229,11 +15209,6 @@
     "meta": 1689649271666,
     "relativePath": "Scripts\\Hero\\Game\\ShouWang\\ShouWang.ts"
   },
-  "616d5bdb-5e6d-4ca1-8b34-9d9386861564": {
-    "asset": 1689670262938,
-    "meta": 1689670307836,
-    "relativePath": "resources\\json\\MonsterGroupConfigure.json"
-  },
   "c07bfcb3-d49a-4046-8b0e-34d62d2ebe77": {
     "asset": 1689731174773,
     "meta": 1689731475791,
@@ -15339,11 +15314,6 @@
     "meta": 1689823442538,
     "relativePath": "Scripts\\Monster\\Monster.ts"
   },
-  "3737319f-5d5f-486e-ad03-2475ca168052": {
-    "asset": 1689832796807,
-    "meta": 1689832801551,
-    "relativePath": "Scripts\\Game\\Game.ts"
-  },
   "2d33720e-48b6-4ff8-b22c-1ccf43d3930d": {
     "asset": 1689834981888,
     "meta": 1689834996775,
@@ -15353,5 +15323,35 @@
     "asset": 1689835172191,
     "meta": 1689835173614,
     "relativePath": "Scripts\\GameManager.ts"
+  },
+  "3737319f-5d5f-486e-ad03-2475ca168052": {
+    "asset": 1689835834436,
+    "meta": 1689836353907,
+    "relativePath": "Scripts\\Game\\Game.ts"
+  },
+  "616d5bdb-5e6d-4ca1-8b34-9d9386861564": {
+    "asset": 1689838571140,
+    "meta": 1689838578184,
+    "relativePath": "resources\\json\\MonsterGroupConfigure.json"
+  },
+  "9a7b764b-f18c-42f6-bcff-176279c9bdab": {
+    "asset": 1689841454284,
+    "meta": 1689841456130,
+    "relativePath": "Scripts\\Monster\\Elite\\Elite1.ts"
+  },
+  "10e4e739-8368-40dc-ac90-b611bea226fa": {
+    "asset": 1689847901830,
+    "meta": 1689847924326,
+    "relativePath": "resources\\json\\HeroAttribute.json"
+  },
+  "c5b53712-6a3b-4538-ae8d-111c05aa3bec": {
+    "asset": 1689847901821,
+    "meta": 1689847924327,
+    "relativePath": "resources\\json\\HeroBaseInfo.json"
+  },
+  "cb2deb3d-b253-4326-900a-1c1f33f12b1b": {
+    "asset": 1689905723398,
+    "meta": 1689905740732,
+    "relativePath": "Scripts\\NetWork\\HttpManager.ts"
   }
 }

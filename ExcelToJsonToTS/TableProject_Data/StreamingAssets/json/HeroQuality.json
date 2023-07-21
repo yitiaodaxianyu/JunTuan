@@ -1,0 +1,1442 @@
+[
+  {
+    "StarCultivateID": 1000,
+    "Quality": 1,
+    "Stage": 0,
+    "Star": 0,
+    "CurrentStage": 0,
+    "CostFragment": 2
+  },
+  {
+    "StarCultivateID": 1001,
+    "Quality": 1,
+    "Stage": 1,
+    "Star": 0,
+    "CurrentStage": 1,
+    "CostFragment": 2
+  },
+  {
+    "StarCultivateID": 1002,
+    "Quality": 1,
+    "Stage": 2,
+    "Star": 0,
+    "CurrentStage": 2,
+    "CostFragment": 2
+  },
+  {
+    "StarCultivateID": 1003,
+    "Quality": 1,
+    "Stage": 3,
+    "Star": 0,
+    "CurrentStage": 3,
+    "CostFragment": 2
+  },
+  {
+    "StarCultivateID": 1004,
+    "Quality": 1,
+    "Stage": 4,
+    "Star": 0,
+    "CurrentStage": 4,
+    "CostFragment": 2
+  },
+  {
+    "StarCultivateID": 1005,
+    "Quality": 1,
+    "Stage": 5,
+    "Star": 0,
+    "CurrentStage": 5,
+    "CostFragment": 2
+  },
+  {
+    "StarCultivateID": 1006,
+    "Quality": 1,
+    "Stage": 6,
+    "Star": 1,
+    "CurrentStage": 0,
+    "CostFragment": 4
+  },
+  {
+    "StarCultivateID": 1007,
+    "Quality": 1,
+    "Stage": 7,
+    "Star": 1,
+    "CurrentStage": 1,
+    "CostFragment": 4
+  },
+  {
+    "StarCultivateID": 1008,
+    "Quality": 1,
+    "Stage": 8,
+    "Star": 1,
+    "CurrentStage": 2,
+    "CostFragment": 4
+  },
+  {
+    "StarCultivateID": 1009,
+    "Quality": 1,
+    "Stage": 9,
+    "Star": 1,
+    "CurrentStage": 3,
+    "CostFragment": 4
+  },
+  {
+    "StarCultivateID": 1010,
+    "Quality": 1,
+    "Stage": 10,
+    "Star": 1,
+    "CurrentStage": 4,
+    "CostFragment": 4
+  },
+  {
+    "StarCultivateID": 1011,
+    "Quality": 1,
+    "Stage": 11,
+    "Star": 1,
+    "CurrentStage": 5,
+    "CostFragment": 4
+  },
+  {
+    "StarCultivateID": 1012,
+    "Quality": 1,
+    "Stage": 12,
+    "Star": 2,
+    "CurrentStage": 0,
+    "CostFragment": 8
+  },
+  {
+    "StarCultivateID": 1013,
+    "Quality": 1,
+    "Stage": 13,
+    "Star": 2,
+    "CurrentStage": 1,
+    "CostFragment": 8
+  },
+  {
+    "StarCultivateID": 1014,
+    "Quality": 1,
+    "Stage": 14,
+    "Star": 2,
+    "CurrentStage": 2,
+    "CostFragment": 8
+  },
+  {
+    "StarCultivateID": 1015,
+    "Quality": 1,
+    "Stage": 15,
+    "Star": 2,
+    "CurrentStage": 3,
+    "CostFragment": 8
+  },
+  {
+    "StarCultivateID": 1016,
+    "Quality": 1,
+    "Stage": 16,
+    "Star": 2,
+    "CurrentStage": 4,
+    "CostFragment": 8
+  },
+  {
+    "StarCultivateID": 1017,
+    "Quality": 1,
+    "Stage": 17,
+    "Star": 2,
+    "CurrentStage": 5,
+    "CostFragment": 8
+  },
+  {
+    "StarCultivateID": 1018,
+    "Quality": 1,
+    "Stage": 18,
+    "Star": 3,
+    "CurrentStage": 0,
+    "CostFragment": 16
+  },
+  {
+    "StarCultivateID": 1019,
+    "Quality": 1,
+    "Stage": 19,
+    "Star": 3,
+    "CurrentStage": 1,
+    "CostFragment": 16
+  },
+  {
+    "StarCultivateID": 1020,
+    "Quality": 1,
+    "Stage": 20,
+    "Star": 3,
+    "CurrentStage": 2,
+    "CostFragment": 16
+  },
+  {
+    "StarCultivateID": 1021,
+    "Quality": 1,
+    "Stage": 21,
+    "Star": 3,
+    "CurrentStage": 3,
+    "CostFragment": 16
+  },
+  {
+    "StarCultivateID": 1022,
+    "Quality": 1,
+    "Stage": 22,
+    "Star": 3,
+    "CurrentStage": 4,
+    "CostFragment": 16
+  },
+  {
+    "StarCultivateID": 1023,
+    "Quality": 1,
+    "Stage": 23,
+    "Star": 3,
+    "CurrentStage": 5,
+    "CostFragment": 16
+  },
+  {
+    "StarCultivateID": 1024,
+    "Quality": 1,
+    "Stage": 24,
+    "Star": 4,
+    "CurrentStage": 0,
+    "CostFragment": 28
+  },
+  {
+    "StarCultivateID": 1025,
+    "Quality": 1,
+    "Stage": 25,
+    "Star": 4,
+    "CurrentStage": 1,
+    "CostFragment": 28
+  },
+  {
+    "StarCultivateID": 1026,
+    "Quality": 1,
+    "Stage": 26,
+    "Star": 4,
+    "CurrentStage": 2,
+    "CostFragment": 28
+  },
+  {
+    "StarCultivateID": 1027,
+    "Quality": 1,
+    "Stage": 27,
+    "Star": 4,
+    "CurrentStage": 3,
+    "CostFragment": 28
+  },
+  {
+    "StarCultivateID": 1028,
+    "Quality": 1,
+    "Stage": 28,
+    "Star": 4,
+    "CurrentStage": 4,
+    "CostFragment": 28
+  },
+  {
+    "StarCultivateID": 1029,
+    "Quality": 1,
+    "Stage": 29,
+    "Star": 4,
+    "CurrentStage": 5,
+    "CostFragment": 28
+  },
+  {
+    "StarCultivateID": 2000,
+    "Quality": 2,
+    "Stage": 0,
+    "Star": 0,
+    "CurrentStage": 0,
+    "CostFragment": 4
+  },
+  {
+    "StarCultivateID": 2001,
+    "Quality": 2,
+    "Stage": 1,
+    "Star": 0,
+    "CurrentStage": 1,
+    "CostFragment": 4
+  },
+  {
+    "StarCultivateID": 2002,
+    "Quality": 2,
+    "Stage": 2,
+    "Star": 0,
+    "CurrentStage": 2,
+    "CostFragment": 4
+  },
+  {
+    "StarCultivateID": 2003,
+    "Quality": 2,
+    "Stage": 3,
+    "Star": 0,
+    "CurrentStage": 3,
+    "CostFragment": 4
+  },
+  {
+    "StarCultivateID": 2004,
+    "Quality": 2,
+    "Stage": 4,
+    "Star": 0,
+    "CurrentStage": 4,
+    "CostFragment": 4
+  },
+  {
+    "StarCultivateID": 2005,
+    "Quality": 2,
+    "Stage": 5,
+    "Star": 0,
+    "CurrentStage": 5,
+    "CostFragment": 4
+  },
+  {
+    "StarCultivateID": 2006,
+    "Quality": 2,
+    "Stage": 6,
+    "Star": 1,
+    "CurrentStage": 0,
+    "CostFragment": 6
+  },
+  {
+    "StarCultivateID": 2007,
+    "Quality": 2,
+    "Stage": 7,
+    "Star": 1,
+    "CurrentStage": 1,
+    "CostFragment": 6
+  },
+  {
+    "StarCultivateID": 2008,
+    "Quality": 2,
+    "Stage": 8,
+    "Star": 1,
+    "CurrentStage": 2,
+    "CostFragment": 6
+  },
+  {
+    "StarCultivateID": 2009,
+    "Quality": 2,
+    "Stage": 9,
+    "Star": 1,
+    "CurrentStage": 3,
+    "CostFragment": 6
+  },
+  {
+    "StarCultivateID": 2010,
+    "Quality": 2,
+    "Stage": 10,
+    "Star": 1,
+    "CurrentStage": 4,
+    "CostFragment": 6
+  },
+  {
+    "StarCultivateID": 2011,
+    "Quality": 2,
+    "Stage": 11,
+    "Star": 1,
+    "CurrentStage": 5,
+    "CostFragment": 6
+  },
+  {
+    "StarCultivateID": 2012,
+    "Quality": 2,
+    "Stage": 12,
+    "Star": 2,
+    "CurrentStage": 0,
+    "CostFragment": 12
+  },
+  {
+    "StarCultivateID": 2013,
+    "Quality": 2,
+    "Stage": 13,
+    "Star": 2,
+    "CurrentStage": 1,
+    "CostFragment": 12
+  },
+  {
+    "StarCultivateID": 2014,
+    "Quality": 2,
+    "Stage": 14,
+    "Star": 2,
+    "CurrentStage": 2,
+    "CostFragment": 12
+  },
+  {
+    "StarCultivateID": 2015,
+    "Quality": 2,
+    "Stage": 15,
+    "Star": 2,
+    "CurrentStage": 3,
+    "CostFragment": 12
+  },
+  {
+    "StarCultivateID": 2016,
+    "Quality": 2,
+    "Stage": 16,
+    "Star": 2,
+    "CurrentStage": 4,
+    "CostFragment": 12
+  },
+  {
+    "StarCultivateID": 2017,
+    "Quality": 2,
+    "Stage": 17,
+    "Star": 2,
+    "CurrentStage": 5,
+    "CostFragment": 12
+  },
+  {
+    "StarCultivateID": 2018,
+    "Quality": 2,
+    "Stage": 18,
+    "Star": 3,
+    "CurrentStage": 0,
+    "CostFragment": 20
+  },
+  {
+    "StarCultivateID": 2019,
+    "Quality": 2,
+    "Stage": 19,
+    "Star": 3,
+    "CurrentStage": 1,
+    "CostFragment": 20
+  },
+  {
+    "StarCultivateID": 2020,
+    "Quality": 2,
+    "Stage": 20,
+    "Star": 3,
+    "CurrentStage": 2,
+    "CostFragment": 20
+  },
+  {
+    "StarCultivateID": 2021,
+    "Quality": 2,
+    "Stage": 21,
+    "Star": 3,
+    "CurrentStage": 3,
+    "CostFragment": 20
+  },
+  {
+    "StarCultivateID": 2022,
+    "Quality": 2,
+    "Stage": 22,
+    "Star": 3,
+    "CurrentStage": 4,
+    "CostFragment": 20
+  },
+  {
+    "StarCultivateID": 2023,
+    "Quality": 2,
+    "Stage": 23,
+    "Star": 3,
+    "CurrentStage": 5,
+    "CostFragment": 20
+  },
+  {
+    "StarCultivateID": 2024,
+    "Quality": 2,
+    "Stage": 24,
+    "Star": 4,
+    "CurrentStage": 0,
+    "CostFragment": 36
+  },
+  {
+    "StarCultivateID": 2025,
+    "Quality": 2,
+    "Stage": 25,
+    "Star": 4,
+    "CurrentStage": 1,
+    "CostFragment": 36
+  },
+  {
+    "StarCultivateID": 2026,
+    "Quality": 2,
+    "Stage": 26,
+    "Star": 4,
+    "CurrentStage": 2,
+    "CostFragment": 36
+  },
+  {
+    "StarCultivateID": 2027,
+    "Quality": 2,
+    "Stage": 27,
+    "Star": 4,
+    "CurrentStage": 3,
+    "CostFragment": 36
+  },
+  {
+    "StarCultivateID": 2028,
+    "Quality": 2,
+    "Stage": 28,
+    "Star": 4,
+    "CurrentStage": 4,
+    "CostFragment": 36
+  },
+  {
+    "StarCultivateID": 2029,
+    "Quality": 2,
+    "Stage": 29,
+    "Star": 4,
+    "CurrentStage": 5,
+    "CostFragment": 36
+  },
+  {
+    "StarCultivateID": 3000,
+    "Quality": 3,
+    "Stage": 0,
+    "Star": 0,
+    "CurrentStage": 0,
+    "CostFragment": 6
+  },
+  {
+    "StarCultivateID": 3001,
+    "Quality": 3,
+    "Stage": 1,
+    "Star": 0,
+    "CurrentStage": 1,
+    "CostFragment": 6
+  },
+  {
+    "StarCultivateID": 3002,
+    "Quality": 3,
+    "Stage": 2,
+    "Star": 0,
+    "CurrentStage": 2,
+    "CostFragment": 6
+  },
+  {
+    "StarCultivateID": 3003,
+    "Quality": 3,
+    "Stage": 3,
+    "Star": 0,
+    "CurrentStage": 3,
+    "CostFragment": 6
+  },
+  {
+    "StarCultivateID": 3004,
+    "Quality": 3,
+    "Stage": 4,
+    "Star": 0,
+    "CurrentStage": 4,
+    "CostFragment": 6
+  },
+  {
+    "StarCultivateID": 3005,
+    "Quality": 3,
+    "Stage": 5,
+    "Star": 0,
+    "CurrentStage": 5,
+    "CostFragment": 6
+  },
+  {
+    "StarCultivateID": 3006,
+    "Quality": 3,
+    "Stage": 6,
+    "Star": 1,
+    "CurrentStage": 0,
+    "CostFragment": 10
+  },
+  {
+    "StarCultivateID": 3007,
+    "Quality": 3,
+    "Stage": 7,
+    "Star": 1,
+    "CurrentStage": 1,
+    "CostFragment": 10
+  },
+  {
+    "StarCultivateID": 3008,
+    "Quality": 3,
+    "Stage": 8,
+    "Star": 1,
+    "CurrentStage": 2,
+    "CostFragment": 10
+  },
+  {
+    "StarCultivateID": 3009,
+    "Quality": 3,
+    "Stage": 9,
+    "Star": 1,
+    "CurrentStage": 3,
+    "CostFragment": 10
+  },
+  {
+    "StarCultivateID": 3010,
+    "Quality": 3,
+    "Stage": 10,
+    "Star": 1,
+    "CurrentStage": 4,
+    "CostFragment": 10
+  },
+  {
+    "StarCultivateID": 3011,
+    "Quality": 3,
+    "Stage": 11,
+    "Star": 1,
+    "CurrentStage": 5,
+    "CostFragment": 10
+  },
+  {
+    "StarCultivateID": 3012,
+    "Quality": 3,
+    "Stage": 12,
+    "Star": 2,
+    "CurrentStage": 0,
+    "CostFragment": 16
+  },
+  {
+    "StarCultivateID": 3013,
+    "Quality": 3,
+    "Stage": 13,
+    "Star": 2,
+    "CurrentStage": 1,
+    "CostFragment": 16
+  },
+  {
+    "StarCultivateID": 3014,
+    "Quality": 3,
+    "Stage": 14,
+    "Star": 2,
+    "CurrentStage": 2,
+    "CostFragment": 16
+  },
+  {
+    "StarCultivateID": 3015,
+    "Quality": 3,
+    "Stage": 15,
+    "Star": 2,
+    "CurrentStage": 3,
+    "CostFragment": 16
+  },
+  {
+    "StarCultivateID": 3016,
+    "Quality": 3,
+    "Stage": 16,
+    "Star": 2,
+    "CurrentStage": 4,
+    "CostFragment": 16
+  },
+  {
+    "StarCultivateID": 3017,
+    "Quality": 3,
+    "Stage": 17,
+    "Star": 2,
+    "CurrentStage": 5,
+    "CostFragment": 16
+  },
+  {
+    "StarCultivateID": 3018,
+    "Quality": 3,
+    "Stage": 18,
+    "Star": 3,
+    "CurrentStage": 0,
+    "CostFragment": 25
+  },
+  {
+    "StarCultivateID": 3019,
+    "Quality": 3,
+    "Stage": 19,
+    "Star": 3,
+    "CurrentStage": 1,
+    "CostFragment": 25
+  },
+  {
+    "StarCultivateID": 3020,
+    "Quality": 3,
+    "Stage": 20,
+    "Star": 3,
+    "CurrentStage": 2,
+    "CostFragment": 25
+  },
+  {
+    "StarCultivateID": 3021,
+    "Quality": 3,
+    "Stage": 21,
+    "Star": 3,
+    "CurrentStage": 3,
+    "CostFragment": 25
+  },
+  {
+    "StarCultivateID": 3022,
+    "Quality": 3,
+    "Stage": 22,
+    "Star": 3,
+    "CurrentStage": 4,
+    "CostFragment": 25
+  },
+  {
+    "StarCultivateID": 3023,
+    "Quality": 3,
+    "Stage": 23,
+    "Star": 3,
+    "CurrentStage": 5,
+    "CostFragment": 25
+  },
+  {
+    "StarCultivateID": 3024,
+    "Quality": 3,
+    "Stage": 24,
+    "Star": 4,
+    "CurrentStage": 0,
+    "CostFragment": 40
+  },
+  {
+    "StarCultivateID": 3025,
+    "Quality": 3,
+    "Stage": 25,
+    "Star": 4,
+    "CurrentStage": 1,
+    "CostFragment": 40
+  },
+  {
+    "StarCultivateID": 3026,
+    "Quality": 3,
+    "Stage": 26,
+    "Star": 4,
+    "CurrentStage": 2,
+    "CostFragment": 40
+  },
+  {
+    "StarCultivateID": 3027,
+    "Quality": 3,
+    "Stage": 27,
+    "Star": 4,
+    "CurrentStage": 3,
+    "CostFragment": 40
+  },
+  {
+    "StarCultivateID": 3028,
+    "Quality": 3,
+    "Stage": 28,
+    "Star": 4,
+    "CurrentStage": 4,
+    "CostFragment": 40
+  },
+  {
+    "StarCultivateID": 3029,
+    "Quality": 3,
+    "Stage": 29,
+    "Star": 4,
+    "CurrentStage": 5,
+    "CostFragment": 40
+  },
+  {
+    "StarCultivateID": 4000,
+    "Quality": 4,
+    "Stage": 0,
+    "Star": 0,
+    "CurrentStage": 0,
+    "CostFragment": 8
+  },
+  {
+    "StarCultivateID": 4001,
+    "Quality": 4,
+    "Stage": 1,
+    "Star": 0,
+    "CurrentStage": 1,
+    "CostFragment": 8
+  },
+  {
+    "StarCultivateID": 4002,
+    "Quality": 4,
+    "Stage": 2,
+    "Star": 0,
+    "CurrentStage": 2,
+    "CostFragment": 8
+  },
+  {
+    "StarCultivateID": 4003,
+    "Quality": 4,
+    "Stage": 3,
+    "Star": 0,
+    "CurrentStage": 3,
+    "CostFragment": 8
+  },
+  {
+    "StarCultivateID": 4004,
+    "Quality": 4,
+    "Stage": 4,
+    "Star": 0,
+    "CurrentStage": 4,
+    "CostFragment": 8
+  },
+  {
+    "StarCultivateID": 4005,
+    "Quality": 4,
+    "Stage": 5,
+    "Star": 0,
+    "CurrentStage": 5,
+    "CostFragment": 8
+  },
+  {
+    "StarCultivateID": 4006,
+    "Quality": 4,
+    "Stage": 6,
+    "Star": 1,
+    "CurrentStage": 0,
+    "CostFragment": 12
+  },
+  {
+    "StarCultivateID": 4007,
+    "Quality": 4,
+    "Stage": 7,
+    "Star": 1,
+    "CurrentStage": 1,
+    "CostFragment": 12
+  },
+  {
+    "StarCultivateID": 4008,
+    "Quality": 4,
+    "Stage": 8,
+    "Star": 1,
+    "CurrentStage": 2,
+    "CostFragment": 12
+  },
+  {
+    "StarCultivateID": 4009,
+    "Quality": 4,
+    "Stage": 9,
+    "Star": 1,
+    "CurrentStage": 3,
+    "CostFragment": 12
+  },
+  {
+    "StarCultivateID": 4010,
+    "Quality": 4,
+    "Stage": 10,
+    "Star": 1,
+    "CurrentStage": 4,
+    "CostFragment": 12
+  },
+  {
+    "StarCultivateID": 4011,
+    "Quality": 4,
+    "Stage": 11,
+    "Star": 1,
+    "CurrentStage": 5,
+    "CostFragment": 12
+  },
+  {
+    "StarCultivateID": 4012,
+    "Quality": 4,
+    "Stage": 12,
+    "Star": 2,
+    "CurrentStage": 0,
+    "CostFragment": 20
+  },
+  {
+    "StarCultivateID": 4013,
+    "Quality": 4,
+    "Stage": 13,
+    "Star": 2,
+    "CurrentStage": 1,
+    "CostFragment": 20
+  },
+  {
+    "StarCultivateID": 4014,
+    "Quality": 4,
+    "Stage": 14,
+    "Star": 2,
+    "CurrentStage": 2,
+    "CostFragment": 20
+  },
+  {
+    "StarCultivateID": 4015,
+    "Quality": 4,
+    "Stage": 15,
+    "Star": 2,
+    "CurrentStage": 3,
+    "CostFragment": 20
+  },
+  {
+    "StarCultivateID": 4016,
+    "Quality": 4,
+    "Stage": 16,
+    "Star": 2,
+    "CurrentStage": 4,
+    "CostFragment": 20
+  },
+  {
+    "StarCultivateID": 4017,
+    "Quality": 4,
+    "Stage": 17,
+    "Star": 2,
+    "CurrentStage": 5,
+    "CostFragment": 20
+  },
+  {
+    "StarCultivateID": 4018,
+    "Quality": 4,
+    "Stage": 18,
+    "Star": 3,
+    "CurrentStage": 0,
+    "CostFragment": 36
+  },
+  {
+    "StarCultivateID": 4019,
+    "Quality": 4,
+    "Stage": 19,
+    "Star": 3,
+    "CurrentStage": 1,
+    "CostFragment": 36
+  },
+  {
+    "StarCultivateID": 4020,
+    "Quality": 4,
+    "Stage": 20,
+    "Star": 3,
+    "CurrentStage": 2,
+    "CostFragment": 36
+  },
+  {
+    "StarCultivateID": 4021,
+    "Quality": 4,
+    "Stage": 21,
+    "Star": 3,
+    "CurrentStage": 3,
+    "CostFragment": 36
+  },
+  {
+    "StarCultivateID": 4022,
+    "Quality": 4,
+    "Stage": 22,
+    "Star": 3,
+    "CurrentStage": 4,
+    "CostFragment": 36
+  },
+  {
+    "StarCultivateID": 4023,
+    "Quality": 4,
+    "Stage": 23,
+    "Star": 3,
+    "CurrentStage": 5,
+    "CostFragment": 36
+  },
+  {
+    "StarCultivateID": 4024,
+    "Quality": 4,
+    "Stage": 24,
+    "Star": 4,
+    "CurrentStage": 0,
+    "CostFragment": 50
+  },
+  {
+    "StarCultivateID": 4025,
+    "Quality": 4,
+    "Stage": 25,
+    "Star": 4,
+    "CurrentStage": 1,
+    "CostFragment": 50
+  },
+  {
+    "StarCultivateID": 4026,
+    "Quality": 4,
+    "Stage": 26,
+    "Star": 4,
+    "CurrentStage": 2,
+    "CostFragment": 50
+  },
+  {
+    "StarCultivateID": 4027,
+    "Quality": 4,
+    "Stage": 27,
+    "Star": 4,
+    "CurrentStage": 3,
+    "CostFragment": 50
+  },
+  {
+    "StarCultivateID": 4028,
+    "Quality": 4,
+    "Stage": 28,
+    "Star": 4,
+    "CurrentStage": 4,
+    "CostFragment": 50
+  },
+  {
+    "StarCultivateID": 4029,
+    "Quality": 4,
+    "Stage": 29,
+    "Star": 4,
+    "CurrentStage": 5,
+    "CostFragment": 50
+  },
+  {
+    "StarCultivateID": 5000,
+    "Quality": 5,
+    "Stage": 0,
+    "Star": 0,
+    "CurrentStage": 0,
+    "CostFragment": 10
+  },
+  {
+    "StarCultivateID": 5001,
+    "Quality": 5,
+    "Stage": 1,
+    "Star": 0,
+    "CurrentStage": 1,
+    "CostFragment": 10
+  },
+  {
+    "StarCultivateID": 5002,
+    "Quality": 5,
+    "Stage": 2,
+    "Star": 0,
+    "CurrentStage": 2,
+    "CostFragment": 10
+  },
+  {
+    "StarCultivateID": 5003,
+    "Quality": 5,
+    "Stage": 3,
+    "Star": 0,
+    "CurrentStage": 3,
+    "CostFragment": 10
+  },
+  {
+    "StarCultivateID": 5004,
+    "Quality": 5,
+    "Stage": 4,
+    "Star": 0,
+    "CurrentStage": 4,
+    "CostFragment": 10
+  },
+  {
+    "StarCultivateID": 5005,
+    "Quality": 5,
+    "Stage": 5,
+    "Star": 0,
+    "CurrentStage": 5,
+    "CostFragment": 10
+  },
+  {
+    "StarCultivateID": 5006,
+    "Quality": 5,
+    "Stage": 6,
+    "Star": 1,
+    "CurrentStage": 0,
+    "CostFragment": 20
+  },
+  {
+    "StarCultivateID": 5007,
+    "Quality": 5,
+    "Stage": 7,
+    "Star": 1,
+    "CurrentStage": 1,
+    "CostFragment": 20
+  },
+  {
+    "StarCultivateID": 5008,
+    "Quality": 5,
+    "Stage": 8,
+    "Star": 1,
+    "CurrentStage": 2,
+    "CostFragment": 20
+  },
+  {
+    "StarCultivateID": 5009,
+    "Quality": 5,
+    "Stage": 9,
+    "Star": 1,
+    "CurrentStage": 3,
+    "CostFragment": 20
+  },
+  {
+    "StarCultivateID": 5010,
+    "Quality": 5,
+    "Stage": 10,
+    "Star": 1,
+    "CurrentStage": 4,
+    "CostFragment": 20
+  },
+  {
+    "StarCultivateID": 5011,
+    "Quality": 5,
+    "Stage": 11,
+    "Star": 1,
+    "CurrentStage": 5,
+    "CostFragment": 20
+  },
+  {
+    "StarCultivateID": 5012,
+    "Quality": 5,
+    "Stage": 12,
+    "Star": 2,
+    "CurrentStage": 0,
+    "CostFragment": 32
+  },
+  {
+    "StarCultivateID": 5013,
+    "Quality": 5,
+    "Stage": 13,
+    "Star": 2,
+    "CurrentStage": 1,
+    "CostFragment": 32
+  },
+  {
+    "StarCultivateID": 5014,
+    "Quality": 5,
+    "Stage": 14,
+    "Star": 2,
+    "CurrentStage": 2,
+    "CostFragment": 32
+  },
+  {
+    "StarCultivateID": 5015,
+    "Quality": 5,
+    "Stage": 15,
+    "Star": 2,
+    "CurrentStage": 3,
+    "CostFragment": 32
+  },
+  {
+    "StarCultivateID": 5016,
+    "Quality": 5,
+    "Stage": 16,
+    "Star": 2,
+    "CurrentStage": 4,
+    "CostFragment": 32
+  },
+  {
+    "StarCultivateID": 5017,
+    "Quality": 5,
+    "Stage": 17,
+    "Star": 2,
+    "CurrentStage": 5,
+    "CostFragment": 32
+  },
+  {
+    "StarCultivateID": 5018,
+    "Quality": 5,
+    "Stage": 18,
+    "Star": 3,
+    "CurrentStage": 0,
+    "CostFragment": 50
+  },
+  {
+    "StarCultivateID": 5019,
+    "Quality": 5,
+    "Stage": 19,
+    "Star": 3,
+    "CurrentStage": 1,
+    "CostFragment": 50
+  },
+  {
+    "StarCultivateID": 5020,
+    "Quality": 5,
+    "Stage": 20,
+    "Star": 3,
+    "CurrentStage": 2,
+    "CostFragment": 50
+  },
+  {
+    "StarCultivateID": 5021,
+    "Quality": 5,
+    "Stage": 21,
+    "Star": 3,
+    "CurrentStage": 3,
+    "CostFragment": 50
+  },
+  {
+    "StarCultivateID": 5022,
+    "Quality": 5,
+    "Stage": 22,
+    "Star": 3,
+    "CurrentStage": 4,
+    "CostFragment": 50
+  },
+  {
+    "StarCultivateID": 5023,
+    "Quality": 5,
+    "Stage": 23,
+    "Star": 3,
+    "CurrentStage": 5,
+    "CostFragment": 50
+  },
+  {
+    "StarCultivateID": 5024,
+    "Quality": 5,
+    "Stage": 24,
+    "Star": 4,
+    "CurrentStage": 0,
+    "CostFragment": 65
+  },
+  {
+    "StarCultivateID": 5025,
+    "Quality": 5,
+    "Stage": 25,
+    "Star": 4,
+    "CurrentStage": 1,
+    "CostFragment": 65
+  },
+  {
+    "StarCultivateID": 5026,
+    "Quality": 5,
+    "Stage": 26,
+    "Star": 4,
+    "CurrentStage": 2,
+    "CostFragment": 65
+  },
+  {
+    "StarCultivateID": 5027,
+    "Quality": 5,
+    "Stage": 27,
+    "Star": 4,
+    "CurrentStage": 3,
+    "CostFragment": 65
+  },
+  {
+    "StarCultivateID": 5028,
+    "Quality": 5,
+    "Stage": 28,
+    "Star": 4,
+    "CurrentStage": 4,
+    "CostFragment": 65
+  },
+  {
+    "StarCultivateID": 5029,
+    "Quality": 5,
+    "Stage": 29,
+    "Star": 4,
+    "CurrentStage": 5,
+    "CostFragment": 65
+  },
+  {
+    "StarCultivateID": 6000,
+    "Quality": 6,
+    "Stage": 0,
+    "Star": 0,
+    "CurrentStage": 0,
+    "CostFragment": 10
+  },
+  {
+    "StarCultivateID": 6001,
+    "Quality": 6,
+    "Stage": 1,
+    "Star": 0,
+    "CurrentStage": 1,
+    "CostFragment": 10
+  },
+  {
+    "StarCultivateID": 6002,
+    "Quality": 6,
+    "Stage": 2,
+    "Star": 0,
+    "CurrentStage": 2,
+    "CostFragment": 10
+  },
+  {
+    "StarCultivateID": 6003,
+    "Quality": 6,
+    "Stage": 3,
+    "Star": 0,
+    "CurrentStage": 3,
+    "CostFragment": 10
+  },
+  {
+    "StarCultivateID": 6004,
+    "Quality": 6,
+    "Stage": 4,
+    "Star": 0,
+    "CurrentStage": 4,
+    "CostFragment": 10
+  },
+  {
+    "StarCultivateID": 6005,
+    "Quality": 6,
+    "Stage": 5,
+    "Star": 0,
+    "CurrentStage": 5,
+    "CostFragment": 10
+  },
+  {
+    "StarCultivateID": 6006,
+    "Quality": 6,
+    "Stage": 6,
+    "Star": 1,
+    "CurrentStage": 0,
+    "CostFragment": 20
+  },
+  {
+    "StarCultivateID": 6007,
+    "Quality": 6,
+    "Stage": 7,
+    "Star": 1,
+    "CurrentStage": 1,
+    "CostFragment": 20
+  },
+  {
+    "StarCultivateID": 6008,
+    "Quality": 6,
+    "Stage": 8,
+    "Star": 1,
+    "CurrentStage": 2,
+    "CostFragment": 20
+  },
+  {
+    "StarCultivateID": 6009,
+    "Quality": 6,
+    "Stage": 9,
+    "Star": 1,
+    "CurrentStage": 3,
+    "CostFragment": 20
+  },
+  {
+    "StarCultivateID": 6010,
+    "Quality": 6,
+    "Stage": 10,
+    "Star": 1,
+    "CurrentStage": 4,
+    "CostFragment": 20
+  },
+  {
+    "StarCultivateID": 6011,
+    "Quality": 6,
+    "Stage": 11,
+    "Star": 1,
+    "CurrentStage": 5,
+    "CostFragment": 20
+  },
+  {
+    "StarCultivateID": 6012,
+    "Quality": 6,
+    "Stage": 12,
+    "Star": 2,
+    "CurrentStage": 0,
+    "CostFragment": 32
+  },
+  {
+    "StarCultivateID": 6013,
+    "Quality": 6,
+    "Stage": 13,
+    "Star": 2,
+    "CurrentStage": 1,
+    "CostFragment": 32
+  },
+  {
+    "StarCultivateID": 6014,
+    "Quality": 6,
+    "Stage": 14,
+    "Star": 2,
+    "CurrentStage": 2,
+    "CostFragment": 32
+  },
+  {
+    "StarCultivateID": 6015,
+    "Quality": 6,
+    "Stage": 15,
+    "Star": 2,
+    "CurrentStage": 3,
+    "CostFragment": 32
+  },
+  {
+    "StarCultivateID": 6016,
+    "Quality": 6,
+    "Stage": 16,
+    "Star": 2,
+    "CurrentStage": 4,
+    "CostFragment": 32
+  },
+  {
+    "StarCultivateID": 6017,
+    "Quality": 6,
+    "Stage": 17,
+    "Star": 2,
+    "CurrentStage": 5,
+    "CostFragment": 32
+  },
+  {
+    "StarCultivateID": 6018,
+    "Quality": 6,
+    "Stage": 18,
+    "Star": 3,
+    "CurrentStage": 0,
+    "CostFragment": 50
+  },
+  {
+    "StarCultivateID": 6019,
+    "Quality": 6,
+    "Stage": 19,
+    "Star": 3,
+    "CurrentStage": 1,
+    "CostFragment": 50
+  },
+  {
+    "StarCultivateID": 6020,
+    "Quality": 6,
+    "Stage": 20,
+    "Star": 3,
+    "CurrentStage": 2,
+    "CostFragment": 50
+  },
+  {
+    "StarCultivateID": 6021,
+    "Quality": 6,
+    "Stage": 21,
+    "Star": 3,
+    "CurrentStage": 3,
+    "CostFragment": 50
+  },
+  {
+    "StarCultivateID": 6022,
+    "Quality": 6,
+    "Stage": 22,
+    "Star": 3,
+    "CurrentStage": 4,
+    "CostFragment": 50
+  },
+  {
+    "StarCultivateID": 6023,
+    "Quality": 6,
+    "Stage": 23,
+    "Star": 3,
+    "CurrentStage": 5,
+    "CostFragment": 50
+  },
+  {
+    "StarCultivateID": 6024,
+    "Quality": 6,
+    "Stage": 24,
+    "Star": 4,
+    "CurrentStage": 0,
+    "CostFragment": 65
+  },
+  {
+    "StarCultivateID": 6025,
+    "Quality": 6,
+    "Stage": 25,
+    "Star": 4,
+    "CurrentStage": 1,
+    "CostFragment": 65
+  },
+  {
+    "StarCultivateID": 6026,
+    "Quality": 6,
+    "Stage": 26,
+    "Star": 4,
+    "CurrentStage": 2,
+    "CostFragment": 65
+  },
+  {
+    "StarCultivateID": 6027,
+    "Quality": 6,
+    "Stage": 27,
+    "Star": 4,
+    "CurrentStage": 3,
+    "CostFragment": 65
+  },
+  {
+    "StarCultivateID": 6028,
+    "Quality": 6,
+    "Stage": 28,
+    "Star": 4,
+    "CurrentStage": 4,
+    "CostFragment": 65
+  },
+  {
+    "StarCultivateID": 6029,
+    "Quality": 6,
+    "Stage": 29,
+    "Star": 4,
+    "CurrentStage": 5,
+    "CostFragment": 65
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "GiftsBundle": 4001,
+    "DisplayOrder": 1,
+    "GetCoin": 200000,
+    "GetGem": 0,
+    "HeroExp": 600000,
+    "ItemId_1": 0,
+    "ItemNum_1": 0,
+    "ItemId_2": 0,
+    "ItemNum_2": 0,
+    "VipPoints": 300,
+    "ValueProportion": 150
+  },
+  {
+    "GiftsBundle": 4002,
+    "DisplayOrder": 2,
+    "GetCoin": 200000,
+    "GetGem": 500,
+    "HeroExp": 0,
+    "ItemId_1": 0,
+    "ItemNum_1": 0,
+    "ItemId_2": 0,
+    "ItemNum_2": 0,
+    "VipPoints": 300,
+    "ValueProportion": 150
+  },
+  {
+    "GiftsBundle": 4003,
+    "DisplayOrder": 3,
+    "GetCoin": 0,
+    "GetGem": 3500,
+    "HeroExp": 0,
+    "ItemId_1": 11,
+    "ItemNum_1": 5,
+    "ItemId_2": 8,
+    "ItemNum_2": 20,
+    "VipPoints": 1280,
+    "ValueProportion": 200
+  }
+]

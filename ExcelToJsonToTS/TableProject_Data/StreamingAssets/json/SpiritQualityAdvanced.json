@@ -1,0 +1,106 @@
+[
+  {
+    "CurrentQuality": 2,
+    "TargetQuality": 3,
+    "CostItselfNum": 0,
+    "CostItselfQuality": 0,
+    "CostSameTypeNum": 2,
+    "CostSameTypeQuality": 2
+  },
+  {
+    "CurrentQuality": 3,
+    "TargetQuality": 4,
+    "CostItselfNum": 0,
+    "CostItselfQuality": 0,
+    "CostSameTypeNum": 2,
+    "CostSameTypeQuality": 3
+  },
+  {
+    "CurrentQuality": 4,
+    "TargetQuality": 5,
+    "CostItselfNum": 0,
+    "CostItselfQuality": 0,
+    "CostSameTypeNum": 1,
+    "CostSameTypeQuality": 4
+  },
+  {
+    "CurrentQuality": 5,
+    "TargetQuality": 6,
+    "CostItselfNum": 0,
+    "CostItselfQuality": 0,
+    "CostSameTypeNum": 2,
+    "CostSameTypeQuality": 4
+  },
+  {
+    "CurrentQuality": 6,
+    "TargetQuality": 7,
+    "CostItselfNum": 0,
+    "CostItselfQuality": 0,
+    "CostSameTypeNum": 2,
+    "CostSameTypeQuality": 4
+  },
+  {
+    "CurrentQuality": 7,
+    "TargetQuality": 8,
+    "CostItselfNum": 0,
+    "CostItselfQuality": 0,
+    "CostSameTypeNum": 2,
+    "CostSameTypeQuality": 5
+  },
+  {
+    "CurrentQuality": 8,
+    "TargetQuality": 9,
+    "CostItselfNum": 0,
+    "CostItselfQuality": 0,
+    "CostSameTypeNum": 2,
+    "CostSameTypeQuality": 4
+  },
+  {
+    "CurrentQuality": 9,
+    "TargetQuality": 10,
+    "CostItselfNum": 0,
+    "CostItselfQuality": 0,
+    "CostSameTypeNum": 2,
+    "CostSameTypeQuality": 5
+  },
+  {
+    "CurrentQuality": 10,
+    "TargetQuality": 11,
+    "CostItselfNum": 0,
+    "CostItselfQuality": 0,
+    "CostSameTypeNum": 2,
+    "CostSameTypeQuality": 4
+  },
+  {
+    "CurrentQuality": 11,
+    "TargetQuality": 12,
+    "CostItselfNum": 0,
+    "CostItselfQuality": 0,
+    "CostSameTypeNum": 2,
+    "CostSameTypeQuality": 4
+  },
+  {
+    "CurrentQuality": 12,
+    "TargetQuality": 13,
+    "CostItselfNum": 0,
+    "CostItselfQuality": 0,
+    "CostSameTypeNum": 2,
+    "CostSameTypeQuality": 5
+  },
+  {
+    "CurrentQuality": 13,
+    "TargetQuality": 14,
+    "CostItselfNum": 0,
+    "CostItselfQuality": 0,
+    "CostSameTypeNum": 2,
+    "CostSameTypeQuality": 4
+  },
+  {
+    "CurrentQuality": 14,
+    "TargetQuality": 15,
+    "CostItselfNum": 0,
+    "CostItselfQuality": 0,
+    "CostSameTypeNum": 2,
+    "CostSameTypeQuality": 5
+  }
+]

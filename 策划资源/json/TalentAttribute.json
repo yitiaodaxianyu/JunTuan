@@ -1,0 +1,200 @@
+[
+  {
+    "TalentID": 1001,
+    "TalentType": 1,
+    "TalentLevel": 1,
+    "AttributeParameter": 20
+  },
+  {
+    "TalentID": 1002,
+    "TalentType": 1,
+    "TalentLevel": 2,
+    "AttributeParameter": 22
+  },
+  {
+    "TalentID": 1003,
+    "TalentType": 1,
+    "TalentLevel": 3,
+    "AttributeParameter": 24
+  },
+  {
+    "TalentID": 1004,
+    "TalentType": 1,
+    "TalentLevel": 4,
+    "AttributeParameter": 26
+  },
+  {
+    "TalentID": 1005,
+    "TalentType": 1,
+    "TalentLevel": 5,
+    "AttributeParameter": 28
+  },
+  {
+    "TalentID": 1006,
+    "TalentType": 1,
+    "TalentLevel": 6,
+    "AttributeParameter": 30
+  },
+  {
+    "TalentID": 1007,
+    "TalentType": 1,
+    "TalentLevel": 7,
+    "AttributeParameter": 32
+  },
+  {
+    "TalentID": 2001,
+    "TalentType": 2,
+    "TalentLevel": 1,
+    "AttributeParameter": 20
+  },
+  {
+    "TalentID": 2002,
+    "TalentType": 2,
+    "TalentLevel": 2,
+    "AttributeParameter": 24
+  },
+  {
+    "TalentID": 2003,
+    "TalentType": 2,
+    "TalentLevel": 3,
+    "AttributeParameter": 28
+  },
+  {
+    "TalentID": 2004,
+    "TalentType": 2,
+    "TalentLevel": 4,
+    "AttributeParameter": 32
+  },
+  {
+    "TalentID": 2005,
+    "TalentType": 2,
+    "TalentLevel": 5,
+    "AttributeParameter": 36
+  },
+  {
+    "TalentID": 3001,
+    "TalentType": 3,
+    "TalentLevel": 1,
+    "AttributeParameter": 2
+  },
+  {
+    "TalentID": 3002,
+    "TalentType": 3,
+    "TalentLevel": 2,
+    "AttributeParameter": 22
+  },
+  {
+    "TalentID": 3003,
+    "TalentType": 3,
+    "TalentLevel": 3,
+    "AttributeParameter": 24
+  },
+  {
+    "TalentID": 3004,
+    "TalentType": 3,
+    "TalentLevel": 4,
+    "AttributeParameter": 26
+  },
+  {
+    "TalentID": 3005,
+    "TalentType": 3,
+    "TalentLevel": 5,
+    "AttributeParameter": 28
+  },
+  {
+    "TalentID": 3006,
+    "TalentType": 3,
+    "TalentLevel": 6,
+    "AttributeParameter": 30
+  },
+  {
+    "TalentID": 3007,
+    "TalentType": 3,
+    "TalentLevel": 7,
+    "AttributeParameter": 32
+  },
+  {
+    "TalentID": 3008,
+    "TalentType": 3,
+    "TalentLevel": 8,
+    "AttributeParameter": 34
+  },
+  {
+    "TalentID": 3009,
+    "TalentType": 3,
+    "TalentLevel": 9,
+    "AttributeParameter": 36
+  },
+  {
+    "TalentID": 4001,
+    "TalentType": 4,
+    "TalentLevel": 1,
+    "AttributeParameter": 20
+  },
+  {
+    "TalentID": 4002,
+    "TalentType": 4,
+    "TalentLevel": 2,
+    "AttributeParameter": 25
+  },
+  {
+    "TalentID": 4003,
+    "TalentType": 4,
+    "TalentLevel": 3,
+    "AttributeParameter": 30
+  },
+  {
+    "TalentID": 5001,
+    "TalentType": 5,
+    "TalentLevel": 1,
+    "AttributeParameter": 5
+  },
+  {
+    "TalentID": 5002,
+    "TalentType": 5,
+    "TalentLevel": 2,
+    "AttributeParameter": 7
+  },
+  {
+    "TalentID": 5003,
+    "TalentType": 5,
+    "TalentLevel": 3,
+    "AttributeParameter": 10
+  },
+  {
+    "TalentID": 6001,
+    "TalentType": 6,
+    "TalentLevel": 1,
+    "AttributeParameter": 3
+  },
+  {
+    "TalentID": 6002,
+    "TalentType": 6,
+    "TalentLevel": 2,
+    "AttributeParameter": 6
+  },
+  {
+    "TalentID": 7001,
+    "TalentType": 7,
+    "TalentLevel": 1,
+    "AttributeParameter": 2
+  },
+  {
+    "TalentID": 7002,
+    "TalentType": 7,
+    "TalentLevel": 2,
+    "AttributeParameter": 5
+  },
+  {
+    "TalentID": 8001,
+    "TalentType": 8,
+    "TalentLevel": 1,
+    "AttributeParameter": 5
+  },
+  {
+    "TalentID": 8002,
+    "TalentType": 8,
+    "TalentLevel": 2,
+    "AttributeParameter": 10
+  }
+]

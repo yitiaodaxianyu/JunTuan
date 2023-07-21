@@ -1,0 +1,26 @@
+[
+  {
+    "ExclusiveWeaponQuality": 1,
+    "CostFragment": 20
+  },
+  {
+    "ExclusiveWeaponQuality": 2,
+    "CostFragment": 20
+  },
+  {
+    "ExclusiveWeaponQuality": 3,
+    "CostFragment": 20
+  },
+  {
+    "ExclusiveWeaponQuality": 4,
+    "CostFragment": 20
+  },
+  {
+    "ExclusiveWeaponQuality": 5,
+    "CostFragment": 20
+  },
+  {
+    "ExclusiveWeaponQuality": 6,
+    "CostFragment": 20
+  }
+]

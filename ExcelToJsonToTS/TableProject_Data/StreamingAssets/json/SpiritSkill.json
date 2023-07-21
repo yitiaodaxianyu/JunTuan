@@ -1,0 +1,110 @@
+[
+  {
+    "SpiritSkill": 101,
+    "SpiritType": 1,
+    "SkillLevel": 1,
+    "CoolDown": 10.0,
+    "SkillParameter_1": 180.0,
+    "SkillParameter_2": 1.1,
+    "SkillParameter_3": 0.5
+  },
+  {
+    "SpiritSkill": 102,
+    "SpiritType": 1,
+    "SkillLevel": 2,
+    "CoolDown": 10.0,
+    "SkillParameter_1": 190.0,
+    "SkillParameter_2": 1.36,
+    "SkillParameter_3": 0.5
+  },
+  {
+    "SpiritSkill": 103,
+    "SpiritType": 1,
+    "SkillLevel": 3,
+    "CoolDown": 10.0,
+    "SkillParameter_1": 200.0,
+    "SkillParameter_2": 1.67,
+    "SkillParameter_3": 0.5
+  },
+  {
+    "SpiritSkill": 201,
+    "SpiritType": 2,
+    "SkillLevel": 1,
+    "CoolDown": 10.0,
+    "SkillParameter_1": 180.0,
+    "SkillParameter_2": 0.45,
+    "SkillParameter_3": 3.5
+  },
+  {
+    "SpiritSkill": 202,
+    "SpiritType": 2,
+    "SkillLevel": 2,
+    "CoolDown": 10.0,
+    "SkillParameter_1": 190.0,
+    "SkillParameter_2": 0.55,
+    "SkillParameter_3": 3.5
+  },
+  {
+    "SpiritSkill": 203,
+    "SpiritType": 2,
+    "SkillLevel": 3,
+    "CoolDown": 10.0,
+    "SkillParameter_1": 200.0,
+    "SkillParameter_2": 0.68,
+    "SkillParameter_3": 3.5
+  },
+  {
+    "SpiritSkill": 301,
+    "SpiritType": 3,
+    "SkillLevel": 1,
+    "CoolDown": 10.0,
+    "SkillParameter_1": 0.53,
+    "SkillParameter_2": 5.0,
+    "SkillParameter_3": 0.0
+  },
+  {
+    "SpiritSkill": 302,
+    "SpiritType": 3,
+    "SkillLevel": 2,
+    "CoolDown": 10.0,
+    "SkillParameter_1": 0.67,
+    "SkillParameter_2": 5.0,
+    "SkillParameter_3": 0.0
+  },
+  {
+    "SpiritSkill": 303,
+    "SpiritType": 3,
+    "SkillLevel": 3,
+    "CoolDown": 10.0,
+    "SkillParameter_1": 0.83,
+    "SkillParameter_2": 5.0,
+    "SkillParameter_3": 0.0
+  },
+  {
+    "SpiritSkill": 401,
+    "SpiritType": 4,
+    "SkillLevel": 1,
+    "CoolDown": 0.0,
+    "SkillParameter_1": 0.1,
+    "SkillParameter_2": 4.0,
+    "SkillParameter_3": 1.0
+  },
+  {
+    "SpiritSkill": 402,
+    "SpiritType": 4,
+    "SkillLevel": 2,
+    "CoolDown": 0.0,
+    "SkillParameter_1": 0.1,
+    "SkillParameter_2": 5.0,
+    "SkillParameter_3": 1.1
+  },
+  {
+    "SpiritSkill": 403,
+    "SpiritType": 4,
+    "SkillLevel": 3,
+    "CoolDown": 0.0,
+    "SkillParameter_1": 0.1,
+    "SkillParameter_2": 6.0,
+    "SkillParameter_3": 1.25
+  }
+]

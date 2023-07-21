@@ -1,0 +1,32 @@
+[
+  {
+    "HexagonType": 1,
+    "Roguetitle_ID": 830002,
+    "RogueText_ID": 0
+  },
+  {
+    "HexagonType": 2,
+    "Roguetitle_ID": 830006,
+    "RogueText_ID": 830012
+  },
+  {
+    "HexagonType": 3,
+    "Roguetitle_ID": 830003,
+    "RogueText_ID": 0
+  },
+  {
+    "HexagonType": 4,
+    "Roguetitle_ID": 830004,
+    "RogueText_ID": 830011
+  },
+  {
+    "HexagonType": 5,
+    "Roguetitle_ID": 830003,
+    "RogueText_ID": 0
+  },
+  {
+    "HexagonType": 6,
+    "Roguetitle_ID": 830004,
+    "RogueText_ID": 830011
+  }
+]

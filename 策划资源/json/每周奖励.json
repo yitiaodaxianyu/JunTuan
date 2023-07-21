@@ -1,0 +1,65 @@
+[
+  {
+    "RewardGrade": 1,
+    "RewarItem": [
+      10001
+    ],
+    "RewardNum": [
+      100000
+    ]
+  },
+  {
+    "RewardGrade": 2,
+    "RewarItem": [
+      10001
+    ],
+    "RewardNum": [
+      90000
+    ]
+  },
+  {
+    "RewardGrade": 3,
+    "RewarItem": [
+      10001
+    ],
+    "RewardNum": [
+      80000
+    ]
+  },
+  {
+    "RewardGrade": 4,
+    "RewarItem": [
+      10001
+    ],
+    "RewardNum": [
+      70000
+    ]
+  },
+  {
+    "RewardGrade": 5,
+    "RewarItem": [
+      10001
+    ],
+    "RewardNum": [
+      60000
+    ]
+  },
+  {
+    "RewardGrade": 6,
+    "RewarItem": [
+      10001
+    ],
+    "RewardNum": [
+      50000
+    ]
+  },
+  {
+    "RewardGrade": 7,
+    "RewarItem": [
+      10001
+    ],
+    "RewardNum": [
+      40000
+    ]
+  }
+]

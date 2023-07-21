@@ -1,0 +1,137 @@
+[
+  {
+    "BattlePassLevel": 1,
+    "RequiredExp": 0,
+    "FreeRewardItem": 10002,
+    "FreeRewardNum": 100,
+    "SeniorRewardGem": 10000,
+    "SeniorRewardItem": 100009,
+    "SeniorRewardNum": 20
+  },
+  {
+    "BattlePassLevel": 2,
+    "RequiredExp": 100,
+    "FreeRewardItem": 10002,
+    "FreeRewardNum": 100,
+    "SeniorRewardGem": 10000,
+    "SeniorRewardItem": 100009,
+    "SeniorRewardNum": 20
+  },
+  {
+    "BattlePassLevel": 3,
+    "RequiredExp": 200,
+    "FreeRewardItem": 10002,
+    "FreeRewardNum": 200,
+    "SeniorRewardGem": 20000,
+    "SeniorRewardItem": 100009,
+    "SeniorRewardNum": 20
+  },
+  {
+    "BattlePassLevel": 4,
+    "RequiredExp": 300,
+    "FreeRewardItem": 10002,
+    "FreeRewardNum": 200,
+    "SeniorRewardGem": 20000,
+    "SeniorRewardItem": 100009,
+    "SeniorRewardNum": 30
+  },
+  {
+    "BattlePassLevel": 5,
+    "RequiredExp": 400,
+    "FreeRewardItem": 10002,
+    "FreeRewardNum": 200,
+    "SeniorRewardGem": 20000,
+    "SeniorRewardItem": 100009,
+    "SeniorRewardNum": 30
+  },
+  {
+    "BattlePassLevel": 6,
+    "RequiredExp": 600,
+    "FreeRewardItem": 10002,
+    "FreeRewardNum": 400,
+    "SeniorRewardGem": 40000,
+    "SeniorRewardItem": 101004,
+    "SeniorRewardNum": 20
+  },
+  {
+    "BattlePassLevel": 7,
+    "RequiredExp": 800,
+    "FreeRewardItem": 10002,
+    "FreeRewardNum": 400,
+    "SeniorRewardGem": 40000,
+    "SeniorRewardItem": 101004,
+    "SeniorRewardNum": 20
+  },
+  {
+    "BattlePassLevel": 8,
+    "RequiredExp": 1000,
+    "FreeRewardItem": 10002,
+    "FreeRewardNum": 400,
+    "SeniorRewardGem": 40000,
+    "SeniorRewardItem": 101004,
+    "SeniorRewardNum": 20
+  },
+  {
+    "BattlePassLevel": 9,
+    "RequiredExp": 1100,
+    "FreeRewardItem": 10002,
+    "FreeRewardNum": 400,
+    "SeniorRewardGem": 40000,
+    "SeniorRewardItem": 101004,
+    "SeniorRewardNum": 30
+  },
+  {
+    "BattlePassLevel": 10,
+    "RequiredExp": 1400,
+    "FreeRewardItem": 10002,
+    "FreeRewardNum": 600,
+    "SeniorRewardGem": 60000,
+    "SeniorRewardItem": 101004,
+    "SeniorRewardNum": 30
+  },
+  {
+    "BattlePassLevel": 11,
+    "RequiredExp": 1700,
+    "FreeRewardItem": 10002,
+    "FreeRewardNum": 600,
+    "SeniorRewardGem": 60000,
+    "SeniorRewardItem": 101005,
+    "SeniorRewardNum": 20
+  },
+  {
+    "BattlePassLevel": 12,
+    "RequiredExp": 2000,
+    "FreeRewardItem": 10002,
+    "FreeRewardNum": 600,
+    "SeniorRewardGem": 60000,
+    "SeniorRewardItem": 101005,
+    "SeniorRewardNum": 20
+  },
+  {
+    "BattlePassLevel": 13,
+    "RequiredExp": 2300,
+    "FreeRewardItem": 10002,
+    "FreeRewardNum": 600,
+    "SeniorRewardGem": 60000,
+    "SeniorRewardItem": 101005,
+    "SeniorRewardNum": 20
+  },
+  {
+    "BattlePassLevel": 14,
+    "RequiredExp": 2600,
+    "FreeRewardItem": 10002,
+    "FreeRewardNum": 600,
+    "SeniorRewardGem": 60000,
+    "SeniorRewardItem": 101005,
+    "SeniorRewardNum": 30
+  },
+  {
+    "BattlePassLevel": 15,
+    "RequiredExp": 2900,
+    "FreeRewardItem": 10002,
+    "FreeRewardNum": 600,
+    "SeniorRewardGem": 60000,
+    "SeniorRewardItem": 101005,
+    "SeniorRewardNum": 30
+  }
+]

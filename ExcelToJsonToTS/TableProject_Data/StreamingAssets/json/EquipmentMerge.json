@@ -1,0 +1,602 @@
+[
+  {
+    "CostEquipment_id": 30101,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30102
+  },
+  {
+    "CostEquipment_id": 30102,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30103
+  },
+  {
+    "CostEquipment_id": 30103,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30104
+  },
+  {
+    "CostEquipment_id": 30104,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30105
+  },
+  {
+    "CostEquipment_id": 30105,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30106
+  },
+  {
+    "CostEquipment_id": 30106,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30107
+  },
+  {
+    "CostEquipment_id": 30107,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30108
+  },
+  {
+    "CostEquipment_id": 30108,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30109
+  },
+  {
+    "CostEquipment_id": 30109,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30110
+  },
+  {
+    "CostEquipment_id": 30110,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30111
+  },
+  {
+    "CostEquipment_id": 30111,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30112
+  },
+  {
+    "CostEquipment_id": 30112,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30113
+  },
+  {
+    "CostEquipment_id": 30113,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30114
+  },
+  {
+    "CostEquipment_id": 30114,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30115
+  },
+  {
+    "CostEquipment_id": 30115,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30116
+  },
+  {
+    "CostEquipment_id": 30116,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30117
+  },
+  {
+    "CostEquipment_id": 30117,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30118
+  },
+  {
+    "CostEquipment_id": 30118,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30119
+  },
+  {
+    "CostEquipment_id": 30119,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30120
+  },
+  {
+    "CostEquipment_id": 30120,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30121
+  },
+  {
+    "CostEquipment_id": 30121,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30122
+  },
+  {
+    "CostEquipment_id": 30122,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30123
+  },
+  {
+    "CostEquipment_id": 30123,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30124
+  },
+  {
+    "CostEquipment_id": 30124,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30125
+  },
+  {
+    "CostEquipment_id": 30125,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30126
+  },
+  {
+    "CostEquipment_id": 30126,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30127
+  },
+  {
+    "CostEquipment_id": 30127,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30128
+  },
+  {
+    "CostEquipment_id": 30128,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30129
+  },
+  {
+    "CostEquipment_id": 30129,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30130
+  },
+  {
+    "CostEquipment_id": 30130,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30131
+  },
+  {
+    "CostEquipment_id": 30201,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30202
+  },
+  {
+    "CostEquipment_id": 30202,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30203
+  },
+  {
+    "CostEquipment_id": 30203,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30204
+  },
+  {
+    "CostEquipment_id": 30204,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30205
+  },
+  {
+    "CostEquipment_id": 30205,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30206
+  },
+  {
+    "CostEquipment_id": 30206,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30207
+  },
+  {
+    "CostEquipment_id": 30207,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30208
+  },
+  {
+    "CostEquipment_id": 30208,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30209
+  },
+  {
+    "CostEquipment_id": 30209,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30210
+  },
+  {
+    "CostEquipment_id": 30210,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30211
+  },
+  {
+    "CostEquipment_id": 30211,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30212
+  },
+  {
+    "CostEquipment_id": 30212,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30213
+  },
+  {
+    "CostEquipment_id": 30213,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30214
+  },
+  {
+    "CostEquipment_id": 30214,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30215
+  },
+  {
+    "CostEquipment_id": 30215,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30216
+  },
+  {
+    "CostEquipment_id": 30216,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30217
+  },
+  {
+    "CostEquipment_id": 30217,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30218
+  },
+  {
+    "CostEquipment_id": 30218,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30219
+  },
+  {
+    "CostEquipment_id": 30219,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30220
+  },
+  {
+    "CostEquipment_id": 30220,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30221
+  },
+  {
+    "CostEquipment_id": 30221,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30222
+  },
+  {
+    "CostEquipment_id": 30222,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30223
+  },
+  {
+    "CostEquipment_id": 30223,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30224
+  },
+  {
+    "CostEquipment_id": 30224,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30225
+  },
+  {
+    "CostEquipment_id": 30225,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30226
+  },
+  {
+    "CostEquipment_id": 30226,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30227
+  },
+  {
+    "CostEquipment_id": 30227,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30228
+  },
+  {
+    "CostEquipment_id": 30228,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30229
+  },
+  {
+    "CostEquipment_id": 30229,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30230
+  },
+  {
+    "CostEquipment_id": 30230,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30231
+  },
+  {
+    "CostEquipment_id": 30301,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30302
+  },
+  {
+    "CostEquipment_id": 30302,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30303
+  },
+  {
+    "CostEquipment_id": 30303,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30304
+  },
+  {
+    "CostEquipment_id": 30304,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30305
+  },
+  {
+    "CostEquipment_id": 30305,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30306
+  },
+  {
+    "CostEquipment_id": 30306,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30307
+  },
+  {
+    "CostEquipment_id": 30307,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30308
+  },
+  {
+    "CostEquipment_id": 30308,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30309
+  },
+  {
+    "CostEquipment_id": 30309,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30310
+  },
+  {
+    "CostEquipment_id": 30310,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30311
+  },
+  {
+    "CostEquipment_id": 30311,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30312
+  },
+  {
+    "CostEquipment_id": 30312,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30313
+  },
+  {
+    "CostEquipment_id": 30313,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30314
+  },
+  {
+    "CostEquipment_id": 30314,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30315
+  },
+  {
+    "CostEquipment_id": 30315,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30316
+  },
+  {
+    "CostEquipment_id": 30316,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30317
+  },
+  {
+    "CostEquipment_id": 30317,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30318
+  },
+  {
+    "CostEquipment_id": 30318,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30319
+  },
+  {
+    "CostEquipment_id": 30319,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30320
+  },
+  {
+    "CostEquipment_id": 30320,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30321
+  },
+  {
+    "CostEquipment_id": 30321,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30322
+  },
+  {
+    "CostEquipment_id": 30322,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30323
+  },
+  {
+    "CostEquipment_id": 30323,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30324
+  },
+  {
+    "CostEquipment_id": 30324,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30325
+  },
+  {
+    "CostEquipment_id": 30325,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30326
+  },
+  {
+    "CostEquipment_id": 30326,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30327
+  },
+  {
+    "CostEquipment_id": 30327,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30328
+  },
+  {
+    "CostEquipment_id": 30328,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30329
+  },
+  {
+    "CostEquipment_id": 30329,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30330
+  },
+  {
+    "CostEquipment_id": 30330,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30331
+  },
+  {
+    "CostEquipment_id": 30401,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30402
+  },
+  {
+    "CostEquipment_id": 30402,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30403
+  },
+  {
+    "CostEquipment_id": 30403,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30404
+  },
+  {
+    "CostEquipment_id": 30404,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30405
+  },
+  {
+    "CostEquipment_id": 30405,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30406
+  },
+  {
+    "CostEquipment_id": 30406,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30407
+  },
+  {
+    "CostEquipment_id": 30407,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30408
+  },
+  {
+    "CostEquipment_id": 30408,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30409
+  },
+  {
+    "CostEquipment_id": 30409,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30410
+  },
+  {
+    "CostEquipment_id": 30410,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30411
+  },
+  {
+    "CostEquipment_id": 30411,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30412
+  },
+  {
+    "CostEquipment_id": 30412,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30413
+  },
+  {
+    "CostEquipment_id": 30413,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30414
+  },
+  {
+    "CostEquipment_id": 30414,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30415
+  },
+  {
+    "CostEquipment_id": 30415,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30416
+  },
+  {
+    "CostEquipment_id": 30416,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30417
+  },
+  {
+    "CostEquipment_id": 30417,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30418
+  },
+  {
+    "CostEquipment_id": 30418,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30419
+  },
+  {
+    "CostEquipment_id": 30419,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30420
+  },
+  {
+    "CostEquipment_id": 30420,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30421
+  },
+  {
+    "CostEquipment_id": 30421,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30422
+  },
+  {
+    "CostEquipment_id": 30422,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30423
+  },
+  {
+    "CostEquipment_id": 30423,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30424
+  },
+  {
+    "CostEquipment_id": 30424,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30425
+  },
+  {
+    "CostEquipment_id": 30425,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30426
+  },
+  {
+    "CostEquipment_id": 30426,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30427
+  },
+  {
+    "CostEquipment_id": 30427,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30428
+  },
+  {
+    "CostEquipment_id": 30428,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30429
+  },
+  {
+    "CostEquipment_id": 30429,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30430
+  },
+  {
+    "CostEquipment_id": 30430,
+    "CostNumber": 2,
+    "TargetEquipment_id": 30431
+  }
+]

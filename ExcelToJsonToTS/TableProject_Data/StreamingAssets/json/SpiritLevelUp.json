@@ -1,0 +1,1922 @@
+[
+  {
+    "Spirit": 1,
+    "FoodCost": 1000,
+    "CoinCost": 1500,
+    "PassiveSkillLevel_1": 1,
+    "ActiveSkillLevel": 1,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 2,
+    "FoodCost": 1000,
+    "CoinCost": 1500,
+    "PassiveSkillLevel_1": 1,
+    "ActiveSkillLevel": 1,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 3,
+    "FoodCost": 1000,
+    "CoinCost": 1500,
+    "PassiveSkillLevel_1": 1,
+    "ActiveSkillLevel": 1,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 4,
+    "FoodCost": 1000,
+    "CoinCost": 1500,
+    "PassiveSkillLevel_1": 1,
+    "ActiveSkillLevel": 1,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 5,
+    "FoodCost": 1000,
+    "CoinCost": 1500,
+    "PassiveSkillLevel_1": 1,
+    "ActiveSkillLevel": 1,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 6,
+    "FoodCost": 1000,
+    "CoinCost": 1500,
+    "PassiveSkillLevel_1": 1,
+    "ActiveSkillLevel": 1,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 7,
+    "FoodCost": 1000,
+    "CoinCost": 1500,
+    "PassiveSkillLevel_1": 1,
+    "ActiveSkillLevel": 1,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 8,
+    "FoodCost": 1000,
+    "CoinCost": 1500,
+    "PassiveSkillLevel_1": 1,
+    "ActiveSkillLevel": 1,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 9,
+    "FoodCost": 1000,
+    "CoinCost": 1500,
+    "PassiveSkillLevel_1": 1,
+    "ActiveSkillLevel": 1,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 10,
+    "FoodCost": 1000,
+    "CoinCost": 1500,
+    "PassiveSkillLevel_1": 1,
+    "ActiveSkillLevel": 1,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 11,
+    "FoodCost": 1000,
+    "CoinCost": 1500,
+    "PassiveSkillLevel_1": 1,
+    "ActiveSkillLevel": 1,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 12,
+    "FoodCost": 1000,
+    "CoinCost": 1500,
+    "PassiveSkillLevel_1": 1,
+    "ActiveSkillLevel": 1,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 13,
+    "FoodCost": 1000,
+    "CoinCost": 1500,
+    "PassiveSkillLevel_1": 1,
+    "ActiveSkillLevel": 1,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 14,
+    "FoodCost": 1000,
+    "CoinCost": 1500,
+    "PassiveSkillLevel_1": 1,
+    "ActiveSkillLevel": 1,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 15,
+    "FoodCost": 1000,
+    "CoinCost": 1500,
+    "PassiveSkillLevel_1": 1,
+    "ActiveSkillLevel": 1,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 16,
+    "FoodCost": 1000,
+    "CoinCost": 1500,
+    "PassiveSkillLevel_1": 1,
+    "ActiveSkillLevel": 1,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 17,
+    "FoodCost": 1000,
+    "CoinCost": 1500,
+    "PassiveSkillLevel_1": 1,
+    "ActiveSkillLevel": 1,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 18,
+    "FoodCost": 1000,
+    "CoinCost": 1500,
+    "PassiveSkillLevel_1": 1,
+    "ActiveSkillLevel": 1,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 19,
+    "FoodCost": 1000,
+    "CoinCost": 1500,
+    "PassiveSkillLevel_1": 1,
+    "ActiveSkillLevel": 1,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 20,
+    "FoodCost": 1000,
+    "CoinCost": 1500,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 1,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 21,
+    "FoodCost": 1290,
+    "CoinCost": 1980,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 1,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 22,
+    "FoodCost": 1290,
+    "CoinCost": 1990,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 1,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 23,
+    "FoodCost": 1300,
+    "CoinCost": 2000,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 1,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 24,
+    "FoodCost": 1300,
+    "CoinCost": 2000,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 1,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 25,
+    "FoodCost": 1310,
+    "CoinCost": 2010,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 1,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 26,
+    "FoodCost": 1310,
+    "CoinCost": 2020,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 1,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 27,
+    "FoodCost": 1320,
+    "CoinCost": 2030,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 1,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 28,
+    "FoodCost": 1320,
+    "CoinCost": 2040,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 1,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 29,
+    "FoodCost": 1330,
+    "CoinCost": 2040,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 1,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 30,
+    "FoodCost": 1330,
+    "CoinCost": 2050,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 1,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 31,
+    "FoodCost": 1340,
+    "CoinCost": 2060,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 1,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 32,
+    "FoodCost": 1340,
+    "CoinCost": 2070,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 1,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 33,
+    "FoodCost": 1350,
+    "CoinCost": 2080,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 1,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 34,
+    "FoodCost": 1350,
+    "CoinCost": 2080,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 1,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 35,
+    "FoodCost": 1360,
+    "CoinCost": 2090,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 1,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 36,
+    "FoodCost": 1360,
+    "CoinCost": 2100,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 1,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 37,
+    "FoodCost": 1360,
+    "CoinCost": 2110,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 1,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 38,
+    "FoodCost": 1370,
+    "CoinCost": 2120,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 1,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 39,
+    "FoodCost": 1370,
+    "CoinCost": 2120,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 1,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 40,
+    "FoodCost": 1380,
+    "CoinCost": 2130,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 1,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 41,
+    "FoodCost": 1920,
+    "CoinCost": 3030,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 42,
+    "FoodCost": 1930,
+    "CoinCost": 3060,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 43,
+    "FoodCost": 1950,
+    "CoinCost": 3080,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 44,
+    "FoodCost": 1970,
+    "CoinCost": 3110,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 45,
+    "FoodCost": 1980,
+    "CoinCost": 3140,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 46,
+    "FoodCost": 2000,
+    "CoinCost": 3170,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 47,
+    "FoodCost": 2020,
+    "CoinCost": 3190,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 48,
+    "FoodCost": 2030,
+    "CoinCost": 3220,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 49,
+    "FoodCost": 2050,
+    "CoinCost": 3250,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 50,
+    "FoodCost": 2060,
+    "CoinCost": 3270,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 51,
+    "FoodCost": 2080,
+    "CoinCost": 3300,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 52,
+    "FoodCost": 2100,
+    "CoinCost": 3330,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 53,
+    "FoodCost": 2110,
+    "CoinCost": 3350,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 54,
+    "FoodCost": 2130,
+    "CoinCost": 3380,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 55,
+    "FoodCost": 2140,
+    "CoinCost": 3410,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 56,
+    "FoodCost": 2160,
+    "CoinCost": 3440,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 57,
+    "FoodCost": 2180,
+    "CoinCost": 3460,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 58,
+    "FoodCost": 2190,
+    "CoinCost": 3490,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 59,
+    "FoodCost": 2210,
+    "CoinCost": 3520,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 60,
+    "FoodCost": 2230,
+    "CoinCost": 3540,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 1
+  },
+  {
+    "Spirit": 61,
+    "FoodCost": 3110,
+    "CoinCost": 5020,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 62,
+    "FoodCost": 3150,
+    "CoinCost": 5080,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 63,
+    "FoodCost": 3190,
+    "CoinCost": 5150,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 64,
+    "FoodCost": 3230,
+    "CoinCost": 5210,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 65,
+    "FoodCost": 3270,
+    "CoinCost": 5280,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 66,
+    "FoodCost": 3300,
+    "CoinCost": 5340,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 67,
+    "FoodCost": 3340,
+    "CoinCost": 5400,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 68,
+    "FoodCost": 3380,
+    "CoinCost": 5470,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 69,
+    "FoodCost": 3420,
+    "CoinCost": 5530,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 70,
+    "FoodCost": 3460,
+    "CoinCost": 5600,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 71,
+    "FoodCost": 3500,
+    "CoinCost": 5660,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 72,
+    "FoodCost": 3530,
+    "CoinCost": 5720,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 73,
+    "FoodCost": 3570,
+    "CoinCost": 5790,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 74,
+    "FoodCost": 3610,
+    "CoinCost": 5850,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 75,
+    "FoodCost": 3650,
+    "CoinCost": 5920,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 76,
+    "FoodCost": 3690,
+    "CoinCost": 5980,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 77,
+    "FoodCost": 3730,
+    "CoinCost": 6040,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 78,
+    "FoodCost": 3760,
+    "CoinCost": 6110,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 79,
+    "FoodCost": 3800,
+    "CoinCost": 6170,
+    "PassiveSkillLevel_1": 2,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 80,
+    "FoodCost": 3840,
+    "CoinCost": 6240,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 81,
+    "FoodCost": 5050,
+    "CoinCost": 8250,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 82,
+    "FoodCost": 5130,
+    "CoinCost": 8380,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 83,
+    "FoodCost": 5200,
+    "CoinCost": 8500,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 84,
+    "FoodCost": 5280,
+    "CoinCost": 8630,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 85,
+    "FoodCost": 5350,
+    "CoinCost": 8750,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 86,
+    "FoodCost": 5430,
+    "CoinCost": 8880,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 87,
+    "FoodCost": 5500,
+    "CoinCost": 9000,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 88,
+    "FoodCost": 5580,
+    "CoinCost": 9130,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 89,
+    "FoodCost": 5650,
+    "CoinCost": 9250,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 90,
+    "FoodCost": 5730,
+    "CoinCost": 9380,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 91,
+    "FoodCost": 5800,
+    "CoinCost": 9500,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 92,
+    "FoodCost": 5880,
+    "CoinCost": 9630,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 93,
+    "FoodCost": 5950,
+    "CoinCost": 9750,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 94,
+    "FoodCost": 6030,
+    "CoinCost": 9880,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 95,
+    "FoodCost": 6100,
+    "CoinCost": 10000,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 96,
+    "FoodCost": 6180,
+    "CoinCost": 10130,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 97,
+    "FoodCost": 6250,
+    "CoinCost": 10250,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 98,
+    "FoodCost": 6330,
+    "CoinCost": 10380,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 99,
+    "FoodCost": 6400,
+    "CoinCost": 10500,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 100,
+    "FoodCost": 6480,
+    "CoinCost": 10630,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 2,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 101,
+    "FoodCost": 7910,
+    "CoinCost": 13020,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 102,
+    "FoodCost": 8040,
+    "CoinCost": 13240,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 103,
+    "FoodCost": 8170,
+    "CoinCost": 13450,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 104,
+    "FoodCost": 8300,
+    "CoinCost": 13670,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 105,
+    "FoodCost": 8430,
+    "CoinCost": 13880,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 106,
+    "FoodCost": 8560,
+    "CoinCost": 14100,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 107,
+    "FoodCost": 8690,
+    "CoinCost": 14320,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 108,
+    "FoodCost": 8820,
+    "CoinCost": 14530,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 109,
+    "FoodCost": 8950,
+    "CoinCost": 14750,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 110,
+    "FoodCost": 9080,
+    "CoinCost": 14960,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 111,
+    "FoodCost": 9210,
+    "CoinCost": 15180,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 112,
+    "FoodCost": 9340,
+    "CoinCost": 15400,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 113,
+    "FoodCost": 9470,
+    "CoinCost": 15610,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 114,
+    "FoodCost": 9600,
+    "CoinCost": 15830,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 115,
+    "FoodCost": 9730,
+    "CoinCost": 16040,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 116,
+    "FoodCost": 9860,
+    "CoinCost": 16260,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 117,
+    "FoodCost": 9990,
+    "CoinCost": 16480,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 118,
+    "FoodCost": 10120,
+    "CoinCost": 16690,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 119,
+    "FoodCost": 10240,
+    "CoinCost": 16910,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 120,
+    "FoodCost": 10370,
+    "CoinCost": 17120,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 2
+  },
+  {
+    "Spirit": 121,
+    "FoodCost": 11880,
+    "CoinCost": 19630,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 122,
+    "FoodCost": 12080,
+    "CoinCost": 19970,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 123,
+    "FoodCost": 12290,
+    "CoinCost": 20320,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 124,
+    "FoodCost": 12500,
+    "CoinCost": 20660,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 125,
+    "FoodCost": 12700,
+    "CoinCost": 21000,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 126,
+    "FoodCost": 12910,
+    "CoinCost": 21350,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 127,
+    "FoodCost": 13110,
+    "CoinCost": 21690,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 128,
+    "FoodCost": 13320,
+    "CoinCost": 22030,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 129,
+    "FoodCost": 13520,
+    "CoinCost": 22370,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 130,
+    "FoodCost": 13730,
+    "CoinCost": 22720,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 131,
+    "FoodCost": 13940,
+    "CoinCost": 23060,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 132,
+    "FoodCost": 14140,
+    "CoinCost": 23400,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 133,
+    "FoodCost": 14350,
+    "CoinCost": 23750,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 134,
+    "FoodCost": 14550,
+    "CoinCost": 24090,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 135,
+    "FoodCost": 14760,
+    "CoinCost": 24430,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 136,
+    "FoodCost": 14970,
+    "CoinCost": 24780,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 137,
+    "FoodCost": 15170,
+    "CoinCost": 25120,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 138,
+    "FoodCost": 15380,
+    "CoinCost": 25460,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 139,
+    "FoodCost": 15580,
+    "CoinCost": 25800,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 140,
+    "FoodCost": 15790,
+    "CoinCost": 26150,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 141,
+    "FoodCost": 17130,
+    "CoinCost": 28380,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 142,
+    "FoodCost": 17440,
+    "CoinCost": 28890,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 143,
+    "FoodCost": 17740,
+    "CoinCost": 29400,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 144,
+    "FoodCost": 18050,
+    "CoinCost": 29920,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 145,
+    "FoodCost": 18360,
+    "CoinCost": 30430,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 146,
+    "FoodCost": 18660,
+    "CoinCost": 30940,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 147,
+    "FoodCost": 18970,
+    "CoinCost": 31450,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 148,
+    "FoodCost": 19280,
+    "CoinCost": 31960,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 149,
+    "FoodCost": 19590,
+    "CoinCost": 32480,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 150,
+    "FoodCost": 19890,
+    "CoinCost": 32990,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 151,
+    "FoodCost": 20200,
+    "CoinCost": 33500,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 152,
+    "FoodCost": 20510,
+    "CoinCost": 34010,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 153,
+    "FoodCost": 20810,
+    "CoinCost": 34520,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 154,
+    "FoodCost": 21120,
+    "CoinCost": 35040,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 155,
+    "FoodCost": 21430,
+    "CoinCost": 35550,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 156,
+    "FoodCost": 21740,
+    "CoinCost": 36060,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 157,
+    "FoodCost": 22040,
+    "CoinCost": 36570,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 158,
+    "FoodCost": 22350,
+    "CoinCost": 37080,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 159,
+    "FoodCost": 22660,
+    "CoinCost": 37600,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 160,
+    "FoodCost": 22960,
+    "CoinCost": 38110,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 161,
+    "FoodCost": 23840,
+    "CoinCost": 39570,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 162,
+    "FoodCost": 24280,
+    "CoinCost": 40300,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 163,
+    "FoodCost": 24720,
+    "CoinCost": 41030,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 164,
+    "FoodCost": 25150,
+    "CoinCost": 41760,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 165,
+    "FoodCost": 25590,
+    "CoinCost": 42490,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 166,
+    "FoodCost": 26030,
+    "CoinCost": 43220,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 167,
+    "FoodCost": 26470,
+    "CoinCost": 43940,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 168,
+    "FoodCost": 26900,
+    "CoinCost": 44670,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 169,
+    "FoodCost": 27340,
+    "CoinCost": 45400,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 170,
+    "FoodCost": 27780,
+    "CoinCost": 46130,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 171,
+    "FoodCost": 28220,
+    "CoinCost": 46860,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 172,
+    "FoodCost": 28650,
+    "CoinCost": 47590,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 173,
+    "FoodCost": 29090,
+    "CoinCost": 48320,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 174,
+    "FoodCost": 29530,
+    "CoinCost": 49050,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 175,
+    "FoodCost": 29970,
+    "CoinCost": 49780,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 176,
+    "FoodCost": 30400,
+    "CoinCost": 50510,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 177,
+    "FoodCost": 30840,
+    "CoinCost": 51230,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 178,
+    "FoodCost": 31280,
+    "CoinCost": 51960,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 179,
+    "FoodCost": 31720,
+    "CoinCost": 52690,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 180,
+    "FoodCost": 32150,
+    "CoinCost": 53420,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 181,
+    "FoodCost": 32200,
+    "CoinCost": 53500,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 182,
+    "FoodCost": 32800,
+    "CoinCost": 54500,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 183,
+    "FoodCost": 33400,
+    "CoinCost": 55500,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 184,
+    "FoodCost": 34000,
+    "CoinCost": 56500,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 185,
+    "FoodCost": 34600,
+    "CoinCost": 57500,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 186,
+    "FoodCost": 35200,
+    "CoinCost": 58500,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 187,
+    "FoodCost": 35800,
+    "CoinCost": 59500,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 188,
+    "FoodCost": 36400,
+    "CoinCost": 60500,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 189,
+    "FoodCost": 37000,
+    "CoinCost": 61500,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 190,
+    "FoodCost": 37600,
+    "CoinCost": 62500,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 191,
+    "FoodCost": 38200,
+    "CoinCost": 63500,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 192,
+    "FoodCost": 38800,
+    "CoinCost": 64500,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 193,
+    "FoodCost": 39400,
+    "CoinCost": 65500,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 194,
+    "FoodCost": 40000,
+    "CoinCost": 66500,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 195,
+    "FoodCost": 40600,
+    "CoinCost": 67500,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 196,
+    "FoodCost": 41200,
+    "CoinCost": 68500,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 197,
+    "FoodCost": 41800,
+    "CoinCost": 69500,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 198,
+    "FoodCost": 42400,
+    "CoinCost": 70500,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 199,
+    "FoodCost": 43000,
+    "CoinCost": 71500,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 200,
+    "FoodCost": 43600,
+    "CoinCost": 72500,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 201,
+    "FoodCost": 42380,
+    "CoinCost": 70470,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 202,
+    "FoodCost": 43180,
+    "CoinCost": 71800,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 203,
+    "FoodCost": 43980,
+    "CoinCost": 73130,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 204,
+    "FoodCost": 44780,
+    "CoinCost": 74460,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 205,
+    "FoodCost": 45580,
+    "CoinCost": 75790,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 206,
+    "FoodCost": 46380,
+    "CoinCost": 77130,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 207,
+    "FoodCost": 47170,
+    "CoinCost": 78460,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 208,
+    "FoodCost": 47970,
+    "CoinCost": 79790,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 209,
+    "FoodCost": 48770,
+    "CoinCost": 81120,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 210,
+    "FoodCost": 49570,
+    "CoinCost": 82450,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 211,
+    "FoodCost": 50370,
+    "CoinCost": 83780,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 212,
+    "FoodCost": 51170,
+    "CoinCost": 85110,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 213,
+    "FoodCost": 51970,
+    "CoinCost": 86440,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 214,
+    "FoodCost": 52760,
+    "CoinCost": 87770,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 215,
+    "FoodCost": 53560,
+    "CoinCost": 89100,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 216,
+    "FoodCost": 54360,
+    "CoinCost": 90440,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 217,
+    "FoodCost": 55160,
+    "CoinCost": 91770,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 218,
+    "FoodCost": 55960,
+    "CoinCost": 93100,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 219,
+    "FoodCost": 56760,
+    "CoinCost": 94430,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 220,
+    "FoodCost": 57560,
+    "CoinCost": 95760,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 221,
+    "FoodCost": 54570,
+    "CoinCost": 90780,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 222,
+    "FoodCost": 55600,
+    "CoinCost": 92510,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 223,
+    "FoodCost": 56640,
+    "CoinCost": 94240,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 224,
+    "FoodCost": 57680,
+    "CoinCost": 95960,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 225,
+    "FoodCost": 58720,
+    "CoinCost": 97690,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 226,
+    "FoodCost": 59750,
+    "CoinCost": 99420,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 227,
+    "FoodCost": 60790,
+    "CoinCost": 101150,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 228,
+    "FoodCost": 61830,
+    "CoinCost": 102880,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 229,
+    "FoodCost": 62860,
+    "CoinCost": 104600,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 230,
+    "FoodCost": 63900,
+    "CoinCost": 106330,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 231,
+    "FoodCost": 64940,
+    "CoinCost": 108060,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 232,
+    "FoodCost": 65970,
+    "CoinCost": 109790,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 233,
+    "FoodCost": 67010,
+    "CoinCost": 111520,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 234,
+    "FoodCost": 68050,
+    "CoinCost": 113240,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 235,
+    "FoodCost": 69080,
+    "CoinCost": 114970,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 236,
+    "FoodCost": 70120,
+    "CoinCost": 116700,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 237,
+    "FoodCost": 71160,
+    "CoinCost": 118430,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 238,
+    "FoodCost": 72190,
+    "CoinCost": 120160,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 239,
+    "FoodCost": 73230,
+    "CoinCost": 121880,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  },
+  {
+    "Spirit": 240,
+    "FoodCost": 74270,
+    "CoinCost": 123610,
+    "PassiveSkillLevel_1": 3,
+    "ActiveSkillLevel": 3,
+    "PassiveSkillLevel_2": 3
+  }
+]

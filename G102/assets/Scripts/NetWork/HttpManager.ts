@@ -181,6 +181,8 @@ export class HttpManager {
     }
 
     static gameTimePost(accessName:AccessName,params:string):Promise<any>{
+        console.log("从服务获取时间戳"+accessName);
+        
         return new Promise((resolve, reject) => {
             let xhr = new XMLHttpRequest();
             xhr.onreadystatechange = ()=>{

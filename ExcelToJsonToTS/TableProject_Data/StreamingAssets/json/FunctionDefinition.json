@@ -1,0 +1,194 @@
+[
+  {
+    "FunctionID": 1,
+    "TextID": 210006,
+    "UnlockConditionType": 1,
+    "UnlockCondictionParameter": 999
+  },
+  {
+    "FunctionID": 2,
+    "TextID": 200002,
+    "UnlockConditionType": 1,
+    "UnlockCondictionParameter": 999
+  },
+  {
+    "FunctionID": 3,
+    "TextID": 200003,
+    "UnlockConditionType": 2,
+    "UnlockCondictionParameter": 5
+  },
+  {
+    "FunctionID": 4,
+    "TextID": 200004,
+    "UnlockConditionType": 2,
+    "UnlockCondictionParameter": 11
+  },
+  {
+    "FunctionID": 5,
+    "TextID": 200005,
+    "UnlockConditionType": 2,
+    "UnlockCondictionParameter": 5
+  },
+  {
+    "FunctionID": 6,
+    "TextID": 210007,
+    "UnlockConditionType": 1,
+    "UnlockCondictionParameter": 999
+  },
+  {
+    "FunctionID": 7,
+    "TextID": 210008,
+    "UnlockConditionType": 1,
+    "UnlockCondictionParameter": 1
+  },
+  {
+    "FunctionID": 8,
+    "TextID": 210009,
+    "UnlockConditionType": 1,
+    "UnlockCondictionParameter": 1
+  },
+  {
+    "FunctionID": 9,
+    "TextID": 200006,
+    "UnlockConditionType": 2,
+    "UnlockCondictionParameter": 5
+  },
+  {
+    "FunctionID": 10,
+    "TextID": 820001,
+    "UnlockConditionType": 2,
+    "UnlockCondictionParameter": 25
+  },
+  {
+    "FunctionID": 11,
+    "TextID": 820002,
+    "UnlockConditionType": 1,
+    "UnlockCondictionParameter": 9999
+  },
+  {
+    "FunctionID": 12,
+    "TextID": 800001,
+    "UnlockConditionType": 2,
+    "UnlockCondictionParameter": 25
+  },
+  {
+    "FunctionID": 13,
+    "TextID": 810001,
+    "UnlockConditionType": 1,
+    "UnlockCondictionParameter": 999
+  },
+  {
+    "FunctionID": 14,
+    "TextID": 900001,
+    "UnlockConditionType": 1,
+    "UnlockCondictionParameter": 999
+  },
+  {
+    "FunctionID": 15,
+    "TextID": 900002,
+    "UnlockConditionType": 1,
+    "UnlockCondictionParameter": 999
+  },
+  {
+    "FunctionID": 16,
+    "TextID": 900004,
+    "UnlockConditionType": 1,
+    "UnlockCondictionParameter": 999
+  },
+  {
+    "FunctionID": 17,
+    "TextID": 900003,
+    "UnlockConditionType": 1,
+    "UnlockCondictionParameter": 999
+  },
+  {
+    "FunctionID": 18,
+    "TextID": 210003,
+    "UnlockConditionType": 2,
+    "UnlockCondictionParameter": 20
+  },
+  {
+    "FunctionID": 19,
+    "TextID": 210002,
+    "UnlockConditionType": 2,
+    "UnlockCondictionParameter": 3
+  },
+  {
+    "FunctionID": 20,
+    "TextID": 210004,
+    "UnlockConditionType": 2,
+    "UnlockCondictionParameter": 5
+  },
+  {
+    "FunctionID": 21,
+    "TextID": 210001,
+    "UnlockConditionType": 2,
+    "UnlockCondictionParameter": 3
+  },
+  {
+    "FunctionID": 22,
+    "TextID": 210005,
+    "UnlockConditionType": 2,
+    "UnlockCondictionParameter": 20
+  },
+  {
+    "FunctionID": 23,
+    "TextID": 640002,
+    "UnlockConditionType": 1,
+    "UnlockCondictionParameter": 999
+  },
+  {
+    "FunctionID": 24,
+    "TextID": 830001,
+    "UnlockConditionType": 2,
+    "UnlockCondictionParameter": 25
+  },
+  {
+    "FunctionID": 25,
+    "TextID": 200009,
+    "UnlockConditionType": 2,
+    "UnlockCondictionParameter": 5
+  },
+  {
+    "FunctionID": 26,
+    "TextID": 1440001,
+    "UnlockConditionType": 2,
+    "UnlockCondictionParameter": 5
+  },
+  {
+    "FunctionID": 27,
+    "TextID": 200010,
+    "UnlockConditionType": 2,
+    "UnlockCondictionParameter": 20
+  },
+  {
+    "FunctionID": 28,
+    "TextID": 200011,
+    "UnlockConditionType": 2,
+    "UnlockCondictionParameter": 40
+  },
+  {
+    "FunctionID": 29,
+    "TextID": 1450001,
+    "UnlockConditionType": 2,
+    "UnlockCondictionParameter": 5
+  },
+  {
+    "FunctionID": 30,
+    "TextID": 1420002,
+    "UnlockConditionType": 2,
+    "UnlockCondictionParameter": 5
+  },
+  {
+    "FunctionID": 31,
+    "TextID": 940001,
+    "UnlockConditionType": 2,
+    "UnlockCondictionParameter": 5
+  },
+  {
+    "FunctionID": 32,
+    "TextID": 1460009,
+    "UnlockConditionType": 2,
+    "UnlockCondictionParameter": 21
+  }
+]

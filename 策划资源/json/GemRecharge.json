@@ -1,0 +1,93 @@
+[
+  {
+    "GemRecharge": 20101,
+    "DisplayPosition": 1,
+    "AdReward": 1,
+    "AdPlayableTimes": 5,
+    "RefreshCycle": 2,
+    "MoneyCost": 0.0,
+    "GetNum": 50,
+    "ExtraNum": 0,
+    "MarginRebate": 0,
+    "VipPoints": 0,
+    "ProductId": 0
+  },
+  {
+    "GemRecharge": 10002,
+    "DisplayPosition": 2,
+    "AdReward": 0,
+    "AdPlayableTimes": 0,
+    "RefreshCycle": 1,
+    "MoneyCost": 0.99,
+    "GetNum": 100,
+    "ExtraNum": 100,
+    "MarginRebate": 0,
+    "VipPoints": 99,
+    "ProductId": 201
+  },
+  {
+    "GemRecharge": 10003,
+    "DisplayPosition": 3,
+    "AdReward": 0,
+    "AdPlayableTimes": 0,
+    "RefreshCycle": 1,
+    "MoneyCost": 4.99,
+    "GetNum": 500,
+    "ExtraNum": 500,
+    "MarginRebate": 0,
+    "VipPoints": 499,
+    "ProductId": 202
+  },
+  {
+    "GemRecharge": 10004,
+    "DisplayPosition": 4,
+    "AdReward": 0,
+    "AdPlayableTimes": 0,
+    "RefreshCycle": 1,
+    "MoneyCost": 9.99,
+    "GetNum": 1200,
+    "ExtraNum": 1200,
+    "MarginRebate": 20,
+    "VipPoints": 999,
+    "ProductId": 203
+  },
+  {
+    "GemRecharge": 10005,
+    "DisplayPosition": 5,
+    "AdReward": 0,
+    "AdPlayableTimes": 0,
+    "RefreshCycle": 1,
+    "MoneyCost": 19.99,
+    "GetNum": 2500,
+    "ExtraNum": 2500,
+    "MarginRebate": 25,
+    "VipPoints": 1999,
+    "ProductId": 204
+  },
+  {
+    "GemRecharge": 10006,
+    "DisplayPosition": 6,
+    "AdReward": 0,
+    "AdPlayableTimes": 0,
+    "RefreshCycle": 1,
+    "MoneyCost": 49.99,
+    "GetNum": 6500,
+    "ExtraNum": 6500,
+    "MarginRebate": 30,
+    "VipPoints": 4999,
+    "ProductId": 205
+  },
+  {
+    "GemRecharge": 10007,
+    "DisplayPosition": 7,
+    "AdReward": 0,
+    "AdPlayableTimes": 0,
+    "RefreshCycle": 1,
+    "MoneyCost": 99.99,
+    "GetNum": 14000,
+    "ExtraNum": 14000,
+    "MarginRebate": 40,
+    "VipPoints": 9999,
+    "ProductId": 206
+  }
+]

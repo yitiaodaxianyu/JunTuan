@@ -95,7 +95,7 @@ export default class Elite1 extends MonsterNewNormal {
             return;
         }
         super.update(dt);
-        this.checkSkill(dt);
+        //this.checkSkill(dt);
         
     }
 

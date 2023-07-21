@@ -1,0 +1,308 @@
+[
+  {
+    "Monster": 50010,
+    "KillNumber": [
+      12,
+      600,
+      4800,
+      14400
+    ],
+    "DiamondReward": [
+      30,
+      50,
+      70,
+      100,
+      150
+    ],
+    "BoneResource": 8
+  },
+  {
+    "Monster": 50020,
+    "KillNumber": [
+      12,
+      600,
+      4800,
+      14400
+    ],
+    "DiamondReward": [
+      30,
+      50,
+      70,
+      100,
+      150
+    ],
+    "BoneResource": 5
+  },
+  {
+    "Monster": 50030,
+    "KillNumber": [
+      9,
+      450,
+      3600,
+      10800
+    ],
+    "DiamondReward": [
+      30,
+      50,
+      70,
+      100,
+      150
+    ],
+    "BoneResource": 3
+  },
+  {
+    "Monster": 50040,
+    "KillNumber": [
+      9,
+      450,
+      3600,
+      10800
+    ],
+    "DiamondReward": [
+      30,
+      50,
+      70,
+      100,
+      150
+    ],
+    "BoneResource": 4
+  },
+  {
+    "Monster": 50050,
+    "KillNumber": [
+      12,
+      600,
+      4800,
+      14400
+    ],
+    "DiamondReward": [
+      30,
+      50,
+      70,
+      100,
+      150
+    ],
+    "BoneResource": 10
+  },
+  {
+    "Monster": 50060,
+    "KillNumber": [
+      9,
+      450,
+      3600,
+      10800
+    ],
+    "DiamondReward": [
+      30,
+      50,
+      70,
+      100,
+      150
+    ],
+    "BoneResource": 6
+  },
+  {
+    "Monster": 50070,
+    "KillNumber": [
+      12,
+      600,
+      4800,
+      14400
+    ],
+    "DiamondReward": [
+      30,
+      50,
+      70,
+      100,
+      150
+    ],
+    "BoneResource": 19
+  },
+  {
+    "Monster": 50080,
+    "KillNumber": [
+      9,
+      450,
+      3600,
+      10800
+    ],
+    "DiamondReward": [
+      30,
+      50,
+      70,
+      100,
+      150
+    ],
+    "BoneResource": 15
+  },
+  {
+    "Monster": 50090,
+    "KillNumber": [
+      9,
+      450,
+      3600,
+      10800
+    ],
+    "DiamondReward": [
+      30,
+      50,
+      70,
+      100,
+      150
+    ],
+    "BoneResource": 16
+  },
+  {
+    "Monster": 50100,
+    "KillNumber": [
+      12,
+      600,
+      4800,
+      14400
+    ],
+    "DiamondReward": [
+      30,
+      50,
+      70,
+      100,
+      150
+    ],
+    "BoneResource": 21
+  },
+  {
+    "Monster": 50110,
+    "KillNumber": [
+      9,
+      450,
+      3600,
+      10800
+    ],
+    "DiamondReward": [
+      30,
+      50,
+      70,
+      100,
+      150
+    ],
+    "BoneResource": 1
+  },
+  {
+    "Monster": 50120,
+    "KillNumber": [
+      12,
+      600,
+      4800,
+      14400
+    ],
+    "DiamondReward": [
+      30,
+      50,
+      70,
+      100,
+      150
+    ],
+    "BoneResource": 2
+  },
+  {
+    "Monster": 50130,
+    "KillNumber": [
+      9,
+      450,
+      3600,
+      10800
+    ],
+    "DiamondReward": [
+      30,
+      50,
+      70,
+      100,
+      150
+    ],
+    "BoneResource": 17
+  },
+  {
+    "Monster": 50140,
+    "KillNumber": [
+      9,
+      450,
+      3600,
+      10800
+    ],
+    "DiamondReward": [
+      30,
+      50,
+      70,
+      100,
+      150
+    ],
+    "BoneResource": 7
+  },
+  {
+    "Monster": 50150,
+    "KillNumber": [
+      9,
+      450,
+      3600,
+      10800
+    ],
+    "DiamondReward": [
+      30,
+      50,
+      70,
+      100,
+      150
+    ],
+    "BoneResource": 20
+  },
+  {
+    "Monster": 50160,
+    "KillNumber": [
+      9,
+      450,
+      3600,
+      10800
+    ],
+    "DiamondReward": [
+      30,
+      50,
+      70,
+      100,
+      150
+    ],
+    "BoneResource": 18
+  },
+  {
+    "Monster": 50170,
+    "KillNumber": [
+      9,
+      450,
+      3600,
+      10800
+    ],
+    "DiamondReward": [
+      30,
+      50,
+      70,
+      100,
+      150
+    ],
+    "BoneResource": 22
+  },
+  {
+    "Monster": 50180,
+    "KillNumber": [
+      1,
+      5,
+      10,
+      30
+    ],
+    "DiamondReward": [
+      30,
+      50,
+      70,
+      100,
+      150
+    ],
+    "BoneResource": 22
+  }
+]

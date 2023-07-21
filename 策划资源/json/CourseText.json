@@ -1,0 +1,122 @@
+[
+  {
+    "xs_id": 201,
+    "hero_text_id": 2,
+    "guidance_text_id": 300015
+  },
+  {
+    "xs_id": 202,
+    "hero_text_id": 10,
+    "guidance_text_id": 300001
+  },
+  {
+    "xs_id": 203,
+    "hero_text_id": 2,
+    "guidance_text_id": 300002
+  },
+  {
+    "xs_id": 204,
+    "hero_text_id": 2,
+    "guidance_text_id": 300003
+  },
+  {
+    "xs_id": 205,
+    "hero_text_id": 2,
+    "guidance_text_id": 300003
+  },
+  {
+    "xs_id": 211,
+    "hero_text_id": 3,
+    "guidance_text_id": 300011
+  },
+  {
+    "xs_id": 212,
+    "hero_text_id": 2,
+    "guidance_text_id": 300012
+  },
+  {
+    "xs_id": 213,
+    "hero_text_id": 3,
+    "guidance_text_id": 300013
+  },
+  {
+    "xs_id": 221,
+    "hero_text_id": 2,
+    "guidance_text_id": 300014
+  },
+  {
+    "xs_id": 221,
+    "hero_text_id": 2,
+    "guidance_text_id": 300021
+  },
+  {
+    "xs_id": 222,
+    "hero_text_id": 2,
+    "guidance_text_id": 300022
+  },
+  {
+    "xs_id": 223,
+    "hero_text_id": 2,
+    "guidance_text_id": 300023
+  },
+  {
+    "xs_id": 231,
+    "hero_text_id": 2,
+    "guidance_text_id": 300024
+  },
+  {
+    "xs_id": 241,
+    "hero_text_id": 2,
+    "guidance_text_id": 300041
+  },
+  {
+    "xs_id": 251,
+    "hero_text_id": 3,
+    "guidance_text_id": 300051
+  },
+  {
+    "xs_id": 252,
+    "hero_text_id": 8,
+    "guidance_text_id": 300052
+  },
+  {
+    "xs_id": 253,
+    "hero_text_id": 8,
+    "guidance_text_id": 300053
+  },
+  {
+    "xs_id": 261,
+    "hero_text_id": 3,
+    "guidance_text_id": 300061
+  },
+  {
+    "xs_id": 301,
+    "hero_text_id": 2,
+    "guidance_text_id": 300301
+  },
+  {
+    "xs_id": 302,
+    "hero_text_id": 2,
+    "guidance_text_id": 300303
+  },
+  {
+    "xs_id": 311,
+    "hero_text_id": 2,
+    "guidance_text_id": 300311
+  },
+  {
+    "xs_id": 312,
+    "hero_text_id": 2,
+    "guidance_text_id": 300312
+  },
+  {
+    "xs_id": 331,
+    "hero_text_id": 2,
+    "guidance_text_id": 300331
+  },
+  {
+    "xs_id": 341,
+    "hero_text_id": 2,
+    "guidance_text_id": 300601
+  }
+]

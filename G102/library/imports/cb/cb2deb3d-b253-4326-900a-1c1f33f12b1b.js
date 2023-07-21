@@ -190,6 +190,7 @@ var HttpManager = /** @class */ (function () {
     };
     HttpManager.gameTimePost = function (accessName, params) {
         var _this = this;
+        console.log("从服务获取时间戳" + accessName);
         return new Promise(function (resolve, reject) {
             var xhr = new XMLHttpRequest();
             xhr.onreadystatechange = function () {

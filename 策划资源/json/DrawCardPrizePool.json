@@ -1,0 +1,506 @@
+[
+  {
+    "JackpotID": 10001,
+    "Type": 1,
+    "Drop_Array": [
+      100001
+    ],
+    "Drop_MinNum": [
+      3
+    ],
+    "Drop_MaxNum": [
+      5
+    ],
+    "Weight": [
+      100
+    ]
+  },
+  {
+    "JackpotID": 10002,
+    "Type": 1,
+    "Drop_Array": [
+      100002,
+      100003
+    ],
+    "Drop_MinNum": [
+      2,
+      2
+    ],
+    "Drop_MaxNum": [
+      3,
+      3
+    ],
+    "Weight": [
+      100,
+      100
+    ]
+  },
+  {
+    "JackpotID": 10003,
+    "Type": 1,
+    "Drop_Array": [
+      100004,
+      100005,
+      100006
+    ],
+    "Drop_MinNum": [
+      1,
+      1,
+      1
+    ],
+    "Drop_MaxNum": [
+      2,
+      2,
+      2
+    ],
+    "Weight": [
+      100,
+      100,
+      100
+    ]
+  },
+  {
+    "JackpotID": 10004,
+    "Type": 1,
+    "Drop_Array": [
+      100007,
+      100008,
+      100009,
+      100010
+    ],
+    "Drop_MinNum": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "Drop_MaxNum": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "Weight": [
+      100,
+      100,
+      100,
+      100
+    ]
+  },
+  {
+    "JackpotID": 10005,
+    "Type": 1,
+    "Drop_Array": [
+      100012,
+      100013
+    ],
+    "Drop_MinNum": [
+      1,
+      1
+    ],
+    "Drop_MaxNum": [
+      1,
+      1
+    ],
+    "Weight": [
+      100,
+      100
+    ]
+  },
+  {
+    "JackpotID": 20001,
+    "Type": 2,
+    "Drop_Array": [
+      110001
+    ],
+    "Drop_MinNum": [
+      1
+    ],
+    "Drop_MaxNum": [
+      1
+    ],
+    "Weight": [
+      100
+    ]
+  },
+  {
+    "JackpotID": 20002,
+    "Type": 2,
+    "Drop_Array": [
+      110002,
+      110003
+    ],
+    "Drop_MinNum": [
+      1,
+      1
+    ],
+    "Drop_MaxNum": [
+      1,
+      1
+    ],
+    "Weight": [
+      100,
+      100
+    ]
+  },
+  {
+    "JackpotID": 20003,
+    "Type": 2,
+    "Drop_Array": [
+      110004,
+      110005,
+      110006
+    ],
+    "Drop_MinNum": [
+      1,
+      1,
+      1
+    ],
+    "Drop_MaxNum": [
+      1,
+      1,
+      1
+    ],
+    "Weight": [
+      100,
+      100,
+      100
+    ]
+  },
+  {
+    "JackpotID": 20004,
+    "Type": 2,
+    "Drop_Array": [
+      110007,
+      110008,
+      110009,
+      110010
+    ],
+    "Drop_MinNum": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "Drop_MaxNum": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "Weight": [
+      100,
+      100,
+      100,
+      100
+    ]
+  },
+  {
+    "JackpotID": 20005,
+    "Type": 2,
+    "Drop_Array": [
+      110011,
+      110012
+    ],
+    "Drop_MinNum": [
+      1,
+      1
+    ],
+    "Drop_MaxNum": [
+      1,
+      1
+    ],
+    "Weight": [
+      100,
+      100
+    ]
+  },
+  {
+    "JackpotID": 30001,
+    "Type": 3,
+    "Drop_Array": [
+      30101,
+      30201,
+      30301,
+      30401
+    ],
+    "Drop_MinNum": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "Drop_MaxNum": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "Weight": [
+      100,
+      100,
+      100,
+      100
+    ]
+  },
+  {
+    "JackpotID": 30002,
+    "Type": 3,
+    "Drop_Array": [
+      30102,
+      30202,
+      30302,
+      30402
+    ],
+    "Drop_MinNum": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "Drop_MaxNum": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "Weight": [
+      100,
+      100,
+      100,
+      100
+    ]
+  },
+  {
+    "JackpotID": 30003,
+    "Type": 3,
+    "Drop_Array": [
+      30103,
+      30203,
+      30303,
+      30403
+    ],
+    "Drop_MinNum": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "Drop_MaxNum": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "Weight": [
+      100,
+      100,
+      100,
+      100
+    ]
+  },
+  {
+    "JackpotID": 30004,
+    "Type": 3,
+    "Drop_Array": [
+      30104,
+      30204,
+      30304,
+      30404
+    ],
+    "Drop_MinNum": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "Drop_MaxNum": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "Weight": [
+      100,
+      100,
+      100,
+      100
+    ]
+  },
+  {
+    "JackpotID": 30005,
+    "Type": 3,
+    "Drop_Array": [
+      30105,
+      30205,
+      30305,
+      30405
+    ],
+    "Drop_MinNum": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "Drop_MaxNum": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "Weight": [
+      100,
+      100,
+      100,
+      100
+    ]
+  },
+  {
+    "JackpotID": 30006,
+    "Type": 3,
+    "Drop_Array": [
+      30106,
+      30206,
+      30306,
+      30406
+    ],
+    "Drop_MinNum": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "Drop_MaxNum": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "Weight": [
+      100,
+      100,
+      100,
+      100
+    ]
+  },
+  {
+    "JackpotID": 40001,
+    "Type": 4,
+    "Drop_Array": [
+      70001,
+      70002
+    ],
+    "Drop_MinNum": [
+      1,
+      1
+    ],
+    "Drop_MaxNum": [
+      1,
+      1
+    ],
+    "Weight": [
+      100,
+      100
+    ]
+  },
+  {
+    "JackpotID": 40002,
+    "Type": 4,
+    "Drop_Array": [
+      70003,
+      70004
+    ],
+    "Drop_MinNum": [
+      1,
+      1
+    ],
+    "Drop_MaxNum": [
+      1,
+      1
+    ],
+    "Weight": [
+      100,
+      100
+    ]
+  },
+  {
+    "JackpotID": 40003,
+    "Type": 4,
+    "Drop_Array": [
+      70005,
+      70006
+    ],
+    "Drop_MinNum": [
+      1,
+      1
+    ],
+    "Drop_MaxNum": [
+      1,
+      1
+    ],
+    "Weight": [
+      100,
+      100
+    ]
+  },
+  {
+    "JackpotID": 40004,
+    "Type": 4,
+    "Drop_Array": [
+      70007,
+      70008
+    ],
+    "Drop_MinNum": [
+      1,
+      1
+    ],
+    "Drop_MaxNum": [
+      1,
+      1
+    ],
+    "Weight": [
+      100,
+      100
+    ]
+  },
+  {
+    "JackpotID": 40005,
+    "Type": 4,
+    "Drop_Array": [
+      70009,
+      70010
+    ],
+    "Drop_MinNum": [
+      1,
+      1
+    ],
+    "Drop_MaxNum": [
+      1,
+      1
+    ],
+    "Weight": [
+      100,
+      100
+    ]
+  },
+  {
+    "JackpotID": 40006,
+    "Type": 4,
+    "Drop_Array": [
+      70011,
+      70012
+    ],
+    "Drop_MinNum": [
+      1,
+      1
+    ],
+    "Drop_MaxNum": [
+      1,
+      1
+    ],
+    "Weight": [
+      100,
+      100
+    ]
+  }
+]

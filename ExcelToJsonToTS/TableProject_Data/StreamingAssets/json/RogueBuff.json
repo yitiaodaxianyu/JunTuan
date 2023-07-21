@@ -1,0 +1,252 @@
+[
+  {
+    "RogueBuff_ID": 1001,
+    "RogueBuff_Quality": 1,
+    "RogueBuff_Name": 831003,
+    "RogueBuffText_ID": 831013,
+    "RogueBuff_Type": 1,
+    "RogueBuff1_Value": 0.06,
+    "RogueBuff2_Value": 0.0,
+    "RogueBuff3_Value": 0.0
+  },
+  {
+    "RogueBuff_ID": 1002,
+    "RogueBuff_Quality": 2,
+    "RogueBuff_Name": 831003,
+    "RogueBuffText_ID": 831013,
+    "RogueBuff_Type": 1,
+    "RogueBuff1_Value": 0.09,
+    "RogueBuff2_Value": 0.0,
+    "RogueBuff3_Value": 0.0
+  },
+  {
+    "RogueBuff_ID": 1003,
+    "RogueBuff_Quality": 3,
+    "RogueBuff_Name": 831003,
+    "RogueBuffText_ID": 831013,
+    "RogueBuff_Type": 1,
+    "RogueBuff1_Value": 0.12,
+    "RogueBuff2_Value": 0.0,
+    "RogueBuff3_Value": 0.0
+  },
+  {
+    "RogueBuff_ID": 2001,
+    "RogueBuff_Quality": 1,
+    "RogueBuff_Name": 831009,
+    "RogueBuffText_ID": 831021,
+    "RogueBuff_Type": 2,
+    "RogueBuff1_Value": 0.02,
+    "RogueBuff2_Value": 0.08,
+    "RogueBuff3_Value": 0.0
+  },
+  {
+    "RogueBuff_ID": 2002,
+    "RogueBuff_Quality": 2,
+    "RogueBuff_Name": 831009,
+    "RogueBuffText_ID": 831021,
+    "RogueBuff_Type": 2,
+    "RogueBuff1_Value": 0.04,
+    "RogueBuff2_Value": 0.16,
+    "RogueBuff3_Value": 0.0
+  },
+  {
+    "RogueBuff_ID": 2003,
+    "RogueBuff_Quality": 3,
+    "RogueBuff_Name": 831009,
+    "RogueBuffText_ID": 831021,
+    "RogueBuff_Type": 2,
+    "RogueBuff1_Value": 0.06,
+    "RogueBuff2_Value": 0.24,
+    "RogueBuff3_Value": 0.0
+  },
+  {
+    "RogueBuff_ID": 3001,
+    "RogueBuff_Quality": 1,
+    "RogueBuff_Name": 831002,
+    "RogueBuffText_ID": 831012,
+    "RogueBuff_Type": 3,
+    "RogueBuff1_Value": 20.0,
+    "RogueBuff2_Value": 0.0,
+    "RogueBuff3_Value": 0.0
+  },
+  {
+    "RogueBuff_ID": 3002,
+    "RogueBuff_Quality": 2,
+    "RogueBuff_Name": 831002,
+    "RogueBuffText_ID": 831012,
+    "RogueBuff_Type": 3,
+    "RogueBuff1_Value": 30.0,
+    "RogueBuff2_Value": 0.0,
+    "RogueBuff3_Value": 0.0
+  },
+  {
+    "RogueBuff_ID": 3003,
+    "RogueBuff_Quality": 3,
+    "RogueBuff_Name": 831002,
+    "RogueBuffText_ID": 831012,
+    "RogueBuff_Type": 3,
+    "RogueBuff1_Value": 40.0,
+    "RogueBuff2_Value": 0.0,
+    "RogueBuff3_Value": 0.0
+  },
+  {
+    "RogueBuff_ID": 4001,
+    "RogueBuff_Quality": 1,
+    "RogueBuff_Name": 831005,
+    "RogueBuffText_ID": 831015,
+    "RogueBuff_Type": 4,
+    "RogueBuff1_Value": 20.0,
+    "RogueBuff2_Value": 0.0,
+    "RogueBuff3_Value": 0.0
+  },
+  {
+    "RogueBuff_ID": 4002,
+    "RogueBuff_Quality": 2,
+    "RogueBuff_Name": 831005,
+    "RogueBuffText_ID": 831015,
+    "RogueBuff_Type": 4,
+    "RogueBuff1_Value": 30.0,
+    "RogueBuff2_Value": 0.0,
+    "RogueBuff3_Value": 0.0
+  },
+  {
+    "RogueBuff_ID": 4003,
+    "RogueBuff_Quality": 3,
+    "RogueBuff_Name": 831005,
+    "RogueBuffText_ID": 831015,
+    "RogueBuff_Type": 4,
+    "RogueBuff1_Value": 40.0,
+    "RogueBuff2_Value": 0.0,
+    "RogueBuff3_Value": 0.0
+  },
+  {
+    "RogueBuff_ID": 5001,
+    "RogueBuff_Quality": 1,
+    "RogueBuff_Name": 831010,
+    "RogueBuffText_ID": 831020,
+    "RogueBuff_Type": 5,
+    "RogueBuff1_Value": 0.06,
+    "RogueBuff2_Value": 0.0,
+    "RogueBuff3_Value": 0.0
+  },
+  {
+    "RogueBuff_ID": 5002,
+    "RogueBuff_Quality": 2,
+    "RogueBuff_Name": 831010,
+    "RogueBuffText_ID": 831020,
+    "RogueBuff_Type": 5,
+    "RogueBuff1_Value": 0.09,
+    "RogueBuff2_Value": 0.0,
+    "RogueBuff3_Value": 0.0
+  },
+  {
+    "RogueBuff_ID": 5003,
+    "RogueBuff_Quality": 3,
+    "RogueBuff_Name": 831010,
+    "RogueBuffText_ID": 831020,
+    "RogueBuff_Type": 5,
+    "RogueBuff1_Value": 0.12,
+    "RogueBuff2_Value": 0.0,
+    "RogueBuff3_Value": 0.0
+  },
+  {
+    "RogueBuff_ID": 6001,
+    "RogueBuff_Quality": 1,
+    "RogueBuff_Name": 831001,
+    "RogueBuffText_ID": 831011,
+    "RogueBuff_Type": 6,
+    "RogueBuff1_Value": 0.03,
+    "RogueBuff2_Value": 0.12,
+    "RogueBuff3_Value": 0.0
+  },
+  {
+    "RogueBuff_ID": 6002,
+    "RogueBuff_Quality": 2,
+    "RogueBuff_Name": 831001,
+    "RogueBuffText_ID": 831011,
+    "RogueBuff_Type": 6,
+    "RogueBuff1_Value": 0.06,
+    "RogueBuff2_Value": 0.24,
+    "RogueBuff3_Value": 0.0
+  },
+  {
+    "RogueBuff_ID": 6003,
+    "RogueBuff_Quality": 3,
+    "RogueBuff_Name": 831001,
+    "RogueBuffText_ID": 831011,
+    "RogueBuff_Type": 6,
+    "RogueBuff1_Value": 0.09,
+    "RogueBuff2_Value": 0.36,
+    "RogueBuff3_Value": 0.0
+  },
+  {
+    "RogueBuff_ID": 7001,
+    "RogueBuff_Quality": 1,
+    "RogueBuff_Name": 831006,
+    "RogueBuffText_ID": 831017,
+    "RogueBuff_Type": 7,
+    "RogueBuff1_Value": -0.05,
+    "RogueBuff2_Value": 0.0,
+    "RogueBuff3_Value": 0.0
+  },
+  {
+    "RogueBuff_ID": 7002,
+    "RogueBuff_Quality": 2,
+    "RogueBuff_Name": 831006,
+    "RogueBuffText_ID": 831017,
+    "RogueBuff_Type": 7,
+    "RogueBuff1_Value": -0.1,
+    "RogueBuff2_Value": 0.0,
+    "RogueBuff3_Value": 0.0
+  },
+  {
+    "RogueBuff_ID": 7003,
+    "RogueBuff_Quality": 3,
+    "RogueBuff_Name": 831006,
+    "RogueBuffText_ID": 831017,
+    "RogueBuff_Type": 7,
+    "RogueBuff1_Value": -0.15,
+    "RogueBuff2_Value": 0.0,
+    "RogueBuff3_Value": 0.0
+  },
+  {
+    "RogueBuff_ID": 8003,
+    "RogueBuff_Quality": 3,
+    "RogueBuff_Name": 831008,
+    "RogueBuffText_ID": 831019,
+    "RogueBuff_Type": 8,
+    "RogueBuff1_Value": 0.1,
+    "RogueBuff2_Value": 0.0,
+    "RogueBuff3_Value": 0.0
+  },
+  {
+    "RogueBuff_ID": 9001,
+    "RogueBuff_Quality": 1,
+    "RogueBuff_Name": 831004,
+    "RogueBuffText_ID": 831014,
+    "RogueBuff_Type": 9,
+    "RogueBuff1_Value": 0.08,
+    "RogueBuff2_Value": 0.0,
+    "RogueBuff3_Value": 0.0
+  },
+  {
+    "RogueBuff_ID": 9002,
+    "RogueBuff_Quality": 2,
+    "RogueBuff_Name": 831004,
+    "RogueBuffText_ID": 831014,
+    "RogueBuff_Type": 9,
+    "RogueBuff1_Value": 0.12,
+    "RogueBuff2_Value": 0.0,
+    "RogueBuff3_Value": 0.0
+  },
+  {
+    "RogueBuff_ID": 9003,
+    "RogueBuff_Quality": 3,
+    "RogueBuff_Name": 831004,
+    "RogueBuffText_ID": 831014,
+    "RogueBuff_Type": 9,
+    "RogueBuff1_Value": 0.16,
+    "RogueBuff2_Value": 0.0,
+    "RogueBuff3_Value": 0.0
+  }
+]

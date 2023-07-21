@@ -1,0 +1,218 @@
+[
+  {
+    "Level": 1,
+    "PointCost": 2,
+    "CoinCost": 3000,
+    "PlayerLevelLimit": 1
+  },
+  {
+    "Level": 2,
+    "PointCost": 2,
+    "CoinCost": 4200,
+    "PlayerLevelLimit": 1
+  },
+  {
+    "Level": 3,
+    "PointCost": 2,
+    "CoinCost": 5400,
+    "PlayerLevelLimit": 1
+  },
+  {
+    "Level": 4,
+    "PointCost": 3,
+    "CoinCost": 7200,
+    "PlayerLevelLimit": 1
+  },
+  {
+    "Level": 5,
+    "PointCost": 3,
+    "CoinCost": 9000,
+    "PlayerLevelLimit": 1
+  },
+  {
+    "Level": 6,
+    "PointCost": 3,
+    "CoinCost": 10800,
+    "PlayerLevelLimit": 2
+  },
+  {
+    "Level": 7,
+    "PointCost": 4,
+    "CoinCost": 13200,
+    "PlayerLevelLimit": 2
+  },
+  {
+    "Level": 8,
+    "PointCost": 4,
+    "CoinCost": 15600,
+    "PlayerLevelLimit": 2
+  },
+  {
+    "Level": 9,
+    "PointCost": 4,
+    "CoinCost": 18000,
+    "PlayerLevelLimit": 2
+  },
+  {
+    "Level": 10,
+    "PointCost": 5,
+    "CoinCost": 21000,
+    "PlayerLevelLimit": 2
+  },
+  {
+    "Level": 11,
+    "PointCost": 5,
+    "CoinCost": 24000,
+    "PlayerLevelLimit": 3
+  },
+  {
+    "Level": 12,
+    "PointCost": 5,
+    "CoinCost": 27000,
+    "PlayerLevelLimit": 3
+  },
+  {
+    "Level": 13,
+    "PointCost": 6,
+    "CoinCost": 30600,
+    "PlayerLevelLimit": 3
+  },
+  {
+    "Level": 14,
+    "PointCost": 6,
+    "CoinCost": 34200,
+    "PlayerLevelLimit": 3
+  },
+  {
+    "Level": 15,
+    "PointCost": 6,
+    "CoinCost": 37800,
+    "PlayerLevelLimit": 3
+  },
+  {
+    "Level": 16,
+    "PointCost": 7,
+    "CoinCost": 42000,
+    "PlayerLevelLimit": 4
+  },
+  {
+    "Level": 17,
+    "PointCost": 7,
+    "CoinCost": 46200,
+    "PlayerLevelLimit": 4
+  },
+  {
+    "Level": 18,
+    "PointCost": 7,
+    "CoinCost": 50400,
+    "PlayerLevelLimit": 4
+  },
+  {
+    "Level": 19,
+    "PointCost": 8,
+    "CoinCost": 55200,
+    "PlayerLevelLimit": 4
+  },
+  {
+    "Level": 20,
+    "PointCost": 8,
+    "CoinCost": 60000,
+    "PlayerLevelLimit": 4
+  },
+  {
+    "Level": 21,
+    "PointCost": 8,
+    "CoinCost": 64800,
+    "PlayerLevelLimit": 5
+  },
+  {
+    "Level": 22,
+    "PointCost": 9,
+    "CoinCost": 70200,
+    "PlayerLevelLimit": 5
+  },
+  {
+    "Level": 23,
+    "PointCost": 9,
+    "CoinCost": 75600,
+    "PlayerLevelLimit": 5
+  },
+  {
+    "Level": 24,
+    "PointCost": 9,
+    "CoinCost": 81000,
+    "PlayerLevelLimit": 5
+  },
+  {
+    "Level": 25,
+    "PointCost": 10,
+    "CoinCost": 87000,
+    "PlayerLevelLimit": 5
+  },
+  {
+    "Level": 26,
+    "PointCost": 10,
+    "CoinCost": 93000,
+    "PlayerLevelLimit": 6
+  },
+  {
+    "Level": 27,
+    "PointCost": 10,
+    "CoinCost": 99000,
+    "PlayerLevelLimit": 6
+  },
+  {
+    "Level": 28,
+    "PointCost": 11,
+    "CoinCost": 105600,
+    "PlayerLevelLimit": 6
+  },
+  {
+    "Level": 29,
+    "PointCost": 11,
+    "CoinCost": 112200,
+    "PlayerLevelLimit": 6
+  },
+  {
+    "Level": 30,
+    "PointCost": 11,
+    "CoinCost": 118800,
+    "PlayerLevelLimit": 6
+  },
+  {
+    "Level": 31,
+    "PointCost": 12,
+    "CoinCost": 126000,
+    "PlayerLevelLimit": 7
+  },
+  {
+    "Level": 32,
+    "PointCost": 12,
+    "CoinCost": 133200,
+    "PlayerLevelLimit": 7
+  },
+  {
+    "Level": 33,
+    "PointCost": 12,
+    "CoinCost": 140400,
+    "PlayerLevelLimit": 7
+  },
+  {
+    "Level": 34,
+    "PointCost": 13,
+    "CoinCost": 148200,
+    "PlayerLevelLimit": 7
+  },
+  {
+    "Level": 35,
+    "PointCost": 13,
+    "CoinCost": 156000,
+    "PlayerLevelLimit": 7
+  },
+  {
+    "Level": 36,
+    "PointCost": 13,
+    "CoinCost": 163800,
+    "PlayerLevelLimit": 8
+  }
+]

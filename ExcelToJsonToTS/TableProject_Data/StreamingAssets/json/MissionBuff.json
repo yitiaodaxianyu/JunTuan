@@ -1,0 +1,110 @@
+[
+  {
+    "BuffID": 10101,
+    "Text_ID": 1001,
+    "Type": 1,
+    "Quaility": 1,
+    "Weight": 700,
+    "OtherMode_Weight": 800,
+    "Value": 10
+  },
+  {
+    "BuffID": 10102,
+    "Text_ID": 1001,
+    "Type": 1,
+    "Quaility": 2,
+    "Weight": 250,
+    "OtherMode_Weight": 200,
+    "Value": 20
+  },
+  {
+    "BuffID": 10103,
+    "Text_ID": 1001,
+    "Type": 1,
+    "Quaility": 3,
+    "Weight": 30,
+    "OtherMode_Weight": 20,
+    "Value": 35
+  },
+  {
+    "BuffID": 10201,
+    "Text_ID": 1002,
+    "Type": 2,
+    "Quaility": 1,
+    "Weight": 700,
+    "OtherMode_Weight": 800,
+    "Value": 15
+  },
+  {
+    "BuffID": 10202,
+    "Text_ID": 1002,
+    "Type": 2,
+    "Quaility": 2,
+    "Weight": 250,
+    "OtherMode_Weight": 200,
+    "Value": 30
+  },
+  {
+    "BuffID": 10301,
+    "Text_ID": 1003,
+    "Type": 3,
+    "Quaility": 1,
+    "Weight": 700,
+    "OtherMode_Weight": 800,
+    "Value": 12
+  },
+  {
+    "BuffID": 10302,
+    "Text_ID": 1003,
+    "Type": 3,
+    "Quaility": 2,
+    "Weight": 250,
+    "OtherMode_Weight": 200,
+    "Value": 25
+  },
+  {
+    "BuffID": 10401,
+    "Text_ID": 1004,
+    "Type": 4,
+    "Quaility": 1,
+    "Weight": 700,
+    "OtherMode_Weight": 800,
+    "Value": 20
+  },
+  {
+    "BuffID": 10402,
+    "Text_ID": 1004,
+    "Type": 4,
+    "Quaility": 2,
+    "Weight": 250,
+    "OtherMode_Weight": 200,
+    "Value": 40
+  },
+  {
+    "BuffID": 10503,
+    "Text_ID": 1005,
+    "Type": 5,
+    "Quaility": 3,
+    "Weight": 30,
+    "OtherMode_Weight": 20,
+    "Value": 1
+  },
+  {
+    "BuffID": 10604,
+    "Text_ID": 1006,
+    "Type": 6,
+    "Quaility": 4,
+    "Weight": 5,
+    "OtherMode_Weight": 0,
+    "Value": 2
+  },
+  {
+    "BuffID": 10703,
+    "Text_ID": 1007,
+    "Type": 7,
+    "Quaility": 3,
+    "Weight": 30,
+    "OtherMode_Weight": 20,
+    "Value": 1
+  }
+]

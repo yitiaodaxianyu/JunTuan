@@ -1,0 +1,44 @@
+[
+  {
+    "CardPoolID": 1001,
+    "CardPoolType": 1,
+    "OneDrawPropsID_1": 40004,
+    "OneDrawPropsSpend_1": 1,
+    "TenDrawPropsSpend_1": 10,
+    "OneDrawPropsID_2": 10002,
+    "OneDrawPropsSpend_2": 200,
+    "TenDrawPropsSpend_2": 1800,
+    "IfLimit": 0,
+    "LimitTime": 0,
+    "HeroStandID": 12,
+    "BgID": "Shop_Bg_2_0"
+  },
+  {
+    "CardPoolID": 2001,
+    "CardPoolType": 2,
+    "OneDrawPropsID_1": 40005,
+    "OneDrawPropsSpend_1": 1,
+    "TenDrawPropsSpend_1": 10,
+    "OneDrawPropsID_2": 10002,
+    "OneDrawPropsSpend_2": 200,
+    "TenDrawPropsSpend_2": 1800,
+    "IfLimit": 0,
+    "LimitTime": 0,
+    "HeroStandID": 0,
+    "BgID": "0"
+  },
+  {
+    "CardPoolID": 3001,
+    "CardPoolType": 3,
+    "OneDrawPropsID_1": 40006,
+    "OneDrawPropsSpend_1": 1,
+    "TenDrawPropsSpend_1": 10,
+    "OneDrawPropsID_2": 10002,
+    "OneDrawPropsSpend_2": 200,
+    "TenDrawPropsSpend_2": 1800,
+    "IfLimit": 0,
+    "LimitTime": 0,
+    "HeroStandID": 0,
+    "BgID": "0"
+  }
+]

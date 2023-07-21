@@ -1,0 +1,98 @@
+[
+  {
+    "CumulativeRechargeID": 10001,
+    "CumulativeRechargePrice": 60,
+    "GetCoin": 14000,
+    "GetGem": 60,
+    "Item1_ID": 40005,
+    "Item1_Num": 5,
+    "Item2_ID": 0,
+    "Item2_Num": 0,
+    "Item3_ID": 0,
+    "Item3_Num": 0
+  },
+  {
+    "CumulativeRechargeID": 20001,
+    "CumulativeRechargePrice": 680,
+    "GetCoin": 28000,
+    "GetGem": 600,
+    "Item1_ID": 40005,
+    "Item1_Num": 10,
+    "Item2_ID": 0,
+    "Item2_Num": 0,
+    "Item3_ID": 0,
+    "Item3_Num": 0
+  },
+  {
+    "CumulativeRechargeID": 30001,
+    "CumulativeRechargePrice": 1280,
+    "GetCoin": 0,
+    "GetGem": 1280,
+    "Item1_ID": 40005,
+    "Item1_Num": 20,
+    "Item2_ID": 40007,
+    "Item2_Num": 10,
+    "Item3_ID": 0,
+    "Item3_Num": 0
+  },
+  {
+    "CumulativeRechargeID": 40001,
+    "CumulativeRechargePrice": 3280,
+    "GetCoin": 0,
+    "GetGem": 3280,
+    "Item1_ID": 40005,
+    "Item1_Num": 30,
+    "Item2_ID": 40007,
+    "Item2_Num": 20,
+    "Item3_ID": 0,
+    "Item3_Num": 0
+  },
+  {
+    "CumulativeRechargeID": 50001,
+    "CumulativeRechargePrice": 6480,
+    "GetCoin": 0,
+    "GetGem": 6480,
+    "Item1_ID": 40005,
+    "Item1_Num": 40,
+    "Item2_ID": 40007,
+    "Item2_Num": 30,
+    "Item3_ID": 0,
+    "Item3_Num": 0
+  },
+  {
+    "CumulativeRechargeID": 60001,
+    "CumulativeRechargePrice": 9980,
+    "GetCoin": 0,
+    "GetGem": 9980,
+    "Item1_ID": 40005,
+    "Item1_Num": 50,
+    "Item2_ID": 40007,
+    "Item2_Num": 40,
+    "Item3_ID": 0,
+    "Item3_Num": 0
+  },
+  {
+    "CumulativeRechargeID": 70001,
+    "CumulativeRechargePrice": 19980,
+    "GetCoin": 0,
+    "GetGem": 20000,
+    "Item1_ID": 40005,
+    "Item1_Num": 60,
+    "Item2_ID": 40007,
+    "Item2_Num": 50,
+    "Item3_ID": 0,
+    "Item3_Num": 0
+  },
+  {
+    "CumulativeRechargeID": 80001,
+    "CumulativeRechargePrice": 30000,
+    "GetCoin": 0,
+    "GetGem": 30000,
+    "Item1_ID": 40005,
+    "Item1_Num": 70,
+    "Item2_ID": 70021,
+    "Item2_Num": 1,
+    "Item3_ID": 0,
+    "Item3_Num": 0
+  }
+]

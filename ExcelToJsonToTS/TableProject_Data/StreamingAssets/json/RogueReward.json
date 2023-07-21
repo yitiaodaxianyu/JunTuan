@@ -1,0 +1,302 @@
+[
+  {
+    "Hexagon_ID": 10031,
+    "RogueProp1_ID": 50041,
+    "RogueProp1_Sum": 1,
+    "RogueProp2_ID": 50021,
+    "RogueProp2_Sum": 1,
+    "RogueProp3_ID": 50011,
+    "RogueProp3_Sum": 1,
+    "ExploreCoins_Sum": 100
+  },
+  {
+    "Hexagon_ID": 10032,
+    "RogueProp1_ID": 50042,
+    "RogueProp1_Sum": 2,
+    "RogueProp2_ID": 50021,
+    "RogueProp2_Sum": 1,
+    "RogueProp3_ID": 50012,
+    "RogueProp3_Sum": 1,
+    "ExploreCoins_Sum": 100
+  },
+  {
+    "Hexagon_ID": 10033,
+    "RogueProp1_ID": 50041,
+    "RogueProp1_Sum": 1,
+    "RogueProp2_ID": 50021,
+    "RogueProp2_Sum": 1,
+    "RogueProp3_ID": 50011,
+    "RogueProp3_Sum": 1,
+    "ExploreCoins_Sum": 100
+  },
+  {
+    "Hexagon_ID": 10051,
+    "RogueProp1_ID": 50042,
+    "RogueProp1_Sum": 2,
+    "RogueProp2_ID": 50021,
+    "RogueProp2_Sum": 1,
+    "RogueProp3_ID": 50012,
+    "RogueProp3_Sum": 1,
+    "ExploreCoins_Sum": 100
+  },
+  {
+    "Hexagon_ID": 10053,
+    "RogueProp1_ID": 50041,
+    "RogueProp1_Sum": 1,
+    "RogueProp2_ID": 50021,
+    "RogueProp2_Sum": 1,
+    "RogueProp3_ID": 50011,
+    "RogueProp3_Sum": 1,
+    "ExploreCoins_Sum": 100
+  },
+  {
+    "Hexagon_ID": 10062,
+    "RogueProp1_ID": 50041,
+    "RogueProp1_Sum": 1,
+    "RogueProp2_ID": 50021,
+    "RogueProp2_Sum": 1,
+    "RogueProp3_ID": 50011,
+    "RogueProp3_Sum": 1,
+    "ExploreCoins_Sum": 100
+  },
+  {
+    "Hexagon_ID": 10071,
+    "RogueProp1_ID": 50042,
+    "RogueProp1_Sum": 2,
+    "RogueProp2_ID": 50021,
+    "RogueProp2_Sum": 1,
+    "RogueProp3_ID": 50012,
+    "RogueProp3_Sum": 1,
+    "ExploreCoins_Sum": 100
+  },
+  {
+    "Hexagon_ID": 10072,
+    "RogueProp1_ID": 50042,
+    "RogueProp1_Sum": 2,
+    "RogueProp2_ID": 50021,
+    "RogueProp2_Sum": 1,
+    "RogueProp3_ID": 50012,
+    "RogueProp3_Sum": 1,
+    "ExploreCoins_Sum": 100
+  },
+  {
+    "Hexagon_ID": 10073,
+    "RogueProp1_ID": 50041,
+    "RogueProp1_Sum": 1,
+    "RogueProp2_ID": 50021,
+    "RogueProp2_Sum": 1,
+    "RogueProp3_ID": 50011,
+    "RogueProp3_Sum": 1,
+    "ExploreCoins_Sum": 100
+  },
+  {
+    "Hexagon_ID": 10092,
+    "RogueProp1_ID": 50043,
+    "RogueProp1_Sum": 1,
+    "RogueProp2_ID": 10002,
+    "RogueProp2_Sum": 200,
+    "RogueProp3_ID": 50031,
+    "RogueProp3_Sum": 1,
+    "ExploreCoins_Sum": 100
+  },
+  {
+    "Hexagon_ID": 20031,
+    "RogueProp1_ID": 50041,
+    "RogueProp1_Sum": 1,
+    "RogueProp2_ID": 50021,
+    "RogueProp2_Sum": 1,
+    "RogueProp3_ID": 50011,
+    "RogueProp3_Sum": 1,
+    "ExploreCoins_Sum": 100
+  },
+  {
+    "Hexagon_ID": 20032,
+    "RogueProp1_ID": 50043,
+    "RogueProp1_Sum": 1,
+    "RogueProp2_ID": 50021,
+    "RogueProp2_Sum": 1,
+    "RogueProp3_ID": 50012,
+    "RogueProp3_Sum": 1,
+    "ExploreCoins_Sum": 100
+  },
+  {
+    "Hexagon_ID": 20033,
+    "RogueProp1_ID": 50041,
+    "RogueProp1_Sum": 1,
+    "RogueProp2_ID": 50021,
+    "RogueProp2_Sum": 1,
+    "RogueProp3_ID": 50011,
+    "RogueProp3_Sum": 1,
+    "ExploreCoins_Sum": 100
+  },
+  {
+    "Hexagon_ID": 20051,
+    "RogueProp1_ID": 50043,
+    "RogueProp1_Sum": 1,
+    "RogueProp2_ID": 50021,
+    "RogueProp2_Sum": 1,
+    "RogueProp3_ID": 50012,
+    "RogueProp3_Sum": 1,
+    "ExploreCoins_Sum": 100
+  },
+  {
+    "Hexagon_ID": 20053,
+    "RogueProp1_ID": 50041,
+    "RogueProp1_Sum": 1,
+    "RogueProp2_ID": 50021,
+    "RogueProp2_Sum": 1,
+    "RogueProp3_ID": 50011,
+    "RogueProp3_Sum": 1,
+    "ExploreCoins_Sum": 100
+  },
+  {
+    "Hexagon_ID": 20062,
+    "RogueProp1_ID": 50041,
+    "RogueProp1_Sum": 1,
+    "RogueProp2_ID": 50021,
+    "RogueProp2_Sum": 1,
+    "RogueProp3_ID": 50011,
+    "RogueProp3_Sum": 1,
+    "ExploreCoins_Sum": 100
+  },
+  {
+    "Hexagon_ID": 20071,
+    "RogueProp1_ID": 50043,
+    "RogueProp1_Sum": 1,
+    "RogueProp2_ID": 50021,
+    "RogueProp2_Sum": 1,
+    "RogueProp3_ID": 50012,
+    "RogueProp3_Sum": 1,
+    "ExploreCoins_Sum": 100
+  },
+  {
+    "Hexagon_ID": 20072,
+    "RogueProp1_ID": 50043,
+    "RogueProp1_Sum": 1,
+    "RogueProp2_ID": 50021,
+    "RogueProp2_Sum": 1,
+    "RogueProp3_ID": 50012,
+    "RogueProp3_Sum": 1,
+    "ExploreCoins_Sum": 100
+  },
+  {
+    "Hexagon_ID": 20073,
+    "RogueProp1_ID": 50041,
+    "RogueProp1_Sum": 1,
+    "RogueProp2_ID": 50021,
+    "RogueProp2_Sum": 1,
+    "RogueProp3_ID": 50011,
+    "RogueProp3_Sum": 1,
+    "ExploreCoins_Sum": 100
+  },
+  {
+    "Hexagon_ID": 20092,
+    "RogueProp1_ID": 50041,
+    "RogueProp1_Sum": 2,
+    "RogueProp2_ID": 10002,
+    "RogueProp2_Sum": 400,
+    "RogueProp3_ID": 50031,
+    "RogueProp3_Sum": 1,
+    "ExploreCoins_Sum": 100
+  },
+  {
+    "Hexagon_ID": 30031,
+    "RogueProp1_ID": 50041,
+    "RogueProp1_Sum": 2000,
+    "RogueProp2_ID": 10002,
+    "RogueProp2_Sum": 50,
+    "RogueProp3_ID": 50011,
+    "RogueProp3_Sum": 1,
+    "ExploreCoins_Sum": 100
+  },
+  {
+    "Hexagon_ID": 30032,
+    "RogueProp1_ID": 50041,
+    "RogueProp1_Sum": 2000,
+    "RogueProp2_ID": 10002,
+    "RogueProp2_Sum": 50,
+    "RogueProp3_ID": 50011,
+    "RogueProp3_Sum": 1,
+    "ExploreCoins_Sum": 100
+  },
+  {
+    "Hexagon_ID": 30033,
+    "RogueProp1_ID": 50041,
+    "RogueProp1_Sum": 2000,
+    "RogueProp2_ID": 10002,
+    "RogueProp2_Sum": 50,
+    "RogueProp3_ID": 50011,
+    "RogueProp3_Sum": 1,
+    "ExploreCoins_Sum": 100
+  },
+  {
+    "Hexagon_ID": 30051,
+    "RogueProp1_ID": 50041,
+    "RogueProp1_Sum": 2000,
+    "RogueProp2_ID": 10002,
+    "RogueProp2_Sum": 50,
+    "RogueProp3_ID": 50011,
+    "RogueProp3_Sum": 1,
+    "ExploreCoins_Sum": 100
+  },
+  {
+    "Hexagon_ID": 30053,
+    "RogueProp1_ID": 50041,
+    "RogueProp1_Sum": 2000,
+    "RogueProp2_ID": 10002,
+    "RogueProp2_Sum": 50,
+    "RogueProp3_ID": 50011,
+    "RogueProp3_Sum": 1,
+    "ExploreCoins_Sum": 100
+  },
+  {
+    "Hexagon_ID": 30062,
+    "RogueProp1_ID": 50041,
+    "RogueProp1_Sum": 2000,
+    "RogueProp2_ID": 10002,
+    "RogueProp2_Sum": 50,
+    "RogueProp3_ID": 50011,
+    "RogueProp3_Sum": 1,
+    "ExploreCoins_Sum": 100
+  },
+  {
+    "Hexagon_ID": 30071,
+    "RogueProp1_ID": 50041,
+    "RogueProp1_Sum": 2000,
+    "RogueProp2_ID": 10002,
+    "RogueProp2_Sum": 50,
+    "RogueProp3_ID": 50011,
+    "RogueProp3_Sum": 1,
+    "ExploreCoins_Sum": 100
+  },
+  {
+    "Hexagon_ID": 30072,
+    "RogueProp1_ID": 50041,
+    "RogueProp1_Sum": 2000,
+    "RogueProp2_ID": 10002,
+    "RogueProp2_Sum": 50,
+    "RogueProp3_ID": 50011,
+    "RogueProp3_Sum": 1,
+    "ExploreCoins_Sum": 100
+  },
+  {
+    "Hexagon_ID": 30073,
+    "RogueProp1_ID": 50041,
+    "RogueProp1_Sum": 2000,
+    "RogueProp2_ID": 10002,
+    "RogueProp2_Sum": 50,
+    "RogueProp3_ID": 50011,
+    "RogueProp3_Sum": 1,
+    "ExploreCoins_Sum": 100
+  },
+  {
+    "Hexagon_ID": 30091,
+    "RogueProp1_ID": 50041,
+    "RogueProp1_Sum": 2000,
+    "RogueProp2_ID": 10002,
+    "RogueProp2_Sum": 50,
+    "RogueProp3_ID": 50011,
+    "RogueProp3_Sum": 1,
+    "ExploreCoins_Sum": 100
+  }
+]

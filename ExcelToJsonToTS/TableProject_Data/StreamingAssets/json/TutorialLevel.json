@@ -1,0 +1,177 @@
+[
+  {
+    "LevelId": 1,
+    "LevelTypes": 1,
+    "Chapter": 1,
+    "LevelNum": 1,
+    "PosX": -22,
+    "PosY": 254,
+    "MonsterGroupConfigure": [
+      101,
+      102
+    ],
+    "MaxWave": 2,
+    "MonsterTideWave": [
+      0
+    ],
+    "TimeInterval": [
+      0,
+      10
+    ],
+    "MonsterLevel": [
+      1,
+      1
+    ],
+    "HpCoefficient": [
+      0.104,
+      0.104
+    ],
+    "PassReward_Coin": 200,
+    "RecommendedCombatPower": 1000
+  },
+  {
+    "LevelId": 2,
+    "LevelTypes": 1,
+    "Chapter": 1,
+    "LevelNum": 2,
+    "PosX": -168,
+    "PosY": 378,
+    "MonsterGroupConfigure": [
+      103,
+      104
+    ],
+    "MaxWave": 2,
+    "MonsterTideWave": [
+      0
+    ],
+    "TimeInterval": [
+      0,
+      8
+    ],
+    "MonsterLevel": [
+      1,
+      1
+    ],
+    "HpCoefficient": [
+      0.24,
+      0.1
+    ],
+    "PassReward_Coin": 210,
+    "RecommendedCombatPower": 2000
+  },
+  {
+    "LevelId": 3,
+    "LevelTypes": 2,
+    "Chapter": 1,
+    "LevelNum": 3,
+    "PosX": 27,
+    "PosY": 409,
+    "MonsterGroupConfigure": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "MaxWave": 4,
+    "MonsterTideWave": [
+      3
+    ],
+    "TimeInterval": [
+      0,
+      8,
+      8,
+      8
+    ],
+    "MonsterLevel": [
+      3,
+      3,
+      3,
+      3
+    ],
+    "HpCoefficient": [
+      0.272,
+      0.272,
+      0.272,
+      0.272
+    ],
+    "PassReward_Coin": 220,
+    "RecommendedCombatPower": 3000
+  },
+  {
+    "LevelId": 4,
+    "LevelTypes": 1,
+    "Chapter": 1,
+    "LevelNum": 4,
+    "PosX": 102,
+    "PosY": 605,
+    "MonsterGroupConfigure": [
+      11,
+      12,
+      13,
+      14
+    ],
+    "MaxWave": 4,
+    "MonsterTideWave": [
+      3,
+      4
+    ],
+    "TimeInterval": [
+      0,
+      6,
+      6,
+      6
+    ],
+    "MonsterLevel": [
+      4,
+      4,
+      4,
+      4
+    ],
+    "HpCoefficient": [
+      0.36,
+      0.36,
+      0.36,
+      0.36
+    ],
+    "PassReward_Coin": 230,
+    "RecommendedCombatPower": 4000
+  },
+  {
+    "LevelId": 5,
+    "LevelTypes": 3,
+    "Chapter": 1,
+    "LevelNum": 5,
+    "PosX": -14,
+    "PosY": 733,
+    "MonsterGroupConfigure": [
+      15,
+      18,
+      20,
+      105
+    ],
+    "MaxWave": 4,
+    "MonsterTideWave": [
+      4
+    ],
+    "TimeInterval": [
+      0,
+      8,
+      10,
+      10000000000
+    ],
+    "MonsterLevel": [
+      5,
+      5,
+      5,
+      5
+    ],
+    "HpCoefficient": [
+      0.2,
+      0.2,
+      0.3,
+      1.5
+    ],
+    "PassReward_Coin": 240,
+    "RecommendedCombatPower": 5000
+  }
+]
