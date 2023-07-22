@@ -131,7 +131,7 @@ var GameManager = /** @class */ (function (_super) {
         //通关次数
         _this.pass_level_num = 0;
         /**游戏速率 */
-        _this.game_rate = 1;
+        _this.game_rate = 1.5;
         /**按钮指定速率 */
         _this.btn_setup_rate = 1;
         /**战斗指定速率 */
@@ -234,7 +234,7 @@ var GameManager = /** @class */ (function (_super) {
         this.setGameRate(1);
     };
     GameManager.prototype.setGameRate = function (rate) {
-        this.game_rate = rate * this.btn_setup_rate * this.fighting_setup_rate;
+        //this.game_rate = rate * this.btn_setup_rate * this.fighting_setup_rate;
         cc.kSpeed(this.game_rate);
     };
     GameManager.prototype.getGameRate = function () {
@@ -411,6 +411,20 @@ var GameManager = /** @class */ (function (_super) {
         }
         WallManager_1.default.getInstance().getMainWall().startNextLevel();
         WallManager_1.default.getInstance().getMainWall().initWall(mainWallData, WallConfig_1.WallType.Main);
+    };
+    GameManager.prototype.refreshMainWallDataByaddHero = function () {
+        var mainWallData = new HeroConfig_1.AttributeData();
+        this.all_hero.forEach(function (v, k) {
+            var heroData = cc.instantiate(v.hero_data);
+            mainWallData.Health += heroData.total_hp * 0.2;
+            mainWallData.Defense += heroData.total_defense * 0.2;
+            mainWallData.Miss += heroData.Miss * 0.2;
+            mainWallData.AntiCritical += heroData.AntiCritical * 0.2;
+            mainWallData.AntiExtraCritical += heroData.AntiExtraCritical * 0.2;
+            mainWallData.Attack += heroData.total_attack * 0.2;
+            mainWallData.Hit += heroData.Hit * 0.2;
+        });
+        WallManager_1.default.getInstance().getMainWall().refreshWallDataByaddHero(mainWallData);
     };
     GameManager.prototype.refreshMainWallData = function () {
         var mainWallData = new HeroConfig_1.AttributeData();
@@ -870,6 +884,13 @@ var GameManager = /** @class */ (function (_super) {
         var data = HeroManager_1.HeroManager.getInstance().getTryPlayHeroData(heroInfo);
         this.game_hero_data.set(heroId, data);
         this.game.loadHero(heroId, 4, callback);
+    };
+    GameManager.prototype.addHero = function (heroId, teamIndex, callback) {
+        if (callback === void 0) { callback = null; }
+        var data = HeroManager_1.HeroManager.getInstance().getTryPlayHeroData(HeroManager_1.HeroManager.getInstance().getHeroInfo(heroId));
+        this.game_hero_data.set(heroId, data);
+        this.game.loadHero(heroId, teamIndex, callback);
+        // this.refreshMainWallData();
     };
     /**添加一个满级满装满宠物的英雄 */
     GameManager.prototype.addTutotialsHeroFull = function (heroId, teamIndex, callback) {

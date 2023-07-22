@@ -31,6 +31,7 @@ export default class LeiShen extends Hero {
         super.addLoadByGameEffectId(GameEffectId.lei_shen_shandian_hit,4);
         super.addLoadByGameEffectId(GameEffectId.lei_shen_skill_ground,4);
         super.addLoadByGameEffectId(GameEffectId.lei_shen_skill_sky,1);
+        this.is_LoadLoad=true;
 
         this.addSkillListen(this.useSkill);
         this.addAttackListen(this.normalAttack);

@@ -38,6 +38,7 @@ export default class ZhenDe extends Hero {
         super.addLoadByGameEffectId(GameEffectId.zhen_de_active_skill_2,2);
         super.addLoadByGameEffectId(GameEffectId.zhen_de_active_skill_3,2);
         super.addLoadByGameEffectId(GameEffectId.monster_zhiliao_halo_hit,2);
+        this.is_LoadLoad=true;
         this.addSkillListen(this.useSkill);
         this.addAttackListen(this.normalAttack);
         this.addXuanYunListen(this.onXuanYunResult);

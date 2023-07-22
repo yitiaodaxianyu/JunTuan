@@ -34,27 +34,27 @@
     ],
     "TimeInterval": [
       0,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6
     ],
     "MonsterLevel": [
       1,
@@ -107,7 +107,7 @@
     "PosX": 0,
     "PosY": 569,
     "PassReward_Coin": 200,
-    "RecommendedCombatPower": 5000
+    "RecommendedCombatPower": 2000
   },
   {
     "LevelId": 2,
@@ -190,73 +190,73 @@
     ],
     "TimeInterval": [
       0,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6
     ],
     "MonsterLevel": [
       6,
@@ -405,7 +405,7 @@
   },
   {
     "LevelId": 3,
-    "LevelTypes": 1,
+    "LevelTypes": 3,
     "Chapter": 3,
     "LevelNum": 1,
     "MonsterGroupConfigure": [
@@ -416,53 +416,7 @@
       300105,
       300106,
       300107,
-      300108
-    ],
-    "MaxWave": 8,
-    "MonsterTideWave": [
-      8
-    ],
-    "TimeInterval": [
-      0,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10
-    ],
-    "MonsterLevel": [
-      16,
-      16,
-      16,
-      16,
-      16,
-      16,
-      16,
-      16
-    ],
-    "HpCoefficient": [
-      0.65,
-      0.65,
-      0.65,
-      0.65,
-      0.65,
-      0.65,
-      0.65,
-      0.65
-    ],
-    "PosX": -6,
-    "PosY": 411,
-    "PassReward_Coin": 250,
-    "RecommendedCombatPower": 6000
-  },
-  {
-    "LevelId": 4,
-    "LevelTypes": 1,
-    "Chapter": 3,
-    "LevelNum": 2,
-    "MonsterGroupConfigure": [
+      300108,
       300201,
       300202,
       300203,
@@ -470,53 +424,7 @@
       300205,
       300206,
       300207,
-      300208
-    ],
-    "MaxWave": 8,
-    "MonsterTideWave": [
-      8
-    ],
-    "TimeInterval": [
-      0,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10
-    ],
-    "MonsterLevel": [
-      17,
-      17,
-      17,
-      17,
-      17,
-      17,
-      17,
-      17
-    ],
-    "HpCoefficient": [
-      0.75,
-      0.75,
-      0.75,
-      0.75,
-      0.75,
-      0.75,
-      0.75,
-      0.75
-    ],
-    "PosX": -70,
-    "PosY": 532,
-    "PassReward_Coin": 250,
-    "RecommendedCombatPower": 6000
-  },
-  {
-    "LevelId": 5,
-    "LevelTypes": 2,
-    "Chapter": 3,
-    "LevelNum": 3,
-    "MonsterGroupConfigure": [
+      300208,
       300401,
       300402,
       300403,
@@ -526,59 +434,7 @@
       300407,
       300408,
       300409,
-      300410
-    ],
-    "MaxWave": 10,
-    "MonsterTideWave": [
-      10
-    ],
-    "TimeInterval": [
-      0,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10
-    ],
-    "MonsterLevel": [
-      18,
-      18,
-      18,
-      18,
-      18,
-      18,
-      18,
-      18,
-      18,
-      18
-    ],
-    "HpCoefficient": [
-      0.85,
-      0.85,
-      0.85,
-      0.85,
-      0.85,
-      0.85,
-      0.85,
-      0.85,
-      0.85,
-      0.85
-    ],
-    "PosX": 4,
-    "PosY": 659,
-    "PassReward_Coin": 250,
-    "RecommendedCombatPower": 6000
-  },
-  {
-    "LevelId": 6,
-    "LevelTypes": 1,
-    "Chapter": 3,
-    "LevelNum": 4,
-    "MonsterGroupConfigure": [
+      300410,
       300301,
       300302,
       300303,
@@ -586,53 +442,7 @@
       300305,
       300306,
       300307,
-      300308
-    ],
-    "MaxWave": 8,
-    "MonsterTideWave": [
-      8
-    ],
-    "TimeInterval": [
-      0,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10
-    ],
-    "MonsterLevel": [
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19
-    ],
-    "HpCoefficient": [
-      0.75,
-      0.75,
-      0.75,
-      0.75,
-      0.75,
-      0.75,
-      0.75,
-      0.75
-    ],
-    "PosX": -127,
-    "PosY": 750,
-    "PassReward_Coin": 250,
-    "RecommendedCombatPower": 6000
-  },
-  {
-    "LevelId": 7,
-    "LevelTypes": 2,
-    "Chapter": 3,
-    "LevelNum": 5,
-    "MonsterGroupConfigure": [
+      300308,
       300501,
       300502,
       300503,
@@ -642,59 +452,7 @@
       300507,
       300508,
       300509,
-      300510
-    ],
-    "MaxWave": 10,
-    "MonsterTideWave": [
-      10
-    ],
-    "TimeInterval": [
-      0,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10
-    ],
-    "MonsterLevel": [
-      20,
-      20,
-      20,
-      20,
-      20,
-      20,
-      20,
-      20,
-      20,
-      20
-    ],
-    "HpCoefficient": [
-      0.85,
-      0.85,
-      0.85,
-      0.85,
-      0.85,
-      0.85,
-      0.85,
-      0.85,
-      0.85,
-      0.85
-    ],
-    "PosX": -9,
-    "PosY": 816,
-    "PassReward_Coin": 250,
-    "RecommendedCombatPower": 6000
-  },
-  {
-    "LevelId": 8,
-    "LevelTypes": 1,
-    "Chapter": 3,
-    "LevelNum": 6,
-    "MonsterGroupConfigure": [
+      300510,
       300201,
       300202,
       300203,
@@ -702,53 +460,7 @@
       300205,
       300206,
       300207,
-      300208
-    ],
-    "MaxWave": 8,
-    "MonsterTideWave": [
-      8
-    ],
-    "TimeInterval": [
-      0,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10
-    ],
-    "MonsterLevel": [
-      21,
-      21,
-      21,
-      21,
-      21,
-      21,
-      21,
-      21
-    ],
-    "HpCoefficient": [
-      0.75,
-      0.75,
-      0.75,
-      0.75,
-      0.75,
-      0.75,
-      0.75,
-      0.75
-    ],
-    "PosX": 126,
-    "PosY": 852,
-    "PassReward_Coin": 250,
-    "RecommendedCombatPower": 6000
-  },
-  {
-    "LevelId": 9,
-    "LevelTypes": 1,
-    "Chapter": 3,
-    "LevelNum": 7,
-    "MonsterGroupConfigure": [
+      300208,
       300301,
       300302,
       300303,
@@ -756,53 +468,7 @@
       300305,
       300306,
       300307,
-      300308
-    ],
-    "MaxWave": 8,
-    "MonsterTideWave": [
-      8
-    ],
-    "TimeInterval": [
-      0,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10
-    ],
-    "MonsterLevel": [
-      22,
-      22,
-      22,
-      22,
-      22,
-      22,
-      22,
-      22
-    ],
-    "HpCoefficient": [
-      0.75,
-      0.75,
-      0.75,
-      0.75,
-      0.75,
-      0.75,
-      0.75,
-      0.75
-    ],
-    "PosX": 247,
-    "PosY": 910,
-    "PassReward_Coin": 250,
-    "RecommendedCombatPower": 6000
-  },
-  {
-    "LevelId": 10,
-    "LevelTypes": 2,
-    "Chapter": 3,
-    "LevelNum": 8,
-    "MonsterGroupConfigure": [
+      300308,
       300401,
       300402,
       300403,
@@ -812,59 +478,7 @@
       300407,
       300408,
       300409,
-      300410
-    ],
-    "MaxWave": 10,
-    "MonsterTideWave": [
-      10
-    ],
-    "TimeInterval": [
-      0,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10
-    ],
-    "MonsterLevel": [
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23
-    ],
-    "HpCoefficient": [
-      0.85,
-      0.85,
-      0.85,
-      0.85,
-      0.85,
-      0.85,
-      0.85,
-      0.85,
-      0.85,
-      0.85
-    ],
-    "PosX": 249,
-    "PosY": 1002,
-    "PassReward_Coin": 250,
-    "RecommendedCombatPower": 6000
-  },
-  {
-    "LevelId": 11,
-    "LevelTypes": 1,
-    "Chapter": 3,
-    "LevelNum": 9,
-    "MonsterGroupConfigure": [
+      300410,
       300201,
       300202,
       300203,
@@ -872,53 +486,7 @@
       300205,
       300206,
       300207,
-      300208
-    ],
-    "MaxWave": 8,
-    "MonsterTideWave": [
-      8
-    ],
-    "TimeInterval": [
-      0,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10
-    ],
-    "MonsterLevel": [
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24
-    ],
-    "HpCoefficient": [
-      0.75,
-      0.75,
-      0.75,
-      0.75,
-      0.75,
-      0.75,
-      0.75,
-      0.75
-    ],
-    "PosX": 87,
-    "PosY": 1000,
-    "PassReward_Coin": 250,
-    "RecommendedCombatPower": 6000
-  },
-  {
-    "LevelId": 12,
-    "LevelTypes": 3,
-    "Chapter": 3,
-    "LevelNum": 10,
-    "MonsterGroupConfigure": [
+      300208,
       300601,
       300602,
       300603,
@@ -928,59 +496,7 @@
       300607,
       300608,
       300609,
-      300710
-    ],
-    "MaxWave": 10,
-    "MonsterTideWave": [
-      10
-    ],
-    "TimeInterval": [
-      0,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10
-    ],
-    "MonsterLevel": [
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25
-    ],
-    "HpCoefficient": [
-      1.0,
-      1.0,
-      1.0,
-      1.0,
-      1.0,
-      1.0,
-      1.0,
-      1.0,
-      1.0,
-      1.0
-    ],
-    "PosX": -81,
-    "PosY": 990,
-    "PassReward_Coin": 250,
-    "RecommendedCombatPower": 6000
-  },
-  {
-    "LevelId": 13,
-    "LevelTypes": 1,
-    "Chapter": 3,
-    "LevelNum": 11,
-    "MonsterGroupConfigure": [
+      300710,
       300101,
       300102,
       300103,
@@ -988,53 +504,7 @@
       300105,
       300106,
       300107,
-      300108
-    ],
-    "MaxWave": 8,
-    "MonsterTideWave": [
-      8
-    ],
-    "TimeInterval": [
-      0,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10
-    ],
-    "MonsterLevel": [
-      26,
-      26,
-      26,
-      26,
-      26,
-      26,
-      26,
-      26
-    ],
-    "HpCoefficient": [
-      0.65,
-      0.65,
-      0.65,
-      0.65,
-      0.65,
-      0.65,
-      0.65,
-      0.65
-    ],
-    "PosX": -200,
-    "PosY": 1078,
-    "PassReward_Coin": 250,
-    "RecommendedCombatPower": 6000
-  },
-  {
-    "LevelId": 14,
-    "LevelTypes": 1,
-    "Chapter": 3,
-    "LevelNum": 12,
-    "MonsterGroupConfigure": [
+      300108,
       300201,
       300202,
       300203,
@@ -1042,53 +512,7 @@
       300205,
       300206,
       300207,
-      300208
-    ],
-    "MaxWave": 8,
-    "MonsterTideWave": [
-      8
-    ],
-    "TimeInterval": [
-      0,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10
-    ],
-    "MonsterLevel": [
-      27,
-      27,
-      27,
-      27,
-      27,
-      27,
-      27,
-      27
-    ],
-    "HpCoefficient": [
-      0.75,
-      0.75,
-      0.75,
-      0.75,
-      0.75,
-      0.75,
-      0.75,
-      0.75
-    ],
-    "PosX": -264,
-    "PosY": 1195,
-    "PassReward_Coin": 250,
-    "RecommendedCombatPower": 6000
-  },
-  {
-    "LevelId": 15,
-    "LevelTypes": 2,
-    "Chapter": 3,
-    "LevelNum": 13,
-    "MonsterGroupConfigure": [
+      300208,
       300401,
       300402,
       300403,
@@ -1098,59 +522,7 @@
       300407,
       300408,
       300409,
-      300410
-    ],
-    "MaxWave": 10,
-    "MonsterTideWave": [
-      10
-    ],
-    "TimeInterval": [
-      0,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10
-    ],
-    "MonsterLevel": [
-      28,
-      28,
-      28,
-      28,
-      28,
-      28,
-      28,
-      28,
-      28,
-      28
-    ],
-    "HpCoefficient": [
-      0.85,
-      0.85,
-      0.85,
-      0.85,
-      0.85,
-      0.85,
-      0.85,
-      0.85,
-      0.85,
-      0.85
-    ],
-    "PosX": -211,
-    "PosY": 1304,
-    "PassReward_Coin": 250,
-    "RecommendedCombatPower": 6000
-  },
-  {
-    "LevelId": 16,
-    "LevelTypes": 1,
-    "Chapter": 3,
-    "LevelNum": 14,
-    "MonsterGroupConfigure": [
+      300410,
       300301,
       300302,
       300303,
@@ -1158,53 +530,7 @@
       300305,
       300306,
       300307,
-      300308
-    ],
-    "MaxWave": 8,
-    "MonsterTideWave": [
-      8
-    ],
-    "TimeInterval": [
-      0,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10
-    ],
-    "MonsterLevel": [
-      29,
-      29,
-      29,
-      29,
-      29,
-      29,
-      29,
-      29
-    ],
-    "HpCoefficient": [
-      0.75,
-      0.75,
-      0.75,
-      0.75,
-      0.75,
-      0.75,
-      0.75,
-      0.75
-    ],
-    "PosX": -120,
-    "PosY": 1388,
-    "PassReward_Coin": 250,
-    "RecommendedCombatPower": 6000
-  },
-  {
-    "LevelId": 17,
-    "LevelTypes": 2,
-    "Chapter": 3,
-    "LevelNum": 15,
-    "MonsterGroupConfigure": [
+      300308,
       300501,
       300502,
       300503,
@@ -1214,59 +540,7 @@
       300507,
       300508,
       300509,
-      300510
-    ],
-    "MaxWave": 10,
-    "MonsterTideWave": [
-      10
-    ],
-    "TimeInterval": [
-      0,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10
-    ],
-    "MonsterLevel": [
-      30,
-      30,
-      30,
-      30,
-      30,
-      30,
-      30,
-      30,
-      30,
-      30
-    ],
-    "HpCoefficient": [
-      0.85,
-      0.85,
-      0.85,
-      0.85,
-      0.85,
-      0.85,
-      0.85,
-      0.85,
-      0.85,
-      0.85
-    ],
-    "PosX": 20,
-    "PosY": 1436,
-    "PassReward_Coin": 250,
-    "RecommendedCombatPower": 6000
-  },
-  {
-    "LevelId": 18,
-    "LevelTypes": 1,
-    "Chapter": 3,
-    "LevelNum": 16,
-    "MonsterGroupConfigure": [
+      300510,
       300201,
       300202,
       300203,
@@ -1274,53 +548,7 @@
       300205,
       300206,
       300207,
-      300208
-    ],
-    "MaxWave": 8,
-    "MonsterTideWave": [
-      8
-    ],
-    "TimeInterval": [
-      0,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10
-    ],
-    "MonsterLevel": [
-      31,
-      31,
-      31,
-      31,
-      31,
-      31,
-      31,
-      31
-    ],
-    "HpCoefficient": [
-      0.75,
-      0.75,
-      0.75,
-      0.75,
-      0.75,
-      0.75,
-      0.75,
-      0.75
-    ],
-    "PosX": 162,
-    "PosY": 1388,
-    "PassReward_Coin": 250,
-    "RecommendedCombatPower": 6000
-  },
-  {
-    "LevelId": 19,
-    "LevelTypes": 1,
-    "Chapter": 3,
-    "LevelNum": 17,
-    "MonsterGroupConfigure": [
+      300208,
       300301,
       300302,
       300303,
@@ -1328,53 +556,7 @@
       300305,
       300306,
       300307,
-      300308
-    ],
-    "MaxWave": 8,
-    "MonsterTideWave": [
-      8
-    ],
-    "TimeInterval": [
-      0,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10
-    ],
-    "MonsterLevel": [
-      32,
-      32,
-      32,
-      32,
-      32,
-      32,
-      32,
-      32
-    ],
-    "HpCoefficient": [
-      0.75,
-      0.75,
-      0.75,
-      0.75,
-      0.75,
-      0.75,
-      0.75,
-      0.75
-    ],
-    "PosX": 250,
-    "PosY": 1278,
-    "PassReward_Coin": 250,
-    "RecommendedCombatPower": 6000
-  },
-  {
-    "LevelId": 20,
-    "LevelTypes": 2,
-    "Chapter": 3,
-    "LevelNum": 18,
-    "MonsterGroupConfigure": [
+      300308,
       300401,
       300402,
       300403,
@@ -1384,59 +566,7 @@
       300407,
       300408,
       300409,
-      300410
-    ],
-    "MaxWave": 10,
-    "MonsterTideWave": [
-      10
-    ],
-    "TimeInterval": [
-      0,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10
-    ],
-    "MonsterLevel": [
-      33,
-      33,
-      33,
-      33,
-      33,
-      33,
-      33,
-      33,
-      33,
-      33
-    ],
-    "HpCoefficient": [
-      0.85,
-      0.85,
-      0.85,
-      0.85,
-      0.85,
-      0.85,
-      0.85,
-      0.85,
-      0.85,
-      0.85
-    ],
-    "PosX": 221,
-    "PosY": 1143,
-    "PassReward_Coin": 250,
-    "RecommendedCombatPower": 6000
-  },
-  {
-    "LevelId": 21,
-    "LevelTypes": 1,
-    "Chapter": 3,
-    "LevelNum": 19,
-    "MonsterGroupConfigure": [
+      300410,
       300201,
       300202,
       300203,
@@ -1444,53 +574,7 @@
       300205,
       300206,
       300207,
-      300208
-    ],
-    "MaxWave": 8,
-    "MonsterTideWave": [
-      8
-    ],
-    "TimeInterval": [
-      0,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10
-    ],
-    "MonsterLevel": [
-      34,
-      34,
-      34,
-      34,
-      34,
-      34,
-      34,
-      34
-    ],
-    "HpCoefficient": [
-      0.75,
-      0.75,
-      0.75,
-      0.75,
-      0.75,
-      0.75,
-      0.75,
-      0.75
-    ],
-    "PosX": 70,
-    "PosY": 1111,
-    "PassReward_Coin": 250,
-    "RecommendedCombatPower": 6000
-  },
-  {
-    "LevelId": 22,
-    "LevelTypes": 3,
-    "Chapter": 3,
-    "LevelNum": 20,
-    "MonsterGroupConfigure": [
+      300208,
       300601,
       300602,
       300603,
@@ -1502,23 +586,355 @@
       300609,
       300610
     ],
-    "MaxWave": 10,
+    "MaxWave": 176,
     "MonsterTideWave": [
-      10
+      176
     ],
     "TimeInterval": [
       0,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6
     ],
     "MonsterLevel": [
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      17,
+      17,
+      17,
+      17,
+      17,
+      17,
+      17,
+      17,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      19,
+      19,
+      19,
+      19,
+      19,
+      19,
+      19,
+      19,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      21,
+      21,
+      21,
+      21,
+      21,
+      21,
+      21,
+      21,
+      22,
+      22,
+      22,
+      22,
+      22,
+      22,
+      22,
+      22,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      25,
+      25,
+      25,
+      25,
+      25,
+      25,
+      25,
+      25,
+      25,
+      25,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      28,
+      28,
+      28,
+      28,
+      28,
+      28,
+      28,
+      28,
+      28,
+      28,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      30,
+      30,
+      30,
+      30,
+      30,
+      30,
+      30,
+      30,
+      30,
+      30,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      32,
+      33,
+      33,
+      33,
+      33,
+      33,
+      33,
+      33,
+      33,
+      33,
+      33,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
       35,
       35,
       35,
@@ -1531,6 +947,172 @@
       35
     ],
     "HpCoefficient": [
+      0.65,
+      0.65,
+      0.65,
+      0.65,
+      0.65,
+      0.65,
+      0.65,
+      0.65,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.65,
+      0.65,
+      0.65,
+      0.65,
+      0.65,
+      0.65,
+      0.65,
+      0.65,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
       1.0,
       1.0,
       1.0,
@@ -1542,13 +1124,13 @@
       1.0,
       1.0
     ],
-    "PosX": -28,
-    "PosY": 1217,
+    "PosX": -6,
+    "PosY": 411,
     "PassReward_Coin": 250,
-    "RecommendedCombatPower": 6000
+    "RecommendedCombatPower": 12000
   },
   {
-    "LevelId": 23,
+    "LevelId": 4,
     "LevelTypes": 1,
     "Chapter": 4,
     "LevelNum": 1,
@@ -1602,7 +1184,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 24,
+    "LevelId": 5,
     "LevelTypes": 1,
     "Chapter": 4,
     "LevelNum": 2,
@@ -1656,7 +1238,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 25,
+    "LevelId": 6,
     "LevelTypes": 2,
     "Chapter": 4,
     "LevelNum": 3,
@@ -1718,7 +1300,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 26,
+    "LevelId": 7,
     "LevelTypes": 1,
     "Chapter": 4,
     "LevelNum": 4,
@@ -1772,7 +1354,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 27,
+    "LevelId": 8,
     "LevelTypes": 2,
     "Chapter": 4,
     "LevelNum": 5,
@@ -1834,7 +1416,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 28,
+    "LevelId": 9,
     "LevelTypes": 1,
     "Chapter": 4,
     "LevelNum": 6,
@@ -1888,7 +1470,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 29,
+    "LevelId": 10,
     "LevelTypes": 1,
     "Chapter": 4,
     "LevelNum": 7,
@@ -1942,7 +1524,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 30,
+    "LevelId": 11,
     "LevelTypes": 2,
     "Chapter": 4,
     "LevelNum": 8,
@@ -2004,7 +1586,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 31,
+    "LevelId": 12,
     "LevelTypes": 1,
     "Chapter": 4,
     "LevelNum": 9,
@@ -2058,7 +1640,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 32,
+    "LevelId": 13,
     "LevelTypes": 3,
     "Chapter": 4,
     "LevelNum": 10,
@@ -2120,7 +1702,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 33,
+    "LevelId": 14,
     "LevelTypes": 1,
     "Chapter": 4,
     "LevelNum": 11,
@@ -2174,7 +1756,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 34,
+    "LevelId": 15,
     "LevelTypes": 1,
     "Chapter": 4,
     "LevelNum": 12,
@@ -2228,7 +1810,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 35,
+    "LevelId": 16,
     "LevelTypes": 2,
     "Chapter": 4,
     "LevelNum": 13,
@@ -2290,7 +1872,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 36,
+    "LevelId": 17,
     "LevelTypes": 1,
     "Chapter": 4,
     "LevelNum": 14,
@@ -2344,7 +1926,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 37,
+    "LevelId": 18,
     "LevelTypes": 2,
     "Chapter": 4,
     "LevelNum": 15,
@@ -2406,7 +1988,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 38,
+    "LevelId": 19,
     "LevelTypes": 1,
     "Chapter": 4,
     "LevelNum": 16,
@@ -2460,7 +2042,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 39,
+    "LevelId": 20,
     "LevelTypes": 1,
     "Chapter": 4,
     "LevelNum": 17,
@@ -2514,7 +2096,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 40,
+    "LevelId": 21,
     "LevelTypes": 2,
     "Chapter": 4,
     "LevelNum": 18,
@@ -2576,7 +2158,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 41,
+    "LevelId": 22,
     "LevelTypes": 1,
     "Chapter": 4,
     "LevelNum": 19,
@@ -2630,7 +2212,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 42,
+    "LevelId": 23,
     "LevelTypes": 3,
     "Chapter": 4,
     "LevelNum": 20,
@@ -2692,7 +2274,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 43,
+    "LevelId": 24,
     "LevelTypes": 1,
     "Chapter": 5,
     "LevelNum": 1,
@@ -2746,7 +2328,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 44,
+    "LevelId": 25,
     "LevelTypes": 1,
     "Chapter": 5,
     "LevelNum": 2,
@@ -2808,7 +2390,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 45,
+    "LevelId": 26,
     "LevelTypes": 2,
     "Chapter": 5,
     "LevelNum": 3,
@@ -2879,7 +2461,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 46,
+    "LevelId": 27,
     "LevelTypes": 1,
     "Chapter": 5,
     "LevelNum": 4,
@@ -2941,7 +2523,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 47,
+    "LevelId": 28,
     "LevelTypes": 2,
     "Chapter": 5,
     "LevelNum": 5,
@@ -3012,7 +2594,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 48,
+    "LevelId": 29,
     "LevelTypes": 1,
     "Chapter": 5,
     "LevelNum": 6,
@@ -3074,7 +2656,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 49,
+    "LevelId": 30,
     "LevelTypes": 1,
     "Chapter": 5,
     "LevelNum": 7,
@@ -3136,7 +2718,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 50,
+    "LevelId": 31,
     "LevelTypes": 2,
     "Chapter": 5,
     "LevelNum": 8,
@@ -3207,7 +2789,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 51,
+    "LevelId": 32,
     "LevelTypes": 1,
     "Chapter": 5,
     "LevelNum": 9,
@@ -3269,7 +2851,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 52,
+    "LevelId": 33,
     "LevelTypes": 3,
     "Chapter": 5,
     "LevelNum": 10,
@@ -3353,7 +2935,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 53,
+    "LevelId": 34,
     "LevelTypes": 1,
     "Chapter": 5,
     "LevelNum": 11,
@@ -3407,7 +2989,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 54,
+    "LevelId": 35,
     "LevelTypes": 1,
     "Chapter": 5,
     "LevelNum": 12,
@@ -3469,7 +3051,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 55,
+    "LevelId": 36,
     "LevelTypes": 2,
     "Chapter": 5,
     "LevelNum": 13,
@@ -3540,7 +3122,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 56,
+    "LevelId": 37,
     "LevelTypes": 1,
     "Chapter": 5,
     "LevelNum": 14,
@@ -3602,7 +3184,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 57,
+    "LevelId": 38,
     "LevelTypes": 2,
     "Chapter": 5,
     "LevelNum": 15,
@@ -3673,7 +3255,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 58,
+    "LevelId": 39,
     "LevelTypes": 1,
     "Chapter": 5,
     "LevelNum": 16,
@@ -3735,7 +3317,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 59,
+    "LevelId": 40,
     "LevelTypes": 1,
     "Chapter": 5,
     "LevelNum": 17,
@@ -3797,7 +3379,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 60,
+    "LevelId": 41,
     "LevelTypes": 2,
     "Chapter": 5,
     "LevelNum": 18,
@@ -3868,7 +3450,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 61,
+    "LevelId": 42,
     "LevelTypes": 1,
     "Chapter": 5,
     "LevelNum": 19,
@@ -3930,7 +3512,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 62,
+    "LevelId": 43,
     "LevelTypes": 3,
     "Chapter": 5,
     "LevelNum": 20,
@@ -4014,7 +3596,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 63,
+    "LevelId": 44,
     "LevelTypes": 1,
     "Chapter": 5,
     "LevelNum": 21,
@@ -4068,7 +3650,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 64,
+    "LevelId": 45,
     "LevelTypes": 1,
     "Chapter": 5,
     "LevelNum": 22,
@@ -4130,7 +3712,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 65,
+    "LevelId": 46,
     "LevelTypes": 2,
     "Chapter": 5,
     "LevelNum": 23,
@@ -4201,7 +3783,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 66,
+    "LevelId": 47,
     "LevelTypes": 1,
     "Chapter": 5,
     "LevelNum": 24,
@@ -4263,7 +3845,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 67,
+    "LevelId": 48,
     "LevelTypes": 2,
     "Chapter": 5,
     "LevelNum": 25,
@@ -4334,7 +3916,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 68,
+    "LevelId": 49,
     "LevelTypes": 1,
     "Chapter": 5,
     "LevelNum": 26,
@@ -4396,7 +3978,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 69,
+    "LevelId": 50,
     "LevelTypes": 1,
     "Chapter": 5,
     "LevelNum": 27,
@@ -4458,7 +4040,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 70,
+    "LevelId": 51,
     "LevelTypes": 2,
     "Chapter": 5,
     "LevelNum": 28,
@@ -4529,7 +4111,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 71,
+    "LevelId": 52,
     "LevelTypes": 1,
     "Chapter": 5,
     "LevelNum": 29,
@@ -4591,7 +4173,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 72,
+    "LevelId": 53,
     "LevelTypes": 3,
     "Chapter": 5,
     "LevelNum": 30,
@@ -4675,7 +4257,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 73,
+    "LevelId": 54,
     "LevelTypes": 1,
     "Chapter": 6,
     "LevelNum": 1,
@@ -4729,7 +4311,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 74,
+    "LevelId": 55,
     "LevelTypes": 1,
     "Chapter": 6,
     "LevelNum": 2,
@@ -4791,7 +4373,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 75,
+    "LevelId": 56,
     "LevelTypes": 2,
     "Chapter": 6,
     "LevelNum": 3,
@@ -4862,7 +4444,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 76,
+    "LevelId": 57,
     "LevelTypes": 1,
     "Chapter": 6,
     "LevelNum": 4,
@@ -4924,7 +4506,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 77,
+    "LevelId": 58,
     "LevelTypes": 2,
     "Chapter": 6,
     "LevelNum": 5,
@@ -4995,7 +4577,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 78,
+    "LevelId": 59,
     "LevelTypes": 1,
     "Chapter": 6,
     "LevelNum": 6,
@@ -5057,7 +4639,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 79,
+    "LevelId": 60,
     "LevelTypes": 1,
     "Chapter": 6,
     "LevelNum": 7,
@@ -5119,7 +4701,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 80,
+    "LevelId": 61,
     "LevelTypes": 2,
     "Chapter": 6,
     "LevelNum": 8,
@@ -5190,7 +4772,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 81,
+    "LevelId": 62,
     "LevelTypes": 1,
     "Chapter": 6,
     "LevelNum": 9,
@@ -5252,7 +4834,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 82,
+    "LevelId": 63,
     "LevelTypes": 3,
     "Chapter": 6,
     "LevelNum": 10,
@@ -5336,7 +4918,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 83,
+    "LevelId": 64,
     "LevelTypes": 1,
     "Chapter": 6,
     "LevelNum": 11,
@@ -5390,7 +4972,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 84,
+    "LevelId": 65,
     "LevelTypes": 1,
     "Chapter": 6,
     "LevelNum": 12,
@@ -5452,7 +5034,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 85,
+    "LevelId": 66,
     "LevelTypes": 2,
     "Chapter": 6,
     "LevelNum": 13,
@@ -5523,7 +5105,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 86,
+    "LevelId": 67,
     "LevelTypes": 1,
     "Chapter": 6,
     "LevelNum": 14,
@@ -5585,7 +5167,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 87,
+    "LevelId": 68,
     "LevelTypes": 2,
     "Chapter": 6,
     "LevelNum": 15,
@@ -5656,7 +5238,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 88,
+    "LevelId": 69,
     "LevelTypes": 1,
     "Chapter": 6,
     "LevelNum": 16,
@@ -5718,7 +5300,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 89,
+    "LevelId": 70,
     "LevelTypes": 1,
     "Chapter": 6,
     "LevelNum": 17,
@@ -5780,7 +5362,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 90,
+    "LevelId": 71,
     "LevelTypes": 2,
     "Chapter": 6,
     "LevelNum": 18,
@@ -5851,7 +5433,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 91,
+    "LevelId": 72,
     "LevelTypes": 1,
     "Chapter": 6,
     "LevelNum": 19,
@@ -5913,7 +5495,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 92,
+    "LevelId": 73,
     "LevelTypes": 3,
     "Chapter": 6,
     "LevelNum": 20,
@@ -5997,7 +5579,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 93,
+    "LevelId": 74,
     "LevelTypes": 1,
     "Chapter": 6,
     "LevelNum": 21,
@@ -6051,7 +5633,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 94,
+    "LevelId": 75,
     "LevelTypes": 1,
     "Chapter": 6,
     "LevelNum": 22,
@@ -6113,7 +5695,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 95,
+    "LevelId": 76,
     "LevelTypes": 2,
     "Chapter": 6,
     "LevelNum": 23,
@@ -6184,7 +5766,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 96,
+    "LevelId": 77,
     "LevelTypes": 1,
     "Chapter": 6,
     "LevelNum": 24,
@@ -6246,7 +5828,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 97,
+    "LevelId": 78,
     "LevelTypes": 2,
     "Chapter": 6,
     "LevelNum": 25,
@@ -6317,7 +5899,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 98,
+    "LevelId": 79,
     "LevelTypes": 1,
     "Chapter": 6,
     "LevelNum": 26,
@@ -6379,7 +5961,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 99,
+    "LevelId": 80,
     "LevelTypes": 1,
     "Chapter": 6,
     "LevelNum": 27,
@@ -6441,7 +6023,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 100,
+    "LevelId": 81,
     "LevelTypes": 2,
     "Chapter": 6,
     "LevelNum": 28,
@@ -6512,7 +6094,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 101,
+    "LevelId": 82,
     "LevelTypes": 1,
     "Chapter": 6,
     "LevelNum": 29,
@@ -6574,7 +6156,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 102,
+    "LevelId": 83,
     "LevelTypes": 3,
     "Chapter": 6,
     "LevelNum": 30,
@@ -6658,7 +6240,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 103,
+    "LevelId": 84,
     "LevelTypes": 1,
     "Chapter": 7,
     "LevelNum": 1,
@@ -6712,7 +6294,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 104,
+    "LevelId": 85,
     "LevelTypes": 1,
     "Chapter": 7,
     "LevelNum": 2,
@@ -6774,7 +6356,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 105,
+    "LevelId": 86,
     "LevelTypes": 2,
     "Chapter": 7,
     "LevelNum": 3,
@@ -6845,7 +6427,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 106,
+    "LevelId": 87,
     "LevelTypes": 1,
     "Chapter": 7,
     "LevelNum": 4,
@@ -6907,7 +6489,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 107,
+    "LevelId": 88,
     "LevelTypes": 2,
     "Chapter": 7,
     "LevelNum": 5,
@@ -6978,7 +6560,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 108,
+    "LevelId": 89,
     "LevelTypes": 1,
     "Chapter": 7,
     "LevelNum": 6,
@@ -7040,7 +6622,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 109,
+    "LevelId": 90,
     "LevelTypes": 1,
     "Chapter": 7,
     "LevelNum": 7,
@@ -7102,7 +6684,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 110,
+    "LevelId": 91,
     "LevelTypes": 2,
     "Chapter": 7,
     "LevelNum": 8,
@@ -7173,7 +6755,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 111,
+    "LevelId": 92,
     "LevelTypes": 1,
     "Chapter": 7,
     "LevelNum": 9,
@@ -7235,7 +6817,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 112,
+    "LevelId": 93,
     "LevelTypes": 3,
     "Chapter": 7,
     "LevelNum": 10,
@@ -7319,7 +6901,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 113,
+    "LevelId": 94,
     "LevelTypes": 1,
     "Chapter": 7,
     "LevelNum": 11,
@@ -7373,7 +6955,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 114,
+    "LevelId": 95,
     "LevelTypes": 1,
     "Chapter": 7,
     "LevelNum": 12,
@@ -7435,7 +7017,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 115,
+    "LevelId": 96,
     "LevelTypes": 2,
     "Chapter": 7,
     "LevelNum": 13,
@@ -7506,7 +7088,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 116,
+    "LevelId": 97,
     "LevelTypes": 1,
     "Chapter": 7,
     "LevelNum": 14,
@@ -7568,7 +7150,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 117,
+    "LevelId": 98,
     "LevelTypes": 2,
     "Chapter": 7,
     "LevelNum": 15,
@@ -7639,7 +7221,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 118,
+    "LevelId": 99,
     "LevelTypes": 1,
     "Chapter": 7,
     "LevelNum": 16,
@@ -7701,7 +7283,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 119,
+    "LevelId": 100,
     "LevelTypes": 1,
     "Chapter": 7,
     "LevelNum": 17,
@@ -7763,7 +7345,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 120,
+    "LevelId": 101,
     "LevelTypes": 2,
     "Chapter": 7,
     "LevelNum": 18,
@@ -7834,7 +7416,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 121,
+    "LevelId": 102,
     "LevelTypes": 1,
     "Chapter": 7,
     "LevelNum": 19,
@@ -7896,7 +7478,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 122,
+    "LevelId": 103,
     "LevelTypes": 3,
     "Chapter": 7,
     "LevelNum": 20,
@@ -7980,7 +7562,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 123,
+    "LevelId": 104,
     "LevelTypes": 1,
     "Chapter": 7,
     "LevelNum": 21,
@@ -8034,7 +7616,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 124,
+    "LevelId": 105,
     "LevelTypes": 1,
     "Chapter": 7,
     "LevelNum": 22,
@@ -8096,7 +7678,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 125,
+    "LevelId": 106,
     "LevelTypes": 2,
     "Chapter": 7,
     "LevelNum": 23,
@@ -8167,7 +7749,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 126,
+    "LevelId": 107,
     "LevelTypes": 1,
     "Chapter": 7,
     "LevelNum": 24,
@@ -8229,7 +7811,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 127,
+    "LevelId": 108,
     "LevelTypes": 2,
     "Chapter": 7,
     "LevelNum": 25,
@@ -8300,7 +7882,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 128,
+    "LevelId": 109,
     "LevelTypes": 1,
     "Chapter": 7,
     "LevelNum": 26,
@@ -8362,7 +7944,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 129,
+    "LevelId": 110,
     "LevelTypes": 1,
     "Chapter": 7,
     "LevelNum": 27,
@@ -8424,7 +8006,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 130,
+    "LevelId": 111,
     "LevelTypes": 2,
     "Chapter": 7,
     "LevelNum": 28,
@@ -8495,7 +8077,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 131,
+    "LevelId": 112,
     "LevelTypes": 1,
     "Chapter": 7,
     "LevelNum": 29,
@@ -8557,7 +8139,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 132,
+    "LevelId": 113,
     "LevelTypes": 3,
     "Chapter": 7,
     "LevelNum": 30,
@@ -8641,7 +8223,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 133,
+    "LevelId": 114,
     "LevelTypes": 1,
     "Chapter": 8,
     "LevelNum": 1,
@@ -8695,7 +8277,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 134,
+    "LevelId": 115,
     "LevelTypes": 1,
     "Chapter": 8,
     "LevelNum": 2,
@@ -8757,7 +8339,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 135,
+    "LevelId": 116,
     "LevelTypes": 2,
     "Chapter": 8,
     "LevelNum": 3,
@@ -8828,7 +8410,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 136,
+    "LevelId": 117,
     "LevelTypes": 1,
     "Chapter": 8,
     "LevelNum": 4,
@@ -8890,7 +8472,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 137,
+    "LevelId": 118,
     "LevelTypes": 2,
     "Chapter": 8,
     "LevelNum": 5,
@@ -8961,7 +8543,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 138,
+    "LevelId": 119,
     "LevelTypes": 1,
     "Chapter": 8,
     "LevelNum": 6,
@@ -9023,7 +8605,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 139,
+    "LevelId": 120,
     "LevelTypes": 1,
     "Chapter": 8,
     "LevelNum": 7,
@@ -9085,7 +8667,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 140,
+    "LevelId": 121,
     "LevelTypes": 2,
     "Chapter": 8,
     "LevelNum": 8,
@@ -9156,7 +8738,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 141,
+    "LevelId": 122,
     "LevelTypes": 1,
     "Chapter": 8,
     "LevelNum": 9,
@@ -9218,7 +8800,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 142,
+    "LevelId": 123,
     "LevelTypes": 3,
     "Chapter": 8,
     "LevelNum": 10,
@@ -9302,7 +8884,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 143,
+    "LevelId": 124,
     "LevelTypes": 1,
     "Chapter": 8,
     "LevelNum": 11,
@@ -9356,7 +8938,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 144,
+    "LevelId": 125,
     "LevelTypes": 1,
     "Chapter": 8,
     "LevelNum": 12,
@@ -9418,7 +9000,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 145,
+    "LevelId": 126,
     "LevelTypes": 2,
     "Chapter": 8,
     "LevelNum": 13,
@@ -9489,7 +9071,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 146,
+    "LevelId": 127,
     "LevelTypes": 1,
     "Chapter": 8,
     "LevelNum": 14,
@@ -9551,7 +9133,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 147,
+    "LevelId": 128,
     "LevelTypes": 2,
     "Chapter": 8,
     "LevelNum": 15,
@@ -9622,7 +9204,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 148,
+    "LevelId": 129,
     "LevelTypes": 1,
     "Chapter": 8,
     "LevelNum": 16,
@@ -9684,7 +9266,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 149,
+    "LevelId": 130,
     "LevelTypes": 1,
     "Chapter": 8,
     "LevelNum": 17,
@@ -9746,7 +9328,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 150,
+    "LevelId": 131,
     "LevelTypes": 2,
     "Chapter": 8,
     "LevelNum": 18,
@@ -9817,7 +9399,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 151,
+    "LevelId": 132,
     "LevelTypes": 1,
     "Chapter": 8,
     "LevelNum": 19,
@@ -9879,7 +9461,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 152,
+    "LevelId": 133,
     "LevelTypes": 3,
     "Chapter": 8,
     "LevelNum": 20,
@@ -9963,7 +9545,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 153,
+    "LevelId": 134,
     "LevelTypes": 1,
     "Chapter": 8,
     "LevelNum": 21,
@@ -10017,7 +9599,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 154,
+    "LevelId": 135,
     "LevelTypes": 1,
     "Chapter": 8,
     "LevelNum": 22,
@@ -10079,7 +9661,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 155,
+    "LevelId": 136,
     "LevelTypes": 2,
     "Chapter": 8,
     "LevelNum": 23,
@@ -10150,7 +9732,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 156,
+    "LevelId": 137,
     "LevelTypes": 1,
     "Chapter": 8,
     "LevelNum": 24,
@@ -10212,7 +9794,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 157,
+    "LevelId": 138,
     "LevelTypes": 2,
     "Chapter": 8,
     "LevelNum": 25,
@@ -10283,7 +9865,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 158,
+    "LevelId": 139,
     "LevelTypes": 1,
     "Chapter": 8,
     "LevelNum": 26,
@@ -10345,7 +9927,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 159,
+    "LevelId": 140,
     "LevelTypes": 1,
     "Chapter": 8,
     "LevelNum": 27,
@@ -10407,7 +9989,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 160,
+    "LevelId": 141,
     "LevelTypes": 2,
     "Chapter": 8,
     "LevelNum": 28,
@@ -10478,7 +10060,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 161,
+    "LevelId": 142,
     "LevelTypes": 1,
     "Chapter": 8,
     "LevelNum": 29,
@@ -10540,7 +10122,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 162,
+    "LevelId": 143,
     "LevelTypes": 3,
     "Chapter": 8,
     "LevelNum": 30,
@@ -10624,7 +10206,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 163,
+    "LevelId": 144,
     "LevelTypes": 1,
     "Chapter": 9,
     "LevelNum": 1,
@@ -10678,7 +10260,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 164,
+    "LevelId": 145,
     "LevelTypes": 1,
     "Chapter": 9,
     "LevelNum": 2,
@@ -10740,7 +10322,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 165,
+    "LevelId": 146,
     "LevelTypes": 2,
     "Chapter": 9,
     "LevelNum": 3,
@@ -10811,7 +10393,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 166,
+    "LevelId": 147,
     "LevelTypes": 1,
     "Chapter": 9,
     "LevelNum": 4,
@@ -10873,7 +10455,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 167,
+    "LevelId": 148,
     "LevelTypes": 2,
     "Chapter": 9,
     "LevelNum": 5,
@@ -10944,7 +10526,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 168,
+    "LevelId": 149,
     "LevelTypes": 1,
     "Chapter": 9,
     "LevelNum": 6,
@@ -11006,7 +10588,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 169,
+    "LevelId": 150,
     "LevelTypes": 1,
     "Chapter": 9,
     "LevelNum": 7,
@@ -11068,7 +10650,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 170,
+    "LevelId": 151,
     "LevelTypes": 2,
     "Chapter": 9,
     "LevelNum": 8,
@@ -11139,7 +10721,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 171,
+    "LevelId": 152,
     "LevelTypes": 1,
     "Chapter": 9,
     "LevelNum": 9,
@@ -11201,7 +10783,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 172,
+    "LevelId": 153,
     "LevelTypes": 3,
     "Chapter": 9,
     "LevelNum": 10,
@@ -11285,7 +10867,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 173,
+    "LevelId": 154,
     "LevelTypes": 1,
     "Chapter": 9,
     "LevelNum": 11,
@@ -11339,7 +10921,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 174,
+    "LevelId": 155,
     "LevelTypes": 1,
     "Chapter": 9,
     "LevelNum": 12,
@@ -11401,7 +10983,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 175,
+    "LevelId": 156,
     "LevelTypes": 2,
     "Chapter": 9,
     "LevelNum": 13,
@@ -11472,7 +11054,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 176,
+    "LevelId": 157,
     "LevelTypes": 1,
     "Chapter": 9,
     "LevelNum": 14,
@@ -11534,7 +11116,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 177,
+    "LevelId": 158,
     "LevelTypes": 2,
     "Chapter": 9,
     "LevelNum": 15,
@@ -11605,7 +11187,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 178,
+    "LevelId": 159,
     "LevelTypes": 1,
     "Chapter": 9,
     "LevelNum": 16,
@@ -11667,7 +11249,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 179,
+    "LevelId": 160,
     "LevelTypes": 1,
     "Chapter": 9,
     "LevelNum": 17,
@@ -11729,7 +11311,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 180,
+    "LevelId": 161,
     "LevelTypes": 2,
     "Chapter": 9,
     "LevelNum": 18,
@@ -11800,7 +11382,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 181,
+    "LevelId": 162,
     "LevelTypes": 1,
     "Chapter": 9,
     "LevelNum": 19,
@@ -11862,7 +11444,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 182,
+    "LevelId": 163,
     "LevelTypes": 3,
     "Chapter": 9,
     "LevelNum": 20,
@@ -11946,7 +11528,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 183,
+    "LevelId": 164,
     "LevelTypes": 1,
     "Chapter": 9,
     "LevelNum": 21,
@@ -12000,7 +11582,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 184,
+    "LevelId": 165,
     "LevelTypes": 1,
     "Chapter": 9,
     "LevelNum": 22,
@@ -12062,7 +11644,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 185,
+    "LevelId": 166,
     "LevelTypes": 2,
     "Chapter": 9,
     "LevelNum": 23,
@@ -12133,7 +11715,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 186,
+    "LevelId": 167,
     "LevelTypes": 1,
     "Chapter": 9,
     "LevelNum": 24,
@@ -12195,7 +11777,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 187,
+    "LevelId": 168,
     "LevelTypes": 2,
     "Chapter": 9,
     "LevelNum": 25,
@@ -12266,7 +11848,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 188,
+    "LevelId": 169,
     "LevelTypes": 1,
     "Chapter": 9,
     "LevelNum": 26,
@@ -12328,7 +11910,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 189,
+    "LevelId": 170,
     "LevelTypes": 1,
     "Chapter": 9,
     "LevelNum": 27,
@@ -12390,7 +11972,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 190,
+    "LevelId": 171,
     "LevelTypes": 2,
     "Chapter": 9,
     "LevelNum": 28,
@@ -12461,7 +12043,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 191,
+    "LevelId": 172,
     "LevelTypes": 1,
     "Chapter": 9,
     "LevelNum": 29,
@@ -12523,7 +12105,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 192,
+    "LevelId": 173,
     "LevelTypes": 3,
     "Chapter": 9,
     "LevelNum": 30,
@@ -12607,7 +12189,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 193,
+    "LevelId": 174,
     "LevelTypes": 1,
     "Chapter": 9,
     "LevelNum": 31,
@@ -12661,7 +12243,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 194,
+    "LevelId": 175,
     "LevelTypes": 1,
     "Chapter": 9,
     "LevelNum": 32,
@@ -12723,7 +12305,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 195,
+    "LevelId": 176,
     "LevelTypes": 2,
     "Chapter": 9,
     "LevelNum": 33,
@@ -12794,7 +12376,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 196,
+    "LevelId": 177,
     "LevelTypes": 1,
     "Chapter": 9,
     "LevelNum": 34,
@@ -12856,7 +12438,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 197,
+    "LevelId": 178,
     "LevelTypes": 2,
     "Chapter": 9,
     "LevelNum": 35,
@@ -12927,7 +12509,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 198,
+    "LevelId": 179,
     "LevelTypes": 1,
     "Chapter": 9,
     "LevelNum": 36,
@@ -12989,7 +12571,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 199,
+    "LevelId": 180,
     "LevelTypes": 1,
     "Chapter": 9,
     "LevelNum": 37,
@@ -13051,7 +12633,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 200,
+    "LevelId": 181,
     "LevelTypes": 2,
     "Chapter": 9,
     "LevelNum": 38,
@@ -13122,7 +12704,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 201,
+    "LevelId": 182,
     "LevelTypes": 1,
     "Chapter": 9,
     "LevelNum": 39,
@@ -13184,7 +12766,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 202,
+    "LevelId": 183,
     "LevelTypes": 3,
     "Chapter": 9,
     "LevelNum": 40,
@@ -13268,7 +12850,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 203,
+    "LevelId": 184,
     "LevelTypes": 1,
     "Chapter": 10,
     "LevelNum": 1,
@@ -13322,7 +12904,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 204,
+    "LevelId": 185,
     "LevelTypes": 1,
     "Chapter": 10,
     "LevelNum": 2,
@@ -13384,7 +12966,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 205,
+    "LevelId": 186,
     "LevelTypes": 2,
     "Chapter": 10,
     "LevelNum": 3,
@@ -13455,7 +13037,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 206,
+    "LevelId": 187,
     "LevelTypes": 1,
     "Chapter": 10,
     "LevelNum": 4,
@@ -13517,7 +13099,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 207,
+    "LevelId": 188,
     "LevelTypes": 2,
     "Chapter": 10,
     "LevelNum": 5,
@@ -13588,7 +13170,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 208,
+    "LevelId": 189,
     "LevelTypes": 1,
     "Chapter": 10,
     "LevelNum": 6,
@@ -13650,7 +13232,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 209,
+    "LevelId": 190,
     "LevelTypes": 1,
     "Chapter": 10,
     "LevelNum": 7,
@@ -13712,7 +13294,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 210,
+    "LevelId": 191,
     "LevelTypes": 2,
     "Chapter": 10,
     "LevelNum": 8,
@@ -13783,7 +13365,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 211,
+    "LevelId": 192,
     "LevelTypes": 1,
     "Chapter": 10,
     "LevelNum": 9,
@@ -13845,7 +13427,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 212,
+    "LevelId": 193,
     "LevelTypes": 3,
     "Chapter": 10,
     "LevelNum": 10,
@@ -13929,7 +13511,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 213,
+    "LevelId": 194,
     "LevelTypes": 1,
     "Chapter": 10,
     "LevelNum": 11,
@@ -13983,7 +13565,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 214,
+    "LevelId": 195,
     "LevelTypes": 1,
     "Chapter": 10,
     "LevelNum": 12,
@@ -14045,7 +13627,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 215,
+    "LevelId": 196,
     "LevelTypes": 2,
     "Chapter": 10,
     "LevelNum": 13,
@@ -14116,7 +13698,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 216,
+    "LevelId": 197,
     "LevelTypes": 1,
     "Chapter": 10,
     "LevelNum": 14,
@@ -14178,7 +13760,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 217,
+    "LevelId": 198,
     "LevelTypes": 2,
     "Chapter": 10,
     "LevelNum": 15,
@@ -14249,7 +13831,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 218,
+    "LevelId": 199,
     "LevelTypes": 1,
     "Chapter": 10,
     "LevelNum": 16,
@@ -14311,7 +13893,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 219,
+    "LevelId": 200,
     "LevelTypes": 1,
     "Chapter": 10,
     "LevelNum": 17,
@@ -14373,7 +13955,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 220,
+    "LevelId": 201,
     "LevelTypes": 2,
     "Chapter": 10,
     "LevelNum": 18,
@@ -14444,7 +14026,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 221,
+    "LevelId": 202,
     "LevelTypes": 1,
     "Chapter": 10,
     "LevelNum": 19,
@@ -14506,7 +14088,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 222,
+    "LevelId": 203,
     "LevelTypes": 3,
     "Chapter": 10,
     "LevelNum": 20,
@@ -14590,7 +14172,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 223,
+    "LevelId": 204,
     "LevelTypes": 1,
     "Chapter": 10,
     "LevelNum": 21,
@@ -14644,7 +14226,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 224,
+    "LevelId": 205,
     "LevelTypes": 1,
     "Chapter": 10,
     "LevelNum": 22,
@@ -14706,7 +14288,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 225,
+    "LevelId": 206,
     "LevelTypes": 2,
     "Chapter": 10,
     "LevelNum": 23,
@@ -14777,7 +14359,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 226,
+    "LevelId": 207,
     "LevelTypes": 1,
     "Chapter": 10,
     "LevelNum": 24,
@@ -14839,7 +14421,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 227,
+    "LevelId": 208,
     "LevelTypes": 2,
     "Chapter": 10,
     "LevelNum": 25,
@@ -14910,7 +14492,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 228,
+    "LevelId": 209,
     "LevelTypes": 1,
     "Chapter": 10,
     "LevelNum": 26,
@@ -14972,7 +14554,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 229,
+    "LevelId": 210,
     "LevelTypes": 1,
     "Chapter": 10,
     "LevelNum": 27,
@@ -15034,7 +14616,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 230,
+    "LevelId": 211,
     "LevelTypes": 2,
     "Chapter": 10,
     "LevelNum": 28,
@@ -15105,7 +14687,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 231,
+    "LevelId": 212,
     "LevelTypes": 1,
     "Chapter": 10,
     "LevelNum": 29,
@@ -15167,7 +14749,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 232,
+    "LevelId": 213,
     "LevelTypes": 3,
     "Chapter": 10,
     "LevelNum": 30,
@@ -15251,7 +14833,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 233,
+    "LevelId": 214,
     "LevelTypes": 1,
     "Chapter": 10,
     "LevelNum": 31,
@@ -15305,7 +14887,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 234,
+    "LevelId": 215,
     "LevelTypes": 1,
     "Chapter": 10,
     "LevelNum": 32,
@@ -15367,7 +14949,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 235,
+    "LevelId": 216,
     "LevelTypes": 2,
     "Chapter": 10,
     "LevelNum": 33,
@@ -15438,7 +15020,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 236,
+    "LevelId": 217,
     "LevelTypes": 1,
     "Chapter": 10,
     "LevelNum": 34,
@@ -15500,7 +15082,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 237,
+    "LevelId": 218,
     "LevelTypes": 2,
     "Chapter": 10,
     "LevelNum": 35,
@@ -15571,7 +15153,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 238,
+    "LevelId": 219,
     "LevelTypes": 1,
     "Chapter": 10,
     "LevelNum": 36,
@@ -15633,7 +15215,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 239,
+    "LevelId": 220,
     "LevelTypes": 1,
     "Chapter": 10,
     "LevelNum": 37,
@@ -15695,7 +15277,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 240,
+    "LevelId": 221,
     "LevelTypes": 2,
     "Chapter": 10,
     "LevelNum": 38,
@@ -15766,7 +15348,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 241,
+    "LevelId": 222,
     "LevelTypes": 1,
     "Chapter": 10,
     "LevelNum": 39,
@@ -15828,7 +15410,7 @@
     "RecommendedCombatPower": 6000
   },
   {
-    "LevelId": 242,
+    "LevelId": 223,
     "LevelTypes": 3,
     "Chapter": 10,
     "LevelNum": 40,

@@ -41,6 +41,7 @@ export default class PaoShou extends Hero {
         super.addLoadByGameEffectId(GameEffectId.paoshou_dazhao_weiyan,6);
         super.addLoadByGameEffectId(GameEffectId.paoshou_dazhao_weiyan_end,1);
         super.addLoadByGameEffectId(GameEffectId.paoshou_dazhao_xinhaodan_miaozhun,1);
+        this.is_LoadLoad=true;
         this.addSkillListen(this.useSkill);
         this.addAttackListen(this.normalAttack);
         this.addXuanYunListen(this.onXuanYunResult);        

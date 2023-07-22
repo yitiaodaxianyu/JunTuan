@@ -53,6 +53,7 @@ var NvWu = /** @class */ (function (_super) {
         _super.prototype.addLoadByGameEffectId.call(this, GameEffectsManager_1.GameEffectId.nvwu_attack_bullect, 2);
         _super.prototype.addLoadByGameEffectId.call(this, GameEffectsManager_1.GameEffectId.nvwu_attack_bullect_hit, 2);
         _super.prototype.addLoadByGameEffectId.call(this, GameEffectsManager_1.GameEffectId.nvwu_active_skill, 1);
+        this.is_LoadLoad = true;
         this.addSkillListen(this.useSkill);
         this.addAttackListen(this.normalAttack);
         this.addXuanYunListen(this.onXuanYunResult);

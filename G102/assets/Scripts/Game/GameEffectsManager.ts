@@ -445,6 +445,8 @@ export class GameEffectsManager extends MapNodePool  {
      * @param initCount 初始化的数量
      */
     addEffectPoolById(id:GameEffectId,initCount:number=4,loadCallback?:Function):boolean{
+        
+        
         let path:string="effects/game/"+id;
         return super.addNodePool(id,path,initCount,loadCallback);
     }

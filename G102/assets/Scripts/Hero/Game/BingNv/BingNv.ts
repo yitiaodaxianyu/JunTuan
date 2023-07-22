@@ -37,6 +37,7 @@ export default class BingNv extends Hero {
         super.addLoadByGameEffectId(GameEffectId.bing_nv_beidong_skill_hit,4);
         super.addLoadByGameEffectId(GameEffectId.xuanyun,4);
         super.addLoadByGameEffectId(GameEffectId.bing_nv_active_skill_wall,1);
+        this.is_LoadLoad=true;
         this.addSkillListen(this.useSkill);
         this.addAttackListen(this.normalAttack);
         this.addXuanYunListen(this.onXuanYunResult);

@@ -538,9 +538,10 @@ var HeroManager = /** @class */ (function () {
         var teamStr = cc.sys.localStorage.getItem('team_list_' + type);
         if (teamStr === "" || teamStr === null) {
             if (type == Constants_1.GameMode.Main) {
-                team[1] = (HeroConfig_1.Hero_Type.DeLuYi);
+                // team[1]=(Hero_Type.DeLuYi);
+                // team[2]=(Hero_Type.ShouWang);
+                // team[3]=(Hero_Type.PaoShou);
                 team[2] = (HeroConfig_1.Hero_Type.ShouWang);
-                team[3] = (HeroConfig_1.Hero_Type.PaoShou);
                 this.saveTeamList(type, team);
             }
             else {

@@ -54,6 +54,7 @@ var LeiShen = /** @class */ (function (_super) {
         _super.prototype.addLoadByGameEffectId.call(this, GameEffectsManager_1.GameEffectId.lei_shen_shandian_hit, 4);
         _super.prototype.addLoadByGameEffectId.call(this, GameEffectsManager_1.GameEffectId.lei_shen_skill_ground, 4);
         _super.prototype.addLoadByGameEffectId.call(this, GameEffectsManager_1.GameEffectId.lei_shen_skill_sky, 1);
+        this.is_LoadLoad = true;
         this.addSkillListen(this.useSkill);
         this.addAttackListen(this.normalAttack);
         this.addXuanYunListen(this.onXuanYunResult);

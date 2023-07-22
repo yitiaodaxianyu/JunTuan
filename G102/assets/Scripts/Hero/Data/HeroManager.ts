@@ -548,9 +548,10 @@ export class HeroManager {
         if(teamStr==="" || teamStr===null)
         {
             if(type==GameMode.Main){
-                team[1]=(Hero_Type.DeLuYi);
+                // team[1]=(Hero_Type.DeLuYi);
+                // team[2]=(Hero_Type.ShouWang);
+                // team[3]=(Hero_Type.PaoShou);
                 team[2]=(Hero_Type.ShouWang);
-                team[3]=(Hero_Type.PaoShou);
                 this.saveTeamList(type,team);                
             }else{
                 team=this.getTeamList(GameMode.Main);

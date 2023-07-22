@@ -31,12 +31,14 @@ export default class MapNodePool extends cc.Component {
         }
 
         this.preload_id.push(id);
+      
         cc.resources.load(path,cc.Prefab,(error: Error, assets:cc.Prefab)=> {
             if(error){
                 console.log(error);
                 return;
             }
             this.map_prefabs.set(id,assets);
+         
             let pool=new cc.NodePool();// 创建对象池
             //初始先放置多少个对象到对象池
             for(let i=0; i<initCount; ++i){

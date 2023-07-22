@@ -96,7 +96,7 @@ export default class Game extends cc.Component {
     //当前背景使用的名称
     cur_bg_name: string = 'bg2';
 
-    private bgSpeed: number = 50;
+    private bgSpeed: number = 60;
 
     //战斗药水
     @property(cc.Node)
@@ -139,6 +139,7 @@ export default class Game extends cc.Component {
         this.setTryAutoLabel();
         this.setTryRateLabel();
         GameManager.getInstance().setGameRate(1);
+        
         // instance.on(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
     }
     protected onDestroy(): void {
@@ -301,11 +302,11 @@ export default class Game extends cc.Component {
             }
             let node = cc.instantiate(assets);
             node.parent = cc.find('Canvas/Hero_Root');
-            node.x = posX;
+            node.x = (GameManager.getInstance().aniType - 4) * 75 + posX;
             let hp = cc.find('Canvas/Ui_Root/hp_root');
             node.y = hp.y + posY + 150 + 300;
             node.getComponent(Hero).targetX = node.x;
-            node.getComponent(Hero).posX = node.x;
+            node.getComponent(Hero).posX = posX;
             node.getComponent(Hero).posIndex = posIndex;
             node.setSiblingIndex(this.indexData[posIndex]);
             BuffStateManager.getInstance().createBuffRoot(cc.v2(posX, node.y + 150), heroType);

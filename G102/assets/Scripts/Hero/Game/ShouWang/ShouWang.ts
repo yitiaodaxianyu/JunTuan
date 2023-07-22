@@ -36,6 +36,7 @@ export default class ShouWang extends Hero {
         super.addLoadByGameEffectId(GameEffectId.sheshou_jianshi_att_hit,8);
         super.addLoadByGameEffectId(GameEffectId.shou_wang_jianshi_skill1_hit,8);
         super.addLoadByGameEffectId(GameEffectId.xuanyun,8);
+        this.is_LoadLoad=true;
         this.addSkillListen(this.useSkill);
         this.addAttackListen(this.normalAttack);
         this.addXuanYunListen(this.onXuanYunResult);

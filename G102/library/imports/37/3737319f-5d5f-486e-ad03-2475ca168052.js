@@ -104,7 +104,7 @@ var Game = /** @class */ (function (_super) {
         _this.endless_ts = null;
         //当前背景使用的名称
         _this.cur_bg_name = 'bg2';
-        _this.bgSpeed = 50;
+        _this.bgSpeed = 60;
         //战斗药水
         _this.battlepotion = []; //红色   绿色   蓝色
         _this.battlepotionPropId = [PropConfig_1.PropId.RedPotion, PropConfig_1.PropId.GreenPotion, PropConfig_1.PropId.BluePotion]; //战斗药水的道具id
@@ -303,11 +303,11 @@ var Game = /** @class */ (function (_super) {
             }
             var node = cc.instantiate(assets);
             node.parent = cc.find('Canvas/Hero_Root');
-            node.x = posX;
+            node.x = (GameManager_1.default.getInstance().aniType - 4) * 75 + posX;
             var hp = cc.find('Canvas/Ui_Root/hp_root');
             node.y = hp.y + posY + 150 + 300;
             node.getComponent(Hero_1.default).targetX = node.x;
-            node.getComponent(Hero_1.default).posX = node.x;
+            node.getComponent(Hero_1.default).posX = posX;
             node.getComponent(Hero_1.default).posIndex = posIndex;
             node.setSiblingIndex(_this.indexData[posIndex]);
             BuffStateManager_1.default.getInstance().createBuffRoot(cc.v2(posX, node.y + 150), heroType);

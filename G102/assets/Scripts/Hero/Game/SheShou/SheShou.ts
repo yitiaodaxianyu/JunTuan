@@ -35,7 +35,8 @@ export default class SheShou extends Hero {
         super.addLoadByGameEffectId(GameEffectId.sheshou_attack_ctrl_hit,2);
         super.addLoadByGameEffectId(GameEffectId.sheshou_jianshi_super_skill_1,16);
         super.addLoadByGameEffectId(GameEffectId.sheshou_jianshi_super_skill_2,16);
-        super.addLoadByGameEffectId(GameEffectId.sheshou_jianshi_super_skill_3,16);  
+        super.addLoadByGameEffectId(GameEffectId.sheshou_jianshi_super_skill_3,16); 
+        this.is_LoadLoad=true; 
         this.addSkillListen(this.useSkill);
         this.addAttackListen(this.normalAttack);
         this.addXuanYunListen(this.onXuanYunResult);

@@ -43,6 +43,8 @@ export default class Hero extends cc.Component {
     cur_load_num: number = 0;
     need_load_num: number = 0;
 
+    is_LoadLoad:boolean=false;//异步加载资源锁
+
     @property({ type: cc.Enum(Hero_Type) })
     hero_type: Hero_Type = Hero_Type.ChangMaoShou;
 
@@ -151,6 +153,7 @@ export default class Hero extends cc.Component {
     //----------------------------------------------LOAD---------------------------------------------
     protected onLoad() {
         GameManager.getInstance().all_hero.set(this.hero_type, this);
+   
         this.spine = this.node.getComponent(sp.Skeleton);
         //this.setSkin();
         this.touchListen();
@@ -177,6 +180,7 @@ export default class Hero extends cc.Component {
     protected start() {
         //加载数据
         this.hero_data = GameManager.getInstance().game_hero_data.get(this.hero_type);
+        GameManager.getInstance().refreshMainWallDataByaddHero()
         this.bullet_speed = HeroBaseInfoManager.getInstance().getBaseBulletSpeed(this.hero_type);
         this.gongji_jishu = this.hero_data.gongji_jiange;
         this.gongji_sudu = this.getAttackSpeed();
@@ -353,9 +357,13 @@ export default class Hero extends cc.Component {
     }
 
     addLoadByGameEffectId(id: GameEffectId, initCount: number) {
+        
+        this.need_load_num++;
+       
         if (GameEffectsManager.getInstance().addEffectPoolById(id, initCount, () => {
             this.cur_load_num++;
-            if (this.cur_load_num >= this.need_load_num) {
+         
+            if (this.cur_load_num >= this.need_load_num&&this.is_LoadLoad==true) {
                 if (this.is_load_ok == false) {
                     this.is_load_ok = true;
                     Hero.cur_loaded_num++;
@@ -365,7 +373,8 @@ export default class Hero extends cc.Component {
                 }
             }
         }) == true) {
-            this.need_load_num++;
+           
+         
         }
     }
 

@@ -63,6 +63,7 @@ var PaoShou = /** @class */ (function (_super) {
         _super.prototype.addLoadByGameEffectId.call(this, GameEffectsManager_1.GameEffectId.paoshou_dazhao_weiyan, 6);
         _super.prototype.addLoadByGameEffectId.call(this, GameEffectsManager_1.GameEffectId.paoshou_dazhao_weiyan_end, 1);
         _super.prototype.addLoadByGameEffectId.call(this, GameEffectsManager_1.GameEffectId.paoshou_dazhao_xinhaodan_miaozhun, 1);
+        this.is_LoadLoad = true;
         this.addSkillListen(this.useSkill);
         this.addAttackListen(this.normalAttack);
         this.addXuanYunListen(this.onXuanYunResult);

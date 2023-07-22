@@ -127,7 +127,7 @@ export default class GameManager extends cc.Component {
     //通关次数
     pass_level_num: number = 0;
     /**游戏速率 */
-    private game_rate: number = 1;
+    private game_rate: number = 1.5;
     /**按钮指定速率 */
     private btn_setup_rate: number = 1;
     /**战斗指定速率 */
@@ -228,7 +228,7 @@ export default class GameManager extends cc.Component {
     }
 
     setGameRate(rate: number) {
-        this.game_rate = rate * this.btn_setup_rate * this.fighting_setup_rate;
+        //this.game_rate = rate * this.btn_setup_rate * this.fighting_setup_rate;
         cc.kSpeed(this.game_rate);
     }
 
@@ -413,7 +413,20 @@ export default class GameManager extends cc.Component {
         WallManager.getInstance().getMainWall().startNextLevel();
         WallManager.getInstance().getMainWall().initWall(mainWallData, WallType.Main);
     }
-
+    refreshMainWallDataByaddHero() {
+        let mainWallData = new AttributeData();
+        this.all_hero.forEach((v, k) => {
+            let heroData = cc.instantiate(v.hero_data);
+            mainWallData.Health += heroData.total_hp * 0.2;
+            mainWallData.Defense += heroData.total_defense * 0.2;
+            mainWallData.Miss += heroData.Miss * 0.2;
+            mainWallData.AntiCritical += heroData.AntiCritical * 0.2;
+            mainWallData.AntiExtraCritical += heroData.AntiExtraCritical * 0.2;
+            mainWallData.Attack += heroData.total_attack * 0.2;
+            mainWallData.Hit += heroData.Hit * 0.2;
+        })
+        WallManager.getInstance().getMainWall().refreshWallDataByaddHero(mainWallData);
+    }
     refreshMainWallData() {
         let mainWallData = new AttributeData();
         this.all_hero.forEach((v, k) => {
@@ -860,6 +873,14 @@ export default class GameManager extends cc.Component {
         let data = HeroManager.getInstance().getTryPlayHeroData(heroInfo)
         this.game_hero_data.set(heroId, data);
         this.game.loadHero(heroId, 4, callback);
+    }
+    public addHero(heroId: Hero_Type, teamIndex: number, callback: Function=null):void{
+        
+        let data = HeroManager.getInstance().getTryPlayHeroData(HeroManager.getInstance().getHeroInfo(heroId));
+        this.game_hero_data.set(heroId, data);
+        this.game.loadHero(heroId, teamIndex, callback);
+
+        // this.refreshMainWallData();
     }
     /**添加一个满级满装满宠物的英雄 */
     addTutotialsHeroFull(heroId: Hero_Type, teamIndex: number, callback: Function): HeroData {

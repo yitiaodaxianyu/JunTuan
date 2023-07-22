@@ -61,6 +61,7 @@ var ANuBiSi = /** @class */ (function (_super) {
         _super.prototype.addLoadByGameEffectId.call(this, GameEffectsManager_1.GameEffectId.a_nu_bi_si_active_skill_wind, 1);
         _super.prototype.addLoadByGameEffectId.call(this, GameEffectsManager_1.GameEffectId.a_nu_bi_si_active_skill_line, 4);
         _super.prototype.addLoadByGameEffectId.call(this, GameEffectsManager_1.GameEffectId.a_nu_bi_si_active_skill_ring, 2);
+        this.is_LoadLoad = true;
         this.addSkillListen(this.useSkill);
         this.addAttackListen(this.normalAttack);
         this.addXuanYunListen(this.onXuanYunResult);

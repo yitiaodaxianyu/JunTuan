@@ -32,7 +32,8 @@ export default class KuangZhanShi extends Hero {
         super.addLoadByGameEffectId(GameEffectId.kuangzhanshi_attack,2);
         super.addLoadByGameEffectId(GameEffectId.kuangzhanshi_attack_chuantou,4);
         super.addLoadByGameEffectId(GameEffectId.kuangzhanshi_attack_hit,2);
-        super.addLoadByGameEffectId(GameEffectId.kuangzhanshi_attack_max,2);        
+        super.addLoadByGameEffectId(GameEffectId.kuangzhanshi_attack_max,2);
+        this.is_LoadLoad=true;        
         this.addSkillListen(this.useSkill);
         this.addAttackListen(this.normalAttack);
         this.addXuanYunListen(this.onXuanYunResult);

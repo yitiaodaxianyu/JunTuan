@@ -56,6 +56,7 @@ var WuNv = /** @class */ (function (_super) {
         _super.prototype.addLoadByGameEffectId.call(this, GameEffectsManager_1.GameEffectId.deluyi_active_skill, 4);
         _super.prototype.addLoadByGameEffectId.call(this, GameEffectsManager_1.GameEffectId.deluyi_skill_beidong_create, 1);
         _super.prototype.addLoadByGameEffectId.call(this, GameEffectsManager_1.GameEffectId.xuanyun, 4);
+        this.is_LoadLoad = true;
         //super.addLoadByGameEffectId(GameEffectId.monster_zhongdu,4);
         this.addSkillListen(this.useSkill);
         this.addAttackListen(this.normalAttack);

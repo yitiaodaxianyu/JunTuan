@@ -95,7 +95,15 @@ export default class Wall extends cc.Component {
         this.max_hp=attributeData.Health=Math.round(attributeData.Health);
         this.showHp();
     }
-
+    refreshWallDataByaddHero(attributeData:AttributeData){
+        this.attribute_data=attributeData;
+        let der_hp:number=this.max_hp-this.cur_hp;
+        console.log("差值血量");
+        
+        this.max_hp=attributeData.Health=Math.round(attributeData.Health);
+        this.cur_hp=this.max_hp-der_hp;
+        this.showHp();
+    }
     getAttributeData():AttributeData{
         return this.attribute_data;
     }

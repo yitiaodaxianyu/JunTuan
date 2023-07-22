@@ -61,6 +61,7 @@ var ZhenDe = /** @class */ (function (_super) {
         _super.prototype.addLoadByGameEffectId.call(this, GameEffectsManager_1.GameEffectId.zhen_de_active_skill_2, 2);
         _super.prototype.addLoadByGameEffectId.call(this, GameEffectsManager_1.GameEffectId.zhen_de_active_skill_3, 2);
         _super.prototype.addLoadByGameEffectId.call(this, GameEffectsManager_1.GameEffectId.monster_zhiliao_halo_hit, 2);
+        this.is_LoadLoad = true;
         this.addSkillListen(this.useSkill);
         this.addAttackListen(this.normalAttack);
         this.addXuanYunListen(this.onXuanYunResult);

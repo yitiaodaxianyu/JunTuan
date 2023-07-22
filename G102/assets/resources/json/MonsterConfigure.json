@@ -353,7 +353,7 @@
     "IntroTextId": 2220081,
     "Speed": 60.0,
     "AttackMode": 2,
-   "AttackDistance": -999,
+    "AttackDistance": -999,
     "AttackSpeed": 0.6,
     "Scale": 0.7,
     "MonsterSpacing": 110,
@@ -368,7 +368,7 @@
     "IntroTextId": 2220082,
     "Speed": 60.0,
     "AttackMode": 2,
-   "AttackDistance": -999,
+    "AttackDistance": -999,
     "AttackSpeed": 0.6,
     "Scale": 0.7,
     "MonsterSpacing": 110,
@@ -383,7 +383,7 @@
     "IntroTextId": 2220083,
     "Speed": 60.0,
     "AttackMode": 2,
-   "AttackDistance": -999,
+    "AttackDistance": -999,
     "AttackSpeed": 0.6,
     "Scale": 0.7,
     "MonsterSpacing": 110,
@@ -908,7 +908,7 @@
     "IntroTextId": 2210181,
     "Speed": 52.0,
     "AttackMode": 1,
-    "AttackDistance": -999,
+    "AttackDistance": 20,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
     "MonsterSpacing": 50,
@@ -1599,7 +1599,7 @@
     "Speed": 80.0,
     "AttackMode": 1,
     "AttackDistance": -999,
-    "AttackSpeed": 1.0,
+    "AttackSpeed": 1.5,
     "Scale": 0.7,
     "MonsterSpacing": 80,
     "SkillNum": 0
@@ -1644,7 +1644,7 @@
     "Speed": 70.0,
     "AttackMode": 1,
     "AttackDistance": -999,
-    "AttackSpeed": 1.0,
+    "AttackSpeed": 1.2,
     "Scale": 0.7,
     "MonsterSpacing": 80,
     "SkillNum": 0
@@ -2260,7 +2260,7 @@
     "AttackMode": 2,
     "AttackDistance": 500,
     "AttackSpeed": 0.7,
-    "Scale": 0.7,
+    "Scale": 1.0,
     "MonsterSpacing": 300,
     "SkillNum": 1
   },
@@ -2275,7 +2275,7 @@
     "AttackMode": 2,
     "AttackDistance": 500,
     "AttackSpeed": 0.8,
-    "Scale": 0.7,
+    "Scale": 1.0,
     "MonsterSpacing": 300,
     "SkillNum": 1
   },
@@ -2290,7 +2290,7 @@
     "AttackMode": 2,
     "AttackDistance": 500,
     "AttackSpeed": 0.7,
-    "Scale": 0.7,
+    "Scale": 1.0,
     "MonsterSpacing": 300,
     "SkillNum": 2
   },
@@ -2305,7 +2305,7 @@
     "AttackMode": 2,
     "AttackDistance": 500,
     "AttackSpeed": 0.65,
-    "Scale": 0.7,
+    "Scale": 1.0,
     "MonsterSpacing": 300,
     "SkillNum": 2
   },
@@ -2320,7 +2320,7 @@
     "AttackMode": 2,
     "AttackDistance": 500,
     "AttackSpeed": 0.7,
-    "Scale": 0.7,
+    "Scale": 1.0,
     "MonsterSpacing": 300,
     "SkillNum": 2
   },
@@ -2335,7 +2335,7 @@
     "AttackMode": 2,
     "AttackDistance": 500,
     "AttackSpeed": 0.7,
-    "Scale": 0.7,
+    "Scale": 1.0,
     "MonsterSpacing": 300,
     "SkillNum": 2
   },
@@ -2350,7 +2350,7 @@
     "AttackMode": 2,
     "AttackDistance": 500,
     "AttackSpeed": 0.7,
-    "Scale": 0.7,
+    "Scale": 1.0,
     "MonsterSpacing": 300,
     "SkillNum": 3
   },
@@ -2365,7 +2365,7 @@
     "AttackMode": 2,
     "AttackDistance": 500,
     "AttackSpeed": 0.7,
-    "Scale": 0.7,
+    "Scale": 1.0,
     "MonsterSpacing": 300,
     "SkillNum": 3
   },
@@ -2380,7 +2380,7 @@
     "AttackMode": 2,
     "AttackDistance": 500,
     "AttackSpeed": 0.7,
-    "Scale": 0.7,
+    "Scale": 1.0,
     "MonsterSpacing": 300,
     "SkillNum": 3
   },
@@ -2394,8 +2394,8 @@
     "Speed": 80.0,
     "AttackMode": 2,
     "AttackDistance": 500,
-    "AttackSpeed": 0.7,
-    "Scale": 0.7,
+    "AttackSpeed": 0.9,
+    "Scale": 1.0,
     "MonsterSpacing": 300,
     "SkillNum": 4
   }

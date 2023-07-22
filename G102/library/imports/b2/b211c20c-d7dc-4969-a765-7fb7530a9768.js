@@ -113,6 +113,14 @@ var Wall = /** @class */ (function (_super) {
         this.max_hp = attributeData.Health = Math.round(attributeData.Health);
         this.showHp();
     };
+    Wall.prototype.refreshWallDataByaddHero = function (attributeData) {
+        this.attribute_data = attributeData;
+        var der_hp = this.max_hp - this.cur_hp;
+        console.log("差值血量");
+        this.max_hp = attributeData.Health = Math.round(attributeData.Health);
+        this.cur_hp = this.max_hp - der_hp;
+        this.showHp();
+    };
     Wall.prototype.getAttributeData = function () {
         return this.attribute_data;
     };

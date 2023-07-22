@@ -30,6 +30,7 @@ export default class ChangMaoShou extends Hero {
         super.addLoadByGameEffectId(GameEffectId.chang_mao_shou_skill_zhuazi,2);
         super.addLoadByGameEffectId(GameEffectId.chang_mao_shou_skill_active_1,1);
         super.addLoadByGameEffectId(GameEffectId.chang_mao_shou_skill_active_2,1);
+        this.is_LoadLoad=true;
         this.addSkillListen(this.useSkill);
         this.addAttackListen(this.normalAttack);
         this.addXuanYunListen(this.onXuanYunResult);

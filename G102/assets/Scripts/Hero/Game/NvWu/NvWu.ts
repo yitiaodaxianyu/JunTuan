@@ -33,7 +33,8 @@ export default class NvWu extends Hero {
         //加载技能指示器
         super.addLoadByGameEffectId(GameEffectId.nvwu_attack_bullect,2);
         super.addLoadByGameEffectId(GameEffectId.nvwu_attack_bullect_hit,2);
-        super.addLoadByGameEffectId(GameEffectId.nvwu_active_skill,1);        
+        super.addLoadByGameEffectId(GameEffectId.nvwu_active_skill,1);    
+        this.is_LoadLoad=true;    
         this.addSkillListen(this.useSkill);
         this.addAttackListen(this.normalAttack);
         this.addXuanYunListen(this.onXuanYunResult);

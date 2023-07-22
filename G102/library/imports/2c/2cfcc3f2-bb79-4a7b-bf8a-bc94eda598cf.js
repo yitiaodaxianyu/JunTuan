@@ -52,6 +52,7 @@ var KuangZhanShi = /** @class */ (function (_super) {
         _super.prototype.addLoadByGameEffectId.call(this, GameEffectsManager_1.GameEffectId.kuangzhanshi_attack_chuantou, 4);
         _super.prototype.addLoadByGameEffectId.call(this, GameEffectsManager_1.GameEffectId.kuangzhanshi_attack_hit, 2);
         _super.prototype.addLoadByGameEffectId.call(this, GameEffectsManager_1.GameEffectId.kuangzhanshi_attack_max, 2);
+        this.is_LoadLoad = true;
         this.addSkillListen(this.useSkill);
         this.addAttackListen(this.normalAttack);
         this.addXuanYunListen(this.onXuanYunResult);

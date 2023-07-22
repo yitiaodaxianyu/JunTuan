@@ -39,6 +39,7 @@ export default class MeiMo extends Hero {
         super.addLoadByGameEffectId(GameEffectId.mei_mo_zhudong_skill_gound,1);
         super.addLoadByGameEffectId(GameEffectId.mei_mo_zhudong_skill_hero,4);
         super.addLoadByGameEffectId(GameEffectId.mei_mo_zhudong_skill_monster,4);
+        this.is_LoadLoad=true;
         this.addSkillListen(this.useSkill);
         this.addAttackListen(this.normalAttack);
         this.addXuanYunListen(this.onXuanYunResult);

@@ -52,6 +52,7 @@ var ChangMaoShou = /** @class */ (function (_super) {
         _super.prototype.addLoadByGameEffectId.call(this, GameEffectsManager_1.GameEffectId.chang_mao_shou_skill_zhuazi, 2);
         _super.prototype.addLoadByGameEffectId.call(this, GameEffectsManager_1.GameEffectId.chang_mao_shou_skill_active_1, 1);
         _super.prototype.addLoadByGameEffectId.call(this, GameEffectsManager_1.GameEffectId.chang_mao_shou_skill_active_2, 1);
+        this.is_LoadLoad = true;
         this.addSkillListen(this.useSkill);
         this.addAttackListen(this.normalAttack);
         this.addXuanYunListen(this.onXuanYunResult);

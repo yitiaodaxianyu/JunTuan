@@ -58,6 +58,7 @@ var Hero = /** @class */ (function (_super) {
         _this.is_load_ok = false;
         _this.cur_load_num = 0;
         _this.need_load_num = 0;
+        _this.is_LoadLoad = false; //异步加载资源锁
         _this.hero_type = HeroConfig_1.Hero_Type.ChangMaoShou;
         _this.prefab_skill_tip = null;
         //骨骼动画
@@ -187,6 +188,7 @@ var Hero = /** @class */ (function (_super) {
     Hero.prototype.start = function () {
         //加载数据
         this.hero_data = GameManager_1.default.getInstance().game_hero_data.get(this.hero_type);
+        GameManager_1.default.getInstance().refreshMainWallDataByaddHero();
         this.bullet_speed = HeroBaseInfo_1.HeroBaseInfoManager.getInstance().getBaseBulletSpeed(this.hero_type);
         this.gongji_jishu = this.hero_data.gongji_jiange;
         this.gongji_sudu = this.getAttackSpeed();
@@ -354,9 +356,10 @@ var Hero = /** @class */ (function (_super) {
     };
     Hero.prototype.addLoadByGameEffectId = function (id, initCount) {
         var _this = this;
+        this.need_load_num++;
         if (GameEffectsManager_1.GameEffectsManager.getInstance().addEffectPoolById(id, initCount, function () {
             _this.cur_load_num++;
-            if (_this.cur_load_num >= _this.need_load_num) {
+            if (_this.cur_load_num >= _this.need_load_num && _this.is_LoadLoad == true) {
                 if (_this.is_load_ok == false) {
                     _this.is_load_ok = true;
                     Hero_1.cur_loaded_num++;
@@ -366,7 +369,6 @@ var Hero = /** @class */ (function (_super) {
                 }
             }
         }) == true) {
-            this.need_load_num++;
         }
     };
     /**加载宠物 */

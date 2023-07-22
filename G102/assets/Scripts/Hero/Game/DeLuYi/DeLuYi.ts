@@ -35,6 +35,7 @@ export default class WuNv extends Hero {
         super.addLoadByGameEffectId(GameEffectId.deluyi_active_skill,4);
         super.addLoadByGameEffectId(GameEffectId.deluyi_skill_beidong_create,1);
         super.addLoadByGameEffectId(GameEffectId.xuanyun,4);
+        this.is_LoadLoad=true;
         //super.addLoadByGameEffectId(GameEffectId.monster_zhongdu,4);
         this.addSkillListen(this.useSkill);
         this.addAttackListen(this.normalAttack);
