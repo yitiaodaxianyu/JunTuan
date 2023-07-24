@@ -76,7 +76,7 @@ var PaoShou = /** @class */ (function (_super) {
         this.is_need_check_distance = true;
         _super.prototype.setSkillTipSize.call(this, 400, 400);
         if (LevelManager_1.LevelManager.getInstance().start_level == 2 && TutorailsManager_1.default.getInstance().isShowTutorials(206)) {
-            this.hideHero();
+            //this.hideHero();
         }
     };
     PaoShou.prototype.onXuanYunResult = function (isXuanYun) {

@@ -100,6 +100,7 @@ require('./assets/Scripts/Game/SkillManager');
 require('./assets/Scripts/Game/SkyManager');
 require('./assets/Scripts/Game/TouchPlane/TouchPlane');
 require('./assets/Scripts/Game/Ui/BuyBattlePotion');
+require('./assets/Scripts/Game/Ui/CharioItem');
 require('./assets/Scripts/Game/Ui/DamageStatsUi');
 require('./assets/Scripts/Game/Ui/GameLose');
 require('./assets/Scripts/Game/Ui/GamePause');

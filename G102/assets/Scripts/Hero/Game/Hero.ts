@@ -1334,6 +1334,7 @@ export default class Hero extends cc.Component {
     getGongJiData(damageType: DamageType, isBullet: boolean, skillType: SkillType, skillRate: number = 1, continuousRate: number = 0): GongJiData {
         let gjData = new GongJiData();
         gjData.hero_data = cc.instantiate(this.hero_data);
+        gjData.hero_data.attack_increase_damage=GameManager.getInstance().getCharioAttackRotio();
         gjData.is_bullet = isBullet;
         gjData.damage_type = damageType;
         gjData.hero_type = this.hero_type;
@@ -1377,6 +1378,7 @@ export default class Hero extends cc.Component {
 
     startNormalAttack(monster: cc.Node) {
         let isDouble: boolean = this.is_double_attack;
+        this.setAttSpineScale();
         if (this.is_double_attack) {
             this.spine.timeScale = this.hero_data.base_jiange / this.hero_data.gongji_jiange * 2;
         }

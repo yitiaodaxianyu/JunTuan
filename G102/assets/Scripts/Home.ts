@@ -94,6 +94,7 @@ export default class Home extends cc.Component {
 
     start()
     {
+        cc.director.resume();
         // 拉取服务器时间
         GameData.getInstance().refreshServerTime();
         GameManager.getInstance().resetRate();

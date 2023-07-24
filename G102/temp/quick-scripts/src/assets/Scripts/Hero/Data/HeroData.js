@@ -18,6 +18,7 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.GongJiData = exports.HeroData = exports.HeroSkillInfo = void 0;
+var GameManager_1 = require("../../GameManager");
 var HeroConfig_1 = require("../Game/HeroConfig");
 /**表格固定数值：英雄技能信息 */
 var HeroSkillInfo = /** @class */ (function () {
@@ -58,7 +59,7 @@ var HeroData = /** @class */ (function (_super) {
         // /**攻击速度，一秒攻击多少次 */
         // attack_speed:number=1;    
         /** 攻击速度,每多少秒攻击一次，换算成攻速显示则是，（1÷攻击间隔）次/每秒*/
-        _this.gongji_jiange = 1;
+        _this._gongji_jiange = 1;
         _this.base_jiange = 1;
         // 实际攻速
         _this.atkSpeed = 1;
@@ -101,6 +102,16 @@ var HeroData = /** @class */ (function (_super) {
         _this.ExclusiveWeaponSkillValue_4 = 0;
         return _this;
     }
+    Object.defineProperty(HeroData.prototype, "gongji_jiange", {
+        get: function () {
+            return this._gongji_jiange * (1 - GameManager_1.default.getInstance().getCharioSpeedRotio());
+        },
+        set: function (n) {
+            this._gongji_jiange = n;
+        },
+        enumerable: false,
+        configurable: true
+    });
     /**英雄技能 */
     HeroData.prototype.getSkillColdDown = function (type) {
         return this.ColdDown.get(type);

@@ -1394,6 +1394,7 @@ var Hero = /** @class */ (function (_super) {
         if (continuousRate === void 0) { continuousRate = 0; }
         var gjData = new HeroData_1.GongJiData();
         gjData.hero_data = cc.instantiate(this.hero_data);
+        gjData.hero_data.attack_increase_damage = GameManager_1.default.getInstance().getCharioAttackRotio();
         gjData.is_bullet = isBullet;
         gjData.damage_type = damageType;
         gjData.hero_type = this.hero_type;
@@ -1432,6 +1433,7 @@ var Hero = /** @class */ (function (_super) {
     };
     Hero.prototype.startNormalAttack = function (monster) {
         var isDouble = this.is_double_attack;
+        this.setAttSpineScale();
         if (this.is_double_attack) {
             this.spine.timeScale = this.hero_data.base_jiange / this.hero_data.gongji_jiange * 2;
         }

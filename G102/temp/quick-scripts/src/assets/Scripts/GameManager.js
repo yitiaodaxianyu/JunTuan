@@ -131,7 +131,7 @@ var GameManager = /** @class */ (function (_super) {
         //通关次数
         _this.pass_level_num = 0;
         /**游戏速率 */
-        _this.game_rate = 1.5;
+        _this.game_rate = 2;
         /**按钮指定速率 */
         _this.btn_setup_rate = 1;
         /**战斗指定速率 */
@@ -144,6 +144,9 @@ var GameManager = /** @class */ (function (_super) {
         _this.auto_fighting = false;
         /**当前的队列 */
         _this.cur_team_list = [];
+        _this.charioUpgradationData = [0, 0, 0, 0, 0, 0, 0];
+        _this.charioTip = ["加攻击", "血量上限", "攻速", "防御", "技能间隔", "左右移动", "回血"];
+        _this.charioContent = ["每一级增加全体英雄攻击力10%", "每一级增加战车血量上限10%", "每一级增加全体英雄攻速10%", "每一级增加战车防御10%", "每一级减少技能间隔10%", "每一级增加战车移动速度10%", "回复战车最大血量20%"];
         //是否显示了退出游戏的对话框
         _this.is_show_exit = false;
         //动画位置
@@ -169,6 +172,7 @@ var GameManager = /** @class */ (function (_super) {
         this.cur_game_scene = scene;
         this.is_loaded = false;
         this.aniType = 4;
+        this.charioUpgradationData = [0, 0, 0, 0, 0, 0, 0];
         switch (this.cur_game_scene) {
             case Constants_1.GameScene.home:
                 {
@@ -241,7 +245,7 @@ var GameManager = /** @class */ (function (_super) {
         return this.game_rate;
     };
     GameManager.prototype.resetRate = function () {
-        this.game_rate = 1;
+        //this.game_rate = 1;
         cc.kSpeed(this.game_rate);
     };
     GameManager.prototype.setMaxDamage = function (num) {
@@ -339,8 +343,9 @@ var GameManager = /** @class */ (function (_super) {
                         heroData.Critical += fightingData.CriticalValue;
                         heroData.Hit += fightingData.HitValue;
                     }
-                    mainWallData.Health += heroData.total_hp * 0.2;
-                    mainWallData.Defense += heroData.total_defense * 0.2;
+                    mainWallData.Health += heroData.total_hp * 0.2 * this.getCharioHealthRatio();
+                    ;
+                    mainWallData.Defense += heroData.total_defense * 0.2 * this.getCharioDefenseRotio();
                     mainWallData.Miss += heroData.Miss * 0.2;
                     mainWallData.AntiCritical += heroData.AntiCritical * 0.2;
                     mainWallData.AntiExtraCritical += heroData.AntiExtraCritical * 0.2;
@@ -396,8 +401,9 @@ var GameManager = /** @class */ (function (_super) {
         var mainWallData = new HeroConfig_1.AttributeData();
         for (var i = 0; i < this.cur_team_list.length; i++) {
             var heroData = this.addTutotialsHeroFull(this.cur_team_list[i], i, null);
-            mainWallData.Health += heroData.total_hp * 0.2;
-            mainWallData.Defense += heroData.total_defense * 0.2;
+            mainWallData.Health += heroData.total_hp * 0.2 * this.getCharioHealthRatio();
+            ;
+            mainWallData.Defense += heroData.total_defense * 0.2 * this.getCharioDefenseRotio();
             mainWallData.Miss += heroData.Miss * 0.2;
             mainWallData.AntiCritical += heroData.AntiCritical * 0.2;
             mainWallData.AntiExtraCritical += heroData.AntiExtraCritical * 0.2;
@@ -413,11 +419,12 @@ var GameManager = /** @class */ (function (_super) {
         WallManager_1.default.getInstance().getMainWall().initWall(mainWallData, WallConfig_1.WallType.Main);
     };
     GameManager.prototype.refreshMainWallDataByaddHero = function () {
+        var _this = this;
         var mainWallData = new HeroConfig_1.AttributeData();
         this.all_hero.forEach(function (v, k) {
             var heroData = cc.instantiate(v.hero_data);
-            mainWallData.Health += heroData.total_hp * 0.2;
-            mainWallData.Defense += heroData.total_defense * 0.2;
+            mainWallData.Health += heroData.total_hp * 0.2 * _this.getCharioHealthRatio();
+            mainWallData.Defense += heroData.total_defense * 0.2 * _this.getCharioDefenseRotio();
             mainWallData.Miss += heroData.Miss * 0.2;
             mainWallData.AntiCritical += heroData.AntiCritical * 0.2;
             mainWallData.AntiExtraCritical += heroData.AntiExtraCritical * 0.2;
@@ -427,11 +434,13 @@ var GameManager = /** @class */ (function (_super) {
         WallManager_1.default.getInstance().getMainWall().refreshWallDataByaddHero(mainWallData);
     };
     GameManager.prototype.refreshMainWallData = function () {
+        var _this = this;
         var mainWallData = new HeroConfig_1.AttributeData();
         this.all_hero.forEach(function (v, k) {
             var heroData = cc.instantiate(v.hero_data);
-            mainWallData.Health += heroData.total_hp * 0.2;
-            mainWallData.Defense += heroData.total_defense * 0.2;
+            mainWallData.Health += heroData.total_hp * 0.2 * _this.getCharioHealthRatio();
+            ;
+            mainWallData.Defense += heroData.total_defense * 0.2 * _this.getCharioDefenseRotio();
             mainWallData.Miss += heroData.Miss * 0.2;
             mainWallData.AntiCritical += heroData.AntiCritical * 0.2;
             mainWallData.AntiExtraCritical += heroData.AntiExtraCritical * 0.2;
@@ -565,6 +574,7 @@ var GameManager = /** @class */ (function (_super) {
         this.unscheduleAllCallbacks();
         MonsterManager_1.default.getInstance().destroyAllDrop();
         MonsterManager_1.default.getInstance().destroyAllMonster();
+        this.charioUpgradationData = [0, 0, 0, 0, 0, 0, 0];
         this.cur_wave = 0;
         this.cur_total_num = 0;
         switch (GameManager_1.getInstance().cur_game_mode) {
@@ -609,6 +619,27 @@ var GameManager = /** @class */ (function (_super) {
         this.setGameRate(1);
         this.scheduleOnce(this.loadLevel, 0.5);
         this.music_manager.resume();
+    };
+    //根据当前charioUpgradationData获取一个升级组
+    GameManager.prototype.getcharioUpgradationData = function () {
+        var arr = [];
+        var arTemp = [];
+        for (var i = 0; i < this.charioUpgradationData.length; i++) {
+            if (this.charioUpgradationData[i] < 5 || i == 6) {
+                arTemp.push(i);
+            }
+        }
+        //可升级技能数量小于3
+        if (arTemp.length <= 3) {
+            return arTemp;
+        }
+        arTemp.sort(function () {
+            return Math.random() - 0.5;
+        });
+        arr[0] = arTemp[0];
+        arr[1] = arTemp[1];
+        arr[2] = arTemp[2];
+        return arr;
     };
     //获取阵列类型
     GameManager.prototype.getZhengXingData = function () {
@@ -891,6 +922,22 @@ var GameManager = /** @class */ (function (_super) {
         this.game_hero_data.set(heroId, data);
         this.game.loadHero(heroId, teamIndex, callback);
         // this.refreshMainWallData();
+    };
+    //获取因为技能等级变化的血量比率
+    GameManager.prototype.getCharioHealthRatio = function () {
+        return this.charioUpgradationData[1] * 0.1 + 1;
+    };
+    //获取因为技能等级变化的防御比率
+    GameManager.prototype.getCharioDefenseRotio = function () {
+        return this.charioUpgradationData[3] * 0.1 + 1;
+    };
+    //攻击力比率
+    GameManager.prototype.getCharioAttackRotio = function () {
+        return this.charioUpgradationData[0] * 0.1;
+    };
+    //攻击速度比率
+    GameManager.prototype.getCharioSpeedRotio = function () {
+        return this.charioUpgradationData[2] * 0.1;
     };
     /**添加一个满级满装满宠物的英雄 */
     GameManager.prototype.addTutotialsHeroFull = function (heroId, teamIndex, callback) {

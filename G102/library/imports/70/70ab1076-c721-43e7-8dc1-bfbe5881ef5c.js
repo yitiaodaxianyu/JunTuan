@@ -131,6 +131,7 @@ var Home = /** @class */ (function (_super) {
         MazeManager_1.MazeManager.getInstance().resetHeroBind();
     };
     Home.prototype.start = function () {
+        cc.director.resume();
         // 拉取服务器时间
         GameData_1.default.getInstance().refreshServerTime();
         GameManager_1.default.getInstance().resetRate();

@@ -56,7 +56,7 @@ export default class PaoShou extends Hero {
         this.is_need_check_distance=true;
         super.setSkillTipSize(400,400);
         if(LevelManager.getInstance().start_level==2&&TutorailsManager.getInstance().isShowTutorials(206)){
-            this.hideHero();
+            //this.hideHero();
         }
     }
 

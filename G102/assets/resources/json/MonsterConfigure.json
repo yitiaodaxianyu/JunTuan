@@ -6,12 +6,12 @@
     "StrengthType": 1,
     "NameTextId": 2110011,
     "IntroTextId": 2210011,
-    "Speed": 75.0,
+    "Speed": 78.375,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -21,12 +21,12 @@
     "StrengthType": 1,
     "NameTextId": 2110012,
     "IntroTextId": 2210012,
-    "Speed": 75.0,
+    "Speed": 78.375,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -36,12 +36,12 @@
     "StrengthType": 1,
     "NameTextId": 2110013,
     "IntroTextId": 2210013,
-    "Speed": 75.0,
+    "Speed": 78.375,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -51,12 +51,12 @@
     "StrengthType": 1,
     "NameTextId": 2110014,
     "IntroTextId": 2210014,
-    "Speed": 75.0,
+    "Speed": 78.375,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -66,12 +66,12 @@
     "StrengthType": 2,
     "NameTextId": 2120021,
     "IntroTextId": 2220021,
-    "Speed": 40.0,
+    "Speed": 41.8,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 0
   },
   {
@@ -81,12 +81,12 @@
     "StrengthType": 2,
     "NameTextId": 2120022,
     "IntroTextId": 2220022,
-    "Speed": 40.0,
+    "Speed": 41.8,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 0
   },
   {
@@ -96,12 +96,12 @@
     "StrengthType": 2,
     "NameTextId": 2120023,
     "IntroTextId": 2220023,
-    "Speed": 40.0,
+    "Speed": 41.8,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 0
   },
   {
@@ -111,12 +111,12 @@
     "StrengthType": 1,
     "NameTextId": 2110031,
     "IntroTextId": 2210031,
-    "Speed": 60.0,
+    "Speed": 62.7,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -126,12 +126,12 @@
     "StrengthType": 1,
     "NameTextId": 2110032,
     "IntroTextId": 2210032,
-    "Speed": 60.0,
+    "Speed": 62.7,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -141,12 +141,12 @@
     "StrengthType": 1,
     "NameTextId": 2110033,
     "IntroTextId": 2210033,
-    "Speed": 60.0,
+    "Speed": 62.7,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -156,12 +156,12 @@
     "StrengthType": 1,
     "NameTextId": 2110034,
     "IntroTextId": 2210034,
-    "Speed": 60.0,
+    "Speed": 62.7,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -171,12 +171,12 @@
     "StrengthType": 2,
     "NameTextId": 2120041,
     "IntroTextId": 2220041,
-    "Speed": 40.0,
+    "Speed": 41.8,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 0
   },
   {
@@ -186,12 +186,12 @@
     "StrengthType": 2,
     "NameTextId": 2120041,
     "IntroTextId": 2220041,
-    "Speed": 40.0,
+    "Speed": 41.8,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 0
   },
   {
@@ -201,12 +201,12 @@
     "StrengthType": 2,
     "NameTextId": 2120041,
     "IntroTextId": 2220041,
-    "Speed": 40.0,
+    "Speed": 41.8,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 0
   },
   {
@@ -216,12 +216,12 @@
     "StrengthType": 1,
     "NameTextId": 2110051,
     "IntroTextId": 2210051,
-    "Speed": 110.0,
+    "Speed": 114.95,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.5,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -231,12 +231,12 @@
     "StrengthType": 1,
     "NameTextId": 2110052,
     "IntroTextId": 2210052,
-    "Speed": 110.0,
+    "Speed": 114.95,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.5,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -246,12 +246,12 @@
     "StrengthType": 1,
     "NameTextId": 2110053,
     "IntroTextId": 2210053,
-    "Speed": 110.0,
+    "Speed": 114.95,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.5,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -261,12 +261,12 @@
     "StrengthType": 1,
     "NameTextId": 2110061,
     "IntroTextId": 2210061,
-    "Speed": 75.0,
+    "Speed": 78.375,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.2,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -276,12 +276,12 @@
     "StrengthType": 1,
     "NameTextId": 2110062,
     "IntroTextId": 2210062,
-    "Speed": 75.0,
+    "Speed": 78.375,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.2,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -291,12 +291,12 @@
     "StrengthType": 1,
     "NameTextId": 2110063,
     "IntroTextId": 2210063,
-    "Speed": 75.0,
+    "Speed": 78.375,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.2,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -306,12 +306,12 @@
     "StrengthType": 1,
     "NameTextId": 2110071,
     "IntroTextId": 2210071,
-    "Speed": 61.0,
+    "Speed": 63.745,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -321,12 +321,12 @@
     "StrengthType": 1,
     "NameTextId": 2110072,
     "IntroTextId": 2210072,
-    "Speed": 61.0,
+    "Speed": 63.745,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -336,12 +336,12 @@
     "StrengthType": 1,
     "NameTextId": 2110073,
     "IntroTextId": 2210073,
-    "Speed": 61.0,
+    "Speed": 63.745,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -351,12 +351,12 @@
     "StrengthType": 2,
     "NameTextId": 2120081,
     "IntroTextId": 2220081,
-    "Speed": 60.0,
+    "Speed": 62.7,
     "AttackMode": 2,
     "AttackDistance": -999,
     "AttackSpeed": 0.6,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 0
   },
   {
@@ -366,12 +366,12 @@
     "StrengthType": 2,
     "NameTextId": 2120082,
     "IntroTextId": 2220082,
-    "Speed": 60.0,
+    "Speed": 62.7,
     "AttackMode": 2,
     "AttackDistance": -999,
     "AttackSpeed": 0.6,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 0
   },
   {
@@ -381,12 +381,12 @@
     "StrengthType": 2,
     "NameTextId": 2120083,
     "IntroTextId": 2220083,
-    "Speed": 60.0,
+    "Speed": 62.7,
     "AttackMode": 2,
     "AttackDistance": -999,
     "AttackSpeed": 0.6,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 0
   },
   {
@@ -396,12 +396,12 @@
     "StrengthType": 1,
     "NameTextId": 2110091,
     "IntroTextId": 2210091,
-    "Speed": 60.0,
+    "Speed": 62.7,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -411,12 +411,12 @@
     "StrengthType": 1,
     "NameTextId": 2110092,
     "IntroTextId": 2210092,
-    "Speed": 60.0,
+    "Speed": 62.7,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -426,12 +426,12 @@
     "StrengthType": 1,
     "NameTextId": 2110093,
     "IntroTextId": 2210093,
-    "Speed": 60.0,
+    "Speed": 62.7,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -441,12 +441,12 @@
     "StrengthType": 1,
     "NameTextId": 2110094,
     "IntroTextId": 2210094,
-    "Speed": 60.0,
+    "Speed": 62.7,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -456,12 +456,12 @@
     "StrengthType": 1,
     "NameTextId": 2110095,
     "IntroTextId": 2210095,
-    "Speed": 60.0,
+    "Speed": 62.7,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -471,12 +471,12 @@
     "StrengthType": 2,
     "NameTextId": 2120101,
     "IntroTextId": 2220101,
-    "Speed": 45.0,
+    "Speed": 47.025,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 0
   },
   {
@@ -486,12 +486,12 @@
     "StrengthType": 2,
     "NameTextId": 2120102,
     "IntroTextId": 2220102,
-    "Speed": 45.0,
+    "Speed": 47.025,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 0
   },
   {
@@ -501,12 +501,12 @@
     "StrengthType": 2,
     "NameTextId": 2120103,
     "IntroTextId": 2220103,
-    "Speed": 45.0,
+    "Speed": 47.025,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 0
   },
   {
@@ -516,12 +516,12 @@
     "StrengthType": 1,
     "NameTextId": 2110111,
     "IntroTextId": 2210111,
-    "Speed": 80.0,
+    "Speed": 83.6,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -531,12 +531,12 @@
     "StrengthType": 1,
     "NameTextId": 2110112,
     "IntroTextId": 2210112,
-    "Speed": 80.0,
+    "Speed": 83.6,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -546,12 +546,12 @@
     "StrengthType": 1,
     "NameTextId": 2110113,
     "IntroTextId": 2210113,
-    "Speed": 80.0,
+    "Speed": 83.6,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -561,12 +561,12 @@
     "StrengthType": 1,
     "NameTextId": 2110121,
     "IntroTextId": 2210121,
-    "Speed": 62.0,
+    "Speed": 64.79,
     "AttackMode": 2,
     "AttackDistance": -999,
     "AttackSpeed": 0.8,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -576,12 +576,12 @@
     "StrengthType": 1,
     "NameTextId": 2110122,
     "IntroTextId": 2210122,
-    "Speed": 62.0,
+    "Speed": 64.79,
     "AttackMode": 2,
     "AttackDistance": -999,
     "AttackSpeed": 0.8,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -591,12 +591,12 @@
     "StrengthType": 1,
     "NameTextId": 2110123,
     "IntroTextId": 2210123,
-    "Speed": 62.0,
+    "Speed": 64.79,
     "AttackMode": 2,
     "AttackDistance": -999,
     "AttackSpeed": 0.8,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -606,12 +606,12 @@
     "StrengthType": 1,
     "NameTextId": 2110131,
     "IntroTextId": 2210131,
-    "Speed": 64.0,
+    "Speed": 66.88,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 0.8,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -621,12 +621,12 @@
     "StrengthType": 1,
     "NameTextId": 2110132,
     "IntroTextId": 2210132,
-    "Speed": 64.0,
+    "Speed": 66.88,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -636,12 +636,12 @@
     "StrengthType": 1,
     "NameTextId": 2110133,
     "IntroTextId": 2210133,
-    "Speed": 64.0,
+    "Speed": 66.88,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -651,12 +651,12 @@
     "StrengthType": 1,
     "NameTextId": 2110134,
     "IntroTextId": 2210134,
-    "Speed": 64.0,
+    "Speed": 66.88,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -666,12 +666,12 @@
     "StrengthType": 1,
     "NameTextId": 2110135,
     "IntroTextId": 2210135,
-    "Speed": 64.0,
+    "Speed": 66.88,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -681,12 +681,12 @@
     "StrengthType": 1,
     "NameTextId": 2110136,
     "IntroTextId": 2210136,
-    "Speed": 64.0,
+    "Speed": 66.88,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -696,12 +696,12 @@
     "StrengthType": 1,
     "NameTextId": 2110141,
     "IntroTextId": 2210141,
-    "Speed": 70.0,
+    "Speed": 73.15,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -711,12 +711,12 @@
     "StrengthType": 1,
     "NameTextId": 2110142,
     "IntroTextId": 2210142,
-    "Speed": 70.0,
+    "Speed": 73.15,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -726,12 +726,12 @@
     "StrengthType": 1,
     "NameTextId": 2110143,
     "IntroTextId": 2210143,
-    "Speed": 70.0,
+    "Speed": 73.15,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -741,12 +741,12 @@
     "StrengthType": 2,
     "NameTextId": 2120151,
     "IntroTextId": 2220151,
-    "Speed": 35.0,
+    "Speed": 36.575,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 0
   },
   {
@@ -756,12 +756,12 @@
     "StrengthType": 2,
     "NameTextId": 2120152,
     "IntroTextId": 2220152,
-    "Speed": 35.0,
+    "Speed": 36.575,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 0
   },
   {
@@ -771,12 +771,12 @@
     "StrengthType": 2,
     "NameTextId": 2120153,
     "IntroTextId": 2220153,
-    "Speed": 35.0,
+    "Speed": 36.575,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 0
   },
   {
@@ -786,12 +786,12 @@
     "StrengthType": 2,
     "NameTextId": 2120161,
     "IntroTextId": 2220161,
-    "Speed": 30.0,
+    "Speed": 31.35,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 0
   },
   {
@@ -801,12 +801,12 @@
     "StrengthType": 2,
     "NameTextId": 2120162,
     "IntroTextId": 2220162,
-    "Speed": 30.0,
+    "Speed": 31.35,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 0
   },
   {
@@ -816,12 +816,12 @@
     "StrengthType": 2,
     "NameTextId": 2120163,
     "IntroTextId": 2220163,
-    "Speed": 30.0,
+    "Speed": 31.35,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 0
   },
   {
@@ -831,12 +831,12 @@
     "StrengthType": 2,
     "NameTextId": 2120164,
     "IntroTextId": 2220164,
-    "Speed": 30.0,
+    "Speed": 31.35,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 0
   },
   {
@@ -846,12 +846,12 @@
     "StrengthType": 1,
     "NameTextId": 2110171,
     "IntroTextId": 2210171,
-    "Speed": 60.0,
+    "Speed": 62.7,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 0.8,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -861,12 +861,12 @@
     "StrengthType": 1,
     "NameTextId": 2110171,
     "IntroTextId": 2210171,
-    "Speed": 60.0,
+    "Speed": 62.7,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 0.8,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -876,12 +876,12 @@
     "StrengthType": 1,
     "NameTextId": 2110171,
     "IntroTextId": 2210171,
-    "Speed": 60.0,
+    "Speed": 62.7,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 0.8,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -891,12 +891,12 @@
     "StrengthType": 1,
     "NameTextId": 2110171,
     "IntroTextId": 2210171,
-    "Speed": 60.0,
+    "Speed": 62.7,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 0.8,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -906,12 +906,12 @@
     "StrengthType": 1,
     "NameTextId": 2110181,
     "IntroTextId": 2210181,
-    "Speed": 52.0,
+    "Speed": 54.34,
     "AttackMode": 1,
     "AttackDistance": 20,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -921,12 +921,12 @@
     "StrengthType": 1,
     "NameTextId": 2110182,
     "IntroTextId": 2210182,
-    "Speed": 52.0,
+    "Speed": 54.34,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -936,12 +936,12 @@
     "StrengthType": 1,
     "NameTextId": 2110183,
     "IntroTextId": 2210183,
-    "Speed": 52.0,
+    "Speed": 54.34,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -951,12 +951,12 @@
     "StrengthType": 2,
     "NameTextId": 2120191,
     "IntroTextId": 2220191,
-    "Speed": 85.0,
+    "Speed": 88.825,
     "AttackMode": 2,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 150,
+    "MonsterSpacing": 120,
     "SkillNum": 1
   },
   {
@@ -966,12 +966,12 @@
     "StrengthType": 2,
     "NameTextId": 2120192,
     "IntroTextId": 2220192,
-    "Speed": 85.0,
+    "Speed": 88.825,
     "AttackMode": 2,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 1
   },
   {
@@ -981,12 +981,12 @@
     "StrengthType": 2,
     "NameTextId": 2120193,
     "IntroTextId": 2220193,
-    "Speed": 85.0,
+    "Speed": 88.825,
     "AttackMode": 2,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 1
   },
   {
@@ -996,12 +996,12 @@
     "StrengthType": 1,
     "NameTextId": 2110201,
     "IntroTextId": 2210201,
-    "Speed": 70.0,
+    "Speed": 73.15,
     "AttackMode": 2,
     "AttackDistance": -999,
     "AttackSpeed": 0.73,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -1011,12 +1011,12 @@
     "StrengthType": 1,
     "NameTextId": 2110202,
     "IntroTextId": 2210202,
-    "Speed": 70.0,
+    "Speed": 73.15,
     "AttackMode": 2,
     "AttackDistance": -999,
     "AttackSpeed": 0.73,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -1026,12 +1026,12 @@
     "StrengthType": 1,
     "NameTextId": 2110203,
     "IntroTextId": 2210203,
-    "Speed": 70.0,
+    "Speed": 73.15,
     "AttackMode": 2,
     "AttackDistance": -999,
     "AttackSpeed": 0.73,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -1041,12 +1041,12 @@
     "StrengthType": 2,
     "NameTextId": 2120211,
     "IntroTextId": 2220211,
-    "Speed": 50.0,
+    "Speed": 52.25,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 0
   },
   {
@@ -1056,12 +1056,12 @@
     "StrengthType": 2,
     "NameTextId": 2120212,
     "IntroTextId": 2220212,
-    "Speed": 50.0,
+    "Speed": 52.25,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 0
   },
   {
@@ -1071,12 +1071,12 @@
     "StrengthType": 2,
     "NameTextId": 2120213,
     "IntroTextId": 2220213,
-    "Speed": 50.0,
+    "Speed": 52.25,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 0
   },
   {
@@ -1086,12 +1086,12 @@
     "StrengthType": 2,
     "NameTextId": 2120221,
     "IntroTextId": 2220221,
-    "Speed": 50.0,
+    "Speed": 52.25,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 0
   },
   {
@@ -1101,12 +1101,12 @@
     "StrengthType": 2,
     "NameTextId": 2120222,
     "IntroTextId": 2220222,
-    "Speed": 50.0,
+    "Speed": 52.25,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 0
   },
   {
@@ -1116,12 +1116,12 @@
     "StrengthType": 2,
     "NameTextId": 2120223,
     "IntroTextId": 2220223,
-    "Speed": 50.0,
+    "Speed": 52.25,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 0
   },
   {
@@ -1131,12 +1131,12 @@
     "StrengthType": 1,
     "NameTextId": 2110231,
     "IntroTextId": 2210231,
-    "Speed": 65.0,
+    "Speed": 67.925,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -1146,12 +1146,12 @@
     "StrengthType": 1,
     "NameTextId": 2110232,
     "IntroTextId": 2210232,
-    "Speed": 65.0,
+    "Speed": 67.925,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -1161,12 +1161,12 @@
     "StrengthType": 1,
     "NameTextId": 2110233,
     "IntroTextId": 2210233,
-    "Speed": 65.0,
+    "Speed": 67.925,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -1176,12 +1176,12 @@
     "StrengthType": 2,
     "NameTextId": 2120241,
     "IntroTextId": 2220241,
-    "Speed": 90.0,
+    "Speed": 94.05,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 0
   },
   {
@@ -1191,12 +1191,12 @@
     "StrengthType": 2,
     "NameTextId": 2120242,
     "IntroTextId": 2220242,
-    "Speed": 90.0,
+    "Speed": 94.05,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 0
   },
   {
@@ -1206,12 +1206,12 @@
     "StrengthType": 2,
     "NameTextId": 2120243,
     "IntroTextId": 2220243,
-    "Speed": 90.0,
+    "Speed": 94.05,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 0
   },
   {
@@ -1221,12 +1221,12 @@
     "StrengthType": 2,
     "NameTextId": 2120251,
     "IntroTextId": 2220251,
-    "Speed": 70.0,
+    "Speed": 73.15,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 0
   },
   {
@@ -1236,12 +1236,12 @@
     "StrengthType": 2,
     "NameTextId": 2120252,
     "IntroTextId": 2220252,
-    "Speed": 70.0,
+    "Speed": 73.15,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 0
   },
   {
@@ -1251,12 +1251,12 @@
     "StrengthType": 2,
     "NameTextId": 2120253,
     "IntroTextId": 2220253,
-    "Speed": 70.0,
+    "Speed": 73.15,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 0
   },
   {
@@ -1266,12 +1266,12 @@
     "StrengthType": 1,
     "NameTextId": 2110261,
     "IntroTextId": 2210261,
-    "Speed": 30.0,
+    "Speed": 31.35,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -1281,12 +1281,12 @@
     "StrengthType": 1,
     "NameTextId": 2110262,
     "IntroTextId": 2210262,
-    "Speed": 30.0,
+    "Speed": 31.35,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -1296,12 +1296,12 @@
     "StrengthType": 1,
     "NameTextId": 2110263,
     "IntroTextId": 2210263,
-    "Speed": 30.0,
+    "Speed": 31.35,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 50,
+    "MonsterSpacing": 40,
     "SkillNum": 0
   },
   {
@@ -1311,12 +1311,12 @@
     "StrengthType": 2,
     "NameTextId": 2120271,
     "IntroTextId": 2220271,
-    "Speed": 40.0,
+    "Speed": 41.8,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 0
   },
   {
@@ -1326,12 +1326,12 @@
     "StrengthType": 2,
     "NameTextId": 2120272,
     "IntroTextId": 2220272,
-    "Speed": 40.0,
+    "Speed": 41.8,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 0
   },
   {
@@ -1341,12 +1341,12 @@
     "StrengthType": 2,
     "NameTextId": 2120273,
     "IntroTextId": 2220273,
-    "Speed": 40.0,
+    "Speed": 41.8,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 0
   },
   {
@@ -1356,12 +1356,12 @@
     "StrengthType": 2,
     "NameTextId": 2120281,
     "IntroTextId": 2220281,
-    "Speed": 95.0,
+    "Speed": 99.275,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 0
   },
   {
@@ -1371,12 +1371,12 @@
     "StrengthType": 2,
     "NameTextId": 2120282,
     "IntroTextId": 2220282,
-    "Speed": 95.0,
+    "Speed": 99.275,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 0
   },
   {
@@ -1386,12 +1386,12 @@
     "StrengthType": 2,
     "NameTextId": 2120283,
     "IntroTextId": 2220283,
-    "Speed": 95.0,
+    "Speed": 99.275,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 0
   },
   {
@@ -1401,12 +1401,12 @@
     "StrengthType": 2,
     "NameTextId": 2120291,
     "IntroTextId": 2220291,
-    "Speed": 55.0,
+    "Speed": 57.475,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 0
   },
   {
@@ -1416,12 +1416,12 @@
     "StrengthType": 2,
     "NameTextId": 2120292,
     "IntroTextId": 2220292,
-    "Speed": 55.0,
+    "Speed": 57.475,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 0
   },
   {
@@ -1431,12 +1431,12 @@
     "StrengthType": 2,
     "NameTextId": 2120293,
     "IntroTextId": 2220293,
-    "Speed": 55.0,
+    "Speed": 57.475,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 0
   },
   {
@@ -1446,12 +1446,12 @@
     "StrengthType": 2,
     "NameTextId": 2120301,
     "IntroTextId": 2220301,
-    "Speed": 95.0,
+    "Speed": 99.275,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 150,
+    "MonsterSpacing": 120,
     "SkillNum": 1
   },
   {
@@ -1461,12 +1461,12 @@
     "StrengthType": 2,
     "NameTextId": 2120302,
     "IntroTextId": 2220302,
-    "Speed": 95.0,
+    "Speed": 99.275,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 1
   },
   {
@@ -1476,12 +1476,12 @@
     "StrengthType": 2,
     "NameTextId": 2120303,
     "IntroTextId": 2220303,
-    "Speed": 95.0,
+    "Speed": 99.275,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 110,
+    "MonsterSpacing": 88,
     "SkillNum": 1
   },
   {
@@ -1491,12 +1491,12 @@
     "StrengthType": 3,
     "NameTextId": 2130311,
     "IntroTextId": 2230311,
-    "Speed": 40.0,
+    "Speed": 41.8,
     "AttackMode": 2,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 200,
+    "MonsterSpacing": 160,
     "SkillNum": 0
   },
   {
@@ -1506,12 +1506,12 @@
     "StrengthType": 3,
     "NameTextId": 2130321,
     "IntroTextId": 2230321,
-    "Speed": 40.0,
+    "Speed": 41.8,
     "AttackMode": 2,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 200,
+    "MonsterSpacing": 160,
     "SkillNum": 0
   },
   {
@@ -1521,12 +1521,12 @@
     "StrengthType": 3,
     "NameTextId": 2130331,
     "IntroTextId": 2230331,
-    "Speed": 40.0,
+    "Speed": 41.8,
     "AttackMode": 2,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 200,
+    "MonsterSpacing": 160,
     "SkillNum": 0
   },
   {
@@ -1536,12 +1536,12 @@
     "StrengthType": 3,
     "NameTextId": 2130332,
     "IntroTextId": 2230332,
-    "Speed": 40.0,
+    "Speed": 41.8,
     "AttackMode": 2,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 200,
+    "MonsterSpacing": 160,
     "SkillNum": 0
   },
   {
@@ -1551,12 +1551,12 @@
     "StrengthType": 3,
     "NameTextId": 2130333,
     "IntroTextId": 2230333,
-    "Speed": 40.0,
+    "Speed": 41.8,
     "AttackMode": 2,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 200,
+    "MonsterSpacing": 160,
     "SkillNum": 0
   },
   {
@@ -1566,12 +1566,12 @@
     "StrengthType": 3,
     "NameTextId": 2130211,
     "IntroTextId": 2230211,
-    "Speed": 40.0,
+    "Speed": 41.8,
     "AttackMode": 2,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 200,
+    "MonsterSpacing": 160,
     "SkillNum": 0
   },
   {
@@ -1581,12 +1581,12 @@
     "StrengthType": 3,
     "NameTextId": 2130251,
     "IntroTextId": 2230251,
-    "Speed": 40.0,
+    "Speed": 41.8,
     "AttackMode": 2,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 200,
+    "MonsterSpacing": 160,
     "SkillNum": 0
   },
   {
@@ -1596,12 +1596,12 @@
     "StrengthType": 1,
     "NameTextId": 2110341,
     "IntroTextId": 2210341,
-    "Speed": 80.0,
+    "Speed": 83.6,
     "AttackMode": 1,
     "AttackDistance": -999,
-    "AttackSpeed": 1.5,
+    "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 80,
+    "MonsterSpacing": 64,
     "SkillNum": 0
   },
   {
@@ -1611,12 +1611,12 @@
     "StrengthType": 1,
     "NameTextId": 2110342,
     "IntroTextId": 2210342,
-    "Speed": 75.0,
+    "Speed": 78.375,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 80,
+    "MonsterSpacing": 64,
     "SkillNum": 0
   },
   {
@@ -1626,12 +1626,12 @@
     "StrengthType": 1,
     "NameTextId": 2110351,
     "IntroTextId": 2210351,
-    "Speed": 120.0,
+    "Speed": 125.4,
     "AttackMode": 1,
     "AttackDistance": -999,
-    "AttackSpeed": 2.0,
+    "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 80,
+    "MonsterSpacing": 64,
     "SkillNum": 0
   },
   {
@@ -1641,12 +1641,12 @@
     "StrengthType": 1,
     "NameTextId": 2110361,
     "IntroTextId": 2210361,
-    "Speed": 70.0,
+    "Speed": 73.15,
     "AttackMode": 1,
     "AttackDistance": -999,
-    "AttackSpeed": 1.2,
+    "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 80,
+    "MonsterSpacing": 64,
     "SkillNum": 0
   },
   {
@@ -1656,12 +1656,12 @@
     "StrengthType": 1,
     "NameTextId": 2110411,
     "IntroTextId": 2210411,
-    "Speed": 130.0,
+    "Speed": 135.85,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 80,
+    "MonsterSpacing": 64,
     "SkillNum": 0
   },
   {
@@ -1671,12 +1671,12 @@
     "StrengthType": 1,
     "NameTextId": 2210421,
     "IntroTextId": 2210421,
-    "Speed": 74.0,
+    "Speed": 77.33,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 80,
+    "MonsterSpacing": 64,
     "SkillNum": 0
   },
   {
@@ -1686,12 +1686,12 @@
     "StrengthType": 1,
     "NameTextId": 2110422,
     "IntroTextId": 2210422,
-    "Speed": 74.0,
+    "Speed": 77.33,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 80,
+    "MonsterSpacing": 64,
     "SkillNum": 0
   },
   {
@@ -1701,12 +1701,12 @@
     "StrengthType": 1,
     "NameTextId": 2110431,
     "IntroTextId": 2210431,
-    "Speed": 78.0,
+    "Speed": 81.51,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 80,
+    "MonsterSpacing": 64,
     "SkillNum": 0
   },
   {
@@ -1716,12 +1716,12 @@
     "StrengthType": 1,
     "NameTextId": 2110441,
     "IntroTextId": 2210441,
-    "Speed": 83.0,
+    "Speed": 86.735,
     "AttackMode": 2,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 80,
+    "MonsterSpacing": 64,
     "SkillNum": 0
   },
   {
@@ -1731,12 +1731,12 @@
     "StrengthType": 1,
     "NameTextId": 2110461,
     "IntroTextId": 2210461,
-    "Speed": 78.0,
+    "Speed": 81.51,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 80,
+    "MonsterSpacing": 64,
     "SkillNum": 0
   },
   {
@@ -1746,12 +1746,12 @@
     "StrengthType": 1,
     "NameTextId": 2110471,
     "IntroTextId": 2210471,
-    "Speed": 82.0,
+    "Speed": 85.69,
     "AttackMode": 2,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 80,
+    "MonsterSpacing": 64,
     "SkillNum": 0
   },
   {
@@ -1761,12 +1761,12 @@
     "StrengthType": 1,
     "NameTextId": 2110481,
     "IntroTextId": 2210481,
-    "Speed": 68.0,
+    "Speed": 71.06,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 80,
+    "MonsterSpacing": 64,
     "SkillNum": 0
   },
   {
@@ -1776,12 +1776,12 @@
     "StrengthType": 1,
     "NameTextId": 2110491,
     "IntroTextId": 2210491,
-    "Speed": 80.0,
+    "Speed": 83.6,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 80,
+    "MonsterSpacing": 64,
     "SkillNum": 0
   },
   {
@@ -1791,12 +1791,12 @@
     "StrengthType": 1,
     "NameTextId": 2110501,
     "IntroTextId": 2210501,
-    "Speed": 135.0,
+    "Speed": 141.075,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 80,
+    "MonsterSpacing": 64,
     "SkillNum": 0
   },
   {
@@ -1806,12 +1806,12 @@
     "StrengthType": 1,
     "NameTextId": 2110511,
     "IntroTextId": 2210511,
-    "Speed": 65.0,
+    "Speed": 67.925,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 80,
+    "MonsterSpacing": 64,
     "SkillNum": 0
   },
   {
@@ -1821,12 +1821,12 @@
     "StrengthType": 1,
     "NameTextId": 2110512,
     "IntroTextId": 2210512,
-    "Speed": 73.0,
+    "Speed": 76.285,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 80,
+    "MonsterSpacing": 64,
     "SkillNum": 0
   },
   {
@@ -1836,12 +1836,12 @@
     "StrengthType": 1,
     "NameTextId": 2110521,
     "IntroTextId": 2210521,
-    "Speed": 85.0,
+    "Speed": 88.825,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 80,
+    "MonsterSpacing": 64,
     "SkillNum": 0
   },
   {
@@ -1851,12 +1851,12 @@
     "StrengthType": 1,
     "NameTextId": 2110531,
     "IntroTextId": 2210531,
-    "Speed": 75.0,
+    "Speed": 78.375,
     "AttackMode": 2,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 80,
+    "MonsterSpacing": 64,
     "SkillNum": 0
   },
   {
@@ -1866,12 +1866,12 @@
     "StrengthType": 1,
     "NameTextId": 2110541,
     "IntroTextId": 2210541,
-    "Speed": 115.0,
+    "Speed": 120.175,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 80,
+    "MonsterSpacing": 64,
     "SkillNum": 0
   },
   {
@@ -1881,12 +1881,12 @@
     "StrengthType": 1,
     "NameTextId": 2110551,
     "IntroTextId": 2210551,
-    "Speed": 82.0,
+    "Speed": 85.69,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 80,
+    "MonsterSpacing": 64,
     "SkillNum": 0
   },
   {
@@ -1896,12 +1896,12 @@
     "StrengthType": 1,
     "NameTextId": 2110561,
     "IntroTextId": 2210561,
-    "Speed": 78.0,
+    "Speed": 81.51,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 80,
+    "MonsterSpacing": 64,
     "SkillNum": 0
   },
   {
@@ -1911,12 +1911,12 @@
     "StrengthType": 1,
     "NameTextId": 2110571,
     "IntroTextId": 2210571,
-    "Speed": 85.0,
+    "Speed": 88.825,
     "AttackMode": 2,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 80,
+    "MonsterSpacing": 64,
     "SkillNum": 0
   },
   {
@@ -1926,12 +1926,12 @@
     "StrengthType": 1,
     "NameTextId": 2110581,
     "IntroTextId": 2210581,
-    "Speed": 80.0,
+    "Speed": 83.6,
     "AttackMode": 2,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 80,
+    "MonsterSpacing": 64,
     "SkillNum": 0
   },
   {
@@ -1941,12 +1941,12 @@
     "StrengthType": 1,
     "NameTextId": 2110593,
     "IntroTextId": 2210593,
-    "Speed": 80.0,
+    "Speed": 83.6,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 80,
+    "MonsterSpacing": 64,
     "SkillNum": 0
   },
   {
@@ -1956,12 +1956,12 @@
     "StrengthType": 1,
     "NameTextId": 2110601,
     "IntroTextId": 2210601,
-    "Speed": 60.0,
+    "Speed": 62.7,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 80,
+    "MonsterSpacing": 64,
     "SkillNum": 0
   },
   {
@@ -1971,12 +1971,12 @@
     "StrengthType": 1,
     "NameTextId": 2110611,
     "IntroTextId": 2210611,
-    "Speed": 75.0,
+    "Speed": 78.375,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 80,
+    "MonsterSpacing": 64,
     "SkillNum": 0
   },
   {
@@ -1986,12 +1986,12 @@
     "StrengthType": 1,
     "NameTextId": 2110621,
     "IntroTextId": 2210621,
-    "Speed": 80.0,
+    "Speed": 83.6,
     "AttackMode": 2,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 80,
+    "MonsterSpacing": 64,
     "SkillNum": 0
   },
   {
@@ -2001,12 +2001,12 @@
     "StrengthType": 2,
     "NameTextId": 2120371,
     "IntroTextId": 2220371,
-    "Speed": 55.0,
+    "Speed": 57.475,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 150,
+    "MonsterSpacing": 120,
     "SkillNum": 1
   },
   {
@@ -2016,12 +2016,12 @@
     "StrengthType": 2,
     "NameTextId": 2120641,
     "IntroTextId": 2220641,
-    "Speed": 76.0,
+    "Speed": 79.42,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 0.8,
     "Scale": 0.7,
-    "MonsterSpacing": 150,
+    "MonsterSpacing": 120,
     "SkillNum": 1
   },
   {
@@ -2031,12 +2031,12 @@
     "StrengthType": 2,
     "NameTextId": 2120651,
     "IntroTextId": 2220651,
-    "Speed": 72.0,
+    "Speed": 75.24,
     "AttackMode": 2,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 150,
+    "MonsterSpacing": 120,
     "SkillNum": 1
   },
   {
@@ -2046,12 +2046,12 @@
     "StrengthType": 2,
     "NameTextId": 2120661,
     "IntroTextId": 2220661,
-    "Speed": 86.0,
+    "Speed": 89.87,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 150,
+    "MonsterSpacing": 120,
     "SkillNum": 1
   },
   {
@@ -2061,12 +2061,12 @@
     "StrengthType": 2,
     "NameTextId": 2120671,
     "IntroTextId": 2220671,
-    "Speed": 78.0,
+    "Speed": 81.51,
     "AttackMode": 2,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 150,
+    "MonsterSpacing": 120,
     "SkillNum": 1
   },
   {
@@ -2076,12 +2076,12 @@
     "StrengthType": 2,
     "NameTextId": 2120681,
     "IntroTextId": 2220681,
-    "Speed": 65.0,
+    "Speed": 67.925,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 150,
+    "MonsterSpacing": 120,
     "SkillNum": 1
   },
   {
@@ -2091,12 +2091,12 @@
     "StrengthType": 2,
     "NameTextId": 2120691,
     "IntroTextId": 2220691,
-    "Speed": 78.0,
+    "Speed": 81.51,
     "AttackMode": 2,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 150,
+    "MonsterSpacing": 120,
     "SkillNum": 1
   },
   {
@@ -2106,12 +2106,12 @@
     "StrengthType": 2,
     "NameTextId": 2120701,
     "IntroTextId": 2220701,
-    "Speed": 60.0,
+    "Speed": 62.7,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 150,
+    "MonsterSpacing": 120,
     "SkillNum": 1
   },
   {
@@ -2121,12 +2121,12 @@
     "StrengthType": 2,
     "NameTextId": 2120711,
     "IntroTextId": 2220711,
-    "Speed": 90.0,
+    "Speed": 94.05,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 150,
+    "MonsterSpacing": 120,
     "SkillNum": 1
   },
   {
@@ -2136,12 +2136,12 @@
     "StrengthType": 2,
     "NameTextId": 2120721,
     "IntroTextId": 2220721,
-    "Speed": 78.0,
+    "Speed": 81.51,
     "AttackMode": 2,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 150,
+    "MonsterSpacing": 120,
     "SkillNum": 1
   },
   {
@@ -2151,12 +2151,12 @@
     "StrengthType": 2,
     "NameTextId": 2120731,
     "IntroTextId": 2220731,
-    "Speed": 80.0,
+    "Speed": 83.6,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 150,
+    "MonsterSpacing": 120,
     "SkillNum": 1
   },
   {
@@ -2166,12 +2166,12 @@
     "StrengthType": 2,
     "NameTextId": 2120741,
     "IntroTextId": 2220741,
-    "Speed": 80.0,
+    "Speed": 83.6,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 150,
+    "MonsterSpacing": 120,
     "SkillNum": 1
   },
   {
@@ -2181,12 +2181,12 @@
     "StrengthType": 2,
     "NameTextId": 2120751,
     "IntroTextId": 2220751,
-    "Speed": 70.0,
+    "Speed": 73.15,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 150,
+    "MonsterSpacing": 120,
     "SkillNum": 1
   },
   {
@@ -2196,12 +2196,12 @@
     "StrengthType": 2,
     "NameTextId": 2120761,
     "IntroTextId": 2220761,
-    "Speed": 80.0,
+    "Speed": 83.6,
     "AttackMode": 2,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 150,
+    "MonsterSpacing": 120,
     "SkillNum": 1
   },
   {
@@ -2211,12 +2211,12 @@
     "StrengthType": 2,
     "NameTextId": 2120771,
     "IntroTextId": 2220771,
-    "Speed": 68.0,
+    "Speed": 71.06,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 150,
+    "MonsterSpacing": 120,
     "SkillNum": 1
   },
   {
@@ -2226,12 +2226,12 @@
     "StrengthType": 2,
     "NameTextId": 2120772,
     "IntroTextId": 2220772,
-    "Speed": 65.0,
+    "Speed": 67.925,
     "AttackMode": 1,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 150,
+    "MonsterSpacing": 120,
     "SkillNum": 1
   },
   {
@@ -2241,12 +2241,12 @@
     "StrengthType": 2,
     "NameTextId": 2120781,
     "IntroTextId": 2220781,
-    "Speed": 80.0,
+    "Speed": 83.6,
     "AttackMode": 2,
     "AttackDistance": -999,
     "AttackSpeed": 1.0,
     "Scale": 0.7,
-    "MonsterSpacing": 150,
+    "MonsterSpacing": 120,
     "SkillNum": 1
   },
   {
@@ -2256,12 +2256,12 @@
     "StrengthType": 3,
     "NameTextId": 2130381,
     "IntroTextId": 2230381,
-    "Speed": 40.0,
+    "Speed": 41.8,
     "AttackMode": 2,
     "AttackDistance": 500,
     "AttackSpeed": 0.7,
     "Scale": 1.0,
-    "MonsterSpacing": 300,
+    "MonsterSpacing": 240,
     "SkillNum": 1
   },
   {
@@ -2271,12 +2271,12 @@
     "StrengthType": 3,
     "NameTextId": 2130391,
     "IntroTextId": 2230391,
-    "Speed": 40.0,
+    "Speed": 41.8,
     "AttackMode": 2,
     "AttackDistance": 500,
     "AttackSpeed": 0.8,
     "Scale": 1.0,
-    "MonsterSpacing": 300,
+    "MonsterSpacing": 240,
     "SkillNum": 1
   },
   {
@@ -2286,12 +2286,12 @@
     "StrengthType": 3,
     "NameTextId": 2130801,
     "IntroTextId": 2230801,
-    "Speed": 80.0,
+    "Speed": 83.6,
     "AttackMode": 2,
     "AttackDistance": 500,
     "AttackSpeed": 0.7,
     "Scale": 1.0,
-    "MonsterSpacing": 300,
+    "MonsterSpacing": 240,
     "SkillNum": 2
   },
   {
@@ -2301,12 +2301,12 @@
     "StrengthType": 3,
     "NameTextId": 2130811,
     "IntroTextId": 2230811,
-    "Speed": 80.0,
+    "Speed": 83.6,
     "AttackMode": 2,
     "AttackDistance": 500,
     "AttackSpeed": 0.65,
     "Scale": 1.0,
-    "MonsterSpacing": 300,
+    "MonsterSpacing": 240,
     "SkillNum": 2
   },
   {
@@ -2316,12 +2316,12 @@
     "StrengthType": 3,
     "NameTextId": 2130821,
     "IntroTextId": 2230821,
-    "Speed": 80.0,
+    "Speed": 83.6,
     "AttackMode": 2,
     "AttackDistance": 500,
     "AttackSpeed": 0.7,
     "Scale": 1.0,
-    "MonsterSpacing": 300,
+    "MonsterSpacing": 240,
     "SkillNum": 2
   },
   {
@@ -2331,12 +2331,12 @@
     "StrengthType": 3,
     "NameTextId": 2130831,
     "IntroTextId": 2230831,
-    "Speed": 80.0,
+    "Speed": 83.6,
     "AttackMode": 2,
     "AttackDistance": 500,
     "AttackSpeed": 0.7,
     "Scale": 1.0,
-    "MonsterSpacing": 300,
+    "MonsterSpacing": 240,
     "SkillNum": 2
   },
   {
@@ -2346,12 +2346,12 @@
     "StrengthType": 3,
     "NameTextId": 2130841,
     "IntroTextId": 2230841,
-    "Speed": 80.0,
+    "Speed": 83.6,
     "AttackMode": 2,
     "AttackDistance": 500,
     "AttackSpeed": 0.7,
     "Scale": 1.0,
-    "MonsterSpacing": 300,
+    "MonsterSpacing": 240,
     "SkillNum": 3
   },
   {
@@ -2361,12 +2361,12 @@
     "StrengthType": 3,
     "NameTextId": 2130851,
     "IntroTextId": 2230851,
-    "Speed": 80.0,
+    "Speed": 83.6,
     "AttackMode": 2,
     "AttackDistance": 500,
     "AttackSpeed": 0.7,
     "Scale": 1.0,
-    "MonsterSpacing": 300,
+    "MonsterSpacing": 240,
     "SkillNum": 3
   },
   {
@@ -2376,12 +2376,12 @@
     "StrengthType": 3,
     "NameTextId": 2130861,
     "IntroTextId": 2230861,
-    "Speed": 80.0,
+    "Speed": 83.6,
     "AttackMode": 2,
     "AttackDistance": 500,
     "AttackSpeed": 0.7,
     "Scale": 1.0,
-    "MonsterSpacing": 300,
+    "MonsterSpacing": 240,
     "SkillNum": 3
   },
   {
@@ -2391,12 +2391,12 @@
     "StrengthType": 3,
     "NameTextId": 2130871,
     "IntroTextId": 2230871,
-    "Speed": 80.0,
+    "Speed": 83.6,
     "AttackMode": 2,
     "AttackDistance": 500,
     "AttackSpeed": 0.9,
     "Scale": 1.0,
-    "MonsterSpacing": 300,
+    "MonsterSpacing": 240,
     "SkillNum": 4
   }
 ]
