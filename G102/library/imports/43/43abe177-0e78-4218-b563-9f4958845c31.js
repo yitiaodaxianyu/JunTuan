@@ -166,10 +166,6 @@ var Monster = /** @class */ (function (_super) {
         return _this;
     }
     Monster.prototype.onLoad = function () {
-        GameEffectsManager_1.GameEffectsManager.getInstance().addEffectPoolById(GameEffectsManager_1.GameEffectId.monster_normal_att, 8);
-        // GameEffectsManager.getInstance().addEffectPoolById(GameEffectId.boss1_att_move,2);
-        // GameEffectsManager.getInstance().addEffectPoolById(GameEffectId.boss1_att_end,2);
-        GameEffectsManager_1.GameEffectsManager.getInstance().addEffectPoolById(GameEffectsManager_1.GameEffectId.monster_die, 8);
         this.spine = this.node.getComponent(sp.Skeleton);
         this.loadInitPos();
         this.wall_yy = GameManager_1.default.getInstance().enemy_att_y;
@@ -486,17 +482,17 @@ var Monster = /** @class */ (function (_super) {
                 if (type == 1) {
                     data.feedback_type = MonsterData_1.FeedBackType.BaoJi;
                     data.text_type = EnemyConfig_1.Enemy_Injured_Type.BaoJi;
-                    damage = MonsterData_1.InjuredData.calcSkillCritDamageNum(heroData.total_attack, gjData.skill_damage_rate, finalDefense, heroData.skill_increase_damage + heroData.all_increase_damage, this.jianshang_rate, MonsterData_1.InjuredData.calcFinalExtraCrit(heroData.ExtraCritical, this.monster_data.AntiExtraCritical));
+                    damage = MonsterData_1.InjuredData.calcSkillCritDamageNum(heroData.total_attack, gjData.skill_damage_rate, finalDefense, heroData.skill_increase_damage + heroData.all_increase_damage + heroData.attack_increase_damage, this.jianshang_rate, MonsterData_1.InjuredData.calcFinalExtraCrit(heroData.ExtraCritical, this.monster_data.AntiExtraCritical));
                     if (!gm.is_show_text) {
                         gm.hp_text_manager.createTypeText(cc.v2(this.node.x, this.node.y + 60), data.text_type, null);
                     }
                 }
                 else {
-                    damage = MonsterData_1.InjuredData.calcSkillDamageNum(heroData.total_attack, gjData.skill_damage_rate, finalDefense, heroData.skill_increase_damage + heroData.all_increase_damage, this.jianshang_rate);
+                    damage = MonsterData_1.InjuredData.calcSkillDamageNum(heroData.total_attack, gjData.skill_damage_rate, finalDefense, heroData.skill_increase_damage + heroData.all_increase_damage + heroData.attack_increase_damage, this.jianshang_rate);
                 }
             }
             else {
-                damage = MonsterData_1.InjuredData.calcSkillDamageNum(heroData.total_attack, gjData.skill_damage_rate, finalDefense, heroData.skill_increase_damage + heroData.all_increase_damage, this.jianshang_rate);
+                damage = MonsterData_1.InjuredData.calcSkillDamageNum(heroData.total_attack, gjData.skill_damage_rate, finalDefense, heroData.skill_increase_damage + heroData.all_increase_damage + heroData.attack_increase_damage, this.jianshang_rate);
             }
             data.setDamageNum(damage);
             if (gjData.pet_id == 0) {

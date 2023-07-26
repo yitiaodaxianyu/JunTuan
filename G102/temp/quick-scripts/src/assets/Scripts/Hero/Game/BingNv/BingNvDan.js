@@ -37,6 +37,7 @@ var BingNvDan = /** @class */ (function (_super) {
     function BingNvDan() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         _this.bullect_type = 0;
+        _this.hero_lvl = 0;
         return _this;
     }
     BingNvDan.prototype.onLoad = function () {
@@ -75,7 +76,7 @@ var BingNvDan = /** @class */ (function (_super) {
                             monsterTs.addDeBuff(buffData, this.gongji_data);
                             GameManager_1.default.getInstance().sound_manager.playSound(AudioConstants_1.SoundIndex.YX_BNAttack);
                             /**范围伤害，不包括这个怪 */
-                            var monsters = MonsterManager_1.default.getInstance().getMonstersForCenterPos(-1, monsterTs.getCenterPos(), 200);
+                            var monsters = MonsterManager_1.default.getInstance().getMonstersForCenterPos(-1, monsterTs.getCenterPos(), 200 + this.hero_lvl * 20);
                             if (monsters) {
                                 var jiansuValue = this.gongji_data.hero_data.getSkillValue3(HeroConfig_1.SkillType.Passive_1);
                                 for (var i = 0; i < monsters.length; i++) {
@@ -89,7 +90,7 @@ var BingNvDan = /** @class */ (function (_super) {
                                                 buffData_1.buff_id = HeroConfig_1.BuffId.Hero_BingNv_Skill1_JianSu;
                                                 buffData_1.buff_type = HeroConfig_1.BuffType.Slowdown;
                                                 buffData_1.buff_value = [jiansuValue];
-                                                buffData_1.remain_time = 3;
+                                                buffData_1.remain_time = 3 + this.hero_lvl * 0.5;
                                                 monsterTTs.addDeBuff(buffData_1, this.gongji_data);
                                             }
                                         }

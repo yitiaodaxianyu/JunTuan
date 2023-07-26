@@ -368,7 +368,7 @@ var Wall = /** @class */ (function (_super) {
             this.node.addChild(shield.node);
             /**添加护盾特效 */
             if (gameEffectId != GameEffectsManager_1.GameEffectId.Null) {
-                var texiao = SkyManager_1.default.getInstance().createGameEffectById(gameEffectId, this.node.getPosition());
+                var texiao = GameEffectsManager_1.GameEffectsManager.getInstance().createGameEffectForParent(gameEffectId, cc.v2(0, 0), this.node);
                 shield.setGameEffectData(gameEffectId, texiao);
             }
         }
@@ -469,6 +469,10 @@ var Wall = /** @class */ (function (_super) {
             }
         }
         return false;
+    };
+    Wall.prototype.addHpBuff = function () {
+        var pos = cc.v2(Math.random() * 100 - 50, Math.random() * 50 - 25);
+        GameEffectsManager_1.GameEffectsManager.getInstance().createGameEffectForParent(GameEffectsManager_1.GameEffectId.monster_zhiliao_halo_hit, pos, this.node);
     };
     /**---------------------------------------------BUFF--------------------------------------------------- */
     Wall.prototype.addBuff = function (buffData) {

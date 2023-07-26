@@ -38,6 +38,7 @@ var UIComponent_1 = require("../../UI/UIComponent");
 var WallManager_1 = require("../../Wall/WallManager");
 var LanguageManager_1 = require("../../multiLanguage/LanguageManager");
 var CharioItem_1 = require("./CharioItem");
+var HeroUpItem_1 = require("./HeroUpItem");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var RoguelikeTip = /** @class */ (function (_super) {
     __extends(RoguelikeTip, _super);
@@ -52,9 +53,13 @@ var RoguelikeTip = /** @class */ (function (_super) {
         _this.hero_item = null; //英雄头像的预制体
         _this.hero_Chose = null; //选择英雄节点
         _this.chariot_Chose = null; //战车升级选择节点
+        _this.heroUp_Chose = null; //英雄升级选择节点
         _this.chariotItem0 = null; //战车升级选择节点0
         _this.chariotItem1 = null; //战车升级选择节点1
         _this.chariotItem2 = null; //战车升级选择节点2
+        _this.heroUpItem0 = null; //英雄升级选择节点0
+        _this.heroUpItem1 = null; //英雄升级选择节点1
+        _this.heroUpItem2 = null; //英雄升级选择节点2
         _this.greybuttonjudgment = 0;
         return _this;
         // update (dt) {}
@@ -67,16 +72,62 @@ var RoguelikeTip = /** @class */ (function (_super) {
         console.log("进入RogueLike");
         this.chariotUpgradation();
         this.Refreshheroitmestatus();
+        this.heroUpRefresh();
         this.chariotItem0.on(cc.Node.EventType.TOUCH_END, this.onCharioItemTouchEnd, this);
         this.chariotItem1.on(cc.Node.EventType.TOUCH_END, this.onCharioItemTouchEnd, this);
         this.chariotItem2.on(cc.Node.EventType.TOUCH_END, this.onCharioItemTouchEnd, this);
+        this.heroUpItem0.on(cc.Node.EventType.TOUCH_END, this.onHeroUpTouchEnd, this);
+        this.heroUpItem1.on(cc.Node.EventType.TOUCH_END, this.onHeroUpTouchEnd, this);
+        this.heroUpItem2.on(cc.Node.EventType.TOUCH_END, this.onHeroUpTouchEnd, this);
     };
     RoguelikeTip.prototype.onDestroy = function () {
         this.chariotItem0.off(cc.Node.EventType.TOUCH_END, this.onCharioItemTouchEnd, this);
         this.chariotItem1.off(cc.Node.EventType.TOUCH_END, this.onCharioItemTouchEnd, this);
         this.chariotItem2.off(cc.Node.EventType.TOUCH_END, this.onCharioItemTouchEnd, this);
+        this.heroUpItem0.off(cc.Node.EventType.TOUCH_END, this.onHeroUpTouchEnd, this);
+        this.heroUpItem1.off(cc.Node.EventType.TOUCH_END, this.onHeroUpTouchEnd, this);
+        this.heroUpItem2.off(cc.Node.EventType.TOUCH_END, this.onHeroUpTouchEnd, this);
+        cc.director.resume();
     };
     RoguelikeTip.prototype.onEnable = function () {
+    };
+    RoguelikeTip.prototype.heroUpRefresh = function () {
+        var heroHas = [];
+        GameManager_1.default.getInstance().all_hero.forEach(function (v, k) {
+            if (v.hero_lvl < 5) {
+                heroHas.push(v.hero_type);
+            }
+        });
+        console.log("拥有的可升级英雄" + heroHas.length);
+        this.heroUpItem0.x = -223;
+        this.heroUpItem1.x = 0;
+        this.heroUpItem2.x = 223;
+        this.heroUpItem1.active = true;
+        this.heroUpItem2.active = true;
+        heroHas.sort(function () {
+            return Math.random() - 0.5;
+        });
+        if (heroHas.length == 0) {
+            //没有可升级英雄，暂不处理
+        }
+        else if (heroHas.length == 1) {
+            this.heroUpItem0.x = 0;
+            this.heroUpItem1.active = false;
+            this.heroUpItem2.active = false;
+            this.heroUpItem0.getComponent(HeroUpItem_1.default).initData(heroHas[0]);
+        }
+        else if (heroHas.length == 2) {
+            this.heroUpItem0.x = -111.5;
+            this.heroUpItem1.x = 111.5;
+            this.heroUpItem2.active = false;
+            this.heroUpItem0.getComponent(HeroUpItem_1.default).initData(heroHas[0]);
+            this.heroUpItem1.getComponent(HeroUpItem_1.default).initData(heroHas[1]);
+        }
+        else {
+            this.heroUpItem0.getComponent(HeroUpItem_1.default).initData(heroHas[0]);
+            this.heroUpItem1.getComponent(HeroUpItem_1.default).initData(heroHas[1]);
+            this.heroUpItem2.getComponent(HeroUpItem_1.default).initData(heroHas[2]);
+        }
     };
     RoguelikeTip.prototype.chariotUpgradation = function () {
         var data = GameManager_1.default.getInstance().getcharioUpgradationData();
@@ -156,6 +207,17 @@ var RoguelikeTip = /** @class */ (function (_super) {
             }
         }
     };
+    RoguelikeTip.prototype.onHeroUpTouchEnd = function (e) {
+        var touchTarget = e.getCurrentTarget();
+        if (touchTarget.active == true) {
+            var heroType = touchTarget.getComponent(HeroUpItem_1.default).getDataType();
+            if (GameManager_1.default.getInstance().all_hero.get(heroType).hero_lvl < 5) {
+                GameManager_1.default.getInstance().all_hero.get(heroType).hero_lvl++;
+            }
+            this.heroUpRefresh();
+            this.clickBtnClose();
+        }
+    };
     RoguelikeTip.prototype.onCharioItemTouchEnd = function (e) {
         var touchTarget = e.getCurrentTarget();
         if (touchTarget.active == true) {
@@ -169,6 +231,7 @@ var RoguelikeTip = /** @class */ (function (_super) {
                 GameManager_1.default.getInstance().refreshMainWallDataByaddHero();
             }
             else if (charioType == 2) {
+                //攻速直接在英雄里面取
             }
             else if (charioType == 3) {
                 GameManager_1.default.getInstance().refreshMainWallDataByaddHero();
@@ -223,15 +286,18 @@ var RoguelikeTip = /** @class */ (function (_super) {
             this.tipLabel.getComponent(cc.Label).string = "选择一个英雄加入你的队伍。";
             this.hero_Chose.active = true;
             this.chariot_Chose.active = false;
+            this.heroUp_Chose.active = false;
         }
         else if (this.tag == 1) {
             this.hero_Chose.active = false;
             this.chariot_Chose.active = false;
-            this.tipLabel.getComponent(cc.Label).string = "选择一个技能加强你的英雄。";
+            this.heroUp_Chose.active = true;
+            this.tipLabel.getComponent(cc.Label).string = "选择一个英雄进行升级。";
         }
         else if (this.tag == 2) {
             this.hero_Chose.active = false;
             this.chariot_Chose.active = true;
+            this.heroUp_Chose.active = false;
             this.tipLabel.getComponent(cc.Label).string = "选择一个技能用于加强你的战车。";
         }
     };
@@ -262,6 +328,9 @@ var RoguelikeTip = /** @class */ (function (_super) {
     ], RoguelikeTip.prototype, "chariot_Chose", void 0);
     __decorate([
         property(cc.Node)
+    ], RoguelikeTip.prototype, "heroUp_Chose", void 0);
+    __decorate([
+        property(cc.Node)
     ], RoguelikeTip.prototype, "chariotItem0", void 0);
     __decorate([
         property(cc.Node)
@@ -269,6 +338,15 @@ var RoguelikeTip = /** @class */ (function (_super) {
     __decorate([
         property(cc.Node)
     ], RoguelikeTip.prototype, "chariotItem2", void 0);
+    __decorate([
+        property(cc.Node)
+    ], RoguelikeTip.prototype, "heroUpItem0", void 0);
+    __decorate([
+        property(cc.Node)
+    ], RoguelikeTip.prototype, "heroUpItem1", void 0);
+    __decorate([
+        property(cc.Node)
+    ], RoguelikeTip.prototype, "heroUpItem2", void 0);
     RoguelikeTip = __decorate([
         ccclass
     ], RoguelikeTip);

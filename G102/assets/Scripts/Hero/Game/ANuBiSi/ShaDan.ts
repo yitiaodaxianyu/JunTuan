@@ -17,7 +17,7 @@ const {ccclass, property} = cc._decorator;
 @ccclass
 export default class ShaDan extends Bullect {
 
-
+    public hero_lvl:number=0;
     onLoad(): void {
         super.onLoad();
         super.addCollisionMonsterListen(this.onCollisionMonster);
@@ -56,7 +56,7 @@ export default class ShaDan extends Bullect {
                                 let buffData=new BuffData();
                                 buffData.buff_id=BuffId.Hero_ANuBiSi_Skill1_JianSu;
                                 buffData.buff_type=BuffType.Slowdown;
-                                buffData.buff_value=[0.3];
+                                buffData.buff_value=[0.3+0.1*this.hero_lvl];
                                 buffData.remain_time=3;
                                 monsterTTs.addDeBuff(buffData,fanweiData);
                             }

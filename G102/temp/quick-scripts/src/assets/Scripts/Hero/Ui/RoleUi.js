@@ -613,7 +613,7 @@ var RoleUi = /** @class */ (function (_super) {
         var preview = bottom.getChildByName("preview");
         // let heroInfo = HM.getHeroInfo(this.hero_type);
         var heroBaseInfo = HeroBaseInfo_1.HeroBaseInfoManager.getInstance().getJsonHeroBaseInfo(this.hero_type);
-        var heroMaxLevel = heroBaseInfo.MaxLevel;
+        var heroMaxLevel = 240;
         var heroMaxStage = heroBaseInfo.MaxStage;
         var heroData = HM.getTargetHeroData(this.hero_type, heroMaxStage, heroMaxLevel);
         var zhanli = HM.getTargetHeroZhanli(this.hero_type, heroMaxStage, heroMaxLevel);
@@ -1124,6 +1124,12 @@ var RoleUi = /** @class */ (function (_super) {
         if (HeroManager_1.HeroManager.getInstance().getHeroLevel(this.hero_type) >= HeroBaseInfo_1.HeroBaseInfoManager.getInstance().getMaxLevel(this.hero_type)) {
             var str = LanguageManager_1.default.getInstance().getStrByTextId(120024);
             GameManager_1.default.getInstance().showMessage(str);
+            return;
+        }
+        var starLv = HeroAttribute_1.HeroAttributeManager.getInstance().getStarByHeroTypeAndStage(this.hero_type, HeroManager_1.HeroManager.getInstance().getHeroStage(this.hero_type));
+        console.log("当前英雄星级" + starLv);
+        if (HeroManager_1.HeroManager.getInstance().getHeroLevel(this.hero_type) >= HeroManager_1.HeroManager.getInstance().hero_stageList[starLv]) {
+            GameManager_1.default.getInstance().showMessage("已达到当前星级最高等级！");
             return;
         }
         var finishLevel = LevelManager_1.LevelManager.getInstance().finish_level;

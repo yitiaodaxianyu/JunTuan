@@ -84,6 +84,7 @@ export default class ShouWang extends Hero {
 
     createJianShi(id:GameEffectId,jianshiPos:cc.Vec2,speed:number,dir:number,gjData:GongJiData):cc.Node{
         let node=FightingManager.getInstance().createGameEffectById(id,jianshiPos);
+        node.getComponent(ShouWangJianShi).hero_lvl=this.hero_lvl;
         node.getComponent(ShouWangJianShi).init(id,speed,dir,gjData);
         return node;
     }
@@ -148,7 +149,8 @@ export default class ShouWang extends Hero {
     /**被动技能1触发判断 */
     checkSkill1(pos:cc.Vec2):boolean{
         let fangxiang=this.getSJFXByPos(pos,this.node.getPosition());
-        if(this.att_num>=3){            
+        //if(this.att_num>=3)
+        if(this.att_num>=0){            
             this.is_can_gongji=false;                    
             let data=new KeyFrameData();
             data.name="Attack";

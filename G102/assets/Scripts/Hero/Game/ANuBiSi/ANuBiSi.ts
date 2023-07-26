@@ -103,6 +103,7 @@ export default class ANuBiSi extends Hero {
 
     createShaDan(id:GameEffectId,jianshiPos:cc.Vec2,speed:number,dir:number,gjData:GongJiData):cc.Node{
         let node=FightingManager.getInstance().createGameEffectById(id,jianshiPos);
+        node.getComponent(ShaDan).hero_lvl=this.hero_lvl;
         node.getComponent(ShaDan).init(id,speed,dir,gjData);
         return node;
     }

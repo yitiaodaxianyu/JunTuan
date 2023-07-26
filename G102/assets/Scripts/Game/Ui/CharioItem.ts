@@ -30,7 +30,7 @@ export default class CharioItem extends cc.Component {
     }
     public initData(n: number): void {
         this.dataType = n;
-        this.labelLvl.string = "lv" + GameManager.getInstance().charioUpgradationData[n];
+        this.labelLvl.string = "lv" + (GameManager.getInstance().charioUpgradationData[n]+1);
         this.labelTip.string = GameManager.getInstance().charioTip[n];
         this.labelContent.string = GameManager.getInstance().charioContent[n];
     }

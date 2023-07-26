@@ -15,7 +15,7 @@ export default class StartScene extends cc.Component {
     start() {
         console.log("开始加载分包");
         // cc.director.loadScene("load");
-     
+       
         cc.loader.downloader.loadSubpackage('MainScript', function (err) {
             if (err) { 
                 console.error("加载分包失败");

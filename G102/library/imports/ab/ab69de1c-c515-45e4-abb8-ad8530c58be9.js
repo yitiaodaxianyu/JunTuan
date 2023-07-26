@@ -35,7 +35,9 @@ var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var ShaDan = /** @class */ (function (_super) {
     __extends(ShaDan, _super);
     function ShaDan() {
-        return _super !== null && _super.apply(this, arguments) || this;
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.hero_lvl = 0;
+        return _this;
     }
     ShaDan.prototype.onLoad = function () {
         _super.prototype.onLoad.call(this);
@@ -75,7 +77,7 @@ var ShaDan = /** @class */ (function (_super) {
                                 var buffData = new BuffData_1.BuffData();
                                 buffData.buff_id = HeroConfig_1.BuffId.Hero_ANuBiSi_Skill1_JianSu;
                                 buffData.buff_type = HeroConfig_1.BuffType.Slowdown;
-                                buffData.buff_value = [0.3];
+                                buffData.buff_value = [0.3 + 0.1 * this.hero_lvl];
                                 buffData.remain_time = 3;
                                 monsterTTs.addDeBuff(buffData, fanweiData);
                             }

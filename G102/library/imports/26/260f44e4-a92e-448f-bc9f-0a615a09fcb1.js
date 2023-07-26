@@ -36,6 +36,7 @@ var ShouWangJianShi = /** @class */ (function (_super) {
         _this.penetration_num = 0;
         /**原来的增伤数值 */
         _this.old_skill_rate = 0;
+        _this.hero_lvl = 0;
         return _this;
     }
     ShouWangJianShi.prototype.onLoad = function () {
@@ -66,6 +67,10 @@ var ShouWangJianShi = /** @class */ (function (_super) {
                 case HeroConfig_1.JianShi_Type.jineng:
                     {
                         //被动技能1的箭矢，可以穿透，并且首个目标伤害增加
+                        //游戏中自身等级个数决定穿透几个
+                        if (this.penetration_num >= (3 + this.hero_lvl)) {
+                            this.destroySelf();
+                        }
                         if (this.penetration_num == 0) {
                             this.gongji_data.skill_damage_rate = 1;
                         }

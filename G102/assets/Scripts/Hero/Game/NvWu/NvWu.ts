@@ -66,6 +66,7 @@ export default class NvWu extends Hero {
 
     createNvWuDan(id:GameEffectId,jianshiPos:cc.Vec2,speed:number,dir:number,gjData:GongJiData){
         let node=FightingManager.getInstance().createGameEffectById(id,jianshiPos);
+        node.getComponent(NvWuDan).hero_lvl=this.hero_lvl;
         node.getComponent(NvWuDan).init(id,speed,dir,gjData);
     }   
 

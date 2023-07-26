@@ -154,7 +154,7 @@ export default class SheShou extends Hero {
                 //let angle=MyTool.radianToAngle(radian);
                 //弧形范围,最大30°，间隔3°
                 let huduFanWei=Math.PI/60;
-                let allNum=this.hero_data.getSkillValue2(SkillType.Passive_1);
+                let allNum=this.hero_data.getSkillValue2(SkillType.Passive_1)+this.hero_lvl;
                 let waveNum=Math.floor(allNum/10)+1;
                 if(allNum%10==0){
                     waveNum--;

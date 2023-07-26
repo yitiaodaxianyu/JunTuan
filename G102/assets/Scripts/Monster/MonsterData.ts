@@ -194,7 +194,7 @@ export class InjuredData{
      */
     static calcNormalDamageNum(attack:number,defense:number,zengShang:number,jianShang:number):number{
         //（攻方攻击力*（1±3%）-防方防御力）*（1+攻方增伤率）*（1-防方减伤率）实际普攻伤害低于5时，触发保底机制，随机造成5~10点伤害      
-        console.log("普通攻击增伤"+zengShang);
+        
           
         let randNum=Math.random()*0.03;
         attack=Math.random()>0.5?(attack*(1-randNum)):(attack*(1+randNum));

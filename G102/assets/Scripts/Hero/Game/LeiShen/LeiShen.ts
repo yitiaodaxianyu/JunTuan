@@ -112,7 +112,7 @@ export default class LeiShen extends Hero {
     }
 
     onEndMonster(endMonster:Monster){        
-        let tansheNum=this.hero_data.getSkillValue1(SkillType.Passive_1);
+        let tansheNum=this.hero_data.getSkillValue1(SkillType.Passive_1)+this.hero_lvl;
         if(this.shandian_monster.length<tansheNum){
             let nextMonster=this.getMonster(endMonster.getCenterPos());
             if(nextMonster){

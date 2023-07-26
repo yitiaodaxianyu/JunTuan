@@ -46,7 +46,7 @@ var CharioItem = /** @class */ (function (_super) {
     };
     CharioItem.prototype.initData = function (n) {
         this.dataType = n;
-        this.labelLvl.string = "lv" + GameManager_1.default.getInstance().charioUpgradationData[n];
+        this.labelLvl.string = "lv" + (GameManager_1.default.getInstance().charioUpgradationData[n] + 1);
         this.labelTip.string = GameManager_1.default.getInstance().charioTip[n];
         this.labelContent.string = GameManager_1.default.getInstance().charioContent[n];
     };

@@ -114,6 +114,7 @@ var ANuBiSi = /** @class */ (function (_super) {
     };
     ANuBiSi.prototype.createShaDan = function (id, jianshiPos, speed, dir, gjData) {
         var node = FightingManager_1.default.getInstance().createGameEffectById(id, jianshiPos);
+        node.getComponent(ShaDan_1.default).hero_lvl = this.hero_lvl;
         node.getComponent(ShaDan_1.default).init(id, speed, dir, gjData);
         return node;
     };

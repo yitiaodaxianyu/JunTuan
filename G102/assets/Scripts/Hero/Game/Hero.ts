@@ -43,7 +43,7 @@ export default class Hero extends cc.Component {
     cur_load_num: number = 0;
     need_load_num: number = 0;
 
-    is_LoadLoad:boolean=false;//异步加载资源锁
+    is_LoadLoad: boolean = false;//异步加载资源锁
 
     @property({ type: cc.Enum(Hero_Type) })
     hero_type: Hero_Type = Hero_Type.ChangMaoShou;
@@ -76,7 +76,9 @@ export default class Hero extends cc.Component {
     //消耗的MP值
     cost_mp: number = 20;
     //英雄位置
-    posIndex:number=-1;
+    posIndex: number = -1;
+    //游戏内的等级
+    hero_lvl: number = 0;
     mp_progress: MpProgress = null;
     /**英雄当前拥有的buff */
     protected hero_buff: Map<BuffId, BuffTimer> = null;
@@ -153,7 +155,7 @@ export default class Hero extends cc.Component {
     //----------------------------------------------LOAD---------------------------------------------
     protected onLoad() {
         GameManager.getInstance().all_hero.set(this.hero_type, this);
-   
+
         this.spine = this.node.getComponent(sp.Skeleton);
         //this.setSkin();
         this.touchListen();
@@ -180,6 +182,7 @@ export default class Hero extends cc.Component {
     protected start() {
         //加载数据
         this.hero_data = GameManager.getInstance().game_hero_data.get(this.hero_type);
+        this.hero_lvl=0;
         GameManager.getInstance().refreshMainWallDataByaddHero()
         this.bullet_speed = HeroBaseInfoManager.getInstance().getBaseBulletSpeed(this.hero_type);
         this.gongji_jishu = this.hero_data.gongji_jiange;
@@ -357,13 +360,14 @@ export default class Hero extends cc.Component {
     }
 
     addLoadByGameEffectId(id: GameEffectId, initCount: number) {
-        
+
         this.need_load_num++;
-       
+        
+        
         if (GameEffectsManager.getInstance().addEffectPoolById(id, initCount, () => {
             this.cur_load_num++;
-         
-            if (this.cur_load_num >= this.need_load_num&&this.is_LoadLoad==true) {
+
+            if (this.cur_load_num >= this.need_load_num && this.is_LoadLoad == true) {
                 if (this.is_load_ok == false) {
                     this.is_load_ok = true;
                     Hero.cur_loaded_num++;
@@ -373,8 +377,8 @@ export default class Hero extends cc.Component {
                 }
             }
         }) == true) {
-           
-         
+
+
         }
     }
 
@@ -432,7 +436,7 @@ export default class Hero extends cc.Component {
         this.setHeroState(Hero_State.idle, GongJi_FangXiang.zhong);
         this.node.opacity = 255;
         this.node_shadow.opacity = 255;
-        this.mp_progress.show();
+        //this.mp_progress.show();
     }
     posX: number = 0;//初始化时候的位置
     targetX: number = 0;
@@ -651,7 +655,7 @@ export default class Hero extends cc.Component {
     startAutoRelease(): boolean {
         //找怪，找不到就不放
         let enemys = MonsterManager.getInstance().getMonstersForNearestBySkill(1, this.node.y, this.casting_distance);
-        if (enemys) {
+        if (this.cur_load_num >= this.need_load_num && this.is_LoadLoad == true&&enemys) {
             //最前的敌人
             let enemyPos = enemys[0].getComponent(Monster).getCenterPos();
             this.releaseSkill(enemyPos);
@@ -928,7 +932,7 @@ export default class Hero extends cc.Component {
                     return false;
                 }
                 if (this.hero_type != Hero_Type.ZhenDe) {
-                    this.mp_progress.setDisable(true);
+                    //this.mp_progress.setDisable(true);
                     SkillManager.getInstance().hideSkillRange();
                     this.skill_tip.node.active = false;
                 }
@@ -1016,7 +1020,7 @@ export default class Hero extends cc.Component {
         switch (buffData.buff_id) {
             case BuffId.Monster_XuanYun: {
                 if (this.hero_type != Hero_Type.ZhenDe)
-                    this.mp_progress.setDisable(false);
+                    // this.mp_progress.setDisable(false);
                 this.gongji_jishu = 0;
                 this.spine.paused = false;
                 this.is_can_touch = true;
@@ -1334,7 +1338,7 @@ export default class Hero extends cc.Component {
     getGongJiData(damageType: DamageType, isBullet: boolean, skillType: SkillType, skillRate: number = 1, continuousRate: number = 0): GongJiData {
         let gjData = new GongJiData();
         gjData.hero_data = cc.instantiate(this.hero_data);
-        gjData.hero_data.attack_increase_damage=GameManager.getInstance().getCharioAttackRotio();
+        gjData.hero_data.attack_increase_damage = GameManager.getInstance().getCharioAttackRotio() + this.getLvlGonji();
         gjData.is_bullet = isBullet;
         gjData.damage_type = damageType;
         gjData.hero_type = this.hero_type;
@@ -1350,7 +1354,45 @@ export default class Hero extends cc.Component {
         }
         return gjData;
     }
+    //获取因为游戏内等级变化导致的额外攻击力
+    getLvlGonji(): number {
+        let numGongji: number = 0;
+        if (this.hero_type == Hero_Type.ChangMaoShou) {
+            numGongji = this.hero_lvl * 0.05;
+            if (this.isHaveBuff(BuffId.Hero_ChangMaoShow_GongSu)) {
+                numGongji += this.hero_lvl * 0.05;
+            }
 
+        } else if (this.hero_type == Hero_Type.ShouWang) {
+            numGongji = this.hero_lvl * 0.05;
+        } else if (this.hero_type == Hero_Type.PaoShou) {
+            numGongji = this.hero_lvl * 0.05;
+        } else if (this.hero_type == Hero_Type.DeLuYi) {
+            numGongji = this.hero_lvl * 0.05;
+        } else if (this.hero_type == Hero_Type.KuangZhanShi) {
+            numGongji = this.hero_lvl * 0.1;
+            if (this.isHaveBuff(BuffId.Hero_KuangZhanShi_DaZhao)) {
+                numGongji += this.hero_lvl *0.1;
+            }
+        } else if (this.hero_type == Hero_Type.ZhenDe) {
+            numGongji = this.hero_lvl * 0.1;
+        } else if (this.hero_type == Hero_Type.NvWu) {
+            numGongji = this.hero_lvl * 0.1;
+        } else if (this.hero_type == Hero_Type.GongJianShou) {
+            numGongji = this.hero_lvl * 0.1;
+        } else if (this.hero_type == Hero_Type.BingNv) {
+            numGongji = this.hero_lvl * 0.15;
+        } else if (this.hero_type == Hero_Type.ANuBiSi) {
+            numGongji = this.hero_lvl * 0.15;
+        } else if (this.hero_type == Hero_Type.MeiMo) {
+            numGongji = this.hero_lvl * 0.15;
+        } else if (this.hero_type == Hero_Type.LeiShen) {
+            numGongji = this.hero_lvl * 0.15;
+        }
+
+        return numGongji;
+
+    }
     onDamageMonster(damageType: DamageType, isCrit: boolean, monster: cc.Node) {
         if (damageType == DamageType.Normal) {
             if (this.pet) {
@@ -1417,10 +1459,10 @@ export default class Hero extends cc.Component {
 
         let vx: number = (this.targetX - this.node.x) * this.easing;
         this.node.x += vx;
-        if(this.posIndex==2){
-            GameManager.getInstance().charPosX=this.node.x;
+        if (this.posIndex == 2) {
+            GameManager.getInstance().charPosX = this.node.x;
         }
-        if(this.node_shadow){
+        if (this.node_shadow) {
             this.node_shadow.setPosition(cc.v2(this.node.x + this.pos.x * this.setup_scale, this.node.y + this.pos.y * this.setup_scale));
         }
         // switch (this.speedType) {
@@ -1469,7 +1511,7 @@ export default class Hero extends cc.Component {
         //自动攻击
         if (this.is_can_gongji && this.getHeroState() != Hero_State.skill) {
             this.is_can_gongji = false;
-            let monsters = MonsterManager.getInstance().getMonstersForNearest(this.max_gongji_num, this.node.getPosition(), this.hero_data.gongji_fanwei,this.posIndex);
+            let monsters = MonsterManager.getInstance().getMonstersForNearest(this.max_gongji_num, this.node.getPosition(), this.hero_data.gongji_fanwei, this.posIndex);
             if (monsters) {
                 this.gongji_jishu = 0;
                 this.is_can_gongji = true;

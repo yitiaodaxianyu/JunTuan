@@ -114,7 +114,7 @@ var HeroBaseInfoManager = /** @class */ (function () {
     };
     /**根据英雄ID获取最大等级 */
     HeroBaseInfoManager.prototype.getMaxLevel = function (id) {
-        return this.data.get(id).MaxLevel;
+        return 240;
     };
     /**根据英雄ID获取技能数量 */
     HeroBaseInfoManager.prototype.getSkillNum = function (id) {

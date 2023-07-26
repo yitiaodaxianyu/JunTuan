@@ -1,7 +1,7 @@
 import { GameState, JiaSu } from "../Constants";
 import { Enemy_Injured_Type } from "../Enemy/EnemyConfig";
 import BuffStateManager from "../Game/BuffStateManager";
-import { GameEffectId } from "../Game/GameEffectsManager";
+import { GameEffectId, GameEffectsManager } from "../Game/GameEffectsManager";
 import SkyManager from "../Game/SkyManager";
 import GameManager from "../GameManager";
 import { BuffData } from "../Hero/Game/BuffData";
@@ -348,7 +348,7 @@ export default class Wall extends cc.Component {
             this.node.addChild(shield.node);
             /**添加护盾特效 */
             if(gameEffectId!=GameEffectId.Null){
-                let texiao=SkyManager.getInstance().createGameEffectById(gameEffectId,this.node.getPosition());
+                let texiao=GameEffectsManager.getInstance().createGameEffectForParent(gameEffectId,cc.v2(0,0),this.node);
                 shield.setGameEffectData(gameEffectId,texiao);
             }                        
         }
@@ -455,7 +455,10 @@ export default class Wall extends cc.Component {
         }
         return false;
     }
-
+    addHpBuff():void{
+        let pos=cc.v2(Math.random()*100-50,Math.random()*50-25);
+        GameEffectsManager.getInstance().createGameEffectForParent(GameEffectId.monster_zhiliao_halo_hit,pos,this.node);
+    }
     /**---------------------------------------------BUFF--------------------------------------------------- */
     addBuff(buffData:BuffData): BuffTimer {
         let buffId=buffData.buff_id;

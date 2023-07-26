@@ -41,8 +41,8 @@ var MapNodePool = /** @class */ (function (_super) {
     };
     /**根据id和资源目录 新建一个对象池,返回是否需要加载*/
     MapNodePool.prototype.addNodePool = function (id, path, initCount, loadCallback) {
-        var _this = this;
         //如果已经添加了，那么就不继续添加了
+        var _this = this;
         if (this.map_node_pools.has(id)) {
             if (loadCallback) {
                 loadCallback();

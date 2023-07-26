@@ -63,10 +63,12 @@ var ArmorWarrior = /** @class */ (function (_super) {
         _this.skill_use_num = 0;
         _this.skill_waiting = false;
         _this.skill_cd = 0;
+        _this.effcomp = false;
         return _this;
     }
     ArmorWarrior.prototype.onLoad = function () {
         _super.prototype.onLoad.call(this);
+        this.effcomp = false;
         GameEffectsManager_1.GameEffectsManager.getInstance().addEffectPoolById(GameEffectsManager_1.GameEffectId.xuanyun, 2);
         GameEffectsManager_1.GameEffectsManager.getInstance().addEffectPoolById(GameEffectsManager_1.GameEffectId.boss2_normal_att, 1);
         GameEffectsManager_1.GameEffectsManager.getInstance().addEffectPoolById(GameEffectsManager_1.GameEffectId.boss2_normal_att_hit1, 1);
@@ -76,6 +78,19 @@ var ArmorWarrior = /** @class */ (function (_super) {
         this.addXuanYunListen(this.onXuanYunResult);
         this.addBossInitedListen(this.onBossInited);
         this.addChangeBossHpListen(this.onChangeHp);
+    };
+    ArmorWarrior.prototype.isEffCom = function () {
+        if (this.effcomp == true) {
+            return this.effcomp;
+        }
+        if (GameEffectsManager_1.GameEffectsManager.getInstance().map_node_pools.has(GameEffectsManager_1.GameEffectId.xuanyun) &&
+            GameEffectsManager_1.GameEffectsManager.getInstance().map_node_pools.has(GameEffectsManager_1.GameEffectId.boss2_normal_att) &&
+            GameEffectsManager_1.GameEffectsManager.getInstance().map_node_pools.has(GameEffectsManager_1.GameEffectId.boss2_normal_att_hit1) &&
+            GameEffectsManager_1.GameEffectsManager.getInstance().map_node_pools.has(GameEffectsManager_1.GameEffectId.boss2_normal_skill) &&
+            GameEffectsManager_1.GameEffectsManager.getInstance().map_node_pools.has(GameEffectsManager_1.GameEffectId.boss2_normal_skill_hit)) {
+            this.effcomp = true;
+        }
+        return this.effcomp;
     };
     ArmorWarrior.prototype.onBossInited = function () {
         this.startIdle();
@@ -244,7 +259,7 @@ var ArmorWarrior = /** @class */ (function (_super) {
         }
         _super.prototype.update.call(this, dt);
         this.checkSkill(dt);
-        if (this.getEnemyState() != EnemyConfig_1.Enemy_State.skill) {
+        if (this.getEnemyState() != EnemyConfig_1.Enemy_State.skill && this.isEffCom()) {
             if (!this.isHaveDeBuff(HeroConfig_1.BuffId.Hero_XuanYun)) {
                 this.checkAtt(dt);
             }
@@ -253,7 +268,7 @@ var ArmorWarrior = /** @class */ (function (_super) {
     /**技能检测 */
     ArmorWarrior.prototype.checkSkill = function (dt) {
         this.skill_jishu += dt;
-        if (!this.isHaveDeBuff(HeroConfig_1.BuffId.Hero_XuanYun)) {
+        if (!this.isHaveDeBuff(HeroConfig_1.BuffId.Hero_XuanYun) && this.isEffCom()) {
             if (this.skill_jishu >= this.skill_cd) {
                 this.skill_jishu = this.skill_cd;
                 this.startSkill();

@@ -126,7 +126,7 @@ var LeiShen = /** @class */ (function (_super) {
         }
     };
     LeiShen.prototype.onEndMonster = function (endMonster) {
-        var tansheNum = this.hero_data.getSkillValue1(HeroConfig_1.SkillType.Passive_1);
+        var tansheNum = this.hero_data.getSkillValue1(HeroConfig_1.SkillType.Passive_1) + this.hero_lvl;
         if (this.shandian_monster.length < tansheNum) {
             var nextMonster = this.getMonster(endMonster.getCenterPos());
             if (nextMonster) {

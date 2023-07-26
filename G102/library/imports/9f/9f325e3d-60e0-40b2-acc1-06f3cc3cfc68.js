@@ -79,6 +79,7 @@ var NvWu = /** @class */ (function (_super) {
     //---------------------------------------------攻击----------------------------------------------
     NvWu.prototype.createNvWuDan = function (id, jianshiPos, speed, dir, gjData) {
         var node = FightingManager_1.default.getInstance().createGameEffectById(id, jianshiPos);
+        node.getComponent(NvWuDan_1.default).hero_lvl = this.hero_lvl;
         node.getComponent(NvWuDan_1.default).init(id, speed, dir, gjData);
     };
     NvWu.prototype.normalAttack = function (monster) {

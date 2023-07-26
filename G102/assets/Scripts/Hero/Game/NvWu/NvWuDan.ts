@@ -14,6 +14,7 @@ const {ccclass, property} = cc._decorator;
 @ccclass
 export default class NvWuDan extends Bullect {
 
+    public hero_lvl:number=0;
     onLoad(): void {
         super.onLoad();
         super.addCollisionMonsterListen(this.onCollisionMonster);
@@ -52,7 +53,7 @@ export default class NvWuDan extends Bullect {
                                 let buffData=new BuffData();
                                 buffData.buff_id=BuffId.Hero_NvWu_Skill1_Zhongdu;
                                 buffData.buff_type=BuffType.Normal;
-                                buffData.remain_time=5;
+                                buffData.remain_time=5+this.hero_lvl*0.5;
                                 buffData.add_floor=1;
                                 buffData.max_floor=6;
                                 buffData.damage_jiange_time=1;

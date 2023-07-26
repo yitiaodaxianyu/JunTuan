@@ -87,6 +87,8 @@ var Hero = /** @class */ (function (_super) {
         _this.cost_mp = 20;
         //英雄位置
         _this.posIndex = -1;
+        //游戏内的等级
+        _this.hero_lvl = 0;
         _this.mp_progress = null;
         /**英雄当前拥有的buff */
         _this.hero_buff = null;
@@ -188,6 +190,7 @@ var Hero = /** @class */ (function (_super) {
     Hero.prototype.start = function () {
         //加载数据
         this.hero_data = GameManager_1.default.getInstance().game_hero_data.get(this.hero_type);
+        this.hero_lvl = 0;
         GameManager_1.default.getInstance().refreshMainWallDataByaddHero();
         this.bullet_speed = HeroBaseInfo_1.HeroBaseInfoManager.getInstance().getBaseBulletSpeed(this.hero_type);
         this.gongji_jishu = this.hero_data.gongji_jiange;
@@ -436,7 +439,7 @@ var Hero = /** @class */ (function (_super) {
         this.setHeroState(HeroConfig_1.Hero_State.idle, HeroConfig_1.GongJi_FangXiang.zhong);
         this.node.opacity = 255;
         this.node_shadow.opacity = 255;
-        this.mp_progress.show();
+        //this.mp_progress.show();
     };
     Hero.prototype.onTouchEndByJoy = function (event, data) {
         this.targetX = (GameManager_1.default.getInstance().aniType - 4) * 75 + this.posX;
@@ -646,7 +649,7 @@ var Hero = /** @class */ (function (_super) {
     Hero.prototype.startAutoRelease = function () {
         //找怪，找不到就不放
         var enemys = MonsterManager_1.default.getInstance().getMonstersForNearestBySkill(1, this.node.y, this.casting_distance);
-        if (enemys) {
+        if (this.cur_load_num >= this.need_load_num && this.is_LoadLoad == true && enemys) {
             //最前的敌人
             var enemyPos = enemys[0].getComponent(Monster_1.default).getCenterPos();
             this.releaseSkill(enemyPos);
@@ -967,7 +970,7 @@ var Hero = /** @class */ (function (_super) {
                     return false;
                 }
                 if (this.hero_type != HeroConfig_1.Hero_Type.ZhenDe) {
-                    this.mp_progress.setDisable(true);
+                    //this.mp_progress.setDisable(true);
                     SkillManager_1.default.getInstance().hideSkillRange();
                     this.skill_tip.node.active = false;
                 }
@@ -1061,8 +1064,8 @@ var Hero = /** @class */ (function (_super) {
             case HeroConfig_1.BuffId.Monster_XuanYun:
                 {
                     if (this.hero_type != HeroConfig_1.Hero_Type.ZhenDe)
-                        this.mp_progress.setDisable(false);
-                    this.gongji_jishu = 0;
+                        // this.mp_progress.setDisable(false);
+                        this.gongji_jishu = 0;
                     this.spine.paused = false;
                     this.is_can_touch = true;
                     WallManager_1.default.getInstance().getMainWall().hideVertigo();
@@ -1394,7 +1397,7 @@ var Hero = /** @class */ (function (_super) {
         if (continuousRate === void 0) { continuousRate = 0; }
         var gjData = new HeroData_1.GongJiData();
         gjData.hero_data = cc.instantiate(this.hero_data);
-        gjData.hero_data.attack_increase_damage = GameManager_1.default.getInstance().getCharioAttackRotio();
+        gjData.hero_data.attack_increase_damage = GameManager_1.default.getInstance().getCharioAttackRotio() + this.getLvlGonji();
         gjData.is_bullet = isBullet;
         gjData.damage_type = damageType;
         gjData.hero_type = this.hero_type;
@@ -1409,6 +1412,53 @@ var Hero = /** @class */ (function (_super) {
             }
         }
         return gjData;
+    };
+    //获取因为游戏内等级变化导致的额外攻击力
+    Hero.prototype.getLvlGonji = function () {
+        var numGongji = 0;
+        if (this.hero_type == HeroConfig_1.Hero_Type.ChangMaoShou) {
+            numGongji = this.hero_lvl * 0.05;
+            if (this.isHaveBuff(HeroConfig_1.BuffId.Hero_ChangMaoShow_GongSu)) {
+                numGongji += this.hero_lvl * 0.05;
+            }
+        }
+        else if (this.hero_type == HeroConfig_1.Hero_Type.ShouWang) {
+            numGongji = this.hero_lvl * 0.05;
+        }
+        else if (this.hero_type == HeroConfig_1.Hero_Type.PaoShou) {
+            numGongji = this.hero_lvl * 0.05;
+        }
+        else if (this.hero_type == HeroConfig_1.Hero_Type.DeLuYi) {
+            numGongji = this.hero_lvl * 0.05;
+        }
+        else if (this.hero_type == HeroConfig_1.Hero_Type.KuangZhanShi) {
+            numGongji = this.hero_lvl * 0.1;
+            if (this.isHaveBuff(HeroConfig_1.BuffId.Hero_KuangZhanShi_DaZhao)) {
+                numGongji += this.hero_lvl * 0.1;
+            }
+        }
+        else if (this.hero_type == HeroConfig_1.Hero_Type.ZhenDe) {
+            numGongji = this.hero_lvl * 0.1;
+        }
+        else if (this.hero_type == HeroConfig_1.Hero_Type.NvWu) {
+            numGongji = this.hero_lvl * 0.1;
+        }
+        else if (this.hero_type == HeroConfig_1.Hero_Type.GongJianShou) {
+            numGongji = this.hero_lvl * 0.1;
+        }
+        else if (this.hero_type == HeroConfig_1.Hero_Type.BingNv) {
+            numGongji = this.hero_lvl * 0.15;
+        }
+        else if (this.hero_type == HeroConfig_1.Hero_Type.ANuBiSi) {
+            numGongji = this.hero_lvl * 0.15;
+        }
+        else if (this.hero_type == HeroConfig_1.Hero_Type.MeiMo) {
+            numGongji = this.hero_lvl * 0.15;
+        }
+        else if (this.hero_type == HeroConfig_1.Hero_Type.LeiShen) {
+            numGongji = this.hero_lvl * 0.15;
+        }
+        return numGongji;
     };
     Hero.prototype.onDamageMonster = function (damageType, isCrit, monster) {
         if (damageType == HeroConfig_1.DamageType.Normal) {

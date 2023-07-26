@@ -166,7 +166,7 @@ var SheShou = /** @class */ (function (_super) {
                 //let angle=MyTool.radianToAngle(radian);
                 //弧形范围,最大30°，间隔3°
                 var huduFanWei = Math.PI / 60;
-                var allNum = _this.hero_data.getSkillValue2(HeroConfig_1.SkillType.Passive_1);
+                var allNum = _this.hero_data.getSkillValue2(HeroConfig_1.SkillType.Passive_1) + _this.hero_lvl;
                 var waveNum = Math.floor(allNum / 10) + 1;
                 if (allNum % 10 == 0) {
                     waveNum--;

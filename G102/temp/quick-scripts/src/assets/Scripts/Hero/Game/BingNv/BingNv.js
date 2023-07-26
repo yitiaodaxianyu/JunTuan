@@ -99,6 +99,7 @@ var BingNv = /** @class */ (function (_super) {
     };
     BingNv.prototype.createBingNvDan = function (id, jianshiPos, speed, dir, gjData) {
         var node = FightingManager_1.default.getInstance().createGameEffectById(id, jianshiPos);
+        node.getComponent(BingNvDan_1.default).hero_lvl = this.hero_lvl;
         node.getComponent(BingNvDan_1.default).init(id, speed, dir, gjData);
     };
     BingNv.prototype.normalAttack = function (monster) {

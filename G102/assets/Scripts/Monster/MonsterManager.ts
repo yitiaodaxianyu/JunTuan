@@ -104,6 +104,10 @@ export default class MonsterManager extends MapNodePool {
         GameEffectsManager.getInstance().addEffectPoolById(GameEffectId.drop_gem, 16);
         GameEffectsManager.getInstance().addEffectPoolById(GameEffectId.drop_gem_shadow, 16);
         GameEffectsManager.getInstance().addEffectPoolById(GameEffectId.drop_coin_shadow, 16);
+        GameEffectsManager.getInstance().addEffectPoolById(GameEffectId.monster_normal_att,8);
+        // GameEffectsManager.getInstance().addEffectPoolById(GameEffectId.boss1_att_move,2);
+        // GameEffectsManager.getInstance().addEffectPoolById(GameEffectId.boss1_att_end,2);
+        GameEffectsManager.getInstance().addEffectPoolById(GameEffectId.monster_die,8);
     }
 
     public set ship_monster_num(v: number) {

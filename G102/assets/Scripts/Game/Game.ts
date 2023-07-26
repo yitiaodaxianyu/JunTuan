@@ -768,13 +768,13 @@ export default class Game extends cc.Component {
     }
 
     setBtnAuto() {
-        let auto = cc.find('Canvas/Ui_Root/btnAuto');
-        let autoNum = GameManager.getInstance().auto_fighting ? 1 : 0;
-        auto.getComponent(cc.Sprite).spriteFrame = this.sp_auto[autoNum];
-        if (this.is_unlock_auto) {
-            TheStorageManager.getInstance().setItem(StorageKey.AutoFighting, autoNum);
-        }
-        auto.active = LevelManager.getInstance().finish_level >= 5;
+        // let auto = cc.find('Canvas/Ui_Root/btnAuto');
+        // let autoNum = GameManager.getInstance().auto_fighting ? 1 : 0;
+        // auto.getComponent(cc.Sprite).spriteFrame = this.sp_auto[autoNum];
+        // if (this.is_unlock_auto) {
+        //     TheStorageManager.getInstance().setItem(StorageKey.AutoFighting, autoNum);
+        // }
+        // auto.active = LevelManager.getInstance().finish_level >= 5;
     }
 
     showTime() {

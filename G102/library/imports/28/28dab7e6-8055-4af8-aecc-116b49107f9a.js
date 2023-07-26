@@ -96,6 +96,7 @@ var ShouWang = /** @class */ (function (_super) {
     };
     ShouWang.prototype.createJianShi = function (id, jianshiPos, speed, dir, gjData) {
         var node = FightingManager_1.default.getInstance().createGameEffectById(id, jianshiPos);
+        node.getComponent(ShouWangJianShi_1.default).hero_lvl = this.hero_lvl;
         node.getComponent(ShouWangJianShi_1.default).init(id, speed, dir, gjData);
         return node;
     };
@@ -157,7 +158,8 @@ var ShouWang = /** @class */ (function (_super) {
     ShouWang.prototype.checkSkill1 = function (pos) {
         var _this = this;
         var fangxiang = this.getSJFXByPos(pos, this.node.getPosition());
-        if (this.att_num >= 3) {
+        //if(this.att_num>=3)
+        if (this.att_num >= 0) {
             this.is_can_gongji = false;
             var data = new MonsterData_1.KeyFrameData();
             data.name = "Attack";

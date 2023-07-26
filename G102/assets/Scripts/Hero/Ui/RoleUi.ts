@@ -601,7 +601,7 @@ export default class RoleUi extends UIComponent{
         let preview = bottom.getChildByName("preview");
         // let heroInfo = HM.getHeroInfo(this.hero_type);
         let heroBaseInfo = HeroBaseInfoManager.getInstance().getJsonHeroBaseInfo(this.hero_type);
-        let heroMaxLevel  = heroBaseInfo.MaxLevel;
+        let heroMaxLevel  = 240;
         let heroMaxStage  = heroBaseInfo.MaxStage;
         let heroData = HM.getTargetHeroData(this.hero_type,heroMaxStage,heroMaxLevel);
         let zhanli = HM.getTargetHeroZhanli(this.hero_type,heroMaxStage,heroMaxLevel);
@@ -1128,6 +1128,12 @@ export default class RoleUi extends UIComponent{
         if(HeroManager.getInstance().getHeroLevel(this.hero_type) >= HeroBaseInfoManager.getInstance().getMaxLevel(this.hero_type)){
             let str = LanguageManager.getInstance().getStrByTextId(120024);
             GameManager.getInstance().showMessage(str);
+            return;
+        }
+        var starLv=HeroAttributeManager.getInstance().getStarByHeroTypeAndStage(this.hero_type,HeroManager.getInstance().getHeroStage(this.hero_type))
+        console.log("当前英雄星级"+starLv);
+        if(HeroManager.getInstance().getHeroLevel(this.hero_type) >= HeroManager.getInstance().hero_stageList[starLv]){
+            GameManager.getInstance().showMessage("已达到当前星级最高等级！");
             return;
         }
         let finishLevel = LevelManager.getInstance().finish_level;

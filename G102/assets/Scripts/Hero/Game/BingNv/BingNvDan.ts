@@ -16,7 +16,7 @@ export default class BingNvDan extends Bullect {
 
     @property()
     bullect_type:number=0;
-
+    public hero_lvl:number=0;
     onLoad(): void {
         super.onLoad();
         super.addCollisionMonsterListen(this.onCollisionMonster);
@@ -52,7 +52,7 @@ export default class BingNvDan extends Bullect {
                         monsterTs.addDeBuff(buffData,this.gongji_data);
                         GameManager.getInstance().sound_manager.playSound(SoundIndex.YX_BNAttack);
                         /**范围伤害，不包括这个怪 */
-                        let monsters=MonsterManager.getInstance().getMonstersForCenterPos(-1,monsterTs.getCenterPos(),200);
+                        let monsters=MonsterManager.getInstance().getMonstersForCenterPos(-1,monsterTs.getCenterPos(),200+this.hero_lvl*20);
                         if(monsters){
                             let jiansuValue=this.gongji_data.hero_data.getSkillValue3(SkillType.Passive_1)
                             for(let i=0; i<monsters.length; i++){
@@ -67,7 +67,7 @@ export default class BingNvDan extends Bullect {
                                             buffData.buff_type=BuffType.Slowdown;
                                          
                                             buffData.buff_value=[jiansuValue];
-                                            buffData.remain_time=3;
+                                            buffData.remain_time=3+this.hero_lvl*0.5;
                                             monsterTTs.addDeBuff(buffData,this.gongji_data);
                                         }                                        
                                     }

@@ -152,35 +152,38 @@ export default class ZhenDe extends Hero {
     }
 
     startSkill2(){
-        if(super.getHeroState()==Hero_State.idle&&super.isHaveDeBuff(BuffId.Monster_XuanYun)==false){
-            this.cur_release_skill=SkillType.Passive_2;      
-            let data=new KeyFrameData();
-            data.name="Passive1";
-            data.callback=()=>{
-                this.cur_release_skill=SkillType.Null;
-                this.gongji_jishu=0;
-                let heroId=HeroManager.getInstance().getRandHeroId(GameManager.getInstance().cur_game_mode,this.hero_type,GameManager.getInstance().cur_team_list);
-                if(heroId!=Hero_Type.NULL){
-                    let buffData=new BuffData();
-                    buffData.buff_id=BuffId.Hero_ZhenDe_BaoJiMingZhongLv;
-                    buffData.buff_type=BuffType.Gain;
-                    buffData.buff_value=[this.hero_data.getSkillValue2(SkillType.Passive_2)];
-                    buffData.remain_time=5;
-                    buffData.game_effect_id=GameEffectId.Null;                
-                    GameManager.getInstance().all_hero.get(heroId).addBuff(buffData);
-                    //特效
-                    SkyManager.getInstance().createGameEffectById(GameEffectId.zhen_de_beidong_skill,GameManager.getInstance().all_hero.get(heroId).node.getPosition());
-                }
-            }
-            super.setHeroStateAndAnimation(Hero_State.skill,"Passive1",false,[data],()=>{
-                this.setHeroState(Hero_State.idle,this.cur_fangxiang);
-                if(this.skill_queue.length>0){
-                    this.startSkill(this.skill_queue.shift());
-                }
-            });
-        }else{
-            this.skill_queue.push(SkillType.Passive_2);
-        }
+        // if(super.getHeroState()==Hero_State.idle&&super.isHaveDeBuff(BuffId.Monster_XuanYun)==false){
+        //     this.cur_release_skill=SkillType.Passive_2;      
+        //     let data=new KeyFrameData();
+        //     data.name="Passive1";
+        //     data.callback=()=>{
+        //         this.cur_release_skill=SkillType.Null;
+        //         this.gongji_jishu=0;
+        //         let heroId=HeroManager.getInstance().getRandHeroId(GameManager.getInstance().cur_game_mode,this.hero_type,GameManager.getInstance().cur_team_list);
+        //         if(heroId!=Hero_Type.NULL){
+        //             let buffData=new BuffData();
+        //             buffData.buff_id=BuffId.Hero_ZhenDe_BaoJiMingZhongLv;
+        //             buffData.buff_type=BuffType.Gain;
+        //             buffData.buff_value=[this.hero_data.getSkillValue2(SkillType.Passive_2)];
+        //             buffData.remain_time=5;
+        //             buffData.game_effect_id=GameEffectId.Null;                
+        //             GameManager.getInstance().all_hero.get(heroId).addBuff(buffData);
+        //             //特效
+        //             SkyManager.getInstance().createGameEffectById(GameEffectId.zhen_de_beidong_skill,GameManager.getInstance().all_hero.get(heroId).node.getPosition());
+        //         }
+        //     }
+        //     super.setHeroStateAndAnimation(Hero_State.skill,"Passive1",false,[data],()=>{
+        //         this.setHeroState(Hero_State.idle,this.cur_fangxiang);
+        //         if(this.skill_queue.length>0){
+        //             this.startSkill(this.skill_queue.shift());
+        //         }
+        //     });
+        // }else{
+        //     this.skill_queue.push(SkillType.Passive_2);
+        // }
+
+        WallManager.getInstance().getMainWall().changeHp(WallManager.getInstance().getMainWall().getMaxHp()*(0.01+this.hero_lvl*0.002));
+        WallManager.getInstance().getMainWall().addHpBuff();
         
     }
 
@@ -248,32 +251,32 @@ export default class ZhenDe extends Hero {
         cc.tween(light).to(0.1*GameManager.getInstance().getGameRate(),{y:this.node.y+this.xuanyun_pos.y}).call(()=>{
             GameEffectsManager.getInstance().destroyGameEffectById(GameEffectId.zhen_de_active_skill_1,light);
             GameEffectsManager.getInstance().createGameEffectById(GameEffectId.zhen_de_active_skill_2,light.getPosition());
-            //左右两边的英雄加特效
-            //如果是射手相邻的英雄，不包括自己
-            let teamList=GameManager.getInstance().cur_team_list;
-            let sheshouIndex=teamList.indexOf(this.hero_type);
-            let buffValue=this.hero_data.getSkillValue1(SkillType.Active);
-            let remainTime=this.hero_data.getSkillValue2(SkillType.Active);
-            MyTool.randomSceneShakeSmall();
-            WallManager.getInstance().getMainWall().removeAllDeBuff();
-            GameManager.getInstance().all_hero.forEach((v,k)=>{
-                //特效
-                v.removeAllDeBuff();
-                let heroIndex=teamList.indexOf(k);
-                if(sheshouIndex!=heroIndex && Math.abs(sheshouIndex-heroIndex)<=1){
-                    let buffData=new BuffData();
-                    buffData.buff_id=BuffId.Hero_ZhenDe_Gongsu;
-                    buffData.buff_type=BuffType.Gain;
-                    buffData.game_effect_id=GameEffectId.zhen_de_active_skill_3;
-                    buffData.buff_value=[buffValue];
-                    buffData.remain_time=remainTime;
-                    v.addBuff(buffData);
-                }
-                //减少除自己之外的cd
-                if(cdT>0&&v.hero_type!=this.hero_type){                    
-                    v.changeCD(-cdT);
-                }
-            })
+            // //左右两边的英雄加特效
+            // //如果是射手相邻的英雄，不包括自己
+            // let teamList=GameManager.getInstance().cur_team_list;
+            // let sheshouIndex=teamList.indexOf(this.hero_type);
+            // let buffValue=this.hero_data.getSkillValue1(SkillType.Active);
+            // let remainTime=this.hero_data.getSkillValue2(SkillType.Active);
+            // MyTool.randomSceneShakeSmall();
+            // WallManager.getInstance().getMainWall().removeAllDeBuff();
+            // GameManager.getInstance().all_hero.forEach((v,k)=>{
+            //     //特效
+            //     v.removeAllDeBuff();
+            //     let heroIndex=teamList.indexOf(k);
+            //     if(sheshouIndex!=heroIndex && Math.abs(sheshouIndex-heroIndex)<=1){
+            //         let buffData=new BuffData();
+            //         buffData.buff_id=BuffId.Hero_ZhenDe_Gongsu;
+            //         buffData.buff_type=BuffType.Gain;
+            //         buffData.game_effect_id=GameEffectId.zhen_de_active_skill_3;
+            //         buffData.buff_value=[buffValue];
+            //         buffData.remain_time=remainTime;
+            //         v.addBuff(buffData);
+            //     }
+            //     //减少除自己之外的cd
+            //     if(cdT>0&&v.hero_type!=this.hero_type){                    
+            //         v.changeCD(-cdT);
+            //     }
+            // })
             //战车加护盾
             WallManager.getInstance().getMainWall().addShield(this.hero_type,ShieldType.All,10,0.1*this.hero_data.total_hp,GameEffectId.zhen_de_beidong_skill_wall);
             
@@ -291,7 +294,7 @@ export default class ZhenDe extends Hero {
         this.zhiliao_jishu+=dt;
         if(this.zhiliao_jishu>=this.zhiliao_time){
             this.zhiliao_jishu=0;
-            this.startSkill1();
+            //this.startSkill1();
         }
     }
 }

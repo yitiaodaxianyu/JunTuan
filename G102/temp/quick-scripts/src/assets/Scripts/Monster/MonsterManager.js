@@ -118,6 +118,10 @@ var MonsterManager = /** @class */ (function (_super) {
         GameEffectsManager_1.GameEffectsManager.getInstance().addEffectPoolById(GameEffectsManager_1.GameEffectId.drop_gem, 16);
         GameEffectsManager_1.GameEffectsManager.getInstance().addEffectPoolById(GameEffectsManager_1.GameEffectId.drop_gem_shadow, 16);
         GameEffectsManager_1.GameEffectsManager.getInstance().addEffectPoolById(GameEffectsManager_1.GameEffectId.drop_coin_shadow, 16);
+        GameEffectsManager_1.GameEffectsManager.getInstance().addEffectPoolById(GameEffectsManager_1.GameEffectId.monster_normal_att, 8);
+        // GameEffectsManager.getInstance().addEffectPoolById(GameEffectId.boss1_att_move,2);
+        // GameEffectsManager.getInstance().addEffectPoolById(GameEffectId.boss1_att_end,2);
+        GameEffectsManager_1.GameEffectsManager.getInstance().addEffectPoolById(GameEffectsManager_1.GameEffectId.monster_die, 8);
     };
     Object.defineProperty(MonsterManager.prototype, "ship_monster_num", {
         get: function () {

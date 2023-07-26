@@ -86,12 +86,13 @@ export default class WuNv extends Hero {
                         }
                         /**概率眩晕 */
                         let rate=this.hero_data.getSkillValue3(SkillType.Passive_1);
-                        if(monsterTs.getStrengthType()!=StrengthType.Boss&&Math.random()<rate){
+                        //if(monsterTs.getStrengthType()!=StrengthType.Boss&&Math.random()<rate){
+                        if(monsterTs.getStrengthType()!=StrengthType.Boss){
                             let buffData=new BuffData();
                             buffData.buff_id=BuffId.Hero_XuanYun;
                             buffData.buff_type=BuffType.Vertigo;
                             buffData.buff_value=[0];
-                            buffData.remain_time=0.5;
+                            buffData.remain_time=0.5+this.hero_lvl*0.1;
                             buffData.game_effect_id=GameEffectId.xuanyun;
                             monsterTs.addDeBuff(buffData,fanweiData);
                             //蔓藤特效

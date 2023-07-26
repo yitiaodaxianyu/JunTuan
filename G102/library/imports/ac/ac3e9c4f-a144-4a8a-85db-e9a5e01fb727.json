@@ -81,7 +81,7 @@
       "NameTextId": 420006,
       "DiscripitionTextId": 420106,
       "Type": 2,
-      "Quality": 0,
+      "Quality": 2,
       "Star": 0,
       "QuoteIcon": 20006
     },
@@ -99,7 +99,7 @@
       "NameTextId": 420008,
       "DiscripitionTextId": 420108,
       "Type": 2,
-      "Quality": 0,
+      "Quality": 2,
       "Star": 0,
       "QuoteIcon": 20008
     },
@@ -108,7 +108,7 @@
       "NameTextId": 420009,
       "DiscripitionTextId": 420109,
       "Type": 2,
-      "Quality": 1,
+      "Quality": 2,
       "Star": 0,
       "QuoteIcon": 20009
     },
@@ -153,7 +153,7 @@
       "NameTextId": 430001,
       "DiscripitionTextId": 431001,
       "Type": 2,
-      "Quality": 0,
+      "Quality": 2,
       "Star": 0,
       "QuoteIcon": 20101
     },
@@ -171,7 +171,7 @@
       "NameTextId": 430003,
       "DiscripitionTextId": 431003,
       "Type": 2,
-      "Quality": 1,
+      "Quality": 2,
       "Star": 0,
       "QuoteIcon": 20103
     },
@@ -1377,7 +1377,7 @@
       "NameTextId": 1000001,
       "DiscripitionTextId": 1010001,
       "Type": 3,
-      "Quality": 0,
+      "Quality": 2,
       "Star": 0,
       "QuoteIcon": 31010
     },
@@ -1386,7 +1386,7 @@
       "NameTextId": 1000001,
       "DiscripitionTextId": 1010001,
       "Type": 3,
-      "Quality": 0,
+      "Quality": 2,
       "Star": 1,
       "QuoteIcon": 31010
     },
@@ -1395,7 +1395,7 @@
       "NameTextId": 1000001,
       "DiscripitionTextId": 1010001,
       "Type": 3,
-      "Quality": 0,
+      "Quality": 2,
       "Star": 2,
       "QuoteIcon": 31010
     },
@@ -1404,7 +1404,7 @@
       "NameTextId": 1000001,
       "DiscripitionTextId": 1010001,
       "Type": 3,
-      "Quality": 0,
+      "Quality": 2,
       "Star": 3,
       "QuoteIcon": 31010
     },
@@ -1413,7 +1413,7 @@
       "NameTextId": 1000001,
       "DiscripitionTextId": 1010001,
       "Type": 3,
-      "Quality": 0,
+      "Quality": 2,
       "Star": 4,
       "QuoteIcon": 31010
     },
@@ -1422,7 +1422,7 @@
       "NameTextId": 1000001,
       "DiscripitionTextId": 1010001,
       "Type": 3,
-      "Quality": 0,
+      "Quality": 2,
       "Star": 5,
       "QuoteIcon": 31010
     },
@@ -1431,7 +1431,7 @@
       "NameTextId": 1000002,
       "DiscripitionTextId": 1010002,
       "Type": 3,
-      "Quality": 1,
+      "Quality": 2,
       "Star": 0,
       "QuoteIcon": 31020
     },
@@ -1440,7 +1440,7 @@
       "NameTextId": 1000002,
       "DiscripitionTextId": 1010002,
       "Type": 3,
-      "Quality": 1,
+      "Quality": 2,
       "Star": 1,
       "QuoteIcon": 31020
     },
@@ -1449,7 +1449,7 @@
       "NameTextId": 1000002,
       "DiscripitionTextId": 1010002,
       "Type": 3,
-      "Quality": 1,
+      "Quality": 2,
       "Star": 2,
       "QuoteIcon": 31020
     },
@@ -1458,7 +1458,7 @@
       "NameTextId": 1000002,
       "DiscripitionTextId": 1010002,
       "Type": 3,
-      "Quality": 1,
+      "Quality": 2,
       "Star": 3,
       "QuoteIcon": 31020
     },
@@ -1467,7 +1467,7 @@
       "NameTextId": 1000002,
       "DiscripitionTextId": 1010002,
       "Type": 3,
-      "Quality": 1,
+      "Quality": 2,
       "Star": 4,
       "QuoteIcon": 31020
     },
@@ -1476,7 +1476,7 @@
       "NameTextId": 1000002,
       "DiscripitionTextId": 1010002,
       "Type": 3,
-      "Quality": 1,
+      "Quality": 2,
       "Star": 5,
       "QuoteIcon": 31020
     },
@@ -1485,7 +1485,7 @@
       "NameTextId": 1000003,
       "DiscripitionTextId": 1010003,
       "Type": 3,
-      "Quality": 1,
+      "Quality": 2,
       "Star": 0,
       "QuoteIcon": 31030
     },
@@ -1494,7 +1494,7 @@
       "NameTextId": 1000003,
       "DiscripitionTextId": 1010003,
       "Type": 3,
-      "Quality": 1,
+      "Quality": 2,
       "Star": 1,
       "QuoteIcon": 31030
     },
@@ -1503,7 +1503,7 @@
       "NameTextId": 1000003,
       "DiscripitionTextId": 1010003,
       "Type": 3,
-      "Quality": 1,
+      "Quality": 2,
       "Star": 2,
       "QuoteIcon": 31030
     },
@@ -1512,7 +1512,7 @@
       "NameTextId": 1000003,
       "DiscripitionTextId": 1010003,
       "Type": 3,
-      "Quality": 1,
+      "Quality": 2,
       "Star": 3,
       "QuoteIcon": 31030
     },
@@ -1521,7 +1521,7 @@
       "NameTextId": 1000003,
       "DiscripitionTextId": 1010003,
       "Type": 3,
-      "Quality": 1,
+      "Quality": 2,
       "Star": 4,
       "QuoteIcon": 31030
     },
@@ -1530,7 +1530,7 @@
       "NameTextId": 1000003,
       "DiscripitionTextId": 1010003,
       "Type": 3,
-      "Quality": 1,
+      "Quality": 2,
       "Star": 5,
       "QuoteIcon": 31030
     },
@@ -3177,7 +3177,7 @@
       "NameTextId": 491001,
       "DiscripitionTextId": 492001,
       "Type": 10,
-      "Quality": 0,
+      "Quality": 2,
       "Star": 0,
       "QuoteIcon": 100001
     },
@@ -3195,7 +3195,7 @@
       "NameTextId": 491003,
       "DiscripitionTextId": 492003,
       "Type": 10,
-      "Quality": 1,
+      "Quality": 2,
       "Star": 0,
       "QuoteIcon": 100003
     },
@@ -3282,19 +3282,19 @@
     },
     {
       "ItemID": 101001,
-      "NameTextId": 490001,
-      "DiscripitionTextId": 490101,
+      "NameTextId": 490003,
+      "DiscripitionTextId": 490103,
       "Type": 10,
-      "Quality": 0,
+      "Quality": 2,
       "Star": 0,
       "QuoteIcon": 101001
     },
     {
       "ItemID": 101002,
-      "NameTextId": 490002,
-      "DiscripitionTextId": 490102,
+      "NameTextId": 490003,
+      "DiscripitionTextId": 490103,
       "Type": 10,
-      "Quality": 1,
+      "Quality": 2,
       "Star": 0,
       "QuoteIcon": 101002
     },
@@ -3330,7 +3330,7 @@
       "NameTextId": 700001,
       "DiscripitionTextId": 701001,
       "Type": 11,
-      "Quality": 0,
+      "Quality": 2,
       "Star": 0,
       "QuoteIcon": 110001
     },
@@ -3348,7 +3348,7 @@
       "NameTextId": 700003,
       "DiscripitionTextId": 701003,
       "Type": 11,
-      "Quality": 1,
+      "Quality": 2,
       "Star": 0,
       "QuoteIcon": 110003
     },

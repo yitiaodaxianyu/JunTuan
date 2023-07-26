@@ -19,6 +19,7 @@ export default class MapNodePool extends cc.Component {
     /**根据id和资源目录 新建一个对象池,返回是否需要加载*/
     protected addNodePool(id:number,path:string,initCount:number,loadCallback?:Function):boolean{
         //如果已经添加了，那么就不继续添加了
+       
         if(this.map_node_pools.has(id)){
             if(loadCallback){
                 loadCallback();
@@ -37,6 +38,7 @@ export default class MapNodePool extends cc.Component {
                 console.log(error);
                 return;
             }
+            
             this.map_prefabs.set(id,assets);
          
             let pool=new cc.NodePool();// 创建对象池

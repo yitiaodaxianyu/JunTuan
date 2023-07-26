@@ -35,7 +35,9 @@ var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var NvWuDan = /** @class */ (function (_super) {
     __extends(NvWuDan, _super);
     function NvWuDan() {
-        return _super !== null && _super.apply(this, arguments) || this;
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.hero_lvl = 0;
+        return _this;
     }
     NvWuDan.prototype.onLoad = function () {
         _super.prototype.onLoad.call(this);
@@ -73,7 +75,7 @@ var NvWuDan = /** @class */ (function (_super) {
                                 var buffData = new BuffData_1.BuffData();
                                 buffData.buff_id = HeroConfig_1.BuffId.Hero_NvWu_Skill1_Zhongdu;
                                 buffData.buff_type = HeroConfig_1.BuffType.Normal;
-                                buffData.remain_time = 5;
+                                buffData.remain_time = 5 + this.hero_lvl * 0.5;
                                 buffData.add_floor = 1;
                                 buffData.max_floor = 6;
                                 buffData.damage_jiange_time = 1;

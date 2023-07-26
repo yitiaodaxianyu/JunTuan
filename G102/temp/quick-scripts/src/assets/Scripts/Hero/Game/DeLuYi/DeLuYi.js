@@ -104,12 +104,13 @@ var WuNv = /** @class */ (function (_super) {
                         }
                         /**概率眩晕 */
                         var rate = this_1.hero_data.getSkillValue3(HeroConfig_1.SkillType.Passive_1);
-                        if (monsterTs.getStrengthType() != MonsterData_1.StrengthType.Boss && Math.random() < rate) {
+                        //if(monsterTs.getStrengthType()!=StrengthType.Boss&&Math.random()<rate){
+                        if (monsterTs.getStrengthType() != MonsterData_1.StrengthType.Boss) {
                             var buffData = new BuffData_1.BuffData();
                             buffData.buff_id = HeroConfig_1.BuffId.Hero_XuanYun;
                             buffData.buff_type = HeroConfig_1.BuffType.Vertigo;
                             buffData.buff_value = [0];
-                            buffData.remain_time = 0.5;
+                            buffData.remain_time = 0.5 + this_1.hero_lvl * 0.1;
                             buffData.game_effect_id = GameEffectsManager_1.GameEffectId.xuanyun;
                             monsterTs.addDeBuff(buffData, fanweiData);
                             //蔓藤特效

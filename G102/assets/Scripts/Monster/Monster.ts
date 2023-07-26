@@ -148,10 +148,7 @@ export default class Monster extends cc.Component {
     cur_color:ColorType=ColorType.Null;
 
     protected onLoad(): void {
-        GameEffectsManager.getInstance().addEffectPoolById(GameEffectId.monster_normal_att,8);
-        // GameEffectsManager.getInstance().addEffectPoolById(GameEffectId.boss1_att_move,2);
-        // GameEffectsManager.getInstance().addEffectPoolById(GameEffectId.boss1_att_end,2);
-        GameEffectsManager.getInstance().addEffectPoolById(GameEffectId.monster_die,8);
+       
         this.spine=this.node.getComponent(sp.Skeleton);
         this.loadInitPos();
         this.wall_yy=GameManager.getInstance().enemy_att_y;
@@ -460,15 +457,15 @@ export default class Monster extends cc.Component {
                 if(type==1){
                     data.feedback_type=FeedBackType.BaoJi;
                     data.text_type=Enemy_Injured_Type.BaoJi;
-                    damage=InjuredData.calcSkillCritDamageNum(heroData.total_attack,gjData.skill_damage_rate,finalDefense,heroData.skill_increase_damage+heroData.all_increase_damage,this.jianshang_rate,InjuredData.calcFinalExtraCrit(heroData.ExtraCritical,this.monster_data.AntiExtraCritical));
+                    damage=InjuredData.calcSkillCritDamageNum(heroData.total_attack,gjData.skill_damage_rate,finalDefense,heroData.skill_increase_damage+heroData.all_increase_damage+heroData.attack_increase_damage,this.jianshang_rate,InjuredData.calcFinalExtraCrit(heroData.ExtraCritical,this.monster_data.AntiExtraCritical));
                     if(!gm.is_show_text){
                         gm.hp_text_manager.createTypeText(cc.v2(this.node.x,this.node.y+60),data.text_type,null);
                     }
                 }else{
-                    damage=InjuredData.calcSkillDamageNum(heroData.total_attack,gjData.skill_damage_rate,finalDefense,heroData.skill_increase_damage+heroData.all_increase_damage,this.jianshang_rate);
+                    damage=InjuredData.calcSkillDamageNum(heroData.total_attack,gjData.skill_damage_rate,finalDefense,heroData.skill_increase_damage+heroData.all_increase_damage+heroData.attack_increase_damage,this.jianshang_rate);
                 }                
             }else{
-                damage=InjuredData.calcSkillDamageNum(heroData.total_attack,gjData.skill_damage_rate,finalDefense,heroData.skill_increase_damage+heroData.all_increase_damage,this.jianshang_rate);
+                damage=InjuredData.calcSkillDamageNum(heroData.total_attack,gjData.skill_damage_rate,finalDefense,heroData.skill_increase_damage+heroData.all_increase_damage+heroData.attack_increase_damage,this.jianshang_rate);
             }
             data.setDamageNum(damage);
             if(gjData.pet_id==0){

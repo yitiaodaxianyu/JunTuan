@@ -86,6 +86,7 @@ export default class BingNv extends Hero {
 
     createBingNvDan(id:GameEffectId,jianshiPos:cc.Vec2,speed:number,dir:number,gjData:GongJiData){
         let node=FightingManager.getInstance().createGameEffectById(id,jianshiPos);
+        node.getComponent(BingNvDan).hero_lvl=this.hero_lvl;
         node.getComponent(BingNvDan).init(id,speed,dir,gjData);
     }
 

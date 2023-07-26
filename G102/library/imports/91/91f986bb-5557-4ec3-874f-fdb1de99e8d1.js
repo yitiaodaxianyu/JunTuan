@@ -52,7 +52,6 @@ var MazeManager_1 = require("./Maze/MazeManager");
 var GameEffectsManager_1 = require("./Game/GameEffectsManager");
 var StorageManager_1 = require("./Storage/StorageManager");
 var StorageConfig_1 = require("./Storage/StorageConfig");
-var Hero_1 = require("./Hero/Game/Hero");
 var HeroConfig_1 = require("./Hero/Game/HeroConfig");
 var GuaJiGift_1 = require("./GuaJi/Ui/GuaJiGift");
 var UIConfig_1 = require("./UI/UIConfig");
@@ -141,7 +140,7 @@ var GameManager = /** @class */ (function (_super) {
         /**单次最小伤害值 */
         _this.min_damage = 9999;
         /**自动战斗标识 */
-        _this.auto_fighting = false;
+        _this.auto_fighting = true;
         /**当前的队列 */
         _this.cur_team_list = [];
         _this.charioUpgradationData = [0, 0, 0, 0, 0, 0, 0];
@@ -194,7 +193,7 @@ var GameManager = /** @class */ (function (_super) {
                     this.ingame_skills = new Array();
                     this.reward_data = new Array();
                     this.fuhuo_num = 1;
-                    this.auto_fighting = StorageManager_1.TheStorageManager.getInstance().getInt(StorageConfig_1.StorageKey.AutoFighting) > 0;
+                    //this.auto_fighting = TheStorageManager.getInstance().getInt(StorageKey.AutoFighting) > 0;
                     this.loadLevel();
                     this.loadGameHeroData();
                 }
@@ -220,15 +219,14 @@ var GameManager = /** @class */ (function (_super) {
     };
     GameManager.prototype.setAutoFighting = function (isAuto, isActivity) {
         if (isActivity === void 0) { isActivity = true; }
-        this.auto_fighting = isAuto;
-        if (isActivity) {
-            if (isAuto) {
-                FollowManager_1.default.getInstance().followEvent(FollowConstants_1.Follow_Type.自动战斗开启成功次数);
-            }
-            else {
-                FollowManager_1.default.getInstance().followEvent(FollowConstants_1.Follow_Type.自动战斗关闭成功次数);
-            }
-        }
+        // this.auto_fighting = isAuto;
+        // if (isActivity) {
+        //     if (isAuto) {
+        //         FollowManager.getInstance().followEvent(Follow_Type.自动战斗开启成功次数);
+        //     } else {
+        //         FollowManager.getInstance().followEvent(Follow_Type.自动战斗关闭成功次数);
+        //     }
+        // }
     };
     GameManager.prototype.getBtnSetupRate = function () {
         return this.btn_setup_rate;
@@ -756,7 +754,7 @@ var GameManager = /** @class */ (function (_super) {
     //显示关卡数据
     GameManager.prototype.loadLevel = function () {
         var _this = this;
-        if (MonsterManager_1.default.getInstance() && MonsterManager_1.default.getInstance().is_load_ok && (Hero_1.default.cur_loaded_num >= Hero_1.default.max_load_num) && (Pet_1.default.cur_loaded_num >= Pet_1.default.max_load_num) && this.fighting_info && this.cur_game_state == Constants_1.GameState.Game_Playing) {
+        if (MonsterManager_1.default.getInstance() && MonsterManager_1.default.getInstance().is_load_ok && (Pet_1.default.cur_loaded_num >= Pet_1.default.max_load_num) && this.fighting_info && this.cur_game_state == Constants_1.GameState.Game_Playing) {
             if (GameManager_1.getInstance().cur_game_mode == Constants_1.GameMode.Endless) {
                 var top = cc.find("Canvas/Ui_Root/top_ui");
                 var wavenumber = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.UnlimitedChallengeDamage, 0) + 1;
@@ -853,6 +851,7 @@ var GameManager = /** @class */ (function (_super) {
             if (isLoadNext) {
                 var delyT = this.fighting_info.wave_refresh_time[this.cur_wave + 1];
                 this.scheduleOnce(function () {
+                    console.log("延迟加载下一关");
                     _this.loadNextWave();
                 }, delyT);
             }
@@ -1008,6 +1007,7 @@ var GameManager = /** @class */ (function (_super) {
                 case Constants_1.GameMode.Main:
                     {
                         if (MonsterManager_1.default.getInstance().killed_monster_num >= this.cur_total_num) {
+                            console.log("敌人死亡加载下一关");
                             this.loadNextWave();
                         }
                     }
@@ -1015,6 +1015,7 @@ var GameManager = /** @class */ (function (_super) {
                 case Constants_1.GameMode.Endless:
                     {
                         if (MonsterManager_1.default.getInstance().killed_monster_num >= this.cur_total_num) {
+                            console.log("敌人死亡加载下一关2");
                             this.loadNextWave();
                         }
                     }

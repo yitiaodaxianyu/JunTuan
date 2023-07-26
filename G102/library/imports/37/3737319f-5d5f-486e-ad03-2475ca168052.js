@@ -756,13 +756,13 @@ var Game = /** @class */ (function (_super) {
         rate.active = LevelManager_1.LevelManager.getInstance().finish_level >= 5;
     };
     Game.prototype.setBtnAuto = function () {
-        var auto = cc.find('Canvas/Ui_Root/btnAuto');
-        var autoNum = GameManager_1.default.getInstance().auto_fighting ? 1 : 0;
-        auto.getComponent(cc.Sprite).spriteFrame = this.sp_auto[autoNum];
-        if (this.is_unlock_auto) {
-            StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.AutoFighting, autoNum);
-        }
-        auto.active = LevelManager_1.LevelManager.getInstance().finish_level >= 5;
+        // let auto = cc.find('Canvas/Ui_Root/btnAuto');
+        // let autoNum = GameManager.getInstance().auto_fighting ? 1 : 0;
+        // auto.getComponent(cc.Sprite).spriteFrame = this.sp_auto[autoNum];
+        // if (this.is_unlock_auto) {
+        //     TheStorageManager.getInstance().setItem(StorageKey.AutoFighting, autoNum);
+        // }
+        // auto.active = LevelManager.getInstance().finish_level >= 5;
     };
     Game.prototype.showTime = function () {
         var shi = Math.floor(this.start_time / 3600);

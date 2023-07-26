@@ -99,6 +99,8 @@ var HeroManager = /** @class */ (function () {
         // private hero_level:number[]=[];
         // private hero_quality:number[]=[];
         this.hero_list = [];
+        //0星可升级40级；1星可到80级；2星到120级；3星到160级；4星到200级；5星到240级.
+        this.hero_stageList = [40, 80, 120, 160, 200, 240];
     }
     HeroManager.getInstance = function () {
         if (this._instance == null) {

@@ -105,7 +105,7 @@ export class HeroBaseInfoManager {
     }
     /**根据英雄ID获取最大等级 */
     public getMaxLevel(id:number): number {
-        return this.data.get(id).MaxLevel;
+        return 240;
     }
     /**根据英雄ID获取技能数量 */
     public getSkillNum(id:number): number {

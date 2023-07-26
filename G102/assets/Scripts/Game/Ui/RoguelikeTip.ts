@@ -15,6 +15,7 @@ import { UiAction } from "../../UI/UiInterface";
 import WallManager from "../../Wall/WallManager";
 import LanguageManager from "../../multiLanguage/LanguageManager";
 import CharioItem from "./CharioItem";
+import HeroUpItem from "./HeroUpItem";
 
 const { ccclass, property } = cc._decorator;
 
@@ -48,12 +49,21 @@ export default class RoguelikeTip extends UIComponent {
     chariot_Chose: cc.Node = null;//战车升级选择节点
 
     @property(cc.Node)
+    heroUp_Chose: cc.Node = null;//英雄升级选择节点
+
+    @property(cc.Node)
     chariotItem0: cc.Node = null;//战车升级选择节点0
     @property(cc.Node)
     chariotItem1: cc.Node = null;//战车升级选择节点1
     @property(cc.Node)
     chariotItem2: cc.Node = null;//战车升级选择节点2
 
+    @property(cc.Node)
+    heroUpItem0: cc.Node = null;//英雄升级选择节点0
+    @property(cc.Node)
+    heroUpItem1: cc.Node = null;//英雄升级选择节点1
+    @property(cc.Node)
+    heroUpItem2: cc.Node = null;//英雄升级选择节点2
 
 
     greybuttonjudgment: number = 0;
@@ -67,18 +77,70 @@ export default class RoguelikeTip extends UIComponent {
         console.log("进入RogueLike");
         this.chariotUpgradation();
         this.Refreshheroitmestatus();
+        this.heroUpRefresh();
         this.chariotItem0.on(cc.Node.EventType.TOUCH_END, this.onCharioItemTouchEnd, this);
         this.chariotItem1.on(cc.Node.EventType.TOUCH_END, this.onCharioItemTouchEnd, this);
         this.chariotItem2.on(cc.Node.EventType.TOUCH_END, this.onCharioItemTouchEnd, this);
+
+        this.heroUpItem0.on(cc.Node.EventType.TOUCH_END, this.onHeroUpTouchEnd, this);
+        this.heroUpItem1.on(cc.Node.EventType.TOUCH_END, this.onHeroUpTouchEnd, this);
+        this.heroUpItem2.on(cc.Node.EventType.TOUCH_END, this.onHeroUpTouchEnd, this);
 
     }
     protected onDestroy(): void {
         this.chariotItem0.off(cc.Node.EventType.TOUCH_END, this.onCharioItemTouchEnd, this);
         this.chariotItem1.off(cc.Node.EventType.TOUCH_END, this.onCharioItemTouchEnd, this);
         this.chariotItem2.off(cc.Node.EventType.TOUCH_END, this.onCharioItemTouchEnd, this);
+
+        this.heroUpItem0.off(cc.Node.EventType.TOUCH_END, this.onHeroUpTouchEnd, this);
+        this.heroUpItem1.off(cc.Node.EventType.TOUCH_END, this.onHeroUpTouchEnd, this);
+        this.heroUpItem2.off(cc.Node.EventType.TOUCH_END, this.onHeroUpTouchEnd, this);
+        cc.director.resume();
     }
     onEnable() {
 
+    }
+    private heroUpRefresh():void{
+        var heroHas:Array<Hero_Type>=[];
+        GameManager.getInstance().all_hero.forEach((v, k) => {
+          if(v.hero_lvl<5){
+            heroHas.push(v.hero_type);
+          }
+        })
+        console.log("拥有的可升级英雄"+heroHas.length);
+        this.heroUpItem0.x = -223;
+        this.heroUpItem1.x = 0;
+        this.heroUpItem2.x = 223;
+        this.heroUpItem1.active = true;
+        this.heroUpItem2.active = true;
+
+
+        heroHas.sort(function () {
+            return Math.random() - 0.5
+        });
+       
+        if(heroHas.length==0){
+            //没有可升级英雄，暂不处理
+          
+        }else if(heroHas.length==1){
+            this.heroUpItem0.x = 0;
+            this.heroUpItem1.active = false;
+            this.heroUpItem2.active = false;
+            this.heroUpItem0.getComponent(HeroUpItem).initData(heroHas[0]);
+
+        }else if(heroHas.length==2){
+            this.heroUpItem0.x = -111.5;
+            this.heroUpItem1.x = 111.5;
+            this.heroUpItem2.active = false;
+            this.heroUpItem0.getComponent(HeroUpItem).initData(heroHas[0]);
+            this.heroUpItem1.getComponent(HeroUpItem).initData(heroHas[1]);
+        }else{
+            this.heroUpItem0.getComponent(HeroUpItem).initData(heroHas[0]);
+            this.heroUpItem1.getComponent(HeroUpItem).initData(heroHas[1]);
+            this.heroUpItem2.getComponent(HeroUpItem).initData(heroHas[2]);
+        }
+        
+        
     }
     private chariotUpgradation(): void {
         var data: Array<number> = GameManager.getInstance().getcharioUpgradationData();
@@ -173,6 +235,18 @@ export default class RoguelikeTip extends UIComponent {
 
 
     }
+    onHeroUpTouchEnd(e: cc.Event.EventTouch): void {
+        let touchTarget = e.getCurrentTarget();
+        if (touchTarget.active == true) {
+            var heroType: number = touchTarget.getComponent(HeroUpItem).getDataType();
+            if( GameManager.getInstance().all_hero.get(heroType).hero_lvl<5){
+                GameManager.getInstance().all_hero.get(heroType).hero_lvl++;
+            }
+            
+            this.heroUpRefresh();
+            this.clickBtnClose();
+        }
+    }
     onCharioItemTouchEnd(e: cc.Event.EventTouch): void {
         let touchTarget = e.getCurrentTarget();
         if (touchTarget.active == true) {
@@ -185,7 +259,7 @@ export default class RoguelikeTip extends UIComponent {
                 GameManager.getInstance().refreshMainWallDataByaddHero()
 
             } else if (charioType == 2) {
-
+                //攻速直接在英雄里面取
             } else if (charioType == 3) {
                 GameManager.getInstance().refreshMainWallDataByaddHero()
 
@@ -194,7 +268,7 @@ export default class RoguelikeTip extends UIComponent {
             } else if (charioType == 5) {
 
             } else if (charioType == 6) {
-                WallManager.getInstance().getMainWall().changeHp(WallManager.getInstance().getMainWall().getMaxHp()*0.2);
+                WallManager.getInstance().getMainWall().changeHp(WallManager.getInstance().getMainWall().getMaxHp() * 0.2);
             }
 
             this.chariotUpgradation();
@@ -247,13 +321,16 @@ export default class RoguelikeTip extends UIComponent {
             this.tipLabel.getComponent(cc.Label).string = "选择一个英雄加入你的队伍。";
             this.hero_Chose.active = true;
             this.chariot_Chose.active = false;
+            this.heroUp_Chose.active = false;
         } else if (this.tag == 1) {
             this.hero_Chose.active = false;
             this.chariot_Chose.active = false;
-            this.tipLabel.getComponent(cc.Label).string = "选择一个技能加强你的英雄。";
+            this.heroUp_Chose.active = true;
+            this.tipLabel.getComponent(cc.Label).string = "选择一个英雄进行升级。";
         } else if (this.tag == 2) {
             this.hero_Chose.active = false;
             this.chariot_Chose.active = true;
+            this.heroUp_Chose.active = false;
             this.tipLabel.getComponent(cc.Label).string = "选择一个技能用于加强你的战车。";
         }
     }

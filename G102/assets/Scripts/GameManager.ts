@@ -137,7 +137,7 @@ export default class GameManager extends cc.Component {
     /**单次最小伤害值 */
     private min_damage: number = 9999;
     /**自动战斗标识 */
-    public auto_fighting: boolean = false;
+    public auto_fighting: boolean = true;
     /**当前的队列 */
     public cur_team_list: number[] = [];
 
@@ -192,7 +192,7 @@ export default class GameManager extends cc.Component {
                 this.ingame_skills = new Array();
                 this.reward_data = new Array();
                 this.fuhuo_num = 1;
-                this.auto_fighting = TheStorageManager.getInstance().getInt(StorageKey.AutoFighting) > 0;
+                //this.auto_fighting = TheStorageManager.getInstance().getInt(StorageKey.AutoFighting) > 0;
                 this.loadLevel();
                 this.loadGameHeroData();
             } break;
@@ -215,14 +215,14 @@ export default class GameManager extends cc.Component {
     }
 
     setAutoFighting(isAuto: boolean, isActivity: boolean = true) {
-        this.auto_fighting = isAuto;
-        if (isActivity) {
-            if (isAuto) {
-                FollowManager.getInstance().followEvent(Follow_Type.自动战斗开启成功次数);
-            } else {
-                FollowManager.getInstance().followEvent(Follow_Type.自动战斗关闭成功次数);
-            }
-        }
+        // this.auto_fighting = isAuto;
+        // if (isActivity) {
+        //     if (isAuto) {
+        //         FollowManager.getInstance().followEvent(Follow_Type.自动战斗开启成功次数);
+        //     } else {
+        //         FollowManager.getInstance().followEvent(Follow_Type.自动战斗关闭成功次数);
+        //     }
+        // }
     }
 
     getBtnSetupRate(): number {
@@ -755,7 +755,7 @@ export default class GameManager extends cc.Component {
     //显示关卡数据
     public loadLevel() {
 
-        if (MonsterManager.getInstance() && MonsterManager.getInstance().is_load_ok && (Hero.cur_loaded_num >= Hero.max_load_num) && (Pet.cur_loaded_num >= Pet.max_load_num) && this.fighting_info && this.cur_game_state == GameState.Game_Playing) {
+        if (MonsterManager.getInstance() && MonsterManager.getInstance().is_load_ok  && (Pet.cur_loaded_num >= Pet.max_load_num) && this.fighting_info && this.cur_game_state == GameState.Game_Playing) {
             if (GameManager.getInstance().cur_game_mode == GameMode.Endless) {
                 let top = cc.find("Canvas/Ui_Root/top_ui");
                 let wavenumber = TheStorageManager.getInstance().getNumber(StorageKey.UnlimitedChallengeDamage, 0) + 1
@@ -845,6 +845,7 @@ export default class GameManager extends cc.Component {
             if (isLoadNext) {
                 let delyT = this.fighting_info.wave_refresh_time[this.cur_wave + 1];
                 this.scheduleOnce(() => {
+                    console.log("延迟加载下一关");
                     this.loadNextWave();
                 }, delyT);
             }
@@ -993,11 +994,14 @@ export default class GameManager extends cc.Component {
             switch (this.cur_game_mode) {
                 case GameMode.Main: {
                     if (MonsterManager.getInstance().killed_monster_num >= this.cur_total_num) {
+                        console.log("敌人死亡加载下一关");
+                        
                         this.loadNextWave();
                     }
                 } break;
                 case GameMode.Endless: {
                     if (MonsterManager.getInstance().killed_monster_num >= this.cur_total_num) {
+                        console.log("敌人死亡加载下一关2");
                         this.loadNextWave();
                     }
                 } break;
