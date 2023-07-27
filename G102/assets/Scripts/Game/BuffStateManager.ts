@@ -42,27 +42,37 @@ export default class BuffStateManager extends MapNodePool {
     }
 
     /**根据id创建一个特效*/
-    public createBuffState(type:BuffStateType,heroType:Hero_Type):BuffState
+    public createBuffState(type:BuffStateType,heroType:Hero_Type,p:cc.Node=null):BuffState
     {
         let node=new cc.Node(''+type);
         let sp=node.addComponent(cc.Sprite);
         sp.spriteFrame=this.getSpByName("Buff_Icon_"+type);
         //根据英雄找到对应的root位置
-        let root=this.node.getChildByName(''+heroType);
-        root.addChild(node);
+       
+        if(p!=null){
+            p.addChild(node);
+        }else{
+            let root=this.node.getChildByName(''+heroType);
+            root.addChild(node);
+        }
+        
         let buffTS=node.addComponent(BuffState);
         return buffTS;
     }
 
     /**根据id创建一个特效*/
-    public createDeBuffState(type:BuffStateType,heroType:Hero_Type):BuffState
+    public createDeBuffState(type:BuffStateType,heroType:Hero_Type,p:cc.Node=null):BuffState
     {
         let node=new cc.Node(''+type);
         let sp=node.addComponent(cc.Sprite);
         sp.spriteFrame=this.getSpByName("Debuff_Icon_"+type);
         //根据英雄找到对应的root位置
-        let root=this.node.getChildByName(''+heroType);
-        root.addChild(node);
+        if(p!=null){
+            p.addChild(node);
+        }else{
+            let root=this.node.getChildByName(''+heroType);
+            root.addChild(node);
+        }
         let buffTS=node.addComponent(BuffState);
         return buffTS;
     }

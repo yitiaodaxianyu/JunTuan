@@ -127,7 +127,7 @@ export default class GameManager extends cc.Component {
     //通关次数
     pass_level_num: number = 0;
     /**游戏速率 */
-    private game_rate: number = 2;
+    private game_rate: number = 1.8;
     /**按钮指定速率 */
     private btn_setup_rate: number = 1;
     /**战斗指定速率 */

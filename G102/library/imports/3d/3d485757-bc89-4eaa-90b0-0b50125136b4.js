@@ -76,11 +76,17 @@ var ANuBiSi = /** @class */ (function (_super) {
             this.createFullScreenDamage();
         }
     };
+    ANuBiSi.prototype.update = function (dt) {
+        _super.prototype.update.call(this, dt);
+        if (this.beidong && this.node_shadow) {
+            this.beidong.setPosition(this.node_shadow.getPosition());
+        }
+    };
     ANuBiSi.prototype.createFullScreenDamage = function () {
-        var node = cc.instantiate(this.prefab_beidong_2);
-        cc.find("Canvas/Hero_Shadow_Root").addChild(node);
-        node.setPosition(this.node.getPosition());
-        this.full_screen_damage = node.getComponent(FullScreenDamage_1.default);
+        this.beidong = cc.instantiate(this.prefab_beidong_2);
+        cc.find("Canvas/Hero_Shadow_Root").addChild(this.beidong);
+        this.beidong.setPosition(this.node.getPosition());
+        this.full_screen_damage = this.beidong.getComponent(FullScreenDamage_1.default);
         this.full_screen_damage.init(GameEffectsManager_1.GameEffectId.a_nu_bi_si_beidong_skill_2, 1, this.onSkillDamage2.bind(this));
     };
     ANuBiSi.prototype.onSkillDamage2 = function () {

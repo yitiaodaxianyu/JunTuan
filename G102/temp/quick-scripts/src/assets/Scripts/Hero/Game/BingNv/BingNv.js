@@ -43,6 +43,7 @@ var BingNv = /** @class */ (function (_super) {
     function BingNv() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         _this.prefab_beidong_2 = null;
+        _this.buff_node = null;
         _this.full_screen_damage = null;
         return _this;
     }
@@ -70,11 +71,17 @@ var BingNv = /** @class */ (function (_super) {
             this.createFullScreenDamage();
         }
     };
+    BingNv.prototype.update = function (dt) {
+        _super.prototype.update.call(this, dt);
+        if (this.beidong && this.node_shadow) {
+            this.beidong.setPosition(this.node_shadow.getPosition());
+        }
+    };
     BingNv.prototype.createFullScreenDamage = function () {
-        var node = cc.instantiate(this.prefab_beidong_2);
-        cc.find("Canvas/Hero_Shadow_Root").addChild(node);
-        node.setPosition(this.node.getPosition());
-        this.full_screen_damage = node.getComponent(FullScreenDamage_1.default);
+        this.beidong = cc.instantiate(this.prefab_beidong_2);
+        this.beidong.parent = cc.find('Canvas/Hero_Shadow_Root');
+        // node.setPosition(this.node.getPosition());
+        this.full_screen_damage = this.beidong.getComponent(FullScreenDamage_1.default);
         this.full_screen_damage.init(GameEffectsManager_1.GameEffectId.bing_nv_beidong_skill_2, 1, this.onSkillDamage2.bind(this));
     };
     BingNv.prototype.onSkillDamage2 = function () {
@@ -194,6 +201,9 @@ var BingNv = /** @class */ (function (_super) {
     __decorate([
         property(cc.Prefab)
     ], BingNv.prototype, "prefab_beidong_2", void 0);
+    __decorate([
+        property(cc.Node)
+    ], BingNv.prototype, "buff_node", void 0);
     BingNv = __decorate([
         ccclass
     ], BingNv);

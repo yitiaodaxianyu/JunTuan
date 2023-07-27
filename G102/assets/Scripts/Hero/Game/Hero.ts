@@ -68,7 +68,7 @@ export default class Hero extends cc.Component {
     //技能剩余的冷却时间
     skill_cd_time: number = 0;
     /**主动技能技能最大冷却*/
-    skill_total_time: number = 5;
+    skill_total_time: number = 10;
     /**施法距离 */
     casting_distance: number = 1000;
     /**子弹速度 */
@@ -328,6 +328,8 @@ export default class Hero extends cc.Component {
     }
 
     private loadMpProgress() {
+        // this.changeCD(this.hero_data.getSkillColdDown(SkillType.Active)/3);
+        // this.skill_total_time=this.hero_data.getSkillColdDown(SkillType.Active);
         // cc.resources.load('heros/skill_icon',cc.Prefab,(error: Error, assets:cc.Prefab)=>{
         //     if(error)
         //     {
@@ -867,9 +869,10 @@ export default class Hero extends cc.Component {
                     } break;
                 case BuffId.Hero_ChangMaoShow_GongSu: {
                     this.changeAttackSpeed(buffData.buff_value[0]);
-                    node.setPosition(cc.v2(0, 0));
+                    node.setPosition(cc.v2(0, -20));
+                    node.scale = 1.1;
                     //新增一个背后特效
-                    buff.addTeXiao(GameEffectId.chang_mao_shou_skill_active_2, this.node.getPosition(), cc.find('Canvas/Hero_Shadow_Root'))
+                    buff.addTeXiao(GameEffectId.chang_mao_shou_skill_active_2, cc.v2(0, -20), this.node)
                 } break;
                 case BuffId.Hero_ZhenDe_BaoJiMingZhongLv: {
                     this.hero_data.crit_ex += buffData.buff_value[0];
@@ -1113,7 +1116,7 @@ export default class Hero extends cc.Component {
             if (this.map_buff_state.has(type)) {
                 this.map_buff_state.get(type).refreshTime(remainTime);
             } else {
-                let bfState = BuffStateManager.getInstance().createBuffState(type, this.hero_type);
+                let bfState = BuffStateManager.getInstance().createBuffState(type, this.hero_type,this.node);
                 bfState.init(type, remainTime, this.onBuffStateDestory.bind(this));
                 this.map_buff_state.set(type, bfState);
                 //this.node.addChild(shield.node);

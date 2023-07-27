@@ -2535,8 +2535,8 @@
     "relativePath": "resources\\heros\\hero7.prefab"
   },
   "2fa3d5f1-d00f-4cd8-a354-7e81b0d34ff0": {
-    "asset": 1688719266755,
-    "meta": 1689133963563,
+    "asset": 1690428001161,
+    "meta": 1690428001169,
     "relativePath": "resources\\heros\\hero9.prefab"
   },
   "18c4a941-9c56-48df-a2d4-c3ad1b3e3bf5": {
@@ -4894,11 +4894,6 @@
     "meta": 1689133964866,
     "relativePath": "Scripts\\Game\\BigMap.ts"
   },
-  "b2406772-d294-49af-be73-266d9c9a85e4": {
-    "asset": 1688719263403,
-    "meta": 1689133964873,
-    "relativePath": "Scripts\\Game\\BuffStateManager.ts"
-  },
   "a7e88b7d-d2df-414d-a2c8-40a702399b6d": {
     "asset": 1688719263405,
     "meta": 1689133964884,
@@ -4945,8 +4940,8 @@
     "relativePath": "Scripts\\Game\\SkyManager.ts"
   },
   "d4ab3673-42d3-405f-8f87-b68c819b49de": {
-    "asset": 1690168816082,
-    "meta": 1690176742319,
+    "asset": 1690359767499,
+    "meta": 1690421590779,
     "relativePath": "Scripts\\Game\\Ui"
   },
   "7d08fdea-9f77-43dc-ac76-066bf408ab65": {
@@ -10065,13 +10060,13 @@
     "relativePath": "resources\\effects\\game\\801.prefab"
   },
   "37813716-4ffc-46a5-8004-0eea315f1b91": {
-    "asset": 1688719266393,
-    "meta": 1689133969174,
+    "asset": 1690421881105,
+    "meta": 1690421881105,
     "relativePath": "resources\\effects\\game\\811.prefab"
   },
   "7f7cee65-2423-412a-aebb-bf87cdc40830": {
-    "asset": 1688719266395,
-    "meta": 1689133969175,
+    "asset": 1690422857090,
+    "meta": 1690422857097,
     "relativePath": "resources\\effects\\game\\812.prefab"
   },
   "32797d17-a7b1-46b2-b55f-6996e6e890e5": {
@@ -11988,11 +11983,6 @@
     "asset": 1688719263501,
     "meta": 1689133970714,
     "relativePath": "Scripts\\Hero\\Game\\BuffState.ts"
-  },
-  "c1b1d69d-5878-45b8-ac5c-42891903d60a": {
-    "asset": 1688719263502,
-    "meta": 1689133970726,
-    "relativePath": "Scripts\\Hero\\Game\\BuffTimer.ts"
   },
   "38c96edb-4e3e-4809-9072-5fa955c0727c": {
     "asset": 1688719263503,
@@ -15000,8 +14990,8 @@
     "relativePath": "Scripts\\Store\\StoreHeroUi.ts"
   },
   "c2b29c22-b703-4d69-9932-06eafc1afd76": {
-    "asset": 1690359728308,
-    "meta": 1690359728316,
+    "asset": 1690425850947,
+    "meta": 1690425850952,
     "relativePath": "Scenes\\game.fire"
   },
   "d2c8e048-a55b-4197-886f-a63b3fe510d1": {
@@ -15199,11 +15189,6 @@
     "meta": 1690182106979,
     "relativePath": "Scripts\\Hero\\Game\\PaoShou\\PaoShou.ts"
   },
-  "61e0d974-06f6-49e7-8d09-9271f8427530": {
-    "asset": 1690183582539,
-    "meta": 1690183639318,
-    "relativePath": "resources\\json\\MonsterConfigure.json"
-  },
   "f7c05a14-accf-4394-949d-e821e2be4ede": {
     "asset": 1690188543246,
     "meta": 1690188675823,
@@ -15304,11 +15289,6 @@
     "meta": 1690338626602,
     "relativePath": "Scripts\\Game\\MapNodePool.ts"
   },
-  "43abe177-0e78-4218-b563-9f4958845c31": {
-    "asset": 1690339763978,
-    "meta": 1690339773950,
-    "relativePath": "Scripts\\Monster\\Monster.ts"
-  },
   "2d33720e-48b6-4ff8-b22c-1ccf43d3930d": {
     "asset": 1690339759482,
     "meta": 1690339774019,
@@ -15318,16 +15298,6 @@
     "asset": 1690340053897,
     "meta": 1690340375651,
     "relativePath": "Scripts\\Monster\\MonsterNewNormal.ts"
-  },
-  "91f986bb-5557-4ec3-874f-fdb1de99e8d1": {
-    "asset": 1690343752835,
-    "meta": 1690343758636,
-    "relativePath": "Scripts\\GameManager.ts"
-  },
-  "817e4d7d-d8ab-40bf-bcc3-6e88da05e490": {
-    "asset": 1690354958701,
-    "meta": 1690355304633,
-    "relativePath": "Scripts\\Hero\\Game\\BingNv\\BingNv.ts"
   },
   "12fe23dd-7128-4aa4-999d-1212b5db121c": {
     "asset": 1690355011156,
@@ -15354,11 +15324,6 @@
     "meta": 1690355321587,
     "relativePath": "resources\\json\\MissionLevel.json"
   },
-  "3d485757-bc89-4eaa-90b0-0b50125136b4": {
-    "asset": 1690355438390,
-    "meta": 1690355441020,
-    "relativePath": "Scripts\\Hero\\Game\\ANuBiSi\\ANuBiSi.ts"
-  },
   "ab69de1c-c515-45e4-abb8-ad8530c58be9": {
     "asset": 1690355417639,
     "meta": 1690355441033,
@@ -15384,11 +15349,6 @@
     "meta": 1690360127539,
     "relativePath": "Scripts\\Game\\Ui\\CharioItem.ts"
   },
-  "47edb50b-8706-4f86-86dd-2cc730934e1c": {
-    "asset": 1690361287337,
-    "meta": 1690361296118,
-    "relativePath": "Scripts\\Hero\\Game\\Hero.ts"
-  },
   "bad72505-5515-4622-ba46-4b444ecfb1ad": {
     "asset": 1690361445189,
     "meta": 1690361446818,
@@ -15409,9 +15369,49 @@
     "meta": 1690365132780,
     "relativePath": "resources\\json\\HeroBaseInfo.json"
   },
+  "91f986bb-5557-4ec3-874f-fdb1de99e8d1": {
+    "asset": 1690367920548,
+    "meta": 1690367922486,
+    "relativePath": "Scripts\\GameManager.ts"
+  },
+  "43abe177-0e78-4218-b563-9f4958845c31": {
+    "asset": 1690422405495,
+    "meta": 1690422416588,
+    "relativePath": "Scripts\\Monster\\Monster.ts"
+  },
+  "c1b1d69d-5878-45b8-ac5c-42891903d60a": {
+    "asset": 1690422750040,
+    "meta": 1690422756356,
+    "relativePath": "Scripts\\Hero\\Game\\BuffTimer.ts"
+  },
+  "61e0d974-06f6-49e7-8d09-9271f8427530": {
+    "asset": 1690425933549,
+    "meta": 1690425967279,
+    "relativePath": "resources\\json\\MonsterConfigure.json"
+  },
   "c5f85cd2-ebd4-4efc-adee-91800a73974b": {
-    "asset": 1690365077096,
-    "meta": 1690365132781,
+    "asset": 1690425930760,
+    "meta": 1690425967284,
     "relativePath": "resources\\json\\SkillConfiguration.json"
+  },
+  "47edb50b-8706-4f86-86dd-2cc730934e1c": {
+    "asset": 1690426032477,
+    "meta": 1690426041487,
+    "relativePath": "Scripts\\Hero\\Game\\Hero.ts"
+  },
+  "b2406772-d294-49af-be73-266d9c9a85e4": {
+    "asset": 1690426666798,
+    "meta": 1690426715187,
+    "relativePath": "Scripts\\Game\\BuffStateManager.ts"
+  },
+  "817e4d7d-d8ab-40bf-bcc3-6e88da05e490": {
+    "asset": 1690428512113,
+    "meta": 1690428515058,
+    "relativePath": "Scripts\\Hero\\Game\\BingNv\\BingNv.ts"
+  },
+  "3d485757-bc89-4eaa-90b0-0b50125136b4": {
+    "asset": 1690428715773,
+    "meta": 1690428734439,
+    "relativePath": "Scripts\\Hero\\Game\\ANuBiSi\\ANuBiSi.ts"
   }
 }

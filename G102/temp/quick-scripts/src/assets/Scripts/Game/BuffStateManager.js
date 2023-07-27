@@ -57,24 +57,36 @@ var BuffStateManager = /** @class */ (function (_super) {
         this.node.addChild(node);
     };
     /**根据id创建一个特效*/
-    BuffStateManager.prototype.createBuffState = function (type, heroType) {
+    BuffStateManager.prototype.createBuffState = function (type, heroType, p) {
+        if (p === void 0) { p = null; }
         var node = new cc.Node('' + type);
         var sp = node.addComponent(cc.Sprite);
         sp.spriteFrame = this.getSpByName("Buff_Icon_" + type);
         //根据英雄找到对应的root位置
-        var root = this.node.getChildByName('' + heroType);
-        root.addChild(node);
+        if (p != null) {
+            p.addChild(node);
+        }
+        else {
+            var root = this.node.getChildByName('' + heroType);
+            root.addChild(node);
+        }
         var buffTS = node.addComponent(BuffState_1.default);
         return buffTS;
     };
     /**根据id创建一个特效*/
-    BuffStateManager.prototype.createDeBuffState = function (type, heroType) {
+    BuffStateManager.prototype.createDeBuffState = function (type, heroType, p) {
+        if (p === void 0) { p = null; }
         var node = new cc.Node('' + type);
         var sp = node.addComponent(cc.Sprite);
         sp.spriteFrame = this.getSpByName("Debuff_Icon_" + type);
         //根据英雄找到对应的root位置
-        var root = this.node.getChildByName('' + heroType);
-        root.addChild(node);
+        if (p != null) {
+            p.addChild(node);
+        }
+        else {
+            var root = this.node.getChildByName('' + heroType);
+            root.addChild(node);
+        }
         var buffTS = node.addComponent(BuffState_1.default);
         return buffTS;
     };

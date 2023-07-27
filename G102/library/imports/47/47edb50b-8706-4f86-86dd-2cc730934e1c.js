@@ -78,7 +78,7 @@ var Hero = /** @class */ (function (_super) {
         //技能剩余的冷却时间
         _this.skill_cd_time = 0;
         /**主动技能技能最大冷却*/
-        _this.skill_total_time = 5;
+        _this.skill_total_time = 10;
         /**施法距离 */
         _this.casting_distance = 1000;
         /**子弹速度 */
@@ -329,6 +329,8 @@ var Hero = /** @class */ (function (_super) {
         this.loaded_callback = callBack;
     };
     Hero.prototype.loadMpProgress = function () {
+        // this.changeCD(this.hero_data.getSkillColdDown(SkillType.Active)/3);
+        // this.skill_total_time=this.hero_data.getSkillColdDown(SkillType.Active);
         // cc.resources.load('heros/skill_icon',cc.Prefab,(error: Error, assets:cc.Prefab)=>{
         //     if(error)
         //     {
@@ -901,9 +903,10 @@ var Hero = /** @class */ (function (_super) {
                 case HeroConfig_1.BuffId.Hero_ChangMaoShow_GongSu:
                     {
                         this.changeAttackSpeed(buffData.buff_value[0]);
-                        node.setPosition(cc.v2(0, 0));
+                        node.setPosition(cc.v2(0, -20));
+                        node.scale = 1.1;
                         //新增一个背后特效
-                        buff.addTeXiao(GameEffectsManager_1.GameEffectId.chang_mao_shou_skill_active_2, this.node.getPosition(), cc.find('Canvas/Hero_Shadow_Root'));
+                        buff.addTeXiao(GameEffectsManager_1.GameEffectId.chang_mao_shou_skill_active_2, cc.v2(0, -20), this.node);
                     }
                     break;
                 case HeroConfig_1.BuffId.Hero_ZhenDe_BaoJiMingZhongLv:
@@ -1162,7 +1165,7 @@ var Hero = /** @class */ (function (_super) {
                 this.map_buff_state.get(type).refreshTime(remainTime);
             }
             else {
-                var bfState = BuffStateManager_1.default.getInstance().createBuffState(type, this.hero_type);
+                var bfState = BuffStateManager_1.default.getInstance().createBuffState(type, this.hero_type, this.node);
                 bfState.init(type, remainTime, this.onBuffStateDestory.bind(this));
                 this.map_buff_state.set(type, bfState);
                 //this.node.addChild(shield.node);

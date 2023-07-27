@@ -23,6 +23,9 @@ export default class BingNv extends Hero {
     @property(cc.Prefab)
     prefab_beidong_2:cc.Prefab=null;
 
+    @property(cc.Node)
+    buff_node:cc.Node=null;
+
     full_screen_damage:FullScreenDamage=null;
 
     onLoad()
@@ -52,12 +55,19 @@ export default class BingNv extends Hero {
             this.createFullScreenDamage();
         }
     }
-
+    update(dt: number): void {
+        super.update(dt);
+        if(this.beidong&&this.node_shadow){
+            this.beidong.setPosition(this.node_shadow.getPosition());
+        }
+        
+    }
+    private beidong:cc.Node;
     createFullScreenDamage(){
-        let node=cc.instantiate(this.prefab_beidong_2);
-        cc.find("Canvas/Hero_Shadow_Root").addChild(node);
-        node.setPosition(this.node.getPosition());
-        this.full_screen_damage=node.getComponent(FullScreenDamage);
+        this.beidong=cc.instantiate(this.prefab_beidong_2);
+        this.beidong.parent = cc.find('Canvas/Hero_Shadow_Root');
+        // node.setPosition(this.node.getPosition());
+        this.full_screen_damage=this.beidong.getComponent(FullScreenDamage);
         this.full_screen_damage.init(GameEffectId.bing_nv_beidong_skill_2,1,this.onSkillDamage2.bind(this));
     }
 

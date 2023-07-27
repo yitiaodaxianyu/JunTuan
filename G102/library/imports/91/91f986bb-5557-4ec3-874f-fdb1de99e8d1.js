@@ -130,7 +130,7 @@ var GameManager = /** @class */ (function (_super) {
         //通关次数
         _this.pass_level_num = 0;
         /**游戏速率 */
-        _this.game_rate = 2;
+        _this.game_rate = 1.8;
         /**按钮指定速率 */
         _this.btn_setup_rate = 1;
         /**战斗指定速率 */

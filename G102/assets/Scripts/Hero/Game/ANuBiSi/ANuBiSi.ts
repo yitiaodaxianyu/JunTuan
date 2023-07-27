@@ -57,12 +57,18 @@ export default class ANuBiSi extends Hero {
             this.createFullScreenDamage();
         }
     }
-
+    update(dt: number): void {
+        super.update(dt);
+        if(this.beidong&&this.node_shadow){
+            this.beidong.setPosition(this.node_shadow.getPosition());
+        }
+    }
+    private beidong:cc.Node;
     createFullScreenDamage(){
-        let node=cc.instantiate(this.prefab_beidong_2);
-        cc.find("Canvas/Hero_Shadow_Root").addChild(node);
-        node.setPosition(this.node.getPosition());
-        this.full_screen_damage=node.getComponent(FullScreenDamage);
+        this.beidong=cc.instantiate(this.prefab_beidong_2);
+        cc.find("Canvas/Hero_Shadow_Root").addChild(this.beidong);
+        this.beidong.setPosition(this.node.getPosition());
+        this.full_screen_damage=this.beidong.getComponent(FullScreenDamage);
         this.full_screen_damage.init(GameEffectId.a_nu_bi_si_beidong_skill_2,1,this.onSkillDamage2.bind(this));
     }
 

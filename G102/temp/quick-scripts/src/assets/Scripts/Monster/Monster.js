@@ -1472,7 +1472,7 @@ var Monster = /** @class */ (function (_super) {
         md.zengshang_rate = this.zengshang_rate;
         md.monster_ts = this;
         md.strength_type = this.getStrengthType();
-        WallManager_1.default.getInstance().getMainWall().beInjured(md, false, this.getCurHp() * 0.5);
+        WallManager_1.default.getInstance().getMainWall().beInjured(md, false, this.getCurHp() * 0.2);
         this.changeHp(-9999999999);
     };
     Monster.prototype.setPos = function (pos) {

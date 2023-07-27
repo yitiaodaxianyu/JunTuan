@@ -1440,7 +1440,7 @@ export default class Monster extends cc.Component {
         md.zengshang_rate=this.zengshang_rate;
         md.monster_ts=this;
         md.strength_type=this.getStrengthType()
-        WallManager.getInstance().getMainWall().beInjured(md,false,this.getCurHp()*0.5)
+        WallManager.getInstance().getMainWall().beInjured(md,false,this.getCurHp()*0.2)
         this.changeHp(-9999999999);
     }
     setPos(pos:cc.Vec2){
