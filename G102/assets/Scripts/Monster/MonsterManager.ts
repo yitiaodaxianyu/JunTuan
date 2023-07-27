@@ -346,9 +346,16 @@ export default class MonsterManager extends MapNodePool {
                     if (posIndex == null || posIndex == -1) {
                         attMonsters.push(monster);
                     } else {
-                        if (Math.abs(monster.x - GameManager.getInstance().charPosX) <= 75 && monster.y > WallManager.getInstance().getMainWall().getWallRect().yMax) {
-                            attMonsters.push(monster);
+                        if(monsterTS.monster_id>=30381){
+                            if (Math.abs(monster.x - GameManager.getInstance().charPosX) <= 200 && monster.y > WallManager.getInstance().getMainWall().getWallRect().yMax) {
+                                attMonsters.push(monster);
+                            }
+                        }else{
+                            if (Math.abs(monster.x - GameManager.getInstance().charPosX) <= 100 && monster.y > WallManager.getInstance().getMainWall().getWallRect().yMax) {
+                                attMonsters.push(monster);
+                            }
                         }
+                       
                     }
 
                 }

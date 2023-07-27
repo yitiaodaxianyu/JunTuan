@@ -349,8 +349,15 @@ var MonsterManager = /** @class */ (function (_super) {
                         attMonsters.push(monster);
                     }
                     else {
-                        if (Math.abs(monster.x - GameManager_1.default.getInstance().charPosX) <= 75 && monster.y > WallManager_1.default.getInstance().getMainWall().getWallRect().yMax) {
-                            attMonsters.push(monster);
+                        if (monsterTS.monster_id >= 30381) {
+                            if (Math.abs(monster.x - GameManager_1.default.getInstance().charPosX) <= 200 && monster.y > WallManager_1.default.getInstance().getMainWall().getWallRect().yMax) {
+                                attMonsters.push(monster);
+                            }
+                        }
+                        else {
+                            if (Math.abs(monster.x - GameManager_1.default.getInstance().charPosX) <= 100 && monster.y > WallManager_1.default.getInstance().getMainWall().getWallRect().yMax) {
+                                attMonsters.push(monster);
+                            }
                         }
                     }
                 }

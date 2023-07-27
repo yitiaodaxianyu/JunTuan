@@ -869,7 +869,7 @@ var GameManager = /** @class */ (function (_super) {
         if (this.cur_wave < this.fighting_info.monster_datas.length - 1) {
             this.cur_wave++;
             console.log("关卡增加到" + this.cur_wave + " " + this.cur_wave % 3);
-            if (this.cur_wave % 3 == 0) {
+            if (this.cur_wave % 3 == 0 && this.cur_game_state == Constants_1.GameState.Game_Playing) {
                 console.log("显示提示TIp");
                 this.showRoguelike();
             }

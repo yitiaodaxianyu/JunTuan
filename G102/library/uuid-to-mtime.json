@@ -1070,8 +1070,8 @@
     "relativePath": "resources\\Images\\get_hint.png"
   },
   "f7fe28b5-3fd3-4031-91b5-d4d08dd1d46a": {
-    "asset": 1689144689965,
-    "meta": 1689144689968,
+    "asset": 1690447432372,
+    "meta": 1690447432387,
     "relativePath": "Scenes\\load.fire"
   },
   "b8d2234c-7442-430d-8abd-e21bef67728b": {
@@ -1128,11 +1128,6 @@
     "asset": 1689906847994,
     "meta": 1689907773816,
     "relativePath": "resources\\Spine\\zhengmian"
-  },
-  "b7023f5f-8418-45a0-8e03-6c3a0c0f7191": {
-    "asset": 1690360370986,
-    "meta": 1690360371000,
-    "relativePath": "Scenes\\home.fire"
   },
   "de313e75-a1fb-40fe-9077-bd751bcd098b": {
     "asset": 1689906844870,
@@ -5284,11 +5279,6 @@
     "meta": 1689133965630,
     "relativePath": "Scripts\\Monster\\HpProgressBar.ts"
   },
-  "4da8cd29-ae07-40d9-a18c-86a4264124ac": {
-    "asset": 1688719263728,
-    "meta": 1689133965654,
-    "relativePath": "Scripts\\Monster\\HpTextManager.ts"
-  },
   "d5f74a5e-7403-4f81-97c2-6d1801777fda": {
     "asset": 1688719263731,
     "meta": 1689133965754,
@@ -8009,11 +7999,6 @@
     "meta": 1689133968554,
     "relativePath": "resources\\Images\\hero\\zhen_de\\e611.anim"
   },
-  "832434f9-e7e9-4370-8acf-2c5dc7b49ee5": {
-    "asset": 1688719261692,
-    "meta": 1689133977350,
-    "relativePath": "resources\\Images\\hero\\zhen_de\\zhen_de.plist"
-  },
   "2fc04049-9e00-4dc1-936f-65fe90dd9c66": {
     "asset": 1688719261687,
     "meta": 1689133968559,
@@ -8394,11 +8379,6 @@
     "meta": 1689133968728,
     "relativePath": "resources\\Images\\home\\pet_list_ui\\pet_list_ui.png"
   },
-  "5fa52152-9c07-4942-91ee-561447fb0cc3": {
-    "asset": 1688719262273,
-    "meta": 1689133977890,
-    "relativePath": "resources\\Images\\home\\top_ui\\top_ui.plist"
-  },
   "011c02ef-91c2-4cbb-b4ff-ab1026c43714": {
     "asset": 1688719261916,
     "meta": 1689133968731,
@@ -8544,11 +8524,6 @@
     "meta": 1689133968780,
     "relativePath": "resources\\Images\\home\\task_ui\\task_ui.png"
   },
-  "2ada9203-cdc0-4d7e-b84d-f430bc479714": {
-    "asset": 1688719262275,
-    "meta": 1689133968780,
-    "relativePath": "resources\\Images\\home\\top_ui\\top_ui.png"
-  },
   "c571081a-2b6c-416d-bab2-61be3c49d6eb": {
     "asset": 1688719262394,
     "meta": 1689133978059,
@@ -8563,11 +8538,6 @@
     "asset": 1688719262271,
     "meta": 1689133968799,
     "relativePath": "resources\\Images\\home\\team_select_ui\\team_select_ui.png"
-  },
-  "ae934942-1512-4d65-b816-86e0ad7ef70a": {
-    "asset": 1688719261734,
-    "meta": 1689133968801,
-    "relativePath": "resources\\Images\\hero\\zhen_de\\zhen_de.png"
   },
   "bf4d600a-d80d-4979-8a27-e90610e7ba6d": {
     "asset": 1688719262307,
@@ -14959,11 +14929,6 @@
     "meta": 1689731475791,
     "relativePath": "Scripts\\Monster\\MonsterNormal.ts"
   },
-  "8db920cb-138b-4e69-9e56-c1336bc5ee63": {
-    "asset": 1689732061883,
-    "meta": 1689732103978,
-    "relativePath": "Scripts\\Monster\\Data\\MonsterConfigure.ts"
-  },
   "24d5d685-2553-4784-8e2a-24db0467194e": {
     "asset": 1689739012808,
     "meta": 1689739075081,
@@ -14988,11 +14953,6 @@
     "asset": 1689739012852,
     "meta": 1689739075581,
     "relativePath": "Scripts\\Store\\StoreHeroUi.ts"
-  },
-  "c2b29c22-b703-4d69-9932-06eafc1afd76": {
-    "asset": 1690425850947,
-    "meta": 1690425850952,
-    "relativePath": "Scenes\\game.fire"
   },
   "d2c8e048-a55b-4197-886f-a63b3fe510d1": {
     "asset": 1688719261076,
@@ -15199,16 +15159,6 @@
     "meta": 1690192387040,
     "relativePath": "Scripts\\Monster\\MonsterData.ts"
   },
-  "70ab1076-c721-43e7-8dc1-bfbe5881ef5c": {
-    "asset": 1690193381347,
-    "meta": 1690193387489,
-    "relativePath": "Scripts\\Home.ts"
-  },
-  "9bfbc1c4-405b-4ca4-b306-e8d3ba576f14": {
-    "asset": 1690193859582,
-    "meta": 1690193869635,
-    "relativePath": "startscene\\StartScene.ts"
-  },
   "9a67207f-3b8d-4e52-a295-59550476eceb": {
     "asset": 1690250123457,
     "meta": 1690250214655,
@@ -15234,11 +15184,6 @@
     "meta": 1690268812276,
     "relativePath": "Scripts\\Game\\Game.ts"
   },
-  "616d5bdb-5e6d-4ca1-8b34-9d9386861564": {
-    "asset": 1690268785849,
-    "meta": 1690268822922,
-    "relativePath": "resources\\json\\MonsterGroupConfigure.json"
-  },
   "c9a07a59-5131-453a-9060-2027e96059ac": {
     "asset": 1690269806816,
     "meta": 1690269872177,
@@ -15248,11 +15193,6 @@
     "asset": 1690271061438,
     "meta": 1690271069020,
     "relativePath": "Scripts\\Hero\\Game\\ShouWang\\ShouWangJianShi.ts"
-  },
-  "28dab7e6-8055-4af8-aecc-116b49107f9a": {
-    "asset": 1690272639101,
-    "meta": 1690272658916,
-    "relativePath": "Scripts\\Hero\\Game\\ShouWang\\ShouWang.ts"
   },
   "5857879c-2e2f-4ccf-a1b9-0c8a7fd8f067": {
     "asset": 1690273036361,
@@ -15269,14 +15209,9 @@
     "meta": 1690280544572,
     "relativePath": "Scripts\\Wall\\Wall.ts"
   },
-  "1c3b1e58-b158-4fc5-a2ed-dd5ba8f59158": {
-    "asset": 1690280796455,
-    "meta": 1690280855971,
-    "relativePath": "resources\\Images\\hero\\zhen_de\\zhendehuzhao.png"
-  },
   "b9163964-f132-4f3f-8057-e8e515bedd80": {
-    "asset": 1690281288296,
-    "meta": 1690281288306,
+    "asset": 1690448098639,
+    "meta": 1690448098639,
     "relativePath": "resources\\effects\\game\\612.prefab"
   },
   "fd58b5d4-6d33-4eb5-a487-4940d7bb05ef": {
@@ -15288,11 +15223,6 @@
     "asset": 1690338497864,
     "meta": 1690338626602,
     "relativePath": "Scripts\\Game\\MapNodePool.ts"
-  },
-  "2d33720e-48b6-4ff8-b22c-1ccf43d3930d": {
-    "asset": 1690339759482,
-    "meta": 1690339774019,
-    "relativePath": "Scripts\\Monster\\MonsterManager.ts"
   },
   "d338af1f-577b-4fbe-8c45-a2778152b941": {
     "asset": 1690340053897,
@@ -15313,11 +15243,6 @@
     "asset": 1690354912163,
     "meta": 1690355304865,
     "relativePath": "Scripts\\Hero\\Game\\NvWu\\NvWuDan.ts"
-  },
-  "3de340c5-f28e-4c49-bc20-c4444076d6fd": {
-    "asset": 1690354636259,
-    "meta": 1690355304907,
-    "relativePath": "Scripts\\Hero\\Game\\SheShou\\SheShou.ts"
   },
   "444a03b1-a839-4ad5-8602-166f895ab0e6": {
     "asset": 1690355269760,
@@ -15359,26 +15284,6 @@
     "meta": 1690362242118,
     "relativePath": "Scripts\\Game\\Ui\\RoguelikeTip.ts"
   },
-  "e7514378-1167-4b4d-8e67-2c6d6765abfb": {
-    "asset": 1690363479764,
-    "meta": 1690363481683,
-    "relativePath": "Scripts\\Prop\\Data\\Item.ts"
-  },
-  "c5b53712-6a3b-4538-ae8d-111c05aa3bec": {
-    "asset": 1690365074904,
-    "meta": 1690365132780,
-    "relativePath": "resources\\json\\HeroBaseInfo.json"
-  },
-  "91f986bb-5557-4ec3-874f-fdb1de99e8d1": {
-    "asset": 1690367920548,
-    "meta": 1690367922486,
-    "relativePath": "Scripts\\GameManager.ts"
-  },
-  "43abe177-0e78-4218-b563-9f4958845c31": {
-    "asset": 1690422405495,
-    "meta": 1690422416588,
-    "relativePath": "Scripts\\Monster\\Monster.ts"
-  },
   "c1b1d69d-5878-45b8-ac5c-42891903d60a": {
     "asset": 1690422750040,
     "meta": 1690422756356,
@@ -15394,11 +15299,6 @@
     "meta": 1690425967284,
     "relativePath": "resources\\json\\SkillConfiguration.json"
   },
-  "47edb50b-8706-4f86-86dd-2cc730934e1c": {
-    "asset": 1690426032477,
-    "meta": 1690426041487,
-    "relativePath": "Scripts\\Hero\\Game\\Hero.ts"
-  },
   "b2406772-d294-49af-be73-266d9c9a85e4": {
     "asset": 1690426666798,
     "meta": 1690426715187,
@@ -15413,5 +15313,105 @@
     "asset": 1690428715773,
     "meta": 1690428734439,
     "relativePath": "Scripts\\Hero\\Game\\ANuBiSi\\ANuBiSi.ts"
+  },
+  "47edb50b-8706-4f86-86dd-2cc730934e1c": {
+    "asset": 1690438139885,
+    "meta": 1690438410445,
+    "relativePath": "Scripts\\Hero\\Game\\Hero.ts"
+  },
+  "3de340c5-f28e-4c49-bc20-c4444076d6fd": {
+    "asset": 1690438880935,
+    "meta": 1690438887504,
+    "relativePath": "Scripts\\Hero\\Game\\SheShou\\SheShou.ts"
+  },
+  "28dab7e6-8055-4af8-aecc-116b49107f9a": {
+    "asset": 1690439016481,
+    "meta": 1690439202989,
+    "relativePath": "Scripts\\Hero\\Game\\ShouWang\\ShouWang.ts"
+  },
+  "4da8cd29-ae07-40d9-a18c-86a4264124ac": {
+    "asset": 1690440371748,
+    "meta": 1690440373578,
+    "relativePath": "Scripts\\Monster\\HpTextManager.ts"
+  },
+  "91f986bb-5557-4ec3-874f-fdb1de99e8d1": {
+    "asset": 1690440584793,
+    "meta": 1690440838906,
+    "relativePath": "Scripts\\GameManager.ts"
+  },
+  "43abe177-0e78-4218-b563-9f4958845c31": {
+    "asset": 1690441527731,
+    "meta": 1690441573076,
+    "relativePath": "Scripts\\Monster\\Monster.ts"
+  },
+  "e7514378-1167-4b4d-8e67-2c6d6765abfb": {
+    "asset": 1690441933657,
+    "meta": 1690441940656,
+    "relativePath": "Scripts\\Prop\\Data\\Item.ts"
+  },
+  "2d33720e-48b6-4ff8-b22c-1ccf43d3930d": {
+    "asset": 1690442744711,
+    "meta": 1690442747119,
+    "relativePath": "Scripts\\Monster\\MonsterManager.ts"
+  },
+  "9bfbc1c4-405b-4ca4-b306-e8d3ba576f14": {
+    "asset": 1690445105686,
+    "meta": 1690445273352,
+    "relativePath": "startscene\\StartScene.ts"
+  },
+  "c2b29c22-b703-4d69-9932-06eafc1afd76": {
+    "asset": 1690445426759,
+    "meta": 1690445429654,
+    "relativePath": "Scenes\\game.fire"
+  },
+  "b7023f5f-8418-45a0-8e03-6c3a0c0f7191": {
+    "asset": 1690447695578,
+    "meta": 1690447695591,
+    "relativePath": "Scenes\\home.fire"
+  },
+  "70ab1076-c721-43e7-8dc1-bfbe5881ef5c": {
+    "asset": 1690445759199,
+    "meta": 1690445763317,
+    "relativePath": "Scripts\\Home.ts"
+  },
+  "d92b2400-cf25-4a0a-912d-964e8b7e98d7": {
+    "asset": 1690445755009,
+    "meta": 1690445763339,
+    "relativePath": "startscene\\WXManagerEX.ts"
+  },
+  "8db920cb-138b-4e69-9e56-c1336bc5ee63": {
+    "asset": 1690446852599,
+    "meta": 1690447011680,
+    "relativePath": "Scripts\\Monster\\Data\\MonsterConfigure.ts"
+  },
+  "616d5bdb-5e6d-4ca1-8b34-9d9386861564": {
+    "asset": 1690447105240,
+    "meta": 1690447109020,
+    "relativePath": "resources\\json\\MonsterGroupConfigure.json"
+  },
+  "c5b53712-6a3b-4538-ae8d-111c05aa3bec": {
+    "asset": 1690447312570,
+    "meta": 1690447317382,
+    "relativePath": "resources\\json\\HeroBaseInfo.json"
+  },
+  "2ada9203-cdc0-4d7e-b84d-f430bc479714": {
+    "asset": 1690447615769,
+    "meta": 1690447680980,
+    "relativePath": "resources\\Images\\home\\top_ui\\top_ui.png"
+  },
+  "5fa52152-9c07-4942-91ee-561447fb0cc3": {
+    "asset": 1690447615784,
+    "meta": 1690447680980,
+    "relativePath": "resources\\Images\\home\\top_ui\\top_ui.plist"
+  },
+  "ae934942-1512-4d65-b816-86e0ad7ef70a": {
+    "asset": 1690448065071,
+    "meta": 1690448094402,
+    "relativePath": "resources\\Images\\hero\\zhen_de\\zhen_de.png"
+  },
+  "832434f9-e7e9-4370-8acf-2c5dc7b49ee5": {
+    "asset": 1690448065071,
+    "meta": 1690448094417,
+    "relativePath": "resources\\Images\\hero\\zhen_de\\zhen_de.plist"
   }
 }

@@ -32,7 +32,7 @@ export default class Monster extends cc.Component {
     /**皮肤类型 */
     protected skin_type:MonsterSkinType=MonsterSkinType.Skin1;
     /**怪物id */
-    protected monster_id: number=10011;
+    public monster_id: number=10011;
     /**怪物等级 */
     protected monster_level:number=1;
     /**怪物血量系数 */

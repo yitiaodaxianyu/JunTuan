@@ -86,6 +86,7 @@ export class MonsterConfigureManager {
     }
     /**根据怪物ID获取强度类型 */
     public getStrengthType(id:number): number {
+       
         return this.data.get(id).StrengthType;
     }
     /**根据怪物ID获取怪物名文本 */

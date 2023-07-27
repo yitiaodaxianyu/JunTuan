@@ -114,16 +114,17 @@ export default class ShouWang extends Hero {
     {
         if(GameManager.getInstance().cur_game_state!=GameState.Game_Playing)
         return;
-        let enemyPos=monster.getComponent(Monster).getSheShouPos();
-        if(this.checkSkill1(enemyPos)==false){
-            this.startAttack(monster);
-        }        
+        // let enemyPos=monster.getComponent(Monster).getSheShouPos();
+        // if(this.checkSkill1(enemyPos)==false){
+        //     this.startAttack(monster);
+        // }
+        this.checkSkill1();
     }
 
     startAttack(enemyNode:cc.Node)
     {
         this.is_can_gongji=false;
-        let fangxiang=this.getSJFXByPos(enemyNode.getPosition(),this.node.getPosition());
+        let fangxiang=GongJi_FangXiang.you;
         let data=new KeyFrameData();
         data.name="Attack";
         data.callback=()=>{
@@ -147,8 +148,8 @@ export default class ShouWang extends Hero {
         });
     }
     /**被动技能1触发判断 */
-    checkSkill1(pos:cc.Vec2):boolean{
-        let fangxiang=this.getSJFXByPos(pos,this.node.getPosition());
+    checkSkill1(pos:cc.Vec2=null):boolean{
+        let fangxiang=GongJi_FangXiang.you;
         //if(this.att_num>=3)
         if(this.att_num>=0){            
             this.is_can_gongji=false;                    
@@ -157,7 +158,7 @@ export default class ShouWang extends Hero {
             data.callback=()=>{
                 this.gongji_jishu=0; 
                 let jianshiPos=super.getCreateBulletPos();
-                let offsetPos=pos.sub(jianshiPos);
+                let offsetPos=cc.v2(0, 10);
                 let pi2=Math.PI*2;
                 //中心方向
                 let radian=(Math.atan2(offsetPos.y,offsetPos.x)+pi2)%pi2;

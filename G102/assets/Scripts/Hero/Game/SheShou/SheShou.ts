@@ -101,10 +101,11 @@ export default class SheShou extends Hero {
     {
         if(GameManager.getInstance().cur_game_state!=GameState.Game_Playing)
         return;
-        let enemyPos=monster.getComponent(Monster).getSheShouPos();
-        if(this.checkSkill1(enemyPos)==false){
-            this.startAttack(monster);
-        }        
+        // let enemyPos=monster.getComponent(Monster).getSheShouPos();
+        // if(this.checkSkill1(enemyPos)==false){
+        //     this.startAttack(monster);
+        // } 
+        this.checkSkill1();       
     }
 
     startAttack(enemyNode:cc.Node)
@@ -133,7 +134,7 @@ export default class SheShou extends Hero {
         });
     }
     /**被动技能1触发判断-每次普通攻击有{参数1}%几率改为射出一波箭雨，箭雨含{参数2}支箭，每支箭造成{参数3}%伤害 */
-    checkSkill1(pos:cc.Vec2):boolean{
+    checkSkill1(pos:cc.Vec2=null):boolean{
         //概率
         let rate=this.hero_data.getSkillValue1(SkillType.Passive_1);
         if(this.jianyu_num>0){
@@ -147,7 +148,7 @@ export default class SheShou extends Hero {
             data.callback=()=>{
                 this.gongji_jishu=0; 
                 let jianshiPos=super.getCreateBulletPos();
-                let offsetPos=pos.sub(jianshiPos);
+                let offsetPos=cc.v2(0, 10);;
                 let pi2=Math.PI*2;
                 //中心方向
                 let radian=(Math.atan2(offsetPos.y,offsetPos.x)+pi2)%pi2;

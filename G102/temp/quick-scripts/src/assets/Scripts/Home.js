@@ -60,6 +60,7 @@ var SignUiDaily_1 = require("./UI/home/SignUiDaily");
 var UIConfig_1 = require("./UI/UIConfig");
 var UIManager_1 = require("./UI/UIManager");
 var UserData_1 = require("./UserData");
+var WXManagerEX_1 = require("../startscene/WXManagerEX");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var Home = /** @class */ (function (_super) {
     __extends(Home, _super);
@@ -152,14 +153,16 @@ var Home = /** @class */ (function (_super) {
         else {
             if (FunctionDefinition_1.FunctionDefinitionManager.getInstance().getIsUnlock(Constants_1.FuncType.FirstCharge) && PayManager_1.PayManager.getInstance().getPayNum('c301') <= 0 && TutorailsManager_1.default.getInstance().is_tutorails_state == false) {
                 this.scheduleOnce(function () {
-                    UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.FirstCharge, UIConfig_1.UILayerLevel.One, { onCompleted: function (uiNode) {
+                    UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.FirstCharge, UIConfig_1.UILayerLevel.One, {
+                        onCompleted: function (uiNode) {
                             uiNode.getComponent(PayFirstChargeUi_1.default).init({
                                 onClose: function () {
                                     var mainUi = cc.find("Canvas/main_ui").getComponent(MainUi_1.default);
                                     mainUi.refreshLeft();
                                 }
                             });
-                        }, });
+                        },
+                    });
                 }, 1);
             }
         }
@@ -210,9 +213,11 @@ var Home = /** @class */ (function (_super) {
             else {
                 if (LevelManager_1.LevelManager.getInstance().finish_level >= 5 && TutorailsManager_1.default.getInstance().isShowTutorials(205)) {
                     this.scheduleOnce(function () {
-                        UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.RewardSSUI, UIConfig_1.UILayerLevel.Two, { onCompleted: function (uiNode) {
+                        UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.RewardSSUI, UIConfig_1.UILayerLevel.Two, {
+                            onCompleted: function (uiNode) {
                                 uiNode.getComponent(RewardSSUi_1.default).initData(1);
-                            } });
+                            }
+                        });
                     }, 0.5);
                 }
             }
@@ -261,7 +266,12 @@ var Home = /** @class */ (function (_super) {
         var offsetY = top.y;
         var wp = cc.winSize;
         down.y = -wp.height / 2 + down.height / 2;
-        top.y = wp.height / 2 - top.height / 2;
+        if (WXManagerEX_1.default.getInstance().statusBarHeight > 20) {
+            top.y = wp.height / 2 - top.height / 2 - 90;
+        }
+        else {
+            top.y = wp.height / 2 - top.height / 2;
+        }
         offsetY = top.y - offsetY;
         //开始按钮
         var mainUi = cc.find('Canvas/main_ui');
@@ -434,14 +444,18 @@ var Home = /** @class */ (function (_super) {
                     this.scheduleOnce(function () {
                         if (StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.CanSignIn, 0) == 0) {
                             if (StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.NewPlayerSavenDaySignInOver, 0) == 0) {
-                                UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.SignIn, UIConfig_1.UILayerLevel.One, { onCompleted: function (uiNode) {
+                                UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.SignIn, UIConfig_1.UILayerLevel.One, {
+                                    onCompleted: function (uiNode) {
                                         uiNode.getComponent(SignUi_1.default).init(null);
-                                    }, });
+                                    },
+                                });
                             }
                             else {
-                                UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.SignInDaily, UIConfig_1.UILayerLevel.One, { onCompleted: function (uiNode) {
+                                UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.SignInDaily, UIConfig_1.UILayerLevel.One, {
+                                    onCompleted: function (uiNode) {
                                         uiNode.getComponent(SignUiDaily_1.default).init(null);
-                                    }, });
+                                    },
+                                });
                             }
                         }
                     }, 1);
@@ -462,9 +476,11 @@ var Home = /** @class */ (function (_super) {
                 {
                     this.cur_selected_index = Constants_1.Btn_Index.Btn_Main;
                     this.scheduleOnce(function () {
-                        um.showUiDialog(UIConfig_1.UIPath.Task, UIConfig_1.UILayerLevel.One, { onCompleted: function (uiNode) {
+                        um.showUiDialog(UIConfig_1.UIPath.Task, UIConfig_1.UILayerLevel.One, {
+                            onCompleted: function (uiNode) {
                                 // uiNode.getComponent(TaskUi).init(null); 
-                            }, });
+                            },
+                        });
                     }, 1);
                     this.node.getChildByName('main_ui').getComponent(MainUi_1.default).refreshLeft();
                 }
@@ -529,9 +545,11 @@ var Home = /** @class */ (function (_super) {
         this.setBtnShow();
     };
     Home.prototype.clickBtnCoin = function () {
-        UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.CoinPop, UIConfig_1.UILayerLevel.One, { onCompleted: function (uiNode) {
+        UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.CoinPop, UIConfig_1.UILayerLevel.One, {
+            onCompleted: function (uiNode) {
                 uiNode.getComponent(CoinPop_1.default).initUi(PropConfig_1.PropId.Coin);
-            }, });
+            },
+        });
         var gm = GameManager_1.default.getInstance();
         gm.sound_manager.playSound(AudioConstants_1.SoundIndex.click);
     };
@@ -549,9 +567,11 @@ var Home = /** @class */ (function (_super) {
             return;
         }
         else {
-            UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.CoinPop, UIConfig_1.UILayerLevel.One, { onCompleted: function (uiNode) {
+            UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.CoinPop, UIConfig_1.UILayerLevel.One, {
+                onCompleted: function (uiNode) {
                     uiNode.getComponent(CoinPop_1.default).initUi(PropConfig_1.PropId.Gem);
-                }, });
+                },
+            });
         }
     };
     Home.prototype.clickBtnSetting = function () {
@@ -613,13 +633,15 @@ var Home = /** @class */ (function (_super) {
         //     uiNode.getComponent(Turmtable).initUi()
         // },});//转盘
         // return;
-        UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.Set, UIConfig_1.UILayerLevel.One, { onCompleted: function (uiNode) {
+        UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.Set, UIConfig_1.UILayerLevel.One, {
+            onCompleted: function (uiNode) {
                 uiNode.getComponent(SettingUi_1.default).init({
                     onClose: function () {
                         _this.showAvatar();
                     },
                 });
-            }, });
+            },
+        });
         // if(IsDebug){
         //     GameManager.getInstance().cur_game_mode=GameMode.Boss_Challenge;
         //     GameManager.getInstance().fighting_info=BossChallengeManager.getInstance().getFightingInfo(ChallengeMode.Noamal);
@@ -697,9 +719,11 @@ var Home = /** @class */ (function (_super) {
     Home.prototype.clickBtnBag = function () {
         GameManager_1.default.getInstance().sound_manager.playSound(AudioConstants_1.SoundIndex.click);
         // UIManager.getInstance().showBagUi(null);
-        UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.Bag, UIConfig_1.UILayerLevel.One, { onCompleted: function (uiNode) {
+        UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.Bag, UIConfig_1.UILayerLevel.One, {
+            onCompleted: function (uiNode) {
                 uiNode.getComponent(BagUi_1.default).init(null);
-            }, });
+            },
+        });
     };
     Home.prototype.dataTest = function () {
         if (Constants_1.IsDebug) {

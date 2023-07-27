@@ -1514,6 +1514,14 @@ export default class Hero extends cc.Component {
         //自动攻击
         if (this.is_can_gongji && this.getHeroState() != Hero_State.skill) {
             this.is_can_gongji = false;
+
+            if(this.hero_type==Hero_Type.ShouWang||this.hero_type==Hero_Type.GongJianShou){
+                this.gongji_jishu = 0;
+                this.is_can_gongji = true;
+                this.setAttSpineScale();
+                this.startNormalAttack(null);
+                return;
+            }   
             let monsters = MonsterManager.getInstance().getMonstersForNearest(this.max_gongji_num, this.node.getPosition(), this.hero_data.gongji_fanwei, this.posIndex);
             if (monsters) {
                 this.gongji_jishu = 0;

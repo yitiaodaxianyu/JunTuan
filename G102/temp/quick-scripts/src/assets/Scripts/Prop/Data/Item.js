@@ -82,7 +82,6 @@ var ItemManager = /** @class */ (function () {
     };
     /**根据ID获取类型 */
     ItemManager.prototype.getType = function (id) {
-        console.log("getType:" + id);
         return this.data.get(id).Type;
     };
     /**根据ID获取品质框 */

@@ -353,7 +353,7 @@ export default class GameManager extends cc.Component {
                     mainWallData.AntiExtraCritical += heroData.AntiExtraCritical * 0.2;
                     mainWallData.Attack += heroData.total_attack * 0.2;
                     mainWallData.Hit += heroData.Hit * 0.2;
-                  
+
                     this.pet_active_dps.set(heroData.pet_info, 0);
                     this.pet_connect_dps.set(heroData.pet_info, 0);
                     this.setMaxDamage(heroData.total_attack * heroData.ExtraCritical)
@@ -410,7 +410,7 @@ export default class GameManager extends cc.Component {
             mainWallData.AntiExtraCritical += heroData.AntiExtraCritical * 0.2;
             mainWallData.Attack += heroData.total_attack * 0.2;
             mainWallData.Hit += heroData.Hit * 0.2;
-          
+
             this.pet_active_dps.set(heroData.pet_info, 0);
             this.pet_connect_dps.set(heroData.pet_info, 0);
             this.setMaxDamage(heroData.total_attack * heroData.ExtraCritical)
@@ -433,7 +433,7 @@ export default class GameManager extends cc.Component {
             mainWallData.AntiExtraCritical += heroData.AntiExtraCritical * 0.2;
             mainWallData.Attack += heroData.total_attack * 0.2;
             mainWallData.Hit += heroData.Hit * 0.2;
-            
+
         })
         WallManager.getInstance().getMainWall().refreshWallDataByaddHero(mainWallData);
     }
@@ -448,7 +448,7 @@ export default class GameManager extends cc.Component {
             mainWallData.AntiExtraCritical += heroData.AntiExtraCritical * 0.2;
             mainWallData.Attack += heroData.total_attack * 0.2;
             mainWallData.Hit += heroData.Hit * 0.2;
-           
+
         })
         WallManager.getInstance().getMainWall().refreshWallData(mainWallData);
     }
@@ -755,7 +755,7 @@ export default class GameManager extends cc.Component {
     //显示关卡数据
     public loadLevel() {
 
-        if (MonsterManager.getInstance() && MonsterManager.getInstance().is_load_ok  && (Pet.cur_loaded_num >= Pet.max_load_num) && this.fighting_info && this.cur_game_state == GameState.Game_Playing) {
+        if (MonsterManager.getInstance() && MonsterManager.getInstance().is_load_ok && (Pet.cur_loaded_num >= Pet.max_load_num) && this.fighting_info && this.cur_game_state == GameState.Game_Playing) {
             if (GameManager.getInstance().cur_game_mode == GameMode.Endless) {
                 let top = cc.find("Canvas/Ui_Root/top_ui");
                 let wavenumber = TheStorageManager.getInstance().getNumber(StorageKey.UnlimitedChallengeDamage, 0) + 1
@@ -865,7 +865,7 @@ export default class GameManager extends cc.Component {
 
             this.cur_wave++;
             console.log("关卡增加到" + this.cur_wave + " " + this.cur_wave % 3);
-            if (this.cur_wave % 3 == 0) {
+            if (this.cur_wave % 3 == 0 && this.cur_game_state == GameState.Game_Playing) {
                 console.log("显示提示TIp");
 
                 this.showRoguelike();
@@ -925,12 +925,12 @@ export default class GameManager extends cc.Component {
         return this.charioUpgradationData[3] * 0.1 + 1;
     }
     //攻击力比率
-    public getCharioAttackRotio():number{
+    public getCharioAttackRotio(): number {
         return this.charioUpgradationData[0] * 0.1;
     }
 
-     //攻击速度比率
-    public getCharioSpeedRotio():number{
+    //攻击速度比率
+    public getCharioSpeedRotio(): number {
         return this.charioUpgradationData[2] * 0.1;
     }
     /**添加一个满级满装满宠物的英雄 */
@@ -995,7 +995,7 @@ export default class GameManager extends cc.Component {
                 case GameMode.Main: {
                     if (MonsterManager.getInstance().killed_monster_num >= this.cur_total_num) {
                         console.log("敌人死亡加载下一关");
-                        
+
                         this.loadNextWave();
                     }
                 } break;

@@ -122,15 +122,16 @@ var ShouWang = /** @class */ (function (_super) {
     ShouWang.prototype.normalAttack = function (monster) {
         if (GameManager_1.default.getInstance().cur_game_state != Constants_1.GameState.Game_Playing)
             return;
-        var enemyPos = monster.getComponent(Monster_1.default).getSheShouPos();
-        if (this.checkSkill1(enemyPos) == false) {
-            this.startAttack(monster);
-        }
+        // let enemyPos=monster.getComponent(Monster).getSheShouPos();
+        // if(this.checkSkill1(enemyPos)==false){
+        //     this.startAttack(monster);
+        // }
+        this.checkSkill1();
     };
     ShouWang.prototype.startAttack = function (enemyNode) {
         var _this = this;
         this.is_can_gongji = false;
-        var fangxiang = this.getSJFXByPos(enemyNode.getPosition(), this.node.getPosition());
+        var fangxiang = HeroConfig_1.GongJi_FangXiang.you;
         var data = new MonsterData_1.KeyFrameData();
         data.name = "Attack";
         data.callback = function () {
@@ -157,7 +158,8 @@ var ShouWang = /** @class */ (function (_super) {
     /**被动技能1触发判断 */
     ShouWang.prototype.checkSkill1 = function (pos) {
         var _this = this;
-        var fangxiang = this.getSJFXByPos(pos, this.node.getPosition());
+        if (pos === void 0) { pos = null; }
+        var fangxiang = HeroConfig_1.GongJi_FangXiang.you;
         //if(this.att_num>=3)
         if (this.att_num >= 0) {
             this.is_can_gongji = false;
@@ -166,7 +168,7 @@ var ShouWang = /** @class */ (function (_super) {
             data.callback = function () {
                 _this.gongji_jishu = 0;
                 var jianshiPos = _super.prototype.getCreateBulletPos.call(_this);
-                var offsetPos = pos.sub(jianshiPos);
+                var offsetPos = cc.v2(0, 10);
                 var pi2 = Math.PI * 2;
                 //中心方向
                 var radian = (Math.atan2(offsetPos.y, offsetPos.x) + pi2) % pi2;

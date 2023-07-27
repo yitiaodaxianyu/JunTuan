@@ -35,6 +35,7 @@ var HpTextHpManager = /** @class */ (function (_super) {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         _this.sp_type = [];
         _this.img_text_parent = null;
+        _this.effcomp = false;
         return _this;
     }
     HpTextHpManager.prototype.onLoad = function () {
@@ -46,7 +47,25 @@ var HpTextHpManager = /** @class */ (function (_super) {
     HpTextHpManager.prototype.onDestroy = function () {
         GameManager_1.default.getInstance().hp_text_manager = null;
     };
+    HpTextHpManager.prototype.isEffCom = function () {
+        if (this.effcomp == true) {
+            return this.effcomp;
+        }
+        if (GameEffectsManager_1.GameEffectsManager.getInstance().map_node_pools.has(GameEffectsManager_1.GameEffectId.front_normal_attack_text_1) &&
+            GameEffectsManager_1.GameEffectsManager.getInstance().map_node_pools.has(GameEffectsManager_1.GameEffectId.front_normal_attack_text_2) &&
+            GameEffectsManager_1.GameEffectsManager.getInstance().map_node_pools.has(GameEffectsManager_1.GameEffectId.front_normal_attack_text_3) &&
+            GameEffectsManager_1.GameEffectsManager.getInstance().map_node_pools.has(GameEffectsManager_1.GameEffectId.front_normal_attack_text_4) &&
+            GameEffectsManager_1.GameEffectsManager.getInstance().map_node_pools.has(GameEffectsManager_1.GameEffectId.front_normal_attack_text_5) &&
+            GameEffectsManager_1.GameEffectsManager.getInstance().map_node_pools.has(GameEffectsManager_1.GameEffectId.front_restore_text) &&
+            GameEffectsManager_1.GameEffectsManager.getInstance().map_node_pools.has(GameEffectsManager_1.GameEffectId.front_crit_text)) {
+            this.effcomp = true;
+        }
+        return this.effcomp;
+    };
     HpTextHpManager.prototype.createHpTextHp = function (pos, damage, type) {
+        if (this.isEffCom() == false) {
+            return;
+        }
         switch (type) {
             case EnemyConfig_1.Enemy_Injured_Type.Normal_Attack:
                 {

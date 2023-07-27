@@ -15,6 +15,7 @@ export default class HpTextHpManager extends cc.Component  {
     @property(cc.Node)
     img_text_parent:cc.Node=null;
 
+    private effcomp: boolean = false;
     onLoad () {
         GameManager.getInstance().hp_text_manager=this;
         for(let i=GameEffectId.front_normal_attack_text_1; i<=GameEffectId.front_crit_text; i++){
@@ -25,8 +26,27 @@ export default class HpTextHpManager extends cc.Component  {
     {
         GameManager.getInstance().hp_text_manager=null;
     }
+    private isEffCom(): boolean {
+        if (this.effcomp == true) {
+            return this.effcomp;
+        }
+        if (GameEffectsManager.getInstance().map_node_pools.has(GameEffectId.front_normal_attack_text_1) &&
+            GameEffectsManager.getInstance().map_node_pools.has(GameEffectId.front_normal_attack_text_2) &&
+            GameEffectsManager.getInstance().map_node_pools.has(GameEffectId.front_normal_attack_text_3) &&
+            GameEffectsManager.getInstance().map_node_pools.has(GameEffectId.front_normal_attack_text_4) &&
+            GameEffectsManager.getInstance().map_node_pools.has(GameEffectId.front_normal_attack_text_5)&&
+            GameEffectsManager.getInstance().map_node_pools.has(GameEffectId.front_restore_text)&&
+            GameEffectsManager.getInstance().map_node_pools.has(GameEffectId.front_crit_text)) {
+            this.effcomp = true;
+        }
+        return this.effcomp;
+    }
     createHpTextHp(pos:cc.Vec2,damage:number,type:Enemy_Injured_Type)
     {
+
+        if(this.isEffCom()==false){
+            return;
+        }
         switch(type)
         {
             case Enemy_Injured_Type.Normal_Attack:{

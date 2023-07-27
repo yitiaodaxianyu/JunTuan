@@ -29,6 +29,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+var WXManagerEX_1 = require("./WXManagerEX");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var StartScene = /** @class */ (function (_super) {
     __extends(StartScene, _super);
@@ -38,6 +39,7 @@ var StartScene = /** @class */ (function (_super) {
     StartScene.prototype.start = function () {
         console.log("开始加载分包");
         // cc.director.loadScene("load");
+        WXManagerEX_1.default.getInstance().initData();
         cc.loader.downloader.loadSubpackage('MainScript', function (err) {
             if (err) {
                 console.error("加载分包失败");

@@ -112,10 +112,11 @@ var SheShou = /** @class */ (function (_super) {
     SheShou.prototype.normalAttack = function (monster) {
         if (GameManager_1.default.getInstance().cur_game_state != Constants_1.GameState.Game_Playing)
             return;
-        var enemyPos = monster.getComponent(Monster_1.default).getSheShouPos();
-        if (this.checkSkill1(enemyPos) == false) {
-            this.startAttack(monster);
-        }
+        // let enemyPos=monster.getComponent(Monster).getSheShouPos();
+        // if(this.checkSkill1(enemyPos)==false){
+        //     this.startAttack(monster);
+        // } 
+        this.checkSkill1();
     };
     SheShou.prototype.startAttack = function (enemyNode) {
         var _this = this;
@@ -146,6 +147,7 @@ var SheShou = /** @class */ (function (_super) {
     /**被动技能1触发判断-每次普通攻击有{参数1}%几率改为射出一波箭雨，箭雨含{参数2}支箭，每支箭造成{参数3}%伤害 */
     SheShou.prototype.checkSkill1 = function (pos) {
         var _this = this;
+        if (pos === void 0) { pos = null; }
         //概率
         var rate = this.hero_data.getSkillValue1(HeroConfig_1.SkillType.Passive_1);
         if (this.jianyu_num > 0) {
@@ -159,7 +161,8 @@ var SheShou = /** @class */ (function (_super) {
             data.callback = function () {
                 _this.gongji_jishu = 0;
                 var jianshiPos = _super.prototype.getCreateBulletPos.call(_this);
-                var offsetPos = pos.sub(jianshiPos);
+                var offsetPos = cc.v2(0, 10);
+                ;
                 var pi2 = Math.PI * 2;
                 //中心方向
                 var radian = (Math.atan2(offsetPos.y, offsetPos.x) + pi2) % pi2;

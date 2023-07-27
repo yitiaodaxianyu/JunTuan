@@ -73,7 +73,7 @@ export class ItemManager {
     }
     /**根据ID获取类型 */
     public getType(id:number): number {
-        console.log("getType:"+id);
+        
         
         return this.data.get(id).Type;
     }

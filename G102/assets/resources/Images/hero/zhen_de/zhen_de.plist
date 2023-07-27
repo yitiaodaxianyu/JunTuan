@@ -7,11 +7,11 @@
             <key>ZhenDe_Attack.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{272,1596},{44,68}}</string>
+                <string>{{614,696},{44,68}}</string>
                 <key>offset</key>
                 <string>{0,1}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{3,0},{44,68}}</string>
                 <key>sourceSize</key>
@@ -20,7 +20,7 @@
             <key>ZhenDe_AttackHit_00.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{202,1968},{70,64}}</string>
+                <string>{{568,244},{70,64}}</string>
                 <key>offset</key>
                 <string>{0,-3}</string>
                 <key>rotated</key>
@@ -33,7 +33,7 @@
             <key>ZhenDe_AttackHit_01.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{268,1948},{92,90}}</string>
+                <string>{{276,1027},{92,90}}</string>
                 <key>offset</key>
                 <string>{1,0}</string>
                 <key>rotated</key>
@@ -46,7 +46,7 @@
             <key>ZhenDe_AttackHit_02.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{940,700},{134,136}}</string>
+                <string>{{772,306},{134,136}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -59,7 +59,7 @@
             <key>ZhenDe_AttackHit_03.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1354,154},{142,146}}</string>
+                <string>{{1176,1498},{142,146}}</string>
                 <key>offset</key>
                 <string>{0,2}</string>
                 <key>rotated</key>
@@ -72,7 +72,7 @@
             <key>ZhenDe_AttackHit_04.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{940,548},{150,150}}</string>
+                <string>{{882,1690},{150,150}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -85,7 +85,7 @@
             <key>ZhenDe_AttackHit_05.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{810,840},{150,150}}</string>
+                <string>{{874,1538},{150,150}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -98,7 +98,7 @@
             <key>ZhenDe_AttackHit_06.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{714,1002},{150,150}}</string>
+                <string>{{874,1386},{150,150}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -111,7 +111,7 @@
             <key>ZhenDe_AttackHit_07.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{698,1384},{150,150}}</string>
+                <string>{{802,1234},{150,150}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -124,7 +124,7 @@
             <key>ZhenDe_AttackHit_08.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1352,2},{144,150}}</string>
+                <string>{{1180,384},{144,150}}</string>
                 <key>offset</key>
                 <string>{3,0}</string>
                 <key>rotated</key>
@@ -137,11 +137,11 @@
             <key>ZhenDe_AttackHit_09.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{452,1864},{114,82}}</string>
+                <string>{{536,324},{114,82}}</string>
                 <key>offset</key>
                 <string>{2,4}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{20,30},{114,82}}</string>
                 <key>sourceSize</key>
@@ -150,11 +150,11 @@
             <key>ZhenDe_AttackHit_10.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{830,466},{116,80}}</string>
+                <string>{{454,324},{116,80}}</string>
                 <key>offset</key>
                 <string>{2,5}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{19,30},{116,80}}</string>
                 <key>sourceSize</key>
@@ -163,7 +163,7 @@
             <key>ZhenDe_AttackHit_11.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{936,240},{114,60}}</string>
+                <string>{{720,244},{114,60}}</string>
                 <key>offset</key>
                 <string>{2,15}</string>
                 <key>rotated</key>
@@ -176,7 +176,7 @@
             <key>ZhenDe_AttackHit_12.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{518,264},{114,56}}</string>
+                <string>{{714,682},{114,56}}</string>
                 <key>offset</key>
                 <string>{1,16}</string>
                 <key>rotated</key>
@@ -189,7 +189,7 @@
             <key>ZhenDe_Passive_00.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{162,324},{70,22}}</string>
+                <string>{{162,767},{70,22}}</string>
                 <key>offset</key>
                 <string>{0,-53}</string>
                 <key>rotated</key>
@@ -202,7 +202,7 @@
             <key>ZhenDe_Passive_01.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{342,1596},{102,36}}</string>
+                <string>{{470,2009},{102,36}}</string>
                 <key>offset</key>
                 <string>{0,-46}</string>
                 <key>rotated</key>
@@ -215,7 +215,7 @@
             <key>ZhenDe_Passive_02.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{634,264},{122,52}}</string>
+                <string>{{628,918},{122,52}}</string>
                 <key>offset</key>
                 <string>{0,-45}</string>
                 <key>rotated</key>
@@ -228,7 +228,7 @@
             <key>ZhenDe_Passive_03.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{62,1968},{138,72}}</string>
+                <string>{{750,1969},{138,72}}</string>
                 <key>offset</key>
                 <string>{0,-39}</string>
                 <key>rotated</key>
@@ -241,7 +241,7 @@
             <key>ZhenDe_Passive_04.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{360,1948},{150,90}}</string>
+                <string>{{368,1027},{150,90}}</string>
                 <key>offset</key>
                 <string>{0,-30}</string>
                 <key>rotated</key>
@@ -254,7 +254,7 @@
             <key>ZhenDe_Passive_05.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{626,1748},{150,108}}</string>
+                <string>{{682,1124},{150,108}}</string>
                 <key>offset</key>
                 <string>{0,-21}</string>
                 <key>rotated</key>
@@ -267,7 +267,7 @@
             <key>ZhenDe_Passive_06.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1076,700},{150,126}}</string>
+                <string>{{620,316},{150,126}}</string>
                 <key>offset</key>
                 <string>{0,-12}</string>
                 <key>rotated</key>
@@ -280,11 +280,11 @@
             <key>ZhenDe_Passive_07.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{546,1450},{150,144}}</string>
+                <string>{{1180,536},{150,144}}</string>
                 <key>offset</key>
                 <string>{0,-3}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{0,6},{150,144}}</string>
                 <key>sourceSize</key>
@@ -293,7 +293,7 @@
             <key>ZhenDe_Passive_08.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{698,1232},{150,150}}</string>
+                <string>{{722,1550},{150,150}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -306,7 +306,7 @@
             <key>ZhenDe_Passive_09.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{626,1596},{150,150}}</string>
+                <string>{{722,1398},{150,150}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -319,11 +319,11 @@
             <key>ZhenDe_Passive_10.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1052,154},{150,146}}</string>
+                <string>{{1032,562},{150,146}}</string>
                 <key>offset</key>
                 <string>{0,-2}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{0,4},{150,146}}</string>
                 <key>sourceSize</key>
@@ -332,11 +332,11 @@
             <key>ZhenDe_Passive_11.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1228,606},{150,142}}</string>
+                <string>{{880,596},{150,142}}</string>
                 <key>offset</key>
                 <string>{0,-4}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,8},{150,142}}</string>
                 <key>sourceSize</key>
@@ -345,7 +345,7 @@
             <key>ZhenDe_Passive_12.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{546,1298},{150,150}}</string>
+                <string>{{880,444},{150,150}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -358,7 +358,7 @@
             <key>ZhenDe_Passive_13.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1050,2},{150,150}}</string>
+                <string>{{780,740},{150,150}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -371,7 +371,7 @@
             <key>ZhenDe_Passive_14.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{830,314},{150,150}}</string>
+                <string>{{682,972},{150,150}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -384,7 +384,7 @@
             <key>ZhenDe_Passive_15.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{428,850},{150,150}}</string>
+                <string>{{628,766},{150,150}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -397,7 +397,7 @@
             <key>ZhenDe_Passive_16.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{276,850},{150,150}}</string>
+                <string>{{650,1246},{150,150}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -410,7 +410,7 @@
             <key>ZhenDe_Passive_17.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{436,264},{58,80}}</string>
+                <string>{{836,242},{58,80}}</string>
                 <key>offset</key>
                 <string>{27,35}</string>
                 <key>rotated</key>
@@ -423,7 +423,7 @@
             <key>ZhenDe_Passive_18.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,1968},{58,76}}</string>
+                <string>{{690,1969},{58,76}}</string>
                 <key>offset</key>
                 <string>{25,37}</string>
                 <key>rotated</key>
@@ -436,7 +436,7 @@
             <key>ZhenDe_Passive_19.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{512,1948},{52,58}}</string>
+                <string>{{660,682},{52,58}}</string>
                 <key>offset</key>
                 <string>{23,46}</string>
                 <key>rotated</key>
@@ -449,7 +449,7 @@
             <key>ZhenDe_Passive_20.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{234,324},{22,22}}</string>
+                <string>{{234,767},{22,22}}</string>
                 <key>offset</key>
                 <string>{31,32}</string>
                 <key>rotated</key>
@@ -462,7 +462,7 @@
             <key>ZhenDe_Skill1_1.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,2},{158,354}}</string>
+                <string>{{2,445},{158,354}}</string>
                 <key>offset</key>
                 <string>{0,-1}</string>
                 <key>rotated</key>
@@ -475,7 +475,7 @@
             <key>ZhenDe_Skill1_2_00.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{498,1232},{84,64}}</string>
+                <string>{{634,244},{84,64}}</string>
                 <key>offset</key>
                 <string>{-1,20}</string>
                 <key>rotated</key>
@@ -488,7 +488,7 @@
             <key>ZhenDe_Skill1_2_01.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{690,732},{142,106}}</string>
+                <string>{{908,302},{142,106}}</string>
                 <key>offset</key>
                 <string>{-2,10}</string>
                 <key>rotated</key>
@@ -501,11 +501,11 @@
             <key>ZhenDe_Skill1_2_02.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{820,558},{158,118}}</string>
+                <string>{{294,324},{158,118}}</string>
                 <key>offset</key>
                 <string>{-1,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{80,81},{158,118}}</string>
                 <key>sourceSize</key>
@@ -514,7 +514,7 @@
             <key>ZhenDe_Skill1_2_03.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{690,558},{172,128}}</string>
+                <string>{{520,1246},{172,128}}</string>
                 <key>offset</key>
                 <string>{-1,-9}</string>
                 <key>rotated</key>
@@ -527,11 +527,11 @@
             <key>ZhenDe_Skill1_2_04.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{580,840},{228,160}}</string>
+                <string>{{520,1016},{228,160}}</string>
                 <key>offset</key>
                 <string>{-9,-3}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{37,63},{228,160}}</string>
                 <key>sourceSize</key>
@@ -540,7 +540,7 @@
             <key>ZhenDe_Skill1_2_05.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{276,588},{260,190}}</string>
+                <string>{{690,1707},{260,190}}</string>
                 <key>offset</key>
                 <string>{4,-4}</string>
                 <key>rotated</key>
@@ -553,7 +553,7 @@
             <key>ZhenDe_Skill1_2_06.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{272,1002},{298,224}}</string>
+                <string>{{272,1445},{298,224}}</string>
                 <key>offset</key>
                 <string>{3,-5}</string>
                 <key>rotated</key>
@@ -566,7 +566,7 @@
             <key>ZhenDe_Skill1_2_07.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,1646},{320,246}}</string>
+                <string>{{272,1123},{320,246}}</string>
                 <key>offset</key>
                 <string>{0,-4}</string>
                 <key>rotated</key>
@@ -579,7 +579,7 @@
             <key>ZhenDe_Skill1_2_08.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,1324},{320,268}}</string>
+                <string>{{2,1445},{320,268}}</string>
                 <key>offset</key>
                 <string>{0,-5}</string>
                 <key>rotated</key>
@@ -592,7 +592,7 @@
             <key>ZhenDe_Skill1_2_09.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,680},{320,272}}</string>
+                <string>{{294,2},{320,272}}</string>
                 <key>offset</key>
                 <string>{0,-4}</string>
                 <key>rotated</key>
@@ -605,11 +605,11 @@
             <key>ZhenDe_Skill1_2_10.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{272,1302},{292,272}}</string>
+                <string>{{2,1767},{292,272}}</string>
                 <key>offset</key>
                 <string>{-14,-4}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,8},{292,272}}</string>
                 <key>sourceSize</key>
@@ -618,7 +618,7 @@
             <key>ZhenDe_Skill1_2_11.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{162,2},{320,272}}</string>
+                <string>{{162,445},{320,272}}</string>
                 <key>offset</key>
                 <string>{0,-4}</string>
                 <key>rotated</key>
@@ -631,7 +631,7 @@
             <key>ZhenDe_Skill1_2_12.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,358},{320,272}}</string>
+                <string>{{2,801},{320,272}}</string>
                 <key>offset</key>
                 <string>{0,-4}</string>
                 <key>rotated</key>
@@ -644,7 +644,7 @@
             <key>ZhenDe_Skill1_2_13.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,1002},{320,268}}</string>
+                <string>{{2,1123},{320,268}}</string>
                 <key>offset</key>
                 <string>{0,-6}</string>
                 <key>rotated</key>
@@ -657,7 +657,7 @@
             <key>ZhenDe_Skill1_2_14.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{276,324},{262,218}}</string>
+                <string>{{470,1745},{262,218}}</string>
                 <key>offset</key>
                 <string>{-2,6}</string>
                 <key>rotated</key>
@@ -670,7 +670,7 @@
             <key>ZhenDe_Skill1_2_15.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{436,2},{260,222}}</string>
+                <string>{{498,1445},{260,222}}</string>
                 <key>offset</key>
                 <string>{-3,8}</string>
                 <key>rotated</key>
@@ -683,7 +683,7 @@
             <key>ZhenDe_Skill1_2_16.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{468,588},{250,220}}</string>
+                <string>{{436,444},{250,220}}</string>
                 <key>offset</key>
                 <string>{-2,13}</string>
                 <key>rotated</key>
@@ -696,7 +696,7 @@
             <key>ZhenDe_Skill1_2_17.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{828,2},{236,220}}</string>
+                <string>{{658,444},{236,220}}</string>
                 <key>offset</key>
                 <string>{-2,16}</string>
                 <key>rotated</key>
@@ -709,7 +709,7 @@
             <key>ZhenDe_Skill1_2_18.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{498,1002},{228,214}}</string>
+                <string>{{898,2},{228,214}}</string>
                 <key>offset</key>
                 <string>{2,24}</string>
                 <key>rotated</key>
@@ -722,7 +722,7 @@
             <key>ZhenDe_Skill1_2_19.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{668,318},{238,160}}</string>
+                <string>{{736,2},{238,160}}</string>
                 <key>offset</key>
                 <string>{-4,-5}</string>
                 <key>rotated</key>
@@ -735,7 +735,7 @@
             <key>ZhenDe_Skill1_2_20.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{660,2},{240,166}}</string>
+                <string>{{568,2},{240,166}}</string>
                 <key>offset</key>
                 <string>{-2,-6}</string>
                 <key>rotated</key>
@@ -748,7 +748,7 @@
             <key>ZhenDe_Skill1_2_21.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{496,324},{248,170}}</string>
+                <string>{{456,766},{248,170}}</string>
                 <key>offset</key>
                 <string>{-2,-5}</string>
                 <key>rotated</key>
@@ -761,11 +761,11 @@
             <key>ZhenDe_Skill1_2_22.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{568,1864},{258,178}}</string>
+                <string>{{276,767},{258,178}}</string>
                 <key>offset</key>
                 <string>{-2,-5}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{29,56},{258,178}}</string>
                 <key>sourceSize</key>
@@ -774,7 +774,7 @@
             <key>ZhenDe_Skill1_2_23.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{452,1596},{266,172}}</string>
+                <string>{{296,1745},{266,172}}</string>
                 <key>offset</key>
                 <string>{-2,-11}</string>
                 <key>rotated</key>
@@ -787,7 +787,7 @@
             <key>ZhenDe_Skill1_2_24.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{758,244},{176,68}}</string>
+                <string>{{436,696},{176,68}}</string>
                 <key>offset</key>
                 <string>{-3,13}</string>
                 <key>rotated</key>
@@ -800,20 +800,20 @@
             <key>ZhenDe_Skill1_3.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{250,1646},{300,200}}</string>
+                <string>{{2,2},{290,441}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{300,200}}</string>
+                <string>{{1,0},{290,441}}</string>
                 <key>sourceSize</key>
-                <string>{300,200}</string>
+                <string>{292,441}</string>
             </dict>
             <key>ZhenDe_Skill2_00.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1070,1448},{144,148}}</string>
+                <string>{{1274,1018},{144,148}}</string>
                 <key>offset</key>
                 <string>{-1,-1}</string>
                 <key>rotated</key>
@@ -826,7 +826,7 @@
             <key>ZhenDe_Skill2_01.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1120,1748},{142,148}}</string>
+                <string>{{1034,1650},{142,148}}</string>
                 <key>offset</key>
                 <string>{0,-1}</string>
                 <key>rotated</key>
@@ -839,7 +839,7 @@
             <key>ZhenDe_Skill2_02.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1202,2},{148,150}}</string>
+                <string>{{834,892},{148,150}}</string>
                 <key>offset</key>
                 <string>{-1,0}</string>
                 <key>rotated</key>
@@ -852,7 +852,7 @@
             <key>ZhenDe_Skill2_03.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{850,1306},{146,150}}</string>
+                <string>{{1052,232},{146,150}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -865,7 +865,7 @@
             <key>ZhenDe_Skill2_04.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{962,838},{146,150}}</string>
+                <string>{{1032,410},{146,150}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -878,7 +878,7 @@
             <key>ZhenDe_Skill2_05.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{998,1296},{142,150}}</string>
+                <string>{{1226,688},{142,150}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -891,7 +891,7 @@
             <key>ZhenDe_Skill2_06.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1110,828},{142,150}}</string>
+                <string>{{1132,866},{142,150}}</string>
                 <key>offset</key>
                 <string>{-1,0}</string>
                 <key>rotated</key>
@@ -904,7 +904,7 @@
             <key>ZhenDe_Skill2_07.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{866,992},{146,150}}</string>
+                <string>{{984,892},{146,150}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -917,7 +917,7 @@
             <key>ZhenDe_Skill2_08.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1132,302},{144,150}}</string>
+                <string>{{1114,2},{144,150}}</string>
                 <key>offset</key>
                 <string>{-1,0}</string>
                 <key>rotated</key>
@@ -930,7 +930,7 @@
             <key>ZhenDe_Skill2_09.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1014,990},{142,150}}</string>
+                <string>{{1130,1044},{142,150}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -943,7 +943,7 @@
             <key>ZhenDe_Skill2_10.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1238,454},{148,148}}</string>
+                <string>{{1026,1500},{148,148}}</string>
                 <key>offset</key>
                 <string>{-1,-1}</string>
                 <key>rotated</key>
@@ -956,7 +956,7 @@
             <key>ZhenDe_Skill2_11.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1278,302},{146,148}}</string>
+                <string>{{1246,1196},{146,148}}</string>
                 <key>offset</key>
                 <string>{0,-1}</string>
                 <key>rotated</key>
@@ -969,7 +969,7 @@
             <key>ZhenDe_Skill2_12.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{850,1154},{146,150}}</string>
+                <string>{{982,1044},{146,150}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -982,7 +982,7 @@
             <key>ZhenDe_Skill2_13.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{998,1144},{142,150}}</string>
+                <string>{{1102,1196},{142,150}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -995,7 +995,7 @@
             <key>ZhenDe_Skill2_14.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{976,1762},{142,150}}</string>
+                <string>{{1026,1348},{142,150}}</string>
                 <key>offset</key>
                 <string>{-1,0}</string>
                 <key>rotated</key>
@@ -1008,7 +1008,7 @@
             <key>ZhenDe_Skill2_15.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{828,1840},{146,150}}</string>
+                <string>{{954,1196},{146,150}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1021,7 +1021,7 @@
             <key>ZhenDe_Skill2_16.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1092,454},{144,150}}</string>
+                <string>{{1080,714},{144,150}}</string>
                 <key>offset</key>
                 <string>{-1,0}</string>
                 <key>rotated</key>
@@ -1034,7 +1034,7 @@
             <key>ZhenDe_Skill2_17.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{926,1610},{142,150}}</string>
+                <string>{{1260,2},{142,150}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1047,7 +1047,7 @@
             <key>ZhenDe_Skill2_18.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{982,302},{148,150}}</string>
+                <string>{{890,1842},{148,150}}</string>
                 <key>offset</key>
                 <string>{-1,0}</string>
                 <key>rotated</key>
@@ -1060,7 +1060,7 @@
             <key>ZhenDe_Skill2_19.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{778,1688},{146,150}}</string>
+                <string>{{834,1044},{146,150}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1073,11 +1073,11 @@
             <key>ZhenDe_Skill2_20.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1204,154},{146,148}}</string>
+                <string>{{1170,1348},{146,148}}</string>
                 <key>offset</key>
                 <string>{0,-1}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{2,2},{146,148}}</string>
                 <key>sourceSize</key>
@@ -1086,7 +1086,7 @@
             <key>ZhenDe_Skill2_21.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1070,1598},{142,148}}</string>
+                <string>{{1276,840},{142,148}}</string>
                 <key>offset</key>
                 <string>{0,-1}</string>
                 <key>rotated</key>
@@ -1099,7 +1099,7 @@
             <key>ZhenDe_Skill2_22.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{926,1458},{142,150}}</string>
+                <string>{{1200,154},{142,150}}</string>
                 <key>offset</key>
                 <string>{-1,0}</string>
                 <key>rotated</key>
@@ -1112,7 +1112,7 @@
             <key>ZhenDe_Skill2_23.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{778,1536},{146,150}}</string>
+                <string>{{932,740},{146,150}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1132,7 +1132,7 @@
             <key>size</key>
             <string>{2048,2048}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:a6d01c5dc1080d9e10a2dccd4968bdc4:1/1$</string>
+            <string>$TexturePacker:SmartUpdate:8fcb0c55ce24667914ff84e39682341b$</string>
             <key>textureFileName</key>
             <string>zhen_de.png</string>
         </dict>
