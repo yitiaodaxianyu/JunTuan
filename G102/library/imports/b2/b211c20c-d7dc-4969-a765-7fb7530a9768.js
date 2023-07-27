@@ -23,6 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+var WXManagerEX_1 = require("../../startscene/WXManagerEX");
 var Constants_1 = require("../Constants");
 var EnemyConfig_1 = require("../Enemy/EnemyConfig");
 var BuffStateManager_1 = require("../Game/BuffStateManager");
@@ -234,8 +235,16 @@ var Wall = /** @class */ (function (_super) {
             data.setDamageNum(damage);
         }
         else if (monsterAttData.damage_type == HeroConfig_1.DamageType.Ship) {
+            // data.feedback_type=FeedBackType.Null;
+            // data.setDamageNum(ship);
             data.feedback_type = MonsterData_1.FeedBackType.Null;
-            data.setDamageNum(ship);
+            if (isReal) {
+                damage = MonsterData_1.InjuredData.calcNormalRealDamageNum(monsterData.Attack);
+            }
+            else {
+                damage = MonsterData_1.InjuredData.calcNormalDamageNum(monsterData.Attack, this.attribute_data.Defense, monsterAttData.zengshang_rate, this.attribute_data.reduce_injury_rate);
+            }
+            data.setDamageNum(damage);
         }
         if (data.getDamageNum() > 0) {
             //cc.log(data.getDamageNum());
@@ -300,6 +309,7 @@ var Wall = /** @class */ (function (_super) {
             return true;
         }
         if (hp < 0) {
+            WXManagerEX_1.default.getInstance().vibrateShort();
             cc.tween(this.node).to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE }).start();
         }
         var newHp = this.cur_hp + hp;

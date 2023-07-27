@@ -118,7 +118,7 @@ export default class NewClass extends cc.Component {
         if(this.btnReplace.getComponent(cc.Sprite).getMaterial(0)._name== 'builtin-2d-gray-sprite (Instance)'){
             GameManager.getInstance().showMessage(LanguageManager.getInstance().getStrByTextId(100108))//暂未解锁该章节
         }else{
-            MapManager.Currentlevel=MissionLevelManager.getInstance().getChapterLevel(this.level+1)-1
+            MapManager.Currentlevel=MissionLevelManager.getInstance().getChapterLevel(this.level+1)
             // console.log("________",MapManager.Currentlevel,this.level)
             this.onBtn_Close()
             this.parent.getComponent(BigMap).onBtn_Close()

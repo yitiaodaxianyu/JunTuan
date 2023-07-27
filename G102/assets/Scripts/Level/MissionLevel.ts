@@ -206,6 +206,7 @@ export class MissionLevelManager {
         for(let i=0; i<monsterGroups.length; i++){
             let dataArr=new Array();
             let groupId=monsterGroups[i];
+           
             let monsterJsonData=MGC.getJsonMonsterGroupConfigure(groupId)
             for(let n=0; n<monsterJsonData.MonsterId.length; n++){
                 let tableMonsterData=new TableMonsterData();

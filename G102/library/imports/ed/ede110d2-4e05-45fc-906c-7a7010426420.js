@@ -345,8 +345,8 @@ var MainUi = /** @class */ (function (_super) {
                 // UIManager.getInstance().showMapUi({onClose:()=>{
                 //     this.cur_selected_level=LevelManager.getInstance().start_level;                    
                 //     GameManager.getInstance().refreshZhanliShow();
-                // }});
-                LevelManager_1.LevelManager.getInstance().start_level = MapManager_1.default.Currentlevel = LevelManager_1.LevelManager.getInstance().finish_level + 1;
+                // }});     
+                // LevelManager.getInstance().start_level=MapManager.Currentlevel=LevelManager.getInstance().finish_level+1;
                 UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.ToPlay, UIConfig_1.UILayerLevel.One, { onCompleted: function (uiNode) {
                         uiNode.getComponent(ToPlayMainUi_1.default).init({ onClose: function () {
                                 MapManager_1.default.Currentlevel = LevelManager_1.LevelManager.getInstance().finish_level + 1;

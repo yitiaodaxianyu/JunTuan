@@ -23,6 +23,13 @@ export default class WXManagerEX extends cc.Component {
     public initData(): void {
         this.getSystemInfo();
     }
+    public vibrateShort():void{
+        if (cc.sys.platform === cc.sys.WECHAT_GAME) {
+            wx.vibrateShort({type:"medium"});
+        }
+       
+    }
+   
     public getSystemInfo(): void {
         if (cc.sys.platform === cc.sys.WECHAT_GAME) {
             try {

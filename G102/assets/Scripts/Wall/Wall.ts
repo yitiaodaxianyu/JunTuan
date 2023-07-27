@@ -1,3 +1,4 @@
+import WXManagerEX from "../../startscene/WXManagerEX";
 import { GameState, JiaSu } from "../Constants";
 import { Enemy_Injured_Type } from "../Enemy/EnemyConfig";
 import BuffStateManager from "../Game/BuffStateManager";
@@ -205,8 +206,15 @@ export default class Wall extends cc.Component {
             }
             data.setDamageNum(damage);
         }else if(monsterAttData.damage_type==DamageType.Ship){
+            // data.feedback_type=FeedBackType.Null;
+            // data.setDamageNum(ship);
             data.feedback_type=FeedBackType.Null;
-            data.setDamageNum(ship);
+            if(isReal){
+                damage=InjuredData.calcNormalRealDamageNum(monsterData.Attack);   
+            }else{
+                damage=InjuredData.calcNormalDamageNum(monsterData.Attack,this.attribute_data.Defense,monsterAttData.zengshang_rate,this.attribute_data.reduce_injury_rate);                    
+            }
+            data.setDamageNum(damage);
         }
         if(data.getDamageNum()>0){
             //cc.log(data.getDamageNum());
@@ -272,6 +280,7 @@ export default class Wall extends cc.Component {
         }
         if(hp<0)
         {            
+            WXManagerEX.getInstance().vibrateShort();
             cc.tween(this.node).to(0.1,{color:cc.Color.RED}).to(0.1,{color:cc.Color.WHITE}).start();            
         }
         let newHp=this.cur_hp+hp;

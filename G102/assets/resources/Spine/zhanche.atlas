@@ -1,187 +1,187 @@
 
 zhanche.png
-size: 1078,1078
+size: 1111,1111
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 4
   rotate: true
-  xy: 2, 56
-  size: 87, 192
-  orig: 88, 192
-  offset: 1, 0
+  xy: 202, 41
+  size: 86, 193
+  orig: 86, 193
+  offset: 0, 0
   index: -1
 5_0001
   rotate: false
-  xy: 644, 886
-  size: 70, 190
+  xy: 1026, 830
+  size: 68, 190
   orig: 80, 200
   offset: 6, 6
   index: -1
 5_0002
   rotate: false
-  xy: 644, 694
-  size: 70, 190
+  xy: 686, 135
+  size: 68, 190
   orig: 80, 200
   offset: 6, 6
   index: -1
 5_0003
   rotate: false
-  xy: 861, 22
-  size: 69, 190
+  xy: 756, 135
+  size: 68, 190
   orig: 80, 200
-  offset: 7, 6
+  offset: 6, 6
   index: -1
 5_0004
   rotate: false
-  xy: 644, 502
-  size: 70, 190
+  xy: 1022, 638
+  size: 68, 190
   orig: 80, 200
   offset: 6, 6
   index: -1
 5_0005
-  rotate: true
-  xy: 717, 502
-  size: 70, 190
+  rotate: false
+  xy: 826, 135
+  size: 68, 190
   orig: 80, 200
   offset: 6, 6
   index: -1
 5_0006
   rotate: true
-  xy: 717, 430
-  size: 70, 190
+  xy: 686, 65
+  size: 68, 190
   orig: 80, 200
   offset: 6, 6
   index: -1
 5_0007
   rotate: false
-  xy: 644, 310
-  size: 70, 190
+  xy: 883, 415
+  size: 68, 190
   orig: 80, 200
   offset: 6, 6
   index: -1
 5_0008
-  rotate: true
-  xy: 717, 358
-  size: 70, 190
+  rotate: false
+  xy: 953, 446
+  size: 68, 190
   orig: 80, 200
   offset: 6, 6
   index: -1
 5_0009
-  rotate: true
-  xy: 717, 286
-  size: 70, 190
+  rotate: false
+  xy: 1023, 446
+  size: 68, 190
   orig: 80, 200
   offset: 6, 6
   index: -1
 5_0010
   rotate: false
-  xy: 932, 22
-  size: 69, 190
+  xy: 896, 223
+  size: 68, 190
   orig: 80, 200
-  offset: 7, 6
+  offset: 6, 6
   index: -1
 5_0011
-  rotate: true
-  xy: 644, 214
-  size: 70, 190
+  rotate: false
+  xy: 966, 254
+  size: 68, 190
   orig: 80, 200
   offset: 6, 6
   index: -1
 5_0012
   rotate: false
-  xy: 717, 22
-  size: 70, 190
+  xy: 1036, 254
+  size: 68, 190
   orig: 80, 200
   offset: 6, 6
   index: -1
 5_0013
   rotate: false
-  xy: 789, 22
-  size: 70, 190
+  xy: 896, 31
+  size: 68, 190
   orig: 80, 200
   offset: 6, 6
   index: -1
 5_0014
   rotate: false
-  xy: 1003, 22
-  size: 69, 190
+  xy: 966, 62
+  size: 68, 190
   orig: 80, 200
-  offset: 7, 6
+  offset: 6, 6
   index: -1
 5_0015
-  rotate: true
-  xy: 836, 214
-  size: 70, 190
+  rotate: false
+  xy: 1036, 62
+  size: 68, 190
   orig: 80, 200
   offset: 6, 6
   index: -1
 D_loadingcheyan_0
-  rotate: true
-  xy: 965, 586
-  size: 158, 81
-  orig: 189, 95
-  offset: 23, 3
+  rotate: false
+  xy: 934, 1022
+  size: 175, 87
+  orig: 198, 95
+  offset: 23, 0
   index: -1
 D_loadingcheyan_1
   rotate: false
-  xy: 909, 335
-  size: 167, 79
-  orig: 189, 95
-  offset: 14, 2
+  xy: 397, 42
+  size: 185, 85
+  orig: 198, 95
+  offset: 13, 0
   index: -1
 D_loadingcheyan_2
   rotate: false
-  xy: 539, 59
-  size: 176, 84
-  orig: 189, 95
-  offset: 5, 2
+  xy: 686, 514
+  size: 195, 91
+  orig: 198, 95
+  offset: 3, 0
   index: -1
 D_loadingcheyan_3
   rotate: false
-  xy: 359, 57
-  size: 178, 86
-  orig: 189, 95
-  offset: 3, 2
+  xy: 2, 34
+  size: 198, 93
+  orig: 198, 95
+  offset: 0, 0
   index: -1
 D_loadingcheyan_4
   rotate: true
-  xy: 965, 416
-  size: 168, 80
-  orig: 189, 95
-  offset: 13, 2
+  xy: 934, 642
+  size: 186, 86
+  orig: 198, 95
+  offset: 12, 0
   index: -1
 D_loadingcheyan_5
   rotate: true
-  xy: 965, 905
-  size: 171, 83
-  orig: 189, 95
-  offset: 10, 2
+  xy: 934, 830
+  size: 190, 90
+  orig: 198, 95
+  offset: 8, 0
   index: -1
 D_loadingcheyan_6
   rotate: false
-  xy: 196, 56
-  size: 161, 87
-  orig: 189, 95
-  offset: 20, 2
+  xy: 686, 418
+  size: 179, 94
+  orig: 198, 95
+  offset: 19, 0
   index: -1
 D_loadingcheyan_7
-  rotate: true
-  xy: 965, 746
-  size: 157, 82
-  orig: 189, 95
-  offset: 24, 2
+  rotate: false
+  xy: 686, 327
+  size: 174, 89
+  orig: 198, 95
+  offset: 24, 0
   index: -1
 che
   rotate: false
-  xy: 2, 145
-  size: 640, 931
-  orig: 641, 932
-  offset: 1, 1
+  xy: 2, 129
+  size: 682, 980
+  orig: 682, 980
+  offset: 0, 0
   index: -1
 zhanche  touxing
   rotate: true
-  xy: 717, 574
+  xy: 686, 607
   size: 502, 246
   orig: 502, 246
   offset: 0, 0

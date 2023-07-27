@@ -120,7 +120,7 @@ var NewClass = /** @class */ (function (_super) {
             GameManager_1.default.getInstance().showMessage(LanguageManager_1.default.getInstance().getStrByTextId(100108)); //暂未解锁该章节
         }
         else {
-            MapManager_1.default.Currentlevel = MissionLevel_1.MissionLevelManager.getInstance().getChapterLevel(this.level + 1) - 1;
+            MapManager_1.default.Currentlevel = MissionLevel_1.MissionLevelManager.getInstance().getChapterLevel(this.level + 1);
             // console.log("________",MapManager.Currentlevel,this.level)
             this.onBtn_Close();
             this.parent.getComponent(BigMap_1.default).onBtn_Close();

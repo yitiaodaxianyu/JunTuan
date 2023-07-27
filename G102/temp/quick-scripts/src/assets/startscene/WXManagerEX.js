@@ -48,6 +48,11 @@ var WXManagerEX = /** @class */ (function (_super) {
     WXManagerEX.prototype.initData = function () {
         this.getSystemInfo();
     };
+    WXManagerEX.prototype.vibrateShort = function () {
+        if (cc.sys.platform === cc.sys.WECHAT_GAME) {
+            wx.vibrateShort({ type: "medium" });
+        }
+    };
     WXManagerEX.prototype.getSystemInfo = function () {
         if (cc.sys.platform === cc.sys.WECHAT_GAME) {
             try {
