@@ -7944,11 +7944,6 @@
     "meta": 1689133968532,
     "relativePath": "resources\\Images\\hero\\wu_nv\\e502.anim"
   },
-  "7edcf3be-2879-4a09-bb10-3560007c781a": {
-    "asset": 1688719261643,
-    "meta": 1689133977281,
-    "relativePath": "resources\\Images\\hero\\shou_wang\\shou_wang.plist"
-  },
   "780d93ea-891c-43ff-8e90-00837611ff65": {
     "asset": 1688719261666,
     "meta": 1689133968539,
@@ -8023,11 +8018,6 @@
     "asset": 1688719261793,
     "meta": 1689133968567,
     "relativePath": "resources\\Images\\home\\battle_pass_ui\\bpuAutoAtlas.pac"
-  },
-  "db960f92-11a8-4b30-84eb-71af8e0fd40b": {
-    "asset": 1688719261646,
-    "meta": 1689133968569,
-    "relativePath": "resources\\Images\\hero\\shou_wang\\shou_wang.png"
   },
   "b8ce8588-c81f-411d-9a53-4aaf9ac73704": {
     "asset": 1688719261767,
@@ -15413,5 +15403,15 @@
     "asset": 1690455730574,
     "meta": 1690455808289,
     "relativePath": "startscene\\WXManagerEX.ts"
+  },
+  "db960f92-11a8-4b30-84eb-71af8e0fd40b": {
+    "asset": 1690508074508,
+    "meta": 1690508110562,
+    "relativePath": "resources\\Images\\hero\\shou_wang\\shou_wang.png"
+  },
+  "7edcf3be-2879-4a09-bb10-3560007c781a": {
+    "asset": 1690508074508,
+    "meta": 1690508110565,
+    "relativePath": "resources\\Images\\hero\\shou_wang\\shou_wang.plist"
   }
 }
