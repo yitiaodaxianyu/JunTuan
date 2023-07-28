@@ -149,7 +149,7 @@ export default class GameManager extends cc.Component {
     //是否显示了退出游戏的对话框
     public is_show_exit: boolean = false;
     //动画位置
-    public aniType: number = 4;
+    public aniType: number = 0;
 
     //战车的位置x
     public charPosX: number = 0;
@@ -172,8 +172,8 @@ export default class GameManager extends cc.Component {
         this.unscheduleAllCallbacks();
         this.cur_game_scene = scene;
         this.is_loaded = false;
-        this.aniType = 4;
-        this.charioUpgradationData = [0, 0, 0, 0, 0, 0, 0];
+        this.aniType = 0;
+        this.charioUpgradationData = [0, 0, 0, 0, 0, 0];
         switch (this.cur_game_scene) {
             case GameScene.home: {
                 this.cur_load_progress = 0;
@@ -346,8 +346,8 @@ export default class GameManager extends cc.Component {
                         heroData.Critical += fightingData.CriticalValue;
                         heroData.Hit += fightingData.HitValue;
                     }
-                    mainWallData.Health += heroData.total_hp * 0.2 * this.getCharioHealthRatio();;
-                    mainWallData.Defense += heroData.total_defense * 0.2 * this.getCharioDefenseRotio();
+                    mainWallData.Health += heroData.total_hp * 0.5 * this.getCharioHealthRatio();;
+                    mainWallData.Defense += heroData.total_defense * 0.5 * this.getCharioDefenseRotio();
                     mainWallData.Miss += heroData.Miss * 0.2;
                     mainWallData.AntiCritical += heroData.AntiCritical * 0.2;
                     mainWallData.AntiExtraCritical += heroData.AntiExtraCritical * 0.2;
@@ -403,8 +403,8 @@ export default class GameManager extends cc.Component {
         let mainWallData = new AttributeData();
         for (let i = 0; i < this.cur_team_list.length; i++) {
             let heroData = this.addTutotialsHeroFull(this.cur_team_list[i], i, null);
-            mainWallData.Health += heroData.total_hp * 0.2 * this.getCharioHealthRatio();;
-            mainWallData.Defense += heroData.total_defense * 0.2 * this.getCharioDefenseRotio();
+            mainWallData.Health += heroData.total_hp * 0.5 * this.getCharioHealthRatio();;
+            mainWallData.Defense += heroData.total_defense * 0.5 * this.getCharioDefenseRotio();
             mainWallData.Miss += heroData.Miss * 0.2;
             mainWallData.AntiCritical += heroData.AntiCritical * 0.2;
             mainWallData.AntiExtraCritical += heroData.AntiExtraCritical * 0.2;
@@ -426,8 +426,8 @@ export default class GameManager extends cc.Component {
         let mainWallData = new AttributeData();
         this.all_hero.forEach((v, k) => {
             let heroData = cc.instantiate(v.hero_data);
-            mainWallData.Health += heroData.total_hp * 0.2 * this.getCharioHealthRatio();
-            mainWallData.Defense += heroData.total_defense * 0.2 * this.getCharioDefenseRotio();
+            mainWallData.Health += heroData.total_hp * 0.5 * this.getCharioHealthRatio();
+            mainWallData.Defense += heroData.total_defense * 0.5 * this.getCharioDefenseRotio();
             mainWallData.Miss += heroData.Miss * 0.2;
             mainWallData.AntiCritical += heroData.AntiCritical * 0.2;
             mainWallData.AntiExtraCritical += heroData.AntiExtraCritical * 0.2;
@@ -441,8 +441,8 @@ export default class GameManager extends cc.Component {
         let mainWallData = new AttributeData();
         this.all_hero.forEach((v, k) => {
             let heroData = cc.instantiate(v.hero_data);
-            mainWallData.Health += heroData.total_hp * 0.2 * this.getCharioHealthRatio();;
-            mainWallData.Defense += heroData.total_defense * 0.2 * this.getCharioDefenseRotio();
+            mainWallData.Health += heroData.total_hp * 0.5 * this.getCharioHealthRatio();;
+            mainWallData.Defense += heroData.total_defense * 0.5 * this.getCharioDefenseRotio();
             mainWallData.Miss += heroData.Miss * 0.2;
             mainWallData.AntiCritical += heroData.AntiCritical * 0.2;
             mainWallData.AntiExtraCritical += heroData.AntiExtraCritical * 0.2;
@@ -584,7 +584,7 @@ export default class GameManager extends cc.Component {
 
         MonsterManager.getInstance().destroyAllDrop();
         MonsterManager.getInstance().destroyAllMonster();
-        this.charioUpgradationData = [0, 0, 0, 0, 0, 0, 0];
+        this.charioUpgradationData = [0, 0, 0, 0, 0, 0];
         this.cur_wave = 0;
         this.cur_total_num = 0;
         switch (GameManager.getInstance().cur_game_mode) {

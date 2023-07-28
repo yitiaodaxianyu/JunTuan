@@ -222,7 +222,7 @@ export default class Hero extends cc.Component {
             // touchNode.off(cc.Node.EventType.TOUCH_END,this.onTouchEnd,this);
             // touchNode.off(cc.Node.EventType.TOUCH_CANCEL,this.onTouchCancel,this);
             // instance.off(cc.Node.EventType.TOUCH_START, this.onTouchStartByJoy, this);
-            // instance.off(cc.Node.EventType.TOUCH_MOVE, this.onTouchMoveByJoy, this);
+            instance.off(cc.Node.EventType.TOUCH_MOVE, this.onTouchMoveByJoy, this);
             instance.off(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
         }
         GameManager.getInstance().all_hero.delete(this.hero_type)
@@ -275,7 +275,7 @@ export default class Hero extends cc.Component {
             // touchNode.on(cc.Node.EventType.TOUCH_END,this.onTouchEnd,this);
             // touchNode.on(cc.Node.EventType.TOUCH_CANCEL,this.onTouchCancel,this);
             // instance.on(cc.Node.EventType.TOUCH_START, this.onTouchStartByJoy, this);
-            // instance.on(cc.Node.EventType.TOUCH_MOVE, this.onTouchMoveByJoy, this);
+            instance.on(cc.Node.EventType.TOUCH_MOVE, this.onTouchMoveByJoy, this);
             instance.on(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
         }
     }
@@ -442,7 +442,10 @@ export default class Hero extends cc.Component {
     }
     posX: number = 0;//初始化时候的位置
     targetX: number = 0;
-    easing: number = 0.1;
+    easing: number = 0.5;
+    onTouchMoveByJoy():void{
+        this.targetX = GameManager.getInstance().aniType + this.posX;
+    }
     onTouchEndByJoy(event: cc.Event.EventTouch, data) {
         this.targetX = (GameManager.getInstance().aniType - 4) * 75 + this.posX;
     }

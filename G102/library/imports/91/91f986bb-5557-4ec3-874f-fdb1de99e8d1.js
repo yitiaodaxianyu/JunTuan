@@ -149,7 +149,7 @@ var GameManager = /** @class */ (function (_super) {
         //是否显示了退出游戏的对话框
         _this.is_show_exit = false;
         //动画位置
-        _this.aniType = 4;
+        _this.aniType = 0;
         //战车的位置x
         _this.charPosX = 0;
         return _this;
@@ -170,8 +170,8 @@ var GameManager = /** @class */ (function (_super) {
         this.unscheduleAllCallbacks();
         this.cur_game_scene = scene;
         this.is_loaded = false;
-        this.aniType = 4;
-        this.charioUpgradationData = [0, 0, 0, 0, 0, 0, 0];
+        this.aniType = 0;
+        this.charioUpgradationData = [0, 0, 0, 0, 0, 0];
         switch (this.cur_game_scene) {
             case Constants_1.GameScene.home:
                 {
@@ -341,9 +341,9 @@ var GameManager = /** @class */ (function (_super) {
                         heroData.Critical += fightingData.CriticalValue;
                         heroData.Hit += fightingData.HitValue;
                     }
-                    mainWallData.Health += heroData.total_hp * 0.2 * this.getCharioHealthRatio();
+                    mainWallData.Health += heroData.total_hp * 0.5 * this.getCharioHealthRatio();
                     ;
-                    mainWallData.Defense += heroData.total_defense * 0.2 * this.getCharioDefenseRotio();
+                    mainWallData.Defense += heroData.total_defense * 0.5 * this.getCharioDefenseRotio();
                     mainWallData.Miss += heroData.Miss * 0.2;
                     mainWallData.AntiCritical += heroData.AntiCritical * 0.2;
                     mainWallData.AntiExtraCritical += heroData.AntiExtraCritical * 0.2;
@@ -399,9 +399,9 @@ var GameManager = /** @class */ (function (_super) {
         var mainWallData = new HeroConfig_1.AttributeData();
         for (var i = 0; i < this.cur_team_list.length; i++) {
             var heroData = this.addTutotialsHeroFull(this.cur_team_list[i], i, null);
-            mainWallData.Health += heroData.total_hp * 0.2 * this.getCharioHealthRatio();
+            mainWallData.Health += heroData.total_hp * 0.5 * this.getCharioHealthRatio();
             ;
-            mainWallData.Defense += heroData.total_defense * 0.2 * this.getCharioDefenseRotio();
+            mainWallData.Defense += heroData.total_defense * 0.5 * this.getCharioDefenseRotio();
             mainWallData.Miss += heroData.Miss * 0.2;
             mainWallData.AntiCritical += heroData.AntiCritical * 0.2;
             mainWallData.AntiExtraCritical += heroData.AntiExtraCritical * 0.2;
@@ -421,8 +421,8 @@ var GameManager = /** @class */ (function (_super) {
         var mainWallData = new HeroConfig_1.AttributeData();
         this.all_hero.forEach(function (v, k) {
             var heroData = cc.instantiate(v.hero_data);
-            mainWallData.Health += heroData.total_hp * 0.2 * _this.getCharioHealthRatio();
-            mainWallData.Defense += heroData.total_defense * 0.2 * _this.getCharioDefenseRotio();
+            mainWallData.Health += heroData.total_hp * 0.5 * _this.getCharioHealthRatio();
+            mainWallData.Defense += heroData.total_defense * 0.5 * _this.getCharioDefenseRotio();
             mainWallData.Miss += heroData.Miss * 0.2;
             mainWallData.AntiCritical += heroData.AntiCritical * 0.2;
             mainWallData.AntiExtraCritical += heroData.AntiExtraCritical * 0.2;
@@ -436,9 +436,9 @@ var GameManager = /** @class */ (function (_super) {
         var mainWallData = new HeroConfig_1.AttributeData();
         this.all_hero.forEach(function (v, k) {
             var heroData = cc.instantiate(v.hero_data);
-            mainWallData.Health += heroData.total_hp * 0.2 * _this.getCharioHealthRatio();
+            mainWallData.Health += heroData.total_hp * 0.5 * _this.getCharioHealthRatio();
             ;
-            mainWallData.Defense += heroData.total_defense * 0.2 * _this.getCharioDefenseRotio();
+            mainWallData.Defense += heroData.total_defense * 0.5 * _this.getCharioDefenseRotio();
             mainWallData.Miss += heroData.Miss * 0.2;
             mainWallData.AntiCritical += heroData.AntiCritical * 0.2;
             mainWallData.AntiExtraCritical += heroData.AntiExtraCritical * 0.2;
@@ -572,7 +572,7 @@ var GameManager = /** @class */ (function (_super) {
         this.unscheduleAllCallbacks();
         MonsterManager_1.default.getInstance().destroyAllDrop();
         MonsterManager_1.default.getInstance().destroyAllMonster();
-        this.charioUpgradationData = [0, 0, 0, 0, 0, 0, 0];
+        this.charioUpgradationData = [0, 0, 0, 0, 0, 0];
         this.cur_wave = 0;
         this.cur_total_num = 0;
         switch (GameManager_1.getInstance().cur_game_mode) {

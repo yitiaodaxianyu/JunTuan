@@ -303,7 +303,7 @@ var Game = /** @class */ (function (_super) {
             }
             var node = cc.instantiate(assets);
             node.parent = cc.find('Canvas/Hero_Root');
-            node.x = (GameManager_1.default.getInstance().aniType - 4) * 75 + posX;
+            node.x = GameManager_1.default.getInstance().aniType + posX;
             var hp = cc.find('Canvas/Ui_Root/hp_root');
             node.y = hp.y + posY + 150 + 300;
             node.getComponent(Hero_1.default).targetX = node.x;

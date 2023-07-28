@@ -302,7 +302,7 @@ export default class Game extends cc.Component {
             }
             let node = cc.instantiate(assets);
             node.parent = cc.find('Canvas/Hero_Root');
-            node.x = (GameManager.getInstance().aniType - 4) * 75 + posX;
+            node.x = GameManager.getInstance().aniType+ posX;
             let hp = cc.find('Canvas/Ui_Root/hp_root');
             node.y = hp.y + posY + 150 + 300;
             node.getComponent(Hero).targetX = node.x;

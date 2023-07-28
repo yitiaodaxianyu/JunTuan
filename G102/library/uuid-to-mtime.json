@@ -14904,11 +14904,6 @@
     "meta": 1689731475791,
     "relativePath": "Scripts\\Monster\\MonsterNormal.ts"
   },
-  "24d5d685-2553-4784-8e2a-24db0467194e": {
-    "asset": 1689739012808,
-    "meta": 1689739075081,
-    "relativePath": "Scripts\\Game\\TouchPlane\\TouchPlane.ts"
-  },
   "322de880-bed7-4eea-a8ca-983e6c4ee0b8": {
     "asset": 1689739012831,
     "meta": 1689739075410,
@@ -15008,11 +15003,6 @@
     "asset": 1689927278755,
     "meta": 1689927309695,
     "relativePath": "Scripts\\RankingList\\RankingList.ts"
-  },
-  "4ae3bc42-f6fa-4d2c-b84e-8747ca4a90a2": {
-    "asset": 1689931210013,
-    "meta": 1689931272632,
-    "relativePath": "Scripts\\Wall\\MainWall.ts"
   },
   "aa1e4122-cf61-4802-8cde-9f0b9957f3f4": {
     "asset": 1689934270928,
@@ -15129,20 +15119,10 @@
     "meta": 1690250758063,
     "relativePath": "Scripts\\Hero\\Data\\HeroBaseInfo.ts"
   },
-  "1f3c074f-dc9f-448e-b8f2-300b075e0ffb": {
-    "asset": 1690256984038,
-    "meta": 1690257058013,
-    "relativePath": "resources\\json\\FirstCompleteReward.json"
-  },
   "ac3e9c4f-a144-4a8a-85db-e9a5e01fb727": {
     "asset": 1690256947051,
     "meta": 1690257058029,
     "relativePath": "resources\\json\\Item.json"
-  },
-  "3737319f-5d5f-486e-ad03-2475ca168052": {
-    "asset": 1690268630064,
-    "meta": 1690268812276,
-    "relativePath": "Scripts\\Game\\Game.ts"
   },
   "c9a07a59-5131-453a-9060-2027e96059ac": {
     "asset": 1690269806816,
@@ -15285,8 +15265,8 @@
     "relativePath": "startscene\\StartScene.ts"
   },
   "c2b29c22-b703-4d69-9932-06eafc1afd76": {
-    "asset": 1690445426759,
-    "meta": 1690445429654,
+    "asset": 1690533702767,
+    "meta": 1690533702790,
     "relativePath": "Scenes\\game.fire"
   },
   "b7023f5f-8418-45a0-8e03-6c3a0c0f7191": {
@@ -15379,20 +15359,10 @@
     "meta": 1690525892594,
     "relativePath": "startscene\\WXManagerEX.ts"
   },
-  "444a03b1-a839-4ad5-8602-166f895ab0e6": {
-    "asset": 1690525800343,
-    "meta": 1690525892594,
-    "relativePath": "resources\\json\\MissionLevel.json"
-  },
   "616d5bdb-5e6d-4ca1-8b34-9d9386861564": {
     "asset": 1690525797663,
     "meta": 1690525892594,
     "relativePath": "resources\\json\\MonsterGroupConfigure.json"
-  },
-  "c5f85cd2-ebd4-4efc-adee-91800a73974b": {
-    "asset": 1690525795558,
-    "meta": 1690525892609,
-    "relativePath": "resources\\json\\SkillConfiguration.json"
   },
   "ede110d2-4e05-45fc-906c-7a7010426420": {
     "asset": 1690528222885,
@@ -15404,14 +15374,44 @@
     "meta": 1690529148835,
     "relativePath": "Scripts\\Game\\Ui\\RoguelikeTip.ts"
   },
-  "91f986bb-5557-4ec3-874f-fdb1de99e8d1": {
-    "asset": 1690529026055,
-    "meta": 1690529149023,
-    "relativePath": "Scripts\\GameManager.ts"
+  "3737319f-5d5f-486e-ad03-2475ca168052": {
+    "asset": 1690532619087,
+    "meta": 1690532708815,
+    "relativePath": "Scripts\\Game\\Game.ts"
   },
   "47edb50b-8706-4f86-86dd-2cc730934e1c": {
-    "asset": 1690529121047,
-    "meta": 1690529149164,
+    "asset": 1690532848078,
+    "meta": 1690532852253,
     "relativePath": "Scripts\\Hero\\Game\\Hero.ts"
+  },
+  "4ae3bc42-f6fa-4d2c-b84e-8747ca4a90a2": {
+    "asset": 1690532851352,
+    "meta": 1690532852300,
+    "relativePath": "Scripts\\Wall\\MainWall.ts"
+  },
+  "c5f85cd2-ebd4-4efc-adee-91800a73974b": {
+    "asset": 1690534813434,
+    "meta": 1690534855459,
+    "relativePath": "resources\\json\\SkillConfiguration.json"
+  },
+  "1f3c074f-dc9f-448e-b8f2-300b075e0ffb": {
+    "asset": 1690535069400,
+    "meta": 1690535147097,
+    "relativePath": "resources\\json\\FirstCompleteReward.json"
+  },
+  "444a03b1-a839-4ad5-8602-166f895ab0e6": {
+    "asset": 1690535118290,
+    "meta": 1690535147114,
+    "relativePath": "resources\\json\\MissionLevel.json"
+  },
+  "24d5d685-2553-4784-8e2a-24db0467194e": {
+    "asset": 1690536047336,
+    "meta": 1690536295339,
+    "relativePath": "Scripts\\Game\\TouchPlane\\TouchPlane.ts"
+  },
+  "91f986bb-5557-4ec3-874f-fdb1de99e8d1": {
+    "asset": 1690535674001,
+    "meta": 1690535688809,
+    "relativePath": "Scripts\\GameManager.ts"
   }
 }

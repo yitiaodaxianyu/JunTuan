@@ -157,7 +157,7 @@ var Hero = /** @class */ (function (_super) {
         _this.v_Index = 0;
         _this.posX = 0; //初始化时候的位置
         _this.targetX = 0;
-        _this.easing = 0.1;
+        _this.easing = 0.5;
         return _this;
     }
     Hero_1 = Hero;
@@ -229,7 +229,7 @@ var Hero = /** @class */ (function (_super) {
             // touchNode.off(cc.Node.EventType.TOUCH_END,this.onTouchEnd,this);
             // touchNode.off(cc.Node.EventType.TOUCH_CANCEL,this.onTouchCancel,this);
             // instance.off(cc.Node.EventType.TOUCH_START, this.onTouchStartByJoy, this);
-            // instance.off(cc.Node.EventType.TOUCH_MOVE, this.onTouchMoveByJoy, this);
+            TouchPlane_1.instance.off(cc.Node.EventType.TOUCH_MOVE, this.onTouchMoveByJoy, this);
             TouchPlane_1.instance.off(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
         }
         GameManager_1.default.getInstance().all_hero.delete(this.hero_type);
@@ -285,7 +285,7 @@ var Hero = /** @class */ (function (_super) {
             // touchNode.on(cc.Node.EventType.TOUCH_END,this.onTouchEnd,this);
             // touchNode.on(cc.Node.EventType.TOUCH_CANCEL,this.onTouchCancel,this);
             // instance.on(cc.Node.EventType.TOUCH_START, this.onTouchStartByJoy, this);
-            // instance.on(cc.Node.EventType.TOUCH_MOVE, this.onTouchMoveByJoy, this);
+            TouchPlane_1.instance.on(cc.Node.EventType.TOUCH_MOVE, this.onTouchMoveByJoy, this);
             TouchPlane_1.instance.on(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
         }
     };
@@ -442,6 +442,9 @@ var Hero = /** @class */ (function (_super) {
         this.node.opacity = 255;
         this.node_shadow.opacity = 255;
         //this.mp_progress.show();
+    };
+    Hero.prototype.onTouchMoveByJoy = function () {
+        this.targetX = GameManager_1.default.getInstance().aniType + this.posX;
     };
     Hero.prototype.onTouchEndByJoy = function (event, data) {
         this.targetX = (GameManager_1.default.getInstance().aniType - 4) * 75 + this.posX;

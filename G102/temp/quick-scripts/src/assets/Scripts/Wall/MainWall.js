@@ -59,7 +59,7 @@ var MainWall = /** @class */ (function (_super) {
         _this.node_vertigo = null;
         _this.vertigo_action = null;
         _this.targetX = 0;
-        _this.easing = 0.1;
+        _this.easing = 0.5;
         return _this;
     }
     MainWall.prototype.onLoad = function () {
@@ -83,6 +83,7 @@ var MainWall = /** @class */ (function (_super) {
         WallManager_1.default.getInstance().addWall(WallConfig_1.WallType.Main, this);
         this.showHp();
         this.showShildProgress();
+        TouchPlane_1.instance.on(cc.Node.EventType.TOUCH_MOVE, this.onTouchMoveByJoy, this);
         TouchPlane_1.instance.on(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
     };
     MainWall.prototype.start = function () {
@@ -94,7 +95,11 @@ var MainWall = /** @class */ (function (_super) {
         // this.setWallRect(cc.rect(wallDown.x, wallDown.y, wallDown.width, wallDown.height));
     };
     MainWall.prototype.onDestroy = function () {
+        TouchPlane_1.instance.off(cc.Node.EventType.TOUCH_MOVE, this.onTouchMoveByJoy, this);
         TouchPlane_1.instance.off(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
+    };
+    MainWall.prototype.onTouchMoveByJoy = function () {
+        this.targetX = GameManager_1.default.getInstance().aniType;
     };
     MainWall.prototype.onTouchEndByJoy = function (event, data) {
         this.targetX = (GameManager_1.default.getInstance().aniType - 4) * 75;

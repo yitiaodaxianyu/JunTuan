@@ -47,11 +47,11 @@ var DirectionType;
 var TouchPlane = /** @class */ (function (_super) {
     __extends(TouchPlane, _super);
     function TouchPlane() {
-        return _super !== null && _super.apply(this, arguments) || this;
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.touchNode = null; //touchNode
+        return _this;
     }
     TouchPlane.prototype.start = function () {
-    };
-    TouchPlane.prototype.onLoad = function () {
         this._initTouchEvent();
     };
     /**
@@ -59,10 +59,11 @@ var TouchPlane = /** @class */ (function (_super) {
    */
     TouchPlane.prototype._initTouchEvent = function () {
         // set the size of joystick node to control scale
-        // this.node.on(cc.Node.EventType.TOUCH_START, this._touchStartEvent, this);
-        // this.node.on(cc.Node.EventType.TOUCH_MOVE, this._touchMoveEvent, this);
-        this.node.on(cc.Node.EventType.TOUCH_END, this._touchEndEvent, this);
-        // this.node.on(cc.Node.EventType.TOUCH_CANCEL, this._touchEndEvent, this);
+        this.touchNode.x = 0;
+        this.touchNode.on(cc.Node.EventType.TOUCH_START, this._touchStartEvent, this);
+        this.touchNode.on(cc.Node.EventType.TOUCH_MOVE, this._touchMoveEvent, this);
+        this.touchNode.on(cc.Node.EventType.TOUCH_END, this._touchEndEvent, this);
+        this.touchNode.on(cc.Node.EventType.TOUCH_CANCEL, this._touchEndEvent, this);
     };
     TouchPlane.prototype.onDestroy = function () {
         this._offTouchEvent();
@@ -72,34 +73,58 @@ var TouchPlane = /** @class */ (function (_super) {
   */
     TouchPlane.prototype._offTouchEvent = function () {
         // set the size of joystick node to control scale
-        // this.node.off(cc.Node.EventType.TOUCH_START, this._touchStartEvent, this);
-        // this.node.off(cc.Node.EventType.TOUCH_MOVE, this._touchMoveEvent, this);
-        this.node.off(cc.Node.EventType.TOUCH_END, this._touchEndEvent, this);
-        // this.node.off(cc.Node.EventType.TOUCH_CANCEL, this._touchEndEvent, this);
+        this.touchNode.off(cc.Node.EventType.TOUCH_START, this._touchStartEvent, this);
+        this.touchNode.off(cc.Node.EventType.TOUCH_MOVE, this._touchMoveEvent, this);
+        this.touchNode.off(cc.Node.EventType.TOUCH_END, this._touchEndEvent, this);
+        this.touchNode.off(cc.Node.EventType.TOUCH_CANCEL, this._touchEndEvent, this);
+    };
+    /**
+  * 触摸开始回调函数
+  * @param event
+  */
+    TouchPlane.prototype._touchStartEvent = function (event) {
+    };
+    /**
+   * 触摸移动回调函数
+   * @param event
+   */
+    TouchPlane.prototype._touchMoveEvent = function (event) {
+        var delta = event.touch.getDelta();
+        this.touchNode.x += delta.x;
+        if (this.touchNode.x < -275) {
+            this.touchNode.x = -275;
+        }
+        if (this.touchNode.x > 275) {
+            this.touchNode.x = 275;
+        }
+        GameManager_1.default.getInstance().aniType = this.touchNode.x;
+        exports.instance.emit(cc.Node.EventType.TOUCH_MOVE, event, {});
     };
     /**
    * 触摸结束回调函数
    * @param event
    */
     TouchPlane.prototype._touchEndEvent = function (event) {
-        var touchPos = this.node.convertToNodeSpaceAR(event.getLocation());
-        var directiontype = DirectionType.LEFT;
-        var cheWeiPos = (GameManager_1.default.getInstance().aniType - 4) * 75;
-        if (touchPos.x > cheWeiPos) {
-            directiontype = DirectionType.RIGHT;
-            if (GameManager_1.default.getInstance().aniType < 8) {
-                GameManager_1.default.getInstance().aniType++;
-            }
-        }
-        else {
-            if (GameManager_1.default.getInstance().aniType > 0) {
-                GameManager_1.default.getInstance().aniType--;
-            }
-        }
-        exports.instance.emit(cc.Node.EventType.TOUCH_END, event, {
-            directionType: directiontype,
-        });
+        // const touchPos = this.node.convertToNodeSpaceAR(event.getLocation());
+        // let directiontype = DirectionType.LEFT;
+        // let cheWeiPos: number = (GameManager.getInstance().aniType - 4) * 75;
+        // if (touchPos.x > cheWeiPos) {
+        //     directiontype = DirectionType.RIGHT;
+        //     if (GameManager.getInstance().aniType < 8) {
+        //         GameManager.getInstance().aniType++;
+        //     }
+        // } else {
+        //     if (GameManager.getInstance().aniType > 0) {
+        //         GameManager.getInstance().aniType--;
+        //     }
+        // }
+        // instance.emit(cc.Node.EventType.TOUCH_END, event, {
+        //     directionType: directiontype,
+        // });
     };
+    __decorate([
+        property(cc.Node)
+    ], TouchPlane.prototype, "touchNode", void 0);
     TouchPlane = __decorate([
         ccclass
     ], TouchPlane);

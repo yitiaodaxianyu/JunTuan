@@ -61,6 +61,7 @@ export default class MainWall extends Wall {
         WallManager.getInstance().addWall(WallType.Main, this);
         this.showHp();
         this.showShildProgress();
+        instance.on(cc.Node.EventType.TOUCH_MOVE, this.onTouchMoveByJoy, this);
         instance.on(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
 
     }
@@ -75,10 +76,14 @@ export default class MainWall extends Wall {
       
     }
     protected onDestroy(): void {
+        instance.off(cc.Node.EventType.TOUCH_MOVE, this.onTouchMoveByJoy, this);
         instance.off(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
     }
     targetX: number = 0;
-    easing: number = 0.1;
+    easing: number = 0.5;
+    onTouchMoveByJoy():void{
+        this.targetX = GameManager.getInstance().aniType ;
+    }
     onTouchEndByJoy(event: cc.Event.EventTouch, data) {
         this.targetX = (GameManager.getInstance().aniType - 4) * 75;
     }
