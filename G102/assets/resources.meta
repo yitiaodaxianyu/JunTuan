@@ -6,7 +6,7 @@
   "bundleName": "resources",
   "priority": 8,
   "compressionType": {
-    "wechatgame": "default"
+    "wechatgame": "zip"
   },
   "optimizeHotUpdate": {
     "wechatgame": false

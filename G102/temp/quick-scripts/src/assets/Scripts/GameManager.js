@@ -130,7 +130,7 @@ var GameManager = /** @class */ (function (_super) {
         //通关次数
         _this.pass_level_num = 0;
         /**游戏速率 */
-        _this.game_rate = 1.8;
+        _this.game_rate = 1.7;
         /**按钮指定速率 */
         _this.btn_setup_rate = 1;
         /**战斗指定速率 */
@@ -143,9 +143,9 @@ var GameManager = /** @class */ (function (_super) {
         _this.auto_fighting = true;
         /**当前的队列 */
         _this.cur_team_list = [];
-        _this.charioUpgradationData = [0, 0, 0, 0, 0, 0, 0];
-        _this.charioTip = ["加攻击", "血量上限", "攻速", "防御", "技能间隔", "左右移动", "回血"];
-        _this.charioContent = ["每一级增加全体英雄攻击力10%", "每一级增加战车血量上限10%", "每一级增加全体英雄攻速10%", "每一级增加战车防御10%", "每一级减少技能间隔10%", "每一级增加战车移动速度10%", "回复战车最大血量20%"];
+        _this.charioUpgradationData = [0, 0, 0, 0, 0, 0];
+        _this.charioTip = ["加攻击", "血量上限", "攻速", "防御", "技能间隔", "回血"];
+        _this.charioContent = ["每一级增加全体英雄攻击力10%", "每一级增加战车血量上限10%", "每一级增加全体英雄攻速10%", "每一级增加战车防御10%", "每一级减少技能间隔10%", "回复战车最大血量20%"];
         //是否显示了退出游戏的对话框
         _this.is_show_exit = false;
         //动画位置
@@ -623,7 +623,7 @@ var GameManager = /** @class */ (function (_super) {
         var arr = [];
         var arTemp = [];
         for (var i = 0; i < this.charioUpgradationData.length; i++) {
-            if (this.charioUpgradationData[i] < 5 || i == 6) {
+            if (this.charioUpgradationData[i] < 5 || i == 5) {
                 arTemp.push(i);
             }
         }
@@ -924,11 +924,11 @@ var GameManager = /** @class */ (function (_super) {
     };
     //获取因为技能等级变化的血量比率
     GameManager.prototype.getCharioHealthRatio = function () {
-        return this.charioUpgradationData[1] * 0.1 + 1;
+        return this.charioUpgradationData[1] * 0.2 + 1;
     };
     //获取因为技能等级变化的防御比率
     GameManager.prototype.getCharioDefenseRotio = function () {
-        return this.charioUpgradationData[3] * 0.1 + 1;
+        return this.charioUpgradationData[3] * 0.15 + 1;
     };
     //攻击力比率
     GameManager.prototype.getCharioAttackRotio = function () {
@@ -937,6 +937,10 @@ var GameManager = /** @class */ (function (_super) {
     //攻击速度比率
     GameManager.prototype.getCharioSpeedRotio = function () {
         return this.charioUpgradationData[2] * 0.1;
+    };
+    //冷却缩减
+    GameManager.prototype.getCharioColdDownRotio = function () {
+        return this.charioUpgradationData[2] * 0.5;
     };
     /**添加一个满级满装满宠物的英雄 */
     GameManager.prototype.addTutotialsHeroFull = function (heroId, teamIndex, callback) {

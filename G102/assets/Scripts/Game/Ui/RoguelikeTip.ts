@@ -252,7 +252,7 @@ export default class RoguelikeTip extends UIComponent {
         if (touchTarget.active == true) {
             var charioType: number = touchTarget.getComponent(CharioItem).getDataType();
             GameManager.getInstance().charioUpgradationData[charioType]++;
-            //["加攻击","血量上限","攻速","防御","技能间隔","左右移动","回血"];
+            //["加攻击","血量上限","攻速","防御","技能间隔","回血"];
             if (charioType == 0) {
                 GameManager.getInstance().refreshMainWallDataByaddHero()
             } else if (charioType == 1) {
@@ -266,10 +266,8 @@ export default class RoguelikeTip extends UIComponent {
             } else if (charioType == 4) {
 
             } else if (charioType == 5) {
-
-            } else if (charioType == 6) {
                 WallManager.getInstance().getMainWall().changeHp(WallManager.getInstance().getMainWall().getMaxHp() * 0.2);
-            }
+            } 
 
             this.chariotUpgradation();
             this.clickBtnClose();

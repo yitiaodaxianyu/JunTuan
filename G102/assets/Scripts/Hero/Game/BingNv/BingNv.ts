@@ -188,7 +188,7 @@ export default class BingNv extends Hero {
     startLaunch(pos:cc.Vec2){
         super.setAttSpineScale();
         let node=GameEffectsManager.getInstance().createGameEffectForParent(GameEffectId.bing_nv_active_skill_wall,pos,MonsterManager.getInstance().node);
-        node.getComponent(BingNvWall).init(super.getGongJiData(DamageType.Skill,false,SkillType.Active,this.hero_data.getSkillValue3(SkillType.Active)),pos,this.hero_data.getSkillValue1(SkillType.Active));
+        node.getComponent(BingNvWall).init(super.getGongJiData(DamageType.Skill,false,SkillType.Active,this.hero_data.getSkillValue3(SkillType.Active)),pos,this.hero_data.getSkillValue1(SkillType.Active)+this.hero_lvl*0.5);
         SkillManager.getInstance().setIsSkillState(false);
         GameManager.getInstance().sound_manager.playSound(SoundIndex.YX_BNSkill);
     }

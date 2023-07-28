@@ -127,7 +127,7 @@ export default class GameManager extends cc.Component {
     //通关次数
     pass_level_num: number = 0;
     /**游戏速率 */
-    private game_rate: number = 1.8;
+    private game_rate: number = 1.7;
     /**按钮指定速率 */
     private btn_setup_rate: number = 1;
     /**战斗指定速率 */
@@ -141,11 +141,11 @@ export default class GameManager extends cc.Component {
     /**当前的队列 */
     public cur_team_list: number[] = [];
 
-    public charioUpgradationData: Array<number> = [0, 0, 0, 0, 0, 0, 0];
+    public charioUpgradationData: Array<number> = [0, 0, 0, 0, 0, 0];
 
-    public charioTip: Array<string> = ["加攻击", "血量上限", "攻速", "防御", "技能间隔", "左右移动", "回血"];
+    public charioTip: Array<string> = ["加攻击", "血量上限", "攻速", "防御", "技能间隔",  "回血"];
 
-    public charioContent: Array<string> = ["每一级增加全体英雄攻击力10%", "每一级增加战车血量上限10%", "每一级增加全体英雄攻速10%", "每一级增加战车防御10%", "每一级减少技能间隔10%", "每一级增加战车移动速度10%", "回复战车最大血量20%"];
+    public charioContent: Array<string> = ["每一级增加全体英雄攻击力10%", "每一级增加战车血量上限10%", "每一级增加全体英雄攻速10%", "每一级增加战车防御10%", "每一级减少技能间隔10%",  "回复战车最大血量20%"];
     //是否显示了退出游戏的对话框
     public is_show_exit: boolean = false;
     //动画位置
@@ -626,7 +626,7 @@ export default class GameManager extends cc.Component {
         var arr: Array<number> = [];
         var arTemp: Array<number> = [];
         for (var i: number = 0; i < this.charioUpgradationData.length; i++) {
-            if (this.charioUpgradationData[i] < 5 || i == 6) {
+            if (this.charioUpgradationData[i] < 5 || i == 5) {
                 arTemp.push(i);
             }
         }
@@ -918,11 +918,11 @@ export default class GameManager extends cc.Component {
     }
     //获取因为技能等级变化的血量比率
     public getCharioHealthRatio(): number {
-        return this.charioUpgradationData[1] * 0.1 + 1;
+        return this.charioUpgradationData[1] * 0.2 + 1;
     }
     //获取因为技能等级变化的防御比率
     public getCharioDefenseRotio(): number {
-        return this.charioUpgradationData[3] * 0.1 + 1;
+        return this.charioUpgradationData[3] * 0.15 + 1;
     }
     //攻击力比率
     public getCharioAttackRotio(): number {
@@ -932,6 +932,10 @@ export default class GameManager extends cc.Component {
     //攻击速度比率
     public getCharioSpeedRotio(): number {
         return this.charioUpgradationData[2] * 0.1;
+    }
+    //冷却缩减
+    public getCharioColdDownRotio(): number {
+        return this.charioUpgradationData[2] * 0.5;
     }
     /**添加一个满级满装满宠物的英雄 */
     addTutotialsHeroFull(heroId: Hero_Type, teamIndex: number, callback: Function): HeroData {

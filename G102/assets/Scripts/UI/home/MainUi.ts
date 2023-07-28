@@ -344,8 +344,10 @@ export default class MainUi extends cc.Component {
                 //     this.cur_selected_level=LevelManager.getInstance().start_level;                    
                 //     GameManager.getInstance().refreshZhanliShow();
                 // }});     
-                           
-                // LevelManager.getInstance().start_level=MapManager.Currentlevel=LevelManager.getInstance().finish_level+1;
+                if(MapManager.Currentlevel==0){
+                    LevelManager.getInstance().start_level=MapManager.Currentlevel=LevelManager.getInstance().finish_level+1;
+                }        
+                
                 UIManager.getInstance().showUiDialog(UIPath.ToPlay,UILayerLevel.One,{onCompleted:(uiNode)=> {
                     uiNode.getComponent(ToPlayMainUi).init({onClose:()=>{
                         MapManager.Currentlevel=LevelManager.getInstance().finish_level+1;

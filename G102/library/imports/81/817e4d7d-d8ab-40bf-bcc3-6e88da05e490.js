@@ -194,7 +194,7 @@ var BingNv = /** @class */ (function (_super) {
     BingNv.prototype.startLaunch = function (pos) {
         _super.prototype.setAttSpineScale.call(this);
         var node = GameEffectsManager_1.GameEffectsManager.getInstance().createGameEffectForParent(GameEffectsManager_1.GameEffectId.bing_nv_active_skill_wall, pos, MonsterManager_1.default.getInstance().node);
-        node.getComponent(BingNvWall_1.default).init(_super.prototype.getGongJiData.call(this, HeroConfig_1.DamageType.Skill, false, HeroConfig_1.SkillType.Active, this.hero_data.getSkillValue3(HeroConfig_1.SkillType.Active)), pos, this.hero_data.getSkillValue1(HeroConfig_1.SkillType.Active));
+        node.getComponent(BingNvWall_1.default).init(_super.prototype.getGongJiData.call(this, HeroConfig_1.DamageType.Skill, false, HeroConfig_1.SkillType.Active, this.hero_data.getSkillValue3(HeroConfig_1.SkillType.Active)), pos, this.hero_data.getSkillValue1(HeroConfig_1.SkillType.Active) + this.hero_lvl * 0.5);
         SkillManager_1.default.getInstance().setIsSkillState(false);
         GameManager_1.default.getInstance().sound_manager.playSound(AudioConstants_1.SoundIndex.YX_BNSkill);
     };

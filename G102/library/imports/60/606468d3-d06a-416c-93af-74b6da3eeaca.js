@@ -223,7 +223,7 @@ var RoguelikeTip = /** @class */ (function (_super) {
         if (touchTarget.active == true) {
             var charioType = touchTarget.getComponent(CharioItem_1.default).getDataType();
             GameManager_1.default.getInstance().charioUpgradationData[charioType]++;
-            //["加攻击","血量上限","攻速","防御","技能间隔","左右移动","回血"];
+            //["加攻击","血量上限","攻速","防御","技能间隔","回血"];
             if (charioType == 0) {
                 GameManager_1.default.getInstance().refreshMainWallDataByaddHero();
             }
@@ -239,8 +239,6 @@ var RoguelikeTip = /** @class */ (function (_super) {
             else if (charioType == 4) {
             }
             else if (charioType == 5) {
-            }
-            else if (charioType == 6) {
                 WallManager_1.default.getInstance().getMainWall().changeHp(WallManager_1.default.getInstance().getMainWall().getMaxHp() * 0.2);
             }
             this.chariotUpgradation();
