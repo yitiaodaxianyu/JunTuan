@@ -34,7 +34,7 @@ var WXManagerEX = /** @class */ (function (_super) {
     __extends(WXManagerEX, _super);
     function WXManagerEX() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.statusBarHeight = 30;
+        _this.statusBarHeight = 0;
         return _this;
         // update (dt) {}
     }

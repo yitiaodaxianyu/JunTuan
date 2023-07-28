@@ -44,8 +44,8 @@
       "RewardNum_4": 0
     },
     {
-      "PassReward": 61,
-      "Level_ID": 6,
+      "PassReward": 21,
+      "Level_ID": 2,
       "Star_ID": 1,
       "RewardItem_1": 10001,
       "RewardNum_1": 1000,
@@ -57,8 +57,8 @@
       "RewardNum_4": 10
     },
     {
-      "PassReward": 62,
-      "Level_ID": 6,
+      "PassReward": 22,
+      "Level_ID": 2,
       "Star_ID": 2,
       "RewardItem_1": 10001,
       "RewardNum_1": 2000,
@@ -70,8 +70,8 @@
       "RewardNum_4": 10
     },
     {
-      "PassReward": 63,
-      "Level_ID": 6,
+      "PassReward": 23,
+      "Level_ID": 2,
       "Star_ID": 3,
       "RewardItem_1": 10001,
       "RewardNum_1": 5000,
@@ -83,8 +83,8 @@
       "RewardNum_4": 10
     },
     {
-      "PassReward": 161,
-      "Level_ID": 16,
+      "PassReward": 31,
+      "Level_ID": 3,
       "Star_ID": 1,
       "RewardItem_1": 10001,
       "RewardNum_1": 2000,
@@ -96,8 +96,8 @@
       "RewardNum_4": 30
     },
     {
-      "PassReward": 162,
-      "Level_ID": 16,
+      "PassReward": 32,
+      "Level_ID": 3,
       "Star_ID": 2,
       "RewardItem_1": 10001,
       "RewardNum_1": 4000,
@@ -109,8 +109,8 @@
       "RewardNum_4": 30
     },
     {
-      "PassReward": 163,
-      "Level_ID": 16,
+      "PassReward": 33,
+      "Level_ID": 3,
       "Star_ID": 3,
       "RewardItem_1": 10001,
       "RewardNum_1": 10000,
@@ -122,8 +122,8 @@
       "RewardNum_4": 30
     },
     {
-      "PassReward": 361,
-      "Level_ID": 36,
+      "PassReward": 41,
+      "Level_ID": 4,
       "Star_ID": 1,
       "RewardItem_1": 10001,
       "RewardNum_1": 2000,
@@ -135,8 +135,8 @@
       "RewardNum_4": 5
     },
     {
-      "PassReward": 362,
-      "Level_ID": 36,
+      "PassReward": 42,
+      "Level_ID": 4,
       "Star_ID": 2,
       "RewardItem_1": 10001,
       "RewardNum_1": 4000,
@@ -148,8 +148,8 @@
       "RewardNum_4": 5
     },
     {
-      "PassReward": 363,
-      "Level_ID": 36,
+      "PassReward": 43,
+      "Level_ID": 4,
       "Star_ID": 3,
       "RewardItem_1": 10001,
       "RewardNum_1": 10000,
@@ -161,8 +161,8 @@
       "RewardNum_4": 5
     },
     {
-      "PassReward": 561,
-      "Level_ID": 56,
+      "PassReward": 51,
+      "Level_ID": 5,
       "Star_ID": 1,
       "RewardItem_1": 10001,
       "RewardNum_1": 3000,
@@ -174,8 +174,8 @@
       "RewardNum_4": 10
     },
     {
-      "PassReward": 562,
-      "Level_ID": 56,
+      "PassReward": 52,
+      "Level_ID": 5,
       "Star_ID": 2,
       "RewardItem_1": 10001,
       "RewardNum_1": 6000,
@@ -187,8 +187,8 @@
       "RewardNum_4": 10
     },
     {
-      "PassReward": 563,
-      "Level_ID": 56,
+      "PassReward": 53,
+      "Level_ID": 5,
       "Star_ID": 3,
       "RewardItem_1": 10001,
       "RewardNum_1": 12000,

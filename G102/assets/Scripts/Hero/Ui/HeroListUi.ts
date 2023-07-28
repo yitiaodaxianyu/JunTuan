@@ -1,3 +1,4 @@
+import WXManagerEX from "../../../startscene/WXManagerEX";
 import { GameMode } from "../../Constants";
 import GameManager from "../../GameManager";
 import { RewardHeroData } from "../../JsonData/LevelJsonData";
@@ -27,6 +28,7 @@ export default class HeroListUi extends cc.Component {
 
     protected onLoad(): void {
         this.node.on(cc.Node.EventType.POSITION_CHANGED,this.onPositionChange,this);
+       
     }
 
     protected onDestroy(): void {

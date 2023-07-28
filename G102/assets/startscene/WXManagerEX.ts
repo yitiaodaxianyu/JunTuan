@@ -12,7 +12,7 @@ export default class WXManagerEX extends cc.Component {
 
     private static _instance: WXManagerEX = null;
 
-    public statusBarHeight: number = 30;
+    public statusBarHeight: number = 0;
 
     public static getInstance(): WXManagerEX {
         if (this._instance == null) {

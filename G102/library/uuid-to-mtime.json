@@ -12074,11 +12074,6 @@
     "meta": 1689133971032,
     "relativePath": "Scripts\\Hero\\Ui\\HeroItem.ts"
   },
-  "71ec28ca-ebc5-4c30-9aac-56db7f89e350": {
-    "asset": 1688719263590,
-    "meta": 1689133971063,
-    "relativePath": "Scripts\\Hero\\Ui\\HeroListUi.ts"
-  },
   "4c88e6dc-0e50-4a3a-a688-a5d7d0a877bc": {
     "asset": 1688719263592,
     "meta": 1689133971081,
@@ -14754,11 +14749,6 @@
     "meta": 1689233695041,
     "relativePath": "Scripts\\Prop\\PropManager.ts"
   },
-  "2c3a3216-77be-4f6f-bc72-de785e68a5a7": {
-    "asset": 1689233540522,
-    "meta": 1689233695318,
-    "relativePath": "Scripts\\Store\\StoreUi.ts"
-  },
   "97dc4e68-aa32-4419-9744-1ca4bc3b9b8e": {
     "asset": 1689233554042,
     "meta": 1689233695339,
@@ -15270,8 +15260,8 @@
     "relativePath": "Scenes\\game.fire"
   },
   "b7023f5f-8418-45a0-8e03-6c3a0c0f7191": {
-    "asset": 1690528608487,
-    "meta": 1690528608500,
+    "asset": 1690539042167,
+    "meta": 1690539042181,
     "relativePath": "Scenes\\home.fire"
   },
   "70ab1076-c721-43e7-8dc1-bfbe5881ef5c": {
@@ -15354,11 +15344,6 @@
     "meta": 1690517062340,
     "relativePath": "Scripts\\Hero\\Game\\BingNv\\BingNv.ts"
   },
-  "d92b2400-cf25-4a0a-912d-964e8b7e98d7": {
-    "asset": 1690524810258,
-    "meta": 1690525892594,
-    "relativePath": "startscene\\WXManagerEX.ts"
-  },
   "616d5bdb-5e6d-4ca1-8b34-9d9386861564": {
     "asset": 1690525797663,
     "meta": 1690525892594,
@@ -15394,11 +15379,6 @@
     "meta": 1690534855459,
     "relativePath": "resources\\json\\SkillConfiguration.json"
   },
-  "1f3c074f-dc9f-448e-b8f2-300b075e0ffb": {
-    "asset": 1690535069400,
-    "meta": 1690535147097,
-    "relativePath": "resources\\json\\FirstCompleteReward.json"
-  },
   "444a03b1-a839-4ad5-8602-166f895ab0e6": {
     "asset": 1690535118290,
     "meta": 1690535147114,
@@ -15413,5 +15393,25 @@
     "asset": 1690535674001,
     "meta": 1690535688809,
     "relativePath": "Scripts\\GameManager.ts"
+  },
+  "2c3a3216-77be-4f6f-bc72-de785e68a5a7": {
+    "asset": 1690538019103,
+    "meta": 1690538040080,
+    "relativePath": "Scripts\\Store\\StoreUi.ts"
+  },
+  "71ec28ca-ebc5-4c30-9aac-56db7f89e350": {
+    "asset": 1690538058537,
+    "meta": 1690538061182,
+    "relativePath": "Scripts\\Hero\\Ui\\HeroListUi.ts"
+  },
+  "d92b2400-cf25-4a0a-912d-964e8b7e98d7": {
+    "asset": 1690538585706,
+    "meta": 1690538586504,
+    "relativePath": "startscene\\WXManagerEX.ts"
+  },
+  "1f3c074f-dc9f-448e-b8f2-300b075e0ffb": {
+    "asset": 1690538703205,
+    "meta": 1690538743651,
+    "relativePath": "resources\\json\\FirstCompleteReward.json"
   }
 }

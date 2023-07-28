@@ -23,6 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+var WXManagerEX_1 = require("../../startscene/WXManagerEX");
 var HttpManager_1 = require(".././NetWork/HttpManager");
 var CumulativeRecharges_1 = require("../AccumulatedRecharge/CumulativeRecharges");
 var ApkManager_1 = require("../Ads/ApkManager");
@@ -90,6 +91,9 @@ var StoreUi = /** @class */ (function (_super) {
     StoreUi.prototype.onLoad = function () {
         this.node.on(cc.Node.EventType.POSITION_CHANGED, this.onPositionChange, this);
         cc.director.on(LanguageConstants_1.OnLanguageChange, this.initStore, this);
+        if (WXManagerEX_1.default.getInstance().statusBarHeight > 20) {
+            this.node.getComponent(cc.Widget).top = 150;
+        }
         this.initStore();
     };
     StoreUi.prototype.onDestroy = function () {
@@ -134,10 +138,12 @@ var StoreUi = /** @class */ (function (_super) {
                             TutorailsManager_1.default.getInstance().saveTutorials(223);
                             UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.StoreHeroUi, UIConfig_1.UILayerLevel.One, {
                                 onCompleted: function (uiNode) {
-                                    uiNode.getComponent(StoreHeroUi_1.default).init({ onClose: function () {
+                                    uiNode.getComponent(StoreHeroUi_1.default).init({
+                                        onClose: function () {
                                             //直接进入游戏
                                             cc.find('Canvas/main_ui').getComponent(MainUi_1.default).startGame();
-                                        } });
+                                        }
+                                    });
                                     uiNode.getComponent(StoreHeroUi_1.default).initData(rewardList_1);
                                 },
                             });
@@ -354,10 +360,12 @@ var StoreUi = /** @class */ (function (_super) {
         heroTip.getComponent(cc.Button).duration = 0.1;
         heroTip.getComponent(cc.Button).zoomScale = 0.9;
         heroTip.on(cc.Node.EventType.TOUCH_END, function () {
-            UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.ProbabilityTipUi, UIConfig_1.UILayerLevel.One, { onCompleted: function (uiNode) {
+            UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.ProbabilityTipUi, UIConfig_1.UILayerLevel.One, {
+                onCompleted: function (uiNode) {
                     uiNode.getComponent(ProbabilityTipUi_1.default).init(null);
                     uiNode.getComponent(ProbabilityTipUi_1.default).initUi();
-                }, });
+                },
+            });
         });
         var heroBtn1 = heroItem.getChildByName("btn1");
         var heroBtn10 = heroItem.getChildByName("btn10");
@@ -722,14 +730,18 @@ var StoreUi = /** @class */ (function (_super) {
                             }
                             else {
                                 if (storeItemInfo.CostItemID == PropConfig_1.PropId.Coin) {
-                                    UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.CoinPop, UIConfig_1.UILayerLevel.Three, { onCompleted: function (uiNode) {
+                                    UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.CoinPop, UIConfig_1.UILayerLevel.Three, {
+                                        onCompleted: function (uiNode) {
                                             uiNode.getComponent(CoinPop_1.default).initUi(PropConfig_1.PropId.Coin);
-                                        }, });
+                                        },
+                                    });
                                 }
                                 else {
-                                    UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.CoinPop, UIConfig_1.UILayerLevel.Three, { onCompleted: function (uiNode) {
+                                    UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.CoinPop, UIConfig_1.UILayerLevel.Three, {
+                                        onCompleted: function (uiNode) {
                                             uiNode.getComponent(CoinPop_1.default).initUi(PropConfig_1.PropId.Gem);
-                                        }, });
+                                        },
+                                    });
                                 }
                                 // GameManager.getInstance().showMessage(LanguageManager.getInstance().getStrByTextId(100041));
                                 FollowManager_1.default.getInstance().followEvent(FollowConstants_1.Follow_Type.每日商店中购买失败的次数);
@@ -791,16 +803,20 @@ var StoreUi = /** @class */ (function (_super) {
                             }
                             else {
                                 if (storeItemInfo.CostItemID == PropConfig_1.PropId.Coin) {
-                                    UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.CoinPop, UIConfig_1.UILayerLevel.Three, { onCompleted: function (uiNode) {
+                                    UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.CoinPop, UIConfig_1.UILayerLevel.Three, {
+                                        onCompleted: function (uiNode) {
                                             uiNode.getComponent(CoinPop_1.default).initUi(PropConfig_1.PropId.Coin);
-                                        }, });
+                                        },
+                                    });
                                     // FollowManager.getInstance().addTotal(Follow_Type.在每日商店中消耗的金币数量,(storeItemInfo.CostNum * discountNum * 0.1))
                                     // FollowManager.getInstance().followEvent(Follow_Type.在每日商店中使用金币购买物品的次数);
                                 }
                                 else {
-                                    UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.CoinPop, UIConfig_1.UILayerLevel.Three, { onCompleted: function (uiNode) {
+                                    UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.CoinPop, UIConfig_1.UILayerLevel.Three, {
+                                        onCompleted: function (uiNode) {
                                             uiNode.getComponent(CoinPop_1.default).initUi(PropConfig_1.PropId.Gem);
-                                        }, });
+                                        },
+                                    });
                                     // FollowManager.getInstance().addTotal(Follow_Type.在每日商店中消耗的钻石数量,(storeItemInfo.CostNum * discountNum * 0.1))
                                     // FollowManager.getInstance().followEvent(Follow_Type.在每日商店中使用钻石购买物品的次数);
                                 }
@@ -1501,9 +1517,11 @@ var StoreUi = /** @class */ (function (_super) {
                             GameManager_1.default.getInstance().showGetTip(reward);
                         }
                         else {
-                            UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.CoinPop, UIConfig_1.UILayerLevel.Three, { onCompleted: function (uiNode) {
+                            UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.CoinPop, UIConfig_1.UILayerLevel.Three, {
+                                onCompleted: function (uiNode) {
                                     uiNode.getComponent(CoinPop_1.default).initUi(PropConfig_1.PropId.Gem);
-                                }, });
+                                },
+                            });
                         }
                     }
                 }
@@ -1516,9 +1534,11 @@ var StoreUi = /** @class */ (function (_super) {
                         GameManager_1.default.getInstance().showGetTip(reward);
                     }
                     else {
-                        UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.CoinPop, UIConfig_1.UILayerLevel.Three, { onCompleted: function (uiNode) {
+                        UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.CoinPop, UIConfig_1.UILayerLevel.Three, {
+                            onCompleted: function (uiNode) {
                                 uiNode.getComponent(CoinPop_1.default).initUi(PropConfig_1.PropId.Gem);
-                            }, });
+                            },
+                        });
                     }
                 }
             });
