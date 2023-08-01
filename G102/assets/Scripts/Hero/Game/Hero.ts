@@ -1279,6 +1279,7 @@ export default class Hero extends cc.Component {
 
     public resetCD() {
         this.skill_cd_time = this.skill_total_time-GameManager.getInstance().getCharioColdDownRotio();
+     
         this.showCD();
         //释放了技能，立马减去MP
         //GameManager.getInstance().wall_data.changeMp(-this.hero_data.cost_mp);

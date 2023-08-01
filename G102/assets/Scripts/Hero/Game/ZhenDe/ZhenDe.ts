@@ -278,7 +278,7 @@ export default class ZhenDe extends Hero {
             //     }
             // })
             //战车加护盾
-            WallManager.getInstance().getMainWall().addShield(this.hero_type,ShieldType.All,10,0.1*this.hero_data.total_hp,GameEffectId.zhen_de_beidong_skill_wall);
+            WallManager.getInstance().getMainWall().addShield(this.hero_type,ShieldType.All,5,0.1*this.hero_data.total_hp,GameEffectId.zhen_de_beidong_skill_wall);
             
 
             // WallManager.getInstance().getMainWall().addShield(this.hero_type,ShieldType.All,this.hero_data.getSkillValue3(SkillType.Active),this.hero_data.getSkillValue3(SkillType.Active)*this.hero_data.total_hp);

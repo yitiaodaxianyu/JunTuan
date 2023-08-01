@@ -80,6 +80,10 @@ export default class Game extends cc.Component {
     /**试用文本 */
     @property(cc.Label)
     try_rate_label: cc.Label = null;
+
+    /**剩余多少次显示 */
+    @property(cc.Label)
+    rogueText: cc.Label = null;
     //测试
     start_time: number = 0;
     time_jishu: number = 0;
@@ -316,7 +320,9 @@ export default class Game extends cc.Component {
         });
 
     }
-
+    setRogueText(n:number){
+        this.rogueText.string=n+"";
+    }
     showKaiZhan() {
         let kaiZhan = cc.find('Canvas/Ui_Root/KaiZhan');
         kaiZhan.active = true;
@@ -745,26 +751,26 @@ export default class Game extends cc.Component {
 
 
     setTryAutoLabel() {
-        this.try_auto_label.node.active = this.try_auto_ramain > 0 && LevelManager.getInstance().finish_level >= 5 && this.is_unlock_auto == false;
-        this.try_auto_label.string = MyTool.getTimeStr(Math.floor(this.try_auto_ramain))
+        // this.try_auto_label.node.active = this.try_auto_ramain > 0 && LevelManager.getInstance().finish_level >= 5 && this.is_unlock_auto == false;
+        // this.try_auto_label.string = MyTool.getTimeStr(Math.floor(this.try_auto_ramain))
     }
 
     setTryRateLabel() {
-        this.try_rate_label.node.active = this.try_rate_ramain > 0 && LevelManager.getInstance().finish_level >= 5 && this.is_unlock_rate == false;
-        this.try_rate_label.string = MyTool.getTimeStr(Math.floor(this.try_rate_ramain))
+        // this.try_rate_label.node.active = this.try_rate_ramain > 0 && LevelManager.getInstance().finish_level >= 5 && this.is_unlock_rate == false;
+        // this.try_rate_label.string = MyTool.getTimeStr(Math.floor(this.try_rate_ramain))
     }
 
     setBtnRateShow() {
-        let rate = cc.find('Canvas/Ui_Root/btnRate');
-        if (this.is_unlock_rate == true || this.try_rate_ramain > 0) {
-            let rateNum = GameManager.getInstance().getBtnSetupRate();
-            rate.getComponent(cc.Sprite).spriteFrame = this.sp_rate[rateNum - 1];
-        } else {
-            rate.getComponent(cc.Sprite).spriteFrame = this.sp_rate[0];
-        }
-        this.try_rate_ramain = Math.floor(this.try_rate_ramain)
-        TheStorageManager.getInstance().setItem(StorageKey.try_rate_fight_remain, this.try_rate_ramain);
-        rate.active = LevelManager.getInstance().finish_level >= 5;
+        // let rate = cc.find('Canvas/Ui_Root/btnRate');
+        // if (this.is_unlock_rate == true || this.try_rate_ramain > 0) {
+        //     let rateNum = GameManager.getInstance().getBtnSetupRate();
+        //     rate.getComponent(cc.Sprite).spriteFrame = this.sp_rate[rateNum - 1];
+        // } else {
+        //     rate.getComponent(cc.Sprite).spriteFrame = this.sp_rate[0];
+        // }
+        // this.try_rate_ramain = Math.floor(this.try_rate_ramain)
+        // TheStorageManager.getInstance().setItem(StorageKey.try_rate_fight_remain, this.try_rate_ramain);
+        // rate.active = LevelManager.getInstance().finish_level >= 5;
     }
 
     setBtnAuto() {
@@ -874,7 +880,8 @@ export default class Game extends cc.Component {
             }
             this.wave_pos_x.push(jiangePosX);
         }
-        this.showLevelProgress()
+        this.showLevelProgress();
+        this.setRogueText(GameManager.getInstance().getRogueLikeNum());
     }
 
     showLevelProgress() {
@@ -908,6 +915,7 @@ export default class Game extends cc.Component {
                 //let prevXX=prevWave>=0?this.wave_pos_x[prevWave]:this.left_xx;
                 //let offsetXX=curXX-prevXX;        
                 this.dist_xx = curXX;
+                this.setRogueText(GameManager.getInstance().getRogueLikeNum());
                 //waveBg.getC
             } break;
             case GameMode.Endless: {

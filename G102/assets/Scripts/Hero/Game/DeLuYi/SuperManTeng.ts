@@ -13,6 +13,7 @@ const {ccclass, property} = cc._decorator;
 
 @ccclass
 export default class SuperManTeng extends Bullect {
+    public hero_lvl:number=0;
 
     onLoad(): void {
         super.onLoad();
@@ -35,7 +36,7 @@ export default class SuperManTeng extends Bullect {
                 let buffData=new BuffData();
                 buffData.buff_id=BuffId.Hero_XuanYun;
                 buffData.buff_type=BuffType.Vertigo;
-                buffData.remain_time=this.gongji_data.hero_data.getSkillValue2(SkillType.Active);
+                buffData.remain_time=this.gongji_data.hero_data.getSkillValue2(SkillType.Active)+this.hero_lvl*0.5;
                 buffData.game_effect_id=GameEffectId.xuanyun;
                 monsterTs.addDeBuff(buffData,this.gongji_data);
                 cc.tween(node).delay(buffData.remain_time).call(()=>{

@@ -82,18 +82,30 @@ var ItemManager = /** @class */ (function () {
     };
     /**根据ID获取类型 */
     ItemManager.prototype.getType = function (id) {
+        if (this.data.get(id) == null) {
+            return 3;
+        }
         return this.data.get(id).Type;
     };
     /**根据ID获取品质框 */
     ItemManager.prototype.getQuality = function (id) {
+        if (this.data.get(id) == null) {
+            return 0;
+        }
         return this.data.get(id).Quality;
     };
     /**根据ID获取星级 */
     ItemManager.prototype.getStar = function (id) {
+        if (this.data.get(id) == null) {
+            return 0;
+        }
         return this.data.get(id).Star;
     };
     /**根据ID获取引用图标 */
     ItemManager.prototype.getQuoteIcon = function (id) {
+        if (this.data.get(id) == null) {
+            return 10001;
+        }
         return this.data.get(id).QuoteIcon;
     };
     /** 静态方法，获取最大的 ID*/

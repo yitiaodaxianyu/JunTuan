@@ -199,6 +199,7 @@ var StoreHeroUi = /** @class */ (function (_super) {
         var item = cc.instantiate(this.hero_icon_item);
         item.name = "item" + this.index;
         var info = Item_1.ItemManager.getInstance().getJsonItem(this.rewardList[this.index].dropId);
+        console.log("kkkkd:" + this.rewardList[this.index].dropId);
         var card = item.getChildByName("cardBg");
         card.getComponent(cc.Sprite).spriteFrame = PropManager_1.PropManager.getInstance().getSpFrameByPropType(info.ItemID);
         card.getChildByName("mask").getComponentInChildren(cc.Sprite).spriteFrame = PropManager_1.PropManager.getInstance().getSpByPropId(info.ItemID);

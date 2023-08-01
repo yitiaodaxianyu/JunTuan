@@ -143,9 +143,9 @@ export default class GameManager extends cc.Component {
 
     public charioUpgradationData: Array<number> = [0, 0, 0, 0, 0, 0];
 
-    public charioTip: Array<string> = ["加攻击", "血量上限", "攻速", "防御", "技能间隔",  "回血"];
+    public charioTip: Array<string> = ["加攻击", "血量上限", "攻速", "防御", "技能间隔", "回血"];
 
-    public charioContent: Array<string> = ["每一级增加全体英雄攻击力10%", "每一级增加战车血量上限10%", "每一级增加全体英雄攻速10%", "每一级增加战车防御10%", "每一级减少技能间隔10%",  "回复战车最大血量20%"];
+    public charioContent: Array<string> = ["每一级增加全体英雄攻击力10%", "每一级增加战车血量上限10%", "每一级增加全体英雄攻速10%", "每一级增加战车防御10%", "每一级减少技能间隔10%", "回复战车最大血量20%"];
     //是否显示了退出游戏的对话框
     public is_show_exit: boolean = false;
     //动画位置
@@ -155,6 +155,8 @@ export default class GameManager extends cc.Component {
     public charPosX: number = 0;
     //游戏动画存储数据
     // public moveData: Array<cc.Vec2> = [];
+
+    private roguelikeWave: Array<number> = [3, 6, 11, 16, 21, 26, 31, 39, 47, 55, 63, 71, 79, 87, 99, 111, 123, 135, 147, 159, 171, 183, 195, 207, 219, 231, 243, 255, 267, 279, 291, 303, 315, 327];
 
     public static getInstance(): GameManager {
         return this._instance;
@@ -198,6 +200,7 @@ export default class GameManager extends cc.Component {
             } break;
             default: this.cur_load_progress = 0; break;
         }
+        // this.game.setRogueText(this.getRogueLikeNum());
         this.loadTip();
     }
 
@@ -346,8 +349,8 @@ export default class GameManager extends cc.Component {
                         heroData.Critical += fightingData.CriticalValue;
                         heroData.Hit += fightingData.HitValue;
                     }
-                    mainWallData.Health += heroData.total_hp * 0.5 * this.getCharioHealthRatio();;
-                    mainWallData.Defense += heroData.total_defense * 0.5 * this.getCharioDefenseRotio();
+                    mainWallData.Health += heroData.total_hp * 0.2 * this.getCharioHealthRatio();;
+                    mainWallData.Defense += heroData.total_defense * 0.2 * this.getCharioDefenseRotio();
                     mainWallData.Miss += heroData.Miss * 0.2;
                     mainWallData.AntiCritical += heroData.AntiCritical * 0.2;
                     mainWallData.AntiExtraCritical += heroData.AntiExtraCritical * 0.2;
@@ -403,8 +406,8 @@ export default class GameManager extends cc.Component {
         let mainWallData = new AttributeData();
         for (let i = 0; i < this.cur_team_list.length; i++) {
             let heroData = this.addTutotialsHeroFull(this.cur_team_list[i], i, null);
-            mainWallData.Health += heroData.total_hp * 0.5 * this.getCharioHealthRatio();;
-            mainWallData.Defense += heroData.total_defense * 0.5 * this.getCharioDefenseRotio();
+            mainWallData.Health += heroData.total_hp * 0.2 * this.getCharioHealthRatio();;
+            mainWallData.Defense += heroData.total_defense * 0.2 * this.getCharioDefenseRotio();
             mainWallData.Miss += heroData.Miss * 0.2;
             mainWallData.AntiCritical += heroData.AntiCritical * 0.2;
             mainWallData.AntiExtraCritical += heroData.AntiExtraCritical * 0.2;
@@ -426,8 +429,8 @@ export default class GameManager extends cc.Component {
         let mainWallData = new AttributeData();
         this.all_hero.forEach((v, k) => {
             let heroData = cc.instantiate(v.hero_data);
-            mainWallData.Health += heroData.total_hp * 0.5 * this.getCharioHealthRatio();
-            mainWallData.Defense += heroData.total_defense * 0.5 * this.getCharioDefenseRotio();
+            mainWallData.Health += heroData.total_hp * 0.2 * this.getCharioHealthRatio();
+            mainWallData.Defense += heroData.total_defense * 0.2 * this.getCharioDefenseRotio();
             mainWallData.Miss += heroData.Miss * 0.2;
             mainWallData.AntiCritical += heroData.AntiCritical * 0.2;
             mainWallData.AntiExtraCritical += heroData.AntiExtraCritical * 0.2;
@@ -441,8 +444,8 @@ export default class GameManager extends cc.Component {
         let mainWallData = new AttributeData();
         this.all_hero.forEach((v, k) => {
             let heroData = cc.instantiate(v.hero_data);
-            mainWallData.Health += heroData.total_hp * 0.5 * this.getCharioHealthRatio();;
-            mainWallData.Defense += heroData.total_defense * 0.5 * this.getCharioDefenseRotio();
+            mainWallData.Health += heroData.total_hp * 0.2 * this.getCharioHealthRatio();;
+            mainWallData.Defense += heroData.total_defense * 0.2 * this.getCharioDefenseRotio();
             mainWallData.Miss += heroData.Miss * 0.2;
             mainWallData.AntiCritical += heroData.AntiCritical * 0.2;
             mainWallData.AntiExtraCritical += heroData.AntiExtraCritical * 0.2;
@@ -864,8 +867,9 @@ export default class GameManager extends cc.Component {
 
 
             this.cur_wave++;
-            console.log("关卡增加到" + this.cur_wave + " " + this.cur_wave % 3);
-            if (this.cur_wave % 3 == 0 && this.cur_game_state == GameState.Game_Playing) {
+            console.log("关卡增加到" + this.cur_wave + " " + this.getIsRogueLikeWave() + " " + this.getRogueLikeNum());
+            this.game.setRogueText(this.getRogueLikeNum());
+            if (this.getIsRogueLikeWave() && this.cur_game_state == GameState.Game_Playing) {
                 console.log("显示提示TIp");
 
                 this.showRoguelike();
@@ -875,7 +879,33 @@ export default class GameManager extends cc.Component {
 
         }
     }
+    //获取是否是Rougue关卡
+    private getIsRogueLikeWave(): boolean {
 
+        for (var i: number = 0; i < this.roguelikeWave.length; i++) {
+            if (this.cur_wave == (this.roguelikeWave[i] + 1)) {
+                return true;
+            }
+
+        }
+        return false;
+    }
+    //获取当前关卡距离下一个rogue关卡数字
+    public getRogueLikeNum(): number {
+        for (var i: number = 0; i < this.roguelikeWave.length; i++) {
+            if (this.cur_wave <(this.roguelikeWave[i] + 1)) {
+                if(this.cur_wave==0){
+                    return this.roguelikeWave[i];
+                }else{
+                    return this.roguelikeWave[i] + 1 - this.cur_wave;
+                }
+                
+            }
+
+        }
+        return 3;
+
+    }
     reloadLevelDatas() {
         // console.log("什么时候进来")
         this.fighting_info = new FightingInfo();
@@ -935,7 +965,7 @@ export default class GameManager extends cc.Component {
     }
     //冷却缩减
     public getCharioColdDownRotio(): number {
-        return this.charioUpgradationData[2] * 0.5;
+        return this.charioUpgradationData[4] * 0.5;
     }
     /**添加一个满级满装满宠物的英雄 */
     addTutotialsHeroFull(heroId: Hero_Type, teamIndex: number, callback: Function): HeroData {
@@ -1000,13 +1030,13 @@ export default class GameManager extends cc.Component {
                     if (MonsterManager.getInstance().killed_monster_num >= this.cur_total_num) {
                         console.log("敌人死亡加载下一关");
 
-                        this.loadNextWave();
+                        //this.loadNextWave();
                     }
                 } break;
                 case GameMode.Endless: {
                     if (MonsterManager.getInstance().killed_monster_num >= this.cur_total_num) {
                         console.log("敌人死亡加载下一关2");
-                        this.loadNextWave();
+                        //this.loadNextWave();
                     }
                 } break;
                 // case GameMode.Boss_Prsonal:{

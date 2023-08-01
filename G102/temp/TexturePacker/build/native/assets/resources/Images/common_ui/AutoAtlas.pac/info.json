@@ -740,7 +740,7 @@
             "name": "Evolve_Bg_0",
             "uuid": "9905d3ea-7ae9-4126-94cc-cd53b15f668a",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159237_image_104.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736974_image_104.png",
             "trim": {
               "x": 3,
               "y": 3,
@@ -763,7 +763,7 @@
             "name": "Common_Window_Bg_3",
             "uuid": "e363b01b-1ea5-4a43-b22c-1b8673c6b73a",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159239_image_154.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736977_image_154.png",
             "trim": {
               "x": 755,
               "y": 3,
@@ -787,7 +787,7 @@
             "name": "Common_Line_1",
             "uuid": "ff283b2c-84de-42a8-8c46-dc35774053ce",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159240_image_171.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736978_image_171.png",
             "trim": {
               "x": 977,
               "y": 3,
@@ -811,7 +811,7 @@
             "name": "Common_Weapon_Bg_1",
             "uuid": "7071a565-fd88-41f6-bcb3-032e3dd9d5e0",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159235_image_77.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736973_image_77.png",
             "trim": {
               "x": 977,
               "y": 469,
@@ -835,7 +835,7 @@
             "name": "Common_Bar_1",
             "uuid": "1b89e192-3b19-4434-abe2-bd9c066f0e70",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159232_image_19.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736969_image_19.png",
             "trim": {
               "x": 1002,
               "y": 3,
@@ -859,7 +859,7 @@
             "name": "Common_Line_0",
             "uuid": "de4271d3-5b4e-4262-a0a3-77da9025524d",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159239_image_150.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736977_image_150.png",
             "trim": {
               "x": 1002,
               "y": 285,
@@ -883,7 +883,7 @@
             "name": "ExWeapon_Star_2_1",
             "uuid": "0bf1d47f-da81-454e-bf93-d22e2dcb8970",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159231_image_6.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736968_image_6.png",
             "trim": {
               "x": 1002,
               "y": 450,
@@ -906,7 +906,7 @@
             "name": "Common_Window_Bg_0",
             "uuid": "118d7913-91a5-4b62-ba39-16b98259f401",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159231_image_11.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736969_image_11.png",
             "trim": {
               "x": 755,
               "y": 588,
@@ -929,7 +929,7 @@
             "name": "Common_Bar_0",
             "uuid": "25bbebf4-e5e1-4dcc-a9ac-406623a2ca76",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159232_image_27.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736969_image_27.png",
             "trim": {
               "x": 941,
               "y": 588,
@@ -953,7 +953,7 @@
             "name": "Evolve_Bg_1",
             "uuid": "9916b5b2-98f5-48f3-aafd-b07b1d784c64",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159237_image_105.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736974_image_105.png",
             "trim": {
               "x": 969,
               "y": 668,
@@ -977,7 +977,7 @@
             "name": "Common_Edge_Bg_2",
             "uuid": "f9499d11-cfcf-40ee-af1d-a0a388228b0c",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159240_image_168.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736978_image_168.png",
             "trim": {
               "x": 3,
               "y": 838,
@@ -1000,7 +1000,7 @@
             "name": "Common_Function_Bg_0",
             "uuid": "9268529a-e475-4743-89ce-431074f96b8f",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159237_image_98.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736974_image_98.png",
             "trim": {
               "x": 759,
               "y": 874,
@@ -1023,7 +1023,7 @@
             "name": "Common_Edge_Bg_1",
             "uuid": "5795ea7a-984f-40e8-a137-9ffbf9975732",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159234_image_59.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736971_image_59.png",
             "trim": {
               "x": 893,
               "y": 838,
@@ -1047,7 +1047,7 @@
             "name": "Common_Window_Bg_5",
             "uuid": "29882dad-892f-4dbb-adfc-77989f415aba",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159232_image_30.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736970_image_30.png",
             "trim": {
               "x": 893,
               "y": 983,
@@ -1070,7 +1070,7 @@
             "name": "Item_frame_ZheZhao",
             "uuid": "e6f3c21e-4e0a-4cb9-be48-cf6728d45d3f",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159239_image_157.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736977_image_157.png",
             "trim": {
               "x": 938,
               "y": 884,
@@ -1093,7 +1093,7 @@
             "name": "Common_Window_Bg_4_2",
             "uuid": "9d672808-94d2-4a7f-bce3-72a76a5ef02b",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159237_image_107.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736974_image_107.png",
             "trim": {
               "x": 759,
               "y": 838,
@@ -1116,7 +1116,7 @@
             "name": "Text_Quality_4",
             "uuid": "009e7552-9478-4b93-818c-60f130219c59",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159231_image_0.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736968_image_0.png",
             "trim": {
               "x": 833,
               "y": 838,
@@ -1139,7 +1139,7 @@
             "name": "Common_UnderLine",
             "uuid": "ba992427-0d13-4fca-b1be-ee2c4383b811",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159238_image_130.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736975_image_130.png",
             "trim": {
               "x": 878,
               "y": 838,
@@ -1162,7 +1162,7 @@
             "name": "Rewards_Bg_1",
             "uuid": "ffc91a66-63f8-4c1a-9343-ddbccb39d6b0",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159240_image_172.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736978_image_172.png",
             "trim": {
               "x": 3,
               "y": 1007,
@@ -1185,7 +1185,7 @@
             "name": "Common_Line_2",
             "uuid": "091b9d56-fef7-463f-95c4-00094c332129",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159231_image_4.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736968_image_4.png",
             "trim": {
               "x": 3,
               "y": 1016,
@@ -1208,7 +1208,7 @@
             "name": "Common_UnderBG",
             "uuid": "6880bcde-8032-460d-83a2-a84e9d2a930b",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159235_image_72.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736972_image_72.png",
             "trim": {
               "x": 3,
               "y": 668,
@@ -1231,7 +1231,7 @@
             "name": "Common_IconBg_1",
             "uuid": "7c2241a0-3822-4e80-a073-543312ec0b20",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159236_image_86.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736973_image_86.png",
             "trim": {
               "x": 649,
               "y": 668,
@@ -1255,7 +1255,7 @@
             "name": "Common_Bg_10",
             "uuid": "8accc67d-b452-42b8-b872-d7ee57307530",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159236_image_94.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736974_image_94.png",
             "trim": {
               "x": 3,
               "y": 791,
@@ -1278,7 +1278,7 @@
             "name": "Weapon_Arrow",
             "uuid": "6e474773-9035-41d0-b25c-cd17081ce999",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159235_image_75.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736972_image_75.png",
             "trim": {
               "x": 161,
               "y": 791,
@@ -1301,7 +1301,7 @@
             "name": "Common_Btn_Plus",
             "uuid": "c63eeb1c-a0f7-4eee-bd0b-e47af1f2e952",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159238_image_136.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736976_image_136.png",
             "trim": {
               "x": 264,
               "y": 791,
@@ -1324,7 +1324,7 @@
             "name": "Common_Btn_Less",
             "uuid": "d9ee486a-f993-42e3-a4d5-f626daae2d49",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159239_image_146.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736977_image_146.png",
             "trim": {
               "x": 315,
               "y": 791,
@@ -1347,7 +1347,7 @@
             "name": "Head_Hero_S_6",
             "uuid": "045cd788-1e8a-4e99-b34e-2a6edd94290b",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159231_image_2.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736968_image_2.png",
             "trim": {
               "x": 364,
               "y": 791,
@@ -1370,7 +1370,7 @@
             "name": "Head_Hero_S_8",
             "uuid": "1918df6a-a0bd-4b92-b76a-ddc02c1df434",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159232_image_18.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736969_image_18.png",
             "trim": {
               "x": 410,
               "y": 791,
@@ -1393,7 +1393,7 @@
             "name": "Head_Hero_S_5",
             "uuid": "3924f2d1-34df-45d2-a165-4ec4505440e6",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159233_image_42.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736970_image_42.png",
             "trim": {
               "x": 456,
               "y": 791,
@@ -1416,7 +1416,7 @@
             "name": "Head_Hero_S_12",
             "uuid": "40f08124-b190-4b2f-920c-e26f8e150307",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159233_image_46.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736971_image_46.png",
             "trim": {
               "x": 502,
               "y": 791,
@@ -1439,7 +1439,7 @@
             "name": "Head_Hero_S_11",
             "uuid": "4978dacf-12f3-4fef-8016-7847efb03f88",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159234_image_50.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736971_image_50.png",
             "trim": {
               "x": 548,
               "y": 791,
@@ -1462,7 +1462,7 @@
             "name": "Head_Hero_S_2",
             "uuid": "7bb8873c-9661-4cac-a906-55018fb14157",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159236_image_85.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736973_image_85.png",
             "trim": {
               "x": 594,
               "y": 791,
@@ -1485,7 +1485,7 @@
             "name": "Weapon_Icon_Change",
             "uuid": "5d2fde93-4475-4fe0-8023-8939c3cbb9a4",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159234_image_61.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736972_image_61.png",
             "trim": {
               "x": 640,
               "y": 802,
@@ -1508,7 +1508,7 @@
             "name": "Hero_Stat_8",
             "uuid": "1413b49c-57e7-4855-9efb-7b1ead65e7ff",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159231_image_13.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736969_image_13.png",
             "trim": {
               "x": 681,
               "y": 802,
@@ -1532,7 +1532,7 @@
             "name": "Weapon_Icon_3",
             "uuid": "1d4a1051-a2e6-45fa-a737-5227858761de",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159232_image_21.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736969_image_21.png",
             "trim": {
               "x": 722,
               "y": 802,
@@ -1570,7 +1570,7 @@
             "name": "PowerUP_Bg",
             "uuid": "4507a36c-7bf1-49e4-8772-a1dfc08d4834",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159234_image_49.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736971_image_49.png",
             "trim": {
               "x": 3,
               "y": 3,
@@ -1593,7 +1593,7 @@
             "name": "Common_Window_Bg_4",
             "uuid": "f7f107f9-f125-491b-820e-995b7233a06b",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159240_image_167.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736978_image_167.png",
             "trim": {
               "x": 759,
               "y": 3,
@@ -1616,7 +1616,7 @@
             "name": "Common_Edge_Bg_0",
             "uuid": "a74b016e-854b-4f48-8c3d-4a1f6f9e9b10",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159237_image_116.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736975_image_116.png",
             "trim": {
               "x": 3,
               "y": 92,
@@ -1639,7 +1639,7 @@
             "name": "Rewards_Bg_2",
             "uuid": "9996836e-d674-4211-9bf4-97470132c9c1",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159237_image_106.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736974_image_106.png",
             "trim": {
               "x": 3,
               "y": 172,
@@ -1662,7 +1662,7 @@
             "name": "Item_frame_2",
             "uuid": "2450f6a3-9feb-429c-85d4-f5cc33c91ee6",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159232_image_25.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736969_image_25.png",
             "trim": {
               "x": 649,
               "y": 172,
@@ -1685,7 +1685,7 @@
             "name": "Common_Bg_8",
             "uuid": "fccfaa01-2917-410a-8f3b-689f101a75e0",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159240_image_170.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736978_image_170.png",
             "trim": {
               "x": 3,
               "y": 543,
@@ -1709,7 +1709,7 @@
             "name": "Common_Light_0",
             "uuid": "ced5b024-67bf-4c76-8c7f-c720115013da",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159238_image_139.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736976_image_139.png",
             "trim": {
               "x": 57,
               "y": 543,
@@ -1733,7 +1733,7 @@
             "name": "Common_Window_Title",
             "uuid": "4a5cf4e1-acb7-40db-8e00-04067746b70c",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159234_image_51.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736971_image_51.png",
             "trim": {
               "x": 649,
               "y": 277,
@@ -1756,7 +1756,7 @@
             "name": "Common_Bar_2",
             "uuid": "ab5d0d82-a786-4398-b1b4-d2bb7598f19a",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159238_image_122.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736975_image_122.png",
             "trim": {
               "x": 754,
               "y": 233,
@@ -1779,7 +1779,7 @@
             "name": "Hero_Stat_3",
             "uuid": "8a592590-9888-4106-9226-822f47ae855d",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159236_image_93.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736974_image_93.png",
             "trim": {
               "x": 798,
               "y": 233,
@@ -1802,7 +1802,7 @@
             "name": "Weapon_Icon_2",
             "uuid": "9ed38d8e-3235-4c8a-8649-94646cb4cd84",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159237_image_109.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736974_image_109.png",
             "trim": {
               "x": 832,
               "y": 233,
@@ -1825,7 +1825,7 @@
             "name": "Hero_Stat_10",
             "uuid": "f52b44b8-88ce-4628-a139-f0546569d919",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159240_image_165.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736978_image_165.png",
             "trim": {
               "x": 866,
               "y": 233,
@@ -1848,7 +1848,7 @@
             "name": "Weapon_Bg_0",
             "uuid": "2e0bf06c-431e-4d7c-a1fc-8f40b8da67c4",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159233_image_34.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736970_image_34.png",
             "trim": {
               "x": 900,
               "y": 233,
@@ -1871,7 +1871,7 @@
             "name": "Common_ZheZhao",
             "uuid": "88fbd3df-bad6-4541-aef6-f93496bbfa45",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159236_image_91.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736973_image_91.png",
             "trim": {
               "x": 938,
               "y": 233,
@@ -1894,7 +1894,7 @@
             "name": "Common_Window_Bg_1",
             "uuid": "a57558c5-ce58-486b-8622-022ac7066911",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159237_image_114.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736975_image_114.png",
             "trim": {
               "x": 976,
               "y": 233,
@@ -1917,7 +1917,7 @@
             "name": "Rewards_Bg_0",
             "uuid": "e8293d67-71e7-438b-97aa-b180287a849b",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159239_image_159.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736977_image_159.png",
             "trim": {
               "x": 649,
               "y": 342,
@@ -1941,7 +1941,7 @@
             "name": "Common_Btn_1",
             "uuid": "257316f9-7357-4d3b-804b-69e7641ae8a5",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159232_image_26.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736969_image_26.png",
             "trim": {
               "x": 564,
               "y": 543,
@@ -1965,7 +1965,7 @@
             "name": "Common_Bg_9",
             "uuid": "c2d440ed-f4a7-4ea4-8e97-a88cfd6fb700",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159238_image_134.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736976_image_134.png",
             "trim": {
               "x": 564,
               "y": 986,
@@ -1988,7 +1988,7 @@
             "name": "Head_Hero_S_9",
             "uuid": "94464496-e5a1-4f97-ad6a-fea007745d8d",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159237_image_101.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736974_image_101.png",
             "trim": {
               "x": 602,
               "y": 802,
@@ -2011,7 +2011,7 @@
             "name": "Common_Window_Bg_2",
             "uuid": "d009e83a-ae1a-4235-a87b-94d56b3c419a",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159238_image_140.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736976_image_140.png",
             "trim": {
               "x": 564,
               "y": 802,
@@ -2034,7 +2034,7 @@
             "name": "Common_White",
             "uuid": "df4ab8be-4410-403b-9bdc-e4884da08dc7",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159239_image_152.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736977_image_152.png",
             "trim": {
               "x": 564,
               "y": 840,
@@ -2057,7 +2057,7 @@
             "name": "Head_Hero_S_7",
             "uuid": "95c7d8a9-949b-4ace-927b-d64fbcb066d2",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159237_image_103.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736974_image_103.png",
             "trim": {
               "x": 602,
               "y": 848,
@@ -2080,7 +2080,7 @@
             "name": "Common_Window_Bg_7",
             "uuid": "e4fb36b8-8e6e-4f9e-b4e6-f1038d39dec5",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159239_image_156.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736977_image_156.png",
             "trim": {
               "x": 564,
               "y": 878,
@@ -2103,7 +2103,7 @@
             "name": "Common_Weapon_Bg_0(1)",
             "uuid": "07dcb078-a581-4e0e-8396-597999f1bc10",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159231_image_3.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736968_image_3.png",
             "trim": {
               "x": 564,
               "y": 916,
@@ -2126,7 +2126,7 @@
             "name": "default_progressbar",
             "uuid": "a959688c-c547-4295-8dfc-39578b4e6cef",
             "textureUuid": "144261db-3acc-4ff7-af42-c4bbeaac9107",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159238_image_120.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736975_image_120.png",
             "trim": {
               "x": 602,
               "y": 894,
@@ -2149,7 +2149,7 @@
             "name": "Hero_Stat_7",
             "uuid": "6493a4fb-dd16-4aff-827c-9fea30e432d8",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159235_image_67.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736972_image_67.png",
             "trim": {
               "x": 602,
               "y": 986,
@@ -2172,7 +2172,7 @@
             "name": "Hero_Stat_6",
             "uuid": "de65ecf9-166a-4538-a096-85b32410ac25",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159239_image_151.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736977_image_151.png",
             "trim": {
               "x": 637,
               "y": 986,
@@ -2195,7 +2195,7 @@
             "name": "Hero_Stat_9",
             "uuid": "d135f46d-f14c-4fec-873c-928fac2897e1",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159238_image_141.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736976_image_141.png",
             "trim": {
               "x": 672,
               "y": 986,
@@ -2219,7 +2219,7 @@
             "name": "Weapon_Text_5_0",
             "uuid": "181a1405-b522-4e6d-b2fd-29cd7b13cbe7",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159232_image_15.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736969_image_15.png",
             "trim": {
               "x": 707,
               "y": 986,
@@ -2242,7 +2242,7 @@
             "name": "Weapon_Icon_0_2",
             "uuid": "1bf06bd6-587b-4f5c-a164-cd6da00325fc",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159232_image_20.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736969_image_20.png",
             "trim": {
               "x": 742,
               "y": 986,
@@ -2265,7 +2265,7 @@
             "name": "Common_Btn_2",
             "uuid": "0cd9aefd-3d21-476e-b1be-3cfd37ad1be9",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159231_image_9.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736969_image_9.png",
             "trim": {
               "x": 777,
               "y": 342,
@@ -2288,7 +2288,7 @@
             "name": "Weapon_Bg_2",
             "uuid": "dd71b61e-1c4c-4a68-8226-491a23f3e996",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159239_image_148.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736977_image_148.png",
             "trim": {
               "x": 746,
               "y": 342,
@@ -2311,7 +2311,7 @@
             "name": "Common_Weapon_Bg_2",
             "uuid": "58f171d8-ac88-4619-8722-225378eff7e3",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159234_image_60.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736971_image_60.png",
             "trim": {
               "x": 746,
               "y": 375,
@@ -2334,7 +2334,7 @@
             "name": "Weapon_Bg_1",
             "uuid": "d9167ca6-703b-4d11-8c05-1a034819b635",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159239_image_145.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736976_image_145.png",
             "trim": {
               "x": 746,
               "y": 406,
@@ -2357,7 +2357,7 @@
             "name": "Common_Btn_3",
             "uuid": "64135f69-f927-44e9-a66f-291f5b17f98c",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159235_image_66.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736972_image_66.png",
             "trim": {
               "x": 777,
               "y": 413,
@@ -2380,7 +2380,7 @@
             "name": "ExWeapon_Star_2_0",
             "uuid": "a7ccd883-0f45-422b-8848-04b78eed97b8",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159237_image_118.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736975_image_118.png",
             "trim": {
               "x": 746,
               "y": 436,
@@ -2403,7 +2403,7 @@
             "name": "Common_Function_Title",
             "uuid": "3f87d382-15a6-4612-bcf9-fd878a6e6e5f",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159233_image_45.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736971_image_45.png",
             "trim": {
               "x": 746,
               "y": 484,
@@ -2427,7 +2427,7 @@
             "name": "Weapon_Icon_0",
             "uuid": "94e98815-87ab-4f4e-af2c-ca2595cfdb8d",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159237_image_102.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736974_image_102.png",
             "trim": {
               "x": 746,
               "y": 459,
@@ -2450,7 +2450,7 @@
             "name": "Common_Window_Bg_4_1",
             "uuid": "0dbbe77a-67cb-47b4-97cf-d705554dd5b5",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159231_image_10.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736969_image_10.png",
             "trim": {
               "x": 860,
               "y": 484,
@@ -2474,7 +2474,7 @@
             "name": "Item_101004",
             "uuid": "56c66064-909d-48a1-b441-03df091efc42",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159234_image_57.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736971_image_57.png",
             "trim": {
               "x": 950,
               "y": 484,
@@ -2497,7 +2497,7 @@
             "name": "Item_101001",
             "uuid": "6080858d-6a76-4dde-8ed8-aed052c46157",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159235_image_63.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736972_image_63.png",
             "trim": {
               "x": 950,
               "y": 558,
@@ -2520,7 +2520,7 @@
             "name": "Item_101002",
             "uuid": "6d741fb6-a929-4449-b85f-3e7cb47ec7e5",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159235_image_73.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736972_image_73.png",
             "trim": {
               "x": 950,
               "y": 632,
@@ -2543,7 +2543,7 @@
             "name": "Item_101005",
             "uuid": "8a03cffe-25c3-44c6-bef3-009ce3365bf1",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159236_image_92.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736973_image_92.png",
             "trim": {
               "x": 950,
               "y": 706,
@@ -2566,7 +2566,7 @@
             "name": "Item_101003",
             "uuid": "d2215158-9225-4259-8635-a86d0965d3c5",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159239_image_143.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736976_image_143.png",
             "trim": {
               "x": 950,
               "y": 780,
@@ -2589,7 +2589,7 @@
             "name": "Item_100005",
             "uuid": "0c5b1b9c-09a7-4045-810a-5f4d4c647541",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159231_image_7.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736968_image_7.png",
             "trim": {
               "x": 950,
               "y": 854,
@@ -2612,7 +2612,7 @@
             "name": "Item_100002",
             "uuid": "224d7170-7a5f-4ce0-b938-80e829d2644a",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159232_image_23.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736969_image_23.png",
             "trim": {
               "x": 950,
               "y": 927,
@@ -2635,7 +2635,7 @@
             "name": "Text_Quality_3",
             "uuid": "0299e645-c1ee-43e6-bd57-dc650ad5fc38",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159231_image_1.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736968_image_1.png",
             "trim": {
               "x": 950,
               "y": 1000,
@@ -2659,7 +2659,7 @@
             "name": "Weapon_Text_1_0",
             "uuid": "413d6018-149c-4966-bc25-4361a845a62e",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159233_image_47.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736971_image_47.png",
             "trim": {
               "x": 777,
               "y": 983,
@@ -2682,7 +2682,7 @@
             "name": "Weapon_Text_4_0",
             "uuid": "4d996275-1425-4849-b1d4-3beee0a970bc",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159234_image_53.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736971_image_53.png",
             "trim": {
               "x": 812,
               "y": 983,
@@ -2719,7 +2719,7 @@
             "name": "Common_Window3_1",
             "uuid": "189e9a3b-e259-4f8b-95e4-e1ff225c0b88",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159232_image_17.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736969_image_17.png",
             "trim": {
               "x": 3,
               "y": 3,
@@ -2742,7 +2742,7 @@
             "name": "Common_Loading_1",
             "uuid": "3dba6b09-3983-4cce-97cb-707a691288e0",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159233_image_44.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736971_image_44.png",
             "trim": {
               "x": 577,
               "y": 3,
@@ -2765,7 +2765,7 @@
             "name": "Common_Window3_2",
             "uuid": "bdae71f3-c116-4285-a29c-e2d1e2bd15c8",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159238_image_132.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736976_image_132.png",
             "trim": {
               "x": 783,
               "y": 3,
@@ -2789,7 +2789,7 @@
             "name": "Common_Btn_0",
             "uuid": "f4503c36-5407-46f7-a662-7543577cafa6",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159240_image_164.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736978_image_164.png",
             "trim": {
               "x": 577,
               "y": 209,
@@ -2813,7 +2813,7 @@
             "name": "Item_frame_0",
             "uuid": "2f0ac332-b4b9-40b3-b534-12ddc71ff095",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159233_image_35.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736970_image_35.png",
             "trim": {
               "x": 670,
               "y": 209,
@@ -2836,7 +2836,7 @@
             "name": "Item_frame_3",
             "uuid": "55704755-f5b1-42bf-8596-d264b8adf137",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159234_image_56.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736971_image_56.png",
             "trim": {
               "x": 670,
               "y": 314,
@@ -2859,7 +2859,7 @@
             "name": "Common_Arrow",
             "uuid": "9f12a1d1-c60a-4714-962a-b977880e2b3a",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159237_image_110.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736974_image_110.png",
             "trim": {
               "x": 775,
               "y": 407,
@@ -2883,7 +2883,7 @@
             "name": "Item_frame_5",
             "uuid": "785f8581-ba5c-47c6-8bb0-707a642b0183",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159236_image_83.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736973_image_83.png",
             "trim": {
               "x": 670,
               "y": 419,
@@ -2906,7 +2906,7 @@
             "name": "Item_frame_4",
             "uuid": "87fce8c3-0684-413a-a5ec-d2a106f99b7f",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159236_image_90.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736973_image_90.png",
             "trim": {
               "x": 670,
               "y": 524,
@@ -2929,7 +2929,7 @@
             "name": "Item_100009",
             "uuid": "2443bba5-91e6-459b-bb12-60d1ec47ddc9",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159232_image_24.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736969_image_24.png",
             "trim": {
               "x": 775,
               "y": 535,
@@ -2952,7 +2952,7 @@
             "name": "Item_100008",
             "uuid": "30222a3f-58de-443e-af72-71ffa3ad7c0b",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159233_image_36.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736970_image_36.png",
             "trim": {
               "x": 775,
               "y": 608,
@@ -2975,7 +2975,7 @@
             "name": "Sprite_Up_Btn_0",
             "uuid": "4b2a5604-2be0-4234-a2fe-b119979ef4a1",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159234_image_52.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736971_image_52.png",
             "trim": {
               "x": 577,
               "y": 528,
@@ -2998,7 +2998,7 @@
             "name": "Common_Loading_0",
             "uuid": "2de9e5c9-686c-4bfa-9158-706167908e1e",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159232_image_33.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736970_image_33.png",
             "trim": {
               "x": 3,
               "y": 618,
@@ -3022,7 +3022,7 @@
             "name": "Common_Btn_Back",
             "uuid": "283f6022-b400-4035-8e1d-2744473ecc73",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159232_image_29.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736970_image_29.png",
             "trim": {
               "x": 3,
               "y": 536,
@@ -3045,7 +3045,7 @@
             "name": "Item_30202",
             "uuid": "0b27331e-4639-47c1-9aca-b8feb03aefbe",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159231_image_5.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736968_image_5.png",
             "trim": {
               "x": 98,
               "y": 536,
@@ -3068,7 +3068,7 @@
             "name": "Weapon_Bg_3",
             "uuid": "11e02d57-71be-43fb-968c-cc8d68153c76",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159231_image_12.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736969_image_12.png",
             "trim": {
               "x": 128,
               "y": 615,
@@ -3091,7 +3091,7 @@
             "name": "Item_frame_Dark",
             "uuid": "a79419d2-db11-4aed-ab88-3fff204f6536",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159237_image_117.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736975_image_117.png",
             "trim": {
               "x": 3,
               "y": 745,
@@ -3114,7 +3114,7 @@
             "name": "Item_30101",
             "uuid": "0cbe3991-95fa-4f6b-a40c-f095e39a9887",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159231_image_8.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736968_image_8.png",
             "trim": {
               "x": 177,
               "y": 536,
@@ -3137,7 +3137,7 @@
             "name": "Item_frame_1",
             "uuid": "e784da92-d817-4ef9-a5c2-46d042e1d23d",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159239_image_158.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736977_image_158.png",
             "trim": {
               "x": 242,
               "y": 615,
@@ -3160,7 +3160,7 @@
             "name": "Item_30303",
             "uuid": "21cabbe8-9cee-443b-985e-0e6279be219d",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159232_image_22.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736969_image_22.png",
             "trim": {
               "x": 256,
               "y": 536,
@@ -3183,7 +3183,7 @@
             "name": "Item_30302",
             "uuid": "2c91ae3e-23f5-4215-801a-ebb7486c957a",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159232_image_31.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736970_image_31.png",
             "trim": {
               "x": 335,
               "y": 536,
@@ -3206,7 +3206,7 @@
             "name": "Common_IconBg_0",
             "uuid": "a93e8a8d-190c-4c15-b768-a91997437a74",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159237_image_119.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736975_image_119.png",
             "trim": {
               "x": 414,
               "y": 536,
@@ -3229,7 +3229,7 @@
             "name": "Common_Checkmark",
             "uuid": "17a2e725-1b0e-4587-ac66-395bef3ec4de",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159232_image_14.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736969_image_14.png",
             "trim": {
               "x": 347,
               "y": 615,
@@ -3253,7 +3253,7 @@
             "name": "Icon_ZhanLi",
             "uuid": "aa527b57-e0a5-4845-aabb-ba3dbb2188ae",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159238_image_121.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736975_image_121.png",
             "trim": {
               "x": 510,
               "y": 536,
@@ -3277,7 +3277,7 @@
             "name": "PowerUp_Icon_0",
             "uuid": "a67d14ba-965f-45ad-8c7e-0e5c99224d09",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159237_image_115.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736975_image_115.png",
             "trim": {
               "x": 510,
               "y": 605,
@@ -3301,7 +3301,7 @@
             "name": "Sprite_Up_Btn_1",
             "uuid": "baa5f579-b0b7-4e47-a2f1-a35e0bce86c1",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159238_image_131.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736975_image_131.png",
             "trim": {
               "x": 413,
               "y": 632,
@@ -3324,7 +3324,7 @@
             "name": "Common_YouHui",
             "uuid": "752077d4-93a8-4832-9bd0-d29da6e3c264",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159236_image_80.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736973_image_80.png",
             "trim": {
               "x": 347,
               "y": 694,
@@ -3347,7 +3347,7 @@
             "name": "Item_30306",
             "uuid": "2d3c9f0d-9fa7-45cf-9853-0b8b0ed90511",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159232_image_32.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736970_image_32.png",
             "trim": {
               "x": 242,
               "y": 720,
@@ -3370,7 +3370,7 @@
             "name": "Item_30205",
             "uuid": "37a30f8c-d13f-4310-a58d-51433b1f4ab8",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159233_image_41.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736970_image_41.png",
             "trim": {
               "x": 108,
               "y": 750,
@@ -3393,7 +3393,7 @@
             "name": "UseItem_Btn_2",
             "uuid": "35890dcc-6a40-4520-a12a-7ea292f3f247",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159233_image_39.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736970_image_39.png",
             "trim": {
               "x": 187,
               "y": 750,
@@ -3416,7 +3416,7 @@
             "name": "Item_30304",
             "uuid": "3b6e9d42-73b9-4e24-93ff-b099af6ddefe",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159233_image_43.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736971_image_43.png",
             "trim": {
               "x": 574,
               "y": 618,
@@ -3439,7 +3439,7 @@
             "name": "Common_Weapon_Bg_0",
             "uuid": "6509cfcf-fbc9-45c8-bd04-14242d98d957",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159235_image_68.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736972_image_68.png",
             "trim": {
               "x": 503,
               "y": 674,
@@ -3462,7 +3462,7 @@
             "name": "Item_30305",
             "uuid": "44f243d8-e618-49ed-abce-baee47b43321",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159233_image_48.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736971_image_48.png",
             "trim": {
               "x": 413,
               "y": 722,
@@ -3485,7 +3485,7 @@
             "name": "Item_30105",
             "uuid": "662f5f4a-46cb-42d5-a25a-3a2c9150866f",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159235_image_69.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736972_image_69.png",
             "trim": {
               "x": 321,
               "y": 760,
@@ -3508,7 +3508,7 @@
             "name": "Item_30201",
             "uuid": "6d78c8ad-6a4d-48ac-8f71-b3607c7bb4ff",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159235_image_74.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736972_image_74.png",
             "trim": {
               "x": 242,
               "y": 799,
@@ -3531,7 +3531,7 @@
             "name": "UseItem_Btn_1",
             "uuid": "ad5507e9-b880-48b9-ad03-1fca492fba8f",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159238_image_125.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736975_image_125.png",
             "trim": {
               "x": 187,
               "y": 808,
@@ -3554,7 +3554,7 @@
             "name": "Item_30301",
             "uuid": "6f15b325-dccf-4e80-a0bc-2e7767212a8a",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159235_image_76.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736972_image_76.png",
             "trim": {
               "x": 108,
               "y": 829,
@@ -3577,7 +3577,7 @@
             "name": "ExWeapon_Star_0_0",
             "uuid": "868e5e7a-0f03-4191-b4e7-aa630fe83fa7",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159236_image_89.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736973_image_89.png",
             "trim": {
               "x": 187,
               "y": 866,
@@ -3600,7 +3600,7 @@
             "name": "Item_30204",
             "uuid": "716c4b8c-8e96-4714-bcf0-4af5d8629d32",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159236_image_78.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736973_image_78.png",
             "trim": {
               "x": 3,
               "y": 850,
@@ -3623,7 +3623,7 @@
             "name": "Item_30104",
             "uuid": "abff462d-6d06-424e-b7db-4e9af8c5afde",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159238_image_123.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736975_image_123.png",
             "trim": {
               "x": 82,
               "y": 908,
@@ -3646,7 +3646,7 @@
             "name": "Item_30106",
             "uuid": "ca4ff441-1a06-433f-a02d-324cbb930f62",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159238_image_137.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736976_image_137.png",
             "trim": {
               "x": 3,
               "y": 929,
@@ -3669,7 +3669,7 @@
             "name": "Weapon_Text_0_1",
             "uuid": "50674850-4bfd-4b91-a447-5d34c060a0ce",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159234_image_55.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736971_image_55.png",
             "trim": {
               "x": 82,
               "y": 987,
@@ -3692,7 +3692,7 @@
             "name": "Weapon_Text_5_1",
             "uuid": "573f6e96-1c39-4d7f-823a-b8608758a383",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159234_image_58.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736971_image_58.png",
             "trim": {
               "x": 117,
               "y": 987,
@@ -3715,7 +3715,7 @@
             "name": "Weapon_Text_3_1",
             "uuid": "623269db-2139-45fc-8e9b-aa5244eac082",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159235_image_64.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736972_image_64.png",
             "trim": {
               "x": 152,
               "y": 987,
@@ -3738,7 +3738,7 @@
             "name": "Item_30102",
             "uuid": "e3426010-f3b6-4b69-a159-9d229b404d3b",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159239_image_153.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736977_image_153.png",
             "trim": {
               "x": 653,
               "y": 629,
@@ -3761,7 +3761,7 @@
             "name": "Weapon_Text_1_1",
             "uuid": "7968ee65-18c7-4786-bbfc-014c1e304236",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159236_image_84.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736973_image_84.png",
             "trim": {
               "x": 732,
               "y": 629,
@@ -3784,7 +3784,7 @@
             "name": "Weapon_Text_2_0",
             "uuid": "7dc3441b-8d2c-4ecb-8fa1-6ee19aadc54c",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159236_image_87.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736973_image_87.png",
             "trim": {
               "x": 732,
               "y": 664,
@@ -3807,7 +3807,7 @@
             "name": "Item_30203",
             "uuid": "e3eaa62e-2b83-48c5-91e0-a06e3cdce724",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159239_image_155.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736977_image_155.png",
             "trim": {
               "x": 573,
               "y": 697,
@@ -3830,7 +3830,7 @@
             "name": "Item_30206",
             "uuid": "ea151e20-31b6-4502-86b1-6792c4f4b8e4",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159239_image_160.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736977_image_160.png",
             "trim": {
               "x": 492,
               "y": 744,
@@ -3853,7 +3853,7 @@
             "name": "Item_30103",
             "uuid": "ead4b1c8-5652-4e70-808d-932274533c11",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159239_image_161.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736977_image_161.png",
             "trim": {
               "x": 400,
               "y": 801,
@@ -3876,7 +3876,7 @@
             "name": "Common_TextBG",
             "uuid": "761d8dd4-ec0d-4a4f-87b8-94aa473b2919",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159236_image_81.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736973_image_81.png",
             "trim": {
               "x": 321,
               "y": 839,
@@ -3899,7 +3899,7 @@
             "name": "Common_Window_Bg_6",
             "uuid": "67defbd2-d68b-435b-9011-08cf9f0e893f",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159235_image_71.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736972_image_71.png",
             "trim": {
               "x": 161,
               "y": 916,
@@ -3922,7 +3922,7 @@
             "name": "Item_100010",
             "uuid": "35753c78-f500-4aeb-8691-4dbec251b0ee",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159233_image_38.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736970_image_38.png",
             "trim": {
               "x": 231,
               "y": 916,
@@ -3945,7 +3945,7 @@
             "name": "Weapon_Text_0_0",
             "uuid": "8fc3ee2e-c703-49f0-9a37-d2f813d8934f",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159236_image_97.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736974_image_97.png",
             "trim": {
               "x": 187,
               "y": 986,
@@ -3968,7 +3968,7 @@
             "name": "Hero_Stat_5",
             "uuid": "9288d0a7-026b-4d2b-9597-664449389823",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159237_image_99.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736974_image_99.png",
             "trim": {
               "x": 237,
               "y": 878,
@@ -3991,7 +3991,7 @@
             "name": "Weapon_Text_3_0",
             "uuid": "93571e41-dca0-44c5-b48a-34875914757f",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159237_image_100.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736974_image_100.png",
             "trim": {
               "x": 272,
               "y": 878,
@@ -4014,7 +4014,7 @@
             "name": "Weapon_Text_2_1",
             "uuid": "ac04cea4-8e44-410a-9461-783f916ae0e6",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159238_image_124.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736975_image_124.png",
             "trim": {
               "x": 222,
               "y": 989,
@@ -4037,7 +4037,7 @@
             "name": "Weapon_Icon_0_1",
             "uuid": "d2f9cdaf-4b10-40ee-9bbc-83c477eff94e",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159239_image_144.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736976_image_144.png",
             "trim": {
               "x": 257,
               "y": 989,
@@ -4060,7 +4060,7 @@
             "name": "Weapon_Text_4_1",
             "uuid": "f799fb9e-5599-4178-8dd2-c4a49de28862",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159240_image_166.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736978_image_166.png",
             "trim": {
               "x": 292,
               "y": 989,
@@ -4083,7 +4083,7 @@
             "name": "Item_100004",
             "uuid": "639ecf4c-0fbc-416a-b9f1-cb20f07bd166",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159235_image_65.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736972_image_65.png",
             "trim": {
               "x": 767,
               "y": 681,
@@ -4106,7 +4106,7 @@
             "name": "Weapon_Icon_1",
             "uuid": "5e709fe9-102b-46c2-b90b-c505154f56a7",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159234_image_62.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736972_image_62.png",
             "trim": {
               "x": 732,
               "y": 699,
@@ -4129,7 +4129,7 @@
             "name": "Item_100012",
             "uuid": "8324dfdb-3284-4b3c-84f9-c5d3ba8d66f4",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159236_image_88.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736973_image_88.png",
             "trim": {
               "x": 652,
               "y": 708,
@@ -4152,7 +4152,7 @@
             "name": "Hero_Stat_2",
             "uuid": "77e80194-fa6b-4fcb-b29f-3810c28d23c8",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159236_image_82.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736973_image_82.png",
             "trim": {
               "x": 725,
               "y": 733,
@@ -4175,7 +4175,7 @@
             "name": "Item_100006",
             "uuid": "8e2934e8-69ca-4f93-a9b5-91e15320b1f6",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159236_image_96.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736974_image_96.png",
             "trim": {
               "x": 571,
               "y": 776,
@@ -4198,7 +4198,7 @@
             "name": "Item_100011",
             "uuid": "a3c7e8f6-d4e9-4123-9f7f-aa2f88695914",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159237_image_113.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736975_image_113.png",
             "trim": {
               "x": 479,
               "y": 823,
@@ -4221,7 +4221,7 @@
             "name": "Item_100007",
             "uuid": "c273fbe1-00a6-47e8-af43-d213dee76102",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159238_image_133.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736976_image_133.png",
             "trim": {
               "x": 399,
               "y": 880,
@@ -4244,7 +4244,7 @@
             "name": "Common_Btn_Close",
             "uuid": "66b1acad-08b8-4b11-8494-c786d399ceeb",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159235_image_70.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736972_image_70.png",
             "trim": {
               "x": 304,
               "y": 917,
@@ -4267,7 +4267,7 @@
             "name": "Hero_Stat_4",
             "uuid": "b22930d6-265e-4de1-84de-29b91ca9f71f",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159238_image_128.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736975_image_128.png",
             "trim": {
               "x": 327,
               "y": 989,
@@ -4291,7 +4291,7 @@
             "name": "Hero_Stat_1",
             "uuid": "fac1ddc8-a77a-4413-a463-2a2a1ce9fa2e",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159240_image_169.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736978_image_169.png",
             "trim": {
               "x": 359,
               "y": 989,
@@ -4315,7 +4315,7 @@
             "name": "Text_Quality_2",
             "uuid": "cd97fa45-2f6d-48d3-9140-32613be3e8b4",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159238_image_138.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736976_image_138.png",
             "trim": {
               "x": 376,
               "y": 953,
@@ -4338,7 +4338,7 @@
             "name": "Text_Quality_1",
             "uuid": "27de9add-3937-47e1-b559-158a9f056153",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159232_image_28.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736969_image_28.png",
             "trim": {
               "x": 391,
               "y": 986,
@@ -4361,7 +4361,7 @@
             "name": "Text_Quality_0",
             "uuid": "afb06791-3d65-44a0-bb39-07fa3c2571a6",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159238_image_127.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736975_image_127.png",
             "trim": {
               "x": 409,
               "y": 953,
@@ -4384,7 +4384,7 @@
             "name": "Common_Icon_RedDot",
             "uuid": "8c7b6523-2b17-4585-ac55-06ec04467f88",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159236_image_95.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736974_image_95.png",
             "trim": {
               "x": 423,
               "y": 986,
@@ -4407,7 +4407,7 @@
             "name": "Item_100001",
             "uuid": "d1888e91-2f30-467d-ad8a-333d993011b5",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159239_image_142.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736976_image_142.png",
             "trim": {
               "x": 759,
               "y": 754,
@@ -4430,7 +4430,7 @@
             "name": "Item_100003",
             "uuid": "edb4e9cd-ddc9-49f7-9757-6c1569d40c20",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159240_image_162.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736977_image_162.png",
             "trim": {
               "x": 644,
               "y": 781,
@@ -4453,7 +4453,7 @@
             "name": "Common_Icon_ADS",
             "uuid": "c4c773ca-70ea-4e4c-8d71-c4d972a4862c",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159238_image_135.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736976_image_135.png",
             "trim": {
               "x": 552,
               "y": 849,
@@ -4476,7 +4476,7 @@
             "name": "Item_30404",
             "uuid": "187ee445-40ce-4368-99af-41dac5d6abf8",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159232_image_16.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736969_image_16.png",
             "trim": {
               "x": 472,
               "y": 896,
@@ -4500,7 +4500,7 @@
             "name": "Item_30406",
             "uuid": "32986ade-1a97-4dc5-b85f-c7703b9314db",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159233_image_37.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736970_image_37.png",
             "trim": {
               "x": 717,
               "y": 827,
@@ -4524,7 +4524,7 @@
             "name": "Item_30403",
             "uuid": "3754e55e-b48d-4858-9fea-d11d85ffcf4a",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159233_image_40.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736970_image_40.png",
             "trim": {
               "x": 783,
               "y": 827,
@@ -4548,7 +4548,7 @@
             "name": "Item_30401",
             "uuid": "74e7d62e-55eb-487f-8e72-6956ccedef66",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159236_image_79.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736973_image_79.png",
             "trim": {
               "x": 618,
               "y": 854,
@@ -4572,7 +4572,7 @@
             "name": "Item_30405",
             "uuid": "9ea1b0e4-09d9-4a23-8b1d-55ac0d7ba99c",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159237_image_108.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736974_image_108.png",
             "trim": {
               "x": 684,
               "y": 886,
@@ -4595,7 +4595,7 @@
             "name": "Item_30402",
             "uuid": "ad951481-f848-477f-b0eb-c0799564d284",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159238_image_126.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736975_image_126.png",
             "trim": {
               "x": 618,
               "y": 913,
@@ -4619,7 +4619,7 @@
             "name": "ExWeapon_Star_1_0",
             "uuid": "504ab24e-34d4-4327-9b47-291fcbd1e70c",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159234_image_54.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736971_image_54.png",
             "trim": {
               "x": 538,
               "y": 914,
@@ -4642,7 +4642,7 @@
             "name": "ExWeapon_Star_1_1",
             "uuid": "a33c871d-b0a8-4034-9b9c-f7b415ba5709",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159237_image_112.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736975_image_112.png",
             "trim": {
               "x": 451,
               "y": 955,
@@ -4666,7 +4666,7 @@
             "name": "ExWeapon_Star_0_1",
             "uuid": "da19f6e8-1793-44c3-ac50-792f8cf89298",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159239_image_147.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736977_image_147.png",
             "trim": {
               "x": 684,
               "y": 952,
@@ -4689,7 +4689,7 @@
             "name": "Head_Hero_S_10",
             "uuid": "a0baa859-30c2-416a-bfc6-e2f0c97c28d3",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159237_image_111.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736974_image_111.png",
             "trim": {
               "x": 601,
               "y": 972,
@@ -4712,7 +4712,7 @@
             "name": "Head_Hero_S_3",
             "uuid": "b74b4218-bee3-4d60-aa4a-97743b77f652",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159238_image_129.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736975_image_129.png",
             "trim": {
               "x": 510,
               "y": 973,
@@ -4735,7 +4735,7 @@
             "name": "Head_Hero_S_4",
             "uuid": "ddf7bb97-44fb-47e1-bd87-d849ddd72af0",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159239_image_149.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736977_image_149.png",
             "trim": {
               "x": 734,
               "y": 952,
@@ -4758,7 +4758,7 @@
             "name": "Head_Hero_S_1",
             "uuid": "f21778af-d997-4fe7-9983-32a252946db8",
             "textureUuid": "7246ad07-c5e6-4e60-aebe-fa81d8199981",
-            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690515159240_image_163.png",
+            "path": "D:\\progit2\\JunTuan\\G102\\temp\\trimImages\\spritesheet_js_1690802736978_image_163.png",
             "trim": {
               "x": 743,
               "y": 886,

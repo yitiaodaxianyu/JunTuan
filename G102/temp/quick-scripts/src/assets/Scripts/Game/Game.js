@@ -89,6 +89,8 @@ var Game = /** @class */ (function (_super) {
         _this.try_auto_label = null;
         /**试用文本 */
         _this.try_rate_label = null;
+        /**剩余多少次显示 */
+        _this.rogueText = null;
         //测试
         _this.start_time = 0;
         _this.time_jishu = 0;
@@ -315,6 +317,9 @@ var Game = /** @class */ (function (_super) {
                 callback();
             }
         });
+    };
+    Game.prototype.setRogueText = function (n) {
+        this.rogueText.string = n + "";
     };
     Game.prototype.showKaiZhan = function () {
         var kaiZhan = cc.find('Canvas/Ui_Root/KaiZhan');
@@ -735,25 +740,24 @@ var Game = /** @class */ (function (_super) {
         //console.log("道具：蓝")
     };
     Game.prototype.setTryAutoLabel = function () {
-        this.try_auto_label.node.active = this.try_auto_ramain > 0 && LevelManager_1.LevelManager.getInstance().finish_level >= 5 && this.is_unlock_auto == false;
-        this.try_auto_label.string = MyTool_1.default.getTimeStr(Math.floor(this.try_auto_ramain));
+        // this.try_auto_label.node.active = this.try_auto_ramain > 0 && LevelManager.getInstance().finish_level >= 5 && this.is_unlock_auto == false;
+        // this.try_auto_label.string = MyTool.getTimeStr(Math.floor(this.try_auto_ramain))
     };
     Game.prototype.setTryRateLabel = function () {
-        this.try_rate_label.node.active = this.try_rate_ramain > 0 && LevelManager_1.LevelManager.getInstance().finish_level >= 5 && this.is_unlock_rate == false;
-        this.try_rate_label.string = MyTool_1.default.getTimeStr(Math.floor(this.try_rate_ramain));
+        // this.try_rate_label.node.active = this.try_rate_ramain > 0 && LevelManager.getInstance().finish_level >= 5 && this.is_unlock_rate == false;
+        // this.try_rate_label.string = MyTool.getTimeStr(Math.floor(this.try_rate_ramain))
     };
     Game.prototype.setBtnRateShow = function () {
-        var rate = cc.find('Canvas/Ui_Root/btnRate');
-        if (this.is_unlock_rate == true || this.try_rate_ramain > 0) {
-            var rateNum = GameManager_1.default.getInstance().getBtnSetupRate();
-            rate.getComponent(cc.Sprite).spriteFrame = this.sp_rate[rateNum - 1];
-        }
-        else {
-            rate.getComponent(cc.Sprite).spriteFrame = this.sp_rate[0];
-        }
-        this.try_rate_ramain = Math.floor(this.try_rate_ramain);
-        StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.try_rate_fight_remain, this.try_rate_ramain);
-        rate.active = LevelManager_1.LevelManager.getInstance().finish_level >= 5;
+        // let rate = cc.find('Canvas/Ui_Root/btnRate');
+        // if (this.is_unlock_rate == true || this.try_rate_ramain > 0) {
+        //     let rateNum = GameManager.getInstance().getBtnSetupRate();
+        //     rate.getComponent(cc.Sprite).spriteFrame = this.sp_rate[rateNum - 1];
+        // } else {
+        //     rate.getComponent(cc.Sprite).spriteFrame = this.sp_rate[0];
+        // }
+        // this.try_rate_ramain = Math.floor(this.try_rate_ramain)
+        // TheStorageManager.getInstance().setItem(StorageKey.try_rate_fight_remain, this.try_rate_ramain);
+        // rate.active = LevelManager.getInstance().finish_level >= 5;
     };
     Game.prototype.setBtnAuto = function () {
         // let auto = cc.find('Canvas/Ui_Root/btnAuto');
@@ -862,6 +866,7 @@ var Game = /** @class */ (function (_super) {
             this.wave_pos_x.push(jiangePosX);
         }
         this.showLevelProgress();
+        this.setRogueText(GameManager_1.default.getInstance().getRogueLikeNum());
     };
     Game.prototype.showLevelProgress = function () {
         var gm = GameManager_1.default.getInstance();
@@ -893,6 +898,7 @@ var Game = /** @class */ (function (_super) {
                     //let prevXX=prevWave>=0?this.wave_pos_x[prevWave]:this.left_xx;
                     //let offsetXX=curXX-prevXX;        
                     this.dist_xx = curXX;
+                    this.setRogueText(GameManager_1.default.getInstance().getRogueLikeNum());
                     //waveBg.getC
                 }
                 break;
@@ -1080,6 +1086,9 @@ var Game = /** @class */ (function (_super) {
     __decorate([
         property(cc.Label)
     ], Game.prototype, "try_rate_label", void 0);
+    __decorate([
+        property(cc.Label)
+    ], Game.prototype, "rogueText", void 0);
     __decorate([
         property(cc.Node)
     ], Game.prototype, "battlepotion", void 0);

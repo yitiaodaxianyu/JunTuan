@@ -116,6 +116,7 @@ export default class WuNv extends Hero {
 
     createSuperManTeng(id:GameEffectId,jianshiPos:cc.Vec2,speed:number,dir:number,gjData:GongJiData):cc.Node{
         let node=GroundManager.getInstance().createGameEffectById(id,jianshiPos);
+        node.getComponent(SuperManTeng).hero_lvl=this.hero_lvl;
         node.getComponent(SuperManTeng).init(id,speed,dir,gjData);
         return node;
     }

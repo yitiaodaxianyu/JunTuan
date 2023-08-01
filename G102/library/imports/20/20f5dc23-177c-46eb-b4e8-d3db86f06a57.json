@@ -1,0 +1,93 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "zhuangshi",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "rX7F3kgaikDiMoYrD66Ah5vAdig",
+      "spine": "3.8.75",
+      "x": -376,
+      "y": -104,
+      "width": 752,
+      "height": 208,
+      "images": "F:/美术/00006/",
+      "audio": "F:/美术"
+    },
+    "bones": [
+      {
+        "name": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "zhuangshi",
+        "bone": "root",
+        "attachment": "zhuangshi"
+      },
+      {
+        "name": "zhuangshi2",
+        "bone": "root",
+        "attachment": "zhuangshi"
+      }
+    ],
+    "skins": [
+      {
+        "name": "default",
+        "attachments": {
+          "zhuangshi": {
+            "zhuangshi": {
+              "width": 752,
+              "height": 208
+            }
+          },
+          "zhuangshi2": {
+            "zhuangshi": {
+              "width": 752,
+              "height": 208
+            }
+          }
+        }
+      }
+    ],
+    "animations": {
+      "animation": {
+        "bones": {
+          "root": {
+            "translate": [
+              {
+                "y": 102.41,
+                "curve": 1,
+                "c2": 0.3,
+                "c3": 0,
+                "c4": 0.7
+              },
+              {
+                "time": 0.8333,
+                "y": 107.94,
+                "curve": 1,
+                "c2": 0.4,
+                "c3": 0,
+                "c4": 0.7
+              },
+              {
+                "time": 1.8,
+                "y": 102.41
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nzhuangshi.png\nsize: 754,754\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nzhuangshi\n  rotate: false\n  xy: 2, 546\n  size: 750, 206\n  orig: 752, 208\n  offset: 1, 1\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "7fc140e1-c7c5-47af-a068-ec410aa55847"
+    }
+  ],
+  "textureNames": [
+    "zhuangshi.png"
+  ],
+  "scale": 1
+}

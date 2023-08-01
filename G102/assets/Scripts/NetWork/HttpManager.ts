@@ -1,6 +1,6 @@
 import { IsDebug, IsTestServer } from "../Constants";
 import { UIManager } from "../UI/UIManager";
-export let WWW= 'http://124.222.212.141:8872';//http://api.super-bossgame.com
+export let WWW= 'https://www.yixihuyu.com:8873';//http://api.super-bossgame.com
 export let TEST='http://47.243.114.126:10018';//http://47.243.114.126:10018
 
 /**要访问的接口名称 */

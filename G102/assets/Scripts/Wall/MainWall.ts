@@ -40,11 +40,15 @@ export default class MainWall extends Wall {
     node_vertigo: cc.Node = null;
     vertigo_action: cc.Tween = null;
 
+    @property(cc.Sprite)
+    hpBar: cc.Sprite = null;
+
     onLoad() {
         this.setHpChangeListen(this.onWallChangeHp.bind(this));
         this.setHpShowListen(this.showWallTeXiao.bind(this));
         super.setWallDieListen(this.onWallDie.bind(this));
         let hpRoot = cc.find('Canvas/Ui_Root/hp_root');
+        hpRoot.active = false;
         this.hp_progress = hpRoot.getChildByName('hp').getComponent(HpProgressBar);
         this.shield_progress = hpRoot.getChildByName('shield').getComponent(cc.ProgressBar);
         this.hp_text = hpRoot.getChildByName('hpText').getComponent(cc.Label);
@@ -55,7 +59,7 @@ export default class MainWall extends Wall {
         this.node_vertigo = hpRoot.parent.getChildByName('vertigo');
         this.wall_spine0 = this.node.getChildByName('wall0').getComponent(sp.Skeleton);
         this.wall_spine1 = this.node.getChildByName('wall1').getComponent(sp.Skeleton);
-        this.che_spine=this.node.getChildByName('bg2_wall copy').getComponent(sp.Skeleton);
+        this.che_spine = this.node.getChildByName('bg2_wall copy').getComponent(sp.Skeleton);
         this.wall_spine0.node.active = false;
         this.wall_spine1.node.active = false;
         WallManager.getInstance().addWall(WallType.Main, this);
@@ -73,16 +77,20 @@ export default class MainWall extends Wall {
         //let worldPos = wallDown.parent.convertToWorldSpaceAR(wallDown.getPosition());
         //let pos = GameEffectsManager.getInstance().node.convertToNodeSpaceAR(worldPos);
         // this.setWallRect(cc.rect(wallDown.x, wallDown.y, wallDown.width, wallDown.height));
-      
+
     }
     protected onDestroy(): void {
         instance.off(cc.Node.EventType.TOUCH_MOVE, this.onTouchMoveByJoy, this);
         instance.off(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
     }
+    protected showHp(): void {
+        super.showHp();
+        this.hpBar.fillRange = 0.5 * this.cur_hp / this.max_hp;
+    }
     targetX: number = 0;
     easing: number = 0.5;
-    onTouchMoveByJoy():void{
-        this.targetX = GameManager.getInstance().aniType ;
+    onTouchMoveByJoy(): void {
+        this.targetX = GameManager.getInstance().aniType;
     }
     onTouchEndByJoy(event: cc.Event.EventTouch, data) {
         this.targetX = (GameManager.getInstance().aniType - 4) * 75;
@@ -91,21 +99,21 @@ export default class MainWall extends Wall {
 
         if (GameManager.getInstance().cur_game_state != GameState.Game_Playing)
             return;
-        if(this.node){
+        if (this.node) {
 
             let vx: number = (this.targetX - this.node.x) * this.easing;
             this.node.x += vx;
 
-            this.setWallRect(cc.rect( this.node.x-this.node.width/2,  this.node.y-this.node.height/2,  this.node.width,  this.node.height));
+            this.setWallRect(cc.rect(this.node.x - this.node.width / 2, this.node.y - this.node.height / 2, this.node.width, this.node.height));
             let ggp = FightingManager.getInstance().node.getComponent(cc.Graphics);
             ggp.rect(this.getWallRect().x, this.getWallRect().y, this.getWallRect().width, this.getWallRect().height);
 
-           
-               
-            
+
+
+
 
         }
-         
+
     }
     onWallDie() {
         GameManager.getInstance().onWallDie();

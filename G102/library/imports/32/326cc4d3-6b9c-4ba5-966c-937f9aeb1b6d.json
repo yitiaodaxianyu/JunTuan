@@ -411,6 +411,21 @@
     },
     "Setting_Sound_1": {
       "__uuid__": "555298ab-c13f-42a0-99bd-75d085de000f"
+    },
+    "charioHp": {
+      "__uuid__": "1ce0d628-d28c-44a7-bfbe-5ee1cf2969a9"
+    },
+    "charioHpBG": {
+      "__uuid__": "f2358eb2-b39f-4ae6-9d73-ad83785aaa87"
+    },
+    "rogueBg": {
+      "__uuid__": "6a91d6e3-f69b-4e29-b050-3e9fab07173c"
+    },
+    "waveBar": {
+      "__uuid__": "81728097-d379-4a2f-8904-f283265811ce"
+    },
+    "waveBarBG": {
+      "__uuid__": "b1eb5307-e42f-4f3d-a62a-9241a9c050f7"
     }
   }
 }

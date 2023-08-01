@@ -58,6 +58,7 @@ var MainWall = /** @class */ (function (_super) {
         _this.injured_action = null;
         _this.node_vertigo = null;
         _this.vertigo_action = null;
+        _this.hpBar = null;
         _this.targetX = 0;
         _this.easing = 0.5;
         return _this;
@@ -67,6 +68,7 @@ var MainWall = /** @class */ (function (_super) {
         this.setHpShowListen(this.showWallTeXiao.bind(this));
         _super.prototype.setWallDieListen.call(this, this.onWallDie.bind(this));
         var hpRoot = cc.find('Canvas/Ui_Root/hp_root');
+        hpRoot.active = false;
         this.hp_progress = hpRoot.getChildByName('hp').getComponent(HpProgressBar_1.default);
         this.shield_progress = hpRoot.getChildByName('shield').getComponent(cc.ProgressBar);
         this.hp_text = hpRoot.getChildByName('hpText').getComponent(cc.Label);
@@ -97,6 +99,10 @@ var MainWall = /** @class */ (function (_super) {
     MainWall.prototype.onDestroy = function () {
         TouchPlane_1.instance.off(cc.Node.EventType.TOUCH_MOVE, this.onTouchMoveByJoy, this);
         TouchPlane_1.instance.off(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
+    };
+    MainWall.prototype.showHp = function () {
+        _super.prototype.showHp.call(this);
+        this.hpBar.fillRange = 0.5 * this.cur_hp / this.max_hp;
     };
     MainWall.prototype.onTouchMoveByJoy = function () {
         this.targetX = GameManager_1.default.getInstance().aniType;
@@ -219,6 +225,9 @@ var MainWall = /** @class */ (function (_super) {
             this.wall_spine1.node.active = false;
         }
     };
+    __decorate([
+        property(cc.Sprite)
+    ], MainWall.prototype, "hpBar", void 0);
     MainWall = __decorate([
         ccclass
     ], MainWall);

@@ -135,6 +135,7 @@ var WuNv = /** @class */ (function (_super) {
     };
     WuNv.prototype.createSuperManTeng = function (id, jianshiPos, speed, dir, gjData) {
         var node = GroundManager_1.default.getInstance().createGameEffectById(id, jianshiPos);
+        node.getComponent(SuperManTeng_1.default).hero_lvl = this.hero_lvl;
         node.getComponent(SuperManTeng_1.default).init(id, speed, dir, gjData);
         return node;
     };

@@ -33,7 +33,9 @@ var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var SuperManTeng = /** @class */ (function (_super) {
     __extends(SuperManTeng, _super);
     function SuperManTeng() {
-        return _super !== null && _super.apply(this, arguments) || this;
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.hero_lvl = 0;
+        return _this;
     }
     SuperManTeng.prototype.onLoad = function () {
         _super.prototype.onLoad.call(this);
@@ -54,7 +56,7 @@ var SuperManTeng = /** @class */ (function (_super) {
                 var buffData = new BuffData_1.BuffData();
                 buffData.buff_id = HeroConfig_1.BuffId.Hero_XuanYun;
                 buffData.buff_type = HeroConfig_1.BuffType.Vertigo;
-                buffData.remain_time = this.gongji_data.hero_data.getSkillValue2(HeroConfig_1.SkillType.Active);
+                buffData.remain_time = this.gongji_data.hero_data.getSkillValue2(HeroConfig_1.SkillType.Active) + this.hero_lvl * 0.5;
                 buffData.game_effect_id = GameEffectsManager_1.GameEffectId.xuanyun;
                 monsterTs.addDeBuff(buffData, this.gongji_data);
                 cc.tween(node_1).delay(buffData.remain_time).call(function () {

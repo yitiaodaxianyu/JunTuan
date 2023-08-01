@@ -1,0 +1,13 @@
+
+zhuangshi.png
+size: 754,754
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+zhuangshi
+  rotate: false
+  xy: 2, 546
+  size: 750, 206
+  orig: 752, 208
+  offset: 1, 1
+  index: -1
