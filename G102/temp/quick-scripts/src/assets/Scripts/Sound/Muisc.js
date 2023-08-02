@@ -23,6 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+var WXManagerEX_1 = require("../../startscene/WXManagerEX");
 var GameManager_1 = require("../GameManager");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var Music = /** @class */ (function (_super) {
@@ -76,7 +77,7 @@ var Music = /** @class */ (function (_super) {
     };
     Music.prototype.playMusic = function (musicIndex) {
         var _this = this;
-        cc.resources.load('musics/' + musicIndex, cc.AudioClip, function (error, assets) {
+        WXManagerEX_1.default.getInstance().resourcesBundle.load('musics/' + musicIndex, cc.AudioClip, function (error, assets) {
             if (error) {
                 console.log(error);
                 return;

@@ -1,3 +1,4 @@
+import WXManagerEX from "../../startscene/WXManagerEX";
 import GameManager from "../GameManager";
 import { MusicIndex } from "./AudioConstants";
 
@@ -68,7 +69,7 @@ export default class Music extends cc.AudioSource {
 
     playMusic(musicIndex:MusicIndex)
     {
-        cc.resources.load('musics/'+musicIndex,cc.AudioClip,(error: Error, assets:cc.AudioClip)=>{
+        WXManagerEX.getInstance().resourcesBundle.load('musics/'+musicIndex,cc.AudioClip,(error: Error, assets:cc.AudioClip)=>{
             if(error)
             {
                 console.log(error);

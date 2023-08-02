@@ -101,6 +101,7 @@ var RogueHexagonTypes_1 = require("../copy/voidcrack/RogueHexagonTypes");
 var FirstCompleteReward_1 = require("../Level/FirstCompleteReward");
 var RogueLevel_1 = require("../copy/voidcrack/RogueLevel");
 var RoguefastPass_1 = require("../copy/voidcrack/RoguefastPass");
+var WXManagerEX_1 = require("../../startscene/WXManagerEX");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var Loading = /** @class */ (function (_super) {
     __extends(Loading, _super);
@@ -405,7 +406,7 @@ var Loading = /** @class */ (function (_super) {
     };
     Loading.prototype.loadAllUi = function () {
         if (!TutorailsManager_1.default.getInstance().is_finish) {
-            cc.resources.loadDir('tutorials');
+            WXManagerEX_1.default.getInstance().resourcesBundle.loadDir('tutorials');
         }
     };
     Loading.prototype.update = function (dt) {

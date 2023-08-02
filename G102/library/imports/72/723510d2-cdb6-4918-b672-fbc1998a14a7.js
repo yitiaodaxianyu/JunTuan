@@ -37,7 +37,7 @@ var SpeciesWarning = /** @class */ (function (_super) {
         this.loadEnemyDes(enemy);
     };
     SpeciesWarning.prototype.loadEnemyDes = function (enemy) {
-        // cc.resources.load('enemy/enemy_des',cc.JsonAsset,(error: Error, assets:cc.JsonAsset)=>{
+        // WXManagerEX.getInstance().resourcesBundle.load('enemy/enemy_des',cc.JsonAsset,(error: Error, assets:cc.JsonAsset)=>{
         //     if(error)
         //     {
         //         console.log(error);

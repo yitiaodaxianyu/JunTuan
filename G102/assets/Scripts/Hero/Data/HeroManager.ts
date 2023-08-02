@@ -30,6 +30,7 @@ import UserData from "../../UserData";
 import { AccessName, HeroObject, HttpManager } from "../.././NetWork/HttpManager";
 import { UserInfo } from "../../UserInfo/UserInfo";
 import { ExclusiveWeaponMessageManager } from "../../JsonData/ExclusiveWeaponMessage";
+import WXManagerEX from "../../../startscene/WXManagerEX";
 
 /**英雄升级数据 */
 export class HeroUpgradeData{
@@ -122,7 +123,7 @@ export class HeroManager {
     private loadTeamPrefab(){
         if(this.btn_hero_team)
         return;
-        cc.resources.load('heros/btn_hero_team',cc.Prefab,(error: Error, assets:cc.Prefab)=>{
+        WXManagerEX.getInstance().resourcesBundle.load('heros/btn_hero_team',cc.Prefab,(error: Error, assets:cc.Prefab)=>{
             if(error)
             {
                 console.log(error);
@@ -135,7 +136,7 @@ export class HeroManager {
     private loadRolePrefab(){
         if(this.btn_hero_role)
         return;
-        cc.resources.load('heros/btn_hero_role',cc.Prefab,(error: Error, assets:cc.Prefab)=>{
+        WXManagerEX.getInstance().resourcesBundle.load('heros/btn_hero_role',cc.Prefab,(error: Error, assets:cc.Prefab)=>{
             if(error)
             {
                 console.log(error);
@@ -148,7 +149,7 @@ export class HeroManager {
     private loadFragmentPrefab(){
         if(this.hero_fragment)
         return;
-        cc.resources.load('heros/hero_fragment',cc.Prefab,(error: Error, assets:cc.Prefab)=>{
+        WXManagerEX.getInstance().resourcesBundle.load('heros/hero_fragment',cc.Prefab,(error: Error, assets:cc.Prefab)=>{
             if(error)
             {
                 console.log(error);
@@ -161,7 +162,7 @@ export class HeroManager {
     private loadSp(){
         if(this.sprite_atlas)
         return;
-        cc.resources.load('heros/hero_list_ui',cc.SpriteAtlas,(error: Error, assets:cc.SpriteAtlas)=>{
+        WXManagerEX.getInstance().resourcesBundle.load('heros/hero_list_ui',cc.SpriteAtlas,(error: Error, assets:cc.SpriteAtlas)=>{
             if(error)
             {
                 console.log(error);
@@ -175,7 +176,7 @@ export class HeroManager {
     // private loadRoleSp(){
     //     if(this.role_atlas)
     //     return;
-    //     cc.resources.load('heros/role_ui',cc.SpriteAtlas,(error: Error, assets:cc.SpriteAtlas)=>{
+    //     WXManagerEX.getInstance().resourcesBundle.load('heros/role_ui',cc.SpriteAtlas,(error: Error, assets:cc.SpriteAtlas)=>{
     //         if(error)
     //         {
     //             console.log(error);
@@ -189,7 +190,7 @@ export class HeroManager {
     private loadSps(){
         if(this.sprite_atlass)
         return;
-        cc.resources.load('heros/hero',cc.SpriteAtlas,(error: Error, assets:cc.SpriteAtlas)=>{
+        WXManagerEX.getInstance().resourcesBundle.load('heros/hero',cc.SpriteAtlas,(error: Error, assets:cc.SpriteAtlas)=>{
             if(error)
             {
                 console.log(error);
@@ -205,7 +206,7 @@ export class HeroManager {
             return;
         }
         this.sp_body=new Map<number,cc.SpriteFrame>();
-        cc.resources.loadDir('heros/body',cc.SpriteFrame,(error: Error, assets:cc.SpriteFrame[])=>{
+        WXManagerEX.getInstance().resourcesBundle.loadDir('heros/body',cc.SpriteFrame,(error: Error, assets:cc.SpriteFrame[])=>{
             if(error)
             {
                 console.log(error);

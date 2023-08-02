@@ -23,6 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+var WXManagerEX_1 = require("../../startscene/WXManagerEX");
 var MonsterConfigure_1 = require("../Monster/Data/MonsterConfigure");
 var MonsterData_1 = require("../Monster/MonsterData");
 var TextLanguage_1 = require("../multiLanguage/TextLanguage");
@@ -154,7 +155,7 @@ var BtnTower = /** @class */ (function (_super) {
         var _this = this;
         var path = "monster/ui/Monster_" + type;
         var node = null;
-        cc.resources.load(path, cc.Prefab, function (error, assets) {
+        WXManagerEX_1.default.getInstance().resourcesBundle.load(path, cc.Prefab, function (error, assets) {
             if (error) {
                 cc.log(error);
                 return;

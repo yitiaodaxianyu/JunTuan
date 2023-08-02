@@ -49,6 +49,7 @@ var WindPet_1 = require("../../Pet/Game/WindPet");
 var RayPet_1 = require("../../Pet/Game/RayPet");
 var Monster_1 = require("../../Monster/Monster");
 var TouchPlane_1 = require("../../Game/TouchPlane/TouchPlane");
+var WXManagerEX_1 = require("../../../startscene/WXManagerEX");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var Hero = /** @class */ (function (_super) {
     __extends(Hero, _super);
@@ -331,7 +332,7 @@ var Hero = /** @class */ (function (_super) {
     Hero.prototype.loadMpProgress = function () {
         // this.changeCD(this.hero_data.getSkillColdDown(SkillType.Active)/3);
         // this.skill_total_time=this.hero_data.getSkillColdDown(SkillType.Active);
-        // cc.resources.load('heros/skill_icon',cc.Prefab,(error: Error, assets:cc.Prefab)=>{
+        // WXManagerEX.getInstance().resourcesBundle.load('heros/skill_icon',cc.Prefab,(error: Error, assets:cc.Prefab)=>{
         //     if(error)
         //     {
         //         console.log(error);
@@ -352,7 +353,7 @@ var Hero = /** @class */ (function (_super) {
     Hero.prototype.loadZhiShiQi = function (zhishiqi, type) {
         this.zhishiqi_type = type;
         console.log("加载hero" + zhishiqi);
-        cc.resources.load('heros/' + zhishiqi, cc.Prefab, function (error, assets) {
+        WXManagerEX_1.default.getInstance().resourcesBundle.load('heros/' + zhishiqi, cc.Prefab, function (error, assets) {
             if (error) {
                 console.log(error);
                 return;
@@ -382,7 +383,7 @@ var Hero = /** @class */ (function (_super) {
         if (this.hero_data.pet_id > 0) {
             var type_1 = SpiritAttribute_1.SpiritAttributeManager.getInstance().getSpiritType(this.hero_data.pet_id);
             this.need_load_num++;
-            cc.resources.load('pet/pet' + type_1, cc.Prefab, function (error, assets) {
+            WXManagerEX_1.default.getInstance().resourcesBundle.load('pet/pet' + type_1, cc.Prefab, function (error, assets) {
                 if (error) {
                     console.log(error);
                     return;

@@ -1,3 +1,4 @@
+import WXManagerEX from "../../startscene/WXManagerEX";
 
 
 const {ccclass, property} = cc._decorator;
@@ -33,7 +34,7 @@ export default class MapNodePool extends cc.Component {
 
         this.preload_id.push(id);
       
-        cc.resources.load(path,cc.Prefab,(error: Error, assets:cc.Prefab)=> {
+        WXManagerEX.getInstance().resourcesBundle.load(path,cc.Prefab,(error: Error, assets:cc.Prefab)=> {
             if(error){
                 console.log(error);
                 return;

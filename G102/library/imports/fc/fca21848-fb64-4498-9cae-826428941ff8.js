@@ -23,6 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+var WXManagerEX_1 = require("../../../startscene/WXManagerEX");
 var BossChallenge_1 = require("../../Activity/BossChallenge");
 var EndlessLevels_1 = require("../../Activity/EndlessLevels");
 var ApkManager_1 = require("../../Ads/ApkManager");
@@ -304,7 +305,7 @@ var ToPlayMainUi = /** @class */ (function (_super) {
             if (type > 0) {
                 var path = "monster/ui/Monster_" + type;
                 var node_1 = null;
-                cc.resources.load(path, cc.Prefab, function (error, assets) {
+                WXManagerEX_1.default.getInstance().resourcesBundle.load(path, cc.Prefab, function (error, assets) {
                     if (error) {
                         cc.log(error);
                         return;

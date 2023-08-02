@@ -23,6 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+var WXManagerEX_1 = require("../../startscene/WXManagerEX");
 var Constants_1 = require("../Constants");
 var GameManager_1 = require("../GameManager");
 var HeroBaseInfo_1 = require("../Hero/Data/HeroBaseInfo");
@@ -77,7 +78,7 @@ var Tutorials = /** @class */ (function (_super) {
         // }
         //展示出来
         var idStr = 't' + id;
-        cc.resources.load('tutorials/' + idStr, cc.Prefab, function (error, assets) {
+        WXManagerEX_1.default.getInstance().resourcesBundle.load('tutorials/' + idStr, cc.Prefab, function (error, assets) {
             if (error) {
                 console.log(error);
                 return;

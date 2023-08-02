@@ -1,3 +1,4 @@
+import WXManagerEX from "../../startscene/WXManagerEX";
 import { IsGM } from "../Constants";
 
 
@@ -32,7 +33,7 @@ export class LoadManager  {
     }
 
     private static loadLocal(url:string,type: typeof cc.Asset,onComplete:(err: Error, asset: cc.Asset) => void){
-        cc.resources.load(url,type,(error: Error, assets:cc.Asset)=> {
+        WXManagerEX.getInstance().resourcesBundle.load(url,type,(error: Error, assets:cc.Asset)=> {
             if(error){
                 console.log(error);
                 return;

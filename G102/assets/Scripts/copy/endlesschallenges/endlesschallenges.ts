@@ -5,6 +5,7 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
+import WXManagerEX from "../../../startscene/WXManagerEX";
 import { HttpManager, AccessName } from "../.././NetWork/HttpManager";
 import { BossChallengeManager } from "../../Activity/BossChallenge";
 import { EndlessLevelsManager } from "../../Activity/EndlessLevels";
@@ -390,7 +391,7 @@ export default class endlesschallenges extends UIComponent {
                 let elitetype = MonsterConfigureManager.getInstance().getMonsterClass(EliteMonster[index]);
                 let path = "monster/ui/Monster_" + elitetype;
                 let node: cc.Node = null;
-                cc.resources.load(path, cc.Prefab, (error: Error, assets: cc.Prefab) => {
+                WXManagerEX.getInstance().resourcesBundle.load(path, cc.Prefab, (error: Error, assets: cc.Prefab) => {
                     if (error) {
                         cc.log(error);
                         return;

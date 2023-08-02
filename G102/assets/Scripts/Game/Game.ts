@@ -1,3 +1,4 @@
+import WXManagerEX from "../../startscene/WXManagerEX";
 import { BossChallengeManager } from "../Activity/BossChallenge";
 import BossGameUi from "../Activity/BossGameUi";
 import EndlessgGameUi from "../Activity/EndlessgGameUi";
@@ -287,7 +288,7 @@ export default class Game extends cc.Component {
         // }
         //预加载弓手Hero_Root
         // if (TutorailsManager.getInstance().is_finish_game == false && LevelManager.getInstance().start_level == 5) {
-        //     cc.resources.load('heros/hero8');
+        //     WXManagerEX.getInstance().resourcesBundle.load('heros/hero8');
         // }
     }
     private indexData: Array<number> = [3, 1, 0, 2, 4];
@@ -308,7 +309,7 @@ export default class Game extends cc.Component {
         }
         let posX = xIndexTepm * 45 - 90;
         let posY = yIndexTepm * 60 - 120;
-        cc.resources.load('heros/hero' + heroType, cc.Prefab, (error: Error, assets: cc.Prefab) => {
+        WXManagerEX.getInstance().resourcesBundle.load('heros/hero' + heroType, cc.Prefab, (error: Error, assets: cc.Prefab) => {
             if (error) {
                 console.log(error);
                 return;
@@ -429,7 +430,7 @@ export default class Game extends cc.Component {
 
 
 
-                // cc.resources.load("ui/game/endless_game_ui", cc.Prefab, (error: Error, assets: cc.Prefab) => {
+                // WXManagerEX.getInstance().resourcesBundle.load("ui/game/endless_game_ui", cc.Prefab, (error: Error, assets: cc.Prefab) => {
                 //     if (error) {
                 //         console.log(error);
                 //         return;
@@ -460,7 +461,7 @@ export default class Game extends cc.Component {
                 this.level_label.string = '0/1';
                 top.getChildByName("Boss").active = true
                 top.getChildByName("Endless_Btn_Buff").active = false
-                cc.resources.load("ui/game/boss_game_ui", cc.Prefab, (error: Error, assets: cc.Prefab) => {
+                WXManagerEX.getInstance().resourcesBundle.load("ui/game/boss_game_ui", cc.Prefab, (error: Error, assets: cc.Prefab) => {
                     if (error) {
                         console.log(error);
                         return;
@@ -522,7 +523,7 @@ export default class Game extends cc.Component {
         let fightingInfo = GameManager.getInstance().fighting_info;
         let bgName = fightingInfo.bg_name;
         this.cur_bg_name = bgName;
-        cc.resources.load(bgName, cc.SpriteFrame, (error: Error, assets: cc.SpriteFrame) => {
+        WXManagerEX.getInstance().resourcesBundle.load(bgName, cc.SpriteFrame, (error: Error, assets: cc.SpriteFrame) => {
             if (error) {
                 console.log(error);
                 return;
@@ -530,7 +531,7 @@ export default class Game extends cc.Component {
             this.bg0.getComponent(cc.Sprite).spriteFrame = assets;
             this.bg1.getComponent(cc.Sprite).spriteFrame = assets;
         });
-        cc.resources.load(fightingInfo.wall_name, cc.SpriteFrame, (error: Error, assets: cc.SpriteFrame) => {
+        WXManagerEX.getInstance().resourcesBundle.load(fightingInfo.wall_name, cc.SpriteFrame, (error: Error, assets: cc.SpriteFrame) => {
             if (error) {
                 console.log(error);
                 return;

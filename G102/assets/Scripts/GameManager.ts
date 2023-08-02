@@ -52,6 +52,7 @@ import { EquipmentAttributeManager } from "./Equipment/Data/EquipmentAttribute";
 import { ExclusiveEnhancementManager } from "./JsonData/ExclusiveEnhancement";
 import { ExclusiveWeaponMessageManager } from "./JsonData/ExclusiveWeaponMessage";
 import RewardSSUi from "./Tutorials/RewardSSUi";
+import WXManagerEX from "../startscene/WXManagerEX";
 
 
 
@@ -480,7 +481,7 @@ export default class GameManager extends cc.Component {
 
     private loadTip() {
         if (!this.prefab_hint) {
-            cc.resources.load('hint', cc.Prefab, (error: Error, assets: cc.Prefab) => {
+            WXManagerEX.getInstance().resourcesBundle.load('hint', cc.Prefab, (error: Error, assets: cc.Prefab) => {
                 if (error) {
                     console.log(error);
                     return;
@@ -489,7 +490,7 @@ export default class GameManager extends cc.Component {
             });
         }
         if (!this.prefab_get_tip) {
-            cc.resources.load('get_tip', cc.Prefab, (error: Error, assets: cc.Prefab) => {
+            WXManagerEX.getInstance().resourcesBundle.load('get_tip', cc.Prefab, (error: Error, assets: cc.Prefab) => {
                 if (error) {
                     console.log(error);
                     return;
@@ -501,7 +502,7 @@ export default class GameManager extends cc.Component {
 
     showMessage(message: string, dt?: number) {
         if (this.prefab_hint == null) {
-            cc.resources.load('hint', cc.Prefab, (error: Error, assets: cc.Prefab) => {
+            WXManagerEX.getInstance().resourcesBundle.load('hint', cc.Prefab, (error: Error, assets: cc.Prefab) => {
                 if (error) {
                     console.log(error);
                     return;
@@ -521,7 +522,7 @@ export default class GameManager extends cc.Component {
 
     showGetTip(getNode: cc.Node, callBack?: Function) {
         if (this.prefab_hint == null) {
-            cc.resources.load('get_tip', cc.Prefab, (error: Error, assets: cc.Prefab) => {
+            WXManagerEX.getInstance().resourcesBundle.load('get_tip', cc.Prefab, (error: Error, assets: cc.Prefab) => {
                 if (error) {
                     console.log(error);
                     return;
@@ -539,7 +540,7 @@ export default class GameManager extends cc.Component {
 
     showMultipleGetTip(getNodes: cc.Node[], callBack?: Function) {
         if (this.prefab_hint == null) {
-            cc.resources.load('get_tip', cc.Prefab, (error: Error, assets: cc.Prefab) => {
+            WXManagerEX.getInstance().resourcesBundle.load('get_tip', cc.Prefab, (error: Error, assets: cc.Prefab) => {
                 if (error) {
                     console.log(error);
                     return;
@@ -560,7 +561,7 @@ export default class GameManager extends cc.Component {
             return;
         }
         this.is_show_exit = true;
-        cc.resources.load('dialog', cc.Prefab, (error: Error, assets: cc.Prefab) => {
+        WXManagerEX.getInstance().resourcesBundle.load('dialog', cc.Prefab, (error: Error, assets: cc.Prefab) => {
             if (error) {
                 console.log(error);
                 return;
@@ -575,7 +576,7 @@ export default class GameManager extends cc.Component {
     }
 
     showBuyDialog(message: string, yesCallback: Function, noCallback: Function, showType?: number, y?: string | number, currency?: string) {
-        cc.resources.load('dialog', cc.Prefab, (error: Error, assets: cc.Prefab) => {
+        WXManagerEX.getInstance().resourcesBundle.load('dialog', cc.Prefab, (error: Error, assets: cc.Prefab) => {
             if (error) {
                 console.log(error);
                 return;
@@ -590,7 +591,7 @@ export default class GameManager extends cc.Component {
     }
 
     showLocalVideo(yesCallback: Function, noCallback: Function, isVideo?: boolean) {
-        cc.resources.load('video_dialog', cc.Prefab, (error: Error, assets: cc.Prefab) => {
+        WXManagerEX.getInstance().resourcesBundle.load('video_dialog', cc.Prefab, (error: Error, assets: cc.Prefab) => {
             if (error) {
                 console.log(error);
                 return;
@@ -1111,7 +1112,7 @@ export default class GameManager extends cc.Component {
     showDangerText() {
         let dangerText = cc.find('Canvas/Fighting_Ui/dangerText');
         if (dangerText == null) {
-            cc.resources.load('ui/game/dangerText', cc.Prefab, (error: Error, assets: cc.Prefab) => {
+            WXManagerEX.getInstance().resourcesBundle.load('ui/game/dangerText', cc.Prefab, (error: Error, assets: cc.Prefab) => {
                 if (error) {
                     console.log(error);
                     return;
@@ -1238,7 +1239,7 @@ export default class GameManager extends cc.Component {
         this.cur_game_state = GameState.Game_Pause;
         //延迟展示
         this.scheduleOnce(() => {
-            cc.resources.load('ui/game/select_skill', cc.Prefab, (error: Error, assets: cc.Prefab) => {
+            WXManagerEX.getInstance().resourcesBundle.load('ui/game/select_skill', cc.Prefab, (error: Error, assets: cc.Prefab) => {
                 if (error) {
                     console.log(error);
                     return;
@@ -1256,7 +1257,7 @@ export default class GameManager extends cc.Component {
 
     showUnlockSkill(yesCallback: Function, noCallback: Function) {
         this.cur_game_state = GameState.Game_Pause;
-        cc.resources.load('ui/game/unlock_ui', cc.Prefab, (error: Error, assets: cc.Prefab) => {
+        WXManagerEX.getInstance().resourcesBundle.load('ui/game/unlock_ui', cc.Prefab, (error: Error, assets: cc.Prefab) => {
             if (error) {
                 console.log(error);
                 return;
@@ -1351,7 +1352,7 @@ export default class GameManager extends cc.Component {
         this.resetRate();
         this.game.setBtnRateShow();
         //LevelManager.getInstance().saveLevelWave(LevelManager.getInstance().start_level,this.cur_wave);
-        cc.resources.load('ui/game/fuhuo_ui', cc.Prefab, (error: Error, assets: cc.Prefab) => {
+        WXManagerEX.getInstance().resourcesBundle.load('ui/game/fuhuo_ui', cc.Prefab, (error: Error, assets: cc.Prefab) => {
             if (error) {
                 console.log(error);
                 return;
@@ -1439,7 +1440,7 @@ export default class GameManager extends cc.Component {
     }
 
     showBossWarning() {
-        cc.resources.load('ui/game/boss_warning', cc.Prefab, (error: Error, assets: cc.Prefab) => {
+        WXManagerEX.getInstance().resourcesBundle.load('ui/game/boss_warning', cc.Prefab, (error: Error, assets: cc.Prefab) => {
             if (error) {
                 console.log(error);
                 return;
@@ -1482,7 +1483,7 @@ export default class GameManager extends cc.Component {
 
     showSpeedUpUi() {
         if (this.cur_game_scene == GameScene.game) {
-            cc.resources.load('ui/game/speed_ui', cc.Prefab, (error: Error, assets: cc.Prefab) => {
+            WXManagerEX.getInstance().resourcesBundle.load('ui/game/speed_ui', cc.Prefab, (error: Error, assets: cc.Prefab) => {
                 if (error) {
                     console.log(error);
                     return;

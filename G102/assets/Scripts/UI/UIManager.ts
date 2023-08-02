@@ -57,6 +57,7 @@ import { HttpManager } from "../NetWork/HttpManager";
 import LanguageManager from "../multiLanguage/LanguageManager";
 import { HeroData } from "../Hero/Data/HeroData";
 import CombatNumEffect from "../CombatNumEffect";
+import WXManagerEX from "../../startscene/WXManagerEX";
 
 export class Combat{
     oldHeroData:HeroData;
@@ -132,7 +133,7 @@ export class UIManager extends UIPool  {
     private loadPrefab(path:string,onComplete:(asset: cc.Prefab) => void){
         let prefab=this.map_prefabs_old.get(path);
         if(!prefab){
-            cc.resources.load(path,cc.Prefab,(error: Error, assets:cc.Prefab)=>{  
+            WXManagerEX.getInstance().resourcesBundle.load(path,cc.Prefab,(error: Error, assets:cc.Prefab)=>{  
                 if(error){
                     cc.log(error);
                     return;
@@ -153,7 +154,7 @@ export class UIManager extends UIPool  {
     public preloadPrefab(path:string){        
         let prefab=this.map_prefabs_old.get(path);
         if(!prefab){
-            cc.resources.load(path,cc.Prefab,(error: Error, assets:cc.Prefab)=>{  
+            WXManagerEX.getInstance().resourcesBundle.load(path,cc.Prefab,(error: Error, assets:cc.Prefab)=>{  
                 if(error){
                     cc.log(error);
                     return;

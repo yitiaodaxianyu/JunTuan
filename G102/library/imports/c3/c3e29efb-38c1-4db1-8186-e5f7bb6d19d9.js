@@ -5,6 +5,7 @@ cc._RF.push(module, 'c3e2977OMFNsYGG5fe7bRnZ', 'LoadManager');
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.LoadManager = exports.Load_Mode = void 0;
+var WXManagerEX_1 = require("../../startscene/WXManagerEX");
 var Constants_1 = require("../Constants");
 var Load_Mode;
 (function (Load_Mode) {
@@ -34,7 +35,7 @@ var LoadManager = /** @class */ (function () {
     };
     LoadManager.loadLocal = function (url, type, onComplete) {
         var _this = this;
-        cc.resources.load(url, type, function (error, assets) {
+        WXManagerEX_1.default.getInstance().resourcesBundle.load(url, type, function (error, assets) {
             if (error) {
                 console.log(error);
                 return;

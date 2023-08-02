@@ -78,6 +78,7 @@ import { RogueHexagonTypesManager } from "../copy/voidcrack/RogueHexagonTypes";
 import { FirstCompleteRewardManager } from "../Level/FirstCompleteReward";
 import { RogueLevelManager } from "../copy/voidcrack/RogueLevel";
 import { RoguefastPassManager } from "../copy/voidcrack/RoguefastPass";
+import WXManagerEX from "../../startscene/WXManagerEX";
 
 
 const {ccclass, property} = cc._decorator;
@@ -408,7 +409,7 @@ export default class Loading extends cc.Component {
     {        
         if(!TutorailsManager.getInstance().is_finish)
         {
-            cc.resources.loadDir('tutorials');
+            WXManagerEX.getInstance().resourcesBundle.loadDir('tutorials');
         }
     }
 

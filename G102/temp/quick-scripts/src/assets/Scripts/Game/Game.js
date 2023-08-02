@@ -23,6 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+var WXManagerEX_1 = require("../../startscene/WXManagerEX");
 var BossChallenge_1 = require("../Activity/BossChallenge");
 var BossGameUi_1 = require("../Activity/BossGameUi");
 var EndlessLevels_1 = require("../Activity/EndlessLevels");
@@ -284,7 +285,7 @@ var Game = /** @class */ (function (_super) {
         // }
         //预加载弓手Hero_Root
         // if (TutorailsManager.getInstance().is_finish_game == false && LevelManager.getInstance().start_level == 5) {
-        //     cc.resources.load('heros/hero8');
+        //     WXManagerEX.getInstance().resourcesBundle.load('heros/hero8');
         // }
     };
     Game.prototype.loadHero = function (heroType, posIndex, callback) {
@@ -304,7 +305,7 @@ var Game = /** @class */ (function (_super) {
         }
         var posX = xIndexTepm * 45 - 90;
         var posY = yIndexTepm * 60 - 120;
-        cc.resources.load('heros/hero' + heroType, cc.Prefab, function (error, assets) {
+        WXManagerEX_1.default.getInstance().resourcesBundle.load('heros/hero' + heroType, cc.Prefab, function (error, assets) {
             if (error) {
                 console.log(error);
                 return;
@@ -420,7 +421,7 @@ var Game = /** @class */ (function (_super) {
                     //         UIManager.getInstance().destroyNode(UIPath.CoinPop,node)
                     //     },0.5)
                     // },0.5)
-                    // cc.resources.load("ui/game/endless_game_ui", cc.Prefab, (error: Error, assets: cc.Prefab) => {
+                    // WXManagerEX.getInstance().resourcesBundle.load("ui/game/endless_game_ui", cc.Prefab, (error: Error, assets: cc.Prefab) => {
                     //     if (error) {
                     //         console.log(error);
                     //         return;
@@ -456,7 +457,7 @@ var Game = /** @class */ (function (_super) {
                     this.level_label.string = '0/1';
                     top.getChildByName("Boss").active = true;
                     top.getChildByName("Endless_Btn_Buff").active = false;
-                    cc.resources.load("ui/game/boss_game_ui", cc.Prefab, function (error, assets) {
+                    WXManagerEX_1.default.getInstance().resourcesBundle.load("ui/game/boss_game_ui", cc.Prefab, function (error, assets) {
                         if (error) {
                             console.log(error);
                             return;
@@ -522,7 +523,7 @@ var Game = /** @class */ (function (_super) {
         var fightingInfo = GameManager_1.default.getInstance().fighting_info;
         var bgName = fightingInfo.bg_name;
         this.cur_bg_name = bgName;
-        cc.resources.load(bgName, cc.SpriteFrame, function (error, assets) {
+        WXManagerEX_1.default.getInstance().resourcesBundle.load(bgName, cc.SpriteFrame, function (error, assets) {
             if (error) {
                 console.log(error);
                 return;
@@ -530,7 +531,7 @@ var Game = /** @class */ (function (_super) {
             _this.bg0.getComponent(cc.Sprite).spriteFrame = assets;
             _this.bg1.getComponent(cc.Sprite).spriteFrame = assets;
         });
-        cc.resources.load(fightingInfo.wall_name, cc.SpriteFrame, function (error, assets) {
+        WXManagerEX_1.default.getInstance().resourcesBundle.load(fightingInfo.wall_name, cc.SpriteFrame, function (error, assets) {
             if (error) {
                 console.log(error);
                 return;

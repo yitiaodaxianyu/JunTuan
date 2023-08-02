@@ -1,3 +1,4 @@
+import WXManagerEX from "../../startscene/WXManagerEX";
 
 
 const {ccclass, property} = cc._decorator;
@@ -44,7 +45,7 @@ export default class UIPool extends cc.Component {
         }
 
         this.preload_path.push(pathId);
-        cc.resources.load(pathId,cc.Prefab,(error: Error, assets:cc.Prefab)=> {
+        WXManagerEX.getInstance().resourcesBundle.load(pathId,cc.Prefab,(error: Error, assets:cc.Prefab)=> {
             if(error){
                 console.log(error);
                 return;

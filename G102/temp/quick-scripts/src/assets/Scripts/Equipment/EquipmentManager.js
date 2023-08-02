@@ -20,6 +20,7 @@ var EquipmentLevelUpCost_1 = require("./Data/EquipmentLevelUpCost");
 var MyTool_1 = require("../Tools/MyTool");
 var CombatEffectiveness_1 = require("../Hero/Data/CombatEffectiveness");
 var HeroManager_1 = require("../Hero/Data/HeroManager");
+var WXManagerEX_1 = require("../../startscene/WXManagerEX");
 var EquipmentManager = /** @class */ (function () {
     function EquipmentManager() {
         //资源
@@ -49,7 +50,7 @@ var EquipmentManager = /** @class */ (function () {
     //-----------------------资源的读取-----------------------------
     EquipmentManager.prototype.loadPrefab = function () {
         var _this = this;
-        cc.resources.load('equipment/equipItem', cc.Prefab, function (error, assets) {
+        WXManagerEX_1.default.getInstance().resourcesBundle.load('equipment/equipItem', cc.Prefab, function (error, assets) {
             if (error) {
                 console.log(error);
                 return;
@@ -57,12 +58,12 @@ var EquipmentManager = /** @class */ (function () {
             console.log('加载prefab_equip成功');
             assets.addRef();
             _this.item_equip = assets;
-            //cc.resources.release("equipment/equipItem",cc.Prefab);
+            //WXManagerEX.getInstance().resourcesBundle.release("equipment/equipItem",cc.Prefab);
         });
     };
     EquipmentManager.prototype.loadSalePrefab = function () {
         var _this = this;
-        cc.resources.load('equipment/saleEquipment', cc.Prefab, function (error, assets) {
+        WXManagerEX_1.default.getInstance().resourcesBundle.load('equipment/saleEquipment', cc.Prefab, function (error, assets) {
             if (error) {
                 console.log(error);
                 return;
@@ -70,14 +71,14 @@ var EquipmentManager = /** @class */ (function () {
             console.log('加载prefab_saleEquipment成功');
             assets.addRef();
             _this.item_sale_equip = assets;
-            //cc.resources.release("equipment/equipItem",cc.Prefab);
+            //WXManagerEX.getInstance().resourcesBundle.release("equipment/equipItem",cc.Prefab);
         });
     };
     EquipmentManager.prototype.loadSp = function () {
         var _this = this;
         if (this.sprite_atlas)
             return;
-        cc.resources.load('equipment/equipment', cc.SpriteAtlas, function (error, assets) {
+        WXManagerEX_1.default.getInstance().resourcesBundle.load('equipment/equipment', cc.SpriteAtlas, function (error, assets) {
             if (error) {
                 console.log(error);
                 return;

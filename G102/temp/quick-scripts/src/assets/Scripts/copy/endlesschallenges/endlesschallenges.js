@@ -29,6 +29,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+var WXManagerEX_1 = require("../../../startscene/WXManagerEX");
 var HttpManager_1 = require("../.././NetWork/HttpManager");
 var BossChallenge_1 = require("../../Activity/BossChallenge");
 var EndlessLevels_1 = require("../../Activity/EndlessLevels");
@@ -380,7 +381,7 @@ var endlesschallenges = /** @class */ (function (_super) {
                 var elitetype = MonsterConfigure_1.MonsterConfigureManager.getInstance().getMonsterClass(EliteMonster[index]);
                 var path = "monster/ui/Monster_" + elitetype;
                 var node_1 = null;
-                cc.resources.load(path, cc.Prefab, function (error, assets) {
+                WXManagerEX_1.default.getInstance().resourcesBundle.load(path, cc.Prefab, function (error, assets) {
                     if (error) {
                         cc.log(error);
                         return;

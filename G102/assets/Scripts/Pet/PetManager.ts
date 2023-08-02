@@ -1,3 +1,4 @@
+import WXManagerEX from "../../startscene/WXManagerEX";
 import { CombatEffectivenessManager } from "../Hero/Data/CombatEffectiveness";
 import { HeroManager } from "../Hero/Data/HeroManager";
 import { Hero_Type } from "../Hero/Game/HeroConfig";
@@ -44,7 +45,7 @@ export class PetManager {
     }
 
     public loadPrefab(){
-        cc.resources.load('pet/ui/petItem',cc.Prefab,(error: Error, assets:cc.Prefab)=>{
+        WXManagerEX.getInstance().resourcesBundle.load('pet/ui/petItem',cc.Prefab,(error: Error, assets:cc.Prefab)=>{
             if(error)
             {
                 console.log(error);

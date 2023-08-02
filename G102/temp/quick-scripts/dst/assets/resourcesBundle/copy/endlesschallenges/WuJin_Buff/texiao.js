@@ -2,7 +2,7 @@
                 (function() {
                     var nodeEnv = typeof require !== 'undefined' && typeof process !== 'undefined';
                     var __module = nodeEnv ? module : {exports:{}};
-                    var __filename = 'preview-scripts/assets/resources/copy/endlesschallenges/WuJin_Buff/texiao.js';
+                    var __filename = 'preview-scripts/assets/resourcesBundle/copy/endlesschallenges/WuJin_Buff/texiao.js';
                     var __require = nodeEnv ? function (request) {
                         return cc.require(request);
                     } : function (request) {

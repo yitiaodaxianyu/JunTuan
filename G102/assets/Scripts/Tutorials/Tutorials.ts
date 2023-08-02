@@ -1,3 +1,4 @@
+import WXManagerEX from "../../startscene/WXManagerEX";
 import { GameMode, GameScene, Go_Type, JiaSu} from "../Constants";
 import GameManager from "../GameManager";
 import { HeroBaseInfoManager } from "../Hero/Data/HeroBaseInfo";
@@ -58,7 +59,7 @@ export default class Tutorials extends cc.Component {
         // }
         //展示出来
         let idStr='t'+id;
-        cc.resources.load('tutorials/'+idStr,cc.Prefab,(error: Error, assets:cc.Prefab)=>{
+        WXManagerEX.getInstance().resourcesBundle.load('tutorials/'+idStr,cc.Prefab,(error: Error, assets:cc.Prefab)=>{
             if(error)
             {
                 console.log(error);

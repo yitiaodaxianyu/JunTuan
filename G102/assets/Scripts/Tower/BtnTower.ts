@@ -1,3 +1,4 @@
+import WXManagerEX from "../../startscene/WXManagerEX";
 import { TableMonsterData } from "../Level/MissionLevel";
 import { MonsterConfigureManager } from "../Monster/Data/MonsterConfigure";
 import Monster from "../Monster/Monster";
@@ -137,7 +138,7 @@ export default class BtnTower extends cc.Component {
     private loadPrefab(type:string,id){
         let path = "monster/ui/Monster_" + type;
         let node:cc.Node = null;
-        cc.resources.load(path,cc.Prefab,(error: Error, assets:cc.Prefab)=>{  
+        WXManagerEX.getInstance().resourcesBundle.load(path,cc.Prefab,(error: Error, assets:cc.Prefab)=>{  
             if(error){
                 cc.log(error);
                 return;

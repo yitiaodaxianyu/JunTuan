@@ -1,3 +1,4 @@
+import WXManagerEX from "../../startscene/WXManagerEX";
 import GameManager from "../GameManager";
 import { SoundIndex } from "./AudioConstants";
 
@@ -25,7 +26,7 @@ export default class Sound extends cc.Component {
     loadAllAudioAsset()
     {
         //根据游戏场景加载对应的音效资源        
-        cc.resources.loadDir('sounds/'+GameManager.getInstance().cur_game_scene,cc.AudioClip,(error: Error, assets:cc.AudioClip[])=>{
+        WXManagerEX.getInstance().resourcesBundle.loadDir('sounds/'+GameManager.getInstance().cur_game_scene,cc.AudioClip,(error: Error, assets:cc.AudioClip[])=>{
             if(error)
             {
                 console.log(error);
@@ -117,7 +118,7 @@ export default class Sound extends cc.Component {
                 }
             }else
             {
-                cc.resources.load('sounds/'+GameManager.getInstance().cur_game_scene+'/'+soundIndex,cc.AudioClip,(error: Error, assets:cc.AudioClip)=>{
+                WXManagerEX.getInstance().resourcesBundle.load('sounds/'+GameManager.getInstance().cur_game_scene+'/'+soundIndex,cc.AudioClip,(error: Error, assets:cc.AudioClip)=>{
                     if(error)
                     {
                         console.log(error);

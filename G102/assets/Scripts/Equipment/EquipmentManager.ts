@@ -15,6 +15,7 @@ import { EquipmentLevelUpCostManager } from "./Data/EquipmentLevelUpCost";
 import MyTool from "../Tools/MyTool";
 import { CombatEffectivenessManager } from "../Hero/Data/CombatEffectiveness";
 import { HeroManager } from "../Hero/Data/HeroManager";
+import WXManagerEX from "../../startscene/WXManagerEX";
 
 export class EquipmentManager {
 
@@ -46,7 +47,7 @@ export class EquipmentManager {
     }
     //-----------------------资源的读取-----------------------------
     public loadPrefab(){
-        cc.resources.load('equipment/equipItem',cc.Prefab,(error: Error, assets:cc.Prefab)=>{
+        WXManagerEX.getInstance().resourcesBundle.load('equipment/equipItem',cc.Prefab,(error: Error, assets:cc.Prefab)=>{
             if(error)
             {
                 console.log(error);
@@ -55,12 +56,12 @@ export class EquipmentManager {
             console.log('加载prefab_equip成功');
             assets.addRef();
             this.item_equip=assets;
-            //cc.resources.release("equipment/equipItem",cc.Prefab);
+            //WXManagerEX.getInstance().resourcesBundle.release("equipment/equipItem",cc.Prefab);
         });
     }
 
     public loadSalePrefab(){
-        cc.resources.load('equipment/saleEquipment',cc.Prefab,(error: Error, assets:cc.Prefab)=>{
+        WXManagerEX.getInstance().resourcesBundle.load('equipment/saleEquipment',cc.Prefab,(error: Error, assets:cc.Prefab)=>{
             if(error)
             {
                 console.log(error);
@@ -69,14 +70,14 @@ export class EquipmentManager {
             console.log('加载prefab_saleEquipment成功');
             assets.addRef();
             this.item_sale_equip=assets;
-            //cc.resources.release("equipment/equipItem",cc.Prefab);
+            //WXManagerEX.getInstance().resourcesBundle.release("equipment/equipItem",cc.Prefab);
         });
     }
 
     private loadSp(){
         if(this.sprite_atlas)
         return;
-        cc.resources.load('equipment/equipment',cc.SpriteAtlas,(error: Error, assets:cc.SpriteAtlas)=>{
+        WXManagerEX.getInstance().resourcesBundle.load('equipment/equipment',cc.SpriteAtlas,(error: Error, assets:cc.SpriteAtlas)=>{
             if(error)
             {
                 console.log(error);

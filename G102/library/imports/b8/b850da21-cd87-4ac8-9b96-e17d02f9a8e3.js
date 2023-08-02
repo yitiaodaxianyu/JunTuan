@@ -23,6 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+var WXManagerEX_1 = require("../../../startscene/WXManagerEX");
 var ApkManager_1 = require("../../Ads/ApkManager");
 var GameManager_1 = require("../../GameManager");
 var LanguageManager_1 = require("../../multiLanguage/LanguageManager");
@@ -411,7 +412,7 @@ var PetAdvanceUi = /** @class */ (function (_super) {
         GameManager_1.default.getInstance().showMessage(LanguageManager_1.default.getInstance().getStrByTextId(100049));
     };
     PetAdvanceUi.prototype.loadPrefab = function (petId, parent) {
-        cc.resources.load("pet/ui/pet_" + petId, cc.Prefab, function (error, assets) {
+        WXManagerEX_1.default.getInstance().resourcesBundle.load("pet/ui/pet_" + petId, cc.Prefab, function (error, assets) {
             if (error) {
                 cc.log(error);
                 return;

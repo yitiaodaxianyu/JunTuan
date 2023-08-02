@@ -6,6 +6,7 @@ import GameManager from "./GameManager";
 import { PlayerLevelUpManager } from "./JsonData/PlayerLevelUp";
 import { UILayerLevel, UIPath } from "./UI/UIConfig";
 import { UIManager } from "./UI/UIManager";
+import WXManagerEX from "../startscene/WXManagerEX";
 
 export default class UserData {
 
@@ -239,7 +240,7 @@ export default class UserData {
             HttpManager.post(AccessName.versionGet,JSON.stringify({})).then((data:any)=>{
                 if(data){
                     if(data>CurVersionCode){
-                        cc.resources.load("loading/version_tip",cc.Prefab,(error: Error, assets:cc.Prefab)=>{  
+                        WXManagerEX.getInstance().resourcesBundle.load("loading/version_tip",cc.Prefab,(error: Error, assets:cc.Prefab)=>{  
                             if(error){
                                 cc.log(error);
                                 return;

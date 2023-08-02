@@ -65,6 +65,7 @@ var HeroBaseInfo_1 = require("./Hero/Data/HeroBaseInfo");
 var EquipmentAttribute_1 = require("./Equipment/Data/EquipmentAttribute");
 var ExclusiveWeaponMessage_1 = require("./JsonData/ExclusiveWeaponMessage");
 var RewardSSUi_1 = require("./Tutorials/RewardSSUi");
+var WXManagerEX_1 = require("../startscene/WXManagerEX");
 var ccclass = cc._decorator.ccclass;
 var GameManager = /** @class */ (function (_super) {
     __extends(GameManager, _super);
@@ -472,7 +473,7 @@ var GameManager = /** @class */ (function (_super) {
     GameManager.prototype.loadTip = function () {
         var _this = this;
         if (!this.prefab_hint) {
-            cc.resources.load('hint', cc.Prefab, function (error, assets) {
+            WXManagerEX_1.default.getInstance().resourcesBundle.load('hint', cc.Prefab, function (error, assets) {
                 if (error) {
                     console.log(error);
                     return;
@@ -481,7 +482,7 @@ var GameManager = /** @class */ (function (_super) {
             });
         }
         if (!this.prefab_get_tip) {
-            cc.resources.load('get_tip', cc.Prefab, function (error, assets) {
+            WXManagerEX_1.default.getInstance().resourcesBundle.load('get_tip', cc.Prefab, function (error, assets) {
                 if (error) {
                     console.log(error);
                     return;
@@ -492,7 +493,7 @@ var GameManager = /** @class */ (function (_super) {
     };
     GameManager.prototype.showMessage = function (message, dt) {
         if (this.prefab_hint == null) {
-            cc.resources.load('hint', cc.Prefab, function (error, assets) {
+            WXManagerEX_1.default.getInstance().resourcesBundle.load('hint', cc.Prefab, function (error, assets) {
                 if (error) {
                     console.log(error);
                     return;
@@ -512,7 +513,7 @@ var GameManager = /** @class */ (function (_super) {
     };
     GameManager.prototype.showGetTip = function (getNode, callBack) {
         if (this.prefab_hint == null) {
-            cc.resources.load('get_tip', cc.Prefab, function (error, assets) {
+            WXManagerEX_1.default.getInstance().resourcesBundle.load('get_tip', cc.Prefab, function (error, assets) {
                 if (error) {
                     console.log(error);
                     return;
@@ -530,7 +531,7 @@ var GameManager = /** @class */ (function (_super) {
     };
     GameManager.prototype.showMultipleGetTip = function (getNodes, callBack) {
         if (this.prefab_hint == null) {
-            cc.resources.load('get_tip', cc.Prefab, function (error, assets) {
+            WXManagerEX_1.default.getInstance().resourcesBundle.load('get_tip', cc.Prefab, function (error, assets) {
                 if (error) {
                     console.log(error);
                     return;
@@ -551,7 +552,7 @@ var GameManager = /** @class */ (function (_super) {
             return;
         }
         this.is_show_exit = true;
-        cc.resources.load('dialog', cc.Prefab, function (error, assets) {
+        WXManagerEX_1.default.getInstance().resourcesBundle.load('dialog', cc.Prefab, function (error, assets) {
             if (error) {
                 console.log(error);
                 return;
@@ -565,7 +566,7 @@ var GameManager = /** @class */ (function (_super) {
         });
     };
     GameManager.prototype.showBuyDialog = function (message, yesCallback, noCallback, showType, y, currency) {
-        cc.resources.load('dialog', cc.Prefab, function (error, assets) {
+        WXManagerEX_1.default.getInstance().resourcesBundle.load('dialog', cc.Prefab, function (error, assets) {
             if (error) {
                 console.log(error);
                 return;
@@ -579,7 +580,7 @@ var GameManager = /** @class */ (function (_super) {
         });
     };
     GameManager.prototype.showLocalVideo = function (yesCallback, noCallback, isVideo) {
-        cc.resources.load('video_dialog', cc.Prefab, function (error, assets) {
+        WXManagerEX_1.default.getInstance().resourcesBundle.load('video_dialog', cc.Prefab, function (error, assets) {
             if (error) {
                 console.log(error);
                 return;
@@ -1113,7 +1114,7 @@ var GameManager = /** @class */ (function (_super) {
     GameManager.prototype.showDangerText = function () {
         var dangerText = cc.find('Canvas/Fighting_Ui/dangerText');
         if (dangerText == null) {
-            cc.resources.load('ui/game/dangerText', cc.Prefab, function (error, assets) {
+            WXManagerEX_1.default.getInstance().resourcesBundle.load('ui/game/dangerText', cc.Prefab, function (error, assets) {
                 if (error) {
                     console.log(error);
                     return;
@@ -1245,7 +1246,7 @@ var GameManager = /** @class */ (function (_super) {
         this.cur_game_state = Constants_1.GameState.Game_Pause;
         //延迟展示
         this.scheduleOnce(function () {
-            cc.resources.load('ui/game/select_skill', cc.Prefab, function (error, assets) {
+            WXManagerEX_1.default.getInstance().resourcesBundle.load('ui/game/select_skill', cc.Prefab, function (error, assets) {
                 if (error) {
                     console.log(error);
                     return;
@@ -1262,7 +1263,7 @@ var GameManager = /** @class */ (function (_super) {
     };
     GameManager.prototype.showUnlockSkill = function (yesCallback, noCallback) {
         this.cur_game_state = Constants_1.GameState.Game_Pause;
-        cc.resources.load('ui/game/unlock_ui', cc.Prefab, function (error, assets) {
+        WXManagerEX_1.default.getInstance().resourcesBundle.load('ui/game/unlock_ui', cc.Prefab, function (error, assets) {
             if (error) {
                 console.log(error);
                 return;
@@ -1355,7 +1356,7 @@ var GameManager = /** @class */ (function (_super) {
         this.resetRate();
         this.game.setBtnRateShow();
         //LevelManager.getInstance().saveLevelWave(LevelManager.getInstance().start_level,this.cur_wave);
-        cc.resources.load('ui/game/fuhuo_ui', cc.Prefab, function (error, assets) {
+        WXManagerEX_1.default.getInstance().resourcesBundle.load('ui/game/fuhuo_ui', cc.Prefab, function (error, assets) {
             if (error) {
                 console.log(error);
                 return;
@@ -1444,7 +1445,7 @@ var GameManager = /** @class */ (function (_super) {
         }).start();
     };
     GameManager.prototype.showBossWarning = function () {
-        cc.resources.load('ui/game/boss_warning', cc.Prefab, function (error, assets) {
+        WXManagerEX_1.default.getInstance().resourcesBundle.load('ui/game/boss_warning', cc.Prefab, function (error, assets) {
             if (error) {
                 console.log(error);
                 return;
@@ -1484,7 +1485,7 @@ var GameManager = /** @class */ (function (_super) {
     GameManager.prototype.showSpeedUpUi = function () {
         var _this = this;
         if (this.cur_game_scene == Constants_1.GameScene.game) {
-            cc.resources.load('ui/game/speed_ui', cc.Prefab, function (error, assets) {
+            WXManagerEX_1.default.getInstance().resourcesBundle.load('ui/game/speed_ui', cc.Prefab, function (error, assets) {
                 if (error) {
                     console.log(error);
                     return;

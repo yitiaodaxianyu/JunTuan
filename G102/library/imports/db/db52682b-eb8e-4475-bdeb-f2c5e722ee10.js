@@ -23,6 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+var WXManagerEX_1 = require("../../startscene/WXManagerEX");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var UIPool = /** @class */ (function (_super) {
     __extends(UIPool, _super);
@@ -67,7 +68,7 @@ var UIPool = /** @class */ (function (_super) {
             return false;
         }
         this.preload_path.push(pathId);
-        cc.resources.load(pathId, cc.Prefab, function (error, assets) {
+        WXManagerEX_1.default.getInstance().resourcesBundle.load(pathId, cc.Prefab, function (error, assets) {
             if (error) {
                 console.log(error);
                 return;

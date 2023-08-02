@@ -10,6 +10,7 @@ var GameManager_1 = require("./GameManager");
 var PlayerLevelUp_1 = require("./JsonData/PlayerLevelUp");
 var UIConfig_1 = require("./UI/UIConfig");
 var UIManager_1 = require("./UI/UIManager");
+var WXManagerEX_1 = require("../startscene/WXManagerEX");
 var UserData = /** @class */ (function () {
     function UserData() {
         /**用户的服务器数据是否加载完毕 */
@@ -199,7 +200,7 @@ var UserData = /** @class */ (function () {
             HttpManager_1.HttpManager.post(HttpManager_1.AccessName.versionGet, JSON.stringify({})).then(function (data) {
                 if (data) {
                     if (data > Constants_1.CurVersionCode) {
-                        cc.resources.load("loading/version_tip", cc.Prefab, function (error, assets) {
+                        WXManagerEX_1.default.getInstance().resourcesBundle.load("loading/version_tip", cc.Prefab, function (error, assets) {
                             if (error) {
                                 cc.log(error);
                                 return;

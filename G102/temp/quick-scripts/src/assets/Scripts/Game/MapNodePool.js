@@ -23,6 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+var WXManagerEX_1 = require("../../startscene/WXManagerEX");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var MapNodePool = /** @class */ (function (_super) {
     __extends(MapNodePool, _super);
@@ -53,7 +54,7 @@ var MapNodePool = /** @class */ (function (_super) {
             return false;
         }
         this.preload_id.push(id);
-        cc.resources.load(path, cc.Prefab, function (error, assets) {
+        WXManagerEX_1.default.getInstance().resourcesBundle.load(path, cc.Prefab, function (error, assets) {
             if (error) {
                 console.log(error);
                 return;

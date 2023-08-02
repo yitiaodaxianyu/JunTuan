@@ -23,6 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+var WXManagerEX_1 = require("../../../startscene/WXManagerEX");
 var BossChallenge_1 = require("../../Activity/BossChallenge");
 var EndlessLevels_1 = require("../../Activity/EndlessLevels");
 var Constants_1 = require("../../Constants");
@@ -86,7 +87,7 @@ var ToPlayPreviewUi = /** @class */ (function (_super) {
         GameManager_1.default.getInstance().fighting_info = fightingInfo;
         var bg1 = this.node.getChildByName('bg1');
         this.node.getChildByName("levelLabel").getComponent(cc.Label).string = fightingInfo.title_name;
-        cc.resources.load(fightingInfo.bg_name, cc.SpriteFrame, function (error, assets) {
+        WXManagerEX_1.default.getInstance().resourcesBundle.load(fightingInfo.bg_name, cc.SpriteFrame, function (error, assets) {
             if (error) {
                 console.log(error);
                 return;
@@ -106,7 +107,7 @@ var ToPlayPreviewUi = /** @class */ (function (_super) {
         var _this = this;
         var path = "monster/ui/Monster_" + type;
         var node = null;
-        cc.resources.load(path, cc.Prefab, function (error, assets) {
+        WXManagerEX_1.default.getInstance().resourcesBundle.load(path, cc.Prefab, function (error, assets) {
             if (error) {
                 cc.log(error);
                 return;

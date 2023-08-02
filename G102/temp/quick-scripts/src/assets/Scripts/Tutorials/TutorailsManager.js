@@ -10,6 +10,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+var WXManagerEX_1 = require("../../startscene/WXManagerEX");
 var Tutorials_1 = require("./Tutorials");
 var ccclass = cc._decorator.ccclass;
 var TutorailsManager = /** @class */ (function () {
@@ -74,7 +75,7 @@ var TutorailsManager = /** @class */ (function () {
             this.is_tutorails_state = true;
             if (beginCallback)
                 beginCallback();
-            cc.resources.load('tutorials/tutorials_root', cc.Prefab, function (error, assets) {
+            WXManagerEX_1.default.getInstance().resourcesBundle.load('tutorials/tutorials_root', cc.Prefab, function (error, assets) {
                 if (error) {
                     console.log(error);
                     return;

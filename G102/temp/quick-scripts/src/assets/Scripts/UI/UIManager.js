@@ -55,6 +55,7 @@ var UIComponent_1 = require("./UIComponent");
 var HttpManager_1 = require("../NetWork/HttpManager");
 var LanguageManager_1 = require("../multiLanguage/LanguageManager");
 var CombatNumEffect_1 = require("../CombatNumEffect");
+var WXManagerEX_1 = require("../../startscene/WXManagerEX");
 var Combat = /** @class */ (function () {
     function Combat() {
     }
@@ -131,7 +132,7 @@ var UIManager = /** @class */ (function (_super) {
         var _this = this;
         var prefab = this.map_prefabs_old.get(path);
         if (!prefab) {
-            cc.resources.load(path, cc.Prefab, function (error, assets) {
+            WXManagerEX_1.default.getInstance().resourcesBundle.load(path, cc.Prefab, function (error, assets) {
                 if (error) {
                     cc.log(error);
                     return;
@@ -152,7 +153,7 @@ var UIManager = /** @class */ (function (_super) {
         var _this = this;
         var prefab = this.map_prefabs_old.get(path);
         if (!prefab) {
-            cc.resources.load(path, cc.Prefab, function (error, assets) {
+            WXManagerEX_1.default.getInstance().resourcesBundle.load(path, cc.Prefab, function (error, assets) {
                 if (error) {
                     cc.log(error);
                     return;

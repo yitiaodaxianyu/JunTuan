@@ -15,6 +15,7 @@ import { PetInfo } from "../PetConfig";
 import { PetManager } from "../PetManager";
 import { UILayerLevel, UIPath } from "../../UI/UIConfig";
 import AtrributeUi from "../../UI/home/AtrributeUi";
+import WXManagerEX from "../../../startscene/WXManagerEX";
 
 const {ccclass, property} = cc._decorator;
 
@@ -177,7 +178,7 @@ export default class PetUpgradeUi extends UIComponent {
 
 
     loadPrefab(petId: string,parent:cc.Node) {
-        cc.resources.load("pet/ui/pet_"+petId, cc.Prefab, (error: Error, assets: cc.Prefab) => {
+        WXManagerEX.getInstance().resourcesBundle.load("pet/ui/pet_"+petId, cc.Prefab, (error: Error, assets: cc.Prefab) => {
             if (error) {
                 cc.log(error);
                 return;

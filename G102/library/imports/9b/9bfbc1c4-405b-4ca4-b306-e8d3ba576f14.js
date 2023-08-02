@@ -46,7 +46,15 @@ var StartScene = /** @class */ (function (_super) {
                 return console.error(err);
             }
             console.log('load subpackage successfully.');
-            cc.director.loadScene("load");
+            cc.assetManager.loadBundle('resourcesBundle', function (err, bundle) {
+                if (err) {
+                    console.error("加载resourcesBundle失败");
+                    return;
+                }
+                //因为加载代码引入的原因只能先放到这里
+                WXManagerEX_1.default.getInstance().resourcesBundle = cc.assetManager.getBundle('resourcesBundle');
+                cc.director.loadScene("load");
+            });
         });
     };
     StartScene = __decorate([

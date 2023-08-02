@@ -1,3 +1,4 @@
+import WXManagerEX from "../../startscene/WXManagerEX";
 import { HttpManager, Params_Type, AccessName, PropObject } from ".././NetWork/HttpManager";
 import { EquipmentAttributeManager } from "../Equipment/Data/EquipmentAttribute";
 import { EquipInfo, EquipType } from "../Equipment/EquipConfig";
@@ -50,7 +51,7 @@ export class PropManager {
     private loadItemPrefab(){
         if(this.prop_item)
         return;
-        cc.resources.load('prop/item',cc.Prefab,(error: Error, assets:cc.Prefab)=>{
+        WXManagerEX.getInstance().resourcesBundle.load('prop/item',cc.Prefab,(error: Error, assets:cc.Prefab)=>{
             if(error)
             {
                 console.log(error);
@@ -63,7 +64,7 @@ export class PropManager {
     private loadSaleItemPrefab(){
         if(this.prop_sale_item)
         return;
-        cc.resources.load('prop/saleItem',cc.Prefab,(error: Error, assets:cc.Prefab)=>{
+        WXManagerEX.getInstance().resourcesBundle.load('prop/saleItem',cc.Prefab,(error: Error, assets:cc.Prefab)=>{
             if(error)
             {
                 console.log(error);
@@ -76,7 +77,7 @@ export class PropManager {
     private loadSp(){
         if(this.item_atlas)
         return;
-        cc.resources.load('prop/item_list',cc.SpriteAtlas,(error: Error, assets:cc.SpriteAtlas)=>{
+        WXManagerEX.getInstance().resourcesBundle.load('prop/item_list',cc.SpriteAtlas,(error: Error, assets:cc.SpriteAtlas)=>{
             if(error)
             {
                 console.log(error);

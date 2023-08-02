@@ -10,6 +10,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+var WXManagerEX_1 = require("../../startscene/WXManagerEX");
 var ApkManager_1 = require("../Ads/ApkManager");
 var Constants_1 = require("../Constants");
 var TextManagement_1 = require("../JsonData/TextManagement");
@@ -52,7 +53,7 @@ var LanguageManager = /** @class */ (function () {
             return;
         }
         this.ImagerLanguage_sprite = new Map();
-        cc.resources.loadDir('Multilingual', cc.SpriteFrame, function (error, assets) {
+        WXManagerEX_1.default.getInstance().resourcesBundle.loadDir('Multilingual', cc.SpriteFrame, function (error, assets) {
             if (error) {
                 console.log(error);
                 return;
@@ -211,7 +212,7 @@ var LanguageManager = /** @class */ (function () {
     //图片翻译的
     LanguageManager.prototype.loadSpriteAtlas = function () {
         var _this = this;
-        cc.resources.load('sp/language_sprite', cc.SpriteAtlas, function (error, assets) {
+        WXManagerEX_1.default.getInstance().resourcesBundle.load('sp/language_sprite', cc.SpriteAtlas, function (error, assets) {
             if (error) {
                 console.log(error);
                 return;

@@ -5,6 +5,7 @@ cc._RF.push(module, 'e3814ZCIjpHno6z/wd90uS/', 'PetManager');
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.PetManager = exports.SpiritType = void 0;
+var WXManagerEX_1 = require("../../startscene/WXManagerEX");
 var CombatEffectiveness_1 = require("../Hero/Data/CombatEffectiveness");
 var HeroManager_1 = require("../Hero/Data/HeroManager");
 var HeroConfig_1 = require("../Hero/Game/HeroConfig");
@@ -46,7 +47,7 @@ var PetManager = /** @class */ (function () {
     };
     PetManager.prototype.loadPrefab = function () {
         var _this = this;
-        cc.resources.load('pet/ui/petItem', cc.Prefab, function (error, assets) {
+        WXManagerEX_1.default.getInstance().resourcesBundle.load('pet/ui/petItem', cc.Prefab, function (error, assets) {
             if (error) {
                 console.log(error);
                 return;

@@ -41,6 +41,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.PropManager = void 0;
+var WXManagerEX_1 = require("../../startscene/WXManagerEX");
 var HttpManager_1 = require(".././NetWork/HttpManager");
 var EquipmentAttribute_1 = require("../Equipment/Data/EquipmentAttribute");
 var EquipConfig_1 = require("../Equipment/EquipConfig");
@@ -86,7 +87,7 @@ var PropManager = /** @class */ (function () {
         var _this = this;
         if (this.prop_item)
             return;
-        cc.resources.load('prop/item', cc.Prefab, function (error, assets) {
+        WXManagerEX_1.default.getInstance().resourcesBundle.load('prop/item', cc.Prefab, function (error, assets) {
             if (error) {
                 console.log(error);
                 return;
@@ -98,7 +99,7 @@ var PropManager = /** @class */ (function () {
         var _this = this;
         if (this.prop_sale_item)
             return;
-        cc.resources.load('prop/saleItem', cc.Prefab, function (error, assets) {
+        WXManagerEX_1.default.getInstance().resourcesBundle.load('prop/saleItem', cc.Prefab, function (error, assets) {
             if (error) {
                 console.log(error);
                 return;
@@ -110,7 +111,7 @@ var PropManager = /** @class */ (function () {
         var _this = this;
         if (this.item_atlas)
             return;
-        cc.resources.load('prop/item_list', cc.SpriteAtlas, function (error, assets) {
+        WXManagerEX_1.default.getInstance().resourcesBundle.load('prop/item_list', cc.SpriteAtlas, function (error, assets) {
             if (error) {
                 console.log(error);
                 return;

@@ -1,3 +1,4 @@
+import WXManagerEX from "../../../startscene/WXManagerEX";
 import { BossChallengeManager } from "../../Activity/BossChallenge";
 import { EndlessLevelsManager } from "../../Activity/EndlessLevels";
 import { FightingInfo, GameMode } from "../../Constants";
@@ -63,7 +64,7 @@ export default class ToPlayPreviewUi extends UIComponent {
         let bg1=this.node.getChildByName('bg1');
         this.node.getChildByName("levelLabel").getComponent(cc.Label).string =fightingInfo.title_name;
 
-        cc.resources.load(fightingInfo.bg_name,cc.SpriteFrame,(error: Error, assets:cc.SpriteFrame)=>{
+        WXManagerEX.getInstance().resourcesBundle.load(fightingInfo.bg_name,cc.SpriteFrame,(error: Error, assets:cc.SpriteFrame)=>{
             if(error)
             {
                 console.log(error);
@@ -84,7 +85,7 @@ export default class ToPlayPreviewUi extends UIComponent {
     private loadPrefab(type:string,key,value){
         let path = "monster/ui/Monster_" + type;
         let node:cc.Node = null;
-        cc.resources.load(path,cc.Prefab,(error: Error, assets:cc.Prefab)=>{  
+        WXManagerEX.getInstance().resourcesBundle.load(path,cc.Prefab,(error: Error, assets:cc.Prefab)=>{  
             if(error){
                 cc.log(error);
                 return;

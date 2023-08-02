@@ -1,3 +1,4 @@
+import WXManagerEX from "../../../startscene/WXManagerEX";
 import { BossChallengeManager } from "../../Activity/BossChallenge";
 import { EndlessLevelsManager } from "../../Activity/EndlessLevels";
 import ApkManager from "../../Ads/ApkManager";
@@ -320,7 +321,7 @@ export default class ToPlayMainUi extends UIComponent {
                 let path = "monster/ui/Monster_" + type;
                 let node:cc.Node = null;
 
-                cc.resources.load(path,cc.Prefab,(error: Error, assets:cc.Prefab)=>{  
+                WXManagerEX.getInstance().resourcesBundle.load(path,cc.Prefab,(error: Error, assets:cc.Prefab)=>{  
                     if(error){
                         cc.log(error);
                         return;

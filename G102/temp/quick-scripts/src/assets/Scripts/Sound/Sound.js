@@ -23,6 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+var WXManagerEX_1 = require("../../startscene/WXManagerEX");
 var GameManager_1 = require("../GameManager");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var Sound = /** @class */ (function (_super) {
@@ -48,7 +49,7 @@ var Sound = /** @class */ (function (_super) {
     Sound.prototype.loadAllAudioAsset = function () {
         var _this = this;
         //根据游戏场景加载对应的音效资源        
-        cc.resources.loadDir('sounds/' + GameManager_1.default.getInstance().cur_game_scene, cc.AudioClip, function (error, assets) {
+        WXManagerEX_1.default.getInstance().resourcesBundle.loadDir('sounds/' + GameManager_1.default.getInstance().cur_game_scene, cc.AudioClip, function (error, assets) {
             if (error) {
                 console.log(error);
                 return;
@@ -120,7 +121,7 @@ var Sound = /** @class */ (function (_super) {
                 }
             }
             else {
-                cc.resources.load('sounds/' + GameManager_1.default.getInstance().cur_game_scene + '/' + soundIndex, cc.AudioClip, function (error, assets) {
+                WXManagerEX_1.default.getInstance().resourcesBundle.load('sounds/' + GameManager_1.default.getInstance().cur_game_scene + '/' + soundIndex, cc.AudioClip, function (error, assets) {
                     if (error) {
                         console.log(error);
                         return;

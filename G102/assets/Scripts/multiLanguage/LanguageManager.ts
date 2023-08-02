@@ -1,3 +1,4 @@
+import WXManagerEX from "../../startscene/WXManagerEX";
 import ApkManager from "../Ads/ApkManager";
 import { CUR_Platform, IsDebug, Release_Platform, ValueType } from "../Constants";
 import { TextManagementManager } from "../JsonData/TextManagement";
@@ -50,7 +51,7 @@ export default class LanguageManager {
             return;
         }
         this.ImagerLanguage_sprite=new Map<string,cc.SpriteFrame>();
-        cc.resources.loadDir('Multilingual',cc.SpriteFrame,(error: Error, assets:cc.SpriteFrame[])=>{
+        WXManagerEX.getInstance().resourcesBundle.loadDir('Multilingual',cc.SpriteFrame,(error: Error, assets:cc.SpriteFrame[])=>{
             if(error)
             {
                 console.log(error);
@@ -212,7 +213,7 @@ export default class LanguageManager {
     //图片翻译的
     loadSpriteAtlas()
     {
-        cc.resources.load('sp/language_sprite',cc.SpriteAtlas,(error: Error, assets:cc.SpriteAtlas)=>{
+        WXManagerEX.getInstance().resourcesBundle.load('sp/language_sprite',cc.SpriteAtlas,(error: Error, assets:cc.SpriteAtlas)=>{
             if(error)
             {
                 console.log(error);

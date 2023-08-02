@@ -504,6 +504,6 @@ require('./assets/Scripts/multiLanguage/LanguageSprite');
 require('./assets/Scripts/multiLanguage/TextLanguage');
 require('./assets/Scripts/multiLanguage/lm');
 require('./assets/Scripts/thirdParty/ThirdParty');
-require('./assets/resources/copy/endlesschallenges/WuJin_Buff/texiao');
+require('./assets/resourcesBundle/copy/endlesschallenges/WuJin_Buff/texiao');
 require('./assets/startscene/StartScene');
 require('./assets/startscene/WXManagerEX');

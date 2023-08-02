@@ -1,3 +1,4 @@
+import WXManagerEX from "../../startscene/WXManagerEX";
 import { TutorialLevelManager } from "../Level/TutorialLevel";
 import { CourseTextManager } from "./CourseText";
 import Tutorials from "./Tutorials";
@@ -82,7 +83,7 @@ export default class TutorailsManager {
             this.is_tutorails_state=true;
             if(beginCallback)
             beginCallback();
-            cc.resources.load('tutorials/tutorials_root',cc.Prefab,(error: Error, assets:cc.Prefab)=>{
+            WXManagerEX.getInstance().resourcesBundle.load('tutorials/tutorials_root',cc.Prefab,(error: Error, assets:cc.Prefab)=>{
                 if(error)
                 {
                     console.log(error);

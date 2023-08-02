@@ -15,7 +15,7 @@ export default class SpeciesWarning extends cc.Component {
 
     loadEnemyDes(enemy:cc.Node)
     {
-        // cc.resources.load('enemy/enemy_des',cc.JsonAsset,(error: Error, assets:cc.JsonAsset)=>{
+        // WXManagerEX.getInstance().resourcesBundle.load('enemy/enemy_des',cc.JsonAsset,(error: Error, assets:cc.JsonAsset)=>{
         //     if(error)
         //     {
         //         console.log(error);

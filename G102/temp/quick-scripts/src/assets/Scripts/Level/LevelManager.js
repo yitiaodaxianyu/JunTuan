@@ -5,6 +5,7 @@ cc._RF.push(module, '994cc5U3CxFJYNkAe/orWvb', 'LevelManager');
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.LevelManager = void 0;
+var WXManagerEX_1 = require("../../startscene/WXManagerEX");
 var StorageConfig_1 = require("../Storage/StorageConfig");
 var StorageManager_1 = require("../Storage/StorageManager");
 var TutorailsManager_1 = require("../Tutorials/TutorailsManager");
@@ -187,7 +188,7 @@ var LevelManager = /** @class */ (function () {
             return;
         }
         this.maininterfacemap = new Map();
-        cc.resources.loadDir('map/maininterfacemap', cc.SpriteFrame, function (error, assets) {
+        WXManagerEX_1.default.getInstance().resourcesBundle.loadDir('map/maininterfacemap', cc.SpriteFrame, function (error, assets) {
             if (error) {
                 console.log(error);
                 return;

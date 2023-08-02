@@ -34,6 +34,7 @@ var UIComponent_1 = require("../../UI/UIComponent");
 var UIManager_1 = require("../../UI/UIManager");
 var UIConfig_1 = require("../../UI/UIConfig");
 var AtrributeUi_1 = require("../../UI/home/AtrributeUi");
+var WXManagerEX_1 = require("../../../startscene/WXManagerEX");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var PetUpgradeUi = /** @class */ (function (_super) {
     __extends(PetUpgradeUi, _super);
@@ -182,7 +183,7 @@ var PetUpgradeUi = /** @class */ (function (_super) {
         ApkManager_1.default.getInstance().closeBanner();
     };
     PetUpgradeUi.prototype.loadPrefab = function (petId, parent) {
-        cc.resources.load("pet/ui/pet_" + petId, cc.Prefab, function (error, assets) {
+        WXManagerEX_1.default.getInstance().resourcesBundle.load("pet/ui/pet_" + petId, cc.Prefab, function (error, assets) {
             if (error) {
                 cc.log(error);
                 return;

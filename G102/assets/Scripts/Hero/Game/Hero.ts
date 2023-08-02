@@ -28,6 +28,7 @@ import WindPet from "../../Pet/Game/WindPet";
 import RayPet from "../../Pet/Game/RayPet";
 import Monster from "../../Monster/Monster";
 import { instance } from "../../Game/TouchPlane/TouchPlane";
+import WXManagerEX from "../../../startscene/WXManagerEX";
 
 
 
@@ -330,7 +331,7 @@ export default class Hero extends cc.Component {
     private loadMpProgress() {
         // this.changeCD(this.hero_data.getSkillColdDown(SkillType.Active)/3);
         // this.skill_total_time=this.hero_data.getSkillColdDown(SkillType.Active);
-        // cc.resources.load('heros/skill_icon',cc.Prefab,(error: Error, assets:cc.Prefab)=>{
+        // WXManagerEX.getInstance().resourcesBundle.load('heros/skill_icon',cc.Prefab,(error: Error, assets:cc.Prefab)=>{
         //     if(error)
         //     {
         //         console.log(error);
@@ -353,7 +354,7 @@ export default class Hero extends cc.Component {
         this.zhishiqi_type = type;
         console.log("加载hero" + zhishiqi);
 
-        cc.resources.load('heros/' + zhishiqi, cc.Prefab, (error: Error, assets: cc.Prefab) => {
+        WXManagerEX.getInstance().resourcesBundle.load('heros/' + zhishiqi, cc.Prefab, (error: Error, assets: cc.Prefab) => {
             if (error) {
                 console.log(error);
                 return;
@@ -389,7 +390,7 @@ export default class Hero extends cc.Component {
         if (this.hero_data.pet_id > 0) {
             let type = SpiritAttributeManager.getInstance().getSpiritType(this.hero_data.pet_id);
             this.need_load_num++;
-            cc.resources.load('pet/pet' + type, cc.Prefab, (error: Error, assets: cc.Prefab) => {
+            WXManagerEX.getInstance().resourcesBundle.load('pet/pet' + type, cc.Prefab, (error: Error, assets: cc.Prefab) => {
                 if (error) {
                     console.log(error);
                     return;

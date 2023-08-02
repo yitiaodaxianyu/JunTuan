@@ -36,6 +36,7 @@ var UserData_1 = require("../../UserData");
 var HttpManager_1 = require("../.././NetWork/HttpManager");
 var UserInfo_1 = require("../../UserInfo/UserInfo");
 var ExclusiveWeaponMessage_1 = require("../../JsonData/ExclusiveWeaponMessage");
+var WXManagerEX_1 = require("../../../startscene/WXManagerEX");
 /**英雄升级数据 */
 var HeroUpgradeData = /** @class */ (function () {
     function HeroUpgradeData() {
@@ -133,7 +134,7 @@ var HeroManager = /** @class */ (function () {
         var _this = this;
         if (this.btn_hero_team)
             return;
-        cc.resources.load('heros/btn_hero_team', cc.Prefab, function (error, assets) {
+        WXManagerEX_1.default.getInstance().resourcesBundle.load('heros/btn_hero_team', cc.Prefab, function (error, assets) {
             if (error) {
                 console.log(error);
                 return;
@@ -145,7 +146,7 @@ var HeroManager = /** @class */ (function () {
         var _this = this;
         if (this.btn_hero_role)
             return;
-        cc.resources.load('heros/btn_hero_role', cc.Prefab, function (error, assets) {
+        WXManagerEX_1.default.getInstance().resourcesBundle.load('heros/btn_hero_role', cc.Prefab, function (error, assets) {
             if (error) {
                 console.log(error);
                 return;
@@ -157,7 +158,7 @@ var HeroManager = /** @class */ (function () {
         var _this = this;
         if (this.hero_fragment)
             return;
-        cc.resources.load('heros/hero_fragment', cc.Prefab, function (error, assets) {
+        WXManagerEX_1.default.getInstance().resourcesBundle.load('heros/hero_fragment', cc.Prefab, function (error, assets) {
             if (error) {
                 console.log(error);
                 return;
@@ -169,7 +170,7 @@ var HeroManager = /** @class */ (function () {
         var _this = this;
         if (this.sprite_atlas)
             return;
-        cc.resources.load('heros/hero_list_ui', cc.SpriteAtlas, function (error, assets) {
+        WXManagerEX_1.default.getInstance().resourcesBundle.load('heros/hero_list_ui', cc.SpriteAtlas, function (error, assets) {
             if (error) {
                 console.log(error);
                 return;
@@ -181,7 +182,7 @@ var HeroManager = /** @class */ (function () {
     // private loadRoleSp(){
     //     if(this.role_atlas)
     //     return;
-    //     cc.resources.load('heros/role_ui',cc.SpriteAtlas,(error: Error, assets:cc.SpriteAtlas)=>{
+    //     WXManagerEX.getInstance().resourcesBundle.load('heros/role_ui',cc.SpriteAtlas,(error: Error, assets:cc.SpriteAtlas)=>{
     //         if(error)
     //         {
     //             console.log(error);
@@ -195,7 +196,7 @@ var HeroManager = /** @class */ (function () {
         var _this = this;
         if (this.sprite_atlass)
             return;
-        cc.resources.load('heros/hero', cc.SpriteAtlas, function (error, assets) {
+        WXManagerEX_1.default.getInstance().resourcesBundle.load('heros/hero', cc.SpriteAtlas, function (error, assets) {
             if (error) {
                 console.log(error);
                 return;
@@ -211,7 +212,7 @@ var HeroManager = /** @class */ (function () {
             return;
         }
         this.sp_body = new Map();
-        cc.resources.loadDir('heros/body', cc.SpriteFrame, function (error, assets) {
+        WXManagerEX_1.default.getInstance().resourcesBundle.loadDir('heros/body', cc.SpriteFrame, function (error, assets) {
             if (error) {
                 console.log(error);
                 return;

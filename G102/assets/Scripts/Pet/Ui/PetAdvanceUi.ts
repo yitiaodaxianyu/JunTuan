@@ -1,3 +1,4 @@
+import WXManagerEX from "../../../startscene/WXManagerEX";
 import ApkManager from "../../Ads/ApkManager";
 import GameManager from "../../GameManager";
 import { Follow_Type } from "../../multiLanguage/FollowConstants";
@@ -422,7 +423,7 @@ export default class PetAdvanceUi extends UIComponent {
    }
 
    loadPrefab(petId: string,parent:cc.Node) {
-        cc.resources.load("pet/ui/pet_"+petId, cc.Prefab, (error: Error, assets: cc.Prefab) => {
+        WXManagerEX.getInstance().resourcesBundle.load("pet/ui/pet_"+petId, cc.Prefab, (error: Error, assets: cc.Prefab) => {
             if (error) {
                 cc.log(error);
                 return;

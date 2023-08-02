@@ -1,3 +1,4 @@
+import WXManagerEX from "../../startscene/WXManagerEX";
 import { IsDebug } from "../Constants";
 import { HeroBaseInfoManager } from "../Hero/Data/HeroBaseInfo";
 import { StorageKey } from "../Storage/StorageConfig";
@@ -217,7 +218,7 @@ export class LevelManager {
             return;
         }
         this.maininterfacemap=new Map<string,cc.SpriteFrame>();
-        cc.resources.loadDir('map/maininterfacemap',cc.SpriteFrame,(error: Error, assets:cc.SpriteFrame[])=>{
+        WXManagerEX.getInstance().resourcesBundle.loadDir('map/maininterfacemap',cc.SpriteFrame,(error: Error, assets:cc.SpriteFrame[])=>{
             if(error)
             {
                 console.log(error);

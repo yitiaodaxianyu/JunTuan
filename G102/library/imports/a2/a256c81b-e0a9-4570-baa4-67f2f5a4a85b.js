@@ -47,8 +47,8 @@ var BossManager = /** @class */ (function (_super) {
             BossManager_1._instance = this;
         }
         //可以根据关卡数先预加载boss相关的数据
-        //cc.resources.load('boss/bosscoming');
-        //cc.resources.load('boss/boss1');
+        //WXManagerEX.getInstance().resourcesBundle.load('boss/bosscoming');
+        //WXManagerEX.getInstance().resourcesBundle.load('boss/boss1');
     };
     BossManager.prototype.onDestroy = function () {
         BossManager_1._instance = null;
