@@ -68,16 +68,29 @@ export default class RoguelikeTip extends UIComponent {
 
     greybuttonjudgment: number = 0;
 
-
+    private indexHeroItem:boolean=false;
+    private indexHeroUp:number=0;
     onLoad() {
         super.onLoad();
-        this.tag = 0
-        this.ToggleContainer.children[0].getComponent(cc.Toggle).isChecked = true;
-        this.onToggleChange();
+      
+        
         console.log("进入RogueLike");
         this.chariotUpgradation();
-        this.Refreshheroitmestatus();
-        this.heroUpRefresh();
+
+        this.indexHeroItem=this.Refreshheroitmestatus();
+        this.indexHeroUp=this.heroUpRefresh();
+        
+        if(this.indexHeroItem){
+            this.tag = 0
+            this.ToggleContainer.children[0].getComponent(cc.Toggle).isChecked = true;
+        }else if(this.indexHeroUp>0){
+            this.tag = 1
+            this.ToggleContainer.children[1].getComponent(cc.Toggle).isChecked = true;
+        }else{
+            this.tag = 2
+            this.ToggleContainer.children[2].getComponent(cc.Toggle).isChecked = true;
+        }
+        this.onToggleChange();
         this.chariotItem0.on(cc.Node.EventType.TOUCH_END, this.onCharioItemTouchEnd, this);
         this.chariotItem1.on(cc.Node.EventType.TOUCH_END, this.onCharioItemTouchEnd, this);
         this.chariotItem2.on(cc.Node.EventType.TOUCH_END, this.onCharioItemTouchEnd, this);
@@ -100,17 +113,27 @@ export default class RoguelikeTip extends UIComponent {
     onEnable() {
 
     }
-    private heroUpRefresh():void{
-        var heroHas:Array<Hero_Type>=[];
+    private heroUpRefresh(): number {
+        var heroHas: Array<Hero_Type> = [];
         GameManager.getInstance().all_hero.forEach((v, k) => {
-          if(v.hero_lvl<5){
-            heroHas.push(v.hero_type);
-          }
+            if (v.hero_type <= 4) {
+                if (v.hero_lvl < 4) {
+
+                    heroHas.push(v.hero_type);
+                }
+            } else {
+                if (v.hero_lvl < 5) {
+
+                    heroHas.push(v.hero_type);
+                }
+            }
+
         })
-        console.log("拥有的可升级英雄"+heroHas.length);
+        console.log("拥有的可升级英雄" + heroHas.length);
         this.heroUpItem0.x = -223;
         this.heroUpItem1.x = 0;
         this.heroUpItem2.x = 223;
+        this.heroUpItem0.active = true;
         this.heroUpItem1.active = true;
         this.heroUpItem2.active = true;
 
@@ -118,29 +141,31 @@ export default class RoguelikeTip extends UIComponent {
         heroHas.sort(function () {
             return Math.random() - 0.5
         });
-       
-        if(heroHas.length==0){
+
+        if (heroHas.length == 0) {
             //没有可升级英雄，暂不处理
-          
-        }else if(heroHas.length==1){
+            this.heroUpItem0.active = false;
+            this.heroUpItem1.active = false;
+            this.heroUpItem2.active = false;
+        } else if (heroHas.length == 1) {
             this.heroUpItem0.x = 0;
             this.heroUpItem1.active = false;
             this.heroUpItem2.active = false;
             this.heroUpItem0.getComponent(HeroUpItem).initData(heroHas[0]);
 
-        }else if(heroHas.length==2){
+        } else if (heroHas.length == 2) {
             this.heroUpItem0.x = -111.5;
             this.heroUpItem1.x = 111.5;
             this.heroUpItem2.active = false;
             this.heroUpItem0.getComponent(HeroUpItem).initData(heroHas[0]);
             this.heroUpItem1.getComponent(HeroUpItem).initData(heroHas[1]);
-        }else{
+        } else {
             this.heroUpItem0.getComponent(HeroUpItem).initData(heroHas[0]);
             this.heroUpItem1.getComponent(HeroUpItem).initData(heroHas[1]);
             this.heroUpItem2.getComponent(HeroUpItem).initData(heroHas[2]);
         }
-        
-        
+        return heroHas.length;
+
     }
     private chariotUpgradation(): void {
         var data: Array<number> = GameManager.getInstance().getcharioUpgradationData();
@@ -180,7 +205,7 @@ export default class RoguelikeTip extends UIComponent {
 
     }
 
-    private Refreshheroitmestatus(): void {
+    private Refreshheroitmestatus(): boolean {
         //已解锁的英雄
         let HeroList = HeroManager.getInstance().getHeroList()//数量   英雄id类型 英雄等级 英雄品质  英雄星星阶段
 
@@ -221,9 +246,8 @@ export default class RoguelikeTip extends UIComponent {
         }
         let teamList = GameManager.getInstance().cur_team_list;
 
+        var kewanNum:number=0;
         //刷新英雄itme状态
-        //血量
-
         for (let shuaxingindex = 0; shuaxingindex < HeroListarr.length; shuaxingindex++) {
             this.content.children[shuaxingindex].getComponent(HeroItem).RefreshHeroesItem(HeroListarr[shuaxingindex].hero_type)
             for (let teamListindex = 0; teamListindex < teamList.length; teamListindex++) {
@@ -231,18 +255,33 @@ export default class RoguelikeTip extends UIComponent {
                     this.content.children[shuaxingindex].getChildByName("shangzheng").active = true
                 }
             }
-        }
 
+            if(this.content.children[shuaxingindex].getChildByName("shangzheng").active==false){
+                kewanNum++;
+            }
+        }
+        console.log("可用英雄:"+kewanNum);
+        var hasKongwei:boolean=false;
+        for(var i:number=0;i<teamList.length;i++){
+            if(teamList[i]<=0){
+                hasKongwei=true;
+            }
+        }
+        //有空位并且有可上场英雄
+        if(kewanNum>0&&hasKongwei==true){
+            return true;
+        }
+        return false;
 
     }
     onHeroUpTouchEnd(e: cc.Event.EventTouch): void {
         let touchTarget = e.getCurrentTarget();
         if (touchTarget.active == true) {
             var heroType: number = touchTarget.getComponent(HeroUpItem).getDataType();
-            if( GameManager.getInstance().all_hero.get(heroType).hero_lvl<5){
+            if (GameManager.getInstance().all_hero.get(heroType).hero_lvl < 5) {
                 GameManager.getInstance().all_hero.get(heroType).hero_lvl++;
             }
-            
+
             this.heroUpRefresh();
             this.clickBtnClose();
         }
@@ -267,7 +306,7 @@ export default class RoguelikeTip extends UIComponent {
 
             } else if (charioType == 5) {
                 WallManager.getInstance().getMainWall().changeHp(WallManager.getInstance().getMainWall().getMaxHp() * 0.2);
-            } 
+            }
 
             this.chariotUpgradation();
             this.clickBtnClose();
@@ -316,7 +355,12 @@ export default class RoguelikeTip extends UIComponent {
     }
     private onToggleChange(): void {
         if (this.tag == 0) {
-            this.tipLabel.getComponent(cc.Label).string = "选择一个英雄加入你的队伍。";
+            if(this.indexHeroItem){
+                this.tipLabel.getComponent(cc.Label).string = "选择一个英雄加入你的队伍。";
+            }else{
+                this.tipLabel.getComponent(cc.Label).string = "已无法让更多英雄上场。";
+            }
+            
             this.hero_Chose.active = true;
             this.chariot_Chose.active = false;
             this.heroUp_Chose.active = false;
@@ -324,7 +368,12 @@ export default class RoguelikeTip extends UIComponent {
             this.hero_Chose.active = false;
             this.chariot_Chose.active = false;
             this.heroUp_Chose.active = true;
-            this.tipLabel.getComponent(cc.Label).string = "选择一个英雄进行升级。";
+            if(this.indexHeroUp>0){
+                this.tipLabel.getComponent(cc.Label).string = "选择一个英雄进行升级。";
+            }else{
+                this.tipLabel.getComponent(cc.Label).string = "没有可升级的英雄。";
+            }
+           
         } else if (this.tag == 2) {
             this.hero_Chose.active = false;
             this.chariot_Chose.active = true;

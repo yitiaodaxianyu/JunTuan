@@ -4,6 +4,15 @@
   "_objFlags": 0,
   "_native": "",
   "_spriteFrames": {
+    "rItemBg": {
+      "__uuid__": "a179bbbe-3900-4940-a2f1-b9cf125a28c2"
+    },
+    "rLvlBg": {
+      "__uuid__": "9afb8071-7453-4b99-8609-3dc98dff35ef"
+    },
+    "rTopBG": {
+      "__uuid__": "18e93a43-e514-4a00-aa62-3001393b4f34"
+    },
     "roguelikeBtn0": {
       "__uuid__": "a9243831-0296-482f-b506-7078169151de"
     },

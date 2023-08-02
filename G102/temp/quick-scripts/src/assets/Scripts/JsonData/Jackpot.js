@@ -92,6 +92,7 @@ var JackpotManager = /** @class */ (function () {
     //以上格式统一，以下写每个json数据的特殊需求
     /** 根据奖池id 随机获取奖池的一个物品数据*/
     JackpotManager.prototype.getRewardDataById = function (id) {
+        console.log("getRewardData:" + id);
         var rd = new LevelJsonData_1.RewardData();
         var jj = this.getJsonJackpot(id);
         //根据权重随机

@@ -18,7 +18,7 @@
       "IntegralRequirement": 4340,
       "BoxIcon": 1,
       "RewardItem": 20003,
-      "RewardNum": 10,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 8
     },
@@ -27,7 +27,7 @@
       "IntegralRequirement": 11081,
       "BoxIcon": 1,
       "RewardItem": 20003,
-      "RewardNum": 20,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 11
     },
@@ -36,7 +36,7 @@
       "IntegralRequirement": 18269,
       "BoxIcon": 1,
       "RewardItem": 20003,
-      "RewardNum": 30,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 14
     },
@@ -45,7 +45,7 @@
       "IntegralRequirement": 29040,
       "BoxIcon": 1,
       "RewardItem": 20003,
-      "RewardNum": 40,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 17
     },
@@ -54,7 +54,7 @@
       "IntegralRequirement": 41783,
       "BoxIcon": 1,
       "RewardItem": 20003,
-      "RewardNum": 50,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 20
     },
@@ -63,7 +63,7 @@
       "IntegralRequirement": 68117,
       "BoxIcon": 1,
       "RewardItem": 20003,
-      "RewardNum": 60,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 23
     },
@@ -72,7 +72,7 @@
       "IntegralRequirement": 117214,
       "BoxIcon": 1,
       "RewardItem": 20003,
-      "RewardNum": 70,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 26
     },
@@ -81,7 +81,7 @@
       "IntegralRequirement": 201794,
       "BoxIcon": 1,
       "RewardItem": 20003,
-      "RewardNum": 80,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 29
     },
@@ -90,7 +90,7 @@
       "IntegralRequirement": 291152,
       "BoxIcon": 1,
       "RewardItem": 20003,
-      "RewardNum": 90,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 32
     },
@@ -99,7 +99,7 @@
       "IntegralRequirement": 388645,
       "BoxIcon": 1,
       "RewardItem": 20003,
-      "RewardNum": 100,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 35
     },
@@ -108,7 +108,7 @@
       "IntegralRequirement": 495586,
       "BoxIcon": 2,
       "RewardItem": 20003,
-      "RewardNum": 110,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 38
     },
@@ -117,7 +117,7 @@
       "IntegralRequirement": 607683,
       "BoxIcon": 2,
       "RewardItem": 20003,
-      "RewardNum": 120,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 41
     },
@@ -126,7 +126,7 @@
       "IntegralRequirement": 740090,
       "BoxIcon": 2,
       "RewardItem": 20003,
-      "RewardNum": 130,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 44
     },
@@ -135,7 +135,7 @@
       "IntegralRequirement": 896802,
       "BoxIcon": 2,
       "RewardItem": 20003,
-      "RewardNum": 140,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 47
     },
@@ -144,7 +144,7 @@
       "IntegralRequirement": 1164974,
       "BoxIcon": 2,
       "RewardItem": 20003,
-      "RewardNum": 150,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 50
     },
@@ -153,7 +153,7 @@
       "IntegralRequirement": 1445999,
       "BoxIcon": 2,
       "RewardItem": 20003,
-      "RewardNum": 165,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 53
     },
@@ -162,7 +162,7 @@
       "IntegralRequirement": 1745142,
       "BoxIcon": 2,
       "RewardItem": 20003,
-      "RewardNum": 180,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 56
     },
@@ -171,7 +171,7 @@
       "IntegralRequirement": 2057667,
       "BoxIcon": 2,
       "RewardItem": 20003,
-      "RewardNum": 195,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 59
     },
@@ -180,7 +180,7 @@
       "IntegralRequirement": 2391588,
       "BoxIcon": 2,
       "RewardItem": 20003,
-      "RewardNum": 210,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 62
     },
@@ -189,7 +189,7 @@
       "IntegralRequirement": 2818377,
       "BoxIcon": 2,
       "RewardItem": 20003,
-      "RewardNum": 225,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 65
     },
@@ -198,7 +198,7 @@
       "IntegralRequirement": 3261686,
       "BoxIcon": 3,
       "RewardItem": 20003,
-      "RewardNum": 240,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 68
     },
@@ -207,7 +207,7 @@
       "IntegralRequirement": 3779830,
       "BoxIcon": 3,
       "RewardItem": 20003,
-      "RewardNum": 255,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 71
     },
@@ -216,7 +216,7 @@
       "IntegralRequirement": 4365129,
       "BoxIcon": 3,
       "RewardItem": 20003,
-      "RewardNum": 270,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 74
     },
@@ -225,7 +225,7 @@
       "IntegralRequirement": 5013112,
       "BoxIcon": 3,
       "RewardItem": 20003,
-      "RewardNum": 285,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 77
     },
@@ -234,7 +234,7 @@
       "IntegralRequirement": 5849341,
       "BoxIcon": 3,
       "RewardItem": 20003,
-      "RewardNum": 300,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 80
     },
@@ -243,7 +243,7 @@
       "IntegralRequirement": 6745835,
       "BoxIcon": 3,
       "RewardItem": 20003,
-      "RewardNum": 320,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 82
     },
@@ -252,7 +252,7 @@
       "IntegralRequirement": 7704477,
       "BoxIcon": 3,
       "RewardItem": 20003,
-      "RewardNum": 350,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 85
     },
@@ -261,7 +261,7 @@
       "IntegralRequirement": 9161263,
       "BoxIcon": 3,
       "RewardItem": 20003,
-      "RewardNum": 380,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 88
     },
@@ -270,7 +270,7 @@
       "IntegralRequirement": 10700848,
       "BoxIcon": 3,
       "RewardItem": 20003,
-      "RewardNum": 410,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 91
     },
@@ -279,7 +279,7 @@
       "IntegralRequirement": 12359466,
       "BoxIcon": 3,
       "RewardItem": 20003,
-      "RewardNum": 440,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 94
     },
@@ -288,7 +288,7 @@
       "IntegralRequirement": 14144114,
       "BoxIcon": 3,
       "RewardItem": 20003,
-      "RewardNum": 470,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 97
     },
@@ -297,7 +297,7 @@
       "IntegralRequirement": 16668655,
       "BoxIcon": 3,
       "RewardItem": 20003,
-      "RewardNum": 500,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 100
     },
@@ -306,7 +306,7 @@
       "IntegralRequirement": 19388545,
       "BoxIcon": 3,
       "RewardItem": 20003,
-      "RewardNum": 510,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 100
     },
@@ -315,7 +315,7 @@
       "IntegralRequirement": 22228902,
       "BoxIcon": 3,
       "RewardItem": 20003,
-      "RewardNum": 540,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 100
     },
@@ -324,7 +324,7 @@
       "IntegralRequirement": 25275396,
       "BoxIcon": 3,
       "RewardItem": 20003,
-      "RewardNum": 570,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 100
     },
@@ -333,7 +333,7 @@
       "IntegralRequirement": 30208607,
       "BoxIcon": 3,
       "RewardItem": 20003,
-      "RewardNum": 600,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 100
     },
@@ -342,7 +342,7 @@
       "IntegralRequirement": 35350251,
       "BoxIcon": 3,
       "RewardItem": 20003,
-      "RewardNum": 630,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 100
     },
@@ -351,7 +351,7 @@
       "IntegralRequirement": 40921747,
       "BoxIcon": 3,
       "RewardItem": 20003,
-      "RewardNum": 660,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 100
     },
@@ -360,7 +360,7 @@
       "IntegralRequirement": 46758431,
       "BoxIcon": 3,
       "RewardItem": 20003,
-      "RewardNum": 690,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 100
     },
@@ -369,7 +369,7 @@
       "IntegralRequirement": 52818044,
       "BoxIcon": 3,
       "RewardItem": 20003,
-      "RewardNum": 720,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 100
     },
@@ -378,7 +378,7 @@
       "IntegralRequirement": 61769384,
       "BoxIcon": 3,
       "RewardItem": 20003,
-      "RewardNum": 750,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 100
     },
@@ -387,7 +387,7 @@
       "IntegralRequirement": 71143772,
       "BoxIcon": 3,
       "RewardItem": 20003,
-      "RewardNum": 800,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 100
     },
@@ -396,7 +396,7 @@
       "IntegralRequirement": 81347726,
       "BoxIcon": 3,
       "RewardItem": 20003,
-      "RewardNum": 850,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 100
     },
@@ -405,7 +405,7 @@
       "IntegralRequirement": 92022067,
       "BoxIcon": 3,
       "RewardItem": 20003,
-      "RewardNum": 900,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 100
     },
@@ -414,7 +414,7 @@
       "IntegralRequirement": 103156676,
       "BoxIcon": 3,
       "RewardItem": 20003,
-      "RewardNum": 950,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 100
     },
@@ -423,7 +423,7 @@
       "IntegralRequirement": 118197296,
       "BoxIcon": 3,
       "RewardItem": 20003,
-      "RewardNum": 1000,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 100
     },
@@ -432,7 +432,7 @@
       "IntegralRequirement": 33309478900,
       "BoxIcon": 3,
       "RewardItem": 20003,
-      "RewardNum": 1100,
+      "RewardNum": 0,
       "RewardItem_2": 10002,
       "RewardNum_2": 100
     }

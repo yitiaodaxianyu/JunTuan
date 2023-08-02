@@ -177,7 +177,7 @@ export default class SheShou extends Hero {
                         }          
                     },jiange*(i));
                 }
-                GameManager.getInstance().sound_manager.playSound(SoundIndex.YX_GongjianshouSkill);
+                GameManager.getInstance().sound_manager.playSound(SoundIndex.YX_GongjianshouAttack);
             }
             super.setHeroState(Hero_State.attack,GongJi_FangXiang.zhong,[data],()=>{
                 super.setHeroState(Hero_State.idle,GongJi_FangXiang.zhong);

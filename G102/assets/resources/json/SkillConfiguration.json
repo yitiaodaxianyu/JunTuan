@@ -1206,7 +1206,7 @@
     "ColdDown": 24.0,
     "SkillValue_1": 2.0,
     "SkillValue_2": 0.7,
-    "SkillValue_3": 0.41,
+    "SkillValue_3": 0.5,
     "SkillValue_4": 0.0
   },
   {
@@ -1217,7 +1217,7 @@
     "ColdDown": 24.0,
     "SkillValue_1": 2.5,
     "SkillValue_2": 0.75,
-    "SkillValue_3": 0.47,
+    "SkillValue_3": 0.55,
     "SkillValue_4": 0.0
   },
   {
@@ -1228,7 +1228,7 @@
     "ColdDown": 24.0,
     "SkillValue_1": 3.0,
     "SkillValue_2": 0.8,
-    "SkillValue_3": 0.52,
+    "SkillValue_3": 0.6,
     "SkillValue_4": 0.0
   },
   {
@@ -1239,7 +1239,7 @@
     "ColdDown": 24.0,
     "SkillValue_1": 4.0,
     "SkillValue_2": 0.9,
-    "SkillValue_3": 0.6,
+    "SkillValue_3": 0.7,
     "SkillValue_4": 0.0
   },
   {
@@ -1250,7 +1250,7 @@
     "ColdDown": 24.0,
     "SkillValue_1": 4.5,
     "SkillValue_2": 1.0,
-    "SkillValue_3": 0.66,
+    "SkillValue_3": 0.8,
     "SkillValue_4": 0.0
   },
   {
@@ -1260,7 +1260,7 @@
     "SkillLevel": 1,
     "ColdDown": 0.0,
     "SkillValue_1": 1.0,
-    "SkillValue_2": 0.9,
+    "SkillValue_2": 1.1,
     "SkillValue_3": 0.3,
     "SkillValue_4": 0.0
   },
@@ -1271,7 +1271,7 @@
     "SkillLevel": 2,
     "ColdDown": 0.0,
     "SkillValue_1": 1.0,
-    "SkillValue_2": 0.95,
+    "SkillValue_2": 1.15,
     "SkillValue_3": 0.3,
     "SkillValue_4": 0.0
   },
@@ -1282,7 +1282,7 @@
     "SkillLevel": 3,
     "ColdDown": 0.0,
     "SkillValue_1": 1.0,
-    "SkillValue_2": 1.0,
+    "SkillValue_2": 1.2,
     "SkillValue_3": 0.3,
     "SkillValue_4": 0.0
   },
@@ -1293,7 +1293,7 @@
     "SkillLevel": 4,
     "ColdDown": 0.0,
     "SkillValue_1": 1.0,
-    "SkillValue_2": 1.05,
+    "SkillValue_2": 1.25,
     "SkillValue_3": 0.3,
     "SkillValue_4": 0.0
   },
@@ -1304,7 +1304,7 @@
     "SkillLevel": 5,
     "ColdDown": 0.0,
     "SkillValue_1": 1.0,
-    "SkillValue_2": 1.15,
+    "SkillValue_2": 1.35,
     "SkillValue_3": 0.3,
     "SkillValue_4": 0.0
   },
@@ -1315,7 +1315,7 @@
     "SkillLevel": 6,
     "ColdDown": 0.0,
     "SkillValue_1": 1.0,
-    "SkillValue_2": 1.25,
+    "SkillValue_2": 1.45,
     "SkillValue_3": 0.3,
     "SkillValue_4": 0.0
   },
@@ -1391,7 +1391,7 @@
     "SkillPosition": 1,
     "SkillLevel": 1,
     "ColdDown": 31.0,
-    "SkillValue_1": 160.0,
+    "SkillValue_1": 180.0,
     "SkillValue_2": 1.09,
     "SkillValue_3": 0.3,
     "SkillValue_4": 0.0
@@ -1402,7 +1402,7 @@
     "SkillPosition": 1,
     "SkillLevel": 2,
     "ColdDown": 31.0,
-    "SkillValue_1": 180.0,
+    "SkillValue_1": 200.0,
     "SkillValue_2": 1.32,
     "SkillValue_3": 0.3,
     "SkillValue_4": 0.0
@@ -1413,7 +1413,7 @@
     "SkillPosition": 1,
     "SkillLevel": 3,
     "ColdDown": 31.0,
-    "SkillValue_1": 200.0,
+    "SkillValue_1": 220.0,
     "SkillValue_2": 1.51,
     "SkillValue_3": 0.3,
     "SkillValue_4": 0.0
@@ -1424,7 +1424,7 @@
     "SkillPosition": 1,
     "SkillLevel": 4,
     "ColdDown": 31.0,
-    "SkillValue_1": 220.0,
+    "SkillValue_1": 240.0,
     "SkillValue_2": 1.67,
     "SkillValue_3": 0.3,
     "SkillValue_4": 0.0
@@ -1458,7 +1458,7 @@
     "SkillLevel": 1,
     "ColdDown": 0.0,
     "SkillValue_1": 1.0,
-    "SkillValue_2": 1.2,
+    "SkillValue_2": 1.4,
     "SkillValue_3": 0.0,
     "SkillValue_4": 0.0
   },
@@ -1469,7 +1469,7 @@
     "SkillLevel": 2,
     "ColdDown": 0.0,
     "SkillValue_1": 1.0,
-    "SkillValue_2": 1.25,
+    "SkillValue_2": 1.45,
     "SkillValue_3": 0.0,
     "SkillValue_4": 0.0
   },
@@ -1480,7 +1480,7 @@
     "SkillLevel": 3,
     "ColdDown": 0.0,
     "SkillValue_1": 1.0,
-    "SkillValue_2": 1.3,
+    "SkillValue_2": 1.5,
     "SkillValue_3": 0.0,
     "SkillValue_4": 0.0
   },
@@ -1491,7 +1491,7 @@
     "SkillLevel": 4,
     "ColdDown": 0.0,
     "SkillValue_1": 1.0,
-    "SkillValue_2": 1.35,
+    "SkillValue_2": 1.55,
     "SkillValue_3": 0.0,
     "SkillValue_4": 0.0
   },
@@ -1502,7 +1502,7 @@
     "SkillLevel": 5,
     "ColdDown": 0.0,
     "SkillValue_1": 1.0,
-    "SkillValue_2": 1.45,
+    "SkillValue_2": 1.65,
     "SkillValue_3": 0.0,
     "SkillValue_4": 0.0
   },
@@ -1513,7 +1513,7 @@
     "SkillLevel": 6,
     "ColdDown": 0.0,
     "SkillValue_1": 1.0,
-    "SkillValue_2": 1.55,
+    "SkillValue_2": 1.75,
     "SkillValue_3": 0.0,
     "SkillValue_4": 0.0
   },
@@ -1787,8 +1787,8 @@
     "SkillPosition": 1,
     "SkillLevel": 1,
     "ColdDown": 26.0,
-    "SkillValue_1": 12.0,
-    "SkillValue_2": 1.25,
+    "SkillValue_1": 18.0,
+    "SkillValue_2": 1.55,
     "SkillValue_3": 0.0,
     "SkillValue_4": 0.0
   },
@@ -1798,8 +1798,8 @@
     "SkillPosition": 1,
     "SkillLevel": 2,
     "ColdDown": 26.0,
-    "SkillValue_1": 14.0,
-    "SkillValue_2": 1.35,
+    "SkillValue_1": 19.0,
+    "SkillValue_2": 1.65,
     "SkillValue_3": 0.0,
     "SkillValue_4": 0.0
   },
@@ -1809,8 +1809,8 @@
     "SkillPosition": 1,
     "SkillLevel": 3,
     "ColdDown": 26.0,
-    "SkillValue_1": 16.0,
-    "SkillValue_2": 1.45,
+    "SkillValue_1": 20.0,
+    "SkillValue_2": 1.75,
     "SkillValue_3": 0.0,
     "SkillValue_4": 0.0
   },
@@ -1820,8 +1820,8 @@
     "SkillPosition": 1,
     "SkillLevel": 4,
     "ColdDown": 26.0,
-    "SkillValue_1": 18.0,
-    "SkillValue_2": 1.55,
+    "SkillValue_1": 21.0,
+    "SkillValue_2": 1.85,
     "SkillValue_3": 0.0,
     "SkillValue_4": 0.0
   },
@@ -1832,7 +1832,7 @@
     "SkillLevel": 5,
     "ColdDown": 26.0,
     "SkillValue_1": 22.0,
-    "SkillValue_2": 1.75,
+    "SkillValue_2": 2.05,
     "SkillValue_3": 0.0,
     "SkillValue_4": 0.0
   },
@@ -1843,7 +1843,7 @@
     "SkillLevel": 6,
     "ColdDown": 26.0,
     "SkillValue_1": 24.0,
-    "SkillValue_2": 1.95,
+    "SkillValue_2": 2.25,
     "SkillValue_3": 0.0,
     "SkillValue_4": 0.0
   },
@@ -1853,8 +1853,8 @@
     "SkillPosition": 2,
     "SkillLevel": 1,
     "ColdDown": 0.0,
-    "SkillValue_1": 3.0,
-    "SkillValue_2": 1.2,
+    "SkillValue_1": 4.0,
+    "SkillValue_2": 1.5,
     "SkillValue_3": 0.0,
     "SkillValue_4": 0.0
   },
@@ -1865,7 +1865,7 @@
     "SkillLevel": 2,
     "ColdDown": 0.0,
     "SkillValue_1": 4.0,
-    "SkillValue_2": 1.3,
+    "SkillValue_2": 1.6,
     "SkillValue_3": 0.0,
     "SkillValue_4": 0.0
   },
@@ -1876,7 +1876,7 @@
     "SkillLevel": 3,
     "ColdDown": 0.0,
     "SkillValue_1": 5.0,
-    "SkillValue_2": 1.4,
+    "SkillValue_2": 1.7,
     "SkillValue_3": 0.0,
     "SkillValue_4": 0.0
   },
@@ -1886,8 +1886,8 @@
     "SkillPosition": 2,
     "SkillLevel": 4,
     "ColdDown": 0.0,
-    "SkillValue_1": 6.0,
-    "SkillValue_2": 1.5,
+    "SkillValue_1": 5.0,
+    "SkillValue_2": 1.8,
     "SkillValue_3": 0.0,
     "SkillValue_4": 0.0
   },
@@ -1898,7 +1898,7 @@
     "SkillLevel": 5,
     "ColdDown": 0.0,
     "SkillValue_1": 7.0,
-    "SkillValue_2": 1.7,
+    "SkillValue_2": 2.0,
     "SkillValue_3": 0.0,
     "SkillValue_4": 0.0
   },
@@ -1909,7 +1909,7 @@
     "SkillLevel": 6,
     "ColdDown": 0.0,
     "SkillValue_1": 8.0,
-    "SkillValue_2": 1.9,
+    "SkillValue_2": 2.2,
     "SkillValue_3": 0.0,
     "SkillValue_4": 0.0
   },

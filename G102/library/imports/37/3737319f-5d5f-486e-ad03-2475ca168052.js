@@ -69,11 +69,17 @@ var Game = /** @class */ (function (_super) {
         _this.prefab_boss_wave = null;
         _this.prefab_jiange = null;
         /**当前波数节点 */
-        _this.cur_wave_node = null;
-        _this.cur_wave_sp = null;
-        _this.wave_pos_x = [];
+        /**试用文本 */
+        _this.waveBar = null;
+        _this.easing = 0.1;
+        _this.wavaNartagY = 0;
+        _this.allWaveLength = 0;
+        _this.waveHeight = 281;
+        //cur_wave_node: cc.Node = null;
+        //cur_wave_sp: cc.Node = null;
+        //wave_pos_x: number[] = [];
         _this.left_xx = 0;
-        _this.dist_xx = 0;
+        //dist_xx: number = 0;
         _this.one_width = 0;
         // @property(cc.JsonAsset)
         // zhen_xing:cc.JsonAsset=null;
@@ -815,15 +821,15 @@ var Game = /** @class */ (function (_super) {
         }
     };
     Game.prototype.initLevelShow = function () {
-        var waveBg = cc.find('Canvas/Ui_Root/top_ui/waveBg');
-        this.cur_wave_node = waveBg.parent.getChildByName('cur_wave');
-        this.cur_wave_node.y = waveBg.y - 20;
-        this.cur_wave_node.x = -315;
-        this.dist_xx = -315;
-        this.wave_pos_x = new Array();
+        var waveBg = cc.find('Canvas/Ui_Root/waveBg');
+        //this.cur_wave_node = waveBg.parent.getChildByName('cur_wave');
+        // this.cur_wave_node.y = waveBg.y - 20;
+        // this.cur_wave_node.x = -315;
+        // this.dist_xx = -315;
+        //this.wave_pos_x = new Array();
         var waveTypes = GameManager_1.default.getInstance().fighting_info.getWaveTypes();
         var len = waveTypes.length;
-        waveBg.removeAllChildren();
+        this.allWaveLength = waveTypes.length;
         //算出每个的长度
         var jiangeNum = len - 1;
         var jiangeWidth = 4;
@@ -833,38 +839,37 @@ var Game = /** @class */ (function (_super) {
         this.left_xx = -waveBg.width / 2 + 5;
         var oneWidth = waveWidth + jiangeWidth;
         this.one_width = oneWidth;
+        this.waveBar.height = 0;
+        this.wavaNartagY = 0;
         console.log("初始化关卡" + waveTypes.length);
-        for (var i = 0; i < len; i++) {
-            var type = waveTypes[i];
-            var node = null;
-            switch (type) {
-                case 0:
-                    {
-                        node = cc.instantiate(this.prefab_normal_wave);
-                    }
-                    break;
-                case 1:
-                    {
-                        node = cc.instantiate(this.prefab_boss_wave);
-                    }
-                    break;
-            }
-            waveBg.addChild(node);
-            node.name = i.toString();
-            node.width = waveWidth;
-            node.x = this.left_xx + i * oneWidth;
-            node.y = 0;
-            node.getComponent(cc.Sprite).spriteFrame = this.sp_wave[0];
-            node.active = type > 0;
-            var jiangePosX = node.x + node.width + jiangeWidth / 2;
-            if (i != len - 1) {
-                var jiange = cc.instantiate(this.prefab_jiange);
-                jiange.x = jiangePosX;
-                jiange.y = 0;
-                waveBg.addChild(jiange);
-            }
-            this.wave_pos_x.push(jiangePosX);
-        }
+        // for (let i = 0; i < len; i++) {
+        //     let type = waveTypes[i];
+        //     let node: cc.Node = null;
+        //     node = cc.instantiate(this.prefab_normal_wave);
+        //     // switch (type) {
+        //     //     case 0: {
+        //     //         node = cc.instantiate(this.prefab_normal_wave);
+        //     //     } break;
+        //     //     case 1: {
+        //     //         node = cc.instantiate(this.prefab_boss_wave);
+        //     //     } break;
+        //     // }
+        //     waveBg.addChild(node);
+        //     node.name = i.toString();
+        //     node.width = waveWidth;
+        //     node.x = this.left_xx + i * oneWidth;
+        //     node.y = 0;
+        //     node.getComponent(cc.Sprite).spriteFrame = this.sp_wave[0];
+        //     node.active = type > 0;
+        //     let jiangePosX = node.x + node.width + jiangeWidth / 2;
+        //     // if (i != len - 1) {
+        //     //     let jiange = cc.instantiate(this.prefab_jiange);
+        //     //     jiange.x = jiangePosX;
+        //     //     jiange.y = 0;
+        //     //     waveBg.addChild(jiange);
+        //     // }
+        //     this.wave_pos_x.push(jiangePosX);
+        // }
         this.showLevelProgress();
         this.setRogueText(GameManager_1.default.getInstance().getRogueLikeNum());
     };
@@ -882,22 +887,23 @@ var Game = /** @class */ (function (_super) {
                     // this.level_progress.progress=progress;
                     // this.level_label.string=killNum+'/'+allEnemyNum;    
                     //this.cur_wave_node.x=this.wave_pos_x[gm.cur_wave];
-                    if (this.cur_wave_sp) {
-                        this.cur_wave_sp.width = this.one_width;
-                    }
-                    var waveBg = cc.find('Canvas/Ui_Root/top_ui/waveBg');
+                    // if (this.cur_wave_sp) {
+                    //     this.cur_wave_sp.width = this.one_width;
+                    // }
+                    // let waveBg = cc.find('Canvas/Ui_Root/waveBg');
                     console.log("开始关卡" + gm.cur_wave);
-                    this.cur_wave_sp = waveBg.getChildByName(gm.cur_wave.toString());
-                    var types = GameManager_1.default.getInstance().fighting_info.getWaveTypes();
-                    this.cur_wave_sp.getComponent(cc.Sprite).spriteFrame = this.sp_wave[types[gm.cur_wave] + 1];
-                    this.cur_wave_sp.active = true;
-                    this.cur_wave_sp.width = 0;
-                    var curWave = GameManager_1.default.getInstance().cur_wave;
+                    this.wavaNartagY = gm.cur_wave / this.allWaveLength * this.waveHeight;
+                    //this.cur_wave_sp = waveBg.getChildByName(gm.cur_wave.toString());
+                    // let types = GameManager.getInstance().fighting_info.getWaveTypes();
+                    // this.cur_wave_sp.getComponent(cc.Sprite).spriteFrame = this.sp_wave[types[gm.cur_wave] + 1];
+                    // this.cur_wave_sp.active = true;
+                    // this.cur_wave_sp.width = 0;
+                    // let curWave = GameManager.getInstance().cur_wave;
                     //let prevWave=GameManager.getInstance().cur_wave-1;
-                    var curXX = this.wave_pos_x[curWave];
+                    //let curXX = this.wave_pos_x[curWave];
                     //let prevXX=prevWave>=0?this.wave_pos_x[prevWave]:this.left_xx;
                     //let offsetXX=curXX-prevXX;        
-                    this.dist_xx = curXX;
+                    //this.dist_xx = curXX;
                     this.setRogueText(GameManager_1.default.getInstance().getRogueLikeNum());
                     //waveBg.getC
                 }
@@ -984,14 +990,16 @@ var Game = /** @class */ (function (_super) {
                 }
                 this.showDps();
             }
-            if (this.cur_wave_node.x < this.dist_xx) {
-                this.cur_wave_node.x += dt * 30;
-                this.cur_wave_sp.width = this.one_width - (this.dist_xx - this.cur_wave_node.x);
-                if (this.cur_wave_node.x > this.dist_xx) {
-                    this.cur_wave_node.x = this.dist_xx;
-                    this.cur_wave_sp.width = this.one_width;
-                }
-            }
+            // if (this.cur_wave_node.x < this.dist_xx) {
+            //     this.cur_wave_node.x += dt * 30;
+            //     //this.cur_wave_sp.width = this.one_width - (this.dist_xx - this.cur_wave_node.x);
+            //     if (this.cur_wave_node.x > this.dist_xx) {
+            //         this.cur_wave_node.x = this.dist_xx;
+            //         //this.cur_wave_sp.width = this.one_width;
+            //     }
+            // }
+            var vh = (this.wavaNartagY - this.waveBar.height) * this.easing;
+            this.waveBar.height += vh;
             var aDt = dt;
             if (GameManager_1.default.getInstance().getGameRate() != 1) {
                 aDt = dt / 2;
@@ -1080,6 +1088,9 @@ var Game = /** @class */ (function (_super) {
     __decorate([
         property(cc.Prefab)
     ], Game.prototype, "prefab_jiange", void 0);
+    __decorate([
+        property(cc.Node)
+    ], Game.prototype, "waveBar", void 0);
     __decorate([
         property(cc.Label)
     ], Game.prototype, "try_auto_label", void 0);

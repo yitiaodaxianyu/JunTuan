@@ -58,11 +58,20 @@ export default class Game extends cc.Component {
     @property(cc.Prefab)
     prefab_jiange: cc.Prefab = null;
     /**当前波数节点 */
-    cur_wave_node: cc.Node = null;
-    cur_wave_sp: cc.Node = null;
-    wave_pos_x: number[] = [];
+    /**试用文本 */
+    @property(cc.Node)
+    waveBar: cc.Node = null;
+
+    easing: number = 0.1;
+    wavaNartagY:number=0;
+    allWaveLength: number = 0;
+
+    waveHeight: number = 281;
+    //cur_wave_node: cc.Node = null;
+    //cur_wave_sp: cc.Node = null;
+    //wave_pos_x: number[] = [];
     left_xx: number = 0;
-    dist_xx: number = 0;
+    //dist_xx: number = 0;
     one_width: number = 0;
     // @property(cc.JsonAsset)
     // zhen_xing:cc.JsonAsset=null;
@@ -143,7 +152,7 @@ export default class Game extends cc.Component {
         this.setTryAutoLabel();
         this.setTryRateLabel();
         GameManager.getInstance().setGameRate(1);
-        
+
         // instance.on(cc.Node.EventType.TOUCH_END, this.onTouchEndByJoy, this);
     }
     protected onDestroy(): void {
@@ -306,7 +315,7 @@ export default class Game extends cc.Component {
             }
             let node = cc.instantiate(assets);
             node.parent = cc.find('Canvas/Hero_Root');
-            node.x = GameManager.getInstance().aniType+ posX;
+            node.x = GameManager.getInstance().aniType + posX;
             let hp = cc.find('Canvas/Ui_Root/hp_root');
             node.y = hp.y + posY + 150 + 300;
             node.getComponent(Hero).targetX = node.x;
@@ -320,8 +329,8 @@ export default class Game extends cc.Component {
         });
 
     }
-    setRogueText(n:number){
-        this.rogueText.string=n+"";
+    setRogueText(n: number) {
+        this.rogueText.string = n + "";
     }
     showKaiZhan() {
         let kaiZhan = cc.find('Canvas/Ui_Root/KaiZhan');
@@ -832,17 +841,17 @@ export default class Game extends cc.Component {
     }
 
     initLevelShow() {
-        let waveBg = cc.find('Canvas/Ui_Root/top_ui/waveBg');
-        this.cur_wave_node = waveBg.parent.getChildByName('cur_wave');
-        this.cur_wave_node.y = waveBg.y - 20;
-        this.cur_wave_node.x = -315;
-        this.dist_xx = -315;
-        this.wave_pos_x = new Array();
+        let waveBg = cc.find('Canvas/Ui_Root/waveBg');
+        //this.cur_wave_node = waveBg.parent.getChildByName('cur_wave');
+        // this.cur_wave_node.y = waveBg.y - 20;
+        // this.cur_wave_node.x = -315;
+        // this.dist_xx = -315;
+        //this.wave_pos_x = new Array();
         let waveTypes = GameManager.getInstance().fighting_info.getWaveTypes();
-       
-        
+
+
         let len = waveTypes.length;
-        waveBg.removeAllChildren();
+        this.allWaveLength = waveTypes.length;
         //算出每个的长度
         let jiangeNum = len - 1;
         let jiangeWidth = 4;
@@ -852,34 +861,37 @@ export default class Game extends cc.Component {
         this.left_xx = -waveBg.width / 2 + 5;
         let oneWidth = waveWidth + jiangeWidth;
         this.one_width = oneWidth;
-        console.log("初始化关卡"+waveTypes.length);
-        for (let i = 0; i < len; i++) {
-            let type = waveTypes[i];
-            let node: cc.Node = null;
-            switch (type) {
-                case 0: {
-                    node = cc.instantiate(this.prefab_normal_wave);
-                } break;
-                case 1: {
-                    node = cc.instantiate(this.prefab_boss_wave);
-                } break;
-            }
-            waveBg.addChild(node);
-            node.name = i.toString();
-            node.width = waveWidth;
-            node.x = this.left_xx + i * oneWidth;
-            node.y = 0;
-            node.getComponent(cc.Sprite).spriteFrame = this.sp_wave[0];
-            node.active = type > 0;
-            let jiangePosX = node.x + node.width + jiangeWidth / 2;
-            if (i != len - 1) {
-                let jiange = cc.instantiate(this.prefab_jiange);
-                jiange.x = jiangePosX;
-                jiange.y = 0;
-                waveBg.addChild(jiange);
-            }
-            this.wave_pos_x.push(jiangePosX);
-        }
+        this.waveBar.height = 0;
+        this.wavaNartagY=0;
+        console.log("初始化关卡" + waveTypes.length);
+        // for (let i = 0; i < len; i++) {
+        //     let type = waveTypes[i];
+        //     let node: cc.Node = null;
+        //     node = cc.instantiate(this.prefab_normal_wave);
+        //     // switch (type) {
+        //     //     case 0: {
+        //     //         node = cc.instantiate(this.prefab_normal_wave);
+        //     //     } break;
+        //     //     case 1: {
+        //     //         node = cc.instantiate(this.prefab_boss_wave);
+        //     //     } break;
+        //     // }
+        //     waveBg.addChild(node);
+        //     node.name = i.toString();
+        //     node.width = waveWidth;
+        //     node.x = this.left_xx + i * oneWidth;
+        //     node.y = 0;
+        //     node.getComponent(cc.Sprite).spriteFrame = this.sp_wave[0];
+        //     node.active = type > 0;
+        //     let jiangePosX = node.x + node.width + jiangeWidth / 2;
+        //     // if (i != len - 1) {
+        //     //     let jiange = cc.instantiate(this.prefab_jiange);
+        //     //     jiange.x = jiangePosX;
+        //     //     jiange.y = 0;
+        //     //     waveBg.addChild(jiange);
+        //     // }
+        //     this.wave_pos_x.push(jiangePosX);
+        // }
         this.showLevelProgress();
         this.setRogueText(GameManager.getInstance().getRogueLikeNum());
     }
@@ -891,30 +903,31 @@ export default class Game extends cc.Component {
             case GameMode.Tower:
             case GameMode.Endless:
             case GameMode.Main: {
+              
                 // let allEnemyNum=MonsterManager.getInstance().total_monster_num;
                 // let killNum=MonsterManager.getInstance().killed_monster_num;
                 // let progress=(killNum/allEnemyNum);
                 // this.level_progress.progress=progress;
                 // this.level_label.string=killNum+'/'+allEnemyNum;    
                 //this.cur_wave_node.x=this.wave_pos_x[gm.cur_wave];
-                if (this.cur_wave_sp) {
-                    this.cur_wave_sp.width = this.one_width;
-                }
-                let waveBg = cc.find('Canvas/Ui_Root/top_ui/waveBg');
+                // if (this.cur_wave_sp) {
+                //     this.cur_wave_sp.width = this.one_width;
+                // }
+                // let waveBg = cc.find('Canvas/Ui_Root/waveBg');
                 console.log("开始关卡"+gm.cur_wave);
-               
-                
-                this.cur_wave_sp = waveBg.getChildByName(gm.cur_wave.toString());
-                let types = GameManager.getInstance().fighting_info.getWaveTypes();
-                this.cur_wave_sp.getComponent(cc.Sprite).spriteFrame = this.sp_wave[types[gm.cur_wave] + 1];
-                this.cur_wave_sp.active = true;
-                this.cur_wave_sp.width = 0;
-                let curWave = GameManager.getInstance().cur_wave;
+
+                this.wavaNartagY=gm.cur_wave/this.allWaveLength*this.waveHeight;
+                //this.cur_wave_sp = waveBg.getChildByName(gm.cur_wave.toString());
+                // let types = GameManager.getInstance().fighting_info.getWaveTypes();
+                // this.cur_wave_sp.getComponent(cc.Sprite).spriteFrame = this.sp_wave[types[gm.cur_wave] + 1];
+                // this.cur_wave_sp.active = true;
+                // this.cur_wave_sp.width = 0;
+                // let curWave = GameManager.getInstance().cur_wave;
                 //let prevWave=GameManager.getInstance().cur_wave-1;
-                let curXX = this.wave_pos_x[curWave];
+                //let curXX = this.wave_pos_x[curWave];
                 //let prevXX=prevWave>=0?this.wave_pos_x[prevWave]:this.left_xx;
                 //let offsetXX=curXX-prevXX;        
-                this.dist_xx = curXX;
+                //this.dist_xx = curXX;
                 this.setRogueText(GameManager.getInstance().getRogueLikeNum());
                 //waveBg.getC
             } break;
@@ -982,7 +995,7 @@ export default class Game extends cc.Component {
 
     }
 
-   
+
 
 
     update(dt) {
@@ -1005,14 +1018,17 @@ export default class Game extends cc.Component {
 
                 this.showDps();
             }
-            if (this.cur_wave_node.x < this.dist_xx) {
-                this.cur_wave_node.x += dt * 30;
-                this.cur_wave_sp.width = this.one_width - (this.dist_xx - this.cur_wave_node.x);
-                if (this.cur_wave_node.x > this.dist_xx) {
-                    this.cur_wave_node.x = this.dist_xx;
-                    this.cur_wave_sp.width = this.one_width;
-                }
-            }
+            // if (this.cur_wave_node.x < this.dist_xx) {
+            //     this.cur_wave_node.x += dt * 30;
+            //     //this.cur_wave_sp.width = this.one_width - (this.dist_xx - this.cur_wave_node.x);
+            //     if (this.cur_wave_node.x > this.dist_xx) {
+            //         this.cur_wave_node.x = this.dist_xx;
+            //         //this.cur_wave_sp.width = this.one_width;
+            //     }
+            // }
+
+            let vh: number = (this.wavaNartagY -  this.waveBar.height) * this.easing;
+            this.waveBar.height += vh;
             let aDt = dt;
             if (GameManager.getInstance().getGameRate() != 1) {
                 aDt = dt / 2;

@@ -59,6 +59,8 @@ var MainWall = /** @class */ (function (_super) {
         _this.node_vertigo = null;
         _this.vertigo_action = null;
         _this.hpBar = null;
+        _this.hpTxt = null;
+        _this.caibao = null;
         _this.targetX = 0;
         _this.easing = 0.5;
         return _this;
@@ -103,6 +105,8 @@ var MainWall = /** @class */ (function (_super) {
     MainWall.prototype.showHp = function () {
         _super.prototype.showHp.call(this);
         this.hpBar.fillRange = 0.5 * this.cur_hp / this.max_hp;
+        this.hpTxt.string = Math.floor(this.cur_hp) + '/' + this.max_hp;
+        ;
     };
     MainWall.prototype.onTouchMoveByJoy = function () {
         this.targetX = GameManager_1.default.getInstance().aniType;
@@ -228,6 +232,12 @@ var MainWall = /** @class */ (function (_super) {
     __decorate([
         property(cc.Sprite)
     ], MainWall.prototype, "hpBar", void 0);
+    __decorate([
+        property(cc.Label)
+    ], MainWall.prototype, "hpTxt", void 0);
+    __decorate([
+        property(sp.Skeleton)
+    ], MainWall.prototype, "caibao", void 0);
     MainWall = __decorate([
         ccclass
     ], MainWall);

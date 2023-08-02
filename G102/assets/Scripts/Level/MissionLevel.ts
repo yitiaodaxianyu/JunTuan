@@ -177,7 +177,7 @@ export class MissionLevelManager {
 
     /**获取关卡名字 */
     public getLevelName(level:number):string{
-        return this.getChapter(level)+'-'+this.getLevelNum(level);
+        return this.getChapter(level)+"";
     }
 
     /**根据id号获取Json的坐标 */

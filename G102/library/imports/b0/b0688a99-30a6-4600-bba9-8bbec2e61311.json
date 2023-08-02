@@ -628,6 +628,24 @@
     "Item_90002": {
       "__uuid__": "aa202359-1366-4497-8dcc-415db44e1fc9"
     },
+    "Item_frameEX_0": {
+      "__uuid__": "803e24f1-b051-42c0-b8f4-e480fd89a9b6"
+    },
+    "Item_frameEX_1": {
+      "__uuid__": "401504fa-265d-4fc1-b206-945604df97f8"
+    },
+    "Item_frameEX_2": {
+      "__uuid__": "91e4d4ff-d809-42d1-9f23-f1f21e2c3619"
+    },
+    "Item_frameEX_3": {
+      "__uuid__": "66d10663-83eb-4a8b-840e-5d436effb0be"
+    },
+    "Item_frameEX_4": {
+      "__uuid__": "3479a02f-2d61-4782-a139-50082a8aaf6f"
+    },
+    "Item_frameEX_5": {
+      "__uuid__": "83b5e23e-f5e0-46fd-ba00-b6fb25151be0"
+    },
     "Item_frame_0": {
       "__uuid__": "8d947116-3b58-4625-9635-70b98ee777bc"
     },
@@ -684,6 +702,24 @@
     },
     "item_mask": {
       "__uuid__": "af476744-d4ec-4276-ba48-6b234a51fe6d"
+    },
+    "rIcon0": {
+      "__uuid__": "209d205b-a6b2-4fcd-b56c-1b354ba967a8"
+    },
+    "rIcon1": {
+      "__uuid__": "999faf02-b6c9-4289-b9a9-7a7e6e491b8d"
+    },
+    "rIcon2": {
+      "__uuid__": "dd9368d1-5482-45d3-ad41-d23863fa9983"
+    },
+    "rIcon3": {
+      "__uuid__": "3889f77c-ca16-433a-978e-890016c274aa"
+    },
+    "rIcon4": {
+      "__uuid__": "1d7d13ec-bef1-44a2-99bb-c7dd3f1c1bc1"
+    },
+    "rIcon5": {
+      "__uuid__": "c877092f-48ba-49ca-bafc-3491775ec881"
     }
   }
 }

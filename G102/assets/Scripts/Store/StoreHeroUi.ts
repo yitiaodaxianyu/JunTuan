@@ -185,7 +185,7 @@ export default class StoreHeroUi extends UIComponent {
         let item = cc.instantiate(this.hero_icon_item);
         item.name = "item" + this.index;
         let info = ItemManager.getInstance().getJsonItem(this.rewardList[this.index].dropId);
-        console.log("kkkkd:"+this.rewardList[this.index].dropId);
+       
         
         let card = item.getChildByName("cardBg");
         card.getComponent(cc.Sprite).spriteFrame = PropManager.getInstance().getSpFrameByPropType(info.ItemID);

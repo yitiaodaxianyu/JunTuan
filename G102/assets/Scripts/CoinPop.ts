@@ -63,7 +63,7 @@ export default class CoinPop extends UIComponent {
         let items
         if(this.type==PropId.Coin){
             items=PropManager.getInstance().createPropItem(PropId.Coin,20000);
-            this.num=20000
+            this.num=20000;
             items.parent=this.itme
             this.node.getChildByName("coin").active = true;
             this.node.getChildByName("gem").active = false;

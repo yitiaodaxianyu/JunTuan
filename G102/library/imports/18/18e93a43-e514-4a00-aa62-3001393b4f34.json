@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rTopBG",
+    "texture": "82f51454-3c56-4035-a4a8-bcddb6da2fe7",
+    "atlas": "1c3aaf5a-3455-43ba-b262-d380da8c8607",
+    "rect": [
+      2,
+      197,
+      648,
+      128
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      648,
+      128
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

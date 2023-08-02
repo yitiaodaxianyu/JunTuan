@@ -61,18 +61,30 @@ var RoguelikeTip = /** @class */ (function (_super) {
         _this.heroUpItem1 = null; //英雄升级选择节点1
         _this.heroUpItem2 = null; //英雄升级选择节点2
         _this.greybuttonjudgment = 0;
+        _this.indexHeroItem = false;
+        _this.indexHeroUp = 0;
         return _this;
         // update (dt) {}
     }
     RoguelikeTip.prototype.onLoad = function () {
         _super.prototype.onLoad.call(this);
-        this.tag = 0;
-        this.ToggleContainer.children[0].getComponent(cc.Toggle).isChecked = true;
-        this.onToggleChange();
         console.log("进入RogueLike");
         this.chariotUpgradation();
-        this.Refreshheroitmestatus();
-        this.heroUpRefresh();
+        this.indexHeroItem = this.Refreshheroitmestatus();
+        this.indexHeroUp = this.heroUpRefresh();
+        if (this.indexHeroItem) {
+            this.tag = 0;
+            this.ToggleContainer.children[0].getComponent(cc.Toggle).isChecked = true;
+        }
+        else if (this.indexHeroUp > 0) {
+            this.tag = 1;
+            this.ToggleContainer.children[1].getComponent(cc.Toggle).isChecked = true;
+        }
+        else {
+            this.tag = 2;
+            this.ToggleContainer.children[2].getComponent(cc.Toggle).isChecked = true;
+        }
+        this.onToggleChange();
         this.chariotItem0.on(cc.Node.EventType.TOUCH_END, this.onCharioItemTouchEnd, this);
         this.chariotItem1.on(cc.Node.EventType.TOUCH_END, this.onCharioItemTouchEnd, this);
         this.chariotItem2.on(cc.Node.EventType.TOUCH_END, this.onCharioItemTouchEnd, this);
@@ -94,14 +106,22 @@ var RoguelikeTip = /** @class */ (function (_super) {
     RoguelikeTip.prototype.heroUpRefresh = function () {
         var heroHas = [];
         GameManager_1.default.getInstance().all_hero.forEach(function (v, k) {
-            if (v.hero_lvl < 5) {
-                heroHas.push(v.hero_type);
+            if (v.hero_type <= 4) {
+                if (v.hero_lvl < 4) {
+                    heroHas.push(v.hero_type);
+                }
+            }
+            else {
+                if (v.hero_lvl < 5) {
+                    heroHas.push(v.hero_type);
+                }
             }
         });
         console.log("拥有的可升级英雄" + heroHas.length);
         this.heroUpItem0.x = -223;
         this.heroUpItem1.x = 0;
         this.heroUpItem2.x = 223;
+        this.heroUpItem0.active = true;
         this.heroUpItem1.active = true;
         this.heroUpItem2.active = true;
         heroHas.sort(function () {
@@ -109,6 +129,9 @@ var RoguelikeTip = /** @class */ (function (_super) {
         });
         if (heroHas.length == 0) {
             //没有可升级英雄，暂不处理
+            this.heroUpItem0.active = false;
+            this.heroUpItem1.active = false;
+            this.heroUpItem2.active = false;
         }
         else if (heroHas.length == 1) {
             this.heroUpItem0.x = 0;
@@ -128,6 +151,7 @@ var RoguelikeTip = /** @class */ (function (_super) {
             this.heroUpItem1.getComponent(HeroUpItem_1.default).initData(heroHas[1]);
             this.heroUpItem2.getComponent(HeroUpItem_1.default).initData(heroHas[2]);
         }
+        return heroHas.length;
     };
     RoguelikeTip.prototype.chariotUpgradation = function () {
         var data = GameManager_1.default.getInstance().getcharioUpgradationData();
@@ -196,8 +220,8 @@ var RoguelikeTip = /** @class */ (function (_super) {
             }
         }
         var teamList = GameManager_1.default.getInstance().cur_team_list;
+        var kewanNum = 0;
         //刷新英雄itme状态
-        //血量
         for (var shuaxingindex = 0; shuaxingindex < HeroListarr.length; shuaxingindex++) {
             this.content.children[shuaxingindex].getComponent(HeroItem_1.default).RefreshHeroesItem(HeroListarr[shuaxingindex].hero_type);
             for (var teamListindex = 0; teamListindex < teamList.length; teamListindex++) {
@@ -205,7 +229,22 @@ var RoguelikeTip = /** @class */ (function (_super) {
                     this.content.children[shuaxingindex].getChildByName("shangzheng").active = true;
                 }
             }
+            if (this.content.children[shuaxingindex].getChildByName("shangzheng").active == false) {
+                kewanNum++;
+            }
         }
+        console.log("可用英雄:" + kewanNum);
+        var hasKongwei = false;
+        for (var i = 0; i < teamList.length; i++) {
+            if (teamList[i] <= 0) {
+                hasKongwei = true;
+            }
+        }
+        //有空位并且有可上场英雄
+        if (kewanNum > 0 && hasKongwei == true) {
+            return true;
+        }
+        return false;
     };
     RoguelikeTip.prototype.onHeroUpTouchEnd = function (e) {
         var touchTarget = e.getCurrentTarget();
@@ -281,7 +320,12 @@ var RoguelikeTip = /** @class */ (function (_super) {
     };
     RoguelikeTip.prototype.onToggleChange = function () {
         if (this.tag == 0) {
-            this.tipLabel.getComponent(cc.Label).string = "选择一个英雄加入你的队伍。";
+            if (this.indexHeroItem) {
+                this.tipLabel.getComponent(cc.Label).string = "选择一个英雄加入你的队伍。";
+            }
+            else {
+                this.tipLabel.getComponent(cc.Label).string = "已无法让更多英雄上场。";
+            }
             this.hero_Chose.active = true;
             this.chariot_Chose.active = false;
             this.heroUp_Chose.active = false;
@@ -290,7 +334,12 @@ var RoguelikeTip = /** @class */ (function (_super) {
             this.hero_Chose.active = false;
             this.chariot_Chose.active = false;
             this.heroUp_Chose.active = true;
-            this.tipLabel.getComponent(cc.Label).string = "选择一个英雄进行升级。";
+            if (this.indexHeroUp > 0) {
+                this.tipLabel.getComponent(cc.Label).string = "选择一个英雄进行升级。";
+            }
+            else {
+                this.tipLabel.getComponent(cc.Label).string = "没有可升级的英雄。";
+            }
         }
         else if (this.tag == 2) {
             this.hero_Chose.active = false;

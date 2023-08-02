@@ -43,6 +43,12 @@ export default class MainWall extends Wall {
     @property(cc.Sprite)
     hpBar: cc.Sprite = null;
 
+    @property(cc.Label)
+    hpTxt: cc.Label = null;
+
+    @property(sp.Skeleton)
+    caibao: sp.Skeleton = null;
+
     onLoad() {
         this.setHpChangeListen(this.onWallChangeHp.bind(this));
         this.setHpShowListen(this.showWallTeXiao.bind(this));
@@ -86,6 +92,7 @@ export default class MainWall extends Wall {
     protected showHp(): void {
         super.showHp();
         this.hpBar.fillRange = 0.5 * this.cur_hp / this.max_hp;
+        this.hpTxt.string=Math.floor(this.cur_hp)+'/'+this.max_hp;;
     }
     targetX: number = 0;
     easing: number = 0.5;

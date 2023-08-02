@@ -88,6 +88,8 @@ export class JackpotManager {
     /** 根据奖池id 随机获取奖池的一个物品数据*/
     public getRewardDataById(id:number):RewardData
     {
+        console.log("getRewardData:"+id);
+        
         let rd=new RewardData();
         let jj=this.getJsonJackpot(id);
         //根据权重随机

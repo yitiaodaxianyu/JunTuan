@@ -30,6 +30,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var GameManager_1 = require("../../GameManager");
+var HeroManager_1 = require("../../Hero/Data/HeroManager");
+var PropManager_1 = require("../../Prop/PropManager");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var CharioItem = /** @class */ (function (_super) {
     __extends(CharioItem, _super);
@@ -39,6 +41,9 @@ var CharioItem = /** @class */ (function (_super) {
         _this.labelContent = null;
         _this.labelLvl = null;
         _this.icon = null;
+        _this.bg = null;
+        //["加攻击", "血量上限", "攻速", "防御", "技能间隔", "回血"];
+        _this.charioType = [5, 4, 5, 3, 4, 3];
         return _this;
         // update (dt) {}
     }
@@ -46,9 +51,17 @@ var CharioItem = /** @class */ (function (_super) {
     };
     CharioItem.prototype.initData = function (n) {
         this.dataType = n;
-        this.labelLvl.string = "lv" + (GameManager_1.default.getInstance().charioUpgradationData[n] + 1);
+        var lvN = GameManager_1.default.getInstance().charioUpgradationData[n];
+        this.labelLvl.string = "lv" + (lvN + 1);
         this.labelTip.string = GameManager_1.default.getInstance().charioTip[n];
-        this.labelContent.string = GameManager_1.default.getInstance().charioContent[n];
+        if (n != 5) {
+            this.labelContent.string = "当前等级：" + GameManager_1.default.getInstance().charioContent[n][lvN] + "\n下一等级：" + GameManager_1.default.getInstance().charioContent[n][lvN + 1];
+        }
+        else {
+            this.labelContent.string = GameManager_1.default.getInstance().charioContent[n][0];
+        }
+        this.bg.getComponent(cc.Sprite).spriteFrame = HeroManager_1.HeroManager.getInstance().getSpriteFrameByName('HeroList_Frame_' + this.charioType[this.dataType] + '_0');
+        this.icon.getComponent(cc.Sprite).spriteFrame = PropManager_1.PropManager.getInstance().getSpFrameByCharioType(this.dataType);
     };
     CharioItem.prototype.getDataType = function () {
         return this.dataType;
@@ -65,6 +78,9 @@ var CharioItem = /** @class */ (function (_super) {
     __decorate([
         property(cc.Node)
     ], CharioItem.prototype, "icon", void 0);
+    __decorate([
+        property(cc.Node)
+    ], CharioItem.prototype, "bg", void 0);
     CharioItem = __decorate([
         ccclass
     ], CharioItem);

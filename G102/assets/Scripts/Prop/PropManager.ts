@@ -113,6 +113,15 @@ export class PropManager {
         let iconSpName="Item_frame_"+ItemManager.getInstance().getQuality(propType);
         return this.getSpByName(iconSpName);
     }
+    public getSpFrameByExType(propType:number):cc.SpriteFrame{
+        let iconSpName="Item_frameEX_"+propType;
+        return this.getSpByName(iconSpName);
+    }
+
+    public getSpFrameByCharioType(propType:number):cc.SpriteFrame{
+        let iconSpName="rIcon"+propType;
+        return this.getSpByName(iconSpName);
+    }
     /**通过英雄id获得一个头像 */
     public getSpheadPortraitType(propType:number):cc.SpriteFrame{
         let iconSpName="Item_"+(110000+propType);//Item_110001

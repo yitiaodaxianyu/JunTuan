@@ -182,7 +182,7 @@ var MissionLevelManager = /** @class */ (function () {
     };
     /**获取关卡名字 */
     MissionLevelManager.prototype.getLevelName = function (level) {
-        return this.getChapter(level) + '-' + this.getLevelNum(level);
+        return this.getChapter(level) + "";
     };
     /**根据id号获取Json的坐标 */
     MissionLevelManager.prototype.getJsonLevelPosXY = function (id) {

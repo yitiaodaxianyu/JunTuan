@@ -141,6 +141,14 @@ var PropManager = /** @class */ (function () {
         var iconSpName = "Item_frame_" + Item_1.ItemManager.getInstance().getQuality(propType);
         return this.getSpByName(iconSpName);
     };
+    PropManager.prototype.getSpFrameByExType = function (propType) {
+        var iconSpName = "Item_frameEX_" + propType;
+        return this.getSpByName(iconSpName);
+    };
+    PropManager.prototype.getSpFrameByCharioType = function (propType) {
+        var iconSpName = "rIcon" + propType;
+        return this.getSpByName(iconSpName);
+    };
     /**通过英雄id获得一个头像 */
     PropManager.prototype.getSpheadPortraitType = function (propType) {
         var iconSpName = "Item_" + (110000 + propType); //Item_110001
