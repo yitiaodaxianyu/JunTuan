@@ -68,7 +68,7 @@ export default class Hero extends cc.Component {
     //技能剩余的冷却时间
     skill_cd_time: number = 0;
     /**主动技能技能最大冷却*/
-    skill_total_time: number = 12;
+    skill_total_time: number = 8;
     /**施法距离 */
     casting_distance: number = 1000;
     /**子弹速度 */

@@ -930,8 +930,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 733.87,
-      "height": 1069.47
+      "width": 750,
+      "height": 210.43
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -943,7 +943,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        -93.033,
+        9.67,
         0,
         0,
         0,
@@ -981,8 +981,8 @@
       }
     ],
     "paused": false,
-    "defaultSkin": "",
-    "defaultAnimation": "",
+    "defaultSkin": "default",
+    "defaultAnimation": "animation",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -993,12 +993,14 @@
     "_frameCache": null,
     "_curFrame": null,
     "_skeletonCache": null,
-    "_animationName": "walk",
+    "_animationName": "animation",
     "_animationQueue": [],
     "_headAniInfo": null,
     "_playTimes": 0,
     "_isAniComplete": true,
-    "_N$skeletonData": null,
+    "_N$skeletonData": {
+      "__uuid__": "20f5dc23-177c-46eb-b4e8-d3db86f06a57"
+    },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,
     "_N$debugBones": false,
