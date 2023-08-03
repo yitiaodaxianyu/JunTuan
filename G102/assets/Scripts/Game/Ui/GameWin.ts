@@ -107,6 +107,10 @@ export default class GameWin extends UIComponent {
 
     @property(cc.Node)
     RankingSelf: cc.Node = null//自己的头像  排名 
+
+    @property(cc.Node)
+    btnNext: cc.Node = null//下一关按钮
+    
     initUi()
     {
         GameManager.getInstance().sound_manager.playSound(SoundIndex.YX_Win);
@@ -180,21 +184,26 @@ export default class GameWin extends UIComponent {
     {
         switch(GameManager.getInstance().cur_game_mode){
             case GameMode.Main:{
+                this.btnNext.active=false;
                 this.showMainReward();
             }break;
             case GameMode.Endless:{
+                this.btnNext.active=true;
                 this.showEndlessReward();
                 //BattlePassManager.addTodayTaskProgress(BattlePassTask.Endless);
             }break;
             case GameMode.Boss_Challenge:{
+                this.btnNext.active=false;
                 this.showBossChallengeReward();
                 //BattlePassManager.addTodayTaskProgress(BattlePassTask.Boss);
             }break;
             case GameMode.Tower:{
+                this.btnNext.active=false;
                 this.showTowerReward();
                 //BattlePassManager.addTodayTaskProgress(BattlePassTask.Tower3);
             }break
             case GameMode.Maze:{
+                this.btnNext.active=true;
                 this.showMazeReward();
                 
             }break

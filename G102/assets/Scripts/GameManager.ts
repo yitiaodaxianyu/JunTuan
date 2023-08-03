@@ -989,7 +989,7 @@ export default class GameManager extends cc.Component {
     }
     //获取因为技能等级变化的血量比率
     public getCharioHealthRatio(): number {
-        return this.charioUpgradationData[1] * 0.4 + 1000;
+        return this.charioUpgradationData[1] * 0.4 + 1;
     }
     //获取因为技能等级变化的防御比率
     public getCharioDefenseRotio(): number {
@@ -997,7 +997,7 @@ export default class GameManager extends cc.Component {
     }
     //攻击力比率
     public getCharioAttackRotio(): number {
-        return this.charioUpgradationData[0] * 0.2+1000;
+        return this.charioUpgradationData[0] * 0.2;
     }
 
     //攻击速度比率
