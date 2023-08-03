@@ -165,16 +165,6 @@
       "weights": 80
     },
     {
-      "TaskID": 32001,
-      "TaskType": 32,
-      "Unlocklevel": 20,
-      "TaskDescription": 1320017,
-      "TaskParameters": 1,
-      "RewardPropID": 90001,
-      "RewardPropNum": 10,
-      "weights": 50
-    },
-    {
       "TaskID": 33001,
       "TaskType": 33,
       "Unlocklevel": 0,
@@ -209,16 +199,6 @@
       "TaskType": 31,
       "Unlocklevel": 0,
       "TaskDescription": 1320016,
-      "TaskParameters": 10,
-      "RewardPropID": 90001,
-      "RewardPropNum": 20,
-      "weights": 30
-    },
-    {
-      "TaskID": 32002,
-      "TaskType": 32,
-      "Unlocklevel": 20,
-      "TaskDescription": 1320017,
       "TaskParameters": 10,
       "RewardPropID": 90001,
       "RewardPropNum": 20,

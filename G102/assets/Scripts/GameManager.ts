@@ -470,13 +470,16 @@ export default class GameManager extends cc.Component {
         let mainWallData = new AttributeData();
         this.all_hero.forEach((v, k) => {
             let heroData = cc.instantiate(v.hero_data);
-            mainWallData.Health += heroData.total_hp * 0.2 * this.getCharioHealthRatio();
-            mainWallData.Defense += heroData.total_defense * 0.2 * this.getCharioDefenseRotio();
-            mainWallData.Miss += heroData.Miss * 0.2;
-            mainWallData.AntiCritical += heroData.AntiCritical * 0.2;
-            mainWallData.AntiExtraCritical += heroData.AntiExtraCritical * 0.2;
-            mainWallData.Attack += heroData.total_attack * 0.2;
-            mainWallData.Hit += heroData.Hit * 0.2;
+            if(heroData){
+                mainWallData.Health += heroData.total_hp * 0.2 * this.getCharioHealthRatio();
+                mainWallData.Defense += heroData.total_defense * 0.2 * this.getCharioDefenseRotio();
+                mainWallData.Miss += heroData.Miss * 0.2;
+                mainWallData.AntiCritical += heroData.AntiCritical * 0.2;
+                mainWallData.AntiExtraCritical += heroData.AntiExtraCritical * 0.2;
+                mainWallData.Attack += heroData.total_attack * 0.2;
+                mainWallData.Hit += heroData.Hit * 0.2;
+            }
+           
 
         })
         WallManager.getInstance().getMainWall().refreshWallDataByaddHero(mainWallData);
@@ -1231,7 +1234,8 @@ export default class GameManager extends cc.Component {
             case GameMode.Endless: {
                 //显示三选一
                 // console.log("+++++++++")
-                GameManager.getInstance().showBtnBuff(1);//Buff选择弹窗
+                GameManager.getInstance().startNextLevel();
+                //GameManager.getInstance().showBtnBuff(1);//Buff选择弹窗
             } break;
             case GameMode.Maze: {
                 this.game.showCoin();

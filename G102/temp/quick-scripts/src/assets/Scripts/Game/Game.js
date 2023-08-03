@@ -72,6 +72,7 @@ var Game = /** @class */ (function (_super) {
         /**当前波数节点 */
         /**试用文本 */
         _this.waveBar = null;
+        _this.waveBarBg = null;
         _this.easing = 0.1;
         _this.wavaNartagY = 0;
         _this.allWaveLength = 0;
@@ -98,6 +99,7 @@ var Game = /** @class */ (function (_super) {
         _this.try_rate_label = null;
         /**剩余多少次显示 */
         _this.rogueText = null;
+        _this.rogueBg = null;
         //测试
         _this.start_time = 0;
         _this.time_jishu = 0;
@@ -252,7 +254,8 @@ var Game = /** @class */ (function (_super) {
                 var Round = EndlessLevels_1.EndlessLevelsManager.getInstance().getRound(wavenumber); //回合数
                 if (Round - 1 > 0) {
                     BuffDisplay_1.default.surplusnumber = (Round - 2);
-                    GameManager_1.default.getInstance().showBtnBuff(1); //Buff选择弹窗
+                    GameManager_1.default.getInstance().startNextLevel();
+                    //GameManager.getInstance().showBtnBuff(1);//Buff选择弹窗
                 }
                 else {
                     BuffDisplay_1.default.surplusnumber = -1;
@@ -380,6 +383,8 @@ var Game = /** @class */ (function (_super) {
         this.setBtnRateShow();
         this.setBtnAuto();
         var top = cc.find("Canvas/Ui_Root/top_ui");
+        this.waveBarBg.active = true;
+        this.rogueBg.active = true;
         //let coinBg=cc.find('Canvas/Ui_Root/top_ui/iconBg');
         switch (gm.cur_game_mode) {
             case Constants_1.GameMode.Main:
@@ -408,7 +413,7 @@ var Game = /** @class */ (function (_super) {
                     //coinBg.active=false;
                     GameEffectsManager_1.GameEffectsManager.getInstance().addEffectPoolById(GameEffectsManager_1.GameEffectId.monster_zhiliao_halo_hit, 2);
                     top.getChildByName("levelLabeltxt").getComponent(TextLanguage_1.default).setTextId(800018); //800018
-                    top.getChildByName("Endless_Btn_Buff").active = true;
+                    top.getChildByName("Endless_Btn_Buff").active = false;
                     top.getChildByName("Boss").active = false;
                     //波数//GameManager.getInstance().fighting_info.title_name;
                     var wavenumber = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.UnlimitedChallengeDamage, 0);
@@ -438,6 +443,8 @@ var Game = /** @class */ (function (_super) {
                     TaskManager_1.default.getInstance().emitTask(TaskEnum_1.TaskItem.挑战X次boss狩猎);
                     TaskManager_1.default.getInstance().emitTask(TaskEnum_1.TaskItem.挑战1次BOSS狩猎);
                     TaskManager_1.default.getInstance().emitTask(TaskEnum_1.TaskItem.挑战3次BOSS狩猎);
+                    this.waveBarBg.active = false;
+                    this.rogueBg.active = false;
                     // top.getChildByName("bg").active=false;
                     // top.getChildByName("levelProgressBar").active=false;
                     // top.getChildByName("curLabel").active=false; 
@@ -1093,6 +1100,9 @@ var Game = /** @class */ (function (_super) {
         property(cc.Node)
     ], Game.prototype, "waveBar", void 0);
     __decorate([
+        property(cc.Node)
+    ], Game.prototype, "waveBarBg", void 0);
+    __decorate([
         property(cc.Label)
     ], Game.prototype, "try_auto_label", void 0);
     __decorate([
@@ -1101,6 +1111,9 @@ var Game = /** @class */ (function (_super) {
     __decorate([
         property(cc.Label)
     ], Game.prototype, "rogueText", void 0);
+    __decorate([
+        property(cc.Node)
+    ], Game.prototype, "rogueBg", void 0);
     __decorate([
         property(cc.Node)
     ], Game.prototype, "battlepotion", void 0);

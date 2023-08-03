@@ -1820,7 +1820,7 @@
   {
     "Text_ID": 130013,
     "English": "The current heroes are full！",
-    "Chinese": "你开始只能有一位英雄出战！",
+    "Chinese": "无法上场更多的英雄！",
     "Indonesian": "Para pahlawan saat ini adalah penuh",
     "Russian": "Нынешние герои полны!",
     "Thai": "วีรบุรุษปัจจุบันเต็มโศรกศพ",
@@ -2945,7 +2945,7 @@
   {
     "Text_ID": 230007,
     "English": "Click to unlock 5 times reward",
-    "Chinese": "点击解锁5倍奖励",
+    "Chinese": "点击解锁2倍奖励",
     "Indonesian": "Klik untuk membuka hadiah 5 kali",
     "Russian": "Нажмите, чтобы разблокировать 5-кратную награду",
     "Thai": "คลิกเพื่อปลดล็อกรางวัล 5 ครั้ง",

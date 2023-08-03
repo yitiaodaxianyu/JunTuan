@@ -22,7 +22,7 @@
       "DayID": 103,
       "Day": 3,
       "Daytype": 1,
-      "Item": 40006,
+      "Item": 40004,
       "Num": 10
     },
     {
@@ -37,14 +37,14 @@
       "Day": 5,
       "Daytype": 1,
       "Item": 10002,
-      "Num": 300
+      "Num": 2700
     },
     {
       "DayID": 106,
       "Day": 6,
       "Daytype": 1,
       "Item": 10002,
-      "Num": 300
+      "Num": 2700
     },
     {
       "DayID": 107,

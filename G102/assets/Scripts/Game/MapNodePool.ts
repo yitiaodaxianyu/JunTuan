@@ -29,6 +29,9 @@ export default class MapNodePool extends cc.Component {
         }
 
         if(this.preload_id.includes(id)){
+            if(loadCallback){
+                loadCallback();
+            }
             return false;
         }
 

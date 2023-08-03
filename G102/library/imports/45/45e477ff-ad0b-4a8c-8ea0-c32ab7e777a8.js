@@ -92,6 +92,7 @@ var GameWin = /** @class */ (function (_super) {
         _this.text = null; ///副本确认按钮
         _this.texts = [100126, 100128, 100129]; //战力:~波数:~伤害:~
         _this.RankingSelf = null; //自己的头像  排名 
+        _this.btnNext = null; //下一关按钮
         return _this;
     }
     GameWin.prototype.initUi = function () {
@@ -161,29 +162,34 @@ var GameWin = /** @class */ (function (_super) {
         switch (GameManager_1.default.getInstance().cur_game_mode) {
             case Constants_1.GameMode.Main:
                 {
+                    this.btnNext.active = false;
                     this.showMainReward();
                 }
                 break;
             case Constants_1.GameMode.Endless:
                 {
+                    this.btnNext.active = true;
                     this.showEndlessReward();
                     //BattlePassManager.addTodayTaskProgress(BattlePassTask.Endless);
                 }
                 break;
             case Constants_1.GameMode.Boss_Challenge:
                 {
+                    this.btnNext.active = false;
                     this.showBossChallengeReward();
                     //BattlePassManager.addTodayTaskProgress(BattlePassTask.Boss);
                 }
                 break;
             case Constants_1.GameMode.Tower:
                 {
+                    this.btnNext.active = false;
                     this.showTowerReward();
                     //BattlePassManager.addTodayTaskProgress(BattlePassTask.Tower3);
                 }
                 break;
             case Constants_1.GameMode.Maze:
                 {
+                    this.btnNext.active = true;
                     this.showMazeReward();
                 }
                 break;
@@ -1233,6 +1239,9 @@ var GameWin = /** @class */ (function (_super) {
     __decorate([
         property(cc.Node)
     ], GameWin.prototype, "RankingSelf", void 0);
+    __decorate([
+        property(cc.Node)
+    ], GameWin.prototype, "btnNext", void 0);
     GameWin = __decorate([
         ccclass
     ], GameWin);

@@ -51,6 +51,9 @@ var MapNodePool = /** @class */ (function (_super) {
             return false;
         }
         if (this.preload_id.includes(id)) {
+            if (loadCallback) {
+                loadCallback();
+            }
             return false;
         }
         this.preload_id.push(id);

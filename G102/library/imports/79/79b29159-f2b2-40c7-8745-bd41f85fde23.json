@@ -50,8 +50,8 @@
       "AccumulatedPointsID": 220007,
       "TaskType": 2,
       "AccumulatedPoints": 200,
-      "PropID_1": 40006,
-      "PropNum_1": 5
+      "PropID_1": 10002,
+      "PropNum_1": 2800
     },
     {
       "AccumulatedPointsID": 230008,
@@ -64,15 +64,15 @@
       "AccumulatedPointsID": 240009,
       "TaskType": 2,
       "AccumulatedPoints": 400,
-      "PropID_1": 40006,
-      "PropNum_1": 5
+      "PropID_1": 10002,
+      "PropNum_1": 3800
     },
     {
       "AccumulatedPointsID": 250010,
       "TaskType": 2,
       "AccumulatedPoints": 500,
       "PropID_1": 40004,
-      "PropNum_1": 10
+      "PropNum_1": 20
     }
   ]
 }

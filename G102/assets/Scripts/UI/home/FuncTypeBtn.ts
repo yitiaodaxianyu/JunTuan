@@ -70,7 +70,9 @@ export default class FuncTypeBtn extends cc.Component {
                 return isShow;
             }
         }
-        else{
+        else if(this.func_type==FuncType.AccumulatedRecharge||this.func_type==FuncType.WeekCard){
+            return isShow;
+        }else{
             let normalMaterial=cc.Material.getBuiltinMaterial('2d-sprite');
             let grayMaterial=cc.Material.getBuiltinMaterial('2d-gray-sprite');
             this.node.getComponent(cc.Sprite).setMaterial(0,isShow?normalMaterial:grayMaterial);

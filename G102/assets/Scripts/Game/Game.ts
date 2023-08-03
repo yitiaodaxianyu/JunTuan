@@ -62,7 +62,8 @@ export default class Game extends cc.Component {
     /**试用文本 */
     @property(cc.Node)
     waveBar: cc.Node = null;
-
+    @property(cc.Node)
+    waveBarBg: cc.Node = null;
     easing: number = 0.1;
     wavaNartagY:number=0;
     allWaveLength: number = 0;
@@ -94,6 +95,9 @@ export default class Game extends cc.Component {
     /**剩余多少次显示 */
     @property(cc.Label)
     rogueText: cc.Label = null;
+
+    @property(cc.Node)
+    rogueBg: cc.Node = null;
     //测试
     start_time: number = 0;
     time_jishu: number = 0;
@@ -231,6 +235,8 @@ export default class Game extends cc.Component {
     }
 
     checkStartGame() {
+     
+        
         if (Hero.cur_loaded_num >= Hero.max_load_num) {
             let bgLoading = UIManager.getInstance().getLoadingNode();
             bgLoading.active = false;
@@ -253,7 +259,8 @@ export default class Game extends cc.Component {
 
                 if (Round - 1 > 0) {
                     BuffDisplay.surplusnumber = (Round - 2)
-                    GameManager.getInstance().showBtnBuff(1);//Buff选择弹窗
+                    GameManager.getInstance().startNextLevel();
+                    //GameManager.getInstance().showBtnBuff(1);//Buff选择弹窗
                 } else {
                     BuffDisplay.surplusnumber = -1
                 }
@@ -384,6 +391,8 @@ export default class Game extends cc.Component {
         this.setBtnRateShow();
         this.setBtnAuto();
         let top = cc.find("Canvas/Ui_Root/top_ui");
+        this.waveBarBg.active=true;
+        this.rogueBg.active=true;
 
         //let coinBg=cc.find('Canvas/Ui_Root/top_ui/iconBg');
         switch (gm.cur_game_mode) {
@@ -411,7 +420,7 @@ export default class Game extends cc.Component {
                 //coinBg.active=false;
                 GameEffectsManager.getInstance().addEffectPoolById(GameEffectId.monster_zhiliao_halo_hit, 2);
                 top.getChildByName("levelLabeltxt").getComponent(TextLanguage).setTextId(800018)//800018
-                top.getChildByName("Endless_Btn_Buff").active = true
+                top.getChildByName("Endless_Btn_Buff").active = false
                 top.getChildByName("Boss").active = false
                 //波数//GameManager.getInstance().fighting_info.title_name;
                 let wavenumber = TheStorageManager.getInstance().getNumber(StorageKey.UnlimitedChallengeDamage, 0)
@@ -445,6 +454,9 @@ export default class Game extends cc.Component {
                 TaskManager.getInstance().emitTask(TaskItem.挑战X次boss狩猎);
                 TaskManager.getInstance().emitTask(TaskItem.挑战1次BOSS狩猎);
                 TaskManager.getInstance().emitTask(TaskItem.挑战3次BOSS狩猎);
+
+                this.waveBarBg.active=false;
+                this.rogueBg.active=false;
                 // top.getChildByName("bg").active=false;
                 // top.getChildByName("levelProgressBar").active=false;
                 // top.getChildByName("curLabel").active=false; 

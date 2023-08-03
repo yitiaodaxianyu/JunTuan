@@ -13,7 +13,7 @@
         2,
         2,
         2,
-        3,
+        5,
         3,
         3,
         4
@@ -76,7 +76,7 @@
         4,
         4,
         4,
-        4,
+        8,
         4,
         4,
         4
@@ -136,14 +136,14 @@
       "LevelLimit_Upper": 18,
       "LevelLimit_Lower": 23,
       "MonsterNum": [
-        4,
-        4,
-        4,
-        4,
-        4,
-        4,
-        4,
-        4
+        5,
+        5,
+        5,
+        5,
+        11,
+        5,
+        5,
+        5
       ],
       "HpCoefficient": [
         1,
@@ -199,14 +199,14 @@
       "LevelLimit_Upper": 21,
       "LevelLimit_Lower": 26,
       "MonsterNum": [
-        4,
-        4,
-        4,
-        4,
-        4,
-        4,
-        4,
-        4
+        6,
+        6,
+        6,
+        6,
+        16,
+        6,
+        6,
+        6
       ],
       "HpCoefficient": [
         1,
@@ -262,14 +262,14 @@
       "LevelLimit_Upper": 24,
       "LevelLimit_Lower": 29,
       "MonsterNum": [
-        5,
-        5,
-        5,
-        5,
-        5,
-        5,
-        5,
-        5
+        7,
+        7,
+        7,
+        7,
+        16,
+        7,
+        7,
+        7
       ],
       "HpCoefficient": [
         1.02,
@@ -326,14 +326,14 @@
       "LevelLimit_Upper": 27,
       "LevelLimit_Lower": 32,
       "MonsterNum": [
-        5,
-        5,
-        5,
-        5,
-        5,
-        5,
-        5,
-        5
+        8,
+        8,
+        8,
+        8,
+        8,
+        18,
+        8,
+        8
       ],
       "HpCoefficient": [
         1.02,
@@ -390,14 +390,14 @@
       "LevelLimit_Upper": 30,
       "LevelLimit_Lower": 35,
       "MonsterNum": [
-        5,
-        5,
-        5,
-        5,
-        5,
-        5,
-        5,
-        5
+        9,
+        9,
+        9,
+        9,
+        9,
+        20,
+        9,
+        9
       ],
       "HpCoefficient": [
         1.04,
@@ -453,14 +453,14 @@
       "LevelLimit_Upper": 33,
       "LevelLimit_Lower": 38,
       "MonsterNum": [
-        6,
-        6,
-        6,
-        6,
-        6,
-        6,
-        6,
-        6
+        10,
+        10,
+        10,
+        22,
+        10,
+        10,
+        10,
+        10
       ],
       "HpCoefficient": [
         1.04,
@@ -516,14 +516,14 @@
       "LevelLimit_Upper": 36,
       "LevelLimit_Lower": 41,
       "MonsterNum": [
-        6,
-        6,
-        6,
-        6,
-        6,
-        6,
-        6,
-        6
+        15,
+        13,
+        14,
+        25,
+        12,
+        14,
+        15,
+        35
       ],
       "HpCoefficient": [
         1.06,
@@ -579,14 +579,14 @@
       "LevelLimit_Upper": 39,
       "LevelLimit_Lower": 44,
       "MonsterNum": [
-        7,
-        7,
-        7,
-        7,
-        7,
-        7,
-        7,
-        7
+        15,
+        13,
+        14,
+        25,
+        12,
+        14,
+        15,
+        35
       ],
       "HpCoefficient": [
         1.06,
@@ -642,14 +642,14 @@
       "LevelLimit_Upper": 42,
       "LevelLimit_Lower": 47,
       "MonsterNum": [
-        7,
-        7,
-        7,
-        7,
-        7,
-        7,
-        7,
-        7
+        15,
+        13,
+        14,
+        25,
+        12,
+        14,
+        15,
+        35
       ],
       "HpCoefficient": [
         1.08,
@@ -706,14 +706,14 @@
       "LevelLimit_Upper": 45,
       "LevelLimit_Lower": 50,
       "MonsterNum": [
-        8,
-        8,
-        8,
-        8,
-        8,
-        8,
-        8,
-        8
+        15,
+        13,
+        14,
+        25,
+        12,
+        14,
+        15,
+        35
       ],
       "HpCoefficient": [
         1.08,
@@ -770,14 +770,14 @@
       "LevelLimit_Upper": 48,
       "LevelLimit_Lower": 53,
       "MonsterNum": [
-        8,
-        8,
-        8,
-        8,
-        8,
-        8,
-        8,
-        8
+        15,
+        13,
+        14,
+        25,
+        12,
+        14,
+        15,
+        35
       ],
       "HpCoefficient": [
         1.1,
@@ -833,14 +833,14 @@
       "LevelLimit_Upper": 51,
       "LevelLimit_Lower": 56,
       "MonsterNum": [
-        8,
-        8,
-        8,
-        8,
-        8,
-        8,
-        8,
-        8
+        15,
+        13,
+        14,
+        25,
+        12,
+        14,
+        15,
+        35
       ],
       "HpCoefficient": [
         1.1,
@@ -896,14 +896,14 @@
       "LevelLimit_Upper": 54,
       "LevelLimit_Lower": 59,
       "MonsterNum": [
-        9,
-        9,
-        9,
-        9,
-        9,
-        9,
-        9,
-        9
+        15,
+        13,
+        14,
+        25,
+        12,
+        14,
+        15,
+        35
       ],
       "HpCoefficient": [
         1.12,
@@ -959,14 +959,14 @@
       "LevelLimit_Upper": 57,
       "LevelLimit_Lower": 62,
       "MonsterNum": [
-        9,
-        9,
-        9,
-        9,
-        9,
-        9,
-        9,
-        9
+        15,
+        13,
+        14,
+        25,
+        12,
+        14,
+        15,
+        35
       ],
       "HpCoefficient": [
         1.12,
@@ -1022,14 +1022,14 @@
       "LevelLimit_Upper": 60,
       "LevelLimit_Lower": 65,
       "MonsterNum": [
-        10,
-        10,
-        10,
-        10,
-        10,
-        10,
-        10,
-        10
+        15,
+        13,
+        14,
+        25,
+        12,
+        14,
+        15,
+        35
       ],
       "HpCoefficient": [
         1.14,
@@ -1085,14 +1085,14 @@
       "LevelLimit_Upper": 63,
       "LevelLimit_Lower": 68,
       "MonsterNum": [
-        10,
-        10,
-        10,
-        10,
-        10,
-        10,
-        10,
-        10
+        15,
+        13,
+        14,
+        25,
+        12,
+        14,
+        15,
+        35
       ],
       "HpCoefficient": [
         1.14,
@@ -1148,14 +1148,14 @@
       "LevelLimit_Upper": 66,
       "LevelLimit_Lower": 71,
       "MonsterNum": [
-        10,
-        10,
-        10,
-        10,
-        10,
-        10,
-        10,
-        10
+        15,
+        13,
+        14,
+        25,
+        12,
+        14,
+        15,
+        35
       ],
       "HpCoefficient": [
         1.16,

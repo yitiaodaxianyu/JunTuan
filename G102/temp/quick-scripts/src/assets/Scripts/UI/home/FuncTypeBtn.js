@@ -91,6 +91,9 @@ var FuncTypeBtn = /** @class */ (function (_super) {
                 return isShow;
             }
         }
+        else if (this.func_type == Constants_1.FuncType.AccumulatedRecharge || this.func_type == Constants_1.FuncType.WeekCard) {
+            return isShow;
+        }
         else {
             var normalMaterial = cc.Material.getBuiltinMaterial('2d-sprite');
             var grayMaterial = cc.Material.getBuiltinMaterial('2d-gray-sprite');

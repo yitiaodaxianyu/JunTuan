@@ -122,6 +122,7 @@ export default class ToPlayMainUi extends UIComponent {
     bg_wall:cc.SpriteFrame = null;//冰河战车
     start(){
         for (let index = 0; index < this.komwei.children.length; index++) {
+           
             this.komwei.children[index].on(cc.Node.EventType.TOUCH_START, this.onHeroTouchStart, this);
             this.komwei.children[index].on(cc.Node.EventType.TOUCH_MOVE, this.onHeroTouchMove, this);
             this.komwei.children[index].on(cc.Node.EventType.TOUCH_END, this.onHeroTouchEnd, this);
@@ -130,6 +131,7 @@ export default class ToPlayMainUi extends UIComponent {
             let pos = this.komwei.children[index].getPosition();
             this.hero_team_rect.push(cc.rect(pos.x-size.width/2,pos.y-size.height/2,size.width,size.height));
             this.hero_team_pos.push(pos);
+            
         }
         let poss = this.ScrollVie.getPosition();
         let sizes = this.ScrollVie.getContentSize();
@@ -225,6 +227,13 @@ export default class ToPlayMainUi extends UIComponent {
     init(uiAc: UiAction) {
         super.init(uiAc);
         //取本模式  本关卡  的怪物数量与类型   boss   精英   普通
+        for (let index = 0; index < this.komwei.children.length; index++) {
+            if(GameManager.getInstance().cur_game_mode!=GameMode.Boss_Challenge&&(index==0||index==1||index==3||index==4)){
+                this.komwei.children[index].active=false;
+            }else{
+                this.komwei.children[index].active=true;
+            }
+        }
         let level=MapManager.Currentlevel//LevelManager.getInstance().start_level;
         let fightingInfo:FightingInfo=null;
         this.Common_Btn_Back.active=true
@@ -525,13 +534,25 @@ export default class ToPlayMainUi extends UIComponent {
         if(touchTeam.getChildByName("shangzheng").active==false){
             //上阵该英雄
             let teamList=HeroManager.getInstance().getTeamList(GameManager.getInstance().cur_game_mode);
-          
-            if(teamList[2]==-1||teamList[2]==Hero_Type.NULL){
-                teamList[2]=touchTeam.getComponent(HeroItem).hero_type
-                HeroManager.getInstance().saveTeamList(GameManager.getInstance().cur_game_mode,teamList)
-                this.Refreshheroitmestatus()
-                return
+            if(GameManager.getInstance().cur_game_mode==GameMode.Boss_Challenge){
+                for (let index = 0; index < teamList.length; index++) {
+                    // @ts-ignore
+                    if(teamList[index]==-1||teamList[index]==Hero_Type.NULL){
+                        teamList[index]=touchTeam.getComponent(HeroItem).hero_type
+                        HeroManager.getInstance().saveTeamList(GameManager.getInstance().cur_game_mode,teamList)
+                        this.Refreshheroitmestatus()
+                        return
+                    }
+                }
+            }else{
+                if(teamList[2]==-1||teamList[2]==Hero_Type.NULL){
+                    teamList[2]=touchTeam.getComponent(HeroItem).hero_type
+                    HeroManager.getInstance().saveTeamList(GameManager.getInstance().cur_game_mode,teamList)
+                    this.Refreshheroitmestatus()
+                    return
+                }
             }
+            
             // for (let index = 0; index < teamList.length; index++) {
             //     // @ts-ignore
             //     if(index!=2){

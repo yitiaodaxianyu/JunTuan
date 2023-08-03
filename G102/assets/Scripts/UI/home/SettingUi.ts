@@ -73,9 +73,9 @@ export default class SettingUi extends UIComponent {
     setBtnLogin()
     {
         let btnFb=this.node.getChildByName('btnFb');
-        btnFb.active=IsTestServer;
+        //btnFb.active=IsTestServer;
         let btnGoogle=this.node.getChildByName('btnGoogle');
-        btnGoogle.active=IsTestServer;
+        //btnGoogle.active=IsTestServer;
     }
 
     showName()

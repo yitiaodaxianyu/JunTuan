@@ -14117,9 +14117,7 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": {
-      "__uuid__": "841d74ef-f2d1-4df5-b6df-b1c4d336ad1c"
-    },
+    "_spriteFrame": null,
     "_type": 0,
     "_sizeMode": 1,
     "_fillType": 0,
@@ -14131,9 +14129,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
-    "_atlas": {
-      "__uuid__": "a36c71b9-40e3-4df0-9d7a-53d7a4190252"
-    },
+    "_atlas": null,
     "cur_sprite_index": 1,
     "_id": "37g1/lVoxATYnbhJIwuxGk"
   },
@@ -14158,15 +14154,15 @@
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 171,
-      "g": 184,
-      "b": 207,
+      "r": 255,
+      "g": 255,
+      "b": 255,
       "a": 255
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 163.01,
-      "height": 52.4
+      "width": 201.84,
+      "height": 37.5
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -14178,7 +14174,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        -408.726,
+        -421.099,
         0,
         0,
         0,
@@ -14200,10 +14196,10 @@
     "_is3DNode": false,
     "_groupIndex": 0,
     "groupIndex": 0,
-    "_id": "8cv9IHwxNCPoPXNXHraHnr"
+    "_id": "7cf/aJgmtGupeYC1+58d7J"
   },
   {
-    "__type__": "c16e5sVZrZAYKAJue79QfaF",
+    "__type__": "cc.Label",
     "_name": "",
     "_objFlags": 0,
     "node": {
@@ -14217,24 +14213,23 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "加载中...",
-    "_N$string": "加载中...",
-    "_fontSize": 42,
-    "_lineHeight": 40,
+    "_string": "正在载入游戏中...",
+    "_N$string": "正在载入游戏中...",
+    "_fontSize": 25,
+    "_lineHeight": 25,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
     "_spacingX": 0,
     "_batchAsBitmap": false,
-    "_styleFlags": 1,
+    "_styleFlags": 0,
     "_underlineHeight": 0,
-    "_N$horizontalAlign": 1,
-    "_N$verticalAlign": 1,
+    "_N$horizontalAlign": 0,
+    "_N$verticalAlign": 0,
     "_N$fontFamily": "Arial",
     "_N$overflow": 0,
     "_N$cacheMode": 0,
-    "cur_text_id": 100088,
-    "_id": "dbBTb5wlVEp5+pbpfNn7pr"
+    "_id": "20ztUXdcFDb7mTcSPWtEir"
   },
   {
     "__type__": "cc.LabelOutline",
@@ -14246,13 +14241,13 @@
     "_enabled": true,
     "_color": {
       "__type__": "cc.Color",
-      "r": 60,
-      "g": 72,
-      "b": 94,
+      "r": 0,
+      "g": 0,
+      "b": 0,
       "a": 255
     },
-    "_width": 1,
-    "_id": "6fjXWBuhZOWpcS/GzBPeMn"
+    "_width": 3,
+    "_id": "61WFDIHK9MUZIOBvazQxkO"
   },
   {
     "__type__": "cc.Sprite",
@@ -14496,6 +14491,9 @@
     "waveBar": {
       "__id__": 229
     },
+    "waveBarBg": {
+      "__id__": 227
+    },
     "try_auto_label": {
       "__id__": 291
     },
@@ -14504,6 +14502,9 @@
     },
     "rogueText": {
       "__id__": 221
+    },
+    "rogueBg": {
+      "__id__": 217
     },
     "battlepotion": [],
     "_id": "a52NUN6XtMsb/weIUbdiEc"

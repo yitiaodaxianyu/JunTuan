@@ -462,13 +462,15 @@ var GameManager = /** @class */ (function (_super) {
         var mainWallData = new HeroConfig_1.AttributeData();
         this.all_hero.forEach(function (v, k) {
             var heroData = cc.instantiate(v.hero_data);
-            mainWallData.Health += heroData.total_hp * 0.2 * _this.getCharioHealthRatio();
-            mainWallData.Defense += heroData.total_defense * 0.2 * _this.getCharioDefenseRotio();
-            mainWallData.Miss += heroData.Miss * 0.2;
-            mainWallData.AntiCritical += heroData.AntiCritical * 0.2;
-            mainWallData.AntiExtraCritical += heroData.AntiExtraCritical * 0.2;
-            mainWallData.Attack += heroData.total_attack * 0.2;
-            mainWallData.Hit += heroData.Hit * 0.2;
+            if (heroData) {
+                mainWallData.Health += heroData.total_hp * 0.2 * _this.getCharioHealthRatio();
+                mainWallData.Defense += heroData.total_defense * 0.2 * _this.getCharioDefenseRotio();
+                mainWallData.Miss += heroData.Miss * 0.2;
+                mainWallData.AntiCritical += heroData.AntiCritical * 0.2;
+                mainWallData.AntiExtraCritical += heroData.AntiExtraCritical * 0.2;
+                mainWallData.Attack += heroData.total_attack * 0.2;
+                mainWallData.Hit += heroData.Hit * 0.2;
+            }
         });
         WallManager_1.default.getInstance().getMainWall().refreshWallDataByaddHero(mainWallData);
     };
@@ -989,7 +991,7 @@ var GameManager = /** @class */ (function (_super) {
     };
     //获取因为技能等级变化的血量比率
     GameManager.prototype.getCharioHealthRatio = function () {
-        return this.charioUpgradationData[1] * 0.4 + 1000;
+        return this.charioUpgradationData[1] * 0.4 + 1;
     };
     //获取因为技能等级变化的防御比率
     GameManager.prototype.getCharioDefenseRotio = function () {
@@ -997,7 +999,7 @@ var GameManager = /** @class */ (function (_super) {
     };
     //攻击力比率
     GameManager.prototype.getCharioAttackRotio = function () {
-        return this.charioUpgradationData[0] * 0.2 + 1000;
+        return this.charioUpgradationData[0] * 0.2;
     };
     //攻击速度比率
     GameManager.prototype.getCharioSpeedRotio = function () {
@@ -1236,7 +1238,8 @@ var GameManager = /** @class */ (function (_super) {
                 {
                     //显示三选一
                     // console.log("+++++++++")
-                    GameManager_1.getInstance().showBtnBuff(1); //Buff选择弹窗
+                    GameManager_1.getInstance().startNextLevel();
+                    //GameManager.getInstance().showBtnBuff(1);//Buff选择弹窗
                 }
                 break;
             case Constants_1.GameMode.Maze:

@@ -206,6 +206,14 @@ var ToPlayMainUi = /** @class */ (function (_super) {
         var _this = this;
         _super.prototype.init.call(this, uiAc);
         //取本模式  本关卡  的怪物数量与类型   boss   精英   普通
+        for (var index = 0; index < this.komwei.children.length; index++) {
+            if (GameManager_1.default.getInstance().cur_game_mode != Constants_1.GameMode.Boss_Challenge && (index == 0 || index == 1 || index == 3 || index == 4)) {
+                this.komwei.children[index].active = false;
+            }
+            else {
+                this.komwei.children[index].active = true;
+            }
+        }
         var level = MapManager_1.default.Currentlevel; //LevelManager.getInstance().start_level;
         var fightingInfo = null;
         this.Common_Btn_Back.active = true;
@@ -498,11 +506,24 @@ var ToPlayMainUi = /** @class */ (function (_super) {
         if (touchTeam.getChildByName("shangzheng").active == false) {
             //上阵该英雄
             var teamList = HeroManager_1.HeroManager.getInstance().getTeamList(GameManager_1.default.getInstance().cur_game_mode);
-            if (teamList[2] == -1 || teamList[2] == HeroConfig_1.Hero_Type.NULL) {
-                teamList[2] = touchTeam.getComponent(HeroItem_1.default).hero_type;
-                HeroManager_1.HeroManager.getInstance().saveTeamList(GameManager_1.default.getInstance().cur_game_mode, teamList);
-                this.Refreshheroitmestatus();
-                return;
+            if (GameManager_1.default.getInstance().cur_game_mode == Constants_1.GameMode.Boss_Challenge) {
+                for (var index = 0; index < teamList.length; index++) {
+                    // @ts-ignore
+                    if (teamList[index] == -1 || teamList[index] == HeroConfig_1.Hero_Type.NULL) {
+                        teamList[index] = touchTeam.getComponent(HeroItem_1.default).hero_type;
+                        HeroManager_1.HeroManager.getInstance().saveTeamList(GameManager_1.default.getInstance().cur_game_mode, teamList);
+                        this.Refreshheroitmestatus();
+                        return;
+                    }
+                }
+            }
+            else {
+                if (teamList[2] == -1 || teamList[2] == HeroConfig_1.Hero_Type.NULL) {
+                    teamList[2] = touchTeam.getComponent(HeroItem_1.default).hero_type;
+                    HeroManager_1.HeroManager.getInstance().saveTeamList(GameManager_1.default.getInstance().cur_game_mode, teamList);
+                    this.Refreshheroitmestatus();
+                    return;
+                }
             }
             // for (let index = 0; index < teamList.length; index++) {
             //     // @ts-ignore

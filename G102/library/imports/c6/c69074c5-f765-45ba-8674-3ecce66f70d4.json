@@ -209,18 +209,6 @@
       "TaskParameters": 1
     },
     {
-      "ThreadTaskID": 110000001,
-      "DisplayOrder": 16,
-      "ThreadTaskDescription": 1310023,
-      "PropID_1": 10001,
-      "PropNum_1": 2000,
-      "PropID_2": 100002,
-      "PropNum_2": 10,
-      "TaskType": 11,
-      "TaskPhase": 1,
-      "TaskParameters": 1
-    },
-    {
       "ThreadTaskID": 120000001,
       "DisplayOrder": 6,
       "ThreadTaskDescription": 1310020,

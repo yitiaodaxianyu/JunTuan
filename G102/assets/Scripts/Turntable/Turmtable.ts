@@ -118,7 +118,7 @@ const {ccclass, property} = cc._decorator;
         }
         
         Times.timetxt=this.btnshow.getChildByName("time")
-        let times=TheStorageManager.getInstance().getNumber(StorageKey.TurmtableFreeTime, 900);
+        let times=TheStorageManager.getInstance().getNumber(StorageKey.TurmtableFreeTime, 60*60*12);
         Times.timetxt.getComponent(cc.Label).string=""+PublicMethods.timeconversions(times)
         this.btnad.getChildByName('red').active=TheStorageManager.getInstance().getNumber(StorageKey.TurmtableAd,0) < 10;
     }
@@ -223,7 +223,7 @@ const {ccclass, property} = cc._decorator;
 
                     if(type==1){
                         TheStorageManager.getInstance().setItem(StorageKey.TurmtableFreeYes, 0)
-                        TheStorageManager.getInstance().setItem(StorageKey.TurmtableFreeTime, 900);
+                        TheStorageManager.getInstance().setItem(StorageKey.TurmtableFreeTime, 60*60*12);
                     }
                     
                     cc.find('Canvas/main_ui').getComponent(MainUi).refreshMainTaskUi();

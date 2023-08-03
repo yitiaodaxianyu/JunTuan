@@ -151,6 +151,8 @@ var SignUi = /** @class */ (function (_super) {
     };
     SignUi.prototype.onClickBuyBtn = function () {
         this.onClose();
+        GameManager_1.default.getInstance().showMessage(LanguageManager_1.default.getInstance().getStrByTextId(100113));
+        return;
         FollowManager_1.default.getInstance().followEvent(FollowConstants_1.Follow_Type.点击解锁5倍奖励按钮的点击次数);
         UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.SignInBuy, UIConfig_1.UILayerLevel.One, {
             onCompleted: function (uiNode) {

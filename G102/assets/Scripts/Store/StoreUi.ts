@@ -98,7 +98,7 @@ export default class StoreUi extends cc.Component {
 
     protected onEnable(): void {
         FollowManager.getInstance().followEvent(Follow_Type.商城商城页点击次数);
-        this.refreshStore();
+        //this.refreshStore();
         //this.checkTutorails();
     }
 
@@ -176,103 +176,103 @@ export default class StoreUi extends cc.Component {
         chapterLeft.x = -345;
         chapterLeft.active = false;
 
-        let chapterData = ChapterPackManager.getInstance().getJsonData();
-        chapterData.forEach((v, k) => {
-            if (TheStorageManager.getInstance().getString(StorageKey.StoreChapterItem + v.Chapter, '') == '' && (LevelManager.getInstance().getFinishChapter()) >= v.Chapter) {
-                let item = cc.instantiate(this.store_chapter_item);
-                item.name = "chapterItem" + v.Chapter;
-                if (v.Chapter == 1) {
-                    item.getChildByName("title").getComponent(TextLanguage).setTextId(1430002);
-                } else {
-                    item.getChildByName("title").getComponent(TextLanguage).setTextId(1430003);
-                    item.getChildByName("title").getComponent(TextLanguage).setReplaceValue('~', v.Chapter + '');
-                }
-                let payInfo = PayManager.getInstance().getPayInfo(v.ProductId);
-                item.getChildByName("originPrice").getComponent(cc.Label).string = payInfo.currency + (MyTool.getNumberFromString(payInfo.price) * v.InitialPrice);
-                item.getChildByName("payBtn").getComponentInChildren(cc.Label).string = payInfo.price;
-                let propRoot = item.getChildByName("itemRoot");
-                if (v.GetCoinNum != 0) {
-                    let reward = PropManager.getInstance().createPropItem(PropId.Coin, v.GetCoinNum);
-                    reward.scale = 0.75;
-                    propRoot.addChild(reward);
-                }
-                if (v.GetGemNum != 0) {
-                    let reward = PropManager.getInstance().createPropItem(PropId.Gem, v.GetGemNum);
-                    reward.scale = 0.75;
-                    propRoot.addChild(reward);
-                }
-                if (v.ItemId_1 != 0) {
-                    let reward = PropManager.getInstance().createPropItem(v.ItemId_1, v.ItemNum_1);
-                    reward.scale = 0.75;
-                    propRoot.addChild(reward);
-                }
-                if (v.ItemId_2 != 0) {
-                    let reward = PropManager.getInstance().createPropItem(v.ItemId_2, v.ItemNum_2);
-                    reward.scale = 0.75;
-                    propRoot.addChild(reward);
-                }
-                chapterRoot.addChild(item);
-                if (chapterRoot.childrenCount == 3) {
-                    chapterRoot.children[2].x = 0;
-                } else {
-                    chapterRoot.children[chapterRoot.childrenCount - 1].x = 2 * chapterRoot.children[chapterRoot.childrenCount - 1].width;
-                }
-                let btn = item.getChildByName("payBtn");
-                btn.addComponent(cc.Button).transition = cc.Button.Transition.SCALE;
-                btn.getComponent(cc.Button).duration = 0.1;
-                btn.getComponent(cc.Button).zoomScale = 0.9;
-                btn.on(cc.Node.EventType.TOUCH_END, () => {
-                    ApkManager.getInstance().showPay({
-                        result: (isDy) => {
-                            if (isDy) {
-                                FollowManager.getInstance().followEvent(Follow_Type.商城章节礼包x章点击购买次数 + v.Chapter);
-                                let rewardList = [];
-                                if (v.GetCoinNum != 0) {
-                                    PropManager.getInstance().changePropNum(PropId.Coin, v.GetCoinNum)
-                                    let reward = PropManager.getInstance().createPropItem(PropId.Coin, v.GetCoinNum);
-                                    rewardList.push(reward);
-                                }
-                                if (v.GetGemNum != 0) {
-                                    PropManager.getInstance().changePropNum(PropId.Gem, v.GetGemNum)
-                                    let reward = PropManager.getInstance().createPropItem(PropId.Gem, v.GetGemNum);
-                                    rewardList.push(reward);
-                                }
-                                if (v.ItemId_1 != 0) {
-                                    PropManager.getInstance().changePropNum(v.ItemId_1, v.ItemNum_1)
-                                    let reward = PropManager.getInstance().createPropItem(v.ItemId_1, v.ItemNum_1);
-                                    rewardList.push(reward);
-                                }
-                                if (v.ItemId_2 != 0) {
-                                    PropManager.getInstance().changePropNum(v.ItemId_2, v.ItemNum_2)
-                                    let reward = PropManager.getInstance().createPropItem(v.ItemId_2, v.ItemNum_2);
-                                    rewardList.push(reward);
-                                }
-                                GameManager.getInstance().showMultipleGetTip(rewardList);
-                                TheStorageManager.getInstance().setItem(StorageKey.StoreChapterItem + v.Chapter, '1')
-                                chapterRoot.removeChild(item);
-                                if (chapterRoot.childrenCount == 2) {
-                                    content.getChildByName("chapterTitle").active = false;
-                                    chapterLeft.active = false;
-                                    chapterRight.active = false;
-                                    chapterRoot.active = false;
-                                } else if (chapterRoot.childrenCount <= 3) {
-                                    chapterLeft.active = false;
-                                    chapterRight.active = false;
-                                    cc.tween(chapterRoot.children[2]).to(0.2, { position: cc.v3(0, 0, 0) }).start().call(() => {
+        // let chapterData = ChapterPackManager.getInstance().getJsonData();
+        // chapterData.forEach((v, k) => {
+        //     if (TheStorageManager.getInstance().getString(StorageKey.StoreChapterItem + v.Chapter, '') == '' && (LevelManager.getInstance().getFinishChapter()) >= v.Chapter) {
+        //         let item = cc.instantiate(this.store_chapter_item);
+        //         item.name = "chapterItem" + v.Chapter;
+        //         if (v.Chapter == 1) {
+        //             item.getChildByName("title").getComponent(TextLanguage).setTextId(1430002);
+        //         } else {
+        //             item.getChildByName("title").getComponent(TextLanguage).setTextId(1430003);
+        //             item.getChildByName("title").getComponent(TextLanguage).setReplaceValue('~', v.Chapter + '');
+        //         }
+        //         let payInfo = PayManager.getInstance().getPayInfo(v.ProductId);
+        //         item.getChildByName("originPrice").getComponent(cc.Label).string = payInfo.currency + (MyTool.getNumberFromString(payInfo.price) * v.InitialPrice);
+        //         item.getChildByName("payBtn").getComponentInChildren(cc.Label).string = payInfo.price;
+        //         let propRoot = item.getChildByName("itemRoot");
+        //         if (v.GetCoinNum != 0) {
+        //             let reward = PropManager.getInstance().createPropItem(PropId.Coin, v.GetCoinNum);
+        //             reward.scale = 0.75;
+        //             propRoot.addChild(reward);
+        //         }
+        //         if (v.GetGemNum != 0) {
+        //             let reward = PropManager.getInstance().createPropItem(PropId.Gem, v.GetGemNum);
+        //             reward.scale = 0.75;
+        //             propRoot.addChild(reward);
+        //         }
+        //         if (v.ItemId_1 != 0) {
+        //             let reward = PropManager.getInstance().createPropItem(v.ItemId_1, v.ItemNum_1);
+        //             reward.scale = 0.75;
+        //             propRoot.addChild(reward);
+        //         }
+        //         if (v.ItemId_2 != 0) {
+        //             let reward = PropManager.getInstance().createPropItem(v.ItemId_2, v.ItemNum_2);
+        //             reward.scale = 0.75;
+        //             propRoot.addChild(reward);
+        //         }
+        //         chapterRoot.addChild(item);
+        //         if (chapterRoot.childrenCount == 3) {
+        //             chapterRoot.children[2].x = 0;
+        //         } else {
+        //             chapterRoot.children[chapterRoot.childrenCount - 1].x = 2 * chapterRoot.children[chapterRoot.childrenCount - 1].width;
+        //         }
+        //         let btn = item.getChildByName("payBtn");
+        //         btn.addComponent(cc.Button).transition = cc.Button.Transition.SCALE;
+        //         btn.getComponent(cc.Button).duration = 0.1;
+        //         btn.getComponent(cc.Button).zoomScale = 0.9;
+        //         btn.on(cc.Node.EventType.TOUCH_END, () => {
+        //             ApkManager.getInstance().showPay({
+        //                 result: (isDy) => {
+        //                     if (isDy) {
+        //                         FollowManager.getInstance().followEvent(Follow_Type.商城章节礼包x章点击购买次数 + v.Chapter);
+        //                         let rewardList = [];
+        //                         if (v.GetCoinNum != 0) {
+        //                             PropManager.getInstance().changePropNum(PropId.Coin, v.GetCoinNum)
+        //                             let reward = PropManager.getInstance().createPropItem(PropId.Coin, v.GetCoinNum);
+        //                             rewardList.push(reward);
+        //                         }
+        //                         if (v.GetGemNum != 0) {
+        //                             PropManager.getInstance().changePropNum(PropId.Gem, v.GetGemNum)
+        //                             let reward = PropManager.getInstance().createPropItem(PropId.Gem, v.GetGemNum);
+        //                             rewardList.push(reward);
+        //                         }
+        //                         if (v.ItemId_1 != 0) {
+        //                             PropManager.getInstance().changePropNum(v.ItemId_1, v.ItemNum_1)
+        //                             let reward = PropManager.getInstance().createPropItem(v.ItemId_1, v.ItemNum_1);
+        //                             rewardList.push(reward);
+        //                         }
+        //                         if (v.ItemId_2 != 0) {
+        //                             PropManager.getInstance().changePropNum(v.ItemId_2, v.ItemNum_2)
+        //                             let reward = PropManager.getInstance().createPropItem(v.ItemId_2, v.ItemNum_2);
+        //                             rewardList.push(reward);
+        //                         }
+        //                         GameManager.getInstance().showMultipleGetTip(rewardList);
+        //                         TheStorageManager.getInstance().setItem(StorageKey.StoreChapterItem + v.Chapter, '1')
+        //                         chapterRoot.removeChild(item);
+        //                         if (chapterRoot.childrenCount == 2) {
+        //                             content.getChildByName("chapterTitle").active = false;
+        //                             chapterLeft.active = false;
+        //                             chapterRight.active = false;
+        //                             chapterRoot.active = false;
+        //                         } else if (chapterRoot.childrenCount <= 3) {
+        //                             chapterLeft.active = false;
+        //                             chapterRight.active = false;
+        //                             cc.tween(chapterRoot.children[2]).to(0.2, { position: cc.v3(0, 0, 0) }).start().call(() => {
 
-                                    });
-                                } else {
-                                    cc.tween(chapterRoot.children[2]).to(0.2, { position: cc.v3(0, 0, 0) }).start().call(() => {
+        //                             });
+        //                         } else {
+        //                             cc.tween(chapterRoot.children[2]).to(0.2, { position: cc.v3(0, 0, 0) }).start().call(() => {
 
-                                    });
-                                }
+        //                             });
+        //                         }
 
-                            }
-                        }
-                    }, v.ProductId)
-                });
-            }
-        });
+        //                     }
+        //                 }
+        //             }, v.ProductId)
+        //         });
+        //     }
+        // });
 
         chapterLeft.addComponent(cc.Button).transition = cc.Button.Transition.SCALE;
         chapterLeft.getComponent(cc.Button).duration = 0.1;
@@ -1121,7 +1121,7 @@ export default class StoreUi extends cc.Component {
                 }
             });
         });
-        mysteryRoot.addChild(petItem);
+        // mysteryRoot.addChild(petItem);
 
         let equipItem = cc.instantiate(this.store_equip_item);
         equipItem.getChildByName("richBg").children[1].children[1].getComponent(cc.Label).string = "X" + PropManager.getInstance().getPropNum(40005);
@@ -1378,13 +1378,13 @@ export default class StoreUi extends cc.Component {
         title = cc.instantiate(this.store_title);
         title.getComponentInChildren(TextLanguage).setTextId(400002);
         title.name = "gemTitle";
-        content.addChild(title);
+        //content.addChild(title);
 
         let gemRoot = new cc.Node();
         gemRoot.name = 'gemRoot';
         gemRoot.height = this.store_gem_item.data.height * 2 + 10;
         gemRoot.width = this.node.width
-        content.addChild(gemRoot);
+        //content.addChild(gemRoot);
         let gemLayout = gemRoot.addComponent(cc.Layout);
         gemLayout.type = cc.Layout.Type.GRID;
         gemLayout.resizeMode = cc.Layout.ResizeMode.CONTAINER;
@@ -1446,7 +1446,7 @@ export default class StoreUi extends cc.Component {
             //         }
             //     },v.ProductId)
             // });
-            gemRoot.addChild(item);
+            //gemRoot.addChild(item);
         });
         //#endregion
         // 金币

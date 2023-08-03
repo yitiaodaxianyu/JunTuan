@@ -297,6 +297,7 @@ var HeroManager = /** @class */ (function () {
             heroInfo.wear3 = v.accessories;
             heroInfo.wear4 = v.shoes;
             heroInfo.pet_id = v.pet;
+            heroInfo.hero_quality = HeroBaseInfo_1.HeroBaseInfoManager.getInstance().getQuality(heroInfo.hero_type);
             _this.hero_list.push(heroInfo);
         });
         StorageManager_1.TheStorageManager.getInstance().setJson(StorageConfig_1.StorageKey.HeroList, this.hero_list);
@@ -395,6 +396,7 @@ var HeroManager = /** @class */ (function () {
         heroInfo.pet_id = 0;
         heroInfo.hero_stage = 0;
         heroInfo.exclusive_equip_stage = 0;
+        heroInfo.hero_quality = HeroBaseInfo_1.HeroBaseInfoManager.getInstance().getQuality(heroInfo.hero_type);
         this.hero_list.push(heroInfo);
         this.saveHeroList();
         TaskManager_1.default.getInstance().emitTask(TaskEnum_1.TaskItem.累计收集X个英雄);

@@ -14117,6 +14117,7 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
+    "_spriteFrame": null,
     "_type": 0,
     "_sizeMode": 1,
     "_fillType": 0,
@@ -14128,9 +14129,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
-    "_atlas": {
-      "__uuid__": "a36c71b9-40e3-4df0-9d7a-53d7a4190252"
-    },
+    "_atlas": null,
     "cur_sprite_index": 1,
     "_id": "37g1/lVoxATYnbhJIwuxGk"
   },
@@ -14492,6 +14491,9 @@
     "waveBar": {
       "__id__": 229
     },
+    "waveBarBg": {
+      "__id__": 227
+    },
     "try_auto_label": {
       "__id__": 291
     },
@@ -14500,6 +14502,9 @@
     },
     "rogueText": {
       "__id__": 221
+    },
+    "rogueBg": {
+      "__id__": 217
     },
     "battlepotion": [],
     "_id": "a52NUN6XtMsb/weIUbdiEc"

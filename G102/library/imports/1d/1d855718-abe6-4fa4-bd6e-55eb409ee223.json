@@ -7,65 +7,65 @@
     {
       "RewardGrade": 1,
       "RewarItem_1": 20003,
-      "RewardNum_1": 12000,
+      "RewardNum_1": 0,
       "RewarItem_2": 10002,
       "RewardNum_2": 3600,
-      "RewarItem_3": 40006,
-      "RewardNum_3": 10
+      "RewarItem_3": 10001,
+      "RewardNum_3": 60000
     },
     {
       "RewardGrade": 2,
       "RewarItem_1": 20003,
-      "RewardNum_1": 7500,
+      "RewardNum_1": 0,
       "RewarItem_2": 10002,
       "RewardNum_2": 2600,
-      "RewarItem_3": 40006,
-      "RewardNum_3": 10
+      "RewarItem_3": 10001,
+      "RewardNum_3": 50000
     },
     {
       "RewardGrade": 3,
       "RewarItem_1": 20003,
-      "RewardNum_1": 5000,
+      "RewardNum_1": 0,
       "RewarItem_2": 10002,
       "RewardNum_2": 1800,
-      "RewarItem_3": 40006,
-      "RewardNum_3": 10
+      "RewarItem_3": 10001,
+      "RewardNum_3": 40000
     },
     {
       "RewardGrade": 4,
       "RewarItem_1": 20003,
-      "RewardNum_1": 2000,
+      "RewardNum_1": 0,
       "RewarItem_2": 10002,
       "RewardNum_2": 1200,
-      "RewarItem_3": 40006,
-      "RewardNum_3": 6
+      "RewarItem_3": 10001,
+      "RewardNum_3": 30000
     },
     {
       "RewardGrade": 5,
       "RewarItem_1": 20003,
-      "RewardNum_1": 1200,
+      "RewardNum_1": 0,
       "RewarItem_2": 10002,
       "RewardNum_2": 800,
-      "RewarItem_3": 40006,
-      "RewardNum_3": 3
+      "RewarItem_3": 10001,
+      "RewardNum_3": 20000
     },
     {
       "RewardGrade": 6,
       "RewarItem_1": 20003,
-      "RewardNum_1": 500,
+      "RewardNum_1": 0,
       "RewarItem_2": 10002,
       "RewardNum_2": 500,
-      "RewarItem_3": 40006,
-      "RewardNum_3": 1
+      "RewarItem_3": 10001,
+      "RewardNum_3": 10000
     },
     {
       "RewardGrade": 7,
       "RewarItem_1": 20003,
-      "RewardNum_1": 300,
+      "RewardNum_1": 0,
       "RewarItem_2": 10002,
       "RewardNum_2": 200,
-      "RewarItem_3": 10002,
-      "RewardNum_3": 0
+      "RewarItem_3": 10001,
+      "RewardNum_3": 5000
     }
   ]
 }

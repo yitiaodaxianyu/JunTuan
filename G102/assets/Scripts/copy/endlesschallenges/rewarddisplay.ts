@@ -30,7 +30,7 @@ export default class rewarddisplay extends UIComponent {
     @property(cc.Node)
     mytxt: cc.Node = null
     
-    boss:number[]=[20003,40006,20003,10002,10002]
+    boss:number[]=[10001,10001,10001,10002,10002]
     @property(cc.Node)
     Common_Window3_1: cc.Node = null
     

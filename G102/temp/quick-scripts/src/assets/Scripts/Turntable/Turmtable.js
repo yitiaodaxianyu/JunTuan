@@ -136,7 +136,7 @@ var Turmtable = /** @class */ (function (_super) {
             this.btnshow.getChildByName('red').active = false;
         }
         Times_1.default.timetxt = this.btnshow.getChildByName("time");
-        var times = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.TurmtableFreeTime, 900);
+        var times = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.TurmtableFreeTime, 60 * 60 * 12);
         Times_1.default.timetxt.getComponent(cc.Label).string = "" + PublicMethods_1.default.timeconversions(times);
         this.btnad.getChildByName('red').active = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.TurmtableAd, 0) < 10;
     };
@@ -242,7 +242,7 @@ var Turmtable = /** @class */ (function (_super) {
                 _this.gifts.angle = 0;
                 if (type == 1) {
                     StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.TurmtableFreeYes, 0);
-                    StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.TurmtableFreeTime, 900);
+                    StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.TurmtableFreeTime, 60 * 60 * 12);
                 }
                 cc.find('Canvas/main_ui').getComponent(MainUi_1.default).refreshMainTaskUi();
                 _this.Refresh();

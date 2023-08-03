@@ -299,6 +299,7 @@ export class HeroManager {
             heroInfo.wear3=v.accessories;
             heroInfo.wear4=v.shoes;
             heroInfo.pet_id=v.pet;
+            heroInfo.hero_quality=HeroBaseInfoManager.getInstance().getQuality(heroInfo.hero_type);
             this.hero_list.push(heroInfo);
         });
         TheStorageManager.getInstance().setJson(StorageKey.HeroList,this.hero_list);
@@ -399,6 +400,7 @@ export class HeroManager {
         heroInfo.pet_id = 0;
         heroInfo.hero_stage = 0;
         heroInfo.exclusive_equip_stage = 0;
+        heroInfo.hero_quality=HeroBaseInfoManager.getInstance().getQuality(heroInfo.hero_type);
         this.hero_list.push(heroInfo);
         this.saveHeroList();
         TaskManager.getInstance().emitTask(TaskItem.累计收集X个英雄);

@@ -25,7 +25,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 var HttpManager_1 = require("../.././NetWork/HttpManager");
 var ApkManager_1 = require("../../Ads/ApkManager");
-var Constants_1 = require("../../Constants");
 var GameData_1 = require("../../GameData");
 var GameManager_1 = require("../../GameManager");
 var LanguageConstants_1 = require("../../multiLanguage/LanguageConstants");
@@ -73,9 +72,9 @@ var SettingUi = /** @class */ (function (_super) {
     };
     SettingUi.prototype.setBtnLogin = function () {
         var btnFb = this.node.getChildByName('btnFb');
-        btnFb.active = Constants_1.IsTestServer;
+        //btnFb.active=IsTestServer;
         var btnGoogle = this.node.getChildByName('btnGoogle');
-        btnGoogle.active = Constants_1.IsTestServer;
+        //btnGoogle.active=IsTestServer;
     };
     SettingUi.prototype.showName = function () {
         var nameEditBox = this.node.getChildByName('info').getChildByName('nameEditBox');

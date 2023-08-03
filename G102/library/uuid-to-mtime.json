@@ -2549,20 +2549,10 @@
     "meta": 1690960923330,
     "relativePath": "resourcesBundle\\heros\\skill_icon.prefab"
   },
-  "79b29159-f2b2-40c7-8745-bd41f85fde23": {
-    "asset": 1690960198048,
-    "meta": 1690960923346,
-    "relativePath": "resourcesBundle\\json\\AccumulatedInformation.json"
-  },
   "da24fb32-9049-416d-811d-b3a027fb1770": {
     "asset": 1690960198954,
     "meta": 1690960923362,
     "relativePath": "resourcesBundle\\json\\AwakenCultivation.json"
-  },
-  "83f8feb1-6751-481c-a20a-41ef5a465b20": {
-    "asset": 1690960198516,
-    "meta": 1690960923346,
-    "relativePath": "resourcesBundle\\json\\AchievenmentTask.json"
   },
   "bc016c57-09ac-40fc-a07d-2e31a2de6a64": {
     "asset": 1690960199376,
@@ -2618,11 +2608,6 @@
     "asset": 1690960202985,
     "meta": 1690960923362,
     "relativePath": "resourcesBundle\\json\\ChapterPack.json"
-  },
-  "1d855718-abe6-4fa4-bd6e-55eb409ee223": {
-    "asset": 1690960202563,
-    "meta": 1690960923362,
-    "relativePath": "resourcesBundle\\json\\BossWeeklyReward.json"
   },
   "7ba5a351-85ad-4654-b704-ab71cd8c57ef": {
     "asset": 1690960203406,
@@ -2979,11 +2964,6 @@
     "meta": 1690960923487,
     "relativePath": "resourcesBundle\\json\\SCradPool.json"
   },
-  "1ba8e9aa-4f96-4734-a2d2-62f6a8b280d8": {
-    "asset": 1690960238354,
-    "meta": 1690960923487,
-    "relativePath": "resourcesBundle\\json\\SignIn.json"
-  },
   "0a445ba5-6960-46fa-b4bc-ecdbd5132f6f": {
     "asset": 1690960239651,
     "meta": 1690960923487,
@@ -3063,16 +3043,6 @@
     "asset": 1690960245542,
     "meta": 1690960923518,
     "relativePath": "resourcesBundle\\json\\StarVeinsAttribute.json"
-  },
-  "c451db2b-2899-4049-bb23-2bc6bbc39bf3": {
-    "asset": 1690960245964,
-    "meta": 1690960923502,
-    "relativePath": "resourcesBundle\\json\\TaskInformation.json"
-  },
-  "c69074c5-f765-45ba-8674-3ecce66f70d4": {
-    "asset": 1690960246901,
-    "meta": 1690960923518,
-    "relativePath": "resourcesBundle\\json\\ThreadTaskInformation.json"
   },
   "20cf4810-5dda-402a-9e85-b0c2452a8272": {
     "asset": 1690960247366,
@@ -4225,8 +4195,8 @@
     "relativePath": "resourcesBundle\\Multilingual\\Void_RU.png"
   },
   "5cda796e-7b89-456a-bf6e-90555653ed5f": {
-    "asset": 1690960434089,
-    "meta": 1690960923968,
+    "asset": 1691048696120,
+    "meta": 1691048696146,
     "relativePath": "resourcesBundle\\set\\setting_ui.prefab"
   },
   "91d3b40e-39d2-4999-800d-001834974ed8": {
@@ -4365,8 +4335,8 @@
     "relativePath": "resourcesBundle\\task\\task_ui.prefab"
   },
   "be584233-5066-40ed-b6b5-feb7b6b768e4": {
-    "asset": 1690960744588,
-    "meta": 1690960924062,
+    "asset": 1691055811408,
+    "meta": 1691055811427,
     "relativePath": "resourcesBundle\\toPlay\\to_play_main_ui.prefab"
   },
   "2bc00645-71f3-4eb6-aa94-3f4886c61a93": {
@@ -11410,8 +11380,8 @@
     "relativePath": "Scripts\\Boss\\Boss3\\BossAtt3.ts"
   },
   "543decd9-d749-4cda-ae1b-cb3cce3e7c13": {
-    "asset": 1690960767132,
-    "meta": 1690960926363,
+    "asset": 1691030728584,
+    "meta": 1691030728589,
     "relativePath": "resourcesBundle\\ui\\game\\game_win.prefab"
   },
   "5627363d-b734-4878-b1b6-6f0f65d98eb1": {
@@ -11553,11 +11523,6 @@
     "asset": 1688719264090,
     "meta": 1689133970237,
     "relativePath": "Scripts\\copy\\endlesschallenges\\rankingrewarddisplay.ts"
-  },
-  "97b266a7-1e56-44eb-9c4d-a75858b56251": {
-    "asset": 1688719264091,
-    "meta": 1689133970243,
-    "relativePath": "Scripts\\copy\\endlesschallenges\\rewarddisplay.ts"
   },
   "dbc1660c-4119-4d67-b4a7-cb6f586ee94c": {
     "asset": 1688719264083,
@@ -12329,11 +12294,6 @@
     "meta": 1689133972302,
     "relativePath": "Scripts\\Task\\Data\\ThreadTaskInformation.ts"
   },
-  "28c08303-9988-4518-b21a-b4de63fc191a": {
-    "asset": 1688719263979,
-    "meta": 1689133972340,
-    "relativePath": "Scripts\\UI\\home\\ActivityUi.ts"
-  },
   "512a5e51-3d95-47fb-b1fd-ed21f1649c40": {
     "asset": 1688719263980,
     "meta": 1689133972363,
@@ -12368,11 +12328,6 @@
     "asset": 1688719263993,
     "meta": 1689133972449,
     "relativePath": "Scripts\\UI\\home\\FixedPos.ts"
-  },
-  "8d555924-7128-4b16-bf76-db7e9c4804d1": {
-    "asset": 1688719263994,
-    "meta": 1689133972478,
-    "relativePath": "Scripts\\UI\\home\\FuncTypeBtn.ts"
   },
   "6db1ee7f-7ecb-4794-8b3e-2f725248f206": {
     "asset": 1688719263996,
@@ -14574,11 +14529,6 @@
     "meta": 1689233694587,
     "relativePath": "Scripts\\Activity\\EndlessLevels.ts"
   },
-  "45e477ff-ad0b-4a8c-8ea0-c32ab7e777a8": {
-    "asset": 1689233516032,
-    "meta": 1689233694847,
-    "relativePath": "Scripts\\Game\\Ui\\GameWin.ts"
-  },
   "ccf785e4-10b5-43ee-86ed-21a6357b019c": {
     "asset": 1689233528257,
     "meta": 1689233694996,
@@ -14599,25 +14549,10 @@
     "meta": 1689233695446,
     "relativePath": "Scripts\\Task\\TaskUi.ts"
   },
-  "60c316b8-35bc-4849-8520-30c4c2d4cb79": {
-    "asset": 1689233558346,
-    "meta": 1689233695471,
-    "relativePath": "Scripts\\Turntable\\Turmtable.ts"
-  },
-  "a878efdc-75b8-4e1c-83e7-e8e07c54ac13": {
-    "asset": 1689233577674,
-    "meta": 1689233695542,
-    "relativePath": "Scripts\\UI\\home\\SettingUi.ts"
-  },
   "954f1844-9b16-487a-b8df-bcf151bcf452": {
     "asset": 1689233582790,
     "meta": 1689233695556,
     "relativePath": "Scripts\\UI\\home\\SignInBuyUi.ts"
-  },
-  "199d48cc-71bd-4fc6-b9d3-ecc6912b1e31": {
-    "asset": 1689233586696,
-    "meta": 1689233695574,
-    "relativePath": "Scripts\\UI\\home\\SignUi.ts"
   },
   "533b172b-5dbe-4f63-a14f-59f14da61f0b": {
     "asset": 1689233589962,
@@ -14980,13 +14915,13 @@
     "relativePath": "Scripts\\Monster\\MonsterManager.ts"
   },
   "c2b29c22-b703-4d69-9932-06eafc1afd76": {
-    "asset": 1690972227567,
-    "meta": 1690972227573,
+    "asset": 1691057669053,
+    "meta": 1691057669058,
     "relativePath": "resourcesBundle\\Scenes\\game.fire"
   },
   "b7023f5f-8418-45a0-8e03-6c3a0c0f7191": {
-    "asset": 1690972190976,
-    "meta": 1690972190997,
+    "asset": 1691034235424,
+    "meta": 1691034235438,
     "relativePath": "resourcesBundle\\Scenes\\home.fire"
   },
   "70ab1076-c721-43e7-8dc1-bfbe5881ef5c": {
@@ -15069,16 +15004,6 @@
     "meta": 1690769425687,
     "relativePath": "Scripts\\Hero\\Game\\DeLuYi\\SuperManTeng.ts"
   },
-  "2c3a3216-77be-4f6f-bc72-de785e68a5a7": {
-    "asset": 1690774926643,
-    "meta": 1690774953727,
-    "relativePath": "Scripts\\Store\\StoreUi.ts"
-  },
-  "eaadddaf-ebe9-4d2b-9724-25749af72637": {
-    "asset": 1690960219980,
-    "meta": 1690960923440,
-    "relativePath": "resourcesBundle\\json\\FunctionDefinition.json"
-  },
   "bf169962-c1f0-4bac-af1a-e835d262f897": {
     "asset": 1690797420859,
     "meta": 1690797445241,
@@ -15103,11 +15028,6 @@
     "asset": 1690960210844,
     "meta": 1690960923377,
     "relativePath": "resourcesBundle\\json\\DrawCardInformation.json"
-  },
-  "3a7058f7-e0ed-485c-b038-6d0c07bb1ac0": {
-    "asset": 1690960246432,
-    "meta": 1690960923518,
-    "relativePath": "resourcesBundle\\json\\TextManagement.json"
   },
   "e6c52c1f-bd6b-467c-a620-2e44aa14cc7c": {
     "asset": 1690855419839,
@@ -15194,16 +15114,6 @@
     "meta": 1690940148347,
     "relativePath": "Scripts\\Game\\Ui\\RoguelikeTip.ts"
   },
-  "faaf3b63-56bc-4004-8574-4d1833fea20a": {
-    "asset": 1690960202125,
-    "meta": 1690960923362,
-    "relativePath": "resourcesBundle\\json\\BossReward.json"
-  },
-  "a6627fe2-3a12-4169-bf16-5069be9a4c42": {
-    "asset": 1690960213609,
-    "meta": 1690960923393,
-    "relativePath": "resourcesBundle\\json\\EndlessLevels.json"
-  },
   "9b8381e7-74f9-4a7a-ba15-1754d76954bd": {
     "asset": 1690960238776,
     "meta": 1690960923487,
@@ -15279,21 +15189,6 @@
     "meta": 1690962200087,
     "relativePath": "Scripts\\Equipment\\EquipmentManager.ts"
   },
-  "3737319f-5d5f-486e-ad03-2475ca168052": {
-    "asset": 1690961925517,
-    "meta": 1690962200212,
-    "relativePath": "Scripts\\Game\\Game.ts"
-  },
-  "54330240-d110-4601-a66a-dd466dc321ae": {
-    "asset": 1690961944501,
-    "meta": 1690962200228,
-    "relativePath": "Scripts\\Game\\MapNodePool.ts"
-  },
-  "9a67207f-3b8d-4e52-a295-59550476eceb": {
-    "asset": 1690961961383,
-    "meta": 1690962200541,
-    "relativePath": "Scripts\\Hero\\Data\\HeroManager.ts"
-  },
   "994cce54-dc2c-4525-8364-01efe8ad6bdb": {
     "asset": 1690962006814,
     "meta": 1690962200681,
@@ -15354,11 +15249,6 @@
     "meta": 1690962200978,
     "relativePath": "Scripts\\Tutorials\\Tutorials.ts"
   },
-  "fca21848-fb64-4498-9cae-826428941ff8": {
-    "asset": 1690962187410,
-    "meta": 1690962201041,
-    "relativePath": "Scripts\\UI\\home\\ToPlayMainUi.ts"
-  },
   "773c7336-f51b-47c0-9319-4c3db492d1bd": {
     "asset": 1690962196833,
     "meta": 1690962201056,
@@ -15414,11 +15304,6 @@
     "meta": 1690971795133,
     "relativePath": "startscene\\StartScene.ts"
   },
-  "47edb50b-8706-4f86-86dd-2cc730934e1c": {
-    "asset": 1690972522515,
-    "meta": 1690973099246,
-    "relativePath": "Scripts\\Hero\\Game\\Hero.ts"
-  },
   "444a03b1-a839-4ad5-8602-166f895ab0e6": {
     "asset": 1691026702179,
     "meta": 1691026814722,
@@ -15429,9 +15314,124 @@
     "meta": 1691026814737,
     "relativePath": "resourcesBundle\\json\\MonsterGroupConfigure.json"
   },
+  "45e477ff-ad0b-4a8c-8ea0-c32ab7e777a8": {
+    "asset": 1691030816646,
+    "meta": 1691030824318,
+    "relativePath": "Scripts\\Game\\Ui\\GameWin.ts"
+  },
+  "8d555924-7128-4b16-bf76-db7e9c4804d1": {
+    "asset": 1691034464188,
+    "meta": 1691034467075,
+    "relativePath": "Scripts\\UI\\home\\FuncTypeBtn.ts"
+  },
+  "eaadddaf-ebe9-4d2b-9724-25749af72637": {
+    "asset": 1691034525049,
+    "meta": 1691034563266,
+    "relativePath": "resourcesBundle\\json\\FunctionDefinition.json"
+  },
+  "60c316b8-35bc-4849-8520-30c4c2d4cb79": {
+    "asset": 1691044308257,
+    "meta": 1691044310333,
+    "relativePath": "Scripts\\Turntable\\Turmtable.ts"
+  },
+  "2c3a3216-77be-4f6f-bc72-de785e68a5a7": {
+    "asset": 1691048173756,
+    "meta": 1691048176550,
+    "relativePath": "Scripts\\Store\\StoreUi.ts"
+  },
+  "a878efdc-75b8-4e1c-83e7-e8e07c54ac13": {
+    "asset": 1691048670185,
+    "meta": 1691048687458,
+    "relativePath": "Scripts\\UI\\home\\SettingUi.ts"
+  },
+  "79b29159-f2b2-40c7-8745-bd41f85fde23": {
+    "asset": 1691050934104,
+    "meta": 1691050985725,
+    "relativePath": "resourcesBundle\\json\\AccumulatedInformation.json"
+  },
+  "83f8feb1-6751-481c-a20a-41ef5a465b20": {
+    "asset": 1691050939542,
+    "meta": 1691050985725,
+    "relativePath": "resourcesBundle\\json\\AchievenmentTask.json"
+  },
+  "a6627fe2-3a12-4169-bf16-5069be9a4c42": {
+    "asset": 1691050941576,
+    "meta": 1691050985725,
+    "relativePath": "resourcesBundle\\json\\EndlessLevels.json"
+  },
+  "c69074c5-f765-45ba-8674-3ecce66f70d4": {
+    "asset": 1691050936592,
+    "meta": 1691050985729,
+    "relativePath": "resourcesBundle\\json\\ThreadTaskInformation.json"
+  },
+  "c451db2b-2899-4049-bb23-2bc6bbc39bf3": {
+    "asset": 1691050930601,
+    "meta": 1691050985729,
+    "relativePath": "resourcesBundle\\json\\TaskInformation.json"
+  },
+  "1ba8e9aa-4f96-4734-a2d2-62f6a8b280d8": {
+    "asset": 1691050944097,
+    "meta": 1691050985729,
+    "relativePath": "resourcesBundle\\json\\SignIn.json"
+  },
+  "28c08303-9988-4518-b21a-b4de63fc191a": {
+    "asset": 1691051484864,
+    "meta": 1691051722082,
+    "relativePath": "Scripts\\UI\\home\\ActivityUi.ts"
+  },
+  "faaf3b63-56bc-4004-8574-4d1833fea20a": {
+    "asset": 1691052020836,
+    "meta": 1691052045956,
+    "relativePath": "resourcesBundle\\json\\BossReward.json"
+  },
+  "1d855718-abe6-4fa4-bd6e-55eb409ee223": {
+    "asset": 1691052022924,
+    "meta": 1691052045956,
+    "relativePath": "resourcesBundle\\json\\BossWeeklyReward.json"
+  },
+  "97b266a7-1e56-44eb-9c4d-a75858b56251": {
+    "asset": 1691052374967,
+    "meta": 1691052385905,
+    "relativePath": "Scripts\\copy\\endlesschallenges\\rewarddisplay.ts"
+  },
+  "fca21848-fb64-4498-9cae-826428941ff8": {
+    "asset": 1691054733420,
+    "meta": 1691054736151,
+    "relativePath": "Scripts\\UI\\home\\ToPlayMainUi.ts"
+  },
   "91f986bb-5557-4ec3-874f-fdb1de99e8d1": {
-    "asset": 1691030316044,
-    "meta": 1691030377209,
+    "asset": 1691056372619,
+    "meta": 1691056533105,
     "relativePath": "Scripts\\GameManager.ts"
+  },
+  "54330240-d110-4601-a66a-dd466dc321ae": {
+    "asset": 1691057343112,
+    "meta": 1691057362921,
+    "relativePath": "Scripts\\Game\\MapNodePool.ts"
+  },
+  "47edb50b-8706-4f86-86dd-2cc730934e1c": {
+    "asset": 1691057337438,
+    "meta": 1691057363066,
+    "relativePath": "Scripts\\Hero\\Game\\Hero.ts"
+  },
+  "3737319f-5d5f-486e-ad03-2475ca168052": {
+    "asset": 1691057736487,
+    "meta": 1691057738402,
+    "relativePath": "Scripts\\Game\\Game.ts"
+  },
+  "9a67207f-3b8d-4e52-a295-59550476eceb": {
+    "asset": 1691059493012,
+    "meta": 1691059504836,
+    "relativePath": "Scripts\\Hero\\Data\\HeroManager.ts"
+  },
+  "3a7058f7-e0ed-485c-b038-6d0c07bb1ac0": {
+    "asset": 1691059715080,
+    "meta": 1691059730937,
+    "relativePath": "resourcesBundle\\json\\TextManagement.json"
+  },
+  "199d48cc-71bd-4fc6-b9d3-ecc6912b1e31": {
+    "asset": 1691060193492,
+    "meta": 1691060199546,
+    "relativePath": "Scripts\\UI\\home\\SignUi.ts"
   }
 }

@@ -44,7 +44,7 @@ var rewarddisplay = /** @class */ (function (_super) {
         _this.BossRush_Line1 = null;
         _this.text = null;
         _this.mytxt = null;
-        _this.boss = [20003, 40006, 20003, 10002, 10002];
+        _this.boss = [10001, 10001, 10001, 10002, 10002];
         _this.Common_Window3_1 = null;
         return _this;
         // LIFE-CYCLE CALLBACKS:

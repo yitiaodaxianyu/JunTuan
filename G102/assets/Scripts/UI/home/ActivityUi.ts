@@ -69,7 +69,7 @@ export default class ActivityUi extends cc.Component {
         let WuJinTiao=this.btnEndless.getChildByName("itme")
         let MiGongZhan=this.btnMaze.getChildByName("itme")
 
-        let GeRenBossitem=[40006,20003,10002]
+        let GeRenBossitem=[10002]
         let WuJinTiaoitem=[10001]
         let MiGongZhanitem=[60001,90002,20012]
 

@@ -129,6 +129,8 @@ export default class SignUi extends UIComponent {
 
     onClickBuyBtn(){
         this.onClose();
+        GameManager.getInstance().showMessage(LanguageManager.getInstance().getStrByTextId(100113))
+        return;
         FollowManager.getInstance().followEvent(Follow_Type.点击解锁5倍奖励按钮的点击次数);
         UIManager.getInstance().showUiDialog(UIPath.SignInBuy,UILayerLevel.One,{
             onCompleted:(uiNode)=>{

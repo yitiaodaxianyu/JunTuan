@@ -373,6 +373,8 @@ export default class Hero extends cc.Component {
             if (this.cur_load_num >= this.need_load_num && this.is_LoadLoad == true) {
                 if (this.is_load_ok == false) {
                     this.is_load_ok = true;
+                   
+                    
                     Hero.cur_loaded_num++;
                     if (this.loaded_callback) {
                         this.loaded_callback();
