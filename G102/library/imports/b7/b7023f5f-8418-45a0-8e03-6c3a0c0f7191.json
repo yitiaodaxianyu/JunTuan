@@ -4405,7 +4405,6 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": null,
     "_type": 0,
     "_sizeMode": 1,
     "_fillType": 0,
@@ -4442,15 +4441,15 @@
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 171,
-      "g": 184,
-      "b": 207,
+      "r": 255,
+      "g": 255,
+      "b": 255,
       "a": 255
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 163.01,
-      "height": 52.4
+      "width": 201.84,
+      "height": 37.5
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -4462,7 +4461,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        -408.726,
+        -421.099,
         0,
         0,
         0,
@@ -4484,10 +4483,10 @@
     "_is3DNode": false,
     "_groupIndex": 0,
     "groupIndex": 0,
-    "_id": "c4JjwxADRPJ5OPZ5k8gqSJ"
+    "_id": "37vCTQvkFE3ams9KhiLFof"
   },
   {
-    "__type__": "c16e5sVZrZAYKAJue79QfaF",
+    "__type__": "cc.Label",
     "_name": "",
     "_objFlags": 0,
     "node": {
@@ -4501,24 +4500,23 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "加载中...",
-    "_N$string": "加载中...",
-    "_fontSize": 42,
-    "_lineHeight": 40,
+    "_string": "正在载入游戏中...",
+    "_N$string": "正在载入游戏中...",
+    "_fontSize": 25,
+    "_lineHeight": 25,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
     "_spacingX": 0,
     "_batchAsBitmap": false,
-    "_styleFlags": 1,
+    "_styleFlags": 0,
     "_underlineHeight": 0,
-    "_N$horizontalAlign": 1,
-    "_N$verticalAlign": 1,
+    "_N$horizontalAlign": 0,
+    "_N$verticalAlign": 0,
     "_N$fontFamily": "Arial",
     "_N$overflow": 0,
     "_N$cacheMode": 0,
-    "cur_text_id": 100088,
-    "_id": "9f7lxqbQ5KmIUwt6851cfw"
+    "_id": "d6GqzB4mhDUJIPzwMtyfUC"
   },
   {
     "__type__": "cc.LabelOutline",
@@ -4530,13 +4528,13 @@
     "_enabled": true,
     "_color": {
       "__type__": "cc.Color",
-      "r": 60,
-      "g": 72,
-      "b": 94,
+      "r": 0,
+      "g": 0,
+      "b": 0,
       "a": 255
     },
-    "_width": 1,
-    "_id": "e8hN3hP3xPyZa0E0/MhQWz"
+    "_width": 3,
+    "_id": "44Iw7IjYZMpZ75kp4OOiCP"
   },
   {
     "__type__": "cc.Sprite",
@@ -37025,6 +37023,7 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
+    "_spriteFrame": null,
     "_type": 0,
     "_sizeMode": 1,
     "_fillType": 0,
@@ -37898,6 +37897,7 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
+    "_spriteFrame": null,
     "_type": 0,
     "_sizeMode": 1,
     "_fillType": 0,
@@ -38870,6 +38870,7 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
+    "_spriteFrame": null,
     "_type": 0,
     "_sizeMode": 1,
     "_fillType": 0,
@@ -40616,6 +40617,7 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
+    "_spriteFrame": null,
     "_type": 0,
     "_sizeMode": 1,
     "_fillType": 0,
@@ -41392,6 +41394,7 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
+    "_spriteFrame": null,
     "_type": 0,
     "_sizeMode": 1,
     "_fillType": 0,

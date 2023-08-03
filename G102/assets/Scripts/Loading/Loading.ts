@@ -264,7 +264,7 @@ export default class Loading extends cc.Component {
         }).to(1,{opacity:255}).start();
 
         bgLoading.getChildByName('ProgressBar').active=false;
-        bgLoading.getChildByName('load').active=false;
+        // bgLoading.getChildByName('load').active=false;
         
         bg_loading_1.getChildByName('ProgressBar').active=false;
         bg_loading_1.getChildByName('load').active=false;

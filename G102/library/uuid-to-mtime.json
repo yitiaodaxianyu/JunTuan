@@ -25,8 +25,8 @@
     "relativePath": "resourcesBundle\\Lizi"
   },
   "d5e8a5ca-a262-42c5-ba26-d891d254cea1": {
-    "asset": 1689906843924,
-    "meta": 1689907773551,
+    "asset": 1690961057386,
+    "meta": 1691026732059,
     "relativePath": "Material"
   },
   "4729e547-a2e1-411a-a0a4-2fa641f5bc10": {
@@ -40,8 +40,8 @@
     "relativePath": "resourcesBundle\\Prefabs"
   },
   "f99b32cb-3b61-459f-a50e-0c4c0ef47351": {
-    "asset": 1690961165937,
-    "meta": 1690961181708,
+    "asset": 1690966894771,
+    "meta": 1691026732059,
     "relativePath": "resources"
   },
   "e42e5767-fadd-4b06-93ef-b23cd52ffd3d": {
@@ -280,8 +280,8 @@
     "relativePath": "resourcesBundle\\Animation\\sheji.anim"
   },
   "ece36eb6-f960-40d1-80ed-41d4bd9a77f5": {
-    "asset": 1690959948372,
-    "meta": 1690960923307,
+    "asset": 1690966828085,
+    "meta": 1691026732061,
     "relativePath": "resourcesBundle\\Images\\bg"
   },
   "9ce18f76-2f91-4c24-a717-a01addf38993": {
@@ -370,8 +370,8 @@
     "relativePath": "resourcesBundle\\Animation\\store_hero_flowwing_light_SS.anim"
   },
   "530fa17f-db1e-4f99-acb4-16e7ba1a8c69": {
-    "asset": 1690960139020,
-    "meta": 1690960923317,
+    "asset": 1690966890644,
+    "meta": 1691026732061,
     "relativePath": "resourcesBundle\\Images\\loading"
   },
   "f29cfa08-cd16-4d03-82ca-7580129c8210": {
@@ -1070,8 +1070,8 @@
     "relativePath": "resourcesBundle\\Images\\get_hint.png"
   },
   "f7fe28b5-3fd3-4031-91b5-d4d08dd1d46a": {
-    "asset": 1690961484812,
-    "meta": 1690961484815,
+    "asset": 1690972276819,
+    "meta": 1690972276826,
     "relativePath": "resourcesBundle\\Scenes\\load.fire"
   },
   "b8d2234c-7442-430d-8abd-e21bef67728b": {
@@ -1397,7 +1397,7 @@
   "98461246-8648-40dc-96be-10100526baa0": {
     "asset": 1690959947176,
     "meta": 1690960924390,
-    "relativePath": "resourcesBundle\\Images\\bg\\Load_BG.jpg"
+    "relativePath": "startscene\\res\\Load_BG.jpg"
   },
   "713b3d6a-d16e-43c3-b6f1-7e02dba98afd": {
     "asset": 1690960005798,
@@ -2067,7 +2067,7 @@
   "423ea024-a77f-48c8-99ec-72244fca4e65": {
     "asset": 1690960137848,
     "meta": 1690960924610,
-    "relativePath": "resourcesBundle\\Images\\loading\\Loading_Bar_0.png"
+    "relativePath": "startscene\\res\\Loading_Bar_0.png"
   },
   "5cfa664c-f732-4a32-be47-c4b64ef065a2": {
     "asset": 1690960064331,
@@ -2112,7 +2112,7 @@
   "58d4ac01-7cc8-4ab4-b7df-a6d7a14e2e43": {
     "asset": 1690960137380,
     "meta": 1690960924610,
-    "relativePath": "resourcesBundle\\Images\\loading\\Load_JDT_02.png"
+    "relativePath": "startscene\\res\\Load_JDT_02.png"
   },
   "54156ef8-990e-4a1d-92fb-44f0d7220cdd": {
     "asset": 1690960426541,
@@ -2132,7 +2132,7 @@
   "91ff5e46-0501-479d-9dc1-21075700c7d6": {
     "asset": 1690960136911,
     "meta": 1690960924610,
-    "relativePath": "resourcesBundle\\Images\\loading\\Load_JDT_01.png"
+    "relativePath": "startscene\\res\\Load_JDT_01.png"
   },
   "b6fb050d-f128-4f7f-9a80-36d3724ddacb": {
     "asset": 1690960188455,
@@ -2147,7 +2147,7 @@
   "cc0a85a9-9e38-40f0-9948-753fc545bbe5": {
     "asset": 1690960136411,
     "meta": 1690960924610,
-    "relativePath": "resourcesBundle\\Images\\loading\\Load_JDT_00.png"
+    "relativePath": "startscene\\res\\Load_JDT_00.png"
   },
   "b1fca901-7f36-4d5b-9eb5-a35af9fa8281": {
     "asset": 1690960427981,
@@ -2167,7 +2167,7 @@
   "986e2b94-a2c8-40ec-8b03-92c3b5d63c79": {
     "asset": 1690960138801,
     "meta": 1690960924610,
-    "relativePath": "resourcesBundle\\Images\\loading\\Loading_Bar_2.png"
+    "relativePath": "startscene\\res\\Loading_Bar_2.png"
   },
   "66ac6208-e728-4739-bced-954e48ca53fe": {
     "asset": 1690959783032,
@@ -2182,7 +2182,7 @@
   "1892eb91-8b99-41b7-94ee-f6ca599986dd": {
     "asset": 1690960138364,
     "meta": 1690960924610,
-    "relativePath": "resourcesBundle\\Images\\loading\\Loading_Bar_1.png"
+    "relativePath": "startscene\\res\\Loading_Bar_1.png"
   },
   "667df522-d9e8-4377-b4b5-f01d84836cec": {
     "asset": 1690960190798,
@@ -14540,14 +14540,9 @@
     "relativePath": "model\\primitives.fbx"
   },
   "072d3f7c-58c0-49cf-8b3b-97191429ba6b": {
-    "asset": 1690444875806,
-    "meta": 1690451379462,
+    "asset": 1690963776778,
+    "meta": 1691026732060,
     "relativePath": "startscene"
-  },
-  "b3689caf-f972-4610-b0ce-8f75f146cd85": {
-    "asset": 1689234081871,
-    "meta": 1689234081877,
-    "relativePath": "startscene\\start.fire"
   },
   "cfa68618-4959-4d91-be76-da235c60ecf5": {
     "asset": 1689231712568,
@@ -14985,13 +14980,13 @@
     "relativePath": "Scripts\\Monster\\MonsterManager.ts"
   },
   "c2b29c22-b703-4d69-9932-06eafc1afd76": {
-    "asset": 1690962327968,
-    "meta": 1690962327974,
+    "asset": 1690972227567,
+    "meta": 1690972227573,
     "relativePath": "resourcesBundle\\Scenes\\game.fire"
   },
   "b7023f5f-8418-45a0-8e03-6c3a0c0f7191": {
-    "asset": 1690539042167,
-    "meta": 1690539042181,
+    "asset": 1690972190976,
+    "meta": 1690972190997,
     "relativePath": "resourcesBundle\\Scenes\\home.fire"
   },
   "70ab1076-c721-43e7-8dc1-bfbe5881ef5c": {
@@ -15129,11 +15124,6 @@
     "meta": 1690855865881,
     "relativePath": "Scripts\\JsonData\\Jackpot.ts"
   },
-  "50821f43-f034-4108-af28-79346b06e433": {
-    "asset": 1690858323494,
-    "meta": 1690858328625,
-    "relativePath": "Scripts\\Level\\MissionLevel.ts"
-  },
   "326cc4d3-6b9c-4ba5-966c-937f9aeb1b6d": {
     "asset": 1690959994021,
     "meta": 1690960929352,
@@ -15269,19 +15259,9 @@
     "meta": 1690945599266,
     "relativePath": "Scripts\\Hero\\Game\\SheShou\\SheShou.ts"
   },
-  "444a03b1-a839-4ad5-8602-166f895ab0e6": {
-    "asset": 1690960225870,
-    "meta": 1690960923455,
-    "relativePath": "resourcesBundle\\json\\MissionLevel.json"
-  },
-  "616d5bdb-5e6d-4ca1-8b34-9d9386861564": {
-    "asset": 1690960227730,
-    "meta": 1690960923455,
-    "relativePath": "resourcesBundle\\json\\MonsterGroupConfigure.json"
-  },
   "1c831d67-588e-4e66-82d0-b96a6bd9c1cb": {
-    "asset": 1690961165937,
-    "meta": 1690961569986,
+    "asset": 1690962957859,
+    "meta": 1691026732060,
     "relativePath": "resourcesBundle"
   },
   "a256c81b-e0a9-4570-baa4-67f2f5a4a85b": {
@@ -15309,30 +15289,15 @@
     "meta": 1690962200228,
     "relativePath": "Scripts\\Game\\MapNodePool.ts"
   },
-  "91f986bb-5557-4ec3-874f-fdb1de99e8d1": {
-    "asset": 1690961873722,
-    "meta": 1690962200400,
-    "relativePath": "Scripts\\GameManager.ts"
-  },
   "9a67207f-3b8d-4e52-a295-59550476eceb": {
     "asset": 1690961961383,
     "meta": 1690962200541,
     "relativePath": "Scripts\\Hero\\Data\\HeroManager.ts"
   },
-  "47edb50b-8706-4f86-86dd-2cc730934e1c": {
-    "asset": 1690961997969,
-    "meta": 1690962200666,
-    "relativePath": "Scripts\\Hero\\Game\\Hero.ts"
-  },
   "994cce54-dc2c-4525-8364-01efe8ad6bdb": {
     "asset": 1690962006814,
     "meta": 1690962200681,
     "relativePath": "Scripts\\Level\\LevelManager.ts"
-  },
-  "e0fc9049-2efe-4ef6-bc6b-0c9b18359f6a": {
-    "asset": 1690962033461,
-    "meta": 1690962200712,
-    "relativePath": "Scripts\\Loading\\Loading.ts"
   },
   "c3e29efb-38c1-4db1-8186-e5f7bb6d19d9": {
     "asset": 1690962046588,
@@ -15419,14 +15384,54 @@
     "meta": 1690962201197,
     "relativePath": "Scripts\\UserData.ts"
   },
-  "9bfbc1c4-405b-4ca4-b306-e8d3ba576f14": {
-    "asset": 1690961845763,
-    "meta": 1690962201212,
-    "relativePath": "startscene\\StartScene.ts"
-  },
   "d92b2400-cf25-4a0a-912d-964e8b7e98d7": {
     "asset": 1690961808321,
     "meta": 1690962201212,
     "relativePath": "startscene\\WXManagerEX.ts"
+  },
+  "63c7b1ae-cd38-469f-83c4-20077abb9b51": {
+    "asset": 1690966894771,
+    "meta": 1691026732061,
+    "relativePath": "startscene\\res"
+  },
+  "50821f43-f034-4108-af28-79346b06e433": {
+    "asset": 1690964775782,
+    "meta": 1690964777769,
+    "relativePath": "Scripts\\Level\\MissionLevel.ts"
+  },
+  "b3689caf-f972-4610-b0ce-8f75f146cd85": {
+    "asset": 1690971752751,
+    "meta": 1690971752760,
+    "relativePath": "startscene\\start.fire"
+  },
+  "e0fc9049-2efe-4ef6-bc6b-0c9b18359f6a": {
+    "asset": 1690970585222,
+    "meta": 1690970588138,
+    "relativePath": "Scripts\\Loading\\Loading.ts"
+  },
+  "9bfbc1c4-405b-4ca4-b306-e8d3ba576f14": {
+    "asset": 1690971792799,
+    "meta": 1690971795133,
+    "relativePath": "startscene\\StartScene.ts"
+  },
+  "47edb50b-8706-4f86-86dd-2cc730934e1c": {
+    "asset": 1690972522515,
+    "meta": 1690973099246,
+    "relativePath": "Scripts\\Hero\\Game\\Hero.ts"
+  },
+  "444a03b1-a839-4ad5-8602-166f895ab0e6": {
+    "asset": 1691026702179,
+    "meta": 1691026814722,
+    "relativePath": "resourcesBundle\\json\\MissionLevel.json"
+  },
+  "616d5bdb-5e6d-4ca1-8b34-9d9386861564": {
+    "asset": 1691026704371,
+    "meta": 1691026814737,
+    "relativePath": "resourcesBundle\\json\\MonsterGroupConfigure.json"
+  },
+  "91f986bb-5557-4ec3-874f-fdb1de99e8d1": {
+    "asset": 1691030316044,
+    "meta": 1691030377209,
+    "relativePath": "Scripts\\GameManager.ts"
   }
 }

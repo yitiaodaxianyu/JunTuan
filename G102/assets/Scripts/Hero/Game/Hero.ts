@@ -1366,36 +1366,36 @@ export default class Hero extends cc.Component {
     getLvlGonji(): number {
         let numGongji: number = 0;
         if (this.hero_type == Hero_Type.ChangMaoShou) {
-            numGongji = this.hero_lvl * 0.05;
+            numGongji = this.hero_lvl * 0.1;
             if (this.isHaveBuff(BuffId.Hero_ChangMaoShow_GongSu)) {
-                numGongji += this.hero_lvl * 0.05;
+                numGongji += this.hero_lvl * 0.1;
             }
 
         } else if (this.hero_type == Hero_Type.ShouWang) {
-            numGongji = this.hero_lvl * 0.05;
-        } else if (this.hero_type == Hero_Type.PaoShou) {
-            numGongji = this.hero_lvl * 0.05;
-        } else if (this.hero_type == Hero_Type.DeLuYi) {
-            numGongji = this.hero_lvl * 0.05;
-        } else if (this.hero_type == Hero_Type.KuangZhanShi) {
             numGongji = this.hero_lvl * 0.1;
+        } else if (this.hero_type == Hero_Type.PaoShou) {
+            numGongji = this.hero_lvl * 0.1;
+        } else if (this.hero_type == Hero_Type.DeLuYi) {
+            numGongji = this.hero_lvl * 0.1;
+        } else if (this.hero_type == Hero_Type.KuangZhanShi) {
+            numGongji = this.hero_lvl * 0.2;
             if (this.isHaveBuff(BuffId.Hero_KuangZhanShi_DaZhao)) {
-                numGongji += this.hero_lvl *0.1;
+                numGongji += this.hero_lvl *0.2;
             }
         } else if (this.hero_type == Hero_Type.ZhenDe) {
-            numGongji = this.hero_lvl * 0.1;
+            numGongji = this.hero_lvl * 0.2;
         } else if (this.hero_type == Hero_Type.NvWu) {
-            numGongji = this.hero_lvl * 0.1;
+            numGongji = this.hero_lvl * 0.2;
         } else if (this.hero_type == Hero_Type.GongJianShou) {
-            numGongji = this.hero_lvl * 0.1;
+            numGongji = this.hero_lvl * 0.2;
         } else if (this.hero_type == Hero_Type.BingNv) {
-            numGongji = this.hero_lvl * 0.15;
+            numGongji = this.hero_lvl * 0.3;
         } else if (this.hero_type == Hero_Type.ANuBiSi) {
-            numGongji = this.hero_lvl * 0.15;
+            numGongji = this.hero_lvl * 0.3;
         } else if (this.hero_type == Hero_Type.MeiMo) {
-            numGongji = this.hero_lvl * 0.15;
+            numGongji = this.hero_lvl * 0.3;
         } else if (this.hero_type == Hero_Type.LeiShen) {
-            numGongji = this.hero_lvl * 0.15;
+            numGongji = this.hero_lvl * 0.3;
         }
 
         return numGongji;

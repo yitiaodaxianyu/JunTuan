@@ -34,11 +34,25 @@ var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var StartScene = /** @class */ (function (_super) {
     __extends(StartScene, _super);
     function StartScene() {
-        return _super !== null && _super.apply(this, arguments) || this;
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.loadingBar = null;
+        _this.loadLabel = null;
+        _this.tipLabel = null;
+        _this.loadProGress = 0;
+        return _this;
+        // update (dt) {}
     }
-    StartScene.prototype.start = function () {
+    StartScene.prototype.onLoad = function () {
         console.log("开始加载分包");
         // cc.director.loadScene("load");
+        this.loadingBar = this.node.getChildByName('bg_loading').getChildByName('ProgressBar').getComponent(cc.ProgressBar);
+        console.log("1");
+        this.loadLabel = this.node.getChildByName('bg_loading').getChildByName('ProgressBar').getChildByName('loadLabel').getComponent(cc.Label);
+        console.log("2");
+        this.tipLabel = this.node.getChildByName('bg_loading').getChildByName('load').getComponent(cc.Label);
+        console.log("3");
+        this.loadingBar.progress = 0;
+        this.loadLabel.string = (0 * 100).toFixed(0) + '%';
         WXManagerEX_1.default.getInstance().initData();
         cc.loader.downloader.loadSubpackage('MainScript', function (err) {
             if (err) {
@@ -56,6 +70,16 @@ var StartScene = /** @class */ (function (_super) {
                 cc.director.loadScene("load");
             });
         });
+    };
+    StartScene.prototype.update = function (dt) {
+        if (this.loadProGress < 100) {
+            this.loadProGress += 0.2;
+        }
+        if (this.loadProGress > 80) {
+            this.tipLabel.string = "首次进入游戏可能耗时较长...";
+        }
+        this.loadingBar.progress = this.loadProGress / 100;
+        this.loadLabel.string = (this.loadProGress).toFixed(0) + '%';
     };
     StartScene = __decorate([
         ccclass

@@ -275,7 +275,7 @@ var Loading = /** @class */ (function (_super) {
             title_1.getComponent(LanguageSprite_1.default).startTranslation();
         }).to(1, { opacity: 255 }).start();
         bgLoading.getChildByName('ProgressBar').active = false;
-        bgLoading.getChildByName('load').active = false;
+        // bgLoading.getChildByName('load').active=false;
         bg_loading_1.getChildByName('ProgressBar').active = false;
         bg_loading_1.getChildByName('load').active = false;
         //1。先判断本地是否有uid测试阶段，先用游客身份登陆

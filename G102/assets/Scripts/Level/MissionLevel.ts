@@ -105,6 +105,8 @@ export class MissionLevelManager {
     }
     /**根据关卡数id获取章节 */
     public getChapter(id:number): number {
+        console.log("chapterid:"+id);
+        
         return this.data.get(id).Chapter;
     }
     /**根据关卡数id获取小关编号 */
