@@ -23,6 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+var WXManagerEX_1 = require("../../../startscene/WXManagerEX");
 var GameManager_1 = require("../../GameManager");
 var LanguageManager_1 = require("../../multiLanguage/LanguageManager");
 var PropManager_1 = require("../../Prop/PropManager");
@@ -43,6 +44,7 @@ var HeroListUi = /** @class */ (function (_super) {
     function HeroListUi() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         _this.hero_item = null;
+        _this.contentView = null;
         return _this;
         // unlockHeroItemSort(list:JsonHeroBaseInfo[]){
         //     for(let i = 0;i < list.length - 1;i++){
@@ -125,6 +127,12 @@ var HeroListUi = /** @class */ (function (_super) {
         var maxList = [];
         var lockList = [];
         var tempList = [];
+        if (WXManagerEX_1.default.getInstance().statusBarHeight > 20) {
+            this.contentView.getComponent(cc.Widget).top = 150 + 99;
+        }
+        else {
+            this.contentView.getComponent(cc.Widget).top = 99;
+        }
         HeroBaseInfo_1.HeroBaseInfoManager.getInstance().getData().forEach(function (v, k) {
             allHeroList.push(v);
         });
@@ -342,6 +350,9 @@ var HeroListUi = /** @class */ (function (_super) {
     __decorate([
         property(cc.Prefab)
     ], HeroListUi.prototype, "hero_item", void 0);
+    __decorate([
+        property(cc.Node)
+    ], HeroListUi.prototype, "contentView", void 0);
     HeroListUi = HeroListUi_1 = __decorate([
         ccclass
     ], HeroListUi);

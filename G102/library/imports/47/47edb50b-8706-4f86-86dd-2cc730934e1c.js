@@ -59,7 +59,7 @@ var Hero = /** @class */ (function (_super) {
         _this.is_load_ok = false;
         _this.cur_load_num = 0;
         _this.need_load_num = 0;
-        _this.is_LoadLoad = false; //异步加载资源锁
+        _this.is_LoadLoad = false; //异步加载资源锁 
         _this.hero_type = HeroConfig_1.Hero_Type.ChangMaoShou;
         _this.prefab_skill_tip = null;
         //骨骼动画

@@ -97,7 +97,7 @@ const {ccclass, property} = cc._decorator;
 
     }
     Refresh(){
-        if(TheStorageManager.getInstance().getNumber(StorageKey.TurmtableFree,0) > 4){
+        if(TheStorageManager.getInstance().getNumber(StorageKey.TurmtableFree,0) > 999999){
             this.btnshow.active=false
             this.btnad.setPosition(0,-320,0)
         }else{
@@ -118,7 +118,7 @@ const {ccclass, property} = cc._decorator;
         }
         
         Times.timetxt=this.btnshow.getChildByName("time")
-        let times=TheStorageManager.getInstance().getNumber(StorageKey.TurmtableFreeTime, 60*60*12);
+        let times=TheStorageManager.getInstance().getNumber(StorageKey.TurmtableFreeTime, GameManager.getInstance().tumTableTime);
         Times.timetxt.getComponent(cc.Label).string=""+PublicMethods.timeconversions(times)
         this.btnad.getChildByName('red').active=TheStorageManager.getInstance().getNumber(StorageKey.TurmtableAd,0) < 10;
     }
@@ -166,29 +166,54 @@ const {ccclass, property} = cc._decorator;
             }
         }
         else if(type==1){
-            if(TheStorageManager.getInstance().getNumber(StorageKey.TurmtableFree,0) > 4){
+            if(TheStorageManager.getInstance().getNumber(StorageKey.TurmtableFree,0) > 99999){
                 // 没次数提示100120
                 GameManager.getInstance().showMessage(LanguageManager.getInstance().getStrByTextId(1700003),3);
             }else{
-                HttpManager.post(AccessName.userTurnPrize,this.getTurnPrizeJsonString(),true).then((data:any)=>{
-                    // 成功
-                    let num = TheStorageManager.getInstance().getNumber(StorageKey.TurmtableFree,0);
-                    num++;
-                    TheStorageManager.getInstance().setItem(StorageKey.TurmtableFree,num);
-                    FollowManager.getInstance().followEvent(Follow_Type.转盘免费抽奖点击次数);
-                    this.startSpin(data.index,1);
-                }).catch((err) =>{
-                    // 失败
-                    // console.log("失败1")
-                    let num = TheStorageManager.getInstance().getNumber(StorageKey.TurmtableFree,0);
-                    num++;
-                    TheStorageManager.getInstance().setItem(StorageKey.TurmtableFree,num);
-                    FollowManager.getInstance().followEvent(Follow_Type.转盘免费抽奖点击次数);
-                    this.startSpin(1,1);
-                });
+
+                let num = TheStorageManager.getInstance().getNumber(StorageKey.TurmtableFree,0);
+                num++;
+                TheStorageManager.getInstance().setItem(StorageKey.TurmtableFree,num);
+                FollowManager.getInstance().followEvent(Follow_Type.转盘免费抽奖点击次数);
+                //1 20% 2 20% 3 20% 4 15% 5 15% 6 10%
+                this.startSpin(this.roundmNum(),1);
+                // HttpManager.post(AccessName.userTurnPrize,this.getTurnPrizeJsonString(),true).then((data:any)=>{
+                //     // 成功
+                //     let num = TheStorageManager.getInstance().getNumber(StorageKey.TurmtableFree,0);
+                //     num++;
+                //     TheStorageManager.getInstance().setItem(StorageKey.TurmtableFree,num);
+                //     FollowManager.getInstance().followEvent(Follow_Type.转盘免费抽奖点击次数);
+                //     this.startSpin(data.index,1);
+                // }).catch((err) =>{
+                //     // 失败
+                //     // console.log("失败1")
+                //     let num = TheStorageManager.getInstance().getNumber(StorageKey.TurmtableFree,0);
+                //     num++;
+                //     TheStorageManager.getInstance().setItem(StorageKey.TurmtableFree,num);
+                //     FollowManager.getInstance().followEvent(Follow_Type.转盘免费抽奖点击次数);
+                //     this.startSpin(1,1);
+                // });
             }
         }
 
+    }
+    private roundmNum():number{
+       
+        var rum:number=Math.random();
+        if(rum<0.2){
+            return 1;
+        }else if(rum<0.4){
+            return 2;
+        }else if(rum<0.6){
+            return 3;
+        }else if(rum<0.75){
+            return 4;
+        }else if(rum<0.9){
+            return 5;
+        }else if(rum<1){
+            return 6;
+        }
+        return 1;
     }
     startSpin(index:number,type:number) {//type:   0:广告   1：免费  更新时间
         TaskManager.getInstance().emitTask(TaskItem.转动转盘1次);
@@ -223,7 +248,7 @@ const {ccclass, property} = cc._decorator;
 
                     if(type==1){
                         TheStorageManager.getInstance().setItem(StorageKey.TurmtableFreeYes, 0)
-                        TheStorageManager.getInstance().setItem(StorageKey.TurmtableFreeTime, 60*60*12);
+                        TheStorageManager.getInstance().setItem(StorageKey.TurmtableFreeTime, GameManager.getInstance().tumTableTime);
                     }
                     
                     cc.find('Canvas/main_ui').getComponent(MainUi).refreshMainTaskUi();

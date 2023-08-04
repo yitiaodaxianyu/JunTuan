@@ -37,7 +37,7 @@ var TheStorageManager = /** @class */ (function () {
     };
     TheStorageManager.prototype.getNumber = function (key, defaultValue) {
         var num = this.getItem(key);
-        if (num === "" || num === null) {
+        if (num === "" || num === null || num == "undefined") {
             num = defaultValue;
         }
         else {

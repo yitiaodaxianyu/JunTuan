@@ -1,3 +1,4 @@
+import WXManagerEX from "../../../startscene/WXManagerEX";
 import ApkManager from "../../Ads/ApkManager";
 import CoinPop from "../../CoinPop";
 import { EquipmentAttributeManager } from "../../Equipment/Data/EquipmentAttribute";
@@ -151,6 +152,11 @@ export default class RoleUi extends UIComponent{
     // 解锁后通用显示刷新
     infoRefresh(){
         let top = this.node.getChildByName("top");
+        if(WXManagerEX.getInstance().statusBarHeight>20){   
+            top.getComponent(cc.Widget).top = 90;
+        }else{
+            top.getComponent(cc.Widget).top = 0;
+        }
         let star = HeroAttributeManager.getInstance().getStarByHeroTypeAndStage(this.hero_type,HeroManager.getInstance().getHeroStage(this.hero_type));
         top.getChildByName("coinLabel").getComponent(cc.Label).string = MyTool.getCoinDanwei(PropManager.getInstance().getPropNum(PropId.Coin));
         top.getChildByName("gemLabel").getComponent(cc.Label).string = MyTool.getCoinDanwei(PropManager.getInstance().getPropNum(PropId.Gem));
@@ -606,6 +612,11 @@ export default class RoleUi extends UIComponent{
         let heroData = HM.getTargetHeroData(this.hero_type,heroMaxStage,heroMaxLevel);
         let zhanli = HM.getTargetHeroZhanli(this.hero_type,heroMaxStage,heroMaxLevel);
         let top = this.node.getChildByName("top");
+        if(WXManagerEX.getInstance().statusBarHeight>20){   
+            top.getComponent(cc.Widget).top = 90;
+        }else{
+            top.getComponent(cc.Widget).top = 0;
+        }
         
         bottom.getChildByName("levelIcon").active = false;
         top.getChildByName("revertIcon").active = false;

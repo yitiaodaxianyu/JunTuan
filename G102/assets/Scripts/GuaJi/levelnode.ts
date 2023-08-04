@@ -52,7 +52,7 @@ export default class levelnode extends cc.Component {
         this.node.setPosition(pos)
 
         //关卡名字
-        this.node.getChildByName("level").getComponent(cc.Label).string=""+MissionLevelManager.getInstance().getLevelName(level)
+        this.node.getChildByName("level").getComponent(cc.Label).string="第"+MissionLevelManager.getInstance().getLevelName(level)+"章";
 
         for (let Starindex = 0; Starindex < this.Star.length; Starindex++) {
             this.Star[Starindex].active=false

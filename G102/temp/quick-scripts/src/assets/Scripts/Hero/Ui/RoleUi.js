@@ -23,6 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+var WXManagerEX_1 = require("../../../startscene/WXManagerEX");
 var ApkManager_1 = require("../../Ads/ApkManager");
 var CoinPop_1 = require("../../CoinPop");
 var EquipmentAttribute_1 = require("../../Equipment/Data/EquipmentAttribute");
@@ -166,6 +167,12 @@ var RoleUi = /** @class */ (function (_super) {
     // 解锁后通用显示刷新
     RoleUi.prototype.infoRefresh = function () {
         var top = this.node.getChildByName("top");
+        if (WXManagerEX_1.default.getInstance().statusBarHeight > 20) {
+            top.getComponent(cc.Widget).top = 90;
+        }
+        else {
+            top.getComponent(cc.Widget).top = 0;
+        }
         var star = HeroAttribute_1.HeroAttributeManager.getInstance().getStarByHeroTypeAndStage(this.hero_type, HeroManager_1.HeroManager.getInstance().getHeroStage(this.hero_type));
         top.getChildByName("coinLabel").getComponent(cc.Label).string = MyTool_1.default.getCoinDanwei(PropManager_1.PropManager.getInstance().getPropNum(PropConfig_1.PropId.Coin));
         top.getChildByName("gemLabel").getComponent(cc.Label).string = MyTool_1.default.getCoinDanwei(PropManager_1.PropManager.getInstance().getPropNum(PropConfig_1.PropId.Gem));
@@ -618,6 +625,12 @@ var RoleUi = /** @class */ (function (_super) {
         var heroData = HM.getTargetHeroData(this.hero_type, heroMaxStage, heroMaxLevel);
         var zhanli = HM.getTargetHeroZhanli(this.hero_type, heroMaxStage, heroMaxLevel);
         var top = this.node.getChildByName("top");
+        if (WXManagerEX_1.default.getInstance().statusBarHeight > 20) {
+            top.getComponent(cc.Widget).top = 90;
+        }
+        else {
+            top.getComponent(cc.Widget).top = 0;
+        }
         bottom.getChildByName("levelIcon").active = false;
         top.getChildByName("revertIcon").active = false;
         bottom.getChildByName("starIcon").active = false;

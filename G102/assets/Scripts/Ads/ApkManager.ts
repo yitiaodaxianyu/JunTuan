@@ -169,6 +169,8 @@ export default class ApkManager {
     //展示视频广告
     showVideo(callback:(isSuc:boolean)=>void,type:VIDEO_TYPE)
     {
+        GameManager.getInstance().showMessage(LanguageManager.getInstance().getStrByTextId(100113))
+        return;
         // 周卡免视频特权
         if(DingYueManager.getInstance().getWeekInfo().is_buy == true && TheStorageManager.getInstance().getNumber(StorageKey.WeekCardFreeAdNum) > 0){
             TheStorageManager.getInstance().setItem(StorageKey.WeekCardFreeAdNum,TheStorageManager.getInstance().getNumber(StorageKey.WeekCardFreeAdNum) - 1);
@@ -215,6 +217,8 @@ export default class ApkManager {
         //     return;
         // }        
         //FollowManager.getInstance().followEvent(Follow_Type.点击视频播放奖励玩家数);
+        GameManager.getInstance().showMessage(LanguageManager.getInstance().getStrByTextId(100113))
+        return;
         this.interVideoResult=callback;
         if(cc.sys.isNative) {
             let className = "org/cocos2dx/javascript/ApkManager";

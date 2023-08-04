@@ -61,18 +61,21 @@ export class UserInfo{
                     this.signInDays = data.signDays;
                     this.isSignGift = data.isSignGift;
                     this.lastSignTime = data.lastSignTime;
-                    this.lastSignTimeTS = data.lastSignTimeTS;
+                    //this.lastSignTimeTS = data.lastSignTimeTS;
+                    this.lastSignTimeTS =TheStorageManager.getInstance().getNumber(StorageKey.NewPlayerSavenDaySignInTime,0);
                     this.payGem = data.payGem;
                     this.waveNumber = data.waveNumber;
                     this.damageNumber = data.damageNumber;
                     this.damageNumberLast=data.damageNumberLast;
                     TheStorageManager.getInstance().setItem(StorageKey.NewPlayerSavenDaySignInNum,this.signInDays);
                     TheStorageManager.getInstance().setItem(StorageKey.NewPlayerSavenDaySignInOver,this.isSignGift);
+                    
                     if(this.isSignGift == 0){
-                        let signInDate = new Date(this.lastSignTimeTS * 1000);
+                        //let signInDate = new Date(this.lastSignTimeTS * 1000);
+                        let signInDate = new Date(this.lastSignTimeTS);
                         let n1 = signInDate.getDate();
                         let n2 = new Date((nowTime * 1000)).getDate();
-                        if(signInDate.getDate() == new Date((nowTime * 1000)).getDate()){
+                        if(signInDate.getDate() == new Date().getDate()){
                             TheStorageManager.getInstance().setItem(StorageKey.CanSignIn,1);
                         }else{
                             TheStorageManager.getInstance().setItem(StorageKey.CanSignIn,0);
@@ -370,7 +373,7 @@ export class UserInfo{
                             TheStorageManager.getInstance().setItem(StorageKey.TaskMainIndex + v.taskType,v.stage);
                             TheStorageManager.getInstance().setItem(StorageKey.TaskMainNum + v.taskType,v.emit);
                             TheStorageManager.getInstance().setItem(StorageKey.TaskState + (v.taskType * 10000000 + v.stage + 1),v.status);
-                            TheStorageManager.getInstance().setItem(StorageKey.TaskMainShowIndex,v.progress);
+                            //TheStorageManager.getInstance().setItem(StorageKey.TaskMainShowIndex,v.progress);
                         });
 
                     }

@@ -2,6 +2,7 @@ import WXManagerEX from "../../startscene/WXManagerEX";
 import ApkManager from "../Ads/ApkManager";
 import { CUR_Platform, IsDebug, Release_Platform, ValueType } from "../Constants";
 import { TextManagementManager } from "../JsonData/TextManagement";
+
 import { Image_LanguageManager } from "../Multilingual/Image_Language";
 import { LanguageType,LanguageIndex,AllLanguageString, SpriteIndex, AllLanSpriteFrame, OnLanguageChange } from "./LanguageConstants";
 const {ccclass, property} = cc._decorator;

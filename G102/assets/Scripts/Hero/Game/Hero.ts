@@ -44,7 +44,7 @@ export default class Hero extends cc.Component {
     cur_load_num: number = 0;
     need_load_num: number = 0;
 
-    is_LoadLoad: boolean = false;//异步加载资源锁
+    is_LoadLoad: boolean = false;//异步加载资源锁 
 
     @property({ type: cc.Enum(Hero_Type) })
     hero_type: Hero_Type = Hero_Type.ChangMaoShou;

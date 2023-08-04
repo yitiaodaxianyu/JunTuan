@@ -398,7 +398,7 @@ export default class Game extends cc.Component {
         switch (gm.cur_game_mode) {
             case GameMode.Main: {
                 //coinBg.active=false;
-                top.getChildByName('curLabel').getComponent(cc.Label).string = GameManager.getInstance().fighting_info.title_name;
+                //top.getChildByName('curLabel').getComponent(cc.Label).string = GameManager.getInstance().fighting_info.title_name;
                 this.total_coin = MissionLevelManager.getInstance().getPassReward_Coin(LevelManager.getInstance().start_level);
                 FollowManager.getInstance().followEvent(Follow_Type.开始第N章玩家数 + MissionLevelManager.getInstance().getChapter(LevelManager.getInstance().start_level));
                 FollowManager.getInstance().followEvent(Follow_Type.开始挑战关卡 + LevelManager.getInstance().start_level);
@@ -911,6 +911,7 @@ export default class Game extends cc.Component {
 
     showLevelProgress() {
         let gm = GameManager.getInstance();
+        let top = cc.find("Canvas/Ui_Root/top_ui");
         switch (gm.cur_game_mode) {
             case GameMode.Maze:
             case GameMode.Tower:
@@ -928,7 +929,7 @@ export default class Game extends cc.Component {
                 // }
                 // let waveBg = cc.find('Canvas/Ui_Root/waveBg');
                 console.log("开始关卡"+gm.cur_wave);
-
+                top.getChildByName('curLabel').getComponent(cc.Label).string=gm.cur_wave+"/"+this.allWaveLength;
                 this.wavaNartagY=gm.cur_wave/this.allWaveLength*this.waveHeight;
                 //this.cur_wave_sp = waveBg.getChildByName(gm.cur_wave.toString());
                 // let types = GameManager.getInstance().fighting_info.getWaveTypes();

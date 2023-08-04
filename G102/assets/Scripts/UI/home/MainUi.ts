@@ -57,6 +57,7 @@ export default class MainUi extends cc.Component {
         // cc.resources.load('ui/home/team_select_ui');
         cc.director.on(OnLanguageChange,this.showLevelName,this);
         this.node.on(cc.Node.EventType.POSITION_CHANGED,this.onPositionChange,this);
+       
     }
 
     protected onDestroy(): void {        

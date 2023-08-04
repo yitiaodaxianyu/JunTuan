@@ -75,6 +75,8 @@ var StorageKey;
     StorageKey["StoreHeroID"] = "store_hero_id_";
     /**新手七日签到天数 */
     StorageKey["NewPlayerSavenDaySignInNum"] = "new_player_saven_day_sign_in_num";
+    /**新手七日签到天数时间*/
+    StorageKey["NewPlayerSavenDaySignInTime"] = "new_player_saven_day_sign_in_numTime";
     /**新手七日签到完毕 */
     StorageKey["NewPlayerSavenDaySignInOver"] = "new_player_saven_day_sign_in_over";
     /**能否进行签到 */

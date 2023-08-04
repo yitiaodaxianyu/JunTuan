@@ -251,6 +251,8 @@ var VipSystem = /** @class */ (function (_super) {
         }
     };
     VipSystem.prototype.onbtnLan = function () {
+        GameManager_1.default.getInstance().showMessage(LanguageManager_1.default.getInstance().getStrByTextId(100113));
+        return;
         var VipIdentity = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.VipIdentity, 0); //是否开通了vip   0:没开通 开通弹窗  1：开通了 领取按钮
         if (VipIdentity == 0) {
             this.VIPPrivileges.active = true;

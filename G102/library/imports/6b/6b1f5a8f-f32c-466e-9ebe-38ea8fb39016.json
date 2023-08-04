@@ -7,7 +7,7 @@
     {
       "DisplayPosition": 1,
       "ItemID": 10002,
-      "ItemNum": 100
+      "ItemNum": 1000
     },
     {
       "DisplayPosition": 2,
@@ -17,17 +17,17 @@
     {
       "DisplayPosition": 3,
       "ItemID": 10002,
-      "ItemNum": 1000
+      "ItemNum": 3000
     },
     {
       "DisplayPosition": 4,
       "ItemID": 10001,
-      "ItemNum": 100000
+      "ItemNum": 40000
     },
     {
       "DisplayPosition": 5,
       "ItemID": 10002,
-      "ItemNum": 3000
+      "ItemNum": 6000
     },
     {
       "DisplayPosition": 6,

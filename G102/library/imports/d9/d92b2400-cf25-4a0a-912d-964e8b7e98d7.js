@@ -35,6 +35,7 @@ var WXManagerEX = /** @class */ (function (_super) {
     function WXManagerEX() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         _this.statusBarHeight = 0;
+        _this.resourcesBundle = cc.resources;
         return _this;
         // update (dt) {}
     }

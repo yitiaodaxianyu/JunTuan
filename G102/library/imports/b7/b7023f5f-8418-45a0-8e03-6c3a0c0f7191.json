@@ -1798,6 +1798,9 @@
     "hero_item": {
       "__uuid__": "18c4a941-9c56-48df-a2d4-c3ad1b3e3bf5"
     },
+    "contentView": {
+      "__id__": 35
+    },
     "_id": "b33/UEaVNOlrOZq79o99Wq"
   },
   {
@@ -29567,7 +29570,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        0,
+        -15,
         0,
         0,
         0,
@@ -30529,14 +30532,12 @@
     },
     "_enabled": true,
     "alignMode": 1,
-    "_target": {
-      "__id__": 4
-    },
+    "_target": null,
     "_alignFlags": 5,
     "_left": 0,
     "_right": 0,
-    "_top": 0.0812192118226602,
-    "_bottom": 0.1314655172413793,
+    "_top": 0.08373235113566611,
+    "_bottom": 0.13136893799877225,
     "_verticalCenter": 0,
     "_horizontalCenter": 0,
     "_isAbsLeft": true,
@@ -35067,9 +35068,7 @@
     },
     "_enabled": true,
     "alignMode": 1,
-    "_target": {
-      "__id__": 4
-    },
+    "_target": null,
     "_alignFlags": 5,
     "_left": 0,
     "_right": 0,
@@ -35106,7 +35105,7 @@
     "_horizontalCenter": 0,
     "_isAbsLeft": true,
     "_isAbsRight": true,
-    "_isAbsTop": false,
+    "_isAbsTop": true,
     "_isAbsBottom": false,
     "_isAbsHorizontalCenter": true,
     "_isAbsVerticalCenter": true,
@@ -36128,7 +36127,7 @@
     "_horizontalCenter": 0,
     "_isAbsLeft": true,
     "_isAbsRight": true,
-    "_isAbsTop": false,
+    "_isAbsTop": true,
     "_isAbsBottom": false,
     "_isAbsHorizontalCenter": true,
     "_isAbsVerticalCenter": true,
@@ -36167,8 +36166,8 @@
     "_alignFlags": 5,
     "_left": 0,
     "_right": 0,
-    "_top": 0,
-    "_bottom": 0,
+    "_top": 0.009236453201970444,
+    "_bottom": -0.009236453201970444,
     "_verticalCenter": 0,
     "_horizontalCenter": 0,
     "_isAbsLeft": true,
@@ -37024,7 +37023,6 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": null,
     "_type": 0,
     "_sizeMode": 1,
     "_fillType": 0,
@@ -37898,7 +37896,6 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": null,
     "_type": 0,
     "_sizeMode": 1,
     "_fillType": 0,
@@ -38871,7 +38868,6 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": null,
     "_type": 0,
     "_sizeMode": 1,
     "_fillType": 0,
@@ -40618,7 +40614,6 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": null,
     "_type": 0,
     "_sizeMode": 1,
     "_fillType": 0,
@@ -41395,7 +41390,6 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": null,
     "_type": 0,
     "_sizeMode": 1,
     "_fillType": 0,

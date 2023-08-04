@@ -40,7 +40,7 @@ export class TheStorageManager {
 
     public getNumber(key:string,defaultValue?:number):number{
         let num=this.getItem(key);
-        if(num==="" || num===null)
+        if(num==="" || num===null||num=="undefined")
         {
             num=defaultValue;
         }else

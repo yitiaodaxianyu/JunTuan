@@ -151,7 +151,7 @@ export class UIManager extends UIPool  {
         return this.map_prefabs_old.get(path);
     }
     /**在场景切换成功后可以调用 */
-    public preloadPrefab(path:string){        
+    public preloadPrefab(path:string){          
         let prefab=this.map_prefabs_old.get(path);
         if(!prefab){
             WXManagerEX.getInstance().resourcesBundle.load(path,cc.Prefab,(error: Error, assets:cc.Prefab)=>{  

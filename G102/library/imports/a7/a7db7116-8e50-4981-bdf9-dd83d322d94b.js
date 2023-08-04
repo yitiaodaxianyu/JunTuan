@@ -159,6 +159,8 @@ var ApkManager = /** @class */ (function () {
     };
     //展示视频广告
     ApkManager.prototype.showVideo = function (callback, type) {
+        GameManager_1.default.getInstance().showMessage(LanguageManager_1.default.getInstance().getStrByTextId(100113));
+        return;
         // 周卡免视频特权
         if (DingYueManager_1.DingYueManager.getInstance().getWeekInfo().is_buy == true && StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.WeekCardFreeAdNum) > 0) {
             StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.WeekCardFreeAdNum, StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.WeekCardFreeAdNum) - 1);
@@ -200,6 +202,8 @@ var ApkManager = /** @class */ (function () {
         //     return;
         // }        
         //FollowManager.getInstance().followEvent(Follow_Type.点击视频播放奖励玩家数);
+        GameManager_1.default.getInstance().showMessage(LanguageManager_1.default.getInstance().getStrByTextId(100113));
+        return;
         this.interVideoResult = callback;
         if (cc.sys.isNative) {
             var className = "org/cocos2dx/javascript/ApkManager";

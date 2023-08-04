@@ -74,6 +74,8 @@ export enum StorageKey{
 
     /**新手七日签到天数 */
     NewPlayerSavenDaySignInNum = "new_player_saven_day_sign_in_num",
+      /**新手七日签到天数时间*/
+     NewPlayerSavenDaySignInTime = "new_player_saven_day_sign_in_numTime",
     /**新手七日签到完毕 */
     NewPlayerSavenDaySignInOver = "new_player_saven_day_sign_in_over",
     /**能否进行签到 */

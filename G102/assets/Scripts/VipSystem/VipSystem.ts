@@ -229,6 +229,8 @@ export default class VipSystem extends UIComponent {
         }
     }
     onbtnLan(){
+        GameManager.getInstance().showMessage(LanguageManager.getInstance().getStrByTextId(100113));
+        return;
         let VipIdentity=TheStorageManager.getInstance().getNumber(StorageKey.VipIdentity,0)   //是否开通了vip   0:没开通 开通弹窗  1：开通了 领取按钮
         if(VipIdentity==0){
             this.VIPPrivileges.active=true

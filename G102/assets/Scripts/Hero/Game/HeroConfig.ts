@@ -41,7 +41,7 @@ export enum SkillTipType{
 
 export enum Hero_Type
 {
-    FUYI=-1,
+  
     //没英雄
     NULL=0,
     /**长矛手 */

@@ -23,6 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+var WXManagerEX_1 = require("../../startscene/WXManagerEX");
 var HttpManager_1 = require(".././NetWork/HttpManager");
 var Constants_1 = require("../Constants");
 var EquipItem_1 = require("../Equipment/Ui/EquipItem");
@@ -87,6 +88,15 @@ var TaskUi = /** @class */ (function (_super) {
         var top = this.node.getChildByName("top");
         var dailyT = top.getChildByName("daily");
         var dailyC = content.getChildByName("daily");
+        if (WXManagerEX_1.default.getInstance().statusBarHeight > 20) {
+            top.getComponent(cc.Widget).top = 100;
+            content.getComponent(cc.Widget).top = 100;
+        }
+        else {
+            top.getComponent(cc.Widget).top = 0;
+            content.getComponent(cc.Widget).top = 0;
+            // dailyT.getComponent(cc.Widget).top = 158.50;
+        }
         top.children[0].getChildByName("tag1").getComponent(cc.Sprite).spriteFrame = this.task_ui.getSpriteFrame("Task_Bg_2");
         top.children[0].getChildByName("tag2").getComponent(cc.Sprite).spriteFrame = this.task_ui.getSpriteFrame("Task_Bg_3");
         top.children[0].getChildByName("tagLabel1").color = cc.color(116, 82, 55);

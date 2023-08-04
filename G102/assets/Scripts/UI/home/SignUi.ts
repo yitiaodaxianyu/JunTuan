@@ -121,6 +121,8 @@ export default class SignUi extends UIComponent {
             TheStorageManager.getInstance().setItem(StorageKey.NewPlayerSavenDaySignInNum,index)
             this.refreshUi();
             EventManager.postRedEvent(RedEventString.RED_TIP,RedEventType.Btn_Main_SignIn,false,RedEventType.Btn_Main_SignIn_BtnGet);
+
+            TheStorageManager.getInstance().setItem(StorageKey.NewPlayerSavenDaySignInTime,new Date().getTime());
             HttpManager.post(AccessName.sevenSign,this.getUserIdJsonString());
         }else{
             GameManager.getInstance().showMessage(LanguageManager.getInstance().getStrByTextId(230008));

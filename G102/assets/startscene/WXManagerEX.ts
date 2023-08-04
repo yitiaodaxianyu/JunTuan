@@ -14,7 +14,7 @@ export default class WXManagerEX extends cc.Component {
 
     public statusBarHeight: number = 0;
 
-    public resourcesBundle:cc.AssetManager.Bundle;
+    public resourcesBundle:cc.AssetManager.Bundle=cc.resources;
 
     public static getInstance(): WXManagerEX {
         if (this._instance == null) {

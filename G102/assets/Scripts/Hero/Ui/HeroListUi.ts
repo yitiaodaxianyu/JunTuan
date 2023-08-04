@@ -26,6 +26,9 @@ export default class HeroListUi extends cc.Component {
     @property(cc.Prefab)
     hero_item:cc.Prefab = null;
 
+    @property(cc.Node)
+    contentView:cc.Node = null;
+
     protected onLoad(): void {
         this.node.on(cc.Node.EventType.POSITION_CHANGED,this.onPositionChange,this);
        
@@ -95,7 +98,11 @@ export default class HeroListUi extends cc.Component {
         let maxList:JsonHeroBaseInfo[] = [];
         let lockList:JsonHeroBaseInfo[] = [];
         let tempList:JsonHeroBaseInfo[] = [];
-
+        if(WXManagerEX.getInstance().statusBarHeight>20){   
+            this.contentView.getComponent(cc.Widget).top = 150+99;
+        }else{
+            this.contentView.getComponent(cc.Widget).top = 99;
+        }
 
         HeroBaseInfoManager.getInstance().getData().forEach((v,k) =>{
             allHeroList.push(v);

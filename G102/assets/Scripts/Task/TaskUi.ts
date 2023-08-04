@@ -1,4 +1,5 @@
 
+import WXManagerEX from "../../startscene/WXManagerEX";
 import { AccessName, HttpManager } from ".././NetWork/HttpManager";
 import ApkManager from "../Ads/ApkManager";
 import { Go_Type } from "../Constants";
@@ -80,7 +81,15 @@ export default class TaskUi extends cc.Component {
         let top = this.node.getChildByName("top");
         let dailyT = top.getChildByName("daily");
         let dailyC = content.getChildByName("daily");
-
+        if(WXManagerEX.getInstance().statusBarHeight>20){   
+            top.getComponent(cc.Widget).top = 100;
+            content.getComponent(cc.Widget).top = 100;
+        }else{
+            top.getComponent(cc.Widget).top = 0;
+            content.getComponent(cc.Widget).top = 0;
+           // dailyT.getComponent(cc.Widget).top = 158.50;
+            
+        }
         top.children[0].getChildByName("tag1").getComponent(cc.Sprite).spriteFrame = this.task_ui.getSpriteFrame("Task_Bg_2");
         top.children[0].getChildByName("tag2").getComponent(cc.Sprite).spriteFrame = this.task_ui.getSpriteFrame("Task_Bg_3");
         top.children[0].getChildByName("tagLabel1").color = cc.color(116, 82, 55);

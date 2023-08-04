@@ -48,7 +48,6 @@ var SkillTipType;
 })(SkillTipType = exports.SkillTipType || (exports.SkillTipType = {}));
 var Hero_Type;
 (function (Hero_Type) {
-    Hero_Type[Hero_Type["FUYI"] = -1] = "FUYI";
     //没英雄
     Hero_Type[Hero_Type["NULL"] = 0] = "NULL";
     /**长矛手 */

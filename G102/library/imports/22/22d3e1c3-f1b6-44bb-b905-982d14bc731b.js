@@ -69,7 +69,7 @@ var levelnode = /** @class */ (function (_super) {
         // console.log("_________",pos)
         this.node.setPosition(pos);
         //关卡名字
-        this.node.getChildByName("level").getComponent(cc.Label).string = "" + MissionLevel_1.MissionLevelManager.getInstance().getLevelName(level);
+        this.node.getChildByName("level").getComponent(cc.Label).string = "第" + MissionLevel_1.MissionLevelManager.getInstance().getLevelName(level) + "章";
         for (var Starindex = 0; Starindex < this.Star.length; Starindex++) {
             this.Star[Starindex].active = false;
         }
