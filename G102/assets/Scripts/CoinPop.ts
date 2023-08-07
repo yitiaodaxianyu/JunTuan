@@ -52,6 +52,9 @@ export default class CoinPop extends UIComponent {
 
     num:number=20000//10000
     initUi(type) {
+        GameManager.getInstance().showMessage(LanguageManager.getInstance().getStrByTextId(100041));
+        this.onClose();
+        return;
         FollowManager.getInstance().followEvent(Follow_Type.资源不足弹窗弹出次数);
         this.type=type
         // GameManager.getInstance().music_manager.playMusic(MusicIndex.BGM_TJP);

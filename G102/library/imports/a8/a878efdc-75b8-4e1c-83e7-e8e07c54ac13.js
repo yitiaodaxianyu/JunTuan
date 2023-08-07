@@ -121,11 +121,11 @@ var SettingUi = /** @class */ (function (_super) {
         this.showAvatarRoot();
     };
     SettingUi.prototype.clickBtnRename = function () {
-        GameManager_1.default.getInstance().sound_manager.playSound(AudioConstants_1.SoundIndex.click);
-        var nameEditBox = this.node.getChildByName('info').getChildByName('nameEditBox');
-        var edit = nameEditBox.getComponent(cc.EditBox);
-        edit.enabled = true;
-        edit.focus();
+        // GameManager.getInstance().sound_manager.playSound(SoundIndex.click);
+        // let nameEditBox=this.node.getChildByName('info').getChildByName('nameEditBox');
+        // let edit=nameEditBox.getComponent(cc.EditBox);
+        // edit.enabled=true;
+        // edit.focus();
     };
     SettingUi.prototype.onRenameFinish = function (editBox) {
         if (editBox.string != '') {

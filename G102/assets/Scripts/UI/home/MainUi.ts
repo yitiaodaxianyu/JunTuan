@@ -424,6 +424,10 @@ export default class MainUi extends cc.Component {
         let taskUi = this.node.getChildByName("mainTask");
         let effect = this.node.getChildByName("mainTaskEffect");
         let main_data = TaskManager.getInstance().getMainTaskData();
+
+        taskUi.active = false;
+        effect.active = false;
+        return;
         if(main_data == null){
             taskUi.active = false;
             effect.active = false;

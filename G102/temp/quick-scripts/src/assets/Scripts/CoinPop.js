@@ -71,6 +71,9 @@ var CoinPop = /** @class */ (function (_super) {
     }
     CoinPop.prototype.initUi = function (type) {
         var _this = this;
+        GameManager_1.default.getInstance().showMessage(LanguageManager_1.default.getInstance().getStrByTextId(100041));
+        this.onClose();
+        return;
         FollowManager_1.default.getInstance().followEvent(FollowConstants_1.Follow_Type.资源不足弹窗弹出次数);
         this.type = type;
         // GameManager.getInstance().music_manager.playMusic(MusicIndex.BGM_TJP);

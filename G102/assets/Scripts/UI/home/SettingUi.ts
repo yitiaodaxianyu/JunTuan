@@ -138,11 +138,11 @@ export default class SettingUi extends UIComponent {
 
     clickBtnRename()
     {
-        GameManager.getInstance().sound_manager.playSound(SoundIndex.click);
-        let nameEditBox=this.node.getChildByName('info').getChildByName('nameEditBox');
-        let edit=nameEditBox.getComponent(cc.EditBox);
-        edit.enabled=true;
-        edit.focus();
+        // GameManager.getInstance().sound_manager.playSound(SoundIndex.click);
+        // let nameEditBox=this.node.getChildByName('info').getChildByName('nameEditBox');
+        // let edit=nameEditBox.getComponent(cc.EditBox);
+        // edit.enabled=true;
+        // edit.focus();
     }
 
     onRenameFinish(editBox:cc.EditBox)

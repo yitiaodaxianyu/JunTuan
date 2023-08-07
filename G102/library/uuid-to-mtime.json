@@ -485,8 +485,8 @@
     "relativePath": "resourcesBundle\\bag"
   },
   "57fcc856-3639-425f-9bf3-8a6ccffa40b7": {
-    "asset": 1690959796939,
-    "meta": 1690960923008,
+    "asset": 1691142137133,
+    "meta": 1691146757191,
     "relativePath": "resourcesBundle\\bg"
   },
   "eb8e7a80-7b19-41a7-b7f6-72e663e3fa12": {
@@ -1070,8 +1070,8 @@
     "relativePath": "resourcesBundle\\Images\\get_hint.png"
   },
   "f7fe28b5-3fd3-4031-91b5-d4d08dd1d46a": {
-    "asset": 1691115860440,
-    "meta": 1691115860444,
+    "asset": 1691148365098,
+    "meta": 1691148365101,
     "relativePath": "resourcesBundle\\Scenes\\load.fire"
   },
   "b8d2234c-7442-430d-8abd-e21bef67728b": {
@@ -2244,11 +2244,6 @@
     "meta": 1690960923142,
     "relativePath": "resourcesBundle\\effects\\home"
   },
-  "79766713-89d1-4823-9ac7-1484f1805f89": {
-    "asset": 1690959785079,
-    "meta": 1690960923080,
-    "relativePath": "resourcesBundle\\bg\\bg11.jpg"
-  },
   "574746aa-7759-43fe-b495-3356bd9539be": {
     "asset": 1690959785547,
     "meta": 1690960923080,
@@ -2564,11 +2559,6 @@
     "meta": 1690960923362,
     "relativePath": "resourcesBundle\\json\\BattlePassData.json"
   },
-  "6144af7b-2fbd-4018-984d-27c308b3e65a": {
-    "asset": 1690959796298,
-    "meta": 1690960923307,
-    "relativePath": "resourcesBundle\\bg\\Maze_Bg_Battle.jpg"
-  },
   "acb1d37e-df58-48dd-a541-2d8730695f34": {
     "asset": 1690960199860,
     "meta": 1690960923346,
@@ -2583,11 +2573,6 @@
     "asset": 1690959795392,
     "meta": 1690960923316,
     "relativePath": "resourcesBundle\\bg\\Maze_Bg_0.jpg"
-  },
-  "ba477c6d-cb9c-4444-8e48-b9c23587aec1": {
-    "asset": 1690959794437,
-    "meta": 1690960923220,
-    "relativePath": "resourcesBundle\\bg\\bg_Endless.jpg"
   },
   "85e560d6-cf19-44e3-b192-60231edfbafc": {
     "asset": 1690960201250,
@@ -4190,8 +4175,8 @@
     "relativePath": "resourcesBundle\\Multilingual\\Void_RU.png"
   },
   "5cda796e-7b89-456a-bf6e-90555653ed5f": {
-    "asset": 1691048696120,
-    "meta": 1691048696146,
+    "asset": 1691372299748,
+    "meta": 1691372299754,
     "relativePath": "resourcesBundle\\set\\setting_ui.prefab"
   },
   "91d3b40e-39d2-4999-800d-001834974ed8": {
@@ -11355,8 +11340,8 @@
     "relativePath": "Scripts\\Boss\\Boss3\\BossAtt3.ts"
   },
   "543decd9-d749-4cda-ae1b-cb3cce3e7c13": {
-    "asset": 1691143421905,
-    "meta": 1691143421913,
+    "asset": 1691215095810,
+    "meta": 1691215095823,
     "relativePath": "resourcesBundle\\ui\\game\\game_win.prefab"
   },
   "5627363d-b734-4878-b1b6-6f0f65d98eb1": {
@@ -14465,8 +14450,8 @@
     "relativePath": "model\\primitives.fbx"
   },
   "072d3f7c-58c0-49cf-8b3b-97191429ba6b": {
-    "asset": 1690963776778,
-    "meta": 1691026732060,
+    "asset": 1691147717695,
+    "meta": 1691215006418,
     "relativePath": "startscene"
   },
   "cfa68618-4959-4d91-be76-da235c60ecf5": {
@@ -14855,8 +14840,8 @@
     "relativePath": "resourcesBundle\\Scenes\\game.fire"
   },
   "b7023f5f-8418-45a0-8e03-6c3a0c0f7191": {
-    "asset": 1691143722789,
-    "meta": 1691143722809,
+    "asset": 1691148149343,
+    "meta": 1691148149358,
     "relativePath": "resourcesBundle\\Scenes\\home.fire"
   },
   "70ab1076-c721-43e7-8dc1-bfbe5881ef5c": {
@@ -15029,11 +15014,6 @@
     "meta": 1690881582257,
     "relativePath": "Scripts\\Game\\Ui\\HeroUpItem.ts"
   },
-  "1d62bde0-ba69-4ff5-bd19-730b6485798c": {
-    "asset": 1690883627187,
-    "meta": 1690886410806,
-    "relativePath": "Scripts\\CoinPop.ts"
-  },
   "606468d3-d06a-416c-93af-74b6da3eeaca": {
     "asset": 1690940143767,
     "meta": 1690940148347,
@@ -15043,16 +15023,6 @@
     "asset": 1690960238776,
     "meta": 1690960923487,
     "relativePath": "resourcesBundle\\json\\SignNum.json"
-  },
-  "c5b53712-6a3b-4538-ae8d-111c05aa3bec": {
-    "asset": 1690960220840,
-    "meta": 1690960923440,
-    "relativePath": "resourcesBundle\\json\\HeroBaseInfo.json"
-  },
-  "c5f85cd2-ebd4-4efc-adee-91800a73974b": {
-    "asset": 1690960239229,
-    "meta": 1690960923487,
-    "relativePath": "resourcesBundle\\json\\SkillConfiguration.json"
   },
   "14a53df8-69f3-449a-bead-a489e88a6441": {
     "asset": 1690959790641,
@@ -15195,19 +15165,14 @@
     "relativePath": "Scripts\\Level\\MissionLevel.ts"
   },
   "b3689caf-f972-4610-b0ce-8f75f146cd85": {
-    "asset": 1690971752751,
-    "meta": 1690971752760,
+    "asset": 1691147800396,
+    "meta": 1691147800405,
     "relativePath": "startscene\\start.fire"
   },
   "e0fc9049-2efe-4ef6-bc6b-0c9b18359f6a": {
     "asset": 1690970585222,
     "meta": 1690970588138,
     "relativePath": "Scripts\\Loading\\Loading.ts"
-  },
-  "444a03b1-a839-4ad5-8602-166f895ab0e6": {
-    "asset": 1691026702179,
-    "meta": 1691026814722,
-    "relativePath": "resourcesBundle\\json\\MissionLevel.json"
   },
   "616d5bdb-5e6d-4ca1-8b34-9d9386861564": {
     "asset": 1691026704371,
@@ -15233,11 +15198,6 @@
     "asset": 1691048173756,
     "meta": 1691048176550,
     "relativePath": "Scripts\\Store\\StoreUi.ts"
-  },
-  "a878efdc-75b8-4e1c-83e7-e8e07c54ac13": {
-    "asset": 1691048670185,
-    "meta": 1691048687458,
-    "relativePath": "Scripts\\UI\\home\\SettingUi.ts"
   },
   "79b29159-f2b2-40c7-8745-bd41f85fde23": {
     "asset": 1691050934104,
@@ -15294,11 +15254,6 @@
     "meta": 1691054736151,
     "relativePath": "Scripts\\UI\\home\\ToPlayMainUi.ts"
   },
-  "54330240-d110-4601-a66a-dd466dc321ae": {
-    "asset": 1691057343112,
-    "meta": 1691057362921,
-    "relativePath": "Scripts\\Game\\MapNodePool.ts"
-  },
   "9a67207f-3b8d-4e52-a295-59550476eceb": {
     "asset": 1691059493012,
     "meta": 1691059504836,
@@ -15310,8 +15265,8 @@
     "relativePath": "resourcesBundle\\json\\TextManagement.json"
   },
   "9bfbc1c4-405b-4ca4-b306-e8d3ba576f14": {
-    "asset": 1691114986731,
-    "meta": 1691114988826,
+    "asset": 1691219661795,
+    "meta": 1691225451599,
     "relativePath": "startscene\\StartScene.ts"
   },
   "aa1e4122-cf61-4802-8cde-9f0b9957f3f4": {
@@ -15384,11 +15339,6 @@
     "meta": 1691137933996,
     "relativePath": "Scripts\\Storage\\StorageConfig.ts"
   },
-  "ede110d2-4e05-45fc-906c-7a7010426420": {
-    "asset": 1691139136222,
-    "meta": 1691139140454,
-    "relativePath": "Scripts\\UI\\home\\MainUi.ts"
-  },
   "409be0a1-d556-462f-a375-2d375e899de6": {
     "asset": 1691139443669,
     "meta": 1691139449024,
@@ -15433,5 +15383,60 @@
     "asset": 1691143075203,
     "meta": 1691143082257,
     "relativePath": "Scripts\\GuaJi\\levelnode.ts"
+  },
+  "79766713-89d1-4823-9ac7-1484f1805f89": {
+    "asset": 1690959788781,
+    "meta": 1691147238587,
+    "relativePath": "resourcesBundle\\bg\\bg11.jpg"
+  },
+  "ba477c6d-cb9c-4444-8e48-b9c23587aec1": {
+    "asset": 1690959789719,
+    "meta": 1691147247077,
+    "relativePath": "resourcesBundle\\bg\\bg_Endless.jpg"
+  },
+  "7699292c-1455-49fd-a9eb-a72a99a6c4df": {
+    "asset": 1691147704769,
+    "meta": 1691147717718,
+    "relativePath": "startscene\\tishi.png"
+  },
+  "6144af7b-2fbd-4018-984d-27c308b3e65a": {
+    "asset": 1690959787860,
+    "meta": 1691216046899,
+    "relativePath": "resourcesBundle\\bg\\Maze_Bg_Battle.jpg"
+  },
+  "1d62bde0-ba69-4ff5-bd19-730b6485798c": {
+    "asset": 1691216282014,
+    "meta": 1691216326983,
+    "relativePath": "Scripts\\CoinPop.ts"
+  },
+  "c5b53712-6a3b-4538-ae8d-111c05aa3bec": {
+    "asset": 1691216292198,
+    "meta": 1691216326987,
+    "relativePath": "resourcesBundle\\json\\HeroBaseInfo.json"
+  },
+  "444a03b1-a839-4ad5-8602-166f895ab0e6": {
+    "asset": 1691216293274,
+    "meta": 1691216326988,
+    "relativePath": "resourcesBundle\\json\\MissionLevel.json"
+  },
+  "c5f85cd2-ebd4-4efc-adee-91800a73974b": {
+    "asset": 1691216294937,
+    "meta": 1691216326989,
+    "relativePath": "resourcesBundle\\json\\SkillConfiguration.json"
+  },
+  "ede110d2-4e05-45fc-906c-7a7010426420": {
+    "asset": 1691217910509,
+    "meta": 1691217913535,
+    "relativePath": "Scripts\\UI\\home\\MainUi.ts"
+  },
+  "54330240-d110-4601-a66a-dd466dc321ae": {
+    "asset": 1691229511151,
+    "meta": 1691229675703,
+    "relativePath": "Scripts\\Game\\MapNodePool.ts"
+  },
+  "a878efdc-75b8-4e1c-83e7-e8e07c54ac13": {
+    "asset": 1691372162045,
+    "meta": 1691372164680,
+    "relativePath": "Scripts\\UI\\home\\SettingUi.ts"
   }
 }

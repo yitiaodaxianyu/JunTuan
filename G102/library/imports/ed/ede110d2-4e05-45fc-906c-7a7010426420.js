@@ -415,6 +415,9 @@ var MainUi = /** @class */ (function (_super) {
         var taskUi = this.node.getChildByName("mainTask");
         var effect = this.node.getChildByName("mainTaskEffect");
         var main_data = TaskManager_1.default.getInstance().getMainTaskData();
+        taskUi.active = false;
+        effect.active = false;
+        return;
         if (main_data == null) {
             taskUi.active = false;
             effect.active = false;
