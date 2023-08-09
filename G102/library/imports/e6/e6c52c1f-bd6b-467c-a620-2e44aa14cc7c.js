@@ -282,13 +282,14 @@ var StoreHeroUi = /** @class */ (function (_super) {
             StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.StoreHeroID + this.rewardList[this.index - 1].dropId % 110000, 0) == 0) {
             var item_1 = this.content.getChildByName("item" + (this.index - 1));
             item_1.getComponent(cc.Animation).pause();
+            var indexTemp_1 = this.index;
             UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.StoreHeroShowUi, UIConfig_1.UILayerLevel.Two, { onCompleted: function (uiNode) {
                     uiNode.getComponent(StoreHeroShowUi_1.default).init({
                         onClose: function () {
                             item_1.getComponent(cc.Animation).resume();
                         }
                     });
-                    uiNode.getComponent(StoreHeroShowUi_1.default).initData(_this.rewardList[_this.index - 1].dropId % 110000);
+                    uiNode.getComponent(StoreHeroShowUi_1.default).initData(_this.rewardList[indexTemp_1 - 1].dropId % 110000);
                 } });
         }
     };

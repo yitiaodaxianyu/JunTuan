@@ -268,13 +268,14 @@ export default class StoreHeroUi extends UIComponent {
         TheStorageManager.getInstance().getNumber(StorageKey.StoreHeroID + this.rewardList[this.index - 1].dropId % 110000,0) == 0){
             let item = this.content.getChildByName("item" + (this.index - 1));
             item.getComponent(cc.Animation).pause();
+            let indexTemp=this.index;
             UIManager.getInstance().showUiDialog(UIPath.StoreHeroShowUi,UILayerLevel.Two,{onCompleted:(uiNode)=>{
                 uiNode.getComponent(StoreHeroShowUi).init({
                     onClose:()=>{
                         item.getComponent(cc.Animation).resume();
                     }
                 });
-                uiNode.getComponent(StoreHeroShowUi).initData(this.rewardList[this.index - 1].dropId % 110000);
+                uiNode.getComponent(StoreHeroShowUi).initData(this.rewardList[indexTemp - 1].dropId % 110000);
             }}); 
         }
     }

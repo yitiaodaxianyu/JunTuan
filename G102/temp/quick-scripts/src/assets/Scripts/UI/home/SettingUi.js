@@ -121,15 +121,48 @@ var SettingUi = /** @class */ (function (_super) {
         this.showAvatarRoot();
     };
     SettingUi.prototype.clickBtnRename = function () {
-        // GameManager.getInstance().sound_manager.playSound(SoundIndex.click);
-        // let nameEditBox=this.node.getChildByName('info').getChildByName('nameEditBox');
-        // let edit=nameEditBox.getComponent(cc.EditBox);
-        // edit.enabled=true;
-        // edit.focus();
+        GameManager_1.default.getInstance().sound_manager.playSound(AudioConstants_1.SoundIndex.click);
+        var nameEditBox = this.node.getChildByName('info').getChildByName('nameEditBox');
+        var edit = nameEditBox.getComponent(cc.EditBox);
+        edit.enabled = true;
+        edit.focus();
     };
     SettingUi.prototype.onRenameFinish = function (editBox) {
         if (editBox.string != '') {
-            UserData_1.default.getInstance().saveUserName(editBox.string);
+            // if(WXManagerEX.getInstance().checkMsg(editBox.string)==true){
+            //     UserData.getInstance().saveUserName(editBox.string);
+            //     this.showName();
+            // }else{
+            //     GameManager.getInstance().showMessage("输入内容不合法！");
+            // }
+            this.checkMsg(editBox.string);
+        }
+    };
+    SettingUi.prototype.checkMsg = function (str) {
+        var _this = this;
+        if (cc.sys.platform === cc.sys.WECHAT_GAME) {
+            wx.cloud.callFunction({
+                name: "checkMsg",
+                data: {
+                    text: str
+                },
+            })
+                .then(function (checkTextRes) {
+                var resultSuggest = checkTextRes.result.result.suggest;
+                if (resultSuggest === 'pass') {
+                    console.log('通过');
+                    UserData_1.default.getInstance().saveUserName(str);
+                    _this.showName();
+                }
+                else {
+                    console.log('不通过');
+                    _this.showName();
+                    GameManager_1.default.getInstance().showMessage("输入内容不合法！");
+                }
+            });
+        }
+        else {
+            UserData_1.default.getInstance().saveUserName(str);
             this.showName();
         }
     };

@@ -14,7 +14,7 @@ export default class WXManagerEX extends cc.Component {
 
     public statusBarHeight: number = 0;
 
-    public resourcesBundle:cc.AssetManager.Bundle=cc.resources;
+    public resourcesBundle: cc.AssetManager.Bundle = cc.resources;
 
     public static getInstance(): WXManagerEX {
         if (this._instance == null) {
@@ -24,14 +24,17 @@ export default class WXManagerEX extends cc.Component {
     }
     public initData(): void {
         this.getSystemInfo();
-    }
-    public vibrateShort():void{
         if (cc.sys.platform === cc.sys.WECHAT_GAME) {
-            wx.vibrateShort({type:"medium"});
+            wx.cloud.init();
         }
-       
     }
-   
+    public vibrateShort(): void {
+        if (cc.sys.platform === cc.sys.WECHAT_GAME) {
+            wx.vibrateShort({ type: "medium" });
+        }
+
+    }
+    
     public getSystemInfo(): void {
         if (cc.sys.platform === cc.sys.WECHAT_GAME) {
             try {
@@ -41,7 +44,9 @@ export default class WXManagerEX extends cc.Component {
                 if (res.statusBarHeight > 20) {
                     WXManagerEX.getInstance().statusBarHeight = res.statusBarHeight;
                 }
+                wx.showShareMenu({
 
+                })
 
             } catch (e) {
                 // Do something when catch error

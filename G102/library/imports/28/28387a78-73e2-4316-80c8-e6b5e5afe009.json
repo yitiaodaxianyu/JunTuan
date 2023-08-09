@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "MeiMo_Back",
+    "texture": "04f9922c-8eff-4c53-ac62-177f5e7d778f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      385,
+      110
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      385,
+      110
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

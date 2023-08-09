@@ -1,4 +1,5 @@
 
+import WXManagerEX from "../../../startscene/WXManagerEX";
 import { AccessName, HttpManager } from "../.././NetWork/HttpManager";
 import ApkManager from "../../Ads/ApkManager";
 import { IsTestServer } from "../../Constants";
@@ -138,22 +139,54 @@ export default class SettingUi extends UIComponent {
 
     clickBtnRename()
     {
-        // GameManager.getInstance().sound_manager.playSound(SoundIndex.click);
-        // let nameEditBox=this.node.getChildByName('info').getChildByName('nameEditBox');
-        // let edit=nameEditBox.getComponent(cc.EditBox);
-        // edit.enabled=true;
-        // edit.focus();
+        GameManager.getInstance().sound_manager.playSound(SoundIndex.click);
+        let nameEditBox=this.node.getChildByName('info').getChildByName('nameEditBox');
+        let edit=nameEditBox.getComponent(cc.EditBox);
+        edit.enabled=true;
+        edit.focus();
     }
 
     onRenameFinish(editBox:cc.EditBox)
     {
         if(editBox.string!='')
         {
-            UserData.getInstance().saveUserName(editBox.string);
-            this.showName();
+            // if(WXManagerEX.getInstance().checkMsg(editBox.string)==true){
+            //     UserData.getInstance().saveUserName(editBox.string);
+            //     this.showName();
+            // }else{
+            //     GameManager.getInstance().showMessage("输入内容不合法！");
+            // }
+            this.checkMsg(editBox.string);
         }
     }
-
+    public checkMsg(str:string):void {
+      
+        if (cc.sys.platform === cc.sys.WECHAT_GAME) {
+            wx.cloud.callFunction({
+                name: "checkMsg",
+                data: {
+                    text: str
+                },
+            })
+                .then((checkTextRes) => {
+                    const resultSuggest = checkTextRes.result.result.suggest;
+                    if (resultSuggest === 'pass') {
+                        console.log('通过');
+                        UserData.getInstance().saveUserName(str);
+                        this.showName();
+                    } else {
+                        console.log('不通过')
+                        this.showName();
+                        GameManager.getInstance().showMessage("输入内容不合法！");
+                    }
+                });
+        }else{
+            UserData.getInstance().saveUserName(str);
+            this.showName();
+        }
+        
+      
+    }
     onClose() {
         cc.log('SettingUi');        
     }

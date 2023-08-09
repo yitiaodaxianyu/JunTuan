@@ -122,6 +122,10 @@ var HeroBaseInfoManager = /** @class */ (function () {
     };
     /**根据英雄ID获取英雄名称文本 */
     HeroBaseInfoManager.prototype.getNameText_ID = function (id) {
+        console.log("idName:" + id);
+        if (this.data.get(id) == null) {
+            console.log("idName:" + id);
+        }
         return this.data.get(id).NameText_ID;
     };
     /**根据英雄ID获取被动技能名称_1 */

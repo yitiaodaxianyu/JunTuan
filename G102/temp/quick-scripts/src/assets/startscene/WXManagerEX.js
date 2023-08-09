@@ -48,6 +48,9 @@ var WXManagerEX = /** @class */ (function (_super) {
     };
     WXManagerEX.prototype.initData = function () {
         this.getSystemInfo();
+        if (cc.sys.platform === cc.sys.WECHAT_GAME) {
+            wx.cloud.init();
+        }
     };
     WXManagerEX.prototype.vibrateShort = function () {
         if (cc.sys.platform === cc.sys.WECHAT_GAME) {
@@ -63,6 +66,7 @@ var WXManagerEX = /** @class */ (function (_super) {
                 if (res.statusBarHeight > 20) {
                     WXManagerEX_1.getInstance().statusBarHeight = res.statusBarHeight;
                 }
+                wx.showShareMenu({});
             }
             catch (e) {
                 // Do something when catch error
