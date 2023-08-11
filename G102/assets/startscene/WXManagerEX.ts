@@ -25,7 +25,7 @@ export default class WXManagerEX extends cc.Component {
     public initData(): void {
         this.getSystemInfo();
         if (cc.sys.platform === cc.sys.WECHAT_GAME) {
-            wx.cloud.init();
+            //wx.cloud.init();
         }
     }
     public vibrateShort(): void {

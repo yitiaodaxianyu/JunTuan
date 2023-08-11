@@ -3,6 +3,7 @@
 // import { FramePublic } from './FramePublic';
 // import LocalItemName from './LocalItemName';
 // import { OfflineReward } from './OfflineReward';
+import GameManager from "../GameManager";
 import { StorageKey } from "../Storage/StorageConfig";
 import { TheStorageManager } from "../Storage/StorageManager";
 import PublicMethods from "./PublicMethods";
@@ -43,7 +44,7 @@ const {ccclass, property} = cc._decorator;
         // this.SaveLocalTime();//每隔1秒保存一下时间到本地
         let TurmtableFreeYes=TheStorageManager.getInstance().getNumber(StorageKey.TurmtableFreeYes,0);
         if(TurmtableFreeYes==0){
-            let num = TheStorageManager.getInstance().getNumber(StorageKey.TurmtableFreeTime, 900);
+            let num = TheStorageManager.getInstance().getNumber(StorageKey.TurmtableFreeTime, GameManager.getInstance().tumTableTime);
             num -= 1;
             TheStorageManager.getInstance().setItem(StorageKey.TurmtableFreeTime, "" + num);
             if(Times.timetxt!=null){

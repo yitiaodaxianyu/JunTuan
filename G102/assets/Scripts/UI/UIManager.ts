@@ -197,11 +197,15 @@ export class UIManager extends UIPool  {
      */
     showUiDialog(uiPath:string,layerLevel:UILayerLevel,result:UiAddResult,zIndex:UI_ZIndex=UI_ZIndex.Normal){
         // console.log("_________1")
+        console.log("提示界面"+uiPath);
         if(this.cur_show_ui_path.has(layerLevel)&&this.cur_show_ui_path.get(layerLevel)!=UIPath.Null){
-            if(result.onFail)
+            if(result.onFail){
+                console.log("提示界面失败"+uiPath);
                 result.onFail();
-            return;
+                return;
+            }
         }
+        console.log("提示界面向"+uiPath);
         this.setCurShowUi(uiPath,layerLevel);
         let node=super.getNodeById(uiPath);
         if(node){

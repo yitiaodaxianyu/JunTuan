@@ -1042,7 +1042,10 @@ export default class RoleUi extends UIComponent{
                 break;
         }
         let equipInfo=HeroManager.getInstance().getWearEquipment(this.hero_type,type);//是否带上了装备
+        console.log("显示装备");
+        
         if(equipInfo){
+            console.log("显示装备2");
             UIManager.getInstance().showUiDialog(UIPath.EquipInfo,UILayerLevel.Two,{
                 onCompleted:(node)=>{
                     node.getComponent(EquipInfoUi).initData(this.hero_type,equipInfo,PropAction.Use,{
@@ -1064,6 +1067,7 @@ export default class RoleUi extends UIComponent{
             //     this.upgradeRefresh();
             // });
         }else{
+            console.log("显示装备3");
             UIManager.getInstance().showEquipExchangeUi({onClose:()=>{
                 this.upgradeRefresh();
             }},equipInfo,this.hero_type,type);

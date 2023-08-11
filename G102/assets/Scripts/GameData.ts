@@ -399,7 +399,7 @@ export default class GameData {
         TheStorageManager.getInstance().setItem(StorageKey.TurmtableAd,'');
         TheStorageManager.getInstance().setItem(StorageKey.TurmtableFree,'');
         TheStorageManager.getInstance().setItem(StorageKey.TurmtableFreeYes, 1);
-        TheStorageManager.getInstance().setItem(StorageKey.TurmtableFreeTime, 900);
+        TheStorageManager.getInstance().setItem(StorageKey.TurmtableFreeTime, GameManager.getInstance().tumTableTime);
         TheStorageManager.getInstance().setItem(StorageKey.TaskDailyActivityNum,'');
 
         TheStorageManager.getInstance().setItem(StorageKey.VipDailyCollectionStatus,0);

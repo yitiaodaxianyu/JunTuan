@@ -197,11 +197,15 @@ var UIManager = /** @class */ (function (_super) {
         var _this = this;
         if (zIndex === void 0) { zIndex = UIConfig_1.UI_ZIndex.Normal; }
         // console.log("_________1")
+        console.log("提示界面" + uiPath);
         if (this.cur_show_ui_path.has(layerLevel) && this.cur_show_ui_path.get(layerLevel) != UIConfig_1.UIPath.Null) {
-            if (result.onFail)
+            if (result.onFail) {
+                console.log("提示界面失败" + uiPath);
                 result.onFail();
-            return;
+                return;
+            }
         }
+        console.log("提示界面向" + uiPath);
         this.setCurShowUi(uiPath, layerLevel);
         var node = _super.prototype.getNodeById.call(this, uiPath);
         if (node) {

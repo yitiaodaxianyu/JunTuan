@@ -49,7 +49,7 @@ var WXManagerEX = /** @class */ (function (_super) {
     WXManagerEX.prototype.initData = function () {
         this.getSystemInfo();
         if (cc.sys.platform === cc.sys.WECHAT_GAME) {
-            wx.cloud.init();
+            //wx.cloud.init();
         }
     };
     WXManagerEX.prototype.vibrateShort = function () {

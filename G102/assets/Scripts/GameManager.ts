@@ -90,6 +90,7 @@ export default class GameManager extends cc.Component {
     cur_game_mode: GameMode = GameMode.Main;
     cur_game_scene: GameScene = GameScene.home;
 
+    //tumTableTime: number = 60*60*12;//免费抽奖倒计时
     tumTableTime: number = 60*60*12;//免费抽奖倒计时
     //当前的加载进度
     cur_load_progress: number = 0;

@@ -1048,7 +1048,9 @@ var RoleUi = /** @class */ (function (_super) {
                 break;
         }
         var equipInfo = HeroManager_1.HeroManager.getInstance().getWearEquipment(this.hero_type, type); //是否带上了装备
+        console.log("显示装备");
         if (equipInfo) {
+            console.log("显示装备2");
             UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.EquipInfo, UIConfig_1.UILayerLevel.Two, {
                 onCompleted: function (node) {
                     node.getComponent(EquipInfoUi_1.default).initData(_this.hero_type, equipInfo, PropConfig_1.PropAction.Use, {
@@ -1071,6 +1073,7 @@ var RoleUi = /** @class */ (function (_super) {
             // });
         }
         else {
+            console.log("显示装备3");
             UIManager_1.UIManager.getInstance().showEquipExchangeUi({ onClose: function () {
                     _this.upgradeRefresh();
                 } }, equipInfo, this.hero_type, type);

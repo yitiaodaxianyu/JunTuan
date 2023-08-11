@@ -27,6 +27,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // import { FramePublic } from './FramePublic';
 // import LocalItemName from './LocalItemName';
 // import { OfflineReward } from './OfflineReward';
+var GameManager_1 = require("../GameManager");
 var StorageConfig_1 = require("../Storage/StorageConfig");
 var StorageManager_1 = require("../Storage/StorageManager");
 var PublicMethods_1 = require("./PublicMethods");
@@ -65,7 +66,7 @@ var Times = /** @class */ (function (_super) {
         // this.SaveLocalTime();//每隔1秒保存一下时间到本地
         var TurmtableFreeYes = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.TurmtableFreeYes, 0);
         if (TurmtableFreeYes == 0) {
-            var num = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.TurmtableFreeTime, 900);
+            var num = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.TurmtableFreeTime, GameManager_1.default.getInstance().tumTableTime);
             num -= 1;
             StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.TurmtableFreeTime, "" + num);
             if (Times_1.timetxt != null) {
