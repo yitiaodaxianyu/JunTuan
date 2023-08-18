@@ -22,7 +22,7 @@
   "zipCompressJs": true,
   "fb-instant-games": {},
   "android": {
-    "packageName": "com.heroandsprite",
+    "packageName": "com.heroand.sprite",
     "REMOTE_SERVER_ROOT": ""
   },
   "ios": {

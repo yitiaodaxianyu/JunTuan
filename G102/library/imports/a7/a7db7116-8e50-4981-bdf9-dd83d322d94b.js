@@ -109,12 +109,12 @@ var ApkManager = /** @class */ (function () {
     ;
     //-----------------------------------------------调用JAVA--------------------------------------------------------------
     ApkManager.prototype.onJSInitFinish = function () {
-        if (cc.sys.isNative) {
-            var className = "org/cocos2dx/javascript/ApkManager";
-            var methodName = "onJSInitFinish";
-            var methodSignature = "()V"; //如果是string：Ljava/lang/String;, bool:Z,int:I
-            jsb.reflection.callStaticMethod(className, methodName, methodSignature);
-        }
+        // if(cc.sys.isNative) {
+        //     let className = "org/cocos2dx/javascript/ApkManager";
+        //     let methodName = "onJSInitFinish";
+        //     let methodSignature = "()V";//如果是string：Ljava/lang/String;, bool:Z,int:I
+        //     jsb.reflection.callStaticMethod(className, methodName, methodSignature);            
+        // }
     };
     //展示插屏广告
     ApkManager.prototype.showBanner = function () {
@@ -150,12 +150,12 @@ var ApkManager = /** @class */ (function () {
         if (isCanAd == false) {
             return;
         }
-        if (cc.sys.isNative) {
-            var className = "org/cocos2dx/javascript/ApkManager";
-            var methodName = "showInterstitial";
-            var methodSignature = "()V"; //如果是string：Ljava/lang/String;, bool:Z,int:I
-            jsb.reflection.callStaticMethod(className, methodName, methodSignature);
-        }
+        // if(cc.sys.isNative) {
+        //     let className = "org/cocos2dx/javascript/ApkManager";
+        //     let methodName = "showInterstitial";
+        //     let methodSignature = "()V";//如果是string：Ljava/lang/String;, bool:Z,int:I
+        //     jsb.reflection.callStaticMethod(className, methodName, methodSignature);            
+        // }
     };
     //展示视频广告
     ApkManager.prototype.showVideo = function (callback, type) {
@@ -220,37 +220,36 @@ var ApkManager = /** @class */ (function () {
     };
     //显示联系我们链接
     ApkManager.prototype.showCallMe = function () {
-        if (cc.sys.isNative) {
-            var className = "org/cocos2dx/javascript/ApkManager";
-            var methodName = "showCallMe";
-            var methodSignature = "()V"; //如果是string：Ljava/lang/String;, bool:Z,int:I
-            jsb.reflection.callStaticMethod(className, methodName, methodSignature);
-        }
+        // if(cc.sys.isNative) {
+        //     let className = "org/cocos2dx/javascript/ApkManager";
+        //     let methodName = "showCallMe";
+        //     let methodSignature = "()V";//如果是string：Ljava/lang/String;, bool:Z,int:I
+        //     jsb.reflection.callStaticMethod(className, methodName, methodSignature);            
+        // }
     };
     //埋点
     ApkManager.prototype.followEvent = function (eventName) {
         if (Constants_1.CUR_Platform == Constants_1.Release_Platform.APK) {
-            if (cc.sys.isNative) {
-                var className = "org/cocos2dx/javascript/ApkManager";
-                var methodName = "followEvent";
-                var methodSignature = "(Ljava/lang/String;)V"; //如果是string：Ljava/lang/String;, bool:Z,int:I
-                jsb.reflection.callStaticMethod(className, methodName, methodSignature, eventName);
-            }
+            // if(cc.sys.isNative) {
+            //     let className = "org/cocos2dx/javascript/ApkManager";
+            //     let methodName = "followEvent";
+            //     let methodSignature = "(Ljava/lang/String;)V";//如果是string：Ljava/lang/String;, bool:Z,int:I
+            //     jsb.reflection.callStaticMethod(className, methodName, methodSignature,eventName);                
+            // }
         }
     };
     //检测订阅信息
     ApkManager.prototype.cheakDYInfo = function () {
-        if (Constants_1.CUR_Platform == Constants_1.Release_Platform.APK)
-            if (cc.sys.isNative) {
-                var className = "org/cocos2dx/javascript/ApkManager";
-                var methodName = "cheakDYInfo";
-                var methodSignature = "()V"; //如果是string：Ljava/lang/String;, bool:Z,int:I
-                jsb.reflection.callStaticMethod(className, methodName, methodSignature);
-            }
-            else {
-                if (Constants_1.IsDebug) {
-                }
-            }
+        //if(CUR_Platform==Release_Platform.APK)
+        // if(cc.sys.isNative) {
+        //     let className = "org/cocos2dx/javascript/ApkManager";
+        //     let methodName = "cheakDYInfo";
+        //     let methodSignature = "()V";//如果是string：Ljava/lang/String;, bool:Z,int:I
+        //     jsb.reflection.callStaticMethod(className, methodName, methodSignature);            
+        // }else{
+        //     if(IsDebug){
+        //     }
+        // }
     };
     ApkManager.prototype.showTiaoKuan = function () {
         if (Constants_1.CUR_Platform == Constants_1.Release_Platform.APK)
@@ -268,25 +267,24 @@ var ApkManager = /** @class */ (function () {
             PayManager_1.PayManager.getInstance().savePayNum(id, 1);
             return;
         }
-        if (cc.sys.isNative) {
-            var className = "org/cocos2dx/javascript/ApkManager";
-            var methodName = "showDingYue";
-            var methodSignature = "(Ljava/lang/String;)V"; //如果是string：Ljava/lang/String;, bool:Z,int:I
-            jsb.reflection.callStaticMethod(className, methodName, methodSignature, id);
-        }
-        else {
-            this.dyResult(1);
-        }
+        // if(cc.sys.isNative) {
+        //     let className = "org/cocos2dx/javascript/ApkManager";
+        //     let methodName = "showDingYue";
+        //     let methodSignature = "(Ljava/lang/String;)V";//如果是string：Ljava/lang/String;, bool:Z,int:I
+        //     jsb.reflection.callStaticMethod(className, methodName, methodSignature,id);            
+        // }else{
+        this.dyResult(1);
+        //}
     };
     ApkManager.prototype.getVipInfo = function (callback) {
         this.uploadCallback = callback;
         var uid = UserData_1.default.getInstance().getUserID();
-        if (cc.sys.isNative) {
-            var className = "org/cocos2dx/javascript/ApkManager";
-            var methodName = "getVipInfo";
-            var methodSignature = "(Ljava/lang/String;)V"; //如果是string：Ljava/lang/String;, bool:Z,int:I
-            jsb.reflection.callStaticMethod(className, methodName, methodSignature, uid);
-        }
+        // if(cc.sys.isNative) {
+        //     let className = "org/cocos2dx/javascript/ApkManager";
+        //     let methodName = "getVipInfo";
+        //     let methodSignature = "(Ljava/lang/String;)V";//如果是string：Ljava/lang/String;, bool:Z,int:I
+        //     jsb.reflection.callStaticMethod(className, methodName, methodSignature,uid);            
+        // }
     };
     ApkManager.prototype.showPay = function (pay, type) {
         this.pay = pay;
@@ -295,15 +293,14 @@ var ApkManager = /** @class */ (function () {
             return;
         }
         UIManager_1.UIManager.getInstance().showPayWaitingUi();
-        if (cc.sys.isNative) {
-            var className = "org/cocos2dx/javascript/ApkManager";
-            var methodName = "showPay";
-            var methodSignature = "(Ljava/lang/String;)V"; //如果是string：Ljava/lang/String;, bool:Z,int:I
-            jsb.reflection.callStaticMethod(className, methodName, methodSignature, type);
-        }
-        else {
-            this.payResult(1);
-        }
+        // if(cc.sys.isNative) {
+        //     let className = "org/cocos2dx/javascript/ApkManager";
+        //     let methodName = "showPay";
+        //     let methodSignature = "(Ljava/lang/String;)V";//如果是string：Ljava/lang/String;, bool:Z,int:I
+        //     jsb.reflection.callStaticMethod(className, methodName, methodSignature,type);            
+        // }else{
+        this.payResult(1);
+        //}
     };
     //----------------------------------------------------登录交互-----------------------------------------------------------
     ApkManager.prototype.uploadAndGetUid = function (callback) {
@@ -311,15 +308,16 @@ var ApkManager = /** @class */ (function () {
         var maxLevel = LevelManager_1.LevelManager.getInstance().finish_level;
         var onlineTime = GameData_1.default.getTotalTime();
         var name = UserData_1.default.getInstance().getUserName();
-        if (cc.sys.isNative) {
-            var className = "org/cocos2dx/javascript/ApkManager";
-            var methodName = "uploadAndGetUid";
-            var methodSignature = "(IILjava/lang/String;)V"; //如果是string：Ljava/lang/String;, bool:Z,int:I
-            jsb.reflection.callStaticMethod(className, methodName, methodSignature, maxLevel, onlineTime, name);
-        }
-        else {
-            this.uploadResult(JSON.stringify({ uid: UserData_1.default.getInstance().getUserID(), vip: '0' }));
-        }
+        // if(cc.sys.isNative)
+        // {
+        //     let className = "org/cocos2dx/javascript/ApkManager";
+        //     let methodName = "uploadAndGetUid";
+        //     let methodSignature = "(IILjava/lang/String;)V";//如果是string：Ljava/lang/String;, bool:Z,int:I
+        //     jsb.reflection.callStaticMethod(className, methodName, methodSignature,maxLevel,onlineTime,name);
+        // }else
+        // {
+        this.uploadResult(JSON.stringify({ uid: UserData_1.default.getInstance().getUserID(), vip: '0' }));
+        // }
     };
     ApkManager.prototype.uploadOnlineTime = function () {
         var maxLevel = LevelManager_1.LevelManager.getInstance().finish_level;
@@ -327,80 +325,82 @@ var ApkManager = /** @class */ (function () {
         var uid = UserData_1.default.getInstance().getUserID();
         if (uid == '')
             return;
-        if (cc.sys.isNative) {
-            var className = "org/cocos2dx/javascript/ApkManager";
-            var methodName = "uploadOnlineTime";
-            var methodSignature = "(IILjava/lang/String;)V"; //如果是string：Ljava/lang/String;, bool:Z,int:I
-            jsb.reflection.callStaticMethod(className, methodName, methodSignature, maxLevel, onlineTime, uid);
-        }
+        // if(cc.sys.isNative)
+        // {
+        //     let className = "org/cocos2dx/javascript/ApkManager";
+        //     let methodName = "uploadOnlineTime";
+        //     let methodSignature = "(IILjava/lang/String;)V";//如果是string：Ljava/lang/String;, bool:Z,int:I
+        //     jsb.reflection.callStaticMethod(className, methodName, methodSignature,maxLevel,onlineTime,uid);
+        // }
     };
     ApkManager.prototype.loginForFB = function (callback) {
         this.uploadCallback = callback;
         var maxLevel = LevelManager_1.LevelManager.getInstance().finish_level;
         var onlineTime = GameData_1.default.getTotalTime();
-        if (cc.sys.isNative) {
-            var className = "org/cocos2dx/javascript/ApkManager";
-            var methodName = "loginForFB";
-            var methodSignature = "(II)V"; //如果是string：Ljava/lang/String;, bool:Z,int:I
-            jsb.reflection.callStaticMethod(className, methodName, methodSignature, maxLevel, onlineTime);
-        }
+        // if(cc.sys.isNative) {
+        //     let className = "org/cocos2dx/javascript/ApkManager";
+        //     let methodName = "loginForFB";
+        //     let methodSignature = "(II)V";//如果是string：Ljava/lang/String;, bool:Z,int:I
+        //     jsb.reflection.callStaticMethod(className, methodName, methodSignature,maxLevel,onlineTime);            
+        // }
     };
     ApkManager.prototype.loginForGoogle = function (callback) {
         this.uploadCallback = callback;
         var maxLevel = LevelManager_1.LevelManager.getInstance().finish_level;
         var onlineTime = GameData_1.default.getTotalTime();
-        if (cc.sys.isNative) {
-            var className = "org/cocos2dx/javascript/ApkManager";
-            var methodName = "loginForGoogle";
-            var methodSignature = "(II)V"; //如果是string：Ljava/lang/String;, bool:Z,int:I
-            jsb.reflection.callStaticMethod(className, methodName, methodSignature, maxLevel, onlineTime);
-        }
+        // if(cc.sys.isNative) {
+        //     let className = "org/cocos2dx/javascript/ApkManager";
+        //     let methodName = "loginForGoogle";
+        //     let methodSignature = "(II)V";//如果是string：Ljava/lang/String;, bool:Z,int:I
+        //     jsb.reflection.callStaticMethod(className, methodName, methodSignature,maxLevel,onlineTime);            
+        // }
     };
     ApkManager.prototype.setUid = function () {
-        if (Constants_1.CUR_Platform == Constants_1.Release_Platform.APK && cc.sys.isNative) {
-            var uid = UserData_1.default.getInstance().getUserID();
-            var className = "org/cocos2dx/javascript/ApkManager";
-            var methodName = "setUid";
-            var methodSignature = "(Ljava/lang/String;)V"; //如果是string：Ljava/lang/String;, bool:Z,int:I
-            jsb.reflection.callStaticMethod(className, methodName, methodSignature, uid);
-        }
+        // if(CUR_Platform==Release_Platform.APK && cc.sys.isNative)
+        // {
+        //     let uid=UserData.getInstance().getUserID();
+        //     let className = "org/cocos2dx/javascript/ApkManager";
+        //     let methodName = "setUid";
+        //     let methodSignature = "(Ljava/lang/String;)V";//如果是string：Ljava/lang/String;, bool:Z,int:I
+        //     jsb.reflection.callStaticMethod(className, methodName, methodSignature,uid);
+        // }
     };
     ApkManager.prototype.getAndroidLanguage = function () {
-        if (cc.sys.isNative) {
-            var className = "org/cocos2dx/javascript/ApkManager";
-            var methodName = "getAndroidLanguage";
-            var methodSignature = "()V"; //如果是string：Ljava/lang/String;, bool:Z,int:I
-            jsb.reflection.callStaticMethod(className, methodName, methodSignature);
-        }
+        // if (cc.sys.isNative) {
+        //     let className = "org/cocos2dx/javascript/ApkManager";
+        //     let methodName = "getAndroidLanguage";
+        //     let methodSignature = "()V";//如果是string：Ljava/lang/String;, bool:Z,int:I
+        //     jsb.reflection.callStaticMethod(className, methodName, methodSignature);                
+        // }
     };
     ApkManager.prototype.getABTestPar = function () {
-        if (cc.sys.isNative) {
-            var className = "org/cocos2dx/javascript/ApkManager";
-            var methodName = "getABTestPar";
-            var methodSignature = "()V"; //如果是string：Ljava/lang/String;, bool:Z,int:I
-            jsb.reflection.callStaticMethod(className, methodName, methodSignature);
-        }
+        // if (cc.sys.isNative) {
+        //     let className = "org/cocos2dx/javascript/ApkManager";
+        //     let methodName = "getABTestPar";
+        //     let methodSignature = "()V";//如果是string：Ljava/lang/String;, bool:Z,int:I
+        //     jsb.reflection.callStaticMethod(className, methodName, methodSignature);                
+        // }
     };
     /**
      * 让手机震动一下
      * @param dt 震动时间，毫秒（整数）
      */
     ApkManager.prototype.beVibrate = function (dt) {
-        if (cc.sys.isNative) {
-            var className = "org/cocos2dx/javascript/ApkManager";
-            var methodName = "beVibrate";
-            var methodSignature = "(I)V"; //如果是string：Ljava/lang/String;, bool:Z,int:I
-            jsb.reflection.callStaticMethod(className, methodName, methodSignature, dt);
-        }
+        // if(cc.sys.isNative) {
+        //     let className = "org/cocos2dx/javascript/ApkManager";
+        //     let methodName = "beVibrate";
+        //     let methodSignature = "(I)V";//如果是string：Ljava/lang/String;, bool:Z,int:I
+        //     jsb.reflection.callStaticMethod(className, methodName, methodSignature,dt);
+        // }
     };
     ApkManager.prototype.getDingYueInfo = function (dyInfo) {
         this.dy_info_callback = dyInfo;
-        if (cc.sys.isNative) {
-            var className = "org/cocos2dx/javascript/ApkManager";
-            var methodName = "getDingYueInfo";
-            var methodSignature = "()V"; //如果是string：Ljava/lang/String;, bool:Z,int:I
-            jsb.reflection.callStaticMethod(className, methodName, methodSignature);
-        }
+        // if(cc.sys.isNative) {
+        //     let className = "org/cocos2dx/javascript/ApkManager";
+        //     let methodName = "getDingYueInfo";
+        //     let methodSignature = "()V";//如果是string：Ljava/lang/String;, bool:Z,int:I
+        //     jsb.reflection.callStaticMethod(className, methodName, methodSignature);            
+        // }
     };
     /**调用android获得支付信息 */
     ApkManager.prototype.getPayInfos = function (payInfo) {
@@ -409,33 +409,32 @@ var ApkManager = /** @class */ (function () {
             this.setTestPayInfo();
             return;
         }
-        if (cc.sys.isNative) {
-            var className = "org/cocos2dx/javascript/ApkManager";
-            var methodName = "getPayInfos";
-            var methodSignature = "()V"; //如果是string：Ljava/lang/String;, bool:Z,int:I
-            jsb.reflection.callStaticMethod(className, methodName, methodSignature);
-        }
-        else {
-            this.setTestPayInfo();
-        }
+        // if(cc.sys.isNative) {
+        //     let className = "org/cocos2dx/javascript/ApkManager";
+        //     let methodName = "getPayInfos";
+        //     let methodSignature = "()V";//如果是string：Ljava/lang/String;, bool:Z,int:I
+        //     jsb.reflection.callStaticMethod(className, methodName, methodSignature);            
+        // }else{
+        this.setTestPayInfo();
+        //}
     };
     /**调用android*/
     ApkManager.prototype.jumpToGP = function () {
-        if (cc.sys.isNative) {
-            var className = "org/cocos2dx/javascript/ApkManager";
-            var methodName = "jumpToGP";
-            var methodSignature = "()V"; //如果是string：Ljava/lang/String;, bool:Z,int:I
-            jsb.reflection.callStaticMethod(className, methodName, methodSignature);
-        }
+        // if(cc.sys.isNative) {
+        //     let className = "org/cocos2dx/javascript/ApkManager";
+        //     let methodName = "jumpToGP";
+        //     let methodSignature = "()V";//如果是string：Ljava/lang/String;, bool:Z,int:I
+        //     jsb.reflection.callStaticMethod(className, methodName, methodSignature);            
+        // }
     };
     ApkManager.prototype.getPackageInfo = function (callback) {
         this.package_callback = callback;
-        if (cc.sys.isNative) {
-            var className = "org/cocos2dx/javascript/ApkManager";
-            var methodName = "getPackageInfo";
-            var methodSignature = "()V"; //如果是string：Ljava/lang/String;, bool:Z,int:I
-            jsb.reflection.callStaticMethod(className, methodName, methodSignature);
-        }
+        // if(cc.sys.isNative) {
+        //     let className = "org/cocos2dx/javascript/ApkManager";
+        //     let methodName = "getPackageInfo";
+        //     let methodSignature = "()V";//如果是string：Ljava/lang/String;, bool:Z,int:I
+        //     jsb.reflection.callStaticMethod(className, methodName, methodSignature);            
+        // }
     };
     ApkManager.prototype.setTestPayInfo = function () {
         this.setPayInfos([{ "des": "get 60 crystals", "price": "￦844", "currency": "KRW", "pay_id": "b201", "is_buy": false },

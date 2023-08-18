@@ -5,12 +5,10 @@ cc._RF.push(module, 'a12cfJBpNBGsZe0dao+eOVS', 'UserData');
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var HttpManager_1 = require("./NetWork/HttpManager");
-var Constants_1 = require("./Constants");
 var GameManager_1 = require("./GameManager");
 var PlayerLevelUp_1 = require("./JsonData/PlayerLevelUp");
 var UIConfig_1 = require("./UI/UIConfig");
 var UIManager_1 = require("./UI/UIManager");
-var WXManagerEX_1 = require("../startscene/WXManagerEX");
 var UserData = /** @class */ (function () {
     function UserData() {
         /**用户的服务器数据是否加载完毕 */
@@ -195,37 +193,34 @@ var UserData = /** @class */ (function () {
     };
     /**请求网络检测版本 */
     UserData.prototype.HttpPostCheckVersion = function () {
-        var _this = this;
-        if (cc.sys.isNative) {
-            HttpManager_1.HttpManager.post(HttpManager_1.AccessName.versionGet, JSON.stringify({})).then(function (data) {
-                if (data) {
-                    if (data > Constants_1.CurVersionCode) {
-                        WXManagerEX_1.default.getInstance().resourcesBundle.load("loading/version_tip", cc.Prefab, function (error, assets) {
-                            if (error) {
-                                cc.log(error);
-                                return;
-                            }
-                            var node = cc.instantiate(assets);
-                            node.x = 0;
-                            node.y = 0;
-                            cc.find("Canvas").addChild(node);
-                        });
-                    }
-                    else {
-                        _this.version_is_ok = true;
-                    }
-                }
-                else {
-                    _this.version_is_ok = true;
-                }
-            }).catch(function (error) {
-                cc.error(error);
-                _this.version_is_ok = true;
-            });
-        }
-        else {
-            this.version_is_ok = true;
-        }
+        // if(cc.sys.isNative){
+        //     HttpManager.post(AccessName.versionGet,JSON.stringify({})).then((data:any)=>{
+        //         if(data){
+        //             if(data>CurVersionCode){
+        //                 WXManagerEX.getInstance().resourcesBundle.load("loading/version_tip",cc.Prefab,(error: Error, assets:cc.Prefab)=>{  
+        //                     if(error){
+        //                         cc.log(error);
+        //                         return;
+        //                     }
+        //                     let node=cc.instantiate(assets);
+        //                     node.x=0;
+        //                     node.y=0;
+        //                     cc.find("Canvas").addChild(node);
+        //                 });
+        //             }else{
+        //                 this.version_is_ok=true;
+        //             }                
+        //         }else{
+        //             this.version_is_ok=true;
+        //         }
+        //     }).catch((error)=>{
+        //         cc.error(error);
+        //         this.version_is_ok=true;
+        //     });
+        // }else
+        // {
+        this.version_is_ok = true;
+        //}
     };
     UserData._instance = null;
     return UserData;

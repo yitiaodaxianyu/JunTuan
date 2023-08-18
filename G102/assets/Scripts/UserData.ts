@@ -236,34 +236,34 @@ export default class UserData {
 
     /**请求网络检测版本 */
     HttpPostCheckVersion(){
-        if(cc.sys.isNative){
-            HttpManager.post(AccessName.versionGet,JSON.stringify({})).then((data:any)=>{
-                if(data){
-                    if(data>CurVersionCode){
-                        WXManagerEX.getInstance().resourcesBundle.load("loading/version_tip",cc.Prefab,(error: Error, assets:cc.Prefab)=>{  
-                            if(error){
-                                cc.log(error);
-                                return;
-                            }
-                            let node=cc.instantiate(assets);
-                            node.x=0;
-                            node.y=0;
-                            cc.find("Canvas").addChild(node);
-                        });
-                    }else{
-                        this.version_is_ok=true;
-                    }                
-                }else{
-                    this.version_is_ok=true;
-                }
-            }).catch((error)=>{
-                cc.error(error);
-                this.version_is_ok=true;
-            });
-        }else
-        {
+        // if(cc.sys.isNative){
+        //     HttpManager.post(AccessName.versionGet,JSON.stringify({})).then((data:any)=>{
+        //         if(data){
+        //             if(data>CurVersionCode){
+        //                 WXManagerEX.getInstance().resourcesBundle.load("loading/version_tip",cc.Prefab,(error: Error, assets:cc.Prefab)=>{  
+        //                     if(error){
+        //                         cc.log(error);
+        //                         return;
+        //                     }
+        //                     let node=cc.instantiate(assets);
+        //                     node.x=0;
+        //                     node.y=0;
+        //                     cc.find("Canvas").addChild(node);
+        //                 });
+        //             }else{
+        //                 this.version_is_ok=true;
+        //             }                
+        //         }else{
+        //             this.version_is_ok=true;
+        //         }
+        //     }).catch((error)=>{
+        //         cc.error(error);
+        //         this.version_is_ok=true;
+        //     });
+        // }else
+        // {
             this.version_is_ok=true;
-        }
+        //}
     }
 }
 

@@ -97,7 +97,7 @@ var GameManager = /** @class */ (function (_super) {
         _this.cur_game_mode = Constants_1.GameMode.Main;
         _this.cur_game_scene = Constants_1.GameScene.home;
         //tumTableTime: number = 60*60*12;//免费抽奖倒计时
-        _this.tumTableTime = 60 * 60 * 12; //免费抽奖倒计时
+        _this.tumTableTime = 1; //免费抽奖倒计时
         //当前的加载进度
         _this.cur_load_progress = 0;
         //每个英雄获得的游戏内技能
