@@ -37,7 +37,6 @@ var MazeShop_1 = require("../Maze/MazeShop");
 var MazeShowBuffUi_1 = require("../Maze/MazeShowBuffUi");
 var MazeToolUi_1 = require("../Maze/MazeToolUi");
 var MazeWallInfoUi_1 = require("../Maze/MazeWallInfoUi");
-var PayFirstChargeUi_1 = require("../Payment/PayFirstChargeUi");
 var PaymentUi_1 = require("../Payment/PaymentUi");
 var PetAdvanceShowUi_1 = require("../Pet/Ui/PetAdvanceShowUi");
 var PetReductionUi_1 = require("../Pet/Ui/PetReductionUi");
@@ -1464,21 +1463,19 @@ var UIManager = /** @class */ (function (_super) {
         }
     };
     UIManager.prototype.showPayFirstChargeUi = function (uiAction) {
-        var _this = this;
-        var path = 'payment/pay_first_charge_ui';
-        var prefab = this.getPrefab(path);
-        if (prefab) {
-            var node = cc.instantiate(prefab);
-            this.node.addChild(node);
-            node.getComponent(PayFirstChargeUi_1.default).init(uiAction);
-        }
-        else {
-            this.loadPrefab(path, function (asset) {
-                var node = cc.instantiate(asset);
-                _this.node.addChild(node);
-                node.getComponent(PayFirstChargeUi_1.default).init(uiAction);
-            });
-        }
+        // let path='payment/pay_first_charge_ui';
+        // let prefab=this.getPrefab(path);
+        // if(prefab){
+        //     let node=cc.instantiate(prefab);
+        //     this.node.addChild(node);
+        //     node.getComponent(PayFirstChargeUi).init(uiAction);
+        // }else{
+        //     this.loadPrefab(path,(asset:cc.Prefab)=>{
+        //         let node=cc.instantiate(asset);
+        //         this.node.addChild(node);
+        //         node.getComponent(PayFirstChargeUi).init(uiAction);
+        //     });
+        // }
     };
     UIManager.prototype.showHelpTipsUi = function (uiAction, titleId, contentIds) {
         var _this = this;

@@ -23,6 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+var WXManagerEX_1 = require("../../../startscene/WXManagerEX");
 var HttpManager_1 = require("../.././NetWork/HttpManager");
 var ApkManager_1 = require("../../Ads/ApkManager");
 var GameManager_1 = require("../../GameManager");
@@ -53,6 +54,7 @@ var SignUi = /** @class */ (function (_super) {
     SignUi.prototype.init = function (uiAc) {
         FollowManager_1.default.getInstance().followEvent(FollowConstants_1.Follow_Type.新手签到点击次数);
         _super.prototype.init.call(this, uiAc);
+        cc.director.on(WXManagerEX_1.WXADEnvnt.QIRIQIANDAOSHIPIN, this.onShipinComp, this);
         this.refreshUi();
     };
     SignUi.prototype.refreshUi = function () {
@@ -122,6 +124,13 @@ var SignUi = /** @class */ (function (_super) {
     };
     SignUi.prototype.onReceiveBtnClick = function (e, num) {
         GameManager_1.default.getInstance().sound_manager.playSound(AudioConstants_1.SoundIndex.click);
+        UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.SignInBuy, UIConfig_1.UILayerLevel.One, {
+            onCompleted: function (uiNode) {
+                uiNode.getComponent(SignInBuyUi_1.default).init(null);
+                uiNode.getComponent(SignInBuyUi_1.default).iniData();
+            }
+        });
+        return;
         var index = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.NewPlayerSavenDaySignInNum, 0);
         if (num == '' || num == undefined)
             num = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.NewPlayerSavenDaySignInNum, 0) + '';
@@ -151,16 +160,90 @@ var SignUi = /** @class */ (function (_super) {
         }
     };
     SignUi.prototype.onClickBuyBtn = function () {
-        this.onClose();
-        GameManager_1.default.getInstance().showMessage(LanguageManager_1.default.getInstance().getStrByTextId(100113));
-        return;
-        FollowManager_1.default.getInstance().followEvent(FollowConstants_1.Follow_Type.点击解锁5倍奖励按钮的点击次数);
-        UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.SignInBuy, UIConfig_1.UILayerLevel.One, {
-            onCompleted: function (uiNode) {
-                uiNode.getComponent(SignInBuyUi_1.default).init(null);
-                uiNode.getComponent(SignInBuyUi_1.default).iniData();
+        var _this = this;
+        //this.onClose();
+        // GameManager.getInstance().showMessage(LanguageManager.getInstance().getStrByTextId(100113))
+        // return;
+        // FollowManager.getInstance().followEvent(Follow_Type.点击解锁5倍奖励按钮的点击次数);
+        // UIManager.getInstance().showUiDialog(UIPath.SignInBuy,UILayerLevel.One,{
+        //     onCompleted:(uiNode)=>{
+        //         uiNode.getComponent(SignInBuyUi).init(null);
+        //         uiNode.getComponent(SignInBuyUi).iniData();
+        //     }
+        // })
+        GameManager_1.default.getInstance().sound_manager.playSound(AudioConstants_1.SoundIndex.click);
+        var num;
+        var index = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.NewPlayerSavenDaySignInNum, 0);
+        if (num == '' || num == undefined)
+            num = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.NewPlayerSavenDaySignInNum, 0) + '';
+        if (Number(num) != index)
+            return;
+        if (StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.CanSignIn, 0) == 0) {
+            if (cc.sys.platform === cc.sys.WECHAT_GAME) {
+                WXManagerEX_1.default.getInstance().qiriQiandaoShipin = wx.createRewardedVideoAd({
+                    adUnitId: 'adunit-74cd62188527aedb'
+                });
+                WXManagerEX_1.default.getInstance().qiriQiandaoShipin.offError();
+                WXManagerEX_1.default.getInstance().qiriQiandaoShipin.onError(function (err) {
+                    console.log(err);
+                });
+                WXManagerEX_1.default.getInstance().qiriQiandaoShipin.offClose();
+                WXManagerEX_1.default.getInstance().qiriQiandaoShipin.show().catch(function () {
+                    // 失败重试
+                    WXManagerEX_1.default.getInstance().qiriQiandaoShipin.load()
+                        .then(function () { return WXManagerEX_1.default.getInstance().qiriQiandaoShipin.show(); })
+                        .catch(function (err) {
+                        GameManager_1.default.getInstance().showMessage("广告拉取失败");
+                    });
+                });
+                WXManagerEX_1.default.getInstance().qiriQiandaoShipin.onClose(function (res) {
+                    // 用户点击了【关闭广告】按钮
+                    // 小于 2.1.0 的基础库版本，res 是一个 undefined
+                    if (res && res.isEnded || res === undefined) {
+                        // 正常播放结束，可以下发游戏奖励
+                        _this.onShipinComp();
+                    }
+                    else {
+                        // 播放中途退出，不下发游戏奖励
+                    }
+                });
             }
-        });
+            else {
+                this.onShipinComp();
+            }
+        }
+        else {
+            GameManager_1.default.getInstance().showMessage(LanguageManager_1.default.getInstance().getStrByTextId(230008));
+        }
+    };
+    SignUi.prototype.onShipinComp = function () {
+        GameManager_1.default.getInstance().sound_manager.playSound(AudioConstants_1.SoundIndex.click);
+        var index = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.NewPlayerSavenDaySignInNum, 0);
+        var num = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.NewPlayerSavenDaySignInNum, 0) + '';
+        if (Number(num) != index)
+            return;
+        if (StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.CanSignIn, 0) == 0) {
+            var data = SignIn_1.SignInManager.getInstance().getDataBySignInType(SignIn_1.SignInType.SavenDay);
+            var reward = PropManager_1.PropManager.getInstance().createPropItem(data[index].Item, data[index].Num * 2);
+            FollowManager_1.default.getInstance().followEvent(FollowConstants_1.Follow_Type.新手签到x天的点击次数 + index);
+            PropManager_1.PropManager.getInstance().changePropNum(data[index].Item, data[index].Num * 2);
+            GameManager_1.default.getInstance().showGetTip(reward);
+            // this.node.getChildByName("receiveBtn").active = false;
+            index++;
+            if (index > 6) {
+                StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.NewPlayerSavenDaySignInOver, 1);
+                HttpManager_1.HttpManager.post(HttpManager_1.AccessName.updateSevenGift, this.getUserIdJsonString());
+            }
+            StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.CanSignIn, 1);
+            StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.NewPlayerSavenDaySignInNum, index);
+            this.refreshUi();
+            EventManager_1.EventManager.postRedEvent(EventManager_1.RedEventString.RED_TIP, EventManager_1.RedEventType.Btn_Main_SignIn, false, EventManager_1.RedEventType.Btn_Main_SignIn_BtnGet);
+            StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.NewPlayerSavenDaySignInTime, new Date().getTime());
+            HttpManager_1.HttpManager.post(HttpManager_1.AccessName.sevenSign, this.getUserIdJsonString());
+        }
+        else {
+            GameManager_1.default.getInstance().showMessage(LanguageManager_1.default.getInstance().getStrByTextId(230008));
+        }
     };
     SignUi.prototype.clickBtnClose = function () {
         GameManager_1.default.getInstance().sound_manager.playSound(AudioConstants_1.SoundIndex.click);
@@ -169,6 +252,10 @@ var SignUi = /** @class */ (function (_super) {
     SignUi.prototype.destroySelf = function () {
         _super.prototype.onClose.call(this);
         ApkManager_1.default.getInstance().closeBanner();
+    };
+    SignUi.prototype.onClose = function () {
+        _super.prototype.onClose.call(this);
+        cc.director.off(WXManagerEX_1.WXADEnvnt.QIRIQIANDAOSHIPIN, this.onShipinComp, this);
     };
     SignUi.prototype.getUserIdJsonString = function () {
         var uid = UserData_1.default.getInstance().getUserID();

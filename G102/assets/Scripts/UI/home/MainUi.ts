@@ -27,6 +27,7 @@ import { TheStorageManager } from "../../Storage/StorageManager";
 import { HttpManager, AccessName } from "../.././NetWork/HttpManager";
 import { HeroManager } from "../../Hero/Data/HeroManager";
 import UserData from "../../UserData";
+import { PropManager } from "../../Prop/PropManager";
 
 const {ccclass, property} = cc._decorator;
 
@@ -57,11 +58,14 @@ export default class MainUi extends cc.Component {
         // cc.resources.load('ui/home/team_select_ui');
         cc.director.on(OnLanguageChange,this.showLevelName,this);
         this.node.on(cc.Node.EventType.POSITION_CHANGED,this.onPositionChange,this);
+
+        cc.director.on("OnSharBack",this.onSharBack,this);
        
     }
 
     protected onDestroy(): void {        
         cc.director.off(OnLanguageChange,this.showLevelName,this);
+        cc.director.off("OnSharBack",this.onSharBack,this);
         this.node.off(cc.Node.EventType.POSITION_CHANGED,this.onPositionChange,this);
     }
 
@@ -86,7 +90,12 @@ export default class MainUi extends cc.Component {
             // GameManager.getInstance().music_manager.playMusic(MusicIndex.BGM_GuajiBgm);
         }
     }
-
+    private onSharBack(){
+        this.refreshLeft();
+        let reward = PropManager.getInstance().createPropItem(10002,300);
+        PropManager.getInstance().changePropNum(10002,300);
+        GameManager.getInstance().showGetTip(reward);
+    }
     refreshLeftRight(){
         this.refreshLeft();
         this.refreshRight();

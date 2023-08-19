@@ -1,3 +1,4 @@
+import WXManagerEX, { WXADEnvnt } from "../../../startscene/WXManagerEX";
 import ApkManager from "../../Ads/ApkManager";
 import { VipManager } from "../../Ads/VipManager";
 import CoinPop from "../../CoinPop";
@@ -49,7 +50,9 @@ export default class FastGuaJiUi extends UIComponent {
         bg.on(cc.Node.EventType.TOUCH_START,()=>{
             this.clickBtnClose();
         },this);
-        ApkManager.getInstance().showBanner();
+
+
+        cc.director.on(WXADEnvnt.KUAISUGUAJISHIPIN, this.onShipinComp, this);
     }
 
     // onLoad(): void {
@@ -158,9 +161,46 @@ export default class FastGuaJiUi extends UIComponent {
     }
 
     clickBtnAd(){
-        ApkManager.getInstance().showVideo(((isTrue)=>{
-            if(isTrue){
-                FollowManager.getInstance().followEvent(Follow_Type.快速挂机广告按钮点击);
+        if (cc.sys.platform === cc.sys.WECHAT_GAME) {
+
+ 
+
+
+            WXManagerEX.getInstance().kuaisuGuajiShipin= wx.createRewardedVideoAd({
+                adUnitId: 'adunit-e66e307225f3960f'
+            });
+            WXManagerEX.getInstance().kuaisuGuajiShipin.offError();
+                    WXManagerEX.getInstance().kuaisuGuajiShipin.onError(err => {
+                        console.log(err)
+                    });
+            WXManagerEX.getInstance().kuaisuGuajiShipin.offClose();
+            WXManagerEX.getInstance().kuaisuGuajiShipin.show().catch(() => {
+                // 失败重试
+                WXManagerEX.getInstance().kuaisuGuajiShipin.load()
+                    .then(() => WXManagerEX.getInstance().kuaisuGuajiShipin.show())
+                    .catch(err => {
+                        GameManager.getInstance().showMessage("广告拉取失败");
+                    })
+            })
+            WXManagerEX.getInstance().kuaisuGuajiShipin.onClose(res => {
+                // 用户点击了【关闭广告】按钮
+                // 小于 2.1.0 的基础库版本，res 是一个 undefined
+                if (res && res.isEnded || res === undefined) {
+                  // 正常播放结束，可以下发游戏奖励
+                  this.onShipinComp();
+                }
+                else {
+                    // 播放中途退出，不下发游戏奖励
+                }
+            })
+
+        }else{
+            this.onShipinComp();
+        }
+       
+    }
+    private onShipinComp(): void {
+        FollowManager.getInstance().followEvent(Follow_Type.快速挂机广告按钮点击);
                 GameManager.getInstance().refreshGemShow();
                 TaskManager.getInstance().emitTask(TaskItem.领取挂机奖励2次);
                 TaskManager.getInstance().emitTask(TaskItem.领取快速挂机1次);
@@ -194,10 +234,7 @@ export default class FastGuaJiUi extends UIComponent {
                 TheStorageManager.getInstance().setItem(StorageKey.CanAdFastOffline,1);
                 this.node.getChildByName("btnRoot").getChildByName("ad").active = false;
                 EventManager.postRedEvent(RedEventString.RED_TIP,RedEventType.Btn_Main_Guaji_Btn_Fast,false);
-            }
-        }),VIDEO_TYPE.Coin)
     }
-
     clickBtnFast(){
         GameManager.getInstance().sound_manager.playSound(SoundIndex.click);
         if(TheStorageManager.getInstance().getNumber(StorageKey.CanFastOffline,0) == 0){
@@ -300,6 +337,7 @@ export default class FastGuaJiUi extends UIComponent {
         this.unschedule(this.showRemainTime);
         super.onClose();
         ApkManager.getInstance().closeBanner();
+        cc.director.on(WXADEnvnt.KUAISUGUAJISHIPIN, this.onShipinComp, this);
     }
 
     

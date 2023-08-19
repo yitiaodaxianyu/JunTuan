@@ -67,8 +67,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 640,
-      "height": 1400
+      "width": 750,
+      "height": 1624
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -79,8 +79,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        320,
-        700,
+        375,
+        812,
         0,
         0,
         0,
@@ -137,8 +137,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 640,
-      "height": 1960
+      "width": 750,
+      "height": 2273.6
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1581,8 +1581,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "This challenge can be revived",
-    "_N$string": "This challenge can be revived",
+    "_string": "本次挑战可以复活",
+    "_N$string": "本次挑战可以复活",
     "_fontSize": 32,
     "_lineHeight": 36,
     "_enableWrapText": true,
@@ -1597,7 +1597,7 @@
     "_N$fontFamily": "Arial",
     "_N$overflow": 2,
     "_N$cacheMode": 0,
-    "cur_text_id": 100065,
+    "cur_text_id": 0,
     "_id": ""
   },
   {

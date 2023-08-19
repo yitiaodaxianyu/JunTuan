@@ -21988,7 +21988,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 188,
-      "height": 131
+      "height": 269
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -22042,7 +22042,7 @@
         "__id__": 493
       }
     ],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 495
@@ -22278,8 +22278,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "首充特惠",
-    "_N$string": "首充特惠",
+    "_string": "分享得钻",
+    "_N$string": "分享得钻",
     "_fontSize": 28,
     "_lineHeight": 24,
     "_enableWrapText": true,
@@ -22294,7 +22294,7 @@
     "_N$fontFamily": "Arial",
     "_N$overflow": 2,
     "_N$cacheMode": 0,
-    "cur_text_id": 1440001,
+    "cur_text_id": 0,
     "_id": "51lY4Q0CpERaLykjPuPq4i"
   },
   {
@@ -22580,7 +22580,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        -56,
+        -194,
         0,
         0,
         0,
@@ -23561,7 +23561,7 @@
     "_layoutSize": {
       "__type__": "cc.Size",
       "width": 188,
-      "height": 131
+      "height": 269
     },
     "_resize": 1,
     "_N$layoutType": 2,

@@ -23,25 +23,22 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var AdManager_1 = require("../Ads/AdManager");
+var WXManagerEX_1 = require("../../startscene/WXManagerEX");
 var VipManager_1 = require("../Ads/VipManager");
-var Constants_1 = require("../Constants");
 var GameManager_1 = require("../GameManager");
-var LanguageConstants_1 = require("../multiLanguage/LanguageConstants");
-var LanguageManager_1 = require("../multiLanguage/LanguageManager");
 var AudioConstants_1 = require("../Sound/AudioConstants");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var FuHuo = /** @class */ (function (_super) {
     __extends(FuHuo, _super);
     function FuHuo() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.remain_time = 10;
+        _this.remain_time = 20;
         return _this;
     }
     FuHuo.prototype.onLoad = function () {
-        this.remain_time = 11;
+        this.remain_time = 21;
         this.showRemain();
-        this.schedule(this.showRemain, 1);
+        this.schedule(this.showRemain, 2);
         if (VipManager_1.VipManager.getIsVip() == true) {
             this.node.getChildByName('ads').active = false;
         }
@@ -65,22 +62,52 @@ var FuHuo = /** @class */ (function (_super) {
     FuHuo.prototype.clickBtnFuhuo = function () {
         var _this = this;
         GameManager_1.default.getInstance().sound_manager.playSound(AudioConstants_1.SoundIndex.click);
-        if (VipManager_1.VipManager.getIsVip() == true) {
-            GameManager_1.default.getInstance().onFuhuo();
-            this.destroySelf();
-            return;
-        }
-        this.unschedule(this.showRemain);
-        AdManager_1.default.getInstance().showVideo(function (isSuc) {
-            if (isSuc) {
+        if (cc.sys.platform === cc.sys.WECHAT_GAME) {
+            if (VipManager_1.VipManager.getIsVip() == true) {
                 GameManager_1.default.getInstance().onFuhuo();
-                _this.destroySelf();
+                this.destroySelf();
+                return;
             }
-            else {
+            this.unschedule(this.showRemain);
+            WXManagerEX_1.default.getInstance().fuhuoShipin = wx.createRewardedVideoAd({
+                adUnitId: 'adunit-81a1f1f3d7c367bb'
+            });
+            WXManagerEX_1.default.getInstance().fuhuoShipin.offError();
+            WXManagerEX_1.default.getInstance().fuhuoShipin.onError(function (err) {
+                console.log(err);
                 _this.schedule(_this.showRemain, 1);
-                GameManager_1.default.getInstance().showMessage(LanguageManager_1.default.getInstance().getString(LanguageConstants_1.LanguageIndex.The_ad_failed_to_play_and_the_reward_cannot_be_obtained));
-            }
-        }, Constants_1.VIDEO_TYPE.Coin);
+            });
+            WXManagerEX_1.default.getInstance().fuhuoShipin.offClose();
+            WXManagerEX_1.default.getInstance().fuhuoShipin.show().catch(function () {
+                // 失败重试
+                WXManagerEX_1.default.getInstance().fuhuoShipin.load()
+                    .then(function () { return WXManagerEX_1.default.getInstance().fuhuoShipin.show(); })
+                    .catch(function (err) {
+                    GameManager_1.default.getInstance().showMessage("广告拉取失败");
+                    _this.schedule(_this.showRemain, 1);
+                });
+            });
+            WXManagerEX_1.default.getInstance().fuhuoShipin.onClose(function (res) {
+                // 用户点击了【关闭广告】按钮
+                // 小于 2.1.0 的基础库版本，res 是一个 undefined
+                if (res && res.isEnded || res === undefined) {
+                    // 正常播放结束，可以下发游戏奖励
+                    _this.onShipinComp();
+                }
+                else {
+                    // 播放中途退出，不下发游戏奖励
+                    _this.schedule(_this.showRemain, 1);
+                }
+            });
+        }
+        else {
+            this.onShipinComp();
+        }
+    };
+    //视频观看完成
+    FuHuo.prototype.onShipinComp = function () {
+        GameManager_1.default.getInstance().onFuhuo();
+        this.destroySelf();
     };
     FuHuo.prototype.destroySelf = function () {
         cc.director.resume();

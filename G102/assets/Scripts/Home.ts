@@ -116,18 +116,18 @@ export default class Home extends cc.Component {
                 gm.game_to_home = Go_Type.Main_Sign;
         } else {
             if (FunctionDefinitionManager.getInstance().getIsUnlock(FuncType.FirstCharge) && PayManager.getInstance().getPayNum('c301') <= 0 && TutorailsManager.getInstance().is_tutorails_state == false) {
-                this.scheduleOnce(() => {
-                    UIManager.getInstance().showUiDialog(UIPath.FirstCharge, UILayerLevel.One, {
-                        onCompleted: (uiNode) => {
-                            uiNode.getComponent(PayFirstChargeUi).init({
-                                onClose: () => {
-                                    let mainUi = cc.find("Canvas/main_ui").getComponent(MainUi);
-                                    mainUi.refreshLeft();
-                                }
-                            });
-                        },
-                    });
-                }, 1)
+                // this.scheduleOnce(() => {
+                //     UIManager.getInstance().showUiDialog(UIPath.FirstCharge, UILayerLevel.One, {
+                //         onCompleted: (uiNode) => {
+                //             uiNode.getComponent(PayFirstChargeUi).init({
+                //                 onClose: () => {
+                //                     let mainUi = cc.find("Canvas/main_ui").getComponent(MainUi);
+                //                     mainUi.refreshLeft();
+                //                 }
+                //             });
+                //         },
+                //     });
+                // }, 1)
             }
         }
         //根据game_to_home设置显示的界面

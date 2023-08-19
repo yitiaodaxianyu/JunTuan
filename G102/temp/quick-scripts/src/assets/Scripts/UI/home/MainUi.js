@@ -50,6 +50,7 @@ var StorageManager_1 = require("../../Storage/StorageManager");
 var HttpManager_1 = require("../.././NetWork/HttpManager");
 var HeroManager_1 = require("../../Hero/Data/HeroManager");
 var UserData_1 = require("../../UserData");
+var PropManager_1 = require("../../Prop/PropManager");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var MainUi = /** @class */ (function (_super) {
     __extends(MainUi, _super);
@@ -72,9 +73,11 @@ var MainUi = /** @class */ (function (_super) {
         // cc.resources.load('ui/home/team_select_ui');
         cc.director.on(LanguageConstants_1.OnLanguageChange, this.showLevelName, this);
         this.node.on(cc.Node.EventType.POSITION_CHANGED, this.onPositionChange, this);
+        cc.director.on("OnSharBack", this.onSharBack, this);
     };
     MainUi.prototype.onDestroy = function () {
         cc.director.off(LanguageConstants_1.OnLanguageChange, this.showLevelName, this);
+        cc.director.off("OnSharBack", this.onSharBack, this);
         this.node.off(cc.Node.EventType.POSITION_CHANGED, this.onPositionChange, this);
     };
     MainUi.prototype.onPositionChange = function () {
@@ -93,6 +96,12 @@ var MainUi = /** @class */ (function (_super) {
         if (GameManager_1.default.getInstance().cur_game_scene == Constants_1.GameScene.home) {
             // GameManager.getInstance().music_manager.playMusic(MusicIndex.BGM_GuajiBgm);
         }
+    };
+    MainUi.prototype.onSharBack = function () {
+        this.refreshLeft();
+        var reward = PropManager_1.PropManager.getInstance().createPropItem(10002, 300);
+        PropManager_1.PropManager.getInstance().changePropNum(10002, 300);
+        GameManager_1.default.getInstance().showGetTip(reward);
     };
     MainUi.prototype.refreshLeftRight = function () {
         this.refreshLeft();

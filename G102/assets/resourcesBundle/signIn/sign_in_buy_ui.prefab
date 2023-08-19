@@ -471,7 +471,7 @@
       "__id__": 1
     },
     "_children": [],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 14
@@ -580,7 +580,7 @@
       "__id__": 1
     },
     "_children": [],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 17
@@ -1074,7 +1074,7 @@
       "ctor": "Float64Array",
       "array": [
         -120,
-        -240.315,
+        -132.315,
         0,
         0,
         0,
@@ -1180,8 +1180,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "取消",
-    "_N$string": "取消",
+    "_string": "普通获得",
+    "_N$string": "普通获得",
     "_fontSize": 24,
     "_lineHeight": 40,
     "_enableWrapText": true,
@@ -1196,7 +1196,7 @@
     "_N$fontFamily": "Arial",
     "_N$overflow": 2,
     "_N$cacheMode": 0,
-    "cur_text_id": 100002,
+    "cur_text_id": 0,
     "_id": ""
   },
   {
@@ -1402,7 +1402,7 @@
       "ctor": "Float64Array",
       "array": [
         120,
-        -240.315,
+        -132.315,
         0,
         0,
         0,
@@ -1524,7 +1524,7 @@
     "_N$fontFamily": "Arial",
     "_N$overflow": 2,
     "_N$cacheMode": 0,
-    "cur_text_id": 230003,
+    "cur_text_id": 0,
     "_id": ""
   },
   {
@@ -1832,7 +1832,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        129.252,
+        50.329,
         0,
         0,
         0,
@@ -1871,8 +1871,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "花费指定金额即可领取5倍7日签到所有奖励！",
-    "_N$string": "花费指定金额即可领取5倍7日签到所有奖励！",
+    "_string": "观看视频即可获得双倍奖励",
+    "_N$string": "观看视频即可获得双倍奖励",
     "_fontSize": 25,
     "_lineHeight": 40,
     "_enableWrapText": true,
@@ -1887,7 +1887,7 @@
     "_N$fontFamily": "Arial",
     "_N$overflow": 2,
     "_N$cacheMode": 0,
-    "cur_text_id": 230006,
+    "cur_text_id": 0,
     "_id": ""
   },
   {
@@ -1909,7 +1909,7 @@
       "__id__": 1
     },
     "_children": [],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 54

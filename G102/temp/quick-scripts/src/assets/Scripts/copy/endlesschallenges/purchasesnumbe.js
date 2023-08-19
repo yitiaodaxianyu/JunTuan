@@ -29,9 +29,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ApkManager_1 = require("../../Ads/ApkManager");
+var WXManagerEX_1 = require("../../../startscene/WXManagerEX");
 var CoinPop_1 = require("../../CoinPop");
-var Constants_1 = require("../../Constants");
 var GameManager_1 = require("../../GameManager");
 var FollowConstants_1 = require("../../multiLanguage/FollowConstants");
 var FollowManager_1 = require("../../multiLanguage/FollowManager");
@@ -116,55 +115,99 @@ var purchasesnumbe = /** @class */ (function (_super) {
         }
         else {
             //钱不够
-            UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.CoinPop, UIConfig_1.UILayerLevel.Three, { onCompleted: function (uiNode) {
+            UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.CoinPop, UIConfig_1.UILayerLevel.Three, {
+                onCompleted: function (uiNode) {
                     uiNode.getComponent(CoinPop_1.default).initUi(PropConfig_1.PropId.Gem);
-                }, });
+                },
+            });
         }
     };
     purchasesnumbe.prototype.clickBtnBuyAd = function () {
         var _this = this;
-        ApkManager_1.default.getInstance().showVideo((function (isTrue) {
-            if (isTrue) {
-                var buynum = void 0;
-                if (_this.type == 2) {
-                    buynum = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.BuyUnlimitedChallengeTimes, 3);
-                }
-                else if (_this.type == 3) {
-                    buynum = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.BuyBossChallengeTimes, 3);
-                }
-                else if (_this.type == 4) {
-                    buynum = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.BuyVoidCrackChallengeTimes, 3);
-                }
-                //可以购买
-                PropManager_1.PropManager.getInstance().changePropNum(PropConfig_1.PropId.Gem, -_this.mynum[3 - buynum]);
-                buynum--;
-                if (_this.type == 2) {
-                    FollowManager_1.default.getInstance().followEvent(FollowConstants_1.Follow_Type.无尽挑战挑战次数购买数);
-                    FollowManager_1.default.getInstance().followEvent(FollowConstants_1.Follow_Type.无尽挑战_挑战次数购买数_每日第x次购买 + (3 - buynum));
-                    StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.BuyUnlimitedChallengeTimes, buynum);
-                    var num = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.UnlimitedChallengeTimes, 0);
-                    num++;
-                    StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.UnlimitedChallengeTimes, num);
-                }
-                else if (_this.type == 3) {
-                    FollowManager_1.default.getInstance().followEvent(FollowConstants_1.Follow_Type.BOSS挑战挑战次数购买数);
-                    FollowManager_1.default.getInstance().followEvent(FollowConstants_1.Follow_Type.BOSS挑战_挑战次数购买数_每日第x次购买 + (3 - buynum));
-                    StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.BuyBossChallengeTimes, buynum);
-                    var num = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.BossChallengeTimes, 0);
-                    num++;
-                    StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.BossChallengeTimes, num);
-                }
-                else if (_this.type == 4) {
-                    FollowManager_1.default.getInstance().followEvent(FollowConstants_1.Follow_Type.虚空裂缝挑战次数购买数);
-                    FollowManager_1.default.getInstance().followEvent(FollowConstants_1.Follow_Type.虚空裂缝_挑战次数购买数_每日第x次购买 + (3 - buynum));
-                    StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.BuyVoidCrackChallengeTimes, buynum);
-                    var num = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.VoidCrackChallengeTimes, 0);
-                    num++;
-                    StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.VoidCrackChallengeTimes, num);
-                }
-                _this.clickBtnClose();
+        if (cc.sys.platform === cc.sys.WECHAT_GAME) {
+            if (this.type == 2) {
+                WXManagerEX_1.default.getInstance().cardByAd = wx.createRewardedVideoAd({
+                    adUnitId: 'adunit-f93dddec700f320f'
+                });
             }
-        }), Constants_1.VIDEO_TYPE.Equip);
+            else if (this.type == 3) {
+                WXManagerEX_1.default.getInstance().cardByAd = wx.createRewardedVideoAd({
+                    adUnitId: 'adunit-a569c3a5f40ffd43'
+                });
+            }
+            else if (this.type == 4) {
+                WXManagerEX_1.default.getInstance().cardByAd = wx.createRewardedVideoAd({
+                    adUnitId: 'adunit-5d9c656083442416'
+                });
+            }
+            WXManagerEX_1.default.getInstance().cardByAd.offError();
+            WXManagerEX_1.default.getInstance().cardByAd.onError(function (err) {
+                console.log(err);
+            });
+            WXManagerEX_1.default.getInstance().cardByAd.offClose();
+            WXManagerEX_1.default.getInstance().cardByAd.show().catch(function () {
+                // 失败重试
+                WXManagerEX_1.default.getInstance().cardByAd.load()
+                    .then(function () { return WXManagerEX_1.default.getInstance().cardByAd.show(); })
+                    .catch(function (err) {
+                    GameManager_1.default.getInstance().showMessage("广告拉取失败");
+                });
+            });
+            WXManagerEX_1.default.getInstance().cardByAd.onClose(function (res) {
+                // 用户点击了【关闭广告】按钮
+                // 小于 2.1.0 的基础库版本，res 是一个 undefined
+                if (res && res.isEnded || res === undefined) {
+                    // 正常播放结束，可以下发游戏奖励
+                    _this.onShipinComp();
+                }
+                else {
+                    // 播放中途退出，不下发游戏奖励
+                }
+            });
+        }
+        else {
+            this.onShipinComp();
+        }
+    };
+    purchasesnumbe.prototype.onShipinComp = function () {
+        var buynum;
+        if (this.type == 2) {
+            buynum = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.BuyUnlimitedChallengeTimes, 3);
+        }
+        else if (this.type == 3) {
+            buynum = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.BuyBossChallengeTimes, 3);
+        }
+        else if (this.type == 4) {
+            buynum = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.BuyVoidCrackChallengeTimes, 3);
+        }
+        //可以购买
+        PropManager_1.PropManager.getInstance().changePropNum(PropConfig_1.PropId.Gem, -this.mynum[3 - buynum]);
+        buynum--;
+        if (this.type == 2) {
+            FollowManager_1.default.getInstance().followEvent(FollowConstants_1.Follow_Type.无尽挑战挑战次数购买数);
+            FollowManager_1.default.getInstance().followEvent(FollowConstants_1.Follow_Type.无尽挑战_挑战次数购买数_每日第x次购买 + (3 - buynum));
+            StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.BuyUnlimitedChallengeTimes, buynum);
+            var num = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.UnlimitedChallengeTimes, 0);
+            num++;
+            StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.UnlimitedChallengeTimes, num);
+        }
+        else if (this.type == 3) {
+            FollowManager_1.default.getInstance().followEvent(FollowConstants_1.Follow_Type.BOSS挑战挑战次数购买数);
+            FollowManager_1.default.getInstance().followEvent(FollowConstants_1.Follow_Type.BOSS挑战_挑战次数购买数_每日第x次购买 + (3 - buynum));
+            StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.BuyBossChallengeTimes, buynum);
+            var num = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.BossChallengeTimes, 0);
+            num++;
+            StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.BossChallengeTimes, num);
+        }
+        else if (this.type == 4) {
+            FollowManager_1.default.getInstance().followEvent(FollowConstants_1.Follow_Type.虚空裂缝挑战次数购买数);
+            FollowManager_1.default.getInstance().followEvent(FollowConstants_1.Follow_Type.虚空裂缝_挑战次数购买数_每日第x次购买 + (3 - buynum));
+            StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.BuyVoidCrackChallengeTimes, buynum);
+            var num = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.VoidCrackChallengeTimes, 0);
+            num++;
+            StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.VoidCrackChallengeTimes, num);
+        }
+        this.clickBtnClose();
     };
     purchasesnumbe.prototype.clickBtnClose = function () {
         GameManager_1.default.getInstance().sound_manager.playSound(AudioConstants_1.SoundIndex.click);

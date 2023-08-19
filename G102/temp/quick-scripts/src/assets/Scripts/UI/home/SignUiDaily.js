@@ -209,7 +209,7 @@ var SignUiDaily = /** @class */ (function (_super) {
             });
             cumulativeContent.addChild(item);
         });
-        this.node.getChildByName("checkBoxScroll").getChildByName("cumulativeDays").getComponent(TextLanguage_1.default).setReplaceValue('~', StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.DailySignInNum) + '');
+        this.node.getChildByName("checkBoxScroll").getChildByName("cumulativeDays").getComponent(TextLanguage_1.default).setReplaceValue('~', StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.DailySignInNum, 0) + '');
     };
     SignUiDaily.prototype.onSignInBtnClick = function () {
         var todayZero = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.TomorowZeroTimeStamp) - (60 * 60 * 24);

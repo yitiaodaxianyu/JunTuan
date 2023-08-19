@@ -47,6 +47,8 @@ var StorageKey;
     StorageKey["AutoFighting"] = "auto_fighting";
     /**英雄专武等级 */
     StorageKey["HeroExclusiveEquip"] = "Hero_Exclusive_Equip_";
+    /**是否分享过 */
+    StorageKey["SharDimo"] = "SharDimo";
     /**关卡星级 */
     StorageKey["LevelStar"] = "level_star_";
     /**下一天零点本地的时间戳值 */
@@ -109,6 +111,8 @@ var StorageKey;
     StorageKey["TaskDailyActivityState"] = "task_daily_activity_state_";
     /**任务周活跃奖励状态 */
     StorageKey["TaskWeeklyActivityState"] = "task_weekly_activity_state_";
+    /**观看视频次数计数 */
+    StorageKey["VIPADNum"] = "VIPADNum";
     /**主线任务展示进度 */
     StorageKey["TaskMainShowIndex"] = "task_main_show_index";
     /**主线任务进度 */

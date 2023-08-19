@@ -27,10 +27,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var HttpManager_1 = require(".././NetWork/HttpManager");
 var UIComponent_1 = require("../../Scripts/UI/UIComponent");
-var ApkManager_1 = require("../Ads/ApkManager");
-var Constants_1 = require("../Constants");
 var GameManager_1 = require("../GameManager");
 var FollowConstants_1 = require("../multiLanguage/FollowConstants");
 var FollowManager_1 = require("../multiLanguage/FollowManager");
@@ -47,6 +44,7 @@ var UserData_1 = require("../UserData");
 var PublicMethods_1 = require("./PublicMethods");
 var Times_1 = require("./Times");
 var TurntableInformation_1 = require("./TurntableInformation");
+var WXManagerEX_1 = require("../../startscene/WXManagerEX");
 // import WZPublic from './WZPublic';
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 /**
@@ -83,6 +81,8 @@ var Turmtable = /** @class */ (function (_super) {
         //     // [4]
         // }
     }
+    Turmtable.prototype.onDestroy = function () {
+    };
     Turmtable.prototype.initUi = function () {
         // GameManager.getInstance().music_manager.playMusic(MusicIndex.BGM_TJP);
         // FollowManager.getInstance().followEvent(Follow_Type.转盘的打开次数);
@@ -154,34 +154,80 @@ var Turmtable = /** @class */ (function (_super) {
         // cc.director
         // 15*60*1000//900
     };
+    //视频观看完成
+    Turmtable.prototype.onShipinComp = function () {
+        var num = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.TurmtableAd, 0);
+        num++;
+        StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.TurmtableAd, num);
+        FollowManager_1.default.getInstance().followEvent(FollowConstants_1.Follow_Type.转盘免费抽奖点击次数);
+        //1 20% 2 20% 3 20% 4 15% 5 15% 6 10%
+        this.startSpin(this.roundmNum(), 0);
+    };
     Turmtable.prototype.onClicbtnSpin = function (type) {
         var _this = this;
         if (type == 0) {
-            if (StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.TurmtableAd, 0) > 9) {
+            if (StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.TurmtableAd, 0) > 20) {
                 // 没次数提示100120
                 GameManager_1.default.getInstance().showMessage(LanguageManager_1.default.getInstance().getStrByTextId(1700004), 3);
             }
             else {
-                ApkManager_1.default.getInstance().showVideo((function (isTrue) {
-                    if (isTrue) {
-                        HttpManager_1.HttpManager.post(HttpManager_1.AccessName.userTurnPrize, _this.getTurnPrizeJsonString(), true).then(function (data) {
-                            // 成功
-                            var num = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.TurmtableAd, 0);
-                            num++;
-                            StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.TurmtableAd, num);
-                            FollowManager_1.default.getInstance().followEvent(FollowConstants_1.Follow_Type.转盘广告抽奖点击次数);
-                            _this.startSpin(data.index, 0);
-                        }).catch(function (err) {
-                            // 失败
-                            // console.log("失败")
-                            var num = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.TurmtableAd, 0);
-                            num++;
-                            StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.TurmtableAd, num);
-                            FollowManager_1.default.getInstance().followEvent(FollowConstants_1.Follow_Type.转盘广告抽奖点击次数);
-                            _this.startSpin(1, 0);
+                if (cc.sys.platform === cc.sys.WECHAT_GAME) {
+                    WXManagerEX_1.default.getInstance().zhuanpanShipin = wx.createRewardedVideoAd({
+                        adUnitId: 'adunit-fafe5d05ac20c01b'
+                    });
+                    WXManagerEX_1.default.getInstance().zhuanpanShipin.offError();
+                    WXManagerEX_1.default.getInstance().zhuanpanShipin.onError(function (err) {
+                        console.log(err);
+                    });
+                    WXManagerEX_1.default.getInstance().zhuanpanShipin.offClose();
+                    WXManagerEX_1.default.getInstance().zhuanpanShipin.show().catch(function () {
+                        // 失败重试
+                        WXManagerEX_1.default.getInstance().zhuanpanShipin.load()
+                            .then(function () { return WXManagerEX_1.default.getInstance().zhuanpanShipin.show(); })
+                            .catch(function (err) {
+                            GameManager_1.default.getInstance().showMessage("广告拉取失败");
                         });
-                    }
-                }), Constants_1.VIDEO_TYPE.Equip);
+                    });
+                    WXManagerEX_1.default.getInstance().zhuanpanShipin.onClose(function (res) {
+                        // 用户点击了【关闭广告】按钮
+                        // 小于 2.1.0 的基础库版本，res 是一个 undefined
+                        if (res && res.isEnded || res === undefined) {
+                            // 正常播放结束，可以下发游戏奖励
+                            _this.onShipinComp();
+                        }
+                        else {
+                            // 播放中途退出，不下发游戏奖励
+                        }
+                    });
+                }
+                else {
+                    var num = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.TurmtableAd, 0);
+                    num++;
+                    StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.TurmtableAd, num);
+                    FollowManager_1.default.getInstance().followEvent(FollowConstants_1.Follow_Type.转盘免费抽奖点击次数);
+                    //1 20% 2 20% 3 20% 4 15% 5 15% 6 10%
+                    this.startSpin(this.roundmNum(), 0);
+                }
+                // ApkManager.getInstance().showVideo(((isTrue)=>{
+                //     if(isTrue){
+                //         HttpManager.post(AccessName.userTurnPrize,this.getTurnPrizeJsonString(),true).then((data:any)=>{
+                //             // 成功
+                //             let num = TheStorageManager.getInstance().getNumber(StorageKey.TurmtableAd,0);
+                //             num++;
+                //             TheStorageManager.getInstance().setItem(StorageKey.TurmtableAd,num);
+                //             FollowManager.getInstance().followEvent(Follow_Type.转盘广告抽奖点击次数);
+                //             this.startSpin(data.index,0);
+                //         }).catch((err) =>{
+                //             // 失败
+                //             // console.log("失败")
+                //             let num = TheStorageManager.getInstance().getNumber(StorageKey.TurmtableAd,0);
+                //             num++;
+                //             TheStorageManager.getInstance().setItem(StorageKey.TurmtableAd,num);
+                //             FollowManager.getInstance().followEvent(Follow_Type.转盘广告抽奖点击次数);
+                //             this.startSpin(1,0);
+                //         });
+                //     }
+                // }),VIDEO_TYPE.Equip)
             }
         }
         else if (type == 1) {
@@ -293,6 +339,9 @@ var Turmtable = /** @class */ (function (_super) {
         GameManager_1.default.getInstance().sound_manager.playSound(AudioConstants_1.SoundIndex.click);
         EventManager_1.EventManager.postRedEvent(EventManager_1.RedEventString.RED_CHECK, EventManager_1.RedEventType.Btn_Main_Spin);
         this.onClose();
+    };
+    Turmtable.prototype.onClose = function () {
+        _super.prototype.onClose.call(this);
     };
     Turmtable.prototype.getTurnPrizeJsonString = function () {
         var uid = UserData_1.default.getInstance().getUserID();

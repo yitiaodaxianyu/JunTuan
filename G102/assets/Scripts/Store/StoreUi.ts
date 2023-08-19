@@ -1,4 +1,4 @@
-import WXManagerEX from "../../startscene/WXManagerEX";
+import WXManagerEX, { WXADEnvnt } from "../../startscene/WXManagerEX";
 import { AccessName, HttpManager } from ".././NetWork/HttpManager";
 import { CumulativeRechargesManager } from "../AccumulatedRecharge/CumulativeRecharges";
 import ApkManager from "../Ads/ApkManager";
@@ -29,6 +29,7 @@ import { TaskItem } from "../Task/TaskEnum";
 import TaskManager from "../Task/TaskManager";
 import { EventManager, RedEventString, RedEventType } from "../Tools/EventManager";
 import MyTool from "../Tools/MyTool";
+import Turmtable from "../Turntable/Turmtable";
 import TutorailsManager from "../Tutorials/TutorailsManager";
 import MainUi from "../UI/home/MainUi";
 import { UILayerLevel, UIPath } from "../UI/UIConfig";
@@ -74,6 +75,18 @@ export default class StoreUi extends cc.Component {
     private weapon_instance: cc.Node = null;
     private pet_instance: cc.Node = null;
 
+    private adItem:cc.Node=null;
+    private informationTemp:number=0;
+    private informationK:number=0;
+
+    private equipItemTemp:cc.Node=null;
+    private costIdTemp:number=0;
+    private prizeEquipDataTemp;
+
+    private vTemp;
+    private kTemp;
+
+
     protected onLoad(): void {
         this.node.on(cc.Node.EventType.POSITION_CHANGED, this.onPositionChange, this);
         cc.director.on(OnLanguageChange, this.initStore, this);
@@ -82,12 +95,19 @@ export default class StoreUi extends cc.Component {
         }
         
         this.initStore();
+
+        cc.director.on(WXADEnvnt.ZUANSHILINGQUSHIPIN, this.onShipinComp, this);
+        cc.director.on(WXADEnvnt.ZHUANGBEICHOUJIANG, this.onSHipincomp2, this);
+        cc.director.on(WXADEnvnt.ZHUANGBEICHOUJIANG, this.onShipincomp3, this);
     }
 
     protected onDestroy(): void {
         this.node.off(cc.Node.EventType.POSITION_CHANGED, this.onPositionChange, this);
         cc.director.off(OnLanguageChange, this.initStore, this);
         cc.director.off("onRefreshInstanceItem");
+        cc.director.off(WXADEnvnt.ZUANSHILINGQUSHIPIN, this.onShipinComp, this);
+        cc.director.off(WXADEnvnt.ZHUANGBEICHOUJIANG, this.onSHipincomp2, this);
+        cc.director.off(WXADEnvnt.ZHUANGBEICHOUJIANG, this.onShipincomp3, this);
     }
 
     onPositionChange() {
@@ -410,8 +430,11 @@ export default class StoreUi extends cc.Component {
             // }
 
             if (PropManager.getInstance().getPropNum(costId) < costNum) {
-                GameManager.getInstance().showMessage(LanguageManager.getInstance().getStrByTextId(100041));
-                this.node.getChildByName("scroll").getComponent(cc.ScrollView).scrollToBottom(2);
+                // GameManager.getInstance().showMessage(LanguageManager.getInstance().getStrByTextId(100041));
+                // this.node.getChildByName("scroll").getComponent(cc.ScrollView).scrollToBottom(2);
+                UIManager.getInstance().showUiDialog(UIPath.Turntable,UILayerLevel.One,{onCompleted:(uiNode)=> {
+                    uiNode.getComponent(Turmtable).initUi()
+                },});//转盘
                 return;
             }
 
@@ -480,8 +503,11 @@ export default class StoreUi extends cc.Component {
             // }
 
             if (PropManager.getInstance().getPropNum(costId) < costNum) {
-                GameManager.getInstance().showMessage(LanguageManager.getInstance().getStrByTextId(100041));
-                this.node.getChildByName("scroll").getComponent(cc.ScrollView).scrollToBottom(2);
+                // GameManager.getInstance().showMessage(LanguageManager.getInstance().getStrByTextId(100041));
+                // this.node.getChildByName("scroll").getComponent(cc.ScrollView).scrollToBottom(2);
+                UIManager.getInstance().showUiDialog(UIPath.Turntable,UILayerLevel.One,{onCompleted:(uiNode)=> {
+                    uiNode.getComponent(Turmtable).initUi()
+                },});//转盘
                 return;
             }
 
@@ -651,38 +677,44 @@ export default class StoreUi extends cc.Component {
                     item.getComponent(cc.Button).zoomScale = 0.9;
 
                     item.on(cc.Node.EventType.TOUCH_END, () => {
-                        ApkManager.getInstance().showVideo(((isTrue) => {
-                            if (isTrue) {
-                                TaskManager.getInstance().emitTask(TaskItem.商店中购买物品1次);
-                                TaskManager.getInstance().emitTask(TaskItem.前往商城购买X次商品);
-                                PropManager.getInstance().changePropNum(storeItemInfo.GetItem, storeItemInfo.GetNum);
-                                let reward = PropManager.getInstance().createPropItem(storeItemInfo.GetItem, storeItemInfo.GetNum);
-                                let num = TheStorageManager.getInstance().getNumber(StorageKey.StoreDailyShopNum + k, 0);
-                                num++;
-                                FollowManager.getInstance().followEvent(Follow_Type.在每日商店中使用广告购买钻石的次数);
-                                TheStorageManager.getInstance().setItem(StorageKey.StoreDailyShopNum + k, num);
-                                if (num >= storeItemInfo.AdPlayableTimes) {
-                                    item.getChildByName("costIcon").active = false;
-                                    item.getChildByName("free").active = false;
-                                    item.getChildByName("saleOut").zIndex = 1;
-                                    item.getChildByName("saleOut").active = true;
-                                    item.getChildByName("red").active = false;
-                                    EventManager.postRedEvent(RedEventString.RED_CHECK, RedEventType.Btn_Shop);
-                                    let type = ItemManager.getInstance().getType(storeItemInfo.GetItem)
-                                    if (type == 3) {
-                                        item.getChildByName("reward").getComponent(EquipItem).prop_action = PropAction.Null;
-                                    } else {
-                                        item.getChildByName("reward").getComponent(Prop).prop_action = PropAction.Null;
-                                    }
-                                    item.off(cc.Node.EventType.TOUCH_END);
+                        this.adItem=item;
+                        this.informationTemp=v;
+                        this.informationK=k;
+                        if (cc.sys.platform === cc.sys.WECHAT_GAME) {
+
+                  
+
+                            WXManagerEX.getInstance().zuanshiiShipin= wx.createRewardedVideoAd({
+                                adUnitId: 'adunit-47eb545f84d9750f'
+                            });
+                            WXManagerEX.getInstance().zuanshiiShipin.offError();
+            WXManagerEX.getInstance().zuanshiiShipin.onError(err => {
+                console.log(err)
+            });
+                            WXManagerEX.getInstance().zuanshiiShipin.offClose();
+                            WXManagerEX.getInstance().zuanshiiShipin.show().catch(() => {
+                                // 失败重试
+                                WXManagerEX.getInstance().zuanshiiShipin.load()
+                                    .then(() => WXManagerEX.getInstance().zuanshiiShipin.show())
+                                    .catch(err => {
+                                        GameManager.getInstance().showMessage("广告拉取失败");
+                                    })
+                            })
+                            WXManagerEX.getInstance().zuanshiiShipin.onClose(res => {
+                                // 用户点击了【关闭广告】按钮
+                                // 小于 2.1.0 的基础库版本，res 是一个 undefined
+                                if (res && res.isEnded || res === undefined) {
+                                  // 正常播放结束，可以下发游戏奖励
+                                  this.onShipinComp();
                                 }
-                                FollowManager.getInstance().followEvent(Follow_Type.每日商店中成功购买物品的次数);
-                                GameManager.getInstance().showGetTip(reward);
-                            } else {
-                                // 失败
-                                FollowManager.getInstance().followEvent(Follow_Type.每日商店中购买失败的次数);
-                            }
-                        }), VIDEO_TYPE.Gem)
+                                else {
+                                    // 播放中途退出，不下发游戏奖励
+                                }
+                            })
+                
+                        }else{
+                            this.onShipinComp();
+                        }
                     });
                 } else {
                     // 非广告商品
@@ -1018,8 +1050,11 @@ export default class StoreUi extends cc.Component {
                 }, VIDEO_TYPE.Equip)
             } else {
                 if (PropManager.getInstance().getPropNum(costId) < costNum) {
-                    GameManager.getInstance().showMessage(LanguageManager.getInstance().getStrByTextId(100041));
-                    this.node.getChildByName("scroll").getComponent(cc.ScrollView).scrollToBottom(2);
+                    // GameManager.getInstance().showMessage(LanguageManager.getInstance().getStrByTextId(100041));
+                    // this.node.getChildByName("scroll").getComponent(cc.ScrollView).scrollToBottom(2);
+                    UIManager.getInstance().showUiDialog(UIPath.Turntable,UILayerLevel.One,{onCompleted:(uiNode)=> {
+                        uiNode.getComponent(Turmtable).initUi()
+                    },});//转盘
                     return;
                 }
                 HttpManager.post(AccessName.tryPrize, this.getPrizeJsonString(1, 3, costId, costNum), true).then((data: any) => {
@@ -1092,8 +1127,11 @@ export default class StoreUi extends cc.Component {
                 costNum = prizePetData.TenDrawPropsSpend_2;
             }
             if (PropManager.getInstance().getPropNum(costId) < costNum) {
-                GameManager.getInstance().showMessage(LanguageManager.getInstance().getStrByTextId(100041));
-                this.node.getChildByName("scroll").getComponent(cc.ScrollView).scrollToBottom(2);
+                // GameManager.getInstance().showMessage(LanguageManager.getInstance().getStrByTextId(100041));
+                // this.node.getChildByName("scroll").getComponent(cc.ScrollView).scrollToBottom(2);
+                UIManager.getInstance().showUiDialog(UIPath.Turntable,UILayerLevel.One,{onCompleted:(uiNode)=> {
+                    uiNode.getComponent(Turmtable).initUi()
+                },});//转盘
                 return;
             }
             // if(IsDebug) costNum = 0;   
@@ -1185,65 +1223,54 @@ export default class StoreUi extends cc.Component {
             let oneDayTime = 60 * 60 * 24 * 1000;
             let currentTime = Date.now();
             if (TheStorageManager.getInstance().getNumber(StorageKey.StoreMysteryEquipFreeTime, 0) + oneDayTime - currentTime <= 0) {
-                // 免费
-                ApkManager.getInstance().showVideo((isTrue: boolean) => {
-                    if (isTrue) {
-                        costNum = 0;
-                        TheStorageManager.getInstance().setItem(StorageKey.StoreMysteryEquipFreeTime, currentTime);
-                        // if(PropManager.getInstance().getPropNum(prizeEquipData.OneDrawPropsID_1) >= prizeEquipData.OneDrawPropsSpend_1){
-                        //     equipItem.getChildByName("costIcon1").getComponent(cc.Sprite).spriteFrame = PropManager.getInstance().getSpByPropId(prizeEquipData.OneDrawPropsID_1);
-                        //     equipItem.getChildByName("num1").getComponent(cc.Label).string = "x" + prizeEquipData.OneDrawPropsSpend_1;
-                        // }else{
-                        //     equipItem.getChildByName("costIcon1").getComponent(cc.Sprite).spriteFrame = PropManager.getInstance().getSpByPropId(prizeEquipData.OneDrawPropsID_2);
-                        //     equipItem.getChildByName("num1").getComponent(cc.Label).string = "x" + prizeEquipData.OneDrawPropsSpend_2;
-                        // }
-                        equipBtn1.getChildByName('red').active = GameData.getInstance().getEquipFreeRedTip();
-                        EventManager.postRedEvent(RedEventString.RED_CHECK, RedEventType.Btn_Shop);
-                        equipItem.getChildByName("num1").active = true;
-                        equipItem.getChildByName("free").active = false;
-                        HttpManager.post(AccessName.tryPrize, this.getPrizeJsonString(1, 2, costId, costNum), true).then((data: any) => {
-                            if (data) {
-                                FollowManager.getInstance().followEvent(Follow_Type.记录开启1次装备的次数);
-                                TaskManager.getInstance().emitTask(TaskItem.进行1次开启装备);
-                                TaskManager.getInstance().emitTask(TaskItem.进行10次开启装备);
-                                TaskManager.getInstance().emitTask(TaskItem.累计获得X件装备);
-                                let rewardItem = PropManager.getInstance().createPropItem(data[0].dropId, data[0].dropNum);
-                                PropManager.getInstance().changePropNum(data[0].dropId, data[0].dropNum);
-                                PropManager.getInstance().saveAllPropNum();
-                                GameManager.getInstance().showGetTip(rewardItem);
-                                if (PropManager.getInstance().getPropNum(prizeEquipData.OneDrawPropsID_1) >= prizeEquipData.OneDrawPropsSpend_1) {
-                                    equipItem.getChildByName("costIcon1").getComponent(cc.Sprite).spriteFrame = PropManager.getInstance().getSpByPropId(prizeEquipData.OneDrawPropsID_1);
-                                    equipItem.getChildByName("num1").getComponent(cc.Label).string = "x" + prizeEquipData.OneDrawPropsSpend_1;
-                                } else {
-                                    equipItem.getChildByName("costIcon1").getComponent(cc.Sprite).spriteFrame = PropManager.getInstance().getSpByPropId(prizeEquipData.OneDrawPropsID_2);
-                                    equipItem.getChildByName("num1").getComponent(cc.Label).string = "x" + prizeEquipData.OneDrawPropsSpend_2;
-                                }
+                this.equipItemTemp=equipItem;
+                this.costIdTemp=costId;
+                this.prizeEquipDataTemp=prizeEquipData;
 
-                                if (PropManager.getInstance().getPropNum(prizeEquipData.OneDrawPropsID_1) >= prizeEquipData.TenDrawPropsSpend_1) {
-                                    equipItem.getChildByName("costIcon10").getComponent(cc.Sprite).spriteFrame = PropManager.getInstance().getSpByPropId(prizeEquipData.OneDrawPropsID_1);
-                                    equipItem.getChildByName("num10").getComponent(cc.Label).string = "x" + prizeEquipData.TenDrawPropsSpend_1;
-                                } else {
-                                    equipItem.getChildByName("costIcon10").getComponent(cc.Sprite).spriteFrame = PropManager.getInstance().getSpByPropId(prizeEquipData.OneDrawPropsID_2);
-                                    equipItem.getChildByName("num10").getComponent(cc.Label).string = "x" + prizeEquipData.TenDrawPropsSpend_2;
-                                }
+                if (cc.sys.platform === cc.sys.WECHAT_GAME) {
 
-                                // if(PropManager.getInstance().getPropNum(prizeEquipData.OneDrawPropsID_1) >= prizeEquipData.OneDrawPropsSpend_1){
-                                //     equipItem.getChildByName("costIcon1").getComponent(cc.Sprite).spriteFrame = PropManager.getInstance().getSpByPropId(prizeEquipData.OneDrawPropsID_1);
-                                //     equipItem.getChildByName("num1").getComponent(cc.Label).string = "x" + prizeEquipData.OneDrawPropsSpend_1;
-                                // }else{
-                                //     equipItem.getChildByName("costIcon1").getComponent(cc.Sprite).spriteFrame = PropManager.getInstance().getSpByPropId(prizeEquipData.OneDrawPropsID_2);
-                                //     equipItem.getChildByName("num1").getComponent(cc.Label).string = "x" + prizeEquipData.OneDrawPropsSpend_2;
-                                // }
-                            }
-                        });
-                    } else {
-                        GameManager.getInstance().showMessage(LanguageManager.getInstance().getStrByTextId(1));
-                    }
-                }, VIDEO_TYPE.Equip)
+              
+
+                    WXManagerEX.getInstance().zhuangbeikuShipin= wx.createRewardedVideoAd({
+                        adUnitId: 'adunit-439ef5ec33dfa530'
+                    });
+                    WXManagerEX.getInstance().zhuangbeikuShipin.offError();
+                            WXManagerEX.getInstance().zhuangbeikuShipin.onError(err => {
+                                console.log(err)
+                            });
+
+                    WXManagerEX.getInstance().zhuangbeikuShipin.offClose();
+                    WXManagerEX.getInstance().zhuangbeikuShipin.show().catch(() => {
+                        // 失败重试
+                        WXManagerEX.getInstance().zhuangbeikuShipin.load()
+                            .then(() => WXManagerEX.getInstance().zhuangbeikuShipin.show())
+                            .catch(err => {
+                                GameManager.getInstance().showMessage("广告拉取失败");
+                            })
+                    })
+                    WXManagerEX.getInstance().zhuangbeikuShipin.onClose(res => {
+                        // 用户点击了【关闭广告】按钮
+                        // 小于 2.1.0 的基础库版本，res 是一个 undefined
+                        if (res && res.isEnded || res === undefined) {
+                          // 正常播放结束，可以下发游戏奖励
+                          this.onSHipincomp2();
+                        }
+                        else {
+                            // 播放中途退出，不下发游戏奖励
+                        }
+                    })
+        
+                }else{
+                    this.onSHipincomp2();
+                }
+
             } else {
                 if (PropManager.getInstance().getPropNum(costId) < costNum) {
-                    GameManager.getInstance().showMessage(LanguageManager.getInstance().getStrByTextId(100041));
-                    this.node.getChildByName("scroll").getComponent(cc.ScrollView).scrollToBottom(2);
+                    // GameManager.getInstance().showMessage(LanguageManager.getInstance().getStrByTextId(100041));
+                    // this.node.getChildByName("scroll").getComponent(cc.ScrollView).scrollToBottom(2);
+                    UIManager.getInstance().showUiDialog(UIPath.Turntable,UILayerLevel.One,{onCompleted:(uiNode)=> {
+                        uiNode.getComponent(Turmtable).initUi()
+                    },});//转盘
                     return;
                 }
                 HttpManager.post(AccessName.tryPrize, this.getPrizeJsonString(1, 2, costId, costNum), true).then((data: any) => {
@@ -1315,8 +1342,11 @@ export default class StoreUi extends cc.Component {
             }
 
             if (PropManager.getInstance().getPropNum(costId) < costNum) {
-                GameManager.getInstance().showMessage(LanguageManager.getInstance().getStrByTextId(100041));
-                this.node.getChildByName("scroll").getComponent(cc.ScrollView).scrollToBottom(2);
+                // GameManager.getInstance().showMessage(LanguageManager.getInstance().getStrByTextId(100041));
+                // this.node.getChildByName("scroll").getComponent(cc.ScrollView).scrollToBottom(2);
+                UIManager.getInstance().showUiDialog(UIPath.Turntable,UILayerLevel.One,{onCompleted:(uiNode)=> {
+                    uiNode.getComponent(Turmtable).initUi()
+                },});//转盘
                 return;
             }
 
@@ -1503,25 +1533,43 @@ export default class StoreUi extends cc.Component {
             item.on(cc.Node.EventType.TOUCH_END, () => {
                 if (v.AdReward == 1) {
                     if (Number(TheStorageManager.getInstance().getInt(StorageKey.StoreCoinItem + k, 0)) < v.AdPlayableTimes) {
-                        ApkManager.getInstance().showVideo(((isTrue) => {
-                            if (isTrue) {
-                                TaskManager.getInstance().emitTask(TaskItem.购买1次商店中的金币);
-                                FollowManager.getInstance().followEvent(Follow_Type.x金币点击购买次数 + v.CoinPurchaseID);
-                                PropManager.getInstance().changePropNum(PropId.Coin, v.GetCoinNum);
-                                let reward = PropManager.getInstance().createPropItem(PropId.Coin, v.GetCoinNum);
-                                let num = TheStorageManager.getInstance().getInt(StorageKey.StoreCoinItem + k, 0) + 1;
-                                TheStorageManager.getInstance().setItem(StorageKey.StoreCoinItem + k, num)
-                                GameManager.getInstance().showGetTip(reward);
-                                if (num >= v.AdPlayableTimes) {
-                                    item.getChildByName("costIcon").getComponent(cc.Sprite).spriteFrame = PropManager.getInstance().getSpByPropId(PropId.Gem);
-                                    item.getChildByName("num").active = true;
-                                    item.getChildByName("num").getComponent(cc.Label).string = 'x' + v.ConsumeDiamondsNum;
-                                    item.getChildByName("text").active = false;
-                                    item.getChildByName('red').active = false;
-                                    EventManager.postRedEvent(RedEventString.RED_CHECK, RedEventType.Btn_Shop);
+                      
+                        this.vTemp=v;
+                        this.adItem=item;
+                        this.kTemp=k;
+                        if (cc.sys.platform === cc.sys.WECHAT_GAME) {
+
+                            WXManagerEX.getInstance().jinbiShipin = wx.createRewardedVideoAd({
+                                adUnitId: 'adunit-bc7e10a7320316d1'
+                            });
+                            WXManagerEX.getInstance().jinbiShipin.offError();
+                            WXManagerEX.getInstance().jinbiShipin.onError(err => {
+                                console.log(err)
+                            });
+                            WXManagerEX.getInstance().jinbiShipin.offClose();
+                            WXManagerEX.getInstance().jinbiShipin.show().catch(() => {
+                                // 失败重试
+                                WXManagerEX.getInstance().jinbiShipin.load()
+                                    .then(() => WXManagerEX.getInstance().jinbiShipin.show())
+                                    .catch(err => {
+                                        GameManager.getInstance().showMessage("广告拉取失败");
+                                    })
+                            })
+                            WXManagerEX.getInstance().jinbiShipin.onClose(res => {
+                                // 用户点击了【关闭广告】按钮
+                                // 小于 2.1.0 的基础库版本，res 是一个 undefined
+                                if (res && res.isEnded || res === undefined) {
+                                  // 正常播放结束，可以下发游戏奖励
+                                  this.onShipincomp3();
                                 }
-                            }
-                        }), VIDEO_TYPE.Coin)
+                                else {
+                                    // 播放中途退出，不下发游戏奖励
+                                }
+                            })
+                
+                        }else{
+                            this.onShipincomp3();
+                        }
                     } else {
                         if (PropManager.getInstance().changePropNum(PropId.Gem, -v.ConsumeDiamondsNum)) {
                             TaskManager.getInstance().emitTask(TaskItem.购买1次商店中的金币);
@@ -1599,6 +1647,111 @@ export default class StoreUi extends cc.Component {
 
 
     }
+    private onShipincomp3():void{
+
+        TaskManager.getInstance().emitTask(TaskItem.购买1次商店中的金币);
+        FollowManager.getInstance().followEvent(Follow_Type.x金币点击购买次数 + this.vTemp.CoinPurchaseID);
+        PropManager.getInstance().changePropNum(PropId.Coin, this.vTemp.GetCoinNum);
+        let reward = PropManager.getInstance().createPropItem(PropId.Coin,this.vTemp.GetCoinNum);
+        let num = TheStorageManager.getInstance().getInt(StorageKey.StoreCoinItem + this.kTemp, 0) + 1;
+        TheStorageManager.getInstance().setItem(StorageKey.StoreCoinItem + this.kTemp, num)
+        GameManager.getInstance().showGetTip(reward);
+        if (num >= this.vTemp.AdPlayableTimes) {
+            this.adItem.getChildByName("costIcon").getComponent(cc.Sprite).spriteFrame = PropManager.getInstance().getSpByPropId(PropId.Gem);
+            this.adItem.getChildByName("num").active = true;
+            this.adItem.getChildByName("num").getComponent(cc.Label).string = 'x' + this.vTemp.ConsumeDiamondsNum;
+            this.adItem.getChildByName("text").active = false;
+            this.adItem.getChildByName('red').active = false;
+            EventManager.postRedEvent(RedEventString.RED_CHECK, RedEventType.Btn_Shop);
+        }
+
+
+
+
+
+       
+    }
+    private onSHipincomp2():void{
+        var costNum = 0;
+        let currentTime = Date.now();
+        TheStorageManager.getInstance().setItem(StorageKey.StoreMysteryEquipFreeTime, currentTime);
+        // if(PropManager.getInstance().getPropNum(prizeEquipData.OneDrawPropsID_1) >= prizeEquipData.OneDrawPropsSpend_1){
+        //     equipItem.getChildByName("costIcon1").getComponent(cc.Sprite).spriteFrame = PropManager.getInstance().getSpByPropId(prizeEquipData.OneDrawPropsID_1);
+        //     equipItem.getChildByName("num1").getComponent(cc.Label).string = "x" + prizeEquipData.OneDrawPropsSpend_1;
+        // }else{
+        //     equipItem.getChildByName("costIcon1").getComponent(cc.Sprite).spriteFrame = PropManager.getInstance().getSpByPropId(prizeEquipData.OneDrawPropsID_2);
+        //     equipItem.getChildByName("num1").getComponent(cc.Label).string = "x" + prizeEquipData.OneDrawPropsSpend_2;
+        // }
+        let equipBtn1 = this.equipItemTemp.getChildByName("btn1");
+        equipBtn1.getChildByName('red').active = GameData.getInstance().getEquipFreeRedTip();
+        EventManager.postRedEvent(RedEventString.RED_CHECK, RedEventType.Btn_Shop);
+        this.equipItemTemp.getChildByName("num1").active = true;
+        this.equipItemTemp.getChildByName("free").active = false;
+        HttpManager.post(AccessName.tryPrize, this.getPrizeJsonString(1, 2, this.costIdTemp, costNum), true).then((data: any) => {
+            if (data) {
+                FollowManager.getInstance().followEvent(Follow_Type.记录开启1次装备的次数);
+                TaskManager.getInstance().emitTask(TaskItem.进行1次开启装备);
+                TaskManager.getInstance().emitTask(TaskItem.进行10次开启装备);
+                TaskManager.getInstance().emitTask(TaskItem.累计获得X件装备);
+                let rewardItem = PropManager.getInstance().createPropItem(data[0].dropId, data[0].dropNum);
+                PropManager.getInstance().changePropNum(data[0].dropId, data[0].dropNum);
+                PropManager.getInstance().saveAllPropNum();
+                GameManager.getInstance().showGetTip(rewardItem);
+                if (PropManager.getInstance().getPropNum(this.prizeEquipDataTemp.OneDrawPropsID_1) >= this.prizeEquipDataTemp.OneDrawPropsSpend_1) {
+                    this.equipItemTemp.getChildByName("costIcon1").getComponent(cc.Sprite).spriteFrame = PropManager.getInstance().getSpByPropId(this.prizeEquipDataTemp.OneDrawPropsID_1);
+                    this.equipItemTemp.getChildByName("num1").getComponent(cc.Label).string = "x" + this.prizeEquipDataTemp.OneDrawPropsSpend_1;
+                } else {
+                    this.equipItemTemp.getChildByName("costIcon1").getComponent(cc.Sprite).spriteFrame = PropManager.getInstance().getSpByPropId(this.prizeEquipDataTemp.OneDrawPropsID_2);
+                    this.equipItemTemp.getChildByName("num1").getComponent(cc.Label).string = "x" + this.prizeEquipDataTemp.OneDrawPropsSpend_2;
+                }
+
+                if (PropManager.getInstance().getPropNum(this.prizeEquipDataTemp.OneDrawPropsID_1) >= this.prizeEquipDataTemp.TenDrawPropsSpend_1) {
+                    this.equipItemTemp.getChildByName("costIcon10").getComponent(cc.Sprite).spriteFrame = PropManager.getInstance().getSpByPropId(this.prizeEquipDataTemp.OneDrawPropsID_1);
+                    this.equipItemTemp.getChildByName("num10").getComponent(cc.Label).string = "x" + this.prizeEquipDataTemp.TenDrawPropsSpend_1;
+                } else {
+                    this.equipItemTemp.getChildByName("costIcon10").getComponent(cc.Sprite).spriteFrame = PropManager.getInstance().getSpByPropId(this.prizeEquipDataTemp.OneDrawPropsID_2);
+                    this.equipItemTemp.getChildByName("num10").getComponent(cc.Label).string = "x" + this.prizeEquipDataTemp.TenDrawPropsSpend_2;
+                }
+
+                // if(PropManager.getInstance().getPropNum(prizeEquipData.OneDrawPropsID_1) >= prizeEquipData.OneDrawPropsSpend_1){
+                //     equipItem.getChildByName("costIcon1").getComponent(cc.Sprite).spriteFrame = PropManager.getInstance().getSpByPropId(prizeEquipData.OneDrawPropsID_1);
+                //     equipItem.getChildByName("num1").getComponent(cc.Label).string = "x" + prizeEquipData.OneDrawPropsSpend_1;
+                // }else{
+                //     equipItem.getChildByName("costIcon1").getComponent(cc.Sprite).spriteFrame = PropManager.getInstance().getSpByPropId(prizeEquipData.OneDrawPropsID_2);
+                //     equipItem.getChildByName("num1").getComponent(cc.Label).string = "x" + prizeEquipData.OneDrawPropsSpend_2;
+                // }
+            }
+        });
+    }
+    private onShipinComp():void{
+        let storeItemInfo = CommodityInformationManager.getInstance().getJsonCommodityInformation(this.informationTemp)
+        TaskManager.getInstance().emitTask(TaskItem.商店中购买物品1次);
+        TaskManager.getInstance().emitTask(TaskItem.前往商城购买X次商品);
+        PropManager.getInstance().changePropNum(storeItemInfo.GetItem, storeItemInfo.GetNum);
+        let reward = PropManager.getInstance().createPropItem(storeItemInfo.GetItem, storeItemInfo.GetNum);
+        let num = TheStorageManager.getInstance().getNumber(StorageKey.StoreDailyShopNum + this.informationK, 0);
+        num++;
+        FollowManager.getInstance().followEvent(Follow_Type.在每日商店中使用广告购买钻石的次数);
+        TheStorageManager.getInstance().setItem(StorageKey.StoreDailyShopNum + this.informationK, num);
+        if (num >= storeItemInfo.AdPlayableTimes) {
+            this.adItem.getChildByName("costIcon").active = false;
+            this.adItem.getChildByName("free").active = false;
+            this.adItem.getChildByName("saleOut").zIndex = 1;
+            this.adItem.getChildByName("saleOut").active = true;
+            this.adItem.getChildByName("red").active = false;
+            EventManager.postRedEvent(RedEventString.RED_CHECK, RedEventType.Btn_Shop);
+            let type = ItemManager.getInstance().getType(storeItemInfo.GetItem)
+            if (type == 3) {
+                this.adItem.getChildByName("reward").getComponent(EquipItem).prop_action = PropAction.Null;
+            } else {
+                this.adItem.getChildByName("reward").getComponent(Prop).prop_action = PropAction.Null;
+            }
+            this.adItem.off(cc.Node.EventType.TOUCH_END);
+        }
+        FollowManager.getInstance().followEvent(Follow_Type.每日商店中成功购买物品的次数);
+        GameManager.getInstance().showGetTip(reward);
+    }
+    
     // item:cc.Node,v:JsonDiamondsRecharge
     onGemBtnClick(e, id: string) {
         let item = this.node.getChildByName("scroll").getComponent(cc.ScrollView).content.getChildByName("gemRoot").getChildByName("gem" + id);

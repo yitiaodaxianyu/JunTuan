@@ -1463,6 +1463,10 @@ var Monster = /** @class */ (function (_super) {
             }
         }
     };
+    Monster.prototype.dieByfuhuo = function () {
+        this.setEnemyState(EnemyConfig_1.Enemy_State.move);
+        this.changeHp(-9999999999);
+    };
     Monster.prototype.onCollisionShip = function () {
         var md = new MonsterData_1.MonsterAttData();
         md.damage_type = HeroConfig_1.DamageType.Ship;

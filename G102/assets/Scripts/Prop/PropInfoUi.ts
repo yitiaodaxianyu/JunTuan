@@ -8,6 +8,9 @@ import { PropAction, PropData, PropId } from "./PropConfig";
 import MyTool from "../Tools/MyTool";
 import PressButton from "../Tools/PressButton";
 import { OfflineRevenueManager } from "../JsonData/OfflineRevenue";
+import Turmtable from "../Turntable/Turmtable";
+import { UIPath, UILayerLevel } from "../UI/UIConfig";
+import { UIManager } from "../UI/UIManager";
 
 
 const {ccclass, property} = cc._decorator;
@@ -187,7 +190,10 @@ export default class PropInfoUi extends UIComponent {
             }
             super.onClose();
         }else{
-            GameManager.getInstance().showMessage(LanguageManager.getInstance().getStrByTextId(100041));
+            //GameManager.getInstance().showMessage(LanguageManager.getInstance().getStrByTextId(100041));
+            UIManager.getInstance().showUiDialog(UIPath.Turntable,UILayerLevel.One,{onCompleted:(uiNode)=> {
+                uiNode.getComponent(Turmtable).initUi()
+            },});//转盘
         }        
     }
 

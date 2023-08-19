@@ -23,11 +23,12 @@ import { StorageKey } from "./Storage/StorageConfig";
 import { TheStorageManager } from "./Storage/StorageManager";
 import { DiamondsRechargeManager, JsonDiamondsRecharge } from "./Store/DiamondsRecharge";
 import UIComponent from "./UI/UIComponent";
-import { UILayerLevel } from "./UI/UIConfig";
+import { UILayerLevel, UIPath } from "./UI/UIConfig";
 import { UiAction } from "./UI/UiInterface";
 import { UIManager } from "./UI/UIManager";
 import UserData from "./UserData";
 import { UserInfo } from "./UserInfo/UserInfo";
+import Turmtable from "./Turntable/Turmtable";
 
 const {ccclass, property} = cc._decorator;
 
@@ -52,7 +53,9 @@ export default class CoinPop extends UIComponent {
 
     num:number=20000//10000
     initUi(type) {
-        GameManager.getInstance().showMessage(LanguageManager.getInstance().getStrByTextId(100041));
+        UIManager.getInstance().showUiDialog(UIPath.Turntable,UILayerLevel.One,{onCompleted:(uiNode)=> {
+            uiNode.getComponent(Turmtable).initUi()
+        },});//转盘
         this.onClose();
         return;
         FollowManager.getInstance().followEvent(Follow_Type.资源不足弹窗弹出次数);

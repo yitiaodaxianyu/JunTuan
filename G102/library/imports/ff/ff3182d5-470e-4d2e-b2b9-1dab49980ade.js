@@ -23,9 +23,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+var WXManagerEX_1 = require("../../../startscene/WXManagerEX");
 var ApkManager_1 = require("../../Ads/ApkManager");
 var CoinPop_1 = require("../../CoinPop");
-var Constants_1 = require("../../Constants");
 var GameManager_1 = require("../../GameManager");
 var OfflineRevenue_1 = require("../../JsonData/OfflineRevenue");
 var FollowConstants_1 = require("../../multiLanguage/FollowConstants");
@@ -69,7 +69,7 @@ var FastGuaJiUi = /** @class */ (function (_super) {
         bg.on(cc.Node.EventType.TOUCH_START, function () {
             _this.clickBtnClose();
         }, this);
-        ApkManager_1.default.getInstance().showBanner();
+        cc.director.on(WXManagerEX_1.WXADEnvnt.KUAISUGUAJISHIPIN, this.onShipinComp, this);
     };
     // onLoad(): void {
     //     super.onLoad();
@@ -172,15 +172,86 @@ var FastGuaJiUi = /** @class */ (function (_super) {
     };
     FastGuaJiUi.prototype.clickBtnAd = function () {
         var _this = this;
-        ApkManager_1.default.getInstance().showVideo((function (isTrue) {
-            if (isTrue) {
-                FollowManager_1.default.getInstance().followEvent(FollowConstants_1.Follow_Type.快速挂机广告按钮点击);
-                GameManager_1.default.getInstance().refreshGemShow();
-                TaskManager_1.default.getInstance().emitTask(TaskEnum_1.TaskItem.领取挂机奖励2次);
+        if (cc.sys.platform === cc.sys.WECHAT_GAME) {
+            WXManagerEX_1.default.getInstance().kuaisuGuajiShipin = wx.createRewardedVideoAd({
+                adUnitId: 'adunit-e66e307225f3960f'
+            });
+            WXManagerEX_1.default.getInstance().kuaisuGuajiShipin.offError();
+            WXManagerEX_1.default.getInstance().kuaisuGuajiShipin.onError(function (err) {
+                console.log(err);
+            });
+            WXManagerEX_1.default.getInstance().kuaisuGuajiShipin.offClose();
+            WXManagerEX_1.default.getInstance().kuaisuGuajiShipin.show().catch(function () {
+                // 失败重试
+                WXManagerEX_1.default.getInstance().kuaisuGuajiShipin.load()
+                    .then(function () { return WXManagerEX_1.default.getInstance().kuaisuGuajiShipin.show(); })
+                    .catch(function (err) {
+                    GameManager_1.default.getInstance().showMessage("广告拉取失败");
+                });
+            });
+            WXManagerEX_1.default.getInstance().kuaisuGuajiShipin.onClose(function (res) {
+                // 用户点击了【关闭广告】按钮
+                // 小于 2.1.0 的基础库版本，res 是一个 undefined
+                if (res && res.isEnded || res === undefined) {
+                    // 正常播放结束，可以下发游戏奖励
+                    _this.onShipinComp();
+                }
+                else {
+                    // 播放中途退出，不下发游戏奖励
+                }
+            });
+        }
+        else {
+            this.onShipinComp();
+        }
+    };
+    FastGuaJiUi.prototype.onShipinComp = function () {
+        FollowManager_1.default.getInstance().followEvent(FollowConstants_1.Follow_Type.快速挂机广告按钮点击);
+        GameManager_1.default.getInstance().refreshGemShow();
+        TaskManager_1.default.getInstance().emitTask(TaskEnum_1.TaskItem.领取挂机奖励2次);
+        TaskManager_1.default.getInstance().emitTask(TaskEnum_1.TaskItem.领取快速挂机1次);
+        // TheStorageManager.getInstance().setItem(StorageKey.CanFastOffline,1);
+        // GameData.getInstance().saveFastGuaJiNum(gemNum-1);
+        this.showRemainingNum();
+        var rewardDatas = OfflineRevenue_1.OfflineRevenueManager.getInstance().getRewards(5 * 60);
+        var rewardMap = new Map();
+        rewardDatas.forEach(function (v, k) {
+            if (rewardMap.has(v.reward_id)) {
+                var num = rewardMap.get(v.reward_id);
+                num += v.reward_num;
+                rewardMap.set(v.reward_id, num);
+            }
+            else {
+                rewardMap.set(v.reward_id, v.reward_num);
+            }
+        });
+        var rdNodes = new Array();
+        rewardMap.forEach(function (num, id) {
+            var item = PropManager_1.PropManager.getInstance().createPropItem(id, num);
+            PropManager_1.PropManager.getInstance().changePropNum(id, num);
+            rdNodes.push(item);
+        });
+        // for(let i=0; i<rewardDatas.length; i++){
+        //     let rd=rewardDatas[i];
+        //     let item=PropManager.getInstance().createPropItem(rd.reward_id,rd.reward_num);
+        //     PropManager.getInstance().changePropNum(rd.reward_id,rd.reward_num);
+        //     rdNodes.push(item);
+        // }
+        GameManager_1.default.getInstance().showMultipleGetTip(rdNodes);
+        StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.CanAdFastOffline, 1);
+        this.node.getChildByName("btnRoot").getChildByName("ad").active = false;
+        EventManager_1.EventManager.postRedEvent(EventManager_1.RedEventString.RED_TIP, EventManager_1.RedEventType.Btn_Main_Guaji_Btn_Fast, false);
+    };
+    FastGuaJiUi.prototype.clickBtnFast = function () {
+        GameManager_1.default.getInstance().sound_manager.playSound(AudioConstants_1.SoundIndex.click);
+        if (StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.CanFastOffline, 0) == 0) {
+            if (PropManager_1.PropManager.getInstance().changePropNum(PropConfig_1.PropId.Gem, -200)) {
+                // FollowManager.getInstance().addTotal(Follow_Type.快速挂机消耗的钻石数量,costGem);
+                StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.CanFastOffline, 1);
                 TaskManager_1.default.getInstance().emitTask(TaskEnum_1.TaskItem.领取快速挂机1次);
-                // TheStorageManager.getInstance().setItem(StorageKey.CanFastOffline,1);
+                TaskManager_1.default.getInstance().emitTask(TaskEnum_1.TaskItem.领取挂机奖励2次);
                 // GameData.getInstance().saveFastGuaJiNum(gemNum-1);
-                _this.showRemainingNum();
+                this.showRemainingNum();
                 var rewardDatas = OfflineRevenue_1.OfflineRevenueManager.getInstance().getRewards(5 * 60);
                 var rewardMap_1 = new Map();
                 rewardDatas.forEach(function (v, k) {
@@ -199,47 +270,6 @@ var FastGuaJiUi = /** @class */ (function (_super) {
                     PropManager_1.PropManager.getInstance().changePropNum(id, num);
                     rdNodes_1.push(item);
                 });
-                // for(let i=0; i<rewardDatas.length; i++){
-                //     let rd=rewardDatas[i];
-                //     let item=PropManager.getInstance().createPropItem(rd.reward_id,rd.reward_num);
-                //     PropManager.getInstance().changePropNum(rd.reward_id,rd.reward_num);
-                //     rdNodes.push(item);
-                // }
-                GameManager_1.default.getInstance().showMultipleGetTip(rdNodes_1);
-                StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.CanAdFastOffline, 1);
-                _this.node.getChildByName("btnRoot").getChildByName("ad").active = false;
-                EventManager_1.EventManager.postRedEvent(EventManager_1.RedEventString.RED_TIP, EventManager_1.RedEventType.Btn_Main_Guaji_Btn_Fast, false);
-            }
-        }), Constants_1.VIDEO_TYPE.Coin);
-    };
-    FastGuaJiUi.prototype.clickBtnFast = function () {
-        GameManager_1.default.getInstance().sound_manager.playSound(AudioConstants_1.SoundIndex.click);
-        if (StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.CanFastOffline, 0) == 0) {
-            if (PropManager_1.PropManager.getInstance().changePropNum(PropConfig_1.PropId.Gem, -200)) {
-                // FollowManager.getInstance().addTotal(Follow_Type.快速挂机消耗的钻石数量,costGem);
-                StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.CanFastOffline, 1);
-                TaskManager_1.default.getInstance().emitTask(TaskEnum_1.TaskItem.领取快速挂机1次);
-                TaskManager_1.default.getInstance().emitTask(TaskEnum_1.TaskItem.领取挂机奖励2次);
-                // GameData.getInstance().saveFastGuaJiNum(gemNum-1);
-                this.showRemainingNum();
-                var rewardDatas = OfflineRevenue_1.OfflineRevenueManager.getInstance().getRewards(5 * 60);
-                var rewardMap_2 = new Map();
-                rewardDatas.forEach(function (v, k) {
-                    if (rewardMap_2.has(v.reward_id)) {
-                        var num = rewardMap_2.get(v.reward_id);
-                        num += v.reward_num;
-                        rewardMap_2.set(v.reward_id, num);
-                    }
-                    else {
-                        rewardMap_2.set(v.reward_id, v.reward_num);
-                    }
-                });
-                var rdNodes_2 = new Array();
-                rewardMap_2.forEach(function (num, id) {
-                    var item = PropManager_1.PropManager.getInstance().createPropItem(id, num);
-                    PropManager_1.PropManager.getInstance().changePropNum(id, num);
-                    rdNodes_2.push(item);
-                });
                 // let rdNodes=new Array();
                 // for(let i=0; i<rewardDatas.length; i++){
                 //     let rd=rewardDatas[i];
@@ -247,7 +277,7 @@ var FastGuaJiUi = /** @class */ (function (_super) {
                 //     PropManager.getInstance().changePropNum(rd.reward_id,rd.reward_num);
                 //     rdNodes.push(item);
                 // }
-                GameManager_1.default.getInstance().showMultipleGetTip(rdNodes_2);
+                GameManager_1.default.getInstance().showMultipleGetTip(rdNodes_1);
                 // GameManager.getInstance().refreshGemShow();
             }
             else {
@@ -314,6 +344,7 @@ var FastGuaJiUi = /** @class */ (function (_super) {
         this.unschedule(this.showRemainTime);
         _super.prototype.onClose.call(this);
         ApkManager_1.default.getInstance().closeBanner();
+        cc.director.on(WXManagerEX_1.WXADEnvnt.KUAISUGUAJISHIPIN, this.onShipinComp, this);
     };
     FastGuaJiUi = __decorate([
         ccclass

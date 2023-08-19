@@ -189,7 +189,7 @@ export default class SignUiDaily extends UIComponent {
 
             cumulativeContent.addChild(item);
         });
-        this.node.getChildByName("checkBoxScroll").getChildByName("cumulativeDays").getComponent(TextLanguage).setReplaceValue('~',TheStorageManager.getInstance().getNumber(StorageKey.DailySignInNum) + '');
+        this.node.getChildByName("checkBoxScroll").getChildByName("cumulativeDays").getComponent(TextLanguage).setReplaceValue('~',TheStorageManager.getInstance().getNumber(StorageKey.DailySignInNum,0) + '');
     }
 
     onSignInBtnClick(){

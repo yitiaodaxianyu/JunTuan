@@ -1,3 +1,4 @@
+import WXManagerEX from "../../../startscene/WXManagerEX";
 import AccumulatedRechargeUi from "../../AccumulatedRecharge/AccumulatedRechargeUi";
 import { FuncType } from "../../Constants";
 import MergeUi from "../../Equipment/Ui/MergeUi";
@@ -64,11 +65,17 @@ export default class FuncTypeBtn extends cc.Component {
         //         this.node.active = true;
         //         return true;
         //     }
-            if( TheStorageManager.getInstance().getNumber(StorageKey.FirstPayGetState,0) == 1){
-                return false;
+            if(TheStorageManager.getInstance().getNumber(StorageKey.SharDimo,0)==0){
+                return true;
             }else{
-                return isShow;
+                return false;
             }
+           
+            // if( TheStorageManager.getInstance().getNumber(StorageKey.FirstPayGetState,0) == 1){
+            //     return false;
+            // }else{
+            //     return isShow;
+            // }
         }
         else if(this.func_type==FuncType.AccumulatedRecharge||this.func_type==FuncType.WeekCard){
             return isShow;
@@ -93,7 +100,7 @@ export default class FuncTypeBtn extends cc.Component {
 
     onClick(){
         GameManager.getInstance().sound_manager.playSound(SoundIndex.click);
-        if(!FunctionDefinitionManager.getInstance().getIsUnlock(this.func_type)){
+        if(!FunctionDefinitionManager.getInstance().getIsUnlock(this.func_type)&&this.func_type!=26){
             let type=FunctionDefinitionManager.getInstance().getUnlockConditionType(this.func_type)
             let num=FunctionDefinitionManager.getInstance().getUnlockCondictionParameter(this.func_type)
             if(type==1){
@@ -203,15 +210,31 @@ export default class FuncTypeBtn extends cc.Component {
                 um.showPayUi(null,1);
             } break;
             case FuncType.FirstCharge:{
-                FollowManager.getInstance().followEvent(Follow_Type.主页首充礼包点击次数);
-                UIManager.getInstance().showUiDialog(UIPath.FirstCharge,UILayerLevel.One,{onCompleted:(uiNode)=> {
-                    uiNode.getComponent(PayFirstChargeUi).init({
-                        onClose:() => {
-                            let mainUi=cc.find("Canvas/main_ui").getComponent(MainUi);
-                            mainUi.refreshLeft();
-                        }
-                    });
-                },});
+
+
+
+                WXManagerEX.getInstance().shareAppMessage();
+                WXManagerEX.getInstance().sharFlag=true;
+                TheStorageManager.getInstance().setItem(StorageKey.SharDimo,1);
+                if (cc.sys.platform === cc.sys.WECHAT_GAME) {
+                    this.scheduleOnce(()=>{
+                        cc.director.emit("OnSharBack");
+                    },2);
+                    
+                }else{
+                    this.scheduleOnce(()=>{
+                        cc.director.emit("OnSharBack");
+                    },2);
+                }
+                // FollowManager.getInstance().followEvent(Follow_Type.主页首充礼包点击次数);
+                // UIManager.getInstance().showUiDialog(UIPath.FirstCharge,UILayerLevel.One,{onCompleted:(uiNode)=> {
+                //     uiNode.getComponent(PayFirstChargeUi).init({
+                //         onClose:() => {
+                //             let mainUi=cc.find("Canvas/main_ui").getComponent(MainUi);
+                //             mainUi.refreshLeft();
+                //         }
+                //     });
+                // },});
             }break;
             case FuncType.ZhuanPan:{
                 FollowManager.getInstance().followEvent(Follow_Type.转盘的打开次数);

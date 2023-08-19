@@ -4407,6 +4407,7 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
+    "_spriteFrame": null,
     "_type": 0,
     "_sizeMode": 1,
     "_fillType": 0,
@@ -21986,7 +21987,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 188,
-      "height": 131
+      "height": 269
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -22040,7 +22041,7 @@
         "__id__": 493
       }
     ],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 495
@@ -22276,8 +22277,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "首充特惠",
-    "_N$string": "首充特惠",
+    "_string": "分享得钻",
+    "_N$string": "分享得钻",
     "_fontSize": 28,
     "_lineHeight": 24,
     "_enableWrapText": true,
@@ -22578,7 +22579,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        -56,
+        -194,
         0,
         0,
         0,
@@ -23559,7 +23560,7 @@
     "_layoutSize": {
       "__type__": "cc.Size",
       "width": 188,
-      "height": 131
+      "height": 269
     },
     "_resize": 1,
     "_N$layoutType": 2,

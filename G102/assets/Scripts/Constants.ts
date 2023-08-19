@@ -73,7 +73,7 @@ export enum FuncType{
     ChongWuXiTong = 23,
     MiGong=24,//冰河探险
     NeiGou=25,
-    FirstCharge = 26,
+    FirstCharge = 26,//充值没用了，暂时用做分享
     ZhuanPan = 3,
     VIP = 29,
     AccumulatedRecharge = 30,

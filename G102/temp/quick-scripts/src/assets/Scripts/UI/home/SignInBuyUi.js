@@ -23,17 +23,18 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+var WXManagerEX_1 = require("../../../startscene/WXManagerEX");
 var HttpManager_1 = require("../.././NetWork/HttpManager");
-var ApkManager_1 = require("../../Ads/ApkManager");
 var GameManager_1 = require("../../GameManager");
 var SignIn_1 = require("../../JsonData/SignIn");
 var FollowConstants_1 = require("../../multiLanguage/FollowConstants");
 var FollowManager_1 = require("../../multiLanguage/FollowManager");
-var PayManager_1 = require("../../Payment/PayManager");
+var LanguageManager_1 = require("../../multiLanguage/LanguageManager");
 var PropManager_1 = require("../../Prop/PropManager");
 var AudioConstants_1 = require("../../Sound/AudioConstants");
 var StorageConfig_1 = require("../../Storage/StorageConfig");
 var StorageManager_1 = require("../../Storage/StorageManager");
+var EventManager_1 = require("../../Tools/EventManager");
 var UserData_1 = require("../../UserData");
 var UIComponent_1 = require("../UIComponent");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -50,96 +51,185 @@ var SignInBuyUi = /** @class */ (function (_super) {
         this.refreshUi();
     };
     SignInBuyUi.prototype.refreshUi = function () {
-        var index = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.NewPlayerSavenDaySignInNum, 0);
-        var data = SignIn_1.SignInManager.getInstance().getDataBySignInType(SignIn_1.SignInType.SavenDay);
-        var content = this.node.getChildByName("scroll").getComponent(cc.ScrollView).content;
-        content.removeAllChildren();
-        var payInfo = PayManager_1.PayManager.getInstance().getPayInfo(googldId);
-        var rewardList = new Map();
-        for (var i = 0; i < data.length; i++) {
-            // let item:cc.Node = null;
-            if (i < index) {
-                // item = PropManager.getInstance().createPropItem(data[i].Item,data[i].Num * 4);
-                if (rewardList.has(data[i].Item)) {
-                    var num = rewardList.get(data[i].Item);
-                    num += data[i].Num * 4;
-                    rewardList.set(data[i].Item, num);
-                }
-                else {
-                    rewardList.set(data[i].Item, data[i].Num * 4);
-                }
-            }
-            else {
-                if (rewardList.has(data[i].Item)) {
-                    var num = rewardList.get(data[i].Item);
-                    num += data[i].Num * 5;
-                    rewardList.set(data[i].Item, num);
-                }
-                else {
-                    rewardList.set(data[i].Item, data[i].Num * 5);
-                }
-            }
-        }
-        rewardList.forEach(function (num, id) {
-            var item = PropManager_1.PropManager.getInstance().createPropItem(id, num);
-            content.addChild(item);
-        });
-        this.node.getChildByName("sure").getComponentInChildren(cc.Label).string = payInfo.price;
+        // let index = TheStorageManager.getInstance().getNumber(StorageKey.NewPlayerSavenDaySignInNum,0)
+        // let data = SignInManager.getInstance().getDataBySignInType(SignInType.SavenDay);
+        // let content = this.node.getChildByName("scroll").getComponent(cc.ScrollView).content;
+        // content.removeAllChildren();
+        // let payInfo = PayManager.getInstance().getPayInfo(googldId);
+        // let rewardList = new Map<number,number>();
+        // for(let i = 0; i < data.length;i++){
+        //     // let item:cc.Node = null;
+        //     if(i<index){
+        //         // item = PropManager.getInstance().createPropItem(data[i].Item,data[i].Num * 4);
+        //         if(rewardList.has(data[i].Item)){
+        //             let num = rewardList.get(data[i].Item);
+        //             num += data[i].Num * 4;
+        //             rewardList.set(data[i].Item,num);
+        //         }else{
+        //             rewardList.set(data[i].Item,data[i].Num * 4);
+        //         }
+        //     }else{
+        //         if(rewardList.has(data[i].Item)){
+        //             let num = rewardList.get(data[i].Item);
+        //             num += data[i].Num * 5;
+        //             rewardList.set(data[i].Item,num);
+        //         }else{
+        //             rewardList.set(data[i].Item,data[i].Num * 5);
+        //         }
+        //     }
+        // }
+        // rewardList.forEach((num,id)=>{
+        //     let item = PropManager.getInstance().createPropItem(id,num);
+        //     content.addChild(item);
+        // })
+        // this.node.getChildByName("sure").getComponentInChildren(cc.Label).string = payInfo.price;
     };
     SignInBuyUi.prototype.onClickSureBtn = function () {
+        // FollowManager.getInstance().followEvent(Follow_Type.点击解锁5倍奖励的购买成功次数);
+        // let index = TheStorageManager.getInstance().getNumber(StorageKey.NewPlayerSavenDaySignInNum,0)
+        // let data = SignInManager.getInstance().getDataBySignInType(SignInType.SavenDay);
+        // let rewardList = new Map<number,number>();
+        // for(let i = 0; i < data.length;i++){
+        //     // let item:cc.Node = null;
+        //     if(i<index){
+        //         // item = PropManager.getInstance().createPropItem(data[i].Item,data[i].Num * 4);
+        //         if(rewardList.has(data[i].Item)){
+        //             let num = rewardList.get(data[i].Item);
+        //             num += data[i].Num * 4;
+        //             rewardList.set(data[i].Item,num);
+        //         }else{
+        //             rewardList.set(data[i].Item,data[i].Num * 4);
+        //         }
+        //     }else{
+        //         if(rewardList.has(data[i].Item)){
+        //             let num = rewardList.get(data[i].Item);
+        //             num += data[i].Num * 5;
+        //             rewardList.set(data[i].Item,num);
+        //         }else{
+        //             rewardList.set(data[i].Item,data[i].Num * 5);
+        //         }
+        //     }
+        // }
+        // let rewardList1 = [];
+        // rewardList.forEach((num,id)=>{
+        //     PropManager.getInstance().changePropNum(id,num);
+        //     let item = PropManager.getInstance().createPropItem(id,num);
+        //     rewardList1.push(item);
+        // })
+        // GameManager.getInstance().showMultipleGetTip(rewardList1);
+        // TheStorageManager.getInstance().setItem(StorageKey.NewPlayerSavenDaySignInOver,1);
+        // HttpManager.post(AccessName.updateSevenGift,this.getUserIdJsonString());
+        // this.onClose();
         var _this = this;
-        ApkManager_1.default.getInstance().showPay({
-            result: function (isDy) {
-                if (isDy) {
-                    FollowManager_1.default.getInstance().followEvent(FollowConstants_1.Follow_Type.点击解锁5倍奖励的购买成功次数);
-                    var index = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.NewPlayerSavenDaySignInNum, 0);
-                    var data = SignIn_1.SignInManager.getInstance().getDataBySignInType(SignIn_1.SignInType.SavenDay);
-                    var rewardList = new Map();
-                    for (var i = 0; i < data.length; i++) {
-                        // let item:cc.Node = null;
-                        if (i < index) {
-                            // item = PropManager.getInstance().createPropItem(data[i].Item,data[i].Num * 4);
-                            if (rewardList.has(data[i].Item)) {
-                                var num = rewardList.get(data[i].Item);
-                                num += data[i].Num * 4;
-                                rewardList.set(data[i].Item, num);
-                            }
-                            else {
-                                rewardList.set(data[i].Item, data[i].Num * 4);
-                            }
-                        }
-                        else {
-                            if (rewardList.has(data[i].Item)) {
-                                var num = rewardList.get(data[i].Item);
-                                num += data[i].Num * 5;
-                                rewardList.set(data[i].Item, num);
-                            }
-                            else {
-                                rewardList.set(data[i].Item, data[i].Num * 5);
-                            }
-                        }
-                    }
-                    var rewardList1_1 = [];
-                    rewardList.forEach(function (num, id) {
-                        PropManager_1.PropManager.getInstance().changePropNum(id, num);
-                        var item = PropManager_1.PropManager.getInstance().createPropItem(id, num);
-                        rewardList1_1.push(item);
+        GameManager_1.default.getInstance().sound_manager.playSound(AudioConstants_1.SoundIndex.click);
+        var num;
+        var index = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.NewPlayerSavenDaySignInNum, 0);
+        if (num == '' || num == undefined)
+            num = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.NewPlayerSavenDaySignInNum, 0) + '';
+        if (Number(num) != index)
+            return;
+        if (StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.CanSignIn, 0) == 0) {
+            if (cc.sys.platform === cc.sys.WECHAT_GAME) {
+                WXManagerEX_1.default.getInstance().qiriQiandaoShipin = wx.createRewardedVideoAd({
+                    adUnitId: 'adunit-74cd62188527aedb'
+                });
+                WXManagerEX_1.default.getInstance().qiriQiandaoShipin.offError();
+                WXManagerEX_1.default.getInstance().qiriQiandaoShipin.onError(function (err) {
+                    console.log(err);
+                });
+                WXManagerEX_1.default.getInstance().qiriQiandaoShipin.offClose();
+                WXManagerEX_1.default.getInstance().qiriQiandaoShipin.show().catch(function () {
+                    // 失败重试
+                    WXManagerEX_1.default.getInstance().qiriQiandaoShipin.load()
+                        .then(function () { return WXManagerEX_1.default.getInstance().qiriQiandaoShipin.show(); })
+                        .catch(function (err) {
+                        GameManager_1.default.getInstance().showMessage("广告拉取失败");
                     });
-                    GameManager_1.default.getInstance().showMultipleGetTip(rewardList1_1);
-                    StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.NewPlayerSavenDaySignInOver, 1);
-                    HttpManager_1.HttpManager.post(HttpManager_1.AccessName.updateSevenGift, _this.getUserIdJsonString());
-                    _this.onClose();
-                }
+                });
+                WXManagerEX_1.default.getInstance().qiriQiandaoShipin.onClose(function (res) {
+                    // 用户点击了【关闭广告】按钮
+                    // 小于 2.1.0 的基础库版本，res 是一个 undefined
+                    if (res && res.isEnded || res === undefined) {
+                        // 正常播放结束，可以下发游戏奖励
+                        _this.onShipinComp();
+                    }
+                    else {
+                        // 播放中途退出，不下发游戏奖励
+                    }
+                });
             }
-        }, googldId);
+            else {
+                this.onShipinComp();
+            }
+        }
+        else {
+            GameManager_1.default.getInstance().showMessage(LanguageManager_1.default.getInstance().getStrByTextId(230008));
+        }
+    };
+    SignInBuyUi.prototype.onShipinComp = function () {
+        GameManager_1.default.getInstance().sound_manager.playSound(AudioConstants_1.SoundIndex.click);
+        var index = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.NewPlayerSavenDaySignInNum, 0);
+        var num = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.NewPlayerSavenDaySignInNum, 0) + '';
+        if (Number(num) != index)
+            return;
+        if (StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.CanSignIn, 0) == 0) {
+            var data = SignIn_1.SignInManager.getInstance().getDataBySignInType(SignIn_1.SignInType.SavenDay);
+            var reward = PropManager_1.PropManager.getInstance().createPropItem(data[index].Item, data[index].Num * 2);
+            FollowManager_1.default.getInstance().followEvent(FollowConstants_1.Follow_Type.新手签到x天的点击次数 + index);
+            PropManager_1.PropManager.getInstance().changePropNum(data[index].Item, data[index].Num * 2);
+            GameManager_1.default.getInstance().showGetTip(reward);
+            // this.node.getChildByName("receiveBtn").active = false;
+            index++;
+            if (index > 6) {
+                StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.NewPlayerSavenDaySignInOver, 1);
+                HttpManager_1.HttpManager.post(HttpManager_1.AccessName.updateSevenGift, this.getUserIdJsonString());
+            }
+            StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.CanSignIn, 1);
+            StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.NewPlayerSavenDaySignInNum, index);
+            this.refreshUi();
+            EventManager_1.EventManager.postRedEvent(EventManager_1.RedEventString.RED_TIP, EventManager_1.RedEventType.Btn_Main_SignIn, false, EventManager_1.RedEventType.Btn_Main_SignIn_BtnGet);
+            StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.NewPlayerSavenDaySignInTime, new Date().getTime());
+            HttpManager_1.HttpManager.post(HttpManager_1.AccessName.sevenSign, this.getUserIdJsonString());
+        }
+        else {
+            GameManager_1.default.getInstance().showMessage(LanguageManager_1.default.getInstance().getStrByTextId(230008));
+        }
     };
     SignInBuyUi.prototype.onClickBtnClose = function () {
         GameManager_1.default.getInstance().sound_manager.playSound(AudioConstants_1.SoundIndex.click);
-        this.destroySelf();
+        // this.destroySelf();
+        var num;
+        var index = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.NewPlayerSavenDaySignInNum, 0);
+        if (num == '' || num == undefined)
+            num = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.NewPlayerSavenDaySignInNum, 0) + '';
+        if (Number(num) != index)
+            return;
+        if (StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.CanSignIn, 0) == 0) {
+            var data = SignIn_1.SignInManager.getInstance().getDataBySignInType(SignIn_1.SignInType.SavenDay);
+            var reward = PropManager_1.PropManager.getInstance().createPropItem(data[index].Item, data[index].Num);
+            FollowManager_1.default.getInstance().followEvent(FollowConstants_1.Follow_Type.新手签到x天的点击次数 + index);
+            PropManager_1.PropManager.getInstance().changePropNum(data[index].Item, data[index].Num);
+            GameManager_1.default.getInstance().showGetTip(reward);
+            // this.node.getChildByName("receiveBtn").active = false;
+            index++;
+            if (index > 6) {
+                StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.NewPlayerSavenDaySignInOver, 1);
+                HttpManager_1.HttpManager.post(HttpManager_1.AccessName.updateSevenGift, this.getUserIdJsonString());
+            }
+            StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.CanSignIn, 1);
+            StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.NewPlayerSavenDaySignInNum, index);
+            this.refreshUi();
+            EventManager_1.EventManager.postRedEvent(EventManager_1.RedEventString.RED_TIP, EventManager_1.RedEventType.Btn_Main_SignIn, false, EventManager_1.RedEventType.Btn_Main_SignIn_BtnGet);
+            StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.NewPlayerSavenDaySignInTime, new Date().getTime());
+            HttpManager_1.HttpManager.post(HttpManager_1.AccessName.sevenSign, this.getUserIdJsonString());
+        }
+        else {
+            GameManager_1.default.getInstance().showMessage(LanguageManager_1.default.getInstance().getStrByTextId(230008));
+        }
     };
     SignInBuyUi.prototype.destroySelf = function () {
         _super.prototype.onClose.call(this);
-        ApkManager_1.default.getInstance().closeBanner();
+        // ApkManager.getInstance().closeBanner();
         // EventManager.postRedEvent(RedEventString.RED_CHECK,RedEventType.Btn_Main_SignIn);
     };
     SignInBuyUi.prototype.getUserIdJsonString = function () {

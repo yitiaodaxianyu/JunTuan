@@ -33,6 +33,9 @@ var PropConfig_1 = require("./PropConfig");
 var MyTool_1 = require("../Tools/MyTool");
 var PressButton_1 = require("../Tools/PressButton");
 var OfflineRevenue_1 = require("../JsonData/OfflineRevenue");
+var Turmtable_1 = require("../Turntable/Turmtable");
+var UIConfig_1 = require("../UI/UIConfig");
+var UIManager_1 = require("../UI/UIManager");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var PropInfoUi = /** @class */ (function (_super) {
     __extends(PropInfoUi, _super);
@@ -200,7 +203,10 @@ var PropInfoUi = /** @class */ (function (_super) {
             _super.prototype.onClose.call(this);
         }
         else {
-            GameManager_1.default.getInstance().showMessage(LanguageManager_1.default.getInstance().getStrByTextId(100041));
+            //GameManager.getInstance().showMessage(LanguageManager.getInstance().getStrByTextId(100041));
+            UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.Turntable, UIConfig_1.UILayerLevel.One, { onCompleted: function (uiNode) {
+                    uiNode.getComponent(Turmtable_1.default).initUi();
+                }, }); //转盘
         }
     };
     PropInfoUi.prototype.clickBtnUse = function () {

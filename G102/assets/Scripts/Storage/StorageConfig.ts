@@ -42,6 +42,8 @@ export enum StorageKey{
     AutoFighting="auto_fighting",
     /**英雄专武等级 */
     HeroExclusiveEquip="Hero_Exclusive_Equip_",
+        /**是否分享过 */
+    SharDimo="SharDimo",
 
     /**关卡星级 */
     LevelStar="level_star_",
@@ -110,6 +112,8 @@ export enum StorageKey{
     TaskDailyActivityState = "task_daily_activity_state_",//0未领取,1已领取
     /**任务周活跃奖励状态 */
     TaskWeeklyActivityState = "task_weekly_activity_state_",//0未领取,1已领取
+   /**观看视频次数计数 */
+    VIPADNum="VIPADNum",
 
     /**主线任务展示进度 */
     TaskMainShowIndex = "task_main_show_index",

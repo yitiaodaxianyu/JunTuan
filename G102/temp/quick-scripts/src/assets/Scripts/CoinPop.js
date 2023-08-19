@@ -50,6 +50,7 @@ var UIConfig_1 = require("./UI/UIConfig");
 var UIManager_1 = require("./UI/UIManager");
 var UserData_1 = require("./UserData");
 var UserInfo_1 = require("./UserInfo/UserInfo");
+var Turmtable_1 = require("./Turntable/Turmtable");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var CoinPop = /** @class */ (function (_super) {
     __extends(CoinPop, _super);
@@ -71,7 +72,9 @@ var CoinPop = /** @class */ (function (_super) {
     }
     CoinPop.prototype.initUi = function (type) {
         var _this = this;
-        GameManager_1.default.getInstance().showMessage(LanguageManager_1.default.getInstance().getStrByTextId(100041));
+        UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.Turntable, UIConfig_1.UILayerLevel.One, { onCompleted: function (uiNode) {
+                uiNode.getComponent(Turmtable_1.default).initUi();
+            }, }); //转盘
         this.onClose();
         return;
         FollowManager_1.default.getInstance().followEvent(FollowConstants_1.Follow_Type.资源不足弹窗弹出次数);

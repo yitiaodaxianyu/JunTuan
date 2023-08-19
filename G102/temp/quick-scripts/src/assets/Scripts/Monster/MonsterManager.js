@@ -306,6 +306,20 @@ var MonsterManager = /** @class */ (function (_super) {
             _loop_1(i);
         }
     };
+    //复活杀死所有非boos怪
+    MonsterManager.prototype.destoryByfuhuo = function () {
+        var allMonster = this.node.children;
+        var len = allMonster.length;
+        for (var i = 0; i < len; i++) {
+            var monster = allMonster[i];
+            if (monster) {
+                var monsterTS = monster.getComponent(Monster_1.default);
+                if (monsterTS && monsterTS.getStrengthType() != 3) {
+                    monsterTS.dieByfuhuo();
+                }
+            }
+        }
+    };
     MonsterManager.prototype.destroyAllMonster = function () {
         var allMonster = this.node.children;
         var len = allMonster.length;

@@ -23,8 +23,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ApkManager_1 = require("../../Ads/ApkManager");
-var Constants_1 = require("../../Constants");
+var WXManagerEX_1 = require("../../../startscene/WXManagerEX");
+var GameManager_1 = require("../../GameManager");
 var PropManager_1 = require("../../Prop/PropManager");
 var UIComponent_1 = require("../UIComponent");
 var UIConfig_1 = require("../UIConfig");
@@ -39,6 +39,7 @@ var SignInGetTip = /** @class */ (function (_super) {
     }
     SignInGetTip.prototype.init = function (uiAc) {
         _super.prototype.init.call(this, uiAc);
+        cc.director.on(WXManagerEX_1.WXADEnvnt.QIRIQIANDAOSHIPIN, this.onShipinComp, this);
     };
     SignInGetTip.prototype.initData = function (rewardInfo) {
         this.reward_info = rewardInfo;
@@ -49,10 +50,46 @@ var SignInGetTip = /** @class */ (function (_super) {
     };
     SignInGetTip.prototype.onClickAdBtn = function () {
         var _this = this;
-        ApkManager_1.default.getInstance().showVideo((function (isTrue) {
-            UIManager_1.UIManager.getInstance().closeAllUiDialog(UIConfig_1.UILayerLevel.Two);
-            PropManager_1.PropManager.getInstance().changePropNum(_this.reward_info.reward_id, _this.reward_info.reward_num);
-        }), Constants_1.VIDEO_TYPE.Equip);
+        if (cc.sys.platform === cc.sys.WECHAT_GAME) {
+            WXManagerEX_1.default.getInstance().qiriQiandaoShipin = wx.createRewardedVideoAd({
+                adUnitId: 'adunit-fafe5d05ac20c01b'
+            });
+            WXManagerEX_1.default.getInstance().qiriQiandaoShipin.offError();
+            WXManagerEX_1.default.getInstance().qiriQiandaoShipin.onError(function (err) {
+                console.log(err);
+            });
+            WXManagerEX_1.default.getInstance().qiriQiandaoShipin.offClose();
+            WXManagerEX_1.default.getInstance().qiriQiandaoShipin.show().catch(function () {
+                // 失败重试
+                WXManagerEX_1.default.getInstance().qiriQiandaoShipin.load()
+                    .then(function () { return WXManagerEX_1.default.getInstance().qiriQiandaoShipin.show(); })
+                    .catch(function (err) {
+                    GameManager_1.default.getInstance().showMessage("广告拉取失败");
+                });
+            });
+            WXManagerEX_1.default.getInstance().qiriQiandaoShipin.onClose(function (res) {
+                // 用户点击了【关闭广告】按钮
+                // 小于 2.1.0 的基础库版本，res 是一个 undefined
+                if (res && res.isEnded || res === undefined) {
+                    // 正常播放结束，可以下发游戏奖励
+                    _this.onShipinComp();
+                }
+                else {
+                    // 播放中途退出，不下发游戏奖励
+                }
+            });
+        }
+        else {
+            this.onShipinComp();
+        }
+    };
+    SignInGetTip.prototype.onShipinComp = function () {
+        UIManager_1.UIManager.getInstance().closeAllUiDialog(UIConfig_1.UILayerLevel.Two);
+        PropManager_1.PropManager.getInstance().changePropNum(this.reward_info.reward_id, this.reward_info.reward_num);
+    };
+    SignInGetTip.prototype.onClose = function () {
+        _super.prototype.onClose.call(this);
+        cc.director.off(WXManagerEX_1.WXADEnvnt.QIRIQIANDAOSHIPIN, this.onShipinComp, this);
     };
     SignInGetTip = __decorate([
         ccclass

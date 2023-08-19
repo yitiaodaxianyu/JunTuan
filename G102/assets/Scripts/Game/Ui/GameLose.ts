@@ -156,13 +156,13 @@ export default class GameLose extends UIComponent {
                         TutorailsManager.getInstance().saveTutorials(331);
                     },()=>{
                         if(PayManager.getInstance().getPayNum('c301')<=0){
-                            UIManager.getInstance().showUiDialog(UIPath.FirstCharge,UILayerLevel.One,{onCompleted:(uiNode)=> {
-                                uiNode.getComponent(PayFirstChargeUi).init({
-                                    onClose:() => {
+                            // UIManager.getInstance().showUiDialog(UIPath.FirstCharge,UILayerLevel.One,{onCompleted:(uiNode)=> {
+                            //     uiNode.getComponent(PayFirstChargeUi).init({
+                            //         onClose:() => {
                                         
-                                    }
-                                });
-                            },});
+                            //         }
+                            //     });
+                            // },});
                         }
                     })
                 }                                                                                                      

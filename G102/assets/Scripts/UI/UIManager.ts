@@ -1508,19 +1508,19 @@ export class UIManager extends UIPool  {
 
     showPayFirstChargeUi(uiAction:UiAction)
     {
-        let path='payment/pay_first_charge_ui';
-        let prefab=this.getPrefab(path);
-        if(prefab){
-            let node=cc.instantiate(prefab);
-            this.node.addChild(node);
-            node.getComponent(PayFirstChargeUi).init(uiAction);
-        }else{
-            this.loadPrefab(path,(asset:cc.Prefab)=>{
-                let node=cc.instantiate(asset);
-                this.node.addChild(node);
-                node.getComponent(PayFirstChargeUi).init(uiAction);
-            });
-        }
+        // let path='payment/pay_first_charge_ui';
+        // let prefab=this.getPrefab(path);
+        // if(prefab){
+        //     let node=cc.instantiate(prefab);
+        //     this.node.addChild(node);
+        //     node.getComponent(PayFirstChargeUi).init(uiAction);
+        // }else{
+        //     this.loadPrefab(path,(asset:cc.Prefab)=>{
+        //         let node=cc.instantiate(asset);
+        //         this.node.addChild(node);
+        //         node.getComponent(PayFirstChargeUi).init(uiAction);
+        //     });
+        // }
     }
     
     showHelpTipsUi(uiAction:UiAction,titleId:number,contentIds:number[]){

@@ -23,6 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+var WXManagerEX_1 = require("../../../startscene/WXManagerEX");
 var AccumulatedRechargeUi_1 = require("../../AccumulatedRecharge/AccumulatedRechargeUi");
 var Constants_1 = require("../../Constants");
 var MergeUi_1 = require("../../Equipment/Ui/MergeUi");
@@ -33,7 +34,6 @@ var FollowConstants_1 = require("../../multiLanguage/FollowConstants");
 var FollowManager_1 = require("../../multiLanguage/FollowManager");
 var LanguageConstants_1 = require("../../multiLanguage/LanguageConstants");
 var LanguageManager_1 = require("../../multiLanguage/LanguageManager");
-var PayFirstChargeUi_1 = require("../../Payment/PayFirstChargeUi");
 var PayManager_1 = require("../../Payment/PayManager");
 var RankingList_1 = require("../../RankingList/RankingList");
 var AudioConstants_1 = require("../../Sound/AudioConstants");
@@ -48,7 +48,6 @@ var UIConfig_1 = require("../UIConfig");
 var UIManager_1 = require("../UIManager");
 var BagUi_1 = require("./BagUi");
 var GoldMallUi_1 = require("./GoldMallUi");
-var MainUi_1 = require("./MainUi");
 var SignUi_1 = require("./SignUi");
 var SignUiDaily_1 = require("./SignUiDaily");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -84,12 +83,17 @@ var FuncTypeBtn = /** @class */ (function (_super) {
             //         this.node.active = true;
             //         return true;
             //     }
-            if (StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.FirstPayGetState, 0) == 1) {
-                return false;
+            if (StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.SharDimo, 0) == 0) {
+                return true;
             }
             else {
-                return isShow;
+                return false;
             }
+            // if( TheStorageManager.getInstance().getNumber(StorageKey.FirstPayGetState,0) == 1){
+            //     return false;
+            // }else{
+            //     return isShow;
+            // }
         }
         else if (this.func_type == Constants_1.FuncType.AccumulatedRecharge || this.func_type == Constants_1.FuncType.WeekCard) {
             return isShow;
@@ -113,7 +117,7 @@ var FuncTypeBtn = /** @class */ (function (_super) {
     };
     FuncTypeBtn.prototype.onClick = function () {
         GameManager_1.default.getInstance().sound_manager.playSound(AudioConstants_1.SoundIndex.click);
-        if (!FunctionDefinition_1.FunctionDefinitionManager.getInstance().getIsUnlock(this.func_type)) {
+        if (!FunctionDefinition_1.FunctionDefinitionManager.getInstance().getIsUnlock(this.func_type) && this.func_type != 26) {
             var type = FunctionDefinition_1.FunctionDefinitionManager.getInstance().getUnlockConditionType(this.func_type);
             var num = FunctionDefinition_1.FunctionDefinitionManager.getInstance().getUnlockCondictionParameter(this.func_type);
             if (type == 1) {
@@ -246,15 +250,28 @@ var FuncTypeBtn = /** @class */ (function (_super) {
                 break;
             case Constants_1.FuncType.FirstCharge:
                 {
-                    FollowManager_1.default.getInstance().followEvent(FollowConstants_1.Follow_Type.主页首充礼包点击次数);
-                    UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.FirstCharge, UIConfig_1.UILayerLevel.One, { onCompleted: function (uiNode) {
-                            uiNode.getComponent(PayFirstChargeUi_1.default).init({
-                                onClose: function () {
-                                    var mainUi = cc.find("Canvas/main_ui").getComponent(MainUi_1.default);
-                                    mainUi.refreshLeft();
-                                }
-                            });
-                        }, });
+                    WXManagerEX_1.default.getInstance().shareAppMessage();
+                    WXManagerEX_1.default.getInstance().sharFlag = true;
+                    StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.SharDimo, 1);
+                    if (cc.sys.platform === cc.sys.WECHAT_GAME) {
+                        this.scheduleOnce(function () {
+                            cc.director.emit("OnSharBack");
+                        }, 2);
+                    }
+                    else {
+                        this.scheduleOnce(function () {
+                            cc.director.emit("OnSharBack");
+                        }, 2);
+                    }
+                    // FollowManager.getInstance().followEvent(Follow_Type.主页首充礼包点击次数);
+                    // UIManager.getInstance().showUiDialog(UIPath.FirstCharge,UILayerLevel.One,{onCompleted:(uiNode)=> {
+                    //     uiNode.getComponent(PayFirstChargeUi).init({
+                    //         onClose:() => {
+                    //             let mainUi=cc.find("Canvas/main_ui").getComponent(MainUi);
+                    //             mainUi.refreshLeft();
+                    //         }
+                    //     });
+                    // },});
                 }
                 break;
             case Constants_1.FuncType.ZhuanPan:

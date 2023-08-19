@@ -40,7 +40,6 @@ var MazeManager_1 = require("./Maze/MazeManager");
 var FollowConstants_1 = require("./multiLanguage/FollowConstants");
 var FollowManager_1 = require("./multiLanguage/FollowManager");
 var LanguageManager_1 = require("./multiLanguage/LanguageManager");
-var PayFirstChargeUi_1 = require("./Payment/PayFirstChargeUi");
 var PayManager_1 = require("./Payment/PayManager");
 var PropConfig_1 = require("./Prop/PropConfig");
 var PropManager_1 = require("./Prop/PropManager");
@@ -152,18 +151,18 @@ var Home = /** @class */ (function (_super) {
         }
         else {
             if (FunctionDefinition_1.FunctionDefinitionManager.getInstance().getIsUnlock(Constants_1.FuncType.FirstCharge) && PayManager_1.PayManager.getInstance().getPayNum('c301') <= 0 && TutorailsManager_1.default.getInstance().is_tutorails_state == false) {
-                this.scheduleOnce(function () {
-                    UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.FirstCharge, UIConfig_1.UILayerLevel.One, {
-                        onCompleted: function (uiNode) {
-                            uiNode.getComponent(PayFirstChargeUi_1.default).init({
-                                onClose: function () {
-                                    var mainUi = cc.find("Canvas/main_ui").getComponent(MainUi_1.default);
-                                    mainUi.refreshLeft();
-                                }
-                            });
-                        },
-                    });
-                }, 1);
+                // this.scheduleOnce(() => {
+                //     UIManager.getInstance().showUiDialog(UIPath.FirstCharge, UILayerLevel.One, {
+                //         onCompleted: (uiNode) => {
+                //             uiNode.getComponent(PayFirstChargeUi).init({
+                //                 onClose: () => {
+                //                     let mainUi = cc.find("Canvas/main_ui").getComponent(MainUi);
+                //                     mainUi.refreshLeft();
+                //                 }
+                //             });
+                //         },
+                //     });
+                // }, 1)
             }
         }
         //根据game_to_home设置显示的界面

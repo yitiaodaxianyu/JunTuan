@@ -58,7 +58,7 @@ export default class MonsterManager extends MapNodePool {
 
     //加载当前关卡会出现的怪物
     loadData() {
-    
+
         this.is_load_ok = false;
         this.ok_num = 0;
         let fightingInfo = GameManager.getInstance().fighting_info;
@@ -104,10 +104,10 @@ export default class MonsterManager extends MapNodePool {
         GameEffectsManager.getInstance().addEffectPoolById(GameEffectId.drop_gem, 16);
         GameEffectsManager.getInstance().addEffectPoolById(GameEffectId.drop_gem_shadow, 16);
         GameEffectsManager.getInstance().addEffectPoolById(GameEffectId.drop_coin_shadow, 16);
-        GameEffectsManager.getInstance().addEffectPoolById(GameEffectId.monster_normal_att,8);
+        GameEffectsManager.getInstance().addEffectPoolById(GameEffectId.monster_normal_att, 8);
         // GameEffectsManager.getInstance().addEffectPoolById(GameEffectId.boss1_att_move,2);
         // GameEffectsManager.getInstance().addEffectPoolById(GameEffectId.boss1_att_end,2);
-        GameEffectsManager.getInstance().addEffectPoolById(GameEffectId.monster_die,8);
+        GameEffectsManager.getInstance().addEffectPoolById(GameEffectId.monster_die, 8);
     }
 
     public set ship_monster_num(v: number) {
@@ -196,7 +196,7 @@ export default class MonsterManager extends MapNodePool {
     }
     /**回收敌人到对象池 */
     destroyMonster(node: cc.Node, type: number, isCanWin: boolean = true) {
-      
+
         node.color = cc.Color.WHITE;
         let monsterTs = node.getComponent(Monster);
         monsterTs.setEnemyState(Enemy_State.die);
@@ -299,16 +299,33 @@ export default class MonsterManager extends MapNodePool {
 
         }
     }
+    //复活杀死所有非boos怪
+    destoryByfuhuo() {
+        let allMonster = this.node.children;
+        let len = allMonster.length;
 
+
+
+        for (let i = 0; i < len; i++) {
+            let monster = allMonster[i];
+
+            if (monster) {
+                let monsterTS = monster.getComponent(Monster);
+                if (monsterTS && monsterTS.getStrengthType() != 3) {
+                    monsterTS.dieByfuhuo();
+                }
+            }
+        }
+    }
     destroyAllMonster() {
         let allMonster = this.node.children;
         let len = allMonster.length;
 
-       
-        
+
+
         for (let i = 0; i < len; i++) {
             let monster = allMonster[0];
-       
+
             if (monster) {
                 let monsterTS = monster.getComponent(Monster);
                 if (monsterTS) {
@@ -346,16 +363,16 @@ export default class MonsterManager extends MapNodePool {
                     if (posIndex == null || posIndex == -1) {
                         attMonsters.push(monster);
                     } else {
-                        if(monsterTS.monster_id>=30381){
+                        if (monsterTS.monster_id >= 30381) {
                             if (Math.abs(monster.x - GameManager.getInstance().charPosX) <= 200 && monster.y > WallManager.getInstance().getMainWall().getWallRect().yMax) {
                                 attMonsters.push(monster);
                             }
-                        }else{
+                        } else {
                             if (Math.abs(monster.x - GameManager.getInstance().charPosX) <= 100 && monster.y > WallManager.getInstance().getMainWall().getWallRect().yMax) {
                                 attMonsters.push(monster);
                             }
                         }
-                       
+
                     }
 
                 }

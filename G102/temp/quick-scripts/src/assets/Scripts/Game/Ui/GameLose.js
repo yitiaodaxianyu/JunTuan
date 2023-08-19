@@ -42,8 +42,6 @@ var MonsterManager_1 = require("../../Monster/MonsterManager");
 var MazeManager_1 = require("../../Maze/MazeManager");
 var FunctionDefinition_1 = require("../../JsonData/FunctionDefinition");
 var WallManager_1 = require("../../Wall/WallManager");
-var PayFirstChargeUi_1 = require("../../Payment/PayFirstChargeUi");
-var UIConfig_1 = require("../../UI/UIConfig");
 var PayManager_1 = require("../../Payment/PayManager");
 var RogueHexagonTypes_1 = require("../../copy/voidcrack/RogueHexagonTypes");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -184,12 +182,12 @@ var GameLose = /** @class */ (function (_super) {
                         TutorailsManager_1.default.getInstance().saveTutorials(331);
                     }, function () {
                         if (PayManager_1.PayManager.getInstance().getPayNum('c301') <= 0) {
-                            UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.FirstCharge, UIConfig_1.UILayerLevel.One, { onCompleted: function (uiNode) {
-                                    uiNode.getComponent(PayFirstChargeUi_1.default).init({
-                                        onClose: function () {
-                                        }
-                                    });
-                                }, });
+                            // UIManager.getInstance().showUiDialog(UIPath.FirstCharge,UILayerLevel.One,{onCompleted:(uiNode)=> {
+                            //     uiNode.getComponent(PayFirstChargeUi).init({
+                            //         onClose:() => {
+                            //         }
+                            //     });
+                            // },});
                         }
                     });
                 }

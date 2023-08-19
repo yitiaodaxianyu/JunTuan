@@ -97,7 +97,7 @@ var GameManager = /** @class */ (function (_super) {
         _this.cur_game_mode = Constants_1.GameMode.Main;
         _this.cur_game_scene = Constants_1.GameScene.home;
         //tumTableTime: number = 60*60*12;//免费抽奖倒计时
-        _this.tumTableTime = 60 * 60 * 12; //免费抽奖倒计时
+        _this.tumTableTime = 60 * 60; //免费抽奖倒计时
         //当前的加载进度
         _this.cur_load_progress = 0;
         //每个英雄获得的游戏内技能
@@ -1372,6 +1372,67 @@ var GameManager = /** @class */ (function (_super) {
         if (dangerText) {
             dangerText.active = false;
         }
+        MonsterManager_1.default.getInstance().ship_monster_num = 0;
+        MonsterManager_1.default.getInstance().destoryByfuhuo();
+        var isInitDps = false;
+        if (this.cur_game_mode == Constants_1.GameMode.Main) {
+            this.hero_skill_dps = new Array();
+            this.hero_attack_dps = new Array();
+        }
+        else {
+            if (!this.hero_attack_dps) {
+                this.hero_skill_dps = new Array();
+                this.hero_attack_dps = new Array();
+                isInitDps = true;
+            }
+        }
+        this.pet_active_dps = new Map();
+        this.pet_connect_dps = new Map();
+        this.game_hero_data = new Map();
+        this.cur_team_list = HeroManager_1.HeroManager.getInstance().getTeamList(this.cur_game_mode);
+        var fightingData = MazeManager_1.MazeManager.getInstance().refreshFightingData();
+        //
+        var mainWallData = new HeroConfig_1.AttributeData();
+        for (var i = 0; i < HeroConfig_1.Hero_Type.Hero_Num; i++) {
+            if (this.cur_game_mode == Constants_1.GameMode.Main) {
+                this.hero_skill_dps.push(0);
+                this.hero_attack_dps.push(0);
+            }
+            else {
+                if (isInitDps) {
+                    this.hero_skill_dps.push(0);
+                    this.hero_attack_dps.push(0);
+                }
+            }
+            var heroData = new HeroData_1.HeroData();
+            var homeHeroData = HeroManager_1.HeroManager.getInstance().getHeroData(i);
+            if (homeHeroData) {
+                heroData = cc.instantiate(homeHeroData);
+                if (this.cur_team_list.includes(i)) {
+                    //迷宫模式加成
+                    if (this.cur_game_mode == Constants_1.GameMode.Maze) {
+                        heroData.total_attack += (fightingData.AttackPer) * heroData.fixed_attck;
+                        heroData.total_defense += (fightingData.DefensePer) * heroData.fix_defense;
+                        heroData.Critical += fightingData.CriticalValue;
+                        heroData.Hit += fightingData.HitValue;
+                    }
+                    mainWallData.Health += heroData.total_hp * 0.2 * this.getCharioHealthRatio();
+                    ;
+                    mainWallData.Defense += heroData.total_defense * 0.2 * this.getCharioDefenseRotio();
+                    mainWallData.Miss += heroData.Miss * 0.2;
+                    mainWallData.AntiCritical += heroData.AntiCritical * 0.2;
+                    mainWallData.AntiExtraCritical += heroData.AntiExtraCritical * 0.2;
+                    mainWallData.Attack += heroData.total_attack * 0.2;
+                    mainWallData.Hit += heroData.Hit * 0.2;
+                    this.pet_active_dps.set(heroData.pet_info, 0);
+                    this.pet_connect_dps.set(heroData.pet_info, 0);
+                    this.setMaxDamage(heroData.total_attack * heroData.ExtraCritical);
+                    this.setMinDamage(heroData.total_attack);
+                    this.game_hero_data.set(i, heroData);
+                }
+            }
+        }
+        WallManager_1.default.getInstance().getMainWall().initWall(mainWallData, WallConfig_1.WallType.Main);
     };
     GameManager.prototype.showFuhuo = function () {
         var _this = this;
@@ -1445,18 +1506,17 @@ var GameManager = /** @class */ (function (_super) {
         }
     };
     GameManager.prototype.onWallDie = function () {
-        this.showGameLose();
-        // if(this.cur_game_mode==GameMode.Main){
-        //     if(this.fuhuo_num>0)
-        //     {
-        //         this.showFuhuo();
-        //     }else
-        //     {
-        //         this.showGameLose();
-        //     }
-        // }else{
-        //     this.showGameLose();
-        // }        
+        if (this.cur_game_mode == Constants_1.GameMode.Main) {
+            if (this.fuhuo_num > 0) {
+                this.showFuhuo();
+            }
+            else {
+                this.showGameLose();
+            }
+        }
+        else {
+            this.showGameLose();
+        }
     };
     GameManager.prototype.showMonsterWarning = function () {
         this.sound_manager.playSound(AudioConstants_1.SoundIndex.YX_EnemyComing);

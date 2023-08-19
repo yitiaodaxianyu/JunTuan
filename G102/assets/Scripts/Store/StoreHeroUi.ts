@@ -14,6 +14,7 @@ import { StorageKey } from "../Storage/StorageConfig";
 import { TheStorageManager } from "../Storage/StorageManager";
 import { EventManager, RedEventString, RedEventType } from "../Tools/EventManager";
 import MyTool from "../Tools/MyTool";
+import Turmtable from "../Turntable/Turmtable";
 import UIComponent from "../UI/UIComponent";
 import { UILayerLevel, UIPath } from "../UI/UIConfig";
 import { UiAction } from "../UI/UiInterface";
@@ -102,8 +103,11 @@ export default class StoreHeroUi extends UIComponent {
 
             if(PropManager.getInstance().getPropNum(costId) < costNum){
                 UIManager.getInstance().closeAllUiDialog(UILayerLevel.One);
-                GameManager.getInstance().showMessage(LanguageManager.getInstance().getStrByTextId(100041));
-                cc.find('Canvas/store_ui/scroll').getComponent(cc.ScrollView).scrollToBottom(2);
+                // GameManager.getInstance().showMessage(LanguageManager.getInstance().getStrByTextId(100041));
+                // cc.find('Canvas/store_ui/scroll').getComponent(cc.ScrollView).scrollToBottom(2);
+                UIManager.getInstance().showUiDialog(UIPath.Turntable,UILayerLevel.One,{onCompleted:(uiNode)=> {
+                    uiNode.getComponent(Turmtable).initUi()
+                },});//转盘
                 return;
             }
 
@@ -143,8 +147,11 @@ export default class StoreHeroUi extends UIComponent {
             }
 
             if(PropManager.getInstance().getPropNum(costId) < costNum){
-                GameManager.getInstance().showMessage(LanguageManager.getInstance().getStrByTextId(100041));
-                cc.find('Canvas/store_ui/scroll').getComponent(cc.ScrollView).scrollToBottom(2);
+                // GameManager.getInstance().showMessage(LanguageManager.getInstance().getStrByTextId(100041));
+                // cc.find('Canvas/store_ui/scroll').getComponent(cc.ScrollView).scrollToBottom(2);
+                UIManager.getInstance().showUiDialog(UIPath.Turntable,UILayerLevel.One,{onCompleted:(uiNode)=> {
+                    uiNode.getComponent(Turmtable).initUi()
+                },});//转盘
                 return;
             }
 
@@ -264,20 +271,20 @@ export default class StoreHeroUi extends UIComponent {
     }
     
     showHero(){
-        if(this.rewardList[this.index - 1].dropId > 110000 && 
-        TheStorageManager.getInstance().getNumber(StorageKey.StoreHeroID + this.rewardList[this.index - 1].dropId % 110000,0) == 0){
-            let item = this.content.getChildByName("item" + (this.index - 1));
-            item.getComponent(cc.Animation).pause();
-            let indexTemp=this.index;
-            UIManager.getInstance().showUiDialog(UIPath.StoreHeroShowUi,UILayerLevel.Two,{onCompleted:(uiNode)=>{
-                uiNode.getComponent(StoreHeroShowUi).init({
-                    onClose:()=>{
-                        item.getComponent(cc.Animation).resume();
-                    }
-                });
-                uiNode.getComponent(StoreHeroShowUi).initData(this.rewardList[indexTemp - 1].dropId % 110000);
-            }}); 
-        }
+        // if(this.rewardList[this.index - 1].dropId > 110000 && 
+        // TheStorageManager.getInstance().getNumber(StorageKey.StoreHeroID + this.rewardList[this.index - 1].dropId % 110000,0) == 0){
+        //     let item = this.content.getChildByName("item" + (this.index - 1));
+        //     item.getComponent(cc.Animation).pause();
+        //     let indexTemp=this.index;
+        //     UIManager.getInstance().showUiDialog(UIPath.StoreHeroShowUi,UILayerLevel.Two,{onCompleted:(uiNode)=>{
+        //         uiNode.getComponent(StoreHeroShowUi).init({
+        //             onClose:()=>{
+        //                 item.getComponent(cc.Animation).resume();
+        //             }
+        //         });
+        //         uiNode.getComponent(StoreHeroShowUi).initData(this.rewardList[indexTemp - 1].dropId % 110000);
+        //     }}); 
+        // }
     }
 
         /**

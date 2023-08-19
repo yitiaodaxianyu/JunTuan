@@ -25,23 +25,20 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 var GameData_1 = require("../GameData");
 var GameManager_1 = require("../GameManager");
-var LanguageManager_1 = require("../multiLanguage/LanguageManager");
 var HttpManager_1 = require("../NetWork/HttpManager");
 var Item_1 = require("../Prop/Data/Item");
 var PropConfig_1 = require("../Prop/PropConfig");
 var PropManager_1 = require("../Prop/PropManager");
 var AudioConstants_1 = require("../Sound/AudioConstants");
-var StorageConfig_1 = require("../Storage/StorageConfig");
-var StorageManager_1 = require("../Storage/StorageManager");
 var EventManager_1 = require("../Tools/EventManager");
 var MyTool_1 = require("../Tools/MyTool");
+var Turmtable_1 = require("../Turntable/Turmtable");
 var UIComponent_1 = require("../UI/UIComponent");
 var UIConfig_1 = require("../UI/UIConfig");
 var UIManager_1 = require("../UI/UIManager");
 var UserData_1 = require("../UserData");
 var DrawCardInformation_1 = require("./DrawCardInformation");
 var StoreHeroIconItem_1 = require("./StoreHeroIconItem");
-var StoreHeroShowUi_1 = require("./StoreHeroShowUi");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var StoreHeroUi = /** @class */ (function (_super) {
     __extends(StoreHeroUi, _super);
@@ -120,8 +117,11 @@ var StoreHeroUi = /** @class */ (function (_super) {
             }
             if (PropManager_1.PropManager.getInstance().getPropNum(costId) < costNum) {
                 UIManager_1.UIManager.getInstance().closeAllUiDialog(UIConfig_1.UILayerLevel.One);
-                GameManager_1.default.getInstance().showMessage(LanguageManager_1.default.getInstance().getStrByTextId(100041));
-                cc.find('Canvas/store_ui/scroll').getComponent(cc.ScrollView).scrollToBottom(2);
+                // GameManager.getInstance().showMessage(LanguageManager.getInstance().getStrByTextId(100041));
+                // cc.find('Canvas/store_ui/scroll').getComponent(cc.ScrollView).scrollToBottom(2);
+                UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.Turntable, UIConfig_1.UILayerLevel.One, { onCompleted: function (uiNode) {
+                        uiNode.getComponent(Turmtable_1.default).initUi();
+                    }, }); //转盘
                 return;
             }
             // if(IsDebug) costNum = 0;
@@ -158,8 +158,11 @@ var StoreHeroUi = /** @class */ (function (_super) {
                 costNum = prizeHeroData.TenDrawPropsSpend_2;
             }
             if (PropManager_1.PropManager.getInstance().getPropNum(costId) < costNum) {
-                GameManager_1.default.getInstance().showMessage(LanguageManager_1.default.getInstance().getStrByTextId(100041));
-                cc.find('Canvas/store_ui/scroll').getComponent(cc.ScrollView).scrollToBottom(2);
+                // GameManager.getInstance().showMessage(LanguageManager.getInstance().getStrByTextId(100041));
+                // cc.find('Canvas/store_ui/scroll').getComponent(cc.ScrollView).scrollToBottom(2);
+                UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.Turntable, UIConfig_1.UILayerLevel.One, { onCompleted: function (uiNode) {
+                        uiNode.getComponent(Turmtable_1.default).initUi();
+                    }, }); //转盘
                 return;
             }
             // if(IsDebug) costNum = 0;   
@@ -277,21 +280,20 @@ var StoreHeroUi = /** @class */ (function (_super) {
         }
     };
     StoreHeroUi.prototype.showHero = function () {
-        var _this = this;
-        if (this.rewardList[this.index - 1].dropId > 110000 &&
-            StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.StoreHeroID + this.rewardList[this.index - 1].dropId % 110000, 0) == 0) {
-            var item_1 = this.content.getChildByName("item" + (this.index - 1));
-            item_1.getComponent(cc.Animation).pause();
-            var indexTemp_1 = this.index;
-            UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.StoreHeroShowUi, UIConfig_1.UILayerLevel.Two, { onCompleted: function (uiNode) {
-                    uiNode.getComponent(StoreHeroShowUi_1.default).init({
-                        onClose: function () {
-                            item_1.getComponent(cc.Animation).resume();
-                        }
-                    });
-                    uiNode.getComponent(StoreHeroShowUi_1.default).initData(_this.rewardList[indexTemp_1 - 1].dropId % 110000);
-                } });
-        }
+        // if(this.rewardList[this.index - 1].dropId > 110000 && 
+        // TheStorageManager.getInstance().getNumber(StorageKey.StoreHeroID + this.rewardList[this.index - 1].dropId % 110000,0) == 0){
+        //     let item = this.content.getChildByName("item" + (this.index - 1));
+        //     item.getComponent(cc.Animation).pause();
+        //     let indexTemp=this.index;
+        //     UIManager.getInstance().showUiDialog(UIPath.StoreHeroShowUi,UILayerLevel.Two,{onCompleted:(uiNode)=>{
+        //         uiNode.getComponent(StoreHeroShowUi).init({
+        //             onClose:()=>{
+        //                 item.getComponent(cc.Animation).resume();
+        //             }
+        //         });
+        //         uiNode.getComponent(StoreHeroShowUi).initData(this.rewardList[indexTemp - 1].dropId % 110000);
+        //     }}); 
+        // }
     };
     /**
  *

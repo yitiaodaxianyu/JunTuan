@@ -91,7 +91,7 @@ export default class GameManager extends cc.Component {
     cur_game_scene: GameScene = GameScene.home;
 
     //tumTableTime: number = 60*60*12;//免费抽奖倒计时
-    tumTableTime: number = 60*60*12;//免费抽奖倒计时
+    tumTableTime: number = 60*60;//免费抽奖倒计时
     //当前的加载进度
     cur_load_progress: number = 0;
 
@@ -1369,6 +1369,70 @@ export default class GameManager extends cc.Component {
         if (dangerText) {
             dangerText.active = false;
         }
+
+
+        MonsterManager.getInstance().ship_monster_num=0;
+        MonsterManager.getInstance().destoryByfuhuo();
+        let isInitDps = false;
+        if (this.cur_game_mode == GameMode.Main) {
+            this.hero_skill_dps = new Array();
+            this.hero_attack_dps = new Array();
+        } else {
+            if (!this.hero_attack_dps) {
+                this.hero_skill_dps = new Array();
+                this.hero_attack_dps = new Array();
+                isInitDps = true;
+            }
+        }
+        this.pet_active_dps = new Map<PetInfo, number>();
+        this.pet_connect_dps = new Map<PetInfo, number>();
+        this.game_hero_data = new Map<number, HeroData>();
+        this.cur_team_list = HeroManager.getInstance().getTeamList(this.cur_game_mode);
+
+        let fightingData = MazeManager.getInstance().refreshFightingData();
+        //
+        let mainWallData = new AttributeData();
+        for (let i = 0; i < Hero_Type.Hero_Num; i++) {
+            if (this.cur_game_mode == GameMode.Main) {
+                this.hero_skill_dps.push(0);
+                this.hero_attack_dps.push(0);
+            } else {
+                if (isInitDps) {
+                    this.hero_skill_dps.push(0);
+                    this.hero_attack_dps.push(0);
+                }
+            }
+
+            let heroData = new HeroData();
+            let homeHeroData = HeroManager.getInstance().getHeroData(i);
+            if (homeHeroData) {
+                heroData = cc.instantiate(homeHeroData);
+                if (this.cur_team_list.includes(i)) {
+                    //迷宫模式加成
+                    if (this.cur_game_mode == GameMode.Maze) {
+                        heroData.total_attack += (fightingData.AttackPer) * heroData.fixed_attck;
+                        heroData.total_defense += (fightingData.DefensePer) * heroData.fix_defense;
+                        heroData.Critical += fightingData.CriticalValue;
+                        heroData.Hit += fightingData.HitValue;
+                    }
+                    mainWallData.Health += heroData.total_hp * 0.2 * this.getCharioHealthRatio();;
+                    mainWallData.Defense += heroData.total_defense * 0.2 * this.getCharioDefenseRotio();
+                    mainWallData.Miss += heroData.Miss * 0.2;
+                    mainWallData.AntiCritical += heroData.AntiCritical * 0.2;
+                    mainWallData.AntiExtraCritical += heroData.AntiExtraCritical * 0.2;
+                    mainWallData.Attack += heroData.total_attack * 0.2;
+                    mainWallData.Hit += heroData.Hit * 0.2;
+
+                    this.pet_active_dps.set(heroData.pet_info, 0);
+                    this.pet_connect_dps.set(heroData.pet_info, 0);
+                    this.setMaxDamage(heroData.total_attack * heroData.ExtraCritical)
+                    this.setMinDamage(heroData.total_attack);
+                    this.game_hero_data.set(i, heroData);
+                }
+            }
+        }
+
+        WallManager.getInstance().getMainWall().initWall(mainWallData, WallType.Main);
     }
 
     showFuhuo() {
@@ -1439,18 +1503,18 @@ export default class GameManager extends cc.Component {
 
 
     onWallDie() {
-        this.showGameLose();
-        // if(this.cur_game_mode==GameMode.Main){
-        //     if(this.fuhuo_num>0)
-        //     {
-        //         this.showFuhuo();
-        //     }else
-        //     {
-        //         this.showGameLose();
-        //     }
-        // }else{
-        //     this.showGameLose();
-        // }        
+      
+        if(this.cur_game_mode==GameMode.Main){
+            if(this.fuhuo_num>0)
+            {
+                this.showFuhuo();
+            }else
+            {
+                this.showGameLose();
+            }
+        }else{
+            this.showGameLose();
+        }        
     }
 
     showMonsterWarning() {

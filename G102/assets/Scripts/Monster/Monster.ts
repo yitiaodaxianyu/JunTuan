@@ -1431,6 +1431,10 @@ export default class Monster extends cc.Component {
             }
         }
     }
+    public dieByfuhuo():void{
+        this.setEnemyState(Enemy_State.move);
+        this.changeHp(-9999999999);
+    }
     private onCollisionShip(){
         let md=new MonsterAttData();
         md.damage_type=DamageType.Ship;
