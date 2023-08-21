@@ -48,75 +48,39 @@ export default class WXManagerEX extends cc.Component {
     public initData(): void {
         this.getSystemInfo();
         
-        if (cc.sys.platform === cc.sys.WECHAT_GAME) {
-            //wx.cloud.init();
-  
-            // this.fuhuoShipin = wx.createRewardedVideoAd({
-            //     adUnitId: 'adunit-81a1f1f3d7c367bb'
-            // });
-  
-           
-          
-           
-           
+        if (cc.sys.platform === cc.sys.BYTEDANCE_GAME) {
 
-         
-
-           
-
-            wx.onShow(this.showWX);
+        
+            
             
         }
     }
-    private showWX(res):void{
-        console.log(JSON.stringify(res));
-       
-            if(this.sharFlag==true){
-                WXManagerEX.getInstance().sharFlag=false;
-                
-            }
 
-        
-        
-    }
     public vibrateShort(): void {
-        if (cc.sys.platform === cc.sys.WECHAT_GAME) {
-            wx.vibrateShort({ type: "medium" });
+        if (cc.sys.platform === cc.sys.BYTEDANCE_GAME) {
+            tt.vibrateShort();
         }
 
     }
     public sharFlag:boolean=false;
     public shareAppMessage():void{
-        if (cc.sys.platform === cc.sys.WECHAT_GAME) {
-            wx.shareAppMessage({
-                imageUrlId: "d2CFfPcmRESFpy28mMsJWA==",
-                imageUrl: "https://mmocgame.qpic.cn/wechatgame/EGmcoSgicQus18ObjEjwSIjSJzMu2XD3z3gFVeuTXBGPD3n1UyfbgO8OlUebNibDVr/0"
-              })
+        if (cc.sys.platform === cc.sys.BYTEDANCE_GAME) {
+         
         }
         
     }
 
    
     public getSystemInfo(): void {
-        if (cc.sys.platform === cc.sys.WECHAT_GAME) {
+        if (cc.sys.platform === cc.sys.BYTEDANCE_GAME) {
             try {
-                const res = wx.getSystemInfoSync()
+                const res = tt.getSystemInfoSync()
                 console.log("wx:" + res.model);
                 console.log("statusBarHeight:" + res.statusBarHeight);
                 if (res.statusBarHeight > 20) {
                     WXManagerEX.getInstance().statusBarHeight = res.statusBarHeight;
                 }
-                wx.showShareMenu({
-                    withShareTicket: true,
-                    menus: ['shareAppMessage', 'shareTimeline']
-                })
-
-                wx.onShareAppMessage(function () {
-                    return {
-                      imageUrlId: "d2CFfPcmRESFpy28mMsJWA==",
-                      imageUrl: "https://mmocgame.qpic.cn/wechatgame/EGmcoSgicQus18ObjEjwSIjSJzMu2XD3z3gFVeuTXBGPD3n1UyfbgO8OlUebNibDVr/0"
-                    }
-                  })
+              
         
 
             } catch (e) {

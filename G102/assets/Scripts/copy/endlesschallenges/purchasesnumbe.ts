@@ -96,25 +96,25 @@ export default class purchasesnumbe extends UIComponent {
     }
     clickBtnBuyAd() {//广告购买
 
-        if (cc.sys.platform === cc.sys.WECHAT_GAME) {
+        if (cc.sys.platform === cc.sys.BYTEDANCE_GAME) {
 
 
             if (this.type == 2) {
       
-                WXManagerEX.getInstance().cardByAd = wx.createRewardedVideoAd({
-                    adUnitId: 'adunit-f93dddec700f320f'
+                WXManagerEX.getInstance().cardByAd = tt.createRewardedVideoAd({
+                    adUnitId: 'cq3jq17i33b23821a7'
                 });
             } else if (this.type == 3) {
  
 
-                WXManagerEX.getInstance().cardByAd = wx.createRewardedVideoAd({
-                    adUnitId: 'adunit-a569c3a5f40ffd43'
+                WXManagerEX.getInstance().cardByAd = tt.createRewardedVideoAd({
+                    adUnitId: '93m8bddier87lmhp60'
                 });
             }
             else if (this.type == 4) {
 
-                WXManagerEX.getInstance().cardByAd = wx.createRewardedVideoAd({
-                    adUnitId: 'adunit-5d9c656083442416'
+                WXManagerEX.getInstance().cardByAd = tt.createRewardedVideoAd({
+                    adUnitId: '67vsag2cirn46uvsek'
                 });
             }
 
@@ -142,6 +142,7 @@ export default class purchasesnumbe extends UIComponent {
                 else {
                     // 播放中途退出，不下发游戏奖励
                 }
+                WXManagerEX.getInstance().cardByAd.destroy();
             })
 
         } else {

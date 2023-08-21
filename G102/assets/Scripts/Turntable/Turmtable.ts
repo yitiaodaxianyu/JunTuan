@@ -159,9 +159,9 @@ export default class Turmtable extends UIComponent {
                 // 没次数提示100120
                 GameManager.getInstance().showMessage(LanguageManager.getInstance().getStrByTextId(1700004), 3);
             } else {
-                if (cc.sys.platform === cc.sys.WECHAT_GAME) {
-                    WXManagerEX.getInstance().zhuanpanShipin = wx.createRewardedVideoAd({
-                        adUnitId: 'adunit-fafe5d05ac20c01b'
+                if (cc.sys.platform === cc.sys.BYTEDANCE_GAME) {
+                    WXManagerEX.getInstance().zhuanpanShipin = tt.createRewardedVideoAd({
+                        adUnitId: 'a1m58qb4ql9122f3mp'
                     });
                     WXManagerEX.getInstance().zhuanpanShipin.offError();
                     WXManagerEX.getInstance().zhuanpanShipin.onError(err => {
@@ -179,13 +179,17 @@ export default class Turmtable extends UIComponent {
                     WXManagerEX.getInstance().zhuanpanShipin.onClose(res => {
                         // 用户点击了【关闭广告】按钮
                         // 小于 2.1.0 的基础库版本，res 是一个 undefined
+                       
                         if (res && res.isEnded || res === undefined) {
                             // 正常播放结束，可以下发游戏奖励
                             this.onShipinComp();
+                            
+                            
                         }
                         else {
                             // 播放中途退出，不下发游戏奖励
                         }
+                        WXManagerEX.getInstance().zhuanpanShipin.destroy();
                     })
 
 

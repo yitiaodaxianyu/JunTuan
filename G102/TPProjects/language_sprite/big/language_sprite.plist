@@ -7,20 +7,20 @@
             <key>TY_logo_cn.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,2},{496,154}}</string>
+                <string>{{2,183},{663,310}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{496,154}}</string>
+                <string>{{0,0},{663,310}}</string>
                 <key>sourceSize</key>
-                <string>{496,154}</string>
+                <string>{663,310}</string>
             </dict>
             <key>TY_logo_en.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,158},{391,179}}</string>
+                <string>{{2,2},{391,179}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -38,9 +38,9 @@
             <key>realTextureFileName</key>
             <string>language_sprite.png</string>
             <key>size</key>
-            <string>{512,512}</string>
+            <string>{512,1024}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:c81ae4130212e89bb88c28a94aa0c5d2:1/1$</string>
+            <string>$TexturePacker:SmartUpdate:c427d33157309ca15d1bf4c618d44b0a$</string>
             <key>textureFileName</key>
             <string>language_sprite.png</string>
         </dict>

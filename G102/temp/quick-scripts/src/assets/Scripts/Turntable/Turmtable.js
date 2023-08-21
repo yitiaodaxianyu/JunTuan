@@ -171,9 +171,9 @@ var Turmtable = /** @class */ (function (_super) {
                 GameManager_1.default.getInstance().showMessage(LanguageManager_1.default.getInstance().getStrByTextId(1700004), 3);
             }
             else {
-                if (cc.sys.platform === cc.sys.WECHAT_GAME) {
-                    WXManagerEX_1.default.getInstance().zhuanpanShipin = wx.createRewardedVideoAd({
-                        adUnitId: 'adunit-fafe5d05ac20c01b'
+                if (cc.sys.platform === cc.sys.BYTEDANCE_GAME) {
+                    WXManagerEX_1.default.getInstance().zhuanpanShipin = tt.createRewardedVideoAd({
+                        adUnitId: 'a1m58qb4ql9122f3mp'
                     });
                     WXManagerEX_1.default.getInstance().zhuanpanShipin.offError();
                     WXManagerEX_1.default.getInstance().zhuanpanShipin.onError(function (err) {
@@ -198,6 +198,7 @@ var Turmtable = /** @class */ (function (_super) {
                         else {
                             // 播放中途退出，不下发游戏奖励
                         }
+                        WXManagerEX_1.default.getInstance().zhuanpanShipin.destroy();
                     });
                 }
                 else {

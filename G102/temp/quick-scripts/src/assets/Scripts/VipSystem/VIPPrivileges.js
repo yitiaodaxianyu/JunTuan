@@ -70,9 +70,9 @@ var VIPPrivileges = /** @class */ (function (_super) {
     };
     VIPPrivileges.prototype.clickBtnbtnLan = function () {
         var _this = this;
-        if (cc.sys.platform === cc.sys.WECHAT_GAME) {
-            WXManagerEX_1.default.getInstance().zhanlingjiesuoShipin = wx.createRewardedVideoAd({
-                adUnitId: 'adunit-5d0148773715f613'
+        if (cc.sys.platform === cc.sys.BYTEDANCE_GAME) {
+            WXManagerEX_1.default.getInstance().zhanlingjiesuoShipin = tt.createRewardedVideoAd({
+                adUnitId: '7q83ef0lin4192mi9l'
             });
             WXManagerEX_1.default.getInstance().zhanlingjiesuoShipin.offError();
             WXManagerEX_1.default.getInstance().zhanlingjiesuoShipin.onError(function (err) {
@@ -97,6 +97,7 @@ var VIPPrivileges = /** @class */ (function (_super) {
                 else {
                     // 播放中途退出，不下发游戏奖励
                 }
+                WXManagerEX_1.default.getInstance().zhanlingjiesuoShipin.destroy();
             });
         }
         else {

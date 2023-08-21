@@ -57,12 +57,12 @@ export default class VIPPrivileges extends cc.Component {
     }
     clickBtnbtnLan(){//购买
 
-        if (cc.sys.platform === cc.sys.WECHAT_GAME) {
+        if (cc.sys.platform === cc.sys.BYTEDANCE_GAME) {
 
           
 
-            WXManagerEX.getInstance().zhanlingjiesuoShipin= wx.createRewardedVideoAd({
-                adUnitId: 'adunit-5d0148773715f613'
+            WXManagerEX.getInstance().zhanlingjiesuoShipin= tt.createRewardedVideoAd({
+                adUnitId: '7q83ef0lin4192mi9l'
             });
 
             WXManagerEX.getInstance().zhanlingjiesuoShipin.offError();
@@ -88,6 +88,7 @@ export default class VIPPrivileges extends cc.Component {
                 else {
                     // 播放中途退出，不下发游戏奖励
                 }
+                WXManagerEX.getInstance().zhanlingjiesuoShipin.destroy();
             })
 
         }else{

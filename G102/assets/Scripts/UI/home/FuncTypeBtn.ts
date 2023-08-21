@@ -65,6 +65,7 @@ export default class FuncTypeBtn extends cc.Component {
         //         this.node.active = true;
         //         return true;
         //     }
+            return false;
             if(TheStorageManager.getInstance().getNumber(StorageKey.SharDimo,0)==0){
                 return true;
             }else{
@@ -216,7 +217,7 @@ export default class FuncTypeBtn extends cc.Component {
                 WXManagerEX.getInstance().shareAppMessage();
                 WXManagerEX.getInstance().sharFlag=true;
                 TheStorageManager.getInstance().setItem(StorageKey.SharDimo,1);
-                if (cc.sys.platform === cc.sys.WECHAT_GAME) {
+                if (cc.sys.platform === cc.sys.BYTEDANCE_GAME) {
                     this.scheduleOnce(()=>{
                         cc.director.emit("OnSharBack");
                     },2);

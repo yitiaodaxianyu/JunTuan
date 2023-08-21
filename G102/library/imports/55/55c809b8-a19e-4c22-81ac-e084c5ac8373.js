@@ -50,9 +50,9 @@ var SignInGetTip = /** @class */ (function (_super) {
     };
     SignInGetTip.prototype.onClickAdBtn = function () {
         var _this = this;
-        if (cc.sys.platform === cc.sys.WECHAT_GAME) {
-            WXManagerEX_1.default.getInstance().qiriQiandaoShipin = wx.createRewardedVideoAd({
-                adUnitId: 'adunit-fafe5d05ac20c01b'
+        if (cc.sys.platform === cc.sys.BYTEDANCE_GAME) {
+            WXManagerEX_1.default.getInstance().qiriQiandaoShipin = tt.createRewardedVideoAd({
+                adUnitId: '90312q6nknsj0ao2an'
             });
             WXManagerEX_1.default.getInstance().qiriQiandaoShipin.offError();
             WXManagerEX_1.default.getInstance().qiriQiandaoShipin.onError(function (err) {
@@ -77,6 +77,7 @@ var SignInGetTip = /** @class */ (function (_super) {
                 else {
                     // 播放中途退出，不下发游戏奖励
                 }
+                WXManagerEX_1.default.getInstance().qiriQiandaoShipin.destroy();
             });
         }
         else {

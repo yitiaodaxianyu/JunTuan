@@ -51,7 +51,7 @@ export default class FuHuo extends cc.Component {
    clickBtnFuhuo()
    {
         GameManager.getInstance().sound_manager.playSound(SoundIndex.click);
-        if (cc.sys.platform === cc.sys.WECHAT_GAME) {
+        if (cc.sys.platform === cc.sys.BYTEDANCE_GAME) {
             if(VipManager.getIsVip()==true)
             {
                 GameManager.getInstance().onFuhuo();
@@ -60,8 +60,8 @@ export default class FuHuo extends cc.Component {
             }
             this.unschedule(this.showRemain);
             
-            WXManagerEX.getInstance().fuhuoShipin = wx.createRewardedVideoAd({
-                adUnitId: 'adunit-81a1f1f3d7c367bb'
+            WXManagerEX.getInstance().fuhuoShipin = tt.createRewardedVideoAd({
+                adUnitId: '511higl95hjd24k2xg'
             });
             WXManagerEX.getInstance().fuhuoShipin.offError();
             WXManagerEX.getInstance().fuhuoShipin.onError(err => {
@@ -89,6 +89,7 @@ export default class FuHuo extends cc.Component {
                     // 播放中途退出，不下发游戏奖励
                     this.schedule(this.showRemain,1);
                 }
+                WXManagerEX.getInstance().fuhuoShipin.destroy();
             })
         }else{
             this.onShipinComp();

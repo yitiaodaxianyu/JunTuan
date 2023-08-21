@@ -172,9 +172,9 @@ var FastGuaJiUi = /** @class */ (function (_super) {
     };
     FastGuaJiUi.prototype.clickBtnAd = function () {
         var _this = this;
-        if (cc.sys.platform === cc.sys.WECHAT_GAME) {
-            WXManagerEX_1.default.getInstance().kuaisuGuajiShipin = wx.createRewardedVideoAd({
-                adUnitId: 'adunit-e66e307225f3960f'
+        if (cc.sys.platform === cc.sys.BYTEDANCE_GAME) {
+            WXManagerEX_1.default.getInstance().kuaisuGuajiShipin = tt.createRewardedVideoAd({
+                adUnitId: '3iifgrgt8f2515m1sg'
             });
             WXManagerEX_1.default.getInstance().kuaisuGuajiShipin.offError();
             WXManagerEX_1.default.getInstance().kuaisuGuajiShipin.onError(function (err) {
@@ -199,6 +199,7 @@ var FastGuaJiUi = /** @class */ (function (_super) {
                 else {
                     // 播放中途退出，不下发游戏奖励
                 }
+                WXManagerEX_1.default.getInstance().kuaisuGuajiShipin.destroy();
             });
         }
         else {

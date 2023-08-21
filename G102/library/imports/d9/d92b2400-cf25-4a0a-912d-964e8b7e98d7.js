@@ -50,52 +50,27 @@ var WXManagerEX = /** @class */ (function (_super) {
     };
     WXManagerEX.prototype.initData = function () {
         this.getSystemInfo();
-        if (cc.sys.platform === cc.sys.WECHAT_GAME) {
-            //wx.cloud.init();
-            // this.fuhuoShipin = wx.createRewardedVideoAd({
-            //     adUnitId: 'adunit-81a1f1f3d7c367bb'
-            // });
-            wx.onShow(this.showWX);
-        }
-    };
-    WXManagerEX.prototype.showWX = function (res) {
-        console.log(JSON.stringify(res));
-        if (this.sharFlag == true) {
-            WXManagerEX_1.getInstance().sharFlag = false;
+        if (cc.sys.platform === cc.sys.BYTEDANCE_GAME) {
         }
     };
     WXManagerEX.prototype.vibrateShort = function () {
-        if (cc.sys.platform === cc.sys.WECHAT_GAME) {
-            wx.vibrateShort({ type: "medium" });
+        if (cc.sys.platform === cc.sys.BYTEDANCE_GAME) {
+            tt.vibrateShort();
         }
     };
     WXManagerEX.prototype.shareAppMessage = function () {
-        if (cc.sys.platform === cc.sys.WECHAT_GAME) {
-            wx.shareAppMessage({
-                imageUrlId: "d2CFfPcmRESFpy28mMsJWA==",
-                imageUrl: "https://mmocgame.qpic.cn/wechatgame/EGmcoSgicQus18ObjEjwSIjSJzMu2XD3z3gFVeuTXBGPD3n1UyfbgO8OlUebNibDVr/0"
-            });
+        if (cc.sys.platform === cc.sys.BYTEDANCE_GAME) {
         }
     };
     WXManagerEX.prototype.getSystemInfo = function () {
-        if (cc.sys.platform === cc.sys.WECHAT_GAME) {
+        if (cc.sys.platform === cc.sys.BYTEDANCE_GAME) {
             try {
-                var res = wx.getSystemInfoSync();
+                var res = tt.getSystemInfoSync();
                 console.log("wx:" + res.model);
                 console.log("statusBarHeight:" + res.statusBarHeight);
                 if (res.statusBarHeight > 20) {
                     WXManagerEX_1.getInstance().statusBarHeight = res.statusBarHeight;
                 }
-                wx.showShareMenu({
-                    withShareTicket: true,
-                    menus: ['shareAppMessage', 'shareTimeline']
-                });
-                wx.onShareAppMessage(function () {
-                    return {
-                        imageUrlId: "d2CFfPcmRESFpy28mMsJWA==",
-                        imageUrl: "https://mmocgame.qpic.cn/wechatgame/EGmcoSgicQus18ObjEjwSIjSJzMu2XD3z3gFVeuTXBGPD3n1UyfbgO8OlUebNibDVr/0"
-                    };
-                });
             }
             catch (e) {
                 // Do something when catch error

@@ -34,11 +34,9 @@ export default class WXManager {
 
     initAds()
     {
-        if(cc.sys.platform===cc.sys.WECHAT_GAME)
+        if(cc.sys.platform===cc.sys.BYTEDANCE_GAME)
         {
-            wx.showShareMenu({
-                withShareTicket: true
-              });
+    
         }
     };
     

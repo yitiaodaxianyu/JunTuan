@@ -1070,8 +1070,8 @@
     "relativePath": "resourcesBundle\\Images\\get_hint.png"
   },
   "f7fe28b5-3fd3-4031-91b5-d4d08dd1d46a": {
-    "asset": 1691148365098,
-    "meta": 1691148365101,
+    "asset": 1692606814653,
+    "meta": 1692606814656,
     "relativePath": "resourcesBundle\\Scenes\\load.fire"
   },
   "b8d2234c-7442-430d-8abd-e21bef67728b": {
@@ -1393,11 +1393,6 @@
     "asset": 1690959987829,
     "meta": 1690960924390,
     "relativePath": "resourcesBundle\\Images\\common_ui\\common_ui.png"
-  },
-  "98461246-8648-40dc-96be-10100526baa0": {
-    "asset": 1691463661588,
-    "meta": 1691545130139,
-    "relativePath": "startscene\\res\\Load_BG.jpg"
   },
   "713b3d6a-d16e-43c3-b6f1-7e02dba98afd": {
     "asset": 1690960005798,
@@ -4195,8 +4190,8 @@
     "relativePath": "resourcesBundle\\Multilingual\\Void_IN.png"
   },
   "cbbf53a1-124b-4a23-9a63-04fff8749baa": {
-    "asset": 1692355202553,
-    "meta": 1692355202576,
+    "asset": 1692604365185,
+    "meta": 1692604365191,
     "relativePath": "resourcesBundle\\signIn\\sign_in_buy_ui.prefab"
   },
   "02ddbe6b-bb5c-40cc-9bc7-e998d151db1c": {
@@ -4274,11 +4269,6 @@
     "meta": 1690960924046,
     "relativePath": "resourcesBundle\\store\\store_title.prefab"
   },
-  "a36c71b9-40e3-4df0-9d7a-53d7a4190252": {
-    "asset": 1690960500307,
-    "meta": 1690960929164,
-    "relativePath": "resourcesBundle\\sp\\language_sprite.plist"
-  },
   "9f0076c6-1901-4a08-b7af-f99c0d2b4add": {
     "asset": 1690960739485,
     "meta": 1690960924062,
@@ -4288,11 +4278,6 @@
     "asset": 1690960740172,
     "meta": 1690960924062,
     "relativePath": "resourcesBundle\\task\\task_item_ui.prefab"
-  },
-  "097d7c3b-416c-4b06-9eb8-3e7eed6d6185": {
-    "asset": 1690960500769,
-    "meta": 1690960924015,
-    "relativePath": "resourcesBundle\\sp\\language_sprite.png"
   },
   "9ddcac5d-10d4-4d51-92ea-f0efe50bf48c": {
     "asset": 1690960740626,
@@ -4428,11 +4413,6 @@
     "asset": 1690960754956,
     "meta": 1690960924093,
     "relativePath": "resourcesBundle\\tutorials\\t252.prefab"
-  },
-  "5b44c406-b05a-4087-94ca-dd5543a996e2": {
-    "asset": 1690960501174,
-    "meta": 1690960924031,
-    "relativePath": "resourcesBundle\\sp\\TY_logo_cn.png"
   },
   "5ff6bf4c-9dd5-4961-bbba-6fe6061bd24e": {
     "asset": 1690960755865,
@@ -4570,8 +4550,8 @@
     "relativePath": "resourcesBundle\\userLevel\\user_level_ui.prefab"
   },
   "4d70b2a4-99b0-4655-bcfa-4f0ae07caabf": {
-    "asset": 1692341871303,
-    "meta": 1692341871310,
+    "asset": 1692604634304,
+    "meta": 1692604634311,
     "relativePath": "resourcesBundle\\vipsystem\\VipSystem.prefab"
   },
   "8d5b4d92-67a7-434c-a28a-491bc4b57455": {
@@ -4598,11 +4578,6 @@
     "asset": 1690960773695,
     "meta": 1690960924125,
     "relativePath": "resourcesBundle\\wishing\\wishing_effect_ui.prefab"
-  },
-  "6708cc45-5c1d-40b8-b35b-6841b7cbcffc": {
-    "asset": 1688719263298,
-    "meta": 1689133964570,
-    "relativePath": "Scripts\\Ads\\WXManager.ts"
   },
   "dbf67527-5b01-49f2-bf7e-f4b20c0e19a5": {
     "asset": 1688719263304,
@@ -4788,11 +4763,6 @@
     "asset": 1688719263407,
     "meta": 1689133964887,
     "relativePath": "Scripts\\Game\\ChuShengDian.ts"
-  },
-  "432d9d8b-dc47-4a54-b2c7-bd2d7a7513e4": {
-    "asset": 1688719263300,
-    "meta": 1689133964889,
-    "relativePath": "Scripts\\Ads\\ad.d.ts"
   },
   "ed9eb8c3-27b1-4dd6-9c79-6000980401af": {
     "asset": 1688719263408,
@@ -14381,7 +14351,7 @@
   },
   "1c831d67-588e-4e66-82d0-b96a6bd9c1cb": {
     "asset": 1690962957859,
-    "meta": 1691026732060,
+    "meta": 1692585120854,
     "relativePath": "resourcesBundle"
   },
   "a256c81b-e0a9-4570-baa4-67f2f5a4a85b": {
@@ -14485,8 +14455,8 @@
     "relativePath": "Scripts\\Level\\MissionLevel.ts"
   },
   "b3689caf-f972-4610-b0ce-8f75f146cd85": {
-    "asset": 1691147800396,
-    "meta": 1691147800405,
+    "asset": 1692606860174,
+    "meta": 1692606860180,
     "relativePath": "startscene\\start.fire"
   },
   "e0fc9049-2efe-4ef6-bc6b-0c9b18359f6a": {
@@ -15274,11 +15244,6 @@
     "meta": 1692324540720,
     "relativePath": "model\\primitives.fbx"
   },
-  "a878efdc-75b8-4e1c-83e7-e8e07c54ac13": {
-    "asset": 1691577746415,
-    "meta": 1691577748253,
-    "relativePath": "Scripts\\UI\\home\\SettingUi.ts"
-  },
   "725dbc87-61d9-4c10-ad7b-44a346756199": {
     "asset": 1691717936736,
     "meta": 1691717988156,
@@ -15314,26 +15279,6 @@
     "meta": 1692347586271,
     "relativePath": "Scripts\\Constants.ts"
   },
-  "ff3182d5-470e-4d2e-b2b9-1dab49980ade": {
-    "asset": 1692351553606,
-    "meta": 1692352389933,
-    "relativePath": "Scripts\\GuaJi\\Ui\\FastGuaJiUi.ts"
-  },
-  "60c316b8-35bc-4849-8520-30c4c2d4cb79": {
-    "asset": 1692351432377,
-    "meta": 1692352389871,
-    "relativePath": "Scripts\\Turntable\\Turmtable.ts"
-  },
-  "55c809b8-a19e-4c22-81ac-e084c5ac8373": {
-    "asset": 1692351536703,
-    "meta": 1692352389949,
-    "relativePath": "Scripts\\UI\\home\\SignInGetTip.ts"
-  },
-  "38a7a806-3eb4-49a9-8a2f-21ecd6717200": {
-    "asset": 1692351578718,
-    "meta": 1692352389902,
-    "relativePath": "Scripts\\VipSystem\\VIPPrivileges.ts"
-  },
   "e8923396-03b3-4eae-82c6-18738713a3b9": {
     "asset": 1692354345953,
     "meta": 1692354543258,
@@ -15359,30 +15304,10 @@
     "meta": 1692354986489,
     "relativePath": "Scripts\\Prop\\PropInfoUi.ts"
   },
-  "2c3a3216-77be-4f6f-bc72-de785e68a5a7": {
-    "asset": 1692354934397,
-    "meta": 1692354986770,
-    "relativePath": "Scripts\\Store\\StoreUi.ts"
-  },
-  "199d48cc-71bd-4fc6-b9d3-ecc6912b1e31": {
-    "asset": 1692355371156,
-    "meta": 1692355386967,
-    "relativePath": "Scripts\\UI\\home\\SignUi.ts"
-  },
-  "954f1844-9b16-487a-b8df-bcf151bcf452": {
-    "asset": 1692355541370,
-    "meta": 1692355545373,
-    "relativePath": "Scripts\\UI\\home\\SignInBuyUi.ts"
-  },
   "495ded0f-c22f-44be-a2de-33359b7e55b5": {
     "asset": 1692356191574,
     "meta": 1692356193277,
     "relativePath": "resourcesBundle\\json\\DrawCardInformation.json"
-  },
-  "8e712ea4-2c80-41ec-be23-0b8eeaac370e": {
-    "asset": 1692357048803,
-    "meta": 1692357050487,
-    "relativePath": "Scripts\\copy\\endlesschallenges\\purchasesnumbe.ts"
   },
   "43abe177-0e78-4218-b563-9f4958845c31": {
     "asset": 1692412570191,
@@ -15429,19 +15354,94 @@
     "meta": 1692415175993,
     "relativePath": "resourcesBundle\\json\\TextManagement.json"
   },
-  "50576260-b7c8-4261-811a-fb274eeb3929": {
-    "asset": 1692415224353,
-    "meta": 1692415225827,
-    "relativePath": "Scripts\\UI\\FuHuo.ts"
+  "432d9d8b-dc47-4a54-b2c7-bd2d7a7513e4": {
+    "asset": 1692586679919,
+    "meta": 1692588224794,
+    "relativePath": "Scripts\\Ads\\ad.d.ts"
   },
-  "d92b2400-cf25-4a0a-912d-964e8b7e98d7": {
-    "asset": 1692416738595,
-    "meta": 1692416756032,
-    "relativePath": "startscene\\WXManagerEX.ts"
+  "6708cc45-5c1d-40b8-b35b-6841b7cbcffc": {
+    "asset": 1692588472697,
+    "meta": 1692589107304,
+    "relativePath": "Scripts\\Ads\\WXManager.ts"
+  },
+  "a878efdc-75b8-4e1c-83e7-e8e07c54ac13": {
+    "asset": 1692588506468,
+    "meta": 1692589107742,
+    "relativePath": "Scripts\\UI\\home\\SettingUi.ts"
   },
   "8d555924-7128-4b16-bf76-db7e9c4804d1": {
-    "asset": 1692417275583,
-    "meta": 1692417279705,
+    "asset": 1692603967863,
+    "meta": 1692603969038,
     "relativePath": "Scripts\\UI\\home\\FuncTypeBtn.ts"
+  },
+  "8e712ea4-2c80-41ec-be23-0b8eeaac370e": {
+    "asset": 1692606089958,
+    "meta": 1692606441714,
+    "relativePath": "Scripts\\copy\\endlesschallenges\\purchasesnumbe.ts"
+  },
+  "ff3182d5-470e-4d2e-b2b9-1dab49980ade": {
+    "asset": 1692605925003,
+    "meta": 1692606441773,
+    "relativePath": "Scripts\\GuaJi\\Ui\\FastGuaJiUi.ts"
+  },
+  "2c3a3216-77be-4f6f-bc72-de785e68a5a7": {
+    "asset": 1692606060990,
+    "meta": 1692606442076,
+    "relativePath": "Scripts\\Store\\StoreUi.ts"
+  },
+  "60c316b8-35bc-4849-8520-30c4c2d4cb79": {
+    "asset": 1692605823349,
+    "meta": 1692606442126,
+    "relativePath": "Scripts\\Turntable\\Turmtable.ts"
+  },
+  "50576260-b7c8-4261-811a-fb274eeb3929": {
+    "asset": 1692605862333,
+    "meta": 1692606442138,
+    "relativePath": "Scripts\\UI\\FuHuo.ts"
+  },
+  "954f1844-9b16-487a-b8df-bcf151bcf452": {
+    "asset": 1692605901219,
+    "meta": 1692606442159,
+    "relativePath": "Scripts\\UI\\home\\SignInBuyUi.ts"
+  },
+  "55c809b8-a19e-4c22-81ac-e084c5ac8373": {
+    "asset": 1692605905994,
+    "meta": 1692606442168,
+    "relativePath": "Scripts\\UI\\home\\SignInGetTip.ts"
+  },
+  "199d48cc-71bd-4fc6-b9d3-ecc6912b1e31": {
+    "asset": 1692605889790,
+    "meta": 1692606442199,
+    "relativePath": "Scripts\\UI\\home\\SignUi.ts"
+  },
+  "38a7a806-3eb4-49a9-8a2f-21ecd6717200": {
+    "asset": 1692605978971,
+    "meta": 1692606442213,
+    "relativePath": "Scripts\\VipSystem\\VIPPrivileges.ts"
+  },
+  "d92b2400-cf25-4a0a-912d-964e8b7e98d7": {
+    "asset": 1692605942324,
+    "meta": 1692606442225,
+    "relativePath": "startscene\\WXManagerEX.ts"
+  },
+  "98461246-8648-40dc-96be-10100526baa0": {
+    "asset": 1692606497102,
+    "meta": 1692606522483,
+    "relativePath": "startscene\\res\\Load_BG.jpg"
+  },
+  "5b44c406-b05a-4087-94ca-dd5543a996e2": {
+    "asset": 1692606750550,
+    "meta": 1692606907944,
+    "relativePath": "resourcesBundle\\sp\\TY_logo_cn.png"
+  },
+  "097d7c3b-416c-4b06-9eb8-3e7eed6d6185": {
+    "asset": 1692607012482,
+    "meta": 1692607020032,
+    "relativePath": "resourcesBundle\\sp\\language_sprite.png"
+  },
+  "a36c71b9-40e3-4df0-9d7a-53d7a4190252": {
+    "asset": 1692606983946,
+    "meta": 1692607020034,
+    "relativePath": "resourcesBundle\\sp\\language_sprite.plist"
   }
 }

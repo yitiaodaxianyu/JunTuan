@@ -112,8 +112,6 @@
         </struct>
         <key>dataFileName</key>
         <filename>big/language_sprite.plist</filename>
-        <key>multiPack</key>
-        <false/>
         <key>mainExtension</key>
         <string></string>
         <key>forceIdenticalLayout</key>

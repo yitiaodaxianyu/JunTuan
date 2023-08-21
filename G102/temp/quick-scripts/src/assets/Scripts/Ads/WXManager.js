@@ -35,10 +35,7 @@ var WXManager = /** @class */ (function () {
         this.initAds();
     };
     WXManager.prototype.initAds = function () {
-        if (cc.sys.platform === cc.sys.WECHAT_GAME) {
-            wx.showShareMenu({
-                withShareTicket: true
-            });
+        if (cc.sys.platform === cc.sys.BYTEDANCE_GAME) {
         }
     };
     ;

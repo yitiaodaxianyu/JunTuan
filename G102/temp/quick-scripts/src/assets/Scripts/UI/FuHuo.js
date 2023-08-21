@@ -62,15 +62,15 @@ var FuHuo = /** @class */ (function (_super) {
     FuHuo.prototype.clickBtnFuhuo = function () {
         var _this = this;
         GameManager_1.default.getInstance().sound_manager.playSound(AudioConstants_1.SoundIndex.click);
-        if (cc.sys.platform === cc.sys.WECHAT_GAME) {
+        if (cc.sys.platform === cc.sys.BYTEDANCE_GAME) {
             if (VipManager_1.VipManager.getIsVip() == true) {
                 GameManager_1.default.getInstance().onFuhuo();
                 this.destroySelf();
                 return;
             }
             this.unschedule(this.showRemain);
-            WXManagerEX_1.default.getInstance().fuhuoShipin = wx.createRewardedVideoAd({
-                adUnitId: 'adunit-81a1f1f3d7c367bb'
+            WXManagerEX_1.default.getInstance().fuhuoShipin = tt.createRewardedVideoAd({
+                adUnitId: '511higl95hjd24k2xg'
             });
             WXManagerEX_1.default.getInstance().fuhuoShipin.offError();
             WXManagerEX_1.default.getInstance().fuhuoShipin.onError(function (err) {
@@ -98,6 +98,7 @@ var FuHuo = /** @class */ (function (_super) {
                     // 播放中途退出，不下发游戏奖励
                     _this.schedule(_this.showRemain, 1);
                 }
+                WXManagerEX_1.default.getInstance().fuhuoShipin.destroy();
             });
         }
         else {

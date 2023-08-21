@@ -179,9 +179,9 @@ var SignUi = /** @class */ (function (_super) {
         if (Number(num) != index)
             return;
         if (StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.CanSignIn, 0) == 0) {
-            if (cc.sys.platform === cc.sys.WECHAT_GAME) {
-                WXManagerEX_1.default.getInstance().qiriQiandaoShipin = wx.createRewardedVideoAd({
-                    adUnitId: 'adunit-74cd62188527aedb'
+            if (cc.sys.platform === cc.sys.BYTEDANCE_GAME) {
+                WXManagerEX_1.default.getInstance().qiriQiandaoShipin = tt.createRewardedVideoAd({
+                    adUnitId: '90312q6nknsj0ao2an'
                 });
                 WXManagerEX_1.default.getInstance().qiriQiandaoShipin.offError();
                 WXManagerEX_1.default.getInstance().qiriQiandaoShipin.onError(function (err) {
@@ -206,6 +206,7 @@ var SignUi = /** @class */ (function (_super) {
                     else {
                         // 播放中途退出，不下发游戏奖励
                     }
+                    WXManagerEX_1.default.getInstance().qiriQiandaoShipin.destroy();
                 });
             }
             else {

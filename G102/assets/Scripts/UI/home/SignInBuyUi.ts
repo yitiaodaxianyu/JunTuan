@@ -109,9 +109,9 @@ export default class SignInBuyUi extends UIComponent {
         if (num == '' || num == undefined) num = TheStorageManager.getInstance().getNumber(StorageKey.NewPlayerSavenDaySignInNum, 0) + '';
         if (Number(num) != index) return;
         if (TheStorageManager.getInstance().getNumber(StorageKey.CanSignIn, 0) == 0) {
-            if (cc.sys.platform === cc.sys.WECHAT_GAME) {
-                WXManagerEX.getInstance().qiriQiandaoShipin = wx.createRewardedVideoAd({
-                    adUnitId: 'adunit-74cd62188527aedb'
+            if (cc.sys.platform === cc.sys.BYTEDANCE_GAME) {
+                WXManagerEX.getInstance().qiriQiandaoShipin = tt.createRewardedVideoAd({
+                    adUnitId: '90312q6nknsj0ao2an'
                 });
                 WXManagerEX.getInstance().qiriQiandaoShipin.offError();
                 WXManagerEX.getInstance().qiriQiandaoShipin.onError(err => {
@@ -136,6 +136,7 @@ export default class SignInBuyUi extends UIComponent {
                     else {
                         // 播放中途退出，不下发游戏奖励
                     }
+                    WXManagerEX.getInstance().qiriQiandaoShipin.destroy();
                 })
 
 

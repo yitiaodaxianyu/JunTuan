@@ -652,9 +652,9 @@ var StoreUi = /** @class */ (function (_super) {
                         _this.adItem = item;
                         _this.informationTemp = v;
                         _this.informationK = k;
-                        if (cc.sys.platform === cc.sys.WECHAT_GAME) {
-                            WXManagerEX_1.default.getInstance().zuanshiiShipin = wx.createRewardedVideoAd({
-                                adUnitId: 'adunit-47eb545f84d9750f'
+                        if (cc.sys.platform === cc.sys.BYTEDANCE_GAME) {
+                            WXManagerEX_1.default.getInstance().zuanshiiShipin = tt.createRewardedVideoAd({
+                                adUnitId: 'dbee4b199d912f6onp'
                             });
                             WXManagerEX_1.default.getInstance().zuanshiiShipin.offError();
                             WXManagerEX_1.default.getInstance().zuanshiiShipin.onError(function (err) {
@@ -679,6 +679,7 @@ var StoreUi = /** @class */ (function (_super) {
                                 else {
                                     // 播放中途退出，不下发游戏奖励
                                 }
+                                WXManagerEX_1.default.getInstance().zuanshiiShipin.destroy();
                             });
                         }
                         else {
@@ -1199,9 +1200,9 @@ var StoreUi = /** @class */ (function (_super) {
                 _this.equipItemTemp = equipItem;
                 _this.costIdTemp = costId;
                 _this.prizeEquipDataTemp = prizeEquipData;
-                if (cc.sys.platform === cc.sys.WECHAT_GAME) {
-                    WXManagerEX_1.default.getInstance().zhuangbeikuShipin = wx.createRewardedVideoAd({
-                        adUnitId: 'adunit-439ef5ec33dfa530'
+                if (cc.sys.platform === cc.sys.BYTEDANCE_GAME) {
+                    WXManagerEX_1.default.getInstance().zhuangbeikuShipin = tt.createRewardedVideoAd({
+                        adUnitId: '613effl7e21d5e7dc6'
                     });
                     WXManagerEX_1.default.getInstance().zhuangbeikuShipin.offError();
                     WXManagerEX_1.default.getInstance().zhuangbeikuShipin.onError(function (err) {
@@ -1226,6 +1227,7 @@ var StoreUi = /** @class */ (function (_super) {
                         else {
                             // 播放中途退出，不下发游戏奖励
                         }
+                        WXManagerEX_1.default.getInstance().zhuangbeikuShipin.destroy();
                     });
                 }
                 else {
@@ -1496,9 +1498,9 @@ var StoreUi = /** @class */ (function (_super) {
                         _this.vTemp = v;
                         _this.adItem = item;
                         _this.kTemp = k;
-                        if (cc.sys.platform === cc.sys.WECHAT_GAME) {
-                            WXManagerEX_1.default.getInstance().jinbiShipin = wx.createRewardedVideoAd({
-                                adUnitId: 'adunit-bc7e10a7320316d1'
+                        if (cc.sys.platform === cc.sys.BYTEDANCE_GAME) {
+                            WXManagerEX_1.default.getInstance().jinbiShipin = tt.createRewardedVideoAd({
+                                adUnitId: '1fida1lqejnd3pd4l1'
                             });
                             WXManagerEX_1.default.getInstance().jinbiShipin.offError();
                             WXManagerEX_1.default.getInstance().jinbiShipin.onError(function (err) {
@@ -1523,6 +1525,7 @@ var StoreUi = /** @class */ (function (_super) {
                                 else {
                                     // 播放中途退出，不下发游戏奖励
                                 }
+                                WXManagerEX_1.default.getInstance().jinbiShipin.destroy();
                             });
                         }
                         else {

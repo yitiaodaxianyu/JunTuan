@@ -161,8 +161,8 @@ export default class SettingUi extends UIComponent {
     }
     public checkMsg(str:string):void {
       
-        if (cc.sys.platform === cc.sys.WECHAT_GAME) {
-            wx.cloud.callFunction({
+        if (cc.sys.platform === cc.sys.BYTEDANCE_GAME) {
+            tt.cloud.callFunction({
                 name: "checkMsg",
                 data: {
                     text: str

@@ -3,5 +3,5 @@
   "_name": "ad.d",
   "_objFlags": 0,
   "_native": "",
-  "text": "interface Window {\r\n\tnewCallback: Function;\r\n\tadShow:Function;\r\n\tadInit:Function;\r\n\tgetSystemInfo:Function;\r\n};\r\ndeclare const wx: any=null;\r\n\r\ndeclare namespace cc{\r\n\texport var APK:any;\r\n}\r\n"
+  "text": "interface Window {\r\n\tnewCallback: Function;\r\n\tadShow:Function;\r\n\tadInit:Function;\r\n\tgetSystemInfo:Function;\r\n};\r\n\r\ndeclare const tt: any=null;\r\ndeclare namespace cc{\r\n\texport var APK:any;\r\n}\r\n"
 }

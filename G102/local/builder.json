@@ -1,6 +1,6 @@
 {
   "platform": "mini-game",
-  "actualPlatform": "wechatgame",
+  "actualPlatform": "bytedance",
   "template": "link",
   "buildPath": "./build",
   "debug": false,

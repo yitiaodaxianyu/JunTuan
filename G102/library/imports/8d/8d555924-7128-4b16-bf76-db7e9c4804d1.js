@@ -83,6 +83,7 @@ var FuncTypeBtn = /** @class */ (function (_super) {
             //         this.node.active = true;
             //         return true;
             //     }
+            return false;
             if (StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.SharDimo, 0) == 0) {
                 return true;
             }
@@ -253,7 +254,7 @@ var FuncTypeBtn = /** @class */ (function (_super) {
                     WXManagerEX_1.default.getInstance().shareAppMessage();
                     WXManagerEX_1.default.getInstance().sharFlag = true;
                     StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.SharDimo, 1);
-                    if (cc.sys.platform === cc.sys.WECHAT_GAME) {
+                    if (cc.sys.platform === cc.sys.BYTEDANCE_GAME) {
                         this.scheduleOnce(function () {
                             cc.director.emit("OnSharBack");
                         }, 2);

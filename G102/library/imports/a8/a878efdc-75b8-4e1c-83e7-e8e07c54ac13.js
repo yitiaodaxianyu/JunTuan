@@ -140,8 +140,8 @@ var SettingUi = /** @class */ (function (_super) {
     };
     SettingUi.prototype.checkMsg = function (str) {
         var _this = this;
-        if (cc.sys.platform === cc.sys.WECHAT_GAME) {
-            wx.cloud.callFunction({
+        if (cc.sys.platform === cc.sys.BYTEDANCE_GAME) {
+            tt.cloud.callFunction({
                 name: "checkMsg",
                 data: {
                     text: str

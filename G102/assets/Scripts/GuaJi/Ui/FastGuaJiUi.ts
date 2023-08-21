@@ -161,13 +161,13 @@ export default class FastGuaJiUi extends UIComponent {
     }
 
     clickBtnAd(){
-        if (cc.sys.platform === cc.sys.WECHAT_GAME) {
+        if (cc.sys.platform === cc.sys.BYTEDANCE_GAME) {
 
  
 
 
-            WXManagerEX.getInstance().kuaisuGuajiShipin= wx.createRewardedVideoAd({
-                adUnitId: 'adunit-e66e307225f3960f'
+            WXManagerEX.getInstance().kuaisuGuajiShipin= tt.createRewardedVideoAd({
+                adUnitId: '3iifgrgt8f2515m1sg'
             });
             WXManagerEX.getInstance().kuaisuGuajiShipin.offError();
                     WXManagerEX.getInstance().kuaisuGuajiShipin.onError(err => {
@@ -192,6 +192,7 @@ export default class FastGuaJiUi extends UIComponent {
                 else {
                     // 播放中途退出，不下发游戏奖励
                 }
+                WXManagerEX.getInstance().kuaisuGuajiShipin.destroy();
             })
 
         }else{

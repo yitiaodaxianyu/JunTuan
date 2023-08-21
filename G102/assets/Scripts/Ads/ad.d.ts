@@ -4,8 +4,8 @@ interface Window {
 	adInit:Function;
 	getSystemInfo:Function;
 };
-declare const wx: any=null;
 
+declare const tt: any=null;
 declare namespace cc{
 	export var APK:any;
 }

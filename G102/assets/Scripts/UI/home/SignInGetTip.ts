@@ -30,10 +30,10 @@ export default class SignInGetTip extends UIComponent {
     }
 
     onClickAdBtn(){
-        if (cc.sys.platform === cc.sys.WECHAT_GAME) {
+        if (cc.sys.platform === cc.sys.BYTEDANCE_GAME) {
 
-            WXManagerEX.getInstance().qiriQiandaoShipin= wx.createRewardedVideoAd({
-                adUnitId: 'adunit-fafe5d05ac20c01b'
+            WXManagerEX.getInstance().qiriQiandaoShipin= tt.createRewardedVideoAd({
+                adUnitId: '90312q6nknsj0ao2an'
             });
             WXManagerEX.getInstance().qiriQiandaoShipin.offError();
                     WXManagerEX.getInstance().qiriQiandaoShipin.onError(err => {
@@ -58,6 +58,7 @@ export default class SignInGetTip extends UIComponent {
                 else {
                     // 播放中途退出，不下发游戏奖励
                 }
+                WXManagerEX.getInstance().qiriQiandaoShipin.destroy();
             })
 
         }else{
