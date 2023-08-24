@@ -1349,27 +1349,47 @@ export default class Monster extends cc.Component {
         }
         
         let anima=this.spine.setAnimation(0,name,isLoop);
-        if(data){
-            this.spine.setTrackEventListener(anima,(entry: sp.spine.TrackEntry, event) =>{
-                if(event.data.name==data.name){
-                    data.callback();
-                }
-            })
-        }
+        // if(data){
+        //     this.spine.setTrackEventListener(anima,(entry: sp.spine.TrackEntry, event) =>{
+        //         if(event.data.name==data.name){
+        //             data.callback();
+        //         }
+        //     })
+        // }
+        // if(endCallback){
+        //     this.spine.setTrackCompleteListener(anima,(entry: sp.spine.TrackEntry, event) =>{
+        //         anima.listener=null;
+        //         endCallback();
+        //     })
+        // }
+
         if(endCallback){
-            this.spine.setTrackCompleteListener(anima,(entry: sp.spine.TrackEntry, event) =>{
-                anima.listener=null;
-                endCallback();
-            })
+          
+
+            this.spine.setCompleteListener((trackEntry, loopCount) => {
+                let nameTemp = trackEntry.animation ? trackEntry.animation.name : '';
+                if (nameTemp === name && endCallback) {
+                   
+                    if(data&&data.callback){
+                        data.callback();
+                    }
+                    endCallback();
+                }
+                // this.spine.setCompleteListener(null);
+            });
         }
     }
 
     playDeadAnimaton(name:string,endCallback:Function){
-        let anima=this.spine.setAnimation(0,name,false);
-        this.spine.setTrackCompleteListener(anima,(entry: sp.spine.TrackEntry, event) =>{
-            anima.listener=null;
-            endCallback();
-        })
+       
+         let anima=this.spine.setAnimation(0,name,false);
+        this.spine.setCompleteListener((trackEntry, loopCount) => {
+            let nameTemp = trackEntry.animation ? trackEntry.animation.name : '';
+            if (nameTemp === name && endCallback) {
+                endCallback();
+            }
+            this.spine.setCompleteListener(null);
+        });
     }
     /**设置X坐标，返回偏左还是偏右了,-1:偏左，0：正常，1：偏右 */
     setX(disX:number):number{

@@ -352,8 +352,8 @@
     "paused": false,
     "defaultSkin": "default",
     "defaultAnimation": "Rouge_Particle",
-    "_preCacheMode": 0,
-    "_cacheMode": 0,
+    "_preCacheMode": 1,
+    "_cacheMode": 1,
     "loop": true,
     "premultipliedAlpha": true,
     "timeScale": 1,
@@ -370,7 +370,7 @@
     "_N$skeletonData": {
       "__uuid__": "7dca6e86-53e9-4583-8b01-074109386891"
     },
-    "_N$_defaultCacheMode": 0,
+    "_N$_defaultCacheMode": 1,
     "_N$debugSlots": false,
     "_N$debugBones": false,
     "_N$debugMesh": false,
@@ -405,8 +405,8 @@
     "paused": false,
     "defaultSkin": "default",
     "defaultAnimation": "Rouge_Card",
-    "_preCacheMode": 0,
-    "_cacheMode": 0,
+    "_preCacheMode": 1,
+    "_cacheMode": 1,
     "loop": true,
     "premultipliedAlpha": true,
     "timeScale": 1,
@@ -423,7 +423,7 @@
     "_N$skeletonData": {
       "__uuid__": "7dca6e86-53e9-4583-8b01-074109386891"
     },
-    "_N$_defaultCacheMode": 0,
+    "_N$_defaultCacheMode": 1,
     "_N$debugSlots": false,
     "_N$debugBones": false,
     "_N$debugMesh": false,
@@ -3368,8 +3368,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 185,
-      "height": 55
+      "width": 237,
+      "height": 65
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",

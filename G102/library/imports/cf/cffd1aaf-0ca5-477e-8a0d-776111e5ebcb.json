@@ -64,8 +64,8 @@
         0,
         0,
         1,
-        2,
-        2,
+        0.5,
+        0.5,
         1
       ]
     },
@@ -144,7 +144,7 @@
     },
     "_enabled": true,
     "prefab_tuowei": null,
-    "acc_num": 600,
+    "acc_num": 100,
     "sp_fly": null,
     "sp_create": null,
     "_id": ""

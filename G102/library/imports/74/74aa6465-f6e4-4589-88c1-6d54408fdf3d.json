@@ -89,8 +89,8 @@
     "paused": false,
     "defaultSkin": "default",
     "defaultAnimation": "",
-    "_preCacheMode": 0,
-    "_cacheMode": 0,
+    "_preCacheMode": 1,
+    "_cacheMode": 1,
     "loop": true,
     "premultipliedAlpha": true,
     "timeScale": 1,
@@ -107,7 +107,7 @@
     "_N$skeletonData": {
       "__uuid__": "5fbf016d-99a5-4a09-82e7-17fb7d6017fb"
     },
-    "_N$_defaultCacheMode": 0,
+    "_N$_defaultCacheMode": 1,
     "_N$debugSlots": false,
     "_N$debugBones": false,
     "_N$debugMesh": false,
@@ -121,7 +121,7 @@
       "__id__": 1
     },
     "asset": {
-      "__id__": 0
+      "__uuid__": "74aa6465-f6e4-4589-88c1-6d54408fdf3d"
     },
     "fileId": "",
     "sync": false

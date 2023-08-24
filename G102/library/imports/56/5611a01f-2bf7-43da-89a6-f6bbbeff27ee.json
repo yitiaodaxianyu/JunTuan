@@ -55,8 +55,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 439.57,
-      "height": 614
+      "width": 460,
+      "height": 683.07
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -501,8 +501,8 @@
     "paused": false,
     "defaultSkin": "default",
     "defaultAnimation": "Idle",
-    "_preCacheMode": 0,
-    "_cacheMode": 0,
+    "_preCacheMode": 1,
+    "_cacheMode": 1,
     "loop": true,
     "premultipliedAlpha": true,
     "timeScale": 1,
@@ -519,7 +519,7 @@
     "_N$skeletonData": {
       "__uuid__": "fc389d17-91f3-4854-99b1-93e5a6c55308"
     },
-    "_N$_defaultCacheMode": 0,
+    "_N$_defaultCacheMode": 1,
     "_N$debugSlots": false,
     "_N$debugBones": false,
     "_N$debugMesh": false,
@@ -536,6 +536,7 @@
     },
     "_enabled": true,
     "hero_type": 3,
+    "prefab_skill_tip": null,
     "_id": ""
   },
   {

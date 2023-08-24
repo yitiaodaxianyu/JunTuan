@@ -91,7 +91,10 @@ var BigTree = /** @class */ (function (_super) {
         data.callback = function () {
             _this.att_jishu = 0;
             var node = GameEffectsManager_1.GameEffectsManager.getInstance().createGameEffectById(GameEffectsManager_1.GameEffectId.boss1_normal_att, _super.prototype.getAttPos.call(_this));
-            node.getComponent(BossAtt1_1.default).init(_super.prototype.getAttData.call(_this, HeroConfig_1.DamageType.Normal, true), GameEffectsManager_1.GameEffectId.boss1_normal_att, 1200, Math.PI * 3 / 2, _this.node.y);
+            var startEndPos = cc.v2(GameManager_1.default.getInstance().charPosX, GameManager_1.default.getInstance().enemy_att_y);
+            var offsetPos = startEndPos.sub(node.getPosition());
+            var dir = Math.atan2(offsetPos.y, offsetPos.x);
+            node.getComponent(BossAtt1_1.default).init(_super.prototype.getAttData.call(_this, HeroConfig_1.DamageType.Normal, true), GameEffectsManager_1.GameEffectId.boss1_normal_att, 10, dir, _this.node.y);
         };
         _super.prototype.playSpinAnimaton.call(this, (Animation_Name.attack1), false, data, function () {
             if (_this.skill_waiting == true) {
@@ -104,7 +107,6 @@ var BigTree = /** @class */ (function (_super) {
         });
     };
     BigTree.prototype.startSkill = function () {
-        var _this = this;
         // if(TutorailsManager.getInstance().is_finish_game==false && TutorailsManager.getInstance().isShowTutorials(241)){
         //     this.cur_toughness=1;
         // }
@@ -113,12 +115,12 @@ var BigTree = /** @class */ (function (_super) {
             if (!_super.prototype.isHaveDeBuff.call(this, HeroConfig_1.BuffId.Hero_XuanYun)) {
                 this.skill_waiting = false;
                 _super.prototype.setEnemyState.call(this, EnemyConfig_1.Enemy_State.skill);
-                _super.prototype.playSpinAnimaton.call(this, (Animation_Name.skill1_1), false, null, function () {
-                    _super.prototype.playSpinAnimaton.call(_this, (Animation_Name.skill1_2), true);
-                    _this.is_yindao = true;
-                    _this.skill_jishu = 0;
-                    _this.yindao_time = 10;
-                });
+                _super.prototype.playSpinAnimaton.call(this, (Animation_Name.skill1_2), true);
+                this.is_yindao = true;
+                this.skill_jishu = 0;
+                this.yindao_time = 10;
+                // super.playSpinAnimaton((Animation_Name.skill1_1),false,null,()=>{
+                // })
             }
             else {
                 this.skill_waiting = true;
@@ -139,7 +141,7 @@ var BigTree = /** @class */ (function (_super) {
                     var startPos = cc.v2(Math.random() * 128 - 64, _this.node.y + 256);
                     var offsetX = startPos.x < 0 ? -(80 + Math.random() * 80) : (80 + Math.random() * 80);
                     var endPos = cc.v2(offsetX + startPos.x, startPos.y + Math.random() * 40 + 80);
-                    var startEndPos = cc.v2(startPos.x + offsetX / 3, GameManager_1.default.getInstance().enemy_att_y);
+                    var startEndPos = cc.v2(GameManager_1.default.getInstance().charPosX, GameManager_1.default.getInstance().enemy_att_y);
                     var offsetPos = startEndPos.sub(endPos);
                     var dir = Math.atan2(offsetPos.y, offsetPos.x);
                     //GameManager.getInstance().sound_manager.playSound(SoundIndex.YX_BossAttackGuodu);
@@ -147,7 +149,7 @@ var BigTree = /** @class */ (function (_super) {
                     var bsAtt_1 = node.getComponent(BossAtt1_1.default);
                     var data = _super.prototype.getAttData.call(_this, HeroConfig_1.DamageType.Skill, true, _this.skill_data.getSkillValue2(1));
                     data.is_big = false;
-                    bsAtt_1.init(data, GameEffectsManager_1.GameEffectId.boss1_normal_skill, 2000, dir, _this.node.y);
+                    bsAtt_1.init(data, GameEffectsManager_1.GameEffectId.boss1_normal_skill, 1000, dir, _this.node.y);
                     bsAtt_1.is_can_move = false;
                     cc.tween(node).to((0.75 - num * 0.05) * GameManager_1.default.getInstance().getGameRate(), { x: endPos.x, y: endPos.y }, { easing: 'quadOut' }).call(function () {
                         bsAtt_1.startFly();
@@ -187,6 +189,9 @@ var BigTree = /** @class */ (function (_super) {
         //GameManager.getInstance().sound_manager.playSound(SoundIndex.rewardBox2);         
     };
     BigTree.prototype.onXuanYunResult = function (isXuanYun) {
+        if (this.getEnemyState() == EnemyConfig_1.Enemy_State.skill) {
+            return;
+        }
         if (isXuanYun) {
             this.startXuanYun();
         }
@@ -230,7 +235,7 @@ var BigTree = /** @class */ (function (_super) {
         _super.prototype.update.call(this, dt);
         this.checkSkill(dt);
         if (!this.isHaveDeBuff(HeroConfig_1.BuffId.Hero_XuanYun)) {
-            if (this.getEnemyState() != EnemyConfig_1.Enemy_State.skill) {
+            if (this.getEnemyState() != EnemyConfig_1.Enemy_State.skill && this.getEnemyState() != EnemyConfig_1.Enemy_State.att) {
                 this.checkAtt(dt);
             }
         }

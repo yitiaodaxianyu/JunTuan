@@ -169,9 +169,9 @@ export default class WuNv extends Hero {
     //---------------------------------------------技能----------------------------------------------    
     useSkill(pos:cc.Vec2):number
     {
-        SkillManager.getInstance().releaseSkill(()=>{
-            this.startSelfXuLi(pos);
-        },this.node);
+        // SkillManager.getInstance().releaseSkill(()=>{
+        //     this.startSelfXuLi(pos);
+        // },this.node);
         return 0;
     }
 

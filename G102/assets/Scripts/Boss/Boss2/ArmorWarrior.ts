@@ -105,7 +105,11 @@ export default class ArmorWarrior extends Boss {
             this.att_jishu = 0;
             GameManager.getInstance().sound_manager.playSound(SoundIndex.YX_Boss2Attack);
             let node = GameEffectsManager.getInstance().createGameEffectById(GameEffectId.boss2_normal_att, super.getAttPos());
-            node.getComponent(BossAtt2).init(super.getAttData(DamageType.Normal, true), GameEffectId.boss2_normal_att, 1200, Math.PI * 3 / 2, this.node.y, 270);
+
+            let startEndPos=cc.v2(GameManager.getInstance().charPosX,GameManager.getInstance().enemy_att_y);
+            let offsetPos=startEndPos.sub(node.getPosition());
+            let dir=Math.atan2(offsetPos.y,offsetPos.x);
+            node.getComponent(BossAtt2).init(super.getAttData(DamageType.Normal, true), GameEffectId.boss2_normal_att, 300, dir, this.node.y, 270);
         }
         super.playSpinAnimaton((Animation_Name.attack1), false, data, () => {
             if (this.skill_waiting == true) {
@@ -243,7 +247,7 @@ export default class ArmorWarrior extends Boss {
         }
         super.update(dt);
         this.checkSkill(dt);
-        if (this.getEnemyState() != Enemy_State.skill&&this.isEffCom()) {
+        if (this.getEnemyState() != Enemy_State.skill&&this.isEffCom()&&this.getEnemyState() != Enemy_State.att) {
             if (!this.isHaveDeBuff(BuffId.Hero_XuanYun)) {
                 this.checkAtt(dt);
             }

@@ -80,7 +80,10 @@ export default class XueRenBoss extends Boss {
             this.att_jishu=0;
             GameManager.getInstance().sound_manager.playSound(SoundIndex.YX_Boss3Attack);
             let node=GameEffectsManager.getInstance().createGameEffectById(GameEffectId.boss3_normal_attack,super.getAttPos());
-            node.getComponent(BossAtt3).init(super.getAttData(DamageType.Normal,true,0),GameEffectId.boss3_normal_attack,1200,Math.PI*3/2,this.node.y,270);
+            let startEndPos=cc.v2(GameManager.getInstance().charPosX,GameManager.getInstance().enemy_att_y);
+            let offsetPos=startEndPos.sub(node.getPosition());
+            let dir=Math.atan2(offsetPos.y,offsetPos.x);
+            node.getComponent(BossAtt3).init(super.getAttData(DamageType.Normal,true,0),GameEffectId.boss3_normal_attack,1200,dir,this.node.y,270);
         }
         super.playSpinAnimaton((Animation_Name.attack1),false,data,()=>{
             if(this.skill_queue.length>0){
@@ -318,7 +321,7 @@ export default class XueRenBoss extends Boss {
         }
         super.update(dt);
         this.checkSkill(dt);
-        if(this.getEnemyState()!=Enemy_State.skill){
+        if(this.getEnemyState()!=Enemy_State.skill&&this.getEnemyState() != Enemy_State.att){
             if(!this.isHaveDeBuff(BuffId.Hero_XuanYun)){
                 this.checkAtt(dt);
             }

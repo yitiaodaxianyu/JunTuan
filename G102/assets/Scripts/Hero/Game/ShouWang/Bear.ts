@@ -134,20 +134,36 @@ export default class Bear extends GongJi {
             return;
         }
         let anima=this.spine.setAnimation(0,name,isLoop);
-        if(data){
-            this.spine.setTrackEventListener(anima,(entry: sp.spine.TrackEntry, event) =>{
-                for(let i=0; i<data.length; i++){
-                    if(event.data.name==data[i].name){
-                        data[i].callback();
-                    }
-                }
-            })
-        }
+        // if(data){
+        //     this.spine.setTrackEventListener(anima,(entry: sp.spine.TrackEntry, event) =>{
+        //         for(let i=0; i<data.length; i++){
+        //             if(event.data.name==data[i].name){
+        //                 data[i].callback();
+        //             }
+        //         }
+        //     })
+        // }
+        // if(endCallback){
+        //     this.spine.setTrackCompleteListener(anima,(entry: sp.spine.TrackEntry, event) =>{
+        //         anima.listener=null;                
+        //         endCallback();
+        //     })
+        // }
+
         if(endCallback){
-            this.spine.setTrackCompleteListener(anima,(entry: sp.spine.TrackEntry, event) =>{
-                anima.listener=null;                
-                endCallback();
-            })
+          
+
+            this.spine.setCompleteListener((trackEntry, loopCount) => {
+                let nameTemp = trackEntry.animation ? trackEntry.animation.name : '';
+                if (nameTemp === name && endCallback) {
+                   
+                    if(data&&data[0].callback){
+                        data[0].callback();
+                    }
+                    endCallback();
+                }
+                this.spine.setCompleteListener(null);
+            });
         }
     }
 

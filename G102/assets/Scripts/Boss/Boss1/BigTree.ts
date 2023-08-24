@@ -75,7 +75,11 @@ export default class BigTree extends Boss {
         data.callback=()=>{  
             this.att_jishu=0;            
             let node=GameEffectsManager.getInstance().createGameEffectById(GameEffectId.boss1_normal_att,super.getAttPos());
-            node.getComponent(BossAtt1).init(super.getAttData(DamageType.Normal,true),GameEffectId.boss1_normal_att,1200,Math.PI*3/2,this.node.y);
+
+            let startEndPos=cc.v2(GameManager.getInstance().charPosX,GameManager.getInstance().enemy_att_y);
+            let offsetPos=startEndPos.sub(node.getPosition());
+            let dir=Math.atan2(offsetPos.y,offsetPos.x);
+            node.getComponent(BossAtt1).init(super.getAttData(DamageType.Normal,true),GameEffectId.boss1_normal_att,10,dir,this.node.y);
         }
         super.playSpinAnimaton((Animation_Name.attack1),false,data,()=>{
             if(this.skill_waiting==true){                
@@ -96,12 +100,13 @@ export default class BigTree extends Boss {
             if(!super.isHaveDeBuff(BuffId.Hero_XuanYun)){
                 this.skill_waiting=false;
                 super.setEnemyState(Enemy_State.skill);
-                super.playSpinAnimaton((Animation_Name.skill1_1),false,null,()=>{
-                    super.playSpinAnimaton((Animation_Name.skill1_2),true)
-                    this.is_yindao=true;
-                    this.skill_jishu=0;
-                    this.yindao_time=10;                    
-                })
+                super.playSpinAnimaton((Animation_Name.skill1_2),true)
+                this.is_yindao=true;
+                this.skill_jishu=0;
+                this.yindao_time=10;        
+                // super.playSpinAnimaton((Animation_Name.skill1_1),false,null,()=>{
+                              
+                // })
             }else{
                 this.skill_waiting=true;
             }         
@@ -121,7 +126,8 @@ export default class BigTree extends Boss {
                     let startPos=cc.v2(Math.random()*128-64,this.node.y+256);
                     let offsetX=startPos.x<0?-(80+Math.random()*80):(80+Math.random()*80)
                     let endPos=cc.v2(offsetX+startPos.x,startPos.y+Math.random()*40+80);
-                    let startEndPos=cc.v2(startPos.x+offsetX/3,GameManager.getInstance().enemy_att_y);
+
+                    let startEndPos=cc.v2(GameManager.getInstance().charPosX,GameManager.getInstance().enemy_att_y);
                     let offsetPos=startEndPos.sub(endPos);
                     let dir=Math.atan2(offsetPos.y,offsetPos.x);
                     //GameManager.getInstance().sound_manager.playSound(SoundIndex.YX_BossAttackGuodu);
@@ -129,7 +135,7 @@ export default class BigTree extends Boss {
                     let bsAtt=node.getComponent(BossAtt1);
                     let data=super.getAttData(DamageType.Skill,true,this.skill_data.getSkillValue2(1))
                     data.is_big=false;
-                    bsAtt.init(data,GameEffectId.boss1_normal_skill,2000,dir,this.node.y);
+                    bsAtt.init(data,GameEffectId.boss1_normal_skill,1000,dir,this.node.y);
                     bsAtt.is_can_move=false;
                     cc.tween(node).to((0.75-num*0.05)*GameManager.getInstance().getGameRate(),{x:endPos.x,y:endPos.y},{easing: 'quadOut'}).call(()=>{
                         bsAtt.startFly();
@@ -171,6 +177,9 @@ export default class BigTree extends Boss {
     }
 
     onXuanYunResult(isXuanYun:boolean){
+        if(this.getEnemyState()==Enemy_State.skill){
+            return;
+        }
         if(isXuanYun){
             this.startXuanYun();
         }else{
@@ -216,7 +225,7 @@ export default class BigTree extends Boss {
         super.update(dt);
         this.checkSkill(dt);
         if(!this.isHaveDeBuff(BuffId.Hero_XuanYun)){            
-            if(this.getEnemyState()!=Enemy_State.skill){            
+            if(this.getEnemyState()!=Enemy_State.skill&&this.getEnemyState()!=Enemy_State.att){            
                 this.checkAtt(dt);            
             }
         }                

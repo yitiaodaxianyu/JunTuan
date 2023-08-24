@@ -180,7 +180,7 @@ export default class CoinPop extends UIComponent {
     }
 
     init(uiAc: UiAction): void {
-        super.init(uiAc);
+        //super.init(uiAc);
     }
 
     // start () {

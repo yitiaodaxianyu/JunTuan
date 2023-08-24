@@ -62,7 +62,7 @@
       "FunctionID": 10,
       "TextID": 820001,
       "UnlockConditionType": 2,
-      "UnlockCondictionParameter": 2
+      "UnlockCondictionParameter": 0
     },
     {
       "FunctionID": 11,

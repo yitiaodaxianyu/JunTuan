@@ -184,10 +184,9 @@ var WuNv = /** @class */ (function (_super) {
     };
     //---------------------------------------------技能----------------------------------------------    
     WuNv.prototype.useSkill = function (pos) {
-        var _this = this;
-        SkillManager_1.default.getInstance().releaseSkill(function () {
-            _this.startSelfXuLi(pos);
-        }, this.node);
+        // SkillManager.getInstance().releaseSkill(()=>{
+        //     this.startSelfXuLi(pos);
+        // },this.node);
         return 0;
     };
     WuNv.prototype.startSelfXuLi = function (pos) {

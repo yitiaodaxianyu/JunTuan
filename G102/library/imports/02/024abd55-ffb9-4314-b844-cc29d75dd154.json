@@ -496,8 +496,8 @@
     "paused": false,
     "defaultSkin": "default",
     "defaultAnimation": "Attack",
-    "_preCacheMode": 0,
-    "_cacheMode": 0,
+    "_preCacheMode": 1,
+    "_cacheMode": 1,
     "loop": true,
     "premultipliedAlpha": true,
     "timeScale": 1,
@@ -514,7 +514,7 @@
     "_N$skeletonData": {
       "__uuid__": "15620205-3b06-4f7c-b128-27d76b2a6a8f"
     },
-    "_N$_defaultCacheMode": 0,
+    "_N$_defaultCacheMode": 1,
     "_N$debugSlots": false,
     "_N$debugBones": false,
     "_N$debugMesh": false,

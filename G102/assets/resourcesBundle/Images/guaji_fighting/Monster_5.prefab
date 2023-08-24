@@ -244,8 +244,8 @@
     "paused": false,
     "defaultSkin": "Side1",
     "defaultAnimation": "Side_Walk",
-    "_preCacheMode": 0,
-    "_cacheMode": 0,
+    "_preCacheMode": 1,
+    "_cacheMode": 1,
     "loop": true,
     "premultipliedAlpha": true,
     "timeScale": 0.3,
@@ -262,7 +262,7 @@
     "_N$skeletonData": {
       "__uuid__": "fe2270f7-9f75-403f-bfcb-7edeb0af4205"
     },
-    "_N$_defaultCacheMode": 0,
+    "_N$_defaultCacheMode": 1,
     "_N$debugSlots": false,
     "_N$debugBones": false,
     "_N$debugMesh": false,

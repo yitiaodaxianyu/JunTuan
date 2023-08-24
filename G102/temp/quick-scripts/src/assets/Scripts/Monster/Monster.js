@@ -1389,25 +1389,41 @@ var Monster = /** @class */ (function (_super) {
             return;
         }
         var anima = this.spine.setAnimation(0, name, isLoop);
-        if (data) {
-            this.spine.setTrackEventListener(anima, function (entry, event) {
-                if (event.data.name == data.name) {
-                    data.callback();
-                }
-            });
-        }
+        // if(data){
+        //     this.spine.setTrackEventListener(anima,(entry: sp.spine.TrackEntry, event) =>{
+        //         if(event.data.name==data.name){
+        //             data.callback();
+        //         }
+        //     })
+        // }
+        // if(endCallback){
+        //     this.spine.setTrackCompleteListener(anima,(entry: sp.spine.TrackEntry, event) =>{
+        //         anima.listener=null;
+        //         endCallback();
+        //     })
+        // }
         if (endCallback) {
-            this.spine.setTrackCompleteListener(anima, function (entry, event) {
-                anima.listener = null;
-                endCallback();
+            this.spine.setCompleteListener(function (trackEntry, loopCount) {
+                var nameTemp = trackEntry.animation ? trackEntry.animation.name : '';
+                if (nameTemp === name && endCallback) {
+                    if (data && data.callback) {
+                        data.callback();
+                    }
+                    endCallback();
+                }
+                // this.spine.setCompleteListener(null);
             });
         }
     };
     Monster.prototype.playDeadAnimaton = function (name, endCallback) {
+        var _this = this;
         var anima = this.spine.setAnimation(0, name, false);
-        this.spine.setTrackCompleteListener(anima, function (entry, event) {
-            anima.listener = null;
-            endCallback();
+        this.spine.setCompleteListener(function (trackEntry, loopCount) {
+            var nameTemp = trackEntry.animation ? trackEntry.animation.name : '';
+            if (nameTemp === name && endCallback) {
+                endCallback();
+            }
+            _this.spine.setCompleteListener(null);
         });
     };
     /**设置X坐标，返回偏左还是偏右了,-1:偏左，0：正常，1：偏右 */

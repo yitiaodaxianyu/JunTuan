@@ -466,8 +466,8 @@
     "paused": false,
     "defaultSkin": "Front1",
     "defaultAnimation": "Front_Idle",
-    "_preCacheMode": 0,
-    "_cacheMode": 0,
+    "_preCacheMode": 1,
+    "_cacheMode": 1,
     "loop": true,
     "premultipliedAlpha": true,
     "timeScale": 1,
@@ -484,7 +484,7 @@
     "_N$skeletonData": {
       "__uuid__": "65a0e460-4fed-4b3c-9ae7-284334de2f2f"
     },
-    "_N$_defaultCacheMode": 0,
+    "_N$_defaultCacheMode": 1,
     "_N$debugSlots": false,
     "_N$debugBones": false,
     "_N$debugMesh": false,

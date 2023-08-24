@@ -8,7 +8,7 @@
       "ChallengeID": 1000,
       "RotationOrder": 1,
       "Stage": 0,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 0,
       "MonsterLevel": 1,
       "ChapterScene": 0
@@ -17,7 +17,7 @@
       "ChallengeID": 1001,
       "RotationOrder": 1,
       "Stage": 1,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 7000,
       "MonsterLevel": 2,
       "ChapterScene": 0
@@ -26,7 +26,7 @@
       "ChallengeID": 1002,
       "RotationOrder": 1,
       "Stage": 2,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 15000,
       "MonsterLevel": 4,
       "ChapterScene": 0
@@ -35,7 +35,7 @@
       "ChallengeID": 1003,
       "RotationOrder": 1,
       "Stage": 3,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 22000,
       "MonsterLevel": 6,
       "ChapterScene": 0
@@ -44,7 +44,7 @@
       "ChallengeID": 1004,
       "RotationOrder": 1,
       "Stage": 4,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 34000,
       "MonsterLevel": 8,
       "ChapterScene": 0
@@ -53,7 +53,7 @@
       "ChallengeID": 1005,
       "RotationOrder": 1,
       "Stage": 5,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 48000,
       "MonsterLevel": 10,
       "ChapterScene": 0
@@ -62,7 +62,7 @@
       "ChallengeID": 1006,
       "RotationOrder": 1,
       "Stage": 6,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 70000,
       "MonsterLevel": 12,
       "ChapterScene": 0
@@ -71,7 +71,7 @@
       "ChallengeID": 1007,
       "RotationOrder": 1,
       "Stage": 7,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 117000,
       "MonsterLevel": 14,
       "ChapterScene": 0
@@ -80,7 +80,7 @@
       "ChallengeID": 1008,
       "RotationOrder": 1,
       "Stage": 8,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 192000,
       "MonsterLevel": 16,
       "ChapterScene": 0
@@ -89,7 +89,7 @@
       "ChallengeID": 1009,
       "RotationOrder": 1,
       "Stage": 9,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 277000,
       "MonsterLevel": 18,
       "ChapterScene": 0
@@ -98,7 +98,7 @@
       "ChallengeID": 1010,
       "RotationOrder": 1,
       "Stage": 10,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 373000,
       "MonsterLevel": 20,
       "ChapterScene": 0
@@ -107,7 +107,7 @@
       "ChallengeID": 1011,
       "RotationOrder": 1,
       "Stage": 11,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 481000,
       "MonsterLevel": 22,
       "ChapterScene": 0
@@ -116,7 +116,7 @@
       "ChallengeID": 1012,
       "RotationOrder": 1,
       "Stage": 12,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 603000,
       "MonsterLevel": 24,
       "ChapterScene": 0
@@ -125,7 +125,7 @@
       "ChallengeID": 1013,
       "RotationOrder": 1,
       "Stage": 13,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 758000,
       "MonsterLevel": 28,
       "ChapterScene": 0
@@ -134,7 +134,7 @@
       "ChallengeID": 1014,
       "RotationOrder": 1,
       "Stage": 14,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 956000,
       "MonsterLevel": 32,
       "ChapterScene": 0
@@ -143,7 +143,7 @@
       "ChallengeID": 1015,
       "RotationOrder": 1,
       "Stage": 15,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 1248000,
       "MonsterLevel": 36,
       "ChapterScene": 0
@@ -152,7 +152,7 @@
       "ChallengeID": 1016,
       "RotationOrder": 1,
       "Stage": 16,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 1559000,
       "MonsterLevel": 40,
       "ChapterScene": 0
@@ -161,7 +161,7 @@
       "ChallengeID": 1017,
       "RotationOrder": 1,
       "Stage": 17,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 1892000,
       "MonsterLevel": 44,
       "ChapterScene": 0
@@ -170,7 +170,7 @@
       "ChallengeID": 1018,
       "RotationOrder": 1,
       "Stage": 18,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 2247000,
       "MonsterLevel": 48,
       "ChapterScene": 0
@@ -179,7 +179,7 @@
       "ChallengeID": 1019,
       "RotationOrder": 1,
       "Stage": 19,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 2625000,
       "MonsterLevel": 52,
       "ChapterScene": 0
@@ -188,7 +188,7 @@
       "ChallengeID": 1020,
       "RotationOrder": 1,
       "Stage": 20,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 3072000,
       "MonsterLevel": 56,
       "ChapterScene": 0
@@ -197,7 +197,7 @@
       "ChallengeID": 1021,
       "RotationOrder": 1,
       "Stage": 21,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 3549000,
       "MonsterLevel": 60,
       "ChapterScene": 0
@@ -206,7 +206,7 @@
       "ChallengeID": 1022,
       "RotationOrder": 1,
       "Stage": 22,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 4089000,
       "MonsterLevel": 68,
       "ChapterScene": 0
@@ -215,7 +215,7 @@
       "ChallengeID": 1023,
       "RotationOrder": 1,
       "Stage": 23,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 4702000,
       "MonsterLevel": 76,
       "ChapterScene": 0
@@ -224,7 +224,7 @@
       "ChallengeID": 1024,
       "RotationOrder": 1,
       "Stage": 24,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 5398000,
       "MonsterLevel": 84,
       "ChapterScene": 0
@@ -233,7 +233,7 @@
       "ChallengeID": 1025,
       "RotationOrder": 1,
       "Stage": 25,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 6314000,
       "MonsterLevel": 92,
       "ChapterScene": 0
@@ -242,7 +242,7 @@
       "ChallengeID": 1026,
       "RotationOrder": 1,
       "Stage": 26,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 7323000,
       "MonsterLevel": 100,
       "ChapterScene": 0
@@ -251,7 +251,7 @@
       "ChallengeID": 1027,
       "RotationOrder": 1,
       "Stage": 27,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 8433000,
       "MonsterLevel": 108,
       "ChapterScene": 0
@@ -260,7 +260,7 @@
       "ChallengeID": 1028,
       "RotationOrder": 1,
       "Stage": 28,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 9843000,
       "MonsterLevel": 116,
       "ChapterScene": 0
@@ -269,7 +269,7 @@
       "ChallengeID": 1029,
       "RotationOrder": 1,
       "Stage": 29,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 11414000,
       "MonsterLevel": 124,
       "ChapterScene": 0
@@ -278,7 +278,7 @@
       "ChallengeID": 1030,
       "RotationOrder": 1,
       "Stage": 30,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 13164000,
       "MonsterLevel": 132,
       "ChapterScene": 0
@@ -287,7 +287,7 @@
       "ChallengeID": 1031,
       "RotationOrder": 1,
       "Stage": 31,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 15113000,
       "MonsterLevel": 140,
       "ChapterScene": 0
@@ -296,7 +296,7 @@
       "ChallengeID": 1032,
       "RotationOrder": 1,
       "Stage": 32,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 17751000,
       "MonsterLevel": 148,
       "ChapterScene": 0
@@ -305,7 +305,7 @@
       "ChallengeID": 1033,
       "RotationOrder": 1,
       "Stage": 33,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 20811000,
       "MonsterLevel": 156,
       "ChapterScene": 0
@@ -314,7 +314,7 @@
       "ChallengeID": 1034,
       "RotationOrder": 1,
       "Stage": 34,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 24359000,
       "MonsterLevel": 164,
       "ChapterScene": 0
@@ -323,7 +323,7 @@
       "ChallengeID": 1035,
       "RotationOrder": 1,
       "Stage": 35,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 28475000,
       "MonsterLevel": 172,
       "ChapterScene": 0
@@ -332,7 +332,7 @@
       "ChallengeID": 1036,
       "RotationOrder": 1,
       "Stage": 36,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 34314000,
       "MonsterLevel": 180,
       "ChapterScene": 0
@@ -341,7 +341,7 @@
       "ChallengeID": 1037,
       "RotationOrder": 1,
       "Stage": 37,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 40703000,
       "MonsterLevel": 188,
       "ChapterScene": 0
@@ -350,7 +350,7 @@
       "ChallengeID": 1038,
       "RotationOrder": 1,
       "Stage": 38,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 47693000,
       "MonsterLevel": 196,
       "ChapterScene": 0
@@ -359,7 +359,7 @@
       "ChallengeID": 1039,
       "RotationOrder": 1,
       "Stage": 39,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 55340000,
       "MonsterLevel": 204,
       "ChapterScene": 0
@@ -368,7 +368,7 @@
       "ChallengeID": 1040,
       "RotationOrder": 1,
       "Stage": 40,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 63706000,
       "MonsterLevel": 212,
       "ChapterScene": 0
@@ -377,7 +377,7 @@
       "ChallengeID": 1041,
       "RotationOrder": 1,
       "Stage": 41,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 74629000,
       "MonsterLevel": 220,
       "ChapterScene": 0
@@ -386,7 +386,7 @@
       "ChallengeID": 1042,
       "RotationOrder": 1,
       "Stage": 42,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 86542000,
       "MonsterLevel": 228,
       "ChapterScene": 0
@@ -395,7 +395,7 @@
       "ChallengeID": 1043,
       "RotationOrder": 1,
       "Stage": 43,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 99533000,
       "MonsterLevel": 236,
       "ChapterScene": 0
@@ -404,7 +404,7 @@
       "ChallengeID": 1044,
       "RotationOrder": 1,
       "Stage": 44,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 113702000,
       "MonsterLevel": 244,
       "ChapterScene": 0
@@ -413,7 +413,7 @@
       "ChallengeID": 1045,
       "RotationOrder": 1,
       "Stage": 45,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 129155000,
       "MonsterLevel": 252,
       "ChapterScene": 0
@@ -422,7 +422,7 @@
       "ChallengeID": 1046,
       "RotationOrder": 1,
       "Stage": 46,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 1471030000,
       "MonsterLevel": 255,
       "ChapterScene": 0
@@ -431,7 +431,7 @@
       "ChallengeID": 1047,
       "RotationOrder": 1,
       "Stage": 47,
-      "MonsterId": 30381,
+      "MonsterId": 30801,
       "InjuryLimit": 16505200000,
       "MonsterLevel": 255,
       "ChapterScene": 0
@@ -440,7 +440,7 @@
       "ChallengeID": 2000,
       "RotationOrder": 2,
       "Stage": 0,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 0,
       "MonsterLevel": 1,
       "ChapterScene": 1
@@ -449,7 +449,7 @@
       "ChallengeID": 2001,
       "RotationOrder": 2,
       "Stage": 1,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 7000,
       "MonsterLevel": 2,
       "ChapterScene": 1
@@ -458,7 +458,7 @@
       "ChallengeID": 2002,
       "RotationOrder": 2,
       "Stage": 2,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 15000,
       "MonsterLevel": 4,
       "ChapterScene": 1
@@ -467,7 +467,7 @@
       "ChallengeID": 2003,
       "RotationOrder": 2,
       "Stage": 3,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 22000,
       "MonsterLevel": 6,
       "ChapterScene": 1
@@ -476,7 +476,7 @@
       "ChallengeID": 2004,
       "RotationOrder": 2,
       "Stage": 4,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 34000,
       "MonsterLevel": 8,
       "ChapterScene": 1
@@ -485,7 +485,7 @@
       "ChallengeID": 2005,
       "RotationOrder": 2,
       "Stage": 5,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 48000,
       "MonsterLevel": 10,
       "ChapterScene": 1
@@ -494,7 +494,7 @@
       "ChallengeID": 2006,
       "RotationOrder": 2,
       "Stage": 6,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 70000,
       "MonsterLevel": 12,
       "ChapterScene": 1
@@ -503,7 +503,7 @@
       "ChallengeID": 2007,
       "RotationOrder": 2,
       "Stage": 7,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 117000,
       "MonsterLevel": 14,
       "ChapterScene": 1
@@ -512,7 +512,7 @@
       "ChallengeID": 2008,
       "RotationOrder": 2,
       "Stage": 8,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 192000,
       "MonsterLevel": 16,
       "ChapterScene": 1
@@ -521,7 +521,7 @@
       "ChallengeID": 2009,
       "RotationOrder": 2,
       "Stage": 9,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 277000,
       "MonsterLevel": 18,
       "ChapterScene": 1
@@ -530,7 +530,7 @@
       "ChallengeID": 2010,
       "RotationOrder": 2,
       "Stage": 10,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 373000,
       "MonsterLevel": 20,
       "ChapterScene": 1
@@ -539,7 +539,7 @@
       "ChallengeID": 2011,
       "RotationOrder": 2,
       "Stage": 11,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 481000,
       "MonsterLevel": 22,
       "ChapterScene": 1
@@ -548,7 +548,7 @@
       "ChallengeID": 2012,
       "RotationOrder": 2,
       "Stage": 12,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 603000,
       "MonsterLevel": 24,
       "ChapterScene": 1
@@ -557,7 +557,7 @@
       "ChallengeID": 2013,
       "RotationOrder": 2,
       "Stage": 13,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 758000,
       "MonsterLevel": 28,
       "ChapterScene": 1
@@ -566,7 +566,7 @@
       "ChallengeID": 2014,
       "RotationOrder": 2,
       "Stage": 14,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 956000,
       "MonsterLevel": 32,
       "ChapterScene": 1
@@ -575,7 +575,7 @@
       "ChallengeID": 2015,
       "RotationOrder": 2,
       "Stage": 15,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 1248000,
       "MonsterLevel": 36,
       "ChapterScene": 1
@@ -584,7 +584,7 @@
       "ChallengeID": 2016,
       "RotationOrder": 2,
       "Stage": 16,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 1559000,
       "MonsterLevel": 40,
       "ChapterScene": 1
@@ -593,7 +593,7 @@
       "ChallengeID": 2017,
       "RotationOrder": 2,
       "Stage": 17,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 1892000,
       "MonsterLevel": 44,
       "ChapterScene": 1
@@ -602,7 +602,7 @@
       "ChallengeID": 2018,
       "RotationOrder": 2,
       "Stage": 18,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 2247000,
       "MonsterLevel": 48,
       "ChapterScene": 1
@@ -611,7 +611,7 @@
       "ChallengeID": 2019,
       "RotationOrder": 2,
       "Stage": 19,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 2625000,
       "MonsterLevel": 52,
       "ChapterScene": 1
@@ -620,7 +620,7 @@
       "ChallengeID": 2020,
       "RotationOrder": 2,
       "Stage": 20,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 3072000,
       "MonsterLevel": 56,
       "ChapterScene": 1
@@ -629,7 +629,7 @@
       "ChallengeID": 2021,
       "RotationOrder": 2,
       "Stage": 21,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 3549000,
       "MonsterLevel": 60,
       "ChapterScene": 1
@@ -638,7 +638,7 @@
       "ChallengeID": 2022,
       "RotationOrder": 2,
       "Stage": 22,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 4089000,
       "MonsterLevel": 68,
       "ChapterScene": 1
@@ -647,7 +647,7 @@
       "ChallengeID": 2023,
       "RotationOrder": 2,
       "Stage": 23,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 4702000,
       "MonsterLevel": 76,
       "ChapterScene": 1
@@ -656,7 +656,7 @@
       "ChallengeID": 2024,
       "RotationOrder": 2,
       "Stage": 24,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 5398000,
       "MonsterLevel": 84,
       "ChapterScene": 1
@@ -665,7 +665,7 @@
       "ChallengeID": 2025,
       "RotationOrder": 2,
       "Stage": 25,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 6314000,
       "MonsterLevel": 92,
       "ChapterScene": 1
@@ -674,7 +674,7 @@
       "ChallengeID": 2026,
       "RotationOrder": 2,
       "Stage": 26,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 7323000,
       "MonsterLevel": 100,
       "ChapterScene": 1
@@ -683,7 +683,7 @@
       "ChallengeID": 2027,
       "RotationOrder": 2,
       "Stage": 27,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 8433000,
       "MonsterLevel": 108,
       "ChapterScene": 1
@@ -692,7 +692,7 @@
       "ChallengeID": 2028,
       "RotationOrder": 2,
       "Stage": 28,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 9843000,
       "MonsterLevel": 116,
       "ChapterScene": 1
@@ -701,7 +701,7 @@
       "ChallengeID": 2029,
       "RotationOrder": 2,
       "Stage": 29,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 11414000,
       "MonsterLevel": 124,
       "ChapterScene": 1
@@ -710,7 +710,7 @@
       "ChallengeID": 2030,
       "RotationOrder": 2,
       "Stage": 30,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 13164000,
       "MonsterLevel": 132,
       "ChapterScene": 1
@@ -719,7 +719,7 @@
       "ChallengeID": 2031,
       "RotationOrder": 2,
       "Stage": 31,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 15113000,
       "MonsterLevel": 140,
       "ChapterScene": 1
@@ -728,7 +728,7 @@
       "ChallengeID": 2032,
       "RotationOrder": 2,
       "Stage": 32,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 17751000,
       "MonsterLevel": 148,
       "ChapterScene": 1
@@ -737,7 +737,7 @@
       "ChallengeID": 2033,
       "RotationOrder": 2,
       "Stage": 33,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 20811000,
       "MonsterLevel": 156,
       "ChapterScene": 1
@@ -746,7 +746,7 @@
       "ChallengeID": 2034,
       "RotationOrder": 2,
       "Stage": 34,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 24359000,
       "MonsterLevel": 164,
       "ChapterScene": 1
@@ -755,7 +755,7 @@
       "ChallengeID": 2035,
       "RotationOrder": 2,
       "Stage": 35,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 28475000,
       "MonsterLevel": 172,
       "ChapterScene": 1
@@ -764,7 +764,7 @@
       "ChallengeID": 2036,
       "RotationOrder": 2,
       "Stage": 36,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 34314000,
       "MonsterLevel": 180,
       "ChapterScene": 1
@@ -773,7 +773,7 @@
       "ChallengeID": 2037,
       "RotationOrder": 2,
       "Stage": 37,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 40703000,
       "MonsterLevel": 188,
       "ChapterScene": 1
@@ -782,7 +782,7 @@
       "ChallengeID": 2038,
       "RotationOrder": 2,
       "Stage": 38,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 47693000,
       "MonsterLevel": 196,
       "ChapterScene": 1
@@ -791,7 +791,7 @@
       "ChallengeID": 2039,
       "RotationOrder": 2,
       "Stage": 39,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 55340000,
       "MonsterLevel": 204,
       "ChapterScene": 1
@@ -800,7 +800,7 @@
       "ChallengeID": 2040,
       "RotationOrder": 2,
       "Stage": 40,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 63706000,
       "MonsterLevel": 212,
       "ChapterScene": 1
@@ -809,7 +809,7 @@
       "ChallengeID": 2041,
       "RotationOrder": 2,
       "Stage": 41,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 74629000,
       "MonsterLevel": 220,
       "ChapterScene": 1
@@ -818,7 +818,7 @@
       "ChallengeID": 2042,
       "RotationOrder": 2,
       "Stage": 42,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 86542000,
       "MonsterLevel": 228,
       "ChapterScene": 1
@@ -827,7 +827,7 @@
       "ChallengeID": 2043,
       "RotationOrder": 2,
       "Stage": 43,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 99533000,
       "MonsterLevel": 236,
       "ChapterScene": 1
@@ -836,7 +836,7 @@
       "ChallengeID": 2044,
       "RotationOrder": 2,
       "Stage": 44,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 113702000,
       "MonsterLevel": 244,
       "ChapterScene": 1
@@ -845,7 +845,7 @@
       "ChallengeID": 2045,
       "RotationOrder": 2,
       "Stage": 45,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 129155000,
       "MonsterLevel": 252,
       "ChapterScene": 1
@@ -854,7 +854,7 @@
       "ChallengeID": 2046,
       "RotationOrder": 2,
       "Stage": 46,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 1471030000,
       "MonsterLevel": 255,
       "ChapterScene": 1
@@ -863,7 +863,7 @@
       "ChallengeID": 2047,
       "RotationOrder": 2,
       "Stage": 47,
-      "MonsterId": 30391,
+      "MonsterId": 30801,
       "InjuryLimit": 16505200000,
       "MonsterLevel": 255,
       "ChapterScene": 1

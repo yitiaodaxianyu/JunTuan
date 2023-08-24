@@ -200,7 +200,7 @@ var CoinPop = /** @class */ (function (_super) {
         }
     };
     CoinPop.prototype.init = function (uiAc) {
-        _super.prototype.init.call(this, uiAc);
+        //super.init(uiAc);
     };
     // start () {
     // }

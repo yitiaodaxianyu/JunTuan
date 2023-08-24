@@ -1313,21 +1313,43 @@ var Hero = /** @class */ (function (_super) {
      * @param endCallback 播放结束后的回调
      */
     Hero.prototype.playSpineAnimation = function (name, isLoop, data, endCallback) {
+        var _this = this;
         if (isLoop === void 0) { isLoop = false; }
         var anima = this.spine.setAnimation(0, name, isLoop);
+        // if (data) {
+        //     this.spine.setTrackEventListener(anima, (entry: sp.spine.TrackEntry, event) => {
+        //         for (let i = 0; i < data.length; i++) {
+        //             if (event.data.name == data[i].name) {
+        //                 data[i].callback();
+        //             }
+        //         }
+        //     })
+        // }
+        // if (endCallback) {
+        //     this.spine.setTrackCompleteListener(anima, (entry: sp.spine.TrackEntry, event) => {
+        //         anima.listener = null;
+        //         endCallback();
+        //     })
+        // }
         if (data) {
-            this.spine.setTrackEventListener(anima, function (entry, event) {
-                for (var i = 0; i < data.length; i++) {
-                    if (event.data.name == data[i].name) {
-                        data[i].callback();
-                    }
-                }
-            });
+            // this.spine.setCompleteListener((trackEntry, loopCount) => {
+            //     let nameTemp = trackEntry.animation ? trackEntry.animation.name : '';
+            //     if (nameTemp === name && data[0].callback) {
+            //         data[0].callback();
+            //     }
+            //     this.spine.setCompleteListener(null);
+            // });
         }
         if (endCallback) {
-            this.spine.setTrackCompleteListener(anima, function (entry, event) {
-                anima.listener = null;
-                endCallback();
+            this.spine.setCompleteListener(function (trackEntry, loopCount) {
+                var nameTemp = trackEntry.animation ? trackEntry.animation.name : '';
+                if (nameTemp === name && endCallback) {
+                    if (data && data[0].callback) {
+                        data[0].callback();
+                    }
+                    endCallback();
+                }
+                _this.spine.setCompleteListener(null);
             });
         }
     };
@@ -1570,7 +1592,7 @@ var Hero = /** @class */ (function (_super) {
             }
         }
         //自动攻击
-        if (this.is_can_gongji && this.getHeroState() != HeroConfig_1.Hero_State.skill) {
+        if (this.is_can_gongji && this.getHeroState() != HeroConfig_1.Hero_State.skill && this.getHeroState() != HeroConfig_1.Hero_State.attack) {
             this.is_can_gongji = false;
             if (this.hero_type == HeroConfig_1.Hero_Type.ShouWang || this.hero_type == HeroConfig_1.Hero_Type.GongJianShou) {
                 this.gongji_jishu = 0;

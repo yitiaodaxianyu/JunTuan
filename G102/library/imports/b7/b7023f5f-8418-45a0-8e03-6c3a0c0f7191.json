@@ -21302,8 +21302,8 @@
     "paused": false,
     "defaultSkin": "Side1",
     "defaultAnimation": "Side_Idle",
-    "_preCacheMode": 0,
-    "_cacheMode": 0,
+    "_preCacheMode": 1,
+    "_cacheMode": 1,
     "loop": true,
     "premultipliedAlpha": true,
     "timeScale": 1,
@@ -21320,7 +21320,7 @@
     "_N$skeletonData": {
       "__uuid__": "b7970194-190e-4328-9906-8227627d4153"
     },
-    "_N$_defaultCacheMode": 0,
+    "_N$_defaultCacheMode": 1,
     "_N$debugSlots": false,
     "_N$debugBones": false,
     "_N$debugMesh": false,
@@ -21603,8 +21603,8 @@
     "paused": false,
     "defaultSkin": "WarChariot_1",
     "defaultAnimation": "ZhanChe_Run",
-    "_preCacheMode": 0,
-    "_cacheMode": 0,
+    "_preCacheMode": 1,
+    "_cacheMode": 1,
     "loop": true,
     "premultipliedAlpha": false,
     "timeScale": 1,
@@ -21621,7 +21621,7 @@
     "_N$skeletonData": {
       "__uuid__": "85aa328d-9bf0-437f-b934-87469ee70a59"
     },
-    "_N$_defaultCacheMode": 0,
+    "_N$_defaultCacheMode": 1,
     "_N$debugSlots": false,
     "_N$debugBones": false,
     "_N$debugMesh": false,

@@ -278,8 +278,8 @@
     "paused": false,
     "defaultSkin": "Boss9",
     "defaultAnimation": "bosscoming",
-    "_preCacheMode": 0,
-    "_cacheMode": 0,
+    "_preCacheMode": 1,
+    "_cacheMode": 1,
     "loop": true,
     "premultipliedAlpha": false,
     "timeScale": 1,
@@ -296,7 +296,7 @@
     "_N$skeletonData": {
       "__uuid__": "a30cf3c4-4e26-45aa-adf8-b12df2c50100"
     },
-    "_N$_defaultCacheMode": 0,
+    "_N$_defaultCacheMode": 1,
     "_N$debugSlots": false,
     "_N$debugBones": false,
     "_N$debugMesh": false,

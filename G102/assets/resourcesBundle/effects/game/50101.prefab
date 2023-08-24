@@ -61,8 +61,8 @@
         0,
         0,
         1,
-        1,
-        1,
+        1.5,
+        1.5,
         1
       ]
     },
@@ -124,7 +124,7 @@
     "prefab_tuowei": {
       "__uuid__": "7d5d4e32-a05a-4dc2-a5dc-f3ac05cde668"
     },
-    "acc_num": 600,
+    "acc_num": 100,
     "sp_fly": null,
     "sp_create": null,
     "bullet_type": 0,

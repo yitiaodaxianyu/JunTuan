@@ -147,26 +147,50 @@ export default class GuaJiMonster extends cc.Component {
         }
         let anima=this.spine.setAnimation(0,name,isLoop);
         if(data){
-            this.spine.setTrackEventListener(anima,(entry: sp.spine.TrackEntry, event) =>{
-                if(event.data.name==data.name){
+
+            this.spine.setCompleteListener((trackEntry, loopCount) => {
+                let nameTemp = trackEntry.animation ? trackEntry.animation.name : '';
+                if (nameTemp === name && data.callback) {
                     data.callback();
                 }
-            })
+                this.spine.setCompleteListener(null);
+            });
+            // this.spine.setTrackEventListener(anima,(entry: sp.spine.TrackEntry, event) =>{
+            //     if(event.data.name==data.name){
+            //         data.callback();
+            //     }
+            // })
         }
         if(endCallback){
-            this.spine.setTrackCompleteListener(anima,(entry: sp.spine.TrackEntry, event) =>{
-                anima.listener=null;
-                endCallback();
-            })
+            // this.spine.setTrackCompleteListener(anima,(entry: sp.spine.TrackEntry, event) =>{
+            //     anima.listener=null;
+            //     endCallback();
+            // })
+
+            this.spine.setCompleteListener((trackEntry, loopCount) => {
+                let nameTemp = trackEntry.animation ? trackEntry.animation.name : '';
+                if (nameTemp === name && endCallback) {
+                    endCallback();
+                }
+                this.spine.setCompleteListener(null);
+            });
         }
     }
 
     playDeadAnimaton(name:string,endCallback:Function){
         let anima=this.spine.setAnimation(0,name,false);
-        this.spine.setTrackCompleteListener(anima,(entry: sp.spine.TrackEntry, event) =>{
-            anima.listener=null;
-            endCallback();
-        })
+
+        this.spine.setCompleteListener((trackEntry, loopCount) => {
+            let nameTemp = trackEntry.animation ? trackEntry.animation.name : '';
+            if (nameTemp === name && endCallback) {
+                endCallback();
+            }
+            this.spine.setCompleteListener(null);
+        });
+        // this.spine.setTrackCompleteListener(anima,(entry: sp.spine.TrackEntry, event) =>{
+        //     anima.listener=null;
+        //     endCallback();
+        // })
     }
 
     public changeHp(): boolean {

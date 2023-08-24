@@ -99,7 +99,10 @@ var XueRenBoss = /** @class */ (function (_super) {
             _this.att_jishu = 0;
             GameManager_1.default.getInstance().sound_manager.playSound(AudioConstants_1.SoundIndex.YX_Boss3Attack);
             var node = GameEffectsManager_1.GameEffectsManager.getInstance().createGameEffectById(GameEffectsManager_1.GameEffectId.boss3_normal_attack, _super.prototype.getAttPos.call(_this));
-            node.getComponent(BossAtt3_1.default).init(_super.prototype.getAttData.call(_this, HeroConfig_1.DamageType.Normal, true, 0), GameEffectsManager_1.GameEffectId.boss3_normal_attack, 1200, Math.PI * 3 / 2, _this.node.y, 270);
+            var startEndPos = cc.v2(GameManager_1.default.getInstance().charPosX, GameManager_1.default.getInstance().enemy_att_y);
+            var offsetPos = startEndPos.sub(node.getPosition());
+            var dir = Math.atan2(offsetPos.y, offsetPos.x);
+            node.getComponent(BossAtt3_1.default).init(_super.prototype.getAttData.call(_this, HeroConfig_1.DamageType.Normal, true, 0), GameEffectsManager_1.GameEffectId.boss3_normal_attack, 1200, dir, _this.node.y, 270);
         };
         _super.prototype.playSpinAnimaton.call(this, (Animation_Name.attack1), false, data, function () {
             if (_this.skill_queue.length > 0) {
@@ -351,7 +354,7 @@ var XueRenBoss = /** @class */ (function (_super) {
         }
         _super.prototype.update.call(this, dt);
         this.checkSkill(dt);
-        if (this.getEnemyState() != EnemyConfig_1.Enemy_State.skill) {
+        if (this.getEnemyState() != EnemyConfig_1.Enemy_State.skill && this.getEnemyState() != EnemyConfig_1.Enemy_State.att) {
             if (!this.isHaveDeBuff(HeroConfig_1.BuffId.Hero_XuanYun)) {
                 this.checkAtt(dt);
             }

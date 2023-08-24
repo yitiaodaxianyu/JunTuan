@@ -1256,20 +1256,46 @@ export default class Hero extends cc.Component {
      */
     playSpineAnimation(name: string, isLoop: boolean = false, data?: KeyFrameData[], endCallback?: Function) {
         let anima = this.spine.setAnimation(0, name, isLoop);
-        if (data) {
-            this.spine.setTrackEventListener(anima, (entry: sp.spine.TrackEntry, event) => {
-                for (let i = 0; i < data.length; i++) {
-                    if (event.data.name == data[i].name) {
-                        data[i].callback();
-                    }
-                }
-            })
+        // if (data) {
+        //     this.spine.setTrackEventListener(anima, (entry: sp.spine.TrackEntry, event) => {
+        //         for (let i = 0; i < data.length; i++) {
+        //             if (event.data.name == data[i].name) {
+        //                 data[i].callback();
+        //             }
+        //         }
+        //     })
+        // }
+        // if (endCallback) {
+        //     this.spine.setTrackCompleteListener(anima, (entry: sp.spine.TrackEntry, event) => {
+        //         anima.listener = null;
+        //         endCallback();
+        //     })
+        // }
+        if(data){
+
+            // this.spine.setCompleteListener((trackEntry, loopCount) => {
+            //     let nameTemp = trackEntry.animation ? trackEntry.animation.name : '';
+            //     if (nameTemp === name && data[0].callback) {
+            //         data[0].callback();
+            //     }
+            //     this.spine.setCompleteListener(null);
+            // });
+           
         }
-        if (endCallback) {
-            this.spine.setTrackCompleteListener(anima, (entry: sp.spine.TrackEntry, event) => {
-                anima.listener = null;
-                endCallback();
-            })
+        if(endCallback){
+          
+
+            this.spine.setCompleteListener((trackEntry, loopCount) => {
+                let nameTemp = trackEntry.animation ? trackEntry.animation.name : '';
+                if (nameTemp === name && endCallback) {
+                   
+                    if(data&&data[0].callback){
+                        data[0].callback();
+                    }
+                    endCallback();
+                }
+                this.spine.setCompleteListener(null);
+            });
         }
     }
 
@@ -1519,7 +1545,7 @@ export default class Hero extends cc.Component {
             }
         }
         //自动攻击
-        if (this.is_can_gongji && this.getHeroState() != Hero_State.skill) {
+        if (this.is_can_gongji && this.getHeroState() != Hero_State.skill&&this.getHeroState() != Hero_State.attack) {
             this.is_can_gongji = false;
 
             if(this.hero_type==Hero_Type.ShouWang||this.hero_type==Hero_Type.GongJianShou){

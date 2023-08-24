@@ -52,8 +52,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 231.42,
-      "height": 230.28
+      "width": 191.4,
+      "height": 190.47
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -496,8 +496,8 @@
     "paused": false,
     "defaultSkin": "Side1",
     "defaultAnimation": "Side_Walk",
-    "_preCacheMode": 0,
-    "_cacheMode": 0,
+    "_preCacheMode": 1,
+    "_cacheMode": 1,
     "loop": true,
     "premultipliedAlpha": true,
     "timeScale": 1,
@@ -514,7 +514,7 @@
     "_N$skeletonData": {
       "__uuid__": "7a5f68df-90ca-424b-96e0-22b869087996"
     },
-    "_N$_defaultCacheMode": 0,
+    "_N$_defaultCacheMode": 1,
     "_N$debugSlots": false,
     "_N$debugBones": false,
     "_N$debugMesh": false,

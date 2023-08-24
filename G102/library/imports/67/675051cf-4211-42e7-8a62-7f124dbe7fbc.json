@@ -95,8 +95,8 @@
     "paused": false,
     "defaultSkin": "default",
     "defaultAnimation": "Rouge_XuanWo",
-    "_preCacheMode": 0,
-    "_cacheMode": 0,
+    "_preCacheMode": 1,
+    "_cacheMode": 1,
     "loop": true,
     "premultipliedAlpha": true,
     "timeScale": 1,
@@ -113,7 +113,7 @@
     "_N$skeletonData": {
       "__uuid__": "4a23c60a-096f-4ead-b682-f3787aae2694"
     },
-    "_N$_defaultCacheMode": 0,
+    "_N$_defaultCacheMode": 1,
     "_N$debugSlots": false,
     "_N$debugBones": false,
     "_N$debugMesh": false,

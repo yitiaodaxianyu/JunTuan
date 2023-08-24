@@ -156,24 +156,37 @@ var Bear = /** @class */ (function (_super) {
      * @param endCallback 播放结束后的回调
      */
     Bear.prototype.playSpineAnimation = function (name, isLoop, data, endCallback) {
+        var _this = this;
         if (isLoop === void 0) { isLoop = false; }
         if (isLoop && name == this.spine.animation) {
             return;
         }
         var anima = this.spine.setAnimation(0, name, isLoop);
-        if (data) {
-            this.spine.setTrackEventListener(anima, function (entry, event) {
-                for (var i = 0; i < data.length; i++) {
-                    if (event.data.name == data[i].name) {
-                        data[i].callback();
-                    }
-                }
-            });
-        }
+        // if(data){
+        //     this.spine.setTrackEventListener(anima,(entry: sp.spine.TrackEntry, event) =>{
+        //         for(let i=0; i<data.length; i++){
+        //             if(event.data.name==data[i].name){
+        //                 data[i].callback();
+        //             }
+        //         }
+        //     })
+        // }
+        // if(endCallback){
+        //     this.spine.setTrackCompleteListener(anima,(entry: sp.spine.TrackEntry, event) =>{
+        //         anima.listener=null;                
+        //         endCallback();
+        //     })
+        // }
         if (endCallback) {
-            this.spine.setTrackCompleteListener(anima, function (entry, event) {
-                anima.listener = null;
-                endCallback();
+            this.spine.setCompleteListener(function (trackEntry, loopCount) {
+                var nameTemp = trackEntry.animation ? trackEntry.animation.name : '';
+                if (nameTemp === name && endCallback) {
+                    if (data && data[0].callback) {
+                        data[0].callback();
+                    }
+                    endCallback();
+                }
+                _this.spine.setCompleteListener(null);
             });
         }
     };

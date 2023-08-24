@@ -141,31 +141,54 @@ var GuaJiMonster = /** @class */ (function (_super) {
      * @param endCallback 播放结束后的回调
      */
     GuaJiMonster.prototype.playSpinAnimaton = function (name, isLoop, data, endCallback) {
+        var _this = this;
         if (isLoop === void 0) { isLoop = false; }
         if (this.getEnemyState() == EnemyConfig_1.Enemy_State.die) {
             return;
         }
         var anima = this.spine.setAnimation(0, name, isLoop);
         if (data) {
-            this.spine.setTrackEventListener(anima, function (entry, event) {
-                if (event.data.name == data.name) {
+            this.spine.setCompleteListener(function (trackEntry, loopCount) {
+                var nameTemp = trackEntry.animation ? trackEntry.animation.name : '';
+                if (nameTemp === name && data.callback) {
                     data.callback();
                 }
+                _this.spine.setCompleteListener(null);
             });
+            // this.spine.setTrackEventListener(anima,(entry: sp.spine.TrackEntry, event) =>{
+            //     if(event.data.name==data.name){
+            //         data.callback();
+            //     }
+            // })
         }
         if (endCallback) {
-            this.spine.setTrackCompleteListener(anima, function (entry, event) {
-                anima.listener = null;
-                endCallback();
+            // this.spine.setTrackCompleteListener(anima,(entry: sp.spine.TrackEntry, event) =>{
+            //     anima.listener=null;
+            //     endCallback();
+            // })
+            this.spine.setCompleteListener(function (trackEntry, loopCount) {
+                var nameTemp = trackEntry.animation ? trackEntry.animation.name : '';
+                if (nameTemp === name && endCallback) {
+                    endCallback();
+                }
+                _this.spine.setCompleteListener(null);
             });
         }
     };
     GuaJiMonster.prototype.playDeadAnimaton = function (name, endCallback) {
+        var _this = this;
         var anima = this.spine.setAnimation(0, name, false);
-        this.spine.setTrackCompleteListener(anima, function (entry, event) {
-            anima.listener = null;
-            endCallback();
+        this.spine.setCompleteListener(function (trackEntry, loopCount) {
+            var nameTemp = trackEntry.animation ? trackEntry.animation.name : '';
+            if (nameTemp === name && endCallback) {
+                endCallback();
+            }
+            _this.spine.setCompleteListener(null);
         });
+        // this.spine.setTrackCompleteListener(anima,(entry: sp.spine.TrackEntry, event) =>{
+        //     anima.listener=null;
+        //     endCallback();
+        // })
     };
     GuaJiMonster.prototype.changeHp = function () {
         if (this.getIsDie()) {
