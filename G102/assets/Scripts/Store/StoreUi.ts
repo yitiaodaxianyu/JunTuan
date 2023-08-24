@@ -655,7 +655,9 @@ export default class StoreUi extends cc.Component {
                     item.getChildByName("price").active = false;
                     item.getChildByName("free").active = true;
                     item.getChildByName("red").active = true;
-                    item.getChildByName("costIcon").getComponent(cc.Sprite).spriteFrame = this.store_ui.getSpriteFrame("Shop_Icon_ADS")
+                    item.getChildByName("costIcon").active=false;
+                    item.getChildByName("adicon").active=true;
+                   
                     item.getChildByName("name").getComponent(TextLanguage).setTextId(ItemManager.getInstance().getNameTextId(storeItemInfo.GetItem));
                     // let name = item.getChildByName("name").getComponent(cc.Label);
                     // if(ItemManager.getInstance().getJsonItem(storeItemInfo.GetItem).Type==5){
@@ -726,6 +728,8 @@ export default class StoreUi extends cc.Component {
                         item.getChildByName("free").active = false;
                         item.getChildByName("red").active = false;
                         EventManager.postRedEvent(RedEventString.RED_CHECK, RedEventType.Btn_Shop);
+                        item.getChildByName("costIcon").active=true;
+                    item.getChildByName("adicon").active=false;
                         item.getChildByName("costIcon").getComponent(cc.Sprite).spriteFrame = PropManager.getInstance().getSpByPropId(storeItemInfo.CostItemID);
                         item.getChildByName("price").getComponent(cc.Label).string = 'x' + MyTool.getCoinDanwei(storeItemInfo.CostNum * discountNum * 0.1);
                         item.getChildByName("name").getComponent(TextLanguage).setTextId(ItemManager.getInstance().getNameTextId(storeItemInfo.GetItem));
@@ -800,6 +804,8 @@ export default class StoreUi extends cc.Component {
                         item.getChildByName("free").active = false;
                         item.getChildByName("red").active = false;
                         EventManager.postRedEvent(RedEventString.RED_CHECK, RedEventType.Btn_Shop);
+                        item.getChildByName("costIcon").active=true;
+                        item.getChildByName("adicon").active=false;
                         item.getChildByName("costIcon").getComponent(cc.Sprite).spriteFrame = PropManager.getInstance().getSpByPropId(storeItemInfo.CostItemID);
                         item.getChildByName("price").getComponent(cc.Label).string = 'x' + MyTool.getCoinDanwei(storeItemInfo.CostNum * discountNum * 0.1);
                         item.getChildByName("name").getComponent(TextLanguage).setTextId(ItemManager.getInstance().getNameTextId(storeItemInfo.GetItem));
@@ -1189,14 +1195,14 @@ export default class StoreUi extends cc.Component {
             // 免费
             equipItem.getChildByName("num1").active = false;
             equipItem.getChildByName("free").active = true;
-            equipItem.getChildByName("costIcon1").getComponent(cc.Sprite).spriteFrame = this.store_ui.getSpriteFrame("Shop_Icon_ADS");
+            equipItem.getChildByName("costIcon1").getComponent(cc.Sprite).spriteFrame = null;
         } else {
             equipItem.getChildByName("num1").active = true;
             equipItem.getChildByName("free").active = false;
         }
         let equipBtn1 = equipItem.getChildByName("btn1");
         let equipBtn10 = equipItem.getChildByName("btn10");
-        equipBtn1.getChildByName('red').active = GameData.getInstance().getEquipFreeRedTip();
+        equipBtn1.getChildByName('lay').getChildByName('red').active = GameData.getInstance().getEquipFreeRedTip();
         equipBtn1.addComponent(cc.Button).transition = cc.Button.Transition.SCALE;
         equipBtn1.getComponent(cc.Button).duration = 0.1;
         equipBtn1.getComponent(cc.Button).zoomScale = 0.9;
@@ -1303,18 +1309,12 @@ export default class StoreUi extends cc.Component {
                             equipItem.getChildByName("num10").getComponent(cc.Label).string = "x" + prizeEquipData.TenDrawPropsSpend_2;
                         }
 
-                        // if(PropManager.getInstance().getPropNum(prizeEquipData.OneDrawPropsID_1) >= prizeEquipData.OneDrawPropsSpend_1){
-                        //     equipItem.getChildByName("costIcon1").getComponent(cc.Sprite).spriteFrame = PropManager.getInstance().getSpByPropId(prizeEquipData.OneDrawPropsID_1);
-                        //     equipItem.getChildByName("num1").getComponent(cc.Label).string = "x" + prizeEquipData.OneDrawPropsSpend_1;
-                        // }else{
-                        //     equipItem.getChildByName("costIcon1").getComponent(cc.Sprite).spriteFrame = PropManager.getInstance().getSpByPropId(prizeEquipData.OneDrawPropsID_2);
-                        //     equipItem.getChildByName("num1").getComponent(cc.Label).string = "x" + prizeEquipData.OneDrawPropsSpend_2;
-                        // }
+                      
                         if (TheStorageManager.getInstance().getNumber(StorageKey.StoreMysteryEquipFreeTime, 0) + oneDayTime - currentTime <= 0) {
                             // 免费
                             equipItem.getChildByName("num1").active = false;
                             equipItem.getChildByName("free").active = true;
-                            equipItem.getChildByName("costIcon1").getComponent(cc.Sprite).spriteFrame = this.store_ui.getSpriteFrame("Shop_Icon_ADS");
+                            equipItem.getChildByName("costIcon1").getComponent(cc.Sprite).spriteFrame = null;
                         } else {
                             equipItem.getChildByName("num1").active = true;
                             equipItem.getChildByName("free").active = false;
@@ -1394,7 +1394,7 @@ export default class StoreUi extends cc.Component {
                         // 免费
                         equipItem.getChildByName("num1").active = false;
                         equipItem.getChildByName("free").active = true;
-                        equipItem.getChildByName("costIcon1").getComponent(cc.Sprite).spriteFrame = this.store_ui.getSpriteFrame("Shop_Icon_ADS");
+                        equipItem.getChildByName("costIcon1").getComponent(cc.Sprite).spriteFrame = null;
                     } else {
                         equipItem.getChildByName("num1").active = true;
                         equipItem.getChildByName("free").active = false;
@@ -1508,19 +1508,23 @@ export default class StoreUi extends cc.Component {
             item.getChildByName("icon").getComponent(cc.Sprite).spriteFrame = this.store_ui.getSpriteFrame("Shop_Icon_Coin_" + v.DisplayPosition);
             if (v.AdReward == 1) {
                 if (Number(TheStorageManager.getInstance().getInt(StorageKey.StoreCoinItem + k, 0)) < v.AdPlayableTimes) {
-                    item.getChildByName("costIcon").getComponent(cc.Sprite).spriteFrame = this.store_ui.getSpriteFrame("Shop_Icon_ADS");
+                    
+                    item.getChildByName("adicon").active=true;
+                    item.getChildByName("costIcon").active=false;
                     item.getChildByName("num").active = false;
                     item.getChildByName("text").active = true;
                     item.getChildByName('red').active = true;
                 } else {
-                    item.getChildByName("costIcon").getComponent(cc.Sprite).spriteFrame = PropManager.getInstance().getSpByPropId(PropId.Gem);
+                    item.getChildByName("adicon").active=false;
+                    item.getChildByName("costIcon").active=true;
                     item.getChildByName("num").active = true;
                     item.getChildByName("num").getComponent(cc.Label).string = 'x' + v.ConsumeDiamondsNum;
                     item.getChildByName("text").active = false;
                     item.getChildByName('red').active = false;
                 }
             } else {
-                item.getChildByName("costIcon").getComponent(cc.Sprite).spriteFrame = PropManager.getInstance().getSpByPropId(PropId.Gem);
+                item.getChildByName("adicon").active=false;
+                item.getChildByName("costIcon").active=true;
                 item.getChildByName("num").active = true;
                 item.getChildByName("num").getComponent(cc.Label).string = 'x' + v.ConsumeDiamondsNum;
                 item.getChildByName("text").active = false;
@@ -1644,7 +1648,7 @@ export default class StoreUi extends cc.Component {
             if (TheStorageManager.getInstance().getNumber(StorageKey.StoreMysteryEquipFreeTime, 0) + oneDayTime - currentTime <= 0 && petItem.getChildByName("num1").active == true) {
                 equipItem.getChildByName("num1").active = false;
                 equipItem.getChildByName("free").active = true;
-                equipItem.getChildByName("costIcon1").getComponent(cc.Sprite).spriteFrame = this.store_ui.getSpriteFrame("Shop_Icon_ADS");
+                equipItem.getChildByName("costIcon1").getComponent(cc.Sprite).spriteFrame = null;
             }
         }, 1, cc.macro.REPEAT_FOREVER, 0)
 
@@ -1660,6 +1664,8 @@ export default class StoreUi extends cc.Component {
         TheStorageManager.getInstance().setItem(StorageKey.StoreCoinItem + this.kTemp, num)
         GameManager.getInstance().showGetTip(reward);
         if (num >= this.vTemp.AdPlayableTimes) {
+            this.adItem.getChildByName("costIcon").active=true;
+            this.adItem.getChildByName("adicon").active=false;
             this.adItem.getChildByName("costIcon").getComponent(cc.Sprite).spriteFrame = PropManager.getInstance().getSpByPropId(PropId.Gem);
             this.adItem.getChildByName("num").active = true;
             this.adItem.getChildByName("num").getComponent(cc.Label).string = 'x' + this.vTemp.ConsumeDiamondsNum;
@@ -1678,15 +1684,9 @@ export default class StoreUi extends cc.Component {
         var costNum = 0;
         let currentTime = Date.now();
         TheStorageManager.getInstance().setItem(StorageKey.StoreMysteryEquipFreeTime, currentTime);
-        // if(PropManager.getInstance().getPropNum(prizeEquipData.OneDrawPropsID_1) >= prizeEquipData.OneDrawPropsSpend_1){
-        //     equipItem.getChildByName("costIcon1").getComponent(cc.Sprite).spriteFrame = PropManager.getInstance().getSpByPropId(prizeEquipData.OneDrawPropsID_1);
-        //     equipItem.getChildByName("num1").getComponent(cc.Label).string = "x" + prizeEquipData.OneDrawPropsSpend_1;
-        // }else{
-        //     equipItem.getChildByName("costIcon1").getComponent(cc.Sprite).spriteFrame = PropManager.getInstance().getSpByPropId(prizeEquipData.OneDrawPropsID_2);
-        //     equipItem.getChildByName("num1").getComponent(cc.Label).string = "x" + prizeEquipData.OneDrawPropsSpend_2;
-        // }
+       
         let equipBtn1 = this.equipItemTemp.getChildByName("btn1");
-        equipBtn1.getChildByName('red').active = GameData.getInstance().getEquipFreeRedTip();
+        equipBtn1.getChildByName('lay').getChildByName('red').active = GameData.getInstance().getEquipFreeRedTip();
         EventManager.postRedEvent(RedEventString.RED_CHECK, RedEventType.Btn_Shop);
         this.equipItemTemp.getChildByName("num1").active = true;
         this.equipItemTemp.getChildByName("free").active = false;
@@ -1716,13 +1716,7 @@ export default class StoreUi extends cc.Component {
                     this.equipItemTemp.getChildByName("num10").getComponent(cc.Label).string = "x" + this.prizeEquipDataTemp.TenDrawPropsSpend_2;
                 }
 
-                // if(PropManager.getInstance().getPropNum(prizeEquipData.OneDrawPropsID_1) >= prizeEquipData.OneDrawPropsSpend_1){
-                //     equipItem.getChildByName("costIcon1").getComponent(cc.Sprite).spriteFrame = PropManager.getInstance().getSpByPropId(prizeEquipData.OneDrawPropsID_1);
-                //     equipItem.getChildByName("num1").getComponent(cc.Label).string = "x" + prizeEquipData.OneDrawPropsSpend_1;
-                // }else{
-                //     equipItem.getChildByName("costIcon1").getComponent(cc.Sprite).spriteFrame = PropManager.getInstance().getSpByPropId(prizeEquipData.OneDrawPropsID_2);
-                //     equipItem.getChildByName("num1").getComponent(cc.Label).string = "x" + prizeEquipData.OneDrawPropsSpend_2;
-                // }
+             
             }
         });
     }

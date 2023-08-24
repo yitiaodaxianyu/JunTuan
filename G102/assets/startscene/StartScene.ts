@@ -42,15 +42,24 @@ export default class StartScene extends cc.Component {
                 return console.error(err);
             }
             console.log('load subpackage successfully.');
-            cc.assetManager.loadBundle('resourcesBundle', (err, bundle) => {
+
+            cc.assetManager.loadBundle('ImageBundle', (err, bundle) => {
                 if (err) {
-                    console.error("加载resourcesBundle失败");
+                    console.error("加载ImagesBundle失败");
                     return;
                 }
-                //因为加载代码引入的原因只能先放到这里
-                WXManagerEX.getInstance().resourcesBundle = cc.assetManager.getBundle('resourcesBundle');
-                cc.director.loadScene("load");
+                cc.assetManager.loadBundle('resourcesBundle', (err, bundle) => {
+                    if (err) {
+                        console.error("加载resourcesBundle失败");
+                        return;
+                    }
+                    //因为加载代码引入的原因只能先放到这里
+                    WXManagerEX.getInstance().resourcesBundle = cc.assetManager.getBundle('resourcesBundle');
+                    cc.director.loadScene("load");
+                });
             });
+
+           
 
 
         });

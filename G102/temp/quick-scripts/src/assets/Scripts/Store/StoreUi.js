@@ -629,7 +629,8 @@ var StoreUi = /** @class */ (function (_super) {
                     item.getChildByName("price").active = false;
                     item.getChildByName("free").active = true;
                     item.getChildByName("red").active = true;
-                    item.getChildByName("costIcon").getComponent(cc.Sprite).spriteFrame = _this.store_ui.getSpriteFrame("Shop_Icon_ADS");
+                    item.getChildByName("costIcon").active = false;
+                    item.getChildByName("adicon").active = true;
                     item.getChildByName("name").getComponent(TextLanguage_1.default).setTextId(Item_1.ItemManager.getInstance().getNameTextId(storeItemInfo.GetItem));
                     // let name = item.getChildByName("name").getComponent(cc.Label);
                     // if(ItemManager.getInstance().getJsonItem(storeItemInfo.GetItem).Type==5){
@@ -696,6 +697,8 @@ var StoreUi = /** @class */ (function (_super) {
                         item.getChildByName("free").active = false;
                         item.getChildByName("red").active = false;
                         EventManager_1.EventManager.postRedEvent(EventManager_1.RedEventString.RED_CHECK, EventManager_1.RedEventType.Btn_Shop);
+                        item.getChildByName("costIcon").active = true;
+                        item.getChildByName("adicon").active = false;
                         item.getChildByName("costIcon").getComponent(cc.Sprite).spriteFrame = PropManager_1.PropManager.getInstance().getSpByPropId(storeItemInfo.CostItemID);
                         item.getChildByName("price").getComponent(cc.Label).string = 'x' + MyTool_1.default.getCoinDanwei(storeItemInfo.CostNum * discountNum_1 * 0.1);
                         item.getChildByName("name").getComponent(TextLanguage_1.default).setTextId(Item_1.ItemManager.getInstance().getNameTextId(storeItemInfo.GetItem));
@@ -769,6 +772,8 @@ var StoreUi = /** @class */ (function (_super) {
                         item.getChildByName("free").active = false;
                         item.getChildByName("red").active = false;
                         EventManager_1.EventManager.postRedEvent(EventManager_1.RedEventString.RED_CHECK, EventManager_1.RedEventType.Btn_Shop);
+                        item.getChildByName("costIcon").active = true;
+                        item.getChildByName("adicon").active = false;
                         item.getChildByName("costIcon").getComponent(cc.Sprite).spriteFrame = PropManager_1.PropManager.getInstance().getSpByPropId(storeItemInfo.CostItemID);
                         item.getChildByName("price").getComponent(cc.Label).string = 'x' + MyTool_1.default.getCoinDanwei(storeItemInfo.CostNum * discountNum_2 * 0.1);
                         item.getChildByName("name").getComponent(TextLanguage_1.default).setTextId(Item_1.ItemManager.getInstance().getNameTextId(storeItemInfo.GetItem));
@@ -1162,7 +1167,7 @@ var StoreUi = /** @class */ (function (_super) {
             // 免费
             equipItem.getChildByName("num1").active = false;
             equipItem.getChildByName("free").active = true;
-            equipItem.getChildByName("costIcon1").getComponent(cc.Sprite).spriteFrame = this.store_ui.getSpriteFrame("Shop_Icon_ADS");
+            equipItem.getChildByName("costIcon1").getComponent(cc.Sprite).spriteFrame = null;
         }
         else {
             equipItem.getChildByName("num1").active = true;
@@ -1170,7 +1175,7 @@ var StoreUi = /** @class */ (function (_super) {
         }
         var equipBtn1 = equipItem.getChildByName("btn1");
         var equipBtn10 = equipItem.getChildByName("btn10");
-        equipBtn1.getChildByName('red').active = GameData_1.default.getInstance().getEquipFreeRedTip();
+        equipBtn1.getChildByName('lay').getChildByName('red').active = GameData_1.default.getInstance().getEquipFreeRedTip();
         equipBtn1.addComponent(cc.Button).transition = cc.Button.Transition.SCALE;
         equipBtn1.getComponent(cc.Button).duration = 0.1;
         equipBtn1.getComponent(cc.Button).zoomScale = 0.9;
@@ -1271,18 +1276,11 @@ var StoreUi = /** @class */ (function (_super) {
                             equipItem.getChildByName("costIcon10").getComponent(cc.Sprite).spriteFrame = PropManager_1.PropManager.getInstance().getSpByPropId(prizeEquipData.OneDrawPropsID_2);
                             equipItem.getChildByName("num10").getComponent(cc.Label).string = "x" + prizeEquipData.TenDrawPropsSpend_2;
                         }
-                        // if(PropManager.getInstance().getPropNum(prizeEquipData.OneDrawPropsID_1) >= prizeEquipData.OneDrawPropsSpend_1){
-                        //     equipItem.getChildByName("costIcon1").getComponent(cc.Sprite).spriteFrame = PropManager.getInstance().getSpByPropId(prizeEquipData.OneDrawPropsID_1);
-                        //     equipItem.getChildByName("num1").getComponent(cc.Label).string = "x" + prizeEquipData.OneDrawPropsSpend_1;
-                        // }else{
-                        //     equipItem.getChildByName("costIcon1").getComponent(cc.Sprite).spriteFrame = PropManager.getInstance().getSpByPropId(prizeEquipData.OneDrawPropsID_2);
-                        //     equipItem.getChildByName("num1").getComponent(cc.Label).string = "x" + prizeEquipData.OneDrawPropsSpend_2;
-                        // }
                         if (StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.StoreMysteryEquipFreeTime, 0) + oneDayTime - currentTime <= 0) {
                             // 免费
                             equipItem.getChildByName("num1").active = false;
                             equipItem.getChildByName("free").active = true;
-                            equipItem.getChildByName("costIcon1").getComponent(cc.Sprite).spriteFrame = _this.store_ui.getSpriteFrame("Shop_Icon_ADS");
+                            equipItem.getChildByName("costIcon1").getComponent(cc.Sprite).spriteFrame = null;
                         }
                         else {
                             equipItem.getChildByName("num1").active = true;
@@ -1360,7 +1358,7 @@ var StoreUi = /** @class */ (function (_super) {
                         // 免费
                         equipItem.getChildByName("num1").active = false;
                         equipItem.getChildByName("free").active = true;
-                        equipItem.getChildByName("costIcon1").getComponent(cc.Sprite).spriteFrame = _this.store_ui.getSpriteFrame("Shop_Icon_ADS");
+                        equipItem.getChildByName("costIcon1").getComponent(cc.Sprite).spriteFrame = null;
                     }
                     else {
                         equipItem.getChildByName("num1").active = true;
@@ -1468,13 +1466,15 @@ var StoreUi = /** @class */ (function (_super) {
             item.getChildByName("icon").getComponent(cc.Sprite).spriteFrame = _this.store_ui.getSpriteFrame("Shop_Icon_Coin_" + v.DisplayPosition);
             if (v.AdReward == 1) {
                 if (Number(StorageManager_1.TheStorageManager.getInstance().getInt(StorageConfig_1.StorageKey.StoreCoinItem + k, 0)) < v.AdPlayableTimes) {
-                    item.getChildByName("costIcon").getComponent(cc.Sprite).spriteFrame = _this.store_ui.getSpriteFrame("Shop_Icon_ADS");
+                    item.getChildByName("adicon").active = true;
+                    item.getChildByName("costIcon").active = false;
                     item.getChildByName("num").active = false;
                     item.getChildByName("text").active = true;
                     item.getChildByName('red').active = true;
                 }
                 else {
-                    item.getChildByName("costIcon").getComponent(cc.Sprite).spriteFrame = PropManager_1.PropManager.getInstance().getSpByPropId(PropConfig_1.PropId.Gem);
+                    item.getChildByName("adicon").active = false;
+                    item.getChildByName("costIcon").active = true;
                     item.getChildByName("num").active = true;
                     item.getChildByName("num").getComponent(cc.Label).string = 'x' + v.ConsumeDiamondsNum;
                     item.getChildByName("text").active = false;
@@ -1482,7 +1482,8 @@ var StoreUi = /** @class */ (function (_super) {
                 }
             }
             else {
-                item.getChildByName("costIcon").getComponent(cc.Sprite).spriteFrame = PropManager_1.PropManager.getInstance().getSpByPropId(PropConfig_1.PropId.Gem);
+                item.getChildByName("adicon").active = false;
+                item.getChildByName("costIcon").active = true;
                 item.getChildByName("num").active = true;
                 item.getChildByName("num").getComponent(cc.Label).string = 'x' + v.ConsumeDiamondsNum;
                 item.getChildByName("text").active = false;
@@ -1608,7 +1609,7 @@ var StoreUi = /** @class */ (function (_super) {
             if (StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.StoreMysteryEquipFreeTime, 0) + oneDayTime - currentTime <= 0 && petItem.getChildByName("num1").active == true) {
                 equipItem.getChildByName("num1").active = false;
                 equipItem.getChildByName("free").active = true;
-                equipItem.getChildByName("costIcon1").getComponent(cc.Sprite).spriteFrame = _this.store_ui.getSpriteFrame("Shop_Icon_ADS");
+                equipItem.getChildByName("costIcon1").getComponent(cc.Sprite).spriteFrame = null;
             }
         }, 1, cc.macro.REPEAT_FOREVER, 0);
     };
@@ -1621,6 +1622,8 @@ var StoreUi = /** @class */ (function (_super) {
         StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.StoreCoinItem + this.kTemp, num);
         GameManager_1.default.getInstance().showGetTip(reward);
         if (num >= this.vTemp.AdPlayableTimes) {
+            this.adItem.getChildByName("costIcon").active = true;
+            this.adItem.getChildByName("adicon").active = false;
             this.adItem.getChildByName("costIcon").getComponent(cc.Sprite).spriteFrame = PropManager_1.PropManager.getInstance().getSpByPropId(PropConfig_1.PropId.Gem);
             this.adItem.getChildByName("num").active = true;
             this.adItem.getChildByName("num").getComponent(cc.Label).string = 'x' + this.vTemp.ConsumeDiamondsNum;
@@ -1634,15 +1637,8 @@ var StoreUi = /** @class */ (function (_super) {
         var costNum = 0;
         var currentTime = Date.now();
         StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.StoreMysteryEquipFreeTime, currentTime);
-        // if(PropManager.getInstance().getPropNum(prizeEquipData.OneDrawPropsID_1) >= prizeEquipData.OneDrawPropsSpend_1){
-        //     equipItem.getChildByName("costIcon1").getComponent(cc.Sprite).spriteFrame = PropManager.getInstance().getSpByPropId(prizeEquipData.OneDrawPropsID_1);
-        //     equipItem.getChildByName("num1").getComponent(cc.Label).string = "x" + prizeEquipData.OneDrawPropsSpend_1;
-        // }else{
-        //     equipItem.getChildByName("costIcon1").getComponent(cc.Sprite).spriteFrame = PropManager.getInstance().getSpByPropId(prizeEquipData.OneDrawPropsID_2);
-        //     equipItem.getChildByName("num1").getComponent(cc.Label).string = "x" + prizeEquipData.OneDrawPropsSpend_2;
-        // }
         var equipBtn1 = this.equipItemTemp.getChildByName("btn1");
-        equipBtn1.getChildByName('red').active = GameData_1.default.getInstance().getEquipFreeRedTip();
+        equipBtn1.getChildByName('lay').getChildByName('red').active = GameData_1.default.getInstance().getEquipFreeRedTip();
         EventManager_1.EventManager.postRedEvent(EventManager_1.RedEventString.RED_CHECK, EventManager_1.RedEventType.Btn_Shop);
         this.equipItemTemp.getChildByName("num1").active = true;
         this.equipItemTemp.getChildByName("free").active = false;
@@ -1672,13 +1668,6 @@ var StoreUi = /** @class */ (function (_super) {
                     _this.equipItemTemp.getChildByName("costIcon10").getComponent(cc.Sprite).spriteFrame = PropManager_1.PropManager.getInstance().getSpByPropId(_this.prizeEquipDataTemp.OneDrawPropsID_2);
                     _this.equipItemTemp.getChildByName("num10").getComponent(cc.Label).string = "x" + _this.prizeEquipDataTemp.TenDrawPropsSpend_2;
                 }
-                // if(PropManager.getInstance().getPropNum(prizeEquipData.OneDrawPropsID_1) >= prizeEquipData.OneDrawPropsSpend_1){
-                //     equipItem.getChildByName("costIcon1").getComponent(cc.Sprite).spriteFrame = PropManager.getInstance().getSpByPropId(prizeEquipData.OneDrawPropsID_1);
-                //     equipItem.getChildByName("num1").getComponent(cc.Label).string = "x" + prizeEquipData.OneDrawPropsSpend_1;
-                // }else{
-                //     equipItem.getChildByName("costIcon1").getComponent(cc.Sprite).spriteFrame = PropManager.getInstance().getSpByPropId(prizeEquipData.OneDrawPropsID_2);
-                //     equipItem.getChildByName("num1").getComponent(cc.Label).string = "x" + prizeEquipData.OneDrawPropsSpend_2;
-                // }
             }
         });
     };

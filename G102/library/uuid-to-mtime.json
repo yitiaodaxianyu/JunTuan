@@ -14,11 +14,6 @@
     "meta": 1690960923011,
     "relativePath": "resourcesBundle\\Fonts"
   },
-  "dcf8eee7-7c09-4d92-84b4-1d846d5342d9": {
-    "asset": 1690960195751,
-    "meta": 1690960923013,
-    "relativePath": "resourcesBundle\\Images"
-  },
   "9c793ec2-3d46-401c-8674-d6a26f83fa58": {
     "asset": 1690960251997,
     "meta": 1690960923014,
@@ -272,7 +267,7 @@
   "dd2e9536-af94-4dfa-b4fa-39aec34fa414": {
     "asset": 1690959946692,
     "meta": 1690960923307,
-    "relativePath": "resourcesBundle\\Images\\accumulated_recharge_ui"
+    "relativePath": "ImagesBundle\\accumulated_recharge_ui"
   },
   "632327b3-33ce-47ae-aed0-b0928cbc6ba6": {
     "asset": 1690959777194,
@@ -282,7 +277,7 @@
   "ece36eb6-f960-40d1-80ed-41d4bd9a77f5": {
     "asset": 1690966828085,
     "meta": 1691026732061,
-    "relativePath": "resourcesBundle\\Images\\bg"
+    "relativePath": "ImagesBundle\\bg"
   },
   "9ce18f76-2f91-4c24-a717-a01addf38993": {
     "asset": 1690959776272,
@@ -292,7 +287,7 @@
   "180fe763-9ac8-4d62-9889-b63bc5327215": {
     "asset": 1690959980870,
     "meta": 1690960923307,
-    "relativePath": "resourcesBundle\\Images\\boss"
+    "relativePath": "ImagesBundle\\boss"
   },
   "887100da-b934-4e4f-9df3-62f428ddea34": {
     "asset": 1690959778507,
@@ -302,7 +297,7 @@
   "c55398f7-ddbf-4dd4-b760-72e56444d3f0": {
     "asset": 1690959986387,
     "meta": 1690960923307,
-    "relativePath": "resourcesBundle\\Images\\city"
+    "relativePath": "ImagesBundle\\city"
   },
   "6f118e29-229f-4633-8002-cefece39d6e8": {
     "asset": 1690959777616,
@@ -312,7 +307,7 @@
   "e5dc010f-06d2-4903-97f6-9ccf68097b22": {
     "asset": 1690959988503,
     "meta": 1690960923307,
-    "relativePath": "resourcesBundle\\Images\\common_ui"
+    "relativePath": "ImagesBundle\\common_ui"
   },
   "db1a03d6-e55f-4bab-a3bd-d7e0318c8664": {
     "asset": 1690959779023,
@@ -322,7 +317,7 @@
   "9d31bba6-1191-468c-862e-8c8035b1e817": {
     "asset": 1690959989688,
     "meta": 1690960923315,
-    "relativePath": "resourcesBundle\\Images\\copy"
+    "relativePath": "ImagesBundle\\copy"
   },
   "d91540a5-fdab-4eb3-b4e8-5029ed541812": {
     "asset": 1690959779460,
@@ -332,37 +327,37 @@
   "8e506cba-e578-4eba-a593-cc5608a9c1fa": {
     "asset": 1690959990823,
     "meta": 1690960923315,
-    "relativePath": "resourcesBundle\\Images\\fighting"
+    "relativePath": "ImagesBundle\\fighting"
   },
   "54fe3b9f-af2e-4f8e-8433-4aa2a0116fa2": {
     "asset": 1690959991936,
     "meta": 1690960923316,
-    "relativePath": "resourcesBundle\\Images\\func_unlock"
+    "relativePath": "ImagesBundle\\func_unlock"
   },
   "bd5b5c27-8a6d-4e64-8a32-e3c6f0123da4": {
     "asset": 1690959993050,
     "meta": 1690960923316,
-    "relativePath": "resourcesBundle\\Images\\game_effects"
+    "relativePath": "ImagesBundle\\game_effects"
   },
   "23dcfe4b-b3d0-4901-8971-a9c41c9a2377": {
     "asset": 1690960000807,
     "meta": 1690960923316,
-    "relativePath": "resourcesBundle\\Images\\game_ui"
+    "relativePath": "ImagesBundle\\game_ui"
   },
   "c352732b-b454-4edf-b5c3-5d48e9bce525": {
     "asset": 1690960026968,
     "meta": 1690960923317,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting"
+    "relativePath": "ImagesBundle\\guaji_fighting"
   },
   "a988e324-c320-4b77-b510-f3e2e537009b": {
     "asset": 1690960069818,
     "meta": 1690960923317,
-    "relativePath": "resourcesBundle\\Images\\hero"
+    "relativePath": "ImagesBundle\\hero"
   },
   "644752b5-f206-46e7-ac70-e24da415839c": {
     "asset": 1690960124615,
     "meta": 1690960923317,
-    "relativePath": "resourcesBundle\\Images\\home"
+    "relativePath": "ImagesBundle\\home"
   },
   "628d6098-2f11-465c-bf4b-34602bcc1814": {
     "asset": 1690959779976,
@@ -372,7 +367,7 @@
   "530fa17f-db1e-4f99-acb4-16e7ba1a8c69": {
     "asset": 1690966890644,
     "meta": 1691026732061,
-    "relativePath": "resourcesBundle\\Images\\loading"
+    "relativePath": "ImagesBundle\\loading"
   },
   "f29cfa08-cd16-4d03-82ca-7580129c8210": {
     "asset": 1690959780929,
@@ -382,7 +377,7 @@
   "c5ccf5e2-09ce-4cd2-b1e0-09ce332696ec": {
     "asset": 1690960145754,
     "meta": 1690960923317,
-    "relativePath": "resourcesBundle\\Images\\maze_ui"
+    "relativePath": "ImagesBundle\\maze_ui"
   },
   "cc054fb0-ee4e-496d-bade-8863529f2dd6": {
     "asset": 1690959780445,
@@ -392,52 +387,52 @@
   "3f9b7728-f5fb-465c-9453-c73db25a7871": {
     "asset": 1690960170425,
     "meta": 1690960923317,
-    "relativePath": "resourcesBundle\\Images\\monster"
+    "relativePath": "ImagesBundle\\monster"
   },
   "e4065f2b-9f01-4860-8f2a-5edf62c3654f": {
     "asset": 1690960174675,
     "meta": 1690960923317,
-    "relativePath": "resourcesBundle\\Images\\payment_ui"
+    "relativePath": "ImagesBundle\\payment_ui"
   },
   "72c55dba-96c0-474a-b5a2-0d51352d5b6a": {
     "asset": 1690960182768,
     "meta": 1690960923317,
-    "relativePath": "resourcesBundle\\Images\\pet"
+    "relativePath": "ImagesBundle\\pet"
   },
   "c81a58df-19ab-4f77-8dac-40a5012538dd": {
     "asset": 1690960188705,
     "meta": 1690960923317,
-    "relativePath": "resourcesBundle\\Images\\RankingList"
+    "relativePath": "ImagesBundle\\RankingList"
   },
   "3d2025f7-5037-42a0-9604-052db7757777": {
     "asset": 1690960191033,
     "meta": 1690960923317,
-    "relativePath": "resourcesBundle\\Images\\Turntable"
+    "relativePath": "ImagesBundle\\Turntable"
   },
   "a761a080-b191-4b0d-8fab-380f4e3cb247": {
     "asset": 1690960192158,
     "meta": 1690960923317,
-    "relativePath": "resourcesBundle\\Images\\tutorials"
+    "relativePath": "ImagesBundle\\tutorials"
   },
   "02b75230-0b3b-48f4-a29b-1333af8227e9": {
     "asset": 1690960193751,
     "meta": 1690960923317,
-    "relativePath": "resourcesBundle\\Images\\ui_touch"
+    "relativePath": "ImagesBundle\\ui_touch"
   },
   "44c56870-3c04-457b-9523-7a5f4474c76b": {
     "asset": 1690960195329,
     "meta": 1690960923317,
-    "relativePath": "resourcesBundle\\Images\\vipsystem"
+    "relativePath": "ImagesBundle\\vipsystem"
   },
   "72b07a57-3752-439c-a642-3e44428740cb": {
     "asset": 1690960001026,
     "meta": 1690960929055,
-    "relativePath": "resourcesBundle\\Images\\get_hint.plist"
+    "relativePath": "ImagesBundle\\get_hint.plist"
   },
   "ce950c85-4a1f-4eb7-9234-c456ffa7ff3d": {
     "asset": 1690960196423,
     "meta": 1690960923330,
-    "relativePath": "resourcesBundle\\Images\\zhandou"
+    "relativePath": "ImagesBundle\\zhandou"
   },
   "ffef9574-f108-4fa2-8daf-e7d35928a325": {
     "asset": 1690959781385,
@@ -897,7 +892,7 @@
   "3bc1bd1b-667d-4053-bc66-a2bfe53fd2dc": {
     "asset": 1690960073145,
     "meta": 1690960923393,
-    "relativePath": "resourcesBundle\\Images\\hint.png"
+    "relativePath": "ImagesBundle\\hint.png"
   },
   "9bd34f51-6d66-4be1-8e0d-fb32e6063b26": {
     "asset": 1689906844438,
@@ -1067,7 +1062,7 @@
   "5e5ee38b-6cf2-4c6c-84e5-2fd27b946d45": {
     "asset": 1690960001449,
     "meta": 1690960923377,
-    "relativePath": "resourcesBundle\\Images\\get_hint.png"
+    "relativePath": "ImagesBundle\\get_hint.png"
   },
   "f7fe28b5-3fd3-4031-91b5-d4d08dd1d46a": {
     "asset": 1692606814653,
@@ -1132,67 +1127,67 @@
   "de313e75-a1fb-40fe-9077-bd751bcd098b": {
     "asset": 1690959956196,
     "meta": 1690960924296,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss1"
+    "relativePath": "ImagesBundle\\boss\\boss1"
   },
   "77be214c-728c-427d-b4b9-3ac85f560a17": {
     "asset": 1690959952368,
     "meta": 1690960924296,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss10"
+    "relativePath": "ImagesBundle\\boss\\boss10"
   },
   "0e26cac1-f79b-446d-9379-dd58e4eb7daf": {
     "asset": 1690959960316,
     "meta": 1690960924296,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss2"
+    "relativePath": "ImagesBundle\\boss\\boss2"
   },
   "94369d73-9e61-44f8-91ba-71bfebda81ba": {
     "asset": 1690959963042,
     "meta": 1690960924296,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss3"
+    "relativePath": "ImagesBundle\\boss\\boss3"
   },
   "d2c75f41-419f-43bc-a769-618cee8b9179": {
     "asset": 1690959966198,
     "meta": 1690960924296,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss4"
+    "relativePath": "ImagesBundle\\boss\\boss4"
   },
   "6b21cf79-7cb0-43c0-908c-04c457332146": {
     "asset": 1690959970184,
     "meta": 1690960924296,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss5"
+    "relativePath": "ImagesBundle\\boss\\boss5"
   },
   "c1d1100a-4820-4ec7-b9f4-9c1025962487": {
     "asset": 1690959973765,
     "meta": 1690960924296,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss6"
+    "relativePath": "ImagesBundle\\boss\\boss6"
   },
   "49f63fd3-8f07-473d-9f4d-f92f206baf86": {
     "asset": 1690959977441,
     "meta": 1690960924296,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss7"
+    "relativePath": "ImagesBundle\\boss\\boss7"
   },
   "c86bafba-570a-4758-95b8-59013d2f9131": {
     "asset": 1690959980416,
     "meta": 1690960924296,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss8"
+    "relativePath": "ImagesBundle\\boss\\boss8"
   },
   "460b62fa-674b-47da-9364-7381e68a60fd": {
     "asset": 1690959985227,
     "meta": 1690960924296,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss9"
+    "relativePath": "ImagesBundle\\boss\\boss9"
   },
   "84dabe2f-9587-490a-9984-8ae68721507c": {
     "asset": 1690959945973,
     "meta": 1690960929258,
-    "relativePath": "resourcesBundle\\Images\\accumulated_recharge_ui\\accumulated_recharge_ui.plist"
+    "relativePath": "ImagesBundle\\accumulated_recharge_ui\\accumulated_recharge_ui.plist"
   },
   "dec87e5b-974e-4ac8-b302-2ac0d87c929e": {
     "asset": 1690959986857,
     "meta": 1690960924312,
-    "relativePath": "resourcesBundle\\Images\\common_ui\\AutoAtlas.pac"
+    "relativePath": "ImagesBundle\\common_ui\\AutoAtlas.pac"
   },
   "9b2d9f45-0b3f-4a6c-b4c8-470c18b0b49d": {
     "asset": 1690959985682,
     "meta": 1690960929269,
-    "relativePath": "resourcesBundle\\Images\\city\\city_ui.plist"
+    "relativePath": "ImagesBundle\\city\\city_ui.plist"
   },
   "fc14c3a3-e8e6-4830-b39b-0a7a5e9eb18a": {
     "asset": 1690960251310,
@@ -1202,27 +1197,27 @@
   "57ace228-f6e6-4ece-87f3-a1c1688c0cf6": {
     "asset": 1690959987328,
     "meta": 1690960929289,
-    "relativePath": "resourcesBundle\\Images\\common_ui\\common_ui.plist"
+    "relativePath": "ImagesBundle\\common_ui\\common_ui.plist"
   },
   "7ce35ca0-3646-4312-b998-36280a3bb3c8": {
     "asset": 1690959988941,
     "meta": 1690960929305,
-    "relativePath": "resourcesBundle\\Images\\copy\\copy_ui.plist"
+    "relativePath": "ImagesBundle\\copy\\copy_ui.plist"
   },
   "a4a901c3-ef86-47ad-93b5-14749d456ebd": {
     "asset": 1690959990118,
     "meta": 1690960929317,
-    "relativePath": "resourcesBundle\\Images\\fighting\\fighting.plist"
+    "relativePath": "ImagesBundle\\fighting\\fighting.plist"
   },
   "faf565a8-5a10-4cea-9b0d-a6783048a748": {
     "asset": 1690959991261,
     "meta": 1690960929317,
-    "relativePath": "resourcesBundle\\Images\\func_unlock\\func_unlock_ui.plist"
+    "relativePath": "ImagesBundle\\func_unlock\\func_unlock_ui.plist"
   },
   "6f8470e3-0706-440f-805c-42125ba7c6b6": {
     "asset": 1690959992389,
     "meta": 1690960929325,
-    "relativePath": "resourcesBundle\\Images\\game_effects\\game_effects.plist"
+    "relativePath": "ImagesBundle\\game_effects\\game_effects.plist"
   },
   "b5fa6447-2e4e-4858-8f68-85b769c6bbed": {
     "asset": 1690960525138,
@@ -1232,12 +1227,12 @@
   "c15fcdd9-8f8d-46ac-8987-5ad7dfeb0a7d": {
     "asset": 1690959993518,
     "meta": 1690960924343,
-    "relativePath": "resourcesBundle\\Images\\game_ui\\boss_wave.prefab"
+    "relativePath": "ImagesBundle\\game_ui\\boss_wave.prefab"
   },
   "e6e558df-e96e-41a0-9e9f-37f4cf31929e": {
     "asset": 1690959994945,
     "meta": 1690960924375,
-    "relativePath": "resourcesBundle\\Images\\game_ui\\injured.anim"
+    "relativePath": "ImagesBundle\\game_ui\\injured.anim"
   },
   "94f3b6c7-6225-4bd8-af75-a28174104a03": {
     "asset": 1690960532640,
@@ -1247,7 +1242,7 @@
   "13e5eedb-5365-4a9c-8752-2eaf71b114f2": {
     "asset": 1690959995403,
     "meta": 1690960924390,
-    "relativePath": "resourcesBundle\\Images\\game_ui\\jiange.prefab"
+    "relativePath": "ImagesBundle\\game_ui\\jiange.prefab"
   },
   "d69a163e-a40c-42ce-afa6-0485da8e203a": {
     "asset": 1690960702689,
@@ -1257,7 +1252,7 @@
   "2c44d4e3-dff4-4bbe-8168-d211fc340d17": {
     "asset": 1690959997782,
     "meta": 1690960929352,
-    "relativePath": "resourcesBundle\\Images\\game_ui\\reward_ss_hero_ui.plist"
+    "relativePath": "ImagesBundle\\game_ui\\reward_ss_hero_ui.plist"
   },
   "e8e90114-ac1f-4777-a748-473e37302b61": {
     "asset": 1690960533490,
@@ -1272,7 +1267,7 @@
   "63061421-2668-4743-8126-b73e240260ca": {
     "asset": 1690959999162,
     "meta": 1690960929352,
-    "relativePath": "resourcesBundle\\Images\\game_ui\\skill_tip.plist"
+    "relativePath": "ImagesBundle\\game_ui\\skill_tip.plist"
   },
   "94eaec18-c80b-4f0f-97de-27377e53f341": {
     "asset": 1690960533048,
@@ -1282,97 +1277,97 @@
   "f141f6b3-fe20-4f99-a505-351d451edaa8": {
     "asset": 1690960000069,
     "meta": 1690960929352,
-    "relativePath": "resourcesBundle\\Images\\game_ui\\ui_effects.plist"
+    "relativePath": "ImagesBundle\\game_ui\\ui_effects.plist"
   },
   "330b72e4-db39-4e7b-8558-cabfaa184aad": {
     "asset": 1690959997329,
     "meta": 1690960924390,
-    "relativePath": "resourcesBundle\\Images\\game_ui\\normal_wave.prefab"
+    "relativePath": "ImagesBundle\\game_ui\\normal_wave.prefab"
   },
   "2e4d0340-4eb0-4ab5-b73c-f16d43ea1121": {
     "asset": 1690959990589,
     "meta": 1690960924375,
-    "relativePath": "resourcesBundle\\Images\\fighting\\fighting.png"
+    "relativePath": "ImagesBundle\\fighting\\fighting.png"
   },
   "df13263e-f4da-46ff-a271-3bcb2dd43306": {
     "asset": 1690959998706,
     "meta": 1690960924390,
-    "relativePath": "resourcesBundle\\Images\\game_ui\\skill_light.anim"
+    "relativePath": "ImagesBundle\\game_ui\\skill_light.anim"
   },
   "fe7ba1ee-a4c7-47e8-a32b-7864e1acd2cd": {
     "asset": 1690959991717,
     "meta": 1690960924359,
-    "relativePath": "resourcesBundle\\Images\\func_unlock\\func_unlock_ui.png"
+    "relativePath": "ImagesBundle\\func_unlock\\func_unlock_ui.png"
   },
   "eeaa1aa5-7b85-4aee-b825-13141a65c416": {
     "asset": 1690960002170,
     "meta": 1690960929352,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\guaji_fighting.plist"
+    "relativePath": "ImagesBundle\\guaji_fighting\\guaji_fighting.plist"
   },
   "bf3dbe38-cec6-40aa-a5ce-75e934fa2a5e": {
     "asset": 1690959995854,
     "meta": 1690960924390,
-    "relativePath": "resourcesBundle\\Images\\game_ui\\KaiZhan.atlas"
+    "relativePath": "ImagesBundle\\game_ui\\KaiZhan.atlas"
   },
   "06f6084f-9351-4d86-ade1-7a6d4134a5d7": {
     "asset": 1690960003084,
     "meta": 1690960924390,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\guaji_jianshi.prefab"
+    "relativePath": "ImagesBundle\\guaji_fighting\\guaji_jianshi.prefab"
   },
   "d3b7aa64-8c68-4e28-9b09-0af7af835b06": {
     "asset": 1690960004025,
     "meta": 1690960924390,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\guaji_tuowei.prefab"
+    "relativePath": "ImagesBundle\\guaji_fighting\\guaji_tuowei.prefab"
   },
   "ddccae30-ce5e-4ae5-8c95-df6125adee65": {
     "asset": 1690960004481,
     "meta": 1690960924390,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\hit.prefab"
+    "relativePath": "ImagesBundle\\guaji_fighting\\hit.prefab"
   },
   "d1c0e623-7f49-475f-9402-d89bb9777afe": {
     "asset": 1690960003570,
     "meta": 1690960924390,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\guaji_res.prefab"
+    "relativePath": "ImagesBundle\\guaji_fighting\\guaji_res.prefab"
   },
   "5c1975a3-c1f9-4b8e-a98d-a719fb1d31cb": {
     "asset": 1690959947629,
     "meta": 1690960924375,
-    "relativePath": "resourcesBundle\\Images\\bg\\wall_shield_00.png"
+    "relativePath": "ImagesBundle\\bg\\wall_shield_00.png"
   },
   "2573463d-4fd0-4d01-9ff7-a88a3cda39d4": {
     "asset": 1690959946457,
     "meta": 1690960924375,
-    "relativePath": "resourcesBundle\\Images\\accumulated_recharge_ui\\accumulated_recharge_ui.png"
+    "relativePath": "ImagesBundle\\accumulated_recharge_ui\\accumulated_recharge_ui.png"
   },
   "dbfc85d6-d154-49bb-8dfd-67ad4a57ca33": {
     "asset": 1690960000509,
     "meta": 1690960924406,
-    "relativePath": "resourcesBundle\\Images\\game_ui\\ui_effects.png"
+    "relativePath": "ImagesBundle\\game_ui\\ui_effects.png"
   },
   "2dcdc5a2-513d-4cbb-926d-91857ce7bfd8": {
     "asset": 1690959999599,
     "meta": 1690960924406,
-    "relativePath": "resourcesBundle\\Images\\game_ui\\skill_tip.png"
+    "relativePath": "ImagesBundle\\game_ui\\skill_tip.png"
   },
   "144261db-3acc-4ff7-af42-c4bbeaac9107": {
     "asset": 1690959988285,
     "meta": 1690960924375,
-    "relativePath": "resourcesBundle\\Images\\common_ui\\default_progressbar.png"
+    "relativePath": "ImagesBundle\\common_ui\\default_progressbar.png"
   },
   "b0a6d2c3-5f54-460c-a414-6acb16eb89e2": {
     "asset": 1690960002627,
     "meta": 1690960924406,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\guaji_fighting.png"
+    "relativePath": "ImagesBundle\\guaji_fighting\\guaji_fighting.png"
   },
   "0f7b7334-be12-477b-83d9-ea8813612c63": {
     "asset": 1690959948114,
     "meta": 1690960924375,
-    "relativePath": "resourcesBundle\\Images\\bg\\wall_shield_01.png"
+    "relativePath": "ImagesBundle\\bg\\wall_shield_01.png"
   },
   "e7f05c63-9630-4c35-bd82-e697970e3346": {
     "asset": 1690959998252,
     "meta": 1690960924406,
-    "relativePath": "resourcesBundle\\Images\\game_ui\\reward_ss_hero_ui.png"
+    "relativePath": "ImagesBundle\\game_ui\\reward_ss_hero_ui.png"
   },
   "4b38114d-3136-4486-bd73-e2c3967a7d7b": {
     "asset": 1690960703655,
@@ -1392,37 +1387,37 @@
   "7246ad07-c5e6-4e60-aebe-fa81d8199981": {
     "asset": 1690959987829,
     "meta": 1690960924390,
-    "relativePath": "resourcesBundle\\Images\\common_ui\\common_ui.png"
+    "relativePath": "ImagesBundle\\common_ui\\common_ui.png"
   },
   "713b3d6a-d16e-43c3-b6f1-7e02dba98afd": {
     "asset": 1690960005798,
     "meta": 1690960924421,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\Main_Bg_Level_10_1.jpg"
+    "relativePath": "ImagesBundle\\guaji_fighting\\Main_Bg_Level_10_1.jpg"
   },
   "cdb17dd4-3bee-4a2e-8222-89d3700f1028": {
     "asset": 1690960006673,
     "meta": 1690960924421,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\Main_Bg_Level_1_1.jpg"
+    "relativePath": "ImagesBundle\\guaji_fighting\\Main_Bg_Level_1_1.jpg"
   },
   "2f3eefe2-d365-4d60-87c8-ab2062f35d1f": {
     "asset": 1690959986152,
     "meta": 1690960924390,
-    "relativePath": "resourcesBundle\\Images\\city\\city_ui.png"
+    "relativePath": "ImagesBundle\\city\\city_ui.png"
   },
   "b6af5a33-6914-474f-b9c5-957f06a85e75": {
     "asset": 1690960006236,
     "meta": 1690960924421,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\Main_Bg_Level_10_2.jpg"
+    "relativePath": "ImagesBundle\\guaji_fighting\\Main_Bg_Level_10_2.jpg"
   },
   "cbc0d1a2-d885-4727-a78a-6f825b49155a": {
     "asset": 1690959996839,
     "meta": 1690960924421,
-    "relativePath": "resourcesBundle\\Images\\game_ui\\KaiZhan.png"
+    "relativePath": "ImagesBundle\\game_ui\\KaiZhan.png"
   },
   "2bffdb58-5313-48f1-adbc-105d55283126": {
     "asset": 1690960008470,
     "meta": 1690960924453,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\Main_Bg_Level_2_2.jpg"
+    "relativePath": "ImagesBundle\\guaji_fighting\\Main_Bg_Level_2_2.jpg"
   },
   "b17cc39a-b2c3-48ee-9715-970503ec034b": {
     "asset": 1690960526060,
@@ -1437,412 +1432,412 @@
   "827ce336-6db8-4b28-ad5f-39f453057e85": {
     "asset": 1690960004905,
     "meta": 1690960924421,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\Main_Bg_Level_1.jpg"
+    "relativePath": "ImagesBundle\\guaji_fighting\\Main_Bg_Level_1.jpg"
   },
   "b9bc6939-ef65-4c6f-bfb6-49ca71de9c64": {
     "asset": 1690960009423,
     "meta": 1690960924453,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\Main_Bg_Level_3_1.jpg"
+    "relativePath": "ImagesBundle\\guaji_fighting\\Main_Bg_Level_3_1.jpg"
   },
   "b39e07e1-31ec-4572-9dce-8a767990f9d0": {
     "asset": 1690960007173,
     "meta": 1690960924421,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\Main_Bg_Level_1_2.jpg"
+    "relativePath": "ImagesBundle\\guaji_fighting\\Main_Bg_Level_1_2.jpg"
   },
   "1ece7d0f-c8e6-4cbd-96c2-ea9bd51215e5": {
     "asset": 1690960019234,
     "meta": 1690960924507,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\Monster_12.prefab"
+    "relativePath": "ImagesBundle\\guaji_fighting\\Monster_12.prefab"
   },
   "56bb337e-00c1-4d21-9878-6d57b04ad8b9": {
     "asset": 1690960019703,
     "meta": 1690960924531,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\Monster_15.prefab"
+    "relativePath": "ImagesBundle\\guaji_fighting\\Monster_15.prefab"
   },
   "d4521e33-e16f-49c4-93e0-b96b223782aa": {
     "asset": 1690960008017,
     "meta": 1690960924437,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\Main_Bg_Level_2_1.jpg"
+    "relativePath": "ImagesBundle\\guaji_fighting\\Main_Bg_Level_2_1.jpg"
   },
   "c58134fa-70e8-4963-8d5b-cf24b5f1bfb8": {
     "asset": 1690960020172,
     "meta": 1690960924531,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\Monster_25.prefab"
+    "relativePath": "ImagesBundle\\guaji_fighting\\Monster_25.prefab"
   },
   "71d479fb-b0db-42b8-9b46-c2297a780b5c": {
     "asset": 1690960020641,
     "meta": 1690960924531,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\Monster_5.prefab"
+    "relativePath": "ImagesBundle\\guaji_fighting\\Monster_5.prefab"
   },
   "2ef9014d-749e-4082-969e-7a2a95fdd6a7": {
     "asset": 1690960005329,
     "meta": 1690960924453,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\Main_Bg_Level_10.jpg"
+    "relativePath": "ImagesBundle\\guaji_fighting\\Main_Bg_Level_10.jpg"
   },
   "7565c610-04d7-4f8c-a88b-582504e33a33": {
     "asset": 1690960007579,
     "meta": 1690960924453,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\Main_Bg_Level_2.jpg"
+    "relativePath": "ImagesBundle\\guaji_fighting\\Main_Bg_Level_2.jpg"
   },
   "27a16274-dc92-49f3-b611-4713065b0470": {
     "asset": 1690960009876,
     "meta": 1690960924468,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\Main_Bg_Level_3_2.jpg"
+    "relativePath": "ImagesBundle\\guaji_fighting\\Main_Bg_Level_3_2.jpg"
   },
   "707e2a93-405c-4cbf-b2e4-259a89f7ff31": {
     "asset": 1690960011251,
     "meta": 1690960924468,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\Main_Bg_Level_4_2.jpg"
+    "relativePath": "ImagesBundle\\guaji_fighting\\Main_Bg_Level_4_2.jpg"
   },
   "64075c93-84a6-4eee-a3b1-63190e43a18c": {
     "asset": 1690960021109,
     "meta": 1690960924531,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\Monster_6.prefab"
+    "relativePath": "ImagesBundle\\guaji_fighting\\Monster_6.prefab"
   },
   "9bce1627-501e-48b5-aed6-e9db119cee69": {
     "asset": 1690960008970,
     "meta": 1690960924468,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\Main_Bg_Level_3.jpg"
+    "relativePath": "ImagesBundle\\guaji_fighting\\Main_Bg_Level_3.jpg"
   },
   "08b3984c-e44f-4449-be1d-b727b50b64a8": {
     "asset": 1690960010798,
     "meta": 1690960924468,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\Main_Bg_Level_4_1.jpg"
+    "relativePath": "ImagesBundle\\guaji_fighting\\Main_Bg_Level_4_1.jpg"
   },
   "f5966097-64e1-4984-94e2-b3f07d8b2f04": {
     "asset": 1690960031203,
     "meta": 1690960924547,
-    "relativePath": "resourcesBundle\\Images\\hero\\a_nu_bi_si"
+    "relativePath": "ImagesBundle\\hero\\a_nu_bi_si"
   },
   "384bb4c6-9a49-4a65-a2d7-c50a7b3e6c38": {
     "asset": 1690960012188,
     "meta": 1690960924468,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\Main_Bg_Level_5_1.jpg"
+    "relativePath": "ImagesBundle\\guaji_fighting\\Main_Bg_Level_5_1.jpg"
   },
   "ea91d032-c197-4d69-a7b0-ce2ca04fde10": {
     "asset": 1690960012641,
     "meta": 1690960924484,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\Main_Bg_Level_5_2.jpg"
+    "relativePath": "ImagesBundle\\guaji_fighting\\Main_Bg_Level_5_2.jpg"
   },
   "1afb955c-157d-49f0-9b10-6e059091280a": {
     "asset": 1690960036687,
     "meta": 1690960924552,
-    "relativePath": "resourcesBundle\\Images\\hero\\bing_nv"
+    "relativePath": "ImagesBundle\\hero\\bing_nv"
   },
   "b6a128e0-904b-4e02-a2f7-def58f0433dc": {
     "asset": 1690960038749,
     "meta": 1690960924552,
-    "relativePath": "resourcesBundle\\Images\\hero\\changmao_shou"
+    "relativePath": "ImagesBundle\\hero\\changmao_shou"
   },
   "382e1d11-b682-40dc-836f-0646fa06c976": {
     "asset": 1690960041280,
     "meta": 1690960924552,
-    "relativePath": "resourcesBundle\\Images\\hero\\kuang_zhan_shi"
+    "relativePath": "ImagesBundle\\hero\\kuang_zhan_shi"
   },
   "2e0426a5-7171-4ccd-9a3a-1b490aa48df5": {
     "asset": 1690960044247,
     "meta": 1690960924552,
-    "relativePath": "resourcesBundle\\Images\\hero\\lei_shen"
+    "relativePath": "ImagesBundle\\hero\\lei_shen"
   },
   "54443fae-7cf4-4729-8cf3-ee821ff97e50": {
     "asset": 1690960014141,
     "meta": 1690960924500,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\Main_Bg_Level_6_2.jpg"
+    "relativePath": "ImagesBundle\\guaji_fighting\\Main_Bg_Level_6_2.jpg"
   },
   "36d83b2f-c5a7-4ae9-8bb7-2736d9fdcc7d": {
     "asset": 1690960021547,
     "meta": 1690960924531,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\pet_bullect.prefab"
+    "relativePath": "ImagesBundle\\guaji_fighting\\pet_bullect.prefab"
   },
   "ea2f48a1-25db-443f-9c7c-72d4025293fd": {
     "asset": 1690960049132,
     "meta": 1690960924552,
-    "relativePath": "resourcesBundle\\Images\\hero\\mei_mo"
+    "relativePath": "ImagesBundle\\hero\\mei_mo"
   },
   "7520aa9b-efbf-466b-99f3-40b84327393b": {
     "asset": 1690960010345,
     "meta": 1690960924496,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\Main_Bg_Level_4.jpg"
+    "relativePath": "ImagesBundle\\guaji_fighting\\Main_Bg_Level_4.jpg"
   },
   "bdfbd7e4-a891-4b10-8ace-a845cfcc4586": {
     "asset": 1690960051635,
     "meta": 1690960924552,
-    "relativePath": "resourcesBundle\\Images\\hero\\nv_wu"
+    "relativePath": "ImagesBundle\\hero\\nv_wu"
   },
   "8dbe316f-f62a-42db-b8a0-954ea744624e": {
     "asset": 1690960055926,
     "meta": 1690960924552,
-    "relativePath": "resourcesBundle\\Images\\hero\\pao_shou"
+    "relativePath": "ImagesBundle\\hero\\pao_shou"
   },
   "b4925ec9-3367-4883-92a8-bfb1c2690c6f": {
     "asset": 1690960015110,
     "meta": 1690960924507,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\Main_Bg_Level_7_1.jpg"
+    "relativePath": "ImagesBundle\\guaji_fighting\\Main_Bg_Level_7_1.jpg"
   },
   "0f80fded-d3a7-4680-abae-260f1923d095": {
     "asset": 1690960059720,
     "meta": 1690960924552,
-    "relativePath": "resourcesBundle\\Images\\hero\\ren_zhe"
+    "relativePath": "ImagesBundle\\hero\\ren_zhe"
   },
   "b4a9a7f0-561d-4700-9e09-eef6cb47e83e": {
     "asset": 1690960016454,
     "meta": 1690960924516,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\Main_Bg_Level_8_1.jpg"
+    "relativePath": "ImagesBundle\\guaji_fighting\\Main_Bg_Level_8_1.jpg"
   },
   "16203cb7-f4d9-4124-8631-6341c62d6bef": {
     "asset": 1690960061743,
     "meta": 1690960924552,
-    "relativePath": "resourcesBundle\\Images\\hero\\sheshou"
+    "relativePath": "ImagesBundle\\hero\\sheshou"
   },
   "abe84c44-86a3-426d-aced-7b6a5441d07a": {
     "asset": 1690960022000,
     "meta": 1690960924531,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\pet_hit.prefab"
+    "relativePath": "ImagesBundle\\guaji_fighting\\pet_hit.prefab"
   },
   "4f8774d7-1992-4a2f-a3c6-3826c45faab5": {
     "asset": 1690960016907,
     "meta": 1690960924531,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\Main_Bg_Level_8_2.jpg"
+    "relativePath": "ImagesBundle\\guaji_fighting\\Main_Bg_Level_8_2.jpg"
   },
   "2d3156b2-9071-43f9-becc-34195b1565c1": {
     "asset": 1690960063237,
     "meta": 1690960924552,
-    "relativePath": "resourcesBundle\\Images\\hero\\shou_wang"
+    "relativePath": "ImagesBundle\\hero\\shou_wang"
   },
   "6f252f1d-ac80-45bb-a2cf-039617782c08": {
     "asset": 1690959989459,
     "meta": 1690960924390,
-    "relativePath": "resourcesBundle\\Images\\copy\\copy_ui.png"
+    "relativePath": "ImagesBundle\\copy\\copy_ui.png"
   },
   "c3b0cbab-8cde-4296-9f7c-badaf676b0c7": {
     "asset": 1690960015547,
     "meta": 1690960924516,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\Main_Bg_Level_7_2.jpg"
+    "relativePath": "ImagesBundle\\guaji_fighting\\Main_Bg_Level_7_2.jpg"
   },
   "93ec6e7f-a710-4bd8-ab29-54e9bc0eb98d": {
     "asset": 1690960011735,
     "meta": 1690960924500,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\Main_Bg_Level_5.jpg"
+    "relativePath": "ImagesBundle\\guaji_fighting\\Main_Bg_Level_5.jpg"
   },
   "a6a9d6ec-9f30-4c58-8fc8-c27cc60e9185": {
     "asset": 1690960013610,
     "meta": 1690960924484,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\Main_Bg_Level_6_1.jpg"
+    "relativePath": "ImagesBundle\\guaji_fighting\\Main_Bg_Level_6_1.jpg"
   },
   "a921ce30-df38-4994-ba49-97f7d29d43ec": {
     "asset": 1690960069365,
     "meta": 1690960924564,
-    "relativePath": "resourcesBundle\\Images\\hero\\wu_nv"
+    "relativePath": "ImagesBundle\\hero\\wu_nv"
   },
   "4cc016ef-0c8b-4d9d-acae-687c380a2faf": {
     "asset": 1690960072911,
     "meta": 1690960924564,
-    "relativePath": "resourcesBundle\\Images\\hero\\zhen_de"
+    "relativePath": "ImagesBundle\\hero\\zhen_de"
   },
   "dd20a89a-600f-4795-8a34-32dda2b36df3": {
     "asset": 1690960017844,
     "meta": 1690960924531,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\Main_Bg_Level_9_1.jpg"
+    "relativePath": "ImagesBundle\\guaji_fighting\\Main_Bg_Level_9_1.jpg"
   },
   "e65305d6-c4d3-4b30-9df7-b9527926f36b": {
     "asset": 1690960074802,
     "meta": 1690960924564,
-    "relativePath": "resourcesBundle\\Images\\home\\activity_ui"
+    "relativePath": "ImagesBundle\\home\\activity_ui"
   },
   "cefd8cd6-af54-4889-83ff-57b42e53ba7b": {
     "asset": 1690960075895,
     "meta": 1690960924564,
-    "relativePath": "resourcesBundle\\Images\\home\\bag_ui"
+    "relativePath": "ImagesBundle\\home\\bag_ui"
   },
   "f5d93caf-79db-4cba-b2d2-8e1cfc1bddd1": {
     "asset": 1690960082192,
     "meta": 1690960924564,
-    "relativePath": "resourcesBundle\\Images\\home\\battle_pass_ui"
+    "relativePath": "ImagesBundle\\home\\battle_pass_ui"
   },
   "58d41fdc-ec21-4c74-85c7-29431679794a": {
     "asset": 1690960084785,
     "meta": 1690960924564,
-    "relativePath": "resourcesBundle\\Images\\home\\enemy_icon"
+    "relativePath": "ImagesBundle\\home\\enemy_icon"
   },
   "eb93b5b8-814e-4fe3-b6f4-a7508fd640f2": {
     "asset": 1690960085879,
     "meta": 1690960924564,
-    "relativePath": "resourcesBundle\\Images\\home\\equip_merge_ui"
+    "relativePath": "ImagesBundle\\home\\equip_merge_ui"
   },
   "0d37e90e-d1b1-49d5-8309-220545534850": {
     "asset": 1690960063880,
     "meta": 1690960929384,
-    "relativePath": "resourcesBundle\\Images\\hero\\skill_common.plist"
+    "relativePath": "ImagesBundle\\hero\\skill_common.plist"
   },
   "2fe2e860-088b-4413-9b5b-7090317c0548": {
     "asset": 1690960087066,
     "meta": 1690960924564,
-    "relativePath": "resourcesBundle\\Images\\home\\exclusive_weapons_ui"
+    "relativePath": "ImagesBundle\\home\\exclusive_weapons_ui"
   },
   "ad0938bf-8f10-4543-81ef-2827f0c99fd1": {
     "asset": 1690960088144,
     "meta": 1690960924564,
-    "relativePath": "resourcesBundle\\Images\\home\\fast_guaji_ui"
+    "relativePath": "ImagesBundle\\home\\fast_guaji_ui"
   },
   "d6812d1c-28ea-46a3-a0f5-ee638c3753c7": {
     "asset": 1690960089301,
     "meta": 1690960924564,
-    "relativePath": "resourcesBundle\\Images\\home\\gold_mall_ui"
+    "relativePath": "ImagesBundle\\home\\gold_mall_ui"
   },
   "436ffbc8-acfb-4e8a-98ed-881df641fd11": {
     "asset": 1690960090488,
     "meta": 1690960924564,
-    "relativePath": "resourcesBundle\\Images\\home\\guaji_ui"
+    "relativePath": "ImagesBundle\\home\\guaji_ui"
   },
   "b7ddc20a-6d6f-4a83-8d95-0355854ee8fe": {
     "asset": 1690960093503,
     "meta": 1690960924564,
-    "relativePath": "resourcesBundle\\Images\\home\\main_ui"
+    "relativePath": "ImagesBundle\\home\\main_ui"
   },
   "28d9e6b5-fadb-4726-b657-fd458b10665f": {
     "asset": 1690960094675,
     "meta": 1690960924564,
-    "relativePath": "resourcesBundle\\Images\\home\\pet_advance_ui"
+    "relativePath": "ImagesBundle\\home\\pet_advance_ui"
   },
   "0398f402-a07a-49e4-818a-44003992f12e": {
     "asset": 1690960014610,
     "meta": 1690960924516,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\Main_Bg_Level_7.jpg"
+    "relativePath": "ImagesBundle\\guaji_fighting\\Main_Bg_Level_7.jpg"
   },
   "c3e8a455-aab1-4b91-8c81-151e28158c67": {
     "asset": 1690960095925,
     "meta": 1690960924564,
-    "relativePath": "resourcesBundle\\Images\\home\\pet_info_ui"
+    "relativePath": "ImagesBundle\\home\\pet_info_ui"
   },
   "e1fe45e2-6669-49bc-9ba4-512fb66cb619": {
     "asset": 1690960097018,
     "meta": 1690960924564,
-    "relativePath": "resourcesBundle\\Images\\home\\pet_list_ui"
+    "relativePath": "ImagesBundle\\home\\pet_list_ui"
   },
   "e611b4f4-3460-4ca3-ad13-d2a7c31b6d06": {
     "asset": 1690960098227,
     "meta": 1690960924564,
-    "relativePath": "resourcesBundle\\Images\\home\\pet_upgrade_ui"
+    "relativePath": "ImagesBundle\\home\\pet_upgrade_ui"
   },
   "f6b6acc6-df10-47bd-baf2-a9643eb06696": {
     "asset": 1690960099430,
     "meta": 1690960924564,
-    "relativePath": "resourcesBundle\\Images\\home\\rabate_ui"
+    "relativePath": "ImagesBundle\\home\\rabate_ui"
   },
   "99f7dc8f-538a-48fb-a38d-015d015c4e14": {
     "asset": 1690960100586,
     "meta": 1690960924564,
-    "relativePath": "resourcesBundle\\Images\\home\\rank_ui"
+    "relativePath": "ImagesBundle\\home\\rank_ui"
   },
   "4ec30ce0-23c2-4286-a3db-021e5c85e7e3": {
     "asset": 1690960103149,
     "meta": 1690960924564,
-    "relativePath": "resourcesBundle\\Images\\home\\role_ui"
+    "relativePath": "ImagesBundle\\home\\role_ui"
   },
   "595a019b-1b33-44e3-9c32-ec867065bc1a": {
     "asset": 1690960104414,
     "meta": 1690960924564,
-    "relativePath": "resourcesBundle\\Images\\home\\setting_ui"
+    "relativePath": "ImagesBundle\\home\\setting_ui"
   },
   "1455ca04-bbef-4fd0-960a-4532aa523c8d": {
     "asset": 1690960016016,
     "meta": 1690960924531,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\Main_Bg_Level_8.jpg"
+    "relativePath": "ImagesBundle\\guaji_fighting\\Main_Bg_Level_8.jpg"
   },
   "360ded89-0ef2-48b6-ad82-97fe024c201b": {
     "asset": 1690960106883,
     "meta": 1690960924564,
-    "relativePath": "resourcesBundle\\Images\\home\\sign_ui"
+    "relativePath": "ImagesBundle\\home\\sign_ui"
   },
   "0e93183f-a85a-4f87-937e-69c7a476b7a4": {
     "asset": 1690960108039,
     "meta": 1690960924579,
-    "relativePath": "resourcesBundle\\Images\\home\\spin"
+    "relativePath": "ImagesBundle\\home\\spin"
   },
   "ff3f2579-3bc0-4692-a1a5-49f91d5c5fa4": {
     "asset": 1690960110195,
     "meta": 1690960924579,
-    "relativePath": "resourcesBundle\\Images\\home\\store_ui"
+    "relativePath": "ImagesBundle\\home\\store_ui"
   },
   "12afa1ae-2b7d-464b-920a-aa0d819d5dca": {
     "asset": 1690960013095,
     "meta": 1690960924516,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\Main_Bg_Level_6.jpg"
+    "relativePath": "ImagesBundle\\guaji_fighting\\Main_Bg_Level_6.jpg"
   },
   "33b70bee-d178-4b49-88c4-2599057cf6dc": {
     "asset": 1690960111382,
     "meta": 1690960924579,
-    "relativePath": "resourcesBundle\\Images\\home\\take_egg_ui"
+    "relativePath": "ImagesBundle\\home\\take_egg_ui"
   },
   "9e71174e-4d1f-4db9-9b02-7d0279865ff8": {
     "asset": 1690960112616,
     "meta": 1690960924579,
-    "relativePath": "resourcesBundle\\Images\\home\\task_ui"
+    "relativePath": "ImagesBundle\\home\\task_ui"
   },
   "98550231-bb74-4a5a-8a97-806a42548b48": {
     "asset": 1690960113835,
     "meta": 1690960924579,
-    "relativePath": "resourcesBundle\\Images\\home\\team_select_ui"
+    "relativePath": "ImagesBundle\\home\\team_select_ui"
   },
   "6c4a6843-b1af-4488-bb4e-dc8e68afe022": {
     "asset": 1690960115022,
     "meta": 1690960924579,
-    "relativePath": "resourcesBundle\\Images\\home\\top_ui"
+    "relativePath": "ImagesBundle\\home\\top_ui"
   },
   "23f6006d-6423-4c05-9792-443ce47a3368": {
     "asset": 1690960116241,
     "meta": 1690960924579,
-    "relativePath": "resourcesBundle\\Images\\home\\tower_gift"
+    "relativePath": "ImagesBundle\\home\\tower_gift"
   },
   "0772cf26-56fe-49f4-82f9-5a599a087a1f": {
     "asset": 1690960120694,
     "meta": 1690960924579,
-    "relativePath": "resourcesBundle\\Images\\home\\tower_ui"
+    "relativePath": "ImagesBundle\\home\\tower_ui"
   },
   "e85a498a-c559-4ae5-9434-8144102c5e3a": {
     "asset": 1690960121913,
     "meta": 1690960924579,
-    "relativePath": "resourcesBundle\\Images\\home\\user_level"
+    "relativePath": "ImagesBundle\\home\\user_level"
   },
   "0c38586e-d972-4782-8a0d-4f7b76e81436": {
     "asset": 1690960122991,
     "meta": 1690960924579,
-    "relativePath": "resourcesBundle\\Images\\home\\vip_ui"
+    "relativePath": "ImagesBundle\\home\\vip_ui"
   },
   "0bd06ab7-b575-43da-a49d-72e69557ec29": {
     "asset": 1690960124147,
     "meta": 1690960924579,
-    "relativePath": "resourcesBundle\\Images\\home\\week_card_ui"
+    "relativePath": "ImagesBundle\\home\\week_card_ui"
   },
   "d87b2550-2ced-4659-9f3d-86c0d1a12823": {
     "asset": 1690960038999,
     "meta": 1690960924552,
-    "relativePath": "resourcesBundle\\Images\\hero\\icon_bg.prefab"
+    "relativePath": "ImagesBundle\\hero\\icon_bg.prefab"
   },
   "71032381-ef4d-4174-a92c-bd3b66f58c3c": {
     "asset": 1690960132005,
     "meta": 1690960924579,
-    "relativePath": "resourcesBundle\\Images\\home\\wishing_ui"
+    "relativePath": "ImagesBundle\\home\\wishing_ui"
   },
   "ff2c6cf6-d0e8-453d-b6d5-2dcd00fd8541": {
     "asset": 1690960136177,
     "meta": 1690960924579,
-    "relativePath": "resourcesBundle\\Images\\loading\\cartoon"
+    "relativePath": "ImagesBundle\\loading\\cartoon"
   },
   "4147f031-f6a7-4170-83ea-e173e6a88f14": {
     "asset": 1690960018313,
     "meta": 1690960924547,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\Main_Bg_Level_9_2.jpg"
+    "relativePath": "ImagesBundle\\guaji_fighting\\Main_Bg_Level_9_2.jpg"
   },
   "6b0d9007-20ad-48e3-bedb-3145c2e53040": {
     "asset": 1690960017375,
     "meta": 1690960924564,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\Main_Bg_Level_9.jpg"
+    "relativePath": "ImagesBundle\\guaji_fighting\\Main_Bg_Level_9.jpg"
   },
   "7a0e22a1-cafb-41da-9ee7-62cefa0700b5": {
     "asset": 1690960142285,
     "meta": 1690960929399,
-    "relativePath": "resourcesBundle\\Images\\maze_ui\\maze_ui.plist"
+    "relativePath": "ImagesBundle\\maze_ui\\maze_ui.plist"
   },
   "765197b4-817f-4bbc-ac91-1a65b10bd3e5": {
     "asset": 1690960525586,
@@ -1852,212 +1847,212 @@
   "b144f28f-6546-4780-817d-e149506a5469": {
     "asset": 1690960022453,
     "meta": 1690960924552,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\Spine_Chest.atlas"
+    "relativePath": "ImagesBundle\\guaji_fighting\\Spine_Chest.atlas"
   },
   "ca3d90ef-f7ac-43fb-8f85-9daa9a27f618": {
     "asset": 1690960063456,
     "meta": 1690960924579,
-    "relativePath": "resourcesBundle\\Images\\hero\\skill_common.anim"
+    "relativePath": "ImagesBundle\\hero\\skill_common.anim"
   },
   "404e0882-a557-49ae-b265-39a25011d8b9": {
     "asset": 1690960024375,
     "meta": 1690960924564,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\WarChariot.atlas"
+    "relativePath": "ImagesBundle\\guaji_fighting\\WarChariot.atlas"
   },
   "ef8b6296-e459-4f51-952f-d716fa037740": {
     "asset": 1690960025796,
     "meta": 1690960924564,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\ZhanChe.atlas"
+    "relativePath": "ImagesBundle\\guaji_fighting\\ZhanChe.atlas"
   },
   "ad17ad91-3caa-4d5b-9ab6-50925f127c48": {
     "asset": 1690960139489,
     "meta": 1690960924579,
-    "relativePath": "resourcesBundle\\Images\\maze_ui\\box.prefab"
+    "relativePath": "ImagesBundle\\maze_ui\\box.prefab"
   },
   "675051cf-4211-42e7-8a62-7f124dbe7fbc": {
     "asset": 1690960140411,
     "meta": 1690960924579,
-    "relativePath": "resourcesBundle\\Images\\maze_ui\\door.prefab"
+    "relativePath": "ImagesBundle\\maze_ui\\door.prefab"
   },
   "22c66795-3151-4910-9c13-2714cb26be1a": {
     "asset": 1690960140879,
     "meta": 1690960924594,
-    "relativePath": "resourcesBundle\\Images\\maze_ui\\Maze_Arrow.prefab"
+    "relativePath": "ImagesBundle\\maze_ui\\Maze_Arrow.prefab"
   },
   "0c28187e-9c14-49bf-9cf6-b47e755355f1": {
     "asset": 1690960147644,
     "meta": 1690960924610,
-    "relativePath": "resourcesBundle\\Images\\monster\\bianfu"
+    "relativePath": "ImagesBundle\\monster\\bianfu"
   },
   "67544834-03a1-4ccc-89aa-e31f2ecfe5ec": {
     "asset": 1690960141817,
     "meta": 1690960924594,
-    "relativePath": "resourcesBundle\\Images\\maze_ui\\maze_pet_item.prefab"
+    "relativePath": "ImagesBundle\\maze_ui\\maze_pet_item.prefab"
   },
   "833b6f55-ad16-422d-9d3a-e34eb5eac56a": {
     "asset": 1690960154081,
     "meta": 1690960924610,
-    "relativePath": "resourcesBundle\\Images\\monster\\common"
+    "relativePath": "ImagesBundle\\monster\\common"
   },
   "546a0e0a-1b62-4772-b26c-3e813cbafa74": {
     "asset": 1690960139926,
     "meta": 1690960924579,
-    "relativePath": "resourcesBundle\\Images\\maze_ui\\buffItem.prefab"
+    "relativePath": "ImagesBundle\\maze_ui\\buffItem.prefab"
   },
   "ab84499a-408b-4cd9-94aa-cce5d487ba82": {
     "asset": 1690960159176,
     "meta": 1690960924610,
-    "relativePath": "resourcesBundle\\Images\\monster\\elite1"
+    "relativePath": "ImagesBundle\\monster\\elite1"
   },
   "0b069d89-915b-4ac3-8fef-aa712fb8ccd2": {
     "asset": 1690960157706,
     "meta": 1690960924610,
-    "relativePath": "resourcesBundle\\Images\\monster\\elite10"
+    "relativePath": "ImagesBundle\\monster\\elite10"
   },
   "185148c0-0894-4c5f-ab5c-e1856f73a2dc": {
     "asset": 1690960161254,
     "meta": 1690960924610,
-    "relativePath": "resourcesBundle\\Images\\monster\\elite4"
+    "relativePath": "ImagesBundle\\monster\\elite4"
   },
   "6b388033-4693-4554-87fe-facf0f68490b": {
     "asset": 1690960162926,
     "meta": 1690960924610,
-    "relativePath": "resourcesBundle\\Images\\monster\\elite5"
+    "relativePath": "ImagesBundle\\monster\\elite5"
   },
   "eabcec48-4062-42f0-9233-78120870d6d9": {
     "asset": 1690960164051,
     "meta": 1690960924610,
-    "relativePath": "resourcesBundle\\Images\\monster\\elite6"
+    "relativePath": "ImagesBundle\\monster\\elite6"
   },
   "f9c0a4f8-bcbd-4e45-9fa7-66ce7d48d556": {
     "asset": 1690959996339,
     "meta": 1690960929399,
-    "relativePath": "resourcesBundle\\Images\\game_ui\\KaiZhan.json"
+    "relativePath": "ImagesBundle\\game_ui\\KaiZhan.json"
   },
   "2088bbd7-be25-434e-81da-dabd0c9dad18": {
     "asset": 1690960165176,
     "meta": 1690960924610,
-    "relativePath": "resourcesBundle\\Images\\monster\\elite7"
+    "relativePath": "ImagesBundle\\monster\\elite7"
   },
   "48208753-9f3a-4041-8415-64b658af961c": {
     "asset": 1690960166722,
     "meta": 1690960924610,
-    "relativePath": "resourcesBundle\\Images\\monster\\elite8"
+    "relativePath": "ImagesBundle\\monster\\elite8"
   },
   "c66cd310-1797-47ee-ab60-a6a763af6b27": {
     "asset": 1690960167894,
     "meta": 1690960924610,
-    "relativePath": "resourcesBundle\\Images\\monster\\elite9"
+    "relativePath": "ImagesBundle\\monster\\elite9"
   },
   "edc24e17-bec8-4c58-894a-5ecc264b1279": {
     "asset": 1690960169956,
     "meta": 1690960924610,
-    "relativePath": "resourcesBundle\\Images\\monster\\shuangjuren"
+    "relativePath": "ImagesBundle\\monster\\shuangjuren"
   },
   "6a3a2ed9-71dc-4570-95e1-1eb6477eee24": {
     "asset": 1690960172066,
     "meta": 1690960924610,
-    "relativePath": "resourcesBundle\\Images\\monster\\youling"
+    "relativePath": "ImagesBundle\\monster\\youling"
   },
   "126327c6-c81a-4c7e-9c22-a2887cc35a18": {
     "asset": 1690960023890,
     "meta": 1690960924579,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\Spirit17_SupportSkill_2.png"
+    "relativePath": "ImagesBundle\\guaji_fighting\\Spirit17_SupportSkill_2.png"
   },
   "64dc20cd-40b6-40a0-9e76-1a6fd99148b9": {
     "asset": 1690960023406,
     "meta": 1690960924579,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\Spine_Chest.png"
+    "relativePath": "ImagesBundle\\guaji_fighting\\Spine_Chest.png"
   },
   "9668a438-2094-40f4-8fdf-2f0517f95fbe": {
     "asset": 1690960173472,
     "meta": 1690960929415,
-    "relativePath": "resourcesBundle\\Images\\payment_ui\\payment_ui.plist"
+    "relativePath": "ImagesBundle\\payment_ui\\payment_ui.plist"
   },
   "d3aa29d2-40e6-4eac-b2d5-297b410de9a5": {
     "asset": 1690960175628,
     "meta": 1690960924625,
-    "relativePath": "resourcesBundle\\Images\\pet\\effects"
+    "relativePath": "ImagesBundle\\pet\\effects"
   },
   "d9947f33-9e37-484b-a547-f196e5d7c25b": {
     "asset": 1690960187549,
     "meta": 1690960924625,
-    "relativePath": "resourcesBundle\\Images\\pet\\pet_game"
+    "relativePath": "ImagesBundle\\pet\\pet_game"
   },
   "85aa328d-9bf0-437f-b934-87469ee70a59": {
     "asset": 1690960024828,
     "meta": 1690960929415,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\WarChariot.json"
+    "relativePath": "ImagesBundle\\guaji_fighting\\WarChariot.json"
   },
   "36893b26-d773-4aa5-a4c4-40836e6287d3": {
     "asset": 1690960022922,
     "meta": 1690960929415,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\Spine_Chest.json"
+    "relativePath": "ImagesBundle\\guaji_fighting\\Spine_Chest.json"
   },
   "9611a443-a9c2-42ff-8a18-ec97439667e0": {
     "asset": 1690960018766,
     "meta": 1690960924564,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\Map_Bg_1.png"
+    "relativePath": "ImagesBundle\\guaji_fighting\\Map_Bg_1.png"
   },
   "1f243774-01b2-4625-9e56-c6ae538d9adc": {
     "asset": 1690960187986,
     "meta": 1690960929415,
-    "relativePath": "resourcesBundle\\Images\\RankingList\\RankingList.plist"
+    "relativePath": "ImagesBundle\\RankingList\\RankingList.plist"
   },
   "7190c7f2-e37e-4672-b08c-beaf7af8e749": {
     "asset": 1690960026281,
     "meta": 1690960929415,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\ZhanChe.json"
+    "relativePath": "ImagesBundle\\guaji_fighting\\ZhanChe.json"
   },
   "ffbb60dd-5781-4e79-81f1-4bacef33f139": {
     "asset": 1690960143207,
     "meta": 1690960924625,
-    "relativePath": "resourcesBundle\\Images\\maze_ui\\Rouge.atlas"
+    "relativePath": "ImagesBundle\\maze_ui\\Rouge.atlas"
   },
   "9da86448-8d0a-4818-b3cd-23fda7cd8f26": {
     "asset": 1690960190345,
     "meta": 1690960929431,
-    "relativePath": "resourcesBundle\\Images\\Turntable\\Turntable.plist"
+    "relativePath": "ImagesBundle\\Turntable\\Turntable.plist"
   },
   "1240e4b1-0e47-4d0a-8adf-084026726c4f": {
     "asset": 1690960191501,
     "meta": 1690960929431,
-    "relativePath": "resourcesBundle\\Images\\tutorials\\tutorials.plist"
+    "relativePath": "ImagesBundle\\tutorials\\tutorials.plist"
   },
   "49aade2b-8851-45d0-b7c5-a8f5d856f3dc": {
     "asset": 1690960172956,
     "meta": 1690960924625,
-    "relativePath": "resourcesBundle\\Images\\payment_ui\\long_jing_item.prefab"
+    "relativePath": "ImagesBundle\\payment_ui\\long_jing_item.prefab"
   },
   "6be7e9b0-0b27-473a-9e37-6101e12ac38e": {
     "asset": 1690960193064,
     "meta": 1690960929431,
-    "relativePath": "resourcesBundle\\Images\\ui_touch\\ui_touch.plist"
+    "relativePath": "ImagesBundle\\ui_touch\\ui_touch.plist"
   },
   "822ce58f-e2fe-484a-b717-acebe6aca27f": {
     "asset": 1690960026718,
     "meta": 1690960924594,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\ZhanChe.png"
+    "relativePath": "ImagesBundle\\guaji_fighting\\ZhanChe.png"
   },
   "2139d14d-482c-4f01-83c4-c5605fbb6b18": {
     "asset": 1690960194673,
     "meta": 1690960929431,
-    "relativePath": "resourcesBundle\\Images\\vipsystem\\vipsystem.plist"
+    "relativePath": "ImagesBundle\\vipsystem\\vipsystem.plist"
   },
   "36f9b16f-3c88-4eb1-afab-1fbf99ab0dff": {
     "asset": 1690960174409,
     "meta": 1690960924625,
-    "relativePath": "resourcesBundle\\Images\\payment_ui\\total_item.prefab"
+    "relativePath": "ImagesBundle\\payment_ui\\total_item.prefab"
   },
   "d98e0eb3-14b9-4e95-8e32-da1c01ab26c5": {
     "asset": 1690960144551,
     "meta": 1690960924641,
-    "relativePath": "resourcesBundle\\Images\\maze_ui\\Rouge_Card.atlas"
+    "relativePath": "ImagesBundle\\maze_ui\\Rouge_Card.atlas"
   },
   "244e2f0a-7d7c-4629-810f-1226eeb703dc": {
     "asset": 1690960192595,
     "meta": 1690960924641,
-    "relativePath": "resourcesBundle\\Images\\ui_touch\\ui_touch.anim"
+    "relativePath": "ImagesBundle\\ui_touch\\ui_touch.anim"
   },
   "423ea024-a77f-48c8-99ec-72244fca4e65": {
     "asset": 1690960137848,
@@ -2067,7 +2062,7 @@
   "5cfa664c-f732-4a32-be47-c4b64ef065a2": {
     "asset": 1690960064331,
     "meta": 1690960924579,
-    "relativePath": "resourcesBundle\\Images\\hero\\skill_common.png"
+    "relativePath": "ImagesBundle\\hero\\skill_common.png"
   },
   "5bef1fef-e6f0-441d-bc45-79e5b114207a": {
     "asset": 1690960422932,
@@ -2077,7 +2072,7 @@
   "ad9aff3f-43af-4fb4-be4e-0de55af1ce92": {
     "asset": 1690960195751,
     "meta": 1690960929431,
-    "relativePath": "resourcesBundle\\Images\\zhandou\\zhandou_texiao.plist"
+    "relativePath": "ImagesBundle\\zhandou\\zhandou_texiao.plist"
   },
   "568571b5-dfc5-43e8-bfb8-2b06c4716225": {
     "asset": 1690960423447,
@@ -2117,7 +2112,7 @@
   "c7a618d3-bcc5-4eaf-a01f-fc341640df6e": {
     "asset": 1690960142723,
     "meta": 1690960924641,
-    "relativePath": "resourcesBundle\\Images\\maze_ui\\maze_ui.png"
+    "relativePath": "ImagesBundle\\maze_ui\\maze_ui.png"
   },
   "66791b29-e0dc-4791-89e1-2b3d61da10dd": {
     "asset": 1690960427072,
@@ -2132,7 +2127,7 @@
   "b6fb050d-f128-4f7f-9a80-36d3724ddacb": {
     "asset": 1690960188455,
     "meta": 1690960924657,
-    "relativePath": "resourcesBundle\\Images\\RankingList\\RankingList.png"
+    "relativePath": "ImagesBundle\\RankingList\\RankingList.png"
   },
   "b4bf86f5-a6f7-48a3-88c6-78c48a44c52b": {
     "asset": 1690960427505,
@@ -2172,7 +2167,7 @@
   "c75be153-dd2a-4e3d-ac4a-c18f1e5b576d": {
     "asset": 1690960196204,
     "meta": 1690960924672,
-    "relativePath": "resourcesBundle\\Images\\zhandou\\zhandou_texiao.png"
+    "relativePath": "ImagesBundle\\zhandou\\zhandou_texiao.png"
   },
   "1892eb91-8b99-41b7-94ee-f6ca599986dd": {
     "asset": 1690960138364,
@@ -2182,37 +2177,37 @@
   "667df522-d9e8-4377-b4b5-f01d84836cec": {
     "asset": 1690960190798,
     "meta": 1690960924657,
-    "relativePath": "resourcesBundle\\Images\\Turntable\\Turntable.png"
+    "relativePath": "ImagesBundle\\Turntable\\Turntable.png"
   },
   "0767f6ea-6dd3-452a-9a5e-ccafebc33167": {
     "asset": 1690960193517,
     "meta": 1690960924657,
-    "relativePath": "resourcesBundle\\Images\\ui_touch\\ui_touch.png"
+    "relativePath": "ImagesBundle\\ui_touch\\ui_touch.png"
   },
   "bcf6a112-9f0d-4dbe-bdf8-95db8f8c9af9": {
     "asset": 1690960191939,
     "meta": 1690960924657,
-    "relativePath": "resourcesBundle\\Images\\tutorials\\tutorials.png"
+    "relativePath": "ImagesBundle\\tutorials\\tutorials.png"
   },
   "f406e299-7090-42ab-8b8e-437df0a1a7f5": {
     "asset": 1690960141332,
     "meta": 1690960924641,
-    "relativePath": "resourcesBundle\\Images\\maze_ui\\Maze_Bg_0.jpg"
+    "relativePath": "ImagesBundle\\maze_ui\\Maze_Bg_0.jpg"
   },
   "c4c5073c-877d-49df-95a3-7f787f9cfe45": {
     "asset": 1690960172503,
     "meta": 1690960924672,
-    "relativePath": "resourcesBundle\\Images\\payment_ui\\Card_Bg_Background.png"
+    "relativePath": "ImagesBundle\\payment_ui\\Card_Bg_Background.png"
   },
   "4627bdf4-ef61-46c8-89e0-0efb96eb8cf7": {
     "asset": 1690960194220,
     "meta": 1690960924672,
-    "relativePath": "resourcesBundle\\Images\\vipsystem\\VIP_Bar_0_1.png"
+    "relativePath": "ImagesBundle\\vipsystem\\VIP_Bar_0_1.png"
   },
   "798608f1-4fe1-43be-a3b9-ec2fa3b449d6": {
     "asset": 1690959992829,
     "meta": 1690960924390,
-    "relativePath": "resourcesBundle\\Images\\game_effects\\game_effects.png"
+    "relativePath": "ImagesBundle\\game_effects\\game_effects.png"
   },
   "472ce17a-1051-44db-911c-40c43a0121e8": {
     "asset": 1690959784626,
@@ -2252,12 +2247,12 @@
   "4a23c60a-096f-4ead-b682-f3787aae2694": {
     "asset": 1690960143676,
     "meta": 1690960929446,
-    "relativePath": "resourcesBundle\\Images\\maze_ui\\Rouge.json"
+    "relativePath": "ImagesBundle\\maze_ui\\Rouge.json"
   },
   "351ae3c6-5ee7-49bf-ae29-9ae55be0761d": {
     "asset": 1690960195110,
     "meta": 1690960924672,
-    "relativePath": "resourcesBundle\\Images\\vipsystem\\vipsystem.png"
+    "relativePath": "ImagesBundle\\vipsystem\\vipsystem.png"
   },
   "b2627f5d-27bd-408e-9672-cc26d9bf6147": {
     "asset": 1690959908198,
@@ -2352,7 +2347,7 @@
   "09c53be2-be46-45ab-8fba-129f26e5edef": {
     "asset": 1690960144113,
     "meta": 1690960924688,
-    "relativePath": "resourcesBundle\\Images\\maze_ui\\Rouge.png"
+    "relativePath": "ImagesBundle\\maze_ui\\Rouge.png"
   },
   "e3da79f4-4c31-4bed-8343-8414bda1155a": {
     "asset": 1690959794897,
@@ -2362,7 +2357,7 @@
   "469a3c79-1226-4ee2-90cc-1686b90605ad": {
     "asset": 1690960025343,
     "meta": 1690960924641,
-    "relativePath": "resourcesBundle\\Images\\guaji_fighting\\WarChariot.png"
+    "relativePath": "ImagesBundle\\guaji_fighting\\WarChariot.png"
   },
   "e66802dd-f898-4e7b-9049-17b3ff90fb79": {
     "asset": 1690959794031,
@@ -2372,7 +2367,7 @@
   "7dca6e86-53e9-4583-8b01-074109386891": {
     "asset": 1690960145035,
     "meta": 1690960929478,
-    "relativePath": "resourcesBundle\\Images\\maze_ui\\Rouge_Card.json"
+    "relativePath": "ImagesBundle\\maze_ui\\Rouge_Card.json"
   },
   "2799b00e-ab85-4048-b464-0890b55e82f9": {
     "asset": 1690959934876,
@@ -2385,8 +2380,8 @@
     "relativePath": "resourcesBundle\\exclusive\\exclusive_weapons_ui.prefab"
   },
   "795acbe5-259f-484d-a315-aca25b7ceb5a": {
-    "asset": 1690959922981,
-    "meta": 1690960923236,
+    "asset": 1692671654563,
+    "meta": 1692671654568,
     "relativePath": "resourcesBundle\\guaji\\fast_guaji_ui.prefab"
   },
   "81b216b0-eea0-468a-bd13-ac05c6b1fb86": {
@@ -2442,7 +2437,7 @@
   "586a76c2-2574-480a-8d15-a528ccbc3e04": {
     "asset": 1690960145519,
     "meta": 1690960924688,
-    "relativePath": "resourcesBundle\\Images\\maze_ui\\Rouge_Card.png"
+    "relativePath": "ImagesBundle\\maze_ui\\Rouge_Card.png"
   },
   "b351c944-3f88-40a8-b66c-b56d84962eca": {
     "asset": 1690959935829,
@@ -2832,7 +2827,7 @@
   "15b8afaa-70ca-403f-b5cc-4de9da02d730": {
     "asset": 1690960173940,
     "meta": 1690960924672,
-    "relativePath": "resourcesBundle\\Images\\payment_ui\\payment_ui.png"
+    "relativePath": "ImagesBundle\\payment_ui\\payment_ui.png"
   },
   "e36c511e-7d90-4b3f-b9ab-d4fd16944e0a": {
     "asset": 1690960228746,
@@ -4180,8 +4175,8 @@
     "relativePath": "resourcesBundle\\signIn\\sign_daily_ui.prefab"
   },
   "fa946e5a-1f38-4e6b-9103-0a6864664660": {
-    "asset": 1690960435857,
-    "meta": 1690960923953,
+    "asset": 1692670399616,
+    "meta": 1692670399627,
     "relativePath": "resourcesBundle\\signIn\\sign_get_tip.prefab"
   },
   "8f0ac675-66a7-449f-b165-247de03c60d0": {
@@ -4190,8 +4185,8 @@
     "relativePath": "resourcesBundle\\Multilingual\\Void_IN.png"
   },
   "cbbf53a1-124b-4a23-9a63-04fff8749baa": {
-    "asset": 1692604365185,
-    "meta": 1692604365191,
+    "asset": 1692669222956,
+    "meta": 1692669222963,
     "relativePath": "resourcesBundle\\signIn\\sign_in_buy_ui.prefab"
   },
   "02ddbe6b-bb5c-40cc-9bc7-e998d151db1c": {
@@ -4215,8 +4210,8 @@
     "relativePath": "resourcesBundle\\store\\store_chapter_item.prefab"
   },
   "96388060-facc-4d7c-9b61-4314df21a5e6": {
-    "asset": 1690960735102,
-    "meta": 1690960924031,
+    "asset": 1692672558481,
+    "meta": 1692672558487,
     "relativePath": "resourcesBundle\\store\\store_coin_item.prefab"
   },
   "66f67b64-a79b-4ee0-b7a2-03072591646b": {
@@ -4230,13 +4225,13 @@
     "relativePath": "resourcesBundle\\store\\probability_tip_ui.prefab"
   },
   "6d68bffa-6fbc-4378-9308-dc84aeed7869": {
-    "asset": 1690960735571,
-    "meta": 1690960924046,
+    "asset": 1692672674327,
+    "meta": 1692672674334,
     "relativePath": "resourcesBundle\\store\\store_daily_item.prefab"
   },
   "b835d88f-e848-4a21-ba67-023d1695b43e": {
-    "asset": 1692356266891,
-    "meta": 1692356266906,
+    "asset": 1692674218547,
+    "meta": 1692674218558,
     "relativePath": "resourcesBundle\\store\\store_equip_item.prefab"
   },
   "910a8e04-ac2a-4185-b01d-eb0076e79f0d": {
@@ -4325,8 +4320,8 @@
     "relativePath": "resourcesBundle\\tower\\tower_ui.prefab"
   },
   "8693040a-9b78-4999-ad8e-2c5e1103015a": {
-    "asset": 1690960747319,
-    "meta": 1690960924078,
+    "asset": 1692668815940,
+    "meta": 1692668815946,
     "relativePath": "resourcesBundle\\Turntable\\Turntable.prefab"
   },
   "e68ff795-5c43-432d-b136-5ab6b5706f58": {
@@ -4550,8 +4545,8 @@
     "relativePath": "resourcesBundle\\userLevel\\user_level_ui.prefab"
   },
   "4d70b2a4-99b0-4655-bcfa-4f0ae07caabf": {
-    "asset": 1692604634304,
-    "meta": 1692604634311,
+    "asset": 1692672069583,
+    "meta": 1692672069588,
     "relativePath": "resourcesBundle\\vipsystem\\VipSystem.prefab"
   },
   "8d5b4d92-67a7-434c-a28a-491bc4b57455": {
@@ -4973,11 +4968,6 @@
     "asset": 1688719263634,
     "meta": 1689133965335,
     "relativePath": "Scripts\\JsonData\\SignNum.ts"
-  },
-  "e32d1d7e-f58b-4eb6-8b65-1a1f4fd171b0": {
-    "asset": 1688719263635,
-    "meta": 1689133965344,
-    "relativePath": "Scripts\\JsonData\\TextManagement.ts"
   },
   "43063865-2515-4d8c-95d2-5b73b5bc62d3": {
     "asset": 1688719263636,
@@ -6862,7 +6852,7 @@
   "4d065c18-fd8b-4e4d-9bb8-8db56bb0c9eb": {
     "asset": 1690959953087,
     "meta": 1690960929964,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss1\\boss1.plist"
+    "relativePath": "ImagesBundle\\boss\\boss1\\boss1.plist"
   },
   "a8ce5221-8dae-4efd-843f-2f64ff37937a": {
     "asset": 1690960692889,
@@ -6932,7 +6922,7 @@
   "0dbf8162-ccfc-4712-a0a3-540a5846e8ad": {
     "asset": 1690959949271,
     "meta": 1690960929964,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss10\\boss10.plist"
+    "relativePath": "ImagesBundle\\boss\\boss10\\boss10.plist"
   },
   "85013921-68b7-42ae-9efa-7bba6916542f": {
     "asset": 1690960722410,
@@ -6972,17 +6962,17 @@
   "880bfea1-63e6-43dc-a2f3-9faca670ee32": {
     "asset": 1690959952572,
     "meta": 1690960926395,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss1\\50112.anim"
+    "relativePath": "ImagesBundle\\boss\\boss1\\50112.anim"
   },
   "7d5d4e32-a05a-4dc2-a5dc-f3ac05cde668": {
     "asset": 1690959955462,
     "meta": 1690960926395,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss1\\tuowei1.prefab"
+    "relativePath": "ImagesBundle\\boss\\boss1\\tuowei1.prefab"
   },
   "ffc3741e-841c-4d2a-9475-ea1105433353": {
     "asset": 1690959955931,
     "meta": 1690960926410,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss1\\tuowei2.prefab"
+    "relativePath": "ImagesBundle\\boss\\boss1\\tuowei2.prefab"
   },
   "c15e6def-d090-4407-ac46-3235ca42107c": {
     "asset": 1690960721031,
@@ -6997,12 +6987,12 @@
   "18b5caaa-c6e9-441a-b635-dd67989fdc16": {
     "asset": 1690959956665,
     "meta": 1690960929979,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss2\\boss2.plist"
+    "relativePath": "ImagesBundle\\boss\\boss2\\boss2.plist"
   },
   "647460e9-7b80-4079-a501-5e0c7768897d": {
     "asset": 1690959954993,
     "meta": 1690960926395,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss1\\e50102.anim"
+    "relativePath": "ImagesBundle\\boss\\boss1\\e50102.anim"
   },
   "7107b01d-4c31-403d-8506-181dd521b829": {
     "asset": 1690960730605,
@@ -7012,7 +7002,7 @@
   "bd181c8d-6801-4649-b753-3201f0c3f8df": {
     "asset": 1690959950694,
     "meta": 1690960926410,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss10\\e51002.anim"
+    "relativePath": "ImagesBundle\\boss\\boss10\\e51002.anim"
   },
   "25a30f69-5fe1-4529-911f-01d652599799": {
     "asset": 1690960731058,
@@ -7027,22 +7017,22 @@
   "a54dc302-f366-4338-ad25-5fa25da4f19d": {
     "asset": 1690959960839,
     "meta": 1690960929995,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss3\\boss3.plist"
+    "relativePath": "ImagesBundle\\boss\\boss3\\boss3.plist"
   },
   "a8a30529-4a00-4b86-a764-64d51203f4fa": {
     "asset": 1690959950210,
     "meta": 1690960926410,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss10\\e51001.anim"
+    "relativePath": "ImagesBundle\\boss\\boss10\\e51001.anim"
   },
   "790fab51-a6f6-4972-bfc5-f8403758b2da": {
     "asset": 1690959951131,
     "meta": 1690960926410,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss10\\e51010.anim"
+    "relativePath": "ImagesBundle\\boss\\boss10\\e51010.anim"
   },
   "3c024c6c-7727-4ae2-bffe-9bcc67e4e9b1": {
     "asset": 1690959951647,
     "meta": 1690960926410,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss10\\e51011.anim"
+    "relativePath": "ImagesBundle\\boss\\boss10\\e51011.anim"
   },
   "b6c259c3-6288-4c94-853a-1e2b5673ec6a": {
     "asset": 1690960728078,
@@ -7057,37 +7047,37 @@
   "c23b70a5-cf46-4014-9a7d-24924314d95e": {
     "asset": 1690959963511,
     "meta": 1690960929995,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss4\\boss4.plist"
+    "relativePath": "ImagesBundle\\boss\\boss4\\boss4.plist"
   },
   "b4da7667-ac53-4c7e-af75-5f65d0b7595b": {
     "asset": 1690959952132,
     "meta": 1690960926410,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss10\\e51012.anim"
+    "relativePath": "ImagesBundle\\boss\\boss10\\e51012.anim"
   },
   "51e817f1-8f8c-4fed-bb82-2e70c6797bb9": {
     "asset": 1690959957619,
     "meta": 1690960926410,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss2\\boss_shield_2.prefab"
+    "relativePath": "ImagesBundle\\boss\\boss2\\boss_shield_2.prefab"
   },
   "ab92f015-4553-49a5-b66f-0f5989935ce3": {
     "asset": 1690959958135,
     "meta": 1690960926410,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss2\\e50201.anim"
+    "relativePath": "ImagesBundle\\boss\\boss2\\e50201.anim"
   },
   "deb2841e-20b6-4a5f-a6ed-7cb98a502f1d": {
     "asset": 1690959959120,
     "meta": 1690960926426,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss2\\e50211.anim"
+    "relativePath": "ImagesBundle\\boss\\boss2\\e50211.anim"
   },
   "00c9e520-3fdc-4273-9752-cc59fddb92d7": {
     "asset": 1690959958588,
     "meta": 1690960926410,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss2\\e50202.anim"
+    "relativePath": "ImagesBundle\\boss\\boss2\\e50202.anim"
   },
   "4a978352-9666-4986-b9ee-f07441c26aeb": {
     "asset": 1690959959589,
     "meta": 1690960926426,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss2\\e50212.anim"
+    "relativePath": "ImagesBundle\\boss\\boss2\\e50212.anim"
   },
   "5dcfaf09-567a-462a-b1c2-17fbc15bc254": {
     "asset": 1690960712649,
@@ -7102,22 +7092,22 @@
   "42f80a7b-39af-40b3-a909-53fdf4aab9cb": {
     "asset": 1690959960073,
     "meta": 1690960926426,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss2\\ground.prefab"
+    "relativePath": "ImagesBundle\\boss\\boss2\\ground.prefab"
   },
   "31463138-228a-4da5-95bc-c35458f54a79": {
     "asset": 1690959968059,
     "meta": 1690960930010,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss5\\boss5.plist"
+    "relativePath": "ImagesBundle\\boss\\boss5\\boss5.plist"
   },
   "3aa39e45-5652-4f64-abc1-8c2fc6843793": {
     "asset": 1690959954040,
     "meta": 1690960926442,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss1\\Boss6_AttackTail.png"
+    "relativePath": "ImagesBundle\\boss\\boss1\\Boss6_AttackTail.png"
   },
   "fc29311d-5669-4131-a164-0133a8dae644": {
     "asset": 1690959954525,
     "meta": 1690960926442,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss1\\Boss6_SkillTail.png"
+    "relativePath": "ImagesBundle\\boss\\boss1\\Boss6_SkillTail.png"
   },
   "1a546114-735f-45f4-a8be-0a695d8b5584": {
     "asset": 1690960724322,
@@ -7127,37 +7117,37 @@
   "723fa2ad-e047-45a4-9a92-b68236a26582": {
     "asset": 1690959961839,
     "meta": 1690960926426,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss3\\e50302.anim"
+    "relativePath": "ImagesBundle\\boss\\boss3\\e50302.anim"
   },
   "f1be501c-5e11-4913-919f-ef7092e84a25": {
     "asset": 1690959962323,
     "meta": 1690960926426,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss3\\e50312.anim"
+    "relativePath": "ImagesBundle\\boss\\boss3\\e50312.anim"
   },
   "17c656fa-cad0-4d51-b31b-715ebc8dfef4": {
     "asset": 1690959962808,
     "meta": 1690960926426,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss3\\e50323.anim"
+    "relativePath": "ImagesBundle\\boss\\boss3\\e50323.anim"
   },
   "d1c290c4-48b9-4195-8df1-fa1b35c8efdc": {
     "asset": 1690959965464,
     "meta": 1690960926426,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss4\\elr.anim"
+    "relativePath": "ImagesBundle\\boss\\boss4\\elr.anim"
   },
   "86fa878b-4d8a-4978-a83d-fa68148cb078": {
     "asset": 1690959964495,
     "meta": 1690960926426,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss4\\e50401.anim"
+    "relativePath": "ImagesBundle\\boss\\boss4\\e50401.anim"
   },
   "fa1c809f-f479-4411-b41c-b9d66e0a6322": {
     "asset": 1690959964980,
     "meta": 1690960926426,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss4\\e50411.anim"
+    "relativePath": "ImagesBundle\\boss\\boss4\\e50411.anim"
   },
   "3e5e6998-b21f-4c84-a4d2-e510216c20fd": {
     "asset": 1690959970700,
     "meta": 1690960930010,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss6\\boss6.plist"
+    "relativePath": "ImagesBundle\\boss\\boss6\\boss6.plist"
   },
   "33e17d7a-788c-4518-a296-36f1f18171a0": {
     "asset": 1690960728556,
@@ -7167,187 +7157,187 @@
   "c1c363e0-2fbb-4f4d-972f-4220ff2a0049": {
     "asset": 1690959969012,
     "meta": 1690960926442,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss5\\e50501.anim"
+    "relativePath": "ImagesBundle\\boss\\boss5\\e50501.anim"
   },
   "8071b7d3-eeed-4862-bbcf-37e2c28c30bd": {
     "asset": 1690959974701,
     "meta": 1690960930010,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss7\\boss7.plist"
+    "relativePath": "ImagesBundle\\boss\\boss7\\boss7.plist"
   },
   "41bcb38e-a7bc-42ef-8a36-eb9377ce1c99": {
     "asset": 1690959969465,
     "meta": 1690960926442,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss5\\e50511.anim"
+    "relativePath": "ImagesBundle\\boss\\boss5\\e50511.anim"
   },
   "8576f92f-c11e-43d9-8630-ea89c0ecebb4": {
     "asset": 1690959969965,
     "meta": 1690960926442,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss5\\e50512.anim"
+    "relativePath": "ImagesBundle\\boss\\boss5\\e50512.anim"
   },
   "9209e192-766a-4127-8d6f-bd1d289e9428": {
     "asset": 1690959972090,
     "meta": 1690960926442,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss6\\e50601.anim"
+    "relativePath": "ImagesBundle\\boss\\boss6\\e50601.anim"
   },
   "04f5ba36-44ff-4c98-8756-08a6689a4cf2": {
     "asset": 1690959972576,
     "meta": 1690960926442,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss6\\e50602.anim"
+    "relativePath": "ImagesBundle\\boss\\boss6\\e50602.anim"
   },
   "4c41b85c-a7e8-41b6-9b49-8435960284a6": {
     "asset": 1690959973029,
     "meta": 1690960926442,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss6\\e50612.anim"
+    "relativePath": "ImagesBundle\\boss\\boss6\\e50612.anim"
   },
   "251d2f89-1a40-4b9b-b70a-d9985b773d67": {
     "asset": 1690959973545,
     "meta": 1690960926442,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss6\\tuowei.prefab"
+    "relativePath": "ImagesBundle\\boss\\boss6\\tuowei.prefab"
   },
   "06b41c8c-8603-4a9e-ac6f-c72c008075d5": {
     "asset": 1690959977926,
     "meta": 1690960930026,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss8\\boss8.plist"
+    "relativePath": "ImagesBundle\\boss\\boss8\\boss8.plist"
   },
   "0676949e-cc4f-4e98-aad1-a72242c04f2b": {
     "asset": 1690959975655,
     "meta": 1690960926457,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss7\\boss7_buff.prefab"
+    "relativePath": "ImagesBundle\\boss\\boss7\\boss7_buff.prefab"
   },
   "bfd11829-8668-4c38-988d-65543a133ad0": {
     "asset": 1690959966647,
     "meta": 1690960926442,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss5\\Boss10_Skill2_ZhaoHuan.atlas"
+    "relativePath": "ImagesBundle\\boss\\boss5\\Boss10_Skill2_ZhaoHuan.atlas"
   },
   "42609285-effe-470d-9fcb-1eb3c142a75d": {
     "asset": 1690959981779,
     "meta": 1690960930046,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss9\\boss9.plist"
+    "relativePath": "ImagesBundle\\boss\\boss9\\boss9.plist"
   },
   "7bd353dd-d6d8-4220-a937-d58a9163c485": {
     "asset": 1690959976204,
     "meta": 1690960926457,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss7\\e50702.anim"
+    "relativePath": "ImagesBundle\\boss\\boss7\\e50702.anim"
   },
   "178a6140-eb0c-45c9-b475-16653cea967c": {
     "asset": 1690959976674,
     "meta": 1690960926457,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss7\\e50712.anim"
+    "relativePath": "ImagesBundle\\boss\\boss7\\e50712.anim"
   },
   "ad2c49c4-9c54-41a5-b22a-5909bd99a99a": {
     "asset": 1690959977146,
     "meta": 1690960926457,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss7\\tuowei.prefab"
+    "relativePath": "ImagesBundle\\boss\\boss7\\tuowei.prefab"
   },
   "cc35703a-6a17-44cc-b100-3c5b26917a13": {
     "asset": 1690959978851,
     "meta": 1690960926457,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss8\\e50801.anim"
+    "relativePath": "ImagesBundle\\boss\\boss8\\e50801.anim"
   },
   "60fc4f6f-490b-484f-b1ea-3b0e3fa0ec9f": {
     "asset": 1690959979304,
     "meta": 1690960926457,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss8\\e50802.anim"
+    "relativePath": "ImagesBundle\\boss\\boss8\\e50802.anim"
   },
   "c9fe5aaa-9c4d-4564-969f-d151215c5649": {
     "asset": 1690959979785,
     "meta": 1690960926457,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss8\\e50811.anim"
+    "relativePath": "ImagesBundle\\boss\\boss8\\e50811.anim"
   },
   "497e516c-812b-400b-b4f0-69016f1f587a": {
     "asset": 1690959980870,
     "meta": 1690960926473,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss9\\50931.prefab"
+    "relativePath": "ImagesBundle\\boss\\boss9\\50931.prefab"
   },
   "21ff4353-0820-40d1-b57e-9b3bae043e26": {
     "asset": 1690959980197,
     "meta": 1690960926473,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss8\\e50812.anim"
+    "relativePath": "ImagesBundle\\boss\\boss8\\e50812.anim"
   },
   "e26fee14-6351-44a3-b274-9c9367c4f58d": {
     "asset": 1690960027655,
     "meta": 1690960930058,
-    "relativePath": "resourcesBundle\\Images\\hero\\a_nu_bi_si\\a_nu_bi_si.plist"
+    "relativePath": "ImagesBundle\\hero\\a_nu_bi_si\\a_nu_bi_si.plist"
   },
   "96dd41c3-3dea-4a3c-9fd3-b7247e8ec22b": {
     "asset": 1690959982704,
     "meta": 1690960926473,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss9\\e50902.anim"
+    "relativePath": "ImagesBundle\\boss\\boss9\\e50902.anim"
   },
   "c404f009-ac0d-4f0a-ac79-78efde96290f": {
     "asset": 1690959983193,
     "meta": 1690960926473,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss9\\e50911.anim"
+    "relativePath": "ImagesBundle\\boss\\boss9\\e50911.anim"
   },
   "00e1c2fb-a347-4098-b449-b6294557b75f": {
     "asset": 1690959983693,
     "meta": 1690960926473,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss9\\e50921.anim"
+    "relativePath": "ImagesBundle\\boss\\boss9\\e50921.anim"
   },
   "ae820427-1f07-434c-ad6d-910d6f3d2602": {
     "asset": 1690959984131,
     "meta": 1690960926473,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss9\\e50931.anim"
+    "relativePath": "ImagesBundle\\boss\\boss9\\e50931.anim"
   },
   "c9abb38a-778c-4ae0-bffa-08f7ce092499": {
     "asset": 1690959984537,
     "meta": 1690960926488,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss9\\e50932.anim"
+    "relativePath": "ImagesBundle\\boss\\boss9\\e50932.anim"
   },
   "fc808a45-3104-4f6d-8f6d-e4e334e9ea84": {
     "asset": 1690959984997,
     "meta": 1690960926488,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss9\\tuowei.prefab"
+    "relativePath": "ImagesBundle\\boss\\boss9\\tuowei.prefab"
   },
   "7b53c2e0-db0f-4929-871a-614cb6db2559": {
     "asset": 1690960028624,
     "meta": 1690960926488,
-    "relativePath": "resourcesBundle\\Images\\hero\\a_nu_bi_si\\e1002.anim"
+    "relativePath": "ImagesBundle\\hero\\a_nu_bi_si\\e1002.anim"
   },
   "36502f1b-3f65-4119-a77e-6c7d1efc3865": {
     "asset": 1690959965933,
     "meta": 1690960926473,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss4\\FX_Kuangbao.png"
+    "relativePath": "ImagesBundle\\boss\\boss4\\FX_Kuangbao.png"
   },
   "af61e0e1-df0a-4dab-bb61-f44f03bcd54e": {
     "asset": 1690959967574,
     "meta": 1690960926488,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss5\\Boss10_Skill2_ZhaoHuan.png"
+    "relativePath": "ImagesBundle\\boss\\boss5\\Boss10_Skill2_ZhaoHuan.png"
   },
   "3d233f94-056f-4697-a8d8-d0fc3c89d013": {
     "asset": 1690959971653,
     "meta": 1690960926488,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss6\\Boss6_SkillTail.png"
+    "relativePath": "ImagesBundle\\boss\\boss6\\Boss6_SkillTail.png"
   },
   "c9425f3d-1a10-4d58-ada5-89a73c0b8c49": {
     "asset": 1690960031641,
     "meta": 1690960930058,
-    "relativePath": "resourcesBundle\\Images\\hero\\bing_nv\\bing_nv.plist"
+    "relativePath": "ImagesBundle\\hero\\bing_nv\\bing_nv.plist"
   },
   "b4200689-cde7-42a6-8b1a-d8852bb048cf": {
     "asset": 1690960029187,
     "meta": 1690960926488,
-    "relativePath": "resourcesBundle\\Images\\hero\\a_nu_bi_si\\e1011.anim"
+    "relativePath": "ImagesBundle\\hero\\a_nu_bi_si\\e1011.anim"
   },
   "aec3231a-a7c1-4be8-9bcd-b6a08ffe24fd": {
     "asset": 1690960029640,
     "meta": 1690960926488,
-    "relativePath": "resourcesBundle\\Images\\hero\\a_nu_bi_si\\e1012.anim"
+    "relativePath": "ImagesBundle\\hero\\a_nu_bi_si\\e1012.anim"
   },
   "2f124999-fdc1-43e7-84ab-1e863e6b57b3": {
     "asset": 1690959953587,
     "meta": 1690960926442,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss1\\boss1.png"
+    "relativePath": "ImagesBundle\\boss\\boss1\\boss1.png"
   },
   "08b3f94b-6dfb-4b3b-89e8-4f276374c759": {
     "asset": 1690960030047,
     "meta": 1690960926488,
-    "relativePath": "resourcesBundle\\Images\\hero\\a_nu_bi_si\\e1021.anim"
+    "relativePath": "ImagesBundle\\hero\\a_nu_bi_si\\e1021.anim"
   },
   "0493c171-fd6e-49e8-a67f-52af11a78991": {
     "asset": 1690959974232,
     "meta": 1690960926488,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss7\\Boss12_AttackTrail.png"
+    "relativePath": "ImagesBundle\\boss\\boss7\\Boss12_AttackTrail.png"
   },
   "e5eab9e9-2806-4d9c-9680-b2f5478e625f": {
     "asset": 1690960730125,
@@ -7357,1272 +7347,1272 @@
   "63afb8b3-69b8-46dd-849d-c9f98d4ca8cf": {
     "asset": 1690960030500,
     "meta": 1690960926488,
-    "relativePath": "resourcesBundle\\Images\\hero\\a_nu_bi_si\\e1022.anim"
+    "relativePath": "ImagesBundle\\hero\\a_nu_bi_si\\e1022.anim"
   },
   "739128d3-802b-4953-9a29-1e80b57f9365": {
     "asset": 1690960030969,
     "meta": 1690960926488,
-    "relativePath": "resourcesBundle\\Images\\hero\\a_nu_bi_si\\e1024.anim"
+    "relativePath": "ImagesBundle\\hero\\a_nu_bi_si\\e1024.anim"
   },
   "a15cacd6-34ae-4bfe-929f-0667c1d78e88": {
     "asset": 1690959971200,
     "meta": 1690960926473,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss6\\boss6.png"
+    "relativePath": "ImagesBundle\\boss\\boss6\\boss6.png"
   },
   "8289e203-9d8e-4aff-bef5-a2d9d6560bf0": {
     "asset": 1690960037140,
     "meta": 1690960930073,
-    "relativePath": "resourcesBundle\\Images\\hero\\changmao_shou\\chang_mao_shou.plist"
+    "relativePath": "ImagesBundle\\hero\\changmao_shou\\chang_mao_shou.plist"
   },
   "b561f043-2e00-475b-9591-2862890fc5d4": {
     "asset": 1690960034625,
     "meta": 1690960926488,
-    "relativePath": "resourcesBundle\\Images\\hero\\bing_nv\\e902.anim"
+    "relativePath": "ImagesBundle\\hero\\bing_nv\\e902.anim"
   },
   "70ebf593-6add-405b-8a43-92094ab0f13f": {
     "asset": 1690960035125,
     "meta": 1690960926488,
-    "relativePath": "resourcesBundle\\Images\\hero\\bing_nv\\e910.anim"
+    "relativePath": "ImagesBundle\\hero\\bing_nv\\e910.anim"
   },
   "7573477d-fdeb-4b2b-a528-5cfb7a79e5eb": {
     "asset": 1690960035562,
     "meta": 1690960926504,
-    "relativePath": "resourcesBundle\\Images\\hero\\bing_nv\\e912.anim"
+    "relativePath": "ImagesBundle\\hero\\bing_nv\\e912.anim"
   },
   "ac0bff62-00a4-4db3-897e-6959767cd48d": {
     "asset": 1690960040577,
     "meta": 1690960930073,
-    "relativePath": "resourcesBundle\\Images\\hero\\kuang_zhan_shi\\kuang_zhan_shi.plist"
+    "relativePath": "ImagesBundle\\hero\\kuang_zhan_shi\\kuang_zhan_shi.plist"
   },
   "69ddee53-8772-4ea6-a4be-3e32cae665e3": {
     "asset": 1690960036031,
     "meta": 1690960926504,
-    "relativePath": "resourcesBundle\\Images\\hero\\bing_nv\\e913.anim"
+    "relativePath": "ImagesBundle\\hero\\bing_nv\\e913.anim"
   },
   "2ee917ee-7c76-4fb8-b863-b8078a0b169f": {
     "asset": 1690960036453,
     "meta": 1690960926504,
-    "relativePath": "resourcesBundle\\Images\\hero\\bing_nv\\tuowei.prefab"
+    "relativePath": "ImagesBundle\\hero\\bing_nv\\tuowei.prefab"
   },
   "21621a39-02f9-4409-bd96-c92b07cc2b97": {
     "asset": 1690959981309,
     "meta": 1690960926520,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss9\\Boss14_AttackTrail.png"
+    "relativePath": "ImagesBundle\\boss\\boss9\\Boss14_AttackTrail.png"
   },
   "78cabfb6-f66d-4e19-ad76-b87a7774de14": {
     "asset": 1690959967074,
     "meta": 1690960930073,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss5\\Boss10_Skill2_ZhaoHuan.json"
+    "relativePath": "ImagesBundle\\boss\\boss5\\Boss10_Skill2_ZhaoHuan.json"
   },
   "05a6a040-061f-44f7-99d4-6565db20fd82": {
     "asset": 1690960038031,
     "meta": 1690960926504,
-    "relativePath": "resourcesBundle\\Images\\hero\\changmao_shou\\e811.anim"
+    "relativePath": "ImagesBundle\\hero\\changmao_shou\\e811.anim"
   },
   "cdf01d8a-3ae8-43f3-82f0-8082bc961faa": {
     "asset": 1690960039687,
     "meta": 1690960926504,
-    "relativePath": "resourcesBundle\\Images\\hero\\kuang_zhan_shi\\e502.anim"
+    "relativePath": "ImagesBundle\\hero\\kuang_zhan_shi\\e502.anim"
   },
   "6592d1e3-4f48-487b-a241-083fa006998d": {
     "asset": 1690960038499,
     "meta": 1690960926504,
-    "relativePath": "resourcesBundle\\Images\\hero\\changmao_shou\\e812.anim"
+    "relativePath": "ImagesBundle\\hero\\changmao_shou\\e812.anim"
   },
   "4085dbcf-2028-4bb3-a230-fc6ee6fc2c81": {
     "asset": 1690960040140,
     "meta": 1690960926504,
-    "relativePath": "resourcesBundle\\Images\\hero\\kuang_zhan_shi\\e503.anim"
+    "relativePath": "ImagesBundle\\hero\\kuang_zhan_shi\\e503.anim"
   },
   "e57e4efa-d3c7-4224-8085-2d47e764ded3": {
     "asset": 1690960033187,
     "meta": 1690960926520,
-    "relativePath": "resourcesBundle\\Images\\hero\\bing_nv\\BingQiang.atlas"
+    "relativePath": "ImagesBundle\\hero\\bing_nv\\BingQiang.atlas"
   },
   "f097c030-cac9-4ec7-ab8b-a2318fd24548": {
     "asset": 1690959949740,
     "meta": 1690960926457,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss10\\boss10.png"
+    "relativePath": "ImagesBundle\\boss\\boss10\\boss10.png"
   },
   "403b9f3e-c975-4295-b5cd-e0f809fe4279": {
     "asset": 1690959975185,
     "meta": 1690960926504,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss7\\boss7.png"
+    "relativePath": "ImagesBundle\\boss\\boss7\\boss7.png"
   },
   "68b1c0d2-e527-46ac-97d2-680501e13fc8": {
     "asset": 1690960041733,
     "meta": 1690960926504,
-    "relativePath": "resourcesBundle\\Images\\hero\\lei_shen\\e1201.anim"
+    "relativePath": "ImagesBundle\\hero\\lei_shen\\e1201.anim"
   },
   "25b91841-6480-4a55-af85-c2766f4efb03": {
     "asset": 1690960042171,
     "meta": 1690960926520,
-    "relativePath": "resourcesBundle\\Images\\hero\\lei_shen\\e1202.anim"
+    "relativePath": "ImagesBundle\\hero\\lei_shen\\e1202.anim"
   },
   "fa8615fe-d538-4d56-aa79-32e80c284eb1": {
     "asset": 1690960043585,
     "meta": 1690960930089,
-    "relativePath": "resourcesBundle\\Images\\hero\\lei_shen\\lei_shen.plist"
+    "relativePath": "ImagesBundle\\hero\\lei_shen\\lei_shen.plist"
   },
   "c8e39c31-0e58-4dc0-8fef-025e38afe178": {
     "asset": 1690960042640,
     "meta": 1690960926520,
-    "relativePath": "resourcesBundle\\Images\\hero\\lei_shen\\e1211.anim"
+    "relativePath": "ImagesBundle\\hero\\lei_shen\\e1211.anim"
   },
   "6af34bf4-cd63-48dd-9bbb-cda56fc62ce5": {
     "asset": 1690960043094,
     "meta": 1690960926520,
-    "relativePath": "resourcesBundle\\Images\\hero\\lei_shen\\e1212.anim"
+    "relativePath": "ImagesBundle\\hero\\lei_shen\\e1212.anim"
   },
   "13e8924a-9bd7-42d2-ba18-9624f18f063a": {
     "asset": 1690959963980,
     "meta": 1690960926473,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss4\\boss4.png"
+    "relativePath": "ImagesBundle\\boss\\boss4\\boss4.png"
   },
   "9e5caf72-927a-41b6-858d-c2b7c253518e": {
     "asset": 1690960048389,
     "meta": 1690960930105,
-    "relativePath": "resourcesBundle\\Images\\hero\\mei_mo\\mei_mo.plist"
+    "relativePath": "ImagesBundle\\hero\\mei_mo\\mei_mo.plist"
   },
   "260a54bd-b696-4f40-b9eb-e13e668ea00c": {
     "asset": 1690960032641,
     "meta": 1690960926535,
-    "relativePath": "resourcesBundle\\Images\\hero\\bing_nv\\BingNv_Passive2.png"
+    "relativePath": "ImagesBundle\\hero\\bing_nv\\BingNv_Passive2.png"
   },
   "cb5035b0-ef80-4b0a-bcfe-7e81192e1957": {
     "asset": 1690960045606,
     "meta": 1690960926520,
-    "relativePath": "resourcesBundle\\Images\\hero\\mei_mo\\e1112.anim"
+    "relativePath": "ImagesBundle\\hero\\mei_mo\\e1112.anim"
   },
   "a50e06c3-c899-4367-9152-194d25e3e32f": {
     "asset": 1690960050935,
     "meta": 1690960930105,
-    "relativePath": "resourcesBundle\\Images\\hero\\nv_wu\\nv_wu.plist"
+    "relativePath": "ImagesBundle\\hero\\nv_wu\\nv_wu.plist"
   },
   "245e8f93-7f61-44e4-80e9-551364c4ccee": {
     "asset": 1690960044700,
     "meta": 1690960926520,
-    "relativePath": "resourcesBundle\\Images\\hero\\mei_mo\\e1102.anim"
+    "relativePath": "ImagesBundle\\hero\\mei_mo\\e1102.anim"
   },
   "18d19cb8-bcba-4a82-9f6f-76204c91598b": {
     "asset": 1690960045153,
     "meta": 1690960926520,
-    "relativePath": "resourcesBundle\\Images\\hero\\mei_mo\\e1111.anim"
+    "relativePath": "ImagesBundle\\hero\\mei_mo\\e1111.anim"
   },
   "1cbcb28e-9274-4f83-93af-2774258444f0": {
     "asset": 1690960046059,
     "meta": 1690960926520,
-    "relativePath": "resourcesBundle\\Images\\hero\\mei_mo\\e1113.anim"
+    "relativePath": "ImagesBundle\\hero\\mei_mo\\e1113.anim"
   },
   "f95d8f8d-ea0f-4258-bbab-d2ffdefb9dbd": {
     "asset": 1690960046528,
     "meta": 1690960926520,
-    "relativePath": "resourcesBundle\\Images\\hero\\mei_mo\\e1121.anim"
+    "relativePath": "ImagesBundle\\hero\\mei_mo\\e1121.anim"
   },
   "9a4650d4-d026-434f-9370-6d90e3336276": {
     "asset": 1690960047014,
     "meta": 1690960926535,
-    "relativePath": "resourcesBundle\\Images\\hero\\mei_mo\\e1122.anim"
+    "relativePath": "ImagesBundle\\hero\\mei_mo\\e1122.anim"
   },
   "8fc4b5bd-6538-4ac4-a135-9c791dcac877": {
     "asset": 1690960033672,
     "meta": 1690960930120,
-    "relativePath": "resourcesBundle\\Images\\hero\\bing_nv\\BingQiang.json"
+    "relativePath": "ImagesBundle\\hero\\bing_nv\\BingQiang.json"
   },
   "8932c782-c694-43bb-95b0-0e4c411b4b2e": {
     "asset": 1690960054325,
     "meta": 1690960930136,
-    "relativePath": "resourcesBundle\\Images\\hero\\pao_shou\\pao_shou.plist"
+    "relativePath": "ImagesBundle\\hero\\pao_shou\\pao_shou.plist"
   },
   "47858596-d955-4ed8-9335-58f530efbe03": {
     "asset": 1690960047483,
     "meta": 1690960926535,
-    "relativePath": "resourcesBundle\\Images\\hero\\mei_mo\\e1123.anim"
+    "relativePath": "ImagesBundle\\hero\\mei_mo\\e1123.anim"
   },
   "c8fc2c04-fac6-4930-8c0e-0fecf28d4345": {
     "asset": 1690960047968,
     "meta": 1690960926535,
-    "relativePath": "resourcesBundle\\Images\\hero\\mei_mo\\e1124.anim"
+    "relativePath": "ImagesBundle\\hero\\mei_mo\\e1124.anim"
   },
   "499f4ea0-ee2e-4453-89b9-58d636f09472": {
     "asset": 1690959978396,
     "meta": 1690960926504,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss8\\boss8.png"
+    "relativePath": "ImagesBundle\\boss\\boss8\\boss8.png"
   },
   "dfc4b4fe-b949-4d92-9131-b0086d5e081f": {
     "asset": 1690960049586,
     "meta": 1690960926535,
-    "relativePath": "resourcesBundle\\Images\\hero\\nv_wu\\e301.anim"
+    "relativePath": "ImagesBundle\\hero\\nv_wu\\e301.anim"
   },
   "3ab5b41c-4ecf-4143-bb81-87a38a5fec4c": {
     "asset": 1690960050023,
     "meta": 1690960926535,
-    "relativePath": "resourcesBundle\\Images\\hero\\nv_wu\\e302.anim"
+    "relativePath": "ImagesBundle\\hero\\nv_wu\\e302.anim"
   },
   "69714978-bb6f-470a-9afb-45161581b00e": {
     "asset": 1690960050461,
     "meta": 1690960926535,
-    "relativePath": "resourcesBundle\\Images\\hero\\nv_wu\\e311.anim"
+    "relativePath": "ImagesBundle\\hero\\nv_wu\\e311.anim"
   },
   "e3e420a9-51ee-42c4-8483-e2bf896748af": {
     "asset": 1690960037593,
     "meta": 1690960926535,
-    "relativePath": "resourcesBundle\\Images\\hero\\changmao_shou\\chang_mao_shou.png"
+    "relativePath": "ImagesBundle\\hero\\changmao_shou\\chang_mao_shou.png"
   },
   "2da1f859-1ac3-4d92-87c2-4658f2bed739": {
     "asset": 1690960052135,
     "meta": 1690960926551,
-    "relativePath": "resourcesBundle\\Images\\hero\\pao_shou\\e203.anim"
+    "relativePath": "ImagesBundle\\hero\\pao_shou\\e203.anim"
   },
   "615abe4e-00be-495c-9062-1427b4ca3ff7": {
     "asset": 1690960052558,
     "meta": 1690960926551,
-    "relativePath": "resourcesBundle\\Images\\hero\\pao_shou\\e221.anim"
+    "relativePath": "ImagesBundle\\hero\\pao_shou\\e221.anim"
   },
   "9dc542c0-c3fb-428a-bb3f-0c0d69f1a8cd": {
     "asset": 1690960052995,
     "meta": 1690960926551,
-    "relativePath": "resourcesBundle\\Images\\hero\\pao_shou\\e241.anim"
+    "relativePath": "ImagesBundle\\hero\\pao_shou\\e241.anim"
   },
   "36d14239-9c7a-4eaa-a458-87aa26fdc067": {
     "asset": 1690960041046,
     "meta": 1690960926551,
-    "relativePath": "resourcesBundle\\Images\\hero\\kuang_zhan_shi\\kuang_zhan_shi.png"
+    "relativePath": "ImagesBundle\\hero\\kuang_zhan_shi\\kuang_zhan_shi.png"
   },
   "5fd13fba-3a18-4121-9d04-178be5dd069d": {
     "asset": 1690960053440,
     "meta": 1690960926551,
-    "relativePath": "resourcesBundle\\Images\\hero\\pao_shou\\e242.anim"
+    "relativePath": "ImagesBundle\\hero\\pao_shou\\e242.anim"
   },
   "7e726f41-915e-4c55-a9d9-9de500b5eaba": {
     "asset": 1690960059032,
     "meta": 1690960930136,
-    "relativePath": "resourcesBundle\\Images\\hero\\ren_zhe\\ren_zhe.plist"
+    "relativePath": "ImagesBundle\\hero\\ren_zhe\\ren_zhe.plist"
   },
   "1f319577-378e-406c-a535-a70779938c1c": {
     "asset": 1690960055230,
     "meta": 1690960926551,
-    "relativePath": "resourcesBundle\\Images\\hero\\pao_shou\\tuowei_1.prefab"
+    "relativePath": "ImagesBundle\\hero\\pao_shou\\tuowei_1.prefab"
   },
   "32e4f5fd-aebf-40e7-8596-557c958cab2d": {
     "asset": 1690960055692,
     "meta": 1690960926551,
-    "relativePath": "resourcesBundle\\Images\\hero\\pao_shou\\tuowei_2.prefab"
+    "relativePath": "ImagesBundle\\hero\\pao_shou\\tuowei_2.prefab"
   },
   "e250de23-708d-486c-b91a-c4e56db67eaf": {
     "asset": 1690960056380,
     "meta": 1690960926551,
-    "relativePath": "resourcesBundle\\Images\\hero\\ren_zhe\\active_tuowei1.prefab"
+    "relativePath": "ImagesBundle\\hero\\ren_zhe\\active_tuowei1.prefab"
   },
   "577252f4-8be2-43e6-a516-8ddda56c4b22": {
     "asset": 1690960057256,
     "meta": 1690960926551,
-    "relativePath": "resourcesBundle\\Images\\hero\\ren_zhe\\e421.anim"
+    "relativePath": "ImagesBundle\\hero\\ren_zhe\\e421.anim"
   },
   "1a27a208-ce8e-4a37-ba1b-2a979bd717cc": {
     "asset": 1690960056802,
     "meta": 1690960926551,
-    "relativePath": "resourcesBundle\\Images\\hero\\ren_zhe\\e411.anim"
+    "relativePath": "ImagesBundle\\hero\\ren_zhe\\e411.anim"
   },
   "146fd030-8df1-41ff-850a-2343295a3e44": {
     "asset": 1690960057710,
     "meta": 1690960926567,
-    "relativePath": "resourcesBundle\\Images\\hero\\ren_zhe\\feibiao_att_hit.anim"
+    "relativePath": "ImagesBundle\\hero\\ren_zhe\\feibiao_att_hit.anim"
   },
   "adc97e9c-6e2a-41f8-8b4e-54cbc2146f25": {
     "asset": 1690960060160,
     "meta": 1690960926567,
-    "relativePath": "resourcesBundle\\Images\\hero\\sheshou\\e103.anim"
+    "relativePath": "ImagesBundle\\hero\\sheshou\\e103.anim"
   },
   "1f28d6d8-43dc-43ba-ac57-2811344ad0cb": {
     "asset": 1690960060615,
     "meta": 1690960926567,
-    "relativePath": "resourcesBundle\\Images\\hero\\sheshou\\e121.anim"
+    "relativePath": "ImagesBundle\\hero\\sheshou\\e121.anim"
   },
   "79186e83-ae93-4473-a128-90f54e424f82": {
     "asset": 1690960062196,
     "meta": 1690960926567,
-    "relativePath": "resourcesBundle\\Images\\hero\\shou_wang\\e703.anim"
+    "relativePath": "ImagesBundle\\hero\\shou_wang\\e703.anim"
   },
   "6802ec01-aa44-4b1b-ac9a-03ebd9a3499f": {
     "asset": 1690960061054,
     "meta": 1690960930152,
-    "relativePath": "resourcesBundle\\Images\\hero\\sheshou\\she_shou.plist"
+    "relativePath": "ImagesBundle\\hero\\sheshou\\she_shou.plist"
   },
   "5d354bef-77f7-4e10-acbf-f9e40ebabf04": {
     "asset": 1690960065052,
     "meta": 1690960926567,
-    "relativePath": "resourcesBundle\\Images\\hero\\wu_nv\\e405.anim"
+    "relativePath": "ImagesBundle\\hero\\wu_nv\\e405.anim"
   },
   "d5780136-63fa-40e5-8ceb-f8b79e0e1c98": {
     "asset": 1690960065506,
     "meta": 1690960926567,
-    "relativePath": "resourcesBundle\\Images\\hero\\wu_nv\\e502.anim"
+    "relativePath": "ImagesBundle\\hero\\wu_nv\\e502.anim"
   },
   "780d93ea-891c-43ff-8e90-00837611ff65": {
     "asset": 1690960065974,
     "meta": 1690960926582,
-    "relativePath": "resourcesBundle\\Images\\hero\\wu_nv\\e503.anim"
+    "relativePath": "ImagesBundle\\hero\\wu_nv\\e503.anim"
   },
   "2be0d149-9fc4-41b1-b4f2-c55f94d460ed": {
     "asset": 1690960068193,
     "meta": 1690960930152,
-    "relativePath": "resourcesBundle\\Images\\hero\\wu_nv\\wu_nv.plist"
+    "relativePath": "ImagesBundle\\hero\\wu_nv\\wu_nv.plist"
   },
   "48587ee9-ccbf-4a18-9d3c-5e98f11d5c26": {
     "asset": 1690960066459,
     "meta": 1690960926567,
-    "relativePath": "resourcesBundle\\Images\\hero\\wu_nv\\e504.anim"
+    "relativePath": "ImagesBundle\\hero\\wu_nv\\e504.anim"
   },
   "6c16a123-791f-4633-9c4d-366b2e07f462": {
     "asset": 1690960066912,
     "meta": 1690960926582,
-    "relativePath": "resourcesBundle\\Images\\hero\\wu_nv\\e511.anim"
+    "relativePath": "ImagesBundle\\hero\\wu_nv\\e511.anim"
   },
   "e952aa68-d4c4-42e7-b21b-8708993e42ce": {
     "asset": 1690960069146,
     "meta": 1690960926598,
-    "relativePath": "resourcesBundle\\Images\\hero\\wu_nv\\wunv_tuowei.prefab"
+    "relativePath": "ImagesBundle\\hero\\wu_nv\\wunv_tuowei.prefab"
   },
   "44157119-eb1f-4f98-96ad-9cc7f47a2530": {
     "asset": 1690960067365,
     "meta": 1690960926582,
-    "relativePath": "resourcesBundle\\Images\\hero\\wu_nv\\e512.anim"
+    "relativePath": "ImagesBundle\\hero\\wu_nv\\e512.anim"
   },
   "68db0851-1202-464b-a85b-24ab09a97f09": {
     "asset": 1690960053871,
     "meta": 1690960926598,
-    "relativePath": "resourcesBundle\\Images\\hero\\pao_shou\\Gunner_Tail.png"
+    "relativePath": "ImagesBundle\\hero\\pao_shou\\Gunner_Tail.png"
   },
   "0f18ebf9-5a91-4ddc-b687-01218b4fe118": {
     "asset": 1690960070255,
     "meta": 1690960926598,
-    "relativePath": "resourcesBundle\\Images\\hero\\zhen_de\\e611.anim"
+    "relativePath": "ImagesBundle\\hero\\zhen_de\\e611.anim"
   },
   "2fc04049-9e00-4dc1-936f-65fe90dd9c66": {
     "asset": 1690960069818,
     "meta": 1690960926598,
-    "relativePath": "resourcesBundle\\Images\\hero\\zhen_de\\e602.anim"
+    "relativePath": "ImagesBundle\\hero\\zhen_de\\e602.anim"
   },
   "20cb05a8-719e-4878-bafb-23c08de83024": {
     "asset": 1690960074099,
     "meta": 1690960930183,
-    "relativePath": "resourcesBundle\\Images\\home\\activity_ui\\activity_ui.plist"
+    "relativePath": "ImagesBundle\\home\\activity_ui\\activity_ui.plist"
   },
   "70ab314c-6890-444c-92c6-ab2943b4bb66": {
     "asset": 1690960070740,
     "meta": 1690960926598,
-    "relativePath": "resourcesBundle\\Images\\hero\\zhen_de\\e612.anim"
+    "relativePath": "ImagesBundle\\hero\\zhen_de\\e612.anim"
   },
   "2519887f-13c4-4ad0-8d36-dca09c0b8d75": {
     "asset": 1690960058131,
     "meta": 1690960926613,
-    "relativePath": "resourcesBundle\\Images\\hero\\ren_zhe\\Ninja_ActiveSkill_1.png"
+    "relativePath": "ImagesBundle\\hero\\ren_zhe\\Ninja_ActiveSkill_1.png"
   },
   "9d6b982f-c5f3-4c27-8f4b-4a7052476d5e": {
     "asset": 1690960075286,
     "meta": 1690960930183,
-    "relativePath": "resourcesBundle\\Images\\home\\bag_ui\\bag_ui.plist"
+    "relativePath": "ImagesBundle\\home\\bag_ui\\bag_ui.plist"
   },
   "9f87b80c-3e6c-484d-9f23-528a861f71e6": {
     "asset": 1690960058547,
     "meta": 1690960926613,
-    "relativePath": "resourcesBundle\\Images\\hero\\ren_zhe\\Ninja_ActiveSkill_2.png"
+    "relativePath": "ImagesBundle\\hero\\ren_zhe\\Ninja_ActiveSkill_2.png"
   },
   "c9ba14e0-aa8a-40b2-878b-534a465e3a7a": {
     "asset": 1690960077270,
     "meta": 1690960926582,
-    "relativePath": "resourcesBundle\\Images\\home\\battle_pass_ui\\bpuAutoAtlas.pac"
+    "relativePath": "ImagesBundle\\home\\battle_pass_ui\\bpuAutoAtlas.pac"
   },
   "b8ce8588-c81f-411d-9a53-4aaf9ac73704": {
     "asset": 1690960078676,
     "meta": 1690960930183,
-    "relativePath": "resourcesBundle\\Images\\home\\battle_pass_ui\\Font_Number.fnt"
+    "relativePath": "ImagesBundle\\home\\battle_pass_ui\\Font_Number.fnt"
   },
   "0accff7d-552a-44d0-9175-4b0a1a08bebc": {
     "asset": 1690960071239,
     "meta": 1690960926598,
-    "relativePath": "resourcesBundle\\Images\\hero\\zhen_de\\e622.anim"
+    "relativePath": "ImagesBundle\\hero\\zhen_de\\e622.anim"
   },
   "7ae5d934-37a2-45fd-8dcf-f03dce4d3b7c": {
     "asset": 1690960071693,
     "meta": 1690960926598,
-    "relativePath": "resourcesBundle\\Images\\hero\\zhen_de\\e623.anim"
+    "relativePath": "ImagesBundle\\hero\\zhen_de\\e623.anim"
   },
   "4a6c35f2-fad1-4143-8a26-638d0b5ecb2d": {
     "asset": 1690960076364,
     "meta": 1690960930183,
-    "relativePath": "resourcesBundle\\Images\\home\\battle_pass_ui\\battle_pass_ui.plist"
+    "relativePath": "ImagesBundle\\home\\battle_pass_ui\\battle_pass_ui.plist"
   },
   "77a0f834-3a33-40c1-827a-0c0813288137": {
     "asset": 1690960061508,
     "meta": 1690960926613,
-    "relativePath": "resourcesBundle\\Images\\hero\\sheshou\\she_shou.png"
+    "relativePath": "ImagesBundle\\hero\\sheshou\\she_shou.png"
   },
   "0368dd42-a2c8-4710-bd4b-f751e71223ee": {
     "asset": 1690960077692,
     "meta": 1690960926613,
-    "relativePath": "resourcesBundle\\Images\\home\\battle_pass_ui\\claimed.prefab"
+    "relativePath": "ImagesBundle\\home\\battle_pass_ui\\claimed.prefab"
   },
   "b77cc693-9354-49cd-869e-79bcdc7937be": {
     "asset": 1690960078192,
     "meta": 1690960926613,
-    "relativePath": "resourcesBundle\\Images\\home\\battle_pass_ui\\contentLabel.prefab"
+    "relativePath": "ImagesBundle\\home\\battle_pass_ui\\contentLabel.prefab"
   },
   "3a5d8352-342b-4618-a19d-34447b45b914": {
     "asset": 1690959957166,
     "meta": 1690960926473,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss2\\boss2.png"
+    "relativePath": "ImagesBundle\\boss\\boss2\\boss2.png"
   },
   "a464c2a2-0ff9-4f98-8467-a66118c0a357": {
     "asset": 1690960034140,
     "meta": 1690960926567,
-    "relativePath": "resourcesBundle\\Images\\hero\\bing_nv\\BingQiang.png"
+    "relativePath": "ImagesBundle\\hero\\bing_nv\\BingQiang.png"
   },
   "1986c13b-3839-451c-9606-772edb572989": {
     "asset": 1690960082660,
     "meta": 1690960930214,
-    "relativePath": "resourcesBundle\\Images\\home\\enemy_icon\\enemy_icon.plist"
+    "relativePath": "ImagesBundle\\home\\enemy_icon\\enemy_icon.plist"
   },
   "6d981d5a-7781-4b6c-82c1-a5cff3b7137f": {
     "asset": 1690960079583,
     "meta": 1690960926629,
-    "relativePath": "resourcesBundle\\Images\\home\\battle_pass_ui\\icon.prefab"
+    "relativePath": "ImagesBundle\\home\\battle_pass_ui\\icon.prefab"
   },
   "2c78700c-320f-4c77-ab1e-30ff5b8a0221": {
     "asset": 1690960083567,
     "meta": 1690960930214,
-    "relativePath": "resourcesBundle\\Images\\home\\enemy_icon\\font_white_32.fnt"
+    "relativePath": "ImagesBundle\\home\\enemy_icon\\font_white_32.fnt"
   },
   "070cf79b-e123-4470-acb1-3632dd860778": {
     "asset": 1690960080051,
     "meta": 1690960926629,
-    "relativePath": "resourcesBundle\\Images\\home\\battle_pass_ui\\item.prefab"
+    "relativePath": "ImagesBundle\\home\\battle_pass_ui\\item.prefab"
   },
   "b595a71a-0cff-40df-a0ca-fda8dab4f576": {
     "asset": 1690960059486,
     "meta": 1690960926629,
-    "relativePath": "resourcesBundle\\Images\\hero\\ren_zhe\\ren_zhe.png"
+    "relativePath": "ImagesBundle\\hero\\ren_zhe\\ren_zhe.png"
   },
   "2b5f6dff-01f4-4f77-b97e-a02189620a75": {
     "asset": 1690960067802,
     "meta": 1690960926645,
-    "relativePath": "resourcesBundle\\Images\\hero\\wu_nv\\Witch_Attack_2.png"
+    "relativePath": "ImagesBundle\\hero\\wu_nv\\Witch_Attack_2.png"
   },
   "fe5ccadc-aa3d-4fac-af82-15406c1c40d5": {
     "asset": 1690960085207,
     "meta": 1690960930214,
-    "relativePath": "resourcesBundle\\Images\\home\\equip_merge_ui\\equip_merge_ui.plist"
+    "relativePath": "ImagesBundle\\home\\equip_merge_ui\\equip_merge_ui.plist"
   },
   "aea89b86-580a-47cc-a06c-c518389022d7": {
     "asset": 1690960032141,
     "meta": 1690960926551,
-    "relativePath": "resourcesBundle\\Images\\hero\\bing_nv\\bing_nv.png"
+    "relativePath": "ImagesBundle\\hero\\bing_nv\\bing_nv.png"
   },
   "681253df-473a-4f06-b056-78a535da0254": {
     "asset": 1690960080567,
     "meta": 1690960926629,
-    "relativePath": "resourcesBundle\\Images\\home\\battle_pass_ui\\levelLabel.prefab"
+    "relativePath": "ImagesBundle\\home\\battle_pass_ui\\levelLabel.prefab"
   },
   "0f65a8f4-73a0-48df-be34-7d8121c7668c": {
     "asset": 1690960086316,
     "meta": 1690960930230,
-    "relativePath": "resourcesBundle\\Images\\home\\exclusive_weapons_ui\\exclusive_weapons_ui.plist"
+    "relativePath": "ImagesBundle\\home\\exclusive_weapons_ui\\exclusive_weapons_ui.plist"
   },
   "d30a28c2-e101-47ea-9366-ddf7c05a4da0": {
     "asset": 1690960081051,
     "meta": 1690960926629,
-    "relativePath": "resourcesBundle\\Images\\home\\battle_pass_ui\\levelProgressBar.prefab"
+    "relativePath": "ImagesBundle\\home\\battle_pass_ui\\levelProgressBar.prefab"
   },
   "84edd131-2259-4eb8-906f-57f42f40d4f6": {
     "asset": 1690960081489,
     "meta": 1690960926629,
-    "relativePath": "resourcesBundle\\Images\\home\\battle_pass_ui\\lock.prefab"
+    "relativePath": "ImagesBundle\\home\\battle_pass_ui\\lock.prefab"
   },
   "ec6a3b87-d65a-49f2-8306-89c527d71dd7": {
     "asset": 1690960087488,
     "meta": 1690960930230,
-    "relativePath": "resourcesBundle\\Images\\home\\fast_guaji_ui\\fast_guaji_ui.plist"
+    "relativePath": "ImagesBundle\\home\\fast_guaji_ui\\fast_guaji_ui.plist"
   },
   "f6939bed-f30d-4e57-b1a9-017c6c7ff7ae": {
     "asset": 1690960088598,
     "meta": 1690960930230,
-    "relativePath": "resourcesBundle\\Images\\home\\gold_mall_ui\\gold_mall_ui.plist"
+    "relativePath": "ImagesBundle\\home\\gold_mall_ui\\gold_mall_ui.plist"
   },
   "8aaa5d8b-a68b-4986-9965-8a1479c89276": {
     "asset": 1690960089754,
     "meta": 1690960930230,
-    "relativePath": "resourcesBundle\\Images\\home\\guaji_ui\\guaji_ui.plist"
+    "relativePath": "ImagesBundle\\home\\guaji_ui\\guaji_ui.plist"
   },
   "3072e7ef-aa81-4d33-b2f5-22a848cffd52": {
     "asset": 1690960081942,
     "meta": 1690960926645,
-    "relativePath": "resourcesBundle\\Images\\home\\battle_pass_ui\\mask.prefab"
+    "relativePath": "ImagesBundle\\home\\battle_pass_ui\\mask.prefab"
   },
   "292a2392-1d98-438e-b568-76e8f76522fc": {
     "asset": 1690960075676,
     "meta": 1690960926660,
-    "relativePath": "resourcesBundle\\Images\\home\\bag_ui\\bag_ui.png"
+    "relativePath": "ImagesBundle\\home\\bag_ui\\bag_ui.png"
   },
   "d3a485a4-34a2-4880-93a6-02cdc3717cfe": {
     "asset": 1690960090957,
     "meta": 1690960930230,
-    "relativePath": "resourcesBundle\\Images\\home\\main_ui\\BigMap.plist"
+    "relativePath": "ImagesBundle\\home\\main_ui\\BigMap.plist"
   },
   "ee928933-a9bc-4727-b3c6-b25b41b93023": {
     "asset": 1690960091863,
     "meta": 1690960930245,
-    "relativePath": "resourcesBundle\\Images\\home\\main_ui\\enemy_info.plist"
+    "relativePath": "ImagesBundle\\home\\main_ui\\enemy_info.plist"
   },
   "7c18e4fd-7332-4d67-8722-4a4856317a93": {
     "asset": 1690960084535,
     "meta": 1690960926660,
-    "relativePath": "resourcesBundle\\Images\\home\\enemy_icon\\monster_icon.prefab"
+    "relativePath": "ImagesBundle\\home\\enemy_icon\\monster_icon.prefab"
   },
   "c2ca2cd0-b0f9-4824-91a5-4bcf0951b894": {
     "asset": 1690960092785,
     "meta": 1690960930245,
-    "relativePath": "resourcesBundle\\Images\\home\\main_ui\\main_ui.plist"
+    "relativePath": "ImagesBundle\\home\\main_ui\\main_ui.plist"
   },
   "5363f8c0-34ad-4c8d-9ab6-3d68242527df": {
     "asset": 1690960093956,
     "meta": 1690960930261,
-    "relativePath": "resourcesBundle\\Images\\home\\pet_advance_ui\\pet_advance_ui.plist"
+    "relativePath": "ImagesBundle\\home\\pet_advance_ui\\pet_advance_ui.plist"
   },
   "56f2a26b-fa30-4287-bfce-55854d5eccd8": {
     "asset": 1690959982250,
     "meta": 1690960926551,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss9\\boss9.png"
+    "relativePath": "ImagesBundle\\boss\\boss9\\boss9.png"
   },
   "ae0941bf-323e-4514-8d05-aa602bf3ff65": {
     "asset": 1690960079129,
     "meta": 1690960926692,
-    "relativePath": "resourcesBundle\\Images\\home\\battle_pass_ui\\Font_Number_0.png"
+    "relativePath": "ImagesBundle\\home\\battle_pass_ui\\Font_Number_0.png"
   },
   "db618524-27ff-43f3-ba31-d62505f5b3d4": {
     "asset": 1690960095191,
     "meta": 1690960930261,
-    "relativePath": "resourcesBundle\\Images\\home\\pet_info_ui\\pet_info_ui.plist"
+    "relativePath": "ImagesBundle\\home\\pet_info_ui\\pet_info_ui.plist"
   },
   "f5afcaf2-ecc7-4417-af40-3cfdc108155a": {
     "asset": 1690959961339,
     "meta": 1690960926504,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss3\\boss3.png"
+    "relativePath": "ImagesBundle\\boss\\boss3\\boss3.png"
   },
   "4e025b91-fa85-4ec3-98d9-a28af504a318": {
     "asset": 1690960096378,
     "meta": 1690960930261,
-    "relativePath": "resourcesBundle\\Images\\home\\pet_list_ui\\pet_list_ui.plist"
+    "relativePath": "ImagesBundle\\home\\pet_list_ui\\pet_list_ui.plist"
   },
   "2e04e25c-f570-4ee7-823b-719f8f5cc61a": {
     "asset": 1690960051415,
     "meta": 1690960926598,
-    "relativePath": "resourcesBundle\\Images\\hero\\nv_wu\\nv_wu.png"
+    "relativePath": "ImagesBundle\\hero\\nv_wu\\nv_wu.png"
   },
   "e36904d8-da86-4999-a2a1-fa07300419d3": {
     "asset": 1690960097503,
     "meta": 1690960930277,
-    "relativePath": "resourcesBundle\\Images\\home\\pet_upgrade_ui\\pet_upgrade_ui.plist"
+    "relativePath": "ImagesBundle\\home\\pet_upgrade_ui\\pet_upgrade_ui.plist"
   },
   "f285b015-d99d-412b-9f5e-5932e7ce5ed7": {
     "asset": 1690960087910,
     "meta": 1690960926692,
-    "relativePath": "resourcesBundle\\Images\\home\\fast_guaji_ui\\fast_guaji_ui.png"
+    "relativePath": "ImagesBundle\\home\\fast_guaji_ui\\fast_guaji_ui.png"
   },
   "940ea6ab-d7c2-4c60-ad24-330b70ffb4bf": {
     "asset": 1690960098680,
     "meta": 1690960930277,
-    "relativePath": "resourcesBundle\\Images\\home\\rabate_ui\\rabate_ui.plist"
+    "relativePath": "ImagesBundle\\home\\rabate_ui\\rabate_ui.plist"
   },
   "c6053c09-c0ed-4afb-a76b-cf6fe165a0d5": {
     "asset": 1690960090223,
     "meta": 1690960926707,
-    "relativePath": "resourcesBundle\\Images\\home\\guaji_ui\\guaji_ui.png"
+    "relativePath": "ImagesBundle\\home\\guaji_ui\\guaji_ui.png"
   },
   "4b402d93-54bb-4ab6-9e70-f7ddbfd01e46": {
     "asset": 1690960099899,
     "meta": 1690960930292,
-    "relativePath": "resourcesBundle\\Images\\home\\rank_ui\\rank_ui.plist"
+    "relativePath": "ImagesBundle\\home\\rank_ui\\rank_ui.plist"
   },
   "656c4118-0d35-4437-997e-e879549947a1": {
     "asset": 1690960092300,
     "meta": 1690960926707,
-    "relativePath": "resourcesBundle\\Images\\home\\main_ui\\enemy_info.png"
+    "relativePath": "ImagesBundle\\home\\main_ui\\enemy_info.png"
   },
   "beb4dd2b-38d3-45ba-8190-0b5816a32e62": {
     "asset": 1690960084051,
     "meta": 1690960926707,
-    "relativePath": "resourcesBundle\\Images\\home\\enemy_icon\\font_white_32_0.png"
+    "relativePath": "ImagesBundle\\home\\enemy_icon\\font_white_32_0.png"
   },
   "63314aa7-d807-4875-8f73-21a49f85c9f9": {
     "asset": 1690960101555,
     "meta": 1690960930292,
-    "relativePath": "resourcesBundle\\Images\\home\\role_ui\\role_dialog.plist"
+    "relativePath": "ImagesBundle\\home\\role_ui\\role_dialog.plist"
   },
   "bd1e8d67-49b8-4072-a8a6-6c94baaabd1f": {
     "asset": 1690960102414,
     "meta": 1690960930308,
-    "relativePath": "resourcesBundle\\Images\\home\\role_ui\\role_ui.plist"
+    "relativePath": "ImagesBundle\\home\\role_ui\\role_ui.plist"
   },
   "99af727f-665e-4276-a2bc-b23712b9f6d8": {
     "asset": 1690960076817,
     "meta": 1690960926676,
-    "relativePath": "resourcesBundle\\Images\\home\\battle_pass_ui\\battle_pass_ui.png"
+    "relativePath": "ImagesBundle\\home\\battle_pass_ui\\battle_pass_ui.png"
   },
   "740d59b5-d22e-443e-9c21-2f13a5b545d8": {
     "asset": 1690960103649,
     "meta": 1690960930308,
-    "relativePath": "resourcesBundle\\Images\\home\\setting_ui\\setting_ui.plist"
+    "relativePath": "ImagesBundle\\home\\setting_ui\\setting_ui.plist"
   },
   "1285ca30-7a98-499f-ba72-f85778528c3b": {
     "asset": 1690960085660,
     "meta": 1690960926707,
-    "relativePath": "resourcesBundle\\Images\\home\\equip_merge_ui\\equip_merge_ui.png"
+    "relativePath": "ImagesBundle\\home\\equip_merge_ui\\equip_merge_ui.png"
   },
   "2a0fa1ff-098a-4454-aa95-f90a1b7d5039": {
     "asset": 1690960095691,
     "meta": 1690960926723,
-    "relativePath": "resourcesBundle\\Images\\home\\pet_info_ui\\pet_info_ui.png"
+    "relativePath": "ImagesBundle\\home\\pet_info_ui\\pet_info_ui.png"
   },
   "1158689d-d16e-4728-84cd-345e0ece9ab5": {
     "asset": 1690960089082,
     "meta": 1690960926707,
-    "relativePath": "resourcesBundle\\Images\\home\\gold_mall_ui\\gold_mall_ui.png"
+    "relativePath": "ImagesBundle\\home\\gold_mall_ui\\gold_mall_ui.png"
   },
   "3b74f608-baf6-4f45-a62a-358f0777b89a": {
     "asset": 1690960105289,
     "meta": 1690960930327,
-    "relativePath": "resourcesBundle\\Images\\home\\sign_ui\\sign_in_effects1.plist"
+    "relativePath": "ImagesBundle\\home\\sign_ui\\sign_in_effects1.plist"
   },
   "1377fc78-a0be-4c2c-b2c2-a0ec15644cda": {
     "asset": 1690960104883,
     "meta": 1690960926707,
-    "relativePath": "resourcesBundle\\Images\\home\\sign_ui\\sign_in.anim"
+    "relativePath": "ImagesBundle\\home\\sign_ui\\sign_in.anim"
   },
   "4e47a9ba-49a4-4734-8041-c553c122508e": {
     "asset": 1690960106195,
     "meta": 1690960930327,
-    "relativePath": "resourcesBundle\\Images\\home\\sign_ui\\sign_ui.plist"
+    "relativePath": "ImagesBundle\\home\\sign_ui\\sign_ui.plist"
   },
   "34e91499-baa3-4663-ae7d-a9be4f7f5f5b": {
     "asset": 1690960068662,
     "meta": 1690960926676,
-    "relativePath": "resourcesBundle\\Images\\hero\\wu_nv\\wu_nv.png"
+    "relativePath": "ImagesBundle\\hero\\wu_nv\\wu_nv.png"
   },
   "031f189e-cc12-43ee-a357-6f6cf7038c29": {
     "asset": 1690960107351,
     "meta": 1690960930327,
-    "relativePath": "resourcesBundle\\Images\\home\\spin\\spin.plist"
+    "relativePath": "ImagesBundle\\home\\spin\\spin.plist"
   },
   "b251b68c-4599-496f-ad27-0bbbb367f11d": {
     "asset": 1690960108523,
     "meta": 1690960930339,
-    "relativePath": "resourcesBundle\\Images\\home\\store_ui\\shop_ui.plist"
+    "relativePath": "ImagesBundle\\home\\store_ui\\shop_ui.plist"
   },
   "b0f9764b-e01a-4ca6-ac6d-b5f1f4f6cd4b": {
     "asset": 1690960100368,
     "meta": 1690960926739,
-    "relativePath": "resourcesBundle\\Images\\home\\rank_ui\\rank_ui.png"
+    "relativePath": "ImagesBundle\\home\\rank_ui\\rank_ui.png"
   },
   "58ca313a-dd33-4f8b-a20b-b242e5afc644": {
     "asset": 1690960101977,
     "meta": 1690960926739,
-    "relativePath": "resourcesBundle\\Images\\home\\role_ui\\role_dialog.png"
+    "relativePath": "ImagesBundle\\home\\role_ui\\role_dialog.png"
   },
   "981459a2-289a-4916-a136-f2b73a721c50": {
     "asset": 1690960094409,
     "meta": 1690960926739,
-    "relativePath": "resourcesBundle\\Images\\home\\pet_advance_ui\\pet_advance_ui.png"
+    "relativePath": "ImagesBundle\\home\\pet_advance_ui\\pet_advance_ui.png"
   },
   "dac168ca-0405-4206-a01a-d702bc8f2fe3": {
     "asset": 1690960109492,
     "meta": 1690960930355,
-    "relativePath": "resourcesBundle\\Images\\home\\store_ui\\store_hero.plist"
+    "relativePath": "ImagesBundle\\home\\store_ui\\store_hero.plist"
   },
   "5b0e3594-9584-4795-a197-04c7c2b55504": {
     "asset": 1690960099196,
     "meta": 1690960926739,
-    "relativePath": "resourcesBundle\\Images\\home\\rabate_ui\\rabate_ui.png"
+    "relativePath": "ImagesBundle\\home\\rabate_ui\\rabate_ui.png"
   },
   "88483513-16a1-4225-950a-da1d8c52e886": {
     "asset": 1690960110648,
     "meta": 1690960930355,
-    "relativePath": "resourcesBundle\\Images\\home\\take_egg_ui\\take_egg_ui.plist"
+    "relativePath": "ImagesBundle\\home\\take_egg_ui\\take_egg_ui.plist"
   },
   "6fd20915-db9f-4fe7-96ea-f6244bb5ea65": {
     "asset": 1690960111882,
     "meta": 1690960930355,
-    "relativePath": "resourcesBundle\\Images\\home\\task_ui\\task_ui.plist"
+    "relativePath": "ImagesBundle\\home\\task_ui\\task_ui.plist"
   },
   "bd36a816-a390-4d8c-bb50-b077f1d941a4": {
     "asset": 1690960101055,
     "meta": 1690960926754,
-    "relativePath": "resourcesBundle\\Images\\home\\role_ui\\JS_bg_02.png"
+    "relativePath": "ImagesBundle\\home\\role_ui\\JS_bg_02.png"
   },
   "c5cb0a7e-6106-4136-9ff4-97c7f3e054e2": {
     "asset": 1690960113085,
     "meta": 1690960930371,
-    "relativePath": "resourcesBundle\\Images\\home\\team_select_ui\\team_select_ui.plist"
+    "relativePath": "ImagesBundle\\home\\team_select_ui\\team_select_ui.plist"
   },
   "5e7c97f8-dacb-44df-90ff-400e56d9de1c": {
     "asset": 1690960093269,
     "meta": 1690960926739,
-    "relativePath": "resourcesBundle\\Images\\home\\main_ui\\main_ui.png"
+    "relativePath": "ImagesBundle\\home\\main_ui\\main_ui.png"
   },
   "1b0bb15f-1881-4aba-9129-30f23ce57291": {
     "asset": 1690960096815,
     "meta": 1690960926739,
-    "relativePath": "resourcesBundle\\Images\\home\\pet_list_ui\\pet_list_ui.png"
+    "relativePath": "ImagesBundle\\home\\pet_list_ui\\pet_list_ui.png"
   },
   "011c02ef-91c2-4cbb-b4ff-ab1026c43714": {
     "asset": 1690960086801,
     "meta": 1690960926739,
-    "relativePath": "resourcesBundle\\Images\\home\\exclusive_weapons_ui\\exclusive_weapons_ui.png"
+    "relativePath": "ImagesBundle\\home\\exclusive_weapons_ui\\exclusive_weapons_ui.png"
   },
   "f797124c-55fd-41dd-b6f4-d171b5e0f761": {
     "asset": 1690959968543,
     "meta": 1690960926551,
-    "relativePath": "resourcesBundle\\Images\\boss\\boss5\\boss5.png"
+    "relativePath": "ImagesBundle\\boss\\boss5\\boss5.png"
   },
   "aa8674b4-a592-4a2f-94eb-4b9e70a80f11": {
     "asset": 1690960117600,
     "meta": 1690960930379,
-    "relativePath": "resourcesBundle\\Images\\home\\tower_ui\\Font_Number.fnt"
+    "relativePath": "ImagesBundle\\home\\tower_ui\\Font_Number.fnt"
   },
   "6a1ebab8-98ee-474d-a733-defad466e062": {
     "asset": 1690960028124,
     "meta": 1690960926598,
-    "relativePath": "resourcesBundle\\Images\\hero\\a_nu_bi_si\\a_nu_bi_si.png"
+    "relativePath": "ImagesBundle\\hero\\a_nu_bi_si\\a_nu_bi_si.png"
   },
   "30acfe76-d42d-4d61-9259-db7d12a22331": {
     "asset": 1690960104148,
     "meta": 1690960926739,
-    "relativePath": "resourcesBundle\\Images\\home\\setting_ui\\setting_ui.png"
+    "relativePath": "ImagesBundle\\home\\setting_ui\\setting_ui.png"
   },
   "0a9f8947-3930-4299-b02a-ef0d3e0ff398": {
     "asset": 1690960116694,
     "meta": 1690960926754,
-    "relativePath": "resourcesBundle\\Images\\home\\tower_ui\\btnTower.prefab"
+    "relativePath": "ImagesBundle\\home\\tower_ui\\btnTower.prefab"
   },
   "ab43d7da-31d7-43a5-bb3b-7865f7250419": {
     "asset": 1690960117147,
     "meta": 1690960926754,
-    "relativePath": "resourcesBundle\\Images\\home\\tower_ui\\contentLabel.prefab"
+    "relativePath": "ImagesBundle\\home\\tower_ui\\contentLabel.prefab"
   },
   "195ad1a3-b402-45cc-bfb6-5b2a96cfce93": {
     "asset": 1690960115522,
     "meta": 1690960930379,
-    "relativePath": "resourcesBundle\\Images\\home\\tower_gift\\tower_gift.plist"
+    "relativePath": "ImagesBundle\\home\\tower_gift\\tower_gift.plist"
   },
   "699a3907-0f70-49a2-8bea-d8c553cdfaad": {
     "asset": 1690960118538,
     "meta": 1690960926754,
-    "relativePath": "resourcesBundle\\Images\\home\\tower_ui\\quan.anim"
+    "relativePath": "ImagesBundle\\home\\tower_ui\\quan.anim"
   },
   "3d4c0f9d-6899-4448-bf55-19a5e9b15179": {
     "asset": 1690960119991,
     "meta": 1690960930387,
-    "relativePath": "resourcesBundle\\Images\\home\\tower_ui\\tower_ui.plist"
+    "relativePath": "ImagesBundle\\home\\tower_ui\\tower_ui.plist"
   },
   "79e5302a-4d38-4d9d-8383-910dd496fd48": {
     "asset": 1690960121194,
     "meta": 1690960930387,
-    "relativePath": "resourcesBundle\\Images\\home\\user_level\\user_level.plist"
+    "relativePath": "ImagesBundle\\home\\user_level\\user_level.plist"
   },
   "956a46cd-e217-4601-b0c1-a2245308a451": {
     "asset": 1690960119037,
     "meta": 1690960926754,
-    "relativePath": "resourcesBundle\\Images\\home\\tower_ui\\torch.anim"
+    "relativePath": "ImagesBundle\\home\\tower_ui\\torch.anim"
   },
   "728a7518-88fe-47fc-b5f4-30aa49f17368": {
     "asset": 1690960044028,
     "meta": 1690960926629,
-    "relativePath": "resourcesBundle\\Images\\hero\\lei_shen\\lei_shen.png"
+    "relativePath": "ImagesBundle\\hero\\lei_shen\\lei_shen.png"
   },
   "1917ef48-58dc-4389-b775-31707257063f": {
     "asset": 1690960122350,
     "meta": 1690960930387,
-    "relativePath": "resourcesBundle\\Images\\home\\vip_ui\\vip_ui.plist"
+    "relativePath": "ImagesBundle\\home\\vip_ui\\vip_ui.plist"
   },
   "96954239-a663-4f3d-a528-8c05ddbd474a": {
     "asset": 1690960107820,
     "meta": 1690960926770,
-    "relativePath": "resourcesBundle\\Images\\home\\spin\\spin.png"
+    "relativePath": "ImagesBundle\\home\\spin\\spin.png"
   },
   "46ef56fc-ae60-45fd-a053-4eea80b50083": {
     "asset": 1690960123444,
     "meta": 1690960930387,
-    "relativePath": "resourcesBundle\\Images\\home\\week_card_ui\\week_card_ui.plist"
+    "relativePath": "ImagesBundle\\home\\week_card_ui\\week_card_ui.plist"
   },
   "8ceef8f3-51ba-4b4b-a2de-ec3a23858b13": {
     "asset": 1690960105758,
     "meta": 1690960926786,
-    "relativePath": "resourcesBundle\\Images\\home\\sign_ui\\sign_in_effects1.png"
+    "relativePath": "ImagesBundle\\home\\sign_ui\\sign_in_effects1.png"
   },
   "c53409cf-584b-40c4-9879-41de5d91dc62": {
     "asset": 1690960124615,
     "meta": 1690960930402,
-    "relativePath": "resourcesBundle\\Images\\home\\wishing_ui\\wishing_card_blue.plist"
+    "relativePath": "ImagesBundle\\home\\wishing_ui\\wishing_card_blue.plist"
   },
   "c1a2d292-8ed6-4e5f-8991-223632faf12c": {
     "asset": 1690960097972,
     "meta": 1690960926739,
-    "relativePath": "resourcesBundle\\Images\\home\\pet_upgrade_ui\\pet_upgrade_ui.png"
+    "relativePath": "ImagesBundle\\home\\pet_upgrade_ui\\pet_upgrade_ui.png"
   },
   "4a2e88f4-7ce8-4319-bec0-504d431c621a": {
     "asset": 1690960054779,
     "meta": 1690960926676,
-    "relativePath": "resourcesBundle\\Images\\hero\\pao_shou\\pao_shou.png"
+    "relativePath": "ImagesBundle\\hero\\pao_shou\\pao_shou.png"
   },
   "f4022588-a34f-4777-80a0-f3e2e6210ca8": {
     "asset": 1690960125553,
     "meta": 1690960930402,
-    "relativePath": "resourcesBundle\\Images\\home\\wishing_ui\\wishing_card_green.plist"
+    "relativePath": "ImagesBundle\\home\\wishing_ui\\wishing_card_green.plist"
   },
   "78c08d72-a037-4c7c-a6bf-261d191ac8a6": {
     "asset": 1690960126475,
     "meta": 1690960930402,
-    "relativePath": "resourcesBundle\\Images\\home\\wishing_ui\\wishing_card_purple.plist"
+    "relativePath": "ImagesBundle\\home\\wishing_ui\\wishing_card_purple.plist"
   },
   "d9000efc-33e7-47e0-930e-222b09199a70": {
     "asset": 1690960106664,
     "meta": 1690960926770,
-    "relativePath": "resourcesBundle\\Images\\home\\sign_ui\\sign_ui.png"
+    "relativePath": "ImagesBundle\\home\\sign_ui\\sign_ui.png"
   },
   "703c0269-b584-4964-a838-1c2f56fc1d52": {
     "asset": 1690960127459,
     "meta": 1690960930418,
-    "relativePath": "resourcesBundle\\Images\\home\\wishing_ui\\wishing_card_red.plist"
+    "relativePath": "ImagesBundle\\home\\wishing_ui\\wishing_card_red.plist"
   },
   "f74bf5a5-e5f2-4524-98b7-0db1d1225316": {
     "asset": 1690960115960,
     "meta": 1690960926786,
-    "relativePath": "resourcesBundle\\Images\\home\\tower_gift\\tower_gift.png"
+    "relativePath": "ImagesBundle\\home\\tower_gift\\tower_gift.png"
   },
   "160857f9-80c6-4616-a0fa-619e0ec234a8": {
     "asset": 1690960128365,
     "meta": 1690960930418,
-    "relativePath": "resourcesBundle\\Images\\home\\wishing_ui\\wishing_card_red2.plist"
+    "relativePath": "ImagesBundle\\home\\wishing_ui\\wishing_card_red2.plist"
   },
   "0fa26554-18aa-4685-943c-8687476a8daa": {
     "asset": 1690960074598,
     "meta": 1690960926726,
-    "relativePath": "resourcesBundle\\Images\\home\\activity_ui\\activity_ui.png"
+    "relativePath": "ImagesBundle\\home\\activity_ui\\activity_ui.png"
   },
   "1ce398a1-b086-4ed0-b304-4e7449bca1cb": {
     "asset": 1690960129287,
     "meta": 1690960930434,
-    "relativePath": "resourcesBundle\\Images\\home\\wishing_ui\\wishing_card_sp.plist"
+    "relativePath": "ImagesBundle\\home\\wishing_ui\\wishing_card_sp.plist"
   },
   "4844f090-08de-42d4-85a4-3660a2f224f6": {
     "asset": 1690960112351,
     "meta": 1690960926786,
-    "relativePath": "resourcesBundle\\Images\\home\\task_ui\\task_ui.png"
+    "relativePath": "ImagesBundle\\home\\task_ui\\task_ui.png"
   },
   "c571081a-2b6c-416d-bab2-61be3c49d6eb": {
     "asset": 1690960130334,
     "meta": 1690960930434,
-    "relativePath": "resourcesBundle\\Images\\home\\wishing_ui\\wishing_card_sp2.plist"
+    "relativePath": "ImagesBundle\\home\\wishing_ui\\wishing_card_sp2.plist"
   },
   "fc60e66e-aec2-49da-9d0b-76980c16215b": {
     "asset": 1690960131302,
     "meta": 1690960930434,
-    "relativePath": "resourcesBundle\\Images\\home\\wishing_ui\\wishing_ui.plist"
+    "relativePath": "ImagesBundle\\home\\wishing_ui\\wishing_ui.plist"
   },
   "dd39c8d2-069e-4e18-a7e9-beee05e2597c": {
     "asset": 1690960113601,
     "meta": 1690960926786,
-    "relativePath": "resourcesBundle\\Images\\home\\team_select_ui\\team_select_ui.png"
+    "relativePath": "ImagesBundle\\home\\team_select_ui\\team_select_ui.png"
   },
   "bf4d600a-d80d-4979-8a27-e90610e7ba6d": {
     "asset": 1690960122772,
     "meta": 1690960926786,
-    "relativePath": "resourcesBundle\\Images\\home\\vip_ui\\vip_ui.png"
+    "relativePath": "ImagesBundle\\home\\vip_ui\\vip_ui.png"
   },
   "ae8a7560-37d5-4d1b-ae53-3b41dbb35a39": {
     "asset": 1690960121674,
     "meta": 1690960926801,
-    "relativePath": "resourcesBundle\\Images\\home\\user_level\\user_level.png"
+    "relativePath": "ImagesBundle\\home\\user_level\\user_level.png"
   },
   "9972a89c-c028-4246-8d1d-5a01743805f6": {
     "asset": 1690960083098,
     "meta": 1690960926754,
-    "relativePath": "resourcesBundle\\Images\\home\\enemy_icon\\enemy_icon.png"
+    "relativePath": "ImagesBundle\\home\\enemy_icon\\enemy_icon.png"
   },
   "ea7e02cc-aed2-4319-92a6-bf5e4fefdeb6": {
     "asset": 1690960123912,
     "meta": 1690960926801,
-    "relativePath": "resourcesBundle\\Images\\home\\week_card_ui\\week_card_ui.png"
+    "relativePath": "ImagesBundle\\home\\week_card_ui\\week_card_ui.png"
   },
   "dfc8e02d-ddbe-48aa-83a2-371049f8394e": {
     "asset": 1690960130833,
     "meta": 1690960926826,
-    "relativePath": "resourcesBundle\\Images\\home\\wishing_ui\\wishing_card_sp2.png"
+    "relativePath": "ImagesBundle\\home\\wishing_ui\\wishing_card_sp2.png"
   },
   "a6ba8c8e-7667-4dd0-92dd-f50f2211a733": {
     "asset": 1690960118084,
     "meta": 1690960926801,
-    "relativePath": "resourcesBundle\\Images\\home\\tower_ui\\Font_Number_0.png"
+    "relativePath": "ImagesBundle\\home\\tower_ui\\Font_Number_0.png"
   },
   "f3b6a238-1cd4-4e72-858c-2134d2ad0f6e": {
     "asset": 1690960146472,
     "meta": 1690960930449,
-    "relativePath": "resourcesBundle\\Images\\monster\\bianfu\\bian_fu.plist"
+    "relativePath": "ImagesBundle\\monster\\bianfu\\bian_fu.plist"
   },
   "ad4595dd-e881-4f24-967c-baae5204448d": {
     "asset": 1690960128818,
     "meta": 1690960926801,
-    "relativePath": "resourcesBundle\\Images\\home\\wishing_ui\\wishing_card_red2.png"
+    "relativePath": "ImagesBundle\\home\\wishing_ui\\wishing_card_red2.png"
   },
   "0db125d6-0aa2-4a70-81a6-3704a5f531c0": {
     "asset": 1690960126006,
     "meta": 1690960926801,
-    "relativePath": "resourcesBundle\\Images\\home\\wishing_ui\\wishing_card_green.png"
+    "relativePath": "ImagesBundle\\home\\wishing_ui\\wishing_card_green.png"
   },
   "e6ed8c79-b2a1-4e03-b7dc-564d6cba36f4": {
     "asset": 1690960125068,
     "meta": 1690960926801,
-    "relativePath": "resourcesBundle\\Images\\home\\wishing_ui\\wishing_card_blue.png"
+    "relativePath": "ImagesBundle\\home\\wishing_ui\\wishing_card_blue.png"
   },
   "1b05645a-b515-4cbb-8c18-15dc0944d9ce": {
     "asset": 1690960126943,
     "meta": 1690960926801,
-    "relativePath": "resourcesBundle\\Images\\home\\wishing_ui\\wishing_card_purple.png"
+    "relativePath": "ImagesBundle\\home\\wishing_ui\\wishing_card_purple.png"
   },
   "557dec60-f21a-44f8-a667-3ddda9643ed0": {
     "asset": 1690960048882,
     "meta": 1690960926676,
-    "relativePath": "resourcesBundle\\Images\\hero\\mei_mo\\mei_mo.png"
+    "relativePath": "ImagesBundle\\hero\\mei_mo\\mei_mo.png"
   },
   "8b907c08-41fb-43ed-ac2b-4dea53767998": {
     "asset": 1690960132740,
     "meta": 1690960926833,
-    "relativePath": "resourcesBundle\\Images\\loading\\cartoon\\Comic_1.png"
+    "relativePath": "ImagesBundle\\loading\\cartoon\\Comic_1.png"
   },
   "345e75b4-5c77-45fa-b188-330654584c04": {
     "asset": 1690960133161,
     "meta": 1690960926833,
-    "relativePath": "resourcesBundle\\Images\\loading\\cartoon\\Comic_2.png"
+    "relativePath": "ImagesBundle\\loading\\cartoon\\Comic_2.png"
   },
   "87a75870-fa48-4531-82b4-61f157ded96d": {
     "asset": 1690960150941,
     "meta": 1690960930449,
-    "relativePath": "resourcesBundle\\Images\\monster\\common\\monster_common.plist"
+    "relativePath": "ImagesBundle\\monster\\common\\monster_common.plist"
   },
   "5713abec-4b5a-49ec-8b35-eb1448196f93": {
     "asset": 1690960119522,
     "meta": 1690960926801,
-    "relativePath": "resourcesBundle\\Images\\home\\tower_ui\\Tower_Bg_0.jpg"
+    "relativePath": "ImagesBundle\\home\\tower_ui\\Tower_Bg_0.jpg"
   },
   "01e2c496-76fc-4c6c-a96e-bf3bce5fa91f": {
     "asset": 1690960135036,
     "meta": 1690960926833,
-    "relativePath": "resourcesBundle\\Images\\loading\\cartoon\\Loading_Comic.atlas"
+    "relativePath": "ImagesBundle\\loading\\cartoon\\Loading_Comic.atlas"
   },
   "7dd9e47d-cd93-4798-8829-666f3d8f7b66": {
     "asset": 1690960151925,
     "meta": 1690960930480,
-    "relativePath": "resourcesBundle\\Images\\monster\\common\\monster_effects.plist"
+    "relativePath": "ImagesBundle\\monster\\common\\monster_effects.plist"
   },
   "7170fa2f-e8ab-46dc-8d8d-2334bcd90355": {
     "asset": 1690960134583,
     "meta": 1690960926848,
-    "relativePath": "resourcesBundle\\Images\\loading\\cartoon\\Comic_Click.png"
+    "relativePath": "ImagesBundle\\loading\\cartoon\\Comic_Click.png"
   },
   "bef99dea-84e2-45c3-8cff-af7f1652e2c5": {
     "asset": 1690960147410,
     "meta": 1690960926826,
-    "relativePath": "resourcesBundle\\Images\\monster\\bianfu\\e21901.anim"
+    "relativePath": "ImagesBundle\\monster\\bianfu\\e21901.anim"
   },
   "d72698bd-9ffc-40a9-9b7b-a3ba62ebcd2e": {
     "asset": 1690960148597,
     "meta": 1690960926833,
-    "relativePath": "resourcesBundle\\Images\\monster\\common\\e20003.anim"
+    "relativePath": "ImagesBundle\\monster\\common\\e20003.anim"
   },
   "f05efaa1-1f30-4291-98d2-0943b8643888": {
     "asset": 1690960152909,
     "meta": 1690960930480,
-    "relativePath": "resourcesBundle\\Images\\monster\\common\\monster_effects_2.plist"
+    "relativePath": "ImagesBundle\\monster\\common\\monster_effects_2.plist"
   },
   "18a7340e-5903-4390-a4b0-bd70cc788e61": {
     "asset": 1690960149050,
     "meta": 1690960926833,
-    "relativePath": "resourcesBundle\\Images\\monster\\common\\e20004.anim"
+    "relativePath": "ImagesBundle\\monster\\common\\e20004.anim"
   },
   "9b764cba-e738-4f7d-9034-9f43040c7ce3": {
     "asset": 1690960149519,
     "meta": 1690960926833,
-    "relativePath": "resourcesBundle\\Images\\monster\\common\\e21001.anim"
+    "relativePath": "ImagesBundle\\monster\\common\\e21001.anim"
   },
   "8bfd30ac-c32a-42f4-90e8-8028981f3f41": {
     "asset": 1690960149972,
     "meta": 1690960926833,
-    "relativePath": "resourcesBundle\\Images\\monster\\common\\e21002.anim"
+    "relativePath": "ImagesBundle\\monster\\common\\e21002.anim"
   },
   "de4faa6a-f691-463c-97b5-21b1458b023c": {
     "asset": 1690960150456,
     "meta": 1690960926833,
-    "relativePath": "resourcesBundle\\Images\\monster\\common\\e21003.anim"
+    "relativePath": "ImagesBundle\\monster\\common\\e21003.anim"
   },
   "74ddd472-a9bc-4716-b9af-c65dfcb4b78e": {
     "asset": 1690960158458,
     "meta": 1690960930480,
-    "relativePath": "resourcesBundle\\Images\\monster\\elite1\\elite1.plist"
+    "relativePath": "ImagesBundle\\monster\\elite1\\elite1.plist"
   },
   "49d3d064-21ad-4526-8626-42066e492701": {
     "asset": 1690960153847,
     "meta": 1690960926848,
-    "relativePath": "resourcesBundle\\Images\\monster\\common\\tuowei_1.prefab"
+    "relativePath": "ImagesBundle\\monster\\common\\tuowei_1.prefab"
   },
   "7835e2fc-16c8-4ee5-96e9-f078f1ef9979": {
     "asset": 1690960157971,
     "meta": 1690960926848,
-    "relativePath": "resourcesBundle\\Images\\monster\\elite1\\e23701.anim"
+    "relativePath": "ImagesBundle\\monster\\elite1\\e23701.anim"
   },
   "63eccf32-8a30-40ca-850e-fc1061136947": {
     "asset": 1690960146957,
     "meta": 1690960926848,
-    "relativePath": "resourcesBundle\\Images\\monster\\bianfu\\bian_fu.png"
+    "relativePath": "ImagesBundle\\monster\\bianfu\\bian_fu.png"
   },
   "aa10602d-f99b-4b44-b19b-366d2ae9aa36": {
     "asset": 1690960109976,
     "meta": 1690960926786,
-    "relativePath": "resourcesBundle\\Images\\home\\store_ui\\store_hero.png"
+    "relativePath": "ImagesBundle\\home\\store_ui\\store_hero.png"
   },
   "aff5b1b4-c24b-45b5-a1e0-403e96bbbc21": {
     "asset": 1690960156112,
     "meta": 1690960930496,
-    "relativePath": "resourcesBundle\\Images\\monster\\elite10\\elite10.plist"
+    "relativePath": "ImagesBundle\\monster\\elite10\\elite10.plist"
   },
   "6f1e2332-40d8-480f-a8c3-a28d89d36ad9": {
     "asset": 1690960133614,
     "meta": 1690960926848,
-    "relativePath": "resourcesBundle\\Images\\loading\\cartoon\\Comic_3.png"
+    "relativePath": "ImagesBundle\\loading\\cartoon\\Comic_3.png"
   },
   "1066d115-d5db-4d55-a521-5cca9b1ebb4d": {
     "asset": 1690960154753,
     "meta": 1690960926848,
-    "relativePath": "resourcesBundle\\Images\\monster\\elite10\\e26201.anim"
+    "relativePath": "ImagesBundle\\monster\\elite10\\e26201.anim"
   },
   "7dd84ce6-c40c-465c-ac87-a93ae327177b": {
     "asset": 1690960155206,
     "meta": 1690960926848,
-    "relativePath": "resourcesBundle\\Images\\monster\\elite10\\e27801.anim"
+    "relativePath": "ImagesBundle\\monster\\elite10\\e27801.anim"
   },
   "b348def8-c7b9-47c8-b828-10cb75611f2a": {
     "asset": 1690960135474,
     "meta": 1690960930496,
-    "relativePath": "resourcesBundle\\Images\\loading\\cartoon\\Loading_Comic.json"
+    "relativePath": "ImagesBundle\\loading\\cartoon\\Loading_Comic.json"
   },
   "5cbf51a6-2b1c-466e-b7d2-1c4f5ef53bb0": {
     "asset": 1690960160567,
     "meta": 1690960930496,
-    "relativePath": "resourcesBundle\\Images\\monster\\elite4\\elite4.plist"
+    "relativePath": "ImagesBundle\\monster\\elite4\\elite4.plist"
   },
   "0b748d43-9d60-4968-8969-97108e0cdb26": {
     "asset": 1690960155675,
     "meta": 1690960926848,
-    "relativePath": "resourcesBundle\\Images\\monster\\elite10\\e27812.anim"
+    "relativePath": "ImagesBundle\\monster\\elite10\\e27812.anim"
   },
   "4098681b-4f05-49ec-bb58-63cf99b63df2": {
     "asset": 1690960102914,
     "meta": 1690960926786,
-    "relativePath": "resourcesBundle\\Images\\home\\role_ui\\role_ui.png"
+    "relativePath": "ImagesBundle\\home\\role_ui\\role_ui.png"
   },
   "e512cc33-3f08-41d2-8462-d8cfe917d511": {
     "asset": 1690960162207,
     "meta": 1690960930496,
-    "relativePath": "resourcesBundle\\Images\\monster\\elite5\\elite5.plist"
+    "relativePath": "ImagesBundle\\monster\\elite5\\elite5.plist"
   },
   "2103e0e7-1e7c-4e5b-bb06-be5ceaf87fb3": {
     "asset": 1690960157456,
     "meta": 1690960926848,
-    "relativePath": "resourcesBundle\\Images\\monster\\elite10\\tuowei.prefab"
+    "relativePath": "ImagesBundle\\monster\\elite10\\tuowei.prefab"
   },
   "c58cccad-d4c4-40e0-975b-ba1582ca2e15": {
     "asset": 1690960120459,
     "meta": 1690960926826,
-    "relativePath": "resourcesBundle\\Images\\home\\tower_ui\\tower_ui.png"
+    "relativePath": "ImagesBundle\\home\\tower_ui\\tower_ui.png"
   },
   "f0855887-db1f-4fd5-a5aa-a12a4bc73dcb": {
     "asset": 1690960148097,
     "meta": 1690960926864,
-    "relativePath": "resourcesBundle\\Images\\monster\\common\\Attack_Trail2.png"
+    "relativePath": "ImagesBundle\\monster\\common\\Attack_Trail2.png"
   },
   "d5b25b7c-df3a-46e0-9fe0-ddeb6bd6d156": {
     "asset": 1690960164457,
     "meta": 1690960930496,
-    "relativePath": "resourcesBundle\\Images\\monster\\elite7\\elite7.plist"
+    "relativePath": "ImagesBundle\\monster\\elite7\\elite7.plist"
   },
   "f8d74a13-1936-4a8c-8de0-4bb6311fbb07": {
     "asset": 1690960159645,
     "meta": 1690960926848,
-    "relativePath": "resourcesBundle\\Images\\monster\\elite4\\e26701.anim"
+    "relativePath": "ImagesBundle\\monster\\elite4\\e26701.anim"
   },
   "ab120149-f2e2-4f53-be44-eeae069564fc": {
     "asset": 1690960134083,
     "meta": 1690960926848,
-    "relativePath": "resourcesBundle\\Images\\loading\\cartoon\\Comic_4.png"
+    "relativePath": "ImagesBundle\\loading\\cartoon\\Comic_4.png"
   },
   "dd39b58e-69d9-4fd0-8617-9273d05c3310": {
     "asset": 1690960160098,
     "meta": 1690960926864,
-    "relativePath": "resourcesBundle\\Images\\monster\\elite4\\e26702.anim"
+    "relativePath": "ImagesBundle\\monster\\elite4\\e26702.anim"
   },
   "160ad624-b999-4b82-8697-efa7aff93940": {
     "asset": 1690960161754,
     "meta": 1690960926864,
-    "relativePath": "resourcesBundle\\Images\\monster\\elite5\\e26811.anim"
+    "relativePath": "ImagesBundle\\monster\\elite5\\e26811.anim"
   },
   "b79261fc-4d4d-49c9-b481-88bcc5709256": {
     "asset": 1690960166035,
     "meta": 1690960930512,
-    "relativePath": "resourcesBundle\\Images\\monster\\elite8\\elite8.plist"
+    "relativePath": "ImagesBundle\\monster\\elite8\\elite8.plist"
   },
   "ddde1d3d-ecff-4d63-a068-8469f15fd111": {
     "asset": 1690960167238,
     "meta": 1690960930512,
-    "relativePath": "resourcesBundle\\Images\\monster\\elite9\\elite9.plist"
+    "relativePath": "ImagesBundle\\monster\\elite9\\elite9.plist"
   },
   "df9769a9-bc81-4d04-a496-2d4a1ad97af6": {
     "asset": 1690960163395,
     "meta": 1690960926864,
-    "relativePath": "resourcesBundle\\Images\\monster\\elite6\\e27001.anim"
+    "relativePath": "ImagesBundle\\monster\\elite6\\e27001.anim"
   },
   "348788c8-89bd-4db1-afde-fcadd5ff5c98": {
     "asset": 1690960111148,
     "meta": 1690960926826,
-    "relativePath": "resourcesBundle\\Images\\home\\take_egg_ui\\take_egg_ui.png"
+    "relativePath": "ImagesBundle\\home\\take_egg_ui\\take_egg_ui.png"
   },
   "4ab7f60e-edd6-479a-a06e-d113fae5d9dd": {
     "asset": 1690960169285,
     "meta": 1690960930512,
-    "relativePath": "resourcesBundle\\Images\\monster\\shuangjuren\\elite65.plist"
+    "relativePath": "ImagesBundle\\monster\\shuangjuren\\elite65.plist"
   },
   "682fffc0-f3a0-4c6c-9513-f98474276686": {
     "asset": 1690960157003,
     "meta": 1690960926880,
-    "relativePath": "resourcesBundle\\Images\\monster\\elite10\\Monster_77_SkillTail.png"
+    "relativePath": "ImagesBundle\\monster\\elite10\\Monster_77_SkillTail.png"
   },
   "4fd3c71a-e974-439c-a4bb-c9d808b601d2": {
     "asset": 1690960129818,
     "meta": 1690960926848,
-    "relativePath": "resourcesBundle\\Images\\home\\wishing_ui\\wishing_card_sp.png"
+    "relativePath": "ImagesBundle\\home\\wishing_ui\\wishing_card_sp.png"
   },
   "a814c391-1a46-4882-9eea-f30675edc2a0": {
     "asset": 1690960182346,
     "meta": 1690960926864,
-    "relativePath": "resourcesBundle\\Images\\pet\\effects\\common"
+    "relativePath": "ImagesBundle\\pet\\effects\\common"
   },
   "aa48953d-6163-4106-ab3c-0d4f18b5d93c": {
     "asset": 1690960171378,
     "meta": 1690960930512,
-    "relativePath": "resourcesBundle\\Images\\monster\\youling\\you_ling.plist"
+    "relativePath": "ImagesBundle\\monster\\youling\\you_ling.plist"
   },
   "8f03c225-15d3-43f3-ad7e-27eca9011ac8": {
     "asset": 1690960109007,
     "meta": 1690960926801,
-    "relativePath": "resourcesBundle\\Images\\home\\store_ui\\shop_ui.png"
+    "relativePath": "ImagesBundle\\home\\store_ui\\shop_ui.png"
   },
   "078aaa25-f5e8-42e5-b69a-193640aa3361": {
     "asset": 1690960151456,
     "meta": 1690960926880,
-    "relativePath": "resourcesBundle\\Images\\monster\\common\\monster_common.png"
+    "relativePath": "ImagesBundle\\monster\\common\\monster_common.png"
   },
   "79dbe7b3-e1f8-42e4-91c7-514960a9c460": {
     "asset": 1690960165613,
     "meta": 1690960926864,
-    "relativePath": "resourcesBundle\\Images\\monster\\elite8\\e25701.anim"
+    "relativePath": "ImagesBundle\\monster\\elite8\\e25701.anim"
   },
   "479daa63-333a-45ae-ba0e-ad890a6dd83b": {
     "asset": 1690960156581,
     "meta": 1690960926880,
-    "relativePath": "resourcesBundle\\Images\\monster\\elite10\\elite10.png"
+    "relativePath": "ImagesBundle\\monster\\elite10\\elite10.png"
   },
   "4a20a7e4-7324-4a11-9b35-89731081bf62": {
     "asset": 1690960168378,
     "meta": 1690960926864,
-    "relativePath": "resourcesBundle\\Images\\monster\\shuangjuren\\e26502.anim"
+    "relativePath": "ImagesBundle\\monster\\shuangjuren\\e26502.anim"
   },
   "8745b6dd-de90-438f-a96f-1f0764f2b9f1": {
     "asset": 1690960164926,
     "meta": 1690960926895,
-    "relativePath": "resourcesBundle\\Images\\monster\\elite7\\elite7.png"
+    "relativePath": "ImagesBundle\\monster\\elite7\\elite7.png"
   },
   "d0de5e6e-dbba-4a91-9a23-ffa4969a3baf": {
     "asset": 1690960168816,
     "meta": 1690960926864,
-    "relativePath": "resourcesBundle\\Images\\monster\\shuangjuren\\e26503.anim"
+    "relativePath": "ImagesBundle\\monster\\shuangjuren\\e26503.anim"
   },
   "3572de50-cfcb-4cff-b6f9-ab4146cc6931": {
     "asset": 1690960162645,
     "meta": 1690960926880,
-    "relativePath": "resourcesBundle\\Images\\monster\\elite5\\elite5.png"
+    "relativePath": "ImagesBundle\\monster\\elite5\\elite5.png"
   },
   "c02d9332-ef10-4c4e-a1e7-7033a671ddfd": {
     "asset": 1690960170425,
     "meta": 1690960926864,
-    "relativePath": "resourcesBundle\\Images\\monster\\youling\\21902.anim"
+    "relativePath": "ImagesBundle\\monster\\youling\\21902.anim"
   },
   "f4299e07-e1a1-4ee6-b903-8dfa05496286": {
     "asset": 1690960186361,
     "meta": 1690960930528,
-    "relativePath": "resourcesBundle\\Images\\pet\\pet_game\\pet_game.plist"
+    "relativePath": "ImagesBundle\\pet\\pet_game\\pet_game.plist"
   },
   "7de783d1-4993-483f-b66c-615689e71aa6": {
     "asset": 1690960166488,
     "meta": 1690960928194,
-    "relativePath": "resourcesBundle\\Images\\monster\\elite8\\elite8.png"
+    "relativePath": "ImagesBundle\\monster\\elite8\\elite8.png"
   },
   "37c7d39f-4a78-477b-a631-81b142e07656": {
     "asset": 1690960170894,
     "meta": 1690960926864,
-    "relativePath": "resourcesBundle\\Images\\monster\\youling\\e21901.anim"
+    "relativePath": "ImagesBundle\\monster\\youling\\e21901.anim"
   },
   "f966b285-f125-4117-bf2d-7b1d48c90e84": {
     "asset": 1690960091410,
     "meta": 1690960926786,
-    "relativePath": "resourcesBundle\\Images\\home\\main_ui\\BigMap.png"
+    "relativePath": "ImagesBundle\\home\\main_ui\\BigMap.png"
   },
   "ffc16181-3798-440e-808a-6e03723b04b3": {
     "asset": 1690960182768,
     "meta": 1690960926864,
-    "relativePath": "resourcesBundle\\Images\\pet\\pet_game\\e30102.anim"
+    "relativePath": "ImagesBundle\\pet\\pet_game\\e30102.anim"
   },
   "1e9c3424-acf8-41ed-ac9e-79bf3e0b42ca": {
     "asset": 1690960183221,
     "meta": 1690960926880,
-    "relativePath": "resourcesBundle\\Images\\pet\\pet_game\\e30201.anim"
+    "relativePath": "ImagesBundle\\pet\\pet_game\\e30201.anim"
   },
   "24fdc5e5-d570-40a1-b141-227024ea852e": {
     "asset": 1690960167660,
     "meta": 1690960928194,
-    "relativePath": "resourcesBundle\\Images\\monster\\elite9\\elite9.png"
+    "relativePath": "ImagesBundle\\monster\\elite9\\elite9.png"
   },
   "fb2e5f06-a2fb-454b-845f-b6d6ed4b754a": {
     "asset": 1690960183690,
     "meta": 1690960926880,
-    "relativePath": "resourcesBundle\\Images\\pet\\pet_game\\e30202.anim"
+    "relativePath": "ImagesBundle\\pet\\pet_game\\e30202.anim"
   },
   "a864a8cc-6a48-4fe6-96e7-e5efa191c91c": {
     "asset": 1690960184158,
     "meta": 1690960926880,
-    "relativePath": "resourcesBundle\\Images\\pet\\pet_game\\e30211.anim"
+    "relativePath": "ImagesBundle\\pet\\pet_game\\e30211.anim"
   },
   "cf28ea58-da8d-4153-b8f3-46d91e3424f1": {
     "asset": 1690960184580,
     "meta": 1690960926880,
-    "relativePath": "resourcesBundle\\Images\\pet\\pet_game\\e30311.anim"
+    "relativePath": "ImagesBundle\\pet\\pet_game\\e30311.anim"
   },
   "6ac61047-b03d-449f-bba2-ce9f6a9ef065": {
     "asset": 1690960185033,
     "meta": 1690960926880,
-    "relativePath": "resourcesBundle\\Images\\pet\\pet_game\\e30312.anim"
+    "relativePath": "ImagesBundle\\pet\\pet_game\\e30312.anim"
   },
   "a8c8ca07-fcbd-4874-bbb6-c69f8e7853a5": {
     "asset": 1690960187330,
     "meta": 1690960928209,
-    "relativePath": "resourcesBundle\\Images\\pet\\pet_game\\tuowei.prefab"
+    "relativePath": "ImagesBundle\\pet\\pet_game\\tuowei.prefab"
   },
   "88f37167-a30d-476f-bcac-0da541d3f241": {
     "asset": 1688719266017,
@@ -8632,7 +8622,7 @@
   "bdfa622c-97ad-486c-997d-998558d0470c": {
     "asset": 1690960185471,
     "meta": 1690960926895,
-    "relativePath": "resourcesBundle\\Images\\pet\\pet_game\\e30401.anim"
+    "relativePath": "ImagesBundle\\pet\\pet_game\\e30401.anim"
   },
   "72b38486-490e-4a57-b614-62ffa48c4c86": {
     "asset": 1689906848151,
@@ -8670,8 +8660,8 @@
     "relativePath": "resourcesBundle\\copy\\endlesschallenges\\rankingrewarddisplay.prefab"
   },
   "412e29cc-fda8-4b0c-9a59-4379f411324e": {
-    "asset": 1688719266087,
-    "meta": 1689133969002,
+    "asset": 1692675150900,
+    "meta": 1692675150907,
     "relativePath": "resourcesBundle\\copy\\endlesschallenges\\purchasesnumbe.prefab"
   },
   "a3ab57fd-7f14-4f6a-9015-31ef04d968b9": {
@@ -8702,7 +8692,7 @@
   "bd14cc48-8de4-4eb9-91b7-ecbdb3055bf6": {
     "asset": 1690960163816,
     "meta": 1690960928209,
-    "relativePath": "resourcesBundle\\Images\\monster\\elite6\\Monster_51_Bady.png"
+    "relativePath": "ImagesBundle\\monster\\elite6\\Monster_51_Bady.png"
   },
   "1d91a1b3-9b0b-44aa-8f52-b0ff452bcdb1": {
     "asset": 1690959801974,
@@ -8737,7 +8727,7 @@
   "b8823b9b-ffa0-4901-a61d-0e47f7d94710": {
     "asset": 1690960171847,
     "meta": 1690960928256,
-    "relativePath": "resourcesBundle\\Images\\monster\\youling\\you_ling.png"
+    "relativePath": "ImagesBundle\\monster\\youling\\you_ling.png"
   },
   "840921bd-ad7c-49fb-b283-ff4009a9e431": {
     "asset": 1690959803739,
@@ -8772,7 +8762,7 @@
   "a9c24fbc-b978-44ae-b49f-6e69734c82cf": {
     "asset": 1690960161020,
     "meta": 1690960928209,
-    "relativePath": "resourcesBundle\\Images\\monster\\elite4\\elite4.png"
+    "relativePath": "ImagesBundle\\monster\\elite4\\elite4.png"
   },
   "0549c6e7-4110-481c-8767-165d22724bf6": {
     "asset": 1690959806552,
@@ -8802,12 +8792,12 @@
   "1f876ac2-2926-4937-b7b6-c43e9f01222c": {
     "asset": 1690960127912,
     "meta": 1690960926848,
-    "relativePath": "resourcesBundle\\Images\\home\\wishing_ui\\wishing_card_red.png"
+    "relativePath": "ImagesBundle\\home\\wishing_ui\\wishing_card_red.png"
   },
   "7aea5f70-ebdf-489a-92ee-233714329454": {
     "asset": 1690960158942,
     "meta": 1690960926895,
-    "relativePath": "resourcesBundle\\Images\\monster\\elite1\\elite1.png"
+    "relativePath": "ImagesBundle\\monster\\elite1\\elite1.png"
   },
   "925233e0-6788-443b-85db-031276ceef51": {
     "asset": 1690959808818,
@@ -8847,7 +8837,7 @@
   "ab388981-3f50-4dda-b5d7-1c12972cc28a": {
     "asset": 1690960185908,
     "meta": 1690960928303,
-    "relativePath": "resourcesBundle\\Images\\pet\\pet_game\\Pet_Bing_AttackTailing.png"
+    "relativePath": "ImagesBundle\\pet\\pet_game\\Pet_Bing_AttackTailing.png"
   },
   "c1811b81-cb81-453f-bdac-d77e40236349": {
     "asset": 1690959811949,
@@ -8927,7 +8917,7 @@
   "34a6945d-6dcf-4f7d-be08-f80b2c870f0b": {
     "asset": 1690960169753,
     "meta": 1690960928272,
-    "relativePath": "resourcesBundle\\Images\\monster\\shuangjuren\\elite65.png"
+    "relativePath": "ImagesBundle\\monster\\shuangjuren\\elite65.png"
   },
   "22acd90d-d267-4e33-973d-631d0399fe75": {
     "asset": 1690959818692,
@@ -9017,7 +9007,7 @@
   "3308471d-6a59-41e1-bb03-f71856eb09e0": {
     "asset": 1690960153394,
     "meta": 1690960928225,
-    "relativePath": "resourcesBundle\\Images\\monster\\common\\monster_effects_2.png"
+    "relativePath": "ImagesBundle\\monster\\common\\monster_effects_2.png"
   },
   "bc525d9e-f904-4498-9ae0-39121ec121a2": {
     "asset": 1690959825957,
@@ -9052,7 +9042,7 @@
   "cd27942d-bb1b-4cfc-a662-0b9dea217108": {
     "asset": 1690960152425,
     "meta": 1690960928225,
-    "relativePath": "resourcesBundle\\Images\\monster\\common\\monster_effects.png"
+    "relativePath": "ImagesBundle\\monster\\common\\monster_effects.png"
   },
   "38beb528-fe2a-48e5-8dae-5db4f5742da4": {
     "asset": 1690959829083,
@@ -9572,7 +9562,7 @@
   "829ceb85-47a9-4c21-a734-4051e5a926a3": {
     "asset": 1690960135958,
     "meta": 1690960928209,
-    "relativePath": "resourcesBundle\\Images\\loading\\cartoon\\Loading_Comic.png"
+    "relativePath": "ImagesBundle\\loading\\cartoon\\Loading_Comic.png"
   },
   "88e19ca6-1293-45c7-8803-54ae7266714a": {
     "asset": 1690959875491,
@@ -9602,7 +9592,7 @@
   "a5e030db-22b8-4718-8b39-9a8ddf439ef4": {
     "asset": 1690960131755,
     "meta": 1690960928272,
-    "relativePath": "resourcesBundle\\Images\\home\\wishing_ui\\wishing_ui.png"
+    "relativePath": "ImagesBundle\\home\\wishing_ui\\wishing_ui.png"
   },
   "2f5b0e3f-365d-437b-92f6-fcc7473f25d8": {
     "asset": 1690959877756,
@@ -9777,7 +9767,7 @@
   "5f99c752-f700-4578-aad7-6eacd94b3ea8": {
     "asset": 1690960186846,
     "meta": 1690960928428,
-    "relativePath": "resourcesBundle\\Images\\pet\\pet_game\\pet_game.png"
+    "relativePath": "ImagesBundle\\pet\\pet_game\\pet_game.png"
   },
   "41c3a5ca-5bdf-437e-a1ac-01d1fc541eab": {
     "asset": 1690960255796,
@@ -11145,8 +11135,8 @@
     "relativePath": "resourcesBundle\\ui\\game\\endless_game_ui.prefab"
   },
   "58913f62-b0f7-4ff4-abfa-6d192b19c3db": {
-    "asset": 1692415148189,
-    "meta": 1692415148204,
+    "asset": 1692670280319,
+    "meta": 1692670280324,
     "relativePath": "resourcesBundle\\ui\\game\\fuhuo_ui.prefab"
   },
   "97241ac0-1c15-4059-a459-6a8b2f51b58c": {
@@ -13257,7 +13247,7 @@
   "5a43ddef-e2d1-4c07-80d0-a3b87e9d6197": {
     "asset": 1690960178831,
     "meta": 1690960931235,
-    "relativePath": "resourcesBundle\\Images\\pet\\effects\\common\\pet_common.plist"
+    "relativePath": "ImagesBundle\\pet\\effects\\common\\pet_common.plist"
   },
   "7ffb9c3b-1e02-4ce9-abdc-0443cbe1e419": {
     "asset": 1690960650440,
@@ -13307,7 +13297,7 @@
   "17af6c7a-5dc8-477a-b7ee-829f9c7e409e": {
     "asset": 1690960175628,
     "meta": 1690960928944,
-    "relativePath": "resourcesBundle\\Images\\pet\\effects\\common\\e30004.anim"
+    "relativePath": "ImagesBundle\\pet\\effects\\common\\e30004.anim"
   },
   "fe8d25b3-45eb-4360-ac25-b521cbe780a3": {
     "asset": 1688719266076,
@@ -13317,7 +13307,7 @@
   "954a6dca-4a6c-4db5-bec3-4107053e1537": {
     "asset": 1690960176065,
     "meta": 1690960928944,
-    "relativePath": "resourcesBundle\\Images\\pet\\effects\\common\\e30005.anim"
+    "relativePath": "ImagesBundle\\pet\\effects\\common\\e30005.anim"
   },
   "420db4ac-71dd-4200-b85c-8fee64763f77": {
     "asset": 1690960658152,
@@ -13327,12 +13317,12 @@
   "9d8c2ab8-0d9e-4917-b9c0-755502dc1f57": {
     "asset": 1690960176503,
     "meta": 1690960928944,
-    "relativePath": "resourcesBundle\\Images\\pet\\effects\\common\\e30006.anim"
+    "relativePath": "ImagesBundle\\pet\\effects\\common\\e30006.anim"
   },
   "817a34e2-2b15-44e0-9c6a-0ef91139f992": {
     "asset": 1690960176987,
     "meta": 1690960928944,
-    "relativePath": "resourcesBundle\\Images\\pet\\effects\\common\\e30007.anim"
+    "relativePath": "ImagesBundle\\pet\\effects\\common\\e30007.anim"
   },
   "f01c38dd-d9d1-49fa-afcd-3cd99d1f4ae8": {
     "asset": 1690960659771,
@@ -13342,17 +13332,17 @@
   "10427a61-6871-4f15-9adc-0182ce807dd0": {
     "asset": 1690960177424,
     "meta": 1690960928944,
-    "relativePath": "resourcesBundle\\Images\\pet\\effects\\common\\e30009.anim"
+    "relativePath": "ImagesBundle\\pet\\effects\\common\\e30009.anim"
   },
   "0d76326e-aea4-434c-8c4b-535857840a54": {
     "asset": 1690960177877,
     "meta": 1690960928944,
-    "relativePath": "resourcesBundle\\Images\\pet\\effects\\common\\e30010.anim"
+    "relativePath": "ImagesBundle\\pet\\effects\\common\\e30010.anim"
   },
   "0ac4d6ce-c9ff-4a24-a2ab-d0fa98c60aa2": {
     "asset": 1690960178331,
     "meta": 1690960928944,
-    "relativePath": "resourcesBundle\\Images\\pet\\effects\\common\\e30011.anim"
+    "relativePath": "ImagesBundle\\pet\\effects\\common\\e30011.anim"
   },
   "4a6d8cd9-fa85-462b-b9fa-7852d76f58e6": {
     "asset": 1690960661346,
@@ -13362,7 +13352,7 @@
   "cadecd06-9d9c-4cdb-af26-805bbb2257d6": {
     "asset": 1690960181127,
     "meta": 1690960928960,
-    "relativePath": "resourcesBundle\\Images\\pet\\effects\\common\\tuowei_1.prefab"
+    "relativePath": "ImagesBundle\\pet\\effects\\common\\tuowei_1.prefab"
   },
   "93f3c108-57a5-451e-9b1e-02b1f34a5591": {
     "asset": 1690960644515,
@@ -13372,7 +13362,7 @@
   "e1bd4446-da65-44c1-b959-48cea71cf4a9": {
     "asset": 1690960181596,
     "meta": 1690960928960,
-    "relativePath": "resourcesBundle\\Images\\pet\\effects\\common\\tuowei_2.prefab"
+    "relativePath": "ImagesBundle\\pet\\effects\\common\\tuowei_2.prefab"
   },
   "0fca7598-c874-4dcf-8bca-3ab99b2a34e1": {
     "asset": 1690960650897,
@@ -13382,7 +13372,7 @@
   "be75c86f-d0e5-4d12-b968-109cc94a6156": {
     "asset": 1690960182111,
     "meta": 1690960928960,
-    "relativePath": "resourcesBundle\\Images\\pet\\effects\\common\\tuowei_3.prefab"
+    "relativePath": "ImagesBundle\\pet\\effects\\common\\tuowei_3.prefab"
   },
   "422f1c44-c05e-4a28-ab97-b204ef0db56e": {
     "asset": 1690960652483,
@@ -13432,17 +13422,17 @@
   "2b396ee4-88b7-41d4-95d2-ee7259d9870b": {
     "asset": 1690960179737,
     "meta": 1690960928976,
-    "relativePath": "resourcesBundle\\Images\\pet\\effects\\common\\PTSpirit_Tail2.png"
+    "relativePath": "ImagesBundle\\pet\\effects\\common\\PTSpirit_Tail2.png"
   },
   "014a2fef-e95a-4172-96e7-2f26611d229f": {
     "asset": 1690960180190,
     "meta": 1690960928976,
-    "relativePath": "resourcesBundle\\Images\\pet\\effects\\common\\Spirit_JinTail2.png"
+    "relativePath": "ImagesBundle\\pet\\effects\\common\\Spirit_JinTail2.png"
   },
   "60d2550d-9015-4c7e-8d80-69c8aebb27c1": {
     "asset": 1690960180658,
     "meta": 1690960928976,
-    "relativePath": "resourcesBundle\\Images\\pet\\effects\\common\\Spirit_Tail2.png"
+    "relativePath": "ImagesBundle\\pet\\effects\\common\\Spirit_Tail2.png"
   },
   "93e93690-905d-40e0-9991-d8d5d3165416": {
     "asset": 1688719266049,
@@ -13777,7 +13767,7 @@
   "b5c9763d-5655-469e-a911-81c1e3a4bfdb": {
     "asset": 1690960179284,
     "meta": 1690960928960,
-    "relativePath": "resourcesBundle\\Images\\pet\\effects\\common\\pet_common.png"
+    "relativePath": "ImagesBundle\\pet\\effects\\common\\pet_common.png"
   },
   "3273ba1c-0cfe-413f-965d-094c20420b24": {
     "asset": 1690959904697,
@@ -13962,7 +13952,7 @@
   "841671b2-0a7b-429c-84c6-c464a227f12c": {
     "asset": 1690960189845,
     "meta": 1690960923317,
-    "relativePath": "resourcesBundle\\Images\\roguelike"
+    "relativePath": "ImagesBundle\\roguelike"
   },
   "167eff36-a174-4ff9-b0d2-8d402ee06905": {
     "asset": 1690960768555,
@@ -14162,22 +14152,22 @@
   "2ada9203-cdc0-4d7e-b84d-f430bc479714": {
     "asset": 1690960114788,
     "meta": 1690960926786,
-    "relativePath": "resourcesBundle\\Images\\home\\top_ui\\top_ui.png"
+    "relativePath": "ImagesBundle\\home\\top_ui\\top_ui.png"
   },
   "5fa52152-9c07-4942-91ee-561447fb0cc3": {
     "asset": 1690960114304,
     "meta": 1690960930371,
-    "relativePath": "resourcesBundle\\Images\\home\\top_ui\\top_ui.plist"
+    "relativePath": "ImagesBundle\\home\\top_ui\\top_ui.plist"
   },
   "ae934942-1512-4d65-b816-86e0ad7ef70a": {
     "asset": 1690960072692,
     "meta": 1690960926726,
-    "relativePath": "resourcesBundle\\Images\\hero\\zhen_de\\zhen_de.png"
+    "relativePath": "ImagesBundle\\hero\\zhen_de\\zhen_de.png"
   },
   "832434f9-e7e9-4370-8acf-2c5dc7b49ee5": {
     "asset": 1690960072239,
     "meta": 1690960930167,
-    "relativePath": "resourcesBundle\\Images\\hero\\zhen_de\\zhen_de.plist"
+    "relativePath": "ImagesBundle\\hero\\zhen_de\\zhen_de.plist"
   },
   "a7e88b7d-d2df-414d-a2c8-40a702399b6d": {
     "asset": 1690452529342,
@@ -14192,12 +14182,12 @@
   "db960f92-11a8-4b30-84eb-71af8e0fd40b": {
     "asset": 1690960063032,
     "meta": 1690960926613,
-    "relativePath": "resourcesBundle\\Images\\hero\\shou_wang\\shou_wang.png"
+    "relativePath": "ImagesBundle\\hero\\shou_wang\\shou_wang.png"
   },
   "7edcf3be-2879-4a09-bb10-3560007c781a": {
     "asset": 1690960062591,
     "meta": 1690960930152,
-    "relativePath": "resourcesBundle\\Images\\hero\\shou_wang\\shou_wang.plist"
+    "relativePath": "ImagesBundle\\hero\\shou_wang\\shou_wang.plist"
   },
   "817e4d7d-d8ab-40bf-bcc3-6e88da05e490": {
     "asset": 1690516597306,
@@ -14252,12 +14242,12 @@
   "326cc4d3-6b9c-4ba5-966c-937f9aeb1b6d": {
     "asset": 1690959994021,
     "meta": 1690960929352,
-    "relativePath": "resourcesBundle\\Images\\game_ui\\game_ui.plist"
+    "relativePath": "ImagesBundle\\game_ui\\game_ui.plist"
   },
   "d2c8e048-a55b-4197-886f-a63b3fe510d1": {
     "asset": 1690959994475,
     "meta": 1690960924390,
-    "relativePath": "resourcesBundle\\Images\\game_ui\\game_ui.png"
+    "relativePath": "ImagesBundle\\game_ui\\game_ui.png"
   },
   "7cc992be-5f1a-42e8-acec-b08ea5ef7e5b": {
     "asset": 1690960713105,
@@ -14287,12 +14277,12 @@
   "82f51454-3c56-4035-a4a8-bcddb6da2fe7": {
     "asset": 1690960189595,
     "meta": 1690960924657,
-    "relativePath": "resourcesBundle\\Images\\roguelike\\RogueLikeList.png"
+    "relativePath": "ImagesBundle\\roguelike\\RogueLikeList.png"
   },
   "1c3aaf5a-3455-43ba-b262-d380da8c8607": {
     "asset": 1690960189158,
     "meta": 1690960929415,
-    "relativePath": "resourcesBundle\\Images\\roguelike\\RogueLikeList.plist"
+    "relativePath": "ImagesBundle\\roguelike\\RogueLikeList.plist"
   },
   "574c52e1-baed-450e-a819-77f19b7508ba": {
     "asset": 1690879283043,
@@ -14350,8 +14340,8 @@
     "relativePath": "Scripts\\Hero\\Game\\SheShou\\SheShou.ts"
   },
   "1c831d67-588e-4e66-82d0-b96a6bd9c1cb": {
-    "asset": 1690962957859,
-    "meta": 1692585120854,
+    "asset": 1692612525228,
+    "meta": 1692668494828,
     "relativePath": "resourcesBundle"
   },
   "a256c81b-e0a9-4570-baa4-67f2f5a4a85b": {
@@ -14445,8 +14435,8 @@
     "relativePath": "Scripts\\UserData.ts"
   },
   "63c7b1ae-cd38-469f-83c4-20077abb9b51": {
-    "asset": 1691463661587,
-    "meta": 1691545130092,
+    "asset": 1692672289691,
+    "meta": 1692682892328,
     "relativePath": "startscene\\res"
   },
   "50821f43-f034-4108-af28-79346b06e433": {
@@ -14455,8 +14445,8 @@
     "relativePath": "Scripts\\Level\\MissionLevel.ts"
   },
   "b3689caf-f972-4610-b0ce-8f75f146cd85": {
-    "asset": 1692606860174,
-    "meta": 1692606860180,
+    "asset": 1692613614148,
+    "meta": 1692613614160,
     "relativePath": "startscene\\start.fire"
   },
   "e0fc9049-2efe-4ef6-bc6b-0c9b18359f6a": {
@@ -14538,11 +14528,6 @@
     "asset": 1691059493012,
     "meta": 1691059504836,
     "relativePath": "Scripts\\Hero\\Data\\HeroManager.ts"
-  },
-  "9bfbc1c4-405b-4ca4-b306-e8d3ba576f14": {
-    "asset": 1691219661795,
-    "meta": 1691225451599,
-    "relativePath": "startscene\\StartScene.ts"
   },
   "aa1e4122-cf61-4802-8cde-9f0b9957f3f4": {
     "asset": 1691115415580,
@@ -14746,502 +14731,502 @@
   },
   "9836134e-b892-4283-b6b2-78b5acf3ed45": {
     "asset": 1689133691081,
-    "meta": 1692324536091,
+    "meta": 1692842618952,
     "relativePath": "effects"
   },
   "abc2cb62-7852-4525-a90d-d474487b88f2": {
     "asset": 1689133691055,
-    "meta": 1692324536196,
+    "meta": 1692842619165,
     "relativePath": "effects\\builtin-phong.effect"
   },
   "e2f00085-c597-422d-9759-52c360279106": {
     "asset": 1689133691056,
-    "meta": 1692324536237,
+    "meta": 1692842619206,
     "relativePath": "effects\\builtin-toon.effect"
   },
   "430eccbf-bf2c-4e6e-8c0c-884bbb487f32": {
     "asset": 1689133691057,
-    "meta": 1692324536245,
+    "meta": 1692842619236,
     "relativePath": "effects\\__builtin-editor-gizmo-line.effect"
   },
   "6c5cf6e1-b044-4eac-9431-835644d57381": {
     "asset": 1689133691073,
-    "meta": 1692324536250,
+    "meta": 1692842619242,
     "relativePath": "effects\\__builtin-editor-gizmo-unlit.effect"
   },
   "115286d1-2e10-49ee-aab4-341583f607e8": {
     "asset": 1689133691076,
-    "meta": 1692324536273,
+    "meta": 1692842619264,
     "relativePath": "effects\\__builtin-editor-gizmo.effect"
   },
   "f8e6b000-5643-4b86-9080-aa680ce1f599": {
     "asset": 1689133691430,
-    "meta": 1692324536091,
+    "meta": 1692842618952,
     "relativePath": "image"
   },
   "5c3eedba-6c41-4c0c-9ba7-d91f813cbd1c": {
     "asset": 1689133691431,
-    "meta": 1692324536092,
+    "meta": 1692842618952,
     "relativePath": "materials"
   },
   "fc09f9bd-2cce-4605-b630-8145ef809ed6": {
     "asset": 1689133691512,
-    "meta": 1692324536093,
+    "meta": 1692842618952,
     "relativePath": "misc"
   },
   "db019bf7-f71c-4111-98cf-918ea180cb48": {
     "asset": 1689133691684,
-    "meta": 1692324536093,
+    "meta": 1692842618968,
     "relativePath": "model"
   },
   "e39e96e6-6f6e-413f-bcf1-ac7679bb648a": {
     "asset": 1689133691606,
-    "meta": 1692324536280,
+    "meta": 1692842619272,
     "relativePath": "model\\prefab"
   },
   "c4480a0a-6ac5-443f-8b40-361a14257fc8": {
     "asset": 1689133691431,
-    "meta": 1692324536835,
+    "meta": 1692842619783,
     "relativePath": "materials\\builtin-phong.mtl"
   },
   "a87cc147-01b2-43f8-8e42-a7ca90b0c757": {
     "asset": 1689133691590,
-    "meta": 1692324536736,
+    "meta": 1692842619735,
     "relativePath": "model\\prefab\\box.prefab"
   },
   "fe1417b6-fe6b-46a4-ae7c-9fd331f33a2a": {
     "asset": 1689133691590,
-    "meta": 1692324536741,
+    "meta": 1692842619733,
     "relativePath": "model\\prefab\\capsule.prefab"
   },
   "f6e6dd15-71d1-4ffe-ace7-24fd39942c05": {
     "asset": 1689133691700,
-    "meta": 1692324536094,
+    "meta": 1692842618968,
     "relativePath": "obsolete"
   },
   "f743d2b6-b7ea-4c14-a55b-547ed4d0a045": {
     "asset": 1689133691700,
-    "meta": 1692324536095,
+    "meta": 1692842618968,
     "relativePath": "particle"
   },
   "ae6c6c98-11e4-452f-8758-75f5c6a56e83": {
     "asset": 1689133691906,
-    "meta": 1692324536095,
+    "meta": 1692842618968,
     "relativePath": "prefab"
   },
   "e851e89b-faa2-4484-bea6-5c01dd9f06e2": {
     "asset": 1689133691128,
-    "meta": 1692324536447,
+    "meta": 1692842619479,
     "relativePath": "image\\default_btn_normal.png"
   },
   "d81ec8ad-247c-4e62-aa3c-d35c4193c7af": {
     "asset": 1689133691209,
-    "meta": 1692324536455,
+    "meta": 1692842619478,
     "relativePath": "image\\default_panel.png"
   },
   "71561142-4c83-4933-afca-cb7a17f67053": {
     "asset": 1689133691114,
-    "meta": 1692324536462,
+    "meta": 1692842619470,
     "relativePath": "image\\default_btn_disabled.png"
   },
   "600301aa-3357-4a10-b086-84f011fa32ba": {
     "asset": 1689133691097,
-    "meta": 1692324536460,
+    "meta": 1692842619489,
     "relativePath": "image\\default-particle.png"
   },
   "b5fc2cf2-7942-483d-be1f-bbeadc4714ad": {
     "asset": 1689133691590,
-    "meta": 1692324536734,
+    "meta": 1692842619734,
     "relativePath": "model\\prefab\\cone.prefab"
   },
   "edd215b9-2796-4a05-aaf5-81f96c9281ce": {
     "asset": 1689133691161,
-    "meta": 1692324536452,
+    "meta": 1692842619480,
     "relativePath": "image\\default_editbox_bg.png"
   },
   "cfef78f1-c8df-49b7-8ed0-4c953ace2621": {
     "asset": 1689133691272,
-    "meta": 1692324536453,
+    "meta": 1692842619480,
     "relativePath": "image\\default_progressbar.png"
   },
   "a3ee0214-b432-4865-9666-4a3211814282": {
     "asset": 1689133691715,
-    "meta": 1692324536465,
+    "meta": 1692842619491,
     "relativePath": "prefab\\light"
   },
   "b43ff3c2-02bb-4874-81f7-f2dea6970f18": {
     "asset": 1689133691131,
-    "meta": 1692324536468,
+    "meta": 1692842619477,
     "relativePath": "image\\default_btn_pressed.png"
   },
   "99170b0b-d210-46f1-b213-7d9e3f23098a": {
     "asset": 1689133691303,
-    "meta": 1692324536455,
+    "meta": 1692842619481,
     "relativePath": "image\\default_progressbar_bg.png"
   },
   "567dcd80-8bf4-4535-8a5a-313f1caf078a": {
     "asset": 1689133691337,
-    "meta": 1692324536461,
+    "meta": 1692842619483,
     "relativePath": "image\\default_radio_button_off.png"
   },
   "2be36297-9abb-4fee-8049-9ed5e271da8a": {
     "asset": 1689133691497,
-    "meta": 1692324536478,
+    "meta": 1692842619513,
     "relativePath": "misc\\default_video.mp4"
   },
   "1c5e4038-953a-44c2-b620-0bbfc6170477": {
     "asset": 1689133691590,
-    "meta": 1692324536734,
+    "meta": 1692842619733,
     "relativePath": "model\\prefab\\cylinder.prefab"
   },
   "9d60001f-b5f4-4726-a629-2659e3ded0b8": {
     "asset": 1689133691347,
-    "meta": 1692324536454,
+    "meta": 1692842619486,
     "relativePath": "image\\default_radio_button_on.png"
   },
   "4bab67cb-18e6-4099-b840-355f0473f890": {
     "asset": 1689133691386,
-    "meta": 1692324536477,
+    "meta": 1692842619493,
     "relativePath": "image\\default_scrollbar_bg.png"
   },
   "d6d3ca85-4681-47c1-b5dd-d036a9d39ea2": {
     "asset": 1689133691395,
-    "meta": 1692324536467,
+    "meta": 1692842619506,
     "relativePath": "image\\default_scrollbar_vertical.png"
   },
   "6c9ef10d-b479-420b-bfe6-39cdda6a8ae0": {
     "asset": 1689133691590,
-    "meta": 1692324536740,
+    "meta": 1692842619737,
     "relativePath": "model\\prefab\\quad.prefab"
   },
   "3f376125-a699-40ca-ad05-04d662eaa1f2": {
     "asset": 1689133691590,
-    "meta": 1692324536735,
+    "meta": 1692842619736,
     "relativePath": "model\\prefab\\plane.prefab"
   },
   "0275e94c-56a7-410f-bd1a-fc7483f7d14a": {
     "asset": 1689133691403,
-    "meta": 1692324536466,
+    "meta": 1692842619494,
     "relativePath": "image\\default_sprite_splash.png"
   },
   "2d9a4b85-b0ab-4c46-84c5-18f393ab2058": {
     "asset": 1689133691606,
-    "meta": 1692324536737,
+    "meta": 1692842619738,
     "relativePath": "model\\prefab\\sphere.prefab"
   },
   "de510076-056b-484f-b94c-83bef217d0e1": {
     "asset": 1689133691606,
-    "meta": 1692324536743,
+    "meta": 1692842619740,
     "relativePath": "model\\prefab\\torus.prefab"
   },
   "897ef7a1-4860-4f64-968d-f5924b18668a": {
     "asset": 1689133691700,
-    "meta": 1692324536484,
+    "meta": 1692842619514,
     "relativePath": "prefab\\2d-camera.prefab"
   },
   "0291c134-b3da-4098-b7b5-e397edbe947f": {
     "asset": 1689133691379,
-    "meta": 1692324536465,
+    "meta": 1692842619495,
     "relativePath": "image\\default_scrollbar.png"
   },
   "70bbeb73-6dc2-4ee4-8faf-76b3a0e34ec4": {
     "asset": 1689133691700,
-    "meta": 1692324536486,
+    "meta": 1692842619517,
     "relativePath": "prefab\\3d-particle.prefab"
   },
   "70d7cdb0-04cd-41bb-9480-c06a4785f386": {
     "asset": 1689133691700,
-    "meta": 1692324536485,
+    "meta": 1692842619516,
     "relativePath": "prefab\\3d-camera.prefab"
   },
   "6e056173-d285-473c-b206-40a7fff5386e": {
     "asset": 1689133691401,
-    "meta": 1692324536471,
+    "meta": 1692842619507,
     "relativePath": "image\\default_sprite.png"
   },
   "ed88f13d-fcad-4848-aa35-65a2cb973584": {
     "asset": 1689133691700,
-    "meta": 1692324536488,
+    "meta": 1692842619518,
     "relativePath": "prefab\\3d-stage.prefab"
   },
   "972b9a4d-47ee-4c74-b5c3-61d8a69bc29f": {
     "asset": 1689133691700,
-    "meta": 1692324536487,
+    "meta": 1692842619520,
     "relativePath": "prefab\\button.prefab"
   },
   "2c937608-2562-40ea-b264-7395df6f0cea": {
     "asset": 1689133691700,
-    "meta": 1692324536490,
+    "meta": 1692842619522,
     "relativePath": "prefab\\canvas.prefab"
   },
   "617323dd-11f4-4dd3-8eec-0caf6b3b45b9": {
     "asset": 1689133691399,
-    "meta": 1692324536476,
+    "meta": 1692842619504,
     "relativePath": "image\\default_scrollbar_vertical_bg.png"
   },
   "27756ebb-3d33-44b0-9b96-e858fadd4dd4": {
     "asset": 1689133691700,
-    "meta": 1692324536492,
+    "meta": 1692842619524,
     "relativePath": "prefab\\label.prefab"
   },
   "61aeb05b-3b32-452b-8eed-2b76deeed554": {
     "asset": 1689133691700,
-    "meta": 1692324536490,
+    "meta": 1692842619527,
     "relativePath": "prefab\\editbox.prefab"
   },
   "73a0903d-d80e-4e3c-aa67-f999543c08f5": {
     "asset": 1689133691411,
-    "meta": 1692324536480,
+    "meta": 1692842619498,
     "relativePath": "image\\default_toggle_checkmark.png"
   },
   "d8afc78c-4eac-4a9f-83dd-67bc70344d33": {
     "asset": 1689133692012,
-    "meta": 1692324536096,
+    "meta": 1692842618968,
     "relativePath": "resources"
   },
   "785a442c-3ceb-45be-a46e-7317f625f3b9": {
     "asset": 1689133691700,
-    "meta": 1692324536493,
+    "meta": 1692842619528,
     "relativePath": "prefab\\layout.prefab"
   },
   "c25b9d50-c8fc-4d27-beeb-6e7c1f2e5c0f": {
     "asset": 1689133691414,
-    "meta": 1692324536482,
+    "meta": 1692842619511,
     "relativePath": "image\\default_toggle_disabled.png"
   },
   "294c1663-4adf-4a1e-a795-53808011a38a": {
     "asset": 1689133692000,
-    "meta": 1692324536488,
+    "meta": 1692842619521,
     "relativePath": "resources\\effects"
   },
   "ca8401fe-ad6e-41a8-bd46-8e3e4e9945be": {
     "asset": 1689133691715,
-    "meta": 1692324536494,
+    "meta": 1692842619530,
     "relativePath": "prefab\\pageview.prefab"
   },
   "bbee2217-c261-49bd-a8ce-708d6bcc3500": {
     "asset": 1689133692077,
-    "meta": 1692324536489,
+    "meta": 1692842619522,
     "relativePath": "resources\\materials"
   },
   "30682f87-9f0d-4f17-8a44-72863791461b": {
     "asset": 1689133691914,
-    "meta": 1692324536506,
+    "meta": 1692842619545,
     "relativePath": "resources\\effects\\builtin-2d-graphics.effect"
   },
   "b181c1e4-0a72-4a91-bfb0-ae6f36ca60bd": {
     "asset": 1689133691429,
-    "meta": 1692324536482,
+    "meta": 1692842619512,
     "relativePath": "image\\default_toggle_pressed.png"
   },
   "144c3297-af63-49e8-b8ef-1cfa29b3be28": {
     "asset": 1689133691926,
-    "meta": 1692324536512,
+    "meta": 1692842619553,
     "relativePath": "resources\\effects\\builtin-2d-gray-sprite.effect"
   },
   "f18742d7-56d2-4eb5-ae49-2d9d710b37c8": {
     "asset": 1689133691937,
-    "meta": 1692324536518,
+    "meta": 1692842619560,
     "relativePath": "resources\\effects\\builtin-2d-label.effect"
   },
   "d29077ba-1627-4a72-9579-7b56a235340c": {
     "asset": 1689133691419,
-    "meta": 1692324536475,
+    "meta": 1692842619523,
     "relativePath": "image\\default_toggle_normal.png"
   },
   "cd33edea-55f5-46c2-958d-357a01384a36": {
     "asset": 1689133691731,
-    "meta": 1692324536496,
+    "meta": 1692842619531,
     "relativePath": "prefab\\particlesystem.prefab"
   },
   "0e93aeaa-0b53-4e40-b8e0-6268b4e07bd7": {
     "asset": 1689133691953,
-    "meta": 1692324536524,
+    "meta": 1692842619568,
     "relativePath": "resources\\effects\\builtin-2d-spine.effect"
   },
   "5965ffac-69da-4b55-bcde-9225d0613c28": {
     "asset": 1689133691731,
-    "meta": 1692324536497,
+    "meta": 1692842619532,
     "relativePath": "prefab\\progressBar.prefab"
   },
   "2874f8dd-416c-4440-81b7-555975426e93": {
     "asset": 1689133691954,
-    "meta": 1692324536540,
+    "meta": 1692842619587,
     "relativePath": "resources\\effects\\builtin-2d-sprite.effect"
   },
   "4a37dd57-78cd-4cec-aad4-f11a73d12b63": {
     "asset": 1689133691747,
-    "meta": 1692324536495,
+    "meta": 1692842619535,
     "relativePath": "prefab\\richtext.prefab"
   },
   "829a282c-b049-4019-bd38-5ace8d8a6417": {
     "asset": 1689133691964,
-    "meta": 1692324536589,
+    "meta": 1692842619654,
     "relativePath": "resources\\effects\\builtin-3d-particle.effect"
   },
   "32044bd2-481f-4cf1-a656-e2b2fb1594eb": {
     "asset": 1689133691763,
-    "meta": 1692324536498,
+    "meta": 1692842619533,
     "relativePath": "prefab\\scrollview.prefab"
   },
   "2a7c0036-e0b3-4fe1-8998-89a54b8a2bec": {
     "asset": 1689133691978,
-    "meta": 1692324536605,
+    "meta": 1692842619702,
     "relativePath": "resources\\effects\\builtin-3d-trail.effect"
   },
   "c0040c95-c57f-49cd-9cbc-12316b73d0d4": {
     "asset": 1689133691986,
-    "meta": 1692324536610,
+    "meta": 1692842619708,
     "relativePath": "resources\\effects\\builtin-clear-stencil.effect"
   },
   "6d91e591-4ce0-465c-809f-610ec95019c6": {
     "asset": 1689133691995,
-    "meta": 1692324536619,
+    "meta": 1692842619718,
     "relativePath": "resources\\effects\\builtin-unlit.effect"
   },
   "0004d1cf-a0ad-47d8-ab17-34d3db9d35a3": {
     "asset": 1689133691778,
-    "meta": 1692324536499,
+    "meta": 1692842619536,
     "relativePath": "prefab\\slider.prefab"
   },
   "96083d03-c332-4a3f-9386-d03e2d19e8ee": {
     "asset": 1689133691794,
-    "meta": 1692324536497,
+    "meta": 1692842619537,
     "relativePath": "prefab\\sprite.prefab"
   },
   "1f55e3be-b89b-4b79-88de-47fd31018044": {
     "asset": 1689133691809,
-    "meta": 1692324536519,
+    "meta": 1692842619546,
     "relativePath": "prefab\\sprite_splash.prefab"
   },
   "7de03a80-4457-438d-95a7-3e7cdffd6086": {
     "asset": 1689133691809,
-    "meta": 1692324536525,
+    "meta": 1692842619721,
     "relativePath": "prefab\\tiledmap.prefab"
   },
   "0e42ba95-1fa1-46aa-b2cf-143cd1bcee2c": {
     "asset": 1689133691858,
-    "meta": 1692324536620,
+    "meta": 1692842619722,
     "relativePath": "prefab\\tiledtile.prefab"
   },
   "0d784963-d024-4ea6-a7db-03be0ad63010": {
     "asset": 1689133691874,
-    "meta": 1692324536651,
+    "meta": 1692842619728,
     "relativePath": "prefab\\toggle.prefab"
   },
   "d1b8be49-b0a0-435c-83b7-552bed4bbe35": {
     "asset": 1689133691901,
-    "meta": 1692324536727,
+    "meta": 1692842619731,
     "relativePath": "prefab\\toggleGroup.prefab"
   },
   "8c5001fd-07ee-4a4b-a8a0-63e15195e94d": {
     "asset": 1689133691906,
-    "meta": 1692324536732,
+    "meta": 1692842619732,
     "relativePath": "prefab\\webview.prefab"
   },
   "232d2782-c4bd-4bb4-9e01-909f03d6d3b9": {
     "asset": 1689133691903,
-    "meta": 1692324536729,
+    "meta": 1692842619726,
     "relativePath": "prefab\\videoplayer.prefab"
   },
   "bf0a434c-84dd-4a8e-a08a-7a36f180cc75": {
     "asset": 1689133691888,
-    "meta": 1692324536654,
+    "meta": 1692842619729,
     "relativePath": "prefab\\toggleContainer.prefab"
   },
   "ddb99b39-7004-47cd-9705-751905c43c46": {
     "asset": 1689133691700,
-    "meta": 1692324536744,
+    "meta": 1692842619738,
     "relativePath": "prefab\\light\\directional.prefab"
   },
   "f5331fd2-bf42-4ee3-a3fd-3e1657600eff": {
     "asset": 1689133691715,
-    "meta": 1692324536748,
+    "meta": 1692842619741,
     "relativePath": "prefab\\light\\spot.prefab"
   },
   "0cf30284-9073-46bc-9eba-e62b69dbbff3": {
     "asset": 1689133691715,
-    "meta": 1692324536747,
+    "meta": 1692842619739,
     "relativePath": "prefab\\light\\point.prefab"
   },
   "61906da3-7003-4bda-9abc-5769c76faee4": {
     "asset": 1689133691700,
-    "meta": 1692324536746,
+    "meta": 1692842619740,
     "relativePath": "prefab\\light\\ambient.prefab"
   },
   "6f801092-0c37-4f30-89ef-c8d960825b36": {
     "asset": 1689133692013,
-    "meta": 1692324536854,
+    "meta": 1692842619804,
     "relativePath": "resources\\materials\\builtin-2d-base.mtl"
   },
   "a153945d-2511-4c14-be7b-05d242f47d57": {
     "asset": 1689133692014,
-    "meta": 1692324536855,
+    "meta": 1692842619805,
     "relativePath": "resources\\materials\\builtin-2d-graphics.mtl"
   },
   "3a7bb79f-32fd-422e-ada2-96f518fed422": {
     "asset": 1689133692018,
-    "meta": 1692324536856,
+    "meta": 1692842619805,
     "relativePath": "resources\\materials\\builtin-2d-gray-sprite.mtl"
   },
   "7afd064b-113f-480e-b793-8817d19f63c3": {
     "asset": 1689133692036,
-    "meta": 1692324536857,
+    "meta": 1692842619806,
     "relativePath": "resources\\materials\\builtin-2d-spine.mtl"
   },
   "e02d87d4-e599-4d16-8001-e14891ac6506": {
     "asset": 1689133692028,
-    "meta": 1692324536855,
+    "meta": 1692842619806,
     "relativePath": "resources\\materials\\builtin-2d-label.mtl"
   },
   "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432": {
     "asset": 1689133692044,
-    "meta": 1692324536857,
+    "meta": 1692842619807,
     "relativePath": "resources\\materials\\builtin-2d-sprite.mtl"
   },
   "432fa09c-cf03-4cff-a186-982604408a07": {
     "asset": 1689133692047,
-    "meta": 1692324536859,
+    "meta": 1692842619809,
     "relativePath": "resources\\materials\\builtin-3d-particle.mtl"
   },
   "466d4f9b-e5f4-4ea8-85d5-3c6e9a65658a": {
     "asset": 1689133692051,
-    "meta": 1692324536858,
+    "meta": 1692842619808,
     "relativePath": "resources\\materials\\builtin-3d-trail.mtl"
   },
   "cf7e0bb8-a81c-44a9-ad79-d28d43991032": {
     "asset": 1689133692065,
-    "meta": 1692324536858,
+    "meta": 1692842619807,
     "relativePath": "resources\\materials\\builtin-clear-stencil.mtl"
   },
   "2a296057-247c-4a1c-bbeb-0548b6c98650": {
     "asset": 1689133692076,
-    "meta": 1692324536858,
+    "meta": 1692842619808,
     "relativePath": "resources\\materials\\builtin-unlit.mtl"
   },
   "8a96b965-2dc0-4e03-aa90-3b79cb93b5b4": {
     "asset": 1689133691700,
-    "meta": 1692324536491,
+    "meta": 1692842619554,
     "relativePath": "obsolete\\atom.png"
   },
   "d0a82d39-bede-46c4-b698-c81ff0dedfff": {
     "asset": 1689133691700,
-    "meta": 1692324536512,
+    "meta": 1692842619561,
     "relativePath": "particle\\atom.png"
   },
   "b2687ac4-099e-403c-a192-ff477686f4f5": {
     "asset": 1689133691700,
-    "meta": 1692324536877,
+    "meta": 1692842619825,
     "relativePath": "particle\\atom.plist"
   },
   "b8223619-7e38-47c4-841f-9160c232495a": {
     "asset": 1689133691700,
-    "meta": 1692324536876,
+    "meta": 1692842619826,
     "relativePath": "obsolete\\atom.plist"
   },
   "954fec8b-cd16-4bb9-a3b7-7719660e7558": {
     "asset": 1689133691684,
-    "meta": 1692324540720,
+    "meta": 1692842623594,
     "relativePath": "model\\primitives.fbx"
   },
   "725dbc87-61d9-4c10-ad7b-44a346756199": {
@@ -15379,16 +15364,6 @@
     "meta": 1692606441714,
     "relativePath": "Scripts\\copy\\endlesschallenges\\purchasesnumbe.ts"
   },
-  "ff3182d5-470e-4d2e-b2b9-1dab49980ade": {
-    "asset": 1692605925003,
-    "meta": 1692606441773,
-    "relativePath": "Scripts\\GuaJi\\Ui\\FastGuaJiUi.ts"
-  },
-  "2c3a3216-77be-4f6f-bc72-de785e68a5a7": {
-    "asset": 1692606060990,
-    "meta": 1692606442076,
-    "relativePath": "Scripts\\Store\\StoreUi.ts"
-  },
   "60c316b8-35bc-4849-8520-30c4c2d4cb79": {
     "asset": 1692605823349,
     "meta": 1692606442126,
@@ -15443,5 +15418,40 @@
     "asset": 1692606983946,
     "meta": 1692607020034,
     "relativePath": "resourcesBundle\\sp\\language_sprite.plist"
+  },
+  "64f7c234-72de-49c9-9d93-95181af372be": {
+    "asset": 1692613593187,
+    "meta": 1692613931213,
+    "relativePath": "ImagesBundle"
+  },
+  "9bfbc1c4-405b-4ca4-b306-e8d3ba576f14": {
+    "asset": 1692613627552,
+    "meta": 1692613630269,
+    "relativePath": "startscene\\StartScene.ts"
+  },
+  "37bd0639-d7c7-4c02-8a77-982e56da8709": {
+    "asset": 1692668425019,
+    "meta": 1692668536997,
+    "relativePath": "startscene\\res\\videoIcon.png"
+  },
+  "ff3182d5-470e-4d2e-b2b9-1dab49980ade": {
+    "asset": 1692671307467,
+    "meta": 1692671334284,
+    "relativePath": "Scripts\\GuaJi\\Ui\\FastGuaJiUi.ts"
+  },
+  "e32d1d7e-f58b-4eb6-8b65-1a1f4fd171b0": {
+    "asset": 1692671411549,
+    "meta": 1692671414670,
+    "relativePath": "Scripts\\JsonData\\TextManagement.ts"
+  },
+  "3f8a69a9-2186-456f-84c9-a08b8ca605b0": {
+    "asset": 1692672522867,
+    "meta": 1692672545214,
+    "relativePath": "startscene\\res\\videoIcon2.png"
+  },
+  "2c3a3216-77be-4f6f-bc72-de785e68a5a7": {
+    "asset": 1692674930795,
+    "meta": 1692674976091,
+    "relativePath": "Scripts\\Store\\StoreUi.ts"
   }
 }

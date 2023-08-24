@@ -73,6 +73,8 @@ export class TextManagementManager {
     }
     /**根据文本ID获取汉语 */
     public getChinese(id:number): string {
+       
+       
         return this.data.get(id).Chinese;
     }
     /**根据文本ID获取印尼语 */
