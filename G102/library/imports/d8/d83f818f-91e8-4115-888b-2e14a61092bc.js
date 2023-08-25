@@ -42,8 +42,10 @@ var MonsterManager_1 = require("../../Monster/MonsterManager");
 var MazeManager_1 = require("../../Maze/MazeManager");
 var FunctionDefinition_1 = require("../../JsonData/FunctionDefinition");
 var WallManager_1 = require("../../Wall/WallManager");
+var UIConfig_1 = require("../../UI/UIConfig");
 var PayManager_1 = require("../../Payment/PayManager");
 var RogueHexagonTypes_1 = require("../../copy/voidcrack/RogueHexagonTypes");
+var Turmtable_1 = require("../../Turntable/Turmtable");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var GameLose = /** @class */ (function (_super) {
     __extends(GameLose, _super);
@@ -231,33 +233,38 @@ var GameLose = /** @class */ (function (_super) {
                 return;
             }
         }
-        if (goType == Constants_1.Go_Type.Activity) {
-            // if(FunctionDefinitionManager.getInstance().getIsUnlockIndex(Btn_Index.Btn_FuBen)==false){
-            var type = FunctionDefinition_1.FunctionDefinitionManager.getInstance().getUnlockConditionType(Constants_1.FuncType.GeRenBoss);
-            var num = FunctionDefinition_1.FunctionDefinitionManager.getInstance().getUnlockCondictionParameter(Constants_1.FuncType.GeRenBoss);
-            if (LevelManager_1.LevelManager.getInstance().finish_level < num) {
-                if (type == 1) {
-                    GameManager_1.default.getInstance().showMessage(LanguageManager_1.default.getInstance().getStrByTextId(100051) + ":" + num);
-                }
-                else if (type == 2) {
-                    var textStr = LanguageManager_1.default.getInstance().getStrByTextId(100052);
-                    var nums = MissionLevel_1.MissionLevelManager.getInstance().getLevelName((num));
-                    var str = textStr.replace('~', '' + nums);
-                    GameManager_1.default.getInstance().showMessage(str);
-                }
-                return;
-            }
-            // let textStr=LanguageManager.getInstance().getStrByTextId(100052);
-            // let nums="3-10"//MissionLevelManager.getInstance().getLevelName((num))
-            // let str=textStr.replace('~',''+nums)
-            // GameManager.getInstance().showMessage(str);
-            // }
-        }
+        // if(goType==Go_Type.Activity){
+        //     // if(FunctionDefinitionManager.getInstance().getIsUnlockIndex(Btn_Index.Btn_FuBen)==false){
+        //         let type=FunctionDefinitionManager.getInstance().getUnlockConditionType(FuncType.GeRenBoss)
+        //         let num=FunctionDefinitionManager.getInstance().getUnlockCondictionParameter(FuncType.GeRenBoss)
+        //         if(LevelManager.getInstance().finish_level<num){
+        //             if(type==1){
+        //                 GameManager.getInstance().showMessage(LanguageManager.getInstance().getStrByTextId(100051)+":"+num);
+        //             }else if(type==2){
+        //                 let textStr=LanguageManager.getInstance().getStrByTextId(100052);
+        //                 let nums=MissionLevelManager.getInstance().getLevelName((num))
+        //                 let str=textStr.replace('~',''+nums)
+        //                 GameManager.getInstance().showMessage(str);
+        //             }
+        //             return;
+        //         }
+        //         // let textStr=LanguageManager.getInstance().getStrByTextId(100052);
+        //         // let nums="3-10"//MissionLevelManager.getInstance().getLevelName((num))
+        //         // let str=textStr.replace('~',''+nums)
+        //         // GameManager.getInstance().showMessage(str);
+        //     // }
+        // }
         if (goType == 1) {
             FollowManager_1.default.getInstance().followEvent(FollowConstants_1.Follow_Type.失败页_强化养成跳转按钮点击次数);
         }
         if (goType == 10) {
+            var um = UIManager_1.UIManager.getInstance();
             FollowManager_1.default.getInstance().followEvent(FollowConstants_1.Follow_Type.失败页_获取资源跳转按钮点击次数);
+            FollowManager_1.default.getInstance().followEvent(FollowConstants_1.Follow_Type.转盘的打开次数);
+            um.showUiDialog(UIConfig_1.UIPath.Turntable, UIConfig_1.UILayerLevel.One, { onCompleted: function (uiNode) {
+                    uiNode.getComponent(Turmtable_1.default).initUi();
+                }, }); //转盘
+            return;
         }
         if (goType == 9) {
             FollowManager_1.default.getInstance().followEvent(FollowConstants_1.Follow_Type.失败页_前往商城跳转按钮点击次数);

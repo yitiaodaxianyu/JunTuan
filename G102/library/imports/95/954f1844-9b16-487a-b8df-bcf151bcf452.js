@@ -42,7 +42,10 @@ var googldId = "c601";
 var SignInBuyUi = /** @class */ (function (_super) {
     __extends(SignInBuyUi, _super);
     function SignInBuyUi() {
-        return _super !== null && _super.apply(this, arguments) || this;
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.putong = null;
+        _this.shuangbei = null;
+        return _this;
     }
     SignInBuyUi.prototype.init = function (uiAc) {
         _super.prototype.init.call(this, uiAc);
@@ -83,6 +86,14 @@ var SignInBuyUi = /** @class */ (function (_super) {
         //     content.addChild(item);
         // })
         // this.node.getChildByName("sure").getComponentInChildren(cc.Label).string = payInfo.price;
+        this.putong = this.node.getChildByName("putong");
+        this.shuangbei = this.node.getChildByName("shuangbei");
+        var index = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.NewPlayerSavenDaySignInNum, 0);
+        var data = SignIn_1.SignInManager.getInstance().getDataBySignInType(SignIn_1.SignInType.SavenDay);
+        var reward = PropManager_1.PropManager.getInstance().createPropItem(data[index].Item, data[index].Num);
+        var reward2 = PropManager_1.PropManager.getInstance().createPropItem(data[index].Item, data[index].Num * 2);
+        this.putong.addChild(reward);
+        this.shuangbei.addChild(reward2);
     };
     SignInBuyUi.prototype.onClickSureBtn = function () {
         // FollowManager.getInstance().followEvent(Follow_Type.点击解锁5倍奖励的购买成功次数);

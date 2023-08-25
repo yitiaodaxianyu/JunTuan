@@ -23,6 +23,9 @@ const googldId = "c601";
 @ccclass
 export default class SignInBuyUi extends UIComponent {
 
+    putong: cc.Node = null;
+
+    shuangbei: cc.Node = null;
     init(uiAc: UiAction): void {
         super.init(uiAc);
     }
@@ -64,6 +67,15 @@ export default class SignInBuyUi extends UIComponent {
         //     content.addChild(item);
         // })
         // this.node.getChildByName("sure").getComponentInChildren(cc.Label).string = payInfo.price;
+        this.putong= this.node.getChildByName("putong")
+        this.shuangbei= this.node.getChildByName("shuangbei")
+        let index = TheStorageManager.getInstance().getNumber(StorageKey.NewPlayerSavenDaySignInNum, 0);
+        let data = SignInManager.getInstance().getDataBySignInType(SignInType.SavenDay);
+        let reward = PropManager.getInstance().createPropItem(data[index].Item, data[index].Num);
+        let reward2 = PropManager.getInstance().createPropItem(data[index].Item, data[index].Num * 2);
+        this.putong.addChild(reward);
+        this.shuangbei.addChild(reward2);
+        
     }
 
     onClickSureBtn(){

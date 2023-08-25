@@ -28,6 +28,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var UIComponent_1 = require("../../Scripts/UI/UIComponent");
+var Constants_1 = require("../Constants");
 var GameManager_1 = require("../GameManager");
 var FollowConstants_1 = require("../multiLanguage/FollowConstants");
 var FollowManager_1 = require("../multiLanguage/FollowManager");
@@ -166,7 +167,7 @@ var Turmtable = /** @class */ (function (_super) {
     Turmtable.prototype.onClicbtnSpin = function (type) {
         var _this = this;
         if (type == 0) {
-            if (StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.TurmtableAd, 0) > 20) {
+            if (StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.TurmtableAd, 0) > 99999) {
                 // 没次数提示100120
                 GameManager_1.default.getInstance().showMessage(LanguageManager_1.default.getInstance().getStrByTextId(1700004), 3);
             }
@@ -318,8 +319,10 @@ var Turmtable = /** @class */ (function (_super) {
                     StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.TurmtableFreeYes, 0);
                     StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.TurmtableFreeTime, GameManager_1.default.getInstance().tumTableTime);
                 }
-                cc.find('Canvas/main_ui').getComponent(MainUi_1.default).refreshMainTaskUi();
                 _this.Refresh();
+                if (GameManager_1.default.getInstance().cur_game_scene == Constants_1.GameScene.home) {
+                    cc.find('Canvas/main_ui').getComponent(MainUi_1.default).refreshMainTaskUi();
+                }
                 // let num=TheStorageManager.getInstance().getNumber(StorageKey.TurmtableFreeYes, 0);
                 // let times=TheStorageManager.getInstance().getNumber(StorageKey.TurmtableFreeTime, 900);
                 // Times.timetxt.getComponent(cc.Label).string=""+PublicMethods.timeconversions(times)

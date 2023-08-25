@@ -8,15 +8,15 @@
       "DayID": 101,
       "Day": 1,
       "Daytype": 1,
-      "Item": 10001,
-      "Num": 8000
+      "Item": 100012,
+      "Num": 10
     },
     {
       "DayID": 102,
       "Day": 2,
       "Daytype": 1,
-      "Item": 40004,
-      "Num": 10
+      "Item": 10002,
+      "Num": 2700
     },
     {
       "DayID": 103,
@@ -29,15 +29,15 @@
       "DayID": 104,
       "Day": 4,
       "Daytype": 1,
-      "Item": 40005,
-      "Num": 10
+      "Item": 10002,
+      "Num": 2700
     },
     {
       "DayID": 105,
       "Day": 5,
       "Daytype": 1,
-      "Item": 10002,
-      "Num": 2700
+      "Item": 40004,
+      "Num": 10
     },
     {
       "DayID": 106,

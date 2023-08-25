@@ -79,7 +79,7 @@ var Hero = /** @class */ (function (_super) {
         //技能剩余的冷却时间
         _this.skill_cd_time = 0;
         /**主动技能技能最大冷却*/
-        _this.skill_total_time = 8;
+        _this.skill_total_time = 6;
         /**施法距离 */
         _this.casting_distance = 1000;
         /**子弹速度 */

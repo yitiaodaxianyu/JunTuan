@@ -24,6 +24,7 @@ import MainUi from "../../UI/home/MainUi";
 import { UIPath, UILayerLevel } from "../../UI/UIConfig";
 import { PayManager } from "../../Payment/PayManager";
 import { RogueHexagonTypesManager } from "../../copy/voidcrack/RogueHexagonTypes";
+import Turmtable from "../../Turntable/Turmtable";
 
 
 const {ccclass, property} = cc._decorator;
@@ -208,34 +209,41 @@ export default class GameLose extends UIComponent {
             }
             
         }
-        if(goType==Go_Type.Activity){
-            // if(FunctionDefinitionManager.getInstance().getIsUnlockIndex(Btn_Index.Btn_FuBen)==false){
-                let type=FunctionDefinitionManager.getInstance().getUnlockConditionType(FuncType.GeRenBoss)
-                let num=FunctionDefinitionManager.getInstance().getUnlockCondictionParameter(FuncType.GeRenBoss)
-                if(LevelManager.getInstance().finish_level<num){
-                    if(type==1){
-                        GameManager.getInstance().showMessage(LanguageManager.getInstance().getStrByTextId(100051)+":"+num);
-                    }else if(type==2){
-                        let textStr=LanguageManager.getInstance().getStrByTextId(100052);
-                        let nums=MissionLevelManager.getInstance().getLevelName((num))
-                        let str=textStr.replace('~',''+nums)
-                        GameManager.getInstance().showMessage(str);
-                    }
-                    return;
-                }
-                // let textStr=LanguageManager.getInstance().getStrByTextId(100052);
-                // let nums="3-10"//MissionLevelManager.getInstance().getLevelName((num))
-                // let str=textStr.replace('~',''+nums)
-                // GameManager.getInstance().showMessage(str);
+        // if(goType==Go_Type.Activity){
+        //     // if(FunctionDefinitionManager.getInstance().getIsUnlockIndex(Btn_Index.Btn_FuBen)==false){
+        //         let type=FunctionDefinitionManager.getInstance().getUnlockConditionType(FuncType.GeRenBoss)
+        //         let num=FunctionDefinitionManager.getInstance().getUnlockCondictionParameter(FuncType.GeRenBoss)
+        //         if(LevelManager.getInstance().finish_level<num){
+        //             if(type==1){
+        //                 GameManager.getInstance().showMessage(LanguageManager.getInstance().getStrByTextId(100051)+":"+num);
+        //             }else if(type==2){
+        //                 let textStr=LanguageManager.getInstance().getStrByTextId(100052);
+        //                 let nums=MissionLevelManager.getInstance().getLevelName((num))
+        //                 let str=textStr.replace('~',''+nums)
+        //                 GameManager.getInstance().showMessage(str);
+        //             }
+        //             return;
+        //         }
+        //         // let textStr=LanguageManager.getInstance().getStrByTextId(100052);
+        //         // let nums="3-10"//MissionLevelManager.getInstance().getLevelName((num))
+        //         // let str=textStr.replace('~',''+nums)
+        //         // GameManager.getInstance().showMessage(str);
 
-            // }
+        //     // }
 
-        }
+        // }
         if(goType==1){
             FollowManager.getInstance().followEvent(Follow_Type.失败页_强化养成跳转按钮点击次数);
         }
         if(goType==10){
+            let um=UIManager.getInstance();
             FollowManager.getInstance().followEvent(Follow_Type.失败页_获取资源跳转按钮点击次数);
+            FollowManager.getInstance().followEvent(Follow_Type.转盘的打开次数);
+            um.showUiDialog(UIPath.Turntable,UILayerLevel.One,{onCompleted:(uiNode)=> {
+                uiNode.getComponent(Turmtable).initUi()
+            },});//转盘
+
+            return;
         }
         if(goType==9){
             FollowManager.getInstance().followEvent(Follow_Type.失败页_前往商城跳转按钮点击次数);

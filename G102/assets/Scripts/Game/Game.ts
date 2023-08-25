@@ -1107,12 +1107,15 @@ export default class Game extends cc.Component {
                 if (TutorailsManager.getInstance().isShowTutorials(211)) {
                     TutorailsManager.getInstance().is_tutorails_state = true;
                     GameManager.getInstance().setGameRate(1 / JiaSu);
+
+                    
                     TutorailsManager.getInstance().showTutorials(211, null, () => {
                         TutorailsManager.getInstance().showTutorials(212, null, () => {
                             TutorailsManager.getInstance().showTutorials(213, () => {
                                 TutorailsManager.getInstance().saveTutorials(211);
                                 TutorailsManager.getInstance().saveTutorials(212);
                                 TutorailsManager.getInstance().saveTutorials(213);
+                                
                             }, () => {
                                 GameManager.getInstance().setGameRate(1);
                             });

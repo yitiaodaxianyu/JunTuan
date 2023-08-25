@@ -105,7 +105,6 @@ var Home = /** @class */ (function (_super) {
         //     }        
         // }
     }
-    Home_1 = Home;
     Home.prototype.onLoad = function () {
         this.adaptation();
         TaskManager_1.default.getInstance().emitTask(TaskEnum_1.TaskItem.登录X次游戏);
@@ -558,20 +557,24 @@ var Home = /** @class */ (function (_super) {
         // },});
         var gm = GameManager_1.default.getInstance();
         gm.sound_manager.playSound(AudioConstants_1.SoundIndex.click);
-        if (cc.find('Canvas').getComponent(Home_1).cur_selected_index == Constants_1.Btn_Index.Btn_City) {
-            cc.find('Canvas/store_ui/scroll').getComponent(cc.ScrollView).scrollToBottom(2);
-            GameManager_1.default.getInstance().game_to_home = Constants_1.Go_Type.City;
-            GameManager_1.default.getInstance().jumoAndShowUi();
-            UIManager_1.UIManager.getInstance().closeAllUiDialog(UIConfig_1.UILayerLevel.One);
-            return;
-        }
-        else {
-            UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.CoinPop, UIConfig_1.UILayerLevel.One, {
-                onCompleted: function (uiNode) {
-                    uiNode.getComponent(CoinPop_1.default).initUi(PropConfig_1.PropId.Gem);
-                },
-            });
-        }
+        UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.CoinPop, UIConfig_1.UILayerLevel.One, {
+            onCompleted: function (uiNode) {
+                uiNode.getComponent(CoinPop_1.default).initUi(PropConfig_1.PropId.Gem);
+            },
+        });
+        // if (cc.find('Canvas').getComponent(Home).cur_selected_index == Btn_Index.Btn_City) {
+        //     cc.find('Canvas/store_ui/scroll').getComponent(cc.ScrollView).scrollToBottom(2);
+        //     GameManager.getInstance().game_to_home = Go_Type.City;
+        //     GameManager.getInstance().jumoAndShowUi();
+        //     UIManager.getInstance().closeAllUiDialog(UILayerLevel.One);
+        //     return;
+        // } else {
+        //     UIManager.getInstance().showUiDialog(UIPath.CoinPop, UILayerLevel.One, {
+        //         onCompleted: (uiNode) => {
+        //             uiNode.getComponent(CoinPop).initUi(PropId.Gem)
+        //         },
+        //     });
+        // }
     };
     Home.prototype.clickBtnSetting = function () {
         var _this = this;
@@ -766,7 +769,6 @@ var Home = /** @class */ (function (_super) {
             }
         }
     };
-    var Home_1;
     __decorate([
         property([cc.Node])
     ], Home.prototype, "all_ui", void 0);
@@ -776,7 +778,7 @@ var Home = /** @class */ (function (_super) {
     __decorate([
         property([cc.Node])
     ], Home.prototype, "names", void 0);
-    Home = Home_1 = __decorate([
+    Home = __decorate([
         ccclass
     ], Home);
     return Home;

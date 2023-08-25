@@ -7,7 +7,7 @@
 import { AccessName, HttpManager } from ".././NetWork/HttpManager";
 import UIComponent from "../../Scripts/UI/UIComponent";
 import ApkManager from "../Ads/ApkManager";
-import { INTER_VIDEO_TYPE, VIDEO_TYPE } from "../Constants";
+import { GameScene, INTER_VIDEO_TYPE, VIDEO_TYPE } from "../Constants";
 import GameManager from "../GameManager";
 import { Follow_Type } from "../multiLanguage/FollowConstants";
 import FollowManager from "../multiLanguage/FollowManager";
@@ -155,7 +155,7 @@ export default class Turmtable extends UIComponent {
     }
     onClicbtnSpin(type) {  //0:点击广告转盘10次   1：点击15分钟免费  5次
         if (type == 0) {
-            if (TheStorageManager.getInstance().getNumber(StorageKey.TurmtableAd, 0) > 20) {
+            if (TheStorageManager.getInstance().getNumber(StorageKey.TurmtableAd, 0) > 99999) {
                 // 没次数提示100120
                 GameManager.getInstance().showMessage(LanguageManager.getInstance().getStrByTextId(1700004), 3);
             } else {
@@ -305,9 +305,12 @@ export default class Turmtable extends UIComponent {
                         TheStorageManager.getInstance().setItem(StorageKey.TurmtableFreeTime, GameManager.getInstance().tumTableTime);
                     }
 
-                    cc.find('Canvas/main_ui').getComponent(MainUi).refreshMainTaskUi();
+                    
                     this.Refresh()
-
+                    if(GameManager.getInstance().cur_game_scene==GameScene.home){
+                        cc.find('Canvas/main_ui').getComponent(MainUi).refreshMainTaskUi();
+                    }
+                   
                     // let num=TheStorageManager.getInstance().getNumber(StorageKey.TurmtableFreeYes, 0);
                     // let times=TheStorageManager.getInstance().getNumber(StorageKey.TurmtableFreeTime, 900);
                     // Times.timetxt.getComponent(cc.Label).string=""+PublicMethods.timeconversions(times)

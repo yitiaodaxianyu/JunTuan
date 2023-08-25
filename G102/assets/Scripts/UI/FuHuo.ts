@@ -19,7 +19,7 @@ export default class FuHuo extends cc.Component {
     {
         this.remain_time=21;
         this.showRemain();
-        this.schedule(this.showRemain,2);
+        this.schedule(this.showRemain,1);
         if(VipManager.getIsVip()==true){
             this.node.getChildByName('ads').active=false;
         }

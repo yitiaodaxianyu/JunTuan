@@ -532,19 +532,24 @@ export default class Home extends cc.Component {
         // },});
         let gm = GameManager.getInstance();
         gm.sound_manager.playSound(SoundIndex.click);
-        if (cc.find('Canvas').getComponent(Home).cur_selected_index == Btn_Index.Btn_City) {
-            cc.find('Canvas/store_ui/scroll').getComponent(cc.ScrollView).scrollToBottom(2);
-            GameManager.getInstance().game_to_home = Go_Type.City;
-            GameManager.getInstance().jumoAndShowUi();
-            UIManager.getInstance().closeAllUiDialog(UILayerLevel.One);
-            return;
-        } else {
-            UIManager.getInstance().showUiDialog(UIPath.CoinPop, UILayerLevel.One, {
-                onCompleted: (uiNode) => {
-                    uiNode.getComponent(CoinPop).initUi(PropId.Gem)
-                },
-            });
-        }
+        UIManager.getInstance().showUiDialog(UIPath.CoinPop, UILayerLevel.One, {
+            onCompleted: (uiNode) => {
+                uiNode.getComponent(CoinPop).initUi(PropId.Gem)
+            },
+        });
+        // if (cc.find('Canvas').getComponent(Home).cur_selected_index == Btn_Index.Btn_City) {
+        //     cc.find('Canvas/store_ui/scroll').getComponent(cc.ScrollView).scrollToBottom(2);
+        //     GameManager.getInstance().game_to_home = Go_Type.City;
+        //     GameManager.getInstance().jumoAndShowUi();
+        //     UIManager.getInstance().closeAllUiDialog(UILayerLevel.One);
+        //     return;
+        // } else {
+        //     UIManager.getInstance().showUiDialog(UIPath.CoinPop, UILayerLevel.One, {
+        //         onCompleted: (uiNode) => {
+        //             uiNode.getComponent(CoinPop).initUi(PropId.Gem)
+        //         },
+        //     });
+        // }
     }
 
     clickBtnSetting() {

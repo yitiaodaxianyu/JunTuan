@@ -348,6 +348,11 @@ var Tutorials = /** @class */ (function (_super) {
                     {
                         if (gm.cur_game_scene == Constants_1.GameScene.game) {
                             //触摸穿透
+                            var finger = node.getChildByName('finger');
+                            var finger2 = node.getChildByName('finger2');
+                            cc.tween(finger).repeatForever(cc.sequence(cc.moveBy(0.2 * rate, cc.v2(30, 0)), cc.moveBy(0.2 * rate, cc.v2(-30, 0)))).start();
+                            cc.tween(finger2).repeatForever(cc.sequence(cc.moveBy(0.2 * rate, cc.v2(30, 0)), cc.moveBy(0.2 * rate, cc.v2(-30, 0)))).start();
+                            console.log("添加动画");
                             touchContinue.on(cc.Node.EventType.TOUCH_END, function () {
                                 _this.onTutorialsComplete();
                             }, _this);
@@ -630,6 +635,7 @@ var Tutorials = /** @class */ (function (_super) {
                             }, _this);
                             //触摸穿透
                             if (touchNode._touchListener) {
+                                _this.onTutorialsComplete();
                                 touchNode._touchListener.setSwallowTouches(false);
                             }
                         }

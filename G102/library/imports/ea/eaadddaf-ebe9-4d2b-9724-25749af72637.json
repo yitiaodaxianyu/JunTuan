@@ -19,7 +19,7 @@
     {
       "FunctionID": 3,
       "TextID": 200003,
-      "UnlockConditionType": 2,
+      "UnlockConditionType": 1,
       "UnlockCondictionParameter": 1
     },
     {
@@ -62,7 +62,7 @@
       "FunctionID": 10,
       "TextID": 820001,
       "UnlockConditionType": 2,
-      "UnlockCondictionParameter": 0
+      "UnlockCondictionParameter": 2
     },
     {
       "FunctionID": 11,
@@ -127,7 +127,7 @@
     {
       "FunctionID": 21,
       "TextID": 210001,
-      "UnlockConditionType": 2,
+      "UnlockConditionType": 1,
       "UnlockCondictionParameter": 1
     },
     {

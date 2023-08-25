@@ -326,6 +326,14 @@ export default class Tutorials extends cc.Component {
                     if(gm.cur_game_scene==GameScene.game)
                     {
                         //触摸穿透
+                        let finger=node.getChildByName('finger');
+                        let finger2=node.getChildByName('finger2');
+                                        
+                        cc.tween(finger).repeatForever(cc.sequence(cc.moveBy(0.2*rate,cc.v2(30,0)),cc.moveBy(0.2*rate,cc.v2(-30,0)))).start();
+                        cc.tween(finger2).repeatForever(cc.sequence(cc.moveBy(0.2*rate,cc.v2(30,0)),cc.moveBy(0.2*rate,cc.v2(-30,0)))).start();
+                        
+                        console.log("添加动画");
+                        
                         touchContinue.on(cc.Node.EventType.TOUCH_END,()=>{
                             this.onTutorialsComplete();
                         },this);
@@ -595,7 +603,8 @@ export default class Tutorials extends cc.Component {
                         },this);
                         //触摸穿透
                         if(touchNode._touchListener)
-                        {
+                        {   
+                            this.onTutorialsComplete();
                             touchNode._touchListener.setSwallowTouches(false);
                         }
                     }

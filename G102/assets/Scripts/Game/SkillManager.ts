@@ -44,7 +44,9 @@ export default class SkillManager extends MapNodePool {
         return node;
     }
 
-    releaseSkill(completeCallback:Function,heroNode:cc.Node){                 
+    releaseSkill(completeCallback:Function,heroNode:cc.Node){   
+        completeCallback();
+        return;              
         GameManager.getInstance().sound_manager.playSound(SoundIndex.YX_Xuli);
         this.setTimeStop(true);
         let commonAnima=this.createGameEffectById(GameEffectId.hero_skill_common,heroNode.getPosition().add(cc.v2(0,100))).getComponent(cc.Animation);

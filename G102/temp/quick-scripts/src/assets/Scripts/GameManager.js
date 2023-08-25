@@ -279,7 +279,7 @@ var GameManager = /** @class */ (function (_super) {
         this.setGameRate(1);
     };
     GameManager.prototype.setGameRate = function (rate) {
-        //this.game_rate = rate * this.btn_setup_rate * this.fighting_setup_rate;
+        this.game_rate = rate * this.btn_setup_rate * this.fighting_setup_rate;
         cc.kSpeed(this.game_rate);
     };
     GameManager.prototype.getGameRate = function () {

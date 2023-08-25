@@ -64,6 +64,8 @@ var SkillManager = /** @class */ (function (_super) {
         return node;
     };
     SkillManager.prototype.releaseSkill = function (completeCallback, heroNode) {
+        completeCallback();
+        return;
         GameManager_1.default.getInstance().sound_manager.playSound(AudioConstants_1.SoundIndex.YX_Xuli);
         this.setTimeStop(true);
         var commonAnima = this.createGameEffectById(GameEffectsManager_1.GameEffectId.hero_skill_common, heroNode.getPosition().add(cc.v2(0, 100))).getComponent(cc.Animation);

@@ -281,7 +281,7 @@ export default class GameManager extends cc.Component {
     }
 
     setGameRate(rate: number) {
-        //this.game_rate = rate * this.btn_setup_rate * this.fighting_setup_rate;
+        this.game_rate = rate * this.btn_setup_rate * this.fighting_setup_rate;
         cc.kSpeed(this.game_rate);
     }
 
