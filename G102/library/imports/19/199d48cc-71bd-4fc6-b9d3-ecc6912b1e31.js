@@ -37,11 +37,11 @@ var AudioConstants_1 = require("../../Sound/AudioConstants");
 var StorageConfig_1 = require("../../Storage/StorageConfig");
 var StorageManager_1 = require("../../Storage/StorageManager");
 var EventManager_1 = require("../../Tools/EventManager");
+var Turmtable_1 = require("../../Turntable/Turmtable");
 var UserData_1 = require("../../UserData");
 var UIComponent_1 = require("../UIComponent");
 var UIConfig_1 = require("../UIConfig");
 var UIManager_1 = require("../UIManager");
-var SignInBuyUi_1 = require("./SignInBuyUi");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var SignUi = /** @class */ (function (_super) {
     __extends(SignUi, _super);
@@ -123,41 +123,81 @@ var SignUi = /** @class */ (function (_super) {
         }
     };
     SignUi.prototype.onReceiveBtnClick = function (e, num) {
+        var _this = this;
         GameManager_1.default.getInstance().sound_manager.playSound(AudioConstants_1.SoundIndex.click);
-        UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.SignInBuy, UIConfig_1.UILayerLevel.One, {
-            onCompleted: function (uiNode) {
-                uiNode.getComponent(SignInBuyUi_1.default).init(null);
-                uiNode.getComponent(SignInBuyUi_1.default).iniData();
-            }
-        });
-        return;
+        // UIManager.getInstance().showUiDialog(UIPath.SignInBuy,UILayerLevel.One,{
+        //     onCompleted:(uiNode)=>{
+        //         uiNode.getComponent(SignInBuyUi).init(null);
+        //         uiNode.getComponent(SignInBuyUi).iniData();
+        //     }
+        // })
         var index = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.NewPlayerSavenDaySignInNum, 0);
         if (num == '' || num == undefined)
             num = StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.NewPlayerSavenDaySignInNum, 0) + '';
         if (Number(num) != index)
             return;
         if (StorageManager_1.TheStorageManager.getInstance().getNumber(StorageConfig_1.StorageKey.CanSignIn, 0) == 0) {
-            var data = SignIn_1.SignInManager.getInstance().getDataBySignInType(SignIn_1.SignInType.SavenDay);
-            var reward = PropManager_1.PropManager.getInstance().createPropItem(data[index].Item, data[index].Num);
-            FollowManager_1.default.getInstance().followEvent(FollowConstants_1.Follow_Type.新手签到x天的点击次数 + index);
-            PropManager_1.PropManager.getInstance().changePropNum(data[index].Item, data[index].Num);
-            GameManager_1.default.getInstance().showGetTip(reward);
-            // this.node.getChildByName("receiveBtn").active = false;
-            index++;
-            if (index > 6) {
-                StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.NewPlayerSavenDaySignInOver, 1);
-                HttpManager_1.HttpManager.post(HttpManager_1.AccessName.updateSevenGift, this.getUserIdJsonString());
+            if (cc.sys.platform === cc.sys.WECHAT_GAME) {
+                WXManagerEX_1.default.getInstance().qiriQiandaoShipin = wx.createRewardedVideoAd({
+                    adUnitId: 'adunit-74cd62188527aedb'
+                });
+                WXManagerEX_1.default.getInstance().qiriQiandaoShipin.offError();
+                WXManagerEX_1.default.getInstance().qiriQiandaoShipin.onError(function (err) {
+                    console.log(err);
+                });
+                WXManagerEX_1.default.getInstance().qiriQiandaoShipin.offClose();
+                WXManagerEX_1.default.getInstance().qiriQiandaoShipin.show().catch(function () {
+                    // 失败重试
+                    WXManagerEX_1.default.getInstance().qiriQiandaoShipin.load()
+                        .then(function () { return WXManagerEX_1.default.getInstance().qiriQiandaoShipin.show(); })
+                        .catch(function (err) {
+                        GameManager_1.default.getInstance().showMessage("广告拉取失败");
+                    });
+                });
+                WXManagerEX_1.default.getInstance().qiriQiandaoShipin.onClose(function (res) {
+                    // 用户点击了【关闭广告】按钮
+                    // 小于 2.1.0 的基础库版本，res 是一个 undefined
+                    if (res && res.isEnded || res === undefined) {
+                        // 正常播放结束，可以下发游戏奖励
+                        _this.onShipinComp();
+                    }
+                    else {
+                        // 播放中途退出，不下发游戏奖励
+                    }
+                });
             }
-            StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.CanSignIn, 1);
-            StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.NewPlayerSavenDaySignInNum, index);
-            this.refreshUi();
-            EventManager_1.EventManager.postRedEvent(EventManager_1.RedEventString.RED_TIP, EventManager_1.RedEventType.Btn_Main_SignIn, false, EventManager_1.RedEventType.Btn_Main_SignIn_BtnGet);
-            StorageManager_1.TheStorageManager.getInstance().setItem(StorageConfig_1.StorageKey.NewPlayerSavenDaySignInTime, new Date().getTime());
-            HttpManager_1.HttpManager.post(HttpManager_1.AccessName.sevenSign, this.getUserIdJsonString());
+            else {
+                this.onShipinComp();
+            }
         }
         else {
             GameManager_1.default.getInstance().showMessage(LanguageManager_1.default.getInstance().getStrByTextId(230008));
         }
+        return;
+        // let index = TheStorageManager.getInstance().getNumber(StorageKey.NewPlayerSavenDaySignInNum, 0);
+        // if (num == '' || num == undefined) num = TheStorageManager.getInstance().getNumber(StorageKey.NewPlayerSavenDaySignInNum, 0) + '';
+        // if (Number(num) != index) return;
+        // if (TheStorageManager.getInstance().getNumber(StorageKey.CanSignIn, 0) == 0) {
+        //     let data = SignInManager.getInstance().getDataBySignInType(SignInType.SavenDay);
+        //     let reward = PropManager.getInstance().createPropItem(data[index].Item, data[index].Num);
+        //     FollowManager.getInstance().followEvent(Follow_Type.新手签到x天的点击次数 + index);
+        //     PropManager.getInstance().changePropNum(data[index].Item, data[index].Num);
+        //     GameManager.getInstance().showGetTip(reward);
+        //     // this.node.getChildByName("receiveBtn").active = false;
+        //     index++;
+        //     if (index > 6) {
+        //         TheStorageManager.getInstance().setItem(StorageKey.NewPlayerSavenDaySignInOver, 1);
+        //         HttpManager.post(AccessName.updateSevenGift, this.getUserIdJsonString());
+        //     }
+        //     TheStorageManager.getInstance().setItem(StorageKey.CanSignIn, 1);
+        //     TheStorageManager.getInstance().setItem(StorageKey.NewPlayerSavenDaySignInNum, index)
+        //     this.refreshUi();
+        //     EventManager.postRedEvent(RedEventString.RED_TIP, RedEventType.Btn_Main_SignIn, false, RedEventType.Btn_Main_SignIn_BtnGet);
+        //     TheStorageManager.getInstance().setItem(StorageKey.NewPlayerSavenDaySignInTime, new Date().getTime());
+        //     HttpManager.post(AccessName.sevenSign, this.getUserIdJsonString());
+        // } else {
+        //     GameManager.getInstance().showMessage(LanguageManager.getInstance().getStrByTextId(230008));
+        // }
     };
     SignUi.prototype.onClickBuyBtn = function () {
         var _this = this;
@@ -256,6 +296,9 @@ var SignUi = /** @class */ (function (_super) {
     SignUi.prototype.onClose = function () {
         _super.prototype.onClose.call(this);
         cc.director.off(WXManagerEX_1.WXADEnvnt.QIRIQIANDAOSHIPIN, this.onShipinComp, this);
+        UIManager_1.UIManager.getInstance().showUiDialog(UIConfig_1.UIPath.Turntable, UIConfig_1.UILayerLevel.One, { onCompleted: function (uiNode) {
+                uiNode.getComponent(Turmtable_1.default).initUi();
+            }, }); //转盘
     };
     SignUi.prototype.getUserIdJsonString = function () {
         var uid = UserData_1.default.getInstance().getUserID();

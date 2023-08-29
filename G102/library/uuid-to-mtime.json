@@ -4190,8 +4190,8 @@
     "relativePath": "resourcesBundle\\Multilingual\\Void_TH.png"
   },
   "7dfffee8-ca63-48fc-9efa-f8c57861b5b4": {
-    "asset": 1692355313355,
-    "meta": 1692355313364,
+    "asset": 1693202923736,
+    "meta": 1693202923740,
     "relativePath": "resourcesBundle\\signIn\\sign_ui.prefab"
   },
   "734a6755-a840-47ca-9336-1ba67335684c": {
@@ -4320,8 +4320,8 @@
     "relativePath": "resourcesBundle\\tower\\tower_ui.prefab"
   },
   "8693040a-9b78-4999-ad8e-2c5e1103015a": {
-    "asset": 1692842839933,
-    "meta": 1692842864639,
+    "asset": 1693202504541,
+    "meta": 1693202504552,
     "relativePath": "resourcesBundle\\Turntable\\Turntable.prefab"
   },
   "e68ff795-5c43-432d-b136-5ab6b5706f58": {
@@ -15239,11 +15239,6 @@
     "meta": 1692842864527,
     "relativePath": "Scripts\\Store\\StoreUi.ts"
   },
-  "199d48cc-71bd-4fc6-b9d3-ecc6912b1e31": {
-    "asset": 1692842838953,
-    "meta": 1692842865113,
-    "relativePath": "Scripts\\UI\\home\\SignUi.ts"
-  },
   "495ded0f-c22f-44be-a2de-33359b7e55b5": {
     "asset": 1692356191574,
     "meta": 1692356193277,
@@ -15369,11 +15364,6 @@
     "meta": 1692946317175,
     "relativePath": "resourcesBundle\\json\\TextManagement.json"
   },
-  "444a03b1-a839-4ad5-8602-166f895ab0e6": {
-    "asset": 1692946519678,
-    "meta": 1692946580842,
-    "relativePath": "resourcesBundle\\json\\MissionLevel.json"
-  },
   "3737319f-5d5f-486e-ad03-2475ca168052": {
     "asset": 1692946670529,
     "meta": 1692946704180,
@@ -15409,11 +15399,6 @@
     "meta": 1692955675467,
     "relativePath": "Scripts\\Game\\Ui\\GameLose.ts"
   },
-  "60c316b8-35bc-4849-8520-30c4c2d4cb79": {
-    "asset": 1692956130700,
-    "meta": 1692956132171,
-    "relativePath": "Scripts\\Turntable\\Turmtable.ts"
-  },
   "a48c32ac-94d0-40d3-a7a4-b62a5e8c8afe": {
     "asset": 1692956659296,
     "meta": 1692956670358,
@@ -15443,5 +15428,20 @@
     "asset": 1692958876095,
     "meta": 1692958877979,
     "relativePath": "Scripts\\UI\\home\\SignInBuyUi.ts"
+  },
+  "444a03b1-a839-4ad5-8602-166f895ab0e6": {
+    "asset": 1693201713853,
+    "meta": 1693201740270,
+    "relativePath": "resourcesBundle\\json\\MissionLevel.json"
+  },
+  "199d48cc-71bd-4fc6-b9d3-ecc6912b1e31": {
+    "asset": 1693202441684,
+    "meta": 1693202443567,
+    "relativePath": "Scripts\\UI\\home\\SignUi.ts"
+  },
+  "60c316b8-35bc-4849-8520-30c4c2d4cb79": {
+    "asset": 1693202980292,
+    "meta": 1693203017610,
+    "relativePath": "Scripts\\Turntable\\Turmtable.ts"
   }
 }

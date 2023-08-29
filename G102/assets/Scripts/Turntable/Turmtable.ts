@@ -104,13 +104,13 @@ export default class Turmtable extends UIComponent {
 
     }
     Refresh() {
-        if (TheStorageManager.getInstance().getNumber(StorageKey.TurmtableFree, 0) > 999999) {
-            this.btnshow.active = false
-            this.btnad.setPosition(0, -320, 0)
-        } else {
-            this.btnshow.active = true
-            this.btnad.setPosition(-144, -320, 0)
-        }
+        // if (TheStorageManager.getInstance().getNumber(StorageKey.TurmtableFree, 0) > 999999) {
+        //     this.btnshow.active = false
+        //     this.btnad.setPosition(0, -320, 0)
+        // } else {
+        //     this.btnshow.active = true
+        //     this.btnad.setPosition(-144, -320, 0)
+        // }
         let num = TheStorageManager.getInstance().getNumber(StorageKey.TurmtableFreeYes, 0);
         if (num == 1) {
             this.btnshow.getComponent(cc.Button).interactable = true
